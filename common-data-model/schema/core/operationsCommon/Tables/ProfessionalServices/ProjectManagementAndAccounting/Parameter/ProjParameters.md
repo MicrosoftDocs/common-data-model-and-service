@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# ProjParameters
+# Project parameters
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Parameter/ProjParameters.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Project parameters</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -314,7 +317,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lump sum allocation key</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -324,6 +327,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lump sum allocation key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -334,7 +340,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Terms of payment for hours</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -344,6 +350,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Terms of payment for hours</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -354,7 +363,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual cost after estimate date</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -362,6 +371,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AddActualPeriodEndToCTC attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual cost after estimate date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -371,7 +383,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Committed cost after estimate date</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -379,6 +391,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AddCommittedPeriodEndToCTC attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Committed cost after estimate date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -388,7 +403,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Committed cost up to estimate date</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -396,6 +411,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AddCommittedToCTC attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Committed cost up to estimate date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -405,7 +423,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Autoupdate field</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -413,6 +431,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AdjustAutoFieldUpdate attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Autoupdate field</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -422,7 +443,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow budget control outside the project hierarchy</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -430,6 +451,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AllowBudgetOutSideHierarchy attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow budget control outside the project hierarchy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -456,7 +480,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Without posting estimates</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -464,6 +488,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AllowEliminationWithoutEstimate attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Without posting estimates</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -473,7 +500,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Always create adjustment transaction</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -481,6 +508,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AlwaysRegulationTrans attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Always create adjustment transaction</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -524,7 +554,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Active</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -532,6 +562,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ApproveActive attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Active</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -541,7 +574,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>User Group</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -551,6 +584,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>User Group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -561,7 +597,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Authorized signatory</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -571,6 +607,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Authorized signatory</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -581,7 +620,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item consumption</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -589,6 +628,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AutomaticItemConsumption attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item consumption</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -598,7 +640,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Beginning balances</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -608,6 +650,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Beginning balances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -618,7 +663,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cancel settled project invoice</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -626,6 +671,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the CancelSettleProjectInvoice_BR attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cancel settled project invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -635,7 +683,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Committed cost</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -643,6 +691,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the CommittedEliminationTolerance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Committed cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -652,7 +703,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Billing rule fee journal</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -662,6 +713,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Billing rule fee journal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -672,7 +726,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expense</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -682,6 +736,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Expense</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -692,7 +749,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default cost template</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -702,6 +759,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default cost template</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -712,7 +772,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Create item requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -720,6 +780,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the CreateItemReqForPO attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Create item requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -729,7 +792,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Message when total prepayment exceeds external forecast</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -737,6 +800,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the CreditLineError attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Message when total prepayment exceeds external forecast</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -746,7 +812,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Set the cost price as the sales price by default</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -754,6 +820,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the DefaultCostPriceAsSalesPrice attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Set the cost price as the sales price by default</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -763,7 +832,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default item allocation key</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -773,6 +842,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default item allocation key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -783,7 +855,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default category</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -792,6 +864,9 @@ First included in: Parameter/ProjParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -802,7 +877,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designation of signatory</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -812,6 +887,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Designation of signatory</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -822,7 +900,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default subproject ID format</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -832,6 +910,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default subproject ID format</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -842,7 +923,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display transactions</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -850,6 +931,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the DisplayPriceAmount attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display transactions</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -859,7 +943,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default project type</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -867,6 +951,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the DisplayProjectType attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default project type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -893,7 +980,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Eliminated</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -901,6 +988,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EliminatedStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Eliminated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -910,7 +1000,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hour</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -920,6 +1010,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hour</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -930,7 +1023,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hour</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -940,6 +1033,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hour</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -950,7 +1046,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Check budget on document line save</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -958,6 +1054,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EnableBudgetCheckOnLineSave attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Check budget on document line save</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -967,7 +1066,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable intercompany resource scheduling and timesheets</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -975,6 +1074,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EnableIntercompanyTimesheet attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable intercompany resource scheduling and timesheets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -984,7 +1086,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable processing invoice proposals in workflow</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -992,6 +1094,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EnableInvoiceProposalWorkflow attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable processing invoice proposals in workflow</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1001,7 +1106,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1009,6 +1114,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EstimatedStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Estimated</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1018,7 +1126,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delete reduced to zero</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1026,6 +1134,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseDeleteZero attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delete reduced to zero</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1035,7 +1146,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expense</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -1045,6 +1156,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Expense</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1055,7 +1169,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lump sum allocation key</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -1065,6 +1179,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lump sum allocation key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1075,7 +1192,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 1</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1083,6 +1200,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseReduceCostPriority1 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1092,7 +1212,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 2</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1100,6 +1220,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseReduceCostPriority2 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1109,7 +1232,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 3</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1117,6 +1240,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseReduceCostPriority3 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1126,7 +1252,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 4</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1134,6 +1260,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseReduceCostPriority4 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 4</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1143,7 +1272,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 5</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1151,6 +1280,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseReduceCostPriority5 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 5</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1160,7 +1292,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Minimum requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1168,6 +1300,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ExpenseReduceMinimumRequirement attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1194,7 +1329,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Terms of payment for expenses</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -1204,6 +1339,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Terms of payment for expenses</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1214,7 +1352,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Terms of payment for items</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -1224,6 +1362,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Terms of payment for items</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1234,7 +1375,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lock allocation settings</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1242,6 +1383,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the FundingAllocationSettingsLocked attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lock allocation settings</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1251,7 +1395,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Apply priority settings first or last in funding allocation order</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1259,6 +1403,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the FundingPriorityPosition attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Apply priority settings first or last in funding allocation order</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1302,7 +1449,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Category</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1311,6 +1458,9 @@ First included in: Parameter/ProjParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1320,7 +1470,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Employee</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1328,6 +1478,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the GroupInvoiceByEmplId_BR attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Employee</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1337,7 +1490,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Line-specific</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1345,6 +1498,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the GroupInvoiceByLineSpecific_BR attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Line-specific</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1354,7 +1510,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice type</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1362,6 +1518,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the GroupInvoiceByTransStatus_BR attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1371,7 +1530,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction text</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1379,6 +1538,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the GroupInvoiceByTransTxt_BR attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Transaction text</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1388,7 +1550,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hide activity</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1396,6 +1558,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HideTimesheetActivity attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hide activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1405,7 +1570,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hide category</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1413,6 +1578,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HideTimesheetCategory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hide category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1422,7 +1590,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hide external comments</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1430,6 +1598,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HideTimesheetExtComments attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hide external comments</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1439,7 +1610,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hide line property</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1447,6 +1618,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HideTimesheetLineProperty attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hide line property</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1456,7 +1630,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delete reduced to zero</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1464,6 +1638,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourDeleteZero attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delete reduced to zero</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1490,7 +1667,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 1</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1498,6 +1675,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourReduceCostPriority1 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1507,7 +1687,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 2</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1515,6 +1695,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourReduceCostPriority2 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1524,7 +1707,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 3</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1532,6 +1715,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourReduceCostPriority3 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1541,7 +1727,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 4</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1549,6 +1735,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourReduceCostPriority4 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 4</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1558,7 +1747,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 5</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1566,6 +1755,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourReduceCostPriority5 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 5</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1575,7 +1767,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Minimum requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1583,6 +1775,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HourReduceMinimumRequirement attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1612,7 +1807,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoiced</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1620,6 +1815,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the InvoicedStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoiced</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1629,7 +1827,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice proposal</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1637,6 +1835,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the InvoiceProposalStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice proposal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1646,7 +1847,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoicing</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1654,6 +1855,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the InvoiceSplit_IN attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoicing</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1663,7 +1867,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -1673,6 +1877,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1683,7 +1890,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delete reduced to zero</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1691,6 +1898,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemDeleteZero attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delete reduced to zero</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1734,7 +1944,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 1</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1742,6 +1952,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemReduceCostPriority1 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 1</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1751,7 +1964,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 2</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1759,6 +1972,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemReduceCostPriority2 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1768,7 +1984,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 3</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1776,6 +1992,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemReduceCostPriority3 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 3</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1785,7 +2004,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 4</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1793,6 +2012,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemReduceCostPriority4 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 4</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1802,7 +2024,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority 5</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1810,6 +2032,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemReduceCostPriority5 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Priority 5</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1819,7 +2044,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Minimum requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1827,6 +2052,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ItemReduceMinimumRequirement attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Minimum requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1854,7 +2082,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Accrue revenue</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1862,6 +2090,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the LineTotalAccrueRevenue attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Accrue revenue</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1871,7 +2102,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Adjustment</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1879,6 +2110,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the LineTotalAdjustment attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Adjustment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1888,7 +2122,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimate</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1896,6 +2130,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the LineTotalEstimate attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Estimate</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1905,7 +2142,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1913,6 +2150,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the LineTotalInvoice attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1922,7 +2162,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post costs</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1930,6 +2170,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the LineTotalPostCost attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post costs</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1939,7 +2182,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subscription</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1947,6 +2190,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the LineTotalSubscription attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subscription</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2051,7 +2297,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Forecast model</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2061,6 +2307,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Forecast model</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2071,7 +2320,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Folder for Microsoft Project files</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2081,6 +2330,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Folder for Microsoft Project files</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2108,7 +2360,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Negative transactions - corrections</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2116,6 +2368,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the NegativeTransCorrection attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Negative transactions - corrections</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2125,7 +2380,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment criteria</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2133,6 +2388,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the OnAccountPaymentCriteria attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Payment criteria</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2142,7 +2400,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>No one-time customers for project contracts</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2150,6 +2408,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the OneTimeCustOnInvoice attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>No one-time customers for project contracts</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2159,7 +2420,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Original budget</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2169,6 +2430,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Original budget</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2196,7 +2460,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Posted</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2204,6 +2468,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the PostedStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Posted</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2298,7 +2565,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow negative budgets to be carried forward</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2306,6 +2573,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ProjCarryForwardNegativeBudget attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow negative budgets to be carried forward</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2315,7 +2585,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Carry forward remaining budgets</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2323,6 +2593,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ProjCarryForwardRemainingBudget attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Carry forward remaining budgets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2332,7 +2605,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost control methods</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2340,6 +2613,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ProjCostControlMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost control methods</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2349,7 +2625,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Adjustment of project transactions - correction</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2357,6 +2633,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ProjectLedgerCorrection attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Adjustment of project transactions - correction</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2383,7 +2662,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Other state</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -2392,6 +2671,9 @@ First included in: Parameter/ProjParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Other state</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -2402,7 +2684,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Outside country/region</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -2411,6 +2693,9 @@ First included in: Parameter/ProjParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Outside country/region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -2421,7 +2706,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Same state</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -2430,6 +2715,9 @@ First included in: Parameter/ProjParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Same state</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -2440,7 +2728,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prompt for customer information</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2448,6 +2736,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the PromptTransfer attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prompt for customer information</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2457,7 +2748,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prompt for customer information</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2465,6 +2756,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the PromptTransferCustOnProject attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prompt for customer information</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2474,7 +2768,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remaining budget</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2484,6 +2778,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Remaining budget</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2613,7 +2910,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fee</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2623,6 +2920,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fee</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2633,7 +2933,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fee</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2643,6 +2943,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fee</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2653,7 +2956,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cancel settled debit note</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2661,6 +2964,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the SettledDebitnoteCancellation_BR attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cancel settled debit note</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2670,7 +2976,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Finished projects</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2678,6 +2984,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ShowClosedProjectsInLookup attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Finished projects</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2687,7 +2996,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inactive categories</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2695,6 +3004,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ShowInactiveCategories attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inactive categories</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2704,7 +3016,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Terminated workers</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2712,6 +3024,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ShowInactiveEmployees attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Terminated workers</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2721,7 +3036,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2729,6 +3044,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the SplitServiceCodeInvoice attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2738,7 +3056,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>No/Never ledger - hour cost</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2746,6 +3064,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the StatementConsumpHourCost attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>No/Never ledger - hour cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2755,7 +3076,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>No/Never ledger - Hour qty.</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2763,6 +3084,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the StatementConsumpHourQty attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>No/Never ledger - Hour qty.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2772,7 +3096,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>No/Never ledger - hour cost</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2780,6 +3104,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the StatementPLHourCost attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>No/Never ledger - hour cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2789,7 +3116,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>No/Never ledger - Hour qty.</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2797,6 +3124,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the StatementPLHourQty attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>No/Never ledger - Hour qty.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2857,7 +3187,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>On-account item sales tax group</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2867,6 +3197,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>On-account item sales tax group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2877,7 +3210,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timesheet journal</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2887,6 +3220,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Timesheet journal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2931,7 +3267,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Absence project</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -2941,6 +3277,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Absence project</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2951,7 +3290,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Require timesheet audit trail</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2959,6 +3298,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetAuditTrail attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Require timesheet audit trail</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2968,7 +3310,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Block future timesheet entries</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2976,6 +3318,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetBlockFutureEntries attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Block future timesheet entries</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -2985,7 +3330,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow timesheet change reason</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -2993,6 +3338,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetChangeReason attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow timesheet change reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3002,7 +3350,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Require timesheet change reason</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3010,6 +3358,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetChangeReasonMandatory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Require timesheet change reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3019,7 +3370,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Validate absence</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3027,6 +3378,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetValidateAbsence attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Validate absence</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3036,7 +3390,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total cost - actual</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3044,6 +3398,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TotalEstimatePostingTolerance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total cost - actual</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3053,7 +3410,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total budget</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -3063,6 +3420,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total budget</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -3073,7 +3433,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Project advanced journal</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3081,6 +3441,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostAdvancedJournal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Project advanced journal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3090,7 +3453,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expense report</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3098,6 +3461,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostExpenseManagement attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Expense report</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3107,7 +3473,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hour journal</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3115,6 +3481,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostHourJournal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hour journal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3124,7 +3493,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item journal</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3132,6 +3501,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostItemJournal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item journal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3141,7 +3513,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item requirement</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3149,6 +3521,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostItemRequirement attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item requirement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3158,7 +3533,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Production</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3166,6 +3541,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostProduction attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Production</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3175,7 +3553,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase order</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3183,6 +3561,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostPurchaseOrder attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purchase order</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3192,7 +3573,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Purchase requisition</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3200,6 +3581,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostPurchaseRequisition attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purchase requisition</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3209,7 +3593,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales order</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3217,6 +3601,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostSalesOrder attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales order</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3226,7 +3613,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timesheets</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3234,6 +3621,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostTimesheets attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Timesheets</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3243,7 +3633,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Travel requisition</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3251,6 +3641,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostTravelRequisition attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Travel requisition</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3260,7 +3653,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Vendor invoice</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3268,6 +3661,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostVendInvoice attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Vendor invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3277,7 +3673,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>After elimination date</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3285,6 +3681,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TransAfterEliminationTolerance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>After elimination date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3294,7 +3693,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Before elimination date</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3302,6 +3701,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TransBeforeEliminationTolerance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Before elimination date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3311,7 +3713,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use adjustment date as new project date</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3319,6 +3721,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the UseAdjustmentDate attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use adjustment date as new project date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3328,7 +3733,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use budget control</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3336,6 +3741,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the UseBudgeting attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use budget control</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3379,7 +3787,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Category/resource</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3387,6 +3795,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ValidationEmplCategory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category/resource</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3396,7 +3807,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Resource/project</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3404,6 +3815,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ValidationEmplProj attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Resource/project</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3413,7 +3827,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Project/category</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3421,6 +3835,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the ValidationProjCategory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Project/category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3498,7 +3915,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Automatically set accounting date to open ledger period</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3506,6 +3923,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the IsAccountingDateUpdateAllowed attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Automatically set accounting date to open ledger period</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3515,7 +3935,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Block parent activity selection</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3523,6 +3943,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the BlockParentActivitySelection attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Block parent activity selection</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3549,7 +3972,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable alternative account</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3557,6 +3980,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EnableCancelPostingProfiles attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable alternative account</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3566,7 +3992,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hide internal comments</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3574,6 +4000,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the HideTimesheetIntComments attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hide internal comments</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3583,7 +4012,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timesheet delegate updated to user</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3591,6 +4020,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetDelegateUpdatedToUser attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Timesheet delegate updated to user</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3600,7 +4032,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>General budget reservation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3608,6 +4040,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TrackCommittedCostBudgetReservation_PSN attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>General budget reservation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3617,7 +4052,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post prepayment cost against project</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3625,6 +4060,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the PostPrepaymentCostToProject attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post prepayment cost against project</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3651,7 +4089,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow closed activities</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3659,6 +4097,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AllowClosedActivitiesInAdjustments attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow closed activities</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3668,7 +4109,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Dynamics 365 Project Timesheet</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3676,6 +4117,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceEnableService attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Dynamics 365 Project Timesheet</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3685,7 +4129,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3693,6 +4137,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityCustomer attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3702,7 +4149,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Category</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3710,6 +4157,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityCategory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3719,7 +4169,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3727,6 +4177,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityActivity attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3736,7 +4189,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Line property</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3744,6 +4197,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityLineProperty attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Line property</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3753,7 +4209,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Internal comment</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3761,6 +4217,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityInternalComment attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Internal comment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3770,7 +4229,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>External comment</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3778,6 +4237,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityExternalComment attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>External comment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3787,7 +4249,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales tax group</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3795,6 +4257,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilitySalesTaxGroup attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales tax group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3804,7 +4269,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item sales tax group</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3812,6 +4277,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceVisibilityItemSalesTaxGroup attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item sales tax group</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3821,7 +4289,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable default line property</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3829,6 +4297,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the TimesheetServiceEnableDefaultLineProperty attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable default line property</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3838,7 +4309,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow batch process for publishing</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3846,6 +4317,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AllowWBSBatchPublishing attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow batch process for publishing</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3855,7 +4329,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prevent project closure if open transactions exist</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3863,6 +4337,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the PreventProjectClosure attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prevent project closure if open transactions exist</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3872,7 +4349,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow sales orders for projects with multiple funding sources</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3880,6 +4357,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AllowSalesOrdersForMultipleFundingSources attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow sales orders for projects with multiple funding sources</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3889,7 +4369,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display work item notifications in the client</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3897,6 +4377,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the DisplayWorkflowInstructions attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display work item notifications in the client</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3906,7 +4389,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Post indirect amounts to parent project category</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3914,6 +4397,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the PostIndirectAmountToParentProjectCategory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Post indirect amounts to parent project category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3923,7 +4409,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Allow update of chargeable categories with uninvoiced transactions</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3931,6 +4417,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AllowUpdateOfChargeableCategoriesWithUninvoicedTransactions attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Allow update of chargeable categories with uninvoiced transactions</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3940,7 +4429,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Advanced resource validation filtering enabled</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3948,6 +4437,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the AdvancedResourceValidation attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Advanced resource validation filtering enabled</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3957,7 +4449,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable Universal Resource Scheduling (URS)</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3965,6 +4457,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the EnableUniversalResourceScheduling attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable Universal Resource Scheduling (URS)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -3974,7 +4469,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disable category/resource validation for expense categories in procurement documents</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -3982,6 +4477,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the DisableExpenseCategoryResourceCheckProcurement attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Disable category/resource validation for expense categories in procurement documents</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -4008,7 +4506,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Skip sync between purchase order and linked sales order or item requirement.</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -4016,6 +4514,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the SkipPOAndItemReqSync attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Skip sync between purchase order and linked sales order or item requirement.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -4025,7 +4526,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Enable multiple contract lines for a project</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -4033,6 +4534,9 @@ First included in: Parameter/ProjParameters (this entity)
 <summary>List of traits for the MultipleContractLinesFeatureStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Enable multiple contract lines for a project</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -4059,7 +4563,7 @@ First included in: Parameter/ProjParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Forecast model for Project Operations CE</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -4069,6 +4573,9 @@ First included in: Parameter/ProjParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Forecast model for Project Operations CE</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

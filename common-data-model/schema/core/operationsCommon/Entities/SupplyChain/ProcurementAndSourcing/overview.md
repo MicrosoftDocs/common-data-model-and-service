@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -34,10 +34,10 @@ ms.author: nebanfic
 |[IntercompanyTradingPartnershipProcurementValueMappingEntity](IntercompanyTradingPartnershipProcurementValueMappingEntity.md)||
 |[InventSupplementaryProductVendorGroupEntity](InventSupplementaryProductVendorGroupEntity.md)||
 |[MCRRoyaltyAgreementHeaderEntity](MCRRoyaltyAgreementHeaderEntity.md)||
-|[MCRRoyaltyAgreementHeaderProductSelectionEntity](MCRRoyaltyAgreementHeaderProductSelectionEntity.md)||
+|[MCRRoyaltyAgreementHeaderProductSelectionV2Entity](MCRRoyaltyAgreementHeaderProductSelectionV2Entity.md)||
 |[MCRRoyaltyAgreementLineAmountEntity](MCRRoyaltyAgreementLineAmountEntity.md)||
 |[MCRRoyaltyAgreementLineEntity](MCRRoyaltyAgreementLineEntity.md)||
-|[MCRRoyaltyAgreementLineProductSelectionEntity](MCRRoyaltyAgreementLineProductSelectionEntity.md)||
+|[MCRRoyaltyAgreementLineProductSelectionV2Entity](MCRRoyaltyAgreementLineProductSelectionV2Entity.md)||
 |[NGPCodeEntity](NGPCodeEntity.md)||
 |[PlSADDocumentInvoicePurchaseOrderEntity](PlSADDocumentInvoicePurchaseOrderEntity.md)||
 |[PlSADDocumentLinePurchaseOrderEntity](PlSADDocumentLinePurchaseOrderEntity.md)||
@@ -76,7 +76,6 @@ ms.author: nebanfic
 |[PurchAutomaticPurchaseDocumentHeaderChargeEntity](PurchAutomaticPurchaseDocumentHeaderChargeEntity.md)||
 |[PurchAutomaticPurchaseDocumentLineChargeEntity](PurchAutomaticPurchaseDocumentLineChargeEntity.md)||
 |[PurchBookVATProcessParametersEntity](PurchBookVATProcessParametersEntity.md)||
-|[PurchCommitmentLineEntity](PurchCommitmentLineEntity.md)||
 |[PurchDemandConsolidationExternalCatalogItemCategoryEntity](PurchDemandConsolidationExternalCatalogItemCategoryEntity.md)||
 |[PurchDemandConsolidationExternalCatalogItemCategoryVendorEntity](PurchDemandConsolidationExternalCatalogItemCategoryVendorEntity.md)||
 |[PurchDemandConsolidationInternalCatalogItemCategoryEntity](PurchDemandConsolidationInternalCatalogItemCategoryEntity.md)||
@@ -160,11 +159,11 @@ ms.author: nebanfic
 |[PurchRequestForQuotationScoringMethodEntity](PurchRequestForQuotationScoringMethodEntity.md)||
 |[PurchRequestForQuotationSolicitationTypeEntity](PurchRequestForQuotationSolicitationTypeEntity.md)||
 |[PurchRFQVendPostedQuestionAnswerEntity](PurchRFQVendPostedQuestionAnswerEntity.md)||
-|[PurchVendorProductDescriptionEntity](PurchVendorProductDescriptionEntity.md)||
+|[PurchVendorProductDescriptionV2Entity](PurchVendorProductDescriptionV2Entity.md)||
 |[smmVendorContactPersonCDSEntity](smmVendorContactPersonCDSEntity.md)||
 |[TAMVendorRebateAgreementHeaderEntity](TAMVendorRebateAgreementHeaderEntity.md)||
 |[TAMVendorRebateAgreementLineEntity](TAMVendorRebateAgreementLineEntity.md)||
-|[TAMVendorRebateAgreementProductSelectionEntity](TAMVendorRebateAgreementProductSelectionEntity.md)||
+|[TAMVendorRebateAgreementProductSelectionV2Entity](TAMVendorRebateAgreementProductSelectionV2Entity.md)||
 |[VendChargeVendorGroupEntity](VendChargeVendorGroupEntity.md)||
 |[VendFormletterVendorFacingFormPrintingConfigurationEntity](VendFormletterVendorFacingFormPrintingConfigurationEntity.md)||
 |[VendorEvaluationCriterionEntity](VendorEvaluationCriterionEntity.md)||

@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# EcoResProductDimensionGroupEntity
+# Product dimension groups
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductDimensionGroupEntity.cdm.json" target="_blank">GitHub</a>.  
@@ -25,6 +25,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product dimension groups</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -47,9 +50,13 @@ ms.author: nebanfic
 |[WillSalesPriceSearchUseProductColor](#WillSalesPriceSearchUseProductColor)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[ProductColorDisplayOrder](#ProductColorDisplayOrder)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[IsProductStyleActive](#IsProductStyleActive)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
+|[IsProductVersionActive](#IsProductVersionActive)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[WillPurchasePriceSearchUseProductStyle](#WillPurchasePriceSearchUseProductStyle)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
+|[WillPurchasePriceSearchUseProductVersion](#WillPurchasePriceSearchUseProductVersion)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[WillSalesPriceSearchUseProductStyle](#WillSalesPriceSearchUseProductStyle)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
+|[WillSalesPriceSearchUseProductVersion](#WillSalesPriceSearchUseProductVersion)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[ProductStyleDisplayOrder](#ProductStyleDisplayOrder)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
+|[ProductVersionDisplayOrder](#ProductVersionDisplayOrder)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[ProductVariantNomenclatureName](#ProductVariantNomenclatureName)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[ProductVariantNomenclatureRecId](#ProductVariantNomenclatureRecId)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
 |[BackingTable_EcoResProductDimensionGroupRelationshipId](#BackingTable_EcoResProductDimensionGroupRelationshipId)||<a href="EcoResProductDimensionGroupEntity.md" target="_blank">ProductInformationManagement/EcoResProductDimensionGroupEntity</a>|
@@ -100,7 +107,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Configuration active</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -110,6 +117,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Configuration active</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -120,7 +130,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use configuration for purchase price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -130,6 +140,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use configuration for purchase price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -140,7 +153,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use configuration for sales price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -150,6 +163,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use configuration for sales price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -160,7 +176,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display order for dimension group configuration</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -170,6 +186,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display order for dimension group configuration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -180,7 +199,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Size active</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -190,6 +209,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Size active</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -200,7 +222,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use size for purchase price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -210,6 +232,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use size for purchase price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -220,7 +245,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use size for sales price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -230,6 +255,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use size for sales price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -240,7 +268,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display order for dimension group size</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -250,6 +278,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display order for dimension group size</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -260,7 +291,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Color active</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -270,6 +301,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Color active</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -280,7 +314,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use color for purchase price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -290,6 +324,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use color for purchase price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -300,7 +337,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use color for sales price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -310,6 +347,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use color for sales price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -320,7 +360,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display order for dimension group color</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -330,6 +370,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display order for dimension group color</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -340,7 +383,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Style active</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -350,6 +393,32 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Style active</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#IsProductVersionActive name="IsProductVersionActive">IsProductVersionActive</a>
+
+First included in: ProductInformationManagement/EcoResProductDimensionGroupEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version active</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsProductVersionActive attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version active</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -360,7 +429,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use style for purchase price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -370,6 +439,32 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use style for purchase price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#WillPurchasePriceSearchUseProductVersion name="WillPurchasePriceSearchUseProductVersion">WillPurchasePriceSearchUseProductVersion</a>
+
+First included in: ProductInformationManagement/EcoResProductDimensionGroupEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use version for purchase price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the WillPurchasePriceSearchUseProductVersion attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use version for purchase price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -380,7 +475,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use style for sales price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -390,6 +485,32 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use style for sales price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#WillSalesPriceSearchUseProductVersion name="WillSalesPriceSearchUseProductVersion">WillSalesPriceSearchUseProductVersion</a>
+
+First included in: ProductInformationManagement/EcoResProductDimensionGroupEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use version for sales price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the WillSalesPriceSearchUseProductVersion attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use version for sales price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -400,7 +521,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Display order for dimension group style</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -410,6 +531,32 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Display order for dimension group style</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ProductVersionDisplayOrder name="ProductVersionDisplayOrder">ProductVersionDisplayOrder</a>
+
+First included in: ProductInformationManagement/EcoResProductDimensionGroupEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>@Retail:EcoResProductDimensionGroupVersionDisplayOrder</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProductVersionDisplayOrder attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>@Retail:EcoResProductDimensionGroupVersionDisplayOrder</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -420,7 +567,7 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Nomenclature Name</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -430,6 +577,9 @@ First included in: ProductInformationManagement/EcoResProductDimensionGroupEntit
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Nomenclature Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

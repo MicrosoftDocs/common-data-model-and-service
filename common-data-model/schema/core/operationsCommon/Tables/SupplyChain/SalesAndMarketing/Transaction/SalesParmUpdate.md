@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# SalesParmUpdate
+# Sales order - update
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/SalesAndMarketing/Transaction/SalesParmUpdate.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales order - update</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -312,7 +315,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Check credit limit</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -320,6 +323,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the CheckCreditMax attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Check credit limit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -329,7 +335,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Compiler</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -338,6 +344,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Compiler</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -348,7 +357,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Credit remaining quantity</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -356,6 +365,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the CreditRemaining attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Credit remaining quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -382,7 +394,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping bill</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -390,6 +402,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the CustomsShippingBill_IN attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shipping bill</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -399,7 +414,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -408,6 +423,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -453,7 +471,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Associated payment attachment on customer invoice</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -461,6 +479,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the GiroType attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Associated payment attachment on customer invoice</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -506,7 +527,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process direct delivery</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -514,6 +535,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the MCRDropShipment attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Process direct delivery</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -523,7 +547,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Include gift cards</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -531,6 +555,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the MCRGiftCard attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Include gift cards</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -540,7 +567,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment method</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -550,6 +577,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Payment method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -614,7 +644,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pro forma</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -622,6 +652,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the Proforma attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pro forma</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -648,7 +681,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reservation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -656,6 +689,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the Reserve attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reservation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -683,7 +719,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -691,6 +727,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the SpecQty attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -717,7 +756,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Split based on inventory owners</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -725,6 +764,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the SplitInventOwnerId_RU attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Split based on inventory owners</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -734,7 +776,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Splitting by kinds of activity</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -742,6 +784,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the SplitInventProfileType_RU attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Splitting by kinds of activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -751,7 +796,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Splitting by posting profiles</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -759,6 +804,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the SplitPostingProfile_RU attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Splitting by posting profiles</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -803,7 +851,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Credit correction</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -811,6 +859,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the Storno attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Credit correction</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -820,7 +871,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Credit correction (physical)</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -828,6 +879,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the StornoPhysical_RU attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Credit correction (physical)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -837,7 +891,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Summary update for</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -845,6 +899,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the SumBy attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Summary update for</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -874,7 +931,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contractor</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -883,6 +940,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contractor</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -893,7 +953,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loader</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -902,6 +962,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Loader</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -912,7 +975,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -921,6 +984,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -990,7 +1056,7 @@ First included in: Transaction/SalesParmUpdate (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Credit management checkpoint</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -998,6 +1064,9 @@ First included in: Transaction/SalesParmUpdate (this entity)
 <summary>List of traits for the CredManPosting attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Credit management checkpoint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 

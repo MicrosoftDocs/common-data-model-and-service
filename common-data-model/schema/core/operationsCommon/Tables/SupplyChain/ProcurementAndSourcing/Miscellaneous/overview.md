@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -18,7 +18,15 @@ ms.author: nebanfic
 |---|---|
 |[AifPortValueMap](AifPortValueMap.md)||
 |[ProcCategoryTmpAccessPolicy](ProcCategoryTmpAccessPolicy.md)||
+|[PSNPurchRFQBiddingGuidanceItem](PSNPurchRFQBiddingGuidanceItem.md)||
+|[PSNPurchRFQCaseBiddingGuidanceItem](PSNPurchRFQCaseBiddingGuidanceItem.md)||
+|[PSNPurchRFQSolicitationBiddingItem](PSNPurchRFQSolicitationBiddingItem.md)||
+|[PurchAgreementCertification](PurchAgreementCertification.md)||
+|[PurchAgreementFinDimensionAccess_PSN](PurchAgreementFinDimensionAccess_PSN.md)||
+|[PurchAgreementSubcontractor](PurchAgreementSubcontractor.md)||
 |[PurchaseOrderResponseActionRemarks](PurchaseOrderResponseActionRemarks.md)||
+|[PurchPolicyRuleCatThresholdDetail_PSN](PurchPolicyRuleCatThresholdDetail_PSN.md)||
+|[PurchPolicyRuleCatThreshold_PSN](PurchPolicyRuleCatThreshold_PSN.md)||
 |[PurchPurchaseOrderHeader](PurchPurchaseOrderHeader.md)||
 |[PurchPurchaseOrderTmp](PurchPurchaseOrderTmp.md)||
 |[PurchReApprovalPolicyRuleFields](PurchReApprovalPolicyRuleFields.md)||
@@ -27,6 +35,8 @@ ms.author: nebanfic
 |[PurchReqTableHistoryTotals](PurchReqTableHistoryTotals.md)||
 |[PurchReqTableMyRequisitionsDataSetTable](PurchReqTableMyRequisitionsDataSetTable.md)||
 |[PurchRFQCaseTableKMCollection](PurchRFQCaseTableKMCollection.md)||
+|[PurchRFQCloseVisibilityType_PSN](PurchRFQCloseVisibilityType_PSN.md)||
+|[PurchRFQPublishLine_PSN](PurchRFQPublishLine_PSN.md)||
 |[PurchRFQReplyScoringStatus](PurchRFQReplyScoringStatus.md)||
 |[PurchRFQSolicitationType](PurchRFQSolicitationType.md)||
 |[PurchRFQTableKMCollection](PurchRFQTableKMCollection.md)||

@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# ReqDemPlanCubeStagingTable
+# Staging table for historical data
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/MasterPlanning/Transaction/ReqDemPlanCubeStagingTable.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Staging table for historical data</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -53,6 +56,7 @@ ms.author: nebanfic
 |[Size](#Size)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
 |[StatusId](#StatusId)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
 |[Style](#Style)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
+|[ProductVersion](#ProductVersion)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
 |[TransactionDate](#TransactionDate)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
 |[TransactionQty](#TransactionQty)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
 |[TransactionType](#TransactionType)||<a href="ReqDemPlanCubeStagingTable.md" target="_blank">Transaction/ReqDemPlanCubeStagingTable</a>|
@@ -430,6 +434,26 @@ First included in: Transaction/ReqDemPlanCubeStagingTable (this entity)
 
 <details>
 <summary>List of traits for the Style attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#ProductVersion name="ProductVersion">ProductVersion</a>
+
+First included in: Transaction/ReqDemPlanCubeStagingTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProductVersion attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

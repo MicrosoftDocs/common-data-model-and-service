@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -21,6 +21,8 @@ ms.author: nebanfic
 |[BudgetPlanColumnRule](BudgetPlanColumnRule.md)||
 |[BudgetPlanLayoutCache](BudgetPlanLayoutCache.md)||
 |[BudgetPlanLineDefaultRowTemplate](BudgetPlanLineDefaultRowTemplate.md)||
+|[BudgetProposalConfiguration](BudgetProposalConfiguration.md)||
+|[BudgetProposalSource](BudgetProposalSource.md)||
 |[BudgetReservationType_PSN](BudgetReservationType_PSN.md)||
 |[BudgetSourceTrackingDetailClosing](BudgetSourceTrackingDetailClosing.md)||
 |[BudgetTransactionLineClosing](BudgetTransactionLineClosing.md)||
@@ -31,3 +33,5 @@ ms.author: nebanfic
 |[HcmPositionForecastCompGroupElement](HcmPositionForecastCompGroupElement.md)||
 |[HcmPositionForecastLastModified](HcmPositionForecastLastModified.md)||
 |[PSNBudgetReservationTransactionLineForCorrection](PSNBudgetReservationTransactionLineForCorrection.md)||
+|[PurchCommitmentHeader_PSN](PurchCommitmentHeader_PSN.md)||
+|[PurchCommitmentLine_PSN](PurchCommitmentLine_PSN.md)||

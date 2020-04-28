@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# InventAgingTmp
+# Inventory aging
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/InventAgingTmp.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inventory aging</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -56,6 +59,7 @@ ms.author: nebanfic
 |[InventSizeId](#InventSizeId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[InventStatusId](#InventStatusId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[InventStyleId](#InventStyleId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
+|[InventVersionId](#InventVersionId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[ItemGroupId](#ItemGroupId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[ItemId](#ItemId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[ItemName](#ItemName)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
@@ -80,6 +84,8 @@ ms.author: nebanfic
 |[InventDimension8](#InventDimension8)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[InventDimension9](#InventDimension9)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[InventDimension10](#InventDimension10)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
+|[InventDimension11](#InventDimension11)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
+|[InventDimension12](#InventDimension12)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[DataAreaId](#DataAreaId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[Relationship_EcoResColorRelationshipId](#Relationship_EcoResColorRelationshipId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
 |[Relationship_EcoResConfigurationRelationshipId](#Relationship_EcoResConfigurationRelationshipId)||<a href="InventAgingTmp.md" target="_blank">Miscellaneous/InventAgingTmp</a>|
@@ -527,6 +533,26 @@ First included in: Miscellaneous/InventAgingTmp (this entity)
 **is.dataFormat.array**  
 </details>
 
+### <a href=#InventVersionId name="InventVersionId">InventVersionId</a>
+
+First included in: Miscellaneous/InventAgingTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#ItemGroupId name="ItemGroupId">ItemGroupId</a>
 
 First included in: Miscellaneous/InventAgingTmp (this entity)  
@@ -760,7 +786,7 @@ First included in: Miscellaneous/InventAgingTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inventory unit</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -770,6 +796,9 @@ First included in: Miscellaneous/InventAgingTmp (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inventory unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -780,7 +809,7 @@ First included in: Miscellaneous/InventAgingTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit price</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -789,6 +818,9 @@ First included in: Miscellaneous/InventAgingTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1012,6 +1044,46 @@ for setting the exact precision and scale of numeric values
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
+</details>
+
+### <a href=#InventDimension11 name="InventDimension11">InventDimension11</a>
+
+First included in: Miscellaneous/InventAgingTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension11 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventDimension12 name="InventDimension12">InventDimension12</a>
+
+First included in: Miscellaneous/InventAgingTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension12 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>

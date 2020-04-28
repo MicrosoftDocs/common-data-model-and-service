@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# CostMonthlyInventoryCostObjectCache
+# Monthly inventory cost object cache
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/CostMonthlyInventoryCostObjectCache.cdm.json" target="_blank">GitHub</a>.  
@@ -29,6 +29,9 @@ ms.author: nebanfic
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
 
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Monthly inventory cost object cache</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 </details>
 
 ## Attributes
@@ -42,6 +45,7 @@ ms.author: nebanfic
 |[ColorId](#ColorId)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
 |[SizeId](#SizeId)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
 |[StyleId](#StyleId)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
+|[VersionId](#VersionId)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
 |[SiteId](#SiteId)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
 |[CostOfProcuredMaterials](#CostOfProcuredMaterials)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
 |[CostOfManufacturedMaterials](#CostOfManufacturedMaterials)||<a href="CostMonthlyInventoryCostObjectCache.md" target="_blank">Miscellaneous/CostMonthlyInventoryCostObjectCache</a>|
@@ -189,6 +193,26 @@ First included in: Miscellaneous/CostMonthlyInventoryCostObjectCache (this entit
 
 <details>
 <summary>List of traits for the StyleId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#VersionId name="VersionId">VersionId</a>
+
+First included in: Miscellaneous/CostMonthlyInventoryCostObjectCache (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the VersionId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -73,6 +73,7 @@ ms.author: nebanfic
 |[ViewInventSizeId](#ViewInventSizeId)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewInventStatus](#ViewInventStatus)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewInventStyleId](#ViewInventStyleId)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
+|[ViewInventVersionId](#ViewInventVersionId)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewLicensePlate](#ViewLicensePlate)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewWMSLocationId](#ViewWMSLocationId)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewInventDimension1](#ViewInventDimension1)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
@@ -85,6 +86,8 @@ ms.author: nebanfic
 |[ViewInventDimension8](#ViewInventDimension8)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewInventDimension9](#ViewInventDimension9)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[ViewInventDimension10](#ViewInventDimension10)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
+|[ViewInventDimension11](#ViewInventDimension11)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
+|[ViewInventDimension12](#ViewInventDimension12)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[Filters](#Filters)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[DataAreaId](#DataAreaId)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
 |[Relationship_InventValueReportTmpLineRelationshipId](#Relationship_InventValueReportTmpLineRelationshipId)||<a href="InventValueExecutionHistory.md" target="_blank">Miscellaneous/InventValueExecutionHistory</a>|
@@ -212,7 +215,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculate average unit cost</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -220,6 +223,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the CalcAvgUnitCost attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Calculate average unit cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -229,7 +235,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Level</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -237,6 +243,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the DetailLevel attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Level</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -246,7 +255,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Dimension set</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
@@ -255,6 +264,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Dimension set</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -265,7 +277,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Include beginning balance</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -273,6 +285,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the IncludeBeginningBalance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Include beginning balance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -282,7 +297,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Include not posted to ledger</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -290,6 +305,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the IncludeNotPostedValue attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Include not posted to ledger</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -299,7 +317,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total quantity and value</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -307,6 +325,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the PrintTotalQtyValue attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total quantity and value</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -316,7 +337,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Summarize physical and financial values</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -324,6 +345,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the SummarizePhysFinValues attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Summarize physical and financial values</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -333,7 +357,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>COGS</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -341,6 +365,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewCOGS attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>COGS</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -350,7 +377,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deferred COGS</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -358,6 +385,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewDeferredCOGS attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Deferred COGS</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -367,7 +397,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Direct outsourcing</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -375,6 +405,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewDirectOutsourcing attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Direct outsourcing</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -384,7 +417,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Indirect cost</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -392,6 +425,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewIndirect attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indirect cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -401,7 +437,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inventory</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -409,6 +445,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewInventory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inventory</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -418,7 +457,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Labor</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -426,6 +465,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewLabor attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Labor</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -435,7 +477,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Material</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -444,6 +486,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Material</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -453,7 +498,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profit and loss</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -461,6 +506,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewProfitLoss attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Profit and loss</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -470,7 +518,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>View</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -478,6 +526,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewResourceGroup attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>View</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -487,7 +538,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -495,6 +546,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewResourceGroupTotal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -504,7 +558,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>View</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -512,6 +566,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewResourceId attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>View</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -521,7 +578,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -529,6 +586,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewResourceIdTotal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -538,7 +598,7 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>WIP</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -546,6 +606,9 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 <summary>List of traits for the ViewWIP attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>WIP</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -753,6 +816,23 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 **is.dataFormat.integer**  
 </details>
 
+### <a href=#ViewInventVersionId name="ViewInventVersionId">ViewInventVersionId</a>
+
+First included in: Miscellaneous/InventValueExecutionHistory (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ViewInventVersionId attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
 ### <a href=#ViewLicensePlate name="ViewLicensePlate">ViewLicensePlate</a>
 
 First included in: Miscellaneous/InventValueExecutionHistory (this entity)  
@@ -952,6 +1032,40 @@ First included in: Miscellaneous/InventValueExecutionHistory (this entity)
 
 <details>
 <summary>List of traits for the ViewInventDimension10 attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#ViewInventDimension11 name="ViewInventDimension11">ViewInventDimension11</a>
+
+First included in: Miscellaneous/InventValueExecutionHistory (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ViewInventDimension11 attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#ViewInventDimension12 name="ViewInventDimension12">ViewInventDimension12</a>
+
+First included in: Miscellaneous/InventValueExecutionHistory (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ViewInventDimension12 attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
 **is.dataFormat.integer**  

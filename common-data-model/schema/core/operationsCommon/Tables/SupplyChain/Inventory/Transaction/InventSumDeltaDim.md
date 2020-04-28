@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# InventSumDeltaDim
+# On-hand inventory checks
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Transaction/InventSumDeltaDim.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>On-hand inventory checks</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -64,6 +67,8 @@ ms.author: nebanfic
 |[InventStatusId](#InventStatusId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventStyleId](#InventStyleId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventStyleIdFlag](#InventStyleIdFlag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
+|[InventVersionId](#InventVersionId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
+|[InventVersionIdFlag](#InventVersionIdFlag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[ItemId](#ItemId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[LicensePlateFlag](#LicensePlateFlag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[LicensePlateId](#LicensePlateId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
@@ -80,6 +85,8 @@ ms.author: nebanfic
 |[InventDimension8](#InventDimension8)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension9](#InventDimension9)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension10](#InventDimension10)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
+|[InventDimension11](#InventDimension11)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
+|[InventDimension12](#InventDimension12)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension1Flag](#InventDimension1Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension2Flag](#InventDimension2Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension3Flag](#InventDimension3Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
@@ -90,6 +97,8 @@ ms.author: nebanfic
 |[InventDimension8Flag](#InventDimension8Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension9Flag](#InventDimension9Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[InventDimension10Flag](#InventDimension10Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
+|[InventDimension11Flag](#InventDimension11Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
+|[InventDimension12Flag](#InventDimension12Flag)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[DataAreaId](#DataAreaId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[Relationship_EcoResColorRelationshipId](#Relationship_EcoResColorRelationshipId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
 |[Relationship_EcoResConfigurationRelationshipId](#Relationship_EcoResConfigurationRelationshipId)||<a href="InventSumDeltaDim.md" target="_blank">Transaction/InventSumDeltaDim</a>|
@@ -195,7 +204,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use configuration</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -204,6 +213,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use configuration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -234,7 +246,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use batch number</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -243,6 +255,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use batch number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -273,7 +288,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use color</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -282,6 +297,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use color</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -353,7 +371,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GTD number</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -362,6 +380,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>GTD number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -392,7 +413,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use warehouse</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -401,6 +422,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use warehouse</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -430,7 +454,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -439,6 +463,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -468,7 +495,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Inventory profile</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -477,6 +504,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Inventory profile</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -507,7 +537,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use serial number</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -516,6 +546,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use serial number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -545,7 +578,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use site</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -554,6 +587,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use site</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -584,7 +620,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use size</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -593,6 +629,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use size</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -660,12 +699,54 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use style</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InventStyleIdFlag attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use style</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#InventVersionId name="InventVersionId">InventVersionId</a>
+
+First included in: Transaction/InventSumDeltaDim (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.readOnly**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventVersionIdFlag name="InventVersionIdFlag">InventVersionIdFlag</a>
+
+First included in: Transaction/InventSumDeltaDim (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionIdFlag attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
 **is.readOnly**  
@@ -777,7 +858,7 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Use location</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -786,6 +867,9 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Use location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -988,6 +1072,46 @@ for setting the exact precision and scale of numeric values
 
 </details>
 
+### <a href=#InventDimension11 name="InventDimension11">InventDimension11</a>
+
+First included in: Transaction/InventSumDeltaDim (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension11 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventDimension12 name="InventDimension12">InventDimension12</a>
+
+First included in: Transaction/InventSumDeltaDim (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension12 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#InventDimension1Flag name="InventDimension1Flag">InventDimension1Flag</a>
 
 First included in: Transaction/InventSumDeltaDim (this entity)  
@@ -1153,6 +1277,40 @@ First included in: Transaction/InventSumDeltaDim (this entity)
 
 <details>
 <summary>List of traits for the InventDimension10Flag attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#InventDimension11Flag name="InventDimension11Flag">InventDimension11Flag</a>
+
+First included in: Transaction/InventSumDeltaDim (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension11Flag attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#InventDimension12Flag name="InventDimension12Flag">InventDimension12Flag</a>
+
+First included in: Transaction/InventSumDeltaDim (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension12Flag attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
 **is.dataFormat.integer**  

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -25,6 +25,7 @@ ms.author: nebanfic
 |[PurchAgreementHeader](PurchAgreementHeader.md)||
 |[PurchAgreementHeaderDefault](PurchAgreementHeaderDefault.md)||
 |[PurchaseOrderResponseHeader](PurchaseOrderResponseHeader.md)||
+|[PurchEncumbranceSummary](PurchEncumbranceSummary.md)||
 |[PurchPackingSlipHeaderTmp](PurchPackingSlipHeaderTmp.md)||
 |[PurchParmSubTable](PurchParmSubTable.md)||
 |[PurchParmTable](PurchParmTable.md)||
@@ -33,6 +34,7 @@ ms.author: nebanfic
 |[PurchReqTable](PurchReqTable.md)||
 |[PurchRFQCaseTable](PurchRFQCaseTable.md)||
 |[PurchRFQParmTable](PurchRFQParmTable.md)||
+|[PurchRFQPublishTable_PSN](PurchRFQPublishTable_PSN.md)||
 |[PurchRFQReplyTable](PurchRFQReplyTable.md)||
 |[PurchRFQSealedReplyTableAttachmentLink](PurchRFQSealedReplyTableAttachmentLink.md)||
 |[PurchRFQTable](PurchRFQTable.md)||

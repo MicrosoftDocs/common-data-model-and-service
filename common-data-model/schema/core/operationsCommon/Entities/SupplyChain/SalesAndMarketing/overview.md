@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -54,7 +54,7 @@ ms.author: nebanfic
 |[MCRPostageDiscountCustomerGroupEntity](MCRPostageDiscountCustomerGroupEntity.md)||
 |[MCRSalesOrderHoldCodeEntity](MCRSalesOrderHoldCodeEntity.md)||
 |[MCRSalesPostageDiscountAgreementEntity](MCRSalesPostageDiscountAgreementEntity.md)||
-|[MCRSalesProductSetDetailEntity](MCRSalesProductSetDetailEntity.md)||
+|[MCRSalesProductSetDetailV2Entity](MCRSalesProductSetDetailV2Entity.md)||
 |[MCRSalesProductSetEntity](MCRSalesProductSetEntity.md)||
 |[PriceDiscLineDiscountCustomerGroupEntity](PriceDiscLineDiscountCustomerGroupEntity.md)||
 |[PriceDiscMultilineDiscountCustomerGroupEntity](PriceDiscMultilineDiscountCustomerGroupEntity.md)||
@@ -86,7 +86,7 @@ ms.author: nebanfic
 |[SalesChargeCDSEntity](SalesChargeCDSEntity.md)||
 |[SalesChargeEntity](SalesChargeEntity.md)||
 |[SalesContactPersonTitleEntity](SalesContactPersonTitleEntity.md)||
-|[SalesCustomerProductDescriptionEntity](SalesCustomerProductDescriptionEntity.md)||
+|[SalesCustomerProductDescriptionV2Entity](SalesCustomerProductDescriptionV2Entity.md)||
 |[SalesDeliveryChargeCDSEntity](SalesDeliveryChargeCDSEntity.md)||
 |[SalesDeliveryChargeEntity](SalesDeliveryChargeEntity.md)||
 |[SalesDocumentDefaultsEntity](SalesDocumentDefaultsEntity.md)||
@@ -145,7 +145,7 @@ ms.author: nebanfic
 |[SalesQuotationTypeEntity](SalesQuotationTypeEntity.md)||
 |[SalesRebateAgreementHeaderV2Entity](SalesRebateAgreementHeaderV2Entity.md)||
 |[SalesRebateAgreementLineEntity](SalesRebateAgreementLineEntity.md)||
-|[SalesRebateAgreementProductSelectionEntity](SalesRebateAgreementProductSelectionEntity.md)||
+|[SalesRebateAgreementProductSelectionV2Entity](SalesRebateAgreementProductSelectionV2Entity.md)||
 |[SalesRebateCustomerGroupEntity](SalesRebateCustomerGroupEntity.md)||
 |[SalesRebateEntity](SalesRebateEntity.md)||
 |[SalesRebateParametersEntity](SalesRebateParametersEntity.md)||
@@ -221,8 +221,8 @@ ms.author: nebanfic
 |[TAMTradeAllowanceAgreementMerchandisingEventEntity](TAMTradeAllowanceAgreementMerchandisingEventEntity.md)||
 |[TAMTradeAllowanceAgreementMerchandisingEventFundEntity](TAMTradeAllowanceAgreementMerchandisingEventFundEntity.md)||
 |[TAMTradeAllowanceAgreementMerchandisingEventLumpSumEntity](TAMTradeAllowanceAgreementMerchandisingEventLumpSumEntity.md)||
-|[TAMTradeAllowanceAgreementMerchandisingEventProductEntity](TAMTradeAllowanceAgreementMerchandisingEventProductEntity.md)||
-|[TAMTradeAllowanceAgreementProductEntity](TAMTradeAllowanceAgreementProductEntity.md)||
+|[TAMTradeAllowanceAgreementMerchandisingEventProductV2Entity](TAMTradeAllowanceAgreementMerchandisingEventProductV2Entity.md)||
+|[TAMTradeAllowanceAgreementProductV2Entity](TAMTradeAllowanceAgreementProductV2Entity.md)||
 |[TaxSalesOrderTransTaxInformationEntity](TaxSalesOrderTransTaxInformationEntity.md)||
 |[TaxSalesQuotationTransTaxInformationEntity](TaxSalesQuotationTransTaxInformationEntity.md)||
 |[TradeAgreementJournalHeaderEntity](TradeAgreementJournalHeaderEntity.md)||

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -17,13 +17,14 @@ ms.author: nebanfic
 |Name|Description|
 |---|---|
 |[BOMBillOfMaterialsHeaderEntity](BOMBillOfMaterialsHeaderEntity.md)||
-|[BOMBillOfMaterialsLineV2Entity](BOMBillOfMaterialsLineV2Entity.md)||
+|[BOMBillOfMaterialsLineV3Entity](BOMBillOfMaterialsLineV3Entity.md)||
 |[BOMBillOfMaterialsParametersEntity](BOMBillOfMaterialsParametersEntity.md)||
 |[BOMBillOfMaterialsVersionDocumentAttachmentEntity](BOMBillOfMaterialsVersionDocumentAttachmentEntity.md)||
 |[BOMBillOfMaterialsVersionODataEntity](BOMBillOfMaterialsVersionODataEntity.md)||
-|[BOMBillOfMaterialsVersionV2Entity](BOMBillOfMaterialsVersionV2Entity.md)||
+|[BOMBillOfMaterialsVersionODataV2Entity](BOMBillOfMaterialsVersionODataV2Entity.md)||
+|[BOMBillOfMaterialsVersionV3Entity](BOMBillOfMaterialsVersionV3Entity.md)||
 |[BOMConfigurationGroupEntity](BOMConfigurationGroupEntity.md)||
-|[BOMItemSpecificBillOfMaterialsHeaderEntity](BOMItemSpecificBillOfMaterialsHeaderEntity.md)||
+|[BOMItemSpecificBillOfMaterialsHeaderV2Entity](BOMItemSpecificBillOfMaterialsHeaderV2Entity.md)||
 |[EcoResAttributeGroupEntity](EcoResAttributeGroupEntity.md)||
 |[EcoResAttributeValueEntity](EcoResAttributeValueEntity.md)||
 |[EcoResConstraintBasedProductConfigurationModelParametersEntity](EcoResConstraintBasedProductConfigurationModelParametersEntity.md)||
@@ -61,7 +62,7 @@ ms.author: nebanfic
 |[EcoResProductEntityCDSIdentifierEntity](EcoResProductEntityCDSIdentifierEntity.md)||
 |[EcoResProductEntityIdentifierCodeEntity](EcoResProductEntityIdentifierCodeEntity.md)||
 |[EcoResProductEntityIdentifierScopeEntity](EcoResProductEntityIdentifierScopeEntity.md)||
-|[EcoResProductGlobalTradeItemNumberAssignmentEntity](EcoResProductGlobalTradeItemNumberAssignmentEntity.md)||
+|[EcoResProductGlobalTradeItemNumberAssignmentV2Entity](EcoResProductGlobalTradeItemNumberAssignmentV2Entity.md)||
 |[EcoResProductLifecycleStateEntity](EcoResProductLifecycleStateEntity.md)||
 |[EcoResProductMasterColorEntity](EcoResProductMasterColorEntity.md)||
 |[EcoResProductMasterColorTranslationEntity](EcoResProductMasterColorTranslationEntity.md)||
@@ -71,6 +72,8 @@ ms.author: nebanfic
 |[EcoResProductMasterSizeTranslationEntity](EcoResProductMasterSizeTranslationEntity.md)||
 |[EcoResProductMasterStyleEntity](EcoResProductMasterStyleEntity.md)||
 |[EcoResProductMasterStyleTranslationEntity](EcoResProductMasterStyleTranslationEntity.md)||
+|[EcoResProductMasterVersionEntity](EcoResProductMasterVersionEntity.md)||
+|[EcoResProductMasterVersionTranslationEntity](EcoResProductMasterVersionTranslationEntity.md)||
 |[EcoResProductNumberIdentifiedProductVariantEntity](EcoResProductNumberIdentifiedProductVariantEntity.md)||
 |[EcoResProductNumberIdentifiedReleasedProductVariantEntity](EcoResProductNumberIdentifiedReleasedProductVariantEntity.md)||
 |[EcoResProductNumberIdentifiedReleasedProductVariantExternalCodeEntity](EcoResProductNumberIdentifiedReleasedProductVariantExternalCodeEntity.md)||
@@ -88,8 +91,12 @@ ms.author: nebanfic
 |[EcoResProductStyleGroupLineTranslationEntity](EcoResProductStyleGroupLineTranslationEntity.md)||
 |[EcoResProductTranslationEntity](EcoResProductTranslationEntity.md)||
 |[EcoResProductV2Entity](EcoResProductV2Entity.md)||
-|[EcoResProductVariantEntity](EcoResProductVariantEntity.md)||
 |[EcoResProductVariantNomenclatureEntity](EcoResProductVariantNomenclatureEntity.md)||
+|[EcoResProductVariantV2Entity](EcoResProductVariantV2Entity.md)||
+|[EcoResProductVersionEntity](EcoResProductVersionEntity.md)||
+|[EcoResProductVersionGroupEntity](EcoResProductVersionGroupEntity.md)||
+|[EcoResProductVersionGroupLineEntity](EcoResProductVersionGroupLineEntity.md)||
+|[EcoResProductVersionGroupLineTranslationEntity](EcoResProductVersionGroupLineTranslationEntity.md)||
 |[EcoResReleasedDistinctProductCDSEntity](EcoResReleasedDistinctProductCDSEntity.md)||
 |[EcoResReleasedDistinctProductV2Entity](EcoResReleasedDistinctProductV2Entity.md)||
 |[EcoResReleasedProductCreationV2Entity](EcoResReleasedProductCreationV2Entity.md)||
@@ -98,9 +105,9 @@ ms.author: nebanfic
 |[EcoResReleasedProductExternalCodeEntity](EcoResReleasedProductExternalCodeEntity.md)||
 |[EcoResReleasedProductMasterV2Entity](EcoResReleasedProductMasterV2Entity.md)||
 |[EcoResReleasedProductV2Entity](EcoResReleasedProductV2Entity.md)||
-|[EcoResReleasedProductVariantEntity](EcoResReleasedProductVariantEntity.md)||
 |[EcoResReleasedProductVariantExternalCodeClassEntity](EcoResReleasedProductVariantExternalCodeClassEntity.md)||
-|[EcoResReleasedProductVariantExternalCodeEntity](EcoResReleasedProductVariantExternalCodeEntity.md)||
+|[EcoResReleasedProductVariantExternalCodeV2Entity](EcoResReleasedProductVariantExternalCodeV2Entity.md)||
+|[EcoResReleasedProductVariantV2Entity](EcoResReleasedProductVariantV2Entity.md)||
 |[EcoResRetailProductEntity](EcoResRetailProductEntity.md)||
 |[EcoResSellableReleasedProductEntity](EcoResSellableReleasedProductEntity.md)||
 |[EcoResStorageDimensionGroupEntity](EcoResStorageDimensionGroupEntity.md)||
@@ -113,15 +120,15 @@ ms.author: nebanfic
 |[PdsRegionalRegulatedProductListEntity](PdsRegionalRegulatedProductListEntity.md)||
 |[PdsRegionalRestrictedProductEntity](PdsRegionalRestrictedProductEntity.md)||
 |[PdsRegionalRestrictedProductListEntity](PdsRegionalRestrictedProductListEntity.md)||
-|[PmfFormulaByProductEntity](PmfFormulaByProductEntity.md)||
-|[PmfFormulaCoProductEntity](PmfFormulaCoProductEntity.md)||
+|[PmfFormulaByProductV2Entity](PmfFormulaByProductV2Entity.md)||
+|[PmfFormulaCoProductV2Entity](PmfFormulaCoProductV2Entity.md)||
 |[PmfFormulaHeaderEntity](PmfFormulaHeaderEntity.md)||
 |[PmfFormulaLineConsumptionIntervalV2Entity](PmfFormulaLineConsumptionIntervalV2Entity.md)||
 |[PmfFormulaLineV2Entity](PmfFormulaLineV2Entity.md)||
 |[PmfFormulaSubstitutionGroupEntity](PmfFormulaSubstitutionGroupEntity.md)||
 |[PmfFormulaVersionDocumentAttachmentEntity](PmfFormulaVersionDocumentAttachmentEntity.md)||
-|[PmfFormulaVersionEntity](PmfFormulaVersionEntity.md)||
-|[PmfItemSpecificFormulaHeaderEntity](PmfItemSpecificFormulaHeaderEntity.md)||
+|[PmfFormulaVersionV2Entity](PmfFormulaVersionV2Entity.md)||
+|[PmfItemSpecificFormulaHeaderV2Entity](PmfItemSpecificFormulaHeaderV2Entity.md)||
 |[ProcProductCategoryCommodityCodeEntity](ProcProductCategoryCommodityCodeEntity.md)||
 |[ProcProductCategoryInformationPageEntity](ProcProductCategoryInformationPageEntity.md)||
 |[ProcProductCategoryInformationPageTranslationEntity](ProcProductCategoryInformationPageTranslationEntity.md)||

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -128,6 +128,7 @@ ms.author: nebanfic
 |[ProvisioningPlanLimit](ProvisioningPlanLimit.md)||
 |[ProvisioningResourceAttributeTable](ProvisioningResourceAttributeTable.md)||
 |[ProvisioningResourceTable](ProvisioningResourceTable.md)||
+|[PSNUserInfo](PSNUserInfo.md)||
 |[ReleaseUpdateChangeTrackingTables](ReleaseUpdateChangeTrackingTables.md)||
 |[ReleaseUpdateDisabledIndexes](ReleaseUpdateDisabledIndexes.md)||
 |[ReleaseUpdateScriptsErrorLog](ReleaseUpdateScriptsErrorLog.md)||

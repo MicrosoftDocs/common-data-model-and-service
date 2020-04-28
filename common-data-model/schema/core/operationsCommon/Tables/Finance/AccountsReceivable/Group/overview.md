@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -56,6 +56,7 @@ ms.author: nebanfic
 |[CustomsImportInvoiceVendAcctSetup_IN](CustomsImportInvoiceVendAcctSetup_IN.md)||
 |[CustomsPayments_IT](CustomsPayments_IT.md)||
 |[CustStatisticsGroup](CustStatisticsGroup.md)||
+|[CustTradingPartnerCode](CustTradingPartnerCode.md)||
 |[CustVendItemGroup](CustVendItemGroup.md)||
 |[CustVendPaymFeeGroup_JP](CustVendPaymFeeGroup_JP.md)||
 |[PlSADItemAccounts](PlSADItemAccounts.md)||

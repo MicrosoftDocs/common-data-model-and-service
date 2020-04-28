@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# EcoResProductTranslationEntity
+# Product translations
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductTranslationEntity.cdm.json" target="_blank">GitHub</a>.  
@@ -26,6 +26,9 @@ ms.author: nebanfic
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
 
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product translations</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 </details>
 
 ## Attributes
@@ -38,8 +41,6 @@ ms.author: nebanfic
 |[Description](#Description)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
 |[Relationship_DistinctProductRelationshipId](#Relationship_DistinctProductRelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
 |[Relationship_ProductMasterRelationshipId](#Relationship_ProductMasterRelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
-|[Relationship_ProductVariantRelationshipId](#Relationship_ProductVariantRelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
-|[Relationship_ReleasedProductVariantRelationshipId](#Relationship_ReleasedProductVariantRelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
 |[Relationship_ReleasedDistinctProductV2RelationshipId](#Relationship_ReleasedDistinctProductV2RelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
 |[Relationship_ReleasedProductMasterV2RelationshipId](#Relationship_ReleasedProductMasterV2RelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
 |[BackingTable_EcoResProductTranslationRelationshipId](#BackingTable_EcoResProductTranslationRelationshipId)||<a href="EcoResProductTranslationEntity.md" target="_blank">ProductInformationManagement/EcoResProductTranslationEntity</a>|
@@ -162,58 +163,6 @@ First included in: ProductInformationManagement/EcoResProductTranslationEntity (
 
 <details>
 <summary>List of traits for the Relationship_ProductMasterRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_ProductVariantRelationshipId name="Relationship_ProductVariantRelationshipId">Relationship_ProductVariantRelationshipId</a>
-
-First included in: ProductInformationManagement/EcoResProductTranslationEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_ProductVariantRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#Relationship_ReleasedProductVariantRelationshipId name="Relationship_ReleasedProductVariantRelationshipId">Relationship_ReleasedProductVariantRelationshipId</a>
-
-First included in: ProductInformationManagement/EcoResProductTranslationEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the Relationship_ReleasedProductVariantRelationshipId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

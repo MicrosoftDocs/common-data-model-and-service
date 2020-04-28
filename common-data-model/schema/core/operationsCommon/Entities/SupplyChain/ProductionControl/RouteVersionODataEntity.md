@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# RouteVersionODataEntity
+# BOM versions
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProductionControl/RouteVersionODataEntity.cdm.json" target="_blank">GitHub</a>.  
@@ -25,6 +25,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>BOM versions</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -48,7 +51,6 @@ ms.author: nebanfic
 |[IsActive](#IsActive)||<a href="RouteVersionODataEntity.md" target="_blank">ProductionControl/RouteVersionODataEntity</a>|
 |[Relationship_ApprovingWorkerRelationshipId](#Relationship_ApprovingWorkerRelationshipId)||<a href="RouteVersionODataEntity.md" target="_blank">ProductionControl/RouteVersionODataEntity</a>|
 |[Relationship_RouteHeaderRelationshipId](#Relationship_RouteHeaderRelationshipId)||<a href="RouteVersionODataEntity.md" target="_blank">ProductionControl/RouteVersionODataEntity</a>|
-|[BackingTable_RouteVersionEntityRelationshipId](#BackingTable_RouteVersionEntityRelationshipId)||<a href="RouteVersionODataEntity.md" target="_blank">ProductionControl/RouteVersionODataEntity</a>|
 |[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="RouteVersionODataEntity.md" target="_blank">ProductionControl/RouteVersionODataEntity</a>|
 
 ### <a href=#ApproverPersonnelNumber name="ApproverPersonnelNumber">ApproverPersonnelNumber</a>
@@ -369,32 +371,6 @@ First included in: ProductionControl/RouteVersionODataEntity (this entity)
 
 <details>
 <summary>List of traits for the Relationship_RouteHeaderRelationshipId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#BackingTable_RouteVersionEntityRelationshipId name="BackingTable_RouteVersionEntityRelationshipId">BackingTable_RouteVersionEntityRelationshipId</a>
-
-First included in: ProductionControl/RouteVersionODataEntity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the BackingTable_RouteVersionEntityRelationshipId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

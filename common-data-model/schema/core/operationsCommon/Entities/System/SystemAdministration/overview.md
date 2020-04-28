@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -54,6 +54,7 @@ ms.author: nebanfic
 |[DirPartyCDSEntity](DirPartyCDSEntity.md)||
 |[DMFDefinitionGroupTemplateHeaderEntity](DMFDefinitionGroupTemplateHeaderEntity.md)||
 |[DMFDefinitionGroupTemplateLineEntity](DMFDefinitionGroupTemplateLineEntity.md)||
+|[DMFEntityExecutionParametersEntity](DMFEntityExecutionParametersEntity.md)||
 |[DocuEnabledTableEntity](DocuEnabledTableEntity.md)||
 |[DocuFileTypesEntity](DocuFileTypesEntity.md)||
 |[DocumentRoutingClientAppEntity](DocumentRoutingClientAppEntity.md)||

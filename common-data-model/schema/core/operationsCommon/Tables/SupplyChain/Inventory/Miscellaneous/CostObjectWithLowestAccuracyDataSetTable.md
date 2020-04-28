@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -42,6 +42,7 @@ ms.author: nebanfic
 |[SiteId](#SiteId)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
 |[SizeId](#SizeId)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
 |[StyleId](#StyleId)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
+|[VersionId](#VersionId)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
 |[InventoryAccuracy](#InventoryAccuracy)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
 |[EndingBalance](#EndingBalance)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
 |[SysDataCacheContextId](#SysDataCacheContextId)||<a href="CostObjectWithLowestAccuracyDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestAccuracyDataSetTable</a>|
@@ -184,6 +185,26 @@ First included in: Miscellaneous/CostObjectWithLowestAccuracyDataSetTable (this 
 
 <details>
 <summary>List of traits for the StyleId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#VersionId name="VersionId">VersionId</a>
+
+First included in: Miscellaneous/CostObjectWithLowestAccuracyDataSetTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the VersionId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

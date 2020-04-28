@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# ProductAllocationLineEntity
+# Item allocation lines
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/MasterPlanning/ProductAllocationLineEntity.cdm.json" target="_blank">GitHub</a>.  
@@ -26,6 +26,9 @@ ms.author: nebanfic
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
 
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item allocation lines</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 </details>
 
 ## Attributes
@@ -40,12 +43,14 @@ ms.author: nebanfic
 |[ProductColorId](#ProductColorId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[ProductSizeId](#ProductSizeId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[ProductStyleId](#ProductStyleId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
+|[ProductVersionId](#ProductVersionId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_ProductAllocationKeyEntityRelationshipId](#Relationship_ProductAllocationKeyEntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_EcoResReleasedProductV2EntityRelationshipId](#Relationship_EcoResReleasedProductV2EntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_EcoResProductConfigurationEntityRelationshipId](#Relationship_EcoResProductConfigurationEntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_EcoResProductColorEntityRelationshipId](#Relationship_EcoResProductColorEntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_EcoResProductSizeEntityRelationshipId](#Relationship_EcoResProductSizeEntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_EcoResProductStyleEntityRelationshipId](#Relationship_EcoResProductStyleEntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
+|[Relationship_EcoResProductVersionEntityRelationshipId](#Relationship_EcoResProductVersionEntityRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[BackingTable_ForecastItemAllocationLineRelationshipId](#BackingTable_ForecastItemAllocationLineRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 |[Relationship_PrimaryCompanyContextRelationshipId](#Relationship_PrimaryCompanyContextRelationshipId)||<a href="ProductAllocationLineEntity.md" target="_blank">MasterPlanning/ProductAllocationLineEntity</a>|
 
@@ -209,6 +214,26 @@ First included in: MasterPlanning/ProductAllocationLineEntity (this entity)
 **is.dataFormat.array**  
 </details>
 
+### <a href=#ProductVersionId name="ProductVersionId">ProductVersionId</a>
+
+First included in: MasterPlanning/ProductAllocationLineEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProductVersionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#Relationship_ProductAllocationKeyEntityRelationshipId name="Relationship_ProductAllocationKeyEntityRelationshipId">Relationship_ProductAllocationKeyEntityRelationshipId</a>
 
 First included in: MasterPlanning/ProductAllocationLineEntity (this entity)  
@@ -351,6 +376,32 @@ First included in: MasterPlanning/ProductAllocationLineEntity (this entity)
 
 <details>
 <summary>List of traits for the Relationship_EcoResProductStyleEntityRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td>empty table</td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_EcoResProductVersionEntityRelationshipId name="Relationship_EcoResProductVersionEntityRelationshipId">Relationship_EcoResProductVersionEntityRelationshipId</a>
+
+First included in: MasterPlanning/ProductAllocationLineEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_EcoResProductVersionEntityRelationshipId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

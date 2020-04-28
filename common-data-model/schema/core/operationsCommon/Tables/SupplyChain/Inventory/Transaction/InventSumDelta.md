@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# InventSumDelta
+# On-hand inventory changes
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Transaction/InventSumDelta.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>On-hand inventory changes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -85,6 +88,7 @@ ms.author: nebanfic
 |[InventSizeId](#InventSizeId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[InventStatusId](#InventStatusId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[InventStyleId](#InventStyleId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
+|[InventVersionId](#InventVersionId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[LicensePlateId](#LicensePlateId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[wMSLocationId](#wMSLocationId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[InventGtdId_RU](#InventGtdId_RU)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
@@ -100,6 +104,8 @@ ms.author: nebanfic
 |[InventDimension8](#InventDimension8)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[InventDimension9](#InventDimension9)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[InventDimension10](#InventDimension10)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
+|[InventDimension11](#InventDimension11)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
+|[InventDimension12](#InventDimension12)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[DataAreaId](#DataAreaId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[Relationship_InventDimRelationshipId](#Relationship_InventDimRelationshipId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
 |[Relationship_InventSumRelationshipId](#Relationship_InventSumRelationshipId)||<a href="InventSumDelta.md" target="_blank">Transaction/InventSumDelta</a>|
@@ -1160,6 +1166,26 @@ First included in: Transaction/InventSumDelta (this entity)
 **is.dataFormat.array**  
 </details>
 
+### <a href=#InventVersionId name="InventVersionId">InventVersionId</a>
+
+First included in: Transaction/InventSumDelta (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#LicensePlateId name="LicensePlateId">LicensePlateId</a>
 
 First included in: Transaction/InventSumDelta (this entity)  
@@ -1457,6 +1483,46 @@ for setting the exact precision and scale of numeric values
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
+</details>
+
+### <a href=#InventDimension11 name="InventDimension11">InventDimension11</a>
+
+First included in: Transaction/InventSumDelta (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension11 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventDimension12 name="InventDimension12">InventDimension12</a>
+
+First included in: Transaction/InventSumDelta (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension12 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>

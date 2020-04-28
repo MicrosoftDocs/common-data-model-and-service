@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# ForecastDemandForecastEntryEntity
+# Demand forecast entries
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/MasterPlanning/ForecastDemandForecastEntryEntity.cdm.json" target="_blank">GitHub</a>.  
@@ -25,6 +25,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Demand forecast entries</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -50,6 +53,7 @@ ms.author: nebanfic
 |[ProductColorId](#ProductColorId)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
 |[ProductSizeId](#ProductSizeId)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
 |[ProductStyleId](#ProductStyleId)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
+|[ProductVersionId](#ProductVersionId)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
 |[ProductAllocationKeyId](#ProductAllocationKeyId)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
 |[ForecastEntryNumber](#ForecastEntryNumber)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
 |[ForecastedCatchWeightQuantity](#ForecastedCatchWeightQuantity)||<a href="ForecastDemandForecastEntryEntity.md" target="_blank">MasterPlanning/ForecastDemandForecastEntryEntity</a>|
@@ -146,7 +150,7 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales price</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -156,6 +160,9 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -206,7 +213,7 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales currency</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -216,6 +223,9 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales currency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -420,6 +430,26 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 **is.dataFormat.array**  
 </details>
 
+### <a href=#ProductVersionId name="ProductVersionId">ProductVersionId</a>
+
+First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProductVersionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#ProductAllocationKeyId name="ProductAllocationKeyId">ProductAllocationKeyId</a>
 
 First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity)  
@@ -506,7 +536,7 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default financial dimensions</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -516,6 +546,9 @@ First included in: MasterPlanning/ForecastDemandForecastEntryEntity (this entity
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default financial dimensions</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

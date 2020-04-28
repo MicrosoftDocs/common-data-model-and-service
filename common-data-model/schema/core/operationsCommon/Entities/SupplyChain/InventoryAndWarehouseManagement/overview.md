@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -27,7 +27,7 @@ ms.author: nebanfic
 |[CostingVersionEntity](CostingVersionEntity.md)||
 |[CostInventoryAccountingKPIGoalsEntity](CostInventoryAccountingKPIGoalsEntity.md)||
 |[CostLedgerReconciliationPolicyEntity](CostLedgerReconciliationPolicyEntity.md)||
-|[CostMonthlyCostStatementEntryEntity](CostMonthlyCostStatementEntryEntity.md)||
+|[CostMonthlyCostStatementEntryV2Entity](CostMonthlyCostStatementEntryV2Entity.md)||
 |[CostOperationalSiteFinancialDimensionLinkPolicyEntity](CostOperationalSiteFinancialDimensionLinkPolicyEntity.md)||
 |[CostProductionGroupEntity](CostProductionGroupEntity.md)||
 |[CostSheetNodeCalculationFactorV2Entity](CostSheetNodeCalculationFactorV2Entity.md)||
@@ -35,7 +35,7 @@ ms.author: nebanfic
 |[DimAttributeInventItemGroupEntity](DimAttributeInventItemGroupEntity.md)||
 |[EcoResProductMasterEntity](EcoResProductMasterEntity.md)||
 |[EcoResProductParametersEntity](EcoResProductParametersEntity.md)||
-|[EcoResReleasedProductWarehouseDefaultsEntity](EcoResReleasedProductWarehouseDefaultsEntity.md)||
+|[EcoResReleasedProductWarehouseDefaultsV2Entity](EcoResReleasedProductWarehouseDefaultsV2Entity.md)||
 |[ExceptionCodeEntity](ExceptionCodeEntity.md)||
 |[FBCFOPCreditBaseSourceEntity](FBCFOPCreditBaseSourceEntity.md)||
 |[InventBuyerGroupEntity](InventBuyerGroupEntity.md)||
@@ -51,7 +51,7 @@ ms.author: nebanfic
 |[InventFiscalLIFOGroupEntity](InventFiscalLIFOGroupEntity.md)||
 |[InventFiscalLIFOJournalNameEntity](InventFiscalLIFOJournalNameEntity.md)||
 |[InventInventoryAdjustmentJournalEntryCDSEntity](InventInventoryAdjustmentJournalEntryCDSEntity.md)||
-|[InventInventoryAdjustmentJournalEntryEntity](InventInventoryAdjustmentJournalEntryEntity.md)||
+|[InventInventoryAdjustmentJournalEntryV2Entity](InventInventoryAdjustmentJournalEntryV2Entity.md)||
 |[InventInventoryAdjustmentJournalHeaderEntity](InventInventoryAdjustmentJournalHeaderEntity.md)||
 |[InventInventoryAdjustmentJournalNameEntity](InventInventoryAdjustmentJournalNameEntity.md)||
 |[InventInventoryAgingReportStorageEntity](InventInventoryAgingReportStorageEntity.md)||
@@ -64,8 +64,7 @@ ms.author: nebanfic
 |[InventInventoryDimensionsParametersEntity](InventInventoryDimensionsParametersEntity.md)||
 |[InventInventoryLedgerPostingDefinitionEntity](InventInventoryLedgerPostingDefinitionEntity.md)||
 |[InventInventoryManagementParametersEntity](InventInventoryManagementParametersEntity.md)||
-|[InventInventoryMovementJournalEntryEntity](InventInventoryMovementJournalEntryEntity.md)||
-|[InventInventoryMovementJournalEntryEntityV2](InventInventoryMovementJournalEntryEntityV2.md)||
+|[InventInventoryMovementJournalEntryV3Entity](InventInventoryMovementJournalEntryV3Entity.md)||
 |[InventInventoryMovementJournalHeaderEntity](InventInventoryMovementJournalHeaderEntity.md)||
 |[InventInventoryMovementJournalNameEntity](InventInventoryMovementJournalNameEntity.md)||
 |[InventInventoryOwnershipChangeJournalNameEntity](InventInventoryOwnershipChangeJournalNameEntity.md)||
@@ -81,9 +80,11 @@ ms.author: nebanfic
 |[InventItemBatchEntity](InventItemBatchEntity.md)||
 |[InventItemGTDEntity](InventItemGTDEntity.md)||
 |[InventItemPendingPriceEntity](InventItemPendingPriceEntity.md)||
+|[InventItemPendingPriceV2Entity](InventItemPendingPriceV2Entity.md)||
 |[InventItemPriceComparisonStorageEntity](InventItemPriceComparisonStorageEntity.md)||
 |[InventItemPriceEntity](InventItemPriceEntity.md)||
 |[InventItemPriceToleranceGroupEntity](InventItemPriceToleranceGroupEntity.md)||
+|[InventItemPriceV2Entity](InventItemPriceV2Entity.md)||
 |[InventItemSerialNumberEntity](InventItemSerialNumberEntity.md)||
 |[InventLedgerPostingDefinitionCombinationRuleEntity](InventLedgerPostingDefinitionCombinationRuleEntity.md)||
 |[InventNonConformanceChargeTypeEntity](InventNonConformanceChargeTypeEntity.md)||
@@ -96,9 +97,9 @@ ms.author: nebanfic
 |[InventOrderEntryDeadlineGroupEntity](InventOrderEntryDeadlineGroupEntity.md)||
 |[InventoryChargeCDSEntity](InventoryChargeCDSEntity.md)||
 |[InventoryChargeEntity](InventoryChargeEntity.md)||
-|[InventorySiteOnHandEntity](InventorySiteOnHandEntity.md)||
-|[InventPackingMaterialAllocationEntity](InventPackingMaterialAllocationEntity.md)||
-|[InventPackingMaterialAllocationLineEntity](InventPackingMaterialAllocationLineEntity.md)||
+|[InventorySiteOnHandV2Entity](InventorySiteOnHandV2Entity.md)||
+|[InventPackingMaterialAllocationLineV2Entity](InventPackingMaterialAllocationLineV2Entity.md)||
+|[InventPackingMaterialAllocationV2Entity](InventPackingMaterialAllocationV2Entity.md)||
 |[InventPackingMaterialEntity](InventPackingMaterialEntity.md)||
 |[InventPackingMaterialFeeEntity](InventPackingMaterialFeeEntity.md)||
 |[InventPackingMaterialGroupEntity](InventPackingMaterialGroupEntity.md)||
@@ -109,7 +110,7 @@ ms.author: nebanfic
 |[InventProductGroupEntity](InventProductGroupEntity.md)||
 |[InventProductionLedgerPostingDefinitionEntity](InventProductionLedgerPostingDefinitionEntity.md)||
 |[InventProductSiteSpecificOrderSettingsEntity](InventProductSiteSpecificOrderSettingsEntity.md)||
-|[InventProductSpecificOrderSettingsV2Entity](InventProductSpecificOrderSettingsV2Entity.md)||
+|[InventProductSpecificOrderSettingsV3Entity](InventProductSpecificOrderSettingsV3Entity.md)||
 |[InventProductTypeEntity](InventProductTypeEntity.md)||
 |[InventQualityDiagnosticTypeEntity](InventQualityDiagnosticTypeEntity.md)||
 |[InventQualityGroupEntity](InventQualityGroupEntity.md)||
@@ -138,15 +139,15 @@ ms.author: nebanfic
 |[InventTransferOrderLineEntity](InventTransferOrderLineEntity.md)||
 |[InventWarehouseCurrentPostalAddressV2Entity](InventWarehouseCurrentPostalAddressV2Entity.md)||
 |[InventWarehouseEntity](InventWarehouseEntity.md)||
-|[InventWarehouseInventoryStatusOnHandEntity](InventWarehouseInventoryStatusOnHandEntity.md)||
+|[InventWarehouseInventoryStatusOnHandV2Entity](InventWarehouseInventoryStatusOnHandV2Entity.md)||
 |[InventWarehouseOnHandCDSEntity](InventWarehouseOnHandCDSEntity.md)||
-|[InventWarehouseOnHandEntity](InventWarehouseOnHandEntity.md)||
+|[InventWarehouseOnHandV2Entity](InventWarehouseOnHandV2Entity.md)||
 |[InventWarehousePostalAddressEntity](InventWarehousePostalAddressEntity.md)||
 |[InventWarehouseQuarantineZoneEntity](InventWarehouseQuarantineZoneEntity.md)||
 |[PdsBatchDispositionEntity](PdsBatchDispositionEntity.md)||
 |[PdsCommodityCostBasisTypeEntity](PdsCommodityCostBasisTypeEntity.md)||
 |[PdsCommodityPricingTemplateEntity](PdsCommodityPricingTemplateEntity.md)||
-|[PdsCommodityQuantityMarginTemplateEntity](PdsCommodityQuantityMarginTemplateEntity.md)||
+|[PdsCommodityQuantityMarginTemplateV2Entity](PdsCommodityQuantityMarginTemplateV2Entity.md)||
 |[PdsCustomerSpecificItemBatchAttributeEntity](PdsCustomerSpecificItemBatchAttributeEntity.md)||
 |[PdsItemBatchAttributeEnumerationValueEntity](PdsItemBatchAttributeEnumerationValueEntity.md)||
 |[PdsItemBatchAttributeGroupEntity](PdsItemBatchAttributeGroupEntity.md)||
@@ -172,7 +173,7 @@ ms.author: nebanfic
 |[WHSLoadMixGroupConstraintEntity](WHSLoadMixGroupConstraintEntity.md)||
 |[WHSLoadMixGroupCriterionEntity](WHSLoadMixGroupCriterionEntity.md)||
 |[WHSLoadMixGroupEntity](WHSLoadMixGroupEntity.md)||
-|[WHSLocatedWarehouseSlottingDemandEntity](WHSLocatedWarehouseSlottingDemandEntity.md)||
+|[WHSLocatedWarehouseSlottingDemandV2Entity](WHSLocatedWarehouseSlottingDemandV2Entity.md)||
 |[WHSOutboundSortingTemplateGroupEntity](WHSOutboundSortingTemplateGroupEntity.md)||
 |[WHSOutboundSortingTemplateV2Entity](WHSOutboundSortingTemplateV2Entity.md)||
 |[WHSQualityCheckTemplateEntity](WHSQualityCheckTemplateEntity.md)||
@@ -180,7 +181,7 @@ ms.author: nebanfic
 |[WHSShipConsolidationPolicyV2Entity](WHSShipConsolidationPolicyV2Entity.md)||
 |[WHSWarehouseLocationTypeEntity](WHSWarehouseLocationTypeEntity.md)||
 |[WHSWarehouseMobileDeviceMenuItemSystemDirectedWorkSequenceQueryV2Entity](WHSWarehouseMobileDeviceMenuItemSystemDirectedWorkSequenceQueryV2Entity.md)||
-|[WHSWarehouseSlottingDemandEntity](WHSWarehouseSlottingDemandEntity.md)||
+|[WHSWarehouseSlottingDemandV2Entity](WHSWarehouseSlottingDemandV2Entity.md)||
 |[WHSWarehouseSlottingTemplateDetailsV2Entity](WHSWarehouseSlottingTemplateDetailsV2Entity.md)||
 |[WHSWarehouseSlottingTemplateV2Entity](WHSWarehouseSlottingTemplateV2Entity.md)||
 |[WHSWarehouseSlottingUnitOfMeasureTierDetailsEntity](WHSWarehouseSlottingUnitOfMeasureTierDetailsEntity.md)||

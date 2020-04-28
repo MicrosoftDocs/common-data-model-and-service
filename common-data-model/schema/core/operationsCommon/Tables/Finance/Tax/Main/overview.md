@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -32,6 +32,8 @@ ms.author: nebanfic
 |[TaxInformationLegalEntity_IN](TaxInformationLegalEntity_IN.md)||
 |[TaxInformationVendTable_IN](TaxInformationVendTable_IN.md)||
 |[TaxInformation_TH](TaxInformation_TH.md)||
+|[TaxIntegrationBusinessProcessTable](TaxIntegrationBusinessProcessTable.md)||
+|[TaxIntegrationErrorCodeTable](TaxIntegrationErrorCodeTable.md)||
 |[TaxIntervatConfiguration](TaxIntervatConfiguration.md)||
 |[TaxLedgerAccountGroup_IN](TaxLedgerAccountGroup_IN.md)||
 |[TaxPAYGVariationTable](TaxPAYGVariationTable.md)||

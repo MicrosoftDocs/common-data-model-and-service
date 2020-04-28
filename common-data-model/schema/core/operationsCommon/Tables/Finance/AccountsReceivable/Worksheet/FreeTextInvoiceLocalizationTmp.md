@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -78,6 +78,8 @@ ms.author: nebanfic
 |[InventBatchId](#InventBatchId)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
 |[InventColorId](#InventColorId)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
 |[InventColorIdFlag](#InventColorIdFlag)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
+|[InventVersionId](#InventVersionId)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
+|[InventVersionIdFlag](#InventVersionIdFlag)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
 |[InventDimPrint](#InventDimPrint)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
 |[InventLocationId](#InventLocationId)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
 |[InventSerialId](#InventSerialId)||<a href="FreeTextInvoiceLocalizationTmp.md" target="_blank">Worksheet/FreeTextInvoiceLocalizationTmp</a>|
@@ -347,7 +349,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash discount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -356,6 +358,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cash discount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -741,7 +746,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -750,6 +755,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1070,6 +1078,43 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 **is.dataFormat.integer**  
 </details>
 
+### <a href=#InventVersionId name="InventVersionId">InventVersionId</a>
+
+First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventVersionIdFlag name="InventVersionIdFlag">InventVersionIdFlag</a>
+
+First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionIdFlag attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
+</details>
+
 ### <a href=#InventDimPrint name="InventDimPrint">InventDimPrint</a>
 
 First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)  
@@ -1193,7 +1238,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -1202,6 +1247,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2151,7 +2199,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales subtotal amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -2160,6 +2208,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales subtotal amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -2770,7 +2821,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales tax</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -2779,6 +2830,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales tax</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3022,7 +3076,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
 
 #### Traits
 
@@ -3031,6 +3085,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3083,7 +3140,7 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Directive</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -3093,6 +3150,9 @@ First included in: Worksheet/FreeTextInvoiceLocalizationTmp (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Directive</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

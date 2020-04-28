@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -39,6 +39,7 @@ ms.author: nebanfic
 |[ItemId](#ItemId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
 |[SiteId](#SiteId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
 |[StyleId](#StyleId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
+|[VersionId](#VersionId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
 |[ConfigId](#ConfigId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
 |[ColorId](#ColorId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
 |[SizeId](#SizeId)||<a href="CostObjectWithLowestTurnDataSetTable.md" target="_blank">Miscellaneous/CostObjectWithLowestTurnDataSetTable</a>|
@@ -124,6 +125,26 @@ First included in: Miscellaneous/CostObjectWithLowestTurnDataSetTable (this enti
 
 <details>
 <summary>List of traits for the StyleId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#VersionId name="VersionId">VersionId</a>
+
+First included in: Miscellaneous/CostObjectWithLowestTurnDataSetTable (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the VersionId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

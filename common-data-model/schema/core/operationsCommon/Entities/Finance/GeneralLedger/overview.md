@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -17,6 +17,7 @@ ms.author: nebanfic
 |Name|Description|
 |---|---|
 |[AccountantEntity](AccountantEntity.md)||
+|[AdvancedLedgerEntryEntity](AdvancedLedgerEntryEntity.md)||
 |[AuditTrailEntity](AuditTrailEntity.md)||
 |[CFOPCodesEntity](CFOPCodesEntity.md)||
 |[CFOPGroupEntity](CFOPGroupEntity.md)||
@@ -31,6 +32,7 @@ ms.author: nebanfic
 |[DimAttributeHcmPositionEntity](DimAttributeHcmPositionEntity.md)||
 |[DimAttributeHcmWorkerEntity](DimAttributeHcmWorkerEntity.md)||
 |[DimAttributeInventTableEntity](DimAttributeInventTableEntity.md)||
+|[DimAttributeLedgerFund_PSNEntity](DimAttributeLedgerFund_PSNEntity.md)||
 |[DimAttributeProjGroupEntity](DimAttributeProjGroupEntity.md)||
 |[DimAttributeProjInvoiceTableEntity](DimAttributeProjInvoiceTableEntity.md)||
 |[DimAttributeProjTableEntity](DimAttributeProjTableEntity.md)||
@@ -158,6 +160,8 @@ ms.author: nebanfic
 |[PlSADItemCodeEntity](PlSADItemCodeEntity.md)||
 |[PSNCashControlConfigurationEntity](PSNCashControlConfigurationEntity.md)||
 |[PSNCashPositionColumnSetupEntity](PSNCashPositionColumnSetupEntity.md)||
+|[PSNLedgerInterestDistributionResultEntity](PSNLedgerInterestDistributionResultEntity.md)||
+|[PSNLedgerInterestDistributionRuleEntity](PSNLedgerInterestDistributionRuleEntity.md)||
 |[PSNTreasurerFundReportMainAccountsEntity](PSNTreasurerFundReportMainAccountsEntity.md)||
 |[PSNTreasurerFundReportParametersEntity](PSNTreasurerFundReportParametersEntity.md)||
 |[RTSLCurrencyIndexEntity](RTSLCurrencyIndexEntity.md)||

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -24,6 +24,7 @@ ms.author: nebanfic
 |[TaxEvatError_NL](TaxEvatError_NL.md)||
 |[TaxEvatParameters_NL](TaxEvatParameters_NL.md)||
 |[TaxFiscalClassification_BR](TaxFiscalClassification_BR.md)||
+|[TaxIntegrationTaxServiceParameters](TaxIntegrationTaxServiceParameters.md)||
 |[TaxParameters](TaxParameters.md)||
 |[TaxRegistrationLegislationTypes](TaxRegistrationLegislationTypes.md)||
 |[TaxRegistration_CA](TaxRegistration_CA.md)||

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -23,7 +23,6 @@ ms.author: nebanfic
 |[ProcurementAndSourcing](ProcurementAndSourcing/overview.md)|
 |[ProductInformationManagement](ProductInformationManagement/overview.md)|
 |[ProductionControl](ProductionControl/overview.md)|
-|[ProductionControls](ProductionControls/overview.md)|
 |[SalesAndMarketing](SalesAndMarketing/overview.md)|
 |[ServiceManagement](ServiceManagement/overview.md)|
 |[Transportation](Transportation/overview.md)|

@@ -1576,6 +1576,8 @@
           href: operationsCommon/Entities/Common/GAB/overview.md
         - name: BranchEntity 
           href: operationsCommon/Entities/Common/GAB/BranchEntity.md
+        - name: CompanyInfoEntity 
+          href: operationsCommon/Entities/Common/GAB/CompanyInfoEntity.md
         - name: DirAddressBooksEntity 
           href: operationsCommon/Entities/Common/GAB/DirAddressBooksEntity.md
         - name: DirExternalRoleEntity 
@@ -2322,6 +2324,8 @@
           href: operationsCommon/Entities/Finance/Budgeting/LedgerPeriodAllocationCategoryEntity.md
         - name: PSNPositionForecastDimensionValidationEntity 
           href: operationsCommon/Entities/Finance/Budgeting/PSNPositionForecastDimensionValidationEntity.md
+        - name: PurchCommitmentLineEntity 
+          href: operationsCommon/Entities/Finance/Budgeting/PurchCommitmentLineEntity.md
       - name: CashAndBankManagement
         items:
         - name: Summary
@@ -2646,6 +2650,8 @@
           href: operationsCommon/Entities/Finance/GeneralLedger/overview.md
         - name: AccountantEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/AccountantEntity.md
+        - name: AdvancedLedgerEntryEntity 
+          href: operationsCommon/Entities/Finance/GeneralLedger/AdvancedLedgerEntryEntity.md
         - name: AuditTrailEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/AuditTrailEntity.md
         - name: CFOPCodesEntity 
@@ -2674,6 +2680,8 @@
           href: operationsCommon/Entities/Finance/GeneralLedger/DimAttributeHcmWorkerEntity.md
         - name: DimAttributeInventTableEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/DimAttributeInventTableEntity.md
+        - name: DimAttributeLedgerFund_PSNEntity 
+          href: operationsCommon/Entities/Finance/GeneralLedger/DimAttributeLedgerFund_PSNEntity.md
         - name: DimAttributeProjGroupEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/DimAttributeProjGroupEntity.md
         - name: DimAttributeProjInvoiceTableEntity 
@@ -2918,6 +2926,10 @@
           href: operationsCommon/Entities/Finance/GeneralLedger/PSNCashControlConfigurationEntity.md
         - name: PSNCashPositionColumnSetupEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/PSNCashPositionColumnSetupEntity.md
+        - name: PSNLedgerInterestDistributionResultEntity 
+          href: operationsCommon/Entities/Finance/GeneralLedger/PSNLedgerInterestDistributionResultEntity.md
+        - name: PSNLedgerInterestDistributionRuleEntity 
+          href: operationsCommon/Entities/Finance/GeneralLedger/PSNLedgerInterestDistributionRuleEntity.md
         - name: PSNTreasurerFundReportMainAccountsEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/PSNTreasurerFundReportMainAccountsEntity.md
         - name: PSNTreasurerFundReportParametersEntity 
@@ -2950,16 +2962,6 @@
           href: operationsCommon/Entities/Finance/GeneralLedger/SlipJournalEntity.md
         - name: SubledgerJournalTransferRuleEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/SubledgerJournalTransferRuleEntity.md
-      - name: PublicSector
-        items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/PublicSector/overview.md
-        - name: DimAttributeLedgerFund_PSNEntity 
-          href: operationsCommon/Entities/Finance/PublicSector/DimAttributeLedgerFund_PSNEntity.md
-        - name: PSNLedgerInterestDistributionResultEntity 
-          href: operationsCommon/Entities/Finance/PublicSector/PSNLedgerInterestDistributionResultEntity.md
-        - name: PSNLedgerInterestDistributionRuleEntity 
-          href: operationsCommon/Entities/Finance/PublicSector/PSNLedgerInterestDistributionRuleEntity.md
       - name: RAsset
         items:
         - name: Summary
@@ -3572,170 +3574,28 @@
       items:
       - name: Summary
         href: operationsCommon/Entities/HumanResources/overview.md
-      - name: Benefits
-        items:
-        - name: Summary
-          href: operationsCommon/Entities/HumanResources/Benefits/overview.md
-        - name: HcmBenefitDetailEntity 
-          href: operationsCommon/Entities/HumanResources/Benefits/HcmBenefitDetailEntity.md
       - name: HRM
         items:
         - name: Summary
           href: operationsCommon/Entities/HumanResources/HRM/overview.md
         - name: EmplPostingEntity_W 
           href: operationsCommon/Entities/HumanResources/HRM/EmplPostingEntity_W.md
-        - name: HCMCourseInstructorEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HCMCourseInstructorEntity.md
-        - name: HCMCourseParticipantEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HCMCourseParticipantEntity.md
-        - name: HcmADARequirementReportEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmADARequirementReportEntity.md
-        - name: HcmAbsenceCodeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmAbsenceCodeEntity.md
-        - name: HcmAbsenceCodeGroupEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmAbsenceCodeGroupEntity.md
-        - name: HcmAbsenceReasonEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmAbsenceReasonEntity.md
-        - name: HcmAccommodationTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmAccommodationTypeEntity.md
-        - name: HcmActionTypeSetupEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmActionTypeSetupEntity.md
-        - name: HcmActionTypeSetupRoleEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmActionTypeSetupRoleEntity.md
-        - name: HcmAgreementTermEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmAgreementTermEntity.md
-        - name: HcmApplicantCertificateEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantCertificateEntity.md
-        - name: HcmApplicantCourseEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantCourseEntity.md
-        - name: HcmApplicantEducationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantEducationEntity.md
-        - name: HcmApplicantEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantEntity.md
-        - name: HcmApplicantExamEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantExamEntity.md
-        - name: HcmApplicantInterviewExportEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantInterviewExportEntity.md
-        - name: HcmApplicantProfessionalExperienceEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantProfessionalExperienceEntity.md
         - name: HcmApplicantProjectRoleEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantProjectRoleEntity.md
-        - name: HcmApplicantSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantSkillEntity.md
-        - name: HcmApplicantTrustedPositionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicantTrustedPositionEntity.md
-        - name: HcmApplicationBookmarkEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicationBookmarkEntity.md
-        - name: HcmApplicationEmailTemplateEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicationEmailTemplateEntity.md
-        - name: HcmApplicationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicationEntity.md
-        - name: HcmApplicationInboxEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmApplicationInboxEntity.md
-        - name: HcmBIApplicantEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIApplicantEntity.md
-        - name: HcmBIApplicantNameEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIApplicantNameEntity.md
-        - name: HcmBICourseAgendaEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICourseAgendaEntity.md
-        - name: HcmBICourseAttendeesEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICourseAttendeesEntity.md
-        - name: HcmBICourseEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICourseEntity.md
-        - name: HcmBICourseInstructorEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICourseInstructorEntity.md
-        - name: HcmBICourseSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICourseSkillEntity.md
-        - name: HcmBICourseTableInstructorEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICourseTableInstructorEntity.md
-        - name: HcmBICurrentFixedCompensationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICurrentFixedCompensationEntity.md
-        - name: HcmBICurrentPositionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBICurrentPositionEntity.md
         - name: HcmBICurrentWorkerEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBICurrentWorkerEntity.md
-        - name: HcmBIDemographicsEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIDemographicsEntity.md
         - name: HcmBIEmployedApplicantEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBIEmployedApplicantEntity.md
-        - name: HcmBIEmploymentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIEmploymentEntity.md
-        - name: HcmBIFixedCompensationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIFixedCompensationEntity.md
-        - name: HcmBIJobEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIJobEntity.md
-        - name: HcmBIJobPreferredSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIJobPreferredSkillEntity.md
-        - name: HcmBIMassHireLineEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIMassHireLineEntity.md
-        - name: HcmBIMassHireProjectEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIMassHireProjectEntity.md
-        - name: HcmBIMediaEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIMediaEntity.md
-        - name: HcmBIPastPositionAssignmentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIPastPositionAssignmentEntity.md
         - name: HcmBIPerformanceEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBIPerformanceEntity.md
-        - name: HcmBIPersonSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIPersonSkillEntity.md
-        - name: HcmBIPositionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIPositionEntity.md
-        - name: HcmBIPositionTrendEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIPositionTrendEntity.md
-        - name: HcmBIRecruitmentProjectEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIRecruitmentProjectEntity.md
         - name: HcmBITerminatedApplicantEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBITerminatedApplicantEntity.md
         - name: HcmBITerminatedWorkerEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBITerminatedWorkerEntity.md
-        - name: HcmBIWorkerBenefitEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIWorkerBenefitEntity.md
-        - name: HcmBIWorkerNameEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIWorkerNameEntity.md
-        - name: HcmBIWorkerTitleEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBIWorkerTitleEntity.md
         - name: HcmBIWorkerTrendEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBIWorkerTrendEntity.md
-        - name: HcmBenefitEligibilityOverrideEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitEligibilityOverrideEntity.md
-        - name: HcmBenefitEligibilityPolicyEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitEligibilityPolicyEntity.md
-        - name: HcmBenefitEligibilityPolicyRuleTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitEligibilityPolicyRuleTypeEntity.md
-        - name: HcmBenefitEligibilityRuleEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitEligibilityRuleEntity.md
-        - name: HcmBenefitEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitEntity.md
-        - name: HcmBenefitOptionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitOptionEntity.md
-        - name: HcmBenefitPlanEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitPlanEntity.md
-        - name: HcmBenefitTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmBenefitTypeEntity.md
         - name: HcmBudgetCostElementEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmBudgetCostElementEntity.md
-        - name: HcmCertificateTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCertificateTypeEntity.md
-        - name: HcmClassroomGroupEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmClassroomGroupEntity.md
-        - name: HcmCompFixedEmplEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompFixedEmplEntity.md
-        - name: HcmCompFixedPlanTableEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompFixedPlanTableEntity.md
-        - name: HcmCompVarPlanLevelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompVarPlanLevelEntity.md
-        - name: HcmCompVarPlanTableEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompVarPlanTableEntity.md
-        - name: HcmCompensationEligibilityRuleEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationEligibilityRuleEntity.md
-        - name: HcmCompensationEventEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationEventEntity.md
-        - name: HcmCompensationGridEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationGridEntity.md
-        - name: HcmCompensationLevelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationLevelEntity.md
-        - name: HcmCompensationMeritIncreaseTargetEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationMeritIncreaseTargetEntity.md
         - name: HcmCompensationPayPerformanceAllocationEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationPayPerformanceAllocationEntity.md
         - name: HcmCompensationPayPerformanceAllocationLineEntity 
@@ -3744,60 +3604,8 @@
           href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationPerformancePlansEntity.md
         - name: HcmCompensationPerformanceRatingEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationPerformanceRatingEntity.md
-        - name: HcmCompensationProcessEventsEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationProcessEventsEntity.md
-        - name: HcmCompensationReferencePointEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationReferencePointEntity.md
-        - name: HcmCompensationReferencePointSetupLineEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationReferencePointSetupLineEntity.md
-        - name: HcmCompensationRegionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationRegionEntity.md
-        - name: HcmCompensationStructureEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCompensationStructureEntity.md
         - name: HcmContractorEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmContractorEntity.md
-        - name: HcmCourseGroupEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseGroupEntity.md
-        - name: HcmCourseHotelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseHotelEntity.md
-        - name: HcmCourseLocationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseLocationEntity.md
-        - name: HcmCourseRoomEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseRoomEntity.md
-        - name: HcmCourseTableEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTableEntity.md
-        - name: HcmCourseTableHotelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTableHotelEntity.md
-        - name: HcmCourseTypeCertificateProfileEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTypeCertificateProfileEntity.md
-        - name: HcmCourseTypeDefaultDimensionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTypeDefaultDimensionEntity.md
-        - name: HcmCourseTypeEducationProfileEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTypeEducationProfileEntity.md
-        - name: HcmCourseTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTypeEntity.md
-        - name: HcmCourseTypeNotesEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTypeNotesEntity.md
-        - name: HcmCourseTypeSkillProfileEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCourseTypeSkillProfileEntity.md
-        - name: HcmCoveredBeneficiaryRelationshipEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCoveredBeneficiaryRelationshipEntity.md
-        - name: HcmCoveredDependentRelationshipEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmCoveredDependentRelationshipEntity.md
-        - name: HcmDiscussionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmDiscussionEntity.md
-        - name: HcmDiscussionTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmDiscussionTypeEntity.md
-        - name: HcmEducationDegreeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmEducationDegreeEntity.md
-        - name: HcmEducationDisciplineCategoryEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmEducationDisciplineCategoryEntity.md
-        - name: HcmEducationDisciplineEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmEducationDisciplineEntity.md
-        - name: HcmEducationDisciplineGroupEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmEducationDisciplineGroupEntity.md
-        - name: HcmEducationInstitutionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmEducationInstitutionEntity.md
         - name: HcmEmployeeEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmEmployeeEntity.md
         - name: HcmEmploymentContractorEntity 
@@ -3810,54 +3618,10 @@
           href: operationsCommon/Entities/HumanResources/HRM/HcmEmploymentEmployeeEntity.md
         - name: HcmEmploymentEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmEmploymentEntity.md
-        - name: HcmEmploymentLeaveEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmEmploymentLeaveEntity.md
         - name: HcmEmploymentTermEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmEmploymentTermEntity.md
         - name: HcmEthnicOriginEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmEthnicOriginEntity.md
-        - name: HcmExamEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmExamEntity.md
-        - name: HcmFMLACaseDetailEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmFMLACaseDetailEntity.md
-        - name: HcmFMLAHoursTrackingDetailEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmFMLAHoursTrackingDetailEntity.md
-        - name: HcmFixedCompensationActionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmFixedCompensationActionEntity.md
-        - name: HcmGoalEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmGoalEntity.md
-        - name: HcmGoalHeadingEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmGoalHeadingEntity.md
-        - name: HcmI9DocumentTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmI9DocumentTypeEntity.md
-        - name: HcmIdentificationTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmIdentificationTypeEntity.md
-        - name: HcmInjuryBodyPartEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryBodyPartEntity.md
-        - name: HcmInjuryCostTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryCostTypeEntity.md
-        - name: HcmInjuryIncidentCostTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryIncidentCostTypeEntity.md
-        - name: HcmInjuryIncidentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryIncidentEntity.md
-        - name: HcmInjuryIncidentFilingAgencyEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryIncidentFilingAgencyEntity.md
-        - name: HcmInjuryIncidentTreatmentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryIncidentTreatmentEntity.md
-        - name: HcmInjuryOutcomeTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryOutcomeTypeEntity.md
-        - name: HcmInjuryReportingAgencyEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryReportingAgencyEntity.md
-        - name: HcmInjurySeverityLevelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjurySeverityLevelEntity.md
-        - name: HcmInjuryTreatmentTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryTreatmentTypeEntity.md
-        - name: HcmInjuryTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmInjuryTypeEntity.md
-        - name: HcmIssuingAgencyEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmIssuingAgencyEntity.md
-        - name: HcmJobADARequirementEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobADARequirementEntity.md
         - name: HcmJobBaseEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobBaseEntity.md
         - name: HcmJobDetailEntity 
@@ -3872,32 +3636,12 @@
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobPreferredEducationDisciplineEntity.md
         - name: HcmJobPreferredExamEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobPreferredExamEntity.md
-        - name: HcmJobPreferredScreeningEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobPreferredScreeningEntity.md
-        - name: HcmJobPreferredSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobPreferredSkillEntity.md
         - name: HcmJobResponsibilityEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobResponsibilityEntity.md
         - name: HcmJobTaskAssignmentEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobTaskAssignmentEntity.md
         - name: HcmJobTaskEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobTaskEntity.md
-        - name: HcmJobTemplateADARequirementEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateADARequirementEntity.md
-        - name: HcmJobTemplateCertificateEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateCertificateEntity.md
-        - name: HcmJobTemplateEducationDisciplineEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateEducationDisciplineEntity.md
-        - name: HcmJobTemplateEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateEntity.md
-        - name: HcmJobTemplateExamEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateExamEntity.md
-        - name: HcmJobTemplateResponsibilityEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateResponsibilityEntity.md
-        - name: HcmJobTemplateScreeningEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateScreeningEntity.md
-        - name: HcmJobTemplateSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateSkillEntity.md
         - name: HcmJobTemplateTaskEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmJobTemplateTaskEntity.md
         - name: HcmJobTypeEntity 
@@ -3908,60 +3652,6 @@
           href: operationsCommon/Entities/HumanResources/HRM/HcmLaborUnionEntity.md
         - name: HcmLanguageCodeEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmLanguageCodeEntity.md
-        - name: HcmLoanItemEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmLoanItemEntity.md
-        - name: HcmLoanTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmLoanTypeEntity.md
-        - name: HcmLoanedEquipmentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmLoanedEquipmentEntity.md
-        - name: HcmMediaEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmMediaEntity.md
-        - name: HcmMediaTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmMediaTypeEntity.md
-        - name: HcmParametersEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmParametersEntity.md
-        - name: HcmPayRateConversionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPayRateConversionEntity.md
-        - name: HcmPayrollCalculationFrequencyEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPayrollCalculationFrequencyEntity.md
-        - name: HcmPayrollCalculationFrequencyPayPeriodEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPayrollCalculationFrequencyPayPeriodEntity.md
-        - name: HcmPerfJournalEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPerfJournalEntity.md
-        - name: HcmPerfJournalSourceTypesEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPerfJournalSourceTypesEntity.md
-        - name: HcmPerfPeriodEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPerfPeriodEntity.md
-        - name: HcmPerfPraiseEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPerfPraiseEntity.md
-        - name: HcmPersonAccommodationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonAccommodationEntity.md
-        - name: HcmPersonCertificateEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonCertificateEntity.md
-        - name: HcmPersonCourseEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonCourseEntity.md
-        - name: HcmPersonDetailsEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonDetailsEntity.md
-        - name: HcmPersonEducationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonEducationEntity.md
-        - name: HcmPersonExamEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonExamEntity.md
-        - name: HcmPersonIdentificationNumberEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonIdentificationNumberEntity.md
-        - name: HcmPersonImageEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonImageEntity.md
-        - name: HcmPersonLaborUnionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonLaborUnionEntity.md
-        - name: HcmPersonProfessionalExperienceEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonProfessionalExperienceEntity.md
-        - name: HcmPersonScreeningEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonScreeningEntity.md
-        - name: HcmPersonSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonSkillEntity.md
-        - name: HcmPersonSkillMappingEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonSkillMappingEntity.md
-        - name: HcmPersonTrustedPositionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmPersonTrustedPositionEntity.md
         - name: HcmPersonalContactOrganizationEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmPersonalContactOrganizationEntity.md
         - name: HcmPersonalContactPersonEntity 
@@ -3988,40 +3678,12 @@
           href: operationsCommon/Entities/HumanResources/HRM/HcmPositionV2Entity.md
         - name: HcmPositionWorkerAssignmentEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmPositionWorkerAssignmentEntity.md
-        - name: HcmRatingLevelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmRatingLevelEntity.md
-        - name: HcmRatingModelEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmRatingModelEntity.md
-        - name: HcmReasonCodeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmReasonCodeEntity.md
-        - name: HcmRecruitingMediaEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmRecruitingMediaEntity.md
-        - name: HcmRecruitingProjectEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmRecruitingProjectEntity.md
-        - name: HcmRegulatoryEstablishmentDetailEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmRegulatoryEstablishmentDetailEntity.md
-        - name: HcmRegulatoryEstablishmentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmRegulatoryEstablishmentEntity.md
-        - name: HcmResponsibilityEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmResponsibilityEntity.md
-        - name: HcmScreeningTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmScreeningTypeEntity.md
-        - name: HcmSharedParametersEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmSharedParametersEntity.md
         - name: HcmSignLimitParametersEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmSignLimitParametersEntity.md
         - name: HcmSigningLimitAgreementEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmSigningLimitAgreementEntity.md
         - name: HcmSigningLimitRevocationReasonCodeEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmSigningLimitRevocationReasonCodeEntity.md
-        - name: HcmSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmSkillEntity.md
-        - name: HcmSkillMappingHeaderEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmSkillMappingHeaderEntity.md
-        - name: HcmSkillTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmSkillTypeEntity.md
-        - name: HcmSurveyCompanyEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmSurveyCompanyEntity.md
         - name: HcmTitleEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmTitleEntity.md
         - name: HcmTotalCompStatementSectionBenefitEntity 
@@ -4032,56 +3694,26 @@
           href: operationsCommon/Entities/HumanResources/HRM/HcmTotalCompStatementSectionHeaderEntity.md
         - name: HcmTotalCompStatementSectionTaxEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmTotalCompStatementSectionTaxEntity.md
-        - name: HcmVariableCompensationEnrollmentEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmVariableCompensationEnrollmentEntity.md
-        - name: HcmVariableCompensationEnrollmentLineEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmVariableCompensationEnrollmentLineEntity.md
-        - name: HcmVariableCompensationTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmVariableCompensationTypeEntity.md
-        - name: HcmVestingRuleEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmVestingRuleEntity.md
-        - name: HcmVeteranStatusEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmVeteranStatusEntity.md
         - name: HcmWorkerAdvHolderTableEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerAdvHolderTableEntity.md
         - name: HcmWorkerBankAccountEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerBankAccountEntity.md
         - name: HcmWorkerBaseEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerBaseEntity.md
-        - name: HcmWorkerCertificateEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerCertificateEntity.md
         - name: HcmWorkerContactEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerContactEntity.md
-        - name: HcmWorkerCourseEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerCourseEntity.md
-        - name: HcmWorkerEducationEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerEducationEntity.md
-        - name: HcmWorkerEnrolledBenefitEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerEnrolledBenefitEntity.md
         - name: HcmWorkerEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerEntity.md
-        - name: HcmWorkerExamEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerExamEntity.md
         - name: HcmWorkerGroupEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerGroupEntity.md
         - name: HcmWorkerPostalAddressV2Entity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerPostalAddressV2Entity.md
-        - name: HcmWorkerProfessionalExperienceEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerProfessionalExperienceEntity.md
         - name: HcmWorkerProjectRoleEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerProjectRoleEntity.md
-        - name: HcmWorkerSkillEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerSkillEntity.md
         - name: HcmWorkerSummaryEntity 
           href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerSummaryEntity.md
-        - name: HcmWorkerTaskEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerTaskEntity.md
-        - name: HcmWorkerTrustedPositionEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/HcmWorkerTrustedPositionEntity.md
         - name: KMAnswersByPersonEntity 
           href: operationsCommon/Entities/HumanResources/HRM/KMAnswersByPersonEntity.md
-        - name: LeaveTypeEntity 
-          href: operationsCommon/Entities/HumanResources/HRM/LeaveTypeEntity.md
         - name: PayrollBankAccountDisbursementEntity 
           href: operationsCommon/Entities/HumanResources/HRM/PayrollBankAccountDisbursementEntity.md
         - name: PayrollPayCycleEntity 
@@ -4508,6 +4140,8 @@
           href: operationsCommon/Entities/SupplyChain/CostManagement/ACOJournalNameEntity.md
         - name: CostStatementEntryEntity 
           href: operationsCommon/Entities/SupplyChain/CostManagement/CostStatementEntryEntity.md
+        - name: CostStatementEntryV2Entity 
+          href: operationsCommon/Entities/SupplyChain/CostManagement/CostStatementEntryV2Entity.md
       - name: InventoryAndWarehouseManagement
         items:
         - name: Summary
@@ -4532,8 +4166,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/CostInventoryAccountingKPIGoalsEntity.md
         - name: CostLedgerReconciliationPolicyEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/CostLedgerReconciliationPolicyEntity.md
-        - name: CostMonthlyCostStatementEntryEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/CostMonthlyCostStatementEntryEntity.md
+        - name: CostMonthlyCostStatementEntryV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/CostMonthlyCostStatementEntryV2Entity.md
         - name: CostOperationalSiteFinancialDimensionLinkPolicyEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/CostOperationalSiteFinancialDimensionLinkPolicyEntity.md
         - name: CostProductionGroupEntity 
@@ -4550,8 +4184,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/EcoResProductMasterEntity.md
         - name: EcoResProductParametersEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/EcoResProductParametersEntity.md
-        - name: EcoResReleasedProductWarehouseDefaultsEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/EcoResReleasedProductWarehouseDefaultsEntity.md
+        - name: EcoResReleasedProductWarehouseDefaultsV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/EcoResReleasedProductWarehouseDefaultsV2Entity.md
         - name: ExceptionCodeEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/ExceptionCodeEntity.md
         - name: FBCFOPCreditBaseSourceEntity 
@@ -4582,8 +4216,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventFiscalLIFOJournalNameEntity.md
         - name: InventInventoryAdjustmentJournalEntryCDSEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryAdjustmentJournalEntryCDSEntity.md
-        - name: InventInventoryAdjustmentJournalEntryEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryAdjustmentJournalEntryEntity.md
+        - name: InventInventoryAdjustmentJournalEntryV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryAdjustmentJournalEntryV2Entity.md
         - name: InventInventoryAdjustmentJournalHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryAdjustmentJournalHeaderEntity.md
         - name: InventInventoryAdjustmentJournalNameEntity 
@@ -4608,10 +4242,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryLedgerPostingDefinitionEntity.md
         - name: InventInventoryManagementParametersEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryManagementParametersEntity.md
-        - name: InventInventoryMovementJournalEntryEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryMovementJournalEntryEntity.md
-        - name: InventInventoryMovementJournalEntryEntityV2 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryMovementJournalEntryEntityV2.md
+        - name: InventInventoryMovementJournalEntryV3Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryMovementJournalEntryV3Entity.md
         - name: InventInventoryMovementJournalHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventInventoryMovementJournalHeaderEntity.md
         - name: InventInventoryMovementJournalNameEntity 
@@ -4642,12 +4274,16 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemGTDEntity.md
         - name: InventItemPendingPriceEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemPendingPriceEntity.md
+        - name: InventItemPendingPriceV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemPendingPriceV2Entity.md
         - name: InventItemPriceComparisonStorageEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemPriceComparisonStorageEntity.md
         - name: InventItemPriceEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemPriceEntity.md
         - name: InventItemPriceToleranceGroupEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemPriceToleranceGroupEntity.md
+        - name: InventItemPriceV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemPriceV2Entity.md
         - name: InventItemSerialNumberEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventItemSerialNumberEntity.md
         - name: InventLedgerPostingDefinitionCombinationRuleEntity 
@@ -4668,10 +4304,10 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventOrderEntryDeadlineActivationEntity.md
         - name: InventOrderEntryDeadlineGroupEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventOrderEntryDeadlineGroupEntity.md
-        - name: InventPackingMaterialAllocationEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventPackingMaterialAllocationEntity.md
-        - name: InventPackingMaterialAllocationLineEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventPackingMaterialAllocationLineEntity.md
+        - name: InventPackingMaterialAllocationLineV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventPackingMaterialAllocationLineV2Entity.md
+        - name: InventPackingMaterialAllocationV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventPackingMaterialAllocationV2Entity.md
         - name: InventPackingMaterialEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventPackingMaterialEntity.md
         - name: InventPackingMaterialFeeEntity 
@@ -4690,8 +4326,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventProductGroupEntity.md
         - name: InventProductSiteSpecificOrderSettingsEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventProductSiteSpecificOrderSettingsEntity.md
-        - name: InventProductSpecificOrderSettingsV2Entity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventProductSpecificOrderSettingsV2Entity.md
+        - name: InventProductSpecificOrderSettingsV3Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventProductSpecificOrderSettingsV3Entity.md
         - name: InventProductTypeEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventProductTypeEntity.md
         - name: InventProductionLedgerPostingDefinitionEntity 
@@ -4750,12 +4386,12 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseCurrentPostalAddressV2Entity.md
         - name: InventWarehouseEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseEntity.md
-        - name: InventWarehouseInventoryStatusOnHandEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseInventoryStatusOnHandEntity.md
+        - name: InventWarehouseInventoryStatusOnHandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseInventoryStatusOnHandV2Entity.md
         - name: InventWarehouseOnHandCDSEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseOnHandCDSEntity.md
-        - name: InventWarehouseOnHandEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseOnHandEntity.md
+        - name: InventWarehouseOnHandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehouseOnHandV2Entity.md
         - name: InventWarehousePostalAddressEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventWarehousePostalAddressEntity.md
         - name: InventWarehouseQuarantineZoneEntity 
@@ -4764,16 +4400,16 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventoryChargeCDSEntity.md
         - name: InventoryChargeEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventoryChargeEntity.md
-        - name: InventorySiteOnHandEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventorySiteOnHandEntity.md
+        - name: InventorySiteOnHandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/InventorySiteOnHandV2Entity.md
         - name: PdsBatchDispositionEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/PdsBatchDispositionEntity.md
         - name: PdsCommodityCostBasisTypeEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/PdsCommodityCostBasisTypeEntity.md
         - name: PdsCommodityPricingTemplateEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/PdsCommodityPricingTemplateEntity.md
-        - name: PdsCommodityQuantityMarginTemplateEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/PdsCommodityQuantityMarginTemplateEntity.md
+        - name: PdsCommodityQuantityMarginTemplateV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/PdsCommodityQuantityMarginTemplateV2Entity.md
         - name: PdsCustomerSpecificItemBatchAttributeEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/PdsCustomerSpecificItemBatchAttributeEntity.md
         - name: PdsItemBatchAttributeEnumerationValueEntity 
@@ -4824,8 +4460,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSLoadMixGroupCriterionEntity.md
         - name: WHSLoadMixGroupEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSLoadMixGroupEntity.md
-        - name: WHSLocatedWarehouseSlottingDemandEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSLocatedWarehouseSlottingDemandEntity.md
+        - name: WHSLocatedWarehouseSlottingDemandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSLocatedWarehouseSlottingDemandV2Entity.md
         - name: WHSOutboundSortingTemplateGroupEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSOutboundSortingTemplateGroupEntity.md
         - name: WHSOutboundSortingTemplateV2Entity 
@@ -4840,8 +4476,8 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSWarehouseLocationTypeEntity.md
         - name: WHSWarehouseMobileDeviceMenuItemSystemDirectedWorkSequenceQueryV2Entity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSWarehouseMobileDeviceMenuItemSystemDirectedWorkSequenceQueryV2Entity.md
-        - name: WHSWarehouseSlottingDemandEntity 
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSWarehouseSlottingDemandEntity.md
+        - name: WHSWarehouseSlottingDemandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSWarehouseSlottingDemandV2Entity.md
         - name: WHSWarehouseSlottingTemplateDetailsV2Entity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSWarehouseSlottingTemplateDetailsV2Entity.md
         - name: WHSWarehouseSlottingTemplateV2Entity 
@@ -4888,8 +4524,8 @@
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ForecastSubModelEntity.md
         - name: ForecastSupplyForecastEntryEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ForecastSupplyForecastEntryEntity.md
-        - name: LeanProductLeanScheduleGroupAssignmentEntity 
-          href: operationsCommon/Entities/SupplyChain/MasterPlanning/LeanProductLeanScheduleGroupAssignmentEntity.md
+        - name: LeanProductLeanScheduleGroupAssignmentV2Entity 
+          href: operationsCommon/Entities/SupplyChain/MasterPlanning/LeanProductLeanScheduleGroupAssignmentV2Entity.md
         - name: LeanScheduleGroupEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/LeanScheduleGroupEntity.md
         - name: ProductAllocationKeyEntity 
@@ -4906,12 +4542,12 @@
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ProductionOrderSequencingSequenceEntity.md
         - name: ProductionOrderSequencingSequenceValueEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ProductionOrderSequencingSequenceValueEntity.md
-        - name: ReqDemPlanAggregatedDemandEntity 
-          href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqDemPlanAggregatedDemandEntity.md
         - name: ReqDemPlanAggregatedDemandPerAllocationKeyEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqDemPlanAggregatedDemandPerAllocationKeyEntity.md
-        - name: ReqDemPlanHistoricalExternalDemandEntity 
-          href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqDemPlanHistoricalExternalDemandEntity.md
+        - name: ReqDemPlanAggregatedDemandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqDemPlanAggregatedDemandV2Entity.md
+        - name: ReqDemPlanHistoricalExternalDemandV2Entity 
+          href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqDemPlanHistoricalExternalDemandV2Entity.md
         - name: ReqDynamicPlanProductionOrderScheduleEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqDynamicPlanProductionOrderScheduleEntity.md
         - name: ReqForecastPlanEntity 
@@ -4922,8 +4558,8 @@
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqIntercompanyPlanningGroupEntity.md
         - name: ReqIntercompanyPlanningGroupMemberEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqIntercompanyPlanningGroupMemberEntity.md
-        - name: ReqItemCoverageSettingsEntity 
-          href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqItemCoverageSettingsEntity.md
+        - name: ReqItemCoverageSettingsV2Entity 
+          href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqItemCoverageSettingsV2Entity.md
         - name: ReqMasterPlanEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ReqMasterPlanEntity.md
         - name: ReqMasterPlanningParametersEntity 
@@ -4986,14 +4622,14 @@
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/InventSupplementaryProductVendorGroupEntity.md
         - name: MCRRoyaltyAgreementHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementHeaderEntity.md
-        - name: MCRRoyaltyAgreementHeaderProductSelectionEntity 
-          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementHeaderProductSelectionEntity.md
+        - name: MCRRoyaltyAgreementHeaderProductSelectionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementHeaderProductSelectionV2Entity.md
         - name: MCRRoyaltyAgreementLineAmountEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementLineAmountEntity.md
         - name: MCRRoyaltyAgreementLineEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementLineEntity.md
-        - name: MCRRoyaltyAgreementLineProductSelectionEntity 
-          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementLineProductSelectionEntity.md
+        - name: MCRRoyaltyAgreementLineProductSelectionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/MCRRoyaltyAgreementLineProductSelectionV2Entity.md
         - name: NGPCodeEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/NGPCodeEntity.md
         - name: PlSADDocumentInvoicePurchaseOrderEntity 
@@ -5044,8 +4680,6 @@
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchAutomaticPurchaseDocumentLineChargeEntity.md
         - name: PurchBookVATProcessParametersEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchBookVATProcessParametersEntity.md
-        - name: PurchCommitmentLineEntity 
-          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchCommitmentLineEntity.md
         - name: PurchDemandConsolidationExternalCatalogItemCategoryEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchDemandConsolidationExternalCatalogItemCategoryEntity.md
         - name: PurchDemandConsolidationExternalCatalogItemCategoryVendorEntity 
@@ -5212,8 +4846,8 @@
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchRequestForQuotationScoringMethodEntity.md
         - name: PurchRequestForQuotationSolicitationTypeEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchRequestForQuotationSolicitationTypeEntity.md
-        - name: PurchVendorProductDescriptionEntity 
-          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchVendorProductDescriptionEntity.md
+        - name: PurchVendorProductDescriptionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchVendorProductDescriptionV2Entity.md
         - name: PurchaseAgreementLineNoteEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchaseAgreementLineNoteEntity.md
         - name: PurchaseLineDiscountAgreementEntity 
@@ -5244,8 +4878,8 @@
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/TAMVendorRebateAgreementHeaderEntity.md
         - name: TAMVendorRebateAgreementLineEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/TAMVendorRebateAgreementLineEntity.md
-        - name: TAMVendorRebateAgreementProductSelectionEntity 
-          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/TAMVendorRebateAgreementProductSelectionEntity.md
+        - name: TAMVendorRebateAgreementProductSelectionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/TAMVendorRebateAgreementProductSelectionV2Entity.md
         - name: VendChargeVendorGroupEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/VendChargeVendorGroupEntity.md
         - name: VendFormletterVendorFacingFormPrintingConfigurationEntity 
@@ -5302,20 +4936,22 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/overview.md
         - name: BOMBillOfMaterialsHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsHeaderEntity.md
-        - name: BOMBillOfMaterialsLineV2Entity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsLineV2Entity.md
+        - name: BOMBillOfMaterialsLineV3Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsLineV3Entity.md
         - name: BOMBillOfMaterialsParametersEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsParametersEntity.md
         - name: BOMBillOfMaterialsVersionDocumentAttachmentEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsVersionDocumentAttachmentEntity.md
         - name: BOMBillOfMaterialsVersionODataEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsVersionODataEntity.md
-        - name: BOMBillOfMaterialsVersionV2Entity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsVersionV2Entity.md
+        - name: BOMBillOfMaterialsVersionODataV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsVersionODataV2Entity.md
+        - name: BOMBillOfMaterialsVersionV3Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsVersionV3Entity.md
         - name: BOMConfigurationGroupEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMConfigurationGroupEntity.md
-        - name: BOMItemSpecificBillOfMaterialsHeaderEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMItemSpecificBillOfMaterialsHeaderEntity.md
+        - name: BOMItemSpecificBillOfMaterialsHeaderV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMItemSpecificBillOfMaterialsHeaderV2Entity.md
         - name: EcoResAttributeGroupEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResAttributeGroupEntity.md
         - name: EcoResAttributeValueEntity 
@@ -5390,8 +5026,8 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductEntityIdentifierCodeEntity.md
         - name: EcoResProductEntityIdentifierScopeEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductEntityIdentifierScopeEntity.md
-        - name: EcoResProductGlobalTradeItemNumberAssignmentEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductGlobalTradeItemNumberAssignmentEntity.md
+        - name: EcoResProductGlobalTradeItemNumberAssignmentV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductGlobalTradeItemNumberAssignmentV2Entity.md
         - name: EcoResProductLifecycleStateEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductLifecycleStateEntity.md
         - name: EcoResProductMasterColorEntity 
@@ -5410,6 +5046,10 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductMasterStyleEntity.md
         - name: EcoResProductMasterStyleTranslationEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductMasterStyleTranslationEntity.md
+        - name: EcoResProductMasterVersionEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductMasterVersionEntity.md
+        - name: EcoResProductMasterVersionTranslationEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductMasterVersionTranslationEntity.md
         - name: EcoResProductNumberIdentifiedProductVariantEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductNumberIdentifiedProductVariantEntity.md
         - name: EcoResProductNumberIdentifiedReleasedProductVariantEntity 
@@ -5444,10 +5084,18 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductTranslationEntity.md
         - name: EcoResProductV2Entity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductV2Entity.md
-        - name: EcoResProductVariantEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVariantEntity.md
         - name: EcoResProductVariantNomenclatureEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVariantNomenclatureEntity.md
+        - name: EcoResProductVariantV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVariantV2Entity.md
+        - name: EcoResProductVersionEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionEntity.md
+        - name: EcoResProductVersionGroupEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionGroupEntity.md
+        - name: EcoResProductVersionGroupLineEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionGroupLineEntity.md
+        - name: EcoResProductVersionGroupLineTranslationEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionGroupLineTranslationEntity.md
         - name: EcoResReleasedDistinctProductCDSEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedDistinctProductCDSEntity.md
         - name: EcoResReleasedDistinctProductV2Entity 
@@ -5464,12 +5112,12 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductMasterV2Entity.md
         - name: EcoResReleasedProductV2Entity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductV2Entity.md
-        - name: EcoResReleasedProductVariantEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductVariantEntity.md
         - name: EcoResReleasedProductVariantExternalCodeClassEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductVariantExternalCodeClassEntity.md
-        - name: EcoResReleasedProductVariantExternalCodeEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductVariantExternalCodeEntity.md
+        - name: EcoResReleasedProductVariantExternalCodeV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductVariantExternalCodeV2Entity.md
+        - name: EcoResReleasedProductVariantV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedProductVariantV2Entity.md
         - name: EcoResRetailProductEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResRetailProductEntity.md
         - name: EcoResSellableReleasedProductEntity 
@@ -5494,10 +5142,10 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PdsRegionalRestrictedProductEntity.md
         - name: PdsRegionalRestrictedProductListEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PdsRegionalRestrictedProductListEntity.md
-        - name: PmfFormulaByProductEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaByProductEntity.md
-        - name: PmfFormulaCoProductEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaCoProductEntity.md
+        - name: PmfFormulaByProductV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaByProductV2Entity.md
+        - name: PmfFormulaCoProductV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaCoProductV2Entity.md
         - name: PmfFormulaHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaHeaderEntity.md
         - name: PmfFormulaLineConsumptionIntervalV2Entity 
@@ -5508,10 +5156,10 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaSubstitutionGroupEntity.md
         - name: PmfFormulaVersionDocumentAttachmentEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaVersionDocumentAttachmentEntity.md
-        - name: PmfFormulaVersionEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaVersionEntity.md
-        - name: PmfItemSpecificFormulaHeaderEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfItemSpecificFormulaHeaderEntity.md
+        - name: PmfFormulaVersionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfFormulaVersionV2Entity.md
+        - name: PmfItemSpecificFormulaHeaderV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/PmfItemSpecificFormulaHeaderV2Entity.md
         - name: ProcProductCategoryCommodityCodeEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/ProcProductCategoryCommodityCodeEntity.md
         - name: ProcProductCategoryInformationPageEntity 
@@ -5652,6 +5300,8 @@
           href: operationsCommon/Entities/SupplyChain/ProductionControl/ProdProductionOrderRouteOperationEntity.md
         - name: ProdProductionOrderRouteOperationResourceRequirementEntity 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/ProdProductionOrderRouteOperationResourceRequirementEntity.md
+        - name: ProdProductionPickingListJournalEntryEntity 
+          href: operationsCommon/Entities/SupplyChain/ProductionControl/ProdProductionPickingListJournalEntryEntity.md
         - name: ProdProductionRouteTransactionEntity 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/ProdProductionRouteTransactionEntity.md
         - name: ProdProductionUnitEntity 
@@ -5684,10 +5334,12 @@
           href: operationsCommon/Entities/SupplyChain/ProductionControl/RouteOperationPropertiesV2Entity.md
         - name: RouteRouteOperationEntityV2 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/RouteRouteOperationEntityV2.md
-        - name: RouteVersionEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductionControl/RouteVersionEntity.md
         - name: RouteVersionODataEntity 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/RouteVersionODataEntity.md
+        - name: RouteVersionODataV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductionControl/RouteVersionODataV2Entity.md
+        - name: RouteVersionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/ProductionControl/RouteVersionV2Entity.md
         - name: TSTimesheetLineEntity 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/TSTimesheetLineEntity.md
         - name: TSTimesheetTableEntity 
@@ -5714,12 +5366,6 @@
           href: operationsCommon/Entities/SupplyChain/ProductionControl/WrkCtrOperationsResourceSchedulingParametersEntity.md
         - name: WrkCtrSiteSpecificOperationsResourceSchedulingParametersEntity 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/WrkCtrSiteSpecificOperationsResourceSchedulingParametersEntity.md
-      - name: ProductionControls
-        items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/ProductionControls/overview.md
-        - name: ProdProductionPickingListJournalEntryEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductionControls/ProdProductionPickingListJournalEntryEntity.md
       - name: SalesAndMarketing
         items:
         - name: Summary
@@ -5798,8 +5444,8 @@
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/MCRSalesOrderHoldCodeEntity.md
         - name: MCRSalesPostageDiscountAgreementEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/MCRSalesPostageDiscountAgreementEntity.md
-        - name: MCRSalesProductSetDetailEntity 
-          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/MCRSalesProductSetDetailEntity.md
+        - name: MCRSalesProductSetDetailV2Entity 
+          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/MCRSalesProductSetDetailV2Entity.md
         - name: MCRSalesProductSetEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/MCRSalesProductSetEntity.md
         - name: MarkupDocumentChargeEntity 
@@ -5864,8 +5510,8 @@
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesChargeEntity.md
         - name: SalesContactPersonTitleEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesContactPersonTitleEntity.md
-        - name: SalesCustomerProductDescriptionEntity 
-          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesCustomerProductDescriptionEntity.md
+        - name: SalesCustomerProductDescriptionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesCustomerProductDescriptionV2Entity.md
         - name: SalesDeliveryChargeCDSEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesDeliveryChargeCDSEntity.md
         - name: SalesDeliveryChargeEntity 
@@ -5982,8 +5628,8 @@
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesRebateAgreementHeaderV2Entity.md
         - name: SalesRebateAgreementLineEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesRebateAgreementLineEntity.md
-        - name: SalesRebateAgreementProductSelectionEntity 
-          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesRebateAgreementProductSelectionEntity.md
+        - name: SalesRebateAgreementProductSelectionV2Entity 
+          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesRebateAgreementProductSelectionV2Entity.md
         - name: SalesRebateCustomerGroupEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/SalesRebateCustomerGroupEntity.md
         - name: SalesRebateEntity 
@@ -6032,10 +5678,10 @@
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventFundEntity.md
         - name: TAMTradeAllowanceAgreementMerchandisingEventLumpSumEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventLumpSumEntity.md
-        - name: TAMTradeAllowanceAgreementMerchandisingEventProductEntity 
-          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventProductEntity.md
-        - name: TAMTradeAllowanceAgreementProductEntity 
-          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TAMTradeAllowanceAgreementProductEntity.md
+        - name: TAMTradeAllowanceAgreementMerchandisingEventProductV2Entity 
+          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TAMTradeAllowanceAgreementMerchandisingEventProductV2Entity.md
+        - name: TAMTradeAllowanceAgreementProductV2Entity 
+          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TAMTradeAllowanceAgreementProductV2Entity.md
         - name: TaxSalesOrderTransTaxInformationEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/TaxSalesOrderTransTaxInformationEntity.md
         - name: TaxSalesQuotationTransTaxInformationEntity 
@@ -6452,8 +6098,8 @@
           href: operationsCommon/Entities/SupplyChain/WMS/WHSCycleCountingPlanProductSelectionEntity.md
         - name: WHSCycleCountingThresholdEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSCycleCountingThresholdEntity.md
-        - name: WHSCycleCountingWarehouseWorkLineEntity 
-          href: operationsCommon/Entities/SupplyChain/WMS/WHSCycleCountingWarehouseWorkLineEntity.md
+        - name: WHSCycleCountingWarehouseWorkLineV2Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSCycleCountingWarehouseWorkLineV2Entity.md
         - name: WHSDocumentRoutingPrinterEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSDocumentRoutingPrinterEntity.md
         - name: WHSDocumentRoutingPrinterLayoutEntity 
@@ -6464,8 +6110,8 @@
           href: operationsCommon/Entities/SupplyChain/WMS/WHSFirstProductFilterCodeEntity.md
         - name: WHSFirstWarehouseWaveAttributeEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSFirstWarehouseWaveAttributeEntity.md
-        - name: WHSFixedProductWarehouseLocationEntity 
-          href: operationsCommon/Entities/SupplyChain/WMS/WHSFixedProductWarehouseLocationEntity.md
+        - name: WHSFixedProductWarehouseLocationV2Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSFixedProductWarehouseLocationV2Entity.md
         - name: WHSFourthContainerAttributeEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSFourthContainerAttributeEntity.md
         - name: WHSFourthProductFilterCodeEntity 
@@ -6480,10 +6126,14 @@
           href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundLoadPackingStructureCaseEntity.md
         - name: WHSInboundLoadPackingStructureCaseLineV2Entity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundLoadPackingStructureCaseLineV2Entity.md
+        - name: WHSInboundLoadPackingStructureCaseLineV3Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundLoadPackingStructureCaseLineV3Entity.md
         - name: WHSInboundLoadPackingStructureEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundLoadPackingStructureEntity.md
         - name: WHSInboundLoadPackingStructureLineV2Entity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundLoadPackingStructureLineV2Entity.md
+        - name: WHSInboundLoadPackingStructureLineV3Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundLoadPackingStructureLineV3Entity.md
         - name: WHSInboundShipmentHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSInboundShipmentHeaderEntity.md
         - name: WHSInventoryAdjustmentTypeEntity 
@@ -6522,10 +6172,14 @@
           href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundLoadPackingStructureCaseEntity.md
         - name: WHSOutboundLoadPackingStructureCaseLineEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundLoadPackingStructureCaseLineEntity.md
+        - name: WHSOutboundLoadPackingStructureCaseLineV2Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundLoadPackingStructureCaseLineV2Entity.md
         - name: WHSOutboundLoadPackingStructureEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundLoadPackingStructureEntity.md
         - name: WHSOutboundLoadPackingStructureLineEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundLoadPackingStructureLineEntity.md
+        - name: WHSOutboundLoadPackingStructureLineV2Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundLoadPackingStructureLineV2Entity.md
         - name: WHSOutboundShipmentHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSOutboundShipmentHeaderEntity.md
         - name: WHSPackSizeCategoryEntity 
@@ -6644,6 +6298,8 @@
           href: operationsCommon/Entities/SupplyChain/WMS/WHSWarehouseReplenishmentTemplateLineEntity.md
         - name: WHSWarehouseStockingLimitEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSWarehouseStockingLimitEntity.md
+        - name: WHSWarehouseStockingLimitV2Entity 
+          href: operationsCommon/Entities/SupplyChain/WMS/WHSWarehouseStockingLimitV2Entity.md
         - name: WHSWarehouseWaveFilterV2Entity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSWarehouseWaveFilterV2Entity.md
         - name: WHSWarehouseWaveProcessingMethodEntity 
@@ -6770,6 +6426,8 @@
           href: operationsCommon/Entities/System/SystemAdministration/DMFDefinitionGroupTemplateHeaderEntity.md
         - name: DMFDefinitionGroupTemplateLineEntity 
           href: operationsCommon/Entities/System/SystemAdministration/DMFDefinitionGroupTemplateLineEntity.md
+        - name: DMFEntityExecutionParametersEntity 
+          href: operationsCommon/Entities/System/SystemAdministration/DMFEntityExecutionParametersEntity.md
         - name: DataManagementDefinitionGroupDetailEntity 
           href: operationsCommon/Entities/System/SystemAdministration/DataManagementDefinitionGroupDetailEntity.md
         - name: DataManagementDefinitionGroupEntity 
@@ -7018,12 +6676,6 @@
         items:
         - name: Summary
           href: operationsCommon/Tables/Common/Customer/overview.md
-        - name: Group
-          items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Customer/Group/overview.md
-          - name: CustTradingPartnerCode 
-            href: operationsCommon/Tables/Common/Customer/Group/CustTradingPartnerCode.md
         - name: Main
           items:
           - name: Summary
@@ -7816,6 +7468,8 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/DemoDataPostRunDocument.md
           - name: DemoDataPostRunDocumentStatus 
             href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/DemoDataPostRunDocumentStatus.md
+          - name: PaymTermHold 
+            href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/PaymTermHold.md
           - name: PurchRFQLineTaxExtensionIN 
             href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/PurchRFQLineTaxExtensionIN.md
           - name: PurchReqLineTaxExtensionIN 
@@ -8018,6 +7672,10 @@
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/overview.md
+          - name: PSNPurchasingCardVendInvoiceInfoTable 
+            href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/PSNPurchasingCardVendInvoiceInfoTable.md
+          - name: PSNPurchasingCardVendTrans 
+            href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/PSNPurchasingCardVendTrans.md
           - name: VendInvoiceInfoLine 
             href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/VendInvoiceInfoLine.md
           - name: VendInvoiceInfoLineMarkupMatchingTrans 
@@ -8174,6 +7832,8 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Group/CustLedgerAccounts.md
           - name: CustStatisticsGroup 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Group/CustStatisticsGroup.md
+          - name: CustTradingPartnerCode 
+            href: operationsCommon/Tables/Finance/AccountsReceivable/Group/CustTradingPartnerCode.md
           - name: CustVendItemGroup 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Group/CustVendItemGroup.md
           - name: CustVendPaymFeeGroup_JP 
@@ -8840,6 +8500,8 @@
             href: operationsCommon/Tables/Finance/Bank/Group/LedgerAccountCov.md
           - name: LedgerLiquidity 
             href: operationsCommon/Tables/Finance/Bank/Group/LedgerLiquidity.md
+          - name: PSNPurchasingCardBank 
+            href: operationsCommon/Tables/Finance/Bank/Group/PSNPurchasingCardBank.md
           - name: PaymDay 
             href: operationsCommon/Tables/Finance/Bank/Group/PaymDay.md
           - name: PaymDayLine 
@@ -8994,8 +8656,10 @@
             href: operationsCommon/Tables/Finance/Bank/Miscellaneous/LegalRepresentative_BR.md
           - name: LvPaymTransCodes 
             href: operationsCommon/Tables/Finance/Bank/Miscellaneous/LvPaymTransCodes.md
-          - name: PaymTermHold 
-            href: operationsCommon/Tables/Finance/Bank/Miscellaneous/PaymTermHold.md
+          - name: PSNCashControlConfiguration 
+            href: operationsCommon/Tables/Finance/Bank/Miscellaneous/PSNCashControlConfiguration.md
+          - name: PSNCashPositionMainAccount 
+            href: operationsCommon/Tables/Finance/Bank/Miscellaneous/PSNCashPositionMainAccount.md
           - name: TmpBankImport_RU 
             href: operationsCommon/Tables/Finance/Bank/Miscellaneous/TmpBankImport_RU.md
           - name: TmpBankRegionImport_RU 
@@ -9024,6 +8688,8 @@
             href: operationsCommon/Tables/Finance/Bank/Parameter/CustSettlementTransactionPriority.md
           - name: CustVendNetParameters 
             href: operationsCommon/Tables/Finance/Bank/Parameter/CustVendNetParameters.md
+          - name: PSNCashPositionColumnSetup 
+            href: operationsCommon/Tables/Finance/Bank/Parameter/PSNCashPositionColumnSetup.md
           - name: PaymInstruction 
             href: operationsCommon/Tables/Finance/Bank/Parameter/PaymInstruction.md
           - name: VendPaymModeFee 
@@ -9440,6 +9106,10 @@
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/BudgetPlanLayoutCache.md
           - name: BudgetPlanLineDefaultRowTemplate 
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/BudgetPlanLineDefaultRowTemplate.md
+          - name: BudgetProposalConfiguration 
+            href: operationsCommon/Tables/Finance/Budget/Miscellaneous/BudgetProposalConfiguration.md
+          - name: BudgetProposalSource 
+            href: operationsCommon/Tables/Finance/Budget/Miscellaneous/BudgetProposalSource.md
           - name: BudgetReservationType_PSN 
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/BudgetReservationType_PSN.md
           - name: BudgetSourceTrackingDetailClosing 
@@ -9460,6 +9130,10 @@
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/HcmPositionForecastLastModified.md
           - name: PSNBudgetReservationTransactionLineForCorrection 
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/PSNBudgetReservationTransactionLineForCorrection.md
+          - name: PurchCommitmentHeader_PSN 
+            href: operationsCommon/Tables/Finance/Budget/Miscellaneous/PurchCommitmentHeader_PSN.md
+          - name: PurchCommitmentLine_PSN 
+            href: operationsCommon/Tables/Finance/Budget/Miscellaneous/PurchCommitmentLine_PSN.md
         - name: Parameter
           items:
           - name: Summary
@@ -9514,6 +9188,8 @@
             href: operationsCommon/Tables/Finance/Budget/Transaction/BudgetSourceTrackingRelievingDetail.md
           - name: BudgetTransactionLineReverse 
             href: operationsCommon/Tables/Finance/Budget/Transaction/BudgetTransactionLineReverse.md
+          - name: PSNPositionForecastDimensionValidation 
+            href: operationsCommon/Tables/Finance/Budget/Transaction/PSNPositionForecastDimensionValidation.md
         - name: WorksheetHeader
           items:
           - name: Summary
@@ -9698,10 +9374,6 @@
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/EInvoice/Group/overview.md
-          - name: BusinessDocumentReturnState 
-            href: operationsCommon/Tables/Finance/EInvoice/Group/BusinessDocumentReturnState.md
-          - name: BusinessDocumentTypes 
-            href: operationsCommon/Tables/Finance/EInvoice/Group/BusinessDocumentTypes.md
           - name: CFDIWithholdingType_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Group/CFDIWithholdingType_MX.md
           - name: EInvoiceExtCodeTable_MX 
@@ -9730,8 +9402,6 @@
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/EInvoice/Parameter/overview.md
-          - name: BusinessDocumentParameters 
-            href: operationsCommon/Tables/Finance/EInvoice/Parameter/BusinessDocumentParameters.md
           - name: EInvoiceCFDIParameters_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Parameter/EInvoiceCFDIParameters_MX.md
           - name: EInvoiceParameters_IT 
@@ -9744,8 +9414,6 @@
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/EInvoice/Transaction/overview.md
-          - name: BusinessDocumentSubmission 
-            href: operationsCommon/Tables/Finance/EInvoice/Transaction/BusinessDocumentSubmission.md
           - name: CFDIWithholdingJour_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Transaction/CFDIWithholdingJour_MX.md
           - name: CFDIWithholdingTrans_MX 
@@ -11228,6 +10896,12 @@
             href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/NumberPeriod_CN.md
           - name: NumberSequenceTable_CN 
             href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/NumberSequenceTable_CN.md
+          - name: PSNLedgerInterestDistributionResults 
+            href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/PSNLedgerInterestDistributionResults.md
+          - name: PSNLedgerInterestDistributionRules 
+            href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/PSNLedgerInterestDistributionRules.md
+          - name: PSNTreasurerFundReportMainAccounts 
+            href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/PSNTreasurerFundReportMainAccounts.md
           - name: TransactionReversalExecutionDetail 
             href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/TransactionReversalExecutionDetail.md
         - name: Parameter
@@ -11244,6 +10918,8 @@
             href: operationsCommon/Tables/Finance/Ledger/Parameter/LedgerRRGEDParameters_W.md
           - name: LedgerTransSettlementAccount 
             href: operationsCommon/Tables/Finance/Ledger/Parameter/LedgerTransSettlementAccount.md
+          - name: PSNTreasurerFundReportParameters 
+            href: operationsCommon/Tables/Finance/Ledger/Parameter/PSNTreasurerFundReportParameters.md
           - name: RTSLParameters 
             href: operationsCommon/Tables/Finance/Ledger/Parameter/RTSLParameters.md
         - name: Reference
@@ -11420,6 +11096,8 @@
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/Ledger/WorksheetHeader/overview.md
+          - name: AdvancedLedgerEntryHeader 
+            href: operationsCommon/Tables/Finance/Ledger/WorksheetHeader/AdvancedLedgerEntryHeader.md
           - name: LedgerBalanceSheetHeader 
             href: operationsCommon/Tables/Finance/Ledger/WorksheetHeader/LedgerBalanceSheetHeader.md
           - name: LedgerClosingSheet 
@@ -11442,6 +11120,8 @@
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/Ledger/WorksheetLine/overview.md
+          - name: AdvancedLedgerEntryLine 
+            href: operationsCommon/Tables/Finance/Ledger/WorksheetLine/AdvancedLedgerEntryLine.md
           - name: LedgerBalanceSheetCorrection 
             href: operationsCommon/Tables/Finance/Ledger/WorksheetLine/LedgerBalanceSheetCorrection.md
           - name: LedgerBalanceSheetGross 
@@ -11496,98 +11176,20 @@
         items:
         - name: Summary
           href: operationsCommon/Tables/Finance/PublicSector/overview.md
-        - name: Group
-          items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/Group/overview.md
-          - name: PSNPurchasingCardBank 
-            href: operationsCommon/Tables/Finance/PublicSector/Group/PSNPurchasingCardBank.md
         - name: Miscellaneous
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/overview.md
           - name: ConfirmingPO 
             href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/ConfirmingPO.md
-          - name: PSNCashControlConfiguration 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNCashControlConfiguration.md
-          - name: PSNCashPositionMainAccount 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNCashPositionMainAccount.md
-          - name: PSNLedgerInterestDistributionResults 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNLedgerInterestDistributionResults.md
-          - name: PSNLedgerInterestDistributionRules 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNLedgerInterestDistributionRules.md
-          - name: PSNPurchRFQBiddingGuidanceItem 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNPurchRFQBiddingGuidanceItem.md
-          - name: PSNPurchRFQCaseBiddingGuidanceItem 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNPurchRFQCaseBiddingGuidanceItem.md
-          - name: PSNPurchRFQSolicitationBiddingItem 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNPurchRFQSolicitationBiddingItem.md
-          - name: PSNTreasurerFundReportMainAccounts 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNTreasurerFundReportMainAccounts.md
-          - name: PSNUserInfo 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PSNUserInfo.md
           - name: PurchAgreementActivity 
             href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchAgreementActivity.md
-          - name: PurchAgreementCertification 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchAgreementCertification.md
-          - name: PurchAgreementFinDimensionAccess_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchAgreementFinDimensionAccess_PSN.md
-          - name: PurchAgreementSubcontractor 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchAgreementSubcontractor.md
-          - name: PurchCommitmentHeader_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchCommitmentHeader_PSN.md
-          - name: PurchCommitmentLine_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchCommitmentLine_PSN.md
-          - name: PurchPolicyRuleCatThresholdDetail_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchPolicyRuleCatThresholdDetail_PSN.md
-          - name: PurchPolicyRuleCatThreshold_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchPolicyRuleCatThreshold_PSN.md
-          - name: PurchRFQCloseVisibilityType_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchRFQCloseVisibilityType_PSN.md
-          - name: PurchRFQPublishLine_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchRFQPublishLine_PSN.md
-        - name: Parameter
-          items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/Parameter/overview.md
-          - name: PSNCashPositionColumnSetup 
-            href: operationsCommon/Tables/Finance/PublicSector/Parameter/PSNCashPositionColumnSetup.md
-          - name: PSNTreasurerFundReportParameters 
-            href: operationsCommon/Tables/Finance/PublicSector/Parameter/PSNTreasurerFundReportParameters.md
-          - name: PurchParmTable_PaymentDisbursement 
-            href: operationsCommon/Tables/Finance/PublicSector/Parameter/PurchParmTable_PaymentDisbursement.md
-        - name: Transaction
-          items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/Transaction/overview.md
-          - name: PSNPositionForecastDimensionValidation 
-            href: operationsCommon/Tables/Finance/PublicSector/Transaction/PSNPositionForecastDimensionValidation.md
-        - name: TransactionLine
-          items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/TransactionLine/overview.md
-          - name: PSNPurchasingCardVendInvoiceInfoTable 
-            href: operationsCommon/Tables/Finance/PublicSector/TransactionLine/PSNPurchasingCardVendInvoiceInfoTable.md
-          - name: PSNPurchasingCardVendTrans 
-            href: operationsCommon/Tables/Finance/PublicSector/TransactionLine/PSNPurchasingCardVendTrans.md
         - name: WorksheetHeader
           items:
           - name: Summary
             href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/overview.md
-          - name: AdvancedLedgerEntryHeader 
-            href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/AdvancedLedgerEntryHeader.md
-          - name: PurchEncumbranceSummary 
-            href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/PurchEncumbranceSummary.md
-          - name: PurchRFQPublishTable_PSN 
-            href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/PurchRFQPublishTable_PSN.md
           - name: PurchTotalsSummary 
             href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/PurchTotalsSummary.md
-        - name: WorksheetLine
-          items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/WorksheetLine/overview.md
-          - name: AdvancedLedgerEntryLine 
-            href: operationsCommon/Tables/Finance/PublicSector/WorksheetLine/AdvancedLedgerEntryLine.md
       - name: RAsset
         items:
         - name: Summary
@@ -12364,6 +11966,10 @@
             href: operationsCommon/Tables/Finance/Tax/Main/TaxInformationVendTable_IN.md
           - name: TaxInformation_TH 
             href: operationsCommon/Tables/Finance/Tax/Main/TaxInformation_TH.md
+          - name: TaxIntegrationBusinessProcessTable 
+            href: operationsCommon/Tables/Finance/Tax/Main/TaxIntegrationBusinessProcessTable.md
+          - name: TaxIntegrationErrorCodeTable 
+            href: operationsCommon/Tables/Finance/Tax/Main/TaxIntegrationErrorCodeTable.md
           - name: TaxIntervatConfiguration 
             href: operationsCommon/Tables/Finance/Tax/Main/TaxIntervatConfiguration.md
           - name: TaxLedgerAccountGroup_IN 
@@ -12648,6 +12254,8 @@
             href: operationsCommon/Tables/Finance/Tax/Parameter/TaxEvatParameters_NL.md
           - name: TaxFiscalClassification_BR 
             href: operationsCommon/Tables/Finance/Tax/Parameter/TaxFiscalClassification_BR.md
+          - name: TaxIntegrationTaxServiceParameters 
+            href: operationsCommon/Tables/Finance/Tax/Parameter/TaxIntegrationTaxServiceParameters.md
           - name: TaxParameters 
             href: operationsCommon/Tables/Finance/Tax/Parameter/TaxParameters.md
           - name: TaxRegistrationLegislationTypes 
@@ -15726,14 +15334,34 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/overview.md
           - name: AifPortValueMap 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/AifPortValueMap.md
+          - name: PSNPurchRFQBiddingGuidanceItem 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PSNPurchRFQBiddingGuidanceItem.md
+          - name: PSNPurchRFQCaseBiddingGuidanceItem 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PSNPurchRFQCaseBiddingGuidanceItem.md
+          - name: PSNPurchRFQSolicitationBiddingItem 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PSNPurchRFQSolicitationBiddingItem.md
           - name: ProcCategoryTmpAccessPolicy 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/ProcCategoryTmpAccessPolicy.md
+          - name: PurchAgreementCertification 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchAgreementCertification.md
+          - name: PurchAgreementFinDimensionAccess_PSN 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchAgreementFinDimensionAccess_PSN.md
+          - name: PurchAgreementSubcontractor 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchAgreementSubcontractor.md
+          - name: PurchPolicyRuleCatThresholdDetail_PSN 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchPolicyRuleCatThresholdDetail_PSN.md
+          - name: PurchPolicyRuleCatThreshold_PSN 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchPolicyRuleCatThreshold_PSN.md
           - name: PurchPurchaseOrderHeader 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchPurchaseOrderHeader.md
           - name: PurchPurchaseOrderTmp 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchPurchaseOrderTmp.md
           - name: PurchRFQCaseTableKMCollection 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchRFQCaseTableKMCollection.md
+          - name: PurchRFQCloseVisibilityType_PSN 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchRFQCloseVisibilityType_PSN.md
+          - name: PurchRFQPublishLine_PSN 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchRFQPublishLine_PSN.md
           - name: PurchRFQReplyScoringStatus 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/PurchRFQReplyScoringStatus.md
           - name: PurchRFQSolicitationType 
@@ -15768,6 +15396,8 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/CatUserReviewSettings.md
           - name: PurchParameters 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/PurchParameters.md
+          - name: PurchParmTable_PaymentDisbursement 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/PurchParmTable_PaymentDisbursement.md
           - name: PurchRFQParameters 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/PurchRFQParameters.md
           - name: PurchRFQTableMap2LineParameters 
@@ -15998,6 +15628,8 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchAgreementHeader.md
           - name: PurchAgreementHeaderDefault 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchAgreementHeaderDefault.md
+          - name: PurchEncumbranceSummary 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchEncumbranceSummary.md
           - name: PurchPackingSlipHeaderTmp 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchPackingSlipHeaderTmp.md
           - name: PurchParmSubTable 
@@ -16008,6 +15640,8 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchRFQCaseTable.md
           - name: PurchRFQParmTable 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchRFQParmTable.md
+          - name: PurchRFQPublishTable_PSN 
+            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchRFQPublishTable_PSN.md
           - name: PurchRFQReplyTable 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/PurchRFQReplyTable.md
           - name: PurchRFQSealedReplyTableAttachmentLink 
@@ -18766,6 +18400,8 @@
             href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/OfficeAppResourceRegistration.md
           - name: PBIEmbeddedOverride 
             href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/PBIEmbeddedOverride.md
+          - name: PSNUserInfo 
+            href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/PSNUserInfo.md
           - name: PerfTimeLog 
             href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/PerfTimeLog.md
           - name: PowerBIConfig 

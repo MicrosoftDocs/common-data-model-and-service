@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -17,22 +17,4 @@ ms.author: nebanfic
 |Name|Description|
 |---|---|
 |[ConfirmingPO](ConfirmingPO.md)||
-|[PSNCashControlConfiguration](PSNCashControlConfiguration.md)||
-|[PSNCashPositionMainAccount](PSNCashPositionMainAccount.md)||
-|[PSNLedgerInterestDistributionResults](PSNLedgerInterestDistributionResults.md)||
-|[PSNLedgerInterestDistributionRules](PSNLedgerInterestDistributionRules.md)||
-|[PSNPurchRFQBiddingGuidanceItem](PSNPurchRFQBiddingGuidanceItem.md)||
-|[PSNPurchRFQCaseBiddingGuidanceItem](PSNPurchRFQCaseBiddingGuidanceItem.md)||
-|[PSNPurchRFQSolicitationBiddingItem](PSNPurchRFQSolicitationBiddingItem.md)||
-|[PSNTreasurerFundReportMainAccounts](PSNTreasurerFundReportMainAccounts.md)||
-|[PSNUserInfo](PSNUserInfo.md)||
 |[PurchAgreementActivity](PurchAgreementActivity.md)||
-|[PurchAgreementCertification](PurchAgreementCertification.md)||
-|[PurchAgreementFinDimensionAccess_PSN](PurchAgreementFinDimensionAccess_PSN.md)||
-|[PurchAgreementSubcontractor](PurchAgreementSubcontractor.md)||
-|[PurchCommitmentHeader_PSN](PurchCommitmentHeader_PSN.md)||
-|[PurchCommitmentLine_PSN](PurchCommitmentLine_PSN.md)||
-|[PurchPolicyRuleCatThresholdDetail_PSN](PurchPolicyRuleCatThresholdDetail_PSN.md)||
-|[PurchPolicyRuleCatThreshold_PSN](PurchPolicyRuleCatThreshold_PSN.md)||
-|[PurchRFQCloseVisibilityType_PSN](PurchRFQCloseVisibilityType_PSN.md)||
-|[PurchRFQPublishLine_PSN](PurchRFQPublishLine_PSN.md)||

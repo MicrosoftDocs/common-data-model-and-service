@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -35,13 +35,13 @@ ms.author: nebanfic
 |[WHSCycleCountingPlanEntity](WHSCycleCountingPlanEntity.md)||
 |[WHSCycleCountingPlanProductSelectionEntity](WHSCycleCountingPlanProductSelectionEntity.md)||
 |[WHSCycleCountingThresholdEntity](WHSCycleCountingThresholdEntity.md)||
-|[WHSCycleCountingWarehouseWorkLineEntity](WHSCycleCountingWarehouseWorkLineEntity.md)||
+|[WHSCycleCountingWarehouseWorkLineV2Entity](WHSCycleCountingWarehouseWorkLineV2Entity.md)||
 |[WHSDocumentRoutingPrinterEntity](WHSDocumentRoutingPrinterEntity.md)||
 |[WHSDocumentRoutingPrinterLayoutEntity](WHSDocumentRoutingPrinterLayoutEntity.md)||
 |[WHSFirstContainerAttributeEntity](WHSFirstContainerAttributeEntity.md)||
 |[WHSFirstProductFilterCodeEntity](WHSFirstProductFilterCodeEntity.md)||
 |[WHSFirstWarehouseWaveAttributeEntity](WHSFirstWarehouseWaveAttributeEntity.md)||
-|[WHSFixedProductWarehouseLocationEntity](WHSFixedProductWarehouseLocationEntity.md)||
+|[WHSFixedProductWarehouseLocationV2Entity](WHSFixedProductWarehouseLocationV2Entity.md)||
 |[WHSFourthContainerAttributeEntity](WHSFourthContainerAttributeEntity.md)||
 |[WHSFourthProductFilterCodeEntity](WHSFourthProductFilterCodeEntity.md)||
 |[WHSFourthWarehouseWaveAttributeEntity](WHSFourthWarehouseWaveAttributeEntity.md)||
@@ -49,8 +49,10 @@ ms.author: nebanfic
 |[WHSInboundLoadHeaderEntity](WHSInboundLoadHeaderEntity.md)||
 |[WHSInboundLoadPackingStructureCaseEntity](WHSInboundLoadPackingStructureCaseEntity.md)||
 |[WHSInboundLoadPackingStructureCaseLineV2Entity](WHSInboundLoadPackingStructureCaseLineV2Entity.md)||
+|[WHSInboundLoadPackingStructureCaseLineV3Entity](WHSInboundLoadPackingStructureCaseLineV3Entity.md)||
 |[WHSInboundLoadPackingStructureEntity](WHSInboundLoadPackingStructureEntity.md)||
 |[WHSInboundLoadPackingStructureLineV2Entity](WHSInboundLoadPackingStructureLineV2Entity.md)||
+|[WHSInboundLoadPackingStructureLineV3Entity](WHSInboundLoadPackingStructureLineV3Entity.md)||
 |[WHSInboundShipmentHeaderEntity](WHSInboundShipmentHeaderEntity.md)||
 |[WHSInventoryAdjustmentTypeEntity](WHSInventoryAdjustmentTypeEntity.md)||
 |[WHSInventoryMovementTypeEntity](WHSInventoryMovementTypeEntity.md)||
@@ -70,8 +72,10 @@ ms.author: nebanfic
 |[WHSOutboundLoadHeaderEntity](WHSOutboundLoadHeaderEntity.md)||
 |[WHSOutboundLoadPackingStructureCaseEntity](WHSOutboundLoadPackingStructureCaseEntity.md)||
 |[WHSOutboundLoadPackingStructureCaseLineEntity](WHSOutboundLoadPackingStructureCaseLineEntity.md)||
+|[WHSOutboundLoadPackingStructureCaseLineV2Entity](WHSOutboundLoadPackingStructureCaseLineV2Entity.md)||
 |[WHSOutboundLoadPackingStructureEntity](WHSOutboundLoadPackingStructureEntity.md)||
 |[WHSOutboundLoadPackingStructureLineEntity](WHSOutboundLoadPackingStructureLineEntity.md)||
+|[WHSOutboundLoadPackingStructureLineV2Entity](WHSOutboundLoadPackingStructureLineV2Entity.md)||
 |[WHSOutboundShipmentHeaderEntity](WHSOutboundShipmentHeaderEntity.md)||
 |[WHSPackSizeCategoryEntity](WHSPackSizeCategoryEntity.md)||
 |[WHSPhysicalDimensionGroupDetailEntity](WHSPhysicalDimensionGroupDetailEntity.md)||
@@ -131,6 +135,7 @@ ms.author: nebanfic
 |[WHSWarehouseReplenishmentTemplateEntity](WHSWarehouseReplenishmentTemplateEntity.md)||
 |[WHSWarehouseReplenishmentTemplateLineEntity](WHSWarehouseReplenishmentTemplateLineEntity.md)||
 |[WHSWarehouseStockingLimitEntity](WHSWarehouseStockingLimitEntity.md)||
+|[WHSWarehouseStockingLimitV2Entity](WHSWarehouseStockingLimitV2Entity.md)||
 |[WHSWarehouseWaveFilterV2Entity](WHSWarehouseWaveFilterV2Entity.md)||
 |[WHSWarehouseWaveProcessingMethodEntity](WHSWarehouseWaveProcessingMethodEntity.md)||
 |[WHSWarehouseWaveTemplateProcessingMethodAssignmentEntity](WHSWarehouseWaveTemplateProcessingMethodAssignmentEntity.md)||

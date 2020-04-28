@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# WMSPickingList_OrderPickTmp
+# Show picking list
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/WMSPickingList_OrderPickTmp.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Show picking list</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -67,6 +70,7 @@ ms.author: nebanfic
 |[FooterTextMsg](#FooterTextMsg)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventBatchId](#InventBatchId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventColorId](#InventColorId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
+|[InventVersionId](#InventVersionId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventDimPrint](#InventDimPrint)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventGTDId_RU](#InventGTDId_RU)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventLocationId](#InventLocationId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
@@ -112,6 +116,8 @@ ms.author: nebanfic
 |[InventDimension8](#InventDimension8)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventDimension9](#InventDimension9)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[InventDimension10](#InventDimension10)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
+|[InventDimension11](#InventDimension11)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
+|[InventDimension12](#InventDimension12)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[DataAreaId](#DataAreaId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[Relationship_DlvModeRelationshipId](#Relationship_DlvModeRelationshipId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
 |[Relationship_DlvTermRelationshipId](#Relationship_DlvTermRelationshipId)||<a href="WMSPickingList_OrderPickTmp.md" target="_blank">Miscellaneous/WMSPickingList_OrderPickTmp</a>|
@@ -556,7 +562,7 @@ First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery address</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -567,6 +573,9 @@ First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **is.readOnly**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delivery address</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -757,6 +766,26 @@ First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)
 
 <details>
 <summary>List of traits for the InventColorId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventVersionId name="InventVersionId">InventVersionId</a>
+
+First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventVersionId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1288,7 +1317,7 @@ First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Process Distribution</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -1296,6 +1325,9 @@ First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)
 <summary>List of traits for the PdsEnabled attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Process Distribution</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1647,6 +1679,46 @@ for setting the exact precision and scale of numeric values
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
+</details>
+
+### <a href=#InventDimension11 name="InventDimension11">InventDimension11</a>
+
+First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension11 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#InventDimension12 name="InventDimension12">InventDimension12</a>
+
+First included in: Miscellaneous/WMSPickingList_OrderPickTmp (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InventDimension12 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>

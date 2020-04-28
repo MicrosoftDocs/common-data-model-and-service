@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -77,6 +77,7 @@ ms.author: nebanfic
 |[ProdProductionOrderRouteJobEntity](ProdProductionOrderRouteJobEntity.md)||
 |[ProdProductionOrderRouteOperationEntity](ProdProductionOrderRouteOperationEntity.md)||
 |[ProdProductionOrderRouteOperationResourceRequirementEntity](ProdProductionOrderRouteOperationResourceRequirementEntity.md)||
+|[ProdProductionPickingListJournalEntryEntity](ProdProductionPickingListJournalEntryEntity.md)||
 |[ProdProductionRouteTransactionEntity](ProdProductionRouteTransactionEntity.md)||
 |[ProdProductionUnitEntity](ProdProductionUnitEntity.md)||
 |[ProdReleaseKindTableEntity](ProdReleaseKindTableEntity.md)||
@@ -93,8 +94,9 @@ ms.author: nebanfic
 |[RouteOperationPropertiesResourceRequirementEntity](RouteOperationPropertiesResourceRequirementEntity.md)||
 |[RouteOperationPropertiesV2Entity](RouteOperationPropertiesV2Entity.md)||
 |[RouteRouteOperationEntityV2](RouteRouteOperationEntityV2.md)||
-|[RouteVersionEntity](RouteVersionEntity.md)||
 |[RouteVersionODataEntity](RouteVersionODataEntity.md)||
+|[RouteVersionODataV2Entity](RouteVersionODataV2Entity.md)||
+|[RouteVersionV2Entity](RouteVersionV2Entity.md)||
 |[TSTimesheetLineEntity](TSTimesheetLineEntity.md)||
 |[TSTimesheetTableEntity](TSTimesheetTableEntity.md)||
 |[WorkCalendarDayEntity](WorkCalendarDayEntity.md)||

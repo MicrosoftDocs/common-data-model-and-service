@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
@@ -20,7 +20,7 @@ ms.author: nebanfic
 |[ForecastModelEntity](ForecastModelEntity.md)||
 |[ForecastSubModelEntity](ForecastSubModelEntity.md)||
 |[ForecastSupplyForecastEntryEntity](ForecastSupplyForecastEntryEntity.md)||
-|[LeanProductLeanScheduleGroupAssignmentEntity](LeanProductLeanScheduleGroupAssignmentEntity.md)||
+|[LeanProductLeanScheduleGroupAssignmentV2Entity](LeanProductLeanScheduleGroupAssignmentV2Entity.md)||
 |[LeanScheduleGroupEntity](LeanScheduleGroupEntity.md)||
 |[ProductAllocationKeyEntity](ProductAllocationKeyEntity.md)||
 |[ProductAllocationLineEntity](ProductAllocationLineEntity.md)||
@@ -29,15 +29,15 @@ ms.author: nebanfic
 |[ProductionOrderSequencingProductSequenceValueAssignmentEntity](ProductionOrderSequencingProductSequenceValueAssignmentEntity.md)||
 |[ProductionOrderSequencingSequenceEntity](ProductionOrderSequencingSequenceEntity.md)||
 |[ProductionOrderSequencingSequenceValueEntity](ProductionOrderSequencingSequenceValueEntity.md)||
-|[ReqDemPlanAggregatedDemandEntity](ReqDemPlanAggregatedDemandEntity.md)||
 |[ReqDemPlanAggregatedDemandPerAllocationKeyEntity](ReqDemPlanAggregatedDemandPerAllocationKeyEntity.md)||
-|[ReqDemPlanHistoricalExternalDemandEntity](ReqDemPlanHistoricalExternalDemandEntity.md)||
+|[ReqDemPlanAggregatedDemandV2Entity](ReqDemPlanAggregatedDemandV2Entity.md)||
+|[ReqDemPlanHistoricalExternalDemandV2Entity](ReqDemPlanHistoricalExternalDemandV2Entity.md)||
 |[ReqDynamicPlanProductionOrderScheduleEntity](ReqDynamicPlanProductionOrderScheduleEntity.md)||
 |[ReqForecastPlanEntity](ReqForecastPlanEntity.md)||
 |[ReqIntercompanyMasterPlanAssociationEntity](ReqIntercompanyMasterPlanAssociationEntity.md)||
 |[ReqIntercompanyPlanningGroupEntity](ReqIntercompanyPlanningGroupEntity.md)||
 |[ReqIntercompanyPlanningGroupMemberEntity](ReqIntercompanyPlanningGroupMemberEntity.md)||
-|[ReqItemCoverageSettingsEntity](ReqItemCoverageSettingsEntity.md)||
+|[ReqItemCoverageSettingsV2Entity](ReqItemCoverageSettingsV2Entity.md)||
 |[ReqMasterPlanEntity](ReqMasterPlanEntity.md)||
 |[ReqMasterPlanningParametersEntity](ReqMasterPlanningParametersEntity.md)||
 |[ReqMasterPlanningProductCoverageGroupEntity](ReqMasterPlanningProductCoverageGroupEntity.md)||

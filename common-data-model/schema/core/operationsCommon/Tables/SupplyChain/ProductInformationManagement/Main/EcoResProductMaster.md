@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# EcoResProductMaster
+# Product masters
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/EcoResProductMaster.cdm.json" target="_blank">GitHub</a>.  
@@ -29,6 +29,9 @@ ms.author: nebanfic
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
 
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Products</td></tr><tr><td>en</td><td>Product masters</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 </details>
 
 ## Attributes
@@ -47,6 +50,7 @@ ms.author: nebanfic
 |[RetailColorGroupId](#RetailColorGroupId)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
 |[RetailSizeGroupId](#RetailSizeGroupId)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
 |[RetailStyleGroupId](#RetailStyleGroupId)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
+|[RetailVersionGroupId](#RetailVersionGroupId)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
 |[VariantConfigurationTechnology](#VariantConfigurationTechnology)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
 |[IsProductVariantUnitConversionEnabled](#IsProductVariantUnitConversionEnabled)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
 |[RetailFlavorGroupId](#RetailFlavorGroupId)||<a href="EcoResProductMaster.md" target="_blank">Main/EcoResProductMaster</a>|
@@ -111,13 +115,15 @@ First included in: Main/EcoResProductMaster (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the PdsCWProduct attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
 </details>
 
 ### <a href=#ProductType name="ProductType">ProductType</a>
@@ -175,13 +181,18 @@ First included in: Main/EcoResProductMaster (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the EngChgProductOwnerId attribute are listed below.</summary>
 
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#EngChgProductType name="EngChgProductType">EngChgProductType</a>
@@ -190,13 +201,17 @@ First included in: Main/EcoResProductMaster (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the EngChgProductType attribute are listed below.</summary>
 
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
+**is.dataFormat.integer**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#RetailColorGroupId name="RetailColorGroupId">RetailColorGroupId</a>
@@ -251,6 +266,26 @@ First included in: Main/EcoResProductMaster (this entity)
 
 <details>
 <summary>List of traits for the RetailStyleGroupId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#RetailVersionGroupId name="RetailVersionGroupId">RetailVersionGroupId</a>
+
+First included in: Main/EcoResProductMaster (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the RetailVersionGroupId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  

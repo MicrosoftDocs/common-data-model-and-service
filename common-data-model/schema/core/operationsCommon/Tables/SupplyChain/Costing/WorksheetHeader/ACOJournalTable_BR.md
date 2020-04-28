@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/21/2020
+ms.date: 4/28/2020
 ms.author: nebanfic
 ---
 
-# ACOJournalTable_BR
+# Journals
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Costing/WorksheetHeader/ACOJournalTable_BR.cdm.json" target="_blank">GitHub</a>.  
@@ -28,6 +28,9 @@ ms.author: nebanfic
 
 **is.application.releaseVersion**  
   <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>releaseVersion</td><td>"10.0.13.0"</td><td>string</td><td>semantic version number of the application introducing this entity</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Journals</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -57,7 +60,6 @@ ms.author: nebanfic
 |[TransDate](#TransDate)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
 |[VoucherChange](#VoucherChange)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
 |[VoucherDraw](#VoucherDraw)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
-|[JournalUsedBy](#JournalUsedBy)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
 |[DataAreaId](#DataAreaId)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
 |[Relationship_ACOJournalName_BRRelationshipId](#Relationship_ACOJournalName_BRRelationshipId)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
 |[Relationship_BlockUserGroupInfoRelationshipId](#Relationship_BlockUserGroupInfoRelationshipId)||<a href="ACOJournalTable_BR.md" target="_blank">WorksheetHeader/ACOJournalTable_BR</a>|
@@ -457,7 +459,7 @@ First included in: WorksheetHeader/ACOJournalTable_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>New voucher by</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
 
 #### Traits
 
@@ -465,6 +467,9 @@ First included in: WorksheetHeader/ACOJournalTable_BR (this entity)
 <summary>List of traits for the VoucherChange attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>New voucher by</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.dataFormat.integer**  
 </details>
 
@@ -483,26 +488,6 @@ First included in: WorksheetHeader/ACOJournalTable_BR (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.integer**  
-</details>
-
-### <a href=#JournalUsedBy name="JournalUsedBy">JournalUsedBy</a>
-
-First included in: WorksheetHeader/ACOJournalTable_BR (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JournalUsedBy attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>
