@@ -2,7 +2,7 @@
 
 title: Dynamics 365 Manufacturing Accelerator (preview) | Microsoft Docs
 
-description:  Develop manufacturing solutions with extensions to the Common Data Model.  Connect to built-in forms and Dynamics 365 Manufacturing Accelerator views.
+description:  Develop manufacturing solutions with extensions to the Common Data Model. Connect to built-in forms and Dynamics 365 Manufacturing Accelerator views.
 
 author: MeenooRami
 ms.service: common-data-model
@@ -107,7 +107,7 @@ Here are some of the available standard predefined dashboard information. This v
 > [!div class="mx-imgBorder"]
 > ![Supplier dashboard screen](media/mfg-dashboard.png "Supplier dashboard screen")
 
-## Supplier Qualification
+## Supplier qualification
 
 Once approved the supplier can easily onboard within the portal. Select **Supplier Onboarding**, and then select **Continue**.
 
@@ -119,9 +119,9 @@ Now, the new approved supplier can add additional information about their compan
 > [!div class="mx-imgBorder"]
 > ![Supplier detail screen](media/mfg-supplier-detail-screen.png "Supplier detail screen")
 
-# API Onboarding
+## API Onboarding
 When you select **API Onboarding** from the drop-down menu on the main screen, the supplier can add their technical team for EDI transactions and setup.
- 
+
 > [!div class="mx-imgBorder"]
 > ![Developer onboarding screen](media/mfg-dev-onboarding.png "Developer onboarding screen")
 
@@ -129,7 +129,7 @@ Once the developer(s) have been approved, they will be able to enter the EDI int
 
 > [!div class="mx-imgBorder"]
 > ![Developer onboarding screen - select EDI](media/mfg-dev-edi.png "Developer onboarding screen - select EDI")
- 
+
 The basic information that the developer or supplier IT team needs to provide and the information they need to send message securely to the right API end point. There are multiple tabs, as in the view below. 
 
 > [!div class="mx-imgBorder"]
