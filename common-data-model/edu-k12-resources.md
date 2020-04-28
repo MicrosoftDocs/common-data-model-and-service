@@ -15,7 +15,7 @@ ms.author: merami
 
 # Additional resources -K12
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Education Accelerator data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
 
