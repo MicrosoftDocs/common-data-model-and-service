@@ -15,7 +15,7 @@ ms.author: merami
 
 # Overview
 
-The Common Data Model helps customers eliminate data silos, enable power insights, and take actions on their own data. This need is nowhere more relevant than in Education where data often deals with students and their ability to navigate a complex system to reach their goals.
+The Common Data Model helps customers eliminate data silos, enable power insights, and take actions on their own data. This need is nowhere more relevant than in education where data often deals with students and their ability to navigate a complex system to reach their goals.
 
 Microsoft is working closely with education-independent software vendors (ISVs) around the world. We're working to make the Common Data Model more relevant to their needs by shaping the roadmap for the Education Accelerator together. Microsoft and the Dynamics 365 team are dedicated to enabling ISVs, partners, and customers to build and focus their efforts on vertical industries in a streamlined approach. The accelerators provide a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform.
 
