@@ -1,6 +1,6 @@
 ---
 
-title: Dynamics 365 Education K-12 Accelerator Overview | Microsoft Docs
+title: Dynamics 365 Education K-12 Accelerator Overview (preview)| Microsoft Docs
 
 description:  Dynamics 365 Education Accelerators provide a uniform platform for those who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform.
 
@@ -15,7 +15,9 @@ ms.author: merami
 
 # K-12
 
-## What’s new 
+[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+
+## What’s new?
 
 The K12 scenario is released to sit on top of an existing Dynamics 365 instance or Power Platform instance to assist with day to day operations or as a stand-alone data model for developers. The holistic student profile and educator and community engagement scenario contains the data model, installable scenarios (including standard entity attribute extensions, K12 specific education entities, pre-built dashboard and portals, sample data) and other tools to help customers and partners build and deploy new solutions.
 
