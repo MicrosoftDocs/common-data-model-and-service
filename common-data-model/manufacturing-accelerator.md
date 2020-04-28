@@ -73,18 +73,18 @@ The initial access request from a registration form is to initiate the conversat
 
 The portal experience focuses on supporting two personas, a business development manager from a potential new supplier and the supplier IT administration team. If you are  seeking to be a new supplier then you start a new registration process. However, if you are currently an existing supplier and would like to get your development team connected you can do so via API data integration through the portal.
 
-The model driven experience focuses on the Manufacturers administrative needs and where the procurement department largely manage the suppliers.
+The model driven experience focuses on the manufacturers administrative needs and where the procurement department largely manage the suppliers.
 
 This section provides examples of the forms and dashboards that demonstrate the entities in the data model for the Accelerator.
 
 ## New supplier registration
 
-The supplier management functionality of the Portal will allow new Suppliers to access the site, by clicking on the “Register” button to apply as a new Supplier and to proceed with the approval process.
+The supplier management functionality of the portal will allow new suppliers to access the site. Just select **Register**  to apply as a new supplier and to proceed with the approval process.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier management screen](media/mfg-supplier-mgmt-screen.png "Supplier management screen")
 
-After you select **Register**”, the supplier will need to fill out the basic information on a registration form to begin the approval process, as shown here:
+After you select **Register**, the supplier will need to fill out the basic information on a registration form to begin the approval process, as shown here:
 
 > [!div class="mx-imgBorder"]
 > ![Supplier information screen](media/mfg-supplier-info-screen.png "Supplier information screen")
