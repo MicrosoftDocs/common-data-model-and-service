@@ -131,8 +131,7 @@ Administrators can use the donor app to view and manage donors and update them h
 > [!div class="mx-imgBorder"]
 > ![Donor management view](media/edu-donor-mgmt-view.png "Donor management view")
 
-The Administrators can also easily get a clear view of donation designations.> 
-
+The Administrators can also easily get a clear view of donation designations.
 
 ## Student behavior app
 
@@ -141,7 +140,7 @@ Administrators can easily record, track, and encourage positive behavior from st
 > [!div class="mx-imgBorder"]
 > ![Student behavior view](media/behavior-view.png "Student behavior view")
 
-They can also better understand details on how students earned recognition for positive behaviors in class. 
+They can also better understand details on how students earned recognition for positive behaviors in class.
 
 > [!div class="mx-imgBorder"]
 > ![Student behavior incident view](media/behavior-view-2.png "Student behavior incident view")
