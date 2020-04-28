@@ -159,3 +159,10 @@ Attendance Power BI report dashboard allows Educators to easily view the attenda
 
 > [!div class="mx-imgBorder"]
 > ![Student attendance template](media/attendance-template.png "Student attendance template")
+
+## Additional resources -K12
+
+Education Accelerator data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
+
+## Connect and share feedback
+Do you have feedback or need support? Connect with us at dynindaccsupport@microsoft.com.
