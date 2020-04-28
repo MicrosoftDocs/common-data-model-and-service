@@ -23,14 +23,18 @@
         href: automotive-accelerator.md
       - name: Banking Accelerator
         href: banking-accelerator.md
-      - name: Healthcare Accelerator
-        href: health-accelerator.md
-      - name: Education Accelerators
-        items:
+      - name: Education Accelerator
+        items: 
+          - name: Overview
+            href: edu-overview.md
           - name: Higher-Education Accelerator
             href: hied-accelerator.md
-          - name: K-12 Education Accelerator
-            href: k-12-accelerator.md
+          - name: K-12 Accelerator
+            href: edu-k12-accelerator.md
+      - name: Healthcare Accelerator
+        href: health-accelerator.md
+      - name: Manufacturing Accelerator
+        href: manufacturing-accelerator.md       
       - name: Nonprofit Accelerator
         href: NFP-accelerator.md
       - name: Templates
