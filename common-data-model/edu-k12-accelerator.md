@@ -83,6 +83,77 @@ This accelerator provides these entities to support the needs of K12 schools:
 
 To better understand and use the available forms and dashboards in this scenario, let’s look it through the personas of a parent, an administrator, or an educator.
 
-## Student and Parent Portal
+## Parent and Student Portal
 
 This portal allows both the parent and student access to the student’s information. From attendance to grades it facilitates clear conversations about progress made by students and caregivers/parents who support their students.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal](media/parent-student-portal-1.png "Parent and student portal")
+
+Here students can see all their assignments and progress made with each, as well as focus on a particular subject to see only those assignments.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal](media/parent-student-portal-2.png "Parent and student portal")
+
+Students can also easily check grades and test scores.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal](media/parent-student-portal-3.png "Parent and student portal")
+
+As well as other important details like attendance.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal](media/parent-student-portal-4.png "Parent and student portal")
+
+And explore extracurricular activities offered at their schools.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal](media/parent-student-portal-5.png "Parent and student portal")
+
+Parents can also easily update their family information for the school, include important medical forms and more.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal](media/parent-student-portal-6.png "Parent and student portal")
+
+## Model-driven app
+
+Administrators can have a complete view of attendance, courses, internships, accomplishments, extra-curricular activities, interventions, assessments, and behavior incidents. The Administrator sees this single view to access information for their students and take informed actions to support students.
+
+> [!div class="mx-imgBorder"]
+> ![Administrator view](media/edu-admin-view.png "Administrator view")
+
+## Donor management app
+
+Administrators can use the donor app to view and manage donors and update them how their donations are being utilized by the school.
+
+> [!div class="mx-imgBorder"]
+> ![Donor management view](media/edu-donor-mgmt-view.png "Donor management view")
+
+The Administrators can also easily get a clear view of donation designations.> 
+
+
+## Student behavior app
+
+Administrators can easily record, track, and encourage positive behavior from students.
+
+> [!div class="mx-imgBorder"]
+> ![Student behavior view](media/behavior-view.png "Student behavior view")
+
+They can also better understand details on how students earned recognition for positive behaviors in class. 
+
+> [!div class="mx-imgBorder"]
+> ![Student behavior incident view](media/behavior-view-2.png "Student behavior incident view")
+
+## Student attendance app
+
+Educators can easily track and reports attendance in the Attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
+
+> [!div class="mx-imgBorder"]
+> ![Student attendance view](media/attendance-app.png "Student attendance view")
+
+## Attendance Power BI template
+
+Attendance Power BI report dashboard allows Educators to easily view the attendance data and take action on it.
+
+> [!div class="mx-imgBorder"]
+> ![Student attendance template](media/attendance-template.png "Student attendance template")
