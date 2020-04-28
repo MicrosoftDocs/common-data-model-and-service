@@ -15,7 +15,7 @@ ms.author: merami
 
 # The Dynamics 365 Manufacturing Accelerator (Preview)
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](./includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Overview
 The initial Preview of the Manufacturing Accelerator enables manufacturers to quickly develop solutions or extend our sample applications to fit your business needs related to intelligent supplier relationship management and onboarding. 
