@@ -45,7 +45,6 @@ With the Dynamics 365 Higher Education Accelerator, institutions can optimize st
 
 Higher education institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record student, faculty, and alumni interactions, business partner interactions, appointments, events, and outreach
 
-
 ## Entities and workflows
 
 This accelerator provides these entities to support the needs of higher education institutions:
@@ -84,8 +83,6 @@ This accelerator provides these entities to support the needs of higher educatio
 - Grant Applicant
 - Program Version
 - Program Version Detail
-
-
 
 ## Forms and dashboards
 
@@ -129,5 +126,4 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 - [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators. 
 
-- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows
-some examples of ISVs building solutions on the Dynamics 365 Higher Education Accelerator.
+- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows some examples of ISVs building solutions on the Dynamics 365 Higher Education Accelerator.
