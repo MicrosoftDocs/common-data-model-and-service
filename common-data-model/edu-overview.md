@@ -18,6 +18,6 @@ Microsoft is working closely with education-independent software vendors (ISVs) 
 
 The Education Accelerator has the following components:
 
-- [Higher-Education accelerator](hied-accelerator.md)
+- [Higher-Education](hied-accelerator.md)
 
-- [K-12 (primary and secondary schools) accelerator](edu-k12-accelerator.md)
+- [K-12 (primary and secondary schools)](edu-k12-accelerator.md)
