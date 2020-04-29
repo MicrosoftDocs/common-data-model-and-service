@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/28/2020
+ms.date: 4/29/2020
 ms.author: nebanfic
 ---
 
@@ -47,6 +47,7 @@ ms.author: nebanfic
 |[StateMandate](#StateMandate)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
 |[SubGrantor](#SubGrantor)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
 |[WorkerContact](#WorkerContact)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
+|[ExcludeFromSEFA](#ExcludeFromSEFA)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
 |[DataAreaId](#DataAreaId)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
 |[Relationship_OMOperatingUnitRelationshipId](#Relationship_OMOperatingUnitRelationshipId)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="ProjGrantType.md" target="_blank">Group/ProjGrantType</a>|
@@ -221,6 +222,23 @@ First included in: Group/ProjGrantType (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+</details>
+
+### <a href=#ExcludeFromSEFA name="ExcludeFromSEFA">ExcludeFromSEFA</a>
+
+First included in: Group/ProjGrantType (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ExcludeFromSEFA attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**is.dataFormat.integer**  
 </details>
 
 ### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>

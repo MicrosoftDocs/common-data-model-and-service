@@ -3924,6 +3924,10 @@
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjCDSTaskEntity.md
         - name: ProjCDSTransactionRelationshipImportEntity 
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjCDSTransactionRelationshipImportEntity.md
+        - name: ProjCFDAClusterEntity 
+          href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjCFDAClusterEntity.md
+        - name: ProjCFDANumberEntity 
+          href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjCFDANumberEntity.md
         - name: ProjCategoryGroupEntity 
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjCategoryGroupEntity.md
         - name: ProjCollaborationWorkspaceSettingsEntity 
@@ -3964,6 +3968,10 @@
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjGrantTypeEntity.md
         - name: ProjGrantTypeFrequencyEntity 
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjGrantTypeFrequencyEntity.md
+        - name: ProjGrantTypeV2Entity 
+          href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjGrantTypeV2Entity.md
+        - name: ProjGrantV2Entity 
+          href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjGrantV2Entity.md
         - name: ProjHourCostPriceV2Entity 
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjHourCostPriceV2Entity.md
         - name: ProjHourSalesPriceV2Entity 
@@ -13022,6 +13030,10 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/ProjCDSLockingOptionTable.md
           - name: ProjCDSTransactionRelationshipImport 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/ProjCDSTransactionRelationshipImport.md
+          - name: ProjCFDACluster 
+            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/ProjCFDACluster.md
+          - name: ProjCFDANumber 
+            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/ProjCFDANumber.md
           - name: ProjCategoryDimension 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/ProjCategoryDimension.md
           - name: ProjCreditNoteSource 

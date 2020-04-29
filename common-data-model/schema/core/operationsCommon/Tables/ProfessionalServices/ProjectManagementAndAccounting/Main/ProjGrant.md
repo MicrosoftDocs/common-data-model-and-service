@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/28/2020
+ms.date: 4/29/2020
 ms.author: nebanfic
 ---
 
@@ -73,12 +73,16 @@ ms.author: nebanfic
 |[StateMandate](#StateMandate)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[SubGrantor](#SubGrantor)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[WorkerContact](#WorkerContact)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
+|[CFDA](#CFDA)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
+|[GrantorAgency](#GrantorAgency)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[DataAreaId](#DataAreaId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[Relationship_CustTableRelationshipId](#Relationship_CustTableRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[Relationship_OMOperatingUnitRelationshipId](#Relationship_OMOperatingUnitRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[Relationship_ProjGrantMatchingRelationshipId](#Relationship_ProjGrantMatchingRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[Relationship_ProjGrantorTypeRelationshipId](#Relationship_ProjGrantorTypeRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[Relationship_ProjGrantTypeRelationshipId](#Relationship_ProjGrantTypeRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
+|[Relationship_ProjCFDANumberRelationshipId](#Relationship_ProjCFDANumberRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
+|[Relationship_GrantorAgencyRelationshipId](#Relationship_GrantorAgencyRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 |[Relationship_CompanyRelationshipId](#Relationship_CompanyRelationshipId)||<a href="ProjGrant.md" target="_blank">Main/ProjGrant</a>|
 
 ### <a href=#RecId name="RecId">RecId</a>
@@ -753,6 +757,46 @@ First included in: Main/ProjGrant (this entity)
 **is.dataFormat.big**  
 </details>
 
+### <a href=#CFDA name="CFDA">CFDA</a>
+
+First included in: Main/ProjGrant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the CFDA attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#GrantorAgency name="GrantorAgency">GrantorAgency</a>
+
+First included in: Main/ProjGrant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the GrantorAgency attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
 ### <a href=#DataAreaId name="DataAreaId">DataAreaId</a>
 
 First included in: Main/ProjGrant (this entity)  
@@ -898,6 +942,58 @@ First included in: Main/ProjGrant (this entity)
 **means.identity.entityId**  
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Group/ProjGrantType.md" target="_blank">/core/operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Group/ProjGrantType.cdm.json/ProjGrantType</a></td><td><a href="../Group/ProjGrantType.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_ProjCFDANumberRelationshipId name="Relationship_ProjCFDANumberRelationshipId">Relationship_ProjCFDANumberRelationshipId</a>
+
+First included in: Main/ProjGrant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_ProjCFDANumberRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Miscellaneous/ProjCFDANumber.md" target="_blank">/core/operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/ProjCFDANumber.cdm.json/ProjCFDANumber</a></td><td><a href="../Miscellaneous/ProjCFDANumber.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#Relationship_GrantorAgencyRelationshipId name="Relationship_GrantorAgencyRelationshipId">Relationship_GrantorAgencyRelationshipId</a>
+
+First included in: Main/ProjGrant (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Relationship_GrantorAgencyRelationshipId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../Common/Customer/Main/CustTable.md" target="_blank">/core/operationsCommon/Tables/Common/Customer/Main/CustTable.cdm.json/CustTable</a></td><td><a href="../../../Common/Customer/Main/CustTable.md#RecId" target="_blank">RecId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/28/2020
+ms.date: 4/29/2020
 ms.author: nebanfic
 ---
 
@@ -34,6 +34,8 @@ ms.author: nebanfic
 |[ProjCDSProjectEntity](ProjCDSProjectEntity.md)||
 |[ProjCDSTaskEntity](ProjCDSTaskEntity.md)||
 |[ProjCDSTransactionRelationshipImportEntity](ProjCDSTransactionRelationshipImportEntity.md)||
+|[ProjCFDAClusterEntity](ProjCFDAClusterEntity.md)||
+|[ProjCFDANumberEntity](ProjCFDANumberEntity.md)||
 |[ProjCollaborationWorkspaceSettingsEntity](ProjCollaborationWorkspaceSettingsEntity.md)||
 |[ProjContractEntity](ProjContractEntity.md)||
 |[ProjControlCostGroupCategoriesEntity](ProjControlCostGroupCategoriesEntity.md)||
@@ -61,6 +63,8 @@ ms.author: nebanfic
 |[ProjGrantMatchingEntity](ProjGrantMatchingEntity.md)||
 |[ProjGrantTypeEntity](ProjGrantTypeEntity.md)||
 |[ProjGrantTypeFrequencyEntity](ProjGrantTypeFrequencyEntity.md)||
+|[ProjGrantTypeV2Entity](ProjGrantTypeV2Entity.md)||
+|[ProjGrantV2Entity](ProjGrantV2Entity.md)||
 |[ProjHourCostPriceV2Entity](ProjHourCostPriceV2Entity.md)||
 |[ProjHourSalesPriceV2Entity](ProjHourSalesPriceV2Entity.md)||
 |[ProjInventoryProjectConsumptionJournalNameEntity](ProjInventoryProjectConsumptionJournalNameEntity.md)||
