@@ -6,7 +6,7 @@ author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: Deonhe
 ms.topic: article
-ms.date: 01/05/2020
+ms.date: 05/01/2020
 ms.author: merami
 
 ---
@@ -20,7 +20,7 @@ The component now includes the following features:
 
 ## Common Data Model extensions
 
-It contains extensions to Common Data Model to include concepts for higher education, including entity definitions and relationships:
+This accelerator contains extensions to Common Data Model to include concepts for higher education, including entity definitions and relationships:
 
 - A student portal where students can view courses and events, and see the history of courses and applications.
 - A business partner dashboard to provide information about organizations that are willing to engage with the university for events, hackathons, internships, scholarships, and grants.
@@ -37,15 +37,17 @@ It contains extensions to Common Data Model to include concepts for higher educa
 
 ## Site-map extensions
 
-With the Dynamics 365 Higher Education Accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, predict outcomes, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for higher education and one that allows institutions to quickly build Power Apps and Power BI visualizations.
+With the Higher Education component of the Dynamics 365 Education Accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, predict outcomes, and gain insights from analytics. When the accelerator is installed, the experience is transformed into one specifically built for higher education and one that allows institutions to quickly build Power Apps and Power BI visualizations.
+<!--note from editor: Dynamics 365 is the full suite. We can't install "into" it. You could say "installed into one of the model-driven apps for Dynamics 365", but see my simpler suggested edit. -->
 
-Higher education institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record student, faculty, and alumni interactions, business partner interactions, appointments, events, and outreach
+Higher education institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record student, faculty, and alumni interactions, business partner interactions, appointments, events, and outreach.
 
 ## Entities and workflows
 
 This accelerator provides these entities to support the needs of higher education institutions:
 
-### EDUCATIONCORE
+<!--note from editor: The entities in the other accelerator topics are in tables with a column per category. Suggest you do that as well for consistency -->
+### Education core
 
 - Contact
 - Account
@@ -56,6 +58,7 @@ This accelerator provides these entities to support the needs of higher educatio
 - Course
 - Course Section
 - Extra Curricular Activity
+<!--note from editor: Extracurricular is one word. I know you are following the UI here since this is an entity name, but can they fix this before this accelerator goes live? Can someone open a bug with the product team? -->
 - Extra Curricular Activity Participants
 - Address / Customer Address
 - Academic Period
@@ -66,6 +69,7 @@ This accelerator provides these entities to support the needs of higher educatio
 - Internship
 - Internship Applicants
 - Accomplishments
+<!--note from editor: In the screenshot below, these are plural. Is "Areas" also plural in the entity names? -->
 - Area of Interest
 - Area of Study
 - Student Program Type
@@ -74,7 +78,7 @@ This accelerator provides these entities to support the needs of higher educatio
 - Scholarship
 - Scholarship Applicant
 
-### HIGHER EDUCATION
+### Higher Education
 - Grant 
 - Grant Applicant
 - Program Version
@@ -82,33 +86,34 @@ This accelerator provides these entities to support the needs of higher educatio
 
 ## Forms and dashboards
 
-The Dynamics 365 Higher Education Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model
+The Higher Education component combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, apps, and dashboards that demonstrate the new entities and the data model.
+<!--note from editor: Since this says the following sections are under this one, I made them all H3s until you get to Additional Resources.  -->
 
-## Business partner dashboard
+### Business partner dashboard
 
 A business partner is any organization that's willing to engage with the university for events, hackathons, internships, scholarships, or grants. With the native dashboard and PowerBI dashboards, business partners gain insights into student interest in opportunities and applications for grants and scholarships.
 
 ![Business partner dashboard](media/businesspartnerdashboard.png "Business partner dashboard")
 
-## Student internship application status
+### Student internship application status form
 
 This form tracks the status of students' internship applications.
 
 ![Student internship applications](media/studentintershipapplication.png "Student internship applications")
 
-## Grants phone app
+### Grants phone app
 
-Research faculty can keep track of grant applications submitted by their students, see example below:
+Research faculty can keep track of grant applications submitted by their students. See example below:
 
 ![Grants phone app](media/grantsphoneapp.png "Grants phone app")
 
-## Student form
+### Student form
 
 This Dynamics 365 form shows student information (such as contact information, course load, areas of study, degree, course history, and test scores) in the context of the app and the interface. The student record becomes the source of truth and engagement to deliver the best support throughout the student lifecycle.
 
 !["Student form"](media/hied-student.png "Student form")
 
-## Institutional dashboard
+### Institutional dashboard
 
 This accelerator includes a student dashboard in Dynamics 365 and an institutional dashboard in Power BI. With the institutional dashboard, you can gain analytics and insights into students, classes, and key metrics such as *students by program* and demographics.
 
