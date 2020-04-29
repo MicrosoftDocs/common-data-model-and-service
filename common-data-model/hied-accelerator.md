@@ -13,23 +13,26 @@ ms.author: merami
 
 # Dynamics 365 Education Accelerator – Higher Education
 
-With the [Dynamics 365 Higher Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The accelerator includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The accelerator also provides entities, fields, forms, views, and dashboards.
+With the Higher Education component in the [Dynamics 365 Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The component includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The component also provides entities, fields, forms, views, and dashboards specific to higher education.
+<!--note from editor: Shouldn't that first sentence be "With the Higher Education component in the Dynamics 365 Education Accelerator, you can develop..."? In the overview, you say the Education Accelerator has 2 components, but in this topic, you say there is a specific Higher Education Accelerator. See my proposed changes. -->
 
-The accelerator now includes the following features:
+The component now includes the following features:
 
 ## Common Data Model extensions
 
 It contains extensions to Common Data Model to include concepts for higher education, including entity definitions and relationships:
 
-- Student portal where students can view courses events, and see the history of courses and applications.
-- Business partner dashboard to provide any organization that is willing to engage with the university for events, hackathons, internships, scholarships, and grants.
-- Accomplishment captures any work completed by students outside of a course such as hackathons or awards.
-- Grants phone app allows research faculty to keep track of applications and approval of grants to which they've applied.
-- All personas including students, business partners, and faculty members have access to rich reporting on the students applying for internships, grants, and scholarships.
-- System views that provide easy access to entities such as students, faculty, extracurricular activities, previous education, test scores, courses, academic periods, programs, test types, registration status, and areas of interest.
+- A student portal where students can view courses and events, and see the history of courses and applications.
+- A business partner dashboard to provide information about organizations that are willing to engage with the university for events, hackathons, internships, scholarships, and grants.
+<!--note from editor: there was something missing here. Is the dashboard so those orgs can see into the university info? Which would be something like "...engage with the university visbility into events..." Or so the university can see a list of which orgs are their partners? Which would be something like what I edited above.  -->
+- The Accomplishment extension captures any work completed by students outside of a course, such as hackathons or awards.
+- The Grants phone app allows research faculty to keep track of applications and approval of grants to which they've applied.
+- All personas, including students, business partners, and faculty members, have access to rich reporting on the students applying for internships, grants, and scholarships.
+- System views that provide easy access to relevant areas, such as students, faculty, extracurricular activities, previous education, test scores, courses, academic periods, programs, test types, registration status, and areas of interest.
+<!--note from editor: Entity names are not usually lowercase or plural. See if my edit is also accurate, without having to make that long list title case. -->
 - Sample apps to show some of the possibilities of the unified interface.
 - Example Dynamics 365 dashboards and Power BI dashboards that provide analytics for completed courses and allow drilling into details about student performance, instructor effectiveness, and course feedback.
-- Support for building additional canvas and model-driven apps in Power Apps.
+- Support for building additional canvases and model-driven apps in Power Apps.
 - A solution that you can deploy and install from AppSource or GitHub.
 
 ## Site-map extensions
