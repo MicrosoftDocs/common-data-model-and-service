@@ -84,9 +84,9 @@ This accelerator provides these entities to support the needs of higher educatio
 - Program Version
 - Program Version Detail
 
-## Forms and dashboards
+## Forms, dashboards, and apps
 
-The Higher Education component combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, apps, and dashboards that demonstrate the new entities and the data model.
+The Higher Education component combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, dashboards, and apps that demonstrate the new entities and the data model.
 <!--note from editor: Since this says the following sections are under this one, I made them all H3s until you get to Additional Resources.  -->
 
 ### Business partner dashboard
