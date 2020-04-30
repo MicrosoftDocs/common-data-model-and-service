@@ -118,24 +118,25 @@ Now, the newly approved supplier can add additional information about their comp
 > ![Supplier detail screen](media/mfg-supplier-detail-screen.png "Supplier detail screen")
 
 ## API onboarding
-When you select **API Onboarding** from the drop-down menu on the main screen, the supplier can add their technical team for EDI transactions and setup.
+When the supplier selects **API Onboarding** from the drop-down menu on the main screen, they can add their technical team for EDI transactions and setup.
 
 > [!div class="mx-imgBorder"]
 > ![Developer onboarding screen](media/mfg-dev-onboarding.png "Developer onboarding screen")
 
-Once the developer(s) have been approved, they will be able to enter the EDI interface information and the testing of transactions both inbound and out bound.
+Once the developers have been approved, they will be able to enter the EDI interface information and the testing of transactions both inbound and outbound.
 
 > [!div class="mx-imgBorder"]
 > ![Developer onboarding screen - select EDI](media/mfg-dev-edi.png "Developer onboarding screen - select EDI")
 
 The basic information that the developer or supplier IT team needs to provide and the information they need to send message securely to the right API end point. There are multiple tabs, as in the view below. 
+<!--note from editor: There's a word missing in teh sentence above around the word "message", but I can't tell what you are trying to say. Please fix.  -->
 
 > [!div class="mx-imgBorder"]
 > ![Developer EDI details screen](media/mfg-dev-edi2.png "Developer EDI details screen")
 
 ## Business partner dashboard
 
-The supplier has a management experience with two dashboards included in the accelerator. This helps them understand the health of the relationship. These dashboards show open purchase orders and KPI’s around the health of the supplier’s relationship with the manufacturer:
+The supplier has a management experience with two dashboards included in the accelerator. This helps them understand the health of the relationship. These dashboards show open purchase orders and KPIs around the health of the supplier’s relationship with the manufacturer.
 
 > [!div class="mx-imgBorder"]
 > ![Business partner dashboard](media/mfg-partner-dashboard.png "Business partner dashboard")
@@ -143,8 +144,8 @@ The supplier has a management experience with two dashboards included in the acc
 ## Additional resources
 
 - Download the Dynamics 365 Manufacturing Accelerator from [AppSource](https://aka.ms/d365manuf).
-- The manufacturing data model, solutions, data samples, Power BI examples, SDK extensions and more are provided as part of the open-source creative license and available on [Github](https://github.com/microsoft/Dynamics-365-Industry-Accelerators)
-- Additional  [accelerators topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators).
+- The manufacturing data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license available on [Github](https://github.com/microsoft/Dynamics-365-Industry-Accelerators).
+- Additional  [accelerator topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators).
 
 ## Connect and share feedback
 
