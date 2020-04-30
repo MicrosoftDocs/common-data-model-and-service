@@ -11,9 +11,16 @@ ms.author: merami
 
 ---
 
-# Dynamics 365 Education Accelerator – K12 (Preview)
+# Dynamics 365 Education Accelerator – K-12 (Preview)
 
-The K12 scenario is released to sit on top of an existing Dynamics 365 instance or Power Apps instance to assist with day to day operations or as a standalone data model for developers. The holistic student profile and educator and community engagement scenario contains the data model, installable scenarios (including standard entity attribute extensions, K12 specific education entities, pre-built dashboard and portals, sample data) and other tools to help customers and partners build and deploy new solutions.
+The K-12 component in the Dynamics 365 Education Accelerator sits on top of an existing Dynamics 365 instance or Power Apps instance to assist with day-to-day operations or as a standalone data model for developers. The holistic student profile, educator, and community engagement scenario contains:
+- The data model
+- Installable scenarios, including:
+  - Standard entity attribute extensions
+  - Specific education entities for K-12
+  - Pre-built dashboards and portals
+  - Sample data
+- Other tools to help customers and partners build and deploy new solutions.
 
 The accelerator includes the following features:
 
@@ -83,6 +90,8 @@ To better understand and use the available forms and dashboards in this scenario
 
 This portal allows both the parent and student access to the student’s information. From attendance to grades it facilitates clear conversations about progress made by students and caregivers/parents who support their students.
 
+<!--note from editor: The alt text on these screenshots cannot be the same. They need to be descriptive enough for people who are using screen readers for accessibility.  -->
+
 > [!div class="mx-imgBorder"]
 > ![Parent and student portal](media/parent-student-portal-1.png "Parent and student portal")
 
@@ -91,41 +100,44 @@ Here students can see all their assignments and progress made with each, as well
 > [!div class="mx-imgBorder"]
 > ![Parent and student portal](media/parent-student-portal-2.png "Parent and student portal")
 
-Students can also easily check grades and test scores.
+Students can easily check grades and test scores.
+
+<!--note from editor: Anton's name is misspelled in the last 2 rows of this image. -->
 
 > [!div class="mx-imgBorder"]
 > ![Parent and student portal](media/parent-student-portal-3.png "Parent and student portal")
 
-As well as other important details like attendance.
+They can also check other important details like attendance.
 
 > [!div class="mx-imgBorder"]
 > ![Parent and student portal](media/parent-student-portal-4.png "Parent and student portal")
 
-And explore extracurricular activities offered at their schools.
+They can explore extracurricular activities offered at their schools.
+<!--note from editor: The email addresses in this screenshot are not approved fictitious content. Also, when does email use the format https://?  -->
 
 > [!div class="mx-imgBorder"]
 > ![Parent and student portal](media/parent-student-portal-5.png "Parent and student portal")
 
-Parents can also easily update their family information for the school, include important medical forms and more.
+Parents can also easily update their family information for the school, including important medical forms.
 
 > [!div class="mx-imgBorder"]
 > ![Parent and student portal](media/parent-student-portal-6.png "Parent and student portal")
 
 ## Model-driven app
 
-Administrators can have a complete view of attendance, courses, internships, accomplishments, extra-curricular activities, interventions, assessments, and behavior incidents. The Administrator sees this single view to access information for their students and take informed actions to support students.
+Administrators have a complete view of attendance, courses, internships, accomplishments, extracurricular activities, interventions, assessments, and behavior incidents. The administrator sees this single view to access information for their students and take informed actions to support students.
 
 > [!div class="mx-imgBorder"]
 > ![Administrator view](media/edu-admin-view.png "Administrator view")
 
 ## Donor management app
 
-Administrators can use the donor app to view and manage donors and update them how their donations are being utilized by the school.
+Administrators use the donor app to view and manage donors and update them on how the school is using their donations.
 
 > [!div class="mx-imgBorder"]
 > ![Donor management view](media/edu-donor-mgmt-view.png "Donor management view")
 
-The Administrators can also easily get a clear view of donation designations.
+Administrators can also get a clear view of donation designations.
 
 ## Student behavior app
 
@@ -142,6 +154,8 @@ They can also better understand details on how students earned recognition for p
 ## Student attendance app
 
 Educators can easily track and reports attendance in the Attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
+
+<!--note from editor: The email addresses in this screenshot are not approved fictitious content. When we don't use an approved one from the CELA list, we are supposed to use @example.com, not @test.com, and we're not supposed to use first and last names.-->
 
 > [!div class="mx-imgBorder"]
 > ![Student attendance view](media/attendance-app.png "Student attendance view")
