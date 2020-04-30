@@ -12,6 +12,7 @@ ms.author: merami
 ---
 
 # Dynamics 365 Education Accelerator – K-12 (Preview)
+<!--note from editor: You used K-12 with the hyphen in the TOC, but dropped that here. Since that's the right term, I added the hyphen in this topic. I also noticed in the metadata description, you call these "Accelerators" plural. Is that correct branding for this? Are there 2 education accelerators now that this preview is coming out? For now, I continue to call these components of an Education Accelerator. -->
 
 The K-12 component in the Dynamics 365 Education Accelerator sits on top of an existing Dynamics 365 instance or Power Apps instance to assist with day-to-day operations or as a standalone data model for developers. The holistic student profile, educator, and community engagement scenario contains:
 - The data model
@@ -20,25 +21,25 @@ The K-12 component in the Dynamics 365 Education Accelerator sits on top of an 
   - Specific education entities for K-12
   - Pre-built dashboards and portals
   - Sample data
-- Other tools to help customers and partners build and deploy new solutions.
+- Other tools to help customers and partners build and deploy new solutions
 
 The accelerator includes the following features:
 
-- K12 Student and Parent Portal
+- K-12 parent and student portal
 - Collect School paperwork and forms
 - Ability to engage donors and raise funds
-- Student Behavior Management Application
-- Track and Report Attendance Application and Dashboard
+- Student Behavior Management application
+- Track and Report Attendance application and dashboard
 
 ## Site-map extensions
 
-With the Dynamics 365 K12 scenario, schools can optimize student success through optimal understanding of data about the student journey. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for K12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
+With the K-12 component, schools can optimize student success through understanding data about the student journey. When the accelerator is installed, the experience is transformed into one specifically built for K-12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
 
 ## Entities and workflows
 
-This accelerator provides these entities to support the needs of K12 schools:
+This accelerator provides these entities to support the needs of K-12 schools:
 
-### EDUCATION CORE
+### Education core
 
 - Contact
 - Account
@@ -67,7 +68,7 @@ This accelerator provides these entities to support the needs of K12 schools:
 - Scholarship
 - Scholarship Applicant
 
-### K12
+### K-12
 
 - Attendance
 - Grading Period
@@ -139,7 +140,7 @@ Administrators use the donor app to view and manage donors and update them on ho
 
 Administrators can also get a clear view of donation designations.
 
-## Student behavior app
+## Student Behavior Management app
 
 Administrators can easily record, track, and encourage positive behavior from students.
 
@@ -151,7 +152,7 @@ They can also better understand details on how students earned recognition for p
 > [!div class="mx-imgBorder"]
 > ![Student behavior incident view](media/behavior-view-2.png "Student behavior incident view")
 
-## Student attendance app
+## Track and Report Attendance app 
 
 Educators can easily track and reports attendance in the Attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
 
@@ -160,16 +161,17 @@ Educators can easily track and reports attendance in the Attendance application.
 > [!div class="mx-imgBorder"]
 > ![Student attendance view](media/attendance-app.png "Student attendance view")
 
-## Attendance Power BI template
+## Attendance Power BI dashboard
+<!--note from editor: This is called a dashboard in the features list at the top, so I changed it here, too. -->
 
-Attendance Power BI report dashboard allows Educators to easily view the attendance data and take action on it.
+The Attendance Power BI report dashboard allows educators to easily view and take action on attendance data.
 
 > [!div class="mx-imgBorder"]
-> ![Student attendance template](media/attendance-template.png "Student attendance template")
+> ![Student attendance template](media/attendance-template.png "Student attendance dashboard")
 
 ## Additional resources
 
-Education Accelerator data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
+The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
 
 ## Connect and share feedback
 Do you have feedback or need support? Contact us at [dynindaccsupport@microsoft.com](mailto:dynindaccsupport@microsoft.com).
