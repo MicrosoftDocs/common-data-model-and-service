@@ -174,7 +174,7 @@ The Attendance Power BI report dashboard allows educators to easily view and tak
 ## Additional resources
 <!--note from editor: How does someone get the K-12 component? For higher-ed, you include a link, but not for this.  -->
 
-The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
+The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license available on [Github](https://aka.ms/edugithub).
 
 ## Connect and share feedback
 Do you have feedback or need support? Contact us at [dynindaccsupport@microsoft.com](mailto:dynindaccsupport@microsoft.com).
