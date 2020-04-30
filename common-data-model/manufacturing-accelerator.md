@@ -1,7 +1,7 @@
 ---
 
 title: Dynamics 365 Manufacturing Accelerator (preview) | Microsoft Docs
-description:  Develop manufacturing solutions with extensions to the Common Data Model. Connect to built-in forms and Dynamics 365 Manufacturing Accelerator views.
+description:  Develop manufacturing solutions with extensions to Common Data Model. Connect to built-in forms and Dynamics 365 Manufacturing Accelerator views.
 author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
@@ -15,9 +15,9 @@ ms.author: merami
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Manufacturing Accelerator preview release enables manufacturers to quickly develop solutions or extend sample applications tailored to business needs.  This accelerator helps facilitate intelligent supplier relationship management and onboarding.
+The Dynamics 365 Manufacturing Accelerator preview release enables manufacturers to quickly develop solutions or extend sample applications tailored to business needs. This accelerator helps facilitate intelligent supplier relationship management and onboarding.
 
-We provide a manufacturing data model, sample power portal, sample apps, automated templates, and Power BI dashboards. This creates a seamless role-based supplier qualification, API onboarding, and supplier management console experience. This accelerator helps manufacturing organizations to digitize this process within hours using our low-code no-code platform capabilities.
+We provide a manufacturing data model, sample power portal, sample apps, automated templates, and Power BI dashboards. This creates a seamless role-based supplier qualification, API onboarding, and supplier management console experience. This accelerator helps manufacturing organizations to digitize this process within hours using our low-code, no-code platform capabilities.
 
 The accelerator includes the following features via Power Apps Portals:
 
@@ -33,15 +33,15 @@ The accelerator includes the following features via a model-driven app:
 - Manage and approve supplier requests
 - Manage and track supplier health
 
-The supplier relationship management scenario as part of the Manufacturing Accelerator puts the full strength of the Power Platform to use helping manufacturing organizations to optimize their supplier and sales relationships and more effectively enabling them to manage those important supplier relationships.
+The supplier relationship-management scenario as part of the Manufacturing Accelerator puts the full strength of the Power Platform to use, helping manufacturing organizations to optimize their supplier and sales relationships and enabling them to more effectively manage those important supplier relationships.
 
 ## Site-map extensions
 
-The Manufacturing Accelerator can be used with Microsoft Dynamics 365, or independently using the core solution layer that is not dependent on Microsoft Dynamics 365. This independent solution layer can be used  to build model driven and canvas based Power Apps applications.
+You can use the Manufacturing Accelerator with a model-driven app for Microsoft Dynamics 365, or independently using the core solution layer that is not dependent on Dynamics 365. You can use the independent solution layer to build model-driven and canvas-based Power Apps applications.
 
-When the accelerator is installed into Dynamics 365, it enables you to optimize supplier operational processes including PO, expected receipts, and invoicing based on the IATI standard. You can also leverage the entire solution within Dynamics 365.
+When the accelerator is installed into a model-driven app for Dynamics 365, it enables you to optimize supplier operational processes including PO, expected receipts, and invoicing based on the IATI standard. You can also leverage the entire solution within the Dynamics 365 app.
 
-The manufacturing data model is developed in collaboration with partners, industry experts and open initiatives to ensure interoperability, and to accelerate supplier impact.
+The manufacturing data model is developed in collaboration with partners, industry experts, and open initiatives to ensure interoperability and to accelerate supplier impact.
 
 ## Entities and workflows
 This accelerator includes these entities to support the supplier relationship management scenario:
