@@ -46,7 +46,7 @@ Higher education institutions can build their business processes on top of the e
 
 This accelerator provides these entities to support the needs of higher education institutions:
 
-<!--note from editor: The entities in the other accelerator topics are in tables with a column per category. Suggest you do that as well for consistency -->
+<!--note from editor: The entities in the other accelerator topics are in tables with a column per category. Suggest you do that as well for consistency. This comment also applies to the K12 topic. -->
 ### Education core
 
 - Contact
@@ -58,7 +58,7 @@ This accelerator provides these entities to support the needs of higher educatio
 - Course
 - Course Section
 - Extra Curricular Activity
-<!--note from editor: Extracurricular is one word. I know you are following the UI here since this is an entity name, but can they fix this before this accelerator goes live? Can someone open a bug with the product team? -->
+<!--note from editor: Extracurricular is one word. I know you are following the UI here since this is an entity name, but can they fix this before this accelerator goes live? Can someone open a bug with the product team? This comment also applies to the K12 topic.-->
 - Extra Curricular Activity Participants
 - Address / Customer Address
 - Academic Period
@@ -69,7 +69,7 @@ This accelerator provides these entities to support the needs of higher educatio
 - Internship
 - Internship Applicants
 - Accomplishments
-<!--note from editor: In the screenshot below, these are plural. Is "Areas" also plural in the entity names? -->
+<!--note from editor: In the screenshot below, these are plural. Is "Areas" also plural in the entity names? This comment also applies to the K12 topic.-->
 - Area of Interest
 - Area of Study
 - Student Program Type
@@ -78,7 +78,7 @@ This accelerator provides these entities to support the needs of higher educatio
 - Scholarship
 - Scholarship Applicant
 
-### Higher Education
+### Higher education
 - Grant 
 - Grant Applicant
 - Program Version
