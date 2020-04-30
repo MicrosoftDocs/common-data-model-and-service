@@ -87,8 +87,9 @@ After they select **Register**, they fill out the basic information on a registr
 > [!div class="mx-imgBorder"]
 > ![Supplier information screen](media/mfg-supplier-info-screen.png "Supplier information screen")
 
-Model-driven app
+## Model-driven app
 The manufacturing organization reviews the form, and can approve or reject the new supplier’s request.
+<!--note from editor: You can't use real people's names in screenshots. Please mask out all real names and use only fictitious names and other content. I'm stopping my review of the screenshots since the issues are so pervasive. Please apply what I've commented on across the images and then I'll review them all again. -->
 
 > [!div class="mx-imgBorder"]
 > ![Supplier request screen](media/mfg-review-request.png "Supplier request screen")
