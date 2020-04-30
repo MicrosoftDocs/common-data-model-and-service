@@ -103,19 +103,20 @@ This form tracks the status of students' internship applications.
 
 ### Grants phone app
 
-Research faculty can keep track of grant applications submitted by their students. See example below:
+Research faculty can keep track of grant applications submitted by their students. 
 
 ![Grants phone app](media/grantsphoneapp.png "Grants phone app")
 
 ### Student form
 
-This Dynamics 365 form shows student information (such as contact information, course load, areas of study, degree, course history, and test scores) in the context of the app and the interface. The student record becomes the source of truth and engagement to deliver the best support throughout the student lifecycle.
+This Dynamics 365 form shows student information, such as contact information, course load, areas of study, degree, course history, and test scores, in the context of the app and the interface. The student record becomes the source of truth to deliver the right ongoing engagements for providing the best support throughout the student lifecycle.
+<!--note from editor: That last sentence was confusing at "source of truth and engagement". I tried to rework it, but you might be able to do it better. Consider taking out "source of truth" and saying something clearer. -->
 
 !["Student form"](media/hied-student.png "Student form")
 
 ### Institutional dashboard
 
-This accelerator includes a student dashboard in Dynamics 365 and an institutional dashboard in Power BI. With the institutional dashboard, you can gain analytics and insights into students, classes, and key metrics such as *students by program* and demographics.
+This accelerator includes a student dashboard in Dynamics 365 and an institutional dashboard in Power BI. With the institutional dashboard, you can gain analytics and insights into students, classes, and key metrics, such as *students by program* and demographics.
 
 ![Institutional dashboard](media/hied-dashboard.png "Institutional dashboard")
 
@@ -123,7 +124,7 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 - Download the Dynamics 365 Higher Education Accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview).
 
-- The higher education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/releases).
+- The higher-education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license, available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/releases).
 
 - [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators. 
 
