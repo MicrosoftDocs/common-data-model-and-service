@@ -144,6 +144,8 @@ Administrators can also get a clear view of donation designations.
 
 Administrators can easily record, track, and encourage positive behavior from students.
 
+<!--note from editor: All people images must be MS/CELA approved, especially of kids. Did you get these off Brand Central? Or somewhere else?  -->
+
 > [!div class="mx-imgBorder"]
 > ![Student behavior view](media/behavior-view.png "Student behavior view")
 
