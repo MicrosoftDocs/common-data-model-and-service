@@ -83,11 +83,11 @@ This accelerator provides these entities to support the needs of K-12 schools:
 - Student Assessment Response
 - Learning Standards
 
-## Forms and dashboards
+## Forms, dashboards, and apps
 
-To better understand and use the available forms and dashboards in this scenario, let’s look it through the personas of a parent, an administrator, or an educator.
+To better understand and use the available forms, dashboards, and apps in this scenario, let’s look it through the personas of a parent, an administrator, or an educator. 
 
-## Parent and Student Portal
+## Parent and student portal
 
 This portal allows both the parent and student access to the student’s information. From attendance to grades it facilitates clear conversations about progress made by students and caregivers/parents who support their students.
 
@@ -154,7 +154,7 @@ They can also better understand details on how students earned recognition for p
 
 ## Track and Report Attendance app 
 
-Educators can easily track and reports attendance in the Attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
+Educators can easily track and reports attendance in the attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
 
 <!--note from editor: The email addresses in this screenshot are not approved fictitious content. When we don't use an approved one from the CELA list, we are supposed to use @example.com, not @test.com, and we're not supposed to use first and last names.-->
 
@@ -170,6 +170,7 @@ The Attendance Power BI report dashboard allows educators to easily view and tak
 > ![Student attendance template](media/attendance-template.png "Student attendance dashboard")
 
 ## Additional resources
+<!--note from editor: How does someone get the K-12 component? For higher-ed, you include a link, but not for this.  -->
 
 The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
 
