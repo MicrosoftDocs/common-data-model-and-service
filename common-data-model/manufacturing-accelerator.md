@@ -39,14 +39,16 @@ The supplier relationship-management scenario as part of the Manufacturing Accel
 
 You can use the Manufacturing Accelerator with a model-driven app for Microsoft Dynamics 365, or independently using the core solution layer that is not dependent on Dynamics 365. You can use the independent solution layer to build model-driven and canvas-based Power Apps applications.
 
-When the accelerator is installed into a model-driven app for Dynamics 365, it enables you to optimize supplier operational processes including PO, expected receipts, and invoicing based on the IATI standard. You can also leverage the entire solution within the Dynamics 365 app.
+When the accelerator is installed into a model-driven app for Dynamics 365, it enables you to optimize supplier operational processes including purchase orders (POs), expected receipts, and invoicing based on the IATI standard. You can also leverage the entire solution within the Dynamics 365 app.
 
 The manufacturing data model is developed in collaboration with partners, industry experts, and open initiatives to ensure interoperability and to accelerate supplier impact.
 
 ## Entities and workflows
 This accelerator includes these entities to support the supplier relationship management scenario:
 
-|**Supplier Onboarding**|**Questionnaire Framework**|**Electronic Communication**|**Workflow**|**Process**|**Power automate**
+<!--note from editor: I made the column headings sentence case per MS guidelines, but I made the last one title case because I assume you mean the product Power Automate.  -->
+
+|**Supplier onboarding**|**Questionnaire framework**|**Electronic communication**|**Workflow**|**Process**|**Power Automate**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 Account|Question|Account Communication Configuration|Assign Supplier Web Role|Approval process|Add External User
 Contact|Questionnaire Question| |Populate decision fields| | 
@@ -65,52 +67,52 @@ Vendor Certification| | | | |
 
 The Dynamics 365 Manufacturing Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
 
-The initial access request from a registration form is to initiate the conversation with a manufacturing organization regarding the intent to be a new supplier of parts or products. The accelerator includes an extensible model for manufacturing organization to enable Azure Active Directory authentication or replace this with any other authentication type:
+The initial access request from a registration form is to initiate the conversation with a manufacturing organization regarding the intent to be a new supplier of parts or products. The accelerator includes an extensible model for a manufacturing organization to enable Azure Active Directory authentication or replace this with any other authentication type.
 
-The portal experience focuses on supporting two personas, a business development manager from a potential new supplier and the supplier IT administration team. If you are  seeking to be a new supplier then you start a new registration process. However, if you are currently an existing supplier and would like to get your development team connected you can do so via API data integration through the portal.
+The portal experience focuses on supporting two personas, a business development manager from a potential new supplier and the supplier's IT administration team. If you are  seeking to be a new supplier, then you start a new registration process. However, if you are currently an existing supplier and would like to get your development team connected, you can do so via API data integration through the portal.
 
-The model driven experience focuses on the manufacturers administrative needs and where the procurement department largely manage the suppliers.
+The model-driven experience focuses on the manufacturer's administrative needs and the procurement department largely manages the suppliers.
 
-This section provides examples of the forms and dashboards that demonstrate the entities in the data model for the Accelerator.
+This section provides examples of the forms and dashboards that demonstrate the entities in the data model for this accelerator.
 
 ## New supplier registration
 
-The supplier management functionality of the portal will allow new suppliers to access the site. Just select **Register**  to apply as a new supplier and to proceed with the approval process.
+The supplier management functionality of the portal will allow new suppliers to access the site. To apply as a new supplier and to proceed with the approval process, the supplier selects **Register**.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier management screen](media/mfg-supplier-mgmt-screen.png "Supplier management screen")
 
-After you select **Register**, the supplier will need to fill out the basic information on a registration form to begin the approval process, as shown here:
+After they select **Register**, they fill out the basic information on a registration form to begin the approval process.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier information screen](media/mfg-supplier-info-screen.png "Supplier information screen")
 
-Model driven app
-The manufacturing organization reviews, and can approve or reject the new supplier’s request.
+Model-driven app
+The manufacturing organization reviews the form, and can approve or reject the new supplier’s request.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier request screen](media/mfg-review-request.png "Supplier request screen")
 
-Upon approval, supplier receives an invitation link in email to complete the onboarding process.
+Upon approval, the supplier receives an invitation link in email to complete the onboarding process.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier invitation screen](media/mfg-invite.png "Supplier invitation screen")
 
 ## Dashboard
 
-Here are some of the available standard predefined dashboard information. This view shows the status of specific suppliers functions:
+Here is some of the available standard, predefined dashboard information. This view shows the status of a specific supplier's functions.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier dashboard screen](media/mfg-dashboard.png "Supplier dashboard screen")
 
 ## Supplier qualification
 
-Once approved the supplier can easily onboard within the portal. Select **Supplier Onboarding**, and then select **Continue**.
+Once approved, the supplier can easily onboard within the portal. They select **Supplier Onboarding**, and then select **Continue**.
 
 > [!div class="mx-imgBorder"]
 > ![Getting started screen](media/mfg-getting-started.png "Getting started screen")
 
-Now, the new approved supplier can add additional information about their company. They can also update their information later.
+Now, the newly approved supplier can add additional information about their company. They can also update their information later.
 
 > [!div class="mx-imgBorder"]
 > ![Supplier detail screen](media/mfg-supplier-detail-screen.png "Supplier detail screen")
