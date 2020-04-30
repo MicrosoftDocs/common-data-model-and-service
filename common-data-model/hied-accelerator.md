@@ -16,7 +16,7 @@ ms.author: merami
 With the Higher Education component in the [Dynamics 365 Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The component includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The component also provides entities, fields, forms, views, and dashboards specific to higher education.
 <!--note from editor: Shouldn't that first sentence be "With the Higher Education component in the Dynamics 365 Education Accelerator, you can develop..."? In the overview, you say the Education Accelerator has 2 components, but in this topic, you say there is a specific Higher Education Accelerator. See my proposed changes. -->
 
-The component now includes the following features:
+<!--note from editor: I don't see any features listed after this colon. There were just new sections, do I deleted the sentence "The component now includes the following features:" -->
 
 ## Common Data Model extensions
 
