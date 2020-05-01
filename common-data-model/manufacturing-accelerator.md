@@ -89,7 +89,6 @@ After they select **Register**, they fill out the basic information on a registr
 
 ## Model-driven app
 The manufacturing organization reviews the form, and can approve or reject the new supplier’s request.
-<!--note from editor: You can't use real people's names in screenshots. Please mask out all real names and use only fictitious names and other content. I'm stopping my review of the screenshots since the issues are so pervasive. Please apply what I've commented on across the images and then I'll review them all again. -->
 
 > [!div class="mx-imgBorder"]
 > ![Supplier request screen](media/mfg-review-request.png "Supplier request screen")
@@ -129,7 +128,7 @@ Once the developers have been approved, they will be able to enter the EDI inter
 > [!div class="mx-imgBorder"]
 > ![Developer onboarding screen - select EDI](media/mfg-dev-edi.png "Developer onboarding screen - select EDI")
 
-The basic information that the developer or supplier IT team needs to provide and the information they need to send message securely to the right API end point. There are multiple tabs, as in the view below. 
+The basic information that the developer or supplier IT team needs to provide and the information they need to send a message securely to the right API end point. There are multiple tabs, as in the view below. 
 <!--note from editor: There's a word missing in teh sentence above around the word "message", but I can't tell what you are trying to say. Please fix.  -->
 
 > [!div class="mx-imgBorder"]
