@@ -11,27 +11,37 @@ ms.author: merami
 
 ---
 
-# Dynamics 365 Education Accelerator – K12 (Preview)
+# Dynamics 365 Education Accelerator – K-12 (Preview)
 
-The K12 scenario is released to sit on top of an existing Dynamics 365 instance or Power Apps instance to assist with day to day operations or as a standalone data model for developers. The holistic student profile and educator and community engagement scenario contains the data model, installable scenarios (including standard entity attribute extensions, K12 specific education entities, pre-built dashboard and portals, sample data) and other tools to help customers and partners build and deploy new solutions.
+[This topic is pre-release documentation and is subject to change.]
+
+The K-12 component in the Dynamics 365 Education Accelerator sits on top of an existing Dynamics 365 instance or Power Apps instance to assist with day-to-day operations or as a standalone data model for developers. The holistic student profile, educator, and community engagement scenario contains:
+
+- The data model
+- Installable scenarios, including:
+  - Standard entity attribute extensions
+  - Specific education entities for K-12
+  - Pre-built dashboards and portals
+  - Sample data
+- Other tools to help customers and partners build and deploy new solutions
 
 The accelerator includes the following features:
 
-- K12 Student and Parent Portal
+- K-12 parent and student portal
 - Collect School paperwork and forms
 - Ability to engage donors and raise funds
-- Student Behavior Management Application
-- Track and Report Attendance Application and Dashboard
+- Student Behavior Management application
+- Track and Report Attendance application and dashboard
 
 ## Site-map extensions
 
-With the Dynamics 365 K12 scenario, schools can optimize student success through optimal understanding of data about the student journey. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for K12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
+With the K-12 component, schools can optimize student success through understanding data about the student journey. When the accelerator is installed, the experience is transformed into one specifically built for K-12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
 
 ## Entities and workflows
 
-This accelerator provides these entities to support the needs of K12 schools:
+This accelerator provides these entities to support the needs of K-12 schools:
 
-### EDUCATION CORE
+### Education core
 
 - Contact
 - Account
@@ -41,11 +51,11 @@ This accelerator provides these entities to support the needs of K12 schools:
 - Registration Status
 - Course
 - Course Section
-- Extra Curricular Activity
-- Extra Curricular Activity Participants
+- Extracurricular Activity
+- Extracurricular Activity Participants
 - Address / Customer Address
 - Academic Period
-- Program 
+- Program
 - Program Level
 - Academic Period Details
 - Student Status
@@ -60,7 +70,7 @@ This accelerator provides these entities to support the needs of K12 schools:
 - Scholarship
 - Scholarship Applicant
 
-### K12
+### K-12
 
 - Attendance
 - Grading Period
@@ -75,11 +85,11 @@ This accelerator provides these entities to support the needs of K12 schools:
 - Student Assessment Response
 - Learning Standards
 
-## Forms and dashboards
+## Forms, dashboards, and apps
 
-To better understand and use the available forms and dashboards in this scenario, let’s look it through the personas of a parent, an administrator, or an educator.
+To better understand and use the available forms, dashboards, and apps in this scenario, let’s look it through the personas of a parent, an administrator, or an educator. 
 
-## Parent and Student Portal
+## Parent and student portal
 
 This portal allows both the parent and student access to the student’s information. From attendance to grades it facilitates clear conversations about progress made by students and caregivers/parents who support their students.
 
@@ -89,45 +99,47 @@ This portal allows both the parent and student access to the student’s informa
 Here students can see all their assignments and progress made with each, as well as focus on a particular subject to see only those assignments.
 
 > [!div class="mx-imgBorder"]
-> ![Parent and student portal](media/parent-student-portal-2.png "Parent and student portal")
+> ![Parent and student portal - view assignments](media/parent-student-portal-2.png "Parent and student portal - view assignments")
 
-Students can also easily check grades and test scores.
+Students can easily check grades and test scores.
 
-> [!div class="mx-imgBorder"]
-> ![Parent and student portal](media/parent-student-portal-3.png "Parent and student portal")
-
-As well as other important details like attendance.
+<!--note from editor: Anton's name is misspelled in the last 2 rows of this image. -->
 
 > [!div class="mx-imgBorder"]
-> ![Parent and student portal](media/parent-student-portal-4.png "Parent and student portal")
+> ![Parent and student portal - check grades](media/parent-student-portal-3.png "Parent and student portal - check grades")
 
-And explore extracurricular activities offered at their schools.
-
-> [!div class="mx-imgBorder"]
-> ![Parent and student portal](media/parent-student-portal-5.png "Parent and student portal")
-
-Parents can also easily update their family information for the school, include important medical forms and more.
+They can also check other important details like attendance.
 
 > [!div class="mx-imgBorder"]
-> ![Parent and student portal](media/parent-student-portal-6.png "Parent and student portal")
+> ![Parent and student portal - check attendance](media/parent-student-portal-4.png "Parent and student portal - check attendance")
+
+They can explore extracurricular activities offered at their schools.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal - activities](media/parent-student-portal-5.png "Parent and student portal - activities")
+
+Parents can also easily update their family information for the school, including important medical forms.
+
+> [!div class="mx-imgBorder"]
+> ![Parent and student portal - update info](media/parent-student-portal-6.png "Parent and student portal - update info")
 
 ## Model-driven app
 
-Administrators can have a complete view of attendance, courses, internships, accomplishments, extra-curricular activities, interventions, assessments, and behavior incidents. The Administrator sees this single view to access information for their students and take informed actions to support students.
+Administrators have a complete view of attendance, courses, internships, accomplishments, extracurricular activities, interventions, assessments, and behavior incidents. The administrator sees this single view to access information for their students and take informed actions to support students.
 
 > [!div class="mx-imgBorder"]
 > ![Administrator view](media/edu-admin-view.png "Administrator view")
 
 ## Donor management app
 
-Administrators can use the donor app to view and manage donors and update them how their donations are being utilized by the school.
+Administrators use the donor app to view and manage donors and update them on how the school is using their donations.
 
 > [!div class="mx-imgBorder"]
 > ![Donor management view](media/edu-donor-mgmt-view.png "Donor management view")
 
-The Administrators can also easily get a clear view of donation designations.
+Administrators can also get a clear view of donation designations.
 
-## Student behavior app
+## Student Behavior Management app
 
 Administrators can easily record, track, and encourage positive behavior from students.
 
@@ -139,23 +151,24 @@ They can also better understand details on how students earned recognition for p
 > [!div class="mx-imgBorder"]
 > ![Student behavior incident view](media/behavior-view-2.png "Student behavior incident view")
 
-## Student attendance app
+## Track and Report Attendance app 
 
-Educators can easily track and reports attendance in the Attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
+Educators can easily track and reports attendance in the attendance application. This application can also be modified to use on a table or phone to increase ease of using it.
 
 > [!div class="mx-imgBorder"]
 > ![Student attendance view](media/attendance-app.png "Student attendance view")
 
-## Attendance Power BI template
+## Attendance Power BI dashboard
 
-Attendance Power BI report dashboard allows Educators to easily view the attendance data and take action on it.
+The Attendance Power BI report dashboard allows educators to easily view and take action on attendance data.
 
 > [!div class="mx-imgBorder"]
-> ![Student attendance template](media/attendance-template.png "Student attendance template")
+> ![Student attendance template](media/attendance-template.png "Student attendance dashboard")
 
 ## Additional resources
 
-Education Accelerator data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://aka.ms/edugithub).
+- Download the Dynamics 365 Education Accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview).
+- The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license available on [Github](https://aka.ms/edugithub).
 
 ## Connect and share feedback
 Do you have feedback or need support? Contact us at [dynindaccsupport@microsoft.com](mailto:dynindaccsupport@microsoft.com).
