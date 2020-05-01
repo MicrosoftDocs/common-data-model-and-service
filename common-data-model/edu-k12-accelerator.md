@@ -13,6 +13,8 @@ ms.author: merami
 
 # Dynamics 365 Education Accelerator – K-12 (Preview)
 
+[This topic is pre-release documentation and is subject to change.]
+
 The K-12 component in the Dynamics 365 Education Accelerator sits on top of an existing Dynamics 365 instance or Power Apps instance to assist with day-to-day operations or as a standalone data model for developers. The holistic student profile, educator, and community engagement scenario contains:
 
 - The data model
