@@ -135,9 +135,13 @@ A key customer target of the fan engagement scenarios within the Media and Commu
 > [!div class="mx-imgBorder"]
 > ![Sports events screen](media/media-sports-events.png "Sports events screen")
 
-### Ticketing sales
+## Media Product Sales
 
-The new data entities include the ability to create solutions for ticketing, reservations, and seat management for media companies. This includes the building up of seat maps, the tracking of the seat inventory used within a venue, event, or individual attraction or conference session, and the subsequent productization and sales of individual or group tickets to those events.
+### Ticketing & Advertising Sales
+
+The Media Accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps; to assign and track available and blocked seat inventory used within a venue, event, or individual attraction or conference session. Then, th subsequent productization and sales of individual, seasonal, or group tickets to those events. 
+
+Similarly, you can build an application that enables the creation and sales of advertising display products. There's a key focus on  display messaging sales at a physical venue (digital billboards, scoreboards, other signs spread across an arena or theme park). This includes the ability to specify ‘what, where, and when’ for display advertising, as well as to track and manage the sale and fulfilment of those advertisements and sponsorships.
 
 > [!div class="mx-imgBorder"]
 > ![Ticket sales dashboard](media/media-ticket-dashboard.png "Ticket sales dashboard")
@@ -145,12 +149,6 @@ The new data entities include the ability to create solutions for ticketing, res
 > [!div class="mx-imgBorder"]
 > ![Ticket sales details screen](media/media-ticket-details.png "Ticket sales details screen")
 
-### Advertising and sponsorships
-
-This application focuses on the creation and sales of advertising display products. A key focus is on the selling of display messaging at a physical venue (for example: digital billboards, scoreboards, other signs spread across an arena or theme park). This includes the ability to specify the what, where, and when display advertising will take place as well as track and manage the sale and fulfillment of those advertisements and sponsorships.
-
-> [!div class="mx-imgBorder"]
-> ![Advertising administration menu](media/media-media-advertising-menu.png "Advertising administration menu")
 ## Additional resources
 
 - Download the Dynamics 365 Media and Communications Accelerator from AppSource.
