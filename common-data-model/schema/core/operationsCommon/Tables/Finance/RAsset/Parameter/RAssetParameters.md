@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -122,7 +122,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Putting into operation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Putting into operation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -130,6 +130,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Acquisition attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Putting into operation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -142,7 +145,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -150,6 +153,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the AcquisitionAdj attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost revaluation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -162,7 +168,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis code</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis code</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -171,6 +177,9 @@ First included in: Parameter/RAssetParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Analysis code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -184,7 +193,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -192,6 +201,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the AssessedRoll attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -201,7 +213,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -209,6 +221,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the AssessedTaxInitDate attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -218,7 +233,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reason code requirements for asset changes</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reason code requirements for asset changes</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -226,6 +241,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the AssetChanges attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason code requirements for asset changes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -238,7 +256,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Round-off</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Round-off</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -247,6 +265,9 @@ First included in: Parameter/RAssetParameters (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Round-off</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -262,7 +283,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -270,6 +291,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the AutoNumber attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -279,7 +303,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Barcodes autonumeration</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Barcodes autonumeration</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -287,6 +311,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the AutoNumberBarcode attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Barcodes autonumeration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -299,7 +326,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Barcode equals FA number</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Barcode equals FA number</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -307,6 +334,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the BarcodeEqualsAssetNumber attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Barcode equals FA number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -319,7 +349,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transference</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transference</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -327,6 +357,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the CompanyIssue attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Transference</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -339,7 +372,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Receipt</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Receipt</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -347,6 +380,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the CompanyReceipt attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Receipt</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -359,7 +395,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -368,6 +404,9 @@ First included in: Parameter/RAssetParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -378,7 +417,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Depreciation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Depreciation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -386,6 +425,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Depreciation attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Depreciation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -398,7 +440,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Depreciation revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Depreciation revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -406,6 +448,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the DepreciationAdj attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Depreciation revaluation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -418,7 +463,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -427,6 +472,9 @@ First included in: Parameter/RAssetParameters (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -439,7 +487,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Writing-off</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Writing-off</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -447,6 +495,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Disposal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Writing-off</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -459,7 +510,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disposal (sale)</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disposal (sale)</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -467,6 +518,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the DisposalSale attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Disposal (sale)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -479,7 +533,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disposal (dismantlement)</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disposal (dismantlement)</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -487,6 +541,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the DisposalScrap attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Disposal (dismantlement)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -499,7 +556,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Document location</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Document location</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -509,6 +566,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Document location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -522,7 +582,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -531,6 +591,9 @@ First included in: Parameter/RAssetParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -540,7 +603,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -550,6 +613,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -560,7 +626,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -568,6 +634,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the LandTaxRoll attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -577,7 +646,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -587,6 +656,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -597,7 +669,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lease</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lease</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -605,6 +677,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Lending attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lease</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -617,7 +692,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Return from lease</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Return from lease</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -625,6 +700,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the LendingRet attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Return from lease</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -637,7 +715,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max cost of the NVFA</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Max cost of the NVFA</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -646,6 +724,9 @@ First included in: Parameter/RAssetParameters (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Max cost of the NVFA</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -661,7 +742,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>NVFA inventory profile</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>NVFA inventory profile</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -671,6 +752,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>NVFA inventory profile</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -684,7 +768,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -692,6 +776,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the MultiAcq attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -701,7 +788,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Others</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Others</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -709,6 +796,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Other attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Others</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -721,7 +811,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partial dismantlement</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partial dismantlement</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -729,6 +819,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the PartialTakeDown attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Partial dismantlement</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -741,7 +834,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -751,6 +844,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -761,7 +857,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -769,6 +865,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Reservation attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -778,7 +877,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Major repairs</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Major repairs</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -786,6 +885,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the Revaluation attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Major repairs</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -818,7 +920,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax value model</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax value model</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -828,6 +930,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Tax value model</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -841,7 +946,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -851,6 +956,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -861,7 +969,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -871,6 +979,9 @@ First included in: Parameter/RAssetParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -881,7 +992,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -889,6 +1000,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the TransportTaxRoll attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -898,7 +1012,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency depreciation revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency depreciation revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -906,6 +1020,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the WriteDownAdj attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency depreciation revaluation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -918,7 +1035,7 @@ First included in: Parameter/RAssetParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency cost revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency cost revaluation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -926,6 +1043,9 @@ First included in: Parameter/RAssetParameters (this entity)
 <summary>List of traits for the WriteUpAdj attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Currency cost revaluation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 

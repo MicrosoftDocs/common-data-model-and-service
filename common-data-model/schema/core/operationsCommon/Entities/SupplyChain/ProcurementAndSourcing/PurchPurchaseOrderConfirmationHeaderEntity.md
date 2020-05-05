@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -148,7 +148,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -158,6 +158,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -168,7 +171,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -178,6 +181,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -188,7 +194,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -198,6 +204,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -208,7 +217,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -218,6 +227,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -228,7 +240,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -238,6 +250,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -248,7 +263,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -258,6 +273,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -268,7 +286,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -278,6 +296,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -288,7 +309,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -298,6 +319,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -308,7 +332,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -318,6 +342,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -328,7 +355,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -338,6 +365,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -348,7 +378,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -358,6 +388,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -368,7 +401,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery address name </td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery address name </td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -378,6 +411,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delivery address name </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -391,7 +427,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -401,6 +437,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -411,7 +450,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -421,6 +460,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -431,7 +473,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -441,6 +483,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -451,7 +496,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -461,6 +506,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -471,7 +519,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -481,6 +529,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -491,7 +542,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -501,6 +552,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -511,7 +565,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -521,6 +575,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -531,7 +588,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -541,6 +598,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -551,7 +611,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -561,6 +621,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -571,7 +634,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -581,6 +644,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -591,7 +657,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -601,6 +667,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -611,7 +680,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -621,6 +690,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -631,7 +703,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -641,6 +713,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -651,7 +726,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -661,6 +736,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -671,7 +749,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -681,6 +759,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -691,7 +772,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -701,6 +782,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -711,7 +795,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -721,6 +805,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -731,7 +818,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -741,6 +828,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -751,7 +841,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -761,6 +851,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -771,7 +864,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -781,6 +874,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -791,7 +887,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -801,6 +897,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -811,7 +910,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -821,6 +920,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -831,7 +933,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -841,6 +943,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -851,7 +956,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -861,6 +966,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -871,7 +979,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -881,6 +989,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -891,7 +1002,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -901,6 +1012,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -911,7 +1025,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -921,6 +1035,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -931,7 +1048,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -941,6 +1058,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -951,7 +1071,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -961,6 +1081,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -971,7 +1094,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -981,6 +1104,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -991,7 +1117,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1001,6 +1127,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1011,7 +1140,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1021,6 +1150,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1031,7 +1163,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1041,6 +1173,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1051,7 +1186,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1061,6 +1196,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1071,7 +1209,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1081,6 +1219,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1091,7 +1232,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1101,6 +1242,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1111,7 +1255,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirming PO</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirming PO</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1121,6 +1265,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Confirming PO</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1134,7 +1281,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirming PO language</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirming PO language</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1144,6 +1291,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Confirming PO language</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1157,7 +1307,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice declaration</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Invoice declaration</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1167,6 +1317,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Invoice declaration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1180,7 +1333,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Financial dimensions</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Financial dimensions</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1190,6 +1343,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Financial dimensions</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1203,7 +1359,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1213,6 +1369,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1223,7 +1382,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1233,6 +1392,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1243,7 +1405,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1253,6 +1415,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1263,7 +1428,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1273,6 +1438,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1283,7 +1451,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1293,6 +1461,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1303,7 +1474,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1313,6 +1484,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1323,7 +1497,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1333,6 +1507,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1343,7 +1520,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1353,6 +1530,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1363,7 +1543,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1373,6 +1553,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1383,7 +1566,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1393,6 +1576,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1403,7 +1589,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery address description </td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery address description </td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1413,6 +1599,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delivery address description </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1426,7 +1615,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1436,6 +1625,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1446,7 +1638,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1456,6 +1648,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1466,7 +1661,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1476,6 +1671,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1486,7 +1684,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is delivery address private</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is delivery address private</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1496,6 +1694,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is delivery address private</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1509,7 +1710,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1519,6 +1720,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1529,7 +1733,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1539,6 +1743,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1549,7 +1756,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1559,6 +1766,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1569,7 +1779,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1579,6 +1789,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1589,7 +1802,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1599,6 +1812,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1609,7 +1825,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1619,6 +1835,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1629,7 +1848,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1639,6 +1858,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1649,7 +1871,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1659,6 +1881,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1669,7 +1894,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1679,6 +1904,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1689,7 +1917,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1699,6 +1927,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1709,7 +1940,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Orderer</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Orderer</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1719,6 +1950,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Orderer</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1732,7 +1966,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Requester</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Requester</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1742,6 +1976,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Requester</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1755,7 +1992,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1765,6 +2002,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1775,7 +2015,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1785,6 +2025,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1795,7 +2038,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1805,6 +2048,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1815,7 +2061,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1825,6 +2071,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1835,7 +2084,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total amount</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total amount</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1845,6 +2094,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1858,7 +2110,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prepayment amount</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Prepayment amount</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1868,6 +2120,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Prepayment amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1881,7 +2136,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1891,6 +2146,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1901,7 +2159,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1911,6 +2169,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1921,7 +2182,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1931,6 +2192,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1941,7 +2205,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1951,6 +2215,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1961,7 +2228,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1971,6 +2238,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1981,7 +2251,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1991,6 +2261,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2001,7 +2274,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirmation date</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Confirmation date</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2011,6 +2284,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Confirmation date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -2024,7 +2300,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2034,6 +2310,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2044,7 +2323,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total purchase quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total purchase quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2054,6 +2333,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total purchase quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -2067,7 +2349,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2077,6 +2359,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2087,7 +2372,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subtotal amount</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subtotal amount</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2097,6 +2382,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Subtotal amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -2110,7 +2398,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2120,6 +2408,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2130,7 +2421,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2140,6 +2431,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2150,7 +2444,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2160,6 +2454,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2170,7 +2467,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2180,6 +2477,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2190,7 +2490,7 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2200,6 +2500,9 @@ First included in: ProcurementAndSourcing/PurchPurchaseOrderConfirmationHeaderEn
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>

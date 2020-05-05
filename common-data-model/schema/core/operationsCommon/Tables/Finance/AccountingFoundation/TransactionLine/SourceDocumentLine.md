@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -82,7 +82,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -90,6 +90,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 <summary>List of traits for the AccountingStatus attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -99,7 +102,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>date</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -108,6 +111,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 **is.dataFormat.date**  
 **means.measurement.date**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.date**  
 </details>
 
@@ -117,7 +123,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -125,6 +131,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 <summary>List of traits for the IsFinal attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -134,7 +143,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -143,6 +152,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -190,7 +202,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>binary</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>binary</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -200,6 +212,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 **is.dataFormat.byte**  
 **is.dataFormat.array**  
 **is.readOnly**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.byte**  
 **is.dataFormat.array**  
 </details>
@@ -249,7 +264,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -258,6 +273,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -270,7 +288,7 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -278,6 +296,9 @@ First included in: TransactionLine/SourceDocumentLine (this entity)
 <summary>List of traits for the DraftVersion attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 

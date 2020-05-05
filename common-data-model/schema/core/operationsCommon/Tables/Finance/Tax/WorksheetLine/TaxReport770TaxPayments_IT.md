@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -89,7 +89,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deduction amounts used</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deduction amounts used</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -98,6 +98,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Deduction amounts used</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -113,7 +116,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -122,6 +125,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Interest amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -154,7 +160,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Note</td></tr><tr><td>dataFormat</td><td>char</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Note</td></tr><tr><td>dataFormat</td><td>char</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -163,6 +169,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Note</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -176,7 +185,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Overpayment</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Overpayment</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -185,6 +194,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Overpayment</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -200,7 +212,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Paid amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Paid amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -209,6 +221,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Paid amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -224,7 +239,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment date</td></tr><tr><td>dataFormat</td><td>date</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment date</td></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -233,6 +248,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.date**  
 **means.measurement.date**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Payment date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -245,7 +263,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recovered credits</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recovered credits</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -254,6 +272,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Recovered credits</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -289,7 +310,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax credit used as a detraction</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax credit used as a detraction</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -298,6 +319,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Tax credit used as a detraction</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -313,7 +337,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -322,6 +346,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -357,7 +384,7 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total amount</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -366,6 +393,9 @@ First included in: WorksheetLine/TaxReport770TaxPayments_IT (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Total amount</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

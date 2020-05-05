@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -100,7 +100,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Absence pay units</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Absence pay units</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -110,6 +110,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Absence pay units</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -123,7 +126,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -133,6 +136,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -143,7 +149,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Indirect activity name</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Indirect activity name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -153,6 +159,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indirect activity name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -166,7 +175,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Break seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Break seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -176,6 +185,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Break seconds</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -189,7 +201,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Break tolerance seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Break tolerance seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -199,6 +211,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Break tolerance seconds</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -212,7 +227,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -222,6 +237,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -232,7 +250,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -242,6 +260,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -252,7 +273,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -262,6 +283,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -272,7 +296,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -282,6 +306,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -292,7 +319,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -302,6 +329,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -312,7 +342,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -322,6 +352,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -332,7 +365,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -342,6 +375,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -352,7 +388,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -362,6 +398,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -372,7 +411,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -382,6 +421,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -392,7 +434,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -402,6 +444,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -412,7 +457,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -422,6 +467,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -432,7 +480,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -442,6 +490,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -455,7 +506,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time allocation type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time allocation type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -465,6 +516,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time allocation type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -478,7 +532,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -488,6 +542,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -498,7 +555,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Error log text</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Error log text</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -508,6 +565,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Error log text</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -521,7 +581,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -531,6 +591,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -541,7 +604,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operation number</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operation number</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -551,6 +614,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operation number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -564,7 +630,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported error catch weight quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported error catch weight quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -574,6 +640,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reported error catch weight quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -587,7 +656,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported good catch weight quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported good catch weight quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -597,6 +666,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reported good catch weight quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -610,7 +682,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Started catch weight quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Started catch weight quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -620,6 +692,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Started catch weight quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -653,7 +728,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Project category id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Project category id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -663,6 +738,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Project category id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -676,7 +754,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported error quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported error quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -686,6 +764,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reported error quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -699,7 +780,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported good quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reported good quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -709,6 +790,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reported good quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -722,7 +806,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Started quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Started quantity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -732,6 +816,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Started quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -745,7 +832,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Route job type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Route job type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -755,6 +842,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Route job type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -768,7 +858,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculated time seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculated time seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -778,6 +868,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Calculated time seconds</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -791,7 +884,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculated time before allocation seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculated time before allocation seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -801,6 +894,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Calculated time before allocation seconds</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -814,7 +910,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculated time after allocation seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Calculated time after allocation seconds</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -824,6 +920,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Calculated time after allocation seconds</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -837,7 +936,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Registration type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Registration type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -847,6 +946,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Registration type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -860,7 +962,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Registration sub type</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Registration sub type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -870,6 +972,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Registration sub type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -883,7 +988,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -893,6 +998,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -903,7 +1011,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -913,6 +1021,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -923,7 +1034,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -933,6 +1044,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -943,7 +1057,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -953,6 +1067,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -963,7 +1080,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -973,6 +1090,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -983,7 +1103,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -993,6 +1113,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1003,7 +1126,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1013,6 +1136,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1023,7 +1149,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operations resource Id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operations resource Id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1033,6 +1159,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operations resource Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1046,7 +1175,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operations resource pilot Id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Operations resource pilot Id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1056,6 +1185,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Operations resource pilot Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1092,7 +1224,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pilot personnel number</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pilot personnel number</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1102,6 +1234,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pilot personnel number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1115,7 +1250,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1125,6 +1260,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1135,7 +1273,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity registration transaction Id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity registration transaction Id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1145,6 +1283,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity registration transaction Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1158,7 +1299,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity registration entry number</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Activity registration entry number</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1168,6 +1309,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Activity registration entry number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1181,7 +1325,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Production order number</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Production order number</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1191,6 +1335,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Production order number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1204,7 +1351,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Project Id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Project Id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1214,6 +1361,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Project Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1227,7 +1377,7 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Indirect activity category Id</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Indirect activity category Id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1237,6 +1387,9 @@ First included in: ProductionControl/JmgTimeAndAttendanceActivityRegistrationEnt
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indirect activity category Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 

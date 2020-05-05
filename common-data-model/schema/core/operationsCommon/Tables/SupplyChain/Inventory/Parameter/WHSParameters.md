@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -179,7 +179,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -189,6 +189,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -199,7 +202,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -209,6 +212,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -219,7 +225,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -229,6 +235,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -239,7 +248,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -247,6 +256,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the AutoCleanEmptyLoadManifest attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -256,7 +268,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -264,6 +276,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the AutoCreateLoad attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -273,7 +288,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -281,6 +296,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the AutoCreateLoadPO attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -290,7 +308,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -298,6 +316,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the AutoCreateLoadTO attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -307,7 +328,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -317,6 +338,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -327,7 +351,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -337,6 +361,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -347,7 +374,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -355,6 +382,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the ConsolidateLoads attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -364,7 +394,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -372,6 +402,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the ContainerizationLog attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -381,7 +414,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -391,6 +424,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -401,7 +437,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -411,6 +447,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -421,7 +460,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default cycle count work priority</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default cycle count work priority</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -429,6 +468,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the CycleCountWorkPriority attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default cycle count work priority</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -441,7 +483,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -449,6 +491,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the DisplayCreditMaxCheckDialog attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -458,7 +503,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -468,6 +513,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -478,7 +526,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -488,6 +536,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -498,7 +549,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -508,6 +559,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -518,7 +572,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -528,6 +582,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -538,7 +595,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -546,6 +603,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the DefaultStatusOnSOTO attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -555,7 +615,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -565,6 +625,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -575,7 +638,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -583,6 +646,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the EnableCustFilters attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -592,7 +658,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -600,6 +666,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the EnableVendFilters attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -609,7 +678,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -617,6 +686,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the ExecuteWaveInBatch attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -626,7 +698,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -636,6 +708,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -646,7 +721,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -655,6 +730,9 @@ First included in: Parameter/WHSParameters (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -667,7 +745,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -675,6 +753,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the FulfillmentType attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -684,7 +765,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default work user ID</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default work user ID</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -694,6 +775,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Default work user ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -707,7 +791,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -717,6 +801,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -727,7 +814,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -735,6 +822,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the LoadPlanning attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -744,7 +834,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -752,6 +842,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the LoadSynchronizationPolicy attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -761,7 +854,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -769,6 +862,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the NumDaysToMix attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -778,7 +874,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -788,6 +884,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -798,7 +897,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -808,6 +907,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -818,7 +920,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -828,6 +930,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -838,7 +943,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -847,6 +952,9 @@ First included in: Parameter/WHSParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.readOnly**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -856,7 +964,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>binary</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>binary</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -865,6 +973,9 @@ First included in: Parameter/WHSParameters (this entity)
 
 **is.dataFormat.byte**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.byte**  
 **is.dataFormat.array**  
 </details>
@@ -875,7 +986,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -885,6 +996,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -895,7 +1009,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -903,6 +1017,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the RetainTmpWorkTable attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -912,7 +1029,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -920,6 +1037,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the RFErrorRecords attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -929,7 +1049,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -939,6 +1059,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -949,7 +1072,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -957,6 +1080,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the RFSessionLogging attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -966,7 +1092,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -975,6 +1101,9 @@ First included in: Parameter/WHSParameters (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -987,7 +1116,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -997,6 +1126,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1007,7 +1139,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1017,6 +1149,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1027,7 +1162,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1037,6 +1172,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1047,7 +1185,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1055,6 +1193,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the ToteReuse attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1064,7 +1205,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1074,6 +1215,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1084,7 +1228,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1092,6 +1236,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the UnregisterAtWorkCancel attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1101,7 +1248,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1111,6 +1258,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1121,7 +1271,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1131,6 +1281,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1141,7 +1294,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1149,6 +1302,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the WaveExecutionHistoryLog attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1158,7 +1314,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1166,6 +1322,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the WaveLockWait attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1175,7 +1334,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1183,6 +1342,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the WorkCreateHistoryLog attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1192,7 +1354,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1200,6 +1362,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the WorkPriority attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1209,7 +1374,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1217,6 +1382,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the EnableOrderLoadHistory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1226,7 +1394,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1234,6 +1402,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the EnableWarehouseLoadHistory attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1243,7 +1414,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1251,6 +1422,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the WaveProgressLog attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1260,7 +1434,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fulfillment violation messages</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fulfillment violation messages</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1268,6 +1442,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the FulfillmentErrorTolerance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fulfillment violation messages</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1280,7 +1457,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1288,6 +1465,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the DefaultFreightCounted attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1297,7 +1477,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1305,6 +1485,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the DefaultTrailerLoaded attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1314,7 +1497,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1324,6 +1507,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1334,7 +1520,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1342,6 +1528,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the CreatePendingAllocationLog attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1351,7 +1540,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1359,6 +1548,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the FulfillmentRateCheck attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1368,7 +1560,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales order fulfillment policy</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sales order fulfillment policy</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1377,6 +1569,9 @@ First included in: Parameter/WHSParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sales order fulfillment policy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1390,7 +1585,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transfer order fulfillment policy</td></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transfer order fulfillment policy</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1399,6 +1594,9 @@ First included in: Parameter/WHSParameters (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Transfer order fulfillment policy</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1412,7 +1610,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1420,6 +1618,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the TransferOrderReceivingProcess attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1429,7 +1630,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1437,6 +1638,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the EnableWaveStepCode attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1446,7 +1650,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1456,6 +1660,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1466,7 +1673,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Generate BOL number when building wave labels</td></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Generate BOL number when building wave labels</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1474,6 +1681,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the WaveLabelBOLNumGen attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Generate BOL number when building wave labels</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1486,7 +1696,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1496,6 +1706,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1506,7 +1719,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1514,6 +1727,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the AllowMultipleProductReceiptsForLoad attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1523,7 +1739,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1533,6 +1749,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1543,7 +1762,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1551,6 +1770,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the HMIMCarrOfMerchByRoadGroupProduct attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1560,7 +1782,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1570,6 +1792,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1580,7 +1805,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hazardous goods domestic report language</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hazardous goods domestic report language</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1590,6 +1815,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hazardous goods domestic report language</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1603,7 +1831,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hazardous goods export report language</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hazardous goods export report language</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1613,6 +1841,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Hazardous goods export report language</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1626,7 +1857,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1636,6 +1867,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1646,7 +1880,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1654,6 +1888,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the EnablePurchaseOrderRegistrationInExternalReview attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1663,7 +1900,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Warning</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Warning</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1673,6 +1910,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Warning</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1686,7 +1926,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Footer declaration</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Footer declaration</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1696,6 +1936,9 @@ First included in: Parameter/WHSParameters (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Footer declaration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1709,7 +1952,7 @@ First included in: Parameter/WHSParameters (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1717,6 +1960,9 @@ First included in: Parameter/WHSParameters (this entity)
 <summary>List of traits for the TransitWarehouseLicensePlatePolicy attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 

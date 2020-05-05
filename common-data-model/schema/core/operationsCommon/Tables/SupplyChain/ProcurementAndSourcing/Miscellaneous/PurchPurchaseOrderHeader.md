@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -144,7 +144,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -153,6 +153,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -165,7 +168,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -174,6 +177,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -186,7 +192,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -195,6 +201,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -207,7 +216,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -217,6 +226,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -227,7 +239,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -237,6 +249,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -247,7 +262,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -257,6 +272,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -267,7 +285,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -277,6 +295,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -287,7 +308,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -297,6 +318,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -307,7 +331,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -317,6 +341,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -327,7 +354,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -337,6 +364,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -347,7 +377,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -357,6 +387,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -367,7 +400,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -377,6 +410,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -387,7 +423,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -397,6 +433,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -407,7 +446,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -417,6 +456,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -427,7 +469,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>binary</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>binary</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -436,6 +478,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.byte**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.byte**  
 **is.dataFormat.array**  
 </details>
@@ -446,7 +491,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -456,6 +501,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -466,7 +514,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -476,6 +524,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -486,7 +537,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -496,6 +547,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -506,7 +560,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -516,6 +570,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -526,7 +583,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -536,6 +593,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -546,7 +606,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -556,6 +616,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -566,7 +629,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -576,6 +639,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -586,7 +652,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -596,6 +662,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -606,7 +675,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -616,6 +685,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -626,7 +698,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -636,6 +708,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -646,7 +721,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -656,6 +731,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -666,7 +744,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -674,6 +752,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the EnableAmountControls attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -683,7 +764,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -692,6 +773,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -704,7 +788,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -713,6 +797,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -725,7 +812,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -735,6 +822,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -745,7 +835,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -753,6 +843,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the IsPrepay attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -762,7 +855,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -771,6 +864,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 **is.dataFormat.big**  
 </details>
@@ -781,7 +877,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -790,6 +886,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -802,7 +901,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -811,6 +910,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -823,7 +925,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -833,6 +935,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -843,7 +948,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -851,6 +956,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the PrePrintLevel attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -860,7 +968,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -868,6 +976,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the PrintLogo attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -877,7 +988,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -885,6 +996,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the PrintTaxAmountSalesExchangeRate attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -894,7 +1008,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -902,6 +1016,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the PrintTaxFreeBalance attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -911,7 +1028,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -921,6 +1038,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -951,7 +1071,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>date</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -960,6 +1080,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.date**  
 **means.measurement.date**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.date**  
 </details>
 
@@ -969,7 +1092,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -979,6 +1102,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -989,7 +1115,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -999,6 +1125,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1009,7 +1138,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1018,6 +1147,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1030,7 +1162,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1039,6 +1171,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1051,7 +1186,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1060,6 +1195,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1072,7 +1210,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1081,6 +1219,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1093,7 +1234,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1102,6 +1243,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1114,7 +1258,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1123,6 +1267,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1135,7 +1282,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1144,6 +1291,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1156,7 +1306,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1165,6 +1315,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1177,7 +1330,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1186,6 +1339,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1198,7 +1354,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1207,6 +1363,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1219,7 +1378,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1228,6 +1387,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1240,7 +1402,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1249,6 +1411,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1261,7 +1426,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1270,6 +1435,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1282,7 +1450,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1291,6 +1459,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -1303,7 +1474,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1311,6 +1482,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the TaxSpecPrintLevel attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1320,7 +1494,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1330,6 +1504,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1340,7 +1517,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1350,6 +1527,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1360,7 +1540,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1370,6 +1550,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1380,7 +1563,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1390,6 +1573,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1400,7 +1586,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1410,6 +1596,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1420,7 +1609,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1428,6 +1617,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the ShowCompanyVATNum attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -1437,7 +1629,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1447,6 +1639,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1457,7 +1652,7 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1465,6 +1660,9 @@ First included in: Miscellaneous/PurchPurchaseOrderHeader (this entity)
 <summary>List of traits for the IsProForma attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 

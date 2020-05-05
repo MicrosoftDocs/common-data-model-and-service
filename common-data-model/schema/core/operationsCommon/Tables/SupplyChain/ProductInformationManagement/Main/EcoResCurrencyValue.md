@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -75,7 +75,7 @@ First included in: Main/EcoResCurrencyValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -83,6 +83,9 @@ First included in: Main/EcoResCurrencyValue (this entity)
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
 **is.readOnly**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 </details>
 
 ### <a href=#Origin name="Origin">Origin</a>
@@ -91,12 +94,15 @@ First included in: Main/EcoResCurrencyValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Origin attribute are listed below.</summary>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 </details>
 
@@ -106,7 +112,7 @@ First included in: Main/EcoResCurrencyValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -114,6 +120,9 @@ First included in: Main/EcoResCurrencyValue (this entity)
 <summary>List of traits for the SHA1HashHex attribute are listed below.</summary>
 
 **is.readOnly**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 </details>
 
 ### <a href=#CurrencyCode name="CurrencyCode">CurrencyCode</a>
@@ -142,7 +151,7 @@ First included in: Main/EcoResCurrencyValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -151,6 +160,9 @@ First included in: Main/EcoResCurrencyValue (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  

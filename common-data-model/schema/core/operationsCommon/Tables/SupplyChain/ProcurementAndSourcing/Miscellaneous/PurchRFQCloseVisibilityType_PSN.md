@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -91,7 +91,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -101,6 +101,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -111,7 +114,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -119,6 +122,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsAwardedVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -128,7 +134,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -136,6 +142,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsChargesOnPurchaseVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -145,7 +154,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -153,6 +162,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsCommentsOnReplyStatusVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -162,7 +174,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -170,6 +182,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsDiscountPercentVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -179,7 +194,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -187,6 +202,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsDiscountVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -196,7 +214,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -204,6 +222,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsEffectiveDateVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -213,7 +234,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -221,6 +242,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsExpirationDateVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -230,7 +254,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -238,6 +262,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsLeadTimeVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -247,7 +274,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -255,6 +282,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsMultilineDiscountPercentVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -264,7 +294,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -272,6 +302,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsMultilineDiscountVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -281,7 +314,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -289,6 +322,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsNetAmountVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -298,7 +334,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -306,6 +342,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsPartialCompleteReplyVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -315,7 +354,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -323,6 +362,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsQuantityVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -332,7 +374,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -340,6 +382,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsReplyLineCommentsVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -349,7 +394,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -357,6 +402,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsTotalScoreVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -366,7 +414,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -374,6 +422,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsUnitPriceVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -383,7 +434,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -391,6 +442,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsWorkingDaysVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -420,7 +474,7 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -428,6 +482,9 @@ First included in: Miscellaneous/PurchRFQCloseVisibilityType_PSN (this entity)
 <summary>List of traits for the IsConsumingDocumentIdVisible attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 

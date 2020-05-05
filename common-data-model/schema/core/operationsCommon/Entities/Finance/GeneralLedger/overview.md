@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -49,6 +49,7 @@ ms.author: nebanfic
 |[FiscalPeriodEntity](FiscalPeriodEntity.md)||
 |[FiscalYearEntity](FiscalYearEntity.md)||
 |[GeneralJournalAccountEntryEntity](GeneralJournalAccountEntryEntity.md)||
+|[GeneralJournalAccountEntryReportingEntity](GeneralJournalAccountEntryReportingEntity.md)||
 |[InflationAdjInpcRateEntity](InflationAdjInpcRateEntity.md)||
 |[InflationAdjJournalEntity](InflationAdjJournalEntity.md)||
 |[ISRConceptEntity](ISRConceptEntity.md)||

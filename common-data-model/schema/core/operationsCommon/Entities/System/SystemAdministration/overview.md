@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -76,6 +76,7 @@ ms.author: nebanfic
 |[NumberSequenceEntity](NumberSequenceEntity.md)||
 |[NumberSequenceGroupEntity](NumberSequenceGroupEntity.md)||
 |[NumberSequencesReferenceEntity](NumberSequencesReferenceEntity.md)||
+|[NumberSequencesReferenceV2Entity](NumberSequencesReferenceV2Entity.md)||
 |[NumberSequenceTableEntity](NumberSequenceTableEntity.md)||
 |[NumberSequenceTableV2Entity](NumberSequenceTableV2Entity.md)||
 |[OfficeAddinLegalEntityEntity](OfficeAddinLegalEntityEntity.md)||

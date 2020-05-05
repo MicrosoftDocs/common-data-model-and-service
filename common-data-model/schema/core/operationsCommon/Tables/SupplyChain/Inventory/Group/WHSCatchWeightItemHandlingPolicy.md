@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -127,7 +127,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -135,6 +135,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the InboundCatchWeightTagCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -144,7 +147,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -152,6 +155,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the InboundWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -161,7 +167,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -169,6 +175,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the CatchWeightTagTracking attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -178,7 +187,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -186,6 +195,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the OutboundWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -195,7 +207,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -203,6 +215,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the ProductionPickingWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -212,7 +227,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -220,6 +235,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the SalesOrderWeightCapturingProcess attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -229,7 +247,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -237,6 +255,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the TransferIssueWeightCapturingProcess attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -246,7 +267,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -254,6 +275,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the CountingWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -263,7 +287,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -271,6 +295,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the OutboundWeightVarianceMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -280,7 +307,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -288,6 +315,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the MovementWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -297,7 +327,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -305,6 +335,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the CatchWeightTagDimensionTrackingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -314,7 +347,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -322,6 +355,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the CycleCountWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -331,7 +367,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -339,6 +375,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the WarehouseTransferWeightCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 
@@ -348,7 +387,7 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -356,6 +395,9 @@ First included in: Group/WHSCatchWeightItemHandlingPolicy (this entity)
 <summary>List of traits for the OutboundCatchWeightTagCapturingMethod attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.integer**  
 </details>
 

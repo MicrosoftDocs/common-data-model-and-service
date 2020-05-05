@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -94,9 +94,6 @@ ms.author: nebanfic
 |[EcoResProductVariantNomenclatureEntity](EcoResProductVariantNomenclatureEntity.md)||
 |[EcoResProductVariantV2Entity](EcoResProductVariantV2Entity.md)||
 |[EcoResProductVersionEntity](EcoResProductVersionEntity.md)||
-|[EcoResProductVersionGroupEntity](EcoResProductVersionGroupEntity.md)||
-|[EcoResProductVersionGroupLineEntity](EcoResProductVersionGroupLineEntity.md)||
-|[EcoResProductVersionGroupLineTranslationEntity](EcoResProductVersionGroupLineTranslationEntity.md)||
 |[EcoResReleasedDistinctProductCDSEntity](EcoResReleasedDistinctProductCDSEntity.md)||
 |[EcoResReleasedDistinctProductV2Entity](EcoResReleasedDistinctProductV2Entity.md)||
 |[EcoResReleasedProductCreationV2Entity](EcoResReleasedProductCreationV2Entity.md)||

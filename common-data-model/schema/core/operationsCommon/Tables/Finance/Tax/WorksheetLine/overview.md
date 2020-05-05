@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/29/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -17,6 +17,8 @@ ms.author: nebanfic
 |Name|Description|
 |---|---|
 |[FDTaxTransPresumedUncommitted_BR](FDTaxTransPresumedUncommitted_BR.md)||
+|[PSNTaxHSTDimensionRule](PSNTaxHSTDimensionRule.md)||
+|[PSNTaxHSTDimensions](PSNTaxHSTDimensions.md)||
 |[ServiceTaxAdjustmentsTransactions_IN](ServiceTaxAdjustmentsTransactions_IN.md)||
 |[TaxCorrectionsBE](TaxCorrectionsBE.md)||
 |[TaxDocCompLineSourceDocLine](TaxDocCompLineSourceDocLine.md)||

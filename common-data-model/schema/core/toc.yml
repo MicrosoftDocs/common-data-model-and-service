@@ -2714,6 +2714,8 @@
           href: operationsCommon/Entities/Finance/GeneralLedger/FiscalYearEntity.md
         - name: GeneralJournalAccountEntryEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/GeneralJournalAccountEntryEntity.md
+        - name: GeneralJournalAccountEntryReportingEntity 
+          href: operationsCommon/Entities/Finance/GeneralLedger/GeneralJournalAccountEntryReportingEntity.md
         - name: ISRConceptEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/ISRConceptEntity.md
         - name: ISRRateEntity 
@@ -5098,12 +5100,6 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVariantV2Entity.md
         - name: EcoResProductVersionEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionEntity.md
-        - name: EcoResProductVersionGroupEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionGroupEntity.md
-        - name: EcoResProductVersionGroupLineEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionGroupLineEntity.md
-        - name: EcoResProductVersionGroupLineTranslationEntity 
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductVersionGroupLineTranslationEntity.md
         - name: EcoResReleasedDistinctProductCDSEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResReleasedDistinctProductCDSEntity.md
         - name: EcoResReleasedDistinctProductV2Entity 
@@ -6506,6 +6502,8 @@
           href: operationsCommon/Entities/System/SystemAdministration/NumberSequenceTableV2Entity.md
         - name: NumberSequencesReferenceEntity 
           href: operationsCommon/Entities/System/SystemAdministration/NumberSequencesReferenceEntity.md
+        - name: NumberSequencesReferenceV2Entity 
+          href: operationsCommon/Entities/System/SystemAdministration/NumberSequencesReferenceV2Entity.md
         - name: OfficeAddinLegalEntityEntity 
           href: operationsCommon/Entities/System/SystemAdministration/OfficeAddinLegalEntityEntity.md
         - name: OfficeAppAppletRegistrationEntity 
@@ -12490,6 +12488,10 @@
             href: operationsCommon/Tables/Finance/Tax/WorksheetLine/overview.md
           - name: FDTaxTransPresumedUncommitted_BR 
             href: operationsCommon/Tables/Finance/Tax/WorksheetLine/FDTaxTransPresumedUncommitted_BR.md
+          - name: PSNTaxHSTDimensionRule 
+            href: operationsCommon/Tables/Finance/Tax/WorksheetLine/PSNTaxHSTDimensionRule.md
+          - name: PSNTaxHSTDimensions 
+            href: operationsCommon/Tables/Finance/Tax/WorksheetLine/PSNTaxHSTDimensions.md
           - name: ServiceTaxAdjustmentsTransactions_IN 
             href: operationsCommon/Tables/Finance/Tax/WorksheetLine/ServiceTaxAdjustmentsTransactions_IN.md
           - name: TaxCorrectionsBE 
