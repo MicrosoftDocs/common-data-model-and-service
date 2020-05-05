@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Form shown to prospects on LinkedIn  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenForm  
 
 ## Traits
 
@@ -99,7 +93,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -140,7 +134,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -180,9 +174,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -192,7 +185,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -233,7 +226,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -273,9 +266,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
@@ -285,7 +277,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -325,9 +317,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdonbehalfby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
@@ -337,7 +328,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -377,9 +368,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedonbehalfby"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -389,7 +379,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -430,7 +420,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -457,7 +447,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
@@ -467,7 +456,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -504,9 +493,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 contains a User or Team ID  
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#ownerIdType name="ownerIdType">ownerIdType</a>
@@ -516,7 +504,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -546,9 +534,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.CDS.owner**  
 contains a User or Team ID  
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningBusinessUnit name="owningBusinessUnit">owningBusinessUnit</a>
@@ -558,7 +545,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -595,9 +582,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningbusinessunit"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningUser name="owningUser">owningUser</a>
@@ -607,7 +593,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -647,9 +633,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owninguser"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#owningTeam name="owningTeam">owningTeam</a>
@@ -659,7 +644,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -696,9 +681,8 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"owningteam"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
@@ -708,7 +692,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -738,7 +722,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
@@ -748,7 +731,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -778,7 +761,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
@@ -788,7 +770,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -817,7 +799,7 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"versionnumber"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#linkedinformId name="linkedinformId">linkedinformId</a>
@@ -827,7 +809,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Lead Gen Form</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msdyncrm_linkedinformid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Lead Gen Form</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyncrm_linkedinformid</td></tr></table>
 
 #### Traits
 
@@ -858,9 +840,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#stateCode name="stateCode">stateCode</a>
@@ -870,7 +851,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the LinkedIn Form</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the LinkedIn Form</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -903,7 +884,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"24"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
@@ -912,7 +892,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -927,9 +907,8 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"stateCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#statusCode name="statusCode">statusCode</a>
@@ -939,7 +918,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the LinkedIn Form</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the LinkedIn Form</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -975,7 +954,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"26"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
@@ -984,7 +962,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -999,9 +977,8 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"statusCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#name name="name">name</a>
@@ -1011,7 +988,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>LinkedIn form name</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>LinkedIn form name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_name</td></tr></table>
 
 #### Traits
 
@@ -1043,9 +1020,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#description name="description">description</a>
@@ -1055,7 +1031,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description of the LinkedIn form</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description of the LinkedIn form</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_description</td></tr></table>
 
 #### Traits
 
@@ -1086,9 +1062,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#headline name="headline">headline</a>
@@ -1098,7 +1073,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn form headline</td></tr><tr><td>description</td><td>Headline displayed to leads on LinkedIn</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_headline</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn form headline</td></tr><tr><td>description</td><td>Headline displayed to leads on LinkedIn</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_headline</td></tr></table>
 
 #### Traits
 
@@ -1129,9 +1104,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#landingpageURL name="landingpageURL">landingpageURL</a>
@@ -1141,7 +1115,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Landing page URL</td></tr><tr><td>description</td><td>Landing page URL used on the LinkedIn form</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_landingpageurl</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Landing page URL</td></tr><tr><td>description</td><td>Landing page URL used on the LinkedIn form</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_landingpageurl</td></tr></table>
 
 #### Traits
 
@@ -1173,9 +1147,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#lastSyncDate name="lastSyncDate">lastSyncDate</a>
@@ -1184,7 +1157,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Sync Date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_lastsyncdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Sync Date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_lastsyncdate</td></tr></table>
 
 #### Traits
 
@@ -1221,7 +1194,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn ID</td></tr><tr><td>description</td><td>Unique identifier of the LinkedIn form</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_linkedinid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn ID</td></tr><tr><td>description</td><td>Unique identifier of the LinkedIn form</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_linkedinid</td></tr></table>
 
 #### Traits
 
@@ -1252,9 +1225,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#linkedInParentAccount name="linkedInParentAccount">linkedInParentAccount</a>
@@ -1264,7 +1236,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Account</td></tr><tr><td>description</td><td>LinkedIn account record to which this form belongs to</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_linkedinparentaccount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Account</td></tr><tr><td>description</td><td>LinkedIn account record to which this form belongs to</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_linkedinparentaccount</td></tr></table>
 
 #### Traits
 
@@ -1301,9 +1273,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#localeCountry name="localeCountry">localeCountry</a>
@@ -1313,7 +1284,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Locale country</td></tr><tr><td>description</td><td>Locale country information for the LinkedIn form</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_localecountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Locale country</td></tr><tr><td>description</td><td>Locale country information for the LinkedIn form</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_localecountry</td></tr></table>
 
 #### Traits
 
@@ -1344,9 +1315,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#localeLanguage name="localeLanguage">localeLanguage</a>
@@ -1356,7 +1326,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Locale language</td></tr><tr><td>description</td><td>Locale language information for the LinkedIn form</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_localelanguage</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Locale language</td></tr><tr><td>description</td><td>Locale language information for the LinkedIn form</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_localelanguage</td></tr></table>
 
 #### Traits
 
@@ -1387,9 +1357,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#privacyPolicyURL name="privacyPolicyURL">privacyPolicyURL</a>
@@ -1399,7 +1368,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Privacy policy URL</td></tr><tr><td>description</td><td>Privacy policy URL displayed on the LinkedIn form</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_privacypolicyurl</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Privacy policy URL</td></tr><tr><td>description</td><td>Privacy policy URL displayed on the LinkedIn form</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_privacypolicyurl</td></tr></table>
 
 #### Traits
 
@@ -1431,9 +1400,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#syncStatus name="syncStatus">syncStatus</a>
@@ -1442,7 +1410,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sync status</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_syncstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending Synchronization</td><td>192350000</td></tr><tr><td>en</td><td>Active</td><td>192350001</td></tr><tr><td>en</td><td>No Form Submissions</td><td>192350002</td></tr><tr><td>en</td><td>Forbidden</td><td>192350003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sync status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_syncstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pending Synchronization</td><td>192350000</td></tr><tr><td>en</td><td>Active</td><td>192350001</td></tr><tr><td>en</td><td>No Form Submissions</td><td>192350002</td></tr><tr><td>en</td><td>Forbidden</td><td>192350003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1472,7 +1440,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#syncStatus_display name="syncStatus_display">syncStatus_display</a>
@@ -1481,7 +1448,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1496,9 +1463,8 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 **is.addedInSupportOf**  
 <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"syncStatus"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#thankyoumessage name="thankyoumessage">thankyoumessage</a>
@@ -1508,7 +1474,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Thank you message</td></tr><tr><td>description</td><td>Thank you message to leads who submit a form on LinkedIn</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_thankyoumessage</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Thank you message</td></tr><tr><td>description</td><td>Thank you message to leads who submit a form on LinkedIn</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_thankyoumessage</td></tr></table>
 
 #### Traits
 
@@ -1539,9 +1505,8 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#totalSubmissions name="totalSubmissions">totalSubmissions</a>
@@ -1551,7 +1516,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total submissions</td></tr><tr><td>description</td><td>Total number of submissions received on this form</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_totalsubmissions</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total submissions</td></tr><tr><td>description</td><td>Total number of submissions received on this form</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_totalsubmissions</td></tr></table>
 
 #### Traits
 
@@ -1581,7 +1546,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#totalsubmissionsDate name="totalsubmissionsDate">totalsubmissionsDate</a>
@@ -1591,7 +1555,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total submissions (Last Updated On)</td></tr><tr><td>description</td><td>Last Updated time of rollup field Total submissions.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_totalsubmissions_date</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total submissions (Last Updated On)</td></tr><tr><td>description</td><td>Last Updated time of rollup field Total submissions.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_totalsubmissions_date</td></tr></table>
 
 #### Traits
 
@@ -1634,7 +1598,7 @@ First included in: LinkedInLeads/LinkedInLeadGenForm (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total submissions (State)</td></tr><tr><td>description</td><td>State of rollup field Total submissions.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_totalsubmissions_state</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total submissions (State)</td></tr><tr><td>description</td><td>State of rollup field Total submissions.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyncrm_totalsubmissions_state</td></tr></table>
 
 #### Traits
 
@@ -1667,5 +1631,4 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>

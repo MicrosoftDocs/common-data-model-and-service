@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Process entity for Lead to Opportunity  Sales Process.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/LeadToOpportunitySalesProcess.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/accelerators/financialServices/banking/LeadToOpportunitySalesProcess  
 
 ## Traits
 
@@ -58,7 +52,7 @@ First included in: banking/LeadToOpportunitySalesProcess (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>leadid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>leadid</td></tr></table>
 
 #### Traits
 
@@ -83,9 +77,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#opportunityId name="opportunityId">opportunityId</a>
@@ -95,7 +88,7 @@ First included in: banking/LeadToOpportunitySalesProcess (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Opportunity Id</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>opportunityid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Opportunity Id</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>opportunityid</td></tr></table>
 
 #### Traits
 
@@ -120,7 +113,6 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>

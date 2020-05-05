@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 An enriched telemetry signal from a product, service or device.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/productInsights/Signal.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /productInsights/Signal  
 
 ## Traits
 
@@ -63,7 +57,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Timestamp</td></tr><tr><td>description</td><td>DateTime signal was sent from device. DateTime value stored as UTC. Field is required.</td></tr><tr><td>dataFormat</td><td>13</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Timestamp</td></tr><tr><td>description</td><td>DateTime signal was sent from device. DateTime value stored as UTC. Field is required.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
 
 #### Traits
 
@@ -95,7 +89,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timezone</td></tr><tr><td>description</td><td>Timezone as captured from signal during ingestion. Server stores timezone as specified on signal.timestamp, unless device directly specifies this value.</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timezone</td></tr><tr><td>description</td><td>Timezone as captured from signal during ingestion. Server stores timezone as specified on signal.timestamp, unless device directly specifies this value.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -112,9 +106,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Timezone as captured from signal during ingestion. Server stores timezone as specified on signal.timestamp, unless device directly specifies this value.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#name name="name">name</a>
@@ -124,7 +117,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Name</td></tr><tr><td>description</td><td>Name of signal</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Name</td></tr><tr><td>description</td><td>Name of signal</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -144,9 +137,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of signal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#version name="version">version</a>
@@ -156,7 +148,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Version</td></tr><tr><td>description</td><td>Version of signal, as defined by device</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Version</td></tr><tr><td>description</td><td>Version of signal, as defined by device</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -173,9 +165,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Version of signal, as defined by device</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#serverTime name="serverTime">serverTime</a>
@@ -185,7 +176,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Server Timestamp</td></tr><tr><td>description</td><td>DateTime signal was received ingested by server</td></tr><tr><td>dataFormat</td><td>13</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Server Timestamp</td></tr><tr><td>description</td><td>DateTime signal was received ingested by server</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
 
 #### Traits
 
@@ -213,7 +204,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product</td></tr><tr><td>description</td><td>Reference to Product entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product</td></tr><tr><td>description</td><td>Reference to Product entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -238,9 +229,8 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../Product.md" target="_blank">/core/applicationCommon/foundationCommon/Product.cdm.json/Product</a></td><td><a href="../Product.md#productId" target="_blank">productId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#partNumber name="partNumber">partNumber</a>
@@ -250,7 +240,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Part Number</td></tr><tr><td>description</td><td>This is the 'friendly' product name as referred to in CDS.</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Part Number</td></tr><tr><td>description</td><td>This is the 'friendly' product name as referred to in CDS.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -266,9 +256,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>This is the 'friendly' product name as referred to in CDS.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#deviceId name="deviceId">deviceId</a>
@@ -278,7 +267,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Id</td></tr><tr><td>description</td><td>Unique device ID as referred to within IoT and CDS platforms</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Id</td></tr><tr><td>description</td><td>Unique device ID as referred to within IoT and CDS platforms</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -294,9 +283,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique device ID as referred to within IoT and CDS platforms</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#serialNumber name="serialNumber">serialNumber</a>
@@ -306,7 +294,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Serial Number</td></tr><tr><td>description</td><td>A unique end-user friendly reference ID generally found within most devices.</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Serial Number</td></tr><tr><td>description</td><td>A unique end-user friendly reference ID generally found within most devices.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -322,9 +310,8 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A unique end-user friendly reference ID generally found within most devices.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#assetId name="assetId">assetId</a>
@@ -334,7 +321,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Asset</td></tr><tr><td>description</td><td>Reference to Asset entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>6</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Asset</td></tr><tr><td>description</td><td>Reference to Asset entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -359,7 +346,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Asset.md" target="_blank">/core/applicationCommon/foundationCommon/productInsights/Asset.cdm.json/Asset</a></td><td><a href="Asset.md#assetId" target="_blank">assetId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
-**is.dataFormat.array**  
 **is.dataFormat.character**  
-**is.dataFormat.big**  
+**is.dataFormat.array**  
 </details>

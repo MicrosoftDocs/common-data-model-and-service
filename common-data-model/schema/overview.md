@@ -17,6 +17,3 @@ ms.author: nebanfic
 |Name|
 |---|
 |[core](core/overview.md)|
-
-
-

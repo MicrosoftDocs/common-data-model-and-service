@@ -5,24 +5,25 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/28/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
 # nonProfitCore
 
+CDM Solution for the 'NONPROFITCORE' CDS Solution  
 
 ## Entities
 
 |Name|Description|
 |---|---|
-|[Account](Account.md)||
-|[Address](Address.md)||
+|[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
+|[Address](Address.md)|Address and shipping information. Used to store additional addresses for an account or contact.|
 |[Award](Award.md)|An Award represents the total amount of funding that has been agreed to be awarded to an individual or institution.|
 |[AwardVersion](AwardVersion.md)|An Award Version represents a point in time snapshot of the attributes of an Award.|
 |[BenefitRecipient](BenefitRecipient.md)|Benefit Recipient for contact, account and resource catalog.|
 |[Budget](Budget.md)|A Budget represents the amount of funds that can be awarded for a particular delivery framework (i.e Program, Project, Initiative, Activity) for a defined period of time (i.e. fiscal year).|
-|[Contact](Contact.md)||
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
 |[CreditPlan](CreditPlan.md)|Credit Plans control who will be credited with hard or soft credits after a payment clears.|
 |[CreditPlanRecipient](CreditPlanRecipient.md)|The contact, donor or constituent who receives "credit" for the hard or soft cleared payment.|
 |[DeliveryFramework](DeliveryFramework.md)|Delivery Framework represents a management unit of work defined by the organization or entity doing the work. In IATI, the Delivery Framework is an “Activity.”|
