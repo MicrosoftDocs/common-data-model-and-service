@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/25/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -14,12 +14,6 @@ ms.author: nebanfic
 Test scores for a Student Contact  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestScore.cdm.json" target="_blank">GitHub</a>.  
-
-## Instances
-
-Instances of this entity are listed below.  
-
-- /crmCommon/accelerators/education/higherEducation/TestScore  
 
 ## Traits
 
@@ -128,7 +122,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -169,7 +163,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -220,7 +214,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -261,7 +255,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -312,7 +306,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -363,7 +357,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -414,7 +408,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -455,7 +449,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Unique identifier of the data import or data migration that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -482,7 +476,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ownerId name="ownerId">ownerId</a>
@@ -492,7 +485,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -540,7 +533,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -581,7 +574,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -629,7 +622,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -680,7 +673,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -728,7 +721,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -758,7 +751,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
@@ -768,7 +760,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -798,7 +790,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#versionNumber name="versionNumber">versionNumber</a>
@@ -808,7 +799,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -837,7 +828,7 @@ The attribute value may be set to NULL.
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"versionnumber"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
+**is.dataFormat.big**  
 </details>
 
 ### <a href=#testScoreId name="testScoreId">testScoreId</a>
@@ -847,7 +838,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Score</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>mshied_testscoreid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Score</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>mshied_testscoreid</td></tr></table>
 
 #### Traits
 
@@ -889,7 +880,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Test Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Test Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -922,7 +913,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"24"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
@@ -931,7 +921,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -957,7 +947,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Test Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Test Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -993,7 +983,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"26"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
@@ -1002,7 +991,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1028,7 +1017,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Score Name</td></tr><tr><td>description</td><td>The name of the Test Score.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Score Name</td></tr><tr><td>description</td><td>The name of the Test Score.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_name</td></tr></table>
 
 #### Traits
 
@@ -1071,7 +1060,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Composite</td></tr><tr><td>description</td><td>ACT - Composite Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actcomposite</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Composite</td></tr><tr><td>description</td><td>ACT - Composite Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actcomposite</td></tr></table>
 
 #### Traits
 
@@ -1101,7 +1090,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTELA name="ACTELA">ACTELA</a>
@@ -1111,7 +1099,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - ELA</td></tr><tr><td>description</td><td>ACT - ELA Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actela</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - ELA</td></tr><tr><td>description</td><td>ACT - ELA Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actela</td></tr></table>
 
 #### Traits
 
@@ -1141,7 +1129,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTEnglish name="ACTEnglish">ACTEnglish</a>
@@ -1151,7 +1138,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - English</td></tr><tr><td>description</td><td>ACT - English Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actenglish</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - English</td></tr><tr><td>description</td><td>ACT - English Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actenglish</td></tr></table>
 
 #### Traits
 
@@ -1181,7 +1168,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTEquivalentScore name="ACTEquivalentScore">ACTEquivalentScore</a>
@@ -1191,7 +1177,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT Equivalent Score</td></tr><tr><td>description</td><td>ACT equivalent score for a given SAT Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actequivalentscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT Equivalent Score</td></tr><tr><td>description</td><td>ACT equivalent score for a given SAT Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actequivalentscore</td></tr></table>
 
 #### Traits
 
@@ -1221,7 +1207,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTMath name="ACTMath">ACTMath</a>
@@ -1231,7 +1216,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Math</td></tr><tr><td>description</td><td>ACT - Math Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actmath</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Math</td></tr><tr><td>description</td><td>ACT - Math Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actmath</td></tr></table>
 
 #### Traits
 
@@ -1261,7 +1246,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTReading name="ACTReading">ACTReading</a>
@@ -1271,7 +1255,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Reading</td></tr><tr><td>description</td><td>ACT - Reading Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actreading</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Reading</td></tr><tr><td>description</td><td>ACT - Reading Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actreading</td></tr></table>
 
 #### Traits
 
@@ -1301,7 +1285,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTScience name="ACTScience">ACTScience</a>
@@ -1311,7 +1294,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Science</td></tr><tr><td>description</td><td>ACT - Science Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actscience</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Science</td></tr><tr><td>description</td><td>ACT - Science Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actscience</td></tr></table>
 
 #### Traits
 
@@ -1341,7 +1324,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTSTEM name="ACTSTEM">ACTSTEM</a>
@@ -1351,7 +1333,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - STEM</td></tr><tr><td>description</td><td>ACT - STEM Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actstem</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - STEM</td></tr><tr><td>description</td><td>ACT - STEM Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>36</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actstem</td></tr></table>
 
 #### Traits
 
@@ -1381,7 +1363,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"36"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#ACTWriting name="ACTWriting">ACTWriting</a>
@@ -1391,7 +1372,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Writing</td></tr><tr><td>description</td><td>ACT - Writing Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>12</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actwriting</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ACT - Writing</td></tr><tr><td>description</td><td>ACT - Writing Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>12</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_actwriting</td></tr></table>
 
 #### Traits
 
@@ -1421,7 +1402,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"2"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"12"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#alevelArt name="alevelArt">alevelArt</a>
@@ -1431,7 +1411,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>A-level Art</td></tr><tr><td>description</td><td>A-level Art</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_alevelart</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>A-level Art</td></tr><tr><td>description</td><td>A-level Art</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_alevelart</td></tr></table>
 
 #### Traits
 
@@ -1474,7 +1454,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Analytical Writing</td></tr><tr><td>description</td><td>GMAT - Analytical Writing Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatanalyticalwriting</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Analytical Writing</td></tr><tr><td>description</td><td>GMAT - Analytical Writing Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatanalyticalwriting</td></tr></table>
 
 #### Traits
 
@@ -1517,7 +1497,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Integrated Reasoning</td></tr><tr><td>description</td><td>GMAT - Integrated Reasoning Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatintegratedreasoning</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Integrated Reasoning</td></tr><tr><td>description</td><td>GMAT - Integrated Reasoning Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatintegratedreasoning</td></tr></table>
 
 #### Traits
 
@@ -1547,7 +1527,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"8"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#GMATQuantitativeReasoning name="GMATQuantitativeReasoning">GMATQuantitativeReasoning</a>
@@ -1557,7 +1536,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Quantitative Reasoning</td></tr><tr><td>description</td><td>GMAT - Quantitative Reasoning Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>60</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatquantitativereasoning</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Quantitative Reasoning</td></tr><tr><td>description</td><td>GMAT - Quantitative Reasoning Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>60</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatquantitativereasoning</td></tr></table>
 
 #### Traits
 
@@ -1587,7 +1566,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"60"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#GMATTotal name="GMATTotal">GMATTotal</a>
@@ -1597,7 +1575,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Total</td></tr><tr><td>description</td><td>GMAT - Total Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>800</td></tr><tr><td>minimumValue</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmattotal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Total</td></tr><tr><td>description</td><td>GMAT - Total Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>800</td></tr><tr><td>minimumValue</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmattotal</td></tr></table>
 
 #### Traits
 
@@ -1627,7 +1605,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"200"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"800"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#GMATVerbalReasoning name="GMATVerbalReasoning">GMATVerbalReasoning</a>
@@ -1637,7 +1614,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Verbal Reasoning</td></tr><tr><td>description</td><td>GMAT - Verbal Reasoning Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>60</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatverbalreasoning</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GMAT - Verbal Reasoning</td></tr><tr><td>description</td><td>GMAT - Verbal Reasoning Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>60</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gmatverbalreasoning</td></tr></table>
 
 #### Traits
 
@@ -1667,7 +1644,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"60"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#GREAnalyticalReasoning name="GREAnalyticalReasoning">GREAnalyticalReasoning</a>
@@ -1677,7 +1653,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Analytical Reasoning</td></tr><tr><td>description</td><td>GRE - Analytical Reasoning Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_greanalyticalreasoning</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Analytical Reasoning</td></tr><tr><td>description</td><td>GRE - Analytical Reasoning Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>6</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_greanalyticalreasoning</td></tr></table>
 
 #### Traits
 
@@ -1720,7 +1696,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Quantitative Reasoning</td></tr><tr><td>description</td><td>GRE - Quantitative Reasoning Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>170</td></tr><tr><td>minimumValue</td><td>130</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_grequantitativereasoning</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Quantitative Reasoning</td></tr><tr><td>description</td><td>GRE - Quantitative Reasoning Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>170</td></tr><tr><td>minimumValue</td><td>130</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_grequantitativereasoning</td></tr></table>
 
 #### Traits
 
@@ -1750,7 +1726,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"130"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"170"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#GRETotalScore name="GRETotalScore">GRETotalScore</a>
@@ -1760,7 +1735,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Total Score</td></tr><tr><td>description</td><td>GRE - Total Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>340</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gretotalscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Total Score</td></tr><tr><td>description</td><td>GRE - Total Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>340</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_gretotalscore</td></tr></table>
 
 #### Traits
 
@@ -1790,7 +1765,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"340"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#GREVerbalReasoning name="GREVerbalReasoning">GREVerbalReasoning</a>
@@ -1800,7 +1774,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Verbal Reasoning</td></tr><tr><td>description</td><td>GRE - Verbal Reasoning Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>170</td></tr><tr><td>minimumValue</td><td>130</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_greverbalreasoning</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GRE - Verbal Reasoning</td></tr><tr><td>description</td><td>GRE - Verbal Reasoning Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>170</td></tr><tr><td>minimumValue</td><td>130</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_greverbalreasoning</td></tr></table>
 
 #### Traits
 
@@ -1830,7 +1804,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"130"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"170"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#IELTSCEFR name="IELTSCEFR">IELTSCEFR</a>
@@ -1840,7 +1813,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - CEFR</td></tr><tr><td>description</td><td>IELTS - CEFR</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltscefr</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>A1</td><td>494280000</td></tr><tr><td>en</td><td>A2</td><td>494280001</td></tr><tr><td>en</td><td>B1</td><td>494280002</td></tr><tr><td>en</td><td>B2</td><td>494280003</td></tr><tr><td>en</td><td>C1</td><td>494280004</td></tr><tr><td>en</td><td>C2</td><td>494280005</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - CEFR</td></tr><tr><td>description</td><td>IELTS - CEFR</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltscefr</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>A1</td><td>494280000</td></tr><tr><td>en</td><td>A2</td><td>494280001</td></tr><tr><td>en</td><td>B1</td><td>494280002</td></tr><tr><td>en</td><td>B2</td><td>494280003</td></tr><tr><td>en</td><td>C1</td><td>494280004</td></tr><tr><td>en</td><td>C2</td><td>494280005</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1873,7 +1846,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#IELTSCEFR_display name="IELTSCEFR_display">IELTSCEFR_display</a>
@@ -1882,7 +1854,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1908,7 +1880,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Listening</td></tr><tr><td>description</td><td>IELTS - Listening score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltslistening</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Listening</td></tr><tr><td>description</td><td>IELTS - Listening score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltslistening</td></tr></table>
 
 #### Traits
 
@@ -1951,7 +1923,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Overall Band Score</td></tr><tr><td>description</td><td>IELTS - Overall Band Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltsoverallbandscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Overall Band Score</td></tr><tr><td>description</td><td>IELTS - Overall Band Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltsoverallbandscore</td></tr></table>
 
 #### Traits
 
@@ -1994,7 +1966,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Reading</td></tr><tr><td>description</td><td>IELTS - Reading Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltsreading</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Reading</td></tr><tr><td>description</td><td>IELTS - Reading Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltsreading</td></tr></table>
 
 #### Traits
 
@@ -2037,7 +2009,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Speaking Score</td></tr><tr><td>description</td><td>IELTS - Speaking Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltsspeakingscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Speaking Score</td></tr><tr><td>description</td><td>IELTS - Speaking Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltsspeakingscore</td></tr></table>
 
 #### Traits
 
@@ -2080,7 +2052,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Writing</td></tr><tr><td>description</td><td>IELTS - Writing Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltswriting</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IELTS - Writing</td></tr><tr><td>description</td><td>IELTS - Writing Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>9</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_ieltswriting</td></tr></table>
 
 #### Traits
 
@@ -2123,7 +2095,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT Essay - Analysis</td></tr><tr><td>description</td><td>SAT - SAT Essay - Analysis Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satessayanalysis</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT Essay - Analysis</td></tr><tr><td>description</td><td>SAT - SAT Essay - Analysis Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satessayanalysis</td></tr></table>
 
 #### Traits
 
@@ -2153,7 +2125,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"2"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"8"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#SATEssayReading name="SATEssayReading">SATEssayReading</a>
@@ -2163,7 +2134,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT Essay - Reading</td></tr><tr><td>description</td><td>SAT - SAT Essay - Reading Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satessayreading</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT Essay - Reading</td></tr><tr><td>description</td><td>SAT - SAT Essay - Reading Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satessayreading</td></tr></table>
 
 #### Traits
 
@@ -2193,7 +2164,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"2"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"8"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#SATEssayWriting name="SATEssayWriting">SATEssayWriting</a>
@@ -2203,7 +2173,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT Essay - Writing</td></tr><tr><td>description</td><td>SAT - SAT Essay - Writing Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satessaywriting</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT Essay - Writing</td></tr><tr><td>description</td><td>SAT - SAT Essay - Writing Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>8</td></tr><tr><td>minimumValue</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satessaywriting</td></tr></table>
 
 #### Traits
 
@@ -2233,7 +2203,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"2"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"8"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#SATEvidenceBasedReadingandWritingSection name="SATEvidenceBasedReadingandWritingSection">SATEvidenceBasedReadingandWritingSection</a>
@@ -2243,7 +2212,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT - Evidence-Based Reading and Writing Section</td></tr><tr><td>description</td><td>SAT - Evidence-Based Reading and Writing Section Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>600</td></tr><tr><td>minimumValue</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satevidencebasedreadingandwritingsection</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT - Evidence-Based Reading and Writing Section</td></tr><tr><td>description</td><td>SAT - Evidence-Based Reading and Writing Section Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>600</td></tr><tr><td>minimumValue</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satevidencebasedreadingandwritingsection</td></tr></table>
 
 #### Traits
 
@@ -2273,7 +2242,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"200"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"600"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#SATMathSection name="SATMathSection">SATMathSection</a>
@@ -2283,7 +2251,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT - Math Section</td></tr><tr><td>description</td><td>SAT - Math Section Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>800</td></tr><tr><td>minimumValue</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satmathsection</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT - Math Section</td></tr><tr><td>description</td><td>SAT - Math Section Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>800</td></tr><tr><td>minimumValue</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_satmathsection</td></tr></table>
 
 #### Traits
 
@@ -2313,7 +2281,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"200"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"800"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#SATTotalScore name="SATTotalScore">SATTotalScore</a>
@@ -2323,7 +2290,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT - Total Score</td></tr><tr><td>description</td><td>SAT - Total Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>1600</td></tr><tr><td>minimumValue</td><td>400</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_sattotalscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>SAT - Total Score</td></tr><tr><td>description</td><td>SAT - Total Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>1600</td></tr><tr><td>minimumValue</td><td>400</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_sattotalscore</td></tr></table>
 
 #### Traits
 
@@ -2353,7 +2320,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"400"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"1600"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#studentID name="studentID">studentID</a>
@@ -2363,7 +2329,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Student ID</td></tr><tr><td>description</td><td>Lookup to the Student (Contact Id)</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_studentid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Student ID</td></tr><tr><td>description</td><td>Lookup to the Student (Contact Id)</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_studentid</td></tr></table>
 
 #### Traits
 
@@ -2411,7 +2377,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Date</td></tr><tr><td>description</td><td>Date when test was taken</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Date</td></tr><tr><td>description</td><td>Date when test was taken</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testdate</td></tr></table>
 
 #### Traits
 
@@ -2451,7 +2417,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Location</td></tr><tr><td>description</td><td>Location where the test was taken</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>400</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testlocation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Location</td></tr><tr><td>description</td><td>Location where the test was taken</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>400</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testlocation</td></tr></table>
 
 #### Traits
 
@@ -2493,7 +2459,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Score Value</td></tr><tr><td>description</td><td>Test Score Value</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testscorevalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Score Value</td></tr><tr><td>description</td><td>Test Score Value</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testscorevalue</td></tr></table>
 
 #### Traits
 
@@ -2535,7 +2501,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Source</td></tr><tr><td>description</td><td>Source of Test score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Official - Transcript</td><td>494280000</td></tr><tr><td>en</td><td>Official - Testing Agency</td><td>494280001</td></tr><tr><td>en</td><td>Official - SIS</td><td>494280002</td></tr><tr><td>en</td><td>Self - Reported</td><td>494280003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Source</td></tr><tr><td>description</td><td>Source of Test score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Official - Transcript</td><td>494280000</td></tr><tr><td>en</td><td>Official - Testing Agency</td><td>494280001</td></tr><tr><td>en</td><td>Official - SIS</td><td>494280002</td></tr><tr><td>en</td><td>Self - Reported</td><td>494280003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2568,7 +2534,6 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"70"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#testSource_display name="testSource_display">testSource_display</a>
@@ -2577,7 +2542,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2603,7 +2568,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Type</td></tr><tr><td>description</td><td>List of test types</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testtypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Test Type</td></tr><tr><td>description</td><td>List of test types</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_testtypeid</td></tr></table>
 
 #### Traits
 
@@ -2651,7 +2616,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Listening Section</td></tr><tr><td>description</td><td>TOEFL - Listening Section Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>50</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toefllisteningsection</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Listening Section</td></tr><tr><td>description</td><td>TOEFL - Listening Section Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>50</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toefllisteningsection</td></tr></table>
 
 #### Traits
 
@@ -2681,7 +2646,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"50"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#TOEFLReadingSection name="TOEFLReadingSection">TOEFLReadingSection</a>
@@ -2691,7 +2655,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Reading Section</td></tr><tr><td>description</td><td>TOEFL - Reading Section Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>30</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toeflreadingsection</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Reading Section</td></tr><tr><td>description</td><td>TOEFL - Reading Section Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>30</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toeflreadingsection</td></tr></table>
 
 #### Traits
 
@@ -2721,7 +2685,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"30"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#TOEFLSpeakingSection name="TOEFLSpeakingSection">TOEFLSpeakingSection</a>
@@ -2731,7 +2694,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Speaking Section</td></tr><tr><td>description</td><td>TOEFL - Speaking Section Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>30</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toeflspeakingsection</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Speaking Section</td></tr><tr><td>description</td><td>TOEFL - Speaking Section Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>30</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toeflspeakingsection</td></tr></table>
 
 #### Traits
 
@@ -2761,7 +2724,6 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"30"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>
 
 ### <a href=#TOEFLTotalScore name="TOEFLTotalScore">TOEFLTotalScore</a>
@@ -2771,7 +2733,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Total Score</td></tr><tr><td>description</td><td>TOEFL - Total Score</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>120</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toefltotalscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Total Score</td></tr><tr><td>description</td><td>TOEFL - Total Score</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>120</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toefltotalscore</td></tr></table>
 
 #### Traits
 
@@ -2814,7 +2776,7 @@ First included in: higherEducation/TestScore (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Writing Section</td></tr><tr><td>description</td><td>TOEFL - Writing Section Score</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>50</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toeflwritingsection</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>TOEFL - Writing Section</td></tr><tr><td>description</td><td>TOEFL - Writing Section Score</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>50</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_toeflwritingsection</td></tr></table>
 
 #### Traits
 
@@ -2844,5 +2806,4 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"50"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
-**is.dataFormat.small**  
 </details>

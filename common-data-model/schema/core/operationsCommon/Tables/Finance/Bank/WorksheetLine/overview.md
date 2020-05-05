@@ -1,0 +1,37 @@
+---
+title: overview - Common Data Model | Microsoft Docs
+description: WorksheetLine is a folder that contains standard entities related to the Common Data Model.
+author: nenad1002
+ms.service: common-data-model
+ms.reviewer: deonhe
+ms.topic: article
+ms.date: 5/5/2020
+ms.author: nebanfic
+---
+
+# WorksheetLine
+
+
+## Entities
+
+|Name|Description|
+|---|---|
+|[BankDocumentFacilityAgreementLine](BankDocumentFacilityAgreementLine.md)||
+|[BankLCExportLine](BankLCExportLine.md)||
+|[BankLCImportChargeAllocation_SA](BankLCImportChargeAllocation_SA.md)||
+|[BankLCImportLine](BankLCImportLine.md)||
+|[BankLCImportMarginAllocation](BankLCImportMarginAllocation.md)||
+|[BankLCLine](BankLCLine.md)||
+|[BankLGAction](BankLGAction.md)||
+|[BankLGAmountCalculation](BankLGAmountCalculation.md)||
+|[BankLGFacilityAgreementLine](BankLGFacilityAgreementLine.md)||
+|[BankStatementLineBankDocumentInformation](BankStatementLineBankDocumentInformation.md)||
+|[CommReportTransPrepayment_RU](CommReportTransPrepayment_RU.md)||
+|[CustVendNACHAIATInfoTable_US](CustVendNACHAIATInfoTable_US.md)||
+|[CustVendPaymJournalFee](CustVendPaymJournalFee.md)||
+|[CustVendPaymProposalLine](CustVendPaymProposalLine.md)||
+|[DocuRefExt_BR](DocuRefExt_BR.md)||
+|[LvCashReceiptTrans](LvCashReceiptTrans.md)||
+|[PaymentOrderBudgetTrans_RU](PaymentOrderBudgetTrans_RU.md)||
+|[SpecContext](SpecContext.md)||
+|[SpecTrans](SpecTrans.md)||
