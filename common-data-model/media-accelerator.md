@@ -11,48 +11,65 @@ ms.author: merami
 
 ---
 
+<!--Editor explanation: The style guide says not to use "the" with either CDM or Power Platform. It also says to always precede Power Platform with Microsoft. -->
+
+
+
 # The Dynamics 365 Media and Communications Accelerator (Preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The [Dynamics 365 Media and Communications Accelerator](https://aka.ms/d365media) expands the Common Data Model and Power Platform into the media & entertainment industries. The V1 Media and Communications Accelerator includes data entities and attributes that center around the theme of “fan & guest engagement”. It includes pre-built solutions centered around event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Communications Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
+The [Dynamics 365 Media and Communications Accelerator](https://aka.ms/d365media) expands Common Data Model and Microsoft Power Platform into the media and entertainment industries. Version 1 of the Media and Communications Accelerator includes data entities and attributes that center on the theme of “fan and guest engagement.” 
+
+
+<!-- I changed "center around" to "focus on" below to avoid using center around in two consecutive sentences. Also, it should be "center on" rather than "around." -->
+
+It includes prebuilt solutions that focus on event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Communications Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
+
 The accelerator includes the following features:
-- An extension to the Common Data Model to include concepts for fan engagement, including 60+ new entity definitions and relationships.
+- An extension to Common Data Model to include concepts for fan engagement, including 60-plus new entity definitions and relationships.
 - Five unique model-driven applications with new forms and dashboards that support data entry and data management: 
-  - Event & venue management
-  - Sports management,
+  - Event and venue management
+  - Sports management
   - Ticket sales
   - Guest management
-  - Display & advertising sales
+  - Display and advertising sales
 - A solution that you can deploy and install from AppSource or GitHub.
 
 ## Site-map extensions
 
-With the Dynamics 365 Media and Communications Accelerator, institutions can optimize fan engagement, improve interactions, profile and predict actions of their customers, and gain insights from analytics. When the accelerator is installed in Dynamics 365, the experience is transformed into one specifically built for operators of theme parks, sport venues, theaters, arena, or other places for tourism, hospitality, business conferencing, or the arts. The goal is to allow such institutions to quickly build Power Apps and Power BI visualizations.
+With the Dynamics 365 Media and Communications Accelerator, institutions can optimize fan engagement, improve interactions, profile and predict actions of their customers, and gain insights from analytics. When the accelerator is installed in Dynamics 365, the experience is transformed into one specifically built for operators of theme parks, sport venues, theaters, arenas, or other places for tourism, hospitality, business conferencing, or the arts. The goal is to allow such institutions to quickly build Power Apps and Power BI visualizations.
 
-Media & entertainment institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record ticketing products, sponsorships, events, venues, sport teams and leagues, and more. 
+Media and entertainment institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record ticketing products, sponsorships, events, venues, sport teams and leagues, and more. 
 
 ## Entities and workflows
 
-This accelerator provides these new CDM entities to support the needs of media & entertainment businesses:
+This accelerator provides these new Common Data Model entities to support the needs of media and entertainment businesses:
+
+
+
+<!-- The image uses the abbreviations CDM and D365, which is not OK, according to the style guide. Can the image be revised? -->
+
 
 > [!div class="mx-imgBorder"]
 > ![Fan engagement scenarios](media/media-engagement.png "Fan engagement scenarios")
 
-### Fan & guest management:
+**Fan and guest management:**
+
+<!-- I rearranged these in the order that they appear in the image. Do you want to add promotion codes to the list? -->
 
 - Guest
 - Guest category
-- Interests
-- Loyalty programs & levels
 - External guest IDs
+- Interests
+- Loyalty programs and levels
 - Registrations
 
-### Sports management:
+**Sports management:**
 
 - League
-- Teams
-- Players
+- Team
+- Player
 - Player team history
 - Round
 - Playing field
@@ -60,30 +77,33 @@ This accelerator provides these new CDM entities to support the needs of media &
 - Division
 - Season
 
-### Event & venue management:
+**Event and venue management:**
 
 - Venues
 - Facilities
+- Attractions, attraction tracks, and attraction schedules
+- Concession stands and partners
 - Gates
-- Attractions, attraction track & attraction schedules
-- Concession stands & partners
-- Media assets & asset categories
 - Hours of operations
 - Weather conditions
 - Talent
+- Media assets and asset categories
 
-### Ticket sales:
+**Ticket sales:**
 
 - Tickets
 - Admissions
-- Seat maps, seat tiers, seats, sections & rows
+- Seat maps, seat tiers, seats, sections and rows
 
-### Advertising sales:
+**Advertising sales:**
+
+<!-- What is or are Dmas? -->
+
 
 - Sponsorships
 - Ad zones
+- Ad segments and ad segment groups
 - Ad spots
-- Ad segments & ad segment groups
 - Dmas
 - Regions
 - Zip codes
@@ -98,7 +118,7 @@ The Dynamics 365 Media and Communications Accelerator combines standard Dynamics
 > ![Fan and guest management dashboard](media/media-fan-management.png "Fan and guest management dashboard")
 
 > [!div class="mx-imgBorder"]
-> ![Fan and guest management dashboard - guest screen](media/media-guest-screen.png "Fan and guest management dashboard- guest screen")
+> ![Fan and guest management dashboard - guest screen](media/media-guest-screen.png "Fan and guest management dashboard - guest screen")
 
 > [!div class="mx-imgBorder"]
 > ![Fan and guest management dashboard - loyalty screen](media/media-loyalty-screen.png "Fan and guest management dashboard- loyalty screen")
@@ -139,7 +159,7 @@ A key customer target of the fan engagement scenarios within the Media and Commu
 
 ### Ticketing & Advertising Sales
 
-The Media Accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps; to assign and track available and blocked seat inventory used within a venue, event, or individual attraction or conference session. Then, th subsequent productization and sales of individual, seasonal, or group tickets to those events. 
+The Media Accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps; to assign and track available and blocked seat inventory used within a venue, event, or individual attraction or conference session. Then, the subsequent productization and sales of individual, seasonal, or group tickets to those events. 
 
 Similarly, you can build an application that enables the creation and sales of advertising display products. There's a key focus on  display messaging sales at a physical venue (digital billboards, scoreboards, other signs spread across an arena or theme park). This includes the ability to specify ‘what, where, and when’ for display advertising, as well as to track and manage the sale and fulfilment of those advertisements and sponsorships.
 
