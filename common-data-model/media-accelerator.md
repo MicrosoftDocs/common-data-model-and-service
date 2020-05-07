@@ -135,6 +135,8 @@ A key customer target of the fan engagement scenarios within the Media and Commu
 > [!div class="mx-imgBorder"]
 > ![Sports events screen](media/media-sports-events.png "Sports events screen")
 
+> [!div class="mx-imgBorder"]
+> ![Playing fields screen](media/media-playing-fields.png "Playing fields screen")
 ## Media Product Sales
 
 ### Ticketing & Advertising Sales
