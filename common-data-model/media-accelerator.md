@@ -54,7 +54,7 @@ This accelerator provides these new Common Data Model entities to support the ne
 > [!div class="mx-imgBorder"]
 > ![Fan engagement scenarios](media/media-engagement.png "Fan engagement scenarios")
 
-**Fan and guest management:**
+### Fan and guest management
 
 <!-- I rearranged these in the order that they appear in the image. Do you want to add promotion codes to the list? -->
 
@@ -65,7 +65,7 @@ This accelerator provides these new Common Data Model entities to support the ne
 - Loyalty programs and levels
 - Registrations
 
-**Sports management:**
+### Sports management
 
 - League
 - Team
@@ -77,7 +77,7 @@ This accelerator provides these new Common Data Model entities to support the ne
 - Division
 - Season
 
-**Event and venue management:**
+### Event and venue management
 
 - Venues
 - Facilities
@@ -89,13 +89,13 @@ This accelerator provides these new Common Data Model entities to support the ne
 - Talent
 - Media assets and asset categories
 
-**Ticket sales:**
+### Ticket sales
 
 - Tickets
 - Admissions
 - Seat maps, seat tiers, seats, sections and rows
 
-**Advertising sales:**
+### Advertising sales
 
 <!-- What is or are Dmas? -->
 
@@ -117,20 +117,28 @@ The Dynamics 365 Media and Communications Accelerator combines standard Dynamics
 > [!div class="mx-imgBorder"]
 > ![Fan and guest management dashboard](media/media-fan-management.png "Fan and guest management dashboard")
 
+
+<!-- There's a person's name and email in this image. Please be sure that they are approved by Microsoft for use. -->  
+
+
 > [!div class="mx-imgBorder"]
 > ![Fan and guest management dashboard - guest screen](media/media-guest-screen.png "Fan and guest management dashboard - guest screen")
 
+
+<!-- There's a person's name in this image as well (Martin Wahl). Please confirm it's OK to use. -->
+
+
 > [!div class="mx-imgBorder"]
-> ![Fan and guest management dashboard - loyalty screen](media/media-loyalty-screen.png "Fan and guest management dashboard- loyalty screen")
+> ![Fan and guest management dashboard - loyalty screen](media/media-loyalty-screen.png "Fan and guest management dashboard - loyalty screen")
 
 > [!div class="mx-imgBorder"]
 > ![Fan and guest management dashboard - loyalty details](media/media-loyalty-details.png "Fan and guest management dashboard - loyalty details")
 
-The media and communications accelerator is intended to help successfully drive the progression of a customer from an anonymous/casual guest, toward becoming a deeply engaged fan, regular attendee, subscribing member or active member of a frequent buyer/loyalty program. The accelerator solution here helps track that journey with the addition of the new “guest” and “loyalty program” entities, which can help eventually convert to leads and then customers and contacts.
+The Media and Communications Accelerator is intended to help successfully drive the progression of a customer from an anonymous or casual guest toward becoming a deeply engaged fan, regular attendee, subscribing member or active member of a frequent buyer or loyalty program. The accelerator solution helps track that journey with the addition of the new “guest” and “loyalty program” entities, which can help eventually convert to leads and then customers and contacts.
 
 ### Events and venue management
 
-From scheduling industry events such as conferences, concerts, sporting events, art festivals, to planning all of the attractions, rides, speakers, and concession stands within a venue (theme park, museum, tourist site...), the media data entities enable powerful ways to activate and connect data gathered from and across your entire event and venue management spectrum.
+From scheduling industry events such as conferences, concerts, sporting events, and art festivals, to planning all of the attractions, rides, speakers, and concession stands within a venue (such as theme parks, museums, or tourist sites), the media data entities enable powerful ways to activate and connect data gathered from and across your entire event and venue management spectrum.
 
 > [!div class="mx-imgBorder"]
 > ![Event management dashboard](media/media-events-screen.png "Event management dashboard")
@@ -145,23 +153,40 @@ From scheduling industry events such as conferences, concerts, sporting events, 
 > ![Venue seat map](media/media-seat-map.png "Venue seat map")
 
 
+
+<!-- This sports management section should come before the previous section on events and venue management because that's the order in which they are presented earlier in this topic. --> 
+
+
 ### Sports management
 
-A key customer target of the fan engagement scenarios within the Media and Communications Accelerator are sports leagues, teams, and organizations that can use the accelerator to manage and schedule their seasons, games, players, referees, scorers, and other key officials. The accelerator adds a number of sports-specific data entities and relationships that enable specific use cases for the sports industry.
+Key customer targets of the fan engagement scenarios within the Media and Communications Accelerator are sports leagues, teams, and organizations that can use the accelerator to manage and schedule their seasons, games, players, referees, scorers, and other key officials. The accelerator adds a number of sports-specific data entities and relationships that enable specific use cases for the sports industry.
 
 > [!div class="mx-imgBorder"]
 > ![Sports management menu](media/media-sports-mgmt-menu.png "Sports management menu")
 
+
+
+<!-- This image uses the real address and phone number for the Microsoft Conference Center. Even though that info is publicly available, I don't know whether CELA is OK with that in an image. This should be checked out. -->
+
+
 > [!div class="mx-imgBorder"]
 > ![Sports events screen](media/media-sports-events.png "Sports events screen")
 
-## Media Product Sales
+## Media product sales
 
-### Ticketing & Advertising Sales
+### Ticketing and advertising sales
 
-The Media Accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps; to assign and track available and blocked seat inventory used within a venue, event, or individual attraction or conference session. Then, the subsequent productization and sales of individual, seasonal, or group tickets to those events. 
 
-Similarly, you can build an application that enables the creation and sales of advertising display products. There's a key focus on  display messaging sales at a physical venue (digital billboards, scoreboards, other signs spread across an arena or theme park). This includes the ability to specify ‘what, where, and when’ for display advertising, as well as to track and manage the sale and fulfilment of those advertisements and sponsorships.
+<!-- The word "productization" in the next paragraph seems awkward but I don't know what to replace it with. -->
+
+
+The Media and Communications Accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps. They also enable the assignment and tracking of available and blocked seat inventory used within a venue, event, or individual attraction or conference session. That in turn allows for the productization and sales of individual, seasonal, or group tickets to those events. 
+
+Similarly, you can build an application that enables the creation and sales of advertising display products. There's a key focus on  display messaging sales at a physical venue (digital billboards, scoreboards, and other signs spread across an arena or theme park). This includes the ability to specify ‘what, where, and when’ for display advertising, as well as to track and manage the sale and fulfillment of those advertisements and sponsorships.
+
+
+<!-- I'm concerned about the name "Jimmy Dean" in the image - could be a trademarked name. Can it be replaced with something from the fictitious names list? -->
+
 
 > [!div class="mx-imgBorder"]
 > ![Ticket sales dashboard](media/media-ticket-dashboard.png "Ticket sales dashboard")
@@ -170,6 +195,9 @@ Similarly, you can build an application that enables the creation and sales of a
 > ![Ticket sales details screen](media/media-ticket-details.png "Ticket sales details screen")
 
 ## Additional resources
+
+<!-- Do you intend to add URLs to the following? -->
+
 
 - Download the Dynamics 365 Media and Communications Accelerator from AppSource.
 - The Media data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on GitHub.
