@@ -154,7 +154,7 @@ Similarly, you can build an application that enables the creation and sales of a
 
 - Download the Dynamics 365 Media and Communications Accelerator from [AppSource](https://appsource.microsoft.com/marketplace/apps?search=Dynamics%20365%20Accelerator&page=1).
 - The Media data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Media).
-- [Additional topics about the accelerators](http://aka.ms/cdmengage).
+- [Additional topics about the accelerators](https://aka.ms/cdmengage).
 
 ## Connect and share feedback
 
