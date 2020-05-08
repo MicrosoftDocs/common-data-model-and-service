@@ -136,6 +136,7 @@ Key customer targets of the fan engagement scenarios within the Media and Commun
 > [!div class="mx-imgBorder"]
 > ![Sports events screen](media/media-sports-events.png "Sports events screen")
 
+
 ## Media product sales
 
 ### Ticketing and advertising sales
