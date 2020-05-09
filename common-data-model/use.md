@@ -9,7 +9,7 @@ ms.date: 05/06/2020
 ms.author: olegov
 ---
 
-**How to use Common Data Model**
+# How to use Common Data Model
 
 Common Data Model is built upon a rich and extensible metadata definition system
 that enables you to describe and share your own semantically enhanced data types
@@ -83,7 +83,7 @@ Let’s explore some of the scenarios in detail
 
 -   Optimize data exchange in the Azure Data Lake.
 
-**Jump-start Common Data Service app development**
+## Jump-start Common Data Service app development
 
 By using Common Data Service, you can jump-start app development by using the
 Common Data Model with business logic, security, and integration already built
@@ -101,7 +101,7 @@ in. The platform provides these benefits:
 Whatever your intent, using the Common Data Model structures your data in a
 common format so that you can use, share, and analyze it more easily.
 
-**Resources for Common Data Service**
+## Resources for Common Data Service
 
 -   [What is Common Data
     Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
@@ -124,7 +124,7 @@ common format so that you can use, share, and analyze it more easily.
 -   [Exporting Common Data Service data to Azure Data
     Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
 
-**Export data from Common Data Service into Azure Data Lake**
+## Export data from Common Data Service into Azure Data 
 -------------------------------------------------------------------------
 
 -   Simple and intuitive interface to enable and administer replicated entities.
@@ -145,8 +145,7 @@ common format so that you can use, share, and analyze it more easily.
 >   Learn more: [Exporting Common Data Service data to Azure Data
 >   Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
 
-**Export data from Dynamics 365 Finance and Operations into Azure Data Lake**
--------------------------------------------------------------------------
+## Export data from Dynamics 365 Finance and Operations into Azure Data 
 
 You can configure your Dynamics 365 Finance and Operations environment with an
 Azure Data Lake in your own subscription. After the configuration is completed,
@@ -164,7 +163,7 @@ See more details here:
 
 <https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake>
 
-**Perform quick data integration by using Power Query Online**
+## Perform quick data integration by using Power Query Online
 
 Power Platform and Power BI offer data-integration experiences through Power
 Query Online, allowing users to bring in data from a variety of sources,
@@ -175,7 +174,7 @@ Excel and Power BI Desktop, so existing users can begin using it quickly.
 
 ![Map data with entities in the Common Data Model](media/cdm-map-entities.png)
 
-**Ingest data by using Power BI dataflows**
+## Ingest data by using Power BI dataflows
 
 You can use the dataflows feature of Power BI to ingest data into the Common
 Data Model format from Dynamics 365, Salesforce, Azure SQL Database, Excel,
@@ -198,7 +197,7 @@ Organizations can incorporate dataflows to suit their needs in these ways:
 -   Enjoy more storage, more frequent refreshes, incremental refresh, and
     computed and linked entities with Power BI Premium.
 
-**Resources for Power BI**
+## Resources for Power BI
 
 -   [Self-service data prep in Power
     BI](https://docs.microsoft.com/power-bi/service-dataflows-overview)
@@ -212,7 +211,7 @@ Organizations can incorporate dataflows to suit their needs in these ways:
 -   [Developer resources for Power BI
     dataflows](https://docs.microsoft.com/power-bi/service-dataflows-developer-resources)
 
-**Optimize data exchange in the Azure Data Lake**
+## Optimize data exchange in the Azure Data Lake
 
 [Azure Data Lake Storage
 Gen2](https://docs.microsoft.com/common-data-model/data-lake) is designed
@@ -223,7 +222,7 @@ data before it can provide value. The Common Data Model simplifies this process
 by providing a metadata system that describes the data and standard entities to
 which producers can map.
 
-**Resources for the Common Data Model and Azure Data Lake Storage Gen2**
+## Resources for the Common Data Model and Azure Data Lake Storage Gen2
 
 -   [Introduction to Azure Data Lake Storage
     Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
