@@ -26,7 +26,7 @@ up to date [Common Data Model Entity Reference](https://aka.ms/entityreference)
 
 
 [Learn
-more](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#glossary-of-definable-objects)
+more](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#glossary-of-definable-objects)
 about Common Data Model definable objects
 
 Microsoft provided Common Data Model reference entities are categorized into
@@ -48,7 +48,7 @@ wants to use them.
 
 Data described using Common Data Model can be used with Azure services to build
 scalable analytical solutions as well as being a
-[source](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/connect-common-data-model-folder)
+[source](https://docs.microsoft.com/dynamics365/ai/customer-insights/connect-common-data-model-folder)
 of semantically rich data for applications driving actionable insights like
 Dynamics 365 Customer Insights. that reason over data using machine readable
 semantic metadata. Common Data Model is used to define Entities for Dynamics 365
@@ -57,15 +57,15 @@ available in Azure Data Lake.
 
 Microsoft continues to extend the Common Data Model in collaboration with many
 partners and subject-matter experts so that more industries, building [Industry
-Accelerators](https://docs.microsoft.com/en-us/common-data-model/industry-accelerators)
+Accelerators](https://docs.microsoft.com/common-data-model/industry-accelerators)
 such as
-[Automotive](https://docs.microsoft.com/en-us/common-data-model/automotive-accelerator),
-[Banking](https://docs.microsoft.com/en-us/common-data-model/banking-accelerator),
-[Healthcare](https://docs.microsoft.com/en-us/common-data-model/health-accelerator),
+[Automotive](https://docs.microsoft.com/common-data-model/automotive-accelerator),
+[Banking](https://docs.microsoft.com/common-data-model/banking-accelerator),
+[Healthcare](https://docs.microsoft.com/common-data-model/health-accelerator),
 [Higher
-Education](https://docs.microsoft.com/en-us/common-data-model/hied-accelerator),
+Education](https://docs.microsoft.com/common-data-model/hied-accelerator),
 [Not for
-profit](https://docs.microsoft.com/en-us/common-data-model/nfp-accelerator) can
+profit](https://docs.microsoft.com/common-data-model/nfp-accelerator) can
 benefit from the Common Data Model and the platforms that support it.
 
 Let’s explore some of the scenarios in detail
@@ -122,7 +122,7 @@ common format so that you can use, share, and analyze it more easily.
     Service](https://docs.microsoft.com/flow/common-data-model-intro)
 
 -   [Exporting Common Data Service data to Azure Data
-    Lake](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/export-to-data-lake)
+    Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
 
 **Export data from Common Data Service into Azure Data Lake**
 -------------------------------------------------------------------------
@@ -143,7 +143,7 @@ common format so that you can use, share, and analyze it more easily.
 -   Continuous snapshot updates for large analytics scenarios.
 
 >   Learn more: [Exporting Common Data Service data to Azure Data
->   Lake](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/export-to-data-lake)
+>   Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
 
 **Export data from Dynamics 365 Finance and Operations into Azure Data Lake**
 -------------------------------------------------------------------------
@@ -158,11 +158,11 @@ See more details here:
 -   Overview of Azure Data Lake integration in Dynamics 365 for Finance and
     Operations
 
-<https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview>
+<https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview>
 
 -   Configuring an Azure Data Lake in Finance and Operations
 
-<https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake>
+<https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake>
 
 **Perform quick data integration by using Power Query Online**
 
@@ -215,7 +215,7 @@ Organizations can incorporate dataflows to suit their needs in these ways:
 **Optimize data exchange in the Azure Data Lake**
 
 [Azure Data Lake Storage
-Gen2](https://docs.microsoft.com/en-us/common-data-model/data-lake) is designed
+Gen2](https://docs.microsoft.com/common-data-model/data-lake) is designed
 specifically for enterprises to run large-scale analytical workloads in the
 cloud. A wide variety of applications and services can easily access data in a
 data lake, however each consumer must understand the format and meaning of the
@@ -230,5 +230,5 @@ which producers can map.
 
 -   [Power BI and Azure Data Services dismantle data silos and unlock
     insights](https://aka.ms/cdmadsblog)
--   [Learn how to crate Common Data Model defintions](https://docs.microsoft.com/en-us/common-data-model/creating-schemas)
-- [Learn hot to use Common Data Model SDK](https://docs.microsoft.com/en-us/common-data-model/1.0om/api-reference/api-reference) with [sample code](https://docs.microsoft.com/en-us/common-data-model/samples) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
+-   [Learn how to crate Common Data Model defintions](https://docs.microsoft.com/common-data-model/creating-schemas)
+- [Learn hot to use Common Data Model SDK](https://docs.microsoft.com/common-data-model/1.0om/api-reference/api-reference) with [sample code](https://docs.microsoft.com/common-data-model/samples) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
