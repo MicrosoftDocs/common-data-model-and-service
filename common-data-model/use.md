@@ -9,18 +9,18 @@ ms.date: 05/06/2020
 ms.author: olegov
 ---
 
-# How to use Common Data Model
+# How to use the Common Data Model
 
 Common Data Model is built upon a rich and extensible metadata definition system
 that enables you to describe and share your own semantically enhanced data types
 and structured tags, capturing valuable business insight which can be integrated
-and enriched with heterogenous data to deliver actionable intelligence.
+and enriched with heterogeneous data to deliver actionable intelligence.
 
 With Common Data Model, you can structure your data to represent concepts and
 activities that are commonly used and well understood. You can query and analyze
 that data, reuse it, and interoperate with other businesses and apps that use
 the same format. Common data model can be used to define thousands of entities
-such as Customer, Product, Opportunity, Sale, Purchase Order etc. as well as
+such as Customer, Product, Opportunity, Sale, Purchase Order ,etc. as well as
 identifying data for regulatory and compliance purposes. Discover and explore
 up-to-date [Common Data Model Entity Reference](https://aka.ms/entityreference)
 
@@ -86,7 +86,7 @@ Let’s explore some of the scenarios in detail
 ## Jump-start Common Data Service app development
 
 By using Common Data Service, you can jump-start app development by using the
-Common Data Model with business logic, security, and integration already built
+Common Data Model with business logic, security, and integration already built-
 in. The platform provides these benefits:
 
 -   **Leverage packaged business applications**: Many Microsoft Dynamics 365
@@ -217,7 +217,7 @@ Organizations can incorporate dataflows to suit their needs in these ways:
 Gen2](https://docs.microsoft.com/common-data-model/data-lake) is designed
 specifically for enterprises to run large-scale analytical workloads in the
 cloud. A wide variety of applications and services can easily access data in a
-data lake, however each consumer must understand the format and meaning of the
+data lake, however, each consumer must understand the format and meaning of the
 data before it can provide value. The Common Data Model simplifies this process
 by providing a metadata system that describes the data and standard entities to
 which producers can map.
