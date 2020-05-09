@@ -22,7 +22,7 @@ that data, reuse it, and interoperate with other businesses and apps that use
 the same format. Common data model can be used to define thousands of entities
 such as Customer, Product, Opportunity, Sale, Purchase Order etc. as well as
 identifying data for regulatory and compliance purposes. Discover and explore
-up to date [Common Data Model Entity Reference](https://aka.ms/entityreference)
+up-to-date [Common Data Model Entity Reference](https://aka.ms/entityreference)
 
 
 [Learn
@@ -50,7 +50,7 @@ Data described using Common Data Model can be used with Azure services to build
 scalable analytical solutions as well as being a
 [source](https://docs.microsoft.com/dynamics365/ai/customer-insights/connect-common-data-model-folder)
 of semantically rich data for applications driving actionable insights like
-Dynamics 365 Customer Insights. that reason over data using machine readable
+Dynamics 365 Customer Insights. that reason over data using machine-readable
 semantic metadata. Common Data Model is used to define Entities for Dynamics 365
 applications in Sales, Finance, Supply Chain and Commerce can be readily
 available in Azure Data Lake.
@@ -70,7 +70,7 @@ benefit from the Common Data Model and the platforms that support it.
 
 Let’s explore some of the scenarios in detail
 
--   Jump-start app development with PowerApps and Common Data Service
+-   Jump-start app development with Power Apps and Common Data Service
 
 -   Export data from Common Data Service into Azure Data Lake.
 
@@ -230,5 +230,5 @@ which producers can map.
 
 -   [Power BI and Azure Data Services dismantle data silos and unlock
     insights](https://aka.ms/cdmadsblog)
--   [Learn how to crate Common Data Model defintions](https://docs.microsoft.com/common-data-model/creating-schemas)
+-   [Learn how to crate Common Data Model definitions](https://docs.microsoft.com/common-data-model/creating-schemas)
 - [Learn hot to use Common Data Model SDK](https://docs.microsoft.com/common-data-model/1.0om/api-reference/api-reference) with [sample code](https://docs.microsoft.com/common-data-model/samples) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
