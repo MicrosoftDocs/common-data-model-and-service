@@ -34,7 +34,9 @@
       - name: Healthcare Accelerator
         href: health-accelerator.md
       - name: Manufacturing Accelerator (Preview)
-        href: manufacturing-accelerator.md       
+        href: manufacturing-accelerator.md
+      - name: Media and Communications Accelerator (Preview)
+        href: media-accelerator.md    
       - name: Nonprofit Accelerator
         href: NFP-accelerator.md
       - name: Templates
