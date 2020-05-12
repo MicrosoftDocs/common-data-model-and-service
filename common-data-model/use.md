@@ -9,7 +9,7 @@ ms.date: 05/06/2020
 ms.author: olegov
 ---
 
-# How to use the Common Data Model
+# How to use Common Data Model
 
 Common Data Model is built upon a rich and extensible metadata definition system
 that enables you to describe and share your own semantically enhanced data types
@@ -20,7 +20,7 @@ With Common Data Model, you can structure your data to represent concepts and
 activities that are commonly used and well understood. You can query and analyze
 that data, reuse it, and interoperate with other businesses and apps that use
 the same format. Common data model can be used to define thousands of entities
-such as Customer, Product, Opportunity, Sale, Purchase Order ,etc. as well as
+such as Customer, Product, Opportunity, Sale, Purchase Order, etc. as well as
 identifying data for regulatory and compliance purposes. Discover and explore
 up-to-date [Common Data Model Entity Reference](https://aka.ms/entityreference)
 
