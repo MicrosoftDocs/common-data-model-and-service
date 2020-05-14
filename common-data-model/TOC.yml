@@ -162,7 +162,7 @@
             href: 1.0om/api-reference/storage/storage.md
           - name: ADLS Adapter
             href: 1.0om/api-reference/storage/adlsadapter.md
-          - name: Github Adapter
+          - name: GitHub Adapter
             href: 1.0om/api-reference/storage/githubadapter.md
           - name: Local Adapter
             href: 1.0om/api-reference/storage/localadapter.md
