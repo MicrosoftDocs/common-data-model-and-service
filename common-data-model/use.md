@@ -229,5 +229,5 @@ which producers can map.
 
 -   [Power BI and Azure Data Services dismantle data silos and unlock
     insights](https://aka.ms/cdmadsblog)
--   [Learn how to crate Common Data Model definitions](https://docs.microsoft.com/common-data-model/creating-schemas)
-- [Learn hot to use Common Data Model SDK](https://docs.microsoft.com/common-data-model/1.0om/api-reference/api-reference) with [sample code](https://docs.microsoft.com/common-data-model/samples) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
+-   [Learn how to create Common Data Model definitions](https://docs.microsoft.com/common-data-model/creating-schemas)
+- [Learn how to use Common Data Model SDK](https://docs.microsoft.com/common-data-model/1.0om/api-reference/api-reference) with [sample code](https://docs.microsoft.com/common-data-model/samples) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
