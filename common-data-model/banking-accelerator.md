@@ -14,7 +14,7 @@ ms.author: jgalvin
 
 With the Banking component of the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. This component includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
 
-The banking component provides the following to both partners and customers:
+The Banking component provides the following to both partners and customers:
 
 -   Extensions to the Common Data Model to include a data model to support banking, including entity definitions and relationships.
 -	Sample model-driven apps to show some possibilities of how Dynamics 365 and the banking data model can be used including customer engagement, know your customer (KYC), referral sharing, and onboarding.
