@@ -12,7 +12,7 @@ ms.author: jgalvin
 
 # Dynamics 365 Financial Services Accelerator - Banking
 
-With the Banking component of the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. The accelerator includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
+With the Banking component of the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. This component includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
 
 The banking component provides the following to both partners and customers:
 
