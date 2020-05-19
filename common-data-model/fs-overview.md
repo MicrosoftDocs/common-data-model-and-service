@@ -14,10 +14,13 @@ ms.author: jgalvin
 Financial services organizations are innovating to provide differentiated and personalized experiences. At the core of this transformation is the ability to tap into the volumes of available data—from transactions, life-events, marketing, social, and more. 
 
 The Dynamics 365 Financial Services Accelerator allows our customers and partners to quickly build industry solutions on Microsoft Dynamics 365 and the Microsoft Power Platform. The foundation of the Financial Services Accelerator is the Microsoft Common Data Model which includes an industry data model supporting Financial Services. The Financial Services Accelerator includes sample applications, business processes, experiences, and dashboards using the Common Data Model, Dynamics 365, and the Power Platform.
+
 The Financial Services Accelerator currently has the following components:
 
-•	Banking
-•	Insurance
+- [Banking](banking.md)
+
+- [Insurance](insurance.md)
+<!--note from JamesG: Can you make sure these are linked to the correct GitHub files, should look in sturcture like the higher educuation overivew page. -->
 
 
 <!--Content goes here for the overview of financial services-->
