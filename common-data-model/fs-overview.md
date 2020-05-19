@@ -17,9 +17,9 @@ The Dynamics 365 Financial Services Accelerator allows our customers and partner
 
 The Financial Services Accelerator currently has the following components:
 
-- [Banking](banking.md)
+- [Banking](banking-accelerator.md)
 
-- [Insurance](insurance.md)
+- [Insurance](insurance-accelerator.md)
 <!--note from JamesG: Can you make sure these are linked to the correct GitHub files, should look in sturcture like the higher educuation overivew page. -->
 
 
