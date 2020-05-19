@@ -48,17 +48,17 @@ This insurance component provides nearly 30 new entities including the following
 
 The Insurance component can be used with the Power Platform or combined with the banking component or other Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the apps, forms, views, and dashboards that demonstrate how the insurance component extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365. This component is now in preview, experiences will change when the component becomes generally available.
 
-### Customer 360 and customer journey
+### Customer 360
 
-![Customer 360 form](media/banking-contact.png)
+![Customer 360 form](media/Insurance_customer360.png)
 
-### Opportunity and deal form
+### Insurance Policy form
 
-![Opportunity form](media/banking-opp.png)
+![Insurance Policy form](media/Insurance_policy.png)
 
-### Agent dashboard
+### Insurance Agent dashboard
 
-![Branch Manager dashboards](media/banking-branch.png)
+![Insurance Agent dashboards](media/Insurance_agentdash.png)
 
 ## Additional resources
 
