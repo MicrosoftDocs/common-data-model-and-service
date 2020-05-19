@@ -19,63 +19,51 @@ The component includes prebuilt solutions, applications, and dashboards for the 
 Currently in preview, the goal of this release is to validate the insurance data model and ensure it meets our customers and partners use cases, the preview of the insurance component includes the following features:
 
 - New insurance entities in the Microsoft Common Data Model which include concepts for insurance spanning the insurance customer, producer, and agency. 
--	An insurance agent application and dashboards, addressing:
-  - Policy Management
-  - Claims Servicing
-  - Customer 360 and customer onboarding
-  - Agent Dashboard
+-	An insurance agent application and dashboards, addressing areas like policy management, claims, customer 360, customer onboarding, and insurance agent dashboards
 -	A Test Drive experience through [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msfsi.bankingcommondatamodel?tab=Overview) with walkthrough and sample data.
 -	A Package deployer solution that is available by filling out this form [here](https://experience.dynamics.com/accelerators/). 
 
-
-
 ## Sitemap extensions
 
-With the Banking component, you can optimize the customer experience, improve collaboration within the bank, and gain insights from analytics. When this component is installed into Dynamics 365, the experience is transformed into one specifically built for banks and it allows institutions to quickly build Power Apps and Power BI visualizations.
+With the Insurance component, insurance companies, intermediaries, brokers, agents, and agencies can optimize the customer experience, improve productivity, and gain new insights. When the component is installed, the environment is transformed into one specifically built for insurance and one that allows customers and partners to quickly build Power Apps, customize Dynamics 365, and build Power BI dashboards for the insurance industry.
 
-Banks, ISVs, and others in Financial Services can build their solutions and business processes on top of the new entities found within the Banking component. The current data model supports common banking activities but has been designed to allow flexibility for other use cases in Financial Services. The data model was developed in collaboration with [BIAN](https://www.bian.org/) and other open API initiatives to ensure interoperability to help unlock new Open Banking opportunities.
+The insurance data model is developed in collaboration with customers, partners, industry experts, and open initiatives to ensure interoperability.
 
 
 ## Entities and workflows
 
-This Banking component provides the following entities and more to support the needs of banks and others in Financial Services:
+This insurance component provides nearly 30 new entities including the following areas to support the needs of insurance customers and partners spanning both producer and agency management scenarios: 
 
 | | | |
 | ------- | -----------------|------------------|
-|Companies |Financial Products |Banks |
-|People |Commercial Loans |Branches |
-|Prospects |Mortgages |Syndicates |
-|Referrals |Home Equity  |Collateral |
-|KYC |Checking Accounts | Limits |
-|Opportunities |Deposit Accounts | Commercial Deals |
+|Insurance Customer |Endorsement |Insurance Company |
+|Insurance Policy |Insured Asset |Agency |
+|Insurance Product |Claim |Producer |
+|Coverage |Claim Stages  |Producer License |
+|Policy Document |Claim Document | Commission |
+|Policy Term |Claim Contact | Account |
+|Exclusion |Deductible | Contact |
 
 ## Forms and dashboards
 
-The Financial Services Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how it extends the Common Data Model,  Power Platform, and Dynamics 365 for Banking.
+The Insurance component can be used with the Power Platform or combined with the banking component or other Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the apps, forms, views, and dashboards that demonstrate how the insurance component extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365. This component is now in preview, experiences will change when the component becomes generally available.
 
-### Customer 360 form
-
-This banking Customer 360 view shows everything about the person from their profit tier (segmentation), to interaction and activities, to KYC, what financial products they have, and who is within their household. The person (or company) record becomes the source of truth and engagement to deliver the optimal customer experience.
+### Customer 360 and customer journey
 
 ![Customer 360 form](media/banking-contact.png)
 
 ### Opportunity and deal form
 
-The opportunity and deal forms show the details of the opportunity included products, requested facilities, limits, and the stages of the overall proposal.
-
 ![Opportunity form](media/banking-opp.png)
 
-### Branch Manager dashboard
-
-Example dashboards both in Dynamics 365 and Power BI are included. For example the Bank Branch Manager dashboard, the Bank Branch Manager gains analytics and insights into account applications, onboarding stage, referrals and prospects, and which products are most popular.
+### Agent dashboard
 
 ![Branch Manager dashboards](media/banking-branch.png)
 
 ## Additional resources
 
-- Find the Financial Services Accelerator here on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview).
+- Test Drive the insurance component n [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) as part of the Financial Services Accelerator [Test Drives require no prerequisite technology or licenses].
 
 - The Financial Services Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
-- Refer to this [blog post](https://https:/cloudblogs.microsoft.com/dynamics365/bdm/2019/07/17/microsoft-dynamics-365-banking-accelerator-is-now-generally-available/) to read more about the value of the Banking component to ISVs, banks, and other financial services institutions.
-
+- To request access to the Insurance preview including the data model, solutions, and documentation, please fill out this form [here](https://experience.dynamics.com/accelerators/).  
