@@ -19,7 +19,7 @@ The component includes prebuilt solutions, applications, and dashboards for the 
 Currently in preview, the goal of this release is to validate the insurance data model and ensure it meets our customers and partners use cases, the preview of the insurance component includes the following features:
 
 - New insurance entities in the Microsoft Common Data Model which include concepts for insurance spanning the insurance customer, producer, and agency. 
--	An insurance agent application and dashboards, addressing areas like policy management, claims, customer 360, customer onboarding, and insurance agent dashboards.
+-	An insurance agent application and dashboards, addressing areas including policy management, claims, customer 360, customer onboarding, and insurance agent dashboards.
 -	A Test Drive experience through [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msfsi.bankingcommondatamodel?tab=Overview) with walkthrough and sample data.
 -	A Package deployer solution that is available by filling out this form [here](https://experience.dynamics.com/accelerators/). 
 
