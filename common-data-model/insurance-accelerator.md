@@ -50,15 +50,15 @@ The Insurance component can be used with the Power Platform or combined with the
 
 ### Customer 360
 
-![Customer 360 form](media/insurance-customer360.png)
+![Customer 360 form](media/insurance-customer360.PNG)
 
 ### Insurance Policy form
 
-![Insurance Policy form](media/insurance-policy.png)
+![Insurance Policy form](media/insurance-policy.PNG)
 
 ### Insurance Agent dashboard
 
-![Insurance Agent dashboards](media/insurance-agentdash.png)
+![Insurance Agent dashboards](media/insurance-agentdash.PNG)
 
 ## Additional resources
 
