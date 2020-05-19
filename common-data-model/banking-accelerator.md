@@ -18,7 +18,7 @@ The banking component provides the following to both partners and customers:
 
 -   Extensions to the Common Data Model to include a data model to support banking, including entity definitions and relationships.
 -	Sample model-driven apps to show some possibilities of how Dynamics 365 and the banking data model can be used including customer engagement, know your customer (KYC), referral sharing, and onboarding.
--	Sample canvas apps for the Relationship Manger to quickly see appointments and create referrals to show how anyone can quickly develop new apps with the Power Platform using the Banking Accelerator.
+-	Sample canvas apps for the Relationship Manger to quickly see appointments and create referrals to show how anyone can quickly develop new apps with the Power Platform.
 -	Sample Power BI dashboards that provide analytics around loans, applications, referrals, and the bank's customers, with drill downs into Retail, Commercial, or see unified visuals and dashboard spanning both lines of business.
 -	Sample file to implement the banking data model in Azure Data Lake Storage for analytics, AI, and Machine Learning.
 -	Individual solutions for retail and commercial banking and a package that you can deploy and install including sample data. 
