@@ -12,11 +12,11 @@ ms.author: jgalvin
 
 # Dynamics 365 Financial Services Accelerator - Banking
 
-With the Banking component of the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. This component includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
+The Banking component in the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. This component includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
 
 The Banking component provides the following to both partners and customers:
 
--   Extensions to the Common Data Model to include a data model to support banking, including entity definitions and relationships.
+- Extensions to the Common Data Model to include a data model to support banking, including entity definitions and relationships.
 -	Sample model-driven apps to show some possibilities of how Dynamics 365 and the banking data model can be used including customer engagement, know your customer (KYC), referral sharing, and onboarding.
 -	Sample canvas apps for the Relationship Manger to quickly see appointments and create referrals to show how anyone can quickly develop new apps with the Power Platform.
 -	Sample Power BI dashboards that provide analytics around loans, applications, referrals, and the bank's customers, with drill downs into Retail, Commercial, or see unified visuals and dashboard spanning both lines of business.
