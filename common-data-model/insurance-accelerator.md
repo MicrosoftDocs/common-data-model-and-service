@@ -41,8 +41,8 @@ This insurance component provides nearly 30 new entities including the following
 |Insurance Product |Claim |Producer |
 |Coverage |Claim Stages  |Producer License |
 |Policy Document |Claim Document | Commission |
-|Policy Term |Claim Contact | Account |
-|Exclusion |Deductible | Contact |
+|Policy Term |Claim Contact | Adjuster |
+|Exclusion |Deductible |Agency Performance  |
 
 ## Forms and dashboards
 
