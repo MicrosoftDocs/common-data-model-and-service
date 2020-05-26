@@ -35,7 +35,7 @@ The insurance data model is developed in collaboration with customers, partners,
 This insurance component provides nearly 30 new entities including the following areas to support the needs of insurance customers and partners spanning both producer and agency management scenarios: 
 
 | | | |
-| ------- | -----------------|------------------|
+|----------------- | -----------------|------------------|
 |Insurance Customer |Endorsement |Insurance Company |
 |Insurance Policy |Insured Asset |Agency |
 |Insurance Product |Claim |Producer |
@@ -62,7 +62,7 @@ The Insurance component can be used with the Power Platform or combined with the
 
 ## Additional resources
 
-- Test Drive the insurance component n [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) as part of the Financial Services Accelerator [Test Drives require no prerequisite technology or licenses].
+- Test Drive the insurance component on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) as part of the Financial Services Accelerator [Test Drives require no prerequisite technology or licenses].
 
 - The Financial Services Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
