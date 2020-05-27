@@ -25,7 +25,7 @@ The automotive accelerator provides the following to partners and customers:
 
 ## What’s new
 
-The Automotive Accelerator V2 focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
+The latest version of Automotive Accelerator focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
 
 
 ## Sitemap extensions
