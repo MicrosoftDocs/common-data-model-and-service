@@ -5,13 +5,13 @@ author: smithy7
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 04/25/2020
+ms.date: 05/27/2020
 ms.author: smithc
 ---
 
 # The Dynamics 365 Automotive Accelerator
 
-With the [Dynamics 365 Automotive Accelerator](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that dealerships and OEMs commonly leverage for customer experience and other business processes. These entities include deals, sales contracts, specifications, fleet, warranties, inspection, test drives, branding, business, customer-vehicle relationship, vehicle and equipment, lead, service and after-sales management, and more. The accelerator includes an automotive data model, PowerBI apps, canvas and model-driven sample apps based on connected experiences.
+With the [Dynamics 365 Automotive Accelerator](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that dealerships and OEMs commonly leverage for customer experience and other business processes. These entities include deals, sales contracts, specifications, fleet, warranties, inspection, test drives, branding, business, customer-vehicle relationship, vehicle and equipment, lead, service and after-sales management, and more. The accelerator includes an automotive data model, Power BI apps, canvas and model-driven sample apps based on connected experiences.
 
 The automotive accelerator provides the following to partners and customers:
 
@@ -20,24 +20,29 @@ The automotive accelerator provides the following to partners and customers:
 -	Sample canvas apps for the Fleet Manager to quickly and pro-actively schedule service appointments with service centers to show how anyone can quickly develop new apps with the Power Platform using the Automotive Accelerator.
 -	Sample Power BI dashboards that provide analytics around vehicle inventory, services, lead disposition, branding, and business operation. 
 -	Sample "Model.json" file to implement the automotive data model as Common Data Model folders in Azure Data Lake Storage for analytics, AI, and Machine Learning.
--	Individual solutions for Sales, After Sales, Marketing and a package that you can deploy and install, including sample data. The Automotive Common Data Model extension can also be installed using a Power Platform SKU. 
+-	Individual solutions for Sales, After Sales, Marketing, and a package that you can deploy and install, including sample data. The Automotive Common Data Model extension can also be installed using a Power Platform SKU. 
 -	Test drive experience through AppSource with walkthroughs, reference guides, entity-relationship diagrams, and metadata documentation on the data model.
+
+## What’s new
+
+The latest version of Automotive Accelerator focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
 
 
 ## Sitemap extensions
 
 With the Dynamics 365 Automotive Accelerator, you can optimize the customer experience, streamline OEM-to-dealer integration, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for automotive and it allows partners and customers to quickly build Power Apps and Power BI visualizations.
-- [**Marketing**: Test Drives - Customer Segmentation]
-- [**Sales**: Deals - Trade Ins - Quotes - Activities]
-- [**After Sales**: Service Appointments - Service Contracts - Sales Contracts - Device Warranties]
-- [**Vehicles**: Vehicles - Fleet]
-- [**Setup Branding**: Device Brand - Device Class - Device Models - Device Model Codes - Device Variant - Device Type]
-- [**Setup Business**: Business - Business Facility - Business Operation]
+- **Marketing**: Test Drives - Customer Segmentation
+- **Sales**: Deals - Trade Ins - Quotes - Activities
+- **After Sales**: Service Appointments - Service Contracts - Sales Contracts - Device Warranties
+- **Vehicles**: Vehicles - Fleet
+- **Setup Branding**: Device Brand - Device Class - Device Models - Device Model Codes - Device Variant - Device Type
+- **Setup Business**: Business - Business Facility - Business Operation
+- **Auto**: Contacts, Service Appointments, Test Drives
 
 
 ## Entities and workflows
 
-These entities are built in to the Automotive Accelerator:
+These entities are built into the Automotive Accelerator:
 
 | **Business Management**                | **Sales and Marketing**      | **Customers**            | **Service and After-Sales** | **Vehicle and Equipment Management** |
 |----------------------------------------|------------------------------|--------------------------|-----------------------------|--------------------------------------|
@@ -81,34 +86,44 @@ These entities are built in to the Automotive Accelerator:
 |                                        |                              |                          |                             | Unit                                 |
 
 
-## Forms and dashboards
+## Forms, dashboards, and apps
 
 The Dynamics 365 Automotive Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the Automotive Accelerator extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365.
 
+### Customer 360 – auto form
+
+The Customer 360 - auto form was released as part of the Automotive Accelerator V2 release to provide a holistic view of prospects and empowers the sales manager to develop intentional conversations based on customer data and preferences. With this sample app, we demonstrate how a Sales Manager uses customer preferences, leveraged from digital footprints and online journey, to provide a curated experience that delights the customer with personalized offers.
+
+![Customer 360 - auto form](media/customer-360-auto.png)
+
+### B2C portal (Power Apps portal)
+The Portal highlights the B2C interactions, showcases inventory browsing, car configuration, scheduling test drives, forums, and post activity. It also covers an omnichannel interaction with a bot and highlights the ability to escalate to an agent.
+
+![B2C portal](media/b2c-portal.png)
+
+### Service Advisor – Redesigned canvas app
+
+The **Service Advisor** app is completely redesigned to provide holistic view of the daily appointments, car service history, simple access to added value services and other information that empowers the *service advisor* to provide an exceptional customer experience and opportunity to sell additional services and products.
+
+![Service advisor app](media/service-advisor-app.png)
+
 ### Lead disposition form
+
 The Automotive Common Data Model supports inbound lead data based on the [STAR](https://www.starstandard.org) guidelines. The form below showcases a sample lead disposition process based on a consistent set of activities while highlighting native Dynamics 365 AI and Insight capabilities for Predictive Lead Scoring and Relationship Analytics.
 
 ![Lead form](media/auto-lead.png)
 
 ### Opportunity form
+
 The opportunity form shows key details, provides deep insights based Dynamics 365 Relationship Analytics, Opportunity Scoring and presents users with relevant data associated with the opportunity (Test Drive activities, Deal Files, Product line items).
 
 ![Opportunity form](media/auto-opportunity.png)
 
 ### Vehicle inventory dashboard
+
 Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Accelerator sample application. With the example vehicle inventory dashboard, the inventory manager can quickly gain insights into total inventory/assets cost, number of available units, aged inventory value percentage  by model year, list price by model year or drill down into inventory breakdown by month received.
 
 ![Vehicle inventory dashboard](media/auto-vehicleInventory.png)
-
-
-## Supported SKUs
-
-|                        | Core CDM as CDM Folder                                                                                | Core CDM without Dynamics 365 Applications                                                                                                                  | Dynamics 365 for Sales                                                             | Dynamics 365 for Service                                                           | Dynamics 365 for Field Service                                                     | Dynamics 365 for Project Service                                                   | Power Apps & Office 365                                                                                                                                                                |
-|------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SKU                    | [Azure Data Lake Storage Gen2](https://azure.microsoft.com/services/storage/data-lake-storage/) | [Power Apps standalone Plan 1 and Plan 2](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#powerapps-standalone-plan-1-and-plan-2) | [Appropriate Dynamics 365 apps plan](https://dynamics.microsoft.com/pricing/) | [Appropriate Dynamics 365 apps plan](https://dynamics.microsoft.com/pricing/) | [Appropriate Dynamics 365 apps plan](https://dynamics.microsoft.com/pricing/) | [Appropriate Dynamics 365 apps plan](https://dynamics.microsoft.com/pricing/) | [Power Apps for Office 365/ Power Apps for Office 365 Enterprise F1](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#powerapps-for-office-365-enterprise-f1) |
-|                        |                                                                                                       |                                                                                                                                                             |                                                                                    |                                                                                    |                                                                                    |                                                                                    |                                                                                                                                                                                       |
-| Automotive Accelerator | Yes                                                                                                   | Yes                                                                                                                                                         | Yes                                                                                | Optional                                                                                | Optional                                                                           | Optional                                                                           | Yes - CDM Folder with Office Integration                                                                                                                                              |
-
 
 
 ## Additional resources
@@ -121,3 +136,6 @@ Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Ac
 
 - [Microsoft Inspire blog about the new ISV Connect program and Accelerators: Accelerating opportunities for ISVs with new programs and technology](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
 
+## Connect and share feedback
+
+Do you have feedback or need support? Connect with us at [dynindaccsupport@microsoft.com](mailto:dynindaccsupport@microsoft.com).
