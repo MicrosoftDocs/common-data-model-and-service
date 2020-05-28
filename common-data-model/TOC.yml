@@ -21,8 +21,6 @@
         href: industry-accelerators.md
       - name: Automotive Accelerator
         href: automotive-accelerator.md
-      - name: Banking Accelerator
-        href: banking-accelerator.md
       - name: Education Accelerator
         items: 
           - name: Overview
@@ -31,6 +29,14 @@
             href: hied-accelerator.md
           - name: K-12 education (Preview)
             href: edu-k12-accelerator.md
+      - name: Financial Services Accelerator
+        items: 
+          - name: Overview
+            href: fs-overview.md
+          - name: Banking
+            href: banking-accelerator.md
+          - name: Insurance (Preview)
+            href: insurance-accelerator.md            
       - name: Healthcare Accelerator
         href: health-accelerator.md
       - name: Manufacturing Accelerator (Preview)
@@ -156,7 +162,7 @@
             href: 1.0om/api-reference/storage/storage.md
           - name: ADLS Adapter
             href: 1.0om/api-reference/storage/adlsadapter.md
-          - name: Github Adapter
+          - name: GitHub Adapter
             href: 1.0om/api-reference/storage/githubadapter.md
           - name: Local Adapter
             href: 1.0om/api-reference/storage/localadapter.md
