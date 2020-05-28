@@ -12,7 +12,7 @@ ms.author: jgalvin
 
 # Dynamics 365 Financial Services accelerator - Insurance (Preview)
 
-[!INCLUDE cc-beta-prerelease-disclaimer]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The insurance component in the [Dynamics 365 Financial Services accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) expands Common Data Model and Microsoft Power Platform for the insurance industry. The insurance component includes data entities and attributes which span property, casualty, and life insurance, for both producer and agency management use cases. 
 
