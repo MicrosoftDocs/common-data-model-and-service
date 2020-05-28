@@ -1,6 +1,6 @@
 ---
-title: Financial Services Accelerator banking component | Microsoft Docs
-description: Develop banking solutions with the extensions to the Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Financial Services Accelerator.
+title: Financial Services accelerator banking component | Microsoft Docs
+description: Develop banking solutions with the extensions to the Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Financial Services accelerator.
 author: JamesGalvin
 ms.service: common-data-model
 ms.reviewer: Deonhe
@@ -10,9 +10,9 @@ ms.author: jgalvin
 ---
 
 
-# Dynamics 365 Financial Services Accelerator - Banking
+# Dynamics 365 Financial Services accelerator - Banking
 
-With the banking component in the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. This component includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
+With the banking component in the [Dynamics 365 Financial Services accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that banks commonly leverage for customer experience and other business processes. These entities include banks, branches, financial products, loans, referrals, limits, requested facilities, and more. This component includes a banking data model, sample apps, dashboards, and connected experiences for both Retail Banking and Commercial Banking.
 
 The banking component provides the following to partners and customers:
 
@@ -47,7 +47,7 @@ This banking component provides the following entities and more to support the n
 
 ## Forms and dashboards
 
-The Financial Services Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes a few of the forms, views, and dashboards that demonstrate how it extends Common Data Model, Power Platform, and Dynamics 365 for Banking.
+The Financial Services accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes a few of the forms, views, and dashboards that demonstrate how it extends Common Data Model, Power Platform, and Dynamics 365 for Banking.
 
 ### Customer 360 form
 
@@ -69,9 +69,9 @@ Example dashboards in Dynamics 365 and Power BI are included. For example, in th
 
 ## Additional resources
 
-- Find the [Financial Services Accelerator](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) on Microsoft AppSource.
+- Find the [Financial Services accelerator](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) on Microsoft AppSource.
 
-- The Financial Services Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
+- The Financial Services accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
 - Refer to this [blog post](https://https:/cloudblogs.microsoft.com/dynamics365/bdm/2019/07/17/microsoft-dynamics-365-banking-accelerator-is-now-generally-available/) to read more about the value of the banking component to ISVs, banks, and other financial services institutions.
 
