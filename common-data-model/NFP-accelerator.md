@@ -9,7 +9,7 @@ ms.date: 01/28/2020
 ms.author: lponti
 ---
 
-# The Dynamics 365 Nonprofit Accelerator
+# Dynamics 365 Nonprofit Accelerator
 
 With the Dynamics 365 Nonprofit Accelerator and Common Data Model for Nonprofits, 
 you can develop nonprofit solutions based on entities and attributes that 
