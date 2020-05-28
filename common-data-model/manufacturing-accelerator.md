@@ -11,7 +11,7 @@ ms.author: merami
 
 ---
 
-# The Dynamics 365 Manufacturing Accelerator (Preview)
+# Dynamics 365 Manufacturing Accelerator (Preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
