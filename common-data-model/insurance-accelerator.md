@@ -3,67 +3,71 @@ title: Financial Services Accelerator - Insurance - Dynamics 365 | Microsoft Doc
 description: Develop insurance solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Financial Services Accelerator.
 author: JamesGalvin
 ms.service: common-data-model
-ms.reviewer: kvivek
+ms.reviewer: Deonhe
 ms.topic: article
-ms.date: 05/13/2020
+ms.date: 05/27/2020
 ms.author: jgalvin
 ---
 
 
 # Dynamics 365 Financial Services Accelerator - Insurance (Preview)
 
-The insurance component in the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) expands the Common Data Model and the Microsoft Power Platform for the insurance industry. The insurance component includes data entities and attributes which span both property and casualty and life insurance and for both producer and agency management use cases. 
+The insurance component in the [Dynamics 365 Financial Services Accelerator](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) expands Common Data Model and Microsoft Power Platform for the insurance industry. The insurance component includes data entities and attributes which span property, casualty, and life insurance, for both producer and agency management use cases. 
 
-The component includes prebuilt solutions, applications, and dashboards for the producer/agent experience as well as for optimizing agency operations. The insurance component integrates seamlessly with the Dynamics 365 Sales application to deliver differentiated policy holder experiences including business processes such as quoting and policy issuance, renewing policies, servicing claims, and recommending insurance products. Additionally, the insurance component can be used alongside the banking component in the Financial Services Accelerator for scenarios and use cases where banking data might be useful.
+The insurance component includes prebuilt solutions, applications, and dashboards for producers and agents to experience and for optimizing agency operations. The insurance component integrates seamlessly with the Dynamics 365 Sales application to deliver differentiated policy holder experiences, including business processes such as quoting, issuing, and renewing policies, servicing claims, and recommending insurance products. Additionally, the insurance component can be used alongside the banking component in the Financial Services Accelerator for scenarios and use cases where banking data might be useful.
 
-Currently in preview, the goal of this release is to validate the insurance data model and ensure it meets our customers and partners use cases, the preview of the insurance component includes the following features:
+Currently in preview, the goal of this release is to validate the insurance data model and ensure it addresses the use cases for Dynamics 365 customers and partners. 
 
-- New insurance entities in the Microsoft Common Data Model which include concepts for insurance spanning the insurance customer, producer, and agency. 
--	An insurance agent application and dashboards, addressing areas including policy management, claims, customer 360, customer onboarding, and insurance agent dashboards.
--	A Test Drive experience through [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msfsi.bankingcommondatamodel?tab=Overview) with walkthrough and sample data.
--	A Package deployer solution that is available by filling out this form [here](https://experience.dynamics.com/accelerators/). 
+The preview of the insurance component includes these features:
+
+- New insurance entities in Microsoft Common Data Model, including concepts for insurance that span the insurance customer, producer, and agency. 
+-	An insurance agent application and dashboard, addressing areas including policy management, claims, customer 360, customer onboarding, and insurance agent dashboards.
+-	A [test drive experience](https://appsource.microsoft.com/product/dynamics-365/msfsi.bankingcommondatamodel?tab=Overview) through AppSource, including walkthrough and sample data.
+-	A [package deployment solution](https://experience.dynamics.com/accelerators/). 
 
 ## Sitemap extensions
 
-With the Insurance component, insurance companies, intermediaries, brokers, agents, and agencies can optimize the customer experience, improve productivity, and gain new insights. When the component is installed, the environment is transformed into one specifically built for insurance and one that allows customers and partners to quickly build Power Apps, customize Dynamics 365, and build Power BI dashboards for the insurance industry.
+With the insurance component, insurance companies, intermediaries, brokers, agents, and agencies can optimize the customer experience, improve productivity, and gain insights. When you install the component, the environment is transforms into one specifically built for insurance and one that allows customers and partners to quickly build Power Apps, customize Dynamics 365, and build Power BI dashboards for the insurance industry.
 
 The insurance data model is developed in collaboration with customers, partners, industry experts, and open initiatives to ensure interoperability.
 
 
 ## Entities and workflows
 
-This insurance component provides nearly 30 new entities including the following areas to support the needs of insurance customers and partners spanning both producer and agency management scenarios: 
+The insurance component provides nearly 30 new entities to support the needs of insurance customers and partners, spanning both producer and agency management scenarios: 
 
 | | | |
 |----------------- | -----------------|------------------|
-|Insurance Customer |Endorsement |Insurance Company |
-|Insurance Policy |Insured Asset |Agency |
-|Insurance Product |Claim |Producer |
-|Coverage |Claim Stages  |Producer License |
-|Policy Document |Claim Document | Commission |
-|Policy Term |Claim Contact | Adjuster |
-|Exclusion |Deductible |Agency Performance  |
+|Insurance customer |Endorsement |Insurance company |
+|Insurance policy |Insured asset |Agency |
+|Insurance product |Claim |Producer |
+|Coverage |Claim stages  |Producer license |
+|Policy document |Claim document | Commission |
+|Policy term |Claim contact | Adjuster |
+|Exclusion |Deductible |Agency performance  |
 
 ## Forms and dashboards
 
-The Insurance component can be used with the Power Platform or combined with the banking component or other Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the apps, forms, views, and dashboards that demonstrate how the insurance component extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365. This component is now in preview, experiences will change when the component becomes generally available.
+The insurance component can be used with Power Platform or combined with the banking component or other Dynamics 365 entities to make it easier to build solutions. This section describes some of the apps, forms, views, and dashboards that demonstrate how the insurance component extends the Microsoft Common Data Model, Power Platform, and Dynamics 365. This component is in preview, the experiences may change when the component is generally available.
 
 ### Customer 360
 
 ![Customer 360 form](media/insurance-customer360.PNG)
 
-### Insurance Policy form
+### Insurance policy form
 
-![Insurance Policy form](media/insurance-policy.PNG)
+![Insurance policy form](media/insurance-policy.PNG)
 
-### Insurance Agent dashboard
+### Insurance agent dashboard
 
-![Insurance Agent dashboards](media/insurance-agentdash.PNG)
+![Insurance agent dashboards](media/insurance-agentdash.PNG)
 
 ## Additional resources
 
-- Test Drive the insurance component on [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) as part of the Financial Services Accelerator [Test Drives require no prerequisite technology or licenses].
+- Test drive [the insurance component](https://appsource.microsoft.com/product/dynamics-crm/msfsi.bankingcommondatamodel?tab=Overview) on Microsoft AppSource as part of the Financial Services Accelerator. There are no prerequisites for test drives.
 
-- The Financial Services Accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
+- The Financial Services Accelerator is provided under the open-source creative license and it is available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
-- To request access to the Insurance preview including the data model, please fill out this form [here](https://experience.dynamics.com/accelerators/).  
+- Get access to the [insurance preview](https://experience.dynamics.com/accelerators/), including the data model.  
+
+
