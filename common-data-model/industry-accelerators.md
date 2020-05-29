@@ -16,12 +16,12 @@ The Common Data Model enables horizontal consistency for customers' business dat
 [Industry accelerators](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) are foundational components within [Microsoft Power Platform](https://docs.microsoft.com/power-platform/) and Dynamics 365 that enable ISVs and other solution providers to quickly build industry vertical solutions. The accelerators extend the Common Data Model to include new entities to support a data schema for concepts within specific industries. Microsoft is currently focused on delivering accelerators for the following industries, with others to come:
 
 -	[Automotive](automotive-accelerator.md)
--	[Banking](banking-accelerator.md)
+-	Financial Services, including [Banking](banking-accelerator.md) and [Insurance](insurance-accelerator.md)
 - [Healthcare](health-accelerator.md)
 -	Education, including [higher education](hied-accelerator.md) and [K&ndash;12](edu-k12-accelerator.md)
 -	[Nonprofit](nfp-accelerator.md)
 -	[Manufacturing](manufacturing-accelerator.md)
-- Media
+- [Media and Communications](media-accelerator.md)
 
 ## ISV opportunity view
 

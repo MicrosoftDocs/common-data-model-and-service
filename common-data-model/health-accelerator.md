@@ -9,7 +9,7 @@ ms.date: 03/30/2020
 ms.author: tpalmer
 ---
 
-# The Dynamics 365 Healthcare Accelerator
+# Dynamics 365 Healthcare Accelerator
 
 Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) entities (such as patient, condition, and care plan) in the [Dynamics 365 Healthcare Accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
 

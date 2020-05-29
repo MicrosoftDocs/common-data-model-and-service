@@ -11,7 +11,7 @@ ms.author: merami
 
 ---
 
-# The Dynamics 365 Media and Communications Accelerator (Preview)
+# Dynamics 365 Media and Communications Accelerator (Preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
