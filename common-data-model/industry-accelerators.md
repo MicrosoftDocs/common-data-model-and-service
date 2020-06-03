@@ -11,9 +11,9 @@ ms.author: smithc
 
 # Overview of Industry Accelerators
 
-The Common Data Model enables horizontal consistency for customers' business data, making it easier for them to create value from that data. However, many customers and partners want solutions and platforms that are tailored for their industry. Microsoft is working closely with representatives from various industries to make the Common Data Model more relevant to them, by creating industry accelerators.
+Common Data Model enables horizontal consistency for customers' business data, making it easier for them to create value from that data. However, many customers and partners want solutions and platforms that are tailored for their industry. Microsoft is working closely with representatives from various industries to make the Common Data Model more relevant to them, by creating industry accelerators.
 
-[Industry accelerators](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) are foundational components within [Microsoft Power Platform](https://docs.microsoft.com/power-platform/) and Dynamics 365 that enable ISVs and other solution providers to quickly build industry vertical solutions. The accelerators extend the Common Data Model to include new entities to support a data schema for concepts within specific industries. Microsoft is currently focused on delivering accelerators for the following industries, with others to come:
+[Industry accelerators](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) are foundational components within [Microsoft Power Platform](https://docs.microsoft.com/power-platform/) and Dynamics 365 that enable ISVs and other solution providers to quickly build industry vertical solutions. The accelerators extend Common Data Model to include new entities to support a data schema for concepts within specific industries. Microsoft is currently focused on delivering accelerators for the following industries, with others to come:
 
 -	[Automotive](automotive-accelerator.md)
 -	Financial Services, including [Banking](banking-accelerator.md) and [Insurance](insurance-accelerator.md)
