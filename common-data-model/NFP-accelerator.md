@@ -5,7 +5,7 @@ author: lponti
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 01/28/2020
+ms.date: 06/08/2020
 ms.author: lponti
 ---
 
