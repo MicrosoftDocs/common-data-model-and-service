@@ -1,5 +1,5 @@
 ---
-title: Financial services accelerator banking component - Dynamics 365 | Microsoft Docs
+title: Dynamics 365 financial services accelerator banking component  | Microsoft Docs
 description: Develop banking solutions with the extensions to the Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 financial services accelerator - banking component.
 author: JamesGalvin
 ms.service: common-data-model
