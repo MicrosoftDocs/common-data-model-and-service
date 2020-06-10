@@ -1,5 +1,5 @@
 ---
-title: Automotive accelerator - Dynamics 365 | Microsoft Docs
+title: Dynamics 365 automotive accelerator  | Microsoft Docs
 description: Develop automotive solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 automotive accelerator. 
 author: smithy7
 ms.service: common-data-model
