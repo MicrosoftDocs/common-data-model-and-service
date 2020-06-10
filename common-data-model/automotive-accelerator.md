@@ -1,6 +1,6 @@
 ---
-title: Automotive Accelerator - Dynamics 365 | Microsoft Docs
-description: Develop automotive solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Automotive Accelerator. 
+title: Automotive accelerator - Dynamics 365 | Microsoft Docs
+description: Develop automotive solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 automotive accelerator. 
 author: smithy7
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,15 +9,15 @@ ms.date: 05/27/2020
 ms.author: smithc
 ---
 
-# Dynamics 365 Automotive Accelerator
+# Dynamics 365 automotive accelerator
 
-With the [Dynamics 365 Automotive Accelerator](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that dealerships and OEMs commonly leverage for customer experience and other business processes. These entities include deals, sales contracts, specifications, fleet, warranties, inspection, test drives, branding, business, customer-vehicle relationship, vehicle and equipment, lead, service and after-sales management, and more. The accelerator includes an automotive data model, Power BI apps, canvas and model-driven sample apps based on connected experiences.
+With the [Dynamics 365 automotive accelerator](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview), you can develop solutions based on entities and attributes that dealerships and OEMs commonly leverage for customer experience and other business processes. These entities include deals, sales contracts, specifications, fleet, warranties, inspection, test drives, branding, business, customer-vehicle relationship, vehicle and equipment, lead, service and after-sales management, and more. The accelerator includes an automotive data model, Power BI apps, canvas and model-driven sample apps based on connected experiences.
 
 The automotive accelerator provides the following to partners and customers:
 
 -   Extensions to Common Data Model to include a data model that supports customer experiences, including entity definitions and relationships.
 -	Sample model-driven apps to show some possibilities of how Dynamics 365 and the automotive data model can be used, including customer experience management, customer 360, connected field service, and DMS.
--	Sample canvas apps for the Fleet Manager to quickly and pro-actively schedule service appointments with service centers to show how anyone can quickly develop new apps with the Power Platform using the Automotive Accelerator.
+-	Sample canvas apps for the Fleet Manager to quickly and pro-actively schedule service appointments with service centers to show how anyone can quickly develop new apps with the Power Platform using the automotive accelerator.
 -	Sample Power BI dashboards that provide analytics around vehicle inventory, services, lead disposition, branding, and business operation. 
 -	Sample "Model.json" file to implement the automotive data model as Common Data Model folders in Azure Data Lake Storage for analytics, AI, and Machine Learning.
 -	Individual solutions for Sales, After Sales, Marketing, and a package that you can deploy and install, including sample data. The Automotive Common Data Model extension can also be installed using a Power Platform SKU. 
@@ -25,12 +25,12 @@ The automotive accelerator provides the following to partners and customers:
 
 ## What’s new
 
-The latest version of Automotive Accelerator focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
+The latest version of the automotive accelerator focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
 
 
 ## Sitemap extensions
 
-With the Dynamics 365 Automotive Accelerator, you can optimize the customer experience, streamline OEM-to-dealer integration, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for automotive and it allows partners and customers to quickly build Power Apps and Power BI visualizations.
+With the Dynamics 365 automotive accelerator, you can optimize the customer experience, streamline OEM-to-dealer integration, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for automotive and it allows partners and customers to quickly build Power Apps and Power BI visualizations.
 - **Marketing**: Test Drives - Customer Segmentation
 - **Sales**: Deals - Trade Ins - Quotes - Activities
 - **After Sales**: Service Appointments - Service Contracts - Sales Contracts - Device Warranties
@@ -42,7 +42,7 @@ With the Dynamics 365 Automotive Accelerator, you can optimize the customer expe
 
 ## Entities and workflows
 
-These entities are built into the Automotive Accelerator:
+These entities are built into the automotive accelerator:
 
 | **Business Management**                | **Sales and Marketing**      | **Customers**            | **Service and After-Sales** | **Vehicle and Equipment Management** |
 |----------------------------------------|------------------------------|--------------------------|-----------------------------|--------------------------------------|
@@ -88,11 +88,11 @@ These entities are built into the Automotive Accelerator:
 
 ## Forms, dashboards, and apps
 
-The Dynamics 365 Automotive Accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the Automotive Accelerator extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365.
+The Dynamics 365 automotive accelerator can be used with Power Platform or combined with standard Dynamics 365 entities to make it easier to build solutions. This section describes just a few of the forms, views, and dashboards that demonstrate how the automotive accelerator extends the Microsoft Common Data Model, the Power Platform, and Dynamics 365.
 
 ### Customer 360 – auto form
 
-The Customer 360 - auto form was released as part of the Automotive Accelerator V2 release to provide a holistic view of prospects and empowers the sales manager to develop intentional conversations based on customer data and preferences. With this sample app, we demonstrate how a Sales Manager uses customer preferences, leveraged from digital footprints and online journey, to provide a curated experience that delights the customer with personalized offers.
+The Customer 360 - auto form was released as part of the automotive accelerator V2 release to provide a holistic view of prospects and empowers the sales manager to develop intentional conversations based on customer data and preferences. With this sample app, we demonstrate how a Sales Manager uses customer preferences, leveraged from digital footprints and online journey, to provide a curated experience that delights the customer with personalized offers.
 
 ![Customer 360 - auto form](media/customer-360-auto.png)
 
@@ -121,20 +121,20 @@ The opportunity form shows key details, provides deep insights based Dynamics 36
 
 ### Vehicle inventory dashboard
 
-Example of Power BI dashboards embedded within Dynamics 365 in the Automotive Accelerator sample application. With the example vehicle inventory dashboard, the inventory manager can quickly gain insights into total inventory/assets cost, number of available units, aged inventory value percentage  by model year, list price by model year or drill down into inventory breakdown by month received.
+Example of Power BI dashboards embedded within Dynamics 365 in the automotive accelerator sample application. With the example vehicle inventory dashboard, the inventory manager can quickly gain insights into total inventory/assets cost, number of available units, aged inventory value percentage  by model year, list price by model year or drill down into inventory breakdown by month received.
 
 ![Vehicle inventory dashboard](media/auto-vehicleInventory.png)
 
 
 ## Additional resources
 
-- Find the Automotive Accelerator on [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview).
+- Find the automotive accelerator on [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/msauto.msftautomotivecommondatamodel?tab=Overview).
 
-- The Automotive Accelerator is provided as part of the open-source Creative Commons license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Automotive).
+- The automotive accelerator is provided as part of the open-source Creative Commons license and available on [GitHub](https://github.com/microsoft/industry-accelerator-automotive).
 
 - [Microsoft Dynamics 365 Automotive Accelerator First Look - Industry Trends and Value Propositions](https://gallery.azure.com/artifact/20151001/msauto.msftautomotivecommondatamodel.1.0.3/Artifacts/Documents/e47f4079-b69f-4401-babf-d7ad5087e5cc.pdf)
 
-- [Microsoft Inspire blog about the new ISV Connect program and Accelerators: Accelerating opportunities for ISVs with new programs and technology](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
+- [Microsoft Inspire blog about the new ISV Connect program and accelerators: Accelerating opportunities for ISVs with new programs and technology](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
 
 ## Connect and share feedback
 
