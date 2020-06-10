@@ -1,5 +1,5 @@
 ---
-title: Nonprofit accelerator - Dynamics 365  | Microsoft Docs
+title: Dynamics 365 nonprofit accelerator  | Microsoft Docs
 description: Rapidly develop nonprofit fundraising, grant/award, program delivery, and impact-tracking solutions by using nonprofit entities in the Dynamics 365 nonprofit accelerator. 
 author: lponti
 ms.service: common-data-model
