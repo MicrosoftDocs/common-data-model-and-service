@@ -1,6 +1,6 @@
 ---
 
-title: Education accelerator K-12 (preview) - Dynamics 365  | Microsoft Docs
+title: Dynamics 365 education accelerator K-12 (preview)   | Microsoft Docs
 description:  The Dynamics 365 education accelerator K-12 component (preview) provides a uniform platform for those who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform.
 author: MeenooRami
 ms.service: common-data-model
