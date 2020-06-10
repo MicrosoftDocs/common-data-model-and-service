@@ -1,7 +1,7 @@
 ---
 
-title: Dynamics 365 Media and Communications Accelerator (preview) | Microsoft Docs
-description:  Develop media and communications solutions with extensions to Common Data Model. Connect to built-in forms and Dynamics 365 Media and Communications Accelerator views.
+title: Dynamics 365 media and communications accelerator (preview) | Microsoft Docs
+description:  Develop media and communications solutions with extensions to Common Data Model. Connect to built-in forms and Dynamics 365 media and communications accelerator views.
 author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
@@ -11,13 +11,13 @@ ms.author: merami
 
 ---
 
-# Dynamics 365 Media and Communications Accelerator (Preview)
+# Dynamics 365 media and communications accelerator (preview)
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The [Dynamics 365 Media and Communications Accelerator](https://aka.ms/d365media) expands Common Data Model and Microsoft Power Platform into the media and entertainment industries. Version 1 of the Media and Communications Accelerator includes data entities and attributes that center on the theme of “fan and guest engagement.” 
+The [Dynamics 365 media and communications accelerator](https://aka.ms/d365media) expands Common Data Model and Microsoft Power Platform into the media and entertainment industries. Version 1 of the media and communications accelerator includes data entities and attributes that center on the theme of “fan and guest engagement.” 
 
-It includes prebuilt solutions that focus on event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The Media and Communications Accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
+It includes prebuilt solutions that focus on event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The media and communications accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
 
 The accelerator includes the following features:
 
@@ -32,7 +32,7 @@ The accelerator includes the following features:
 
 ## Site-map extensions
 
-With the Dynamics 365 Media and Communications Accelerator, institutions can optimize fan engagement, improve interactions, profile and predict actions of their customers, and gain insights from analytics. When the accelerator is installed in Dynamics 365, the experience is transformed into one specifically built for operators of theme parks, sport venues, theaters, arenas, or other places for tourism, hospitality, business conferencing, or the arts. The goal is to allow such institutions to quickly build Power Apps and Power BI visualizations.
+With the Dynamics 365 media and communications accelerator, institutions can optimize fan engagement, improve interactions, profile and predict actions of their customers, and gain insights from analytics. When the accelerator is installed in Dynamics 365, the experience is transformed into one specifically built for operators of theme parks, sport venues, theaters, arenas, or other places for tourism, hospitality, business conferencing, or the arts. The goal is to allow such institutions to quickly build Power Apps and Power BI visualizations.
 
 Media and entertainment institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record ticketing products, sponsorships, events, venues, sport teams and leagues, and more. 
 
@@ -92,7 +92,7 @@ This accelerator provides these new Common Data Model entities to support the ne
 
 ## Forms and dashboards
 
-The Dynamics 365 Media and Communications Accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
+The Dynamics 365 media and communications accelerator combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, views, and dashboards that demonstrate the new entities and the data model.
 
 ### Fan and guest management
 
@@ -108,7 +108,7 @@ The Dynamics 365 Media and Communications Accelerator combines standard Dynamics
 > [!div class="mx-imgBorder"]
 > ![Fan and guest management dashboard - loyalty details](media/media-loyalty-details.png "Fan and guest management dashboard - loyalty details")
 
-The Media and Communications Accelerator is intended to help successfully drive the progression of a customer from an anonymous or casual guest toward becoming a deeply engaged fan, regular attendee, subscribing member or active member of a frequent buyer or loyalty program. The accelerator solution helps track that journey with the addition of the new “guest” and “loyalty program” entities, which can help eventually convert to leads and then customers and contacts.
+The media and communications accelerator is intended to help successfully drive the progression of a customer from an anonymous or casual guest toward becoming a deeply engaged fan, regular attendee, subscribing member or active member of a frequent buyer or loyalty program. The accelerator solution helps track that journey with the addition of the new “guest” and “loyalty program” entities, which can help eventually convert to leads and then customers and contacts.
 
 ### Events and venue management
 
@@ -128,7 +128,7 @@ From scheduling industry events such as conferences, concerts, sporting events, 
 
 ### Sports management
 
-Key customer targets of the fan engagement scenarios within the Media and Communications Accelerator are sports leagues, teams, and organizations that can use the accelerator to manage and schedule their seasons, games, players, referees, scorers, and other key officials. The accelerator adds a number of sports-specific data entities and relationships that enable specific use cases for the sports industry.
+Key customer targets of the fan engagement scenarios within the media and communications accelerator are sports leagues, teams, and organizations that can use the accelerator to manage and schedule their seasons, games, players, referees, scorers, and other key officials. The accelerator adds a number of sports-specific data entities and relationships that enable specific use cases for the sports industry.
 
 > [!div class="mx-imgBorder"]
 > ![Sports management menu](media/media-sports-mgmt-menu.png "Sports management menu")
@@ -141,7 +141,7 @@ Key customer targets of the fan engagement scenarios within the Media and Commun
 
 ### Ticketing and advertising sales
 
-The Media and Communications Accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps. They also enable the assignment and tracking of available and blocked seat inventory used within a venue, event, or individual attraction or conference session. That in turn allows for the monetization of individual, seasonal, or group tickets to those events. 
+The media and communications accelerator can be used to easily build new product sales applications that help to promote, sell, and manage media-specific products like subscription services, ticketing, and advertising. New ticketing data entities include the ability to build reservations and seat management solutions through seat maps. They also enable the assignment and tracking of available and blocked seat inventory used within a venue, event, or individual attraction or conference session. That in turn allows for the monetization of individual, seasonal, or group tickets to those events. 
 
 Similarly, you can build an application that enables the creation and sales of advertising display products. There's a key focus on  display messaging sales at a physical venue (digital billboards, scoreboards, and other signs spread across an arena or theme park). This includes the ability to specify ‘what, where, and when’ for display advertising, as well as to track and manage the sale and fulfillment of those advertisements and sponsorships.
 
@@ -153,8 +153,8 @@ Similarly, you can build an application that enables the creation and sales of a
 
 ## Additional resources
 
-- Download the Dynamics 365 Media and Communications Accelerator from [AppSource](https://appsource.microsoft.com/marketplace/apps?search=Dynamics%20365%20Accelerator&page=1).
-- The Media data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Media).
+- Download the Dynamics 365 media and communications accelerator from [AppSource](https://appsource.microsoft.com/marketplace/apps?search=Dynamics%20365%20Accelerator&page=1).
+- The media data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Media).
 - [Additional topics about the accelerators](https://aka.ms/cdmengage).
 
 ## Connect and share feedback
