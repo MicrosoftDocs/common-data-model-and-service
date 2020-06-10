@@ -52,7 +52,7 @@ Common Data Model is influenced by data schemas that are present in Dynamics 365
 
 Thousands of independent software vendors (ISVs) and their partners use Common Data Model for their own solutions, and are building services and offerings based on Common Data Model schemas. 
 
-Organizations from industries such as healthcare are working closely with Microsoft to extend the Common Data Model to their specific business concepts&mdash;for example, **Patient** and **Care Plan**&mdash;through [industry accelerators](industry-accelerators.md). This extends the benefit of the Common Data Model standard entities to these verticals so that industry solutions can interoperate more easily.
+Organizations from industries such as healthcare are working closely with Microsoft to extend Common Data Model to their specific business concepts&mdash;for example, **Patient** and **Care Plan**&mdash;through [industry accelerators](industry-accelerators.md). This extends the benefit of the Common Data Model standard entities to these verticals so that industry solutions can interoperate more easily.
 
 ## Next steps
 
