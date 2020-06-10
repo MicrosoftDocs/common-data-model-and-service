@@ -13,7 +13,7 @@ ms.author: lponti
 
 The Dynamics 365 nonprofit accelerator and Common Data Model for Nonprofits help organizations eliminate data silos, enabling powerful insights into their data. Microsoft is dedicated to working with nonprofits and partners to develop solutions based on entities and attributes that nonprofits commonly use for constituent management, fundraising, awards, program delivery, and impact tracking. 
 
-These entities include, donor commitments, designations, transactions, awards, disbursements, delivery frameworks, results, indicators, benefit recipients, and more. The nonprofit accelerator provides a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform and benefit from integration with the Common Data Model for Nonprofits.
+These entities include, donor commitments, designations, transactions, awards, disbursements, delivery frameworks, results, indicators, benefit recipients, and more. The nonprofit accelerator provides a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Microsoft Power Platform and benefit from integration with Common Data Model for Nonprofits.
 
 
 Since the initial release in November 2018 at the NetHope Global Summit we've had additional extensions and enhancements in 5 updated releases; 
@@ -25,7 +25,7 @@ Since the initial release in November 2018 at the NetHope Global Summit we've ha
 - June 2020
 
 The nonprofit accelerator provides the following to partners and nonprofit organizations:
-- Extensions to the Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
+- Extensions to Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
 - A Program Design template application that partners can evolve to help nonprofit program and country managers to: 
   - Create and browse logframes (logical frameworks, the building blocks of effective program design).
 - Connect logframes to internal, external, and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order improve program measurement and outcome tracking.
@@ -77,7 +77,7 @@ This includes:
 
 ## Site-map extensions
 
-With the Dynamics 365 nonprofit accelerator, nonprofits can streamline their operational management of constituents, fundraising, grant and award management, program delivery, and impact tracking. The nonprofit accelerator can be used with Microsoft Dynamics 365 or independently with the Common Data Model for Nonprofits core solution layer that is not dependent on Microsoft Dynamics 365. This independent solution layer can be leveraged to build Power Apps and Power BI visualizations, or to serve as a foundational layer to Modern Workplace and Azure solutions.
+With the Dynamics 365 nonprofit accelerator, nonprofits can streamline their operational management of constituents, fundraising, grant and award management, program delivery, and impact tracking. The nonprofit accelerator can be used with Microsoft Dynamics 365 or independently with Common Data Model for Nonprofits core solution layer that is not dependent on Microsoft Dynamics 365. This independent solution layer can be leveraged to build Power Apps and Power BI visualizations, or to serve as a foundational layer to Modern Workplace and Azure solutions.
 
 Nonprofits, ISVs, and others in the nonprofit sector can build their solutions and business processes on top of the new and existing entities and templates found within the nonprofit accelerator. The current data model supports common nonprofit activities but has been designed to allow flexibility to support other use cases and extensions.
 
@@ -88,7 +88,7 @@ The nonprofit accelerator and Common Data Model for Nonprofits are developed in 
 
 ## Entities and workflows
 
-The solutions in the nonprofit accelerator leverage the Common Data Model for Nonprofits and can be leveraged to build solutions on the Microsoft Power Platform and/or Microsoft Dynamics 365.  Depending on the partner and organization needs, the nonprofit accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases) and below explains the differences:
+The solutions in the nonprofit accelerator leverage Common Data Model for Nonprofits and can be leveraged to build solutions on the Microsoft Power Platform and/or Microsoft Dynamics 365.  Depending on the partner and organization needs, the nonprofit accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases) and below explains the differences:
 
 
 ### Data schema
@@ -115,7 +115,7 @@ This table shows the data entities that are available in each solution package.
 
 ## Forms, dashboards, and applications
 
-The nonprofit accelerator combines standard Microsoft Common Data Model entities with customized nonprofit entities. This section describes the forms, views, and dashboards that demonstrate the entities in the data model as well as applications that build out business rules.
+The nonprofit accelerator combines standard Common Data Model entities with customized nonprofit entities. This section describes the forms, views, and dashboards that demonstrate the entities in the data model as well as applications that build out business rules.
 
 This includes the following: 
 
