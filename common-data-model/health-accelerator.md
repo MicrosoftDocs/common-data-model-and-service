@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 healthcare accelerator  | Microsoft Docs
-description: Develop healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 healthcare accelerator.
+description: Develop healthcare solutions with the extensions to Common Data Model and built-in forms and views of the Dynamics 365 healthcare accelerator.
 author: TheresaPalmer
 ms.service: common-data-model
 ms.reviewer: anneta
@@ -18,7 +18,7 @@ Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Res
 
 This accelerator was announced in July 2018 at Ignite, and the initial release includes these features:
 
-- Extension of the Common Data Model to include concepts for health, including entity definitions and relationships.
+- Extension of Common Data Model to include concepts for health, including entity definitions and relationships.
 - **Patient**, **Practitioner**, **Related person**, and other customer-engagement forms that you can enhance or use out of the box.
 - A sample app that demonstrates some possibilities of the Unified Interface.
 - Support for building canvas and model-driven apps in Power Apps.
