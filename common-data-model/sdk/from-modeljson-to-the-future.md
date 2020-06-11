@@ -28,7 +28,7 @@ Generally, if you plan to build a service that will consume data described with 
 
 Before we get started reading the schema, we want to let the SDK know where our files reside. This is achieved by instantiating the [corpus](https://docs.microsoft.com/en-us/common-data-model/sdk/fundamentals#the-corpus) object, the main collection of documents and definitions, and telling its [storage management layer](https://docs.microsoft.com/en-us/common-data-model/1.0om/api-reference/storage/storage) which adapters to use to access file systems. The adapters are just an abstraction of underlying filesystems, supplying standardized read/write access for the SDK. We will set up two adapters, one pointing to the location of CDM foundation files (consider them as bootstrap definitions) and the other pointing to a local filesystem. 
 
-```
+```csharp
     var cdmCorpus = new CdmCorpusDefinition(); 
     cdmCorpus.Storage.Mount("cdm", new CdmStandardsAdapter()); 
     cdmCorpus.Storage.Mount("adls", new ADLSAdapter("<ADDRESS>", "/<ROOT>", "<SHARED KEY>")); 
@@ -37,7 +37,7 @@ Before we get started reading the schema, we want to let the SDK know where our 
 
 Then, to load a "model.json" file at the root of the target location just one line will be sufficient: 
 
-```
+```csharp
     var manifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>("model.json"); 
 ```
 
@@ -45,7 +45,7 @@ Here, the manifest object represents Object Model's high-level _representation_ 
 
 Let's try to explore the list of entities declared in the schema. Following snippet demonstrates how this can be done. 
 
-```
+```csharp
     foreach (var entityDeclaration in manifest.Entities) 
     {
         var entityDefinition = await cdmCorpus.FetchObjectAsync<CdmEntityDefinition>(entityDeclaration.EntityPath, manifest); 
@@ -63,7 +63,7 @@ Let's try to explore the list of entities declared in the schema. Following snip
 
 The code above iterates over the entity declarations found in the manifest, loading the actual definition objects that hold information on attributes and other properties of the entity. Now, let's also list which partitions have been referenced by the "model.json" file.
 
-```
+```csharp
     foreach (var dataPartition in entityDeclaration.DataPartitions) 
     {
         Console.WriteLine(cdmCorpus.Storage.CorpusPathToAdapterPath(dataPartition.Location));
@@ -78,20 +78,20 @@ As an exercise for the reader, consider loading the newer "manifest.cdm.json" fi
 
 We've seen how we can load the older "model.json" format file and explore it, but what about writing the model out into files? Fortunately, persisting to a desired format is just a matter of selecting the right file name. The SDK detects the format based on the file name and activates the proper persistence logic. If you need to save the schema as a "model.json" file, you will make the following call:
 
-```
+```csharp
     await manifest.SaveAsAsync("model.json", true);
 ```
 
 Or, if you want to save it to a newer format, the name needs to follow pattern "*.manifest.cdm.json", like this: 
 
 
-```
+```csharp
     await manifest.SaveAsAsync("mySchema.manifest.cdm.json", true); 
 ```
 
 If the reader's intent is just to do a simple conversion from one format to the other, without fancy schema exploration, the client code will only require the following two lines: 
 
-```
+```csharp
     // Convert model.json to manifest.cdm.json
     var manifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>("model.json");
     await manifest.SaveAsAsync("mySchema.manifest.cdm.json", true);
@@ -99,7 +99,7 @@ If the reader's intent is just to do a simple conversion from one format to the 
 
 Or, in the opposite direction:
 
-```
+```csharp
     // Convert manifest.cdm.json to model.json
     var manifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>("mySchema.manifest.cdm.json");
     await manifest.SaveAsAsync("model.json", true);
@@ -117,7 +117,7 @@ Specification for "model.json" format recognizes two types of custom information
 
 From a programmatic usage perspective, the snippet below demonstrates how one would access the annotations on entity level:
 
-```
+```csharp
     var annotations = entity.ExhibitsTraits.Item("is.modelConversion.otherAnnotations")?.Arguments[0].Value;
     if (annotations != null)
     {
@@ -130,7 +130,7 @@ From a programmatic usage perspective, the snippet below demonstrates how one wo
 
 When talking about the second information type, the custom properties, they are made available in the Object Model as individual traits, following naming convention "is.extension.\<propertyname\>". For example, if you want to get content of custom property "myapp:something", following code can retrieve you that:
 
-```
+```csharp
     var customPropValue = entity.ExhibitsTraits.Item("is.extension.myapp:something")?.Arguments[0].Value;
 ```
 
@@ -140,13 +140,13 @@ One more thing to note for services converting the "model.json" schema and writi
 
 By definition, partition locations in "model.json" metadata files [are absolute](https://docs.microsoft.com/en-us/common-data-model/model-json#partitions). Since Object Model APIs operate through storage adapters, which is the abstraction layer over the underlying filesystem, these URIs get converted into a corpus path form via applicable adapter. The conversion is performed by the Object Model during loading of the metadata file automatically, _if the URI matches the actual location of the "model.json" file._ So, if we have configured an ADLSAdapter as above to be mapped on namespace "adls", and partitions are under the same location or under any sub-folder, their paths will convert to corpus path that can look like this: "adls:/somepath/some-partition.csv". And, as shown in earlier section, clients can decode this corpus path back into original URI with this command:
 
-```
+```csharp
     var originalUri = cdmCorpus.Storage.CorpusPathToAdapterPath(dataPartition.Location)
 ```
 
 In case the partition URIs do not match the location of the "model.json" file, a RemoteAdapter must be pre-configured in the corpus prior to loading the metadata file. For example, if the URIs looks like this "https://my.server.com:443/somepath", the RemoteAdapter should be configured as:
 
-```
+```csharp
     var hosts = new Dictionary<string, string>();
     hosts.Add("myserver", "https://my.server.com:443/somepath");
     cdmCorpus.Storage.Mount("remote", new RemoteAdapter(hosts));
@@ -166,7 +166,7 @@ Note that this concept in "model.json" spec has been rarely used in real-world s
 
 The new "manifest.cdm.json" schema format introduced a new capability for data producers to define [partition patterns](https://docs.microsoft.com/en-us/common-data-model/sdk/manifest#data-partition-patterns) which removes the need to update metadata files whenever a new data partition is added. If a manifest has patterns defined, then before such schema is saved in "model.json" form using SaveAsAsync API, services must first make a call to FileStatusCheckAsync API on the manifest object: 
 
-```
+```csharp
     await manifest.FileStatusCheckAsync();
     await manifest.SaveAsAsync("model.json", true);
 ```
@@ -181,7 +181,7 @@ With the introduction of the new "manifest.cdm.json" metadata description format
 
 For data producers, both "model.json" and "manifest.cdm.json" variant of their schema can be written together in the same CDM folder: 
 
-```
+```csharp
     await manifest.SaveAsAsync("model.json", true);
     await manifest.SaveAsAsync("mySchema.manifest.cdm.json", true);
 ```
@@ -190,7 +190,7 @@ This approach helps widen the set of consumers able to understand the outputted 
 
 For data consumers, the transition path is such that the service needs to become capable of selecting the "manifest.cdm.json" as default schema source if both old and new metadata format are present in the CDM folder, and only fall back to "model.json" in case the newer format file is not there. If that happens, the service needs to adjust its behavior because newer notions, such as traits, will not be available. Here's a simple example: 
 
-```
+```csharp
     var manifestFileName = MyFuncToFindManifestFileInTargetLake();
     var manifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>(manifestFileName ? manifestFileName : "model.json");
 
