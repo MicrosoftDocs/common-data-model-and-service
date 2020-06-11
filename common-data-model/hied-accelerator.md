@@ -1,7 +1,7 @@
 ---
 
-title: Dynamics 365 Education Accelerator – Higher Education | Microsoft Docs
-description: Develop higher education solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 Higher Education Accelerator.
+title: Dynamics 365 education accelerator higher education component | Microsoft Docs
+description: Develop higher education solutions with the extensions to Common Data Model and the built-in forms, views, and dashboards of the Dynamics 365 education accelerator – higher education component.
 author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: Deonhe
@@ -11,9 +11,9 @@ ms.author: merami
 
 ---
 
-# Dynamics 365 Education Accelerator – Higher Education
+# Dynamics 365 education accelerator – higher education
 
-With the Higher Education component in the [Dynamics 365 Education Accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The component includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The component also provides entities, fields, forms, views, and dashboards specific to higher education.
+With the higher education component in the [Dynamics 365 education accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The component includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The component also provides entities, fields, forms, views, and dashboards specific to higher education.
 
 ## Common Data Model extensions
 
@@ -32,13 +32,13 @@ This accelerator contains extensions to Common Data Model to include concepts fo
 
 ## Site-map extensions
 
-With the Higher Education component of the Dynamics 365 Education Accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, predict outcomes, and gain insights from analytics. When the accelerator is installed, the experience is transformed into one specifically built for higher education and one that allows institutions to quickly build Power Apps and Power BI visualizations.
+With the higher education component of the Dynamics 365 education accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, predict outcomes, and gain insights from analytics. When the accelerator is installed, the experience is transformed into one specifically built for higher education and one that allows institutions to quickly build Power Apps and Power BI visualizations.
 
 Higher education institutions can build their business processes on top of the entities in the accelerator. The ribbon customizations contain entities to record student, faculty, and alumni interactions, business partner interactions, appointments, events, and outreach.
 
 ## Entities and workflows
 
-This accelerator provides these entities to support the needs of higher education institutions:
+This accelerator provides these entities to support the needs of higher education institutions.
 
 ### Education core
 
@@ -78,7 +78,7 @@ This accelerator provides these entities to support the needs of higher educatio
 
 ## Forms, dashboards, and apps
 
-The Higher Education component combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, dashboards, and apps that demonstrate the new entities and the data model.
+The higher education component combines standard Dynamics 365 entities with customized entities to make it easier to build solutions. This section describes some of the forms, dashboards, and apps that demonstrate the new entities and the data model.
 
 ### Business partner dashboard
 
@@ -113,10 +113,10 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 ## Additional resources
 
-- Download the Dynamics 365 Education Accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview).
+- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview).
 
 - The higher-education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license, available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/releases).
 
 - Additional [accelerator topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators). 
 
-- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows some examples of ISVs building solutions on the Dynamics 365 Higher-Education Accelerator.
+- This [blog post](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/10/30/early-isvs-building-on-the-new-higher-education-accelerator-and-the-microsoft-power-platform) shows some examples of ISVs building solutions on the Dynamics 365 education accelerator – higher education component.

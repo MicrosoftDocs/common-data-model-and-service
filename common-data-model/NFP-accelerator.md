@@ -1,6 +1,6 @@
 ---
-title: Nonprofit Accelerator - Dynamics 365 | Microsoft Docs
-description: Rapidly develop nonprofit fundraising, grant/award, program delivery, and impact-tracking solutions by using nonprofit entities in the Dynamics 365 Nonprofit Accelerator. 
+title: Dynamics 365 nonprofit accelerator  | Microsoft Docs
+description: Rapidly develop nonprofit fundraising, grant/award, program delivery, and impact-tracking solutions by using nonprofit entities in the Dynamics 365 nonprofit accelerator. 
 author: lponti
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,11 +9,11 @@ ms.date: 06/08/2020
 ms.author: lponti
 ---
 
-# The Dynamics 365 Nonprofit Accelerator
+# Dynamics 365 nonprofit accelerator
 
-The Dynamics 365 Nonprofit Accelerator and Common Data Model for Nonprofits help organizations eliminate data silos, enabling powerful insights into their data. Microsoft is dedicated to working with nonprofits and partners to develop solutions based on entities and attributes that nonprofits commonly use for constituent management, fundraising, awards, program delivery, and impact tracking. 
+The Dynamics 365 nonprofit accelerator and Common Data Model for Nonprofits help organizations eliminate data silos, enabling powerful insights into their data. Microsoft is dedicated to working with nonprofits and partners to develop solutions based on entities and attributes that nonprofits commonly use for constituent management, fundraising, awards, program delivery, and impact tracking. 
 
-These entities include, donor commitments, designations, transactions, awards, disbursements, delivery frameworks, results, indicators, benefit recipients, and more. The Nonprofit Accelerator provides a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform and benefit from integration with the Common Data Model for Nonprofits.
+These entities include, donor commitments, designations, transactions, awards, disbursements, delivery frameworks, results, indicators, benefit recipients, and more. The nonprofit accelerator provides a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Microsoft Power Platform and benefit from integration with Common Data Model for Nonprofits.
 
 
 Since the initial release in November 2018 at the NetHope Global Summit we've had additional extensions and enhancements in 5 updated releases; 
@@ -24,8 +24,8 @@ Since the initial release in November 2018 at the NetHope Global Summit we've ha
 - January 2020
 - June 2020
 
-The Nonprofit Accelerator provides the following to partners and nonprofit organizations:
-- Extensions to the Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
+The nonprofit accelerator provides the following to partners and nonprofit organizations:
+- Extensions to Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
 - A Program Design template application that partners can evolve to help nonprofit program and country managers to: 
   - Create and browse logframes (logical frameworks, the building blocks of effective program design).
 - Connect logframes to internal, external, and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order improve program measurement and outcome tracking.
@@ -45,7 +45,7 @@ The Nonprofit Accelerator provides the following to partners and nonprofit organ
 - Sample dashboards featuring fundraising and program delivery analytics that can be extended.
 - Deployable sample data to bring the sample apps to life.
 - A test drive experience through AppSource with walkthroughs, reference guides, mapping guides, entity-relationship diagrams, and metadata documentation on the data model.
-- Data integrator templates and mappings to integrate data from the Nonprofit Accelerator in Dynamics 365.
+- Data integrator templates and mappings to integrate data from the nonprofit accelerator in Dynamics 365.
 - Volunteer Management and IATI add-on common data models, sample model-driven apps, sample data, flows, and documentation.
 
 ## What's new?
@@ -72,23 +72,23 @@ This includes:
   - Collect, track and compile time and reimbursable expenses associated with projects or indirect costs. 
   - Setup integrated document storage with SharePoint, use the Excel add-in to interact directly with your data or enable data auditing
 
-*As part of the v2.3 release, and going forward, unmanaged solutions are no longer published or available for any Microsoft Industry Accelerator, including the Nonprofit Accelerator. If you have questions, contact dynindaccsupport@microsoft.com. 
+*As part of the v2.3 release, and going forward, unmanaged solutions are no longer published or available for any Microsoft industry accelerator, including the nonprofit accelerator. If you have questions, contact dynindaccsupport@microsoft.com. 
 
 
 ## Site-map extensions
 
-With the Dynamics 365 Nonprofit Accelerator, nonprofits can streamline their operational management of constituents, fundraising, grant and award management, program delivery, and impact tracking. The Nonprofit Accelerator can be used with Microsoft Dynamics 365 or independently with the Common Data Model for Nonprofits core solution layer that is not dependent on Microsoft Dynamics 365. This independent solution layer can be leveraged to build Power Apps and Power BI visualizations, or to serve as a foundational layer to Modern Workplace and Azure solutions.
+With the Dynamics 365 nonprofit accelerator, nonprofits can streamline their operational management of constituents, fundraising, grant and award management, program delivery, and impact tracking. The nonprofit accelerator can be used with Microsoft Dynamics 365 or independently with Common Data Model for Nonprofits core solution layer that is not dependent on Microsoft Dynamics 365. This independent solution layer can be leveraged to build Power Apps and Power BI visualizations, or to serve as a foundational layer to Modern Workplace and Azure solutions.
 
-Nonprofits, ISVs, and others in the nonprofit sector can build their solutions and business processes on top of the new and existing entities and templates found within the Nonprofit Accelerator. The current data model supports common nonprofit activities but has been designed to allow flexibility to support other use cases and extensions.
+Nonprofits, ISVs, and others in the nonprofit sector can build their solutions and business processes on top of the new and existing entities and templates found within the nonprofit accelerator. The current data model supports common nonprofit activities but has been designed to allow flexibility to support other use cases and extensions.
 
 
-The Nonprofit Accelerator and Common Data Model for Nonprofits are developed in collaboration with nonprofits, partners, industry experts, and open initiatives to ensure interoperability and accelerate impact to the nonprofit sector.
+The nonprofit accelerator and Common Data Model for Nonprofits are developed in collaboration with nonprofits, partners, industry experts, and open initiatives to ensure interoperability and accelerate impact to the nonprofit sector.
 
 <!--todo: What are these photos for in the word doc?-->
 
 ## Entities and workflows
 
-The solutions in the Nonprofit Accelerator leverage the Common Data Model for Nonprofits and can be leveraged to build solutions on the Microsoft Power Platform and/or Microsoft Dynamics 365.  Depending on the partner and organization needs, the Nonprofit Accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases) and below explains the differences:
+The solutions in the nonprofit accelerator leverage Common Data Model for Nonprofits and can be leveraged to build solutions on the Microsoft Power Platform and/or Microsoft Dynamics 365.  Depending on the partner and organization needs, the nonprofit accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases) and below explains the differences:
 
 
 ### Data schema
@@ -108,7 +108,7 @@ The solutions in the Nonprofit Accelerator leverage the Common Data Model for No
 
 The following illustration explains the solution layer dependencies. 
 
-![Nonprofit Accelerator solution layer dependencies](./media/nfp-accelerator/nonprofit-accelerator-solution-layer-dependencies.png)
+![Nonprofit accelerator solution layer dependencies](./media/nfp-accelerator/nonprofit-accelerator-solution-layer-dependencies.png)
 
 This table shows the data entities that are available in each solution package.
 
@@ -117,7 +117,7 @@ This table shows the data entities that are available in each solution package.
 
 ## Forms, dashboards, and applications
 
-The Nonprofit Accelerator combines standard Microsoft Common Data Model entities with customized nonprofit entities. This section describes the forms, views, and dashboards that demonstrate the entities in the data model as well as applications that build out business rules.
+The nonprofit accelerator combines standard Common Data Model entities with customized nonprofit entities. This section describes the forms, views, and dashboards that demonstrate the entities in the data model as well as applications that build out business rules.
 
 This includes the following: 
 
@@ -158,7 +158,7 @@ The sample dashboard for donations includes gift acknowledgements, tracking of i
 
 ### Fundraising
 
-The Nonprofit Accelerator can track all major stages of high-touch fundraising. 
+The nonprofit accelerator can track all major stages of high-touch fundraising. 
 
 
 ![Fundraising](./media/nfp-accelerator/fundraising.png)
@@ -198,14 +198,14 @@ The Membership Category entity establishes membership levels and Membership enti
 
 ## IATI processes
 
-[IATI](https://iatistandard.org) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with goals of improving standards of living worldwide and reducing poverty globally. Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards, sync IATI non-embedded code lists with the Nonprofit Accelerator, and generate IATI Organization and Activity XML files from the Nonprofit Accelerator.  
+[IATI](https://iatistandard.org) is a global campaign to create transparency in the records of how aid money is spent. The initiative hopes to ensure that aid money reaches its intended recipients with goals of improving standards of living worldwide and reducing poverty globally. Nonprofits can now record their fundraising and programmatic activities according to the IATI Organizational and Activity Standards, sync IATI non-embedded code lists with the nonprofit accelerator, and generate IATI Organization and Activity XML files from the nonprofit accelerator.  
 
 
 ![IATI processes](./media/nfp-accelerator/iati-processes.png)
 
 ### Finance and CRM data integrator
 
-Template data integrator tasks to connect Nonprofit Accelerator Constituents, Donations, Awards, and Programs to Finance and Operations.
+Template data integrator tasks to connect nonprofit accelerator constituents, donations, awards, and programs to Finance and Operations.
 
 
 ![Finance and CRM data integrator](./media/nfp-accelerator/finance-crm-data-integrator.png)
@@ -249,8 +249,10 @@ Mobile application
 
 ## Additional resources
 
+- Download the [Dynamics 365 nonprofit accelerator](https://appsource.microsoft.com/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview) from AppSource.
+- The nonprofit data model, solutions, data samples, data samples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases).
+
 <!--Is there a way to open links in a new tab?-->
-- Download the [Dynamics 365 Nonprofit Accelerator](https://appsource.microsoft.com/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview) from AppSource.
-- The Nonprofit data model, solutions, data samples, data samples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases).
+
 - [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators.
 
