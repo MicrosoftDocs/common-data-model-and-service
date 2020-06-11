@@ -15,39 +15,39 @@
         href: sdk/logical-definitions.md
       - name: Convert logical entities into resolved entities
         href: sdk/convert-logical-entities-resolved-entities.md
-  - name: Industry Accelerators
+  - name: Industry accelerators
     items:
       - name: Overview
         href: industry-accelerators.md
-      - name: Automotive Accelerator
+      - name: Automotive accelerator
         href: automotive-accelerator.md
-      - name: Education Accelerator
+      - name: Education accelerator
         items: 
           - name: Overview
             href: edu-overview.md
           - name: Higher education 
             href: hied-accelerator.md
-          - name: K-12 education (Preview)
+          - name: K-12 education (preview)
             href: edu-k12-accelerator.md
-      - name: Financial Services Accelerator
+      - name: Financial services accelerator
         items: 
           - name: Overview
             href: fs-overview.md
           - name: Banking
             href: banking-accelerator.md
-          - name: Insurance (Preview)
+          - name: Insurance (preview)
             href: insurance-accelerator.md            
-      - name: Healthcare Accelerator
+      - name: Healthcare accelerator
         href: health-accelerator.md
-      - name: Manufacturing Accelerator (Preview)
+      - name: Manufacturing accelerator (preview)
         href: manufacturing-accelerator.md
-      - name: Media and Communications Accelerator (Preview)
+      - name: Media and communications accelerator (preview)
         href: media-accelerator.md    
-      - name: Nonprofit Accelerator
+      - name: Nonprofit accelerator
         href: NFP-accelerator.md
       - name: Templates
         items:
-        - name: Healthcare Accelerator Patient Scheduling and Screening Template
+        - name: Healthcare accelerator Patient Scheduling and Screening template
           items:
           - name: Overview
             href: patient-scheduling-screening-template.md
