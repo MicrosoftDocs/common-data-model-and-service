@@ -1,7 +1,7 @@
 ---
 
-title: Dynamics 365 Education Accelerator – K12 (Preview) | Microsoft Docs
-description:  Dynamics 365 Education Accelerators provide a uniform platform for those who wish to connect, embed, or extend the Dynamics 365 platform and Power Platform.
+title: Dynamics 365 education accelerator K-12 (preview)   | Microsoft Docs
+description:  The Dynamics 365 education accelerator K-12 component (preview) provides a uniform platform for those who wish to connect, embed, or extend the Dynamics 365 platform and Microsoft Power Platform.
 author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
@@ -11,11 +11,11 @@ ms.author: merami
 
 ---
 
-# Dynamics 365 Education Accelerator – K-12 (Preview)
+# Dynamics 365 education accelerator – K-12 (preview)
 
 [This topic is pre-release documentation and is subject to change.]
 
-The K-12 component in the Dynamics 365 Education Accelerator sits on top of an existing Dynamics 365 instance or Power Apps instance to assist with day-to-day operations or as a standalone data model for developers. The holistic student profile, educator, and community engagement scenario contains:
+The K-12 component in the Dynamics 365 education accelerator sits on top of an existing Dynamics 365 instance or Power Apps instance to assist with day-to-day operations or as a standalone data model for developers. The holistic student profile, educator, and community engagement scenario contains:
 
 - The data model
 - Installable scenarios, including:
@@ -167,7 +167,7 @@ The Attendance Power BI report dashboard allows educators to easily view and tak
 
 ## Additional resources
 
-- Download the Dynamics 365 Education Accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview).
+- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview).
 - The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license available on [Github](https://aka.ms/edugithub).
 
 ## Connect and share feedback

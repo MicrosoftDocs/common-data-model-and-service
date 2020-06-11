@@ -1,6 +1,6 @@
 ---
-title: Deploy and configure the Patient Scheduling and Screening Template - Dynamics 365 | Microsoft Docs
-description: Develop healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 Healthcare Accelerator.
+title: Deploy and configure the Patient Scheduling and Screening template - Dynamics 365 | Microsoft Docs
+description: Develop healthcare solutions with the extensions to Common Data Model and built-in forms and views of the Dynamics 365 healthcare accelerator.
 author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
@@ -9,18 +9,18 @@ ms.date: 04/06/2020
 ms.author: edwilson
 ---
 
-# Deploy and configure the Patient Scheduling and Screening Template
+# Deploy and configure the Patient Scheduling and Screening template
 
-The Patient Scheduling and Screening Template requires some setup to meet your needs. This article provides step-by-step instructions for hospital IT admins or partners to deploy and configure the application for their organization. 
+The Patient Scheduling and Screening template requires some setup to meet your needs. This article provides step-by-step instructions for hospital IT admins or partners to deploy and configure the application for their organization. 
 
 > [!NOTE]
-> These instructions are divided into the individual use cases encompassed in the Patient Scheduling and Screening Template.
+> These instructions are divided into the individual use cases encompassed in the Patient Scheduling and Screening template.
 
 Estimated time to complete these steps: 35–40 minutes.
 
-Download the files needed to install the solutions from [Dynamics 365 Health Accelerator v2.2.3.0](https://github.com/microsoft/Industry-Accelerator-Health/releases) on GitHub.
+Download the files needed to install the solutions from [Dynamics 365 health accelerator v2.2.3.0](https://github.com/microsoft/Industry-Accelerator-Health/releases) on GitHub.
 
-## Prerequisite Files 
+## Prerequisite files 
 
 - To import the main solutions, acquire the following managed solution files: 
   - Dynamics365ElectronicMedicalRecords_2_2_0_3_managed.zip 
@@ -41,7 +41,7 @@ Download the files needed to install the solutions from [Dynamics 365 Health Acc
 To import, follow the steps in [Import additional solutions with the Configuration Migration tool](patient-scheduling-screening-template-deploy.md#import-additional-solutions-with-the-configuration-migration-tool), later. 
 
 - Crisis Portal 
-   1. Create a new portal using **Portal from blank** template. More information: [Create a portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal).
+   1. Create a new portal using the **Portal from blank** template. More information: [Create a portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal).
    2. Use the Configuration Migration tool to import Crisis Portal: DataPackage.zip.
    3. **Import Outcome**: Successful after clearing all search history/cache.
 
@@ -55,7 +55,7 @@ For steps on how to create your Healthcare Bot in Azure, create a bot user in Dy
 
 ### Dependencies 
 
-- Omnichannel: Install Omnichannel in an environment following the instructions in [Provision Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-provision-license). Provisioning requires using an Admin account. You might need to perform the steps twice if it doesn't work the first time. The whole process takes about two hours.
+- **Omnichannel**: Install Omnichannel in an environment following the instructions in [Provision Omnichannel for Customer Service](https://docs.microsoft.com/dynamics365/omnichannel/administrator/omnichannel-provision-license). Provisioning requires using an Admin account. You might need to perform the steps twice if it doesn't work the first time. The whole process takes about two hours.
 
 - **Dynamics 365 Productivity Tools**: Install Productivity Tools in the environment through [Dynamics 365 Productivity Tools](https://appsource.microsoft.com/product/dynamics-365/mscrm.d365_productivity_tools?tab=Overview) on Appsource. The Productivity Tools require Omnichannel.
 
@@ -87,7 +87,7 @@ For more information, see [Create your first Healthcare Bot](https://docs.micros
 
 1. Navigate to [Healthcare Bot admin portal](https://admin.healthbot.microsoft.com).
 
-2. Go to **Configuration > Conversation > Human handoff**.
+2. Go to **Configuration** > **Conversation** > **Human handoff**.
 
 3. Set **Dynamics 365 OmniChannel Bridge Messages** to **Enabled**, and then select **Save**.
 
@@ -95,7 +95,7 @@ For more information, see [Create your first Healthcare Bot](https://docs.micros
 
 1. To get your Healthcare bot id, which you need later, navigate to the [Healthcare Bot management portal](https://us.healthbot.microsoft.com/account/ia_dev_healthcare-tunapir/scenarios/manage).
 
-2. Go to **Integration > Channels**, and then enable the **Teams** channel if it isn't already enabled. Select **View** and copy the Bot ID. You will need it later.
+2. Go to **Integration** > **Channels**, and then enable the **Teams** channel if it isn't already enabled. Select **View** and copy the Bot ID. You will need it later.
 
 If you've printed this page or copied it into a file, enter your Bot ID here:
 
@@ -107,14 +107,14 @@ Before following this procedure, make sure you've installed Omnichannel for the 
 
 1. Navigate to the Dynamics org that contains the portal.
 
-2. Go to **Settings > Security > Users**.
+2. Go to **Settings** > **Security** > **Users**.
 
 3. Select **New**, and select the **Application User** view for the form.
 
 4. Select an appropriate username.
 
 5. Create an **Application ID**. It must be a valid, non-expired application created in the Azure AD of the same tenant. It's not used by the bot, so it can be any application.
-   a. Navigate to **Azure > Azure Active Directory > App Registrations**.
+   a. Navigate to **Azure > Azure Active Directory** > **App Registrations**.
    b. Select **New registration**.
    c. Enter an appropriate name, and set it as **Microsoft only – Single tenant**.
    d. Select **Register**.
@@ -146,7 +146,7 @@ Fore more information, see the following procedures in [Dynamics 365 Omnichannel
 
 You shouldn't need to do this unless you want to perform specific testing with the Healthcare Bot and not connect through Omnichannel. Even in that case, you can test the bot directly in the scenario editor.
 
-1. Obtain both the App secret and Web chat secret for the bot in the management portal under **Integration > Secrets** and save them for later.
+1. Obtain both the App secret and Web chat secret for the bot in the management portal under **Integration** > **Secrets** and save them for later.
 
    - Web chat secret:
    - App secret: 
@@ -174,7 +174,7 @@ The flow is as follows:
 
 1. You embed the Omnichannel bot (not Healthcare Bot) onto a site. For more information, see [Add a chat widget](https://docs.microsoft.com/dynamics365/omnichannel/administrator/add-chat-widget).
 
-2. You set the bot up in Dynamics to route to the Healthcare Bot by default.
+2. You set up the bot in Dynamics to route to the Healthcare Bot by default.
 
 3. The Healthcare Bot now uses the Omnichannel bot to converse with the user.
 
@@ -227,7 +227,7 @@ For more information about importing scenarios, see [Scenario Management](https:
 
 6. In Omnichannel, spin up a chat widget. Embed it into the portal. There will be an existing chat widget in the footer web template of the portal website, but you need to replace it with the one you create. For information about configuring a chat widget, see [Quickly configure a chat widget](https://docs.microsoft.com/dynamics365/omnichannel/administrator/configure-live-chat).
 
-7. You will want to associate the **Crisis Agent Script** to the appropriate session for your chat. The default session to associate it to is called **Chat – Default session**. For informatio on how to associate an Agent Script to a session, see [Associate an agent script with a session template](https://docs.microsoft.com/dynamics365/omnichannel/administrator/agent-scripts#step-2-associate-an-agent-script-with-a-session-template). 
+7. You will want to associate the **Crisis Agent Script** to the appropriate session for your chat. The default session to associate it to is called **Chat – Default session**. For information on how to associate an Agent Script to a session, see [Associate an agent script with a session template](https://docs.microsoft.com/dynamics365/omnichannel/administrator/agent-scripts#step-2-associate-an-agent-script-with-a-session-template). 
 
 8. When you create queues and rules, one rule to note is **EscalateQueue**:
 
@@ -258,7 +258,7 @@ For more information about importing scenarios, see [Scenario Management](https:
    1. Navigate to the newly installed Marketing Application.
    2. In the lower left-hand corner, change from **Marketing** to **Settings**. 
    3. Select **Advanced Settings > Marketing data configuration**.
-      ![Healthcare Accelerator Patient Scheduling and Screening Template Marketing Data Configuration](media/patient-scheduling-screening-template-deploy-settings.png)
+      ![Healthcare accelerator Patient Scheduling and Screening template Marketing data configuration](media/patient-scheduling-screening-template-deploy-settings.png)
    4. Check both **Condition (msemr_condition)** and **Procedure (msemr_procedure)**. 
    5. Scroll back up and select the **Publish Changes** button. 
 
@@ -271,7 +271,7 @@ To manually import a main solution:
 2. Select **Import** on the ribbon. 
 
 3. Click **Choose File**, and then select the managed solution zip file.
-   ![Healthcare Accelerator Patient Scheduling and Screening Template Import Solutions](media/patient-scheduling-screening-template-deploy-import.png) 
+   ![Healthcare accelerator Patient Scheduling and Screening template import solutions](media/patient-scheduling-screening-template-deploy-import.png) 
 
 4. Select **Open**. 
 
@@ -297,7 +297,7 @@ To import an additional solution using the Configuration Migration tool:
 
 ## Issues and feedback
 
--   To report an issue with the Patient Scheduling & Screening sample app
+-   To report an issue with the Patient Scheduling and Screening sample app
     template, visit this
     [link](mailto:dynindaccsupport@microsoft.com?subject=Assistance%20for%20Health%20Care%20Accelerator%20from%20Appsource).
 

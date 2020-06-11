@@ -1,6 +1,6 @@
 ---
-title: Healthcare Accelerator Patient Scheduling and Screening Template - Dynamics 365 | Microsoft Docs
-description: Develop healthcare solutions with the extensions to the Common Data Model and built-in forms and views of the Dynamics 365 Healthcare Accelerator.
+title: Dynamics 365 healthcare accelerator Patient Scheduling and Screening template  | Microsoft Docs
+description: Develop healthcare solutions with the extensions to Common Data Model and built-in forms and views of the Dynamics 365 healthcare accelerator.
 author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
@@ -9,29 +9,29 @@ ms.date: 04/06/2020
 ms.author: edwilson
 ---
 
-# Healthcare Accelerator Patient Scheduling and Screening Template
+# Dynamics 365 healthcare accelerator Patient Scheduling and Screening template
 
-The Dynamics 365 Healthcare Accelerator Patient Scheduling and Screening Template enables healthcare organizations to address large volumes of anxious patients with higher efficiency. It provides access to a portal with information about COVID-19, an easy-to-use self-assessment tool for patients to determine risk, and an automated process for booking and performing COVID-19 screening.
+The Dynamics 365 healthcare accelerator Patient Scheduling and Screening template enables healthcare organizations to address large volumes of anxious patients with higher efficiency. It provides access to a portal with information about COVID-19, an easy-to-use self-assessment tool for patients to determine risk, and an automated process for booking and performing COVID-19 screening.
 
-The solution is easily implemented, allowing quick scale and automation of crisis-specific workloads. The timely availability of this accelerator brings together a seamless workflow for patients, call center agents, clinical technicians, and providers, enabling them to meet the rapidly growing needs of assessment and testing. The Patient Scheduling and Screening Template is an easy-to-integrate solution that sits on top of an existing Patient Platform. 
+The solution is easily implemented, allowing quick scale and automation of crisis-specific workloads. The timely availability of this accelerator brings together a seamless workflow for patients, call center agents, clinical technicians, and providers, enabling them to meet the rapidly growing needs of assessment and testing. The Patient Scheduling and Screening template is an easy-to-integrate solution that sits on top of an existing Patient Platform. 
 
-![Healthcare Accelerator Patient Scheduling and Screening Template](media/patient-scheduling-screening-template-platforms.png)
+![Healthcare accelerator Patient Scheduling and Screening template](media/patient-scheduling-screening-template-platforms.png)
 
-The main components of the Patient Scheduling and Screening Template are:
+The main components of the Patient Scheduling and Screening template are:
 
 - **Clinical data used for segmentation and triage**: Leverage patient population's historical clinical data to perform automated segmentation of high-risk patients.
 
-- **Customer-branded Patient Portal and Self-Assessment tools**: The Healthbot COVID-19 Template infused into the portal serves as an intermediary, to automate high-level triage and determine if a patient should be transferred to the call center agent for test scheduling.
+- **Customer-branded Patient Portal and Self-Assessment tools**: The Healthbot COVID-19 template infused into the portal serves as an intermediary, to automate high-level triage and determine if a patient should be transferred to the call center agent for test scheduling.
 
 - **Omnichannel tools for call center agents**: Leverage Omnichannel for Customer Service capabilities to provide next steps to high-risk patients, such as viewing previous clinical information, sending knowledge base articles, and booking screening appointments.
 
-- **Automation of appointment booking and check-in with use of QR/Bar Codes**: Pre-built automation where patients can receive a notification with details of the appointment and an accompanying QR/Bar Code for entry at the testing center.
+- **Automation of appointment booking and check-in with use of QR/bar codes**: Pre-built automation where patients can receive a notification with details of the appointment and an accompanying QR/bar code for entry at the testing center.
 
 - **Purpose-built patient screening automation**: Purpose-built testing app to provide a quick and simple way of locating a patient and performing testing.
 
 ## Demo: Quick overview
 
-Watch a quick overview of the Patient Scheduling and Screening Template.
+Watch a quick overview of the Patient Scheduling and Screening template.
 
 > [!VIDEO https://www.youtube.com/embed/6AkeDQCoX-g]
 
@@ -48,7 +48,7 @@ For more information, see [Licensing overview for Power Platform](https://docs.m
 
 ## Issues and feedback
 
--   To report an issue with the Patient Scheduling & Screening sample app
+-   To report an issue with the Patient Scheduling and Screening sample app
     template, visit this
     [link](mailto:dynindaccsupport@microsoft.com?subject=Assistance%20for%20Health%20Care%20Accelerator%20from%20Appsource).
 
@@ -56,7 +56,7 @@ For more information, see [Licensing overview for Power Platform](https://docs.m
 
 ## Next step
 
-Deploy and configure the [Patient Scheduling and Screening Template](patient-scheduling-screening-template-deploy.md).
+Deploy and configure the [Patient Scheduling and Screening template](patient-scheduling-screening-template-deploy.md).
 
 ## Disclaimer
 
