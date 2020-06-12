@@ -22,7 +22,8 @@ Today, the SDK is available in four languages - C#, Java, Typescript and Python,
 
 With the introductions out of the way, let's dive into a couple of examples that can demonstrate usage of the SDK to read, explore and write "model.json" format. 
 
->Note: this article includes only C#-based samples, but they apply to other languages as well. 
+> [!NOTE]
+> This article includes only C#-based samples, but they apply to other languages as well. 
 
 Generally, if you plan to build a service that will consume data described with Common Data Model metadata in a data lake, you will encounter “CDM folders”, which is a term we use to identify a well-structured composition of data partitions and Common Data Model metadata files which explain the schema of these partitions. The metadata files are your first artifact to read and process before ingesting the data, as they explain which entities are present, what is their structure and their relationship, and most importantly where the partition files are located. There is no restriction such that the partition files need to be present in the same folder - they can be many levels deep, depending on how the data writer decided to lay out their lake, so the location information found in the metadata file plays critical role. More information and examples of CDM folders can be found in its dedicated [documentation](https://docs.microsoft.com/en-us/common-data-model/data-lake). 
 
@@ -59,7 +60,8 @@ Let's try to explore the list of entities declared in the schema. Following snip
     }
 ```
 
->Note: For additional examples of reading schema details please refer to the [read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest) SDK sample.
+> [!TIP]
+> For additional examples of reading schema details please refer to the [read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest) SDK sample.
 
 The code above iterates over the entity declarations found in the manifest, loading the actual definition objects that hold information on attributes and other properties of the entity. Now, let's also list which partitions have been referenced by the "model.json" file.
 
@@ -173,7 +175,8 @@ The new "manifest.cdm.json" schema format introduced a new capability for data p
 
 The `FileStatusCheckAsync` call will trigger file scanning logic in the Object Model, and will result in a number of new [CdmDataPartitionDefinition](https://docs.microsoft.com/en-us/common-data-model/1.0om/api-reference/cdm/datapartition) objects being automatically created and added to entity declaration's partition collection for each partition file found in the target folder that matched the pattern.
 
->Note: Partition _patterns_ are not preserved in the written "model.json" file. This requires writing the "manifest.cdm.json" files always in addition to "model.json", so it is the source of truth how the service originally arranged its data partitions. 
+> [!IMPORTANT]
+> Partition _patterns_ are not preserved in the written "model.json" file. This requires writing the "manifest.cdm.json" files always in addition to "model.json", so it is the source of truth how the service originally arranged its data partitions. 
 
 ## Service migration guidance 
 
