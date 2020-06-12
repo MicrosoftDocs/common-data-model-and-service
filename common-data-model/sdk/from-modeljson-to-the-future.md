@@ -38,7 +38,7 @@ With the introductions out of the way, let's dive into a couple of examples that
 
 Generally, if you plan to build a service that will consume data described with Common Data Model metadata in a data lake, you will encounter “CDM folders”, which is a term we use to identify a well-structured composition of data partitions and Common Data Model metadata files which explain the schema of these partitions. The metadata files are your first artifact to read and process before ingesting the data, as they explain which entities are present, what is their structure and their relationship, and most importantly where the partition files are located. There is no restriction such that the partition files need to be present in the same folder - they can be many levels deep, depending on how the data writer decided to lay out their lake, so the location information found in the metadata file plays critical role. More information and examples of CDM folders can be found in its dedicated [documentation](../data-lake.md). 
 
-Before we get started reading the schema, we want to let the SDK know where our files reside. This is achieved by instantiating the [corpus](fundamentals.md#the-corpus) object, the main collection of documents and definitions, and telling its [storage management layer](../1.0om/api-reference/storage/storage.md) which adapters to use to access file systems. The adapters are just an abstraction of underlying filesystems, supplying standardized read/write access for the SDK. We will set up two adapters, one pointing to the location of CDM foundation files (consider them as bootstrap definitions) and the other pointing to a local filesystem. 
+Before we get started reading the schema, we want to let the SDK know where our files reside. This is achieved by instantiating the [corpus](fundamentals.md#the-corpus) object, the main collection of documents and definitions, and telling its [storage management layer](../1.0om/api-reference/storage/storage.md) which adapters to use to access file systems. The adapters are just an abstraction of underlying filesystems, supplying standardized read/write access for the SDK. We will set up two adapters, one pointing to the public store of CDM foundation files (consider them as bootstrap definitions) and the other pointing to an ADLSg2 container containing our CDM folder.
 
 ```csharp
     var cdmCorpus = new CdmCorpusDefinition(); 
@@ -47,7 +47,7 @@ Before we get started reading the schema, we want to let the SDK know where our 
     cdmCorpus.Storage.DefaultNamespace = "adls"; 
 ```
 
-Then, to load a "model.json" file at the root of the target location just one line will be sufficient: 
+Then, to load a "model.json" file at the root of the target location just one line will be enough: 
 
 ```csharp
     var manifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>("model.json"); 
