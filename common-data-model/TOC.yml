@@ -27,7 +27,7 @@
             href: edu-overview.md
           - name: Higher education 
             href: hied-accelerator.md
-          - name: K-12 education (preview)
+          - name: K-12 education
             href: edu-k12-accelerator.md
       - name: Financial services accelerator
         items: 
