@@ -17,6 +17,9 @@ The Storage classes provide a way to interact with Common Data Model files. The 
 
 The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/objectModel/CSharp/Microsoft.CommonDataModel.ObjectModel/Storage).
 
+>[!NOTE]
+>While storage adapters accept all paths, including paths that contain colons, the underlying file systems that back them may not. Keep this in mind if you need cross-platform support.
+
 ## Classes
 |Name|Description|
 |---|---|

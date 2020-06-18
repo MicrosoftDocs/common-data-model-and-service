@@ -23,6 +23,9 @@ public interface StorageAdapter
 |---|---|---|
 |LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
 
+>[!IMPORTANT]
+> Storage Adapter methods that take in a corpus path as a parameter (*ReadAsync(...), WriteAsync(...), CreateAdapterPath(...), ComputeLastModifiedTimeAsync(...), and FetchAllFilesAsync(...)*) will only accept corpus paths **without** a namespace. For example, use "/some/path" instead of "local:/some/path".
+
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
