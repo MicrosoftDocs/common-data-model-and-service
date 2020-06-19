@@ -186,7 +186,7 @@
             href: 1.0om/api-reference/utilities/logger.md  
           - name: Resolve Options
             href: 1.0om/api-reference/utilities/resolveoptions.md  
-          - name: StorageUtils
+          - name: Storage Utils
             href: 1.0om/api-reference/utilities/storageutils.md
           - name: Token Provider
             href: 1.0om/api-reference/utilities/tokenprovider.md   

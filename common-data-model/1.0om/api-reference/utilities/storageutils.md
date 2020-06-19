@@ -9,7 +9,7 @@ ms.date: 06/19/2020
 ms.author: jibyun
 ---
 
-# StorageUtils
+# Storage Utils
 
 This class contains [storage-related](../storage/storage.md) utility methods.
 
