@@ -90,7 +90,9 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 * **imports** imports other schema documents that are needed for the current document. Here, you've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
    >[!IMPORTANT]
-   >The **corpusPath** is an absolute path to the document from the root of the [storage adapter](/api-reference/storage/storage.md) that was configured to point at the schema documents. For example, if you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be absolute to this root, not the root of the underlying file system.
+   >The **corpusPath** is a path to the document relative to the root of the [storage adapter](/api-reference/storage/storage.md) that was configured to point at the schema documents folder. If you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be relative to this root, not the root of the underlying file system. A corpus path with a leading slash is absolute to the root of the adapter. Without a leading slash, the corpus path is relative to the current document. TODO: explain that you can't do ../../
+   >
+   >For example, if *foundations.cdm.json* is located at "C:\CDM\schemaDocuments\foundations.cdm.json" and the storage adapter is configured to point at "C:\CDM\schemaDocuments", the absolute corpus path to this document would be "/foundations.cdm.json". If your document happens to be in the same folder as *foundations.cdm.json*, you could also use a relative corpus path, "foundations.cdm.json".
 
 * **definitions** contains a list of the current document’s Common Data Model object definitions. This is where you describe the entity. 
 
@@ -312,6 +314,9 @@ Here's the *Session.cdm.json* document, without any attributes:
 	}]
 }
 ```
+
+>[!NOTE]
+>Since *_allImports.cdm.json* and *Session.cdm.json* are in the same folder, *clickstream*, the corpus path used here is a relative corpus path.
 
 <br/>To use attributes that are defined in another entity schema (that you've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
 
