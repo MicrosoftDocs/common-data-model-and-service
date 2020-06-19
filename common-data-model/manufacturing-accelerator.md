@@ -143,8 +143,12 @@ The supplier has a management experience with two dashboards included in the acc
 ## Additional resources
 
 - Download the Dynamics 365 manufacturing accelerator from [AppSource](https://aka.ms/d365manuf).
+
 - The manufacturing data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license available on [Github](https://github.com/microsoft/Dynamics-365-Industry-Accelerators).
+
 - Additional  [accelerator topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators).
+
+- Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
 
 ## Connect and share feedback
 

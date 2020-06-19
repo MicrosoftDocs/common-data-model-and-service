@@ -9,9 +9,6 @@ ms.date: 03/30/2020
 ms.author: tpalmer
 ---
 
-<!-- from editor: In line 60, should it be Dynamics 365? -->
-
-
 # Dynamics 365 healthcare accelerator
 
 Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) entities (such as patient, condition, and care plan) in the [Dynamics 365 healthcare accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
@@ -57,7 +54,7 @@ The healthcare accelerator combines standard CRM entities with customized entiti
 
 ### Patient/Practitioner 360
 
-This view shows Electronic Medical Record (EMR) data directly within a patient or practitioner-specific form in Dynamics. The data model shows appointments, procedures, medications, and other patient/practitioner data in context and a user-friendly interface.
+This view shows Electronic Medical Record (EMR) data directly within a patient or practitioner-specific form in Dynamics 365. The data model shows appointments, procedures, medications, and other patient/practitioner data in context and a user-friendly interface.
 
 ![Patient Practitioner 360](media/health-patientpractitioner.png)
 
@@ -76,6 +73,11 @@ A clear understanding of which member of a patient's care team owns each facet o
 ## Additional resources
 
 - Download the Dynamics 365 healthcare accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
+
 - The healthcare data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Health).
+
 - [More details](https://community.dynamics.com/365/b/healthaccelerator/archive/2018/07/19/dynamics-365-health-accelerator-solution-first-look) about the healthcare accelerator.
+
 - [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the industry accelerators.
+
+- Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
