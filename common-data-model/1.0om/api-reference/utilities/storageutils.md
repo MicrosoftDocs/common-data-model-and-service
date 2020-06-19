@@ -20,4 +20,4 @@ public class StorageUtils
 ## Methods
 |Name|Type|Description|
 |---|---|---|
-|**SplitNamespacePath(string)**<br/>*objectPath*: The object path.<br/>|Splits the specified object path into the namespace and the path. Returns a tuple where the first item is the namespace and the second item is the path.<br/><br/>Ex. "local:/path/to/file" -> ("local", "path/to/file")|Tuple\<string, string>|
+|**SplitNamespacePath(string)**<br/>*objectPath*: The object path.<br/>|Splits the specified object path into the namespace and the path. Returns a tuple where the first item is the namespace and the second item is the path.<br/><br/>Ex. "local:/path/to/file" -> ("local", "/path/to/file")|Tuple\<string, string>|
