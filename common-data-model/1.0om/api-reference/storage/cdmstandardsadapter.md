@@ -1,6 +1,6 @@
 ---
-title: CDM Standards Adapter | Microsoft Docs
-description: API reference for CdmStandardsAdapter.
+title: Common Data Model standards adapter | Microsoft Docs
+description: The API reference for CdmStandardsAdapter.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -9,18 +9,18 @@ ms.date: 6/22/2020
 ms.author: violivei
 ---
 
-# CDM standards Adapter
+# Common Data Model standards adapter
 
-The CDM standards adapter is the storage adapter that points to the Common Data Model public standards schema documents. 
-This adapter is configured to read from a highly reliable CDN network that provides smaller latency when fetching the files.
-<br/>
+The Common Data Mode standards adapter is the storage adapter that points to the Common Data Model public standards schema documents. 
+This adapter is configured to read from a highly reliable CDN network that provides lower latency when it's fetching files.
+
 The standards schema documents are also published on [GitHub](https://github.com/microsoft/CDM/tree/master/schemaDocuments) for reference purposes.
-<br/>
 
-```
+
+```csharp
 public class CdmStandardsAdapter extends NetworkAdapter, StorageAdapter
 ```
-*CdmStandardsAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
+*CdmStandardsAdapter extends NetworkAdapter and  StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|
@@ -30,15 +30,15 @@ public class CdmStandardsAdapter extends NetworkAdapter, StorageAdapter
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
+|LocationHint|string|The hint that's given to the reader application about the location of the the adapter implementation (Nuget, NPM, etc.).|
 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the CDM standards adapter can read data.|bool|
-|**CanWrite()**|Returns false, since the CDM standards adapter can't write data to its source.|bool|
+|**CanRead()**|Returns true, since the Common Data Model standards adapter can read data.|bool|
+|**CanWrite()**|Returns false, since the Common Data Model standards adapter can't write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapter.ReadAsync(...)](storageadapter.md#methods).|Task\<string>|
-|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the CDM standards adapter can't write to its source.|Task|
+|**WriteAsync(string, string)**|See [StorageAdapter.WriteAsync(...)](storageadapter.md#methods). Throws a *NotImplementedException* because the Common Data Model standards adapter can't write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapter.CreateAdapterPath(...)](storageadapter.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapter.CreateCorpusPath(...)](storageadapter.md#methods).|string|
 |**ClearCache()**|See [StorageAdapter.ClearCache()](storageadapter.md#methods).|void|
