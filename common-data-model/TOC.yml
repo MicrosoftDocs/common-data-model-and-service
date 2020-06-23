@@ -27,7 +27,7 @@
             href: edu-overview.md
           - name: Higher education 
             href: hied-accelerator.md
-          - name: K-12 education (preview)
+          - name: K-12 education
             href: edu-k12-accelerator.md
       - name: Financial services accelerator
         items: 
@@ -162,6 +162,8 @@
             href: 1.0om/api-reference/storage/storage.md
           - name: ADLS Adapter
             href: 1.0om/api-reference/storage/adlsadapter.md
+          - name: Common Data Model Standards Adapter
+            href: 1.0om/api-reference/storage/cdmstandardsadapter.md
           - name: GitHub Adapter
             href: 1.0om/api-reference/storage/githubadapter.md
           - name: Local Adapter
@@ -186,8 +188,10 @@
             href: 1.0om/api-reference/utilities/logger.md  
           - name: Resolve Options
             href: 1.0om/api-reference/utilities/resolveoptions.md  
+          - name: Storage Utils
+            href: 1.0om/api-reference/utilities/storageutils.md
           - name: Token Provider
-            href: 1.0om/api-reference/utilities/tokenprovider.md  
+            href: 1.0om/api-reference/utilities/tokenprovider.md   
   - name: How to create schema documents 
     href: creating-schemas.md
   - name: How to use samples 

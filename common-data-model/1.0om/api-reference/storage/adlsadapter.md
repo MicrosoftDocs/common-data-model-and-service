@@ -35,6 +35,7 @@ public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 |ClientId|string|The client ID of the application accessing ADLS.|
 |Secret|string|The secret for the application accessing ADLS.|
 |SharedKey|string|The account or shared key.|
+|Token Provider|[TokenProvider](../utilities/tokenprovider.md)|The token provider used to dynamically generate the access token.|
 |LocationHint|string|The hint given to the reader application about where to find the the adapter implementation (for example, in Nuget, NPM, etc.).|
 
 ## Methods

@@ -25,6 +25,8 @@ public class CdmEntityAttributeDefinition extends CdmAttribute
 ## Properties
 |Name|Type|Description|
 |---|---|---|
+|Description|string|The entity attribute's description.|
+|DisplayName|string|The entity attribute's display name.|
 |Entity|CdmEntityReference|The entity attribute's entity reference.|
 
 ## Methods

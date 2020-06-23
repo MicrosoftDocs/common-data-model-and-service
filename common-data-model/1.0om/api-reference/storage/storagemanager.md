@@ -42,4 +42,3 @@ public class StorageManager
 |**CreateRelativeCorpusPath(string, CdmContainerDefinition)**<br/>*objectPath*: The corpus path.<br/>*relativeTo [optional]*: The object that the path should be made relative to.|Takes the specified corpus path (relative or absolute) and creates a valid relative corpus path with the namespace. Returns the created path.|string|
 |**FetchConfig()**|Generates a JSON string representing the configurations of all the adapters that exist on this storage manager.|string|
 |**SaveAdaptersConfigAsync(string, [StorageAdapter](storageadapter.md))**<br/>*name*: The name of the file to save. <br/>*adapter*: The storage adapter to use to save the configurations to a file.|Saves the configurations of all the adapters that exist on this storage manager to a file with the specified name. Uses the specified adapter to save.|void|
-

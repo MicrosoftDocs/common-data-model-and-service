@@ -47,6 +47,8 @@ As the image shows, from the bottom level on up through the stack, ISVs have mul
 
 We continue to release new and updated accelerators for the industries identified earlier. Check out [our release plans](https://dynamics.microsoft.com/business-applications/product-updates/) for the most recent releases.
 
+Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
+
 ## Want to help?
 
 If you're interested in talking with Microsoft about the industry accelerators, [sign up](https://aka.ms/cdmengage) to share your feedback, suggestions, and challenges.

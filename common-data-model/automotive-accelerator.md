@@ -136,6 +136,8 @@ Example of Power BI dashboards embedded within Dynamics 365 in the automotive ac
 
 - [Microsoft Inspire blog about the new ISV Connect program and accelerators: Accelerating opportunities for ISVs with new programs and technology](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
 
+- Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
+
 ## Connect and share feedback
 
 Do you have feedback or need support? Connect with us at [dynindaccsupport@microsoft.com](mailto:dynindaccsupport@microsoft.com).

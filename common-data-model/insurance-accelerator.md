@@ -71,3 +71,5 @@ The insurance component can be used with Microsoft Power Platform or combined wi
 - The financial services accelerator is provided under the open-source creative license and is available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
 - Get access to the [insurance preview](https://experience.dynamics.com/accelerators/), including the data model.  
+
+- Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
