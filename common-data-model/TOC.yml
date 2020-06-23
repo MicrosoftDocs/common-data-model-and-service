@@ -162,7 +162,7 @@
             href: 1.0om/api-reference/storage/storage.md
           - name: ADLS Adapter
             href: 1.0om/api-reference/storage/adlsadapter.md
-          - name: CDM Standards Adapter
+          - name: Common Data Model Standards Adapter
             href: 1.0om/api-reference/storage/cdmstandardsadapter.md
           - name: GitHub Adapter
             href: 1.0om/api-reference/storage/githubadapter.md
