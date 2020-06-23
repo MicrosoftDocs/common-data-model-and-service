@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A manifest is a top-level document with the extension '.manifest.cdm.json'. A manifest can reference different documents, including documents with the extension '.cdm.json' that contain entities.
 
-```
+```csharp
 public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefinition, CdmFileStatus
 ```
 *CdmManifestDefinition extends CdmDocumentDefinition, CdmFileStatus in TypeScript.*

@@ -11,7 +11,7 @@ ms.author: violivei
 
 # Common Data Model standards adapter
 
-The Common Data Mode standards adapter is the storage adapter that points to the Common Data Model public standards schema documents. 
+The Common Data Model standards adapter is the storage adapter that points to the Common Data Model public standards schema documents. 
 This adapter is configured to read from a highly reliable CDN network that provides lower latency when it's fetching files.
 
 The standards schema documents are also published on [GitHub](https://github.com/microsoft/CDM/tree/master/schemaDocuments) for reference purposes.

@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An attribute resolution guidance provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable Common Data Model concepts.
 
-```
+```csharp
 public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 ```
 ## Constructors

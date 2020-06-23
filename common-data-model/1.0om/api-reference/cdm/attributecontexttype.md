@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An enum class containing the attribute context types. 
 
-```
+```csharp
 public enum CdmAttributeContextType
 {
     Entity,

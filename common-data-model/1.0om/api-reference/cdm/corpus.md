@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The corpus is a top-level folder that provides the most important basic functionalities to deal with the object model. There will usually only be one corpus when dealing with the object model.
 
-```
+```csharp
 public class CdmCorpusDefinition
 ```
 

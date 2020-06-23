@@ -15,7 +15,7 @@ The Github adapter is the storage adapter that points to the Common Data Model p
 
 **Note**: This class is on the deprecation path. 
 
-```
+```csharp
 public class GithubAdapter extends NetworkAdapter, StorageAdapter
 ```
 *GithubAdapter extends NetworkAdapter, StorageAdapterBase in Python.*

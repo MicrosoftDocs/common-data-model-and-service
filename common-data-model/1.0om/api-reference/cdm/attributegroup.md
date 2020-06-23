@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An attribute group represents a group of [attribute items](attributeitem.md) that provide a similar role.
 
-```
+```csharp
 public class CdmAttributeGroupDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
 *CdmAttributeGroupDefinition extends CdmObjectDefinition, CdmReferencesEntities in Python.*<br/>

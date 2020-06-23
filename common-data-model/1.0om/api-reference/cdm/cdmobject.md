@@ -13,7 +13,7 @@ ms.author: jibyun
 
 This is the base interface for all Common Data Model objects. It's extended by *CdmObjectBase* and *CdmObjectDefinitionBase* in C#, Java, and TypeScript.
 
-```
+```csharp
 public interface CdmObject
 ```
 *This interface is substituted with a regular class in Python.*

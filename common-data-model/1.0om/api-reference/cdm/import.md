@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An import is used by [documents](document.md) to provide the files and documents that need to be imported first.
 
-```
+```csharp
 public class CdmImport extends CdmObjectSimple
 ```
 

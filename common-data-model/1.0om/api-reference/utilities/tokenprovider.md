@@ -13,7 +13,7 @@ ms.author: yidi
 
 This is the interface to be implemented by users to provision their customized token provider.
 
-```
+```csharp
 public interface TokenProvider
 ```
 *This interface is substituted with a regular class in Python.*

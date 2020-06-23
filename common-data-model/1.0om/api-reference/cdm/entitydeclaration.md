@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An entity declaration provides a simple functionality that's extended by a [local entity declaration](localentitydeclaration.md) and a [referenced entity declaration](referencedentitydeclaration.md).
 
-```
+```csharp
 public interface CdmEntityDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus
 ```
 *This interface is substituted with a regular class in Python.*

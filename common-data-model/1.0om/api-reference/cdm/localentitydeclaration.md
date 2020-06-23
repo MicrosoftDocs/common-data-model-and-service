@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A local entity declaration is a declaration of an entity that resides locally and has associated [data partitions](datapartition.md).
 
-```
+```csharp
 public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase, CdmEntityDeclarationDefinition
 ```
 *CdmLocalEntityDeclarationDefinition extends CdmEntityDeclarationDefinition in Python.*<br/>

@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An entity attribute is an attribute that also points to an [entity](entity.md).
 
-```
+```csharp
 public class CdmEntityAttributeDefinition extends CdmAttribute
 ```
 

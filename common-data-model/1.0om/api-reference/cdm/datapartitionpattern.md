@@ -13,8 +13,8 @@ ms.author: jibyun
 
 A data partition pattern provides a way of selecting or generating a set of partitions based on the requirements specified as a regular expression.
 
-```
-CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus
+```csharp
+public class CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
 *CdmDataPartitionPatternDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*
 

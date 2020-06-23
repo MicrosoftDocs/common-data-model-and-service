@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An argument collection extends [Collection](collection.md) and adds additional behaviors specific to argument collections. 
 
-```
+```csharp
 public class CdmArgumentCollection extends CdmCollection<CdmArgumentDefinition>
 ```
 

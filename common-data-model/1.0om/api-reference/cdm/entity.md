@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An entity is the basic building block of the object model. It provides a concrete placeholder for a user to attach certain information to a concept. It's a collection of attributes that creates a semantic meaning of why these attributes coexist. Since entities can inherit from other entities, it's possible for them to represent a hierarchical structure. The hierarchical structure can also be removed from the entities by resolving them.
 
-```
+```csharp
 public class CdmEntityDefinition extends CdmObjectDefinitionBase, CdmReferencesEntities
 ```
 *CdmEntityDefinition extends CdmObjectDefinition, CdmReferencesEntities in Python.*<br/>

@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An import collection extends [Collection](collection.md) and adds additional behaviors specific to import collections. 
 
-```
+```csharp
 public class CdmImportCollection extends CdmCollection<CdmImport>
 ```
 
