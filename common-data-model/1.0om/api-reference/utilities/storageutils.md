@@ -13,7 +13,7 @@ ms.author: jibyun
 
 This class contains [storage-related](../storage/storage.md) utility methods.
 
-```
+```csharp
 public class StorageUtils
 ```
 
