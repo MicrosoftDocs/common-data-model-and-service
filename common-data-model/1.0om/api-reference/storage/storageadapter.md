@@ -1,11 +1,11 @@
 ---
-title: Storage Adapter | Microsoft Docs
-description: API reference for StorageAdapter.
+title: Storage adapter | Microsoft Docs
+description: The API reference for StorageAdapter.
 author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 10/18/2019
+ms.date: 06/22/2020
 ms.author: jibyun
 ---
 
@@ -13,7 +13,7 @@ ms.author: jibyun
 
 This is the base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the [object model](../cdm/cdm.md) is running. This interface also allows users to create their own adapter, if needed.
 
-```
+```csharp
 public interface StorageAdapter
 ```
 *This interface is substituted with a regular class in Python and is called StorageAdapterBase.*
@@ -21,10 +21,10 @@ public interface StorageAdapter
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|LocationHint|string|The hint given to the reader application about where the adapter implementation can be obtained (Nuget, NPM, etc.).|
+|LocationHint|string|The hint given to the reader application about the location of the implementation for the adapter (Nuget, NPM, etc.).|
 
 >[!IMPORTANT]
->Storage Adapter methods that take in a corpus path as a parameter (*ReadAsync(...), WriteAsync(...), CreateAdapterPath(...), ComputeLastModifiedTimeAsync(...), and FetchAllFilesAsync(...)*) will only accept corpus paths **without** a namespace. For example, use "/some/path" instead of "local:/some/path".
+>Storage adapter methods that take in a corpus path as a parameter (*ReadAsync(...), WriteAsync(...), CreateAdapterPath(...), ComputeLastModifiedTimeAsync(...), and FetchAllFilesAsync(...)*) will only accept corpus paths **without** a namespace. For example, use "/some/path" instead of "local:/some/path".
 
 ## Methods
 |Name|Description|Return Type|
