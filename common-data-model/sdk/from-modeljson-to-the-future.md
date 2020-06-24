@@ -5,40 +5,42 @@ author: miroslavplese
 ms.service: common-data-model
 ms.reviewer:
 ms.topic: article
-ms.date: 06/11/2020
+ms.date: 06/23/2020
 ms.author: miplese
 ---
 
 # From model.json to the future 
 
-Common Data Model technology enables companies to infuse a deep understanding of the data managed by their services, beyond the simplistic structural representation of the entities and relationships. The rapid expansion of enterprise analytics systems, such as PowerBI, built on top of vast data estate being made readily available in data lakes from disparate sources, necessitated the development of a common system for representing the meaning of such data. Common Data Model helps to build a uniform representation of the semantics and provides tools and standards that simplify the solution integrations across data silos. 
+Common Data Model technology enables companies to gain a deep understanding of the data managed by their services, beyond the simplistic structural representation of the entities and relationships.
 
-Common Data Model language evolved from its original structure-only based form following the progress made in the interop space and growth of cloud-based solutions and analytics. Originally focusing on explaining the structure and relationships between entities, Common Data Model offered a simple metadata format called ["model.json"](../model-json.md). This format, however, was not able to convey the richness of semantics the source systems had on the data they would land in data lakes, leaving consumers with limited ability to understand it. In addition, the old format was tied too much to physical layout of the data and prevented people from building a higher-level understanding of the logical, conceptual form of the data. Re-thinking of this problem resulted in the creation of the next generation Common Data Model language and tooling, that we generally refer to as "manifest.cdm.json" format. More details about the format can be found in the technical paper [here](overview.md). 
+The use of enterprise analytics systems, such as PowerBI, is rapidly expanding. This expansion is happening because of the vast amounts of data being made available in data lakes from disparate sources. A common system for representing the meaning of such data is needed. Common Data Model helps to build a uniform representation of the semantics and provides tools and standards that simplify the solution integrations across data silos. 
 
-With the new format providing many obvious benefits, the existing systems utilizing the old "model.json" format will want to add support for the newer format as well, while staying backward compatible. Fortunately, Common Data Model provides an Software Development Kit (SDK) that offers a uniform view of the two formats through its APIs. This drastically simplifies the process of adopting the "manifest.cdm.json" format for the service owners. 
+Common Data Model evolved from its original structure-only form following the progress made in the interop space and the growth of cloud-based solutions and analytics. Originally focusing on explaining the structure and relationships between entities, Common Data Model offered a simple metadata format called ["model.json"](../model-json.md). This format, however, was not able to convey the richness of semantics the source systems had on the data they would insert into data lakes, leaving consumers with limited ability to understand it. In addition, the old format was heavily tied to the physical layout of the data, preventing people from building a higher level understanding of the logical and conceptual form of the data. The next generation of Common Data Model, generally referred to as ["manifest.cdm.json"](overview.md) format, was created to address these issues.
 
-In this article we will offer insights into how Common Data Model SDK enables services to use both formats and what is the guidance to migrate the services which rely on the older format to the new one. 
+With the new format providing many obvious benefits, existing systems utilizing the "model.json" format will can add support for the newer format as well, while staying backward compatible. Common Data Model provides an Software Development Kit (SDK) that offers a uniform view of the two formats through its APIs. This SDK simplifies the process of adopting the "manifest.cdm.json" format. 
+
+In this article we offer insights into how the Common Data Model SDK enables services to use both formats and give guidance for migrating services that rely on the older format to the new format. 
 
 ## Common Data Model SDK 
 
-Before getting into the details of how "model.json" and "manifest.cdm.json" formats relate and how would one transition between them, it is good to introduce the reader to the Common Data Model Object Model and the SDK, and to explain why they exist. 
+Before we discuss the relationship between the "model.json" and the "manifest.cdm.json" formats and how to transition between them, we introduce the Common Data Model object model and the SDK, and explain why they exist.
 
-During the era when "model.json" was the persistence format of choice, the services joining Common Data Model ecosystem were encouraged to implement custom parsers that followed the specification of the format. This guidance was backed with several implementation samples that helped partners kick-start their development. This worked very well thanks to relative simplicity of the format. However, as explained above, this simplicity placed various limitations to how the data can be described. With the introduction of the "manifest.cdm.json" format, those restrictions were lifted, but with the added capabilities came complexity. 
+When "model.json" was the recommended format, the services that joined the Common Data Model ecosystem were encouraged to implement custom parsers that followed the format's specification. This guidance was backed with several implementation samples that helped partners start their development. This worked very well due to the relative simplicity of the format. However, as explained earlier, this simplicity placed various limitations to how the data can be described. With the introduction of the "manifest.cdm.json" format, those restrictions were lifted and brought added capabilities and complexities. 
 
-To simplify the adoption process for services wanting to use the added power of the new format, the new Object Model and the SDK were built. The new Object Model introduces a programming interface that hides the complexity of the underlying schema, provides single implementation across multiple languages and a uniform view of the two formats, and supports advanced scenarios like converting logical schemas into different physical layouts. Services integrating the SDK can count on regular updates and new features being added to the APIs to cover an expanding number of applicable use cases and scenarios. 
+ The new object model and the SDK are built to simplify the adoption process for services that want to adopt the new format. The new object model introduces a programming interface that hides the complexity of the underlying schema, provides single a implementation across multiple languages and a uniform view of both formats, and supports advanced scenarios like converting logical schemas into different physical layouts. Services that integrate the SDK can expect regular updates and new features to be added to the APIs to cover an expanding number of applicable use cases and scenarios. 
 
-Today, the SDK is available in four languages - C#, Java, Typescript and Python, with full parity of features and format support. For example, services integrating a C# version and emitting the data can be fully confident that readers written with Python SDK will see the data structure and semantics the same way. Common Data Model site provides [detailed information](../1.0om/api-reference/api-reference.md) about the APIs and there are accompanying [samples](../samples.md) to help service teams quickly ramp-up and start embedding the technology within their solutions. 
+Today, the SDK is available in C#, Java, Typescript, and Python, with full parity of features and format support. For example, services integrating a C# version and emitting the data can be fully confident that readers written with the Python SDK will see the data structure and semantics the same way. The Common Data Model site provides [detailed information](../1.0om/api-reference/api-reference.md) about the APIs and their accompanying [samples](../samples.md) to help service teams quickly onboard and start embedding the technology within their solutions. 
 
 ## Using the Common Data Model SDK with model.json files 
 
-With the introductions out of the way, let's dive into a couple of examples that can demonstrate usage of the SDK to read, explore and write "model.json" format. 
+Here are some examples that demonstrate how you can use the the Common Data Model SDK to read, explore, and write the "model.json" format. 
 
-> [!NOTE]
-> This article includes only C#-based samples, but they apply to other languages as well. 
+>[!NOTE]
+>This article includes C#-based samples, however, they apply to other languages as well. 
 
-Generally, if you plan to build a service that will consume data described with Common Data Model metadata in a data lake, you will encounter “CDM folders”, which is a term we use to identify a well-structured composition of data partitions and Common Data Model metadata files which explain the schema of these partitions. The metadata files are your first artifact to read and process before ingesting the data, as they explain which entities are present, what is their structure and their relationship, and most importantly where the partition files are located. There is no restriction such that the partition files need to be present in the same folder - they can be many levels deep, depending on how the data writer decided to lay out their lake, so the location information found in the metadata file plays critical role. More information and examples of CDM folders can be found in its dedicated [documentation](../data-lake.md). 
+If you plan to build a service that will consume data that's described with Common Data Model metadata in a data lake, you will encounter [**CDM folders**](../data-lake.md). CDM folders are well-structured composition of data partitions and Common Data Model metadata files which explain the schema of these partitions. The metadata files are the first artifacts to read and process before ingesting the data because they explain which entities are present, their structure and relationship, and most importantly, the location of the partition files. The partition files do not need to be present in the same folder. They can be many levels deep, depending on how the data writer lays out their lake. Therefore, the location information in the metadata file plays critical role. 
 
-Before we get started reading the schema, we want to let the SDK know where our files reside. This is achieved by instantiating the [corpus](fundamentals.md#the-corpus) object, the main collection of documents and definitions, and telling its [storage management layer](../1.0om/api-reference/storage/storage.md) which adapters to use to access file systems. The adapters are just an abstraction of underlying filesystems, supplying standardized read/write access for the SDK. We will set up two adapters, one pointing to the public store of CDM foundation files (consider them as bootstrap definitions) and the other pointing to an ADLSg2 container containing our CDM folder.
+Before you can read the schema, you must let the SDK know where the files reside. You do this by instantiating the [corpus](fundamentals.md#the-corpus) object, the main collection of documents and definitions, and telling its [storage management layer](../1.0om/api-reference/storage/storage.md) which adapters to use to access file systems. The adapters are just an abstraction of underlying filesystems, supplying standardized read/write access for the SDK. We will set up two adapters, one pointing to the public store that contains the Common Data Model foundation files (think of them as bootstrap definitions) and the other pointing to an ADLSg2 container containing our CDM folder.
 
 ```csharp
     var cdmCorpus = new CdmCorpusDefinition(); 
@@ -47,15 +49,15 @@ Before we get started reading the schema, we want to let the SDK know where our 
     cdmCorpus.Storage.DefaultNamespace = "adls"; 
 ```
 
-Then, to load a "model.json" file at the root of the target location just one line will be enough: 
+Then, to load a "model.json" file at the root of the target location: 
 
 ```csharp
     var manifest = await cdmCorpus.FetchObjectAsync<CdmManifestDefinition>("model.json"); 
 ```
 
-Here, the manifest object represents Object Model's high-level _representation_ of a single "model.json" file, including all entities, attributes, partitions, and other information found in it. You will notice that this in-memory representation does not strictly match structure of the input JSON. This is because the API needs to provide uniform access to different persistence format to its clients, and thus performs implicit mapping of the "model.json" format structure to the higher-level form. 
+Here, the manifest object represents the object model's high-level _representation_ of a single "model.json" file, including all entities, attributes, partitions, and other information found in it. This in-memory representation doesn't strictly match the structure of the input JSON. This is because the API needs to provide uniform access to different persistence format to its clients, and thus performs implicit mapping of the "model.json" format structure to the higher level form. 
 
-Let's try to explore the list of entities declared in the schema. Following snippet demonstrates how this can be done. 
+Let's explore the list of entities declared in the schema. The following snippet demonstrates how this can be done. 
 
 ```csharp
     foreach (var entityDeclaration in manifest.Entities) 
@@ -71,10 +73,10 @@ Let's try to explore the list of entities declared in the schema. Following snip
     }
 ```
 
-> [!TIP]
-> For additional examples of reading schema details please refer to the [read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest) SDK sample.
+>[!TIP]
+>For additional examples of how to read schema details, refer to the [read-manifest](https://github.com/microsoft/CDM/tree/master/samples/1-read-manifest) SDK sample.
 
-The code above iterates over the entity declarations found in the manifest, loading the actual definition objects that hold information on attributes and other properties of the entity. Now, let's also list which partitions have been referenced by the "model.json" file.
+The code previously shown iterates over the entity declarations that are in the manifest, loading the actual definition objects that hold information on attributes and other properties of the entity. Now, let's also list the partitions that have been referenced by the "model.json" file.
 
 ```csharp
     foreach (var dataPartition in entityDeclaration.DataPartitions) 
@@ -83,26 +85,27 @@ The code above iterates over the entity declarations found in the manifest, load
     }
 ```
 
-You’ll notice here that there is a call made to `CorpusPathToAdapterPath` API. Before explaining its purpose, it is important to understand that all document and partition locations that the Object Model works with are bound to a “corpus”, the highest-level construct that groups all documents, storage settings, resolution options, etc. we work with. The corpus is not aware of implementation details of individual filesystems where the documents or partitions live – that knowledge is hidden in Object Model’s storage layer behind a simple `StorageAdapter` interface. This layer maps filesystem-specific paths into a uniform representation we call “corpus path”, which ensures that Object Model stays agnostic of specific peculiarities of different filesystems it reads from or writes to. Because of importance of this topic, taking a deeper look into [corpus and adapter documentation](fundamentals.md#the-corpus) will be helpful for the reader. With that cleared up, we can see that whenever there is a situation of a client needing the exact location of a document or a partition in their origin filesystems, the corpus-bound paths need to be converted with a call to Object Model's storage layer, function `CorpusPathToAdapterPath`. For the example snippet above, if the target filesystem was ADLSg2, the result of the function should be the actual URL of the data partition file. 
+You’ll notice that there is a call made to the `CorpusPathToAdapterPath` API. Before explaining its purpose, it is important to understand that all document and partition locations that the object model works with are bound to a “corpus”, the highest-level construct that groups all documents, storage settings, resolution options, etc. with which we work. The corpus is not aware of the implementation details of the individual filesystems where the documents or partitions live. That knowledge is hidden in object model’s storage layer behind a simple `StorageAdapter` interface. This layer maps filesystem-specific paths into a uniform representation we call “corpus path”, which ensures that the object model is agnostic of specific details of the different filesystems from which it reads or writes. You can take a deeper look into the [corpus and adapter documentation](fundamentals.md#the-corpus) to learn more. 
 
-As an exercise for the reader, consider loading the newer "manifest.cdm.json" file. You should see that the only change required in such case is changing the input file name, and that the existing flow stays the same. Underneath, the SDK takes care of working with these different formats through the same API.
+We can see that whenever a client needs the location of a document or a partition in their filesystems, the corpus-bound paths need to be converted with a call to the object model's storage layer function, `CorpusPathToAdapterPath`. In the code snippet earlier, if the target filesystem was ADLSg2, the result of the function should be the actual URL of the data partition file. 
+
+If you load the newer "manifest.cdm.json" file. You should see that the only change that's required in is a change to the input file name. The existing flow stays the same. Underneath, the SDK takes care of working with these different formats through the same API.
 
 ## Persisting the schema 
 
-We've seen how we can load the older "model.json" format file and explore it, but what about writing the model out into files? Fortunately, persisting to a desired format is just a matter of selecting the right file name. The SDK detects the format based on the file name and activates the proper persistence logic. If you need to save the schema as a "model.json" file, you will make the following call:
+So far, you've seen how to load the older "model.json" format file and explore it, but what about writing the model out into files? Fortunately, persisting to a desired format can be done by just selecting the right file name. The SDK detects the format based on the file name, and then activates the proper persistence logic. If you need to save the schema as a "model.json" file, you will make the following call:
 
 ```csharp
     await manifest.SaveAsAsync("model.json", true);
 ```
 
-Or, if you want to save it to a newer format, the name needs to follow pattern "*.manifest.cdm.json", like this: 
-
+Or, if you want to save it to the newer format, the name needs to follow the "*.manifest.cdm.json" pattern, like this: 
 
 ```csharp
     await manifest.SaveAsAsync("mySchema.manifest.cdm.json", true); 
 ```
 
-If the reader's intent is just to do a simple conversion from one format to the other, without fancy schema exploration, the client code will only require the following two lines: 
+If the intent is just to do a simple conversion from one format to the other, without additional schema exploration, the client code is just the following two lines: 
 
 ```csharp
     // Convert model.json to manifest.cdm.json
@@ -118,17 +121,17 @@ Or, in the opposite direction:
     await manifest.SaveAsAsync("model.json", true);
 ```
 
-In more complicated scenarios, service owners may opt to adjust the content of the schema, attach more entities, and add new data partition references. Such use cases are out of scope of this article, but you can refer to [sample material](https://github.com/microsoft/CDM/tree/master/samples) available in the Common Data Model GitHub repo. In the end, persisting an updated schema to "model.json" or "manifest.cdm.json" formats is no different from what was described above.
+In more complicated scenarios, service owners may opt to adjust the content of the schema, attach more entities, and add new data partition references. Such use cases are out of scope of this article, but you can refer to the [sample material](https://github.com/microsoft/CDM/tree/master/samples) available in the Common Data Model GitHub repo. Persisting an updated schema to the "model.json" or the "manifest.cdm.json" format is the same as discussed earlier in this article.
 
 ## Things to keep in mind
 
-With the two formats defining their own specific structures, and Object Model providing a single API view over them, some special constructs available in each format may not be clearly visible through these APIs and do require additional developer guidance. In this section, we will cover how client applications can reveal and work with these special structures. A separate article will be shared with further details about how these constructs look like in the schemas, how traits get preserved in the older format, how data types are mapped, and other information.
+Each format has its own structures and the object model provides a single API to manage them. Some of the constructs available in each format may not be clearly visible through the API and do require additional developer guidance. This section covers how client applications can reveal and work with these special structures.
 
 ### Custom properties
 
-Specification for "model.json" format recognizes two types of custom information pieces in its structure: [annotations](../model-json.md#annotations) and custom properties. They both enable services to include extra contextual information with the schema, which may be of value to consumers able to understand them. The Object Model recognizes and preserves these custom extensions and provides access to them.
+The specification for the "model.json" format defines two types of custom information pieces in its structure, [annotations](../model-json.md#annotations) and custom properties. Both both information pieces enable services to include extra contextual information with the schema, which may be of value to some consumers. The object model recognizes and preserves these custom extensions and provides access to them.
 
-From a programmatic usage perspective, the snippet below demonstrates how one would access the annotations on entity level:
+The following snippet demonstrates how one can access the annotations on the entity level:
 
 ```csharp
     var annotations = entity.ExhibitsTraits.Item("is.modelConversion.otherAnnotations")?.Arguments[0].Value;
@@ -141,23 +144,23 @@ From a programmatic usage perspective, the snippet below demonstrates how one wo
     }
 ```
 
-When talking about the second information type, the custom properties, they are made available in the Object Model as individual traits, following naming convention `"is.extension.<propertyname>"`. For example, if you want to get content of custom property "myapp:something", following code can retrieve you that:
+The custom properties are made available in the object model as individual traits with following naming convention `"is.extension.<propertyname>"`. For example, if you want to get the content from custom property "myapp:something", the following code can retrieve it:
 
 ```csharp
     var customPropValue = entity.ExhibitsTraits.Item("is.extension.myapp:something")?.Arguments[0].Value;
 ```
 
-One more thing to note for services converting the "model.json" schema and writing it in "manifest.cdm.json" form is that custom properties that are not recognized by the Object Model will result in an additional document being saved next to the manifest file - "custom.extension.cdm.json". This document will hold definitions of `"is.extension"` traits that represent the custom properties discovered in the original "model.json" file. For recognized custom properties, such as those PowerBI uses, this additional document will not be written, as Object Model has internal knowledge of it. Which custom properties are recognized by Object Model can be found in the [extensions definitions folder](https://github.com/microsoft/CDM/tree/master/schemaDocuments/extensions).
+For services in which you convert the "model.json" schema to the "manifest.cdm.json" format, the custom properties that are not recognized by the object model will result in an additional a document being saved next to the manifest file. This document is named "custom.extension.cdm.json". This document will hold the definitions of `"is.extension"` traits that represent the custom properties discovered in the original "model.json" file. For recognized custom properties, such as those PowerBI uses, this additional document will not be written because the  object model has internal knowledge of it. Find more information about which custom properties are recognized by  the object model in the [extensions definitions folder](https://github.com/microsoft/CDM/tree/master/schemaDocuments/extensions).
 
 ### Model.json partition locations
 
-By definition, partition locations in "model.json" metadata files [are absolute](../model-json.md#partitions). Since Object Model APIs operate through storage adapters, which is the abstraction layer over the underlying filesystem, these URIs get converted into a corpus path form via applicable adapter. The conversion is performed by the Object Model during loading of the metadata file automatically, _if the URI matches the actual location of the "model.json" file._ So, if we have configured an [ADLSAdapter](../1.0om/api-reference/storage/adlsadapter.md) as above to be mapped on namespace "adls", and partitions are under the same location or under any sub-folder, their paths will convert to corpus path that can look like this: "adls:/somepath/some-partition.csv". And, as shown in earlier section, clients can decode this corpus path back into original URI with this command:
+By definition, partition locations in the "model.json" metadata files [are absolute](../model-json.md#partitions). Since the object model APIs operate through storage adapters, which is the abstraction layer over the underlying filesystem, these URIs are converted into a corpus path via the applicable adapter. The conversion is automatically performed by the object model when the metadata file loads, _if the URI matches the actual location of the "model.json" file._ So, if you've configured an [ADLSAdapter](../1.0om/api-reference/storage/adlsadapter.md) to be mapped on the "adls" namespace, and the partitions are under the same location, or under any sub-folder, their paths will convert to a corpus path that can look like this: "adls:/somepath/some-partition.csv". And, as shown earlier, clients can decode this corpus path back into the original URI with the following command:
 
 ```csharp
     var originalUri = cdmCorpus.Storage.CorpusPathToAdapterPath(dataPartition.Location)
 ```
 
-In case the partition URIs do not match the location of the "model.json" file, a [RemoteAdapter](../1.0om/api-reference/storage/remoteadapter.md) must be pre-configured in the corpus prior to loading the metadata file. For example, if the URIs looks like "https://my.server.com:443/somepath", the RemoteAdapter should be configured as:
+If the partition URIs do not match the location of the "model.json" file, a [RemoteAdapter](../1.0om/api-reference/storage/remoteadapter.md) must be pre-configured in the corpus prior to loading the metadata file. For example, if the URIs look like "https://my.server.com:443/somepath", the RemoteAdapter must be configured as follows:
 
 ```csharp
     var hosts = new Dictionary<string, string>();
@@ -165,44 +168,44 @@ In case the partition URIs do not match the location of the "model.json" file, a
     cdmCorpus.Storage.Mount("remote", new RemoteAdapter(hosts));
 ```
 
-As before, the original URI can then be retrieved by calling the `CorpusPathToAdapterPath` API.
+As noted earlier in this article, the original URI can then be retrieved by calling the `CorpusPathToAdapterPath` API.
 
 ### Model.json referenced models
 
-[Reference models](../model-json.md#reference-models) are a concept in "model.json" spec that lets services re-use documents containing entity definitions. A "reference model" in a "model.json" file consists of an identifier and a location URI that points to the document containing the actual definition of the entity. An entity of type `ReferenceEntity` will use this identifier to declare that its actual definition can be found in a remote (referenced) document.
+[Reference models](../model-json.md#reference-models) are a concept in the "model.json" specification that defines how services re-use documents that contain entity definitions. A "reference model" in a "model.json" file consists of an identifier and a location URI that points to the document that contains the actual definition of the entity. An entity of type `ReferenceEntity` uses this identifier to declare that its actual definition can be found in a remote (referenced) document.
 
-In Common Data Model API, this type of entity is represented through class [CdmReferenceEntityDeclarationDefinition](../1.0om/api-reference/cdm/referencedentitydeclaration.md) and its `EntityPath` property will contain a corpus path variant of the original document URI found in the "referenceModels" section of the "model.json" file. Passing this entity path value to `CorpusPathToAdapterPath` API will return the original referenced document URI. Like with partition location URIs mentioned above, if the referenced document URI is in a location different than where "model.json" file resides, a [RemoteAdapter](../1.0om/api-reference/storage/remoteadapter.md) needs to be pre-configured in the corpus to recognize such document URIs. 
+In Common Data Model, this type of entity is represented through the [CdmReferenceEntityDeclarationDefinition](../1.0om/api-reference/cdm/referencedentitydeclaration.md) class. Its `EntityPath` property will contain a corpus path variant of the original document URI found in the "referenceModels" section of the "model.json" file. Passing this entity path value to the `CorpusPathToAdapterPath` API will return the original referenced document URI. Similar to the partition location URIs mentioned earlier, if the referenced document URI is in a location that's different from where the "model.json" file resides, a [RemoteAdapter](../1.0om/api-reference/storage/remoteadapter.md) needs to be pre-configured in the corpus to recognize such document URIs. 
 
-Note that this concept in "model.json" spec has been rarely used in real-world solutions and has since been made obsolete with much more flexible import mechanism in "manifest.cdm.json" format. 
+Note that this concept in "model.json" specification is rarely used in real-world solutions and has since been made obsolete since there are more flexible import mechanisms in the "manifest.cdm.json" format. 
 
 ### Partition patterns 
 
-The new "manifest.cdm.json" schema format introduced a new capability for data producers to define [partition patterns](manifest.md#data-partition-patterns) which removes the need to update metadata files whenever a new data partition is added. If a manifest has patterns defined, then before such schema is saved in "model.json" form using `SaveAsAsync` API, services must first make a call to `FileStatusCheckAsync` API on the manifest object: 
+The new "manifest.cdm.json" schema format introduces a new capability for data producers to define [partition patterns](manifest.md#data-partition-patterns), removing the need to update metadata files whenever a new data partition is added. If a manifest has patterns defined, before such schema is saved in the "model.json" form using the `SaveAsAsync` API, the services must first make a call to the `FileStatusCheckAsync` API on the manifest object like this: 
 
 ```csharp
     await manifest.FileStatusCheckAsync();
     await manifest.SaveAsAsync("model.json", true);
 ```
 
-The `FileStatusCheckAsync` call will trigger file scanning logic in the Object Model, and will result in a number of new [CdmDataPartitionDefinition](../1.0om/api-reference/cdm/datapartition.md) objects being automatically created and added to entity declaration's partition collection for each partition file found in the target folder that matched the pattern.
+The `FileStatusCheckAsync` call triggers the file scanning logic in the object model, and results in a number of new [CdmDataPartitionDefinition](../1.0om/api-reference/cdm/datapartition.md) objects being automatically created and added to the entity declaration's partition collection for each partition file that matches the pattern in the target folder.
 
-> [!IMPORTANT]
-> Partition _patterns_ are not preserved in the written "model.json" file. This requires writing the "manifest.cdm.json" files always in addition to "model.json", so it is the source of truth how the service originally arranged its data partitions. 
+>[!IMPORTANT]
+>Partition _patterns_ are not preserved in the written "model.json" file. This requires writing to the "manifest.cdm.json" files and the "model.json" file, so it is the source of truth regarding how the service originally arranged its data partitions. 
 
 ## Service migration guidance 
 
-With the introduction of the new "manifest.cdm.json" metadata description format, a problem of coexistence of both old and new metadata formats appears. The transition between formats will take time, and service teams should adapt to this situation and assume that both formats may circulate in their environments. Thanks to the Object Model's native support for both formats via uniform API, this becomes easy to handle. 
+With the introduction of the "manifest.cdm.json" metadata description format, a problem of coexistence of both old and new metadata formats appears. The transition between formats takes time, and service teams should adapt to this situation and assume that both formats may circulate in their environments. Thanks to the object model's native support for both formats via a uniform API, this becomes easy to handle. 
 
-For data producers, both "model.json" and "manifest.cdm.json" variant of their schema can be written together in the same CDM folder: 
+For data producers, both "model.json" and "manifest.cdm.json" variants of their schema can be written together in the same CDM folder: 
 
 ```csharp
     await manifest.SaveAsAsync("model.json", true);
     await manifest.SaveAsAsync("mySchema.manifest.cdm.json", true);
 ```
 
-This approach helps widen the set of consumers able to understand the outputted data, though for legacy consumers that support only the "model.json" format, this understanding will have lower fidelity due to format limitations.
+This approach increases the number of consumers who can understand the data output, though for legacy services that support only the "model.json" format, this understanding will be less, due to format limitations.
 
-For data consumers, the transition path is such that the service needs to become capable of selecting the "manifest.cdm.json" as default schema source if both old and new metadata format are present in the CDM folder, and only fall back to "model.json" in case the newer format file is not there. If that happens, the service needs to adjust its behavior because newer notions, such as traits, will not be available. Here's a simple example: 
+For data consumers, the transition path is such that the service needs to become capable of selecting the "manifest.cdm.json" as the default schema source if both old and new metadata formats are present in the CDM folder, and only fall back to "model.json" in case the newer format file is not there. If that happens, the service needs to adjust its behavior because newer notions, such as traits, will not be available. Here's a simple example: 
 
 ```csharp
     var manifestFileName = MyFuncToFindManifestFileInTargetLake();
@@ -211,13 +214,13 @@ For data consumers, the transition path is such that the service needs to become
     // Do things, but expect that traits or other advanced features may not be available in the loaded schema
 ```
 
-Following this guidance, data producers and consumers will be able to interop over multiple metadata formats, by leveraging the SDK to achieve this format “transparency”.
+Following this guidance, data producers and consumers will be able to interop over multiple metadata formats by leveraging the SDK to achieve this format “transparency”.
 
-## Final words
+## Conclusion
 
-In this article we have seen how Common Data Model evolved from basic representation of structure of the data to a more feature-rich semantics-based metadata language, and how a powerful programming interface was built to simplify interactions with the schemas written in this new language. We have seen how easy it is to use this interface to convert between old and new metadata format, and we've learned how to handle special constructs present in each format.
+In this article we have seen how Common Data Model evolved from a basic representation of the structure of the data to a more feature-rich, semantics-based, metadata language, and how a powerful programming interface was built to simplify interactions with the schemas written in this new language. We have seen how easy it is to use this interface to convert between old and new metadata format, and we've learned how to handle the constructs present in each format.
 
-Service teams can use this guidance to get started preparing their services for the time when "model.json" format is no longer in use, and the new "manifest.cdm.json" is the metadata format of choice for cloud solutions built by Microsoft and leveraged by its partners. With the full backing and support available through open sourced tools, the service teams can expect to see a controlled metadata format transition in near future across relevant Microsoft product offerings.
+Service teams can use this guide to get started preparing their services for the time when the "model.json" format is no longer in use, and the new "manifest.cdm.json" is the metadata format of choice for cloud solutions built by Microsoft and leveraged by its partners. With the full backing and support available through open sourced tools, the service teams can expect to see a controlled metadata format transition in near future across relevant Microsoft product offerings.
 
 Recommended further reading: 
 
