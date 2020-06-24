@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/24/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,7 @@ Delivery Framework represents a management unit of work defined by the organizat
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitCore<br>/DeliveryFramework.cdm.json/DeliveryFramework<br>/hasAttributes/attributesAddedAtThisScope</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitIati<br>/DeliveryFramework.cdm.json/DeliveryFramework<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -65,10 +65,12 @@ Delivery Framework represents a management unit of work defined by the organizat
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[accountId](#accountId)|Account|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[country](#country)|Records the country related to the delivery framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkId](#deliveryFrameworkId)|Unique identifier for entity instances|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkType](#deliveryFrameworkType)|The type of Framwork, i.e. Program, Project, Initiative, Activity|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkType_display](#deliveryFrameworkType_display)||<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[description](#description)|Description of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[donorId](#donorId)|This field contains the unique identifier for the donor.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[endDate](#endDate)|End date of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[goal](#goal)|Indicates the goal of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[name](#name)|The name of the custom entity.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
@@ -76,6 +78,8 @@ Delivery Framework represents a management unit of work defined by the organizat
 |[parentDeliveryFrameworkId](#parentDeliveryFrameworkId)|Parent DeliveryFramework|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[plannedEndDate](#plannedEndDate)|Planned end date of the framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[plannedStartDate](#plannedStartDate)|Planned start date of the framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[region](#region)|Records the region related to the delivery framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[reviewerId](#reviewerId)|Records who will be reviewing the delivery framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[scope](#scope)|Scope of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[scope_display](#scope_display)||<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[startDate](#startDate)|Start date of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
@@ -133,7 +137,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -174,7 +178,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -225,7 +229,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -266,7 +270,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -317,7 +321,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -368,7 +372,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -419,7 +423,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -460,7 +464,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -496,7 +500,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -544,7 +548,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -585,7 +589,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -633,7 +637,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -684,7 +688,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -732,7 +736,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -771,7 +775,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -810,7 +814,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -849,7 +853,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Account</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_account</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Account</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_account</td></tr></table>
 
 #### Traits
 
@@ -876,10 +880,53 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_account"</td><td>string</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#country name="country">country</a>
+
+Records the country related to the delivery framework.  
+First included in: nonProfitIati/DeliveryFramework (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country</td></tr><tr><td>description</td><td>Records the country related to the delivery framework.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_country</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the country attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.location.country**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_country"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Records the country related to the delivery framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -891,7 +938,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_deliveryframeworkid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msnfp_deliveryframeworkid</td></tr></table>
 
 #### Traits
 
@@ -908,6 +955,9 @@ names a specifc identity attribute to use with an entity  <table><tr><th>Paramet
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_deliveryframeworkid"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delivery Framework</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -927,7 +977,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework Type</td></tr><tr><td>description</td><td>The type of Framwork, i.e. Program, Project, Initiative, Activity</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msnfp_deliveryframeworktype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Program</td><td>844060000</td></tr><tr><td>en</td><td>Project</td><td>844060001</td></tr><tr><td>en</td><td>Action</td><td>844060002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework Type</td></tr><tr><td>description</td><td>The type of Framwork, i.e. Program, Project, Initiative, Activity</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deliveryframeworktype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Program</td><td>844060000</td></tr><tr><td>en</td><td>Project</td><td>844060001</td></tr><tr><td>en</td><td>Action</td><td>844060002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -944,11 +994,17 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_deliveryframeworktype"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Delivery Framework Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of Framwork, i.e. Program, Project, Initiative, Activity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.integer**  
 </details>
@@ -959,7 +1015,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -985,7 +1041,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description of the Framework.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>sourceName</td><td>msnfp_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Description of the Framework.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_description</td></tr></table>
 
 #### Traits
 
@@ -1001,12 +1057,63 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1024"</td><td>integer</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description of the Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#donorId name="donorId">donorId</a>
+
+This field contains the unique identifier for the donor.  
+First included in: nonProfitIati/DeliveryFramework (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Donor</td></tr><tr><td>description</td><td>This field contains the unique identifier for the donor.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_donorid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the donorId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Donor</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>This field contains the unique identifier for the donor.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Account.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_donorid"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -1018,7 +1125,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End Date</td></tr><tr><td>description</td><td>End date of the Framework.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msnfp_enddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End Date</td></tr><tr><td>description</td><td>End date of the Framework.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_enddate</td></tr></table>
 
 #### Traits
 
@@ -1032,11 +1139,17 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_enddate"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>End Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>End date of the Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -1049,7 +1162,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal</td></tr><tr><td>description</td><td>Indicates the goal of the Framework.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>sourceName</td><td>msnfp_goal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal</td></tr><tr><td>description</td><td>Indicates the goal of the Framework.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_goal</td></tr></table>
 
 #### Traits
 
@@ -1065,11 +1178,17 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.constrained**  
 maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1024"</td><td>integer</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Goal</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the goal of the Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1082,7 +1201,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msnfp_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msnfp_name</td></tr></table>
 
 #### Traits
 
@@ -1119,7 +1238,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Objective</td></tr><tr><td>description</td><td>Objective</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_objectiveid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Objective</td></tr><tr><td>description</td><td>Objective</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_objectiveid</td></tr></table>
 
 #### Traits
 
@@ -1146,6 +1265,9 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Objective.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Objective.cdm.json/Objective</a></td><td><a href="Objective.md#objectiveId" target="_blank">objectiveId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_objectiveid"</td><td>string</td><td></td></tr></table>
 
@@ -1161,7 +1283,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent Delivery Framework</td></tr><tr><td>description</td><td>Parent DeliveryFramework</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_parentdeliveryframeworkid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent Delivery Framework</td></tr><tr><td>description</td><td>Parent DeliveryFramework</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_parentdeliveryframeworkid</td></tr></table>
 
 #### Traits
 
@@ -1188,6 +1310,9 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="DeliveryFramework.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/DeliveryFramework.cdm.json/DeliveryFramework</a></td><td><a href="DeliveryFramework.md#deliveryFrameworkId" target="_blank">deliveryFrameworkId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_parentdeliveryframeworkid"</td><td>string</td><td></td></tr></table>
 
@@ -1203,7 +1328,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Planned End Date</td></tr><tr><td>description</td><td>Planned end date of the framework.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msnfp_plannedenddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Planned End Date</td></tr><tr><td>description</td><td>Planned end date of the framework.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_plannedenddate</td></tr></table>
 
 #### Traits
 
@@ -1217,11 +1342,17 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_plannedenddate"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Planned End Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Planned end date of the framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -1234,7 +1365,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Planned Start Date</td></tr><tr><td>description</td><td>Planned start date of the framework.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msnfp_plannedstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Planned Start Date</td></tr><tr><td>description</td><td>Planned start date of the framework.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_plannedstartdate</td></tr></table>
 
 #### Traits
 
@@ -1248,14 +1379,104 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_plannedstartdate"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Planned Start Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Planned start date of the framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.nullable**  
+The attribute value may be set to NULL.  
+
 **is.dataFormat.time**  
 **is.dataFormat.date**  
+</details>
+
+### <a href=#region name="region">region</a>
+
+Records the region related to the delivery framework.  
+First included in: nonProfitIati/DeliveryFramework (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Region</td></tr><tr><td>description</td><td>Records the region related to the delivery framework.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_region</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the region attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_region"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Records the region related to the delivery framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#reviewerId name="reviewerId">reviewerId</a>
+
+Records who will be reviewing the delivery framework.  
+First included in: nonProfitIati/DeliveryFramework (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reviewer</td></tr><tr><td>description</td><td>Records who will be reviewing the delivery framework.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_reviewer</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the reviewerId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.CDS.lookup**  
+The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reviewer</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Records who will be reviewing the delivery framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_reviewer"</td><td>string</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#scope name="scope">scope</a>
@@ -1265,7 +1486,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Scope</td></tr><tr><td>description</td><td>Scope of the Framework.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msnfp_scope</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Global</td><td>844060000</td></tr><tr><td>en</td><td>Regional</td><td>844060001</td></tr><tr><td>en</td><td>Multi-National</td><td>844060002</td></tr><tr><td>en</td><td>National</td><td>844060003</td></tr><tr><td>en</td><td>Sub-national: Multi-first-level administrative areas</td><td>844060004</td></tr><tr><td>en</td><td>Sub-national: Multi second-level administrative area</td><td>844060005</td></tr><tr><td>en</td><td>Sub-national: Single second-level administrative area</td><td>844060006</td></tr><tr><td>en</td><td>Single Location</td><td>844060007</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Scope</td></tr><tr><td>description</td><td>Scope of the Framework.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_scope</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Global</td><td>844060000</td></tr><tr><td>en</td><td>Regional</td><td>844060001</td></tr><tr><td>en</td><td>Multi-National</td><td>844060002</td></tr><tr><td>en</td><td>National</td><td>844060003</td></tr><tr><td>en</td><td>Sub-national: Multi-first-level administrative areas</td><td>844060004</td></tr><tr><td>en</td><td>Sub-national: Multi second-level administrative area</td><td>844060005</td></tr><tr><td>en</td><td>Sub-national: Single second-level administrative area</td><td>844060006</td></tr><tr><td>en</td><td>Single Location</td><td>844060007</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1282,11 +1503,17 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_scope"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scope</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Scope of the Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.integer**  
 </details>
@@ -1297,7 +1524,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1323,7 +1550,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>Start date of the Framework.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msnfp_startdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>Start date of the Framework.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_startdate</td></tr></table>
 
 #### Traits
 
@@ -1337,11 +1564,17 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_startdate"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start Date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start date of the Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -1354,7 +1587,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msnfp_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pipeline/Identification</td><td>844060000</td></tr><tr><td>en</td><td>Implementation</td><td>844060001</td></tr><tr><td>en</td><td>Completion</td><td>844060002</td></tr><tr><td>en</td><td>Post-Completion</td><td>844060004</td></tr><tr><td>en</td><td>Cancelled</td><td>844060005</td></tr><tr><td>en</td><td>Suspended</td><td>844060006</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Pipeline/Identification</td><td>844060000</td></tr><tr><td>en</td><td>Implementation</td><td>844060001</td></tr><tr><td>en</td><td>Completion</td><td>844060002</td></tr><tr><td>en</td><td>Post-Completion</td><td>844060004</td></tr><tr><td>en</td><td>Cancelled</td><td>844060005</td></tr><tr><td>en</td><td>Suspended</td><td>844060006</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1371,11 +1604,17 @@ the values of an attribute are taken from or looked up from a fixed list of poss
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_status"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.integer**  
 </details>
@@ -1386,7 +1625,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1412,7 +1651,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1432,6 +1671,9 @@ the attribute represents the current state of the entity.  <table><tr><th>Parame
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -1447,7 +1689,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1473,7 +1715,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Delivery Framework</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1493,11 +1735,17 @@ the attribute value is correlated with the sourceAttribute  <table><tr><th>Param
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
 
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Delivery Framework</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
 
 **is.dataFormat.integer**  
 </details>
@@ -1508,7 +1756,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1534,7 +1782,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
 
 #### Traits
 
@@ -1568,7 +1816,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget Identifier Vocabulary</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist Vocabulary associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_budgetidentifiervocabularyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget Identifier Vocabulary</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist Vocabulary associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_budgetidentifiervocabularyid</td></tr></table>
 
 #### Traits
 
@@ -1610,7 +1858,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget Not Provided</td></tr><tr><td>description</td><td>A codelist defining the reasons why an activity does not contain any budget elements</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_budgetnotprovidedid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Budget Not Provided</td></tr><tr><td>description</td><td>A codelist defining the reasons why an activity does not contain any budget elements</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_budgetnotprovidedid</td></tr></table>
 
 #### Traits
 
@@ -1652,7 +1900,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Spend</td></tr><tr><td>description</td><td>Indicates the percentage of the total commitment that is for capital spending</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msiati_capitalspend</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Spend</td></tr><tr><td>description</td><td>Indicates the percentage of the total commitment that is for capital spending</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msiati_capitalspend</td></tr></table>
 
 #### Traits
 
@@ -1686,7 +1934,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collaboration Type</td></tr><tr><td>description</td><td>OECD DAC classification used to determine the character of resource flows (bilateral or multilateral)</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msiati_collaborationtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bilateral</td><td>453490001</td></tr><tr><td>en</td><td>Multilateral (inflows)</td><td>453490002</td></tr><tr><td>en</td><td>Bilateral, core contributions to NGOs and other private bodies / PPPs</td><td>453490003</td></tr><tr><td>en</td><td>Multilateral outflows</td><td>453490004</td></tr><tr><td>en</td><td>Private Sector Outflows</td><td>453490006</td></tr><tr><td>en</td><td>Bilateral, ex-post reporting on NGOs’ activities funded through core contributions</td><td>453490007</td></tr><tr><td>en</td><td>Bilateral, triangular co-operation</td><td>453490008</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collaboration Type</td></tr><tr><td>description</td><td>OECD DAC classification used to determine the character of resource flows (bilateral or multilateral)</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msiati_collaborationtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Bilateral</td><td>453490001</td></tr><tr><td>en</td><td>Multilateral (inflows)</td><td>453490002</td></tr><tr><td>en</td><td>Bilateral, core contributions to NGOs and other private bodies / PPPs</td><td>453490003</td></tr><tr><td>en</td><td>Multilateral outflows</td><td>453490004</td></tr><tr><td>en</td><td>Private Sector Outflows</td><td>453490006</td></tr><tr><td>en</td><td>Bilateral, ex-post reporting on NGOs’ activities funded through core contributions</td><td>453490007</td></tr><tr><td>en</td><td>Bilateral, triangular co-operation</td><td>453490008</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1718,7 +1966,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1744,7 +1992,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collaboration Type (Deprecated)</td></tr><tr><td>description</td><td>The type of collaboration involved in the activity’s disbursements, e.g. “bilateral” or “multilateral”.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_collaborationtypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collaboration Type (Deprecated)</td></tr><tr><td>description</td><td>The type of collaboration involved in the activity’s disbursements, e.g. “bilateral” or “multilateral”.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_collaborationtypeid</td></tr></table>
 
 #### Traits
 
@@ -1786,7 +2034,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CRS Channel</td></tr><tr><td>description</td><td>The CRS channel code for this activity. This should only be used for reporting to CRS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_crschannelid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CRS Channel</td></tr><tr><td>description</td><td>The CRS channel code for this activity. This should only be used for reporting to CRS.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_crschannelid</td></tr></table>
 
 #### Traits
 
@@ -1822,7 +2070,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Commitment Date</td></tr><tr><td>description</td><td>The CRS++ reported commitment date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_crscommitmentdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Commitment Date</td></tr><tr><td>description</td><td>The CRS++ reported commitment date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_crscommitmentdate</td></tr></table>
 
 #### Traits
 
@@ -1853,7 +2101,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Arrears</td></tr><tr><td>description</td><td>Arrears of interest at the end of the year</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestarrears</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Arrears</td></tr><tr><td>description</td><td>Arrears of interest at the end of the year</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestarrears</td></tr></table>
 
 #### Traits
 
@@ -1888,7 +2136,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Arrears (Base)</td></tr><tr><td>description</td><td>Value of the Interest Arrears in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestarrears_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Arrears (Base)</td></tr><tr><td>description</td><td>Value of the Interest Arrears in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestarrears_base</td></tr></table>
 
 #### Traits
 
@@ -1923,7 +2171,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Received</td></tr><tr><td>description</td><td>Interest received during the reporting year</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestreceived</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Received</td></tr><tr><td>description</td><td>Interest received during the reporting year</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestreceived</td></tr></table>
 
 #### Traits
 
@@ -1958,7 +2206,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Received (Base)</td></tr><tr><td>description</td><td>Value of the Interest Received in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestreceived_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interest Received (Base)</td></tr><tr><td>description</td><td>Value of the Interest Received in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsinterestreceived_base</td></tr></table>
 
 #### Traits
 
@@ -1993,7 +2241,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Rate 1</td></tr><tr><td>description</td><td>Interest Rate. If an ODA loan with variable interest rate, report the variable rate here and the reference fixed rate as CRS Loan Rate 2.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msiati_crsloanrate1</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Rate 1</td></tr><tr><td>description</td><td>Interest Rate. If an ODA loan with variable interest rate, report the variable rate here and the reference fixed rate as CRS Loan Rate 2.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msiati_crsloanrate1</td></tr></table>
 
 #### Traits
 
@@ -2027,7 +2275,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Rate 2</td></tr><tr><td>description</td><td>Second Interest Rate. If an ODA loan with variable interest rate, report the variable rate as CRS Loan Rate 1 and the reference fixed rate here.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msiati_crsloanrate2</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Rate 2</td></tr><tr><td>description</td><td>Second Interest Rate. If an ODA loan with variable interest rate, report the variable rate as CRS Loan Rate 1 and the reference fixed rate here.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msiati_crsloanrate2</td></tr></table>
 
 #### Traits
 
@@ -2061,7 +2309,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Repayment Period</td></tr><tr><td>description</td><td>An IATI codelist tabulating CRS-specified values for the number of repayments per annum.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_crsloanrepaymentperiodid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Repayment Period</td></tr><tr><td>description</td><td>An IATI codelist tabulating CRS-specified values for the number of repayments per annum.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_crsloanrepaymentperiodid</td></tr></table>
 
 #### Traits
 
@@ -2103,7 +2351,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Repayment Type</td></tr><tr><td>description</td><td>An IATI codelist tabulating CRS-specified values for the type of Repayment.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_crsloanrepaymenttypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Loan Repayment Type</td></tr><tr><td>description</td><td>An IATI codelist tabulating CRS-specified values for the type of Repayment.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_crsloanrepaymenttypeid</td></tr></table>
 
 #### Traits
 
@@ -2145,7 +2393,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Arrears</td></tr><tr><td>description</td><td>Arrears of principal at the end of the year. Included in principal-outstanding</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipalarrears</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Arrears</td></tr><tr><td>description</td><td>Arrears of principal at the end of the year. Included in principal-outstanding</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipalarrears</td></tr></table>
 
 #### Traits
 
@@ -2180,7 +2428,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Arrears (Base)</td></tr><tr><td>description</td><td>Value of the Principal Arrears in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipalarrears_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Arrears (Base)</td></tr><tr><td>description</td><td>Value of the Principal Arrears in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipalarrears_base</td></tr></table>
 
 #### Traits
 
@@ -2215,7 +2463,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Outstanding</td></tr><tr><td>description</td><td>The amount of principal owed on the loan at the end of the reporting year.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipaloutstanding</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Outstanding</td></tr><tr><td>description</td><td>The amount of principal owed on the loan at the end of the reporting year.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipaloutstanding</td></tr></table>
 
 #### Traits
 
@@ -2250,7 +2498,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Outstanding (Base)</td></tr><tr><td>description</td><td>Value of the Principal Outstanding in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipaloutstanding_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Principal Outstanding (Base)</td></tr><tr><td>description</td><td>Value of the Principal Outstanding in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_crsprincipaloutstanding_base</td></tr></table>
 
 #### Traits
 
@@ -2285,7 +2533,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Final Repayment Date</td></tr><tr><td>description</td><td>CRS Final Repayment Date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_crsrepaymentfinaldate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Final Repayment Date</td></tr><tr><td>description</td><td>CRS Final Repayment Date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_crsrepaymentfinaldate</td></tr></table>
 
 #### Traits
 
@@ -2316,7 +2564,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Repayment Date</td></tr><tr><td>description</td><td>CRS First Repayment Date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_crsrepaymentfirstdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Repayment Date</td></tr><tr><td>description</td><td>CRS First Repayment Date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_crsrepaymentfirstdate</td></tr></table>
 
 #### Traits
 
@@ -2347,7 +2595,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting Year</td></tr><tr><td>description</td><td>CRS Reporting Year (CRS++ Column 1)</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>3000</td></tr><tr><td>minimumValue</td><td>1900</td></tr><tr><td>sourceName</td><td>msiati_crsreportingyear</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting Year</td></tr><tr><td>description</td><td>CRS Reporting Year (CRS++ Column 1)</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>3000</td></tr><tr><td>minimumValue</td><td>1900</td></tr><tr><td>sourceName</td><td>msiati_crsreportingyear</td></tr></table>
 
 #### Traits
 
@@ -2377,7 +2625,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Value Date</td></tr><tr><td>description</td><td>Date for the currency value</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_currencyvaluedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Value Date</td></tr><tr><td>description</td><td>Date for the currency value</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_currencyvaluedate</td></tr></table>
 
 #### Traits
 
@@ -2408,7 +2656,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Currency</td></tr><tr><td>description</td><td>Default currency for the delivery framework</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_defaultcurrencyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Currency</td></tr><tr><td>description</td><td>Default currency for the delivery framework</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_defaultcurrencyid</td></tr></table>
 
 #### Traits
 
@@ -2450,7 +2698,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Finance Type</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_defaultfinancetypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Finance Type</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_defaultfinancetypeid</td></tr></table>
 
 #### Traits
 
@@ -2492,7 +2740,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Flow Type</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_defaultflowtypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Flow Type</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_defaultflowtypeid</td></tr></table>
 
 #### Traits
 
@@ -2534,7 +2782,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Language</td></tr><tr><td>description</td><td>Lookup to the default language for the delivery framework</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_defaultlanguageid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Language</td></tr><tr><td>description</td><td>Lookup to the default language for the delivery framework</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_defaultlanguageid</td></tr></table>
 
 #### Traits
 
@@ -2576,7 +2824,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Tied Status</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_defaulttiedstatusid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Default Tied Status</td></tr><tr><td>description</td><td>Unique identifier for Non Embedded Codelist associated with Delivery Framework.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_defaulttiedstatusid</td></tr></table>
 
 #### Traits
 
@@ -2612,7 +2860,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Extraction Date</td></tr><tr><td>description</td><td>The exact date when the information was collected or extracted from donors’ aid management systems.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_fssextractiondate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Extraction Date</td></tr><tr><td>description</td><td>The exact date when the information was collected or extracted from donors’ aid management systems.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_fssextractiondate</td></tr></table>
 
 #### Traits
 
@@ -2643,7 +2891,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Phaseout Year</td></tr><tr><td>description</td><td>If there are plans to phase out operations from the partner country, this column shows the projected year of last disbursements.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>3000</td></tr><tr><td>minimumValue</td><td>1900</td></tr><tr><td>sourceName</td><td>msiati_fssphaseoutyear</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Phaseout Year</td></tr><tr><td>description</td><td>If there are plans to phase out operations from the partner country, this column shows the projected year of last disbursements.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>3000</td></tr><tr><td>minimumValue</td><td>1900</td></tr><tr><td>sourceName</td><td>msiati_fssphaseoutyear</td></tr></table>
 
 #### Traits
 
@@ -2673,7 +2921,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates if the partner country is a priority partner country.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msiati_fsspriority</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Indicates if the partner country is a priority partner country.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msiati_fsspriority</td></tr></table>
 
 #### Traits
 
@@ -2699,7 +2947,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hierarchy Level</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>msiati_herarchylevel</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hierarchy Level</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>sourceName</td><td>msiati_herarchylevel</td></tr></table>
 
 #### Traits
 
@@ -2729,7 +2977,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Humanitarian Scope</td></tr><tr><td>description</td><td>Indicates if the delivery framework is related to a humanitarian event</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msiati_humanitarianscope</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Humanitarian Scope</td></tr><tr><td>description</td><td>Indicates if the delivery framework is related to a humanitarian event</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msiati_humanitarianscope</td></tr></table>
 
 #### Traits
 
@@ -2756,7 +3004,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IATI Activity Id</td></tr><tr><td>description</td><td>This element contains the official IATI identifier for an entity (delivery framework or organization)</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_iatiactivityid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IATI Activity Id</td></tr><tr><td>description</td><td>This element contains the official IATI identifier for an entity (delivery framework or organization)</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_iatiactivityid</td></tr></table>
 
 #### Traits
 
@@ -2789,7 +3037,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ScopeId</td></tr><tr><td>description</td><td>The geographical scope.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_scopeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ScopeId</td></tr><tr><td>description</td><td>The geographical scope.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_scopeid</td></tr></table>
 
 #### Traits
 
@@ -2831,7 +3079,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Secondary Reporter</td></tr><tr><td>description</td><td>A flag indicating that the reporting organization of the delivery framework is acting as a secondary reporter</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msiati_secondaryreporter</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Secondary Reporter</td></tr><tr><td>description</td><td>A flag indicating that the reporting organization of the delivery framework is acting as a secondary reporter</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msiati_secondaryreporter</td></tr></table>
 
 #### Traits
 
@@ -2858,7 +3106,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Account</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_account</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Account</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msnfp_account</td></tr></table>
 
 #### Traits
 
@@ -2900,7 +3148,7 @@ First included in: nonProfitIati/DeliveryFramework (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
 
 #### Traits
 

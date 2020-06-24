@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/24/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,7 @@ A person or organization that either performed or has the potential to engage in
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/solutions/customerInsights<br>/CustomerProfile.cdm.json/CustomerProfile<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -180,7 +180,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -221,7 +221,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -272,7 +272,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -313,7 +313,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -364,7 +364,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -415,7 +415,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -466,7 +466,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -507,7 +507,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -543,7 +543,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -591,7 +591,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -632,7 +632,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -680,7 +680,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -731,7 +731,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -779,7 +779,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -818,7 +818,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -857,7 +857,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -896,7 +896,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
 
 #### Traits
 
@@ -930,7 +930,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account Number</td></tr><tr><td>description</td><td>Type an ID number or code for the customer to quickly search and identify the customer in system views.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_accountnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account Number</td></tr><tr><td>description</td><td>Type an ID number or code for the customer to quickly search and identify the customer in system views.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_accountnumber</td></tr></table>
 
 #### Traits
 
@@ -963,7 +963,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Affiliations</td></tr><tr><td>description</td><td>Different affiliations associated with the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_affiliations</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Affiliations</td></tr><tr><td>description</td><td>Different affiliations associated with the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_affiliations</td></tr></table>
 
 #### Traits
 
@@ -996,7 +996,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Alumni Of</td></tr><tr><td>description</td><td>Alumni customer is a part of.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_alumniof</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Alumni Of</td></tr><tr><td>description</td><td>Alumni customer is a part of.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_alumniof</td></tr></table>
 
 #### Traits
 
@@ -1029,7 +1029,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anniversary</td></tr><tr><td>description</td><td>Date of the customer's wedding or service anniversary for use in customer gift programs or other communications.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msdynci_anniversary</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anniversary</td></tr><tr><td>description</td><td>Date of the customer's wedding or service anniversary for use in customer gift programs or other communications.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msdynci_anniversary</td></tr></table>
 
 #### Traits
 
@@ -1060,7 +1060,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Assistant Name</td></tr><tr><td>description</td><td>Name of the customer's assistant.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_assistantname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Assistant Name</td></tr><tr><td>description</td><td>Name of the customer's assistant.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_assistantname</td></tr></table>
 
 #### Traits
 
@@ -1094,7 +1094,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Awards</td></tr><tr><td>description</td><td>List of award(s) received by the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_awards</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Awards</td></tr><tr><td>description</td><td>List of award(s) received by the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_awards</td></tr></table>
 
 #### Traits
 
@@ -1127,7 +1127,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Billing Address</td></tr><tr><td>description</td><td>Billing address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_billingaddress</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Billing Address</td></tr><tr><td>description</td><td>Billing address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_billingaddress</td></tr></table>
 
 #### Traits
 
@@ -1159,7 +1159,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birthday</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msdynci_birthdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Birthday</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msdynci_birthdate</td></tr></table>
 
 #### Traits
 
@@ -1190,7 +1190,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Children Names</td></tr><tr><td>description</td><td>Customer's children name(s).</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_childrennames</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Children Names</td></tr><tr><td>description</td><td>Customer's children name(s).</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_childrennames</td></tr></table>
 
 #### Traits
 
@@ -1224,7 +1224,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Churn Score</td></tr><tr><td>description</td><td>Churn score of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_churnscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Churn Score</td></tr><tr><td>description</td><td>Churn score of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_churnscore</td></tr></table>
 
 #### Traits
 
@@ -1258,7 +1258,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Name</td></tr><tr><td>description</td><td>Company name of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_companyname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Name</td></tr><tr><td>description</td><td>Company name of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_companyname</td></tr></table>
 
 #### Traits
 
@@ -1291,7 +1291,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_countryorregion</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_countryorregion</td></tr></table>
 
 #### Traits
 
@@ -1325,7 +1325,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Culture</td></tr><tr><td>description</td><td>The culture of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_culture</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Culture</td></tr><tr><td>description</td><td>The culture of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_culture</td></tr></table>
 
 #### Traits
 
@@ -1357,7 +1357,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_currencyname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Name</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_currencyname</td></tr></table>
 
 #### Traits
 
@@ -1391,7 +1391,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer</td></tr><tr><td>description</td><td>The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer</td></tr><tr><td>description</td><td>The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customerid</td></tr></table>
 
 #### Traits
 
@@ -1439,7 +1439,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer Type</td></tr><tr><td>description</td><td>The type of customer, either Account or Contact.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>customeridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Customer Type</td></tr><tr><td>description</td><td>The type of customer, either Account or Contact.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>customeridtype</td></tr></table>
 
 #### Traits
 
@@ -1477,7 +1477,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CustomerProfile</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdynci_customerprofileid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>CustomerProfile</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msdynci_customerprofileid</td></tr></table>
 
 #### Traits
 
@@ -1513,7 +1513,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Department</td></tr><tr><td>description</td><td>The department or business unit where the customer works in the parent company or business.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_department</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Department</td></tr><tr><td>description</td><td>The department or business unit where the customer works in the parent company or business.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_department</td></tr></table>
 
 #### Traits
 
@@ -1546,7 +1546,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Additional information to describe the customer, such as an excerpt from the company's website.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Additional information to describe the customer, such as an excerpt from the company's website.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_description</td></tr></table>
 
 #### Traits
 
@@ -1579,7 +1579,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Bulk Emails</td></tr><tr><td>description</td><td>Select whether the customer accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the customer can be added to marketing lists, but will be excluded from the email.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotbulkemail</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Bulk Emails</td></tr><tr><td>description</td><td>Select whether the customer accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the customer can be added to marketing lists, but will be excluded from the email.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotbulkemail</td></tr></table>
 
 #### Traits
 
@@ -1606,7 +1606,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Bulk Postal Mails</td></tr><tr><td>description</td><td>Select whether the customer accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the customer can be added to marketing lists, but will be excluded from the letters.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotbulkpostalmail</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Bulk Postal Mails</td></tr><tr><td>description</td><td>Select whether the customer accepts bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the customer can be added to marketing lists, but will be excluded from the letters.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotbulkpostalmail</td></tr></table>
 
 #### Traits
 
@@ -1633,7 +1633,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not Contact</td></tr><tr><td>description</td><td>Select whether the customer allows direct contact from Microsoft Dynamics 365 Customer Insights. If Do Not Contact is selected, Microsoft Dynamics 365 Customer Insights will not contact the customer.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotcontact</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not Contact</td></tr><tr><td>description</td><td>Select whether the customer allows direct contact from Microsoft Dynamics 365 Customer Insights. If Do Not Contact is selected, Microsoft Dynamics 365 Customer Insights will not contact the customer.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotcontact</td></tr></table>
 
 #### Traits
 
@@ -1660,7 +1660,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Emails</td></tr><tr><td>description</td><td>Select whether the customer allows direct email sent from Microsoft Dynamics 365 Customer Insights. If Do Not Allow is selected, Microsoft Dynamics 365 Customer Insights will not send the email.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotemail</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Emails</td></tr><tr><td>description</td><td>Select whether the customer allows direct email sent from Microsoft Dynamics 365 Customer Insights. If Do Not Allow is selected, Microsoft Dynamics 365 Customer Insights will not send the email.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotemail</td></tr></table>
 
 #### Traits
 
@@ -1687,7 +1687,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Faxes</td></tr><tr><td>description</td><td>Select whether the customer allows faxes. If Do Not Allow is selected, the customer will be excluded from any fax activities distributed in marketing campaigns.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotfax</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Faxes</td></tr><tr><td>description</td><td>Select whether the customer allows faxes. If Do Not Allow is selected, the customer will be excluded from any fax activities distributed in marketing campaigns.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotfax</td></tr></table>
 
 #### Traits
 
@@ -1714,7 +1714,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Phone Calls</td></tr><tr><td>description</td><td>Select whether the customer accepts phone calls. If Do Not Allow is selected, the customer will be excluded from any phone call activities distributed in marketing campaigns.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotphone</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Phone Calls</td></tr><tr><td>description</td><td>Select whether the customer accepts phone calls. If Do Not Allow is selected, the customer will be excluded from any phone call activities distributed in marketing campaigns.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotphone</td></tr></table>
 
 #### Traits
 
@@ -1741,7 +1741,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Postal Mails</td></tr><tr><td>description</td><td>Select whether the customer allows direct mail. If Do Not Allow is selected, the customer will be excluded from letter activities distributed in marketing campaigns.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_donotpostalmail</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Do not allow Postal Mails</td></tr><tr><td>description</td><td>Select whether the customer allows direct mail. If Do Not Allow is selected, the customer will be excluded from letter activities distributed in marketing campaigns.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_donotpostalmail</td></tr></table>
 
 #### Traits
 
@@ -1768,7 +1768,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Education Code</td></tr><tr><td>description</td><td>Highest level of education of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_educationcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Education Code</td></tr><tr><td>description</td><td>Highest level of education of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_educationcode</td></tr></table>
 
 #### Traits
 
@@ -1801,7 +1801,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Employee Identifier</td></tr><tr><td>description</td><td>The employee ID or number for the customer for reference in orders, service cases, or other communications with the customer's organization.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_employeeidentifier</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Employee Identifier</td></tr><tr><td>description</td><td>The employee ID or number for the customer for reference in orders, service cases, or other communications with the customer's organization.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_employeeidentifier</td></tr></table>
 
 #### Traits
 
@@ -1834,7 +1834,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Employment Start Date</td></tr><tr><td>description</td><td>Employment start date of the customer for reference in with the customer's organization.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msdynci_employmentstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Employment Start Date</td></tr><tr><td>description</td><td>Employment start date of the customer for reference in with the customer's organization.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msdynci_employmentstartdate</td></tr></table>
 
 #### Traits
 
@@ -1865,7 +1865,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Engagement Score</td></tr><tr><td>description</td><td>Engagement score of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_engagementscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Engagement Score</td></tr><tr><td>description</td><td>Engagement score of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_engagementscore</td></tr></table>
 
 #### Traits
 
@@ -1899,7 +1899,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facebook Profile</td></tr><tr><td>description</td><td>Facebook profile url of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_facebookprofile</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facebook Profile</td></tr><tr><td>description</td><td>Facebook profile url of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_facebookprofile</td></tr></table>
 
 #### Traits
 
@@ -1931,7 +1931,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Family Status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_familystatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Family Status</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msdynci_familystatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single</td><td>647430000</td></tr><tr><td>en</td><td>Married</td><td>647430001</td></tr><tr><td>en</td><td>Divorced</td><td>647430002</td></tr><tr><td>en</td><td>Widowed</td><td>647430003</td></tr><tr><td>en</td><td>Other</td><td>647430004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1963,7 +1963,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1989,7 +1989,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fax</td></tr><tr><td>description</td><td>Fax number to send fax to the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_fax</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fax</td></tr><tr><td>description</td><td>Fax number to send fax to the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_fax</td></tr></table>
 
 #### Traits
 
@@ -2022,7 +2022,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Name</td></tr><tr><td>description</td><td>The customer's first name to make sure the customer is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_firstname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Name</td></tr><tr><td>description</td><td>The customer's first name to make sure the customer is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_firstname</td></tr></table>
 
 #### Traits
 
@@ -2056,7 +2056,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Name Pronunciation</td></tr><tr><td>description</td><td>The customer's first name pronunciation to make sure the customer is pronounced correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_firstnamepronunciation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>First Name Pronunciation</td></tr><tr><td>description</td><td>The customer's first name pronunciation to make sure the customer is pronounced correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_firstnamepronunciation</td></tr></table>
 
 #### Traits
 
@@ -2090,7 +2090,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fraud Score</td></tr><tr><td>description</td><td>Calculated fraud score of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_fraudscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fraud Score</td></tr><tr><td>description</td><td>Calculated fraud score of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_fraudscore</td></tr></table>
 
 #### Traits
 
@@ -2124,7 +2124,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>FTP Site Url</td></tr><tr><td>description</td><td>The URL for the contact's FTP site to enable users to access data and share documents.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_ftpsiteurl</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>FTP Site Url</td></tr><tr><td>description</td><td>The URL for the contact's FTP site to enable users to access data and share documents.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_ftpsiteurl</td></tr></table>
 
 #### Traits
 
@@ -2158,7 +2158,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GamerTag</td></tr><tr><td>description</td><td>The gamertag from the Xbox world of the  customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_gamertag</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>GamerTag</td></tr><tr><td>description</td><td>The gamertag from the Xbox world of the  customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_gamertag</td></tr></table>
 
 #### Traits
 
@@ -2191,7 +2191,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>The customer's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_gender</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>The customer's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msdynci_gender</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Male</td><td>647430000</td></tr><tr><td>en</td><td>Female</td><td>647430001</td></tr><tr><td>en</td><td>Unidentified</td><td>647430002</td></tr><tr><td>en</td><td>Choose Not To Identify</td><td>647430003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2223,7 +2223,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2249,7 +2249,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Has Children</td></tr><tr><td>description</td><td>Specify whether the customer has any children for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_haschildren</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Has Children</td></tr><tr><td>description</td><td>Specify whether the customer has any children for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_haschildren</td></tr></table>
 
 #### Traits
 
@@ -2276,7 +2276,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Has Pets</td></tr><tr><td>description</td><td>Specify whether the customer has any pets for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_haspets</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Has Pets</td></tr><tr><td>description</td><td>Specify whether the customer has any pets for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_haspets</td></tr></table>
 
 #### Traits
 
@@ -2303,7 +2303,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hobbies</td></tr><tr><td>description</td><td>List down the hobbies of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_hobbies</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Hobbies</td></tr><tr><td>description</td><td>List down the hobbies of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_hobbies</td></tr></table>
 
 #### Traits
 
@@ -2336,7 +2336,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Home Ownership Type</td></tr><tr><td>description</td><td>Specify the type of home owned by the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_homeownershiptype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Home Ownership Type</td></tr><tr><td>description</td><td>Specify the type of home owned by the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_homeownershiptype</td></tr></table>
 
 #### Traits
 
@@ -2369,7 +2369,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Home Phone</td></tr><tr><td>description</td><td>Home phone number for this customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_homephone</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Home Phone</td></tr><tr><td>description</td><td>Home phone number for this customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_homephone</td></tr></table>
 
 #### Traits
 
@@ -2403,7 +2403,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the customer's primary industry for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the customer's primary industry for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msdynci_industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Vehicle Retail</td><td>647430000</td></tr><tr><td>en</td><td>Accounting</td><td>647430001</td></tr><tr><td>en</td><td>Wholesale</td><td>647430002</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>647430003</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>647430004</td></tr><tr><td>en</td><td>Brokers</td><td>647430005</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>647430006</td></tr><tr><td>en</td><td>Business Services</td><td>647430007</td></tr><tr><td>en</td><td>Consulting</td><td>647430008</td></tr><tr><td>en</td><td>Consumer Services</td><td>647430009</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>647430010</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>647430011</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>647430012</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>647430013</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>647430014</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>647430015</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>647430016</td></tr><tr><td>en</td><td>Financial</td><td>647430017</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>647430018</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>647430019</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>647430020</td></tr><tr><td>en</td><td>Insurance</td><td>647430021</td></tr><tr><td>en</td><td>Legal Services</td><td>647430022</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>647430023</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>647430024</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>647430025</td></tr><tr><td>en</td><td>Service Retail</td><td>647430026</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>647430027</td></tr><tr><td>en</td><td>Social Services</td><td>647430028</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>647430029</td></tr><tr><td>en</td><td>Specialty Realty</td><td>647430030</td></tr><tr><td>en</td><td>Transportation</td><td>647430031</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>647430032</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2435,7 +2435,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2461,7 +2461,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Influencer Score</td></tr><tr><td>description</td><td>Calculated influencer score of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_influencerscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Influencer Score</td></tr><tr><td>description</td><td>Calculated influencer score of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_influencerscore</td></tr></table>
 
 #### Traits
 
@@ -2495,7 +2495,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Instagram Handle</td></tr><tr><td>description</td><td>Instagram handle of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_instagramhandle</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Instagram Handle</td></tr><tr><td>description</td><td>Instagram handle of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_instagramhandle</td></tr></table>
 
 #### Traits
 
@@ -2528,7 +2528,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interests</td></tr><tr><td>description</td><td>List down all the interests of this customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_interests</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interests</td></tr><tr><td>description</td><td>List down all the interests of this customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_interests</td></tr></table>
 
 #### Traits
 
@@ -2561,7 +2561,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Government</td></tr><tr><td>description</td><td>Specify if the customer belongs to or works for government.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_isgovernment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Government</td></tr><tr><td>description</td><td>Specify if the customer belongs to or works for government.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_isgovernment</td></tr></table>
 
 #### Traits
 
@@ -2587,7 +2587,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Lead</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_islead</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Lead</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_islead</td></tr></table>
 
 #### Traits
 
@@ -2614,7 +2614,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Public Sector</td></tr><tr><td>description</td><td>Specify if the customer works in public sector.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msdynci_ispublicsector</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Public Sector</td></tr><tr><td>description</td><td>Specify if the customer works in public sector.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msdynci_ispublicsector</td></tr></table>
 
 #### Traits
 
@@ -2641,7 +2641,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Job Title</td></tr><tr><td>description</td><td>The job title of the customer to make sure the customer is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_jobtitle</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Job Title</td></tr><tr><td>description</td><td>The job title of the customer to make sure the customer is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_jobtitle</td></tr></table>
 
 #### Traits
 
@@ -2674,7 +2674,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Known Since</td></tr><tr><td>description</td><td>Specify the date since when the customer is known.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msdynci_knownsince</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Known Since</td></tr><tr><td>description</td><td>Specify the date since when the customer is known.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msdynci_knownsince</td></tr></table>
 
 #### Traits
 
@@ -2705,7 +2705,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>Specify the language(s) the customer can interact with.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_language</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Language</td></tr><tr><td>description</td><td>Specify the language(s) the customer can interact with.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_language</td></tr></table>
 
 #### Traits
 
@@ -2738,7 +2738,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Name</td></tr><tr><td>description</td><td>The customer's last name to make sure the customer is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_lastname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Name</td></tr><tr><td>description</td><td>The customer's last name to make sure the customer is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_lastname</td></tr></table>
 
 #### Traits
 
@@ -2772,7 +2772,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Name Pronunciation</td></tr><tr><td>description</td><td>The customer's last name pronunciation to make sure the customer is pronounced correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_lastnamepronunciation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Name Pronunciation</td></tr><tr><td>description</td><td>The customer's last name pronunciation to make sure the customer is pronounced correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_lastnamepronunciation</td></tr></table>
 
 #### Traits
 
@@ -2806,7 +2806,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Life Time Value</td></tr><tr><td>description</td><td>Calculated life time value of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_lifetimevalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Life Time Value</td></tr><tr><td>description</td><td>Calculated life time value of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_lifetimevalue</td></tr></table>
 
 #### Traits
 
@@ -2840,7 +2840,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Profile</td></tr><tr><td>description</td><td>LinkedIn profile url of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_linkedinprofile</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LinkedIn Profile</td></tr><tr><td>description</td><td>LinkedIn profile url of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_linkedinprofile</td></tr></table>
 
 #### Traits
 
@@ -2873,7 +2873,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mailing Address</td></tr><tr><td>description</td><td>Mailing address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_mailingaddress</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mailing Address</td></tr><tr><td>description</td><td>Mailing address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_mailingaddress</td></tr></table>
 
 #### Traits
 
@@ -2906,7 +2906,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Middle Name</td></tr><tr><td>description</td><td>The customer's middle name or initial to make sure the customer is addressed correctly.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_middlename</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Middle Name</td></tr><tr><td>description</td><td>The customer's middle name or initial to make sure the customer is addressed correctly.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_middlename</td></tr></table>
 
 #### Traits
 
@@ -2940,7 +2940,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Middle Name Pronunciation</td></tr><tr><td>description</td><td>The customer's middle name or initial pronunciation to make sure the customer is pronounced correctly.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_middlenamepronunciation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Middle Name Pronunciation</td></tr><tr><td>description</td><td>The customer's middle name or initial pronunciation to make sure the customer is pronounced correctly.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_middlenamepronunciation</td></tr></table>
 
 #### Traits
 
@@ -2974,7 +2974,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mobile Phone</td></tr><tr><td>description</td><td>The mobile phone number for the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_mobilephone</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Mobile Phone</td></tr><tr><td>description</td><td>The mobile phone number for the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_mobilephone</td></tr></table>
 
 #### Traits
 
@@ -3008,7 +3008,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name Alias</td></tr><tr><td>description</td><td>Alternate name of the customer that can be used as their alias.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_namealias</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name Alias</td></tr><tr><td>description</td><td>Alternate name of the customer that can be used as their alias.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_namealias</td></tr></table>
 
 #### Traits
 
@@ -3042,7 +3042,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name Prefix</td></tr><tr><td>description</td><td>Any prefix assigned to the customer's name.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_nameprefix</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name Prefix</td></tr><tr><td>description</td><td>Any prefix assigned to the customer's name.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_nameprefix</td></tr></table>
 
 #### Traits
 
@@ -3076,7 +3076,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name Suffix</td></tr><tr><td>description</td><td>Any suffix assigned to the customer's name.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_namesuffix</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name Suffix</td></tr><tr><td>description</td><td>Any suffix assigned to the customer's name.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_namesuffix</td></tr></table>
 
 #### Traits
 
@@ -3110,7 +3110,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Nationality</td></tr><tr><td>description</td><td>Nationality of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_nationality</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Nationality</td></tr><tr><td>description</td><td>Nationality of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_nationality</td></tr></table>
 
 #### Traits
 
@@ -3143,7 +3143,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Nick Name</td></tr><tr><td>description</td><td>Nick name of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_nickname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Nick Name</td></tr><tr><td>description</td><td>Nick name of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_nickname</td></tr></table>
 
 #### Traits
 
@@ -3177,7 +3177,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notes</td></tr><tr><td>description</td><td>Any additional information about the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_notes</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Notes</td></tr><tr><td>description</td><td>Any additional information about the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_notes</td></tr></table>
 
 #### Traits
 
@@ -3210,7 +3210,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number of children</td></tr><tr><td>description</td><td>The number of children the customer has for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_numberofchildren</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Number of children</td></tr><tr><td>description</td><td>The number of children the customer has for reference in follow-up phone calls and other communications.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>100</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_numberofchildren</td></tr></table>
 
 #### Traits
 
@@ -3240,7 +3240,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pinterest Id</td></tr><tr><td>description</td><td>Pinterest identifier of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_pinterestid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pinterest Id</td></tr><tr><td>description</td><td>Pinterest identifier of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_pinterestid</td></tr></table>
 
 #### Traits
 
@@ -3273,7 +3273,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>PO Box Address</td></tr><tr><td>description</td><td>PO Box address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_poboxaddress</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>PO Box Address</td></tr><tr><td>description</td><td>PO Box address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_poboxaddress</td></tr></table>
 
 #### Traits
 
@@ -3306,7 +3306,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Postal Code</td></tr><tr><td>description</td><td>Postal code of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_postalcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Postal Code</td></tr><tr><td>description</td><td>Postal code of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_postalcode</td></tr></table>
 
 #### Traits
 
@@ -3339,7 +3339,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Call Time</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_preferredcalltime</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Call Time</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msdynci_preferredcalltime</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>647430000</td></tr><tr><td>en</td><td>Afternoon</td><td>647430001</td></tr><tr><td>en</td><td>Evening</td><td>647430002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3371,7 +3371,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3396,7 +3396,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msdynci_preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>647430000</td></tr><tr><td>en</td><td>Email</td><td>647430001</td></tr><tr><td>en</td><td>Phone</td><td>647430002</td></tr><tr><td>en</td><td>Fax</td><td>647430003</td></tr><tr><td>en</td><td>Mail</td><td>647430004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3428,7 +3428,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3454,7 +3454,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Name</td></tr><tr><td>description</td><td>Preferred name of the customer to be used in communication.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_preferredname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Name</td></tr><tr><td>description</td><td>Preferred name of the customer to be used in communication.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_preferredname</td></tr></table>
 
 #### Traits
 
@@ -3488,7 +3488,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email</td></tr><tr><td>description</td><td>Primary email address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_primaryemail</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Email</td></tr><tr><td>description</td><td>Primary email address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_primaryemail</td></tr></table>
 
 #### Traits
 
@@ -3522,7 +3522,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Phone</td></tr><tr><td>description</td><td>Primary contact phone number of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_primaryphone</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Primary Phone</td></tr><tr><td>description</td><td>Primary contact phone number of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_primaryphone</td></tr></table>
 
 #### Traits
 
@@ -3556,7 +3556,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Image</td></tr><tr><td>description</td><td>Profile image url location of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_profileimage</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Image</td></tr><tr><td>description</td><td>Profile image url location of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_profileimage</td></tr></table>
 
 #### Traits
 
@@ -3589,7 +3589,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Subtype</td></tr><tr><td>description</td><td>Profile subtype to define the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_profilesubtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Subtype</td></tr><tr><td>description</td><td>Profile subtype to define the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_profilesubtype</td></tr></table>
 
 #### Traits
 
@@ -3622,7 +3622,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Type</td></tr><tr><td>description</td><td>Profile type to define the customer.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_profiletype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Type</td></tr><tr><td>description</td><td>Profile type to define the customer.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msdynci_profiletype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact</td><td>647430000</td></tr><tr><td>en</td><td>Account</td><td>647430001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3657,7 +3657,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3683,7 +3683,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salutation</td></tr><tr><td>description</td><td>The salutation of the customer to make sure the customer is addressed correctly in sales calls, email messages, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_salutation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salutation</td></tr><tr><td>description</td><td>The salutation of the customer to make sure the customer is addressed correctly in sales calls, email messages, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_salutation</td></tr></table>
 
 #### Traits
 
@@ -3716,7 +3716,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Satisfaction Score</td></tr><tr><td>description</td><td>Calculated satisfaction score of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_satisfactionscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Satisfaction Score</td></tr><tr><td>description</td><td>Calculated satisfaction score of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_satisfactionscore</td></tr></table>
 
 #### Traits
 
@@ -3750,7 +3750,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Secondary Email</td></tr><tr><td>description</td><td>Secondary email address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_secondaryemail</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Secondary Email</td></tr><tr><td>description</td><td>Secondary email address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_secondaryemail</td></tr></table>
 
 #### Traits
 
@@ -3784,7 +3784,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sentiment Score</td></tr><tr><td>description</td><td>Calculated sentiment score of the customer.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_sentimentscore</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sentiment Score</td></tr><tr><td>description</td><td>Calculated sentiment score of the customer.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_sentimentscore</td></tr></table>
 
 #### Traits
 
@@ -3818,7 +3818,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Address</td></tr><tr><td>description</td><td>Shipping address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_shippingaddress</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Shipping Address</td></tr><tr><td>description</td><td>Shipping address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_shippingaddress</td></tr></table>
 
 #### Traits
 
@@ -3851,7 +3851,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Spouse/Partner Name</td></tr><tr><td>description</td><td>The name of the customer's spouse or partner for reference during calls, events, or other communications with the contact.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_spousename</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Spouse/Partner Name</td></tr><tr><td>description</td><td>The name of the customer's spouse or partner for reference during calls, events, or other communications with the contact.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_spousename</td></tr></table>
 
 #### Traits
 
@@ -3885,7 +3885,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>System of Origin</td></tr><tr><td>description</td><td>Origin source of the customer data.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_systemoforigin</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>System of Origin</td></tr><tr><td>description</td><td>Origin source of the customer data.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_systemoforigin</td></tr></table>
 
 #### Traits
 
@@ -3918,7 +3918,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tags</td></tr><tr><td>description</td><td>Any tags associated with the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_tags</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tags</td></tr><tr><td>description</td><td>Any tags associated with the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_tags</td></tr></table>
 
 #### Traits
 
@@ -3951,7 +3951,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Lifetime Spend Amount</td></tr><tr><td>description</td><td>Value of the Total Lifetime Spend Amount in transaction currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_totallifetimespendamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Lifetime Spend Amount</td></tr><tr><td>description</td><td>Value of the Total Lifetime Spend Amount in transaction currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_totallifetimespendamount</td></tr></table>
 
 #### Traits
 
@@ -3986,7 +3986,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Lifetime Spend Amount (Base)</td></tr><tr><td>description</td><td>Value of the Total Lifetime Spend Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_totallifetimespendamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Lifetime Spend Amount (Base)</td></tr><tr><td>description</td><td>Value of the Total Lifetime Spend Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_totallifetimespendamount_base</td></tr></table>
 
 #### Traits
 
@@ -4021,7 +4021,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Transaction Count</td></tr><tr><td>description</td><td>Value of the total number of transactions performed by the customer.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_totaltransactioncount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Transaction Count</td></tr><tr><td>description</td><td>Value of the total number of transactions performed by the customer.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_totaltransactioncount</td></tr></table>
 
 #### Traits
 
@@ -4051,7 +4051,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Twitter Handle</td></tr><tr><td>description</td><td>Twitter account name / handle of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_twitterhandle</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Twitter Handle</td></tr><tr><td>description</td><td>Twitter account name / handle of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_twitterhandle</td></tr></table>
 
 #### Traits
 
@@ -4084,7 +4084,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of the customer profile for manual tracking.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_version</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version</td></tr><tr><td>description</td><td>Denotes latest version of the customer profile for manual tracking.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>sourceName</td><td>msdynci_version</td></tr></table>
 
 #### Traits
 
@@ -4117,7 +4117,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Website Url</td></tr><tr><td>description</td><td>Website url to identify the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_websiteurl</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Website Url</td></tr><tr><td>description</td><td>Website url to identify the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_websiteurl</td></tr></table>
 
 #### Traits
 
@@ -4151,7 +4151,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Work Address</td></tr><tr><td>description</td><td>Work address of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_workaddress</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Work Address</td></tr><tr><td>description</td><td>Work address of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msdynci_workaddress</td></tr></table>
 
 #### Traits
 
@@ -4184,7 +4184,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Work Phone</td></tr><tr><td>description</td><td>Work phone number of the customer.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_workphone</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Work Phone</td></tr><tr><td>description</td><td>Work phone number of the customer.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msdynci_workphone</td></tr></table>
 
 #### Traits
 
@@ -4218,7 +4218,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the CustomerProfile</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the CustomerProfile</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4253,7 +4253,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4279,7 +4279,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the CustomerProfile</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the CustomerProfile</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4314,7 +4314,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4340,7 +4340,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
 
 #### Traits
 

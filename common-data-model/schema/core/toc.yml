@@ -340,58 +340,674 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
+            - name: AccountType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AccountType.md
+            - name: ActivityDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinition.md
+            - name: ActivityDefinitionBodySite 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionBodySite.md
+            - name: ActivityDefinitionContact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionContact.md
+            - name: ActivityDefinitionContributor 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionContributor.md
+            - name: ActivityDefinitionContributorContact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionContributorContact.md
+            - name: ActivityDefinitionDosage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionDosage.md
+            - name: ActivityDefinitionDynamicValue 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionDynamicValue.md
+            - name: ActivityDefinitionJurisdiction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionJurisdiction.md
+            - name: ActivityDefinitionLibrary 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionLibrary.md
+            - name: ActivityDefinitionParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionParticipant.md
+            - name: ActivityDefinitionRelatedArtifact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionRelatedArtifact.md
+            - name: ActivityDefinitionTopic 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionTopic.md
+            - name: ActivityDefinitionUseContext 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionUseContext.md
+            - name: AdditionalName 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AdditionalName.md
             - name: Address 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.md
             - name: AllergyIntolerance 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.md
+            - name: AppointmentEMR 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMR.md
+            - name: AppointmentEMRIndication 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRIndication.md
+            - name: AppointmentEMRParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRParticipant.md
+            - name: AppointmentEMRReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRReason.md
+            - name: AppointmentEMRReferralRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRReferralRequest.md
+            - name: AppointmentEMRRequestedPeriod 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRRequestedPeriod.md
+            - name: AppointmentEMRServiceType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRServiceType.md
+            - name: AppointmentEMRSlot 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRSlot.md
+            - name: AppointmentEMRSpecialty 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRSpecialty.md
+            - name: AppointmentServiceCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentServiceCategory.md
+            - name: BodySite 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/BodySite.md
             - name: CarePlan 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.md
+            - name: CarePlanActivity 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivity.md
+            - name: CarePlanActivityGoal 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityGoal.md
+            - name: CarePlanActivityOutcome 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityOutcome.md
+            - name: CarePlanActivityOutcomeReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityOutcomeReference.md
+            - name: CarePlanActivityPerformer 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityPerformer.md
+            - name: CarePlanActivityReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityReason.md
+            - name: CarePlanActivityReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityReasonCode.md
+            - name: CarePlanActivityReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityReasonReference.md
+            - name: CarePlanAddresses 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanAddresses.md
+            - name: CarePlanAuthor 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanAuthor.md
+            - name: CarePlanBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanBasedOn.md
+            - name: CarePlanCareTeam 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanCareTeam.md
+            - name: CarePlanCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanCategory.md
+            - name: CarePlanDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanDefinition.md
             - name: CarePlanGoal 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.md
+            - name: CarePlanGoalMeasure 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoalMeasure.md
+            - name: CarePlanGoalOutcome 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoalOutcome.md
+            - name: CarePlanPartOf 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanPartOf.md
+            - name: CarePlanReplace 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanReplace.md
+            - name: CarePlanSupportInfo 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanSupportInfo.md
             - name: CareTeam 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.md
+            - name: CareTeamCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamCategory.md
+            - name: CareTeamManagingOrganization 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamManagingOrganization.md
             - name: CareTeamParticipant 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.md
+            - name: CareTeamParticipantRole 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipantRole.md
+            - name: CareTeamReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamReasonCode.md
+            - name: CareTeamReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamReasonReference.md
+            - name: ClinicalImpression 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpression.md
+            - name: ClinicalImpressionAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionAction.md
+            - name: ClinicalImpressionFinding 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionFinding.md
+            - name: ClinicalImpressionInvestigation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionInvestigation.md
+            - name: ClinicalImpressionInvestigationItem 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionInvestigationItem.md
+            - name: ClinicalImpressionProblem 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionProblem.md
+            - name: ClinicalImpressionPrognosis 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionPrognosis.md
+            - name: ClinicalImpressionProtocol 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionProtocol.md
             - name: CodeableConcept 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.md
+            - name: Communication 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Communication.md
+            - name: CommunicationRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequest.md
+            - name: CommunicationRequestBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestBasedOn.md
+            - name: CommunicationRequestCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestCategory.md
+            - name: CommunicationRequestMedium 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestMedium.md
+            - name: CommunicationRequestPayload 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestPayload.md
+            - name: CommunicationRequestReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestReason.md
+            - name: CommunicationRequestReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestReasonReference.md
+            - name: CommunicationRequestRecipient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestRecipient.md
+            - name: CommunicationRequestReplace 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestReplace.md
+            - name: CommunicationRequestTopic 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestTopic.md
             - name: Condition 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.md
+            - name: ConditionBodySite 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionBodySite.md
+            - name: ConditionCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionCategory.md
+            - name: ConditionEvidence 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionEvidence.md
+            - name: ConditionStage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionStage.md
             - name: Contact 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md
+            - name: ContactLink 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ContactLink.md
+            - name: DataReqCodeFilterValueCodeableConcept 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataReqCodeFilterValueCodeableConcept.md
+            - name: DataRequirement 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirement.md
+            - name: DataRequirementCodeFilter 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementCodeFilter.md
+            - name: DataRequirementCodeFilterValueCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementCodeFilterValueCode.md
+            - name: DataRequirementCodeFilterValueCoding 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementCodeFilterValueCoding.md
+            - name: DataRequirementDateFilter 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementDateFilter.md
+            - name: DataRequirementMustSupport 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementMustSupport.md
+            - name: DataRequirementProfile 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementProfile.md
             - name: Device 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.md
-            - name: EmrAppointment 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EmrAppointment.md
+            - name: DeviceCalibration 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceCalibration.md
+            - name: DeviceComponent 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceComponent.md
+            - name: DeviceComponentOperationalStatus 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceComponentOperationalStatus.md
+            - name: DeviceComponentProductionSpecification 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceComponentProductionSpecification.md
+            - name: DeviceContactPoint 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceContactPoint.md
+            - name: DeviceMetric 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceMetric.md
+            - name: DeviceMetricType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceMetricType.md
+            - name: DeviceRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequest.md
+            - name: DeviceRequestBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestBasedOn.md
+            - name: DeviceRequestDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestDefinition.md
+            - name: DeviceRequestPriorRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestPriorRequest.md
+            - name: DeviceRequestReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestReasonCode.md
+            - name: DeviceRequestReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestReasonReference.md
+            - name: DeviceRequestRelevantHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestRelevantHistory.md
+            - name: DeviceRequestSupportingInfo 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestSupportingInfo.md
+            - name: DeviceSafety 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceSafety.md
+            - name: DeviceStatus 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceStatus.md
+            - name: Dosage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Dosage.md
+            - name: DosageAddInstruction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DosageAddInstruction.md
             - name: Encounter 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.md
+            - name: EncounterAccount 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterAccount.md
+            - name: EncounterClassHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterClassHistory.md
+            - name: EncounterDiagnosis 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterDiagnosis.md
+            - name: EncounterEpisodeOfCare 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterEpisodeOfCare.md
+            - name: EncounterHospitalizationArrangement 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterHospitalizationArrangement.md
+            - name: EncounterHospitalizationCourtesy 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterHospitalizationCourtesy.md
+            - name: EncounterHospitalizationDiet 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterHospitalizationDiet.md
+            - name: EncounterLocation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterLocation.md
+            - name: EncounterParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterParticipant.md
+            - name: EncounterParticipantType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterParticipantType.md
+            - name: EncounterReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterReason.md
+            - name: EncounterReferralRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterReferralRequest.md
+            - name: EncounterStatusHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterStatusHistory.md
+            - name: EncounterType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterType.md
+            - name: Endpoint 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Endpoint.md
+            - name: EndpointContact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointContact.md
+            - name: EndpointHeader 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointHeader.md
+            - name: EndpointPayloadMimeType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointPayloadMimeType.md
+            - name: EndpointPayloadType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointPayloadType.md
             - name: EpisodeOfCare 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.md
+            - name: EpisodeOfCareAccount 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareAccount.md
+            - name: EpisodeOfCareCareTeam 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareCareTeam.md
+            - name: EpisodeOfCareDiagnosis 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareDiagnosis.md
+            - name: EpisodeOfCareHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareHistory.md
+            - name: EpisodeOfCareReferralRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareReferralRequest.md
+            - name: EpisodeOfCareType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareType.md
+            - name: FamilyMemberHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistory.md
+            - name: FamilyMemberHistoryCondition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryCondition.md
+            - name: FamilyMemberHistoryDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryDefinition.md
+            - name: FamilyMemberHistoryReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryReason.md
+            - name: FamilyMemberHistoryReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryReasonReference.md
+            - name: Goal 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Goal.md
+            - name: GoalAddresses 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalAddresses.md
+            - name: GoalCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalCategory.md
+            - name: GoalOutcome 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalOutcome.md
+            - name: GoalOutcomeReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalOutcomeReference.md
             - name: HealthcareService 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.md
+            - name: HealthcareServiceAvailableTime 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceAvailableTime.md
+            - name: HealthcareServiceCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceCategory.md
+            - name: HealthcareServiceCharacteristic 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceCharacteristic.md
+            - name: HealthcareServiceCoverageArea 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceCoverageArea.md
+            - name: HealthcareServiceEndpoint 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceEndpoint.md
+            - name: HealthcareServiceLocation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceLocation.md
+            - name: HealthcareServiceProgramName 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceProgramName.md
+            - name: HealthcareServiceProvision 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceProvision.md
+            - name: HealthcareServiceReferralMethod 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceReferralMethod.md
+            - name: HealthcareServiceSpecialty 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceSpecialty.md
+            - name: HealthcareServiceTelecom 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceTelecom.md
             - name: Location 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.md
+            - name: LocationEndPoint 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/LocationEndPoint.md
+            - name: LocationTelecom 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/LocationTelecom.md
+            - name: MedicalIdentifier 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicalIdentifier.md
+            - name: Medication 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Medication.md
             - name: MedicationAdministration 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.md
+            - name: MedicationAdministrationDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationDefinition.md
+            - name: MedicationAdministrationDevice 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationDevice.md
+            - name: MedicationAdministrationEventHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationEventHistory.md
+            - name: MedicationAdministrationPartOf 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationPartOf.md
+            - name: MedicationAdministrationPerformer 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationPerformer.md
+            - name: MedicationAdministrationReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationReasonCode.md
+            - name: MedicationAdministrationReasonNotGiven 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationReasonNotGiven.md
+            - name: MedicationAdministrationReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationReasonReference.md
+            - name: MedicationAdministrationSupportingInformation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationSupportingInformation.md
+            - name: MedicationCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationCode.md
+            - name: MedicationForm 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationForm.md
+            - name: MedicationImage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationImage.md
+            - name: MedicationIngredient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationIngredient.md
+            - name: MedicationPackageBatch 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationPackageBatch.md
+            - name: MedicationPackageContent 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationPackageContent.md
             - name: MedicationRequest 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.md
+            - name: MedicationRequestBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestBasedOn.md
+            - name: MedicationRequestDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestDefinition.md
+            - name: MedicationRequestDetectedIssue 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestDetectedIssue.md
+            - name: MedicationRequestDosageInstruction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestDosageInstruction.md
+            - name: MedicationRequestEventHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestEventHistory.md
+            - name: MedicationRequestReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestReasonCode.md
+            - name: MedicationRequestReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestReasonReference.md
+            - name: MedicationRequestSupportingInfo 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestSupportingInfo.md
+            - name: NutritionOrder 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrder.md
+            - name: NutritionOrderAllergyIntolerance 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderAllergyIntolerance.md
+            - name: NutritionOrderEnteralFormulaAdministration 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderEnteralFormulaAdministration.md
+            - name: NutritionOrderExcludeFoodModifier 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderExcludeFoodModifier.md
+            - name: NutritionOrderFoodPreferenceModifier 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderFoodPreferenceModifier.md
+            - name: NutritionOrderOralDietFluidConsistencyType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietFluidConsistencyType.md
+            - name: NutritionOrderOralDietNutrient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietNutrient.md
+            - name: NutritionOrderOralDietSchedule 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietSchedule.md
+            - name: NutritionOrderOralDietTexture 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietTexture.md
+            - name: NutritionOrderOralDietType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietType.md
+            - name: NutritionOrderSupplement 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderSupplement.md
+            - name: NutritionOrderSupplementSchedule 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderSupplementSchedule.md
             - name: Observation 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.md
+            - name: ObservationBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationBasedOn.md
+            - name: ObservationCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationCategory.md
+            - name: ObservationCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationCode.md
+            - name: ObservationComponent 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationComponent.md
+            - name: ObservationComponentReferenceRange 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationComponentReferenceRange.md
+            - name: ObservationInterpretation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationInterpretation.md
+            - name: ObservationMethod 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationMethod.md
+            - name: ObservationPerformer 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationPerformer.md
+            - name: ObservationReferenceRange 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationReferenceRange.md
+            - name: ObservationReferenceRangeAppliesTo 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationReferenceRangeAppliesTo.md
+            - name: ObservationRelatedResource 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationRelatedResource.md
+            - name: PlanDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinition.md
+            - name: PlanDefinitionAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionAction.md
+            - name: PlanDefinitionActionAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionAction.md
+            - name: PlanDefinitionActionArtifact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionArtifact.md
+            - name: PlanDefinitionActionCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionCode.md
+            - name: PlanDefinitionActionCondition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionCondition.md
+            - name: PlanDefinitionActionDynamicValue 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionDynamicValue.md
+            - name: PlanDefinitionActionGoal 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionGoal.md
+            - name: PlanDefinitionActionInput 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionInput.md
+            - name: PlanDefinitionActionOutput 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionOutput.md
+            - name: PlanDefinitionActionReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionReason.md
+            - name: PlanDefinitionActionRelatedAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionRelatedAction.md
+            - name: PlanDefinitionActionTriggerDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionTriggerDefinition.md
+            - name: PlanDefinitionArtifact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionArtifact.md
+            - name: PlanDefinitionContributor 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionContributor.md
+            - name: PlanDefinitionContributorContact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionContributorContact.md
+            - name: PlanDefinitionGoal 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoal.md
+            - name: PlanDefinitionGoalAddresses 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoalAddresses.md
+            - name: PlanDefinitionGoalArtifact 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoalArtifact.md
+            - name: PlanDefinitionGoalTarget 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoalTarget.md
+            - name: PlanDefinitionJurisdiction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionJurisdiction.md
+            - name: PlanDefinitionLibrary 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionLibrary.md
+            - name: PlanDefinitionParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionParticipant.md
+            - name: PlanDefinitionTopic 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionTopic.md
+            - name: PlanDefinitionUseContext 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionUseContext.md
             - name: PractitionerQualification 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.md
             - name: PractitionerRole 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.md
+            - name: PractitionerRoleAvailableTime 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleAvailableTime.md
+            - name: PractitionerRoleCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleCode.md
+            - name: PractitionerRoleEndPoint 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleEndPoint.md
+            - name: PractitionerRoleHealthcareService 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleHealthcareService.md
+            - name: PractitionerRoleLocation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleLocation.md
+            - name: PractitionerRoleSpecialty 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleSpecialty.md
+            - name: PractitionerRoleTelecom 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleTelecom.md
+            - name: PractitionerSpecialty 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerSpecialty.md
             - name: Procedure 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.md
-            - name: Product 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md
+            - name: ProcedureBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureBasedOn.md
+            - name: ProcedureBodySite 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureBodySite.md
+            - name: ProcedureCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureCode.md
+            - name: ProcedureComplication 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureComplication.md
+            - name: ProcedureComplicationDetail 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureComplicationDetail.md
+            - name: ProcedureDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureDefinition.md
+            - name: ProcedureFocalDevice 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureFocalDevice.md
+            - name: ProcedureFollowUp 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureFollowUp.md
+            - name: ProcedurePartOf 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedurePartOf.md
+            - name: ProcedurePerformer 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedurePerformer.md
+            - name: ProcedureReason 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureReason.md
+            - name: ProcedureReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureReasonReference.md
+            - name: ProcedureReport 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureReport.md
+            - name: ProcedureRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequest.md
+            - name: ProcedureRequestBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestBasedOn.md
+            - name: ProcedureRequestBodySite 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestBodySite.md
+            - name: ProcedureRequestCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestCategory.md
+            - name: ProcedureRequestDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestDefinition.md
+            - name: ProcedureRequestReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestReasonCode.md
+            - name: ProcedureRequestReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestReasonReference.md
+            - name: ProcedureRequestRelevantHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestRelevantHistory.md
+            - name: ProcedureRequestReplace 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestReplace.md
+            - name: ProcedureRequestSpecimen 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestSpecimen.md
+            - name: ProcedureRequestSupportingInformation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestSupportingInformation.md
+            - name: ProcedureUsedCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureUsedCode.md
+            - name: ProcedureUsedReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureUsedReference.md
+            - name: ReferenceRangeAppliesTo 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferenceRangeAppliesTo.md
             - name: ReferralRequest 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.md
+            - name: ReferralRequestBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestBasedOn.md
+            - name: ReferralRequestDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestDefinition.md
+            - name: ReferralRequestReasonCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestReasonCode.md
+            - name: ReferralRequestReasonReference 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestReasonReference.md
+            - name: ReferralRequestRecipient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestRecipient.md
+            - name: ReferralRequestRelevantHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestRelevantHistory.md
+            - name: ReferralRequestReplace 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestReplace.md
+            - name: ReferralRequestServiceRequested 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestServiceRequested.md
+            - name: ReferralRequestSupportingInformation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestSupportingInformation.md
             - name: RelatedPerson 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.md
+            - name: RequestGroup 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroup.md
+            - name: RequestGroupAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupAction.md
+            - name: RequestGroupActionAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionAction.md
+            - name: RequestGroupActionCode 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionCode.md
+            - name: RequestGroupActionCondition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionCondition.md
+            - name: RequestGroupActionDocumentation 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionDocumentation.md
+            - name: RequestGroupActionParticipant 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionParticipant.md
+            - name: RequestGroupActionRelatedAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionRelatedAction.md
+            - name: RequestGroupBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupBasedOn.md
+            - name: RequestGroupDefinition 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupDefinition.md
+            - name: RequestGroupReplace 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupReplace.md
             - name: RiskAssessment 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.md
+            - name: RiskAssessmentBasis 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessmentBasis.md
+            - name: RiskAssessmentPrediction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessmentPrediction.md
+            - name: Schedule 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Schedule.md
+            - name: ScheduleActor 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ScheduleActor.md
+            - name: ScheduleServiceType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ScheduleServiceType.md
+            - name: ScheduleSpecialty 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ScheduleSpecialty.md
+            - name: Slot 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Slot.md
+            - name: SlotServiceType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SlotServiceType.md
+            - name: SlotSpecialty 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SlotSpecialty.md
+            - name: Specimen 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Specimen.md
+            - name: SpecimenContainer 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenContainer.md
+            - name: SpecimenParent 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenParent.md
+            - name: SpecimenProcessing 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenProcessing.md
+            - name: SpecimenProcessingAdditive 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenProcessingAdditive.md
+            - name: SpecimenRequest 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenRequest.md
+            - name: Substance 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Substance.md
+            - name: SubstanceCategory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SubstanceCategory.md
+            - name: SubstanceIngredient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SubstanceIngredient.md
+            - name: SubstanceInstance 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SubstanceInstance.md
             - name: Task 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.md
+            - name: TaskBasedOn 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskBasedOn.md
+            - name: TaskInput 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskInput.md
+            - name: TaskOutput 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskOutput.md
+            - name: TaskPartOf 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskPartOf.md
+            - name: TaskPerformerType 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskPerformerType.md
+            - name: TaskRelevantHistory 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskRelevantHistory.md
+            - name: TaskRestrictionRecipient 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskRestrictionRecipient.md
+            - name: Timing 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Timing.md
+            - name: TimingDayOfWeek 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingDayOfWeek.md
+            - name: TimingEvent 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingEvent.md
+            - name: TimingTimeOfDay 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingTimeOfDay.md
+            - name: TimingWhen 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingWhen.md
+            - name: VisionPrescription 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/VisionPrescription.md
+            - name: VisionPrescriptionDispense 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/VisionPrescriptionDispense.md
         - name: nonProfit
           items:
           - name: Summary
@@ -442,10 +1058,14 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Indicator.md
             - name: IndicatorValue 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValue.md
+            - name: IndicatorValueUsage 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/IndicatorValueUsage.md
             - name: Membership 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Membership.md
             - name: MembershipCategory 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/MembershipCategory.md
+            - name: Need 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Need.md
             - name: Objective 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Objective.md
             - name: OfacMatch 
@@ -462,6 +1082,10 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/PlannedGiving.md
             - name: Preference 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Preference.md
+            - name: ProgramItem 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItem.md
+            - name: ProgramItemRelationship 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/ProgramItemRelationship.md
             - name: Recommendation 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Recommendation.md
             - name: Report 
@@ -476,8 +1100,18 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Review.md
             - name: Salutation 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Salutation.md
+            - name: Stakeholder 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Stakeholder.md
+            - name: TheoryOfChange 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChange.md
+            - name: TheoryOfChangeRelationship 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/TheoryOfChangeRelationship.md
             - name: Transaction 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Transaction.md
+            - name: WorkItem 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItem.md
+            - name: WorkItemAction 
+              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItemAction.md
           - name: nonProfitForSales
             items:
             - name: Summary

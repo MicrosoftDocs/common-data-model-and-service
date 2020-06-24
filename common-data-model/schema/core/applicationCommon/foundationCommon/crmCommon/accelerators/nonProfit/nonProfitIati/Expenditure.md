@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/24/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,7 @@ An Expenditure represents an amount of money spent by an Organization or Deliver
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitIati<br>/Expenditure.cdm.json/Expenditure/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -107,7 +107,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -148,7 +148,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -199,7 +199,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -240,7 +240,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -291,7 +291,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -342,7 +342,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -393,7 +393,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -434,7 +434,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -470,7 +470,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -518,7 +518,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -559,7 +559,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -607,7 +607,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -658,7 +658,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -706,7 +706,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -745,7 +745,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -784,7 +784,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -823,7 +823,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
 
 #### Traits
 
@@ -856,7 +856,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Value Date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_currencyvaluedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency Value Date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_currencyvaluedate</td></tr></table>
 
 #### Traits
 
@@ -887,7 +887,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework</td></tr><tr><td>description</td><td>Unique identifier for Delivery Framework associated with Expenditure.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_deliveryframeworkid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Delivery Framework</td></tr><tr><td>description</td><td>Unique identifier for Delivery Framework associated with Expenditure.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_deliveryframeworkid</td></tr></table>
 
 #### Traits
 
@@ -929,7 +929,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>A description of the transaction.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msiati_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>A description of the transaction.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msiati_description</td></tr></table>
 
 #### Traits
 
@@ -962,7 +962,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disbursement Channel</td></tr><tr><td>description</td><td>The channel through which the funds will flow for this transaction.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_disbursementchannelid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disbursement Channel</td></tr><tr><td>description</td><td>The channel through which the funds will flow for this transaction.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_disbursementchannelid</td></tr></table>
 
 #### Traits
 
@@ -1003,7 +1003,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End Date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_enddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End Date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_enddate</td></tr></table>
 
 #### Traits
 
@@ -1034,7 +1034,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expenditure</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_expenditureid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expenditure</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_expenditureid</td></tr></table>
 
 #### Traits
 
@@ -1070,7 +1070,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Finance Type</td></tr><tr><td>description</td><td>The type of finance (e.g. grant, loan, debt relief, etc.).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_financetypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Finance Type</td></tr><tr><td>description</td><td>The type of finance (e.g. grant, loan, debt relief, etc.).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_financetypeid</td></tr></table>
 
 #### Traits
 
@@ -1112,7 +1112,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Flow Type</td></tr><tr><td>description</td><td>Whether the transaction is funded by Official Development Assistance (ODA), Other Official Flows (OOF), etc.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_flowtypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Flow Type</td></tr><tr><td>description</td><td>Whether the transaction is funded by Official Development Assistance (ODA), Other Official Flows (OOF), etc.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_flowtypeid</td></tr></table>
 
 #### Traits
 
@@ -1154,7 +1154,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Humanitarian</td></tr><tr><td>description</td><td>Indicates that this transaction relates entirely or partially to humanitarian aid.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>msiati_humanitarian</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Humanitarian</td></tr><tr><td>description</td><td>Indicates that this transaction relates entirely or partially to humanitarian aid.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>msiati_humanitarian</td></tr></table>
 
 #### Traits
 
@@ -1181,7 +1181,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_name</td></tr></table>
 
 #### Traits
 
@@ -1218,7 +1218,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization</td></tr><tr><td>description</td><td>Unique identifier for Account associated with Expenditure.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_organizationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization</td></tr><tr><td>description</td><td>Unique identifier for Account associated with Expenditure.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_organizationid</td></tr></table>
 
 #### Traits
 
@@ -1260,7 +1260,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent Expenditure</td></tr><tr><td>description</td><td>Unique identifier for Expenditure associated with Expenditure.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_parentexpenditureid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent Expenditure</td></tr><tr><td>description</td><td>Unique identifier for Expenditure associated with Expenditure.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_parentexpenditureid</td></tr></table>
 
 #### Traits
 
@@ -1302,7 +1302,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Provider Activity Identifier</td></tr><tr><td>description</td><td>If incoming funds are being provided from the budget of another activity, record the activity's unique identifier.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_provideractivityidentifier</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Provider Activity Identifier</td></tr><tr><td>description</td><td>If incoming funds are being provided from the budget of another activity, record the activity's unique identifier.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_provideractivityidentifier</td></tr></table>
 
 #### Traits
 
@@ -1335,7 +1335,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Provider Organization</td></tr><tr><td>description</td><td>The organization from which the transaction originated.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_providerorganizationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Provider Organization</td></tr><tr><td>description</td><td>The organization from which the transaction originated.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_providerorganizationid</td></tr></table>
 
 #### Traits
 
@@ -1377,7 +1377,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Activity Identifier</td></tr><tr><td>description</td><td>If outgoing funds are being provided to another activity, record the activity's unique identifier.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_recipientactivityidentifier</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Activity Identifier</td></tr><tr><td>description</td><td>If outgoing funds are being provided to another activity, record the activity's unique identifier.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_recipientactivityidentifier</td></tr></table>
 
 #### Traits
 
@@ -1410,7 +1410,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Country Description</td></tr><tr><td>description</td><td>A description of the recipient country.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msiati_recipientcountrydescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Country Description</td></tr><tr><td>description</td><td>A description of the recipient country.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msiati_recipientcountrydescription</td></tr></table>
 
 #### Traits
 
@@ -1443,7 +1443,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Country</td></tr><tr><td>description</td><td>A country that will benefit from this transaction.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_recipientcountryid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Country</td></tr><tr><td>description</td><td>A country that will benefit from this transaction.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_recipientcountryid</td></tr></table>
 
 #### Traits
 
@@ -1485,7 +1485,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Organization</td></tr><tr><td>description</td><td>The organization receiving the money from the transaction.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_recipientorganizationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Organization</td></tr><tr><td>description</td><td>The organization receiving the money from the transaction.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_recipientorganizationid</td></tr></table>
 
 #### Traits
 
@@ -1527,7 +1527,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Region Description</td></tr><tr><td>description</td><td>A description of the recipient region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msiati_recipientregiondescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Region Description</td></tr><tr><td>description</td><td>A description of the recipient region.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>sourceName</td><td>msiati_recipientregiondescription</td></tr></table>
 
 #### Traits
 
@@ -1560,7 +1560,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Region</td></tr><tr><td>description</td><td>A region that will benefit from this transaction.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_recipientregionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recipient Region</td></tr><tr><td>description</td><td>A region that will benefit from this transaction.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_recipientregionid</td></tr></table>
 
 #### Traits
 
@@ -1602,7 +1602,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference</td></tr><tr><td>description</td><td>An internal reference for this expenditure line taken from the reporting organisation’s own system.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_reference</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference</td></tr><tr><td>description</td><td>An internal reference for this expenditure line taken from the reporting organisation’s own system.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msiati_reference</td></tr></table>
 
 #### Traits
 
@@ -1635,7 +1635,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Related To</td></tr><tr><td>description</td><td>Indicates the entity to which the transaction is related.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msiati_relatedto</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>453490001</td></tr><tr><td>en</td><td>Delivery Framework</td><td>453490000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Related To</td></tr><tr><td>description</td><td>Indicates the entity to which the transaction is related.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msiati_relatedto</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Account</td><td>453490001</td></tr><tr><td>en</td><td>Delivery Framework</td><td>453490000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1667,7 +1667,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1692,7 +1692,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>sourceName</td><td>msiati_startdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>sourceName</td><td>msiati_startdate</td></tr></table>
 
 #### Traits
 
@@ -1723,7 +1723,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tied Status</td></tr><tr><td>description</td><td>Whether the aid is untied, tied, or partially tied.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msiati_tiedstatusid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tied Status</td></tr><tr><td>description</td><td>Whether the aid is untied, tied, or partially tied.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msiati_tiedstatusid</td></tr></table>
 
 #### Traits
 
@@ -1764,7 +1764,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Expenditure</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_totalexpenditure</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Expenditure</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_totalexpenditure</td></tr></table>
 
 #### Traits
 
@@ -1799,7 +1799,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Expenditure (Base)</td></tr><tr><td>description</td><td>Value of the Total Expenditure in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_totalexpenditure_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Expenditure (Base)</td></tr><tr><td>description</td><td>Value of the Total Expenditure in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msiati_totalexpenditure_base</td></tr></table>
 
 #### Traits
 
@@ -1834,7 +1834,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction Type</td></tr><tr><td>description</td><td>The type of transaction.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msiati_transactiontype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Expenditure</td><td>453490000</td></tr><tr><td>en</td><td>Interest Payment</td><td>453490001</td></tr><tr><td>en</td><td>Loan Repayment</td><td>453490002</td></tr><tr><td>en</td><td>Purchase of Equity</td><td>453490004</td></tr><tr><td>en</td><td>Reimbursement</td><td>453490003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction Type</td></tr><tr><td>description</td><td>The type of transaction.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>msiati_transactiontype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Expenditure</td><td>453490000</td></tr><tr><td>en</td><td>Interest Payment</td><td>453490001</td></tr><tr><td>en</td><td>Loan Repayment</td><td>453490002</td></tr><tr><td>en</td><td>Purchase of Equity</td><td>453490004</td></tr><tr><td>en</td><td>Reimbursement</td><td>453490003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1866,7 +1866,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1892,7 +1892,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Expenditure</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Expenditure</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1927,7 +1927,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1953,7 +1953,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Expenditure</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Expenditure</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1988,7 +1988,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2014,7 +2014,7 @@ First included in: nonProfitIati/Expenditure (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
 
 #### Traits
 

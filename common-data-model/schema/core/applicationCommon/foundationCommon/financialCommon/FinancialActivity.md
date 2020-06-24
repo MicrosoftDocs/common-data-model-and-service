@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/24/2020
 ms.author: nebanfic
 ---
 
@@ -61,7 +61,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Financial Activity ID</td></tr><tr><td>description</td><td>The surrogate key of the record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Financial Activity ID</td></tr><tr><td>description</td><td>The surrogate key of the record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -91,7 +91,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Main Account Category Key</td></tr><tr><td>description</td><td>The category of the main account for this activity, denormalized for reporting</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Main Account Category Key</td></tr><tr><td>description</td><td>The category of the main account for this activity, denormalized for reporting</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -121,7 +121,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Main Account Key</td></tr><tr><td>description</td><td>The main account containing this financial activity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Main Account Key</td></tr><tr><td>description</td><td>The main account containing this financial activity</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -151,7 +151,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which this financial activity occurred</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which this financial activity occurred</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -181,7 +181,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction Currency Key</td></tr><tr><td>description</td><td>The currency in which the source transaction occurred</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction Currency Key</td></tr><tr><td>description</td><td>The currency in which the source transaction occurred</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -211,7 +211,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Period Key</td></tr><tr><td>description</td><td>The fiscal period in which the financial activity occurred</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Calendar Period Key</td></tr><tr><td>description</td><td>The fiscal period in which the financial activity occurred</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -241,7 +241,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ledger Dimension Display Value</td></tr><tr><td>description</td><td>A denormalization of the full string representing the main account plus additional dimension values</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ledger Dimension Display Value</td></tr><tr><td>description</td><td>A denormalization of the full string representing the main account plus additional dimension values</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -268,7 +268,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction Currency Code</td></tr><tr><td>description</td><td>A denormalization of the currency code in which the source transaction occurred</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transaction Currency Code</td></tr><tr><td>description</td><td>A denormalization of the currency code in which the source transaction occurred</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -295,7 +295,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AccountingCurrencyAmount</td></tr><tr><td>description</td><td>The amount of the financial activity expressed in the accounting currency</td></tr><tr><td>dataFormat</td><td>decimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AccountingCurrencyAmount</td></tr><tr><td>description</td><td>The amount of the financial activity expressed in the accounting currency</td></tr><tr><td>dataFormat</td><td>16</td></tr></table>
 
 #### Traits
 
@@ -324,7 +324,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AccountingDate</td></tr><tr><td>description</td><td>The date on which the financial activity was recognized</td></tr><tr><td>dataFormat</td><td>date</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>AccountingDate</td></tr><tr><td>description</td><td>The date on which the financial activity was recognized</td></tr><tr><td>dataFormat</td><td>12</td></tr></table>
 
 #### Traits
 
@@ -349,7 +349,7 @@ First included in: financialCommon/FinancialActivity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ledger</td></tr><tr><td>description</td><td>The ledger containing this financial activity</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ledger</td></tr><tr><td>description</td><td>The ledger containing this financial activity</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
