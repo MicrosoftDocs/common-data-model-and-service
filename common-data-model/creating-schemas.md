@@ -822,7 +822,7 @@ cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot + "1-
 cdmCorpus.Storage.DefaultNamespace = "local";
 
 // Storage adapter pointing to the example public standards.
-// This is a fake 'cdm'; normally the CDM Standards adapter would be used to point at the real public standards.
+// This is a fake 'cdm'; normally the Common Data Model standards adapter would be used to point at the real public standards.
 // Mount it as the 'cdm' device, not the default, so that we must use "cdm:<folder-path>" to get there.
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
 
@@ -866,7 +866,7 @@ cdmCorpus.Storage.Mount("local", new LocalAdapter(@"C:\path\to\CDM\schemaDocumen
 cdmCorpus.Storage.DefaultNamespace = "local";
 
 // Storage adapter pointing to the example public standards.
-// This is a fake 'cdm'; normally the CDM Standards adapter would be used to point at the real public standards.
+// This is a fake 'cdm'; normally the Common Data Model standards adapter would be used to point at the real public standards.
 // Mount it as the 'cdm' device, not the default, so that we must use "cdm:<folder-path>" to get there.
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(@"C:\path\to\CDM\schemaDocuments"));
 
