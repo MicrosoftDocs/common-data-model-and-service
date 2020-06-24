@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/23/2020
 ms.author: nebanfic
 ---
 
@@ -49,11 +49,11 @@ Measurements and simple assertions made about a patient, device or other subject
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[createdBy](#createdBy)|Shows who created the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
@@ -64,62 +64,58 @@ Measurements and simple assertions made about a patient, device or other subject
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[observationId](#observationId)|Unique identifier for entity instances|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[stateCode](#stateCode)|Status of the Observation|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[stateCode_display](#stateCode_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[statusCode](#statusCode)|Reason for the status of the Observation|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[statusCode_display](#statusCode_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[description](#description)|The name of the custom entity.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[bodySite](#bodySite)|Indicates the site on the subject's body where the observation was made (i.e. the target site).|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[code](#code)|Describes what was observed. Sometimes this is called the observation "name".|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[bodySiteId](#bodySiteId)|Indicates the site on the subject's body where the observation was made (i.e. the target site).|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[codeId](#codeId)|Describes what was observed. Sometimes this is called the observation "name".|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[comment](#comment)|May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[conextTypeEncounter](#conextTypeEncounter)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[conextTypeEpisodeOfCare](#conextTypeEpisodeOfCare)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[conextTypeEncounterId](#conextTypeEncounterId)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[conextTypeEpisodeOfCareId](#conextTypeEpisodeOfCareId)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[contextType](#contextType)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[contextType_display](#contextType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[dataAbsentReason](#dataAbsentReason)|Provides a reason why the expected value in the element Observation.value[x] is missing.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[device](#device)|The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[dataAbsentReasonId](#dataAbsentReasonId)|Provides a reason why the expected value in the element Observation.value[x] is missing.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[description](#description)|The name of the custom entity.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceId](#deviceId)|The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[deviceType](#deviceType)|The device used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[deviceType_display](#deviceType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[deviceTypeDevice](#deviceTypeDevice)|The device used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[deviceTypeDeviceMetric](#deviceTypeDeviceMetric)|The device  metric used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceTypeDeviceId](#deviceTypeDeviceId)|The device used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[deviceTypeDeviceMetricId](#deviceTypeDeviceMetricId)|The device  metric used to generate the observation data.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[effectiveEnd](#effectiveEnd)|The  End time-period the observed value is asserted as being true. For biological subjects|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[effectiveStart](#effectiveStart)|The start time-period the observed value is asserted as being true. For biological subjects|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[effectiveType](#effectiveType)|Clinically relevant time/time-period for observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[effectiveType_display](#effectiveType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[effectiveTypeDateTime](#effectiveTypeDateTime)|Enable this field if the Effective type field is Date time.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[episodeOfCare](#episodeOfCare)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[episodeOfCareId](#episodeOfCareId)|The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[identifier](#identifier)|A unique identifier assigned to this observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[interpretation](#interpretation)|The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[interpretationId](#interpretationId)|The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[issuedDate](#issuedDate)|The date and time this observation was made available to providers, typically after the results have been reviewed and verified.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[method](#method)|Indicates the mechanism used to perform the observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[methodId](#methodId)|Indicates the mechanism used to perform the observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[observationId](#observationId)|Unique identifier for entity instances|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[observationNumber](#observationNumber)|A unique identifier assigned to this observation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[specimen](#specimen)|The specimen that was used when this observation was made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[specimenId](#specimenId)|The specimen that was used when this observation was made.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[status](#status)|The status of the result value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[status_display](#status_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[subjectType](#subjectType)|The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[subjectType_display](#subjectType_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[subjectTypeDevice](#subjectTypeDevice)|The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[subjectTypeGroup](#subjectTypeGroup)|The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[subjectTypeLocation](#subjectTypeLocation)|The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[subjectTypePatient](#subjectTypePatient)|The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypeDeviceId](#subjectTypeDeviceId)|The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypeGroupId](#subjectTypeGroupId)|The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypeLocationId](#subjectTypeLocationId)|The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[subjectTypePatientId](#subjectTypePatientId)|The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueBoolean](#valueBoolean)|The boolean information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueCodeableConcept](#valueCodeableConcept)|The codeable concept information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueCodeableConceptId](#valueCodeableConceptId)|The codeable concept information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueDateType](#valueDateType)|The date and time  information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valuePeriodEndDate](#valuePeriodEndDate)|The period end date information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valuePeriodStartDate](#valuePeriodStartDate)|The period start date information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueQuantityCode](#valueQuantityCode)|Coded form of the unit.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueQuantityCodeId](#valueQuantityCodeId)|Coded form of the unit.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueQuantitySystem](#valueQuantitySystem)|System that defines coded unit form.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueQuantityUnit](#valueQuantityUnit)|Unit representation.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRangeHighLimit](#valueRangeHighLimit)|The value high range information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRangeLowLimit](#valueRangeLowLimit)|The range low value information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueRatioDenominatorCode](#valueRatioDenominatorCode)|The denominator code information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorCodeId](#valueRatioDenominatorCodeId)|The denominator code information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioDenominatorComparator](#valueRatioDenominatorComparator)|The denominator comparator information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioDenominatorComparator_display](#valueRatioDenominatorComparator_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueratioDenominatorSystem](#valueratioDenominatorSystem)|The denominator system information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorSystem](#valueRatioDenominatorSystem)|The denominator system information determined as a result of making the observation, if the information has a simple value.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioDenominatorUnit](#valueRatioDenominatorUnit)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueratioDenominatorvalue](#valueratioDenominatorvalue)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueRatioNumeratorCode](#valueRatioNumeratorCode)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioDenominatorValue](#valueRatioDenominatorValue)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueRatioNumeratorCodeId](#valueRatioNumeratorCodeId)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorComparator](#valueRatioNumeratorComparator)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorComparator_display](#valueRatioNumeratorComparator_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorSystem](#valueRatioNumeratorSystem)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
@@ -138,6 +134,10 @@ Measurements and simple assertions made about a patient, device or other subject
 |[valueTypeQuantityComparator](#valueTypeQuantityComparator)|How the Quantity should be understood and represented.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueTypeQuantityComparator_display](#valueTypeQuantityComparator_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueTypeQuantityValue](#valueTypeQuantityValue)|Numerical value (with implicit precision).|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[stateCode](#stateCode)|Status of the Observation|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[stateCode_display](#stateCode_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[statusCode](#statusCode)|Reason for the status of the Observation|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[statusCode_display](#statusCode_display)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
@@ -146,7 +146,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -182,12 +182,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Shows who created the record.  
+Unique identifier of the user who created the record.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -215,10 +215,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -238,7 +238,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -274,12 +274,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Shows who last updated the record.  
+Unique identifier of the user who modified the record.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -307,10 +307,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -325,12 +325,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Shows who created the record on behalf of another user.  
+Unique identifier of the delegate user who created the record.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -358,10 +358,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -376,12 +376,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Shows who last updated the record on behalf of another user.  
+Unique identifier of the delegate user who modified the record.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -409,10 +409,10 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -432,7 +432,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -473,7 +473,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -509,7 +509,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -537,7 +537,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Owner Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr><tr><td><a href="../../../../../Team.md" target="_blank">/core/applicationCommon/Team.cdm.json/Team</a></td><td><a href="../../../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"ownerid"</td><td>string</td><td></td></tr></table>
@@ -557,7 +557,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -598,7 +598,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -646,7 +646,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -677,7 +677,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the user that owns the record.</td></tr><tr><td>en</td><td>Unique identifier of the user that owns the activity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../service/User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/service/User.cdm.json/User</a></td><td><a href="../../../service/User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../../User.md" target="_blank">/core/applicationCommon/User.cdm.json/User</a></td><td><a href="../../../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
@@ -697,7 +697,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -745,7 +745,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -784,7 +784,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -823,7 +823,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -855,240 +855,19 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.dataFormat.big**  
 </details>
 
-### <a href=#observationId name="observationId">observationId</a>
-
-Unique identifier for entity instances  
-First included in: electronicMedicalRecords/Observation (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msemr_observationid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the observationId attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.guid**  
-**means.identity.entityId**  
-**is.identifiedBy**  
-names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Observation/(resolvedAttributes)/observationId](#observationId)</td><td>attribute</td><td></td></tr></table>
-
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_observationid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.guid**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#stateCode name="stateCode">stateCode</a>
-
-Status of the Observation  
-First included in: electronicMedicalRecords/Observation (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Observation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the stateCode attribute are listed below.</summary>
-
-**is.dataFormat.integer**  
-**does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-**means.entityState**  
-the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Observation/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
-
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Observation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"24"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.integer**  
-</details>
-
-### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
-
-First included in: electronicMedicalRecords/Observation (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the stateCode_display attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**means.reference.displayText**  
-**is.readOnly**  
-**is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"stateCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#statusCode name="statusCode">statusCode</a>
-
-Reason for the status of the Observation  
-First included in: electronicMedicalRecords/Observation (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the statusCode attribute are listed below.</summary>
-
-**is.dataFormat.integer**  
-**does.haveDefault**  
-An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-**is.correlatedWith**  
-the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>
-
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Observation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"26"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.integer**  
-</details>
-
-### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
-
-First included in: electronicMedicalRecords/Observation (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the statusCode_display attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**means.reference.displayText**  
-**is.readOnly**  
-**is.addedInSupportOf**  
-<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"statusCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#description name="description">description</a>
-
-The name of the custom entity.  
-First included in: electronicMedicalRecords/Observation (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_description</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the description attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.requiredAtLevel**  
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_description"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
-
-### <a href=#bodySite name="bodySite">bodySite</a>
+### <a href=#bodySiteId name="bodySiteId">bodySiteId</a>
 
 Indicates the site on the subject's body where the observation was made (i.e. the target site).  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Body Site</td></tr><tr><td>description</td><td>Indicates the site on the subject's body where the observation was made (i.e. the target site).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_bodysite</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Body Site</td></tr><tr><td>description</td><td>Indicates the site on the subject's body where the observation was made (i.e. the target site).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_bodysite</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the bodySite attribute are listed below.</summary>
+<summary>List of traits for the bodySiteId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1116,27 +895,24 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_bodysite"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#code name="code">code</a>
+### <a href=#codeId name="codeId">codeId</a>
 
 Describes what was observed. Sometimes this is called the observation "name".  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Code</td></tr><tr><td>description</td><td>Describes what was observed. Sometimes this is called the observation "name".</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_code</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Code</td></tr><tr><td>description</td><td>Describes what was observed. Sometimes this is called the observation "name".</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_code</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the code attribute are listed below.</summary>
+<summary>List of traits for the codeId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1164,9 +940,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_code"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1179,7 +952,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comment</td></tr><tr><td>description</td><td>May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_comment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comment</td></tr><tr><td>description</td><td>May include statements about significant, unexpected or unreliable values, or information about the source of the value where this may be relevant to the interpretation of the result.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>256</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_comment</td></tr></table>
 
 #### Traits
 
@@ -1189,6 +962,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_comment"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"256"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1201,32 +980,23 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_comment"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"256"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#conextTypeEncounter name="conextTypeEncounter">conextTypeEncounter</a>
+### <a href=#conextTypeEncounterId name="conextTypeEncounterId">conextTypeEncounterId</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Encounter</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_conexttypeencounter</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Encounter</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_conexttypeencounter</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the conextTypeEncounter attribute are listed below.</summary>
+<summary>List of traits for the conextTypeEncounterId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1254,27 +1024,24 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_conexttypeencounter"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#conextTypeEpisodeOfCare name="conextTypeEpisodeOfCare">conextTypeEpisodeOfCare</a>
+### <a href=#conextTypeEpisodeOfCareId name="conextTypeEpisodeOfCareId">conextTypeEpisodeOfCareId</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode Of Care</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_conexttypeepisodeofcare</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode Of Care</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_conexttypeepisodeofcare</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the conextTypeEpisodeOfCare attribute are listed below.</summary>
+<summary>List of traits for the conextTypeEpisodeOfCareId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1302,9 +1069,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_conexttypeepisodeofcare"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1317,7 +1081,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Context Type</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_contexttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Encounter</td><td>935000000</td></tr><tr><td>en</td><td>Episode Of Care</td><td>935000001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Context Type</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_contexttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1331,6 +1095,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_contexttype"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1343,12 +1110,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_contexttype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -1358,7 +1119,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1377,19 +1138,19 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.array**  
 </details>
 
-### <a href=#dataAbsentReason name="dataAbsentReason">dataAbsentReason</a>
+### <a href=#dataAbsentReasonId name="dataAbsentReasonId">dataAbsentReasonId</a>
 
 Provides a reason why the expected value in the element Observation.value[x] is missing.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Data Absent Reason</td></tr><tr><td>description</td><td>Provides a reason why the expected value in the element Observation.value[x] is missing.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_dataabsentreason</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Data Absent Reason</td></tr><tr><td>description</td><td>Provides a reason why the expected value in the element Observation.value[x] is missing.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_dataabsentreason</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the dataAbsentReason attribute are listed below.</summary>
+<summary>List of traits for the dataAbsentReasonId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1417,27 +1178,63 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_dataabsentreason"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#device name="device">device</a>
+### <a href=#description name="description">description</a>
+
+The name of the custom entity.  
+First included in: electronicMedicalRecords/Observation (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_description</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the description attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_description"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#deviceId name="deviceId">deviceId</a>
 
 The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject (Device)</td></tr><tr><td>description</td><td>The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_device</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject (Device)</td></tr><tr><td>description</td><td>The device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_device</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the device attribute are listed below.</summary>
+<summary>List of traits for the deviceId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1465,9 +1262,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_device"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1480,7 +1274,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Type</td></tr><tr><td>description</td><td>The device used to generate the observation data.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device</td><td>935000000</td></tr><tr><td>en</td><td>Device Metric</td><td>935000001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Type</td></tr><tr><td>description</td><td>The device used to generate the observation data.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device</td><td>935000000</td></tr><tr><td>en</td><td>Device Metric</td><td>935000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1494,6 +1288,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_devicetype"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1506,12 +1303,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_devicetype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -1521,7 +1312,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1540,19 +1331,19 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.array**  
 </details>
 
-### <a href=#deviceTypeDevice name="deviceTypeDevice">deviceTypeDevice</a>
+### <a href=#deviceTypeDeviceId name="deviceTypeDeviceId">deviceTypeDeviceId</a>
 
 The device used to generate the observation data.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device</td></tr><tr><td>description</td><td>The device used to generate the observation data.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetypedevice</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device</td></tr><tr><td>description</td><td>The device used to generate the observation data.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetypedevice</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the deviceTypeDevice attribute are listed below.</summary>
+<summary>List of traits for the deviceTypeDeviceId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1580,27 +1371,24 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_devicetypedevice"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#deviceTypeDeviceMetric name="deviceTypeDeviceMetric">deviceTypeDeviceMetric</a>
+### <a href=#deviceTypeDeviceMetricId name="deviceTypeDeviceMetricId">deviceTypeDeviceMetricId</a>
 
 The device  metric used to generate the observation data.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Metric</td></tr><tr><td>description</td><td>The device  metric used to generate the observation data.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetypedevicemetric</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Metric</td></tr><tr><td>description</td><td>The device  metric used to generate the observation data.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_devicetypedevicemetric</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the deviceTypeDeviceMetric attribute are listed below.</summary>
+<summary>List of traits for the deviceTypeDeviceMetricId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1619,14 +1407,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The device  metric used to generate the observation data.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="DeviceMetric.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceMetric.cdm.json/DeviceMetric</a></td><td><a href="DeviceMetric.md#deviceMetricId" target="_blank">deviceMetricId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_devicetypedevicemetric"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"46"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1640,7 +1428,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective End</td></tr><tr><td>description</td><td>The  End time-period the observed value is asserted as being true. For biological subjects</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectiveend</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective End</td></tr><tr><td>description</td><td>The  End time-period the observed value is asserted as being true. For biological subjects</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectiveend</td></tr></table>
 
 #### Traits
 
@@ -1651,6 +1439,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectiveend"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1663,12 +1454,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectiveend"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
@@ -1680,7 +1465,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Start</td></tr><tr><td>description</td><td>The start time-period the observed value is asserted as being true. For biological subjects</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivestart</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Start</td></tr><tr><td>description</td><td>The start time-period the observed value is asserted as being true. For biological subjects</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivestart</td></tr></table>
 
 #### Traits
 
@@ -1691,6 +1476,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectivestart"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1703,12 +1491,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectivestart"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
@@ -1720,7 +1502,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Type</td></tr><tr><td>description</td><td>Clinically relevant time/time-period for observation.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date time</td><td>935000000</td></tr><tr><td>en</td><td>Period</td><td>935000001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Type</td></tr><tr><td>description</td><td>Clinically relevant time/time-period for observation.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date time</td><td>935000000</td></tr><tr><td>en</td><td>Period</td><td>935000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1734,6 +1516,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectivetype"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1746,12 +1531,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectivetype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -1761,7 +1540,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1787,7 +1566,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Type Date</td></tr><tr><td>description</td><td>Enable this field if the Effective type field is Date time.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivetypedatetime</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Effective Type Date</td></tr><tr><td>description</td><td>Enable this field if the Effective type field is Date time.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_effectivetypedatetime</td></tr></table>
 
 #### Traits
 
@@ -1798,6 +1577,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectivetypedatetime"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1810,29 +1592,23 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_effectivetypedatetime"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"51"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
 
-### <a href=#episodeOfCare name="episodeOfCare">episodeOfCare</a>
+### <a href=#episodeOfCareId name="episodeOfCareId">episodeOfCareId</a>
 
 The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode of Care</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_episodeofcare</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Episode of Care</td></tr><tr><td>description</td><td>The healthcare event (e.g. a patient and healthcare provider interaction) during which this observation is made.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_episodeofcare</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the episodeOfCare attribute are listed below.</summary>
+<summary>List of traits for the episodeOfCareId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1860,9 +1636,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_episodeofcare"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1875,7 +1648,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identifier</td></tr><tr><td>description</td><td>A unique identifier assigned to this observation.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_identifier</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Identifier</td></tr><tr><td>description</td><td>A unique identifier assigned to this observation.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_identifier</td></tr></table>
 
 #### Traits
 
@@ -1885,6 +1658,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_identifier"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1897,32 +1676,23 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_identifier"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#interpretation name="interpretation">interpretation</a>
+### <a href=#interpretationId name="interpretationId">interpretationId</a>
 
 The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interpretation</td></tr><tr><td>description</td><td>The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_interpretation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Interpretation</td></tr><tr><td>description</td><td>The assessment made based on the result of the observation. Intended as a simple compact code often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_interpretation</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the interpretation attribute are listed below.</summary>
+<summary>List of traits for the interpretationId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -1950,9 +1720,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_interpretation"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"54"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1965,7 +1732,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued Date</td></tr><tr><td>description</td><td>The date and time this observation was made available to providers, typically after the results have been reviewed and verified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_issueddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Issued Date</td></tr><tr><td>description</td><td>The date and time this observation was made available to providers, typically after the results have been reviewed and verified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_issueddate</td></tr></table>
 
 #### Traits
 
@@ -1976,6 +1743,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_issueddate"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1988,29 +1758,23 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_issueddate"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"55"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
 
-### <a href=#method name="method">method</a>
+### <a href=#methodId name="methodId">methodId</a>
 
 Indicates the mechanism used to perform the observation.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Method</td></tr><tr><td>description</td><td>Indicates the mechanism used to perform the observation.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_method</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Method</td></tr><tr><td>description</td><td>Indicates the mechanism used to perform the observation.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_method</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the method attribute are listed below.</summary>
+<summary>List of traits for the methodId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2038,8 +1802,44 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_method"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
+**is.dataFormat.guid**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#observationId name="observationId">observationId</a>
+
+Unique identifier for entity instances  
+First included in: electronicMedicalRecords/Observation (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msemr_observationid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the observationId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.dataFormat.guid**  
+**means.identity.entityId**  
+**is.identifiedBy**  
+names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Observation/(resolvedAttributes)/observationId](#observationId)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_observationid"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -2053,7 +1853,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Number</td></tr><tr><td>description</td><td>A unique identifier assigned to this observation.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_observationnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Number</td></tr><tr><td>description</td><td>A unique identifier assigned to this observation.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_observationnumber</td></tr></table>
 
 #### Traits
 
@@ -2063,6 +1863,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_observationnumber"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2075,32 +1881,23 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_observationnumber"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"57"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#specimen name="specimen">specimen</a>
+### <a href=#specimenId name="specimenId">specimenId</a>
 
 The specimen that was used when this observation was made.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Specimen</td></tr><tr><td>description</td><td>The specimen that was used when this observation was made.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_specimen</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Specimen</td></tr><tr><td>description</td><td>The specimen that was used when this observation was made.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_specimen</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the specimen attribute are listed below.</summary>
+<summary>List of traits for the specimenId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2119,14 +1916,14 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The specimen that was used when this observation was made.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.linkedEntity.identifier**  
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Specimen.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Specimen.cdm.json/Specimen</a></td><td><a href="Specimen.md#specimenId" target="_blank">specimenId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_specimen"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"58"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -2140,7 +1937,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status of the result value.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Registered</td><td>935000000</td></tr><tr><td>en</td><td>Preliminary</td><td>935000001</td></tr><tr><td>en</td><td>Final</td><td>935000002</td></tr><tr><td>en</td><td>Amended</td><td>935000003</td></tr><tr><td>en</td><td>Corrected</td><td>935000004</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>The status of the result value.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_status</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2154,6 +1951,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_status"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2166,12 +1966,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_status"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"59"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -2181,7 +1975,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2207,7 +2001,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Device</td><td>935000002</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Location</td><td>935000003</td></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2221,6 +2015,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_subjecttype"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2233,12 +2030,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_subjecttype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"61"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -2248,7 +2039,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2267,19 +2058,19 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.array**  
 </details>
 
-### <a href=#subjectTypeDevice name="subjectTypeDevice">subjectTypeDevice</a>
+### <a href=#subjectTypeDeviceId name="subjectTypeDeviceId">subjectTypeDeviceId</a>
 
 The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device</td></tr><tr><td>description</td><td>The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypedevice</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device</td></tr><tr><td>description</td><td>The  device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypedevice</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the subjectTypeDevice attribute are listed below.</summary>
+<summary>List of traits for the subjectTypeDeviceId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2307,27 +2098,24 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_subjecttypedevice"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"63"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#subjectTypeGroup name="subjectTypeGroup">subjectTypeGroup</a>
+### <a href=#subjectTypeGroupId name="subjectTypeGroupId">subjectTypeGroupId</a>
 
 The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Group</td></tr><tr><td>description</td><td>The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypegroup</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Group</td></tr><tr><td>description</td><td>The group whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypegroup</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the subjectTypeGroup attribute are listed below.</summary>
+<summary>List of traits for the subjectTypeGroupId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2355,27 +2143,24 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_subjecttypegroup"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"64"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#subjectTypeLocation name="subjectTypeLocation">subjectTypeLocation</a>
+### <a href=#subjectTypeLocationId name="subjectTypeLocationId">subjectTypeLocationId</a>
 
 The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypelocation</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Location</td></tr><tr><td>description</td><td>The location whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypelocation</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the subjectTypeLocation attribute are listed below.</summary>
+<summary>List of traits for the subjectTypeLocationId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2403,27 +2188,24 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_subjecttypelocation"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"65"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#subjectTypePatient name="subjectTypePatient">subjectTypePatient</a>
+### <a href=#subjectTypePatientId name="subjectTypePatientId">subjectTypePatientId</a>
 
 The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypepatient</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>The patient whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypepatient</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the subjectTypePatient attribute are listed below.</summary>
+<summary>List of traits for the subjectTypePatientId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2451,9 +2233,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_subjecttypepatient"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"66"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -2466,7 +2245,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Boolean</td></tr><tr><td>description</td><td>The boolean information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueboolean</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Boolean</td></tr><tr><td>description</td><td>The boolean information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueboolean</td></tr></table>
 
 #### Traits
 
@@ -2474,6 +2253,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 <summary>List of traits for the valueBoolean attribute are listed below.</summary>
 
 **is.dataFormat.boolean**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueboolean"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2486,28 +2268,22 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueboolean"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"67"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.boolean**  
 </details>
 
-### <a href=#valueCodeableConcept name="valueCodeableConcept">valueCodeableConcept</a>
+### <a href=#valueCodeableConceptId name="valueCodeableConceptId">valueCodeableConceptId</a>
 
 The codeable concept information determined as a result of making the observation, if the information has a simple value.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Codeable Concept</td></tr><tr><td>description</td><td>The codeable concept information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuecodeableconcept</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Codeable Concept</td></tr><tr><td>description</td><td>The codeable concept information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuecodeableconcept</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the valueCodeableConcept attribute are listed below.</summary>
+<summary>List of traits for the valueCodeableConceptId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2535,9 +2311,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuecodeableconcept"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"69"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -2550,7 +2323,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Date Time</td></tr><tr><td>description</td><td>The date and time  information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuedatetype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Date Time</td></tr><tr><td>description</td><td>The date and time  information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuedatetype</td></tr></table>
 
 #### Traits
 
@@ -2561,6 +2334,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuedatetype"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2573,12 +2349,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuedatetype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"70"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
@@ -2590,7 +2360,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Period End Date</td></tr><tr><td>description</td><td>The period end date information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueperiodenddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Period End Date</td></tr><tr><td>description</td><td>The period end date information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueperiodenddate</td></tr></table>
 
 #### Traits
 
@@ -2601,6 +2371,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueperiodenddate"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2613,12 +2386,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueperiodenddate"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"71"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
@@ -2630,7 +2397,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Period Start Date</td></tr><tr><td>description</td><td>The period start date information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueperiodstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Period Start Date</td></tr><tr><td>description</td><td>The period start date information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueperiodstartdate</td></tr></table>
 
 #### Traits
 
@@ -2641,6 +2408,9 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **means.measurement.date**  
 **is.dataFormat.time**  
 **means.measurement.time**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueperiodstartdate"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2653,29 +2423,23 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueperiodstartdate"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"72"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.time**  
 **is.dataFormat.date**  
 </details>
 
-### <a href=#valueQuantityCode name="valueQuantityCode">valueQuantityCode</a>
+### <a href=#valueQuantityCodeId name="valueQuantityCodeId">valueQuantityCodeId</a>
 
 Coded form of the unit.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity Code</td></tr><tr><td>description</td><td>Coded form of the unit.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantitycode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity Code</td></tr><tr><td>description</td><td>Coded form of the unit.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantitycode</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the valueQuantityCode attribute are listed below.</summary>
+<summary>List of traits for the valueQuantityCodeId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2703,9 +2467,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuequantitycode"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"73"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -2718,7 +2479,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity System</td></tr><tr><td>description</td><td>System that defines coded unit form.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantitysystem</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity System</td></tr><tr><td>description</td><td>System that defines coded unit form.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantitysystem</td></tr></table>
 
 #### Traits
 
@@ -2728,6 +2489,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuequantitysystem"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2740,15 +2507,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuequantitysystem"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"74"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2760,7 +2518,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity Unit</td></tr><tr><td>description</td><td>Unit representation.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantityunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Quantity Unit</td></tr><tr><td>description</td><td>Unit representation.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuequantityunit</td></tr></table>
 
 #### Traits
 
@@ -2770,6 +2528,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuequantityunit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2782,15 +2546,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuequantityunit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"75"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -2802,7 +2557,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Range High Limit</td></tr><tr><td>description</td><td>The value high range information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerangehighlimit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Range High Limit</td></tr><tr><td>description</td><td>The value high range information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerangehighlimit</td></tr></table>
 
 #### Traits
 
@@ -2810,6 +2565,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 <summary>List of traits for the valueRangeHighLimit attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerangehighlimit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2822,15 +2583,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerangehighlimit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"76"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -2841,7 +2593,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Range Low Limit</td></tr><tr><td>description</td><td>The range low value information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerangelowlimit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Range Low Limit</td></tr><tr><td>description</td><td>The range low value information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerangelowlimit</td></tr></table>
 
 #### Traits
 
@@ -2849,6 +2601,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 <summary>List of traits for the valueRangeLowLimit attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerangelowlimit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2861,31 +2619,22 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerangelowlimit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"77"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
-### <a href=#valueRatioDenominatorCode name="valueRatioDenominatorCode">valueRatioDenominatorCode</a>
+### <a href=#valueRatioDenominatorCodeId name="valueRatioDenominatorCodeId">valueRatioDenominatorCodeId</a>
 
 The denominator code information determined as a result of making the observation, if the information has a simple value.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator  Code</td></tr><tr><td>description</td><td>The denominator code information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator  Code</td></tr><tr><td>description</td><td>The denominator code information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorcode</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the valueRatioDenominatorCode attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorCodeId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -2913,9 +2662,6 @@ The attribute value may be set to NULL.
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorcode"</td><td>string</td><td></td></tr></table>
 
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"78"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -2928,7 +2674,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Comparator</td></tr><tr><td>description</td><td>The denominator comparator information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorcomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Comparator</td></tr><tr><td>description</td><td>The denominator comparator information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorcomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2942,6 +2688,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorcomparator"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -2954,12 +2703,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorcomparator"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"79"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -2969,7 +2712,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2988,23 +2731,29 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.array**  
 </details>
 
-### <a href=#valueratioDenominatorSystem name="valueratioDenominatorSystem">valueratioDenominatorSystem</a>
+### <a href=#valueRatioDenominatorSystem name="valueRatioDenominatorSystem">valueRatioDenominatorSystem</a>
 
 The denominator system information determined as a result of making the observation, if the information has a simple value.  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator System</td></tr><tr><td>description</td><td>The denominator system information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorsystem</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator System</td></tr><tr><td>description</td><td>The denominator system information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorsystem</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the valueratioDenominatorSystem attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorSystem attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorsystem"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3017,15 +2766,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorsystem"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"81"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -3036,7 +2776,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Unit</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Unit</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorunit</td></tr></table>
 
 #### Traits
 
@@ -3046,43 +2786,49 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorunit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator Unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorunit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"82"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
 
-### <a href=#valueratioDenominatorvalue name="valueratioDenominatorvalue">valueratioDenominatorvalue</a>
+### <a href=#valueRatioDenominatorValue name="valueRatioDenominatorValue">valueRatioDenominatorValue</a>
 
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Value</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Denominator Value</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valueratiodenominatorvalue</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the valueratioDenominatorvalue attribute are listed below.</summary>
+<summary>List of traits for the valueRatioDenominatorValue attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorvalue"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3090,35 +2836,29 @@ The requirement level for setting values into this attribute in CDS for Applicat
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Denominator Value</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valueratiodenominatorvalue"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"83"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
 </details>
 
-### <a href=#valueRatioNumeratorCode name="valueRatioNumeratorCode">valueRatioNumeratorCode</a>
+### <a href=#valueRatioNumeratorCodeId name="valueRatioNumeratorCodeId">valueRatioNumeratorCodeId</a>
 
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Code</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Code</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorcode</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the valueRatioNumeratorCode attribute are listed below.</summary>
+<summary>List of traits for the valueRatioNumeratorCodeId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
 **is.dataFormat.big**  
@@ -3134,6 +2874,9 @@ The requirement level for setting values into this attribute in CDS for Applicat
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="CodeableConcept.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.cdm.json/CodeableConcept</a></td><td><a href="CodeableConcept.md#codeableConceptId" target="_blank">codeableConceptId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
@@ -3142,9 +2885,6 @@ The attribute value may be set to NULL.
 
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorcode"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"84"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -3157,7 +2897,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Comparator</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorcomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Comparator</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorcomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>></td><td>935000002</td></tr><tr><td>en</td><td>>=</td><td>935000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3171,20 +2911,20 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorcomparator"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Comparator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorcomparator"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"85"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
 </details>
@@ -3195,7 +2935,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3220,7 +2960,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator  System</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorsystem</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator  System</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorsystem</td></tr></table>
 
 #### Traits
 
@@ -3230,23 +2970,23 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorsystem"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator  System</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorsystem"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"87"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -3258,7 +2998,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Unit</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Unit</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorunit</td></tr></table>
 
 #### Traits
 
@@ -3268,23 +3008,23 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorunit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorunit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"88"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -3296,7 +3036,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Value</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ratio Numerator Value</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuerationumeratorvalue</td></tr></table>
 
 #### Traits
 
@@ -3306,23 +3046,23 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorvalue"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ratio Numerator Value</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuerationumeratorvalue"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"89"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
@@ -3336,7 +3076,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" | "U" | "L"</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" | "U" | "L"</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr></table>
 
 #### Traits
 
@@ -3346,6 +3086,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypedata"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3358,15 +3104,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypedata"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"90"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.character**  
 **is.dataFormat.array**  
 </details>
@@ -3378,7 +3115,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Dimension</td></tr><tr><td>description</td><td>Number of sample points at each time point.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedimension</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Dimension</td></tr><tr><td>description</td><td>Number of sample points at each time point.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedimension</td></tr></table>
 
 #### Traits
 
@@ -3386,6 +3123,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 <summary>List of traits for the valueSampledDataTypeDimension attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypedimension"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3398,15 +3141,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypedimension"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"91"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -3417,7 +3151,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Factor</td></tr><tr><td>description</td><td>Multiply data by this before adding to origin.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypefactor</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Factor</td></tr><tr><td>description</td><td>Multiply data by this before adding to origin.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypefactor</td></tr></table>
 
 #### Traits
 
@@ -3426,6 +3160,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypefactor"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3439,15 +3179,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypefactor"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"92"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
@@ -3460,7 +3191,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Lower Limit</td></tr><tr><td>description</td><td>Lower limit of detection</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypelowerlimit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Lower Limit</td></tr><tr><td>description</td><td>Lower limit of detection</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypelowerlimit</td></tr></table>
 
 #### Traits
 
@@ -3469,6 +3200,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypelowerlimit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3482,15 +3219,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypelowerlimit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"93"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
@@ -3503,7 +3231,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Origin</td></tr><tr><td>description</td><td>Zero value and units.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeorigin</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Origin</td></tr><tr><td>description</td><td>Zero value and units.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeorigin</td></tr></table>
 
 #### Traits
 
@@ -3511,6 +3239,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 <summary>List of traits for the valueSampledDataTypeOrigin attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypeorigin"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3523,15 +3257,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypeorigin"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"94"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -3542,7 +3267,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Period</td></tr><tr><td>description</td><td>Number of milliseconds between samples.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeperiod</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Period</td></tr><tr><td>description</td><td>Number of milliseconds between samples.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeperiod</td></tr></table>
 
 #### Traits
 
@@ -3551,6 +3276,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypeperiod"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3564,15 +3295,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypeperiod"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"95"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
@@ -3585,7 +3307,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Upper Limit</td></tr><tr><td>description</td><td>Upper limit of detection.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeupperlimit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled Data Type Upper Limit</td></tr><tr><td>description</td><td>Upper limit of detection.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypeupperlimit</td></tr></table>
 
 #### Traits
 
@@ -3594,6 +3316,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypeupperlimit"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3607,15 +3335,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuesampleddatatypeupperlimit"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"96"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
@@ -3627,7 +3346,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value String</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuestring</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value String</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuestring</td></tr></table>
 
 #### Traits
 
@@ -3637,23 +3356,23 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuestring"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value String</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
 **is.nullable**  
 The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuestring"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"97"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -3666,7 +3385,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Type</td></tr><tr><td>description</td><td>The information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr><tr><td>en</td><td>String</td><td>935000002</td></tr><tr><td>en</td><td>Boolean</td><td>935000003</td></tr><tr><td>en</td><td>Range</td><td>935000004</td></tr><tr><td>en</td><td>Ratio</td><td>935000005</td></tr><tr><td>en</td><td>Sample Data</td><td>935000006</td></tr><tr><td>en</td><td>Attachment</td><td>935000007</td></tr><tr><td>en</td><td>Time</td><td>935000008</td></tr><tr><td>en</td><td>Date Time</td><td>935000009</td></tr><tr><td>en</td><td>Period</td><td>935000010</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Type</td></tr><tr><td>description</td><td>The information determined as a result of making the observation, if the information has a simple value.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3680,6 +3399,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuetype"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3692,12 +3414,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuetype"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"98"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -3707,7 +3423,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3733,7 +3449,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the Quantity should be understood and represented.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td><</td><td>935000000</td></tr><tr><td>en</td><td><=</td><td>935000001</td></tr><tr><td>en</td><td>>=</td><td>935000002</td></tr><tr><td>en</td><td>></td><td>935000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the Quantity should be understood and represented.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3747,6 +3463,9 @@ An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th
 **is.constrainedList**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuetypequantitycomparator"</td><td>string</td><td></td></tr></table>
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3759,12 +3478,6 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuetypequantitycomparator"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
 **is.dataFormat.integer**  
 </details>
 
@@ -3774,7 +3487,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3800,7 +3513,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Value</td></tr><tr><td>description</td><td>Numerical value (with implicit precision).</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantityvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Value</td></tr><tr><td>description</td><td>Numerical value (with implicit precision).</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuetypequantityvalue</td></tr></table>
 
 #### Traits
 
@@ -3809,6 +3522,12 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuetypequantityvalue"</td><td>string</td><td></td></tr></table>
+
+**is.constrained**  
+maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -3822,16 +3541,138 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msemr_valuetypequantityvalue"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"102"</td><td>integer</td><td></td></tr></table>
-
-**is.constrained**  
-maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
 **is.dataFormat.numeric.shaped**  
 for setting the exact precision and scale of numeric values  
 
+</details>
+
+### <a href=#stateCode name="stateCode">stateCode</a>
+
+Status of the Observation  
+First included in: electronicMedicalRecords/Observation (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Observation</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the stateCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**means.entityState**  
+the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Observation/(resolvedAttributes)/stateCode](#stateCode)</td><td>attribute</td><td></td></tr></table>
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Observation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#stateCode_display name="stateCode_display">stateCode_display</a>
+
+First included in: electronicMedicalRecords/Observation (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the stateCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"stateCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
+</details>
+
+### <a href=#statusCode name="statusCode">statusCode</a>
+
+Reason for the status of the Observation  
+First included in: electronicMedicalRecords/Observation (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the statusCode attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+**does.haveDefault**  
+An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.correlatedWith**  
+the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
+
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Observation Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Observation</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.dataFormat.integer**  
+</details>
+
+### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
+
+First included in: electronicMedicalRecords/Observation (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the statusCode_display attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**means.reference.displayText**  
+**is.readOnly**  
+**is.addedInSupportOf**  
+<table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>inSupportOf</td><td>"statusCode"</td><td>attributeName</td><td>output parameter naming the attribute that is being supported</td></tr></table>
+
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
