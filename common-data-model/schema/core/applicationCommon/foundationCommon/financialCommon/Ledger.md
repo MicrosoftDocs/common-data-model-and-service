@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/24/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -55,7 +55,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LedgerId</td></tr><tr><td>description</td><td>The surrogate key of the ledger record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>LedgerId</td></tr><tr><td>description</td><td>The surrogate key of the ledger record</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -85,7 +85,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The user-readable name of the ledger</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The user-readable name of the ledger</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -113,7 +113,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the ledger</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of the ledger</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -141,7 +141,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which the ledger stores financial information</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Key</td></tr><tr><td>description</td><td>The company for which the ledger stores financial information</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -171,7 +171,7 @@ First included in: financialCommon/Ledger (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Accounting Currency Key</td></tr><tr><td>description</td><td>The currency in which all amounts in the ledger are expressed</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Accounting Currency Key</td></tr><tr><td>description</td><td>The currency in which all amounts in the ledger are expressed</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 

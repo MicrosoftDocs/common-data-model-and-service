@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/24/2020
+ms.date: 5/5/2020
 ms.author: nebanfic
 ---
 
@@ -57,7 +57,7 @@ First included in: applicationCommon/TeamMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Team Membership Id</td></tr><tr><td>description</td><td>Unique identifier of the teamMembership.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>teammembershipid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Team Membership Id</td></tr><tr><td>description</td><td>Unique identifier of the teamMembership.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>teammembershipid</td></tr></table>
 
 #### Traits
 
@@ -95,7 +95,7 @@ First included in: applicationCommon/TeamMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>systemuserid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>systemuserid</td></tr></table>
 
 #### Traits
 
@@ -130,7 +130,7 @@ First included in: applicationCommon/TeamMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>teamid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>teamid</td></tr></table>
 
 #### Traits
 
@@ -166,7 +166,7 @@ First included in: applicationCommon/TeamMembership (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
