@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/28/2020
+ms.date: 06/24/2020
 ms.author: jibyun
 ---
 
@@ -90,11 +90,11 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 * **imports** imports other schema documents that are needed for the current document. Here, you've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
    >[!IMPORTANT]
-   >The **corpusPath** is a path to the document relative to the root of the [storage adapter](/api-reference/storage/storage.md) that was configured to point at the schema documents folder. If you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be relative to this root, not the root of the underlying file system. A corpus path with a leading slash is absolute to the root of the adapter. Without a leading slash, the corpus path is relative to the current document.
+   >The **corpusPath** is a path to the document, relative to the root of the [storage adapter](/api-reference/storage/storage.md) that was configured to point to the schema documents folder. If you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be relative to this root, not the root of the underlying file system. A corpus path with a leading slash is absolute to the root of the adapter. Without a leading slash, the corpus path is relative to the current document.
    >
-   >For example, if *foundations.cdm.json* is located at "C:\CDM\schemaDocuments\foundations.cdm.json" and the storage adapter is configured to point at "C:\CDM\schemaDocuments", the absolute corpus path to this document would be "/foundations.cdm.json". If your document happens to be in the same folder as *foundations.cdm.json*, you could also use a relative corpus path, "foundations.cdm.json".
+   >For example, if *foundations.cdm.json* is located in "C:\CDM\schemaDocuments\foundations.cdm.json" and the storage adapter is configured to point to "C:\CDM\schemaDocuments", the absolute corpus path to this document would be "/foundations.cdm.json". If your document happens to be in the same folder as *foundations.cdm.json*, you could also use a relative corpus path, "foundations.cdm.json".
    >
-   >Keep in mind that for corpus paths, denoting parent directories (ex. ../../path) isn't supported.
+   >Keep in mind that for corpus paths, denoting parent directories (for example, ../../path) isn't supported.
 
 * **definitions** contains a list of the current document’s Common Data Model object definitions. This is where you describe the entity. 
 
