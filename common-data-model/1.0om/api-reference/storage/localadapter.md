@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The local adapter is the storage adapter that's used to interact with data on the local file system.
 
-```
+```csharp
 public class LocalAdapter extends StorageAdapter
 ```
 *LocalAdapter extends StorageAdapterBase in Python.*

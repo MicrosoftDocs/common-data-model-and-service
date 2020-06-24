@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A document enables the object model to have a persisted state. Every document can contain different Common Data Model object definitions, such as [entities](entity.md), [data partitions](datapartition.md), or attributes.
 
-```
+```csharp
 public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefinition
 ```
 

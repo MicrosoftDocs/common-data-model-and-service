@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A referenced entity declaration is a declaration of an entity that resides in a remote location.
 
-```
+```csharp
 public class CdmReferencedEntityDeclarationDefinition extends CdmObjectDefinitionBase, CdmEntityDeclarationDefinition
 ```
 *CdmReferencedEntityDeclarationDefinition extends CdmEntityDeclarationDefinition in Python.*

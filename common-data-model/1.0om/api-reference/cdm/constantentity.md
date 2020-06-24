@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A constant entity provides a way of making an [entity](entity.md) with records and an associated schema in a JSON file. We use these whenever we want to store a table of information inside a parameter of a [trait](trait.md). They are used in the enum definitions, in the localized display text, etc.
 
-```
+```csharp
 public class CdmConstantEntityDefinition extends CdmObjectDefinitionBase
 ```
 *CdmConstantEntityDefinition extends CdmObjectDefinition in Python.*

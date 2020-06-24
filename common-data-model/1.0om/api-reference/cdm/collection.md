@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A collection holds a set of [Common Data Model objects](cdmobject.md) and provides easy handling of them.
 
-```
+```csharp
 public class CdmCollection<CdmObject> extends List<CdmObject>
 ```
 

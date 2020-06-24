@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A document collection extends [Collection](collection.md) and adds additional behaviors specific to document collections.
 
-```
+```csharp
 public class CdmDocumentCollection extends CdmCollection<CdmDocumentDefinition>
 ```
 

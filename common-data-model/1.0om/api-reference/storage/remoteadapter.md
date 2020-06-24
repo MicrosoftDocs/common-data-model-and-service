@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The remote adapter is the storage adapter that's used to interact with data on a remote file system.
 
-```
+```csharp
 public class RemoteAdapter extends NetworkAdapter, StorageAdapter
 ```
 *RemoteAdapter extends NetworkAdapter, StorageAdapterBase in Python.*

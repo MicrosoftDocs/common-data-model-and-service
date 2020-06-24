@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A trait helps express the semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that's easy to understand and follow. For example, the trait *is.partition.format.CSV* describes a data partition in CSV format and has parameters that can provide additional information, such as which character to use as a delimiter.
 
-```
+```csharp
 public class CdmTraitDefinition extends CdmObjectDefinitionBase
 ```
 *CdmTraitDefinition extends CdmObjectDefinition in Python.*

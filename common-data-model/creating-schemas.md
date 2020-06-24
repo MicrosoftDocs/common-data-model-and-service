@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/28/2020
+ms.date: 06/24/2020
 ms.author: jibyun
 ---
 
@@ -90,7 +90,11 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 * **imports** imports other schema documents that are needed for the current document. Here, you've imported the *foundations.cdm.json* file, which itself imports *primitives.cdm.json* (containing fundamental data types, traits, and entities) and *meanings.cdm.json* (containing trait definitions and other convenient data types). Importing this *foundations.cdm.json* document is enough to create the schema documents.
 
    >[!IMPORTANT]
-   >The **corpusPath** is an absolute path to the document from the root of the [storage adapter](/api-reference/storage/storage.md) that was configured to point at the schema documents. For example, if you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be absolute to this root, not the root of the underlying file system.
+   >The **corpusPath** is a path to the document, relative to the root of the [storage adapter](/api-reference/storage/storage.md) that was configured to point to the schema documents folder. If you configured an adapter to point to "C:\path\to\schemaDocuments", this path would be used as the root and the corpus path to a document would be relative to this root, not the root of the underlying file system. A corpus path with a leading slash is absolute to the root of the adapter. Without a leading slash, the corpus path is relative to the current document.
+   >
+   >For example, if *foundations.cdm.json* is located in "C:\CDM\schemaDocuments\foundations.cdm.json" and the storage adapter is configured to point to "C:\CDM\schemaDocuments", the absolute corpus path to this document would be "/foundations.cdm.json". If your document happens to be in the same folder as *foundations.cdm.json*, you could also use a relative corpus path, "foundations.cdm.json".
+   >
+   >Keep in mind that for corpus paths, denoting parent directories (for example, ../../path) isn't supported.
 
 * **definitions** contains a list of the current document’s Common Data Model object definitions. This is where you describe the entity. 
 
@@ -312,6 +316,9 @@ Here's the *Session.cdm.json* document, without any attributes:
 	}]
 }
 ```
+
+>[!NOTE]
+>Since *_allImports.cdm.json* and *Session.cdm.json* are in the same folder, *clickstream*, the corpus path used here is a relative corpus path.
 
 <br/>To use attributes that are defined in another entity schema (that you've imported), you'll create an entity attribute object (an attribute that points to an entity) under **hasAttributes**:
 
@@ -695,7 +702,6 @@ Here's the *clickstream.manifest.cdm.json*, under the *clickstream* folder:
 
 ``` json
 {
-	"$schema": "CdmManifest.cdm.json",
 	"jsonSchemaSemanticVersion": "1.0.0",
 	"imports": [],
 	"manifestName": "clickstream",
@@ -809,14 +815,14 @@ var cdmCorpus = new CdmCorpusDefinition();
 string pathFromExeToExampleRoot = "../../../../../../";
 
 // Storage adapter pointing to the target local manifest location. 
-cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot + "1-read-manifest"));
+cdmCorpus.Storage.Mount("local", new LocalAdapter(pathFromExeToExampleRoot + "1-read-manifest/sample-data"));
 
 // 'local' is our default namespace. 
 // Any paths that start navigating without a device tag (ex. 'cdm') will just default to the 'local' namepace.
 cdmCorpus.Storage.DefaultNamespace = "local";
 
 // Storage adapter pointing to the example public standards.
-// This is a fake 'cdm'; normally the Github adapter would be used to point at the real public standards.
+// This is a fake 'cdm'; normally the Common Data Model standards adapter would be used to point at the real public standards.
 // Mount it as the 'cdm' device, not the default, so that we must use "cdm:<folder-path>" to get there.
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
 
@@ -860,7 +866,7 @@ cdmCorpus.Storage.Mount("local", new LocalAdapter(@"C:\path\to\CDM\schemaDocumen
 cdmCorpus.Storage.DefaultNamespace = "local";
 
 // Storage adapter pointing to the example public standards.
-// This is a fake 'cdm'; normally the Github adapter would be used to point at the real public standards.
+// This is a fake 'cdm'; normally the Common Data Model standards adapter would be used to point at the real public standards.
 // Mount it as the 'cdm' device, not the default, so that we must use "cdm:<folder-path>" to get there.
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(@"C:\path\to\CDM\schemaDocuments"));
 

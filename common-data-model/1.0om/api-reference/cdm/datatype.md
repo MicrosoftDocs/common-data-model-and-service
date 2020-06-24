@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A data type provides the ability to assign different data types to attributes (such as string, boolean, etc.).
 
-```
+```csharp
 public class CdmDataTypeDefinition extends CdmObjectDefinitionBase
 ```
 *CdmDataTypeDefinition extends CdmObjectDefinition in Python.*

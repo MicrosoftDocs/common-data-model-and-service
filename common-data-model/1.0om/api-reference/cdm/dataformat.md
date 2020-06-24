@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An enum class containing the data formats. 
 
-```
+```csharp
 public enum CdmDataFormat
 {
     Unknown,

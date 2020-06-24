@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A type attribute defines data type attributes along with supported functionalities, such as custom default values and descriptions. Model.json attributes are converted into Common Data Model type attributes.
 
-```
+```csharp
 public class CdmTypeAttributeDefinition extends CdmAttribute
 ```
 

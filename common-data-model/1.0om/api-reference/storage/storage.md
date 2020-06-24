@@ -23,10 +23,11 @@ The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/obj
 ## Classes
 |Name|Description|
 |---|---|
-|[ADLSAdapter](adlsadapter.md)|Used to interact with data on Azure Data Lake Storage Gen2.|
-|[GithubAdapter](githubadapter.md)|Points to the Common Data Model public standards schema documents on [Github](https://github.com/microsoft/CDM/tree/master/schemaDocuments).|
-|[LocalAdapter](localadapter.md)|Used to interact with data on the local file system.|
-|[NetworkAdapter](networkadapter.md)|Contains logic for adapters that deal with data across a network.|
-|[RemoteAdapter](remoteadapter.md)|Used to interact with data on a remote file system.|
+|[ADLS Adapter](adlsadapter.md)|Used to interact with data on Azure Data Lake Storage Gen2.|
+|[Common Data Model Standards Adapter](cdmstandardsadapter.md)|Points to the Common Data Model public standards schema documents.|
+|[Github Adapter](githubadapter.md)|Points to the Common Data Model public standards schema documents on [Github](https://github.com/microsoft/CDM/tree/master/schemaDocuments).|
+|[Local Adapter](localadapter.md)|Used to interact with data on the local file system.|
+|[Network Adapter](networkadapter.md)|Contains logic for adapters that deal with data across a network.|
+|[Remote Adapter](remoteadapter.md)|Used to interact with data on a remote file system.|
 |[Storage Adapter](storageadapter.md)|The base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the [object model](../cdm/cdm.md) is running. This interface also allows users to create their own adapter, if needed.|
 |[Storage Manager](storagemanager.md)|Acts like a storage for the [corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).|
