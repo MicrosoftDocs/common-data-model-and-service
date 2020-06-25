@@ -5,7 +5,7 @@ author: lponti
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 06/08/2020
+ms.date: 06/24/2020
 ms.author: lponti
 ---
 
@@ -16,11 +16,11 @@ The Dynamics 365 nonprofit accelerator and Common Data Model for Nonprofits help
 These entities include, donor commitments, designations, transactions, awards, disbursements, delivery frameworks, results, indicators, benefit recipients, and more. The nonprofit accelerator provides a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Microsoft Power Platform and benefit from integration with Common Data Model for Nonprofits.
 
 
-Since the initial release in November 2018 at the NetHope Global Summit we've had additional extensions and enhancements in 5 updated releases; 
+Since the initial release in November 2018 at the NetHope Global Summit we've had additional extensions and enhancements in five updated releases: 
 
-- April 2019 
-- July 2019
-- November 2019 
+- [April 2019](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact/) 
+- [July 2019](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
+- [November 2019](https://www.linkedin.com/pulse/announcing-general-availability-dynamics-365-nonprofit-erik-arnold) 
 - January 2020
 - June 2020
 
@@ -142,7 +142,7 @@ Applications using entities with built-out process and business rules:
 
 ### Constituent management
 
-Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and awards Management.
+Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and awards management.
 
 
 ![Constituent management](./media/nfp-accelerator/constituent-management.png)
@@ -169,7 +169,7 @@ The nonprofit accelerator can track all major stages of high-touch fundraising.
 Awards management data model and sample application including dockets, inquiries, requests, awards recommendations, reviews, reports, budgets, and disbursements.
 
 
-![Fundraising](./media/nfp-accelerator/awards-management.png)
+![Awards management](./media/nfp-accelerator/awards-management.png)
 
 
 ### Program delivery 
@@ -177,7 +177,7 @@ Awards management data model and sample application including dockets, inquiries
 Outcome and result model enables nonprofits to efficiently deliver on their missions, measure results, and communicate impact that includes aligning beneficiaries and funds to the results framework.
 
 
-![Fundraising](./media/nfp-accelerator/program-delivery.png)
+![Program delivery](./media/nfp-accelerator/program-delivery.png)
 
 
 ### Volunteer management
@@ -185,7 +185,7 @@ Outcome and result model enables nonprofits to efficiently deliver on their miss
 Track volunteer preferences, skills, availability, and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation.
 
 
-![Fundraising](./media/nfp-accelerator/volunteer-management.png)
+![Volunteer management](./media/nfp-accelerator/volunteer-management.png)
 
 
 ### Membership management
@@ -224,7 +224,7 @@ Provides building blocks for partners to aid program staff in tracking clients a
 Build a complete delivery framework that tracks activities and progress to a theory of change assuring delivery of programs aligned to indicators and program objectives, budgets, and results.
 
 
-![Project Management and program design](./media/nfp-accelerator/project-management-program-design.png)
+![Project management and program design](./media/nfp-accelerator/project-management-program-design.png)
 
 ### Program design application
 
@@ -238,7 +238,7 @@ Workflows build on Program Delivery and Results entities that allow a program of
 Small nonprofits are able to centrally manage their award budgets, have workers enter time and expenses through a mobile application, approve submitted time and expenses, and track costs to the budget.
 
 
-![Nonprofit Operations Toolkit](./media/nfp-accelerator/nonprofit-operations-toolkit.png)
+![Nonprofit operations toolkit](./media/nfp-accelerator/nonprofit-operations-toolkit.png)
 
 
 Mobile application
