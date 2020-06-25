@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 10/18/2019
+ms.date: 06/24/2020
 ms.author: jibyun
 ---
 
@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An attribute resolution guidance provides properties that help with the resolution process of [entities](entity.md), attributes, and other resolvable Common Data Model concepts.
 
-```
+```csharp
 public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 ```
 ## Constructors
@@ -29,7 +29,7 @@ public class CdmAttributeResolutionGuidance extends CdmObjectSimple
 |removedDirectives|List\<string>|A list of strings, one for each 'directive' that should be removed if previously imposed.|
 |addSupportingAttribute|[CdmTypeAttributeDefinition](typeattribute.md)|A guidance that this attribute definition should be added to the final set of attributes and should be marked as 'supporting' the attribute that has the guidance set on it.|
 |cardinality|string|If set to 'one', then there's a single instance of the attribute or entity used. If set to 'many', then there are multiple instances of the attribute/entity used, in which case the 'expansion' properties will describe the array enumeration to use if needed.|
-|renameFormat|string|The format specifier for generated attribute names. May contain a single occurence of ('\{a}' or '\{A}'), ('\{m}' or '\{M}'), and '\{o}', for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal.<br/><br/>For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
+|renameFormat|string|The format specifier for generated attribute names. May contain a single occurrence of ('\{a}' or '\{A}'), ('\{m}' or '\{M}'), and '\{o}', for the base (a/A)ttribute name, any (m/M)ember attributes from entities, and array (o)rdinal.<br/><br/>For example, '\{a}\{o}.\{m}' could produce 'address2.city', and '\{a}\{o}' gives 'city1'. Using '\{A}' or '\{M}' will uppercase the first letter of the name portion.|
 |expansion|[Expansion](attributeresolutionguidance.md#expansion)|The parameters that control array expansion if inline repeating of attributes is needed.|
 |entityByReference|[EntityByReference](attributeresolutionguidance.md#entitybyreference)|The parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.|
 |selectsSubAttribute|[SelectsSubAttribute](attributeresolutionguidance.md#selectssubattribute)|Indicates that this attribute selects 'one', 'some', or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.|

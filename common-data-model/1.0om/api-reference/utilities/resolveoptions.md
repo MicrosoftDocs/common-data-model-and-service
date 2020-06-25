@@ -13,7 +13,7 @@ ms.author: jibyun
 
 Resolve options are options to be used for resolution. If it's an optional argument to a method, it's safe to leave it null because default resolve options would just be created and used instead. 
 
-```
+```csharp
 public class ResolveOptions
 ```
 

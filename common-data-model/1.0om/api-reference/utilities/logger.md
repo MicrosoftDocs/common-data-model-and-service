@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The logger formats log messages in a consistent way.
 
-```
+```csharp
 public class Logger
 ```
 

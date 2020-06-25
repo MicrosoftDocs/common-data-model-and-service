@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A folder collection extends [Collection](collection.md) and adds additional behaviors specific to folder collections. It's used only for the *ChildFolders* property in [Folder](folder.md) and not for any other folder collections, as this collection copies fields from the parent folder to the children.
 
-```
+```csharp
 public class CdmFolderCollection extends CdmCollection<CdmFolderDefinition>
 ```
 

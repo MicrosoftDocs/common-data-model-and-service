@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The ADLS adapter is the storage adapter that's used to interact with data on Azure Data Lake Storage Gen2.
 
-```
+```csharp
 public class ADLSAdapter extends NetworkAdapter, StorageAdapter
 ```
 *ADLSAdapter extends NetworkAdapter, StorageAdapterBase in Python.*

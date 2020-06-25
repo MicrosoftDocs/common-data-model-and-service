@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An argument exists inside [trait references](traitreference.md) and provides name/value pairs for a trait reference. With arguments traits can contain data.
 
-```
+```csharp
 public class CdmArgumentDefinition extends CdmObjectSimple
 ```
 

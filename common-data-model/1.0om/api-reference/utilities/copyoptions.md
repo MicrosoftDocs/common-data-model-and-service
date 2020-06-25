@@ -13,7 +13,7 @@ ms.author: jibyun
 
 Copy options are options to be used when copying a [CdmObject](../cdm/cdmobject.md) or when converting a [manifest](../cdm/manifest.md) to a persisted type.
 
-```
+```csharp
 public class CopyOptions
 ```
 

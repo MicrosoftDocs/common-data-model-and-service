@@ -13,7 +13,7 @@ ms.author: jibyun
 
 This is the reference class for [traits](trait.md).
 
-```
+```csharp
 public class CdmTraitReference extends CdmObjectReferenceBase
 ```
 *CdmTraitReference extends CdmObjectReference in Python.*

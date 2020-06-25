@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A folder provides a hierarchical structure of the object model for organizing [documents](document.md). Folders can contain other folders or documents.
 
-```
+```csharp
 public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDefinition
 ```
 *CdmFolderDefinition extends CdmObjectDefinition, CdmContainerDefinition in Python.*

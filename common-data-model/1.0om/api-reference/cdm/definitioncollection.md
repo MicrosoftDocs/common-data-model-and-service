@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A CdmObject definition collection extends [Collection](collection.md) and adds additional behaviors specific to CdmObject definition collections.
 
-```
+```csharp
 public class CdmDefinitionCollection extends CdmCollection<CdmObjectDefinition>
 ```
 

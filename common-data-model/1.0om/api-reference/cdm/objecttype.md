@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An enum class containing the Common Data Model object types. 
 
-```
+```csharp
 public enum CdmObjectType
 {
     Error,

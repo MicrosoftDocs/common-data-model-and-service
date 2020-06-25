@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The storage manager acts like a storage for the [corpus](../cdm/corpus.md) and is used to interact with [storage adapters](storageadapter.md).
 
-```
+```csharp
 public class StorageManager
 ```
 

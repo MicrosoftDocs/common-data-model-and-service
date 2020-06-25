@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An enum class containing the types of relationships we want populated in a manifest. 
 
-```
+```csharp
 public enum CdmRelationshipDiscoveryStyle
 {
     None,       

@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A manifest declaration is a declaration for the Common Data Model manifest format.
 
-```
+```csharp
 public class CdmManifestDeclarationDefinition extends CdmObjectDefinitionBase, CdmFileStatus
 ```
 *CdmManifestDeclarationDefinition extends CdmObjectDefinition, CdmFileStatus in Python.*

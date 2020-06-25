@@ -12,7 +12,7 @@ ms.author: jibyun
 # Entity Collection
 An entity collection extends [Collection](collection.md) and adds additional behaviors specific to entity collections.
 
-```
+```csharp
 public class CdmEntityCollection extends CdmCollection<CdmEntityDeclarationDefinition>
 ```
 

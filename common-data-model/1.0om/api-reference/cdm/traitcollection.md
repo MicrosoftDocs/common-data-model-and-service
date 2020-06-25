@@ -13,7 +13,7 @@ ms.author: jibyun
 
 A trait collection extends [Collection](collection.md) and adds additional behaviors specific to trait collections.
 
-```
+```csharp
 public class CdmTraitCollection extends CdmCollection<CdmTraitReference>
 ```
 

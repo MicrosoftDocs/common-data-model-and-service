@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An enum class containing the status levels that could be reported.
 
-```
+```csharp
 public enum CdmStatusLevel
 {
     Info,

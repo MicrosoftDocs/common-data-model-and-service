@@ -13,7 +13,7 @@ ms.author: jibyun
 
 This is the base interface for all Common Data Model object references. It's extended by *CdmObjectReferenceBase* (in C#, Java, and TypeScript), *CdmAttributeContextReference, CdmAttributeGroupReference, CdmAttributeReference, CdmDataTypeReference, CdmEntityReference*, and *CdmPurposeReference*.
 
-```
+```csharp
 public interface CdmObjectReference extends CdmObject
 ```
 *This interface is substituted with a regular class in Python.*

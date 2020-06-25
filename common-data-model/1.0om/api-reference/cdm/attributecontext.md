@@ -13,7 +13,7 @@ ms.author: jibyun
 
 An attribute context provides more insight into an attribute's (parent/child) relationship. It's heavily used during an entity's attribute resolution and can contain the history of all changes that led to an attribute's resolution. Resolved concepts, such as resolved attributes, can contain attribute contexts to provide more insight into the original, non-resolved hierarchical attributes.
 
-```
+```csharp
 public class CdmAttributeContext extends CdmObjectDefinitionBase
 ```
 *CdmAttributeContext extends CdmObjectDefinition in Python.*

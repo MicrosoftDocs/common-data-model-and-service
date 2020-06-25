@@ -13,7 +13,7 @@ ms.author: jibyun
 
 The event callback represents the callback object used in [CdmCorpusDefinition.SetEventCallback(...)](../cdm/corpus.md#methods).
 
-```
+```csharp
 public class EventCallback
 ```
 
