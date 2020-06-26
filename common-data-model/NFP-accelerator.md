@@ -5,7 +5,7 @@ author: lponti
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 06/08/2020
+ms.date: 06/24/2020
 ms.author: lponti
 ---
 
@@ -16,29 +16,29 @@ The Dynamics 365 nonprofit accelerator and Common Data Model for Nonprofits help
 These entities include, donor commitments, designations, transactions, awards, disbursements, delivery frameworks, results, indicators, benefit recipients, and more. The nonprofit accelerator provides a uniform platform for customers who wish to connect, embed, or extend the Dynamics 365 platform and Microsoft Power Platform and benefit from integration with Common Data Model for Nonprofits.
 
 
-Since the initial release in November 2018 at the NetHope Global Summit we've had additional extensions and enhancements in 5 updated releases; 
+Since the initial release in November 2018 at the NetHope Global Summit we've had additional extensions and enhancements in five updated releases: 
 
-- April 2019 
-- July 2019
-- November 2019 
+- [April 2019](https://blogs.microsoft.com/on-the-issues/2018/04/20/new-solutions-to-help-nonprofits-drive-impact/) 
+- [July 2019](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/11/accelerating-opportunities-for-isvs-with-new-programs-and-technology/)
+- [November 2019](https://www.linkedin.com/pulse/announcing-general-availability-dynamics-365-nonprofit-erik-arnold) 
 - January 2020
 - June 2020
 
 The nonprofit accelerator provides the following to partners and nonprofit organizations:
 - Extensions to Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
-- A Program Design template application that partners can evolve to help nonprofit program and country managers to: 
+- A Program design template application that partners can evolve to help nonprofit program and country managers to: 
   - Create and browse logframes (logical frameworks, the building blocks of effective program design).
-- Connect logframes to internal, external, and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order improve program measurement and outcome tracking.
-- Eight unique sample model-driven applications to help partners rapidly develop UI, workflows, and business logic to automate the management of: 
+- Connect logframes to internal, external, and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order to improve program measurement and outcome tracking.
+- Eight unique sample model-driven applications to help partners rapidly develop UI, workflows, and business logic to automate the following areas: 
 
   - Awards
-  - Case Management
+  - Case management
   - Constituents
   - Delivery frameworks
   - Fundraising
   - IATI Hub
-  - Project Management and Program Design
-  - Volunteer Management
+  - Project management & program design
+  - Volunteer management
 
 - Support for extending the model with custom entities, forms, and relationships that meet nonprofit needs.
 - Support for building canvas apps in Power Apps.
@@ -46,30 +46,30 @@ The nonprofit accelerator provides the following to partners and nonprofit organ
 - Deployable sample data to bring the sample apps to life.
 - A test drive experience through AppSource with walkthroughs, reference guides, mapping guides, entity-relationship diagrams, and metadata documentation on the data model.
 - Data integrator templates and mappings to integrate data from the nonprofit accelerator in Dynamics 365.
-- Volunteer Management and IATI add-on common data models, sample model-driven apps, sample data, flows, and documentation.
+- Volunteer management and IATI add-on common data models, sample model-driven apps, sample data, flows, and documentation.
 
 ## What's new?
 
-As part of the June 2020 v2.3 release, the nonprofit accelerator is enhanced in three critical nonprofit areas: Case Management, Project Management & Program Design (PMPD), and Operations.  Our Case Management and PMPD enhancements include Common Data Model extensions, sample applications, and supporting sample data to enable partners to develop and launch solutions with ease.  These extensions come at a critical time when nonprofits are under increasing pressure to handle larger volumes of beneficiaries and cases and are tackling complex projects like pivoting to delivering services via supply chain automation. Our Nonprofit Operations Toolkit application will be a lifesaver for small nonprofits looking to move their project, award, cost center, and time and expense management from spreadsheets to a modern, automated experience.
+As part of the June 2020 v2.3 release, the nonprofit accelerator is enhanced in three critical nonprofit areas: case management, project management & program design (PMPD), and operations.  Our case management and PMPD enhancements include extensions to Common Data Model, sample applications, and supporting sample data to enable partners to develop and launch solutions easily.  These extensions come at a critical time when nonprofits are under increasing pressure to handle larger volumes of beneficiaries and cases and are tackling complex projects like pivoting to delivering services via supply chain automation. Our nonprofit operations toolkit application will be a lifesaver for small nonprofits that are looking to move their project, award, cost center, and time and expense management from spreadsheets to a modern, automated experience.
 
 
-This includes:
+The nonprofit areas include:
 
-- **Case Management data model extensions, new sample app, and sample data** – Provides building blocks for partners to implement solutions to aid nonprofit program staff in tracking clients and cases and ties cases to specific program goals by: 
+- **Case management data model extensions, new sample app, and sample data** – Provides building blocks for partners to implement solutions to aid nonprofit program staff in tracking clients and cases and ties cases to specific program goals by: 
   - Configure work items and work item types based on the types of clients and cases they manage.
   - Establish a workflow to help case managers enter, track, and manage each stage of a case
   - Allow case managers to tie work items and needs to indicator values, tying cases to specific program goals.
   - Track and evaluate program goals and indicators using the Work Item Dashboard.
 
-- **Project Management & Program Design data model extensions, new sample app, and sample data** – Provides a complete delivery framework that assures delivery of programs are aligned to indicators and program objectives, budgets, and results by: 
+- **Project management & program design data model extensions, new sample app, and sample data** – Provides a complete delivery framework that assures delivery of programs are aligned to indicators and program objectives, budgets, and results by: 
   - Creating and tracking a theory of change that ties to the program and objectives in the delivery framework.
   - Tracks observations, decisions, deliverables, assumptions, and risks associated to the program and the theory of change. 
 
-- **Nonprofit Operations Toolkit** – Comprehensive solution that enables delivery of a supported operation solution to help small nonprofits implement effective project and awards management processes that reduce costs and build trust with funders. With this application, nonprofits can: 
+- **Nonprofit operations toolkit** – Comprehensive solution that enables delivery of a supported operation solution to help small nonprofits implement effective project and awards management processes that reduce costs and build trust with funders. With this application, nonprofits can: 
   - Manage the core records that describe your organization such as business units, currencies, offices, and planning periods.  
   - Create and manage detailed information about your workers, vendors, funders, awards, and projects. 
   - Create and manage financial plans for projects and indirect costs or plan how your workers’ time will be allocated across efforts. 
-  - Collect, track and compile time and reimbursable expenses associated with projects or indirect costs. 
+  - Collect, track, and compile time and reimbursable expenses associated with projects or indirect costs. 
   - Setup integrated document storage with SharePoint, use the Excel add-in to interact directly with your data or enable data auditing
 
 *As part of the v2.3 release, and going forward, unmanaged solutions are no longer published or available for any Microsoft industry accelerator, including the nonprofit accelerator. If you have questions, contact dynindaccsupport@microsoft.com. 
@@ -84,8 +84,6 @@ Nonprofits, ISVs, and others in the nonprofit sector can build their solutions a
 
 The nonprofit accelerator and Common Data Model for Nonprofits are developed in collaboration with nonprofits, partners, industry experts, and open initiatives to ensure interoperability and accelerate impact to the nonprofit sector.
 
-<!--todo: What are these photos for in the word doc?-->
-
 ## Entities and workflows
 
 The solutions in the nonprofit accelerator leverage Common Data Model for Nonprofits and can be leveraged to build solutions on the Microsoft Power Platform and/or Microsoft Dynamics 365.  Depending on the partner and organization needs, the nonprofit accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases) and below explains the differences:
@@ -93,18 +91,18 @@ The solutions in the nonprofit accelerator leverage Common Data Model for Nonpro
 
 ### Data schema
 
-- Nonprofit Core – This contains the essentials for the nonprofit accelerator including views, forms, and data entities. It has no dependency on Microsoft Dynamics 365 and is only dependent on Microsoft’s Common Data Service.
-- Nonprofit Measurement – This data schema improves the way of measuring nonprofit programs and depends on the Nonprofit Core data schema. 
-- MicrosoftDynamics365VolunteerManagement – This data schema supports volunteer management scenarios and depends on the Nonprofit Core, Nonprofit Sale, Dynamics 365 Sales data, and Dynamics 365 Project Service Automation data schemas. 
-- MicrosoftDynamics365IATI – This data schema creates efficiencies in IATI reporting compliance and depends on Nonprofit Core, Nonprofit Sale, and Dynamics 365 Sales data schemas. 
-- Nonprofit Sale – This data schema utilizes the campaign, lead, opportunity, and product entities and depends on Nonprofit Core, Nonprofit Sale and Dynamics 365 Sales data schemas. 
+- Nonprofit core – This data schema contains the essentials for the nonprofit accelerator including views, forms, and data entities. It has no dependency on Microsoft Dynamics 365 and is only dependent on Microsoft Common Data Service.
+- Nonprofit measurement – This data schema improves the way of measuring nonprofit programs and depends on the nonprofit core data schema. 
+- MicrosoftDynamics365VolunteerManagement – This data schema supports volunteer management scenarios and depends on the nonprofit core, nonprofit sale, Dynamics 365 sales data, and Dynamics 365 project service automation data schemas. 
+- MicrosoftDynamics365IATI – This data schema creates efficiencies in IATI reporting compliance and depends on nonprofit core, nonprofit sale, and Dynamics 365 sales data schemas. 
+- Nonprofit sale – This data schema utilizes the campaign, lead, opportunity, and product entities and depends on nonprofit core, nonprofit sale and Dynamics 365 sales data schemas. 
 
 
 ### Functionality
 
-- Program Design – In order to support this application, this solution depends on Nonprofit Core and Nonprofit Measurement data schemas. 
-- Nonprofit Operations Toolkit - In order to support this application, this solution depends on the Nonprofit Core data schemas. 
-- Common Data Model for Nonprofits Sample Apps - In order to support this application, this solution depends on the Nonprofit Core data schema.
+- Program design – In order to support this application, this solution depends on nonprofit core and nonprofit measurement data schemas. 
+- Nonprofit operations toolkit - In order to support this application, this solution depends on the nonprofit core data schema. 
+- Common Data Model for Nonprofits sample apps - In order to support this application, this solution depends on the nonprofit core data schema.
 
 The following illustration explains the solution layer dependencies. 
 
@@ -127,22 +125,22 @@ Entities shown in the sample model-driven applications:
 - Donation management 
 - Fundraising 
 - Awards management 
-- Program Delivery 
+- Program delivery 
 - Volunteer management  
 - Membership management 
 - IATI processes  
 - Finance and CRM data integrator 
 - Case management 
-- Project management and program design
+- Project management & program design
 
 Applications using entities with built-out process and business rules:
 
-- Program Design application 
-- Nonprofit Operations Toolkit
+- Program design application 
+- Nonprofit operations toolkit
 
 ### Constituent management
 
-Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and awards Management.
+Complete constituent profiles for individuals, households, and organizations, including biographical details, communication methods, preferences, relationships, salutations, employment and education history, donations, and awards management.
 
 
 ![Constituent management](./media/nfp-accelerator/constituent-management.png)
@@ -169,7 +167,7 @@ The nonprofit accelerator can track all major stages of high-touch fundraising.
 Awards management data model and sample application including dockets, inquiries, requests, awards recommendations, reviews, reports, budgets, and disbursements.
 
 
-![Fundraising](./media/nfp-accelerator/awards-management.png)
+![Awards management](./media/nfp-accelerator/awards-management.png)
 
 
 ### Program delivery 
@@ -177,7 +175,7 @@ Awards management data model and sample application including dockets, inquiries
 Outcome and result model enables nonprofits to efficiently deliver on their missions, measure results, and communicate impact that includes aligning beneficiaries and funds to the results framework.
 
 
-![Fundraising](./media/nfp-accelerator/program-delivery.png)
+![Program delivery](./media/nfp-accelerator/program-delivery.png)
 
 
 ### Volunteer management
@@ -185,7 +183,7 @@ Outcome and result model enables nonprofits to efficiently deliver on their miss
 Track volunteer preferences, skills, availability, and establish Volunteer Projects leveraging Dynamics 365 Project Service Automation.
 
 
-![Fundraising](./media/nfp-accelerator/volunteer-management.png)
+![Volunteer management](./media/nfp-accelerator/volunteer-management.png)
 
 
 ### Membership management
@@ -219,16 +217,16 @@ Provides building blocks for partners to aid program staff in tracking clients a
 ![Case management](./media/nfp-accelerator/case-management.png)
 
 
-### Project management and program design
+### Project management & program design
 
 Build a complete delivery framework that tracks activities and progress to a theory of change assuring delivery of programs aligned to indicators and program objectives, budgets, and results.
 
 
-![Project Management and program design](./media/nfp-accelerator/project-management-program-design.png)
+![Project management & program design](./media/nfp-accelerator/project-management-program-design.png)
 
 ### Program design application
 
-Workflows build on Program Delivery and Results entities that allow a program officer to build, edit, or delete a logframe (logical framework), associate it with an internal, external, or standard indicator set like the United Nations Sustainable Development Goals (SDGs), browse the logframe library, collaborate on logframe development through Microsoft Teams, Outlook, and Word, and track the status and delivery milestones of the logframe.
+Workflows build on program delivery and Results entities that allow a program officer to build, edit, or delete a logframe (logical framework), associate it with an internal, external, or standard indicator set like the United Nations Sustainable Development Goals (SDGs), browse the logframe library, collaborate on logframe development through Microsoft Teams, Outlook, and Word, and track the status and delivery milestones of the logframe.
 
 
 ![Program Design Application](./media/nfp-accelerator/program-design-application.png)
@@ -238,7 +236,7 @@ Workflows build on Program Delivery and Results entities that allow a program of
 Small nonprofits are able to centrally manage their award budgets, have workers enter time and expenses through a mobile application, approve submitted time and expenses, and track costs to the budget.
 
 
-![Nonprofit Operations Toolkit](./media/nfp-accelerator/nonprofit-operations-toolkit.png)
+![Nonprofit operations toolkit](./media/nfp-accelerator/nonprofit-operations-toolkit.png)
 
 
 Mobile application
@@ -251,7 +249,7 @@ Mobile application
 
 - Download the [Dynamics 365 nonprofit accelerator](https://appsource.microsoft.com/product/dynamics-365/msnfp.msftnonprofitcommondatamodel?src=office&tab=Overview) from AppSource.
 
-- The nonprofit data model, solutions, data samples, data samples, SDK extensions, and more are provided as part of the open-source creative license and available on [Github](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases).
+- The nonprofit data model, solutions, data samples, data samples, SDK extensions, and more are provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases).
 
 - [Additional topics](https://community.dynamics.com/365/b/dynamics365isvsuccess/archive/2018/08/01/dynamics-365-brings-industry-focus-through-the-microsoft-power-platform-and-solution-accelerators) about the accelerators.
 
