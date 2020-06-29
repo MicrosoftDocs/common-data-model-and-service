@@ -1,5 +1,5 @@
 ---
-title: Account - Common Data Model | Microsoft Docs
+title: GoalOutcomeReference - Common Data Model | Microsoft Docs
 description: Details of what's changed (or not changed). The goal outcome is independent of the outcome of the related activities
 author: nenad1002
 ms.service: common-data-model
