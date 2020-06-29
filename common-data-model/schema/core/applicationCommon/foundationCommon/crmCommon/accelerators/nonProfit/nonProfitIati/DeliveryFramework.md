@@ -66,7 +66,7 @@ Delivery Framework represents a management unit of work defined by the organizat
 |[versionNumber](#versionNumber)|Version Number|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[accountId](#accountId)|Account|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkId](#deliveryFrameworkId)|Unique identifier for entity instances|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
-|[deliveryFrameworkType](#deliveryFrameworkType)|The type of Framwork, i.e. Program, Project, Initiative, Activity|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
+|[deliveryFrameworkType](#deliveryFrameworkType)|The type of Framework, i.e. Program, Project, Initiative, Activity|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[deliveryFrameworkType_display](#deliveryFrameworkType_display)||<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[description](#description)|Description of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
 |[endDate](#endDate)|End date of the Framework.|<a href="DeliveryFramework.md" target="_blank">nonProfitIati/DeliveryFramework</a>|
