@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/29/2020
 ms.author: nebanfic
 ---
 
@@ -57,7 +57,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Timestamp</td></tr><tr><td>description</td><td>DateTime signal was sent from device. DateTime value stored as UTC. Field is required.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Timestamp</td></tr><tr><td>description</td><td>DateTime signal was sent from device. DateTime value stored as UTC. Field is required.</td></tr><tr><td>dataFormat</td><td>13</td></tr></table>
 
 #### Traits
 
@@ -89,7 +89,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timezone</td></tr><tr><td>description</td><td>Timezone as captured from signal during ingestion. Server stores timezone as specified on signal.timestamp, unless device directly specifies this value.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Timezone</td></tr><tr><td>description</td><td>Timezone as captured from signal during ingestion. Server stores timezone as specified on signal.timestamp, unless device directly specifies this value.</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -117,7 +117,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Name</td></tr><tr><td>description</td><td>Name of signal</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Name</td></tr><tr><td>description</td><td>Name of signal</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -148,7 +148,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Version</td></tr><tr><td>description</td><td>Version of signal, as defined by device</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Signal Version</td></tr><tr><td>description</td><td>Version of signal, as defined by device</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -176,7 +176,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Server Timestamp</td></tr><tr><td>description</td><td>DateTime signal was received ingested by server</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Server Timestamp</td></tr><tr><td>description</td><td>DateTime signal was received ingested by server</td></tr><tr><td>dataFormat</td><td>13</td></tr></table>
 
 #### Traits
 
@@ -204,7 +204,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product</td></tr><tr><td>description</td><td>Reference to Product entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product</td></tr><tr><td>description</td><td>Reference to Product entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>6</td></tr></table>
 
 #### Traits
 
@@ -240,7 +240,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Part Number</td></tr><tr><td>description</td><td>This is the 'friendly' product name as referred to in CDS.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Part Number</td></tr><tr><td>description</td><td>This is the 'friendly' product name as referred to in CDS.</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -267,7 +267,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Id</td></tr><tr><td>description</td><td>Unique device ID as referred to within IoT and CDS platforms</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Device Id</td></tr><tr><td>description</td><td>Unique device ID as referred to within IoT and CDS platforms</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -294,7 +294,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Serial Number</td></tr><tr><td>description</td><td>A unique end-user friendly reference ID generally found within most devices.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Serial Number</td></tr><tr><td>description</td><td>A unique end-user friendly reference ID generally found within most devices.</td></tr><tr><td>dataFormat</td><td>7</td></tr></table>
 
 #### Traits
 
@@ -321,7 +321,7 @@ First included in: productInsights/Signal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Asset</td></tr><tr><td>description</td><td>Reference to Asset entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Asset</td></tr><tr><td>description</td><td>Reference to Asset entity identifier within CDS.</td></tr><tr><td>dataFormat</td><td>6</td></tr></table>
 
 #### Traits
 
