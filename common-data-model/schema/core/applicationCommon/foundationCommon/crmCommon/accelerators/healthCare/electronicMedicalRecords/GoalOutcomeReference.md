@@ -1,7 +1,6 @@
 ---
-title: GoalOutcomeReference - Common Data Model | Microsoft Docs
-description: Details of what's changed (or not changed). 
-The goal outcome is independent of the outcome of the related activities.
+title: Account - Common Data Model | Microsoft Docs
+description: Business that represents a customer or potential customer. The company that is billed in business transactions.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
