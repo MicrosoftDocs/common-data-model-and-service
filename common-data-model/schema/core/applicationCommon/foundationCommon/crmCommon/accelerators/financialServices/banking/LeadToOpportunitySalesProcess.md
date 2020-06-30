@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/29/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -52,7 +52,7 @@ First included in: banking/LeadToOpportunitySalesProcess (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>leadid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>leadid</td></tr></table>
 
 #### Traits
 
@@ -88,7 +88,7 @@ First included in: banking/LeadToOpportunitySalesProcess (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Opportunity Id</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>opportunityid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Opportunity Id</td></tr><tr><td>description</td><td>Unique identifier of the workflow associated to the Business Process Flow instance.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>opportunityid</td></tr></table>
 
 #### Traits
 

@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/29/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -181,7 +181,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -222,7 +222,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -273,7 +273,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -314,7 +314,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -365,7 +365,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -416,7 +416,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -467,7 +467,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -508,7 +508,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -544,7 +544,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -592,7 +592,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -633,7 +633,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -681,7 +681,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -732,7 +732,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -780,7 +780,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -819,7 +819,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -858,7 +858,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -897,7 +897,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msemr_goalid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msemr_goalid</td></tr></table>
 
 #### Traits
 
@@ -939,7 +939,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Goal</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Goal</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -980,7 +980,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1006,7 +1006,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Goal</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Discarded</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Goal</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>0</td><td>0</td></tr><tr><td>en</td><td>Closed</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Discarded</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1050,7 +1050,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1076,7 +1076,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Type a title or name that describes the goal.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>title</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Type a title or name that describes the goal.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>title</td></tr></table>
 
 #### Traits
 
@@ -1118,7 +1118,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Period</td></tr><tr><td>description</td><td>Select the fiscal period for the goal.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalperiod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quarter 1</td><td>1</td></tr><tr><td>en</td><td>Quarter 2</td><td>2</td></tr><tr><td>en</td><td>Quarter 3</td><td>3</td></tr><tr><td>en</td><td>Quarter 4</td><td>4</td></tr><tr><td>en</td><td>January</td><td>101</td></tr><tr><td>en</td><td>February</td><td>102</td></tr><tr><td>en</td><td>March</td><td>103</td></tr><tr><td>en</td><td>April</td><td>104</td></tr><tr><td>en</td><td>May</td><td>105</td></tr><tr><td>en</td><td>June</td><td>106</td></tr><tr><td>en</td><td>July</td><td>107</td></tr><tr><td>en</td><td>August</td><td>108</td></tr><tr><td>en</td><td>September</td><td>109</td></tr><tr><td>en</td><td>October</td><td>110</td></tr><tr><td>en</td><td>November</td><td>111</td></tr><tr><td>en</td><td>December</td><td>112</td></tr><tr><td>en</td><td>Semester 1</td><td>201</td></tr><tr><td>en</td><td>Semester 2</td><td>202</td></tr><tr><td>en</td><td>Annual</td><td>301</td></tr><tr><td>en</td><td>P1</td><td>401</td></tr><tr><td>en</td><td>P2</td><td>402</td></tr><tr><td>en</td><td>P3</td><td>403</td></tr><tr><td>en</td><td>P4</td><td>404</td></tr><tr><td>en</td><td>P5</td><td>405</td></tr><tr><td>en</td><td>P6</td><td>406</td></tr><tr><td>en</td><td>P7</td><td>407</td></tr><tr><td>en</td><td>P8</td><td>408</td></tr><tr><td>en</td><td>P9</td><td>409</td></tr><tr><td>en</td><td>P10</td><td>410</td></tr><tr><td>en</td><td>P11</td><td>411</td></tr><tr><td>en</td><td>P12</td><td>412</td></tr><tr><td>en</td><td>P13</td><td>413</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Period</td></tr><tr><td>description</td><td>Select the fiscal period for the goal.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalperiod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quarter 1</td><td>1</td></tr><tr><td>en</td><td>Quarter 2</td><td>2</td></tr><tr><td>en</td><td>Quarter 3</td><td>3</td></tr><tr><td>en</td><td>Quarter 4</td><td>4</td></tr><tr><td>en</td><td>January</td><td>101</td></tr><tr><td>en</td><td>February</td><td>102</td></tr><tr><td>en</td><td>March</td><td>103</td></tr><tr><td>en</td><td>April</td><td>104</td></tr><tr><td>en</td><td>May</td><td>105</td></tr><tr><td>en</td><td>June</td><td>106</td></tr><tr><td>en</td><td>July</td><td>107</td></tr><tr><td>en</td><td>August</td><td>108</td></tr><tr><td>en</td><td>September</td><td>109</td></tr><tr><td>en</td><td>October</td><td>110</td></tr><tr><td>en</td><td>November</td><td>111</td></tr><tr><td>en</td><td>December</td><td>112</td></tr><tr><td>en</td><td>Semester 1</td><td>201</td></tr><tr><td>en</td><td>Semester 2</td><td>202</td></tr><tr><td>en</td><td>Annual</td><td>301</td></tr><tr><td>en</td><td>P1</td><td>401</td></tr><tr><td>en</td><td>P2</td><td>402</td></tr><tr><td>en</td><td>P3</td><td>403</td></tr><tr><td>en</td><td>P4</td><td>404</td></tr><tr><td>en</td><td>P5</td><td>405</td></tr><tr><td>en</td><td>P6</td><td>406</td></tr><tr><td>en</td><td>P7</td><td>407</td></tr><tr><td>en</td><td>P8</td><td>408</td></tr><tr><td>en</td><td>P9</td><td>409</td></tr><tr><td>en</td><td>P10</td><td>410</td></tr><tr><td>en</td><td>P11</td><td>411</td></tr><tr><td>en</td><td>P12</td><td>412</td></tr><tr><td>en</td><td>P13</td><td>413</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1159,7 +1159,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1185,7 +1185,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year</td></tr><tr><td>description</td><td>Select the fiscal year for the goal that's being tracked.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY2038</td><td>2038</td></tr><tr><td>en</td><td>FY2037</td><td>2037</td></tr><tr><td>en</td><td>FY2036</td><td>2036</td></tr><tr><td>en</td><td>FY2035</td><td>2035</td></tr><tr><td>en</td><td>FY2034</td><td>2034</td></tr><tr><td>en</td><td>FY2033</td><td>2033</td></tr><tr><td>en</td><td>FY2032</td><td>2032</td></tr><tr><td>en</td><td>FY2031</td><td>2031</td></tr><tr><td>en</td><td>FY2030</td><td>2030</td></tr><tr><td>en</td><td>FY2029</td><td>2029</td></tr><tr><td>en</td><td>FY2028</td><td>2028</td></tr><tr><td>en</td><td>FY2027</td><td>2027</td></tr><tr><td>en</td><td>FY2026</td><td>2026</td></tr><tr><td>en</td><td>FY2025</td><td>2025</td></tr><tr><td>en</td><td>FY2024</td><td>2024</td></tr><tr><td>en</td><td>FY2023</td><td>2023</td></tr><tr><td>en</td><td>FY2022</td><td>2022</td></tr><tr><td>en</td><td>FY2021</td><td>2021</td></tr><tr><td>en</td><td>FY2020</td><td>2020</td></tr><tr><td>en</td><td>FY2019</td><td>2019</td></tr><tr><td>en</td><td>FY2018</td><td>2018</td></tr><tr><td>en</td><td>FY2017</td><td>2017</td></tr><tr><td>en</td><td>FY2016</td><td>2016</td></tr><tr><td>en</td><td>FY2015</td><td>2015</td></tr><tr><td>en</td><td>FY2014</td><td>2014</td></tr><tr><td>en</td><td>FY2013</td><td>2013</td></tr><tr><td>en</td><td>FY2012</td><td>2012</td></tr><tr><td>en</td><td>FY2011</td><td>2011</td></tr><tr><td>en</td><td>FY2010</td><td>2010</td></tr><tr><td>en</td><td>FY2009</td><td>2009</td></tr><tr><td>en</td><td>FY2008</td><td>2008</td></tr><tr><td>en</td><td>FY2007</td><td>2007</td></tr><tr><td>en</td><td>FY2006</td><td>2006</td></tr><tr><td>en</td><td>FY2005</td><td>2005</td></tr><tr><td>en</td><td>FY2004</td><td>2004</td></tr><tr><td>en</td><td>FY2003</td><td>2003</td></tr><tr><td>en</td><td>FY2002</td><td>2002</td></tr><tr><td>en</td><td>FY2001</td><td>2001</td></tr><tr><td>en</td><td>FY2000</td><td>2000</td></tr><tr><td>en</td><td>FY1999</td><td>1999</td></tr><tr><td>en</td><td>FY1998</td><td>1998</td></tr><tr><td>en</td><td>FY1997</td><td>1997</td></tr><tr><td>en</td><td>FY1996</td><td>1996</td></tr><tr><td>en</td><td>FY1995</td><td>1995</td></tr><tr><td>en</td><td>FY1994</td><td>1994</td></tr><tr><td>en</td><td>FY1993</td><td>1993</td></tr><tr><td>en</td><td>FY1992</td><td>1992</td></tr><tr><td>en</td><td>FY1991</td><td>1991</td></tr><tr><td>en</td><td>FY1990</td><td>1990</td></tr><tr><td>en</td><td>FY1989</td><td>1989</td></tr><tr><td>en</td><td>FY1988</td><td>1988</td></tr><tr><td>en</td><td>FY1987</td><td>1987</td></tr><tr><td>en</td><td>FY1986</td><td>1986</td></tr><tr><td>en</td><td>FY1985</td><td>1985</td></tr><tr><td>en</td><td>FY1984</td><td>1984</td></tr><tr><td>en</td><td>FY1983</td><td>1983</td></tr><tr><td>en</td><td>FY1982</td><td>1982</td></tr><tr><td>en</td><td>FY1981</td><td>1981</td></tr><tr><td>en</td><td>FY1980</td><td>1980</td></tr><tr><td>en</td><td>FY1979</td><td>1979</td></tr><tr><td>en</td><td>FY1978</td><td>1978</td></tr><tr><td>en</td><td>FY1977</td><td>1977</td></tr><tr><td>en</td><td>FY1976</td><td>1976</td></tr><tr><td>en</td><td>FY1975</td><td>1975</td></tr><tr><td>en</td><td>FY1974</td><td>1974</td></tr><tr><td>en</td><td>FY1973</td><td>1973</td></tr><tr><td>en</td><td>FY1972</td><td>1972</td></tr><tr><td>en</td><td>FY1971</td><td>1971</td></tr><tr><td>en</td><td>FY1970</td><td>1970</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Fiscal Year</td></tr><tr><td>description</td><td>Select the fiscal year for the goal that's being tracked.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>fiscalyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>FY2038</td><td>2038</td></tr><tr><td>en</td><td>FY2037</td><td>2037</td></tr><tr><td>en</td><td>FY2036</td><td>2036</td></tr><tr><td>en</td><td>FY2035</td><td>2035</td></tr><tr><td>en</td><td>FY2034</td><td>2034</td></tr><tr><td>en</td><td>FY2033</td><td>2033</td></tr><tr><td>en</td><td>FY2032</td><td>2032</td></tr><tr><td>en</td><td>FY2031</td><td>2031</td></tr><tr><td>en</td><td>FY2030</td><td>2030</td></tr><tr><td>en</td><td>FY2029</td><td>2029</td></tr><tr><td>en</td><td>FY2028</td><td>2028</td></tr><tr><td>en</td><td>FY2027</td><td>2027</td></tr><tr><td>en</td><td>FY2026</td><td>2026</td></tr><tr><td>en</td><td>FY2025</td><td>2025</td></tr><tr><td>en</td><td>FY2024</td><td>2024</td></tr><tr><td>en</td><td>FY2023</td><td>2023</td></tr><tr><td>en</td><td>FY2022</td><td>2022</td></tr><tr><td>en</td><td>FY2021</td><td>2021</td></tr><tr><td>en</td><td>FY2020</td><td>2020</td></tr><tr><td>en</td><td>FY2019</td><td>2019</td></tr><tr><td>en</td><td>FY2018</td><td>2018</td></tr><tr><td>en</td><td>FY2017</td><td>2017</td></tr><tr><td>en</td><td>FY2016</td><td>2016</td></tr><tr><td>en</td><td>FY2015</td><td>2015</td></tr><tr><td>en</td><td>FY2014</td><td>2014</td></tr><tr><td>en</td><td>FY2013</td><td>2013</td></tr><tr><td>en</td><td>FY2012</td><td>2012</td></tr><tr><td>en</td><td>FY2011</td><td>2011</td></tr><tr><td>en</td><td>FY2010</td><td>2010</td></tr><tr><td>en</td><td>FY2009</td><td>2009</td></tr><tr><td>en</td><td>FY2008</td><td>2008</td></tr><tr><td>en</td><td>FY2007</td><td>2007</td></tr><tr><td>en</td><td>FY2006</td><td>2006</td></tr><tr><td>en</td><td>FY2005</td><td>2005</td></tr><tr><td>en</td><td>FY2004</td><td>2004</td></tr><tr><td>en</td><td>FY2003</td><td>2003</td></tr><tr><td>en</td><td>FY2002</td><td>2002</td></tr><tr><td>en</td><td>FY2001</td><td>2001</td></tr><tr><td>en</td><td>FY2000</td><td>2000</td></tr><tr><td>en</td><td>FY1999</td><td>1999</td></tr><tr><td>en</td><td>FY1998</td><td>1998</td></tr><tr><td>en</td><td>FY1997</td><td>1997</td></tr><tr><td>en</td><td>FY1996</td><td>1996</td></tr><tr><td>en</td><td>FY1995</td><td>1995</td></tr><tr><td>en</td><td>FY1994</td><td>1994</td></tr><tr><td>en</td><td>FY1993</td><td>1993</td></tr><tr><td>en</td><td>FY1992</td><td>1992</td></tr><tr><td>en</td><td>FY1991</td><td>1991</td></tr><tr><td>en</td><td>FY1990</td><td>1990</td></tr><tr><td>en</td><td>FY1989</td><td>1989</td></tr><tr><td>en</td><td>FY1988</td><td>1988</td></tr><tr><td>en</td><td>FY1987</td><td>1987</td></tr><tr><td>en</td><td>FY1986</td><td>1986</td></tr><tr><td>en</td><td>FY1985</td><td>1985</td></tr><tr><td>en</td><td>FY1984</td><td>1984</td></tr><tr><td>en</td><td>FY1983</td><td>1983</td></tr><tr><td>en</td><td>FY1982</td><td>1982</td></tr><tr><td>en</td><td>FY1981</td><td>1981</td></tr><tr><td>en</td><td>FY1980</td><td>1980</td></tr><tr><td>en</td><td>FY1979</td><td>1979</td></tr><tr><td>en</td><td>FY1978</td><td>1978</td></tr><tr><td>en</td><td>FY1977</td><td>1977</td></tr><tr><td>en</td><td>FY1976</td><td>1976</td></tr><tr><td>en</td><td>FY1975</td><td>1975</td></tr><tr><td>en</td><td>FY1974</td><td>1974</td></tr><tr><td>en</td><td>FY1973</td><td>1973</td></tr><tr><td>en</td><td>FY1972</td><td>1972</td></tr><tr><td>en</td><td>FY1971</td><td>1971</td></tr><tr><td>en</td><td>FY1970</td><td>1970</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1226,7 +1226,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1252,7 +1252,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Starting Date</td></tr><tr><td>description</td><td>The date after which the goal should begin being pursued.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Starting Date</td></tr><tr><td>description</td><td>The date after which the goal should begin being pursued.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstartdate</td></tr></table>
 
 #### Traits
 
@@ -1292,7 +1292,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>To</td></tr><tr><td>description</td><td>Enter the date when the goal ends.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>goalenddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>To</td></tr><tr><td>description</td><td>Enter the date when the goal ends.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>goalenddate</td></tr></table>
 
 #### Traits
 
@@ -1332,7 +1332,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Owner</td></tr><tr><td>description</td><td>Choose the user or team responsible for meeting the goal.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>goalownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Owner</td></tr><tr><td>description</td><td>Choose the user or team responsible for meeting the goal.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>goalownerid</td></tr></table>
 
 #### Traits
 
@@ -1380,7 +1380,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>goalOwnerId Type</td></tr><tr><td>description</td><td>The name of the entity linked by goalOwnerId</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>goalowneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>goalOwnerId Type</td></tr><tr><td>description</td><td>The name of the entity linked by goalOwnerId</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>goalowneridtype</td></tr></table>
 
 #### Traits
 
@@ -1415,7 +1415,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent Goal</td></tr><tr><td>description</td><td>Choose a parent goal if the current goal is a child goal. This sets up a parent-child relationship for reporting and analytics.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>parentgoalid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent Goal</td></tr><tr><td>description</td><td>Choose a parent goal if the current goal is a child goal. This sets up a parent-child relationship for reporting and analytics.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>parentgoalid</td></tr></table>
 
 #### Traits
 
@@ -1463,7 +1463,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Choose the local currency for the record to make sure budgets are reported in the correct currency.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
 
 #### Traits
 
@@ -1511,7 +1511,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
 
 #### Traits
 
@@ -1554,7 +1554,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Metric</td></tr><tr><td>description</td><td>Choose the metric for the goal. This metric determines how the goal is tracked.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>metricid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Metric</td></tr><tr><td>description</td><td>Choose the metric for the goal. This metric determines how the goal is tracked.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>metricid</td></tr></table>
 
 #### Traits
 
@@ -1602,7 +1602,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tree ID</td></tr><tr><td>description</td><td>Unique identifier of the goal tree.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>treeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tree ID</td></tr><tr><td>description</td><td>Unique identifier of the goal tree.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>treeid</td></tr></table>
 
 #### Traits
 
@@ -1643,7 +1643,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Depth</td></tr><tr><td>description</td><td>Depth of the goal in the tree.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>depth</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Depth</td></tr><tr><td>description</td><td>Depth of the goal in the tree.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>depth</td></tr></table>
 
 #### Traits
 
@@ -1682,7 +1682,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Money)</td></tr><tr><td>description</td><td>Select stretch target (money) of the goal to define a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetmoney</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Money)</td></tr><tr><td>description</td><td>Select stretch target (money) of the goal to define a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetmoney</td></tr></table>
 
 #### Traits
 
@@ -1726,7 +1726,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Money) (Base)</td></tr><tr><td>description</td><td>Shows the stretch target (money) in base currency to indicate a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetmoney_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Money) (Base)</td></tr><tr><td>description</td><td>Shows the stretch target (money) in base currency to indicate a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetmoney_base</td></tr></table>
 
 #### Traits
 
@@ -1773,7 +1773,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Decimal)</td></tr><tr><td>description</td><td>Select a stretch target (decimal) of the goal to define a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetdecimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Decimal)</td></tr><tr><td>description</td><td>Select a stretch target (decimal) of the goal to define a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetdecimal</td></tr></table>
 
 #### Traits
 
@@ -1816,7 +1816,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Integer)</td></tr><tr><td>description</td><td>Select the stretch target (integer) of the goal to define a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetinteger</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretch Target (Integer)</td></tr><tr><td>description</td><td>Select the stretch target (integer) of the goal to define a higher or difficult level of goal than the usual ones.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetinteger</td></tr></table>
 
 #### Traits
 
@@ -1855,7 +1855,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Money)</td></tr><tr><td>description</td><td>Select a goal target (money) to track a monetary amount such as revenue from a product.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetmoney</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Money)</td></tr><tr><td>description</td><td>Select a goal target (money) to track a monetary amount such as revenue from a product.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetmoney</td></tr></table>
 
 #### Traits
 
@@ -1899,7 +1899,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Money) (Base)</td></tr><tr><td>description</td><td>Shows the goal target of the money type in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetmoney_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Money) (Base)</td></tr><tr><td>description</td><td>Shows the goal target of the money type in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetmoney_base</td></tr></table>
 
 #### Traits
 
@@ -1946,7 +1946,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Decimal)</td></tr><tr><td>description</td><td>Select a goal target of the decimal type to use for tracking data that include partial numbers, such as pounds sold of a product sold by weight.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetdecimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Decimal)</td></tr><tr><td>description</td><td>Select a goal target of the decimal type to use for tracking data that include partial numbers, such as pounds sold of a product sold by weight.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetdecimal</td></tr></table>
 
 #### Traits
 
@@ -1989,7 +1989,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Integer)</td></tr><tr><td>description</td><td>Select a goal target of the integer type to use for tracking anything countable in whole numbers, such as units sold.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetinteger</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target (Integer)</td></tr><tr><td>description</td><td>Select a goal target of the integer type to use for tracking anything countable in whole numbers, such as units sold.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetinteger</td></tr></table>
 
 #### Traits
 
@@ -2028,7 +2028,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Money)</td></tr><tr><td>description</td><td>Shows the actual value (Money type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Money.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualmoney</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Money)</td></tr><tr><td>description</td><td>Shows the actual value (Money type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Money.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualmoney</td></tr></table>
 
 #### Traits
 
@@ -2072,7 +2072,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Money) (Base)</td></tr><tr><td>description</td><td>Shows the actual value (money type) in base currency to track goal results against the target.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualmoney_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Money) (Base)</td></tr><tr><td>description</td><td>Shows the actual value (money type) in base currency to track goal results against the target.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualmoney_base</td></tr></table>
 
 #### Traits
 
@@ -2119,7 +2119,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Money)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for a money value to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldmoney</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Money)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for a money value to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldmoney</td></tr></table>
 
 #### Traits
 
@@ -2163,7 +2163,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Money) (Base)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for a money value in base currency to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldmoney_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Money) (Base)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for a money value in base currency to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldmoney_base</td></tr></table>
 
 #### Traits
 
@@ -2210,7 +2210,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Money)</td></tr><tr><td>description</td><td>Shows the in-progress value (money) against the target. This value could contribute to a goal, but is not counted yet as actual.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressmoney</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Money)</td></tr><tr><td>description</td><td>Shows the in-progress value (money) against the target. This value could contribute to a goal, but is not counted yet as actual.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressmoney</td></tr></table>
 
 #### Traits
 
@@ -2254,7 +2254,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Money) (Base)</td></tr><tr><td>description</td><td>Shows the in-progress value (money) in base currency to track goal results against the target.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressmoney_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Money) (Base)</td></tr><tr><td>description</td><td>Shows the in-progress value (money) in base currency to track goal results against the target.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressmoney_base</td></tr></table>
 
 #### Traits
 
@@ -2301,7 +2301,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Decimal)</td></tr><tr><td>description</td><td>Shows the actual value (Decimal type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Decimal.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualdecimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Decimal)</td></tr><tr><td>description</td><td>Shows the actual value (Decimal type) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount and the amount data type is Decimal.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualdecimal</td></tr></table>
 
 #### Traits
 
@@ -2344,7 +2344,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Decimal)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for a decimal value to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfielddecimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Decimal)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for a decimal value to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfielddecimal</td></tr></table>
 
 #### Traits
 
@@ -2387,7 +2387,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Decimal)</td></tr><tr><td>description</td><td>Shows the in-progress value (decimal) against the target. This value could contribute to a goal, but is not counted yet as actual.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressdecimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Decimal)</td></tr><tr><td>description</td><td>Shows the in-progress value (decimal) against the target. This value could contribute to a goal, but is not counted yet as actual.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressdecimal</td></tr></table>
 
 #### Traits
 
@@ -2430,7 +2430,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Integer)</td></tr><tr><td>description</td><td>Shows the actual value (integer) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount or Count and the amount data type is Integer.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualinteger</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual (Integer)</td></tr><tr><td>description</td><td>Shows the actual value (integer) achieved towards the target as of the last rolled-up date. This field appears when the metric type of the goal is Amount or Count and the amount data type is Integer.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualinteger</td></tr></table>
 
 #### Traits
 
@@ -2469,7 +2469,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Integer)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for an integer value to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldinteger</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field (Integer)</td></tr><tr><td>description</td><td>Indicates a placeholder rollup field for an integer value to track a third category of results other than actuals and in-progress results.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldinteger</td></tr></table>
 
 #### Traits
 
@@ -2508,7 +2508,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Integer)</td></tr><tr><td>description</td><td>Shows the in-progress value (integer) against the target. This value could contribute to a goal, but is not counted yet as actual.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressinteger</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-progress (Integer)</td></tr><tr><td>description</td><td>Shows the in-progress value (integer) against the target. This value could contribute to a goal, but is not counted yet as actual.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressinteger</td></tr></table>
 
 #### Traits
 
@@ -2547,7 +2547,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Percentage Achieved</td></tr><tr><td>description</td><td>Shows the percentage achieved against the target goal.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>percentage</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Percentage Achieved</td></tr><tr><td>description</td><td>Shows the percentage achieved against the target goal.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>percentage</td></tr></table>
 
 #### Traits
 
@@ -2590,7 +2590,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Period Type</td></tr><tr><td>description</td><td>Select whether the goal period is a fiscal period or custom period.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isfiscalperiodgoal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Period Type</td></tr><tr><td>description</td><td>Select whether the goal period is a fiscal period or custom period.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isfiscalperiodgoal</td></tr></table>
 
 #### Traits
 
@@ -2626,7 +2626,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Set for Rollup</td></tr><tr><td>description</td><td>Select whether only the goal owner's records, or all records, should be rolled up for goal results.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>consideronlygoalownersrecords</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Set for Rollup</td></tr><tr><td>description</td><td>Select whether only the goal owner's records, or all records, should be rolled up for goal results.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>consideronlygoalownersrecords</td></tr></table>
 
 #### Traits
 
@@ -2659,7 +2659,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Rolled Up Date</td></tr><tr><td>description</td><td>Shows the date and time when the goal was last rolled up. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>lastrolledupdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Rolled Up Date</td></tr><tr><td>description</td><td>Shows the date and time when the goal was last rolled up. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>lastrolledupdate</td></tr></table>
 
 #### Traits
 
@@ -2699,7 +2699,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target</td></tr><tr><td>description</td><td>Target value of the goal.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetstring</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Target</td></tr><tr><td>description</td><td>Target value of the goal.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>targetstring</td></tr></table>
 
 #### Traits
 
@@ -2741,7 +2741,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretched Target</td></tr><tr><td>description</td><td>Stretch target value for all data types.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetstring</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stretched Target</td></tr><tr><td>description</td><td>Stretch target value for all data types.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>stretchtargetstring</td></tr></table>
 
 #### Traits
 
@@ -2783,7 +2783,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual</td></tr><tr><td>description</td><td>Actual Value of the goal.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualstring</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual</td></tr><tr><td>description</td><td>Actual Value of the goal.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>actualstring</td></tr></table>
 
 #### Traits
 
@@ -2825,7 +2825,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field</td></tr><tr><td>description</td><td>Placeholder rollup field for the goal.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldstring</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Custom Rollup Field</td></tr><tr><td>description</td><td>Placeholder rollup field for the goal.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>customrollupfieldstring</td></tr></table>
 
 #### Traits
 
@@ -2867,7 +2867,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-Progress</td></tr><tr><td>description</td><td>In-progress value of the goal.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressstring</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>In-Progress</td></tr><tr><td>description</td><td>In-progress value of the goal.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>inprogressstring</td></tr></table>
 
 #### Traits
 
@@ -2909,7 +2909,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Data Type</td></tr><tr><td>description</td><td>Data type of the amount.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>amountdatatype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Money</td><td>0</td></tr><tr><td>en</td><td>Decimal</td><td>1</td></tr><tr><td>en</td><td>Integer</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Data Type</td></tr><tr><td>description</td><td>Data type of the amount.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>amountdatatype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Money</td><td>0</td></tr><tr><td>en</td><td>Decimal</td><td>1</td></tr><tr><td>en</td><td>Integer</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2950,7 +2950,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2976,7 +2976,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Metric Type</td></tr><tr><td>description</td><td>Indicates whether the metric type is Count or Amount.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Metric Type</td></tr><tr><td>description</td><td>Indicates whether the metric type is Count or Amount.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isamount</td></tr></table>
 
 #### Traits
 
@@ -3012,7 +3012,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Actual(Integer)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate the actual data for the goal (integer).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryactualintegerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Actual(Integer)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate the actual data for the goal (integer).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryactualintegerid</td></tr></table>
 
 #### Traits
 
@@ -3057,7 +3057,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Actual(Money)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate the actual data for the goal (money).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryactualmoneyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Actual(Money)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate the actual data for the goal (money).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryactualmoneyid</td></tr></table>
 
 #### Traits
 
@@ -3102,7 +3102,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Actual(Decimal)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate the actual data for the goal (decimal).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryactualdecimalid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Actual(Decimal)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate the actual data for the goal (decimal).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryactualdecimalid</td></tr></table>
 
 #### Traits
 
@@ -3147,7 +3147,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Custom Rollup Field (Integer)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the custom rollup field (integer).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupquerycustomintegerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Custom Rollup Field (Integer)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the custom rollup field (integer).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupquerycustomintegerid</td></tr></table>
 
 #### Traits
 
@@ -3192,7 +3192,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Custom Rollup Field (Money)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the custom rollup field (money).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupquerycustommoneyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Custom Rollup Field (Money)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the custom rollup field (money).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupquerycustommoneyid</td></tr></table>
 
 #### Traits
 
@@ -3237,7 +3237,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Custom Rollup Field (Decimal)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the custom rollup field (decimal).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupquerycustomdecimalid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - Custom Rollup Field (Decimal)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the custom rollup field (decimal).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupquerycustomdecimalid</td></tr></table>
 
 #### Traits
 
@@ -3282,7 +3282,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - In-progress(Integer)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the in-progress rollup field (integer).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryinprogressintegerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - In-progress(Integer)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the in-progress rollup field (integer).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryinprogressintegerid</td></tr></table>
 
 #### Traits
 
@@ -3327,7 +3327,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - In-progress(Money)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the in-progress rollup field (money).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryinprogressmoneyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - In-progress(Money)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the in-progress rollup field (money).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryinprogressmoneyid</td></tr></table>
 
 #### Traits
 
@@ -3372,7 +3372,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - In-progress(Decimal)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the in-progress rollup field (decimal).</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryinprogressdecimalid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Query - In-progress(Decimal)</td></tr><tr><td>description</td><td>Choose the query that will be used to calculate data for the in-progress rollup field (decimal).</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rollupqueryinprogressdecimalid</td></tr></table>
 
 #### Traits
 
@@ -3417,7 +3417,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Roll Up Only from Child Goals</td></tr><tr><td>description</td><td>Select whether the data should be rolled up only from the child goals.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>sourceName</td><td>rolluponlyfromchildgoals</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Roll Up Only from Child Goals</td></tr><tr><td>description</td><td>Select whether the data should be rolled up only from the child goals.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>sourceName</td><td>rolluponlyfromchildgoals</td></tr></table>
 
 #### Traits
 
@@ -3450,7 +3450,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal With Error</td></tr><tr><td>description</td><td>Unique identifier of the goal that caused an error in the rollup of the goal hierarchy.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>goalwitherrorid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal With Error</td></tr><tr><td>description</td><td>Unique identifier of the goal that caused an error in the rollup of the goal hierarchy.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>goalwitherrorid</td></tr></table>
 
 #### Traits
 
@@ -3498,7 +3498,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Error Code</td></tr><tr><td>description</td><td>Error code associated with rollup.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rolluperrorcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Error Code</td></tr><tr><td>description</td><td>Error code associated with rollup.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>rolluperrorcode</td></tr></table>
 
 #### Traits
 
@@ -3537,7 +3537,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Percentage Achieved)</td></tr><tr><td>description</td><td>Shows the expected value for percentage achieved against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaypercentageachieved</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Percentage Achieved)</td></tr><tr><td>description</td><td>Shows the expected value for percentage achieved against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaypercentageachieved</td></tr></table>
 
 #### Traits
 
@@ -3580,7 +3580,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Money)</td></tr><tr><td>description</td><td>Shows the expected amount for actual value (money type) against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaymoney</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Money)</td></tr><tr><td>description</td><td>Shows the expected amount for actual value (money type) against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaymoney</td></tr></table>
 
 #### Traits
 
@@ -3624,7 +3624,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Money) (Base)</td></tr><tr><td>description</td><td>Shows the expected amount in base currency for actual value (money type) against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaymoney_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Money) (Base)</td></tr><tr><td>description</td><td>Shows the expected amount in base currency for actual value (money type) against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaymoney_base</td></tr></table>
 
 #### Traits
 
@@ -3671,7 +3671,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Decimal)</td></tr><tr><td>description</td><td>Shows the expected amount for actual value (decimal type) against the target goal.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaydecimal</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Decimal)</td></tr><tr><td>description</td><td>Shows the expected amount for actual value (decimal type) against the target goal.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodaydecimal</td></tr></table>
 
 #### Traits
 
@@ -3714,7 +3714,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Integer)</td></tr><tr><td>description</td><td>Shows the expected amount for actual value (integer type) against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodayinteger</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Today's Target (Integer)</td></tr><tr><td>description</td><td>Shows the expected amount for actual value (integer type) against the target goal as of the current date.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>computedtargetasoftodayinteger</td></tr></table>
 
 #### Traits
 
@@ -3753,7 +3753,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Override</td></tr><tr><td>description</td><td>Indicates whether the values of system rollup fields can be updated.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isoverride</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Override</td></tr><tr><td>description</td><td>Indicates whether the values of system rollup fields can be updated.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isoverride</td></tr></table>
 
 #### Traits
 
@@ -3789,7 +3789,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Overridden</td></tr><tr><td>description</td><td>Select whether the system rollup fields are updated. If set to Yes, the next system rollup will not update the values of the rollup fields with the system calculated values.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isoverridden</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Overridden</td></tr><tr><td>description</td><td>Select whether the system rollup fields are updated. If set to Yes, the next system rollup will not update the values of the rollup fields with the system calculated values.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>isoverridden</td></tr></table>
 
 #### Traits
 
@@ -3825,7 +3825,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Entity Image Id</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>entityimageid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Entity Image Id</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>entityimageid</td></tr></table>
 
 #### Traits
 
@@ -3866,7 +3866,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Human-readable and/or coded description of a specific desired objective of care, such as "control blood pressure" or "negotiate an obstacle course" or "dance with child at wedding</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaldescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Human-readable and/or coded description of a specific desired objective of care, such as "control blood pressure" or "negotiate an obstacle course" or "dance with child at wedding</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaldescription</td></tr></table>
 
 #### Traits
 
@@ -3911,7 +3911,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>Indicates whose goal this is - patient</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbypatient</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>Indicates whose goal this is - patient</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbypatient</td></tr></table>
 
 #### Traits
 
@@ -3956,7 +3956,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Practitioner</td></tr><tr><td>description</td><td>Indicates whose goal this is - practitioner</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbypractitioner</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Practitioner</td></tr><tr><td>description</td><td>Indicates whose goal this is - practitioner</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbypractitioner</td></tr></table>
 
 #### Traits
 
@@ -4001,7 +4001,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Related Person</td></tr><tr><td>description</td><td>Indicates whose goal this is - patient goal, practitioner goal, etc.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbyrelatedperson</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Related Person</td></tr><tr><td>description</td><td>Indicates whose goal this is - patient goal, practitioner goal, etc.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbyrelatedperson</td></tr></table>
 
 #### Traits
 
@@ -4046,7 +4046,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Expressed By Type</td></tr><tr><td>description</td><td>Refers to Patient or Practitioner</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>Related Person</td><td>935000002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Expressed By Type</td></tr><tr><td>description</td><td>Refers to Patient or Practitioner</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalexpressedbytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Practitioner</td><td>935000001</td></tr><tr><td>en</td><td>Related Person</td><td>935000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4084,7 +4084,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4110,7 +4110,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Number</td></tr><tr><td>description</td><td>This records identifiers associated with this care plan that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Number</td></tr><tr><td>description</td><td>This records identifiers associated with this care plan that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalnumber</td></tr></table>
 
 #### Traits
 
@@ -4149,7 +4149,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Identifies the mutually agreed level of importance associated with reaching/sustaining the goal.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalpriority</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Priority</td></tr><tr><td>description</td><td>Identifies the mutually agreed level of importance associated with reaching/sustaining the goal.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalpriority</td></tr></table>
 
 #### Traits
 
@@ -4194,7 +4194,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Starting Code</td></tr><tr><td>description</td><td>The event after which the goal should begin being pursued.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstartcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Starting Code</td></tr><tr><td>description</td><td>The event after which the goal should begin being pursued.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstartcode</td></tr></table>
 
 #### Traits
 
@@ -4239,7 +4239,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Starting Method</td></tr><tr><td>description</td><td>Starting Method</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstarttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date</td><td>935000000</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Starting Method</td></tr><tr><td>description</td><td>Starting Method</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstarttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date</td><td>935000000</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4277,7 +4277,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4303,7 +4303,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Indicates whether the goal has been reached and is still considered relevant.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Indicates whether the goal has been reached and is still considered relevant.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4341,7 +4341,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4367,7 +4367,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Identifies when the current status. I.e. When initially created, when achieved, when cancelled, etc.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstatusdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Identifies when the current status. I.e. When initially created, when achieved, when cancelled, etc.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstatusdate</td></tr></table>
 
 #### Traits
 
@@ -4404,7 +4404,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modify Reason</td></tr><tr><td>description</td><td>Captures the reason for the current status. This will typically be captured for statuses such as rejected, on-hold or cancelled, but could be present for others.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstatusreason</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modify Reason</td></tr><tr><td>description</td><td>Captures the reason for the current status. This will typically be captured for statuses such as rejected, on-hold or cancelled, but could be present for others.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalstatusreason</td></tr></table>
 
 #### Traits
 
@@ -4443,7 +4443,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Group</td></tr><tr><td>description</td><td>Identifies the group for whom the goal is being established.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjectgroup</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Group</td></tr><tr><td>description</td><td>Identifies the group for whom the goal is being established.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjectgroup</td></tr></table>
 
 #### Traits
 
@@ -4488,7 +4488,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization</td></tr><tr><td>description</td><td>Identifies the patient, group or organization for whom the goal is being established.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjectorganization</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organization</td></tr><tr><td>description</td><td>Identifies the patient, group or organization for whom the goal is being established.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjectorganization</td></tr></table>
 
 #### Traits
 
@@ -4533,7 +4533,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>Identifies the patient for whom the goal is being established.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjectpatient</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>Identifies the patient for whom the goal is being established.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjectpatient</td></tr></table>
 
 #### Traits
 
@@ -4578,7 +4578,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>Type of subject</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Organization</td><td>935000002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Subject Type</td></tr><tr><td>description</td><td>Type of subject</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goalsubjecttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Patient</td><td>935000000</td></tr><tr><td>en</td><td>Group</td><td>935000001</td></tr><tr><td>en</td><td>Organization</td><td>935000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4616,7 +4616,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4642,7 +4642,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lower Value</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetaillowervalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lower Value</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetaillowervalue</td></tr></table>
 
 #### Traits
 
@@ -4682,7 +4682,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Code</td></tr><tr><td>description</td><td>A computer processable form of the unit in some unit representation system.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantitycode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Code</td></tr><tr><td>description</td><td>A computer processable form of the unit in some unit representation system.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantitycode</td></tr></table>
 
 #### Traits
 
@@ -4727,7 +4727,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the value should be understood and represented</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Comparator</td></tr><tr><td>description</td><td>How the value should be understood and represented</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantitycomparator</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4765,7 +4765,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4791,7 +4791,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity System</td></tr><tr><td>description</td><td>The identification of the system that provides the coded form of the unit.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantitysystem</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity System</td></tr><tr><td>description</td><td>The identification of the system that provides the coded form of the unit.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantitysystem</td></tr></table>
 
 #### Traits
 
@@ -4830,7 +4830,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Unit</td></tr><tr><td>description</td><td>A human-readable form of the unit.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantityunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Unit</td></tr><tr><td>description</td><td>A human-readable form of the unit.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantityunit</td></tr></table>
 
 #### Traits
 
@@ -4869,7 +4869,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Value</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantityvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Quantity Value</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailquantityvalue</td></tr></table>
 
 #### Traits
 
@@ -4909,7 +4909,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Detail Type</td></tr><tr><td>description</td><td>Type of measurement value.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr><tr><td>en</td><td>Range</td><td>935000001</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Detail Type</td></tr><tr><td>description</td><td>Type of measurement value.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Quantity</td><td>935000000</td></tr><tr><td>en</td><td>Range</td><td>935000001</td></tr><tr><td>en</td><td>Codeable Concept</td><td>935000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4947,7 +4947,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4973,7 +4973,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Upper Value</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailuppervalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Upper Value</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailuppervalue</td></tr></table>
 
 #### Traits
 
@@ -5013,7 +5013,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Code</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailvaluecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Code</td></tr><tr><td>description</td><td>The target value of the focus to be achieved to signify the fulfillment of the goal, e.g. 150 pounds, 7.0%. Either the high or low or both values of the range can be specified.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetdetailvaluecode</td></tr></table>
 
 #### Traits
 
@@ -5058,7 +5058,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Measurement</td></tr><tr><td>description</td><td>The parameter whose value is being tracked, e.g. body weight, blood pressure, or hemoglobin A1c level.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasure</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Goal Measurement</td></tr><tr><td>description</td><td>The parameter whose value is being tracked, e.g. body weight, blood pressure, or hemoglobin A1c level.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasure</td></tr></table>
 
 #### Traits
 
@@ -5103,7 +5103,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Due Date</td></tr><tr><td>description</td><td>Indicates either the date or the duration after start by which the goal should be met.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasurevalueduedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Due Date</td></tr><tr><td>description</td><td>Indicates either the date or the duration after start by which the goal should be met.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasurevalueduedate</td></tr></table>
 
 #### Traits
 
@@ -5140,7 +5140,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Due Duration</td></tr><tr><td>description</td><td>Indicates either the date or the duration after start by which the goal should be met.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasurevaluedueduration</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Due Duration</td></tr><tr><td>description</td><td>Indicates either the date or the duration after start by which the goal should be met.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasurevaluedueduration</td></tr></table>
 
 #### Traits
 
@@ -5180,7 +5180,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Due Type</td></tr><tr><td>description</td><td>Type of value due</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasurevalueduetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date</td><td>935000000</td></tr><tr><td>en</td><td>Duration</td><td>935000001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measure Due Type</td></tr><tr><td>description</td><td>Type of value due</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_goaltargetmeasurevalueduetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Date</td><td>935000000</td></tr><tr><td>en</td><td>Duration</td><td>935000001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5218,7 +5218,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -5244,7 +5244,7 @@ First included in: electronicMedicalRecords/Goal (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_name</td></tr></table>
 
 #### Traits
 

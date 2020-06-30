@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/29/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -214,7 +214,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -255,7 +255,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -306,7 +306,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -347,7 +347,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -398,7 +398,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -449,7 +449,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -500,7 +500,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -541,7 +541,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -577,7 +577,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner</td></tr><tr><td>description</td><td>Owner Id</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>ownerid</td></tr></table>
 
 #### Traits
 
@@ -625,7 +625,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owner Type</td></tr><tr><td>description</td><td>The type of owner, either User or Team.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>sourceName</td><td>owneridtype</td></tr></table>
 
 #### Traits
 
@@ -666,7 +666,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Business Unit</td></tr><tr><td>description</td><td>Unique identifier for the business unit that owns the record</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningbusinessunit</td></tr></table>
 
 #### Traits
 
@@ -714,7 +714,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning User</td></tr><tr><td>description</td><td>Unique identifier of the user that owns the activity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owninguser</td></tr></table>
 
 #### Traits
 
@@ -765,7 +765,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Owning Team</td></tr><tr><td>description</td><td>Unique identifier for the team that owns the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>owningteam</td></tr></table>
 
 #### Traits
 
@@ -813,7 +813,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -852,7 +852,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -891,7 +891,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Version Number</td></tr><tr><td>description</td><td>Version Number</td></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>versionnumber</td></tr></table>
 
 #### Traits
 
@@ -930,7 +930,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Exchange Rate</td></tr><tr><td>description</td><td>Exchange rate for the currency associated with the entity with respect to the base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>1E-10</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>exchangerate</td></tr></table>
 
 #### Traits
 
@@ -970,7 +970,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual % of Estate Received</td></tr><tr><td>description</td><td>Actual percent of donor estate received by organization</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_actualpercentofestaterecieved</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual % of Estate Received</td></tr><tr><td>description</td><td>Actual percent of donor estate received by organization</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_actualpercentofestaterecieved</td></tr></table>
 
 #### Traits
 
@@ -1010,7 +1010,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Affiliation</td></tr><tr><td>description</td><td>Represents groups within the organization.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_affiliation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NGO</td><td>100000000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Affiliation</td></tr><tr><td>description</td><td>Represents groups within the organization.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_affiliation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>NGO</td><td>100000000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1048,7 +1048,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1074,7 +1074,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Per Frequency</td></tr><tr><td>description</td><td>Amount distributed to organization per defined frequency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_amountperfrequency</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Per Frequency</td></tr><tr><td>description</td><td>Amount distributed to organization per defined frequency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_amountperfrequency</td></tr></table>
 
 #### Traits
 
@@ -1115,7 +1115,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Per Frequency (Base)</td></tr><tr><td>description</td><td>Value of the Amount Per Frequency in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_amountperfrequency_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Per Frequency (Base)</td></tr><tr><td>description</td><td>Value of the Amount Per Frequency in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_amountperfrequency_base</td></tr></table>
 
 #### Traits
 
@@ -1156,7 +1156,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value</td></tr><tr><td>description</td><td>Annual Market Value provided by official valuation source such as Kaspick.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value</td></tr><tr><td>description</td><td>Annual Market Value provided by official valuation source such as Kaspick.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvalue</td></tr></table>
 
 #### Traits
 
@@ -1197,7 +1197,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Annual Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Annual Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvalue_base</td></tr></table>
 
 #### Traits
 
@@ -1238,7 +1238,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value Date</td></tr><tr><td>description</td><td>Date Annual Market Value provided by official valuation source such as Kaspick.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvaluedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value Date</td></tr><tr><td>description</td><td>Date Annual Market Value provided by official valuation source such as Kaspick.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvaluedate</td></tr></table>
 
 #### Traits
 
@@ -1275,7 +1275,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Payment</td></tr><tr><td>description</td><td>Annual Payment to organization.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualpayment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Payment</td></tr><tr><td>description</td><td>Annual Payment to organization.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualpayment</td></tr></table>
 
 #### Traits
 
@@ -1316,7 +1316,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualpayment_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_annualpayment_base</td></tr></table>
 
 #### Traits
 
@@ -1357,7 +1357,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Annual Payment</td></tr><tr><td>description</td><td>Anticipated Annual Payment to organization.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedannualpayment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Annual Payment</td></tr><tr><td>description</td><td>Anticipated Annual Payment to organization.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedannualpayment</td></tr></table>
 
 #### Traits
 
@@ -1398,7 +1398,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Anticipated Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedannualpayment_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Anticipated Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedannualpayment_base</td></tr></table>
 
 #### Traits
 
@@ -1439,7 +1439,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Distribution Date of Trust</td></tr><tr><td>description</td><td>Anticipated distribution date of trust typically provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipateddistributiondateoftrust</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Distribution Date of Trust</td></tr><tr><td>description</td><td>Anticipated distribution date of trust typically provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipateddistributiondateoftrust</td></tr></table>
 
 #### Traits
 
@@ -1476,7 +1476,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated % of Trust</td></tr><tr><td>description</td><td>Anticipated percent of trust that will go to the organization. This is typically provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedpercentoftrust</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated % of Trust</td></tr><tr><td>description</td><td>Anticipated percent of trust that will go to the organization. This is typically provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedpercentoftrust</td></tr></table>
 
 #### Traits
 
@@ -1516,7 +1516,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Date</td></tr><tr><td>description</td><td>Date the appraisal was conducted.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_appraisaldate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Date</td></tr><tr><td>description</td><td>Date the appraisal was conducted.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_appraisaldate</td></tr></table>
 
 #### Traits
 
@@ -1553,7 +1553,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Value</td></tr><tr><td>description</td><td>Value of the appraised item or asset from qualified appraiser</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_appraisalvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Value</td></tr><tr><td>description</td><td>Value of the appraised item or asset from qualified appraiser</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_appraisalvalue</td></tr></table>
 
 #### Traits
 
@@ -1594,7 +1594,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Value (Base)</td></tr><tr><td>description</td><td>Value of the Appraisal Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_appraisalvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Value (Base)</td></tr><tr><td>description</td><td>Value of the Appraisal Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_appraisalvalue_base</td></tr></table>
 
 #### Traits
 
@@ -1635,7 +1635,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bequest Type</td></tr><tr><td>description</td><td>Is the Bequest a Living Trust, Will, or both?</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_bequesttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td></tr><tr><td>en</td><td>Will</td><td>100000001</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Bequest Type</td></tr><tr><td>description</td><td>Is the Bequest a Living Trust, Will, or both?</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_bequesttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Living Trust</td><td>100000000</td></tr><tr><td>en</td><td>Will</td><td>100000001</td></tr><tr><td>en</td><td>Living Trust and Will</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1673,7 +1673,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -1699,7 +1699,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Gain Income</td></tr><tr><td>description</td><td>Beneficiary's taxable capital gain income portion of life insurance income.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_capitalgainincome</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Gain Income</td></tr><tr><td>description</td><td>Beneficiary's taxable capital gain income portion of life insurance income.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_capitalgainincome</td></tr></table>
 
 #### Traits
 
@@ -1740,7 +1740,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Gain Income (Base)</td></tr><tr><td>description</td><td>Value of the Capital Gain Income in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_capitalgainincome_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Gain Income (Base)</td></tr><tr><td>description</td><td>Value of the Capital Gain Income in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_capitalgainincome_base</td></tr></table>
 
 #### Traits
 
@@ -1781,7 +1781,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash Surrender Value</td></tr><tr><td>description</td><td>The current Cash Surrender Value of the insurance policy.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_cashsurrendervalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash Surrender Value</td></tr><tr><td>description</td><td>The current Cash Surrender Value of the insurance policy.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_cashsurrendervalue</td></tr></table>
 
 #### Traits
 
@@ -1822,7 +1822,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash Surrender Value (Base)</td></tr><tr><td>description</td><td>Value of the Cash Surrender Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_cashsurrendervalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash Surrender Value (Base)</td></tr><tr><td>description</td><td>Value of the Cash Surrender Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_cashsurrendervalue_base</td></tr></table>
 
 #### Traits
 
@@ -1863,7 +1863,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Charitable Deduction</td></tr><tr><td>description</td><td>Calculated Charitable Deduction for Planned Giving.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_charitablededuction</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Charitable Deduction</td></tr><tr><td>description</td><td>Calculated Charitable Deduction for Planned Giving.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_charitablededuction</td></tr></table>
 
 #### Traits
 
@@ -1904,7 +1904,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Charitable Deduction (Base)</td></tr><tr><td>description</td><td>Value of the Charitable Deduction in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_charitablededuction_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Charitable Deduction (Base)</td></tr><tr><td>description</td><td>Value of the Charitable Deduction in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_charitablededuction_base</td></tr></table>
 
 #### Traits
 
@@ -1945,7 +1945,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contract Date</td></tr><tr><td>description</td><td>Date funding will start as specified on the Contract.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_contractdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contract Date</td></tr><tr><td>description</td><td>Date funding will start as specified on the Contract.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_contractdate</td></tr></table>
 
 #### Traits
 
@@ -1982,7 +1982,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost Basis</td></tr><tr><td>description</td><td>Original purchase price of funding asset.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_costbasis</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost Basis</td></tr><tr><td>description</td><td>Original purchase price of funding asset.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_costbasis</td></tr></table>
 
 #### Traits
 
@@ -2023,7 +2023,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost Basis (Base)</td></tr><tr><td>description</td><td>Value of the Cost Basis in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_costbasis_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost Basis (Base)</td></tr><tr><td>description</td><td>Value of the Cost Basis in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_costbasis_base</td></tr></table>
 
 #### Traits
 
@@ -2064,7 +2064,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Claim Forms Received</td></tr><tr><td>description</td><td>Date Claim Forms Received.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_dateclaimformsrecieved</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Claim Forms Received</td></tr><tr><td>description</td><td>Date Claim Forms Received.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_dateclaimformsrecieved</td></tr></table>
 
 #### Traits
 
@@ -2101,7 +2101,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Claim Forms Submitted</td></tr><tr><td>description</td><td>Date Claim Forms Submitted.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_dateclaimformssubmitted</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Claim Forms Submitted</td></tr><tr><td>description</td><td>Date Claim Forms Submitted.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_dateclaimformssubmitted</td></tr></table>
 
 #### Traits
 
@@ -2138,7 +2138,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Estate Closed</td></tr><tr><td>description</td><td>Date a management agreement is signed as provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_dateestateclosed</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Estate Closed</td></tr><tr><td>description</td><td>Date a management agreement is signed as provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_dateestateclosed</td></tr></table>
 
 #### Traits
 
@@ -2175,7 +2175,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Management Agreement Signed</td></tr><tr><td>description</td><td>Date a management agreement is signed as provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datemanagementagreementsigned</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Management Agreement Signed</td></tr><tr><td>description</td><td>Date a management agreement is signed as provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datemanagementagreementsigned</td></tr></table>
 
 #### Traits
 
@@ -2212,7 +2212,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Organization Notified of Death</td></tr><tr><td>description</td><td>Date your organization is notified of the donor's death.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datestationnotifiedofdeath</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Organization Notified of Death</td></tr><tr><td>description</td><td>Date your organization is notified of the donor's death.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datestationnotifiedofdeath</td></tr></table>
 
 #### Traits
 
@@ -2249,7 +2249,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Organization Notified of Intention</td></tr><tr><td>description</td><td>Date organization Notified of Intention to give a Planned Giving.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datestationnotifiedofintention</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Organization Notified of Intention</td></tr><tr><td>description</td><td>Date organization Notified of Intention to give a Planned Giving.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datestationnotifiedofintention</td></tr></table>
 
 #### Traits
 
@@ -2286,7 +2286,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Organization Notified to Make Claim</td></tr><tr><td>description</td><td>Date Organization notified to make a claim.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datestationnotifiedtomakeclaim</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Organization Notified to Make Claim</td></tr><tr><td>description</td><td>Date Organization notified to make a claim.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datestationnotifiedtomakeclaim</td></tr></table>
 
 #### Traits
 
@@ -2323,7 +2323,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Will Executed</td></tr><tr><td>description</td><td>Date Will Executed as provided in estate documentation.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datewillexecuted</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Date Will Executed</td></tr><tr><td>description</td><td>Date Will Executed as provided in estate documentation.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_datewillexecuted</td></tr></table>
 
 #### Traits
 
@@ -2360,7 +2360,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased?</td></tr><tr><td>description</td><td>Indicates the Contact is Deceased.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceased</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased?</td></tr><tr><td>description</td><td>Indicates the Contact is Deceased.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceased</td></tr></table>
 
 #### Traits
 
@@ -2393,7 +2393,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Day</td></tr><tr><td>description</td><td>Day the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Day</td></tr><tr><td>description</td><td>Day the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedday</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>100000001</td></tr><tr><td>en</td><td>03</td><td>100000002</td></tr><tr><td>en</td><td>04</td><td>100000003</td></tr><tr><td>en</td><td>05</td><td>100000004</td></tr><tr><td>en</td><td>06</td><td>100000005</td></tr><tr><td>en</td><td>07</td><td>100000006</td></tr><tr><td>en</td><td>08</td><td>100000007</td></tr><tr><td>en</td><td>09</td><td>100000008</td></tr><tr><td>en</td><td>10</td><td>100000009</td></tr><tr><td>en</td><td>11</td><td>100000010</td></tr><tr><td>en</td><td>12</td><td>100000011</td></tr><tr><td>en</td><td>13</td><td>100000012</td></tr><tr><td>en</td><td>14</td><td>100000013</td></tr><tr><td>en</td><td>15</td><td>100000014</td></tr><tr><td>en</td><td>16</td><td>100000015</td></tr><tr><td>en</td><td>17</td><td>100000016</td></tr><tr><td>en</td><td>18</td><td>100000017</td></tr><tr><td>en</td><td>19</td><td>100000018</td></tr><tr><td>en</td><td>20</td><td>100000019</td></tr><tr><td>en</td><td>21</td><td>100000020</td></tr><tr><td>en</td><td>22</td><td>100000021</td></tr><tr><td>en</td><td>23</td><td>100000022</td></tr><tr><td>en</td><td>24</td><td>100000023</td></tr><tr><td>en</td><td>25</td><td>100000024</td></tr><tr><td>en</td><td>26</td><td>100000025</td></tr><tr><td>en</td><td>27</td><td>100000026</td></tr><tr><td>en</td><td>28</td><td>100000027</td></tr><tr><td>en</td><td>29</td><td>100000028</td></tr><tr><td>en</td><td>30</td><td>100000029</td></tr><tr><td>en</td><td>31</td><td>100000030</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2431,7 +2431,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2457,7 +2457,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Month</td></tr><tr><td>description</td><td>Month the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>844060000</td></tr><tr><td>en</td><td>03</td><td>844060001</td></tr><tr><td>en</td><td>04</td><td>844060002</td></tr><tr><td>en</td><td>05</td><td>844060003</td></tr><tr><td>en</td><td>06</td><td>844060004</td></tr><tr><td>en</td><td>07</td><td>844060005</td></tr><tr><td>en</td><td>08</td><td>844060006</td></tr><tr><td>en</td><td>09</td><td>844060007</td></tr><tr><td>en</td><td>10</td><td>844060008</td></tr><tr><td>en</td><td>11</td><td>844060009</td></tr><tr><td>en</td><td>12</td><td>844060010</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Month</td></tr><tr><td>description</td><td>Month the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedmonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>844060000</td></tr><tr><td>en</td><td>03</td><td>844060001</td></tr><tr><td>en</td><td>04</td><td>844060002</td></tr><tr><td>en</td><td>05</td><td>844060003</td></tr><tr><td>en</td><td>06</td><td>844060004</td></tr><tr><td>en</td><td>07</td><td>844060005</td></tr><tr><td>en</td><td>08</td><td>844060006</td></tr><tr><td>en</td><td>09</td><td>844060007</td></tr><tr><td>en</td><td>10</td><td>844060008</td></tr><tr><td>en</td><td>11</td><td>844060009</td></tr><tr><td>en</td><td>12</td><td>844060010</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2495,7 +2495,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2521,7 +2521,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Year</td></tr><tr><td>description</td><td>Year the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>100000000</td></tr><tr><td>en</td><td>2013</td><td>844060000</td></tr><tr><td>en</td><td>2012</td><td>844060001</td></tr><tr><td>en</td><td>2011</td><td>844060002</td></tr><tr><td>en</td><td>2010</td><td>844060003</td></tr><tr><td>en</td><td>2009</td><td>844060004</td></tr><tr><td>en</td><td>2008</td><td>844060005</td></tr><tr><td>en</td><td>2007</td><td>844060006</td></tr><tr><td>en</td><td>2006</td><td>844060007</td></tr><tr><td>en</td><td>2005</td><td>844060008</td></tr><tr><td>en</td><td>2004</td><td>844060009</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deceased Year</td></tr><tr><td>description</td><td>Year the Contact was deceased.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deceasedyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>100000000</td></tr><tr><td>en</td><td>2013</td><td>844060000</td></tr><tr><td>en</td><td>2012</td><td>844060001</td></tr><tr><td>en</td><td>2011</td><td>844060002</td></tr><tr><td>en</td><td>2010</td><td>844060003</td></tr><tr><td>en</td><td>2009</td><td>844060004</td></tr><tr><td>en</td><td>2008</td><td>844060005</td></tr><tr><td>en</td><td>2007</td><td>844060006</td></tr><tr><td>en</td><td>2006</td><td>844060007</td></tr><tr><td>en</td><td>2005</td><td>844060008</td></tr><tr><td>en</td><td>2004</td><td>844060009</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2559,7 +2559,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2585,7 +2585,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deferred To Date</td></tr><tr><td>description</td><td>Same as date of first payment when more than one year after the contract date.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deferredtodate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Deferred To Date</td></tr><tr><td>description</td><td>Same as date of first payment when more than one year after the contract date.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_deferredtodate</td></tr></table>
 
 #### Traits
 
@@ -2622,7 +2622,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Organization %</td></tr><tr><td>description</td><td>Percent of remainder designated to organization</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatedorganizationpercent</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Organization %</td></tr><tr><td>description</td><td>Percent of remainder designated to organization</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatedorganizationpercent</td></tr></table>
 
 #### Traits
 
@@ -2662,7 +2662,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Principle Amount</td></tr><tr><td>description</td><td>Amount of principle designated to organization.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatedprincipleamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Principle Amount</td></tr><tr><td>description</td><td>Amount of principle designated to organization.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatedprincipleamount</td></tr></table>
 
 #### Traits
 
@@ -2703,7 +2703,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Principle Amount (Base)</td></tr><tr><td>description</td><td>Value of the Designated Principle Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatedprincipleamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Principle Amount (Base)</td></tr><tr><td>description</td><td>Value of the Designated Principle Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designatedprincipleamount_base</td></tr></table>
 
 #### Traits
 
@@ -2744,7 +2744,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designation</td></tr><tr><td>description</td><td>Usage of gift funds will be unrestricted, restricted or permanently restricted.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designation</td></tr><tr><td>description</td><td>Usage of gift funds will be unrestricted, restricted or permanently restricted.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_designation</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unrestricted</td><td>100000000</td></tr><tr><td>en</td><td>Restricted</td><td>100000001</td></tr><tr><td>en</td><td>Permanently Restriceted</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2782,7 +2782,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2808,7 +2808,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate</td></tr><tr><td>description</td><td>Interest rate a central bank charges depository institutions that borrow reserves from it.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountrate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate</td></tr><tr><td>description</td><td>Interest rate a central bank charges depository institutions that borrow reserves from it.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountrate</td></tr></table>
 
 #### Traits
 
@@ -2848,7 +2848,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Month</td></tr><tr><td>description</td><td>Month in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountratemonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>844060000</td></tr><tr><td>en</td><td>03</td><td>844060001</td></tr><tr><td>en</td><td>04</td><td>844060002</td></tr><tr><td>en</td><td>05</td><td>844060003</td></tr><tr><td>en</td><td>06</td><td>844060004</td></tr><tr><td>en</td><td>08</td><td>844060005</td></tr><tr><td>en</td><td>09</td><td>844060006</td></tr><tr><td>en</td><td>10</td><td>844060007</td></tr><tr><td>en</td><td>11</td><td>844060008</td></tr><tr><td>en</td><td>12</td><td>844060009</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Month</td></tr><tr><td>description</td><td>Month in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountratemonth</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>01</td><td>100000000</td></tr><tr><td>en</td><td>02</td><td>844060000</td></tr><tr><td>en</td><td>03</td><td>844060001</td></tr><tr><td>en</td><td>04</td><td>844060002</td></tr><tr><td>en</td><td>05</td><td>844060003</td></tr><tr><td>en</td><td>06</td><td>844060004</td></tr><tr><td>en</td><td>08</td><td>844060005</td></tr><tr><td>en</td><td>09</td><td>844060006</td></tr><tr><td>en</td><td>10</td><td>844060007</td></tr><tr><td>en</td><td>11</td><td>844060008</td></tr><tr><td>en</td><td>12</td><td>844060009</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2886,7 +2886,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2912,7 +2912,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Year</td></tr><tr><td>description</td><td>Year in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountrateyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>100000000</td></tr><tr><td>en</td><td>2013</td><td>844060000</td></tr><tr><td>en</td><td>2012</td><td>844060001</td></tr><tr><td>en</td><td>2011</td><td>844060002</td></tr><tr><td>en</td><td>2010</td><td>844060003</td></tr><tr><td>en</td><td>2009</td><td>844060004</td></tr><tr><td>en</td><td>2008</td><td>844060005</td></tr><tr><td>en</td><td>2007</td><td>844060006</td></tr><tr><td>en</td><td>2006</td><td>844060007</td></tr><tr><td>en</td><td>2005</td><td>844060008</td></tr><tr><td>en</td><td>2004</td><td>844060009</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Discount Rate Year</td></tr><tr><td>description</td><td>Year in which latest Discount Rate was populated.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_discountrateyear</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unknown</td><td>100000000</td></tr><tr><td>en</td><td>2013</td><td>844060000</td></tr><tr><td>en</td><td>2012</td><td>844060001</td></tr><tr><td>en</td><td>2011</td><td>844060002</td></tr><tr><td>en</td><td>2010</td><td>844060003</td></tr><tr><td>en</td><td>2009</td><td>844060004</td></tr><tr><td>en</td><td>2008</td><td>844060005</td></tr><tr><td>en</td><td>2007</td><td>844060006</td></tr><tr><td>en</td><td>2006</td><td>844060007</td></tr><tr><td>en</td><td>2005</td><td>844060008</td></tr><tr><td>en</td><td>2004</td><td>844060009</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2950,7 +2950,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -2976,7 +2976,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Endowment Type</td></tr><tr><td>description</td><td>Specific endowment at organization where gift will be applied.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_endowmenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Endowment Type</td></tr><tr><td>description</td><td>Specific endowment at organization where gift will be applied.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_endowmenttype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Board-Designated Endowment</td><td>100000000</td></tr><tr><td>en</td><td>Permanent Endowment</td><td>100000001</td></tr><tr><td>en</td><td>Donor directed</td><td>100000002</td></tr><tr><td>en</td><td>Current operations</td><td>100000003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3014,7 +3014,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3040,7 +3040,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Giving Amount</td></tr><tr><td>description</td><td>Estimated amount organization will receive as provided by executor, trustee, or attorney.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_estimatedgivingamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Giving Amount</td></tr><tr><td>description</td><td>Estimated amount organization will receive as provided by executor, trustee, or attorney.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_estimatedgivingamount</td></tr></table>
 
 #### Traits
 
@@ -3081,7 +3081,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Giving Amount (Base)</td></tr><tr><td>description</td><td>Value of the Estimated Giving Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_estimatedgivingamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Giving Amount (Base)</td></tr><tr><td>description</td><td>Value of the Estimated Giving Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_estimatedgivingamount_base</td></tr></table>
 
 #### Traits
 
@@ -3122,7 +3122,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Trust/Probate Date</td></tr><tr><td>description</td><td>Estimated Date Trust/Probate received as provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_estimatedtrustprobatedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Trust/Probate Date</td></tr><tr><td>description</td><td>Estimated Date Trust/Probate received as provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_estimatedtrustprobatedate</td></tr></table>
 
 #### Traits
 
@@ -3159,7 +3159,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expected Final Distribution Date</td></tr><tr><td>description</td><td>Expected Date of Final Distribution, typically information provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_expectedfinaldistributiondate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expected Final Distribution Date</td></tr><tr><td>description</td><td>Expected Date of Final Distribution, typically information provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_expectedfinaldistributiondate</td></tr></table>
 
 #### Traits
 
@@ -3196,7 +3196,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expected First Distribution Date</td></tr><tr><td>description</td><td>Expected Date of First Distribution, typically information provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_expectedfirstdistributiondate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Expected First Distribution Date</td></tr><tr><td>description</td><td>Expected Date of First Distribution, typically information provided by executor, trustee or attorney.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_expectedfirstdistributiondate</td></tr></table>
 
 #### Traits
 
@@ -3233,7 +3233,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>External ID</td></tr><tr><td>description</td><td>ID from External or Legacy system.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_externalid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>External ID</td></tr><tr><td>description</td><td>ID from External or Legacy system.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_externalid</td></tr></table>
 
 #### Traits
 
@@ -3272,7 +3272,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Face Value</td></tr><tr><td>description</td><td>Value of funds donated.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_facevalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Face Value</td></tr><tr><td>description</td><td>Value of funds donated.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_facevalue</td></tr></table>
 
 #### Traits
 
@@ -3313,7 +3313,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Face Value (Base)</td></tr><tr><td>description</td><td>Value of the Face Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_facevalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Face Value (Base)</td></tr><tr><td>description</td><td>Value of the Face Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_facevalue_base</td></tr></table>
 
 #### Traits
 
@@ -3354,7 +3354,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Unique identifier for Account associated with Planned Giving.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_fundid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Account</td></tr><tr><td>description</td><td>Unique identifier for Account associated with Planned Giving.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_fundid</td></tr></table>
 
 #### Traits
 
@@ -3399,7 +3399,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Amount</td></tr><tr><td>description</td><td>Sum of gifts entered on this record (logic field).</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Amount</td></tr><tr><td>description</td><td>Sum of gifts entered on this record (logic field).</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingamount</td></tr></table>
 
 #### Traits
 
@@ -3435,7 +3435,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Received Date</td></tr><tr><td>description</td><td>Date distribution or remainder for Planned Giving is received.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingreceiveddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Received Date</td></tr><tr><td>description</td><td>Date distribution or remainder for Planned Giving is received.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingreceiveddate</td></tr></table>
 
 #### Traits
 
@@ -3472,7 +3472,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Subtype</td></tr><tr><td>description</td><td>Specific type of Planned Giving instrument.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingsubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Standard Flip</td><td>100000000</td></tr><tr><td>en</td><td>Flip with Makeup</td><td>844060000</td></tr><tr><td>en</td><td>Net Income</td><td>844060001</td></tr><tr><td>en</td><td>Net Income with Makeup</td><td>844060002</td></tr><tr><td>en</td><td>Deferred</td><td>844060003</td></tr><tr><td>en</td><td>Flexible</td><td>844060004</td></tr><tr><td>en</td><td>Grantor</td><td>844060005</td></tr><tr><td>en</td><td>Non Grantor</td><td>844060006</td></tr><tr><td>en</td><td>Regular</td><td>844060007</td></tr><tr><td>en</td><td>Testamentory</td><td>844060008</td></tr><tr><td>en</td><td>Traditional IRA</td><td>844060009</td></tr><tr><td>en</td><td>Roth IRA</td><td>844060010</td></tr><tr><td>en</td><td>403(b)/401k</td><td>844060011</td></tr><tr><td>en</td><td>KEOGH</td><td>844060012</td></tr><tr><td>en</td><td>Other Retirement Plan</td><td>844060013</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Giving Subtype</td></tr><tr><td>description</td><td>Specific type of Planned Giving instrument.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_givingsubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Standard Flip</td><td>100000000</td></tr><tr><td>en</td><td>Flip with Makeup</td><td>844060000</td></tr><tr><td>en</td><td>Net Income</td><td>844060001</td></tr><tr><td>en</td><td>Net Income with Makeup</td><td>844060002</td></tr><tr><td>en</td><td>Deferred</td><td>844060003</td></tr><tr><td>en</td><td>Flexible</td><td>844060004</td></tr><tr><td>en</td><td>Grantor</td><td>844060005</td></tr><tr><td>en</td><td>Non Grantor</td><td>844060006</td></tr><tr><td>en</td><td>Regular</td><td>844060007</td></tr><tr><td>en</td><td>Testamentory</td><td>844060008</td></tr><tr><td>en</td><td>Traditional IRA</td><td>844060009</td></tr><tr><td>en</td><td>Roth IRA</td><td>844060010</td></tr><tr><td>en</td><td>403(b)/401k</td><td>844060011</td></tr><tr><td>en</td><td>KEOGH</td><td>844060012</td></tr><tr><td>en</td><td>Other Retirement Plan</td><td>844060013</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3510,7 +3510,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3536,7 +3536,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Annual Premium</td></tr><tr><td>description</td><td>Annual Premium of the Life Insurance.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insuranceannualpremium</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Annual Premium</td></tr><tr><td>description</td><td>Annual Premium of the Life Insurance.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insuranceannualpremium</td></tr></table>
 
 #### Traits
 
@@ -3577,7 +3577,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Annual Premium (Base)</td></tr><tr><td>description</td><td>Value of the Insurance Annual Premium in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insuranceannualpremium_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Annual Premium (Base)</td></tr><tr><td>description</td><td>Value of the Insurance Annual Premium in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insuranceannualpremium_base</td></tr></table>
 
 #### Traits
 
@@ -3618,7 +3618,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Company</td></tr><tr><td>description</td><td>Insurance Company for related to this Planned Giving.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancecompany</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Company</td></tr><tr><td>description</td><td>Insurance Company for related to this Planned Giving.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancecompany</td></tr></table>
 
 #### Traits
 
@@ -3657,7 +3657,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Death Benefit Amount</td></tr><tr><td>description</td><td>Death Benefit Amount from Insurance.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancedeathbenefitamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Death Benefit Amount</td></tr><tr><td>description</td><td>Death Benefit Amount from Insurance.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancedeathbenefitamount</td></tr></table>
 
 #### Traits
 
@@ -3693,7 +3693,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Policy Code</td></tr><tr><td>description</td><td>Insurance policy code related to this Planned Giving.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepolicycode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Policy Code</td></tr><tr><td>description</td><td>Insurance policy code related to this Planned Giving.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepolicycode</td></tr></table>
 
 #### Traits
 
@@ -3732,7 +3732,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Policy Name</td></tr><tr><td>description</td><td>Insurance Policy Name for this Planned Giving.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepolicyname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Policy Name</td></tr><tr><td>description</td><td>Insurance Policy Name for this Planned Giving.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepolicyname</td></tr></table>
 
 #### Traits
 
@@ -3772,7 +3772,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Premium Due Date</td></tr><tr><td>description</td><td>Insurance Premium Due Date related to this Planned Giving record.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepremiumduedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Premium Due Date</td></tr><tr><td>description</td><td>Insurance Premium Due Date related to this Planned Giving record.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepremiumduedate</td></tr></table>
 
 #### Traits
 
@@ -3809,7 +3809,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Premium Payment Address</td></tr><tr><td>description</td><td>Address for the Life Insurance Premium Payment.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepremiumpaymentaddress</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Premium Payment Address</td></tr><tr><td>description</td><td>Address for the Life Insurance Premium Payment.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>1024</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_insurancepremiumpaymentaddress</td></tr></table>
 
 #### Traits
 
@@ -3848,7 +3848,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Revocable</td></tr><tr><td>description</td><td>Related trust may be amended, altered or revoked by its settlor at any time, provided the settlor is not mentally incapacitated.</td></tr><tr><td>dataFormat</td><td>15</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isrevocable</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Revocable</td></tr><tr><td>description</td><td>Related trust may be amended, altered or revoked by its settlor at any time, provided the settlor is not mentally incapacitated.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_isrevocable</td></tr></table>
 
 #### Traits
 
@@ -3881,7 +3881,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Method of communication that prompted Donor to discuss Planned Giving options.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_leadsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Direct Mail</td><td>100000000</td></tr><tr><td>en</td><td>E-Mail</td><td>844060000</td></tr><tr><td>en</td><td>Other</td><td>844060001</td></tr><tr><td>en</td><td>Phone In</td><td>844060002</td></tr><tr><td>en</td><td>Print Ad</td><td>844060003</td></tr><tr><td>en</td><td>Referral</td><td>844060004</td></tr><tr><td>en</td><td>Special Event</td><td>844060005</td></tr><tr><td>en</td><td>TV Promo</td><td>844060006</td></tr><tr><td>en</td><td>Web Site</td><td>844060007</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lead Source</td></tr><tr><td>description</td><td>Method of communication that prompted Donor to discuss Planned Giving options.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_leadsource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Direct Mail</td><td>100000000</td></tr><tr><td>en</td><td>E-Mail</td><td>844060000</td></tr><tr><td>en</td><td>Other</td><td>844060001</td></tr><tr><td>en</td><td>Phone In</td><td>844060002</td></tr><tr><td>en</td><td>Print Ad</td><td>844060003</td></tr><tr><td>en</td><td>Referral</td><td>844060004</td></tr><tr><td>en</td><td>Special Event</td><td>844060005</td></tr><tr><td>en</td><td>TV Promo</td><td>844060006</td></tr><tr><td>en</td><td>Web Site</td><td>844060007</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3919,7 +3919,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -3944,7 +3944,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>sourceName</td><td>msnfp_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>160</td></tr><tr><td>sourceName</td><td>msnfp_name</td></tr></table>
 
 #### Traits
 
@@ -3978,7 +3978,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ordinary Income</td></tr><tr><td>description</td><td>Income other than capital gain. Examples of Ordinary income can consist of income from wages, salaries, tips, commissions, bonuses, and other types of compensation from employment.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_ordinaryincome</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ordinary Income</td></tr><tr><td>description</td><td>Income other than capital gain. Examples of Ordinary income can consist of income from wages, salaries, tips, commissions, bonuses, and other types of compensation from employment.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_ordinaryincome</td></tr></table>
 
 #### Traits
 
@@ -4019,7 +4019,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ordinary Income (Base)</td></tr><tr><td>description</td><td>Value of the Ordinary Income in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_ordinaryincome_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ordinary Income (Base)</td></tr><tr><td>description</td><td>Value of the Ordinary Income in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_ordinaryincome_base</td></tr></table>
 
 #### Traits
 
@@ -4060,7 +4060,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Frequency</td></tr><tr><td>description</td><td>Defined frequency payments are distributed to the organization.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_paymentfrequency</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Monthly</td><td>100000000</td></tr><tr><td>en</td><td>Quarterly</td><td>844060000</td></tr><tr><td>en</td><td>Annually</td><td>844060001</td></tr><tr><td>en</td><td>Semi-Annually</td><td>844060002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payment Frequency</td></tr><tr><td>description</td><td>Defined frequency payments are distributed to the organization.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_paymentfrequency</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Monthly</td><td>100000000</td></tr><tr><td>en</td><td>Quarterly</td><td>844060000</td></tr><tr><td>en</td><td>Annually</td><td>844060001</td></tr><tr><td>en</td><td>Semi-Annually</td><td>844060002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4098,7 +4098,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4124,7 +4124,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payout Rate</td></tr><tr><td>description</td><td>Dollar amount per share a Corporation pays for their dividend.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_payoutrate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Payout Rate</td></tr><tr><td>description</td><td>Dollar amount per share a Corporation pays for their dividend.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_payoutrate</td></tr></table>
 
 #### Traits
 
@@ -4164,7 +4164,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pledged By Contact</td></tr><tr><td>description</td><td>Pledged By Contact</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_plannedgiving_pledgedbycontactid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pledged By Contact</td></tr><tr><td>description</td><td>Pledged By Contact</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_plannedgiving_pledgedbycontactid</td></tr></table>
 
 #### Traits
 
@@ -4209,7 +4209,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Planned Giving</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msnfp_plannedgivingid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Planned Giving</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_plannedgivingid</td></tr></table>
 
 #### Traits
 
@@ -4248,7 +4248,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pledges On Account</td></tr><tr><td>description</td><td>Unique identifier for Account associated with Planned Giving.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_pledgesonaccountid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pledges On Account</td></tr><tr><td>description</td><td>Unique identifier for Account associated with Planned Giving.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_pledgesonaccountid</td></tr></table>
 
 #### Traits
 
@@ -4293,7 +4293,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Present Value</td></tr><tr><td>description</td><td>The value on a given date of a payment or series of payments made at other times for an investment.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_presentvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Present Value</td></tr><tr><td>description</td><td>The value on a given date of a payment or series of payments made at other times for an investment.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_presentvalue</td></tr></table>
 
 #### Traits
 
@@ -4334,7 +4334,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Present Value (Base)</td></tr><tr><td>description</td><td>Value of the Present Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_presentvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Present Value (Base)</td></tr><tr><td>description</td><td>Value of the Present Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_presentvalue_base</td></tr></table>
 
 #### Traits
 
@@ -4375,7 +4375,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Type</td></tr><tr><td>description</td><td>Type of Planned Giving record.</td></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_recordtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Type</td></tr><tr><td>description</td><td>Type of Planned Giving record.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_recordtype</td></tr></table>
 
 #### Traits
 
@@ -4414,7 +4414,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remainder Amount</td></tr><tr><td>description</td><td>Remainder $ value a Charitable Organization receives.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_remainderamount</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remainder Amount</td></tr><tr><td>description</td><td>Remainder $ value a Charitable Organization receives.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_remainderamount</td></tr></table>
 
 #### Traits
 
@@ -4455,7 +4455,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remainder Amount (Base)</td></tr><tr><td>description</td><td>Value of the Remainder Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_remainderamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remainder Amount (Base)</td></tr><tr><td>description</td><td>Value of the Remainder Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_remainderamount_base</td></tr></table>
 
 #### Traits
 
@@ -4496,7 +4496,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Giving</td></tr><tr><td>description</td><td>Populated by trigger, reflects the most recent Date/Time for Giving record.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_rollupgiving</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Rollup Giving</td></tr><tr><td>description</td><td>Populated by trigger, reflects the most recent Date/Time for Giving record.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_rollupgiving</td></tr></table>
 
 #### Traits
 
@@ -4533,7 +4533,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salvage Value of Buildings</td></tr><tr><td>description</td><td>Estimated value of property at the end of its useful life. It is what you expect to get for the property if you sell it after you can no longer use it productively.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_salvagevalueofbuildings</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salvage Value of Buildings</td></tr><tr><td>description</td><td>Estimated value of property at the end of its useful life. It is what you expect to get for the property if you sell it after you can no longer use it productively.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_salvagevalueofbuildings</td></tr></table>
 
 #### Traits
 
@@ -4574,7 +4574,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salvage Value of Buildings (Base)</td></tr><tr><td>description</td><td>Value of the Salvage Value of Buildings in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_salvagevalueofbuildings_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salvage Value of Buildings (Base)</td></tr><tr><td>description</td><td>Value of the Salvage Value of Buildings in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_salvagevalueofbuildings_base</td></tr></table>
 
 #### Traits
 
@@ -4615,7 +4615,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sever Date</td></tr><tr><td>description</td><td>The term end date' or the date of the related Contact's death.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_severdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sever Date</td></tr><tr><td>description</td><td>The term end date' or the date of the related Contact's death.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_severdate</td></tr></table>
 
 #### Traits
 
@@ -4652,7 +4652,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The current phase the giving record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>100000000</td></tr><tr><td>en</td><td>Cultivating</td><td>844060000</td></tr><tr><td>en</td><td>Intention</td><td>844060001</td></tr><tr><td>en</td><td>Anonymous</td><td>844060002</td></tr><tr><td>en</td><td>Very Contingent</td><td>844060003</td></tr><tr><td>en</td><td>Language Requested</td><td>844060004</td></tr><tr><td>en</td><td>Matured</td><td>844060005</td></tr><tr><td>en</td><td>Claim administration process</td><td>844060006</td></tr><tr><td>en</td><td>Pending</td><td>844060007</td></tr><tr><td>en</td><td>Estate in Probate</td><td>844060008</td></tr><tr><td>en</td><td>Final Distribution</td><td>844060009</td></tr><tr><td>en</td><td>Finished</td><td>844060010</td></tr><tr><td>en</td><td>Severed</td><td>844060011</td></tr><tr><td>en</td><td>Inactive</td><td>844060012</td></tr><tr><td>en</td><td>Estate in Administration process</td><td>844060013</td></tr><tr><td>en</td><td>1st spouse deceased</td><td>844060014</td></tr><tr><td>en</td><td>Termination processing</td><td>844060015</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Stage</td></tr><tr><td>description</td><td>The current phase the giving record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_stage</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>100000000</td></tr><tr><td>en</td><td>Cultivating</td><td>844060000</td></tr><tr><td>en</td><td>Intention</td><td>844060001</td></tr><tr><td>en</td><td>Anonymous</td><td>844060002</td></tr><tr><td>en</td><td>Very Contingent</td><td>844060003</td></tr><tr><td>en</td><td>Language Requested</td><td>844060004</td></tr><tr><td>en</td><td>Matured</td><td>844060005</td></tr><tr><td>en</td><td>Claim administration process</td><td>844060006</td></tr><tr><td>en</td><td>Pending</td><td>844060007</td></tr><tr><td>en</td><td>Estate in Probate</td><td>844060008</td></tr><tr><td>en</td><td>Final Distribution</td><td>844060009</td></tr><tr><td>en</td><td>Finished</td><td>844060010</td></tr><tr><td>en</td><td>Severed</td><td>844060011</td></tr><tr><td>en</td><td>Inactive</td><td>844060012</td></tr><tr><td>en</td><td>Estate in Administration process</td><td>844060013</td></tr><tr><td>en</td><td>1st spouse deceased</td><td>844060014</td></tr><tr><td>en</td><td>Termination processing</td><td>844060015</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4690,7 +4690,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4716,7 +4716,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax Free Income</td></tr><tr><td>description</td><td>The tax free income from the asset related to this giving record.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_taxfreeincome</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax Free Income</td></tr><tr><td>description</td><td>The tax free income from the asset related to this giving record.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_taxfreeincome</td></tr></table>
 
 #### Traits
 
@@ -4757,7 +4757,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax Free Income (Base)</td></tr><tr><td>description</td><td>Value of the Tax Free Income in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_taxfreeincome_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax Free Income (Base)</td></tr><tr><td>description</td><td>Value of the Tax Free Income in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_taxfreeincome_base</td></tr></table>
 
 #### Traits
 
@@ -4798,7 +4798,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term End Date</td></tr><tr><td>description</td><td>Term end date for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termenddate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term End Date</td></tr><tr><td>description</td><td>Term end date for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termenddate</td></tr></table>
 
 #### Traits
 
@@ -4835,7 +4835,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term Type</td></tr><tr><td>description</td><td>Term type for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Lives only</td><td>100000000</td></tr><tr><td>en</td><td>Fixed term only</td><td>844060000</td></tr><tr><td>en</td><td>Longer of term or lives</td><td>844060001</td></tr><tr><td>en</td><td>Shorter of term or lives</td><td>844060002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term Type</td></tr><tr><td>description</td><td>Term type for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Lives only</td><td>100000000</td></tr><tr><td>en</td><td>Fixed term only</td><td>844060000</td></tr><tr><td>en</td><td>Longer of term or lives</td><td>844060001</td></tr><tr><td>en</td><td>Shorter of term or lives</td><td>844060002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -4873,7 +4873,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -4899,7 +4899,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term Years</td></tr><tr><td>description</td><td>Term years for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termyears</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Term Years</td></tr><tr><td>description</td><td>Term years for the asset related to the Planned Giving record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_termyears</td></tr></table>
 
 #### Traits
 
@@ -4935,7 +4935,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Estate Value</td></tr><tr><td>description</td><td>Total Estate Value as provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_totalestatevalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Estate Value</td></tr><tr><td>description</td><td>Total Estate Value as provided by executor, trustee or attorney or in estate documentation.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_totalestatevalue</td></tr></table>
 
 #### Traits
 
@@ -4976,7 +4976,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Estate Value (Base)</td></tr><tr><td>description</td><td>Value of the Total Estate Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_totalestatevalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Estate Value (Base)</td></tr><tr><td>description</td><td>Value of the Total Estate Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_totalestatevalue_base</td></tr></table>
 
 #### Traits
 
@@ -5017,7 +5017,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Market Value</td></tr><tr><td>description</td><td>Trust Market Value related to this planned giving record.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustmarketvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Market Value</td></tr><tr><td>description</td><td>Trust Market Value related to this planned giving record.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>1000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustmarketvalue</td></tr></table>
 
 #### Traits
 
@@ -5058,7 +5058,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Trust Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustmarketvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Trust Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustmarketvalue_base</td></tr></table>
 
 #### Traits
 
@@ -5099,7 +5099,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust/Probate Notice Date</td></tr><tr><td>description</td><td>Date Trust/Probate Notice received.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustprobatenoticedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust/Probate Notice Date</td></tr><tr><td>description</td><td>Date Trust/Probate Notice received.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustprobatenoticedate</td></tr></table>
 
 #### Traits
 
@@ -5136,7 +5136,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Value Date</td></tr><tr><td>description</td><td>Trust Value Date related to this planned giving record.</td></tr><tr><td>dataFormat</td><td>13</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustvaluedate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Value Date</td></tr><tr><td>description</td><td>Trust Value Date related to this planned giving record.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_trustvaluedate</td></tr></table>
 
 #### Traits
 
@@ -5173,7 +5173,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type of Management</td></tr><tr><td>description</td><td>The type of management for the underlying asset or assets related to this Planned Giving record.</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_typeofmanagement</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type of Management</td></tr><tr><td>description</td><td>The type of management for the underlying asset or assets related to this Planned Giving record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msnfp_typeofmanagement</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Inside</td><td>100000000</td></tr><tr><td>en</td><td>Outside - donor self-trustee</td><td>100000001</td></tr><tr><td>en</td><td>Outside - Institution or other trusteem
 Outside</td><td>100000002</td></tr></table></td></tr></table>
 
 #### Traits
@@ -5213,7 +5213,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -5239,7 +5239,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5277,7 +5277,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -5303,7 +5303,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>2</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Planned Giving</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -5344,7 +5344,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>7</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -5370,7 +5370,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Currency</td></tr><tr><td>description</td><td>Unique identifier of the currency associated with the entity.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>transactioncurrencyid</td></tr></table>
 
 #### Traits
 
@@ -5415,7 +5415,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign</td></tr><tr><td>description</td><td>Campaign</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msnfp_plannedgiving_campaignid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Campaign</td></tr><tr><td>description</td><td>Campaign</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_plannedgiving_campaignid</td></tr></table>
 
 #### Traits
 
@@ -5457,7 +5457,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Per Frequency (Base)</td></tr><tr><td>description</td><td>Value of the Amount Per Frequency in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_amountperfrequency_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Amount Per Frequency (Base)</td></tr><tr><td>description</td><td>Value of the Amount Per Frequency in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_amountperfrequency_base</td></tr></table>
 
 #### Traits
 
@@ -5492,7 +5492,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Annual Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Annual Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_annualmarketvalue_base</td></tr></table>
 
 #### Traits
 
@@ -5527,7 +5527,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_annualpayment_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_annualpayment_base</td></tr></table>
 
 #### Traits
 
@@ -5562,7 +5562,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Anticipated Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedannualpayment_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Anticipated Annual Payment (Base)</td></tr><tr><td>description</td><td>Value of the Anticipated Annual Payment in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_anticipatedannualpayment_base</td></tr></table>
 
 #### Traits
 
@@ -5597,7 +5597,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Value (Base)</td></tr><tr><td>description</td><td>Value of the Appraisal Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_appraisalvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appraisal Value (Base)</td></tr><tr><td>description</td><td>Value of the Appraisal Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_appraisalvalue_base</td></tr></table>
 
 #### Traits
 
@@ -5632,7 +5632,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Gain Income (Base)</td></tr><tr><td>description</td><td>Value of the Capital Gain Income in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_capitalgainincome_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Capital Gain Income (Base)</td></tr><tr><td>description</td><td>Value of the Capital Gain Income in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_capitalgainincome_base</td></tr></table>
 
 #### Traits
 
@@ -5667,7 +5667,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash Surrender Value (Base)</td></tr><tr><td>description</td><td>Value of the Cash Surrender Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_cashsurrendervalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cash Surrender Value (Base)</td></tr><tr><td>description</td><td>Value of the Cash Surrender Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_cashsurrendervalue_base</td></tr></table>
 
 #### Traits
 
@@ -5702,7 +5702,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Charitable Deduction (Base)</td></tr><tr><td>description</td><td>Value of the Charitable Deduction in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_charitablededuction_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Charitable Deduction (Base)</td></tr><tr><td>description</td><td>Value of the Charitable Deduction in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_charitablededuction_base</td></tr></table>
 
 #### Traits
 
@@ -5737,7 +5737,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost Basis (Base)</td></tr><tr><td>description</td><td>Value of the Cost Basis in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_costbasis_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Cost Basis (Base)</td></tr><tr><td>description</td><td>Value of the Cost Basis in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_costbasis_base</td></tr></table>
 
 #### Traits
 
@@ -5772,7 +5772,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Principle Amount (Base)</td></tr><tr><td>description</td><td>Value of the Designated Principle Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_designatedprincipleamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Designated Principle Amount (Base)</td></tr><tr><td>description</td><td>Value of the Designated Principle Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_designatedprincipleamount_base</td></tr></table>
 
 #### Traits
 
@@ -5807,7 +5807,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Giving Amount (Base)</td></tr><tr><td>description</td><td>Value of the Estimated Giving Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_estimatedgivingamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Estimated Giving Amount (Base)</td></tr><tr><td>description</td><td>Value of the Estimated Giving Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_estimatedgivingamount_base</td></tr></table>
 
 #### Traits
 
@@ -5842,7 +5842,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Face Value (Base)</td></tr><tr><td>description</td><td>Value of the Face Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_facevalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Face Value (Base)</td></tr><tr><td>description</td><td>Value of the Face Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_facevalue_base</td></tr></table>
 
 #### Traits
 
@@ -5877,7 +5877,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Annual Premium (Base)</td></tr><tr><td>description</td><td>Value of the Insurance Annual Premium in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_insuranceannualpremium_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Insurance Annual Premium (Base)</td></tr><tr><td>description</td><td>Value of the Insurance Annual Premium in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_insuranceannualpremium_base</td></tr></table>
 
 #### Traits
 
@@ -5912,7 +5912,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ordinary Income (Base)</td></tr><tr><td>description</td><td>Value of the Ordinary Income in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_ordinaryincome_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Ordinary Income (Base)</td></tr><tr><td>description</td><td>Value of the Ordinary Income in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_ordinaryincome_base</td></tr></table>
 
 #### Traits
 
@@ -5947,7 +5947,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pledged By Contact</td></tr><tr><td>description</td><td>Pledged By Contact</td></tr><tr><td>dataFormat</td><td>6</td></tr><tr><td>sourceName</td><td>msnfp_plannedgiving_pledgedbycontactid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Pledged By Contact</td></tr><tr><td>description</td><td>Pledged By Contact</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msnfp_plannedgiving_pledgedbycontactid</td></tr></table>
 
 #### Traits
 
@@ -5989,7 +5989,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Present Value (Base)</td></tr><tr><td>description</td><td>Value of the Present Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_presentvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Present Value (Base)</td></tr><tr><td>description</td><td>Value of the Present Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_presentvalue_base</td></tr></table>
 
 #### Traits
 
@@ -6024,7 +6024,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remainder Amount (Base)</td></tr><tr><td>description</td><td>Value of the Remainder Amount in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_remainderamount_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Remainder Amount (Base)</td></tr><tr><td>description</td><td>Value of the Remainder Amount in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_remainderamount_base</td></tr></table>
 
 #### Traits
 
@@ -6059,7 +6059,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salvage Value of Buildings (Base)</td></tr><tr><td>description</td><td>Value of the Salvage Value of Buildings in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_salvagevalueofbuildings_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Salvage Value of Buildings (Base)</td></tr><tr><td>description</td><td>Value of the Salvage Value of Buildings in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_salvagevalueofbuildings_base</td></tr></table>
 
 #### Traits
 
@@ -6094,7 +6094,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax Free Income (Base)</td></tr><tr><td>description</td><td>Value of the Tax Free Income in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_taxfreeincome_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Tax Free Income (Base)</td></tr><tr><td>description</td><td>Value of the Tax Free Income in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_taxfreeincome_base</td></tr></table>
 
 #### Traits
 
@@ -6129,7 +6129,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Estate Value (Base)</td></tr><tr><td>description</td><td>Value of the Total Estate Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_totalestatevalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Total Estate Value (Base)</td></tr><tr><td>description</td><td>Value of the Total Estate Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_totalestatevalue_base</td></tr></table>
 
 #### Traits
 
@@ -6164,7 +6164,7 @@ First included in: nonProfitIati/PlannedGiving (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Trust Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>16</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_trustmarketvalue_base</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Trust Market Value (Base)</td></tr><tr><td>description</td><td>Value of the Trust Market Value in base currency.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>922337203685477</td></tr><tr><td>minimumValue</td><td>-922337203685477</td></tr><tr><td>sourceName</td><td>msnfp_trustmarketvalue_base</td></tr></table>
 
 #### Traits
 
