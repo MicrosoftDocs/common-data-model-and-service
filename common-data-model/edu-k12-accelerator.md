@@ -6,7 +6,7 @@ author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
 ms.topic: article
-ms.date: 05/01/2020
+ms.date: 07/01/2020
 ms.author: merami
 
 ---
@@ -41,7 +41,15 @@ This accelerator provides these entities to support the needs of K-12 schools:
 
 ### Education core
 
-- Contact
+|   |  |                        |
+| ------------- | ------------- |----------|
+| Account  | Test Type  | Test Score|
+| Course History  | Registration Status  | Course |
+| | | |
+| | | |
+| | | |
+| | | |
+-Contact
 - Account
 - Test Type
 - Test Score
