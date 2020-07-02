@@ -39,57 +39,31 @@ With the K-12 component, schools can optimize student success through understand
 
 This accelerator provides these entities to support the needs of K-12 schools:
 
-### Education core
+### Education core entities
 
 |   |  |                        |
 | ------------- | ------------- |----------|
 | Account  | Test Type  | Test Score|
 | Course History  | Registration Status  | Course |
-| | | |
-| | | |
-| | | |
-| | | |
--Contact
-- Account
-- Test Type
-- Test Score
-- Course History
-- Registration Status
-- Course
-- Course Section
-- Extracurricular Activity
-- Extracurricular Activity Participants
-- Address / Customer Address
-- Academic Period
-- Program
-- Program Level
-- Academic Period Details
-- Student Status
-- Internship
-- Internship Applicants
-- Accomplishments
-- Area of Interest
-- Area of Study
-- Student Program Type
-- Previous Education
-- Education Level
-- Scholarship
-- Scholarship Applicant
+| Contact |Course Section |Extracurricular Activity |
+|Extracurricular Activity Participants |Address / Customer Address |Academic Period |
+|Program |Program Level |Academic Period Details |
+|Student Status |Internship |Internship Applicants   |
+|Accomplishments |Area of Interest |Area of Study |
+|Student Program Type |Previous Education |Education Level |
+|Scholarship |Scholarship Applicant | |
 
-### K-12
 
-- Attendance
-- Grading Period
-- Incident Type
-- Incident Action
-- Behavior Incidents
-- Intervention
-- Intervention Participants
-- Education Content
-- Assessment
-- Assessment Item
-- Student Assessment Response
-- Learning Standards
+### K-12 entities
+
+|   |  |                        |
+| ------------- | ------------- |----------|
+| Attendance  | Grading Period | Incident Type |
+| Incident Action | Behavior Incidents  | Intervention |
+|Intervention Participants |Education Content |Assessment |
+| Assessment Item|Student Assessment Response |Learning Standards | 
+
+
 
 ## Forms, dashboards, and apps
 
@@ -173,7 +147,8 @@ The Attendance Power BI report dashboard allows educators to easily view and tak
 
 ## Additional resources
 
-- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.highereducationcommondatamodel?tab=Overview)
+- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview)
+- Read our K-12 blogpost from [Cloudblogs](https://cloudblogs.microsoft.com/dynamics365/it/2020/06/19/dynamics-365-education-accelerator-update-supports-k-12-application-development/)
 - The K-12 data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license available on [Github](https://aka.ms/edugithub)
 - Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
 
