@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,6 @@ Information about products and their pricing information.
 </summary>
 
 - [/foundationCommon/crmCommon/accelerators/financialServices/banking/Product](crmCommon/accelerators/financialServices/banking/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.cdm.json/Product")  
-- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product](crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Product.cdm.json/Product")  
 - [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product](crmCommon/projectCommon/projectServiceAutomation/Product.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product.cdm.json/Product")  
 </details>
 

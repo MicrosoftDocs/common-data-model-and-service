@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -264,7 +264,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 |[marketingOnly](#marketingOnly)|Whether is only for marketing|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[contactType](#contactType)|Type of contact|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[contactType_display](#contactType_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
-|[countryofBirth](#countryofBirth)|Country or region of birth for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[countryofBirth](#countryofBirth)|Country of birth for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[countryofBirth_display](#countryofBirth_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[currentAcademicPeriodId](#currentAcademicPeriodId)|Current academic period enrolled, if any, for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[currentProgramId](#currentProgramId)|Current program for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
@@ -278,7 +278,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 |[firstGeneration](#firstGeneration)|Indicates if contact is a first generation student.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[HIPAAIndicator](#HIPAAIndicator)|Indicates if the Contact record includes information such as disability services requests that are protected by HIPAA (USA Health Insurance Portability and Accountability Act standards).|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[isDeceased](#isDeceased)|If updated to YES, will deactivate Contact as deceased and change all marketing preferences to "Do Not Allow"|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
-|[lastPermanentResidenceCountry](#lastPermanentResidenceCountry)|Last country or region of permanent residence for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
+|[lastPermanentResidenceCountry](#lastPermanentResidenceCountry)|Last country of permanent residence for the contact.|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[lastPermanentResidenceCountry_display](#lastPermanentResidenceCountry_display)||<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[legacy](#legacy)|Identifies a Contact that is part of a legacy of contacts|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
 |[maidenName](#maidenName)|Maiden Name|<a href="Contact.md" target="_blank">higherEducation/Contact</a>|
@@ -9046,7 +9046,7 @@ First included in: higherEducation/Contact (this entity)
 
 ### <a href=#countryofBirth name="countryofBirth">countryofBirth</a>
 
-Country or region of birth for the contact.  
+Country of birth for the contact.  
 First included in: higherEducation/Contact (this entity)  
 
 #### Properties
@@ -9577,12 +9577,12 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#lastPermanentResidenceCountry name="lastPermanentResidenceCountry">lastPermanentResidenceCountry</a>
 
-Last country or region of permanent residence for the contact.  
+Last country of permanent residence for the contact.  
 First included in: higherEducation/Contact (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Permanent Residence Country</td></tr><tr><td>description</td><td>Last country or region of permanent residence for the contact.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_lastpermanentresidencecountry</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Country 1</td><td>494280000</td></tr><tr><td>en</td><td>Country 2</td><td>494280001</td></tr><tr><td>en</td><td>USA</td><td>494280002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Last Permanent Residence Country</td></tr><tr><td>description</td><td>Last country of permanent residence for the contact.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>mshied_lastpermanentresidencecountry</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Country 1</td><td>494280000</td></tr><tr><td>en</td><td>Country 2</td><td>494280001</td></tr><tr><td>en</td><td>USA</td><td>494280002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -9874,7 +9874,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 
 ### <a href=#nationality name="nationality">nationality</a>
 
-Country or region of nationality for the contact.  
+Country of nationality for the contact.  
 First included in: higherEducation/Contact (this entity)  
 
 #### Properties

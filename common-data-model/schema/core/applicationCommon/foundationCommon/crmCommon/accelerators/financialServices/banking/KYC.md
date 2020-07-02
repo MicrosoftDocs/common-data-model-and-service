@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,7 @@ A KYC or Know Your Customer is used to gather information on the customer in a r
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/financialServices/banking<br>/KYC.cdm.json/KYC/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -68,8 +68,8 @@ A KYC or Know Your Customer is used to gather information on the customer in a r
 |[businessLicenseExpiryDate](#businessLicenseExpiryDate)|The company’s trade license/commercial registration expiry date.|<a href="KYC.md" target="_blank">banking/KYC</a>|
 |[businessLicenseNumber](#businessLicenseNumber)|The company’s trade license/commercial registration number.|<a href="KYC.md" target="_blank">banking/KYC</a>|
 |[controllingUSCitizenOrTaxResident](#controllingUSCitizenOrTaxResident)|Indication of whether the customer is a citizen of the United States or a tax resident.|<a href="KYC.md" target="_blank">banking/KYC</a>|
-|[countryOfBirth](#countryOfBirth)|The person’s country or region of birth as per the identification document.|<a href="KYC.md" target="_blank">banking/KYC</a>|
-|[countryOfResidence](#countryOfResidence)|The country or region in which the person primarily resides.|<a href="KYC.md" target="_blank">banking/KYC</a>|
+|[countryOfBirth](#countryOfBirth)|The person’s country of birth as per the identification document.|<a href="KYC.md" target="_blank">banking/KYC</a>|
+|[countryOfResidence](#countryOfResidence)|The country in which the person primarily resides.|<a href="KYC.md" target="_blank">banking/KYC</a>|
 |[customerId](#customerId)|The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|<a href="KYC.md" target="_blank">banking/KYC</a>|
 |[customerIdType](#customerIdType)|The type of customer, either Account or Contact.|<a href="KYC.md" target="_blank">banking/KYC</a>|
 |[dateOfBirth](#dateOfBirth)|The person’s date of birth as per the identification document.|<a href="KYC.md" target="_blank">banking/KYC</a>|
@@ -945,12 +945,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#countryOfBirth name="countryOfBirth">countryOfBirth</a>
 
-The person’s country or region of birth as per the identification document.  
+The person’s country of birth as per the identification document.  
 First included in: banking/KYC (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country of Birth</td></tr><tr><td>description</td><td>The person’s country or region of birth as per the identification document.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msfsi_countryofbirth</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country of Birth</td></tr><tr><td>description</td><td>The person’s country of birth as per the identification document.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msfsi_countryofbirth</td></tr></table>
 
 #### Traits
 
@@ -971,7 +971,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country of Birth</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The person’s country or region of birth as per the identification document.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The person’s country of birth as per the identification document.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -979,12 +979,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#countryOfResidence name="countryOfResidence">countryOfResidence</a>
 
-The country or region in which the person primarily resides.  
+The country in which the person primarily resides.  
 First included in: banking/KYC (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country of Residence</td></tr><tr><td>description</td><td>The country or region in which the person primarily resides.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msfsi_countryofresidence</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country of Residence</td></tr><tr><td>description</td><td>The country in which the person primarily resides.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msfsi_countryofresidence</td></tr></table>
 
 #### Traits
 
@@ -1005,7 +1005,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country of Residence</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The country or region in which the person primarily resides.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The country in which the person primarily resides.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
@@ -1320,12 +1320,12 @@ First included in: banking/KYC (this entity)
 
 ### <a href=#KYCCountry name="KYCCountry">KYCCountry</a>
 
-Country or region for which KYC has been performed against the customer. Each country or region may have different set of fields for KYC. This flag drives the system to show or hide the necessary fields.  
+Country for which KYC has been performed against the customer. Each country may have different set of fields for KYC. This flag drives the system to show or hide the necessary fields.  
 First included in: banking/KYC (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>KYC Country</td></tr><tr><td>description</td><td>Country or region for which KYC has been performed against the customer. Each country or region may have different set of fields for KYC. This flag drives the system to show or hide the necessary fields.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msfsi_kyccountry</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>KYC Country</td></tr><tr><td>description</td><td>Country for which KYC has been performed against the customer. Each country may have different set of fields for KYC. This flag drives the system to show or hide the necessary fields.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>sourceName</td><td>msfsi_kyccountry</td></tr></table>
 
 #### Traits
 
@@ -1345,7 +1345,7 @@ maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th>
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>KYC Country</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country or region for which KYC has been performed against the customer. Each country or region may have different set of fields for KYC. This flag drives the system to show or hide the necessary fields.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country for which KYC has been performed against the customer. Each country may have different set of fields for KYC. This flag drives the system to show or hide the necessary fields.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.dataFormat.character**  
 **is.dataFormat.array**  
