@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -14,6 +14,15 @@ ms.author: nebanfic
 Target objective for a user or a team for a specified time period.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/Goal.cdm.json" target="_blank">GitHub</a>.  
+
+## Instances
+
+<details>
+<summary>Entities that inherit from the currently viewed entity are listed below.  
+</summary>
+
+- [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Goal](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Goal.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Goal.cdm.json/Goal")  
+</details>
 
 ## Traits
 

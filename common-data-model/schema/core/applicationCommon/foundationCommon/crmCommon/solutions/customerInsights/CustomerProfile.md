@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/5/2020
+ms.date: 6/30/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,7 @@ A person or organization that either performed or has the potential to engage in
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/solutions/customerInsights<br>/CustomerProfile.cdm.json/CustomerProfile<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -1931,7 +1931,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Family Status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_familystatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Family Status</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_familystatus</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Single</td><td>647430000</td></tr><tr><td>en</td><td>Married</td><td>647430001</td></tr><tr><td>en</td><td>Divorced</td><td>647430002</td></tr><tr><td>en</td><td>Widowed</td><td>647430003</td></tr><tr><td>en</td><td>Other</td><td>647430004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2191,7 +2191,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>The customer's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_gender</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Gender</td></tr><tr><td>description</td><td>The customer's gender to make sure the contact is addressed correctly in sales calls, email, and marketing campaigns.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_gender</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Male</td><td>647430000</td></tr><tr><td>en</td><td>Female</td><td>647430001</td></tr><tr><td>en</td><td>Unidentified</td><td>647430002</td></tr><tr><td>en</td><td>Choose Not To Identify</td><td>647430003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2403,7 +2403,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the customer's primary industry for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industry</td></tr><tr><td>description</td><td>Select the customer's primary industry for use in marketing segmentation and demographic analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_industrycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Vehicle Retail</td><td>647430000</td></tr><tr><td>en</td><td>Accounting</td><td>647430001</td></tr><tr><td>en</td><td>Wholesale</td><td>647430002</td></tr><tr><td>en</td><td>Agriculture and Non-petrol Natural Resource Extraction</td><td>647430003</td></tr><tr><td>en</td><td>Broadcasting Printing and Publishing</td><td>647430004</td></tr><tr><td>en</td><td>Brokers</td><td>647430005</td></tr><tr><td>en</td><td>Building Supply Retail</td><td>647430006</td></tr><tr><td>en</td><td>Business Services</td><td>647430007</td></tr><tr><td>en</td><td>Consulting</td><td>647430008</td></tr><tr><td>en</td><td>Consumer Services</td><td>647430009</td></tr><tr><td>en</td><td>Design, Direction and Creative Management</td><td>647430010</td></tr><tr><td>en</td><td>Distributors, Dispatchers and Processors</td><td>647430011</td></tr><tr><td>en</td><td>Doctor's Offices and Clinics</td><td>647430012</td></tr><tr><td>en</td><td>Durable Manufacturing</td><td>647430013</td></tr><tr><td>en</td><td>Eating and Drinking Places</td><td>647430014</td></tr><tr><td>en</td><td>Entertainment Retail</td><td>647430015</td></tr><tr><td>en</td><td>Equipment Rental and Leasing</td><td>647430016</td></tr><tr><td>en</td><td>Financial</td><td>647430017</td></tr><tr><td>en</td><td>Food and Tobacco Processing</td><td>647430018</td></tr><tr><td>en</td><td>Inbound Capital Intensive Processing</td><td>647430019</td></tr><tr><td>en</td><td>Inbound Repair and Services</td><td>647430020</td></tr><tr><td>en</td><td>Insurance</td><td>647430021</td></tr><tr><td>en</td><td>Legal Services</td><td>647430022</td></tr><tr><td>en</td><td>Non-Durable Merchandise Retail</td><td>647430023</td></tr><tr><td>en</td><td>Outbound Consumer Service</td><td>647430024</td></tr><tr><td>en</td><td>Petrochemical Extraction and Distribution</td><td>647430025</td></tr><tr><td>en</td><td>Service Retail</td><td>647430026</td></tr><tr><td>en</td><td>SIG Affiliations</td><td>647430027</td></tr><tr><td>en</td><td>Social Services</td><td>647430028</td></tr><tr><td>en</td><td>Special Outbound Trade Contractors</td><td>647430029</td></tr><tr><td>en</td><td>Specialty Realty</td><td>647430030</td></tr><tr><td>en</td><td>Transportation</td><td>647430031</td></tr><tr><td>en</td><td>Utility Creation and Distribution</td><td>647430032</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3339,7 +3339,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Call Time</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_preferredcalltime</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Call Time</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_preferredcalltime</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>647430000</td></tr><tr><td>en</td><td>Afternoon</td><td>647430001</td></tr><tr><td>en</td><td>Evening</td><td>647430002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3396,7 +3396,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Method of Contact</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_preferredcontactmethodcode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Any</td><td>647430000</td></tr><tr><td>en</td><td>Email</td><td>647430001</td></tr><tr><td>en</td><td>Phone</td><td>647430002</td></tr><tr><td>en</td><td>Fax</td><td>647430003</td></tr><tr><td>en</td><td>Mail</td><td>647430004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3622,7 +3622,7 @@ First included in: customerInsights/CustomerProfile (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Type</td></tr><tr><td>description</td><td>Profile type to define the customer.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_profiletype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr></tr><tr></tr><tr></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Profile Type</td></tr><tr><td>description</td><td>Profile type to define the customer.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>msdynci_profiletype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Contact</td><td>647430000</td></tr><tr><td>en</td><td>Account</td><td>647430001</td></tr></table></td></tr></table>
 
 #### Traits
 
