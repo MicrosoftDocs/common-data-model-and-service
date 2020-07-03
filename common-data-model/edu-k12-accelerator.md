@@ -6,7 +6,7 @@ author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
 ms.topic: article
-ms.date: 07/01/2020
+ms.date: 07/02/2020
 ms.author: merami
 
 ---
