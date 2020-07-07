@@ -1,15 +1,15 @@
 ---
-title: ArticleTemplate - Common Data Model | Microsoft Docs
+title: ArticleTemplate in applicationCommon - Common Data Model | Microsoft Docs
 description: Template for a knowledge base article that contains the standard attributes of an article.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Article Template
+# Article Template in applicationCommon
 
 Template for a knowledge base article that contains the standard attributes of an article.  
   

@@ -1,15 +1,15 @@
 ---
-title: ObservationInterpretation - Common Data Model | Microsoft Docs
+title: ObservationInterpretation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The assessment made based on the result of the observation.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation Interpretation
+# Observation Interpretation in electronicMedicalRecords
 
 The assessment made based on the result of the observation.  
   

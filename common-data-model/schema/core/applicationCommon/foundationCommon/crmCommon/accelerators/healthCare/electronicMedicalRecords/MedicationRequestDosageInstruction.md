@@ -1,15 +1,15 @@
 ---
-title: MedicationRequestDosageInstruction - Common Data Model | Microsoft Docs
+title: MedicationRequestDosageInstruction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates how the medication is to be used by the patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request Dosage Instruction
+# Medication Request Dosage Instruction in electronicMedicalRecords
 
 Indicates how the medication is to be used by the patient.  
   

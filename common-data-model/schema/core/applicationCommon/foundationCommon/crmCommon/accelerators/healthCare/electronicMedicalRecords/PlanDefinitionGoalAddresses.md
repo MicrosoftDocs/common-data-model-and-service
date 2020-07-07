@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionGoalAddresses - Common Data Model | Microsoft Docs
+title: PlanDefinitionGoalAddresses in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies problems, conditions, issues, or concerns the goal is intended to address.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Goal Addresses
+# Plan Definition Goal Addresses in electronicMedicalRecords
 
 Identifies problems, conditions, issues, or concerns the goal is intended to address.  
   

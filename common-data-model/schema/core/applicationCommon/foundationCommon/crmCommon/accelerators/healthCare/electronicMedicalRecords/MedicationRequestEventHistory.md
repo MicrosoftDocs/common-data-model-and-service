@@ -1,15 +1,15 @@
 ---
-title: MedicationRequestEventHistory - Common Data Model | Microsoft Docs
+title: MedicationRequestEventHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Links to Provenance records for past versions of this entity that identify key state transitions or updates that are likely to be relevant to user looking at the current version of the entity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request Event History
+# Medication Request Event History in electronicMedicalRecords
 
 Links to Provenance records for past versions of this entity that identify key state transitions or updates that are likely to be relevant to user looking at the current version of the entity.  
   

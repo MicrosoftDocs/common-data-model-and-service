@@ -1,15 +1,15 @@
 ---
-title: LeadAddress - Common Data Model | Microsoft Docs
+title: LeadAddress in crmCommon - Common Data Model | Microsoft Docs
 description: Address information for a lead.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Lead Address
+# Lead Address in crmCommon
 
 Address information for a lead.  
   

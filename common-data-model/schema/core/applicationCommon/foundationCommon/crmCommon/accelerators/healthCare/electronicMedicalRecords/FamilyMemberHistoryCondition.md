@@ -1,15 +1,15 @@
 ---
-title: FamilyMemberHistoryCondition - Common Data Model | Microsoft Docs
+title: FamilyMemberHistoryCondition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The significant Conditions (or condition) that the family member had.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Family Member History Condition
+# Family Member History Condition in electronicMedicalRecords
 
 The significant Conditions (or condition) that the family member had.  
   

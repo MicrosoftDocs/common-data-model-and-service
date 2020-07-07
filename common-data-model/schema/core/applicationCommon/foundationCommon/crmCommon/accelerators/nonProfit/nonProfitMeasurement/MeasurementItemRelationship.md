@@ -1,15 +1,15 @@
 ---
-title: MeasurementItemRelationship - Common Data Model | Microsoft Docs
+title: MeasurementItemRelationship in nonProfitMeasurement - Common Data Model | Microsoft Docs
 description: Records the details regarding the relationships between measurement items.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Measurement Item Relationship
+# Measurement Item Relationship in nonProfitMeasurement
 
 Records the details regarding the relationships between measurement items.  
   

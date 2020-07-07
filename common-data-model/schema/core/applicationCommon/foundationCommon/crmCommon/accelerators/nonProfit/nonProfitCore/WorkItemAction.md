@@ -1,15 +1,15 @@
 ---
-title: WorkItemAction - Common Data Model | Microsoft Docs
+title: WorkItemAction in nonProfitCore - Common Data Model | Microsoft Docs
 description: This entity contains the action that are taken to complete a work item. This can include information gathering, providing services, or any other action.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Work Item Action
+# Work Item Action in nonProfitCore
 
 This entity contains the action that are taken to complete a work item. This can include information gathering, providing services, or any other action.  
   

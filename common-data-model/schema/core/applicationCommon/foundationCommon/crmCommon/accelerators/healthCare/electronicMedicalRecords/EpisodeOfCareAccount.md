@@ -1,15 +1,15 @@
 ---
-title: EpisodeOfCareAccount - Common Data Model | Microsoft Docs
+title: EpisodeOfCareAccount in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The set of accounts that may be used for billing for this Episode Of Care.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Episode Of Care Account
+# Episode Of Care Account in electronicMedicalRecords
 
 The set of accounts that may be used for billing for this Episode Of Care.  
   

@@ -1,15 +1,15 @@
 ---
-title: EncounterHospitalizationCourtesy - Common Data Model | Microsoft Docs
+title: EncounterHospitalizationCourtesy in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Special courtesies (VIP, board member).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Hospitalization Courtesy
+# Encounter Hospitalization Courtesy in electronicMedicalRecords
 
 Special courtesies (VIP, board member).  
   

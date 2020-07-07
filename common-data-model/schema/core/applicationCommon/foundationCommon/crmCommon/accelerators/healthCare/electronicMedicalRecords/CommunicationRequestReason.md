@@ -1,15 +1,15 @@
 ---
-title: CommunicationRequestReason - Common Data Model | Microsoft Docs
+title: CommunicationRequestReason in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes why the request is being made in coded or textual form.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication Request Reason
+# Communication Request Reason in electronicMedicalRecords
 
 Describes why the request is being made in coded or textual form.  
   

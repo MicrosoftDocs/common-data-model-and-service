@@ -1,15 +1,15 @@
 ---
-title: DealTerm - Common Data Model | Microsoft Docs
+title: DealTerm in automotive - Common Data Model | Microsoft Docs
 description: Terms applicable a given type of deal.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Deal Term
+# Deal Term in automotive
 
 Terms applicable a given type of deal.  
   

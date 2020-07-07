@@ -1,15 +1,15 @@
 ---
-title: TaskPartOf - Common Data Model | Microsoft Docs
+title: TaskPartOf in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Task that this particular task is part of.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Task Part Of
+# Task Part Of in electronicMedicalRecords
 
 Task that this particular task is part of.  
   

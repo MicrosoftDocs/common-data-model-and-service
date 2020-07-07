@@ -1,15 +1,15 @@
 ---
-title: DocumentLanguage - Common Data Model | Microsoft Docs
+title: DocumentLanguage in nonProfitIati - Common Data Model | Microsoft Docs
 description: The language in which target document is written.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Document Language
+# Document Language in nonProfitIati
 
 The language in which target document is written.  
   

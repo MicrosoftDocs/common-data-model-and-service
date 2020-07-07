@@ -1,15 +1,15 @@
 ---
-title: EncounterClassHistory - Common Data Model | Microsoft Docs
+title: EncounterClassHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The class history permits the tracking of the encounters transitions without needing to go through the entity history.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Class History
+# Encounter Class History in electronicMedicalRecords
 
 The class history permits the tracking of the encounters transitions without needing to go through the entity history.  
   

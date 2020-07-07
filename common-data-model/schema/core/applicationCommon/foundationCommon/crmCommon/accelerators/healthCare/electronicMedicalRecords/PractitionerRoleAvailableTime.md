@@ -1,15 +1,15 @@
 ---
-title: PractitionerRoleAvailableTime - Common Data Model | Microsoft Docs
+title: PractitionerRoleAvailableTime in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A collection of times that the Service Site is available.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Practitioner Role Available Time
+# Practitioner Role Available Time in electronicMedicalRecords
 
 A collection of times that the Service Site is available.  
   

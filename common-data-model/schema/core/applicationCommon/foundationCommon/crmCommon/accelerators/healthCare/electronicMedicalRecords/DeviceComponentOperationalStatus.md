@@ -1,15 +1,15 @@
 ---
-title: DeviceComponentOperationalStatus - Common Data Model | Microsoft Docs
+title: DeviceComponentOperationalStatus in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The current operational status of the device. For example&#58 On, Off, Standby, etc.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Component Operational Status
+# Device Component Operational Status in electronicMedicalRecords
 
 The current operational status of the device. For example: On, Off, Standby, etc.  
   

@@ -1,15 +1,15 @@
 ---
-title: Procedure - Common Data Model | Microsoft Docs
+title: Procedure in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An action that is or was performed on a patient. This can be a physical intervention like an operation, or less invasive like counseling or hypnotherapy.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure
+# Procedure in electronicMedicalRecords
 
 An action that is or was performed on a patient. This can be a physical intervention like an operation, or less invasive like counseling or hypnotherapy.  
   

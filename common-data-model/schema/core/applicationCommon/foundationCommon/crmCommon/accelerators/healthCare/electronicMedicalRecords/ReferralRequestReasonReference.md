@@ -1,15 +1,15 @@
 ---
-title: ReferralRequestReasonReference - Common Data Model | Microsoft Docs
+title: ReferralRequestReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates another resource whose existence justifies this request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Referral Request Reason Reference
+# Referral Request Reason Reference in electronicMedicalRecords
 
 Indicates another resource whose existence justifies this request.  
   

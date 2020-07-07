@@ -1,15 +1,15 @@
 ---
-title: CarePlan - Common Data Model | Microsoft Docs
+title: CarePlan in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan
+# Care Plan in electronicMedicalRecords
 
 Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition  
   

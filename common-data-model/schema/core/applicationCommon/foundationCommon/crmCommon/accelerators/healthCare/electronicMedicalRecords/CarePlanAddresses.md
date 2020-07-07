@@ -1,15 +1,15 @@
 ---
-title: CarePlanAddresses - Common Data Model | Microsoft Docs
+title: CarePlanAddresses in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Addresses
+# Care Plan Addresses in electronicMedicalRecords
 
 Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan.  
   

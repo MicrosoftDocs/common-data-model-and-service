@@ -1,15 +1,15 @@
 ---
-title: UnitGroup - Common Data Model | Microsoft Docs
+title: UnitGroup in foundationCommon - Common Data Model | Microsoft Docs
 description: Grouping of units.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Unit Group
+# Unit Group in foundationCommon
 
 Grouping of units.  
   

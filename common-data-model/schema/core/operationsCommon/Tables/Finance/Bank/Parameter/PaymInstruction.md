@@ -1,15 +1,15 @@
 ---
-title: PaymInstruction - Common Data Model | Microsoft Docs
+title: PaymInstruction in Parameter - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Payment instruction
+# Payment instruction in Parameter
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Bank/Parameter/PaymInstruction.cdm.json" target="_blank">GitHub</a>.  

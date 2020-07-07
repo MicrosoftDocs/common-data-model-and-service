@@ -1,15 +1,15 @@
 ---
-title: OrderLineTransactionCategory - Common Data Model | Microsoft Docs
+title: OrderLineTransactionCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of transaction categories that will be considered as costs when computing the profit of a project contract line.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Contract Line Transaction Category
+# Project Contract Line Transaction Category in projectServiceAutomation
 
 List of transaction categories that will be considered as costs when computing the profit of a project contract line.  
   

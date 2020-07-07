@@ -1,15 +1,15 @@
 ---
-title: BookableResourceCategoryAssn - Common Data Model | Microsoft Docs
+title: BookableResourceCategoryAssn in foundationCommon - Common Data Model | Microsoft Docs
 description: Association entity to model the categorization of resources.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Bookable Resource Category Assn
+# Bookable Resource Category Assn in foundationCommon
 
 Association entity to model the categorization of resources.  
   

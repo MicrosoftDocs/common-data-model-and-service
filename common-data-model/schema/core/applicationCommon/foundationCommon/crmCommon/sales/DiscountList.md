@@ -1,15 +1,15 @@
 ---
-title: DiscountList - Common Data Model | Microsoft Docs
+title: DiscountList in sales - Common Data Model | Microsoft Docs
 description: Type of discount specified as either a percentage or an amount.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Discount List
+# Discount List in sales
 
 Type of discount specified as either a percentage or an amount.  
   

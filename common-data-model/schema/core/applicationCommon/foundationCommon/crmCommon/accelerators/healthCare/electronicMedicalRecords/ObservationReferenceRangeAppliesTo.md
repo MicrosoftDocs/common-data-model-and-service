@@ -1,15 +1,15 @@
 ---
-title: ObservationReferenceRangeAppliesTo - Common Data Model | Microsoft Docs
+title: ObservationReferenceRangeAppliesTo in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation Reference Range Applies To
+# Observation Reference Range Applies To in electronicMedicalRecords
 
 Codes to indicate the target population this reference range applies to. For example, a reference range may be based on the normal population or a particular sex or race.  
   

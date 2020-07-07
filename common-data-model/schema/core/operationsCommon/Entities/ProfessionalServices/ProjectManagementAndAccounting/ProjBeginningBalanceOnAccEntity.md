@@ -1,15 +1,15 @@
 ---
-title: ProjBeginningBalanceOnAccEntity - Common Data Model | Microsoft Docs
+title: ProjBeginningBalanceOnAccEntity in ProjectManagementAndAccounting - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project journal lines for on account beginning balances
+# Project journal lines for on account beginning balances in ProjectManagementAndAccounting
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/ProjBeginningBalanceOnAccEntity.cdm.json" target="_blank">GitHub</a>.  

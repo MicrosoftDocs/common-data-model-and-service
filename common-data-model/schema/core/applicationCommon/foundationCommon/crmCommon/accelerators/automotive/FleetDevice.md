@@ -1,15 +1,15 @@
 ---
-title: FleetDevice - Common Data Model | Microsoft Docs
+title: FleetDevice in automotive - Common Data Model | Microsoft Docs
 description: Represents a vehicle or device as part of a specific fleet.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Fleet Device
+# Fleet Device in automotive
 
 Represents a vehicle or device as part of a specific fleet.  
   

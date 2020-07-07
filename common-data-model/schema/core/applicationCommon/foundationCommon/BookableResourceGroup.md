@@ -1,15 +1,15 @@
 ---
-title: BookableResourceGroup - Common Data Model | Microsoft Docs
+title: BookableResourceGroup in foundationCommon - Common Data Model | Microsoft Docs
 description: Associates resources with resource groups that they are a member of.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Bookable Resource Group
+# Bookable Resource Group in foundationCommon
 
 Associates resources with resource groups that they are a member of.  
   

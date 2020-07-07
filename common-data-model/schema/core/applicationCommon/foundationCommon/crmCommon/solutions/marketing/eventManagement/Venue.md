@@ -1,15 +1,15 @@
 ---
-title: Venue - Common Data Model | Microsoft Docs
+title: Venue in eventManagement - Common Data Model | Microsoft Docs
 description: The Venue describes the location at which all event sessions and activities take place. A single event venue can be comprised of zero or more buildings, each of which can have zero or more rooms where sessions take place.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Venue
+# Venue in eventManagement
 
 The Venue describes the location at which all event sessions and activities take place. A single event venue can be comprised of zero or more buildings, each of which can have zero or more rooms where sessions take place.  
   

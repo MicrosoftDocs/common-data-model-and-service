@@ -1,15 +1,15 @@
 ---
-title: AttributeType - Common Data Model | Microsoft Docs
+title: AttributeType in automotive - Common Data Model | Microsoft Docs
 description: Type of entry in a device specification, such as length, fuel type, color or any other property that characterizes a given device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Attribute Type
+# Attribute Type in automotive
 
 Type of entry in a device specification, such as length, fuel type, color or any other property that characterizes a given device.  
   

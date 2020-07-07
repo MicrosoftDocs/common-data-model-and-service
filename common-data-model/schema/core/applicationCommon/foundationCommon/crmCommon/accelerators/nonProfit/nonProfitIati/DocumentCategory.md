@@ -1,15 +1,15 @@
 ---
-title: DocumentCategory - Common Data Model | Microsoft Docs
+title: DocumentCategory in nonProfitIati - Common Data Model | Microsoft Docs
 description: IATI Document Category.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Document Category
+# Document Category in nonProfitIati
 
 IATI Document Category.  
   

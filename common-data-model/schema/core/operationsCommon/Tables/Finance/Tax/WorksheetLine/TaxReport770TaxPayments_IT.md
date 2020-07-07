@@ -1,15 +1,15 @@
 ---
-title: TaxReport770TaxPayments_IT - Common Data Model | Microsoft Docs
+title: TaxReport770TaxPayments_IT in WorksheetLine - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Modello 770 Monthly Tax Payments Table
+# Modello 770 Monthly Tax Payments Table in WorksheetLine
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Tax/WorksheetLine/TaxReport770TaxPayments_IT.cdm.json" target="_blank">GitHub</a>.  

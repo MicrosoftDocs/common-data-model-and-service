@@ -1,15 +1,15 @@
 ---
-title: CFMJournalNameEntity - Common Data Model | Microsoft Docs
+title: CFMJournalNameEntity in RCashFlowManagement - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Cash flow management payment schedule journal name.
+# Cash flow management payment schedule journal name. in RCashFlowManagement
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/RCashFlowManagement/CFMJournalNameEntity.cdm.json" target="_blank">GitHub</a>.  

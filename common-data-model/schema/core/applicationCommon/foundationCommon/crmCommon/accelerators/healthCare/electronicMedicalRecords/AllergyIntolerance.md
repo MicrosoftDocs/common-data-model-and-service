@@ -1,15 +1,15 @@
 ---
-title: AllergyIntolerance - Common Data Model | Microsoft Docs
+title: AllergyIntolerance in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Allergy Intolerance
+# Allergy Intolerance in electronicMedicalRecords
 
 Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.  
   

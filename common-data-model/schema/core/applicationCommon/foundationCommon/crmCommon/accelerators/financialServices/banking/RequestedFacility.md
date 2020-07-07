@@ -1,15 +1,15 @@
 ---
-title: RequestedFacility - Common Data Model | Microsoft Docs
+title: RequestedFacility in banking - Common Data Model | Microsoft Docs
 description: A requested facility represents a facility that is requested by a corporate customer applying for line of credit.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Requested Facility
+# Requested Facility in banking
 
 A requested facility represents a facility that is requested by a corporate customer applying for line of credit.  
   

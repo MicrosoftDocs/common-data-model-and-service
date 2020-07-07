@@ -1,15 +1,15 @@
 ---
-title: RoleCompetencyRequirement - Common Data Model | Microsoft Docs
+title: RoleCompetencyRequirement in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used  to associate skills in a role.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Role competency requirement
+# Role competency requirement in projectServiceAutomation
 
 Entity used  to associate skills in a role.  
   

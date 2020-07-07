@@ -1,15 +1,15 @@
 ---
-title: Tag - Common Data Model | Microsoft Docs
+title: Tag in nonProfitIati - Common Data Model | Microsoft Docs
 description: Categorizations from established taxonomies that enrich the classification of the Delivery Framework but that, unlike those reported in the sector element, cannot be associated with percentage splits.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Tag
+# Tag in nonProfitIati
 
 Categorizations from established taxonomies that enrich the classification of the Delivery Framework but that, unlike those reported in the sector element, cannot be associated with percentage splits.  
   

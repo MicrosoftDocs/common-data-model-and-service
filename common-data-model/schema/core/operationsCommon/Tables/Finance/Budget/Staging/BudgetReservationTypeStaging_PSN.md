@@ -1,15 +1,15 @@
 ---
-title: BudgetReservationTypeStaging_PSN - Common Data Model | Microsoft Docs
+title: BudgetReservationTypeStaging_PSN in Staging - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# General budget reservation type
+# General budget reservation type in Staging
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Budget/Staging/BudgetReservationTypeStaging_PSN.cdm.json" target="_blank">GitHub</a>.  

@@ -1,15 +1,15 @@
 ---
-title: RatingValue - Common Data Model | Microsoft Docs
+title: RatingValue in foundationCommon - Common Data Model | Microsoft Docs
 description: A unique value associated with a rating model that allows providing a user friendly rating value.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Rating Value
+# Rating Value in foundationCommon
 
 A unique value associated with a rating model that allows providing a user friendly rating value.  
   

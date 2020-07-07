@@ -1,15 +1,15 @@
 ---
-title: ConditionCategory - Common Data Model | Microsoft Docs
+title: ConditionCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A category assigned to the condition.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Condition Category
+# Condition Category in electronicMedicalRecords
 
 A category assigned to the condition.  
   

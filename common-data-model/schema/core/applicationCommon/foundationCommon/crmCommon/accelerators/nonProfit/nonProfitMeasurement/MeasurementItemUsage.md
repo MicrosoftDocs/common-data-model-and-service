@@ -1,15 +1,15 @@
 ---
-title: MeasurementItemUsage - Common Data Model | Microsoft Docs
+title: MeasurementItemUsage in nonProfitMeasurement - Common Data Model | Microsoft Docs
 description: Used to track where measurement items have been used.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Measurement Item Usage
+# Measurement Item Usage in nonProfitMeasurement
 
 Used to track where measurement items have been used.  
   

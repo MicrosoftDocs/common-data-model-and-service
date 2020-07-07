@@ -1,15 +1,15 @@
 ---
-title: DealFile - Common Data Model | Microsoft Docs
+title: DealFile in automotive - Common Data Model | Microsoft Docs
 description: Container for deals relating to a given opportunity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Deal File
+# Deal File in automotive
 
 Container for deals relating to a given opportunity.  
   

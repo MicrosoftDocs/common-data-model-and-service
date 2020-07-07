@@ -1,15 +1,15 @@
 ---
-title: Layout - Common Data Model | Microsoft Docs
+title: Layout in eventManagement - Common Data Model | Microsoft Docs
 description: The layout entity is to provide users a quick way to specify the various different layouts that a single room can be arranged in and the maximum capacity of the room as a result of the change.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Layout
+# Layout in eventManagement
 
 The layout entity is to provide users a quick way to specify the various different layouts that a single room can be arranged in and the maximum capacity of the room as a result of the change.  
   

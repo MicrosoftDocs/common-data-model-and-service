@@ -1,15 +1,15 @@
 ---
-title: CommunicationRequest - Common Data Model | Microsoft Docs
+title: CommunicationRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A request to convey information.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication Request
+# Communication Request in electronicMedicalRecords
 
 A request to convey information.  
   

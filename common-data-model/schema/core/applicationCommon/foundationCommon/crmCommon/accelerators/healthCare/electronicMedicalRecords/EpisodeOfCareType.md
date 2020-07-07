@@ -1,15 +1,15 @@
 ---
-title: EpisodeOfCareType - Common Data Model | Microsoft Docs
+title: EpisodeOfCareType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Episode Of Care Type
+# Episode Of Care Type in electronicMedicalRecords
 
 A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.  
   

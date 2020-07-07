@@ -1,15 +1,15 @@
 ---
-title: ScholarshipApplicationBusinessProcessFlow - Common Data Model | Microsoft Docs
+title: ScholarshipApplicationBusinessProcessFlow in higherEducation - Common Data Model | Microsoft Docs
 description: Base entity for process Scholarship Application Business Process Flow
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Scholarship Application Business Process Flow
+# Scholarship Application Business Process Flow in higherEducation
 
 Base entity for process Scholarship Application Business Process Flow  
   

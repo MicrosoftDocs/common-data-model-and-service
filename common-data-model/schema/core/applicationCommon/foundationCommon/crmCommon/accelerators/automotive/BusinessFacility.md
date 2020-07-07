@@ -1,15 +1,15 @@
 ---
-title: BusinessFacility - Common Data Model | Microsoft Docs
+title: BusinessFacility in automotive - Common Data Model | Microsoft Docs
 description: Physical facility or building where a business runs operations.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Business Facility
+# Business Facility in automotive
 
 Physical facility or building where a business runs operations.  
   

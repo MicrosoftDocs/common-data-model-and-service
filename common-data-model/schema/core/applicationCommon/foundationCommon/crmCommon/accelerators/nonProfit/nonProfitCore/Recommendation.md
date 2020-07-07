@@ -1,15 +1,15 @@
 ---
-title: Recommendation - Common Data Model | Microsoft Docs
+title: Recommendation in nonProfitCore - Common Data Model | Microsoft Docs
 description: This is the mechanism through which Foundations provide recommendations back to a grant applicant.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Recommendation
+# Recommendation in nonProfitCore
 
 This is the mechanism through which Foundations provide recommendations back to a grant applicant.  
   

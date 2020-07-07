@@ -1,15 +1,15 @@
 ---
-title: ActivityParty - Common Data Model | Microsoft Docs
+title: ActivityParty in service - Common Data Model | Microsoft Docs
 description: Person or group associated with an activity. An activity can have multiple activity parties.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Activity Party
+# Activity Party in service
 
 Person or group associated with an activity. An activity can have multiple activity parties.  
   

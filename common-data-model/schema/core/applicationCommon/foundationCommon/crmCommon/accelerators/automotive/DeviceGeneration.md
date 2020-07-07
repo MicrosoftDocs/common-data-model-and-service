@@ -1,15 +1,15 @@
 ---
-title: DeviceGeneration - Common Data Model | Microsoft Docs
+title: DeviceGeneration in automotive - Common Data Model | Microsoft Docs
 description: Specific period in the evolution of a device class over time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Generation
+# Device Generation in automotive
 
 Specific period in the evolution of a device class over time.  
   

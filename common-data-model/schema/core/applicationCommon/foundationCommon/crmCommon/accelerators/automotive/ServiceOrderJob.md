@@ -1,15 +1,15 @@
 ---
-title: ServiceOrderJob - Common Data Model | Microsoft Docs
+title: ServiceOrderJob in automotive - Common Data Model | Microsoft Docs
 description: Job performed during the execution of a service order. A single service order may require one or more jobs to be completed.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Order Job
+# Service Order Job in automotive
 
 Job performed during the execution of a service order. A single service order may require one or more jobs to be completed.  
   

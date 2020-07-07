@@ -1,15 +1,15 @@
 ---
-title: Service - Common Data Model | Microsoft Docs
+title: Service in service - Common Data Model | Microsoft Docs
 description: Activity that represents work done to satisfy a customer's need.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service
+# Service in service
 
 Activity that represents work done to satisfy a customer's need.  
   

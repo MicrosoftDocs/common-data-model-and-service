@@ -1,15 +1,15 @@
 ---
-title: PropertyOptionSetItem - Common Data Model | Microsoft Docs
+title: PropertyOptionSetItem in foundationCommon - Common Data Model | Microsoft Docs
 description: Item with a name and value in a property option set type.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Property Option Set Item
+# Property Option Set Item in foundationCommon
 
 Item with a name and value in a property option set type.  
   

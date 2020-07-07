@@ -1,15 +1,15 @@
 ---
-title: TrvPolicyViolationsCache - Common Data Model | Microsoft Docs
+title: TrvPolicyViolationsCache in WorksheetLine - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Cache table for policy violations on an expense line
+# Cache table for policy violations on an expense line in WorksheetLine
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Expense/WorksheetLine/TrvPolicyViolationsCache.cdm.json" target="_blank">GitHub</a>.  

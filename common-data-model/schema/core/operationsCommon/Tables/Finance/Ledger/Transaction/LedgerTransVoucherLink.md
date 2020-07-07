@@ -1,15 +1,15 @@
 ---
-title: LedgerTransVoucherLink - Common Data Model | Microsoft Docs
+title: LedgerTransVoucherLink in Transaction - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Related ledger transaction vouchers
+# Related ledger transaction vouchers in Transaction
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Ledger/Transaction/LedgerTransVoucherLink.cdm.json" target="_blank">GitHub</a>.  

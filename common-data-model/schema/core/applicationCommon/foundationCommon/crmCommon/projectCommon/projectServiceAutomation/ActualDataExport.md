@@ -1,15 +1,15 @@
 ---
-title: ActualDataExport - Common Data Model | Microsoft Docs
+title: ActualDataExport in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Data export entity for the actual entity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Actual Data Export (Deprecated)
+# Actual Data Export (Deprecated) in projectServiceAutomation
 
 Data export entity for the actual entity.  
   

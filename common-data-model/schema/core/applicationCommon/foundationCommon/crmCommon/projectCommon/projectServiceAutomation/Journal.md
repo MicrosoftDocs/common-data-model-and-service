@@ -1,15 +1,15 @@
 ---
-title: Journal - Common Data Model | Microsoft Docs
+title: Journal in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Unposted business transactions, for example, time and expense.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Journal
+# Journal in projectServiceAutomation
 
 Unposted business transactions, for example, time and expense.  
   

@@ -1,15 +1,15 @@
 ---
-title: PurchReqLineQuestionnaireResponse - Common Data Model | Microsoft Docs
+title: PurchReqLineQuestionnaireResponse in WorksheetLine - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Voucher series code is empty
+# Voucher series code is empty in WorksheetLine
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetLine/PurchReqLineQuestionnaireResponse.cdm.json" target="_blank">GitHub</a>.  

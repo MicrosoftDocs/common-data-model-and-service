@@ -1,15 +1,15 @@
 ---
-title: EpisodeOfCareHistory - Common Data Model | Microsoft Docs
+title: EpisodeOfCareHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The history of statuses that the Episode Of Care has been through (without requiring processing the history of the resource).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Episode of Care History
+# Episode of Care History in electronicMedicalRecords
 
 The history of statuses that the Episode Of Care has been through (without requiring processing the history of the resource).  
   

@@ -1,15 +1,15 @@
 ---
-title: NutritionOrderOralDietSchedule - Common Data Model | Microsoft Docs
+title: NutritionOrderOralDietSchedule in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The time period and frequency at which the diet should be given. The diet should be given for the combination of all schedules if more than one schedule is present.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order Oral Diet Schedule
+# Nutrition Order Oral Diet Schedule in electronicMedicalRecords
 
 The time period and frequency at which the diet should be given. The diet should be given for the combination of all schedules if more than one schedule is present.  
   

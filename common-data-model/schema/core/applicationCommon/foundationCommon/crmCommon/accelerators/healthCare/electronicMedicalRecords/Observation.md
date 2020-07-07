@@ -1,15 +1,15 @@
 ---
-title: Observation - Common Data Model | Microsoft Docs
+title: Observation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Measurements and simple assertions made about a patient, device or other subject.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation
+# Observation in electronicMedicalRecords
 
 Measurements and simple assertions made about a patient, device or other subject.  
   

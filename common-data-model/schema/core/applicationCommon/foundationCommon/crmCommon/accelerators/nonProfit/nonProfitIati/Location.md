@@ -1,15 +1,15 @@
 ---
-title: Location - Common Data Model | Microsoft Docs
+title: Location in nonProfitIati - Common Data Model | Microsoft Docs
 description: The sub-national geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Location
+# Location in nonProfitIati
 
 The sub-national geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.  
   

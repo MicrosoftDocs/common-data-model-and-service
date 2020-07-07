@@ -1,15 +1,15 @@
 ---
-title: ProcedureBodySite - Common Data Model | Microsoft Docs
+title: ProcedureBodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Detailed and structured anatomical location information. Multiple locations are allowed - e.g. multiple punch biopsies of a lesion.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Body Site
+# Procedure Body Site in electronicMedicalRecords
 
 Detailed and structured anatomical location information. Multiple locations are allowed - e.g. multiple punch biopsies of a lesion.  
   

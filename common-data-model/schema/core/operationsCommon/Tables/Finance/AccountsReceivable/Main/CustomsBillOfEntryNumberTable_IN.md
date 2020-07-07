@@ -1,15 +1,15 @@
 ---
-title: CustomsBillOfEntryNumberTable_IN - Common Data Model | Microsoft Docs
+title: CustomsBillOfEntryNumberTable_IN in Main - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Bill of entry numbers
+# Bill of entry numbers in Main
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/AccountsReceivable/Main/CustomsBillOfEntryNumberTable_IN.cdm.json" target="_blank">GitHub</a>.  

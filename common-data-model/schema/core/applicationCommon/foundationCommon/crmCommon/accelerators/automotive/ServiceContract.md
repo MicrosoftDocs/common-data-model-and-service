@@ -1,15 +1,15 @@
 ---
-title: ServiceContract - Common Data Model | Microsoft Docs
+title: ServiceContract in automotive - Common Data Model | Microsoft Docs
 description: Contract involving the service of one or more vehicles or devices owned by a customer.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Contract
+# Service Contract in automotive
 
 Contract involving the service of one or more vehicles or devices owned by a customer.  
   

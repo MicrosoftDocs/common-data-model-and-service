@@ -1,15 +1,15 @@
 ---
-title: Task - Common Data Model | Microsoft Docs
+title: Task in applicationCommon - Common Data Model | Microsoft Docs
 description: Generic activity representing work needed to be done.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Task
+# Task in applicationCommon
 
 Generic activity representing work needed to be done.  
   

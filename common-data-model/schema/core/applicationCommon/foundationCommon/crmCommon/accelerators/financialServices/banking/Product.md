@@ -1,15 +1,15 @@
 ---
-title: Product - Common Data Model | Microsoft Docs
+title: Product in banking - Common Data Model | Microsoft Docs
 description: The products of the bank that the prospect or referral is interested in.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Product
+# Product in banking
 
 The products of the bank that the prospect or referral is interested in.  
   

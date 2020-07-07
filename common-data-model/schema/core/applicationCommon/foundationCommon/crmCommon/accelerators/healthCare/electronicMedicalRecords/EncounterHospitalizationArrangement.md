@@ -1,15 +1,15 @@
 ---
-title: EncounterHospitalizationArrangement - Common Data Model | Microsoft Docs
+title: EncounterHospitalizationArrangement in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Hospitalization Arrangement
+# Encounter Hospitalization Arrangement in electronicMedicalRecords
 
 Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.  
   

@@ -1,15 +1,15 @@
 ---
-title: AwardVersion - Common Data Model | Microsoft Docs
+title: AwardVersion in nonProfitCore - Common Data Model | Microsoft Docs
 description: An Award Version represents a point in time snapshot of the attributes of an Award.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Award Version
+# Award Version in nonProfitCore
 
 An Award Version represents a point in time snapshot of the attributes of an Award.  
   

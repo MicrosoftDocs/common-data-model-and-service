@@ -1,15 +1,15 @@
 ---
-title: ContactLink - Common Data Model | Microsoft Docs
+title: ContactLink in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Link to another patient entity that concerns the same actual patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Contact Link
+# Contact Link in electronicMedicalRecords
 
 Link to another patient entity that concerns the same actual patient.  
   

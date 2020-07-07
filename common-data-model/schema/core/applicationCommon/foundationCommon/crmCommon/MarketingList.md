@@ -1,15 +1,15 @@
 ---
-title: MarketingList - Common Data Model | Microsoft Docs
+title: MarketingList in crmCommon - Common Data Model | Microsoft Docs
 description: Group of existing or potential customers created for a marketing campaign or other sales purposes.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Marketing List
+# Marketing List in crmCommon
 
 Group of existing or potential customers created for a marketing campaign or other sales purposes.  
   

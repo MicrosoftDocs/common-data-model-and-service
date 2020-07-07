@@ -1,15 +1,15 @@
 ---
-title: LeadSpecificationType - Common Data Model | Microsoft Docs
+title: LeadSpecificationType in automotive - Common Data Model | Microsoft Docs
 description: Type of characteristic used to loosely describe a vehicle or device of interest in a lead.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Lead Specification Type
+# Lead Specification Type in automotive
 
 Type of characteristic used to loosely describe a vehicle or device of interest in a lead.  
   

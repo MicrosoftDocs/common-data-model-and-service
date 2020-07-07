@@ -1,15 +1,15 @@
 ---
-title: AifSqlChangeTrackingEnabledTables - Common Data Model | Microsoft Docs
+title: AifSqlChangeTrackingEnabledTables in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# List of change tracking enabled tables
+# List of change tracking enabled tables in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/SystemAdministration/Miscellaneous/AifSqlChangeTrackingEnabledTables.cdm.json" target="_blank">GitHub</a>.  

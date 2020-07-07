@@ -1,15 +1,15 @@
 ---
-title: DataRequirement - Common Data Model | Microsoft Docs
+title: DataRequirement in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes a required data item for evaluation in terms of the type of data, and optional code or date-based filters of the data.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Data Requirement
+# Data Requirement in electronicMedicalRecords
 
 Describes a required data item for evaluation in terms of the type of data, and optional code or date-based filters of the data.  
   

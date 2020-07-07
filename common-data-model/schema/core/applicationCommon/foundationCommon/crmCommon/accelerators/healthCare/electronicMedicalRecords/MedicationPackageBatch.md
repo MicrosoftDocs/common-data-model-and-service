@@ -1,15 +1,15 @@
 ---
-title: MedicationPackageBatch - Common Data Model | Microsoft Docs
+title: MedicationPackageBatch in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Information about a group of medication produced or packaged from one production run.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Package Batch
+# Medication Package Batch in electronicMedicalRecords
 
 Information about a group of medication produced or packaged from one production run.  
   

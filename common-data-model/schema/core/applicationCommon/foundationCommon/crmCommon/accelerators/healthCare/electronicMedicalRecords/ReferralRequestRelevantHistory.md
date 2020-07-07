@@ -1,15 +1,15 @@
 ---
-title: ReferralRequestRelevantHistory - Common Data Model | Microsoft Docs
+title: ReferralRequestRelevantHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Links to Provenance records for past versions of this entity or fulfilling request or event resources.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Referral Request Relevant History
+# Referral Request Relevant History in electronicMedicalRecords
 
 Links to Provenance records for past versions of this entity or fulfilling request or event resources.  
   

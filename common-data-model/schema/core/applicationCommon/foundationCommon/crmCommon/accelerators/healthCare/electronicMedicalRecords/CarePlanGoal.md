@@ -1,15 +1,15 @@
 ---
-title: CarePlanGoal - Common Data Model | Microsoft Docs
+title: CarePlanGoal in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes the intended objective(s) of carrying out the care plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Goal
+# Care Plan Goal in electronicMedicalRecords
 
 Describes the intended objective(s) of carrying out the care plan.  
   

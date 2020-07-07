@@ -1,15 +1,15 @@
 ---
-title: TransactionCategoryPriceLevel - Common Data Model | Microsoft Docs
+title: TransactionCategoryPriceLevel in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of prices by category on a price list.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transaction Category Price
+# Transaction Category Price in projectServiceAutomation
 
 List of prices by category on a price list.  
   

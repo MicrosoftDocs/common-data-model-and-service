@@ -1,15 +1,15 @@
 ---
-title: KYC - Common Data Model | Microsoft Docs
+title: KYC in banking - Common Data Model | Microsoft Docs
 description: A KYC or Know Your Customer is used to gather information on the customer in a regular interval. The KYCs collect information such as where they live, collecting their updated or different ID information, and their risk level at that point in time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# KYC
+# KYC in banking
 
 A KYC or Know Your Customer is used to gather information on the customer in a regular interval. The KYCs collect information such as where they live, collecting their updated or different ID information, and their risk level at that point in time.  
   

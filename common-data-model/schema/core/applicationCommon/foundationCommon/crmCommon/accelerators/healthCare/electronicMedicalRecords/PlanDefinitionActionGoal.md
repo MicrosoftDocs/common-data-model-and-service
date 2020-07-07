@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionGoal - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionGoal in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Goal
+# Plan Definition Action Goal in electronicMedicalRecords
 
 Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition.  
   

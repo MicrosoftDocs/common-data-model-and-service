@@ -1,15 +1,15 @@
 ---
-title: Condition - Common Data Model | Microsoft Docs
+title: Condition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Condition
+# Condition in electronicMedicalRecords
 
 A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.  
   

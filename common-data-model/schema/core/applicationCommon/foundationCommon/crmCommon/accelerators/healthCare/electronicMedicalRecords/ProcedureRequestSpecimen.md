@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestSpecimen - Common Data Model | Microsoft Docs
+title: ProcedureRequestSpecimen in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: One or more specimens that the laboratory procedure will use.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Specimen
+# Procedure Request Specimen in electronicMedicalRecords
 
 One or more specimens that the laboratory procedure will use.  
   

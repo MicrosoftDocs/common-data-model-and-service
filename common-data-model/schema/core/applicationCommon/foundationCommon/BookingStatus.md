@@ -1,15 +1,15 @@
 ---
-title: BookingStatus - Common Data Model | Microsoft Docs
+title: BookingStatus in foundationCommon - Common Data Model | Microsoft Docs
 description: Allows creation of multiple sub statuses mapped to a booking status option.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Booking Status
+# Booking Status in foundationCommon
 
 Allows creation of multiple sub statuses mapped to a booking status option.  
   

@@ -1,15 +1,15 @@
 ---
-title: AggregateKPIContext - Common Data Model | Microsoft Docs
+title: AggregateKPIContext in automotive - Common Data Model | Microsoft Docs
 description: Context of a given customer, device, business operation or user, in which a given aggregate KPI may be applicable and may have a given target value.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Aggregate KPI Context
+# Aggregate KPI Context in automotive
 
 Context of a given customer, device, business operation or user, in which a given aggregate KPI may be applicable and may have a given target value.  
   

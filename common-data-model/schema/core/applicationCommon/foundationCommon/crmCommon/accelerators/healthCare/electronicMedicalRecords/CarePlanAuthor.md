@@ -1,15 +1,15 @@
 ---
-title: CarePlanAuthor - Common Data Model | Microsoft Docs
+title: CarePlanAuthor in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the individual(s) or organization who is responsible for the content of the care plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Author
+# Care Plan Author in electronicMedicalRecords
 
 Identifies the individual(s) or organization who is responsible for the content of the care plan.  
   

@@ -1,15 +1,15 @@
 ---
-title: ServiceOrderType - Common Data Model | Microsoft Docs
+title: ServiceOrderType in automotive - Common Data Model | Microsoft Docs
 description: Type of service order.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Order Type
+# Service Order Type in automotive
 
 Type of service order.  
   

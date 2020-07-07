@@ -1,15 +1,15 @@
 ---
-title: FiscalDocumentTaxTransOutgoingICMSDif_BR - Common Data Model | Microsoft Docs
+title: FiscalDocumentTaxTransOutgoingICMSDif_BR in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Destination state sales tax amount
+# Destination state sales tax amount in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/FiscalDocumentTaxTransOutgoingICMSDif_BR.cdm.json" target="_blank">GitHub</a>.  

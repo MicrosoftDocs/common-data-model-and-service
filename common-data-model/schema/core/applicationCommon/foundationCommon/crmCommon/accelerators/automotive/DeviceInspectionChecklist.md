@@ -1,15 +1,15 @@
 ---
-title: DeviceInspectionChecklist - Common Data Model | Microsoft Docs
+title: DeviceInspectionChecklist in automotive - Common Data Model | Microsoft Docs
 description: Specific checklist of a given type, such as a pre-delivery inspection or a checklist used for a specific type of service.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Inspection Checklist
+# Device Inspection Checklist in automotive
 
 Specific checklist of a given type, such as a pre-delivery inspection or a checklist used for a specific type of service.  
   

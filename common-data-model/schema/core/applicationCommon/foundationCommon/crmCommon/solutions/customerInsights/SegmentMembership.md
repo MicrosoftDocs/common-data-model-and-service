@@ -1,15 +1,15 @@
 ---
-title: SegmentMembership - Common Data Model | Microsoft Docs
+title: SegmentMembership in customerInsights - Common Data Model | Microsoft Docs
 description: Members participating in a given segment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Segment Membership
+# Segment Membership in customerInsights
 
 Members participating in a given segment.  
   

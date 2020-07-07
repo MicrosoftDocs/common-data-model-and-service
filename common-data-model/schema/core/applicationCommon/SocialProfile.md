@@ -1,15 +1,15 @@
 ---
-title: SocialProfile - Common Data Model | Microsoft Docs
+title: SocialProfile in applicationCommon - Common Data Model | Microsoft Docs
 description: This entity is used to store social profile information of its associated account and contacts on different social channels.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Social Profile
+# Social Profile in applicationCommon
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.  
   

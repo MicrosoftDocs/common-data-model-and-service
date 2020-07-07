@@ -1,15 +1,15 @@
 ---
-title: MCRHistSalesLine_BR - Common Data Model | Microsoft Docs
+title: MCRHistSalesLine_BR in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Sales order line information history for Brazil
+# Sales order line information history for Brazil in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/MCRHistSalesLine_BR.cdm.json" target="_blank">GitHub</a>.  

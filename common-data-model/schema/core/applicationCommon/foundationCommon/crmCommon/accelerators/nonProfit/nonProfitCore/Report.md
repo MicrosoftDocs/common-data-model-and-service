@@ -1,15 +1,15 @@
 ---
-title: Report - Common Data Model | Microsoft Docs
+title: Report in nonProfitCore - Common Data Model | Microsoft Docs
 description: Reports represent information submitted by an awardee to the awarding entity (i.e., a Foundation) or information submitted by an authorized awarding entity individual/entity about an awardee.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Report
+# Report in nonProfitCore
 
 Reports represent information submitted by an awardee to the awarding entity (i.e., a Foundation) or information submitted by an authorized awarding entity individual/entity about an awardee.  
   

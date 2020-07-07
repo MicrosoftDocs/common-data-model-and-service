@@ -1,15 +1,15 @@
 ---
-title: TimingWhen - Common Data Model | Microsoft Docs
+title: TimingWhen in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Real world events that the occurrence of the event should be tied to.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Timing When
+# Timing When in electronicMedicalRecords
 
 Real world events that the occurrence of the event should be tied to.  
   

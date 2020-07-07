@@ -1,15 +1,15 @@
 ---
-title: PlannedGiving - Common Data Model | Microsoft Docs
+title: PlannedGiving in nonProfitForSales - Common Data Model | Microsoft Docs
 description: A planned gift is a gift made during a donor's lifetime or at the time of their death that involves their estate and/or tax planning.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Planned Giving
+# Planned Giving in nonProfitForSales
 
 A planned gift is a gift made during a donor's lifetime or at the time of their death that involves their estate and/or tax planning.  
   

@@ -1,15 +1,15 @@
 ---
-title: TransactionCategory - Common Data Model | Microsoft Docs
+title: TransactionCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Business transaction categories to classify costs and revenue.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transaction Category
+# Transaction Category in projectServiceAutomation
 
 Business transaction categories to classify costs and revenue.  
   

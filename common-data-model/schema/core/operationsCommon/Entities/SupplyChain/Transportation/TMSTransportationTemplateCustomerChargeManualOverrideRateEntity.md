@@ -1,15 +1,15 @@
 ---
-title: TMSTransportationTemplateCustomerChargeManualOverrideRateEntity - Common Data Model | Microsoft Docs
+title: TMSTransportationTemplateCustomerChargeManualOverrideRateEntity in Transportation - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transportation template customer charge manual override rates
+# Transportation template customer charge manual override rates in Transportation
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/Transportation/TMSTransportationTemplateCustomerChargeManualOverrideRateEntity.cdm.json" target="_blank">GitHub</a>.  

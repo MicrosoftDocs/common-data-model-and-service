@@ -1,15 +1,15 @@
 ---
-title: JournalLine - Common Data Model | Microsoft Docs
+title: JournalLine in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Unposted business transaction line details.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Journal Line
+# Journal Line in projectServiceAutomation
 
 Unposted business transaction line details.  
   

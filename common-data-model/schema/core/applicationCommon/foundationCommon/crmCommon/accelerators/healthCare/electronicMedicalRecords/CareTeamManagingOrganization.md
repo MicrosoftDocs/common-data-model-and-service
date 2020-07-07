@@ -1,15 +1,15 @@
 ---
-title: CareTeamManagingOrganization - Common Data Model | Microsoft Docs
+title: CareTeamManagingOrganization in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The organization responsible for the care team.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Team Managing Organization
+# Care Team Managing Organization in electronicMedicalRecords
 
 The organization responsible for the care team.  
   

@@ -1,15 +1,15 @@
 ---
-title: EncounterStatusHistory - Common Data Model | Microsoft Docs
+title: EncounterStatusHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The status history permits the encounter entity to contain the status history without needing to read through the historical versions of the entity, or even have the server store them
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Status History
+# Encounter Status History in electronicMedicalRecords
 
 The status history permits the encounter entity to contain the status history without needing to read through the historical versions of the entity, or even have the server store them  
   

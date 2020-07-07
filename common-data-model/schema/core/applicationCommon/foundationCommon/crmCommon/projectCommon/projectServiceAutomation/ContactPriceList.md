@@ -1,15 +1,15 @@
 ---
-title: ContactPriceList - Common Data Model | Microsoft Docs
+title: ContactPriceList in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Specific sales price list for this customer to capture special pricing agreements for products, roles, and categories.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Contact Price List
+# Contact Price List in projectServiceAutomation
 
 Specific sales price list for this customer to capture special pricing agreements for products, roles, and categories.  
   

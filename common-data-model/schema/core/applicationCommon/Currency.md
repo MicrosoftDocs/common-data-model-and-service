@@ -1,15 +1,15 @@
 ---
-title: Currency - Common Data Model | Microsoft Docs
+title: Currency in applicationCommon - Common Data Model | Microsoft Docs
 description: Currency in which a financial transaction is carried out.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Currency
+# Currency in applicationCommon
 
 Currency in which a financial transaction is carried out.  
   

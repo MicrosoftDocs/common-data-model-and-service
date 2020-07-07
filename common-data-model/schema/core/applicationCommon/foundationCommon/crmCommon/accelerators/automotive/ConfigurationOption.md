@@ -1,15 +1,15 @@
 ---
-title: ConfigurationOption - Common Data Model | Microsoft Docs
+title: ConfigurationOption in automotive - Common Data Model | Microsoft Docs
 description: Configuration option included in devices with a given configuration code.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Configuration Option
+# Configuration Option in automotive
 
 Configuration option included in devices with a given configuration code.  
   

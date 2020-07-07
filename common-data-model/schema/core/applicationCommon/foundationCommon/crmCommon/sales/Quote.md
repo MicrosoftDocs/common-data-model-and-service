@@ -1,15 +1,15 @@
 ---
-title: Quote - Common Data Model | Microsoft Docs
+title: Quote in sales - Common Data Model | Microsoft Docs
 description: Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quote
+# Quote in sales
 
 Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.  
   

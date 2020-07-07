@@ -1,15 +1,15 @@
 ---
-title: ProductRelationship - Common Data Model | Microsoft Docs
+title: ProductRelationship in foundationCommon - Common Data Model | Microsoft Docs
 description: Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Product Relationship
+# Product Relationship in foundationCommon
 
 Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.  
   

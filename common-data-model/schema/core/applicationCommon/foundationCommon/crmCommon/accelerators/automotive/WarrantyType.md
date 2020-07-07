@@ -1,15 +1,15 @@
 ---
-title: WarrantyType - Common Data Model | Microsoft Docs
+title: WarrantyType in automotive - Common Data Model | Microsoft Docs
 description: Types of warranties, such as standard or extended.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Warranty Type
+# Warranty Type in automotive
 
 Types of warranties, such as standard or extended.  
   

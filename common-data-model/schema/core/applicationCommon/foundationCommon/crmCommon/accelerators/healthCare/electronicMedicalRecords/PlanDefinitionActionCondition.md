@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionCondition - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionCondition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An expression that describes applicability criteria, or start/stop conditions for the action.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Condition
+# Plan Definition Action Condition in electronicMedicalRecords
 
 An expression that describes applicability criteria, or start/stop conditions for the action.  
   

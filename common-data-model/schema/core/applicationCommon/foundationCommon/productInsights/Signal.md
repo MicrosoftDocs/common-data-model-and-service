@@ -1,15 +1,15 @@
 ---
-title: Signal - Common Data Model | Microsoft Docs
+title: Signal in productInsights - Common Data Model | Microsoft Docs
 description: An enriched telemetry signal from a product, service or device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Product Signal
+# Product Signal in productInsights
 
 An enriched telemetry signal from a product, service or device.  
   

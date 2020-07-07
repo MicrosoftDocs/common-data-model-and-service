@@ -1,15 +1,15 @@
 ---
-title: TimingEvent - Common Data Model | Microsoft Docs
+title: TimingEvent in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies specific times when the event occurs.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Timing Event
+# Timing Event in electronicMedicalRecords
 
 Identifies specific times when the event occurs.  
   

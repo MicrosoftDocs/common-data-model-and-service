@@ -1,15 +1,15 @@
 ---
-title: AppointmentEMRSlot - Common Data Model | Microsoft Docs
+title: AppointmentEMRSlot in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The slots from the participants' schedules that will be filled by the appointment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR) Slot
+# Appointment (EMR) Slot in electronicMedicalRecords
 
 The slots from the participants' schedules that will be filled by the appointment.  
   

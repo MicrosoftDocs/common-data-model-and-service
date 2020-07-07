@@ -1,15 +1,15 @@
 ---
-title: ResourceAssignmentDetail - Common Data Model | Microsoft Docs
+title: ResourceAssignmentDetail in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used to keep track of resource assignment details on tasks. 
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Resource Assignment Detail (Deprecated in v2.0)
+# Resource Assignment Detail (Deprecated in v2.0) in projectServiceAutomation
 
 Entity used to keep track of resource assignment details on tasks.   
   

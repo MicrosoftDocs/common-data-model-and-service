@@ -1,15 +1,15 @@
 ---
-title: Opportunity - Common Data Model | Microsoft Docs
+title: Opportunity in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Opportunity
+# Opportunity in projectServiceAutomation
 
 Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.  
   

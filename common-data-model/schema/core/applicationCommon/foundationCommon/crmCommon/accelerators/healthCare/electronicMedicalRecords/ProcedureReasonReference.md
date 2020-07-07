@@ -1,15 +1,15 @@
 ---
-title: ProcedureReasonReference - Common Data Model | Microsoft Docs
+title: ProcedureReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The condition that is the reason why the procedure was performed.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Reason Reference
+# Procedure Reason Reference in electronicMedicalRecords
 
 The condition that is the reason why the procedure was performed.  
   

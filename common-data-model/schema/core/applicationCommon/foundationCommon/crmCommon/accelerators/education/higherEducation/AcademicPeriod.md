@@ -1,15 +1,15 @@
 ---
-title: AcademicPeriod - Common Data Model | Microsoft Docs
+title: AcademicPeriod in higherEducation - Common Data Model | Microsoft Docs
 description: The periods of time in which courses are offered by the institution,  such as a term or semester.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Academic Period
+# Academic Period in higherEducation
 
 The periods of time in which courses are offered by the institution,  such as a term or semester.  
   

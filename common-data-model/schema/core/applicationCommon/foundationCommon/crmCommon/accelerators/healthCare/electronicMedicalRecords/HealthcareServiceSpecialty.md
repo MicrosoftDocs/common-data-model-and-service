@@ -1,15 +1,15 @@
 ---
-title: HealthcareServiceSpecialty - Common Data Model | Microsoft Docs
+title: HealthcareServiceSpecialty in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Collection of specialties handled by the service site.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Healthcare Service Specialty
+# Healthcare Service Specialty in electronicMedicalRecords
 
 Collection of specialties handled by the service site.  
   

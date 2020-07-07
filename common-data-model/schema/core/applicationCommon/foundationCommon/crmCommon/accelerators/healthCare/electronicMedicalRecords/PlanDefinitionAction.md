@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionAction - Common Data Model | Microsoft Docs
+title: PlanDefinitionAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An action to be taken as part of the plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action
+# Plan Definition Action in electronicMedicalRecords
 
 An action to be taken as part of the plan.  
   

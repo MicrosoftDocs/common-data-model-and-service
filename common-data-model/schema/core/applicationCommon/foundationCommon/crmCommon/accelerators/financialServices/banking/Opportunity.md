@@ -1,15 +1,15 @@
 ---
-title: Opportunity - Common Data Model | Microsoft Docs
+title: Opportunity in banking - Common Data Model | Microsoft Docs
 description: An opportunity represents a qualified prospect or an existing customer's interest in a product of the bank.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Opportunity
+# Opportunity in banking
 
 An opportunity represents a qualified prospect or an existing customer's interest in a product of the bank.  
   

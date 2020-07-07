@@ -1,15 +1,15 @@
 ---
-title: CommunicationRequestPayload - Common Data Model | Microsoft Docs
+title: CommunicationRequestPayload in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Text, attachment(s), or resource(s) to be communicated to the recipient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication Request Payload
+# Communication Request Payload in electronicMedicalRecords
 
 Text, attachment(s), or resource(s) to be communicated to the recipient.  
   

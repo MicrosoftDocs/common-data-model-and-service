@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionArtifact - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionArtifact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Didactic or other informational entities associated with the action that can be provided to the CDS recipient. Information entities can include inline text commentary and links to web resources.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Artifact
+# Plan Definition Action Artifact in electronicMedicalRecords
 
 Didactic or other informational entities associated with the action that can be provided to the CDS recipient. Information entities can include inline text commentary and links to web resources.  
   

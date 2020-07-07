@@ -1,15 +1,15 @@
 ---
-title: ResultReference - Common Data Model | Microsoft Docs
+title: ResultReference in nonProfitIati - Common Data Model | Microsoft Docs
 description: A reference element to allow for the coded identification of a results framework.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Result Reference
+# Result Reference in nonProfitIati
 
 A reference element to allow for the coded identification of a results framework.  
   

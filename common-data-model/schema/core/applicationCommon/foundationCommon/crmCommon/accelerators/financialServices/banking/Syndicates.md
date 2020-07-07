@@ -1,15 +1,15 @@
 ---
-title: Syndicates - Common Data Model | Microsoft Docs
+title: Syndicates in banking - Common Data Model | Microsoft Docs
 description: A syndicate represents the information related to a commercial loan product that the customer holds with the bank. The syndicate will reference a specific loan, the contribution percentage, the amount and the specific bank that holds the syndicate.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Syndicates
+# Syndicates in banking
 
 A syndicate represents the information related to a commercial loan product that the customer holds with the bank. The syndicate will reference a specific loan, the contribution percentage, the amount and the specific bank that holds the syndicate.  
   

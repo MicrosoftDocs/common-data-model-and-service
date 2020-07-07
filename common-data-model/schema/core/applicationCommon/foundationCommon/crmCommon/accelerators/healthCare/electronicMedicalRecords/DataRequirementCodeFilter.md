@@ -1,15 +1,15 @@
 ---
-title: DataRequirementCodeFilter - Common Data Model | Microsoft Docs
+title: DataRequirementCodeFilter in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Code filters specify additional constraints on the data, specifying the value set of interest for a particular element of the data.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Data Requirement Code Filter
+# Data Requirement Code Filter in electronicMedicalRecords
 
 Code filters specify additional constraints on the data, specifying the value set of interest for a particular element of the data.  
   

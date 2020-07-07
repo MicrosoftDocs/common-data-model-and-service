@@ -1,15 +1,15 @@
 ---
-title: BlogPost - Common Data Model | Microsoft Docs
+title: BlogPost in portals - Common Data Model | Microsoft Docs
 description: A post belonging to a portal blog.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Blog Post
+# Blog Post in portals
 
 A post belonging to a portal blog.  
   

@@ -1,15 +1,15 @@
 ---
-title: RequestGroupBasedOn - Common Data Model | Microsoft Docs
+title: RequestGroupBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A plan, proposal or order that is fulfilled in whole or in part by this request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Based On
+# Request Group Based On in electronicMedicalRecords
 
 A plan, proposal or order that is fulfilled in whole or in part by this request.  
   

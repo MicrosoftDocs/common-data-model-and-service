@@ -1,15 +1,15 @@
 ---
-title: Communication - Common Data Model | Microsoft Docs
+title: Communication in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency was notified about a reportable condition.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication
+# Communication in electronicMedicalRecords
 
 An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency was notified about a reportable condition.  
   

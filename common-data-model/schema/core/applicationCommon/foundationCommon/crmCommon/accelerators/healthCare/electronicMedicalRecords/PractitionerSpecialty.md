@@ -1,15 +1,15 @@
 ---
-title: PractitionerSpecialty - Common Data Model | Microsoft Docs
+title: PractitionerSpecialty in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Specific specialty of the practitioner.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Practitioner Specialty
+# Practitioner Specialty in electronicMedicalRecords
 
 Specific specialty of the practitioner.  
   

@@ -1,15 +1,15 @@
 ---
-title: PurchRequestForQuotationReplyScoringCriterionEntity - Common Data Model | Microsoft Docs
+title: PurchRequestForQuotationReplyScoringCriterionEntity in ProcurementAndSourcing - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request for quotation reply scoring criteria
+# Request for quotation reply scoring criteria in ProcurementAndSourcing
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/PurchRequestForQuotationReplyScoringCriterionEntity.cdm.json" target="_blank">GitHub</a>.  

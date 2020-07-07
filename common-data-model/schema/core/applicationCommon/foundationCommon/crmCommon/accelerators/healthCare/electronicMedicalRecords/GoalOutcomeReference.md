@@ -1,15 +1,16 @@
 ---
-title: GoalOutcomeReference - Common Data Model | Microsoft Docs
-description: Details of what's changed (or not changed). The goal outcome is independent of the outcome of the related activities
+title: GoalOutcomeReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
+description: Details of what's changed (or not changed). 
+The goal outcome is independent of the outcome of the related activities.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Goal Outcome Reference
+# Goal Outcome Reference in electronicMedicalRecords
 
 Details of what's changed (or not changed). 
 The goal outcome is independent of the outcome of the related activities.  

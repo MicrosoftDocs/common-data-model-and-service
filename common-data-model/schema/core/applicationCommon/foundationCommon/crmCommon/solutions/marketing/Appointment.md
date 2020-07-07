@@ -1,15 +1,15 @@
 ---
-title: Appointment - Common Data Model | Microsoft Docs
+title: Appointment in marketing - Common Data Model | Microsoft Docs
 description: Commitment representing a time interval with start/end times and duration.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment
+# Appointment in marketing
 
 Commitment representing a time interval with start/end times and duration.  
   

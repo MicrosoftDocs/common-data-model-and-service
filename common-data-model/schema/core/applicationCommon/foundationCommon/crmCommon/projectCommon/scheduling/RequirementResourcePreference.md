@@ -1,15 +1,15 @@
 ---
-title: RequirementResourcePreference - Common Data Model | Microsoft Docs
+title: RequirementResourcePreference in scheduling - Common Data Model | Microsoft Docs
 description: Requirement Resource Preference
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Requirement Resource Preference
+# Requirement Resource Preference in scheduling
 
 Requirement Resource Preference  
   

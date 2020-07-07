@@ -1,15 +1,15 @@
 ---
-title: TransactionConnection - Common Data Model | Microsoft Docs
+title: TransactionConnection in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: System entity used to establish connections between the cost, unbilled revenue, and billed revenue components of a transaction as they happen.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transaction Connection
+# Transaction Connection in projectServiceAutomation
 
 System entity used to establish connections between the cost, unbilled revenue, and billed revenue components of a transaction as they happen.  
   

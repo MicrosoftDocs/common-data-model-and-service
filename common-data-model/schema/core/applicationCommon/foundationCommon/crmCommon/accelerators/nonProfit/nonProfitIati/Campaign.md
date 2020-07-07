@@ -1,15 +1,15 @@
 ---
-title: Campaign - Common Data Model | Microsoft Docs
+title: Campaign in nonProfitIati - Common Data Model | Microsoft Docs
 description: Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Campaign
+# Campaign in nonProfitIati
 
 Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.  
   

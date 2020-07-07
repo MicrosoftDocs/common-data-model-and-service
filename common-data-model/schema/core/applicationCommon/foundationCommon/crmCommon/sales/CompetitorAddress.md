@@ -1,15 +1,15 @@
 ---
-title: CompetitorAddress - Common Data Model | Microsoft Docs
+title: CompetitorAddress in sales - Common Data Model | Microsoft Docs
 description: Additional addresses for a competitor. The first two addresses are stored in the competitor object.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Competitor Address
+# Competitor Address in sales
 
 Additional addresses for a competitor. The first two addresses are stored in the competitor object.  
   

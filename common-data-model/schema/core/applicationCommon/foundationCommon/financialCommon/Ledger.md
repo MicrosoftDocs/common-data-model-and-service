@@ -1,15 +1,15 @@
 ---
-title: Ledger - Common Data Model | Microsoft Docs
+title: Ledger in financialCommon - Common Data Model | Microsoft Docs
 description: The collection of all accounts making up the central repository of accounting data for a company.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Ledger
+# Ledger in financialCommon
 
 The collection of all accounts making up the central repository of accounting data for a company.  
   

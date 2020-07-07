@@ -1,15 +1,15 @@
 ---
-title: AppointmentEMR - Common Data Model | Microsoft Docs
+title: AppointmentEMR in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR)
+# Appointment (EMR) in electronicMedicalRecords
 
 A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).  
   

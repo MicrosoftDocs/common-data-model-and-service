@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionDynamicValue - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionDynamicValue in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Customization that should be applied to the statically defined entity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Dynamic Value
+# Plan Definition Action Dynamic Value in electronicMedicalRecords
 
 Customization that should be applied to the statically defined entity.  
   

@@ -1,15 +1,15 @@
 ---
-title: OfacMatch - Common Data Model | Microsoft Docs
+title: OfacMatch in nonProfitForSales - Common Data Model | Microsoft Docs
 description: OFAC Match is a placeholder entity for tracking Office of Foreign Assets Control (OFAC) Specially Designated Naturals (SDN) searches and results.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# OFAC Match
+# OFAC Match in nonProfitForSales
 
 OFAC Match is a placeholder entity for tracking Office of Foreign Assets Control (OFAC) Specially Designated Naturals (SDN) searches and results.  
   

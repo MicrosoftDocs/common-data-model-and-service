@@ -1,15 +1,15 @@
 ---
-title: SponsorableArticle - Common Data Model | Microsoft Docs
+title: SponsorableArticle in eventManagement - Common Data Model | Microsoft Docs
 description: An item or a group of items that can be sponsored
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Sponsorable Article
+# Sponsorable Article in eventManagement
 
 An item or a group of items that can be sponsored  
   

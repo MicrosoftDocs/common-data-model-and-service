@@ -1,15 +1,15 @@
 ---
-title: Invoice - Common Data Model | Microsoft Docs
+title: Invoice in sales - Common Data Model | Microsoft Docs
 description: Order that has been billed.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Invoice
+# Invoice in sales
 
 Order that has been billed.  
   

@@ -1,15 +1,15 @@
 ---
-title: PurchRFQTableMap2LineParameters - Common Data Model | Microsoft Docs
+title: PurchRFQTableMap2LineParameters in Parameter - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request for quotation line update parameters
+# Request for quotation line update parameters in Parameter
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/PurchRFQTableMap2LineParameters.cdm.json" target="_blank">GitHub</a>.  

@@ -1,15 +1,15 @@
 ---
-title: CarePlanActivityReason - Common Data Model | Microsoft Docs
+title: CarePlanActivityReason in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Provides the rationale that drove the inclusion of this particular activity as part of the plan or the reason why the activity was prohibited.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Activity Reason
+# Care Plan Activity Reason in electronicMedicalRecords
 
 Provides the rationale that drove the inclusion of this particular activity as part of the plan or the reason why the activity was prohibited.  
   

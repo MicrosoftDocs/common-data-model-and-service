@@ -1,15 +1,15 @@
 ---
-title: BI_CSVExport - Common Data Model | Microsoft Docs
+title: BI_CSVExport in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# BI_CSVExport
+# BI_CSVExport in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/SystemAdministration/Miscellaneous/BI_CSVExport.cdm.json" target="_blank">GitHub</a>.  

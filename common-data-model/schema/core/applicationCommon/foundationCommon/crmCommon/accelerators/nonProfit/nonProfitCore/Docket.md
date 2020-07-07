@@ -1,15 +1,15 @@
 ---
-title: Docket - Common Data Model | Microsoft Docs
+title: Docket in nonProfitCore - Common Data Model | Microsoft Docs
 description: A Docket is used to group inquiries (LOIs) and/or requests with a specific grant/award cycle or date (usually a review/board meeting).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Docket
+# Docket in nonProfitCore
 
 A Docket is used to group inquiries (LOIs) and/or requests with a specific grant/award cycle or date (usually a review/board meeting).  
   

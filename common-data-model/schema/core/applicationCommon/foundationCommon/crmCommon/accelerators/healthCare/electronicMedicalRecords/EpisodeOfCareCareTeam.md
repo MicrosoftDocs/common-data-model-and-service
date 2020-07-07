@@ -1,15 +1,15 @@
 ---
-title: EpisodeOfCareCareTeam - Common Data Model | Microsoft Docs
+title: EpisodeOfCareCareTeam in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The list of practitioners that may be facilitating this episode of care for specific purposes.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Episode Of Care Care Team
+# Episode Of Care Care Team in electronicMedicalRecords
 
 The list of practitioners that may be facilitating this episode of care for specific purposes.  
   

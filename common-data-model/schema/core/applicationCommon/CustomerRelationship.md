@@ -1,15 +1,15 @@
 ---
-title: CustomerRelationship - Common Data Model | Microsoft Docs
+title: CustomerRelationship in applicationCommon - Common Data Model | Microsoft Docs
 description: Relationship between a customer and a partner in which either can be an account or contact.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Customer Relationship
+# Customer Relationship in applicationCommon
 
 Relationship between a customer and a partner in which either can be an account or contact.  
   

@@ -1,15 +1,15 @@
 ---
-title: CarePlanBasedOn - Common Data Model | Microsoft Docs
+title: CarePlanBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A care plan that is fulfilled in whole or in part by this care plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Based On
+# Care Plan Based On in electronicMedicalRecords
 
 A care plan that is fulfilled in whole or in part by this care plan.  
   

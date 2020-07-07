@@ -1,15 +1,15 @@
 ---
-title: HealthcareServiceCategory - Common Data Model | Microsoft Docs
+title: HealthcareServiceCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the broad category of service being performed or delivered.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Healthcare Service Category
+# Healthcare Service Category in electronicMedicalRecords
 
 Identifies the broad category of service being performed or delivered.  
   

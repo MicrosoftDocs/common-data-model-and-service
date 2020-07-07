@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionContributorContact - Common Data Model | Microsoft Docs
+title: PlanDefinitionContributorContact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Contact details to assist a user in finding and communicating with the contributor.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Contributor Contact
+# Plan Definition Contributor Contact in electronicMedicalRecords
 
 Contact details to assist a user in finding and communicating with the contributor.  
   

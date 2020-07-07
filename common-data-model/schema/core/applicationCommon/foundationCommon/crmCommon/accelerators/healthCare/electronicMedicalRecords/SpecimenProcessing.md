@@ -1,15 +1,15 @@
 ---
-title: SpecimenProcessing - Common Data Model | Microsoft Docs
+title: SpecimenProcessing in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Details concerning processing and processing steps for the specimen.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Specimen Processing
+# Specimen Processing in electronicMedicalRecords
 
 Details concerning processing and processing steps for the specimen.  
   

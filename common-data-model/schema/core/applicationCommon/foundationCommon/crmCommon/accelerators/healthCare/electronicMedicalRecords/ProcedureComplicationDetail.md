@@ -1,15 +1,15 @@
 ---
-title: ProcedureComplicationDetail - Common Data Model | Microsoft Docs
+title: ProcedureComplicationDetail in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Any complications that occurred during the procedure, or in the immediate post-performance period.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Complication Detail
+# Procedure Complication Detail in electronicMedicalRecords
 
 Any complications that occurred during the procedure, or in the immediate post-performance period.  
   

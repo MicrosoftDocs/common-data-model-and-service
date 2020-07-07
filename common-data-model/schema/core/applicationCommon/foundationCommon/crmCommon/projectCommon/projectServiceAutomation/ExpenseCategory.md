@@ -1,15 +1,15 @@
 ---
-title: ExpenseCategory - Common Data Model | Microsoft Docs
+title: ExpenseCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Main container that holds expense category information.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Expense Category
+# Expense Category in projectServiceAutomation
 
 Main container that holds expense category information.  
   

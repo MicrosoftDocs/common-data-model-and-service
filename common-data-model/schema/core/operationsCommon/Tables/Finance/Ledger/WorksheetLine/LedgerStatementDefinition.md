@@ -1,15 +1,15 @@
 ---
-title: LedgerStatementDefinition - Common Data Model | Microsoft Docs
+title: LedgerStatementDefinition in WorksheetLine - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Ledger statement definition
+# Ledger statement definition in WorksheetLine
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Ledger/WorksheetLine/LedgerStatementDefinition.cdm.json" target="_blank">GitHub</a>.  

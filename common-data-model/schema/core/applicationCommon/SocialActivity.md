@@ -1,15 +1,15 @@
 ---
-title: SocialActivity - Common Data Model | Microsoft Docs
+title: SocialActivity in applicationCommon - Common Data Model | Microsoft Docs
 description: For internal use only.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Social Activity
+# Social Activity in applicationCommon
 
 For internal use only.  
   

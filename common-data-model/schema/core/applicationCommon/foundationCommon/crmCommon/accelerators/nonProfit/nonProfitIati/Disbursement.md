@@ -1,15 +1,15 @@
 ---
-title: Disbursement - Common Data Model | Microsoft Docs
+title: Disbursement in nonProfitIati - Common Data Model | Microsoft Docs
 description: A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Disbursement
+# Disbursement in nonProfitIati
 
 A Disbursement represents an Award disbursement to an individual or organizational awardee.  A Disbursement is related to a specific Award and Budget.  
   

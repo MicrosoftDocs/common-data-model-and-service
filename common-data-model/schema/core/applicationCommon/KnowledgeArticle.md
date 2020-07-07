@@ -1,15 +1,15 @@
 ---
-title: KnowledgeArticle - Common Data Model | Microsoft Docs
+title: KnowledgeArticle in applicationCommon - Common Data Model | Microsoft Docs
 description: Organizational knowledge for internal and external use.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Knowledge Article
+# Knowledge Article in applicationCommon
 
 Organizational knowledge for internal and external use.  
   

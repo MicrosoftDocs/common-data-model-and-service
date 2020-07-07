@@ -1,15 +1,15 @@
 ---
-title: ClinicalImpressionInvestigation - Common Data Model | Microsoft Docs
+title: ClinicalImpressionInvestigation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: One or more sets of investigations (signs, etc.). The actual grouping of investigations vary greatly depending on the type and context of the assessment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Clinical Impression Investigation
+# Clinical Impression Investigation in electronicMedicalRecords
 
 One or more sets of investigations (signs, etc.). The actual grouping of investigations vary greatly depending on the type and context of the assessment.  
   

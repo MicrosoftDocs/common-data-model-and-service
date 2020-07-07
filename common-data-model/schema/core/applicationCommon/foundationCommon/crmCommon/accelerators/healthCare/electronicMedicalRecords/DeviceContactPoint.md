@@ -1,15 +1,15 @@
 ---
-title: DeviceContactPoint - Common Data Model | Microsoft Docs
+title: DeviceContactPoint in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Contact details for an organization or a particular human that is responsible for the device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Contact Point
+# Device Contact Point in electronicMedicalRecords
 
 Contact details for an organization or a particular human that is responsible for the device.  
   

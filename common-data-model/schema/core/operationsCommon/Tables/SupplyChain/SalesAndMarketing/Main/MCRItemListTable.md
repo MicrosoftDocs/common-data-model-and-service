@@ -1,15 +1,15 @@
 ---
-title: MCRItemListTable - Common Data Model | Microsoft Docs
+title: MCRItemListTable in Main - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Item list
+# Item list in Main
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/SalesAndMarketing/Main/MCRItemListTable.cdm.json" target="_blank">GitHub</a>.  

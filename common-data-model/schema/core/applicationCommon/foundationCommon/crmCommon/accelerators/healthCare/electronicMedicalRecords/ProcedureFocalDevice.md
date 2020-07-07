@@ -1,15 +1,15 @@
 ---
-title: ProcedureFocalDevice - Common Data Model | Microsoft Docs
+title: ProcedureFocalDevice in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A device that is implanted, removed or otherwise manipulated (calibration, battery replacement, fitting a prosthesis, attaching a wound-vac, etc.) as a focal portion of the Procedure.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Focal Device
+# Procedure Focal Device in electronicMedicalRecords
 
 A device that is implanted, removed or otherwise manipulated (calibration, battery replacement, fitting a prosthesis, attaching a wound-vac, etc.) as a focal portion of the Procedure.  
   

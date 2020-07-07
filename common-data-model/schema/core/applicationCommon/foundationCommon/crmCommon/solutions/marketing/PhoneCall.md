@@ -1,15 +1,15 @@
 ---
-title: PhoneCall - Common Data Model | Microsoft Docs
+title: PhoneCall in marketing - Common Data Model | Microsoft Docs
 description: Activity to track a telephone call.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Phone Call
+# Phone Call in marketing
 
 Activity to track a telephone call.  
   

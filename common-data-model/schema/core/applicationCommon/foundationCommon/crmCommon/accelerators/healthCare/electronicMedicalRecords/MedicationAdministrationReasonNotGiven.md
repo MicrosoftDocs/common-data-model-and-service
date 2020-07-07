@@ -1,15 +1,15 @@
 ---
-title: MedicationAdministrationReasonNotGiven - Common Data Model | Microsoft Docs
+title: MedicationAdministrationReasonNotGiven in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code indicating why the administration was not performed.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Administration Reason Not Given
+# Medication Administration Reason Not Given in electronicMedicalRecords
 
 A code indicating why the administration was not performed.  
   

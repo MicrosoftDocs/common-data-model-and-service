@@ -1,15 +1,15 @@
 ---
-title: DataReqCodeFilterValueCodeableConcept - Common Data Model | Microsoft Docs
+title: DataReqCodeFilterValueCodeableConcept in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The Codeable Concepts for the code filter.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Data Req Code Filter Value Codeable Concept
+# Data Req Code Filter Value Codeable Concept in electronicMedicalRecords
 
 The Codeable Concepts for the code filter.  
   

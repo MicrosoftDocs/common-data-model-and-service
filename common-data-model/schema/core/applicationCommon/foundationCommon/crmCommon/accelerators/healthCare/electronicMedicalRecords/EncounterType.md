@@ -1,15 +1,15 @@
 ---
-title: EncounterType - Common Data Model | Microsoft Docs
+title: EncounterType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Specific type of encounter (e.g. e-mail consultation, surgical day-care, skilled nursing, rehabilitation).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Type
+# Encounter Type in electronicMedicalRecords
 
 Specific type of encounter (e.g. e-mail consultation, surgical day-care, skilled nursing, rehabilitation).  
   

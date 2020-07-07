@@ -1,15 +1,15 @@
 ---
-title: LvNRTaxOnItem - Common Data Model | Microsoft Docs
+title: LvNRTaxOnItem in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Natural resources tax on items
+# Natural resources tax on items in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Tax/Miscellaneous/LvNRTaxOnItem.cdm.json" target="_blank">GitHub</a>.  

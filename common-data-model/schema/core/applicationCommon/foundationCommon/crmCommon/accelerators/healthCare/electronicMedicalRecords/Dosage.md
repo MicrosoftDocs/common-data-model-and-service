@@ -1,15 +1,15 @@
 ---
-title: Dosage - Common Data Model | Microsoft Docs
+title: Dosage in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates how the medication is/was taken or should be taken by the patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Dosage
+# Dosage in electronicMedicalRecords
 
 Indicates how the medication is/was taken or should be taken by the patient.  
   

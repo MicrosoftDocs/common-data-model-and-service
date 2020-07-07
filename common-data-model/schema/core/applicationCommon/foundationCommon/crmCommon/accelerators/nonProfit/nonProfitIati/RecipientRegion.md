@@ -1,15 +1,15 @@
 ---
-title: RecipientRegion - Common Data Model | Microsoft Docs
+title: RecipientRegion in nonProfitIati - Common Data Model | Microsoft Docs
 description: A supranational geopolitical region that will benefit from the delivery framework
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Recipient Region
+# Recipient Region in nonProfitIati
 
 A supranational geopolitical region that will benefit from the delivery framework  
   

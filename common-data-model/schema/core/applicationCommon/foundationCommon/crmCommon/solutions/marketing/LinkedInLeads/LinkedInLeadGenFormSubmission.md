@@ -1,15 +1,15 @@
 ---
-title: LinkedInLeadGenFormSubmission - Common Data Model | Microsoft Docs
+title: LinkedInLeadGenFormSubmission in LinkedInLeads - Common Data Model | Microsoft Docs
 description: Submissions from prospects on LinkedIn
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# LinkedIn Lead Gen Form Submission
+# LinkedIn Lead Gen Form Submission in LinkedInLeads
 
 Submissions from prospects on LinkedIn  
   

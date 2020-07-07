@@ -1,15 +1,15 @@
 ---
-title: TransactionType - Common Data Model | Microsoft Docs
+title: TransactionType in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Broad classification, such as time or expense, and the context such cost, unbilled revenue, or billed revenue of a project actual.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transaction Type
+# Transaction Type in projectServiceAutomation
 
 Broad classification, such as time or expense, and the context such cost, unbilled revenue, or billed revenue of a project actual.  
   

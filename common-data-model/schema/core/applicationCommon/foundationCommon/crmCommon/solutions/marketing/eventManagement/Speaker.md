@@ -1,15 +1,15 @@
 ---
-title: Speaker - Common Data Model | Microsoft Docs
+title: Speaker in eventManagement - Common Data Model | Microsoft Docs
 description: Speaker bios of individuals speaking at an event
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Speaker
+# Speaker in eventManagement
 
 Speaker bios of individuals speaking at an event  
   

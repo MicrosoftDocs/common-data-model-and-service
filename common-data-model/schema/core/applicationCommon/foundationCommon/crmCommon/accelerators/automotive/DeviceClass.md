@@ -1,15 +1,15 @@
 ---
-title: DeviceClass - Common Data Model | Microsoft Docs
+title: DeviceClass in automotive - Common Data Model | Microsoft Docs
 description: Family of vehicles or devices for the specific brand provided by the manufacturer.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Class
+# Device Class in automotive
 
 Family of vehicles or devices for the specific brand provided by the manufacturer.  
   

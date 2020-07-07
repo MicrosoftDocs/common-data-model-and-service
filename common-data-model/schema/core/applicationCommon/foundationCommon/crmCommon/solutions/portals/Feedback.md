@@ -1,15 +1,15 @@
 ---
-title: Feedback - Common Data Model | Microsoft Docs
+title: Feedback in portals - Common Data Model | Microsoft Docs
 description: Container for feedback and ratings for knowledge articles.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Feedback
+# Feedback in portals
 
 Container for feedback and ratings for knowledge articles.  
   

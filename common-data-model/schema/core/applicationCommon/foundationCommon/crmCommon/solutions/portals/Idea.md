@@ -1,15 +1,15 @@
 ---
-title: Idea - Common Data Model | Microsoft Docs
+title: Idea in portals - Common Data Model | Microsoft Docs
 description: An idea belonging to a portal Idea Forum.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Idea
+# Idea in portals
 
 An idea belonging to a portal Idea Forum.  
   

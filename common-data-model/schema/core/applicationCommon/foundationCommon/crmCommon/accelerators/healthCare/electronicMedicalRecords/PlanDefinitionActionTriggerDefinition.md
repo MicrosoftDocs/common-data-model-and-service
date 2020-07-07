@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionTriggerDefinition - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionTriggerDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A description of when the action should be triggered.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Trigger Definition
+# Plan Definition Action Trigger Definition in electronicMedicalRecords
 
 A description of when the action should be triggered.  
   

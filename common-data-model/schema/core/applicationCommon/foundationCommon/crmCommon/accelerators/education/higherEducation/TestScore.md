@@ -1,15 +1,15 @@
 ---
-title: TestScore - Common Data Model | Microsoft Docs
+title: TestScore in higherEducation - Common Data Model | Microsoft Docs
 description: Test scores for a Student Contact
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Test Score
+# Test Score in higherEducation
 
 Test scores for a Student Contact  
   

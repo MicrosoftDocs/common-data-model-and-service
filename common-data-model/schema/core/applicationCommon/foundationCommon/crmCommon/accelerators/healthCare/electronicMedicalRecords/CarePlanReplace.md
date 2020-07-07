@@ -1,15 +1,15 @@
 ---
-title: CarePlanReplace - Common Data Model | Microsoft Docs
+title: CarePlanReplace in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Completed or terminated care plan whose function is taken by this new care plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Replace
+# Care Plan Replace in electronicMedicalRecords
 
 Completed or terminated care plan whose function is taken by this new care plan.  
   

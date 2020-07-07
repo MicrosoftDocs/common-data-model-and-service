@@ -1,15 +1,15 @@
 ---
-title: BudgetControlOverBudgetPermissionsEntity - Common Data Model | Microsoft Docs
+title: BudgetControlOverBudgetPermissionsEntity in Budgeting - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Budget control over budget permissions
+# Budget control over budget permissions in Budgeting
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/Budgeting/BudgetControlOverBudgetPermissionsEntity.cdm.json" target="_blank">GitHub</a>.  

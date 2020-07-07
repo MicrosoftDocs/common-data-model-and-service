@@ -1,15 +1,15 @@
 ---
-title: WHSWarehouseWorkPoolEntity - Common Data Model | Microsoft Docs
+title: WHSWarehouseWorkPoolEntity in WMS - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Warehouse work pools
+# Warehouse work pools in WMS
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/WMS/WHSWarehouseWorkPoolEntity.cdm.json" target="_blank">GitHub</a>.  

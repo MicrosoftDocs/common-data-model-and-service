@@ -1,15 +1,15 @@
 ---
-title: DeviceMetricType - Common Data Model | Microsoft Docs
+title: DeviceMetricType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes the type of the metric. For example&#58 Heart Rate, PEEP Setting, etc.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Metric Type
+# Device Metric Type in electronicMedicalRecords
 
 Describes the type of the metric. For example: Heart Rate, PEEP Setting, etc.  
   

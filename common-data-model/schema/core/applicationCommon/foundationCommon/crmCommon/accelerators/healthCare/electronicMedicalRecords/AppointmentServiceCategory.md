@@ -1,15 +1,15 @@
 ---
-title: AppointmentServiceCategory - Common Data Model | Microsoft Docs
+title: AppointmentServiceCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A broad categorization of the service that is to be performed during this appointment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment Service Category
+# Appointment Service Category in electronicMedicalRecords
 
 A broad categorization of the service that is to be performed during this appointment.  
   

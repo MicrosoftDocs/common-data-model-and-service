@@ -1,15 +1,15 @@
 ---
-title: WHSWarehouseSlottingTemplateDetailsV2Entity - Common Data Model | Microsoft Docs
+title: WHSWarehouseSlottingTemplateDetailsV2Entity in InventoryAndWarehouseManagement - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Lines for slotting templates V2
+# Lines for slotting templates V2 in InventoryAndWarehouseManagement
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WHSWarehouseSlottingTemplateDetailsV2Entity.cdm.json" target="_blank">GitHub</a>.  

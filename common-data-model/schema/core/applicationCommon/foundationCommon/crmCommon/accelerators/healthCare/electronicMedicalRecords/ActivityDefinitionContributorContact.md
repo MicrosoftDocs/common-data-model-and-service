@@ -1,15 +1,15 @@
 ---
-title: ActivityDefinitionContributorContact - Common Data Model | Microsoft Docs
+title: ActivityDefinitionContributorContact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Contact details to assist a user in finding and communicating with the contributor.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Activity Definition Contributor Contact
+# Activity Definition Contributor Contact in electronicMedicalRecords
 
 Contact details to assist a user in finding and communicating with the contributor.  
   

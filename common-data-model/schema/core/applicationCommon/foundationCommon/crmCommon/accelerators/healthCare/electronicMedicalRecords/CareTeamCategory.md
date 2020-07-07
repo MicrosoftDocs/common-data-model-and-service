@@ -1,15 +1,15 @@
 ---
-title: CareTeamCategory - Common Data Model | Microsoft Docs
+title: CareTeamCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies what kind of team. This is to support differentiation between multiple co-existing teams, such as care plan team, episode of care team, longitudinal care team.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Team Category
+# Care Team Category in electronicMedicalRecords
 
 Identifies what kind of team. This is to support differentiation between multiple co-existing teams, such as care plan team, episode of care team, longitudinal care team.  
   

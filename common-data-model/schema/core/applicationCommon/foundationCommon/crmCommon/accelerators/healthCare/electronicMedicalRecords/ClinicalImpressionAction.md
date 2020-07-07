@@ -1,15 +1,15 @@
 ---
-title: ClinicalImpressionAction - Common Data Model | Microsoft Docs
+title: ClinicalImpressionAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Action taken as part of assessment procedure.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Clinical Impression Action
+# Clinical Impression Action in electronicMedicalRecords
 
 Action taken as part of assessment procedure.  
   

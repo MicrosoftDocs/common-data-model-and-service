@@ -1,15 +1,15 @@
 ---
-title: AppointmentEMRReason - Common Data Model | Microsoft Docs
+title: AppointmentEMRReason in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The reason that this appointment is being scheduled. This is more clinical than administrative.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR) Reason
+# Appointment (EMR) Reason in electronicMedicalRecords
 
 The reason that this appointment is being scheduled. This is more clinical than administrative.  
   

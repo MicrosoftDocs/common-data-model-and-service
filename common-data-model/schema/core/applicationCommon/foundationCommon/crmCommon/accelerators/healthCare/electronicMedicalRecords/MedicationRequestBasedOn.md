@@ -1,15 +1,15 @@
 ---
-title: MedicationRequestBasedOn - Common Data Model | Microsoft Docs
+title: MedicationRequestBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A plan or request that is fulfilled in whole or in part by this medication request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request Based On
+# Medication Request Based On in electronicMedicalRecords
 
 A plan or request that is fulfilled in whole or in part by this medication request.  
   

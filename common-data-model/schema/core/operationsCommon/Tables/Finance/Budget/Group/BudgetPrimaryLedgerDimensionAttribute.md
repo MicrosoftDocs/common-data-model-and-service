@@ -1,15 +1,15 @@
 ---
-title: BudgetPrimaryLedgerDimensionAttribute - Common Data Model | Microsoft Docs
+title: BudgetPrimaryLedgerDimensionAttribute in Group - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Budget dimensions
+# Budget dimensions in Group
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Budget/Group/BudgetPrimaryLedgerDimensionAttribute.cdm.json" target="_blank">GitHub</a>.  

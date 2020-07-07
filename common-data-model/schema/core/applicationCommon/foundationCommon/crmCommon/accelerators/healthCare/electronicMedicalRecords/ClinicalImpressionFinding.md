@@ -1,15 +1,15 @@
 ---
-title: ClinicalImpressionFinding - Common Data Model | Microsoft Docs
+title: ClinicalImpressionFinding in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Specific findings or diagnoses that was considered likely or relevant to ongoing treatment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Clinical Impression Finding
+# Clinical Impression Finding in electronicMedicalRecords
 
 Specific findings or diagnoses that was considered likely or relevant to ongoing treatment.  
   

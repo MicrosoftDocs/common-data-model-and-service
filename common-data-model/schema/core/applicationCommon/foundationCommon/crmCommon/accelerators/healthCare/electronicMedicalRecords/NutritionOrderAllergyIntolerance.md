@@ -1,15 +1,15 @@
 ---
-title: NutritionOrderAllergyIntolerance - Common Data Model | Microsoft Docs
+title: NutritionOrderAllergyIntolerance in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A link to a record of allergies or intolerance which should be included in the nutrition order.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order Allergy Intolerance
+# Nutrition Order Allergy Intolerance in electronicMedicalRecords
 
 A link to a record of allergies or intolerance which should be included in the nutrition order.  
   

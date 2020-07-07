@@ -1,15 +1,15 @@
 ---
-title: AppointmentEMRRequestedPeriod - Common Data Model | Microsoft Docs
+title: AppointmentEMRRequestedPeriod in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A set of date ranges (potentially including times) that the appointment is preferred to be scheduled within.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR) Requested Period
+# Appointment (EMR) Requested Period in electronicMedicalRecords
 
 A set of date ranges (potentially including times) that the appointment is preferred to be scheduled within.  
   

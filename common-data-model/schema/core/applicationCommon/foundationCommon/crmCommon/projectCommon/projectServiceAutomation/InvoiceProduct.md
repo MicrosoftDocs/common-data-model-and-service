@@ -1,15 +1,15 @@
 ---
-title: InvoiceProduct - Common Data Model | Microsoft Docs
+title: InvoiceProduct in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Line item in an invoice containing detailed billing information for a product.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Invoice Product
+# Invoice Product in projectServiceAutomation
 
 Line item in an invoice containing detailed billing information for a product.  
   

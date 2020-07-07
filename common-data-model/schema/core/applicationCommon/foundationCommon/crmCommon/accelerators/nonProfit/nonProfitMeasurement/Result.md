@@ -1,15 +1,15 @@
 ---
-title: Result - Common Data Model | Microsoft Docs
+title: Result in nonProfitMeasurement - Common Data Model | Microsoft Docs
 description: A Result is a container that represents the changes in the context in which an organization operates..
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Result
+# Result in nonProfitMeasurement
 
 A Result is a container that represents the changes in the context in which an organization operates..  
   

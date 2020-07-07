@@ -1,15 +1,15 @@
 ---
-title: AlcoholProductionType_RU - Common Data Model | Microsoft Docs
+title: AlcoholProductionType_RU in Parameter - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Alcohol production types
+# Alcohol production types in Parameter
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/EGAIS/Parameter/AlcoholProductionType_RU.cdm.json" target="_blank">GitHub</a>.  

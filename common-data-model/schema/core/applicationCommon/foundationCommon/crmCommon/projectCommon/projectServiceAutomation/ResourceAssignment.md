@@ -1,15 +1,15 @@
 ---
-title: ResourceAssignment - Common Data Model | Microsoft Docs
+title: ResourceAssignment in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used to keep track of resource assignment header information  on tasks.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Resource Assignment
+# Resource Assignment in projectServiceAutomation
 
 Entity used to keep track of resource assignment header information  on tasks.  
   

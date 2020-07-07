@@ -1,15 +1,15 @@
 ---
-title: HealthcareServiceLocation - Common Data Model | Microsoft Docs
+title: HealthcareServiceLocation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The location(s) where this healthcare service may be provided.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Healthcare Service Location
+# Healthcare Service Location in electronicMedicalRecords
 
 The location(s) where this healthcare service may be provided.  
   

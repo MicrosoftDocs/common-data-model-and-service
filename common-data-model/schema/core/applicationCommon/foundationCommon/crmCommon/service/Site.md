@@ -1,15 +1,15 @@
 ---
-title: Site - Common Data Model | Microsoft Docs
+title: Site in service - Common Data Model | Microsoft Docs
 description: Location or branch office where an organization does business. An organization can have multiple sites.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Site
+# Site in service
 
 Location or branch office where an organization does business. An organization can have multiple sites.  
   

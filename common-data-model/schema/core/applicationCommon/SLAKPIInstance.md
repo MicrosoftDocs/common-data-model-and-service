@@ -1,15 +1,15 @@
 ---
-title: SLAKPIInstance - Common Data Model | Microsoft Docs
+title: SLAKPIInstance in applicationCommon - Common Data Model | Microsoft Docs
 description: Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# SLA KPI Instance
+# SLA KPI Instance in applicationCommon
 
 Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case  
   

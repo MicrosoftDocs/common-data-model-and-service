@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionArtifact - Common Data Model | Microsoft Docs
+title: PlanDefinitionArtifact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Related artifacts such as additional documentation, justification, or bibliographic references.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Artifact
+# Plan Definition Artifact in electronicMedicalRecords
 
 Related artifacts such as additional documentation, justification, or bibliographic references.  
   

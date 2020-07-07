@@ -1,15 +1,15 @@
 ---
-title: RequestGroupActionParticipant - Common Data Model | Microsoft Docs
+title: RequestGroupActionParticipant in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The participant that should perform or be responsible for this action.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Action Participant
+# Request Group Action Participant in electronicMedicalRecords
 
 The participant that should perform or be responsible for this action.  
   

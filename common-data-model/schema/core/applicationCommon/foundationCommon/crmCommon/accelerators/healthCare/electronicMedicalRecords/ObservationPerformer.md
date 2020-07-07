@@ -1,15 +1,15 @@
 ---
-title: ObservationPerformer - Common Data Model | Microsoft Docs
+title: ObservationPerformer in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Who was responsible for asserting the observed value as "true".
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation Performer
+# Observation Performer in electronicMedicalRecords
 
 Who was responsible for asserting the observed value as "true".  
   

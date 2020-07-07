@@ -1,15 +1,15 @@
 ---
-title: InventValueReportDimension - Common Data Model | Microsoft Docs
+title: InventValueReportDimension in Main - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Inventory dimensions for inventory value reports
+# Inventory dimensions for inventory value reports in Main
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Main/InventValueReportDimension.cdm.json" target="_blank">GitHub</a>.  

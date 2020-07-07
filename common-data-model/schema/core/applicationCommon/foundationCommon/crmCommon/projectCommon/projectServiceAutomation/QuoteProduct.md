@@ -1,15 +1,15 @@
 ---
-title: QuoteProduct - Common Data Model | Microsoft Docs
+title: QuoteProduct in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Product line item in a quote. The details include such information as product ID, description, quantity, and cost.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quote Product
+# Quote Product in projectServiceAutomation
 
 Product line item in a quote. The details include such information as product ID, description, quantity, and cost.  
   

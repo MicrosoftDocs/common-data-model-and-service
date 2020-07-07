@@ -1,15 +1,15 @@
 ---
-title: DeviceObservation - Common Data Model | Microsoft Docs
+title: DeviceObservation in automotive - Common Data Model | Microsoft Docs
 description: Important observation on the state of a given vehicle or device, typically resulting from an inspection.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Observation
+# Device Observation in automotive
 
 Important observation on the state of a given vehicle or device, typically resulting from an inspection.  
   

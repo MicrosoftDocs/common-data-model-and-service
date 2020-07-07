@@ -1,15 +1,15 @@
 ---
-title: PractitionerRoleCode - Common Data Model | Microsoft Docs
+title: PractitionerRoleCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Roles which this practitioner is authorized to perform for the organization.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Practitioner Role Code
+# Practitioner Role Code in electronicMedicalRecords
 
 Roles which this practitioner is authorized to perform for the organization.  
   

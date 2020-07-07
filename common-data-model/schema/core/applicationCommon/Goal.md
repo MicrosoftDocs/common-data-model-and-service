@@ -1,15 +1,15 @@
 ---
-title: Goal - Common Data Model | Microsoft Docs
+title: Goal in applicationCommon - Common Data Model | Microsoft Docs
 description: Target objective for a user or a team for a specified time period.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Goal
+# Goal in applicationCommon
 
 Target objective for a user or a team for a specified time period.  
   

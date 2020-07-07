@@ -1,15 +1,15 @@
 ---
-title: WebPageLog - Common Data Model | Microsoft Docs
+title: WebPageLog in portals - Common Data Model | Microsoft Docs
 description: A record of a user viewing a Web Page
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Web Page Log
+# Web Page Log in portals
 
 A record of a user viewing a Web Page  
   

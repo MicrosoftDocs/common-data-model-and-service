@@ -1,15 +1,15 @@
 ---
-title: TaskInput - Common Data Model | Microsoft Docs
+title: TaskInput in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Additional information that may be needed in the execution of the task.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Task Input
+# Task Input in electronicMedicalRecords
 
 Additional information that may be needed in the execution of the task.  
   

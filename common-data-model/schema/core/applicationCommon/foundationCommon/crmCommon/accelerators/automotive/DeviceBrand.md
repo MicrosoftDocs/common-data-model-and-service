@@ -1,15 +1,15 @@
 ---
-title: DeviceBrand - Common Data Model | Microsoft Docs
+title: DeviceBrand in automotive - Common Data Model | Microsoft Docs
 description: Brand name of a vehicle or device manufacturer, main vendor for a group of devices or manufacturer or main vendor for supplier items.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Brand
+# Device Brand in automotive
 
 Brand name of a vehicle or device manufacturer, main vendor for a group of devices or manufacturer or main vendor for supplier items.  
   

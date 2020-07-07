@@ -1,15 +1,15 @@
 ---
-title: LeadDeviceSpecification - Common Data Model | Microsoft Docs
+title: LeadDeviceSpecification in automotive - Common Data Model | Microsoft Docs
 description: Loose description of a characteristic of a vehicle or device of interest in a lead.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Lead Device Specification
+# Lead Device Specification in automotive
 
 Loose description of a characteristic of a vehicle or device of interest in a lead.  
   

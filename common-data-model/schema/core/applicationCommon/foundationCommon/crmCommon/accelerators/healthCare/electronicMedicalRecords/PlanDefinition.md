@@ -1,15 +1,15 @@
 ---
-title: PlanDefinition - Common Data Model | Microsoft Docs
+title: PlanDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This entity allows for the definition of various types of plans as a shareable, consumable, and executable artifact.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition
+# Plan Definition in electronicMedicalRecords
 
 This entity allows for the definition of various types of plans as a shareable, consumable, and executable artifact.  
   

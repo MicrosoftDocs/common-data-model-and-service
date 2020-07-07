@@ -1,15 +1,15 @@
 ---
-title: MedicationPackageContent - Common Data Model | Microsoft Docs
+title: MedicationPackageContent in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A set of components that go to make up the described item.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Package Content
+# Medication Package Content in electronicMedicalRecords
 
 A set of components that go to make up the described item.  
   

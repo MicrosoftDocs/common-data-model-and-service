@@ -1,15 +1,15 @@
 ---
-title: TimingTimeOfDay - Common Data Model | Microsoft Docs
+title: TimingTimeOfDay in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Specified time of day for action to take place.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Timing Time Of Day
+# Timing Time Of Day in electronicMedicalRecords
 
 Specified time of day for action to take place.  
   

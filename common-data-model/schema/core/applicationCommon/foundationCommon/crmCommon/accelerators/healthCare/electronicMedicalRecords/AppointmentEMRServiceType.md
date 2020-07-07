@@ -1,15 +1,15 @@
 ---
-title: AppointmentEMRServiceType - Common Data Model | Microsoft Docs
+title: AppointmentEMRServiceType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The specific service that is to be performed during this appointment.s
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR) Service Type
+# Appointment (EMR) Service Type in electronicMedicalRecords
 
 The specific service that is to be performed during this appointment.s  
   

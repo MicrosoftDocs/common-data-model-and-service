@@ -1,15 +1,15 @@
 ---
-title: Scholarship - Common Data Model | Microsoft Docs
+title: Scholarship in higherEducation - Common Data Model | Microsoft Docs
 description: This entity stores the list of scholarships offered to a school by all business partners 
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Scholarship
+# Scholarship in higherEducation
 
 This entity stores the list of scholarships offered to a school by all business partners   
   

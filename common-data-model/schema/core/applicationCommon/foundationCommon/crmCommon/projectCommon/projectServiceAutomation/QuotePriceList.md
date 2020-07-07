@@ -1,15 +1,15 @@
 ---
-title: QuotePriceList - Common Data Model | Microsoft Docs
+title: QuotePriceList in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Sales price list that will used by the quote to default sales prices on all project-based components such as time and expense.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quote Project Price List
+# Quote Project Price List in projectServiceAutomation
 
 Sales price list that will used by the quote to default sales prices on all project-based components such as time and expense.  
   

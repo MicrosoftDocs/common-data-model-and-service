@@ -1,15 +1,15 @@
 ---
-title: Order - Common Data Model | Microsoft Docs
+title: Order in sales - Common Data Model | Microsoft Docs
 description: Quote that has been accepted.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Order
+# Order in sales
 
 Quote that has been accepted.  
   

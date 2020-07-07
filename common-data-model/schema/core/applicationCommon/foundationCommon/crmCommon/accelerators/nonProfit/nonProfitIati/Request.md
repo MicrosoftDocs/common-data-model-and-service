@@ -1,15 +1,15 @@
 ---
-title: Request - Common Data Model | Microsoft Docs
+title: Request in nonProfitIati - Common Data Model | Microsoft Docs
 description: Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request
+# Request in nonProfitIati
 
 Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.  
   

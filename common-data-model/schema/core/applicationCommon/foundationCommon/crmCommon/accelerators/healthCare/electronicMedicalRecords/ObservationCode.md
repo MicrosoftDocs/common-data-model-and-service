@@ -1,15 +1,15 @@
 ---
-title: ObservationCode - Common Data Model | Microsoft Docs
+title: ObservationCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes what was observed.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation Code
+# Observation Code in electronicMedicalRecords
 
 Describes what was observed.  
   

@@ -1,15 +1,15 @@
 ---
-title: DonorCommitment - Common Data Model | Microsoft Docs
+title: DonorCommitment in nonProfitIati - Common Data Model | Microsoft Docs
 description: Donor commitments represent the actual or prospective agreement between a donor and an organization for the donor to make a gift to the organization.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Donor Commitment
+# Donor Commitment in nonProfitIati
 
 Donor commitments represent the actual or prospective agreement between a donor and an organization for the donor to make a gift to the organization.  
   

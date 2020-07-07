@@ -1,15 +1,15 @@
 ---
-title: CustomerAttachment - Common Data Model | Microsoft Docs
+title: CustomerAttachment in automotive - Common Data Model | Microsoft Docs
 description: Document or file related to a given customer or deal file.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Customer Attachment
+# Customer Attachment in automotive
 
 Document or file related to a given customer or deal file.  
   

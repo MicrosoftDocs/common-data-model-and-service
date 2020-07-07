@@ -1,15 +1,15 @@
 ---
-title: PolicyMarker - Common Data Model | Microsoft Docs
+title: PolicyMarker in nonProfitIati - Common Data Model | Microsoft Docs
 description: A policy or theme addressed by the Delivery Framework.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Policy Marker
+# Policy Marker in nonProfitIati
 
 A policy or theme addressed by the Delivery Framework.  
   

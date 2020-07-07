@@ -1,15 +1,15 @@
 ---
-title: MCRRoyaltyItemCode - Common Data Model | Microsoft Docs
+title: MCRRoyaltyItemCode in Group - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Royalty code items
+# Royalty code items in Group
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Group/MCRRoyaltyItemCode.cdm.json" target="_blank">GitHub</a>.  

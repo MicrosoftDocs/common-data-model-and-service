@@ -1,15 +1,15 @@
 ---
-title: DisbursementDistribution - Common Data Model | Microsoft Docs
+title: DisbursementDistribution in nonProfitIati - Common Data Model | Microsoft Docs
 description: Disbursement Distribution represents the Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Disbursement Distribution
+# Disbursement Distribution in nonProfitIati
 
 Disbursement Distribution represents the Framework(s) - i.e. Program, Project, Initiative - that contribute to funding an Award Disbursement.  
   

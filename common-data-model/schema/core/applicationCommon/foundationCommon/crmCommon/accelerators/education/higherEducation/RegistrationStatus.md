@@ -1,15 +1,15 @@
 ---
-title: RegistrationStatus - Common Data Model | Microsoft Docs
+title: RegistrationStatus in higherEducation - Common Data Model | Microsoft Docs
 description: The master list of registration statuses tracked by the institution. The registration status is associated to the student course history.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Registration Status
+# Registration Status in higherEducation
 
 The master list of registration statuses tracked by the institution. The registration status is associated to the student course history.  
   

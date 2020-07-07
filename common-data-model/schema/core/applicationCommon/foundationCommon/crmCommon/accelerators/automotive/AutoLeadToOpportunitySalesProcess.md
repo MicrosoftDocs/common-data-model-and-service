@@ -1,15 +1,15 @@
 ---
-title: AutoLeadToOpportunitySalesProcess - Common Data Model | Microsoft Docs
+title: AutoLeadToOpportunitySalesProcess in automotive - Common Data Model | Microsoft Docs
 description: Base entity for process Auto Lead to Opportunity Sales Process
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Auto Lead to Opportunity Sales Process
+# Auto Lead to Opportunity Sales Process in automotive
 
 Base entity for process Auto Lead to Opportunity Sales Process  
   

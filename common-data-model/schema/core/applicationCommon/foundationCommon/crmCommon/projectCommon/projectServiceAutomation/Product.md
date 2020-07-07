@@ -1,15 +1,15 @@
 ---
-title: Product - Common Data Model | Microsoft Docs
+title: Product in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Information about products and their pricing information.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Product
+# Product in projectServiceAutomation
 
 Information about products and their pricing information.  
   

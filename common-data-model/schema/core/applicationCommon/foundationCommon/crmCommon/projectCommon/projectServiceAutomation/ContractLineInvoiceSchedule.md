@@ -1,15 +1,15 @@
 ---
-title: ContractLineInvoiceSchedule - Common Data Model | Microsoft Docs
+title: ContractLineInvoiceSchedule in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of dates that shows when invoicing for this customer should be run. This list is used by the invoice creation job.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Contract Line Invoice Schedule
+# Project Contract Line Invoice Schedule in projectServiceAutomation
 
 List of dates that shows when invoicing for this customer should be run. This list is used by the invoice creation job.  
   

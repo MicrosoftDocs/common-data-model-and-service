@@ -1,15 +1,15 @@
 ---
-title: DeviceModel - Common Data Model | Microsoft Docs
+title: DeviceModel in automotive - Common Data Model | Microsoft Docs
 description: Sub-type of a device class, which may be identified by specific engine option, body styles and other common characteristics. Breaks down further into device model codes.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Model
+# Device Model in automotive
 
 Sub-type of a device class, which may be identified by specific engine option, body styles and other common characteristics. Breaks down further into device model codes.  
   

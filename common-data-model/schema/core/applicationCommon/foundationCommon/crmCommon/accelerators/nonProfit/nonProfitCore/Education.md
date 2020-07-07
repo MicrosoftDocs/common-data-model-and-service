@@ -1,15 +1,15 @@
 ---
-title: Education - Common Data Model | Microsoft Docs
+title: Education in nonProfitCore - Common Data Model | Microsoft Docs
 description: Education references biographical information about the educational institutions a contact attended or is attending.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Education
+# Education in nonProfitCore
 
 Education references biographical information about the educational institutions a contact attended or is attending.  
   

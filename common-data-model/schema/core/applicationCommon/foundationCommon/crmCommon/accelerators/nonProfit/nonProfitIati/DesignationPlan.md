@@ -1,15 +1,15 @@
 ---
-title: DesignationPlan - Common Data Model | Microsoft Docs
+title: DesignationPlan in nonProfitIati - Common Data Model | Microsoft Docs
 description: A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Designation Plan
+# Designation Plan in nonProfitIati
 
 A line item attached to a Pledge, Payment Schedule, or Campaign indicating how associated payments should be designated.  
   

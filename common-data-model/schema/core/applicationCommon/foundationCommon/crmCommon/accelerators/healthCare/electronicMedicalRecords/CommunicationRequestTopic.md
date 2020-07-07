@@ -1,15 +1,15 @@
 ---
-title: CommunicationRequestTopic - Common Data Model | Microsoft Docs
+title: CommunicationRequestTopic in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The entities which were related to producing this communication request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication Request Topic
+# Communication Request Topic in electronicMedicalRecords
 
 The entities which were related to producing this communication request.  
   

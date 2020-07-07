@@ -1,15 +1,15 @@
 ---
-title: BookableResourceBookingHeader - Common Data Model | Microsoft Docs
+title: BookableResourceBookingHeader in projectCommon - Common Data Model | Microsoft Docs
 description: Reservation entity representing the summary of the associated resource bookings.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Bookable Resource Booking Header
+# Bookable Resource Booking Header in projectCommon
 
 Reservation entity representing the summary of the associated resource bookings.  
   

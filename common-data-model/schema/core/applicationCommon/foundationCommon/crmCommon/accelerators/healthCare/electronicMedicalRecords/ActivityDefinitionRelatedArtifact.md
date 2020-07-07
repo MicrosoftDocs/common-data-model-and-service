@@ -1,15 +1,15 @@
 ---
-title: ActivityDefinitionRelatedArtifact - Common Data Model | Microsoft Docs
+title: ActivityDefinitionRelatedArtifact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Related artifacts such as additional documentation, justification, or bibliographic references.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Activity Definition Related Artifact
+# Activity Definition Related Artifact in electronicMedicalRecords
 
 Related artifacts such as additional documentation, justification, or bibliographic references.  
   

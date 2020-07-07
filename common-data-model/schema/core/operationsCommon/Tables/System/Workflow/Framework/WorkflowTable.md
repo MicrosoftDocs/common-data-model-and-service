@@ -1,15 +1,15 @@
 ---
-title: WorkflowTable - Common Data Model | Microsoft Docs
+title: WorkflowTable in Framework - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Workflow configurations
+# Workflow configurations in Framework
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/Workflow/Framework/WorkflowTable.cdm.json" target="_blank">GitHub</a>.  

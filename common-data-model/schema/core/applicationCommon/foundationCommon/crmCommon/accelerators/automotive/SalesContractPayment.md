@@ -1,15 +1,15 @@
 ---
-title: SalesContractPayment - Common Data Model | Microsoft Docs
+title: SalesContractPayment in automotive - Common Data Model | Microsoft Docs
 description: Payment made in accordance with a sales contract.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Sales Contract Payment
+# Sales Contract Payment in automotive
 
 Payment made in accordance with a sales contract.  
   

@@ -1,15 +1,15 @@
 ---
-title: AttributeOption - Common Data Model | Microsoft Docs
+title: AttributeOption in automotive - Common Data Model | Microsoft Docs
 description: Available option for an attribute type that require its value to be selected from a list.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Attribute Option
+# Attribute Option in automotive
 
 Available option for an attribute type that require its value to be selected from a list.  
   

@@ -1,15 +1,15 @@
 ---
-title: RequestGroupAction - Common Data Model | Microsoft Docs
+title: RequestGroupAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The actions, if any, produced by the evaluation of the artifact.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Action
+# Request Group Action in electronicMedicalRecords
 
 The actions, if any, produced by the evaluation of the artifact.  
   

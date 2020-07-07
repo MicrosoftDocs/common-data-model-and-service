@@ -1,15 +1,15 @@
 ---
-title: HealthcareServiceEndpoint - Common Data Model | Microsoft Docs
+title: HealthcareServiceEndpoint in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Technical endpoints providing access to services operated for the specific healthcare services defined at this entity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Healthcare Service Endpoint
+# Healthcare Service Endpoint in electronicMedicalRecords
 
 Technical endpoints providing access to services operated for the specific healthcare services defined at this entity.  
   

@@ -1,15 +1,15 @@
 ---
-title: ProductAssociation - Common Data Model | Microsoft Docs
+title: ProductAssociation in foundationCommon - Common Data Model | Microsoft Docs
 description: Instance of a product added to a bundle or kit.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Product Association
+# Product Association in foundationCommon
 
 Instance of a product added to a bundle or kit.  
   

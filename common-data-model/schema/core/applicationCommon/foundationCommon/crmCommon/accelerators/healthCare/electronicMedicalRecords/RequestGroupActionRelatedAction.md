@@ -1,15 +1,15 @@
 ---
-title: RequestGroupActionRelatedAction - Common Data Model | Microsoft Docs
+title: RequestGroupActionRelatedAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A relationship to another action such as "before" or "30-60 minutes after start of".
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Action Related Action
+# Request Group Action Related Action in electronicMedicalRecords
 
 A relationship to another action such as "before" or "30-60 minutes after start of".  
   

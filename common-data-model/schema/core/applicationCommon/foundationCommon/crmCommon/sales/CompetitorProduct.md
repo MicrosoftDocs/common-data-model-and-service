@@ -1,15 +1,15 @@
 ---
-title: CompetitorProduct - Common Data Model | Microsoft Docs
+title: CompetitorProduct in sales - Common Data Model | Microsoft Docs
 description: Association between a competitor and a product offered by the competitor.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Competitor Product
+# Competitor Product in sales
 
 Association between a competitor and a product offered by the competitor.  
   

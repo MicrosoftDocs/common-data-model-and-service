@@ -1,15 +1,15 @@
 ---
-title: ResourceSpecification - Common Data Model | Microsoft Docs
+title: ResourceSpecification in service - Common Data Model | Microsoft Docs
 description: Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Resource Specification
+# Resource Specification in service
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
   

@@ -1,15 +1,15 @@
 ---
-title: Estimate - Common Data Model | Microsoft Docs
+title: Estimate in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Labor, cost, and revenue estimates for a project.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Estimate
+# Estimate in projectServiceAutomation
 
 Labor, cost, and revenue estimates for a project.  
   

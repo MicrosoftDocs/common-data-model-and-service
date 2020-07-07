@@ -1,15 +1,15 @@
 ---
-title: ActivityDefinition - Common Data Model | Microsoft Docs
+title: ActivityDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This entity allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Activity Definition
+# Activity Definition in electronicMedicalRecords
 
 This entity allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context.  
   

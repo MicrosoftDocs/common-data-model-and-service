@@ -1,15 +1,15 @@
 ---
-title: Project - Common Data Model | Microsoft Docs
+title: Project in nonProfitVolunteers - Common Data Model | Microsoft Docs
 description: Delivery entity in an engagement.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project
+# Project in nonProfitVolunteers
 
 Delivery entity in an engagement.  
   

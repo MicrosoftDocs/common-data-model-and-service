@@ -1,15 +1,15 @@
 ---
-title: ProjectTaskDependency - Common Data Model | Microsoft Docs
+title: ProjectTaskDependency in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Dependency data between tasks.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Task Dependency
+# Project Task Dependency in projectServiceAutomation
 
 Dependency data between tasks.  
   

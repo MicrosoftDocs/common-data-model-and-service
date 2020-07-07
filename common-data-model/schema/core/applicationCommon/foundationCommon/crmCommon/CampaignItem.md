@@ -1,15 +1,15 @@
 ---
-title: CampaignItem - Common Data Model | Microsoft Docs
+title: CampaignItem in crmCommon - Common Data Model | Microsoft Docs
 description: Work item in a campaign, a list or sales literature.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Campaign Item
+# Campaign Item in crmCommon
 
 Work item in a campaign, a list or sales literature.  
   

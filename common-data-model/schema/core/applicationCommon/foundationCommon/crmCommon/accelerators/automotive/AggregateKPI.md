@@ -1,15 +1,15 @@
 ---
-title: AggregateKPI - Common Data Model | Microsoft Docs
+title: AggregateKPI in automotive - Common Data Model | Microsoft Docs
 description: Type of KPIs that can be useful for tracking customer, device or business performance.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Aggregate KPI
+# Aggregate KPI in automotive
 
 Type of KPIs that can be useful for tracking customer, device or business performance.  
   

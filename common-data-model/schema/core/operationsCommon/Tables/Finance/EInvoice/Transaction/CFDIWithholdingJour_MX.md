@@ -1,15 +1,15 @@
 ---
-title: CFDIWithholdingJour_MX - Common Data Model | Microsoft Docs
+title: CFDIWithholdingJour_MX in Transaction - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# CFDI withholding journal
+# CFDI withholding journal in Transaction
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/EInvoice/Transaction/CFDIWithholdingJour_MX.cdm.json" target="_blank">GitHub</a>.  

@@ -1,15 +1,15 @@
 ---
-title: EncounterParticipant - Common Data Model | Microsoft Docs
+title: EncounterParticipant in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The list of people responsible for providing the service.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Participant
+# Encounter Participant in electronicMedicalRecords
 
 The list of people responsible for providing the service.  
   

@@ -1,15 +1,15 @@
 ---
-title: QueueItem - Common Data Model | Microsoft Docs
+title: QueueItem in applicationCommon - Common Data Model | Microsoft Docs
 description: A specific item in a queue, such as a case record or an activity record.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Queue Item
+# Queue Item in applicationCommon
 
 A specific item in a queue, such as a case record or an activity record.  
   

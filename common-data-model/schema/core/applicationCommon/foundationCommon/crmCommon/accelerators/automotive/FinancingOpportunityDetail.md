@@ -1,15 +1,15 @@
 ---
-title: FinancingOpportunityDetail - Common Data Model | Microsoft Docs
+title: FinancingOpportunityDetail in automotive - Common Data Model | Microsoft Docs
 description: Type of payment that forms part of a financing opportunity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Financing Opportunity Detail
+# Financing Opportunity Detail in automotive
 
 Type of payment that forms part of a financing opportunity.  
   

@@ -1,15 +1,15 @@
 ---
-title: ClinicalImpressionProblem - Common Data Model | Microsoft Docs
+title: ClinicalImpressionProblem in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This a list of the relevant problems/conditions for a patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Clinical Impression Problem
+# Clinical Impression Problem in electronicMedicalRecords
 
 This a list of the relevant problems/conditions for a patient.  
   

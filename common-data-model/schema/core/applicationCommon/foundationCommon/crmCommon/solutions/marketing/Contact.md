@@ -1,15 +1,15 @@
 ---
-title: Contact - Common Data Model | Microsoft Docs
+title: Contact in marketing - Common Data Model | Microsoft Docs
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Contact
+# Contact in marketing
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   

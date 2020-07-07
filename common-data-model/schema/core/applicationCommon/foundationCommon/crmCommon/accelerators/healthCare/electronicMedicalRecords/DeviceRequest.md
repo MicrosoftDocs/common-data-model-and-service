@@ -1,15 +1,15 @@
 ---
-title: DeviceRequest - Common Data Model | Microsoft Docs
+title: DeviceRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Represents a request for a patient to employ a medical device. The device may be an implantable device, or an external assistive device, such as a walker.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Request
+# Device Request in electronicMedicalRecords
 
 Represents a request for a patient to employ a medical device. The device may be an implantable device, or an external assistive device, such as a walker.  
   

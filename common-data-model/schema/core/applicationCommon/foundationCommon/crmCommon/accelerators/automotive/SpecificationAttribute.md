@@ -1,15 +1,15 @@
 ---
-title: SpecificationAttribute - Common Data Model | Microsoft Docs
+title: SpecificationAttribute in automotive - Common Data Model | Microsoft Docs
 description: Technical specifications are represented as a grouped list of attribute types that collectively describe key characteristics of a given vehicle or device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Specification Attribute
+# Specification Attribute in automotive
 
 Technical specifications are represented as a grouped list of attribute types that collectively describe key characteristics of a given vehicle or device.  
   

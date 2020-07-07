@@ -1,15 +1,15 @@
 ---
-title: EcoResProductNumberIdentifiedReleasedProductVariantExternalCodeEntity - Common Data Model | Microsoft Docs
+title: EcoResProductNumberIdentifiedReleasedProductVariantExternalCodeEntity in ProductInformationManagement - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# External codes for released product variants by product number identification
+# External codes for released product variants by product number identification in ProductInformationManagement
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProductInformationManagement/EcoResProductNumberIdentifiedReleasedProductVariantExternalCodeEntity.cdm.json" target="_blank">GitHub</a>.  

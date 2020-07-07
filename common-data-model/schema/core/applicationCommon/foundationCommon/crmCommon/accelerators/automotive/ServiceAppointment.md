@@ -1,15 +1,15 @@
 ---
-title: ServiceAppointment - Common Data Model | Microsoft Docs
+title: ServiceAppointment in automotive - Common Data Model | Microsoft Docs
 description: Record of service appointments for a specific vehicle or device over time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Appointment
+# Service Appointment in automotive
 
 Record of service appointments for a specific vehicle or device over time.  
   

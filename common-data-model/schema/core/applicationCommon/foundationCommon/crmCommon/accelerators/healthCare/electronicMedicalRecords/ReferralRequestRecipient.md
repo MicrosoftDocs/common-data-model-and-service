@@ -1,15 +1,15 @@
 ---
-title: ReferralRequestRecipient - Common Data Model | Microsoft Docs
+title: ReferralRequestRecipient in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The healthcare provider(s) or provider organization(s) who/which is to receive the referral/transfer of care request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Referral Request Recipient
+# Referral Request Recipient in electronicMedicalRecords
 
 The healthcare provider(s) or provider organization(s) who/which is to receive the referral/transfer of care request.  
   

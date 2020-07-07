@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestBasedOn - Common Data Model | Microsoft Docs
+title: ProcedureRequestBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Plan/proposal/order fulfilled by this request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Based On
+# Procedure Request Based On in electronicMedicalRecords
 
 Plan/proposal/order fulfilled by this request.  
   

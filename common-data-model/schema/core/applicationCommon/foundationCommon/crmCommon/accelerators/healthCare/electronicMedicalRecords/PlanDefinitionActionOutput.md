@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionOutput - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionOutput in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Defines the outputs of the action, if any.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Output
+# Plan Definition Action Output in electronicMedicalRecords
 
 Defines the outputs of the action, if any.  
   

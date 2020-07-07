@@ -1,15 +1,15 @@
 ---
-title: Room - Common Data Model | Microsoft Docs
+title: Room in eventManagement - Common Data Model | Microsoft Docs
 description: A room is where a session may be held. A single room can be used in multiple different layouts which has a direct impact on the max. occupancy of the room.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Room
+# Room in eventManagement
 
 A room is where a session may be held. A single room can be used in multiple different layouts which has a direct impact on the max. occupancy of the room.  
   

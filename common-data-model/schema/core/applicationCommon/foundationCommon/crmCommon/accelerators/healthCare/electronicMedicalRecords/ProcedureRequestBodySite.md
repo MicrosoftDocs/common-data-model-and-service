@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestBodySite - Common Data Model | Microsoft Docs
+title: ProcedureRequestBodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Anatomic location where the procedure should be performed. This is the target site.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Body Site
+# Procedure Request Body Site in electronicMedicalRecords
 
 Anatomic location where the procedure should be performed. This is the target site.  
   

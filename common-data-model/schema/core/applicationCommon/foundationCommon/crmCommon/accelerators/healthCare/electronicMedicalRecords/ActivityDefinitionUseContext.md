@@ -1,15 +1,15 @@
 ---
-title: ActivityDefinitionUseContext - Common Data Model | Microsoft Docs
+title: ActivityDefinitionUseContext in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate activity definition instance
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Activity Definition Use Context
+# Activity Definition Use Context in electronicMedicalRecords
 
 The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate activity definition instance  
   

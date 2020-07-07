@@ -1,15 +1,15 @@
 ---
-title: DeviceModelCode - Common Data Model | Microsoft Docs
+title: DeviceModelCode in automotive - Common Data Model | Microsoft Docs
 description: Specific configuration of a device, such as a vehicle of specific generation, body style, engine option and transmission.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Model Code
+# Device Model Code in automotive
 
 Specific configuration of a device, such as a vehicle of specific generation, body style, engine option and transmission.  
   

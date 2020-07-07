@@ -1,15 +1,15 @@
 ---
-title: CostStatementEntryV2Entity - Common Data Model | Microsoft Docs
+title: CostStatementEntryV2Entity in CostManagement - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Cost statement entry V2
+# Cost statement entry V2 in CostManagement
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/CostManagement/CostStatementEntryV2Entity.cdm.json" target="_blank">GitHub</a>.  

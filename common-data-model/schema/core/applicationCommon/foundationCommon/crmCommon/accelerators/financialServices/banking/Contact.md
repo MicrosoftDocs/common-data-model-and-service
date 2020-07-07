@@ -1,15 +1,15 @@
 ---
-title: Contact - Common Data Model | Microsoft Docs
+title: Contact in banking - Common Data Model | Microsoft Docs
 description: A person record is one associated with a patron of the bank.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Person
+# Person in banking
 
 A person record is one associated with a patron of the bank.  
   

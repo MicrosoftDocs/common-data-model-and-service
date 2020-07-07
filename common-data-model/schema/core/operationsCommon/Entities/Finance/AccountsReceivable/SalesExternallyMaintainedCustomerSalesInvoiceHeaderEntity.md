@@ -1,15 +1,15 @@
 ---
-title: SalesExternallyMaintainedCustomerSalesInvoiceHeaderEntity - Common Data Model | Microsoft Docs
+title: SalesExternallyMaintainedCustomerSalesInvoiceHeaderEntity in AccountsReceivable - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Externally maintained customer sales invoice headers
+# Externally maintained customer sales invoice headers in AccountsReceivable
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/AccountsReceivable/SalesExternallyMaintainedCustomerSalesInvoiceHeaderEntity.cdm.json" target="_blank">GitHub</a>.  

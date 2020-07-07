@@ -1,15 +1,15 @@
 ---
-title: ServiceAppointmentType - Common Data Model | Microsoft Docs
+title: ServiceAppointmentType in automotive - Common Data Model | Microsoft Docs
 description: Type of service appointment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Appointment Type
+# Service Appointment Type in automotive
 
 Type of service appointment.  
   

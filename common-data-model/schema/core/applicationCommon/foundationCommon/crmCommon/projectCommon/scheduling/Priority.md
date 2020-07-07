@@ -1,15 +1,15 @@
 ---
-title: Priority - Common Data Model | Microsoft Docs
+title: Priority in scheduling - Common Data Model | Microsoft Docs
 description: Priorities to be used on bookings. In addition, a color could be specified for each priority type and the color selected will be shown visually on the schedule board.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Priority
+# Priority in scheduling
 
 Priorities to be used on bookings. In addition, a color could be specified for each priority type and the color selected will be shown visually on the schedule board.  
   

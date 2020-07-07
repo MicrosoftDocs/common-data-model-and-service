@@ -1,15 +1,15 @@
 ---
-title: ParticipatingOrganization - Common Data Model | Microsoft Docs
+title: ParticipatingOrganization in nonProfitIati - Common Data Model | Microsoft Docs
 description: Organization involved with the delivery framework
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Participating Organization
+# Participating Organization in nonProfitIati
 
 Organization involved with the delivery framework  
   

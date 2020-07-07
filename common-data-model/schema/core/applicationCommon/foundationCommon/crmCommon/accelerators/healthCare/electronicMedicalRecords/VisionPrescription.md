@@ -1,15 +1,15 @@
 ---
-title: VisionPrescription - Common Data Model | Microsoft Docs
+title: VisionPrescription in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An authorization for the supply of glasses and/or contact lenses to a patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Vision Prescription
+# Vision Prescription in electronicMedicalRecords
 
 An authorization for the supply of glasses and/or contact lenses to a patient.  
   

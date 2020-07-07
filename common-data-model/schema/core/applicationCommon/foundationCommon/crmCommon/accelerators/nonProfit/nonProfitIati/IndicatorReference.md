@@ -1,15 +1,15 @@
 ---
-title: IndicatorReference - Common Data Model | Microsoft Docs
+title: IndicatorReference in nonProfitIati - Common Data Model | Microsoft Docs
 description: A standardised means of identifying the indicator from a code in a recognised vocabulary.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Indicator Reference
+# Indicator Reference in nonProfitIati
 
 A standardised means of identifying the indicator from a code in a recognised vocabulary.  
   

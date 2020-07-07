@@ -1,15 +1,15 @@
 ---
-title: WebRole - Common Data Model | Microsoft Docs
+title: WebRole in portals - Common Data Model | Microsoft Docs
 description: Sets the user's role for the Portal.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Web Role
+# Web Role in portals
 
 Sets the user's role for the Portal.  
   

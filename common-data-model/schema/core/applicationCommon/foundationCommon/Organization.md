@@ -1,15 +1,15 @@
 ---
-title: Organization - Common Data Model | Microsoft Docs
+title: Organization in foundationCommon - Common Data Model | Microsoft Docs
 description: Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Organization
+# Organization in foundationCommon
 
 Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.  
   

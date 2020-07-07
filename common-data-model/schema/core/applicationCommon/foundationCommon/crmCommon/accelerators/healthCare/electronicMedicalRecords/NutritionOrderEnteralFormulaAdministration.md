@@ -1,15 +1,15 @@
 ---
-title: NutritionOrderEnteralFormulaAdministration - Common Data Model | Microsoft Docs
+title: NutritionOrderEnteralFormulaAdministration in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Formula administration instructions as structured data. This repeating structure allows for changing the administration rate or volume over time for both bolus and continuous feeding.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order Enteral Formula Administration
+# Nutrition Order Enteral Formula Administration in electronicMedicalRecords
 
 Formula administration instructions as structured data. This repeating structure allows for changing the administration rate or volume over time for both bolus and continuous feeding.  
   

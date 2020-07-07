@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestDefinition - Common Data Model | Microsoft Docs
+title: ProcedureRequestDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Protocol or definition followed by this request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Definition
+# Procedure Request Definition in electronicMedicalRecords
 
 Protocol or definition followed by this request.  
   

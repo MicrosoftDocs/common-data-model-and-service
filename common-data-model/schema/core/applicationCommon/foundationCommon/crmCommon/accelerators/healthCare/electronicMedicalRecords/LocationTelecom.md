@@ -1,15 +1,15 @@
 ---
-title: LocationTelecom - Common Data Model | Microsoft Docs
+title: LocationTelecom in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The contact details of communication devices available at the location. This can include phone numbers, fax numbers, mobile numbers, email addresses and web sites.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Location Telecom
+# Location Telecom in electronicMedicalRecords
 
 The contact details of communication devices available at the location. This can include phone numbers, fax numbers, mobile numbers, email addresses and web sites.  
   

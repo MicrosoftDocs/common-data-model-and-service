@@ -1,15 +1,15 @@
 ---
-title: TriggerCrmWorkflowActivityContactProcessed - Common Data Model | Microsoft Docs
+title: TriggerCrmWorkflowActivityContactProcessed in interactions - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Trigger workflow activity contact processed
+# Trigger workflow activity contact processed in interactions
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/TriggerCrmWorkflowActivityContactProcessed.cdm.json" target="_blank">GitHub</a>.  

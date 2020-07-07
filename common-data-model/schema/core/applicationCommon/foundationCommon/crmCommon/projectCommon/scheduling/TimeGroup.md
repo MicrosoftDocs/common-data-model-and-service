@@ -1,15 +1,15 @@
 ---
-title: TimeGroup - Common Data Model | Microsoft Docs
+title: TimeGroup in scheduling - Common Data Model | Microsoft Docs
 description: Specify time groups consisting of multiple time windows to be used for scheduling, for example.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Fulfillment Preference
+# Fulfillment Preference in scheduling
 
 Specify time groups consisting of multiple time windows to be used for scheduling, for example.  
   

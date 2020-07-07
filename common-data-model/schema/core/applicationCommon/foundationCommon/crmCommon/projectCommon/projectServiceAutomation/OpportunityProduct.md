@@ -1,15 +1,15 @@
 ---
-title: OpportunityProduct - Common Data Model | Microsoft Docs
+title: OpportunityProduct in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Association between an opportunity and a product.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Opportunity Product
+# Opportunity Product in projectServiceAutomation
 
 Association between an opportunity and a product.  
   

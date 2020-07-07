@@ -1,15 +1,15 @@
 ---
-title: ResourceCatalog - Common Data Model | Microsoft Docs
+title: ResourceCatalog in nonProfitCore - Common Data Model | Microsoft Docs
 description: Catalog that contains beneficiaries that are not contacts/accounts.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Resource Catalog
+# Resource Catalog in nonProfitCore
 
 Catalog that contains beneficiaries that are not contacts/accounts.  
   

@@ -1,15 +1,15 @@
 ---
-title: Warranty - Common Data Model | Microsoft Docs
+title: Warranty in automotive - Common Data Model | Microsoft Docs
 description: Contract between a vehicle or device manufacturer, importer, dealer and end customer, promising a certain quality level for a given amount of time or usage.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Warranty
+# Warranty in automotive
 
 Contract between a vehicle or device manufacturer, importer, dealer and end customer, promising a certain quality level for a given amount of time or usage.  
   

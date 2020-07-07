@@ -1,15 +1,15 @@
 ---
-title: Budget - Common Data Model | Microsoft Docs
+title: Budget in nonProfitCore - Common Data Model | Microsoft Docs
 description: A Budget represents the amount of funds that can be awarded for a particular delivery framework (i.e Program, Project, Initiative, Activity) for a defined period of time (i.e. fiscal year).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Budget
+# Budget in nonProfitCore
 
 A Budget represents the amount of funds that can be awarded for a particular delivery framework (i.e Program, Project, Initiative, Activity) for a defined period of time (i.e. fiscal year).  
   

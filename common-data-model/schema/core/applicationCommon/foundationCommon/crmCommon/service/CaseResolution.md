@@ -1,15 +1,15 @@
 ---
-title: CaseResolution - Common Data Model | Microsoft Docs
+title: CaseResolution in service - Common Data Model | Microsoft Docs
 description: Special type of activity that includes description of the resolution, billing status, and the duration of the case.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Case Resolution
+# Case Resolution in service
 
 Special type of activity that includes description of the resolution, billing status, and the duration of the case.  
   

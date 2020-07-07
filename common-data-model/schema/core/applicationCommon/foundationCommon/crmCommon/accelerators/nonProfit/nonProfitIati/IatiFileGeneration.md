@@ -1,15 +1,15 @@
 ---
-title: IatiFileGeneration - Common Data Model | Microsoft Docs
+title: IatiFileGeneration in nonProfitIati - Common Data Model | Microsoft Docs
 description: Entity used for the generation of IATI XML files.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# IATI File Generation
+# IATI File Generation in nonProfitIati
 
 Entity used for the generation of IATI XML files.  
   

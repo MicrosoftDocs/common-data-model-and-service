@@ -1,15 +1,15 @@
 ---
-title: CarePlanActivityReasonReference - Common Data Model | Microsoft Docs
+title: CarePlanActivityReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Provides the health condition(s) that drove the inclusion of this particular activity as part of the plan.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Activity Reason Reference
+# Care Plan Activity Reason Reference in electronicMedicalRecords
 
 Provides the health condition(s) that drove the inclusion of this particular activity as part of the plan.  
   

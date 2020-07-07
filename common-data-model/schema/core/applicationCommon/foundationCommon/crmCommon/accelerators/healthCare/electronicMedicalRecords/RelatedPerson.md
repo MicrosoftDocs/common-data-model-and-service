@@ -1,15 +1,15 @@
 ---
-title: RelatedPerson - Common Data Model | Microsoft Docs
+title: RelatedPerson in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Related Person
+# Related Person in electronicMedicalRecords
 
 Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.  
   

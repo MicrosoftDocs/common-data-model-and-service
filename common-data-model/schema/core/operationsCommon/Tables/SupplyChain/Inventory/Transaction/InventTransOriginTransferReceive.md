@@ -1,15 +1,15 @@
 ---
-title: InventTransOriginTransferReceive - Common Data Model | Microsoft Docs
+title: InventTransOriginTransferReceive in Transaction - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Relationship between the inventory transfer order line and the inventory transactions originator of the receipt transactions
+# Relationship between the inventory transfer order line and the inventory transactions originator of the receipt transactions in Transaction
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Transaction/InventTransOriginTransferReceive.cdm.json" target="_blank">GitHub</a>.  

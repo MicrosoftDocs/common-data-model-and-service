@@ -1,15 +1,15 @@
 ---
-title: ResultCache - Common Data Model | Microsoft Docs
+title: ResultCache in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Cache for scored work items per resource that are returned from Azure Machine Learning.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Result Cache
+# Result Cache in projectServiceAutomation
 
 Cache for scored work items per resource that are returned from Azure Machine Learning.  
   

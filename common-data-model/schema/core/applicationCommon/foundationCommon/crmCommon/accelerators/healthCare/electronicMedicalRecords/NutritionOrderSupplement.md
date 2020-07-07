@@ -1,15 +1,15 @@
 ---
-title: NutritionOrderSupplement - Common Data Model | Microsoft Docs
+title: NutritionOrderSupplement in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Oral nutritional products given in order to add further nutritional value to the patient's diet.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order Supplement
+# Nutrition Order Supplement in electronicMedicalRecords
 
 Oral nutritional products given in order to add further nutritional value to the patient's diet.  
   

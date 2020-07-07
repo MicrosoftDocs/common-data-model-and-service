@@ -1,15 +1,15 @@
 ---
-title: ExchangeRateCurrencyPairEntity - Common Data Model | Microsoft Docs
+title: ExchangeRateCurrencyPairEntity in Currency - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Exchange rate currency pair
+# Exchange rate currency pair in Currency
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Common/Currency/ExchangeRateCurrencyPairEntity.cdm.json" target="_blank">GitHub</a>.  

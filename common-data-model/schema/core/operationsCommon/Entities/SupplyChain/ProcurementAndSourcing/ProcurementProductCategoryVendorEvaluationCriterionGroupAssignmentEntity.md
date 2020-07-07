@@ -1,15 +1,15 @@
 ---
-title: ProcurementProductCategoryVendorEvaluationCriterionGroupAssignmentEntity - Common Data Model | Microsoft Docs
+title: ProcurementProductCategoryVendorEvaluationCriterionGroupAssignmentEntity in ProcurementAndSourcing - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procurement product category vendor evaluation criterion group assignments
+# Procurement product category vendor evaluation criterion group assignments in ProcurementAndSourcing
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/ProcurementProductCategoryVendorEvaluationCriterionGroupAssignmentEntity.cdm.json" target="_blank">GitHub</a>.  

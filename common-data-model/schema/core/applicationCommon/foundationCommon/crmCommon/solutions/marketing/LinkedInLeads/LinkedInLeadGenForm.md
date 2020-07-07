@@ -1,15 +1,15 @@
 ---
-title: LinkedInLeadGenForm - Common Data Model | Microsoft Docs
+title: LinkedInLeadGenForm in LinkedInLeads - Common Data Model | Microsoft Docs
 description: Form shown to prospects on LinkedIn
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# LinkedIn Lead Gen Form
+# LinkedIn Lead Gen Form in LinkedInLeads
 
 Form shown to prospects on LinkedIn  
   

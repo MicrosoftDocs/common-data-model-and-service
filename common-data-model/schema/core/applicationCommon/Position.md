@@ -1,15 +1,15 @@
 ---
-title: Position - Common Data Model | Microsoft Docs
+title: Position in applicationCommon - Common Data Model | Microsoft Docs
 description: Position of a user in the hierarchy
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Position
+# Position in applicationCommon
 
 Position of a user in the hierarchy  
   

@@ -1,15 +1,15 @@
 ---
-title: DeviceComponentProductionSpecification - Common Data Model | Microsoft Docs
+title: DeviceComponentProductionSpecification in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The production specification such as component revision, serial number, etc.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Component Production Specification
+# Device Component Production Specification in electronicMedicalRecords
 
 The production specification such as component revision, serial number, etc.  
   

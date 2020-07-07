@@ -1,15 +1,15 @@
 ---
-title: CarePlanActivityOutcomeReference - Common Data Model | Microsoft Docs
+title: CarePlanActivityOutcomeReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Details of the outcome or action resulting from the activity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Activity Outcome Reference
+# Care Plan Activity Outcome Reference in electronicMedicalRecords
 
 Details of the outcome or action resulting from the activity.  
   

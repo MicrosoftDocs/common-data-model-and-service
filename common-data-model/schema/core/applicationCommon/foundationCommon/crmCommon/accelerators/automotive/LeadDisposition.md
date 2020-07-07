@@ -1,15 +1,15 @@
 ---
-title: LeadDisposition - Common Data Model | Microsoft Docs
+title: LeadDisposition in automotive - Common Data Model | Microsoft Docs
 description: Record of activities performed to follow up and nurture a lead over time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Lead Disposition
+# Lead Disposition in automotive
 
 Record of activities performed to follow up and nurture a lead over time.  
   

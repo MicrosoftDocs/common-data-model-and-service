@@ -1,15 +1,15 @@
 ---
-title: Email - Common Data Model | Microsoft Docs
+title: Email in applicationCommon - Common Data Model | Microsoft Docs
 description: Activity that is delivered using email protocols.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Email
+# Email in applicationCommon
 
 Activity that is delivered using email protocols.  
   

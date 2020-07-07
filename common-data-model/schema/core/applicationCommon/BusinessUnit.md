@@ -1,15 +1,15 @@
 ---
-title: BusinessUnit - Common Data Model | Microsoft Docs
+title: BusinessUnit in applicationCommon - Common Data Model | Microsoft Docs
 description: Business, division, or department in the Microsoft Dynamics 365 database.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Business Unit
+# Business Unit in applicationCommon
 
 Business, division, or department in the Microsoft Dynamics 365 database.  
   

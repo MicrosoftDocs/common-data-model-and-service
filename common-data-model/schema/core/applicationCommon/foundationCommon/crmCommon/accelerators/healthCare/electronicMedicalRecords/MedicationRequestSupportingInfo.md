@@ -1,15 +1,15 @@
 ---
-title: MedicationRequestSupportingInfo - Common Data Model | Microsoft Docs
+title: MedicationRequestSupportingInfo in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Include additional information (for example, patient height and weight) that supports the ordering of the medication.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request Supporting Info
+# Medication Request Supporting Info in electronicMedicalRecords
 
 Include additional information (for example, patient height and weight) that supports the ordering of the medication.  
   

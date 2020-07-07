@@ -1,15 +1,15 @@
 ---
-title: AssetSpecialDepreciationAllowanceEntity - Common Data Model | Microsoft Docs
+title: AssetSpecialDepreciationAllowanceEntity in FixedAssets - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Fixed asset special depreciation allowance setup
+# Fixed asset special depreciation allowance setup in FixedAssets
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/FixedAssets/AssetSpecialDepreciationAllowanceEntity.cdm.json" target="_blank">GitHub</a>.  

@@ -1,15 +1,15 @@
 ---
-title: Connection - Common Data Model | Microsoft Docs
+title: Connection in applicationCommon - Common Data Model | Microsoft Docs
 description: Relationship between two entities.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Connection
+# Connection in applicationCommon
 
 Relationship between two entities.  
   

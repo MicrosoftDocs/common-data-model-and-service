@@ -1,15 +1,15 @@
 ---
-title: OpportunityLineTransaction - Common Data Model | Microsoft Docs
+title: OpportunityLineTransaction in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Sales estimate detail of an opportunity line (Deprecated in v3.0)
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Opportunity Line Detail (Deprecated)
+# Opportunity Line Detail (Deprecated) in projectServiceAutomation
 
 Sales estimate detail of an opportunity line (Deprecated in v3.0)  
   

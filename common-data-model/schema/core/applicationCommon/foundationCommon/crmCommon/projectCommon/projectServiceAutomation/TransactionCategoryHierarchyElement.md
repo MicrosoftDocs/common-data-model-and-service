@@ -1,15 +1,15 @@
 ---
-title: TransactionCategoryHierarchyElement - Common Data Model | Microsoft Docs
+title: TransactionCategoryHierarchyElement in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Hierarchical relationship of the transaction category with a root node.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transaction Category Hierarchy Element
+# Transaction Category Hierarchy Element in projectServiceAutomation
 
 Hierarchical relationship of the transaction category with a root node.  
   

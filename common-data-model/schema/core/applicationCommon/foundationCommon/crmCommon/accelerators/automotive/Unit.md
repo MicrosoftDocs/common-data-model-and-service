@@ -1,15 +1,15 @@
 ---
-title: Unit - Common Data Model | Microsoft Docs
+title: Unit in automotive - Common Data Model | Microsoft Docs
 description: Types of measures such as Miles, Kilometres, Hours, Days or Months.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Unit
+# Unit in automotive
 
 Types of measures such as Miles, Kilometres, Hours, Days or Months.  
   

@@ -1,15 +1,15 @@
 ---
-title: IntercompanyTradingPartnershipProcurementPolicyEntity - Common Data Model | Microsoft Docs
+title: IntercompanyTradingPartnershipProcurementPolicyEntity in ProcurementAndSourcing - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Intercompany procurement policies
+# Intercompany procurement policies in ProcurementAndSourcing
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/IntercompanyTradingPartnershipProcurementPolicyEntity.cdm.json" target="_blank">GitHub</a>.  

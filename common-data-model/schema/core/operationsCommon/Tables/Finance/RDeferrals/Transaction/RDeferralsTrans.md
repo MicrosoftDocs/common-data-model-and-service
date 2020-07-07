@@ -1,15 +1,15 @@
 ---
-title: RDeferralsTrans - Common Data Model | Microsoft Docs
+title: RDeferralsTrans in Transaction - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Deferrals transactions
+# Deferrals transactions in Transaction
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/RDeferrals/Transaction/RDeferralsTrans.cdm.json" target="_blank">GitHub</a>.  

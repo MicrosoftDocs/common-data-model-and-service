@@ -1,15 +1,15 @@
 ---
-title: AidType - Common Data Model | Microsoft Docs
+title: AidType in nonProfitIati - Common Data Model | Microsoft Docs
 description: The type of aid being supplied (project-type intervention, budget support, debt relief, etc.).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Aid Type
+# Aid Type in nonProfitIati
 
 The type of aid being supplied (project-type intervention, budget support, debt relief, etc.).  
   

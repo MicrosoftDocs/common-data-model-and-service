@@ -1,15 +1,15 @@
 ---
-title: ClinicalImpressionProtocol - Common Data Model | Microsoft Docs
+title: ClinicalImpressionProtocol in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Reference to a specific published clinical protocol that was followed during this assessment, and/or that provides evidence in support of the diagnosis.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Clinical Impression Protocol
+# Clinical Impression Protocol in electronicMedicalRecords
 
 Reference to a specific published clinical protocol that was followed during this assessment, and/or that provides evidence in support of the diagnosis.  
   

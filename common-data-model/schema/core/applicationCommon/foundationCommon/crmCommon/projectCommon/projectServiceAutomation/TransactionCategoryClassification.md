@@ -1,15 +1,15 @@
 ---
-title: TransactionCategoryClassification - Common Data Model | Microsoft Docs
+title: TransactionCategoryClassification in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used to associate a category broadly as time, expense or material.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Transaction Category Classification
+# Transaction Category Classification in projectServiceAutomation
 
 Entity used to associate a category broadly as time, expense or material.  
   

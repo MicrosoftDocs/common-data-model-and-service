@@ -1,15 +1,15 @@
 ---
-title: CFDIWithholdingComplPaymBeneficiary_MX - Common Data Model | Microsoft Docs
+title: CFDIWithholdingComplPaymBeneficiary_MX in WorksheetLine - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Payments to foreign residents
+# Payments to foreign residents in WorksheetLine
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/EInvoice/WorksheetLine/CFDIWithholdingComplPaymBeneficiary_MX.cdm.json" target="_blank">GitHub</a>.  

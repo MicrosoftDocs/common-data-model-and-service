@@ -1,15 +1,15 @@
 ---
-title: DeviceRegistration - Common Data Model | Microsoft Docs
+title: DeviceRegistration in automotive - Common Data Model | Microsoft Docs
 description: Record of registrations of a specific vehicle or device to specific customers over time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Registration
+# Device Registration in automotive
 
 Record of registrations of a specific vehicle or device to specific customers over time.  
   

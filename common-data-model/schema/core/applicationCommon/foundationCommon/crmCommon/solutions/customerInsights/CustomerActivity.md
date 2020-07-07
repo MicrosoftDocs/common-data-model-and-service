@@ -1,15 +1,15 @@
 ---
-title: CustomerActivity - Common Data Model | Microsoft Docs
+title: CustomerActivity in customerInsights - Common Data Model | Microsoft Docs
 description: An activity performed by a user that has observational value to the business.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Customer Activity
+# Customer Activity in customerInsights
 
 An activity performed by a user that has observational value to the business.  
   

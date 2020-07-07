@@ -1,15 +1,15 @@
 ---
-title: SalesContractTerm - Common Data Model | Microsoft Docs
+title: SalesContractTerm in automotive - Common Data Model | Microsoft Docs
 description: Terms applicable a given type of sales contract.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Sales Contract Term
+# Sales Contract Term in automotive
 
 Terms applicable a given type of sales contract.  
   

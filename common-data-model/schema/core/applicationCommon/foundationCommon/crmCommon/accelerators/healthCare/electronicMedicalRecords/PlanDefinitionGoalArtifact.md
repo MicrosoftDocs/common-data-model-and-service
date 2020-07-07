@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionGoalArtifact - Common Data Model | Microsoft Docs
+title: PlanDefinitionGoalArtifact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Goal Artifact
+# Plan Definition Goal Artifact in electronicMedicalRecords
 
 Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web  
   

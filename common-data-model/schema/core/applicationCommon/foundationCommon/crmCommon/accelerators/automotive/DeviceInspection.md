@@ -1,15 +1,15 @@
 ---
-title: DeviceInspection - Common Data Model | Microsoft Docs
+title: DeviceInspection in automotive - Common Data Model | Microsoft Docs
 description: Record of inspections carried out on a given vehicle or device over time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Inspection
+# Device Inspection in automotive
 
 Record of inspections carried out on a given vehicle or device over time.  
   

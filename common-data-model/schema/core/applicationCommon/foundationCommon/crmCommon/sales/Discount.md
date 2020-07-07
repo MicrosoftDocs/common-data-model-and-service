@@ -1,15 +1,15 @@
 ---
-title: Discount - Common Data Model | Microsoft Docs
+title: Discount in sales - Common Data Model | Microsoft Docs
 description: Price reduction made from the list price of a product or service based on the quantity purchased.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Discount
+# Discount in sales
 
 Price reduction made from the list price of a product or service based on the quantity purchased.  
   

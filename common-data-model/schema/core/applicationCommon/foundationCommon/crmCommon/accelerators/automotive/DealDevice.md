@@ -1,15 +1,15 @@
 ---
-title: DealDevice - Common Data Model | Microsoft Docs
+title: DealDevice in automotive - Common Data Model | Microsoft Docs
 description: Vehicle or device that is the subject of a deal, which may involve one or more vehicle or device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Deal Device
+# Deal Device in automotive
 
 Vehicle or device that is the subject of a deal, which may involve one or more vehicle or device.  
   

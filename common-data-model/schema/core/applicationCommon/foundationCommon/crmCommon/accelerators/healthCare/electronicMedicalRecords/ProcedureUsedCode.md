@@ -1,15 +1,15 @@
 ---
-title: ProcedureUsedCode - Common Data Model | Microsoft Docs
+title: ProcedureUsedCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies coded items that were used as part of the procedure.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Used Code
+# Procedure Used Code in electronicMedicalRecords
 
 Identifies coded items that were used as part of the procedure.  
   

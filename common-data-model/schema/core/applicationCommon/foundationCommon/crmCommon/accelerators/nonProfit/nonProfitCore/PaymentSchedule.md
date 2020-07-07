@@ -1,15 +1,15 @@
 ---
-title: PaymentSchedule - Common Data Model | Microsoft Docs
+title: PaymentSchedule in nonProfitCore - Common Data Model | Microsoft Docs
 description: A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Payment Schedule
+# Payment Schedule in nonProfitCore
 
 A gift transaction can be a one-time payment or a recurring payment (ie, monthly/sustainer giving). In addition, it can be a pledge (ie, promise) of a future payment or a current/received payment.  
   

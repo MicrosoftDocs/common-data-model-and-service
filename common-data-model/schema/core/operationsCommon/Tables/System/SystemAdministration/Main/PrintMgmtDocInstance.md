@@ -1,15 +1,15 @@
 ---
-title: PrintMgmtDocInstance - Common Data Model | Microsoft Docs
+title: PrintMgmtDocInstance in Main - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Print management document instance
+# Print management document instance in Main
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/SystemAdministration/Main/PrintMgmtDocInstance.cdm.json" target="_blank">GitHub</a>.  

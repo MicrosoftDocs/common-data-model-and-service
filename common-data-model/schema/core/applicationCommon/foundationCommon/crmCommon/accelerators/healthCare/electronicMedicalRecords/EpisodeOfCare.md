@@ -1,15 +1,15 @@
 ---
-title: EpisodeOfCare - Common Data Model | Microsoft Docs
+title: EpisodeOfCare in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Episode of Care
+# Episode of Care in electronicMedicalRecords
 
 An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
   

@@ -1,15 +1,15 @@
 ---
-title: Schedule - Common Data Model | Microsoft Docs
+title: Schedule in nonProfitVolunteers - Common Data Model | Microsoft Docs
 description: Entity to manage a volunteer time preference and/or a project team member work time.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Schedule
+# Schedule in nonProfitVolunteers
 
 Entity to manage a volunteer time preference and/or a project team member work time.  
   

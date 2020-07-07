@@ -1,15 +1,15 @@
 ---
-title: BookingRule - Common Data Model | Microsoft Docs
+title: BookingRule in scheduling - Common Data Model | Microsoft Docs
 description: Specify custom rules to be validated by the system before saving a booking record.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Booking Rule
+# Booking Rule in scheduling
 
 Specify custom rules to be validated by the system before saving a booking record.  
   

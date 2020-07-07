@@ -1,15 +1,15 @@
 ---
-title: MedicationAdministrationDefinition - Common Data Model | Microsoft Docs
+title: MedicationAdministrationDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A protocol, guideline, order set or other definition that was adhered to in whole or in part by this event.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Administration Definition
+# Medication Administration Definition in electronicMedicalRecords
 
 A protocol, guideline, order set or other definition that was adhered to in whole or in part by this event.  
   

@@ -1,15 +1,15 @@
 ---
-title: QuoteLineAnalyticsBreakdown - Common Data Model | Microsoft Docs
+title: QuoteLineAnalyticsBreakdown in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Reporting entity that is used to show quoted sales and estimated cost amounts by various dimensions.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quote Line Analytics Breakdown
+# Quote Line Analytics Breakdown in projectServiceAutomation
 
 Reporting entity that is used to show quoted sales and estimated cost amounts by various dimensions.  
   

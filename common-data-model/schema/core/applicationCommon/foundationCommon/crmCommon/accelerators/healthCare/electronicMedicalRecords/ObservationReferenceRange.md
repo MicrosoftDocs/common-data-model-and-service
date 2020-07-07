@@ -1,15 +1,15 @@
 ---
-title: ObservationReferenceRange - Common Data Model | Microsoft Docs
+title: ObservationReferenceRange in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Guidance on how to interpret the value by comparison to a normal or recommended range.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation Reference Range
+# Observation Reference Range in electronicMedicalRecords
 
 Guidance on how to interpret the value by comparison to a normal or recommended range.  
   

@@ -1,15 +1,15 @@
 ---
-title: Device - Common Data Model | Microsoft Docs
+title: Device in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This entity identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device
+# Device in electronicMedicalRecords
 
 This entity identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.  
   

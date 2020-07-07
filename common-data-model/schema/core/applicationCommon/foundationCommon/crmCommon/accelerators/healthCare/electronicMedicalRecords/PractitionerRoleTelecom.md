@@ -1,15 +1,15 @@
 ---
-title: PractitionerRoleTelecom - Common Data Model | Microsoft Docs
+title: PractitionerRoleTelecom in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Contact details that are specific to the role/location/service.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Practitioner Role Telecom
+# Practitioner Role Telecom in electronicMedicalRecords
 
 Contact details that are specific to the role/location/service.  
   

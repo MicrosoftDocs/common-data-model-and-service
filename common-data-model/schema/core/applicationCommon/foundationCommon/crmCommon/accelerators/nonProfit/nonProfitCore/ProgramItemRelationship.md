@@ -1,15 +1,15 @@
 ---
-title: ProgramItemRelationship - Common Data Model | Microsoft Docs
+title: ProgramItemRelationship in nonProfitCore - Common Data Model | Microsoft Docs
 description: Records the details regarding the relationships between program items.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Program Item Relationship
+# Program Item Relationship in nonProfitCore
 
 Records the details regarding the relationships between program items.  
   

@@ -1,15 +1,15 @@
 ---
-title: CrsOtherFlag - Common Data Model | Microsoft Docs
+title: CrsOtherFlag in nonProfitIati - Common Data Model | Microsoft Docs
 description: This covers the four CRS++ columns titled&#58 "Free standing technical cooperation"; "Programme-based approach"; "Investment project"; "Associated financing"
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# CRS Other Flag
+# CRS Other Flag in nonProfitIati
 
 This covers the four CRS++ columns titled: “Free standing technical cooperation”; “Programme-based approach”; “Investment project”; “Associated financing”  
   

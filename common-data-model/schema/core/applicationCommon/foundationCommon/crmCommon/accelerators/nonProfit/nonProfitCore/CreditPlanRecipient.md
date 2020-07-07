@@ -1,15 +1,15 @@
 ---
-title: CreditPlanRecipient - Common Data Model | Microsoft Docs
+title: CreditPlanRecipient in nonProfitCore - Common Data Model | Microsoft Docs
 description: The contact, donor or constituent who receives "credit" for the hard or soft cleared payment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Credit Plan Recipient
+# Credit Plan Recipient in nonProfitCore
 
 The contact, donor or constituent who receives "credit" for the hard or soft cleared payment.  
   

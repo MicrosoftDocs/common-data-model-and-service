@@ -1,15 +1,15 @@
 ---
-title: EcoResProductRelationType - Common Data Model | Microsoft Docs
+title: EcoResProductRelationType in Main - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# The types of relations that can be defined between the products
+# The types of relations that can be defined between the products in Main
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/EcoResProductRelationType.cdm.json" target="_blank">GitHub</a>.  

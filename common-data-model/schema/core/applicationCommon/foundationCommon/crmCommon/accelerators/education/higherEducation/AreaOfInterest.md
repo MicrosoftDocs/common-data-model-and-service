@@ -1,15 +1,15 @@
 ---
-title: AreaOfInterest - Common Data Model | Microsoft Docs
+title: AreaOfInterest in higherEducation - Common Data Model | Microsoft Docs
 description: The master list of all area of interests offered by an institution.  Areas of interest are higher level subject groupings like astronomy, or business.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Area of Interest
+# Area of Interest in higherEducation
 
 The master list of all area of interests offered by an institution.  Areas of interest are higher level subject groupings like astronomy, or business.  
   

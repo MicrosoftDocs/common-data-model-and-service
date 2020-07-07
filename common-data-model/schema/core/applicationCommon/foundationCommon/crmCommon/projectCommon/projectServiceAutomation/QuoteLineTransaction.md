@@ -1,15 +1,15 @@
 ---
-title: QuoteLineTransaction - Common Data Model | Microsoft Docs
+title: QuoteLineTransaction in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Sales estimate detail of a quote line.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quote Line Detail
+# Quote Line Detail in projectServiceAutomation
 
 Sales estimate detail of a quote line.  
   

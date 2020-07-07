@@ -1,15 +1,15 @@
 ---
-title: Preference - Common Data Model | Microsoft Docs
+title: Preference in nonProfitCore - Common Data Model | Microsoft Docs
 description: Preference represents an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Preference
+# Preference in nonProfitCore
 
 Preference represents an abundance of constituent or organization information that doesn't live cleanly on an account or contact record, or that can be associated with both an Account and a Contact.  
   

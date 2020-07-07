@@ -1,15 +1,15 @@
 ---
-title: Slot - Common Data Model | Microsoft Docs
+title: Slot in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A slot of time on a schedule that may be available for booking appointments.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Slot
+# Slot in electronicMedicalRecords
 
 A slot of time on a schedule that may be available for booking appointments.  
   

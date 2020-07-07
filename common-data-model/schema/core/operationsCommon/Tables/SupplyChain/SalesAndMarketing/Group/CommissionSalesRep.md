@@ -1,15 +1,15 @@
 ---
-title: CommissionSalesRep - Common Data Model | Microsoft Docs
+title: CommissionSalesRep in Group - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Commission sales rep.
+# Commission sales rep. in Group
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/SalesAndMarketing/Group/CommissionSalesRep.cdm.json" target="_blank">GitHub</a>.  

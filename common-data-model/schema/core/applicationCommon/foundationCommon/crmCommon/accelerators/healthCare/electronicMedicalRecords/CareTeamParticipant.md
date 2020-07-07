@@ -1,15 +1,15 @@
 ---
-title: CareTeamParticipant - Common Data Model | Microsoft Docs
+title: CareTeamParticipant in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies all people and organizations who are expected to be involved in the care team.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Team Participant
+# Care Team Participant in electronicMedicalRecords
 
 Identifies all people and organizations who are expected to be involved in the care team.  
   

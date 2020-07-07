@@ -1,15 +1,15 @@
 ---
-title: Course - Common Data Model | Microsoft Docs
+title: Course in higherEducation - Common Data Model | Microsoft Docs
 description: The master list of all courses offered by an institution.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Course
+# Course in higherEducation
 
 The master list of all courses offered by an institution.  
   

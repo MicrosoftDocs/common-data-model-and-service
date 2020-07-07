@@ -1,15 +1,15 @@
 ---
-title: CarePlanActivityPerformer - Common Data Model | Microsoft Docs
+title: CarePlanActivityPerformer in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies who's expected to be involved in the activity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Activity Performer
+# Care Plan Activity Performer in electronicMedicalRecords
 
 Identifies who's expected to be involved in the activity.  
   

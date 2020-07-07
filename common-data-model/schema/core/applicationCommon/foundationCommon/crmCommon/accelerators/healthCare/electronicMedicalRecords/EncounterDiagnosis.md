@@ -1,15 +1,15 @@
 ---
-title: EncounterDiagnosis - Common Data Model | Microsoft Docs
+title: EncounterDiagnosis in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The list of diagnosis relevant to this encounter.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Diagnosis
+# Encounter Diagnosis in electronicMedicalRecords
 
 The list of diagnosis relevant to this encounter.  
   

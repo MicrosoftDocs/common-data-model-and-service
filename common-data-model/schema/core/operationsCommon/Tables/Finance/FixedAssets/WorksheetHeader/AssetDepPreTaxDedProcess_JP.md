@@ -1,15 +1,15 @@
 ---
-title: AssetDepPreTaxDedProcess_JP - Common Data Model | Microsoft Docs
+title: AssetDepPreTaxDedProcess_JP in WorksheetHeader - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Over and under depreciation settlement process
+# Over and under depreciation settlement process in WorksheetHeader
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FixedAssets/WorksheetHeader/AssetDepPreTaxDedProcess_JP.cdm.json" target="_blank">GitHub</a>.  

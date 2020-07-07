@@ -1,15 +1,15 @@
 ---
-title: MainAccount - Common Data Model | Microsoft Docs
+title: MainAccount in financialCommon - Common Data Model | Microsoft Docs
 description: An account whose balance is displayed in major financial statements
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Main Account
+# Main Account in financialCommon
 
 An account whose balance is displayed in major financial statements  
   

@@ -1,15 +1,15 @@
 ---
-title: SalesContractType - Common Data Model | Microsoft Docs
+title: SalesContractType in automotive - Common Data Model | Microsoft Docs
 description: Type of sales contract, such as new car sales, used car sales, heavy equipment sales, and so on.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Sales Contract Type
+# Sales Contract Type in automotive
 
 Type of sales contract, such as new car sales, used car sales, heavy equipment sales, and so on.  
   

@@ -1,15 +1,15 @@
 ---
-title: PaymentProcessor - Common Data Model | Microsoft Docs
+title: PaymentProcessor in nonProfitCore - Common Data Model | Microsoft Docs
 description: This is a placeholder entity referenced by the Payment Method object.  It is intended to be customized with configuration data necessary to connect to a payment processor and authorize payments.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Payment Processor
+# Payment Processor in nonProfitCore
 
 This is a placeholder entity referenced by the Payment Method object.  It is intended to be customized with configuration data necessary to connect to a payment processor and authorize payments.  
   

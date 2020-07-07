@@ -1,15 +1,15 @@
 ---
-title: EducationLevel - Common Data Model | Microsoft Docs
+title: EducationLevel in higherEducation - Common Data Model | Microsoft Docs
 description: The master list of all education levels mapped in the external system, such as Associate of Arts, Bachelor, Certificate.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Education Level
+# Education Level in higherEducation
 
 The master list of all education levels mapped in the external system, such as Associate of Arts, Bachelor, Certificate.  
   

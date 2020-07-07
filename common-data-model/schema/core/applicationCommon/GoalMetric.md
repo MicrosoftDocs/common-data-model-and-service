@@ -1,15 +1,15 @@
 ---
-title: GoalMetric - Common Data Model | Microsoft Docs
+title: GoalMetric in applicationCommon - Common Data Model | Microsoft Docs
 description: Type of measurement for a goal, such as money amount or count.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Goal Metric
+# Goal Metric in applicationCommon
 
 Type of measurement for a goal, such as money amount or count.  
   

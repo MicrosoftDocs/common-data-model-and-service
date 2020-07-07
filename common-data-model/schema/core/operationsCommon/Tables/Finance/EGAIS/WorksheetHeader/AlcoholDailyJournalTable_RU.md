@@ -1,15 +1,15 @@
 ---
-title: AlcoholDailyJournalTable_RU - Common Data Model | Microsoft Docs
+title: AlcoholDailyJournalTable_RU in WorksheetHeader - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Daily journal of alcohol production turnover
+# Daily journal of alcohol production turnover in WorksheetHeader
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/EGAIS/WorksheetHeader/AlcoholDailyJournalTable_RU.cdm.json" target="_blank">GitHub</a>.  

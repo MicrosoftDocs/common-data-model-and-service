@@ -1,15 +1,15 @@
 ---
-title: ServiceContractDetail - Common Data Model | Microsoft Docs
+title: ServiceContractDetail in automotive - Common Data Model | Microsoft Docs
 description: Vehicle or device included in a service contract.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Contract Detail
+# Service Contract Detail in automotive
 
 Vehicle or device included in a service contract.  
   

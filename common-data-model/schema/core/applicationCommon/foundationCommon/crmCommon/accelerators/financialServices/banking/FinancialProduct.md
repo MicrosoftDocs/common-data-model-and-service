@@ -1,15 +1,15 @@
 ---
-title: FinancialProduct - Common Data Model | Microsoft Docs
+title: FinancialProduct in banking - Common Data Model | Microsoft Docs
 description: The record of the different products that the customer holds with the bank.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Financial Product
+# Financial Product in banking
 
 The record of the different products that the customer holds with the bank.  
   

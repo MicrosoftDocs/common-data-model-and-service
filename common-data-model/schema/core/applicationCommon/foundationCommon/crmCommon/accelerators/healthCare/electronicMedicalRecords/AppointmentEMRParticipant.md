@@ -1,15 +1,15 @@
 ---
-title: AppointmentEMRParticipant - Common Data Model | Microsoft Docs
+title: AppointmentEMRParticipant in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: List of participants involved in the appointment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR) Participant
+# Appointment (EMR) Participant in electronicMedicalRecords
 
 List of participants involved in the appointment.  
   

@@ -1,15 +1,15 @@
 ---
-title: Expenditure - Common Data Model | Microsoft Docs
+title: Expenditure in nonProfitIati - Common Data Model | Microsoft Docs
 description: An Expenditure represents an amount of money spent by an Organization or Delivery Framework.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Expenditure
+# Expenditure in nonProfitIati
 
 An Expenditure represents an amount of money spent by an Organization or Delivery Framework.  
   

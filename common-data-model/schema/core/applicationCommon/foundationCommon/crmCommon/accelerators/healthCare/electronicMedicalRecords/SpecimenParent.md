@@ -1,15 +1,15 @@
 ---
-title: SpecimenParent - Common Data Model | Microsoft Docs
+title: SpecimenParent in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Specimen Parent
+# Specimen Parent in electronicMedicalRecords
 
 Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.  
   

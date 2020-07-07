@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionGoalTarget - Common Data Model | Microsoft Docs
+title: PlanDefinitionGoalTarget in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates what should be done and within what time frame.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Goal Target
+# Plan Definition Goal Target in electronicMedicalRecords
 
 Indicates what should be done and within what time frame.  
   

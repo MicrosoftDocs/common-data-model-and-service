@@ -1,15 +1,15 @@
 ---
-title: ProcedurePerformer - Common Data Model | Microsoft Docs
+title: ProcedurePerformer in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Limited to 'real' people rather than equipment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Performer
+# Procedure Performer in electronicMedicalRecords
 
 Limited to 'real' people rather than equipment.  
   

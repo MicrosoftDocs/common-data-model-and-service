@@ -1,15 +1,15 @@
 ---
-title: DataRequirementMustSupport - Common Data Model | Microsoft Docs
+title: DataRequirementMustSupport in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates that specific elements of the type are referenced by the knowledge module and must be supported by the consumer in order to obtain an effective evaluation.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Data Requirement Must Support
+# Data Requirement Must Support in electronicMedicalRecords
 
 Indicates that specific elements of the type are referenced by the knowledge module and must be supported by the consumer in order to obtain an effective evaluation.  
   

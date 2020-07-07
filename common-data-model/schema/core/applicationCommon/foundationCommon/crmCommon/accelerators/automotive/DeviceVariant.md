@@ -1,15 +1,15 @@
 ---
-title: DeviceVariant - Common Data Model | Microsoft Docs
+title: DeviceVariant in automotive - Common Data Model | Microsoft Docs
 description: Standard variant of a device model code, with special characteristics such as a specific OEM-fitted accessory package or being a limited edition.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Variant
+# Device Variant in automotive
 
 Standard variant of a device model code, with special characteristics such as a specific OEM-fitted accessory package or being a limited edition.  
   

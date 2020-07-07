@@ -1,15 +1,15 @@
 ---
-title: EndpointHeader - Common Data Model | Microsoft Docs
+title: EndpointHeader in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Additional headers / information to send as part of the notification.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Endpoint Header
+# Endpoint Header in electronicMedicalRecords
 
 Additional headers / information to send as part of the notification.  
   

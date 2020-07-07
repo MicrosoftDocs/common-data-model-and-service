@@ -1,15 +1,15 @@
 ---
-title: DeviceStyle - Common Data Model | Microsoft Docs
+title: DeviceStyle in automotive - Common Data Model | Microsoft Docs
 description: Distinctive form or type of vehicle or device such as sedan or station wagon car, wheeled or crawler excavator, and so on.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Style
+# Device Style in automotive
 
 Distinctive form or type of vehicle or device such as sedan or station wagon car, wheeled or crawler excavator, and so on.  
   

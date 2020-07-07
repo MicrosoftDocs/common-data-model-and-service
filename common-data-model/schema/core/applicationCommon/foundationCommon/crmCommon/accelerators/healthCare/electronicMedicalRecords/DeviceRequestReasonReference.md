@@ -1,15 +1,15 @@
 ---
-title: DeviceRequestReasonReference - Common Data Model | Microsoft Docs
+title: DeviceRequestReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Reason or justification for the use of this device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Request Reason Reference
+# Device Request Reason Reference in electronicMedicalRecords
 
 Reason or justification for the use of this device.  
   

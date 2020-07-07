@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionUseContext - Common Data Model | Microsoft Docs
+title: PlanDefinitionUseContext in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate plan definition instances.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Use Context
+# Plan Definition Use Context in electronicMedicalRecords
 
 The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate plan definition instances.  
   

@@ -1,15 +1,15 @@
 ---
-title: OnlineInvoicingParameters_HU - Common Data Model | Microsoft Docs
+title: OnlineInvoicingParameters_HU in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Online invoicing system parameters
+# Online invoicing system parameters in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/EInvoice/Miscellaneous/OnlineInvoicingParameters_HU.cdm.json" target="_blank">GitHub</a>.  

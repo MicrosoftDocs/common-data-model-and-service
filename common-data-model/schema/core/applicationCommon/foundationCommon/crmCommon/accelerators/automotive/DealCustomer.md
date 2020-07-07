@@ -1,15 +1,15 @@
 ---
-title: DealCustomer - Common Data Model | Microsoft Docs
+title: DealCustomer in automotive - Common Data Model | Microsoft Docs
 description: Customer associated with a given deal.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Deal Customer
+# Deal Customer in automotive
 
 Customer associated with a given deal.  
   

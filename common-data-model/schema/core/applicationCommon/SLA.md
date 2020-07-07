@@ -1,15 +1,15 @@
 ---
-title: SLA - Common Data Model | Microsoft Docs
+title: SLA in applicationCommon - Common Data Model | Microsoft Docs
 description: Contains information about the tracked service-level KPIs for cases that belong to different customers.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# SLA
+# SLA in applicationCommon
 
 Contains information about the tracked service-level KPIs for cases that belong to different customers.  
   

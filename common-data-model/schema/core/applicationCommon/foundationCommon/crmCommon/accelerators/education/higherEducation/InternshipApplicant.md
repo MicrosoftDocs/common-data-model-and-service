@@ -1,15 +1,15 @@
 ---
-title: InternshipApplicant - Common Data Model | Microsoft Docs
+title: InternshipApplicant in higherEducation - Common Data Model | Microsoft Docs
 description: This entity is used as an internship application form and to store the list of students who have applied to a particular internship.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Internship Applicant
+# Internship Applicant in higherEducation
 
 This entity is used as an internship application form and to store the list of students who have applied to a particular internship.  
   

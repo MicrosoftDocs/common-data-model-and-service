@@ -1,15 +1,15 @@
 ---
-title: MedicationAdministrationPerformer - Common Data Model | Microsoft Docs
+title: MedicationAdministrationPerformer in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The individual who was responsible for giving the medication to the patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Administration Performer
+# Medication Administration Performer in electronicMedicalRecords
 
 The individual who was responsible for giving the medication to the patient.  
   

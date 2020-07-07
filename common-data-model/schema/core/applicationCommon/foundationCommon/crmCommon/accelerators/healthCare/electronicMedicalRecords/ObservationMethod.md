@@ -1,15 +1,15 @@
 ---
-title: ObservationMethod - Common Data Model | Microsoft Docs
+title: ObservationMethod in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates the mechanism used to perform the observation.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Observation Method
+# Observation Method in electronicMedicalRecords
 
 Indicates the mechanism used to perform the observation.  
   

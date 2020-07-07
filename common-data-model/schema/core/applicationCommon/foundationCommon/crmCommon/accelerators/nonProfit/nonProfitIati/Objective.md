@@ -1,15 +1,15 @@
 ---
-title: Objective - Common Data Model | Microsoft Docs
+title: Objective in nonProfitIati - Common Data Model | Microsoft Docs
 description: An Objective represents the organization's highest priorities, strategies and/or goals that guide investments (in the case of Requests and Awards) and program delivery.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Objective
+# Objective in nonProfitIati
 
 An Objective represents the organization's highest priorities, strategies and/or goals that guide investments (in the case of Requests and Awards) and program delivery.  
   

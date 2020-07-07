@@ -1,15 +1,15 @@
 ---
-title: HealthcareServiceProgramName - Common Data Model | Microsoft Docs
+title: HealthcareServiceProgramName in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Program Names that can be used to categorize the service.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Healthcare Service Program Name
+# Healthcare Service Program Name in electronicMedicalRecords
 
 Program Names that can be used to categorize the service.  
   

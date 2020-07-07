@@ -1,15 +1,15 @@
 ---
-title: TaxElectronicDeclarationTrans - Common Data Model | Microsoft Docs
+title: TaxElectronicDeclarationTrans in WorksheetLine - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Electronic document - file transactions
+# Electronic document - file transactions in WorksheetLine
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Tax/WorksheetLine/TaxElectronicDeclarationTrans.cdm.json" target="_blank">GitHub</a>.  

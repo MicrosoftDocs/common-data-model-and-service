@@ -1,15 +1,15 @@
 ---
-title: MedicationRequestReasonReference - Common Data Model | Microsoft Docs
+title: MedicationRequestReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Condition or observation that supports why the medication was ordered.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request Reason Reference
+# Medication Request Reason Reference in electronicMedicalRecords
 
 Condition or observation that supports why the medication was ordered.  
   

@@ -1,15 +1,15 @@
 ---
-title: QuoteLineTransactionCategory - Common Data Model | Microsoft Docs
+title: QuoteLineTransactionCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of transaction categories that will be considered as costs when computing the profit of a quote line.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quote Line Transaction Category
+# Quote Line Transaction Category in projectServiceAutomation
 
 List of transaction categories that will be considered as costs when computing the profit of a quote line.  
   

@@ -1,15 +1,15 @@
 ---
-title: DeviceWarranty - Common Data Model | Microsoft Docs
+title: DeviceWarranty in automotive - Common Data Model | Microsoft Docs
 description: Relationship indicating that a specific warranty applies to a specific vehicle or device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Warranty
+# Device Warranty in automotive
 
 Relationship indicating that a specific warranty applies to a specific vehicle or device.  
   

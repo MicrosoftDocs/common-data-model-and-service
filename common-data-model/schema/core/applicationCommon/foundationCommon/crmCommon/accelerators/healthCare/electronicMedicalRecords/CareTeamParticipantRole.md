@@ -1,15 +1,15 @@
 ---
-title: CareTeamParticipantRole - Common Data Model | Microsoft Docs
+title: CareTeamParticipantRole in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates specific responsibility of an individual within the care team, such as "Primary care physician", "Trained social worker counselor", "Caregiver", etc.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Team Participant Role
+# Care Team Participant Role in electronicMedicalRecords
 
 Indicates specific responsibility of an individual within the care team, such as "Primary care physician", "Trained social worker counselor", "Caregiver", etc.  
   

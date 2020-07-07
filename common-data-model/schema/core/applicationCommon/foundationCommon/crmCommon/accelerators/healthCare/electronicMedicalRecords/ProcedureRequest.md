@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequest - Common Data Model | Microsoft Docs
+title: ProcedureRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A record of a request for diagnostic investigations, treatments, or operations to be performed.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request
+# Procedure Request in electronicMedicalRecords
 
 A record of a request for diagnostic investigations, treatments, or operations to be performed.  
   

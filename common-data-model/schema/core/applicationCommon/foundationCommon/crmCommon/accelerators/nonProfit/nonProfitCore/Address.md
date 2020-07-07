@@ -1,15 +1,15 @@
 ---
-title: Address - Common Data Model | Microsoft Docs
+title: Address in nonProfitCore - Common Data Model | Microsoft Docs
 description: Address and shipping information. Used to store additional addresses for an account or contact.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Address
+# Address in nonProfitCore
 
 Address and shipping information. Used to store additional addresses for an account or contact.  
   

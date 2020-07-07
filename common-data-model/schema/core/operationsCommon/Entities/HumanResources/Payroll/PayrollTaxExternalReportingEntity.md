@@ -1,15 +1,15 @@
 ---
-title: PayrollTaxExternalReportingEntity - Common Data Model | Microsoft Docs
+title: PayrollTaxExternalReportingEntity in Payroll - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Payroll tax external reporting
+# Payroll tax external reporting in Payroll
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/HumanResources/Payroll/PayrollTaxExternalReportingEntity.cdm.json" target="_blank">GitHub</a>.  

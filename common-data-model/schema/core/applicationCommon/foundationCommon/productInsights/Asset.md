@@ -1,15 +1,15 @@
 ---
-title: Asset - Common Data Model | Microsoft Docs
+title: Asset in productInsights - Common Data Model | Microsoft Docs
 description: Place holder for Asset Entity from FSA
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Asset
+# Asset in productInsights
 
 Place holder for Asset Entity from FSA  
   

@@ -1,15 +1,15 @@
 ---
-title: PractitionerRoleEndPoint - Common Data Model | Microsoft Docs
+title: PractitionerRoleEndPoint in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Technical endpoints providing access to services operated for the practitioner with this role.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Practitioner Role End Point
+# Practitioner Role End Point in electronicMedicalRecords
 
 Technical endpoints providing access to services operated for the practitioner with this role.  
   

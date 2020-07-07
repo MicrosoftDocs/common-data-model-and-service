@@ -1,15 +1,15 @@
 ---
-title: PageTemplate - Common Data Model | Microsoft Docs
+title: PageTemplate in portals - Common Data Model | Microsoft Docs
 description: URL of the .aspx page used to create new webpages.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Page Template
+# Page Template in portals
 
 URL of the .aspx page used to create new webpages.  
   

@@ -1,15 +1,15 @@
 ---
-title: CommunicationRequestBasedOn - Common Data Model | Microsoft Docs
+title: CommunicationRequestBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A plan or proposal that is fulfilled in whole or in part by this request.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication Request Based On
+# Communication Request Based On in electronicMedicalRecords
 
 A plan or proposal that is fulfilled in whole or in part by this request.  
   

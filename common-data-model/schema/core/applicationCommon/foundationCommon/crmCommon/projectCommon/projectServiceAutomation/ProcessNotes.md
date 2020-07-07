@@ -1,15 +1,15 @@
 ---
-title: ProcessNotes - Common Data Model | Microsoft Docs
+title: ProcessNotes in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Stores messages or notes relevant to an operation or process executed by an entity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Process Notes
+# Process Notes in projectServiceAutomation
 
 Stores messages or notes relevant to an operation or process executed by an entity.  
   

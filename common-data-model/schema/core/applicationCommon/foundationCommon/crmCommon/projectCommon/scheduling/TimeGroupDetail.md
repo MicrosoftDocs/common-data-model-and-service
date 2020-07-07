@@ -1,15 +1,15 @@
 ---
-title: TimeGroupDetail - Common Data Model | Microsoft Docs
+title: TimeGroupDetail in scheduling - Common Data Model | Microsoft Docs
 description: Specify individual time windows under a time group.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Time Group Detail
+# Time Group Detail in scheduling
 
 Specify individual time windows under a time group.  
   

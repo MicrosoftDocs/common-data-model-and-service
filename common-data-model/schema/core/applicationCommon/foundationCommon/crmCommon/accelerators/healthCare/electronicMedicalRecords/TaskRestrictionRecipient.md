@@ -1,15 +1,15 @@
 ---
-title: TaskRestrictionRecipient - Common Data Model | Microsoft Docs
+title: TaskRestrictionRecipient in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: For requests that are targeted to more than on potential recipient/target, for whom is fulfillment sought.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Task Restriction Recipient
+# Task Restriction Recipient in electronicMedicalRecords
 
 For requests that are targeted to more than on potential recipient/target, for whom is fulfillment sought.  
   

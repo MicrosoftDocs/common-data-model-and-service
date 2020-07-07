@@ -1,15 +1,15 @@
 ---
-title: ConditionStage - Common Data Model | Microsoft Docs
+title: ConditionStage in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Clinical stage or grade of a condition. May include formal severity assessments.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Condition Stage
+# Condition Stage in electronicMedicalRecords
 
 Clinical stage or grade of a condition. May include formal severity assessments.  
   

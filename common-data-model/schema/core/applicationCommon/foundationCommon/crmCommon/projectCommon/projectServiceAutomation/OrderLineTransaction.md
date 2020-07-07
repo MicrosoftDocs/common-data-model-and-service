@@ -1,15 +1,15 @@
 ---
-title: OrderLineTransaction - Common Data Model | Microsoft Docs
+title: OrderLineTransaction in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Sales estimate detail of an project contract line.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Contract Line Detail
+# Project Contract Line Detail in projectServiceAutomation
 
 Sales estimate detail of an project contract line.  
   

@@ -1,15 +1,15 @@
 ---
-title: DocumentLink - Common Data Model | Microsoft Docs
+title: DocumentLink in nonProfitIati - Common Data Model | Microsoft Docs
 description: A link to an online, publicly accessible web page or document.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Document Link
+# Document Link in nonProfitIati
 
 A link to an online, publicly accessible web page or document.  
   

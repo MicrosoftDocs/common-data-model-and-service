@@ -1,15 +1,15 @@
 ---
-title: Fax - Common Data Model | Microsoft Docs
+title: Fax in crmCommon - Common Data Model | Microsoft Docs
 description: Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Fax
+# Fax in crmCommon
 
 Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.  
   

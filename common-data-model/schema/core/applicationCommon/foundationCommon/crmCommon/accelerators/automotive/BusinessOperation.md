@@ -1,15 +1,15 @@
 ---
-title: BusinessOperation - Common Data Model | Microsoft Docs
+title: BusinessOperation in automotive - Common Data Model | Microsoft Docs
 description: Operation run at a business facility, such as new car sales showroom, used car sales or service center.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Business Operation
+# Business Operation in automotive
 
 Operation run at a business facility, such as new car sales showroom, used car sales or service center.  
   

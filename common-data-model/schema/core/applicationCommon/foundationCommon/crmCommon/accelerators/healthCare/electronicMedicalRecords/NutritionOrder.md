@@ -1,15 +1,15 @@
 ---
-title: NutritionOrder - Common Data Model | Microsoft Docs
+title: NutritionOrder in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A request to supply a diet, formula feeding (eternal) or oral nutritional supplement to a patient/resident.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order
+# Nutrition Order in electronicMedicalRecords
 
 A request to supply a diet, formula feeding (eternal) or oral nutritional supplement to a patient/resident.  
   

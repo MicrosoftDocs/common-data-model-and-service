@@ -1,15 +1,15 @@
 ---
-title: PriceListItem - Common Data Model | Microsoft Docs
+title: PriceListItem in sales - Common Data Model | Microsoft Docs
 description: Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Price List Item
+# Price List Item in sales
 
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  
   

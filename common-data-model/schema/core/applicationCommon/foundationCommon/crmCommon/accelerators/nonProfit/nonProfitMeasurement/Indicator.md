@@ -1,15 +1,15 @@
 ---
-title: Indicator - Common Data Model | Microsoft Docs
+title: Indicator in nonProfitMeasurement - Common Data Model | Microsoft Docs
 description: An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Indicator
+# Indicator in nonProfitMeasurement
 
 An Indicator describes what will be measured to track evidence of a Result. Indicators can be qualitative or quantitative and may or may not be aggregable.  
   

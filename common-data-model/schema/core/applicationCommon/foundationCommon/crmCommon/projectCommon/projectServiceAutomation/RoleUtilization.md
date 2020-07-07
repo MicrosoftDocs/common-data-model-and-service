@@ -1,15 +1,15 @@
 ---
-title: RoleUtilization - Common Data Model | Microsoft Docs
+title: RoleUtilization in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Gathers data about utilization per role to display in a chart
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Role Utilization
+# Role Utilization in projectServiceAutomation
 
 Gathers data about utilization per role to display in a chart  
   

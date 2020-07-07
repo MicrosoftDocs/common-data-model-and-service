@@ -1,15 +1,15 @@
 ---
-title: LeadDispositionActivity - Common Data Model | Microsoft Docs
+title: LeadDispositionActivity in automotive - Common Data Model | Microsoft Docs
 description: Specific activity that should be taken to follow up and nurture a lead.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Lead Disposition Activity
+# Lead Disposition Activity in automotive
 
 Specific activity that should be taken to follow up and nurture a lead.  
   

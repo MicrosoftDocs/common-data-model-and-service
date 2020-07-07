@@ -1,15 +1,15 @@
 ---
-title: EncounterHospitalizationDiet - Common Data Model | Microsoft Docs
+title: EncounterHospitalizationDiet in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Used to track patient's diet restrictions and/or preference.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Hospitalization Diet
+# Encounter Hospitalization Diet in electronicMedicalRecords
 
 Used to track patient's diet restrictions and/or preference.  
   

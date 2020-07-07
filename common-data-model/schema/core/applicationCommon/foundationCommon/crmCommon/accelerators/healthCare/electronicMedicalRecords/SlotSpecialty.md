@@ -1,15 +1,15 @@
 ---
-title: SlotSpecialty - Common Data Model | Microsoft Docs
+title: SlotSpecialty in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The specialty of a practitioner that would be required to perform the service requested in this appointment.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Slot Specialty
+# Slot Specialty in electronicMedicalRecords
 
 The specialty of a practitioner that would be required to perform the service requested in this appointment.  
   

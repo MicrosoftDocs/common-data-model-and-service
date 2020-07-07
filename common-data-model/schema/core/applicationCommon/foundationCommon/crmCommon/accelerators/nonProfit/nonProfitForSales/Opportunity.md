@@ -1,15 +1,15 @@
 ---
-title: Opportunity - Common Data Model | Microsoft Docs
+title: Opportunity in nonProfitForSales - Common Data Model | Microsoft Docs
 description: An opportunity represents prospective, pending and closed "deals" or gifts.  This entity allows nonprofit organizations to track their efforts to build relationships with prospective donors.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Opportunity
+# Opportunity in nonProfitForSales
 
 An opportunity represents prospective, pending and closed "deals" or gifts.  This entity allows nonprofit organizations to track their efforts to build relationships with prospective donors.  
   

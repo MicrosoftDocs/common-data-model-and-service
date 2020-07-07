@@ -1,15 +1,15 @@
 ---
-title: EpisodeOfCareReferralRequest - Common Data Model | Microsoft Docs
+title: EpisodeOfCareReferralRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Referral Request(s) that are fulfilled by this Episode Of Care, incoming referrals.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Episode Of Care Referral Request
+# Episode Of Care Referral Request in electronicMedicalRecords
 
 Referral Request(s) that are fulfilled by this Episode Of Care, incoming referrals.  
   

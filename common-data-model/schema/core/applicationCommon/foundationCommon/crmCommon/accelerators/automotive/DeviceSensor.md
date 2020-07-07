@@ -1,15 +1,15 @@
 ---
-title: DeviceSensor - Common Data Model | Microsoft Docs
+title: DeviceSensor in automotive - Common Data Model | Microsoft Docs
 description: Sensor attached to or as part of a vehicle or device. May provide signals of device health or usage.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Sensor
+# Device Sensor in automotive
 
 Sensor attached to or as part of a vehicle or device. May provide signals of device health or usage.  
   

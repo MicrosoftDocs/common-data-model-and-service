@@ -1,15 +1,15 @@
 ---
-title: AssetNumberSeqAllocationUpgradeTmp - Common Data Model | Microsoft Docs
+title: AssetNumberSeqAllocationUpgradeTmp in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Fixed assets vouchers for data upgrade
+# Fixed assets vouchers for data upgrade in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FixedAssets/Miscellaneous/AssetNumberSeqAllocationUpgradeTmp.cdm.json" target="_blank">GitHub</a>.  

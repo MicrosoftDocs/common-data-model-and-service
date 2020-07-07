@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionActionAction - Common Data Model | Microsoft Docs
+title: PlanDefinitionActionAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Sub actions that are contained within the action. The behavior of this action determines the functionality of the sub-actions.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Action Action
+# Plan Definition Action Action in electronicMedicalRecords
 
 Sub actions that are contained within the action. The behavior of this action determines the functionality of the sub-actions.  
   

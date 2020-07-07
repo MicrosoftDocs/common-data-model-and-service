@@ -1,15 +1,15 @@
 ---
-title: RequirementRelationship - Common Data Model | Microsoft Docs
+title: RequirementRelationship in scheduling - Common Data Model | Microsoft Docs
 description: Relationship of requirements in the group
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Requirement Relationship
+# Requirement Relationship in scheduling
 
 Relationship of requirements in the group  
   

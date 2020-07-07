@@ -1,15 +1,15 @@
 ---
-title: RequirementCharacteristic - Common Data Model | Microsoft Docs
+title: RequirementCharacteristic in scheduling - Common Data Model | Microsoft Docs
 description: Requirement Characteristic
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Requirement Characteristic
+# Requirement Characteristic in scheduling
 
 Requirement Characteristic  
   

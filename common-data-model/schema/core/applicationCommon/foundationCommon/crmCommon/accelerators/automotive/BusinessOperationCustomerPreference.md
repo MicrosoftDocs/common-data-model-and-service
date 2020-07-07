@@ -1,15 +1,15 @@
 ---
-title: BusinessOperationCustomerPreference - Common Data Model | Microsoft Docs
+title: BusinessOperationCustomerPreference in automotive - Common Data Model | Microsoft Docs
 description: Customer preference for a given type of business operation, such as preferred service center or rental depot.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Business Operation Customer Preference
+# Business Operation Customer Preference in automotive
 
 Customer preference for a given type of business operation, such as preferred service center or rental depot.  
   

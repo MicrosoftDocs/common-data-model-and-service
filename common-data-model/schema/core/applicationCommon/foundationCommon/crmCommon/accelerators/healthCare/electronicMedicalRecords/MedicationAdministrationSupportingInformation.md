@@ -1,15 +1,15 @@
 ---
-title: MedicationAdministrationSupportingInformation - Common Data Model | Microsoft Docs
+title: MedicationAdministrationSupportingInformation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Additional information (for example, patient height and weight) that supports the administration of the medication.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Administration Supporting Information
+# Medication Administration Supporting Information in electronicMedicalRecords
 
 Additional information (for example, patient height and weight) that supports the administration of the medication.  
   

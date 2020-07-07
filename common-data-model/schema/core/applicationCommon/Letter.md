@@ -1,15 +1,15 @@
 ---
-title: Letter - Common Data Model | Microsoft Docs
+title: Letter in applicationCommon - Common Data Model | Microsoft Docs
 description: Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Letter
+# Letter in applicationCommon
 
 Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.  
   

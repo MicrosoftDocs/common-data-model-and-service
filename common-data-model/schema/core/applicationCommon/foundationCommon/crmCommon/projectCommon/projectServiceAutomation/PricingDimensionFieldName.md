@@ -1,15 +1,15 @@
 ---
-title: PricingDimensionFieldName - Common Data Model | Microsoft Docs
+title: PricingDimensionFieldName in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Provides ability to override the field name for pricing dimension if the entity doesn't follow the same naming convention for the pricing dimension field as the price entity.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Pricing Dimension Field Name
+# Pricing Dimension Field Name in projectServiceAutomation
 
 Provides ability to override the field name for pricing dimension if the entity doesn't follow the same naming convention for the pricing dimension field as the price entity.  
   

@@ -1,15 +1,15 @@
 ---
-title: CaseDeflection - Common Data Model | Microsoft Docs
+title: CaseDeflection in portals - Common Data Model | Microsoft Docs
 description: Captures the number of Found My Answer clicks in the portal.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Case Deflection
+# Case Deflection in portals
 
 Captures the number of Found My Answer clicks in the portal.  
   

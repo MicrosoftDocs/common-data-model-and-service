@@ -1,15 +1,15 @@
 ---
-title: SubstanceInstance - Common Data Model | Microsoft Docs
+title: SubstanceInstance in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Substance may be used to describe a kind of substance, or a specific package/container of the substance&#58 an instance.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Substance Instance
+# Substance Instance in electronicMedicalRecords
 
 Substance may be used to describe a kind of substance, or a specific package/container of the substance: an instance.  
   

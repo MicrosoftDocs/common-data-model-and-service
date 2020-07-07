@@ -1,15 +1,15 @@
 ---
-title: AggregateKPIMeasurement - Common Data Model | Microsoft Docs
+title: AggregateKPIMeasurement in automotive - Common Data Model | Microsoft Docs
 description: Measured value for a given aggregate KPI in a given context.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Aggregate KPI Measurement
+# Aggregate KPI Measurement in automotive
 
 Measured value for a given aggregate KPI in a given context.  
   

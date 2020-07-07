@@ -1,15 +1,15 @@
 ---
-title: SMAServiceOrderLineTaxExtension_IN - Common Data Model | Microsoft Docs
+title: SMAServiceOrderLineTaxExtension_IN in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Extension for India taxes on service order lines
+# Extension for India taxes on service order lines in Miscellaneous
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Tax/Miscellaneous/SMAServiceOrderLineTaxExtension_IN.cdm.json" target="_blank">GitHub</a>.  

@@ -1,15 +1,15 @@
 ---
-title: SpecificationAccessory - Common Data Model | Microsoft Docs
+title: SpecificationAccessory in automotive - Common Data Model | Microsoft Docs
 description: Optional accessories that are included on a vehicle or device with the given specification.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Specification Accessory
+# Specification Accessory in automotive
 
 Optional accessories that are included on a vehicle or device with the given specification.  
   

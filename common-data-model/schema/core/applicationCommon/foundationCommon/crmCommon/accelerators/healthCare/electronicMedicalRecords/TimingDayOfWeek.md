@@ -1,15 +1,15 @@
 ---
-title: TimingDayOfWeek - Common Data Model | Microsoft Docs
+title: TimingDayOfWeek in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: If one or more days of week is provided, then the action happens only on the specified day(s).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Timing Day Of Week
+# Timing Day Of Week in electronicMedicalRecords
 
 If one or more days of week is provided, then the action happens only on the specified day(s).  
   

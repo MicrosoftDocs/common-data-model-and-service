@@ -1,15 +1,15 @@
 ---
-title: QuickCampaign - Common Data Model | Microsoft Docs
+title: QuickCampaign in crmCommon - Common Data Model | Microsoft Docs
 description: System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Quick Campaign
+# Quick Campaign in crmCommon
 
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.  
   

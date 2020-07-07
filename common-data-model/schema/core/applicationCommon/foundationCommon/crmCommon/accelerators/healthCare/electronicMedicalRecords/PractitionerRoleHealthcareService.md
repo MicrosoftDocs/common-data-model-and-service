@@ -1,15 +1,15 @@
 ---
-title: PractitionerRoleHealthcareService - Common Data Model | Microsoft Docs
+title: PractitionerRoleHealthcareService in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The list of healthcare services that this worker provides for this role's Organization/Location(s).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Practitioner Role Healthcare Service
+# Practitioner Role Healthcare Service in electronicMedicalRecords
 
 The list of healthcare services that this worker provides for this role's Organization/Location(s).  
   

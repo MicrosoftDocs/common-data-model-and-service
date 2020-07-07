@@ -1,15 +1,15 @@
 ---
-title: ConnectionRole - Common Data Model | Microsoft Docs
+title: ConnectionRole in applicationCommon - Common Data Model | Microsoft Docs
 description: Role describing a relationship between a two records.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Connection Role
+# Connection Role in applicationCommon
 
 Role describing a relationship between a two records.  
   

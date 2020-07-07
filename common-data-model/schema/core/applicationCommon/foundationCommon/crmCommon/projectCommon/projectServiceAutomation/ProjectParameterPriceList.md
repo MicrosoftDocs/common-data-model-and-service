@@ -1,15 +1,15 @@
 ---
-title: ProjectParameterPriceList - Common Data Model | Microsoft Docs
+title: ProjectParameterPriceList in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Set of default cost and sales price lists that the company uses when there are no specific pricing agreements for cost and sales.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Parameter Price List
+# Project Parameter Price List in projectServiceAutomation
 
 Set of default cost and sales price lists that the company uses when there are no specific pricing agreements for cost and sales.  
   

@@ -1,15 +1,15 @@
 ---
-title: OrderProduct - Common Data Model | Microsoft Docs
+title: OrderProduct in sales - Common Data Model | Microsoft Docs
 description: Line item in a sales order.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Order Product
+# Order Product in sales
 
 Line item in a sales order.  
   

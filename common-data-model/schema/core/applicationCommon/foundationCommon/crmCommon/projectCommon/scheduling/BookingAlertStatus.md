@@ -1,15 +1,15 @@
 ---
-title: BookingAlertStatus - Common Data Model | Microsoft Docs
+title: BookingAlertStatus in scheduling - Common Data Model | Microsoft Docs
 description: The status of a booking alert.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Booking Alert Status
+# Booking Alert Status in scheduling
 
 The status of a booking alert.  
   

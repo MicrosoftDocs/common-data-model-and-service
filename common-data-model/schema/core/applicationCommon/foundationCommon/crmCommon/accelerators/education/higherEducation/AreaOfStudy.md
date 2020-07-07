@@ -1,15 +1,15 @@
 ---
-title: AreaOfStudy - Common Data Model | Microsoft Docs
+title: AreaOfStudy in higherEducation - Common Data Model | Microsoft Docs
 description: The master list of all area of studies offered by an institution.  Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Area of Study
+# Area of Study in higherEducation
 
 The master list of all area of studies offered by an institution.  Areas of studies are more specific program offerings, such as Master's of Public Administration - Emergency Management.  
   

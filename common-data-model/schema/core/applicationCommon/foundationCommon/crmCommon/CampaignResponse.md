@@ -1,15 +1,15 @@
 ---
-title: CampaignResponse - Common Data Model | Microsoft Docs
+title: CampaignResponse in crmCommon - Common Data Model | Microsoft Docs
 description: Response from an existing or a potential new customer for a campaign.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Campaign Response
+# Campaign Response in crmCommon
 
 Response from an existing or a potential new customer for a campaign.  
   

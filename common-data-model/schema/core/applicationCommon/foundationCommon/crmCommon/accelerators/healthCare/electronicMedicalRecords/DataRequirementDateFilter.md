@@ -1,15 +1,15 @@
 ---
-title: DataRequirementDateFilter - Common Data Model | Microsoft Docs
+title: DataRequirementDateFilter in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Date filters specify additional constraints on the data in terms of the applicable date range for specific elements.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Data Requirement Date Filter
+# Data Requirement Date Filter in electronicMedicalRecords
 
 Date filters specify additional constraints on the data in terms of the applicable date range for specific elements.  
   

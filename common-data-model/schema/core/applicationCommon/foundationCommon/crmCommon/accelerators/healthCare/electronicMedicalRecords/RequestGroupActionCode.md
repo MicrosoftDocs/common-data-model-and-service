@@ -1,15 +1,15 @@
 ---
-title: RequestGroupActionCode - Common Data Model | Microsoft Docs
+title: RequestGroupActionCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code that provides meaning for the action or action group. For example, a section may have a LOINC code for a the section of a documentation template.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Action Code
+# Request Group Action Code in electronicMedicalRecords
 
 A code that provides meaning for the action or action group. For example, a section may have a LOINC code for a the section of a documentation template.  
   

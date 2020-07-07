@@ -1,15 +1,15 @@
 ---
-title: BookingChange - Common Data Model | Microsoft Docs
+title: BookingChange in scheduling - Common Data Model | Microsoft Docs
 description: An internal entity used to track changes that affect the schedule board.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Booking Change
+# Booking Change in scheduling
 
 An internal entity used to track changes that affect the schedule board.  
   

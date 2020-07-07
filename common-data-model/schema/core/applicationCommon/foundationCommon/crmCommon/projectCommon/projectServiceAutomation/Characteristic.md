@@ -1,15 +1,15 @@
 ---
-title: Characteristic - Common Data Model | Microsoft Docs
+title: Characteristic in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Skills, education and certifications of resources.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Characteristic
+# Characteristic in projectServiceAutomation
 
 Skills, education and certifications of resources.  
   

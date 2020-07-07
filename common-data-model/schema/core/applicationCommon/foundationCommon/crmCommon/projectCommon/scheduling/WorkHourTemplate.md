@@ -1,15 +1,15 @@
 ---
-title: WorkHourTemplate - Common Data Model | Microsoft Docs
+title: WorkHourTemplate in scheduling - Common Data Model | Microsoft Docs
 description: Template where resource working hours can be saved and reused.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Work Template
+# Work Template in scheduling
 
 Template where resource working hours can be saved and reused.  
   

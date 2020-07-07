@@ -1,15 +1,15 @@
 ---
-title: DeviceMetric - Common Data Model | Microsoft Docs
+title: DeviceMetric in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes a measurement, calculation or setting capability of a medical device.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Metric
+# Device Metric in electronicMedicalRecords
 
 Describes a measurement, calculation or setting capability of a medical device.  
   

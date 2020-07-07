@@ -1,15 +1,15 @@
 ---
-title: ServiceActivity - Common Data Model | Microsoft Docs
+title: ServiceActivity in service - Common Data Model | Microsoft Docs
 description: Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Activity
+# Service Activity in service
 
 Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.  
   

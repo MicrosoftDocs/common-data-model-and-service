@@ -1,15 +1,15 @@
 ---
-title: ProjectTeam - Common Data Model | Microsoft Docs
+title: ProjectTeam in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used to model relationship between resources and project teams.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Team Member
+# Project Team Member in projectServiceAutomation
 
 Entity used to model relationship between resources and project teams.  
   

@@ -1,15 +1,15 @@
 ---
-title: CarePlanPartOf - Common Data Model | Microsoft Docs
+title: CarePlanPartOf in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A larger care plan of which this particular care plan is a component or step.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Plan Part Of
+# Care Plan Part Of in electronicMedicalRecords
 
 A larger care plan of which this particular care plan is a component or step.  
   

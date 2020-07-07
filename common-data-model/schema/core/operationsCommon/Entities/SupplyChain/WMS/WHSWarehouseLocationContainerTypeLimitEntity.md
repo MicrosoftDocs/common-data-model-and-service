@@ -1,15 +1,15 @@
 ---
-title: WHSWarehouseLocationContainerTypeLimitEntity - Common Data Model | Microsoft Docs
+title: WHSWarehouseLocationContainerTypeLimitEntity in WMS - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Warehouse location container type limits
+# Warehouse location container type limits in WMS
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/WMS/WHSWarehouseLocationContainerTypeLimitEntity.cdm.json" target="_blank">GitHub</a>.  

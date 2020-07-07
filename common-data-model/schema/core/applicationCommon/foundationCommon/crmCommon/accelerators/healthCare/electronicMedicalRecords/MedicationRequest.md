@@ -1,15 +1,15 @@
 ---
-title: MedicationRequest - Common Data Model | Microsoft Docs
+title: MedicationRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An order or request for both supply of the medication and the instructions for administration of the medication to a patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request
+# Medication Request in electronicMedicalRecords
 
 An order or request for both supply of the medication and the instructions for administration of the medication to a patient.  
   

@@ -1,15 +1,15 @@
 ---
-title: MedicationImage - Common Data Model | Microsoft Docs
+title: MedicationImage in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Photo(s) or graphic representation(s) of the medication.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Image
+# Medication Image in electronicMedicalRecords
 
 Photo(s) or graphic representation(s) of the medication.  
   

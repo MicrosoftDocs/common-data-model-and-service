@@ -1,15 +1,15 @@
 ---
-title: MembershipCategory - Common Data Model | Microsoft Docs
+title: MembershipCategory in nonProfitCore - Common Data Model | Microsoft Docs
 description: Represents the types of membership associated to products.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Membership Category
+# Membership Category in nonProfitCore
 
 Represents the types of membership associated to products.  
   

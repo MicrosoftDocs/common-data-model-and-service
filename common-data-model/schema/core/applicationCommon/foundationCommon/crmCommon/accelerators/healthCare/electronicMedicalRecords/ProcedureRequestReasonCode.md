@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestReasonCode - Common Data Model | Microsoft Docs
+title: ProcedureRequestReasonCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An explanation or justification for why this diagnostic investigation is being requested in coded or textual form. This is often for billing purposes. May relate to the resources referred to in supp
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Reason Code
+# Procedure Request Reason Code in electronicMedicalRecords
 
 An explanation or justification for why this diagnostic investigation is being requested in coded or textual form. This is often for billing purposes. May relate to the resources referred to in supp  
   

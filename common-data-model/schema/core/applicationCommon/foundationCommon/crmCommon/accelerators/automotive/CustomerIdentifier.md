@@ -1,15 +1,15 @@
 ---
-title: CustomerIdentifier - Common Data Model | Microsoft Docs
+title: CustomerIdentifier in automotive - Common Data Model | Microsoft Docs
 description: Unique identifier for a customer, such as customer number or manufacturers ID.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Customer Identifier
+# Customer Identifier in automotive
 
 Unique identifier for a customer, such as customer number or manufacturers ID.  
   

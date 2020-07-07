@@ -1,15 +1,15 @@
 ---
-title: Segment - Common Data Model | Microsoft Docs
+title: Segment in customerInsights - Common Data Model | Microsoft Docs
 description: Defines a group of members  that exhibit common traits.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Segment
+# Segment in customerInsights
 
 Defines a group of members  that exhibit common traits.  
   

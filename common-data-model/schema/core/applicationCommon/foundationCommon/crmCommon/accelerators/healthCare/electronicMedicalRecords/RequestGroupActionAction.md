@@ -1,15 +1,15 @@
 ---
-title: RequestGroupActionAction - Common Data Model | Microsoft Docs
+title: RequestGroupActionAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Sub actions.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Action Action
+# Request Group Action Action in electronicMedicalRecords
 
 Sub actions.  
   

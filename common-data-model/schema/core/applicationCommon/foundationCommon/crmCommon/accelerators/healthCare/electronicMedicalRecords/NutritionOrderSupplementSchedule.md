@@ -1,15 +1,15 @@
 ---
-title: NutritionOrderSupplementSchedule - Common Data Model | Microsoft Docs
+title: NutritionOrderSupplementSchedule in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The time period and frequency at which the supplement(s) should be given. The supplement should be given for the combination of all schedules if more than one schedule is present.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order Supplement Schedule
+# Nutrition Order Supplement Schedule in electronicMedicalRecords
 
 The time period and frequency at which the supplement(s) should be given. The supplement should be given for the combination of all schedules if more than one schedule is present.  
   

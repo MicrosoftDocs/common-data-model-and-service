@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestReasonReference - Common Data Model | Microsoft Docs
+title: ProcedureRequestReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates another resource that provides a justification for why this diagnostic investigation is being requested. May relate to the resources referred to in supporting Information.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Reason Reference
+# Procedure Request Reason Reference in electronicMedicalRecords
 
 Indicates another resource that provides a justification for why this diagnostic investigation is being requested. May relate to the resources referred to in supporting Information.  
   

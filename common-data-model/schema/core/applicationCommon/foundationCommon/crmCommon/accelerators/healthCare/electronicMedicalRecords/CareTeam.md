@@ -1,15 +1,15 @@
 ---
-title: CareTeam - Common Data Model | Microsoft Docs
+title: CareTeam in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Team
+# Care Team in electronicMedicalRecords
 
 The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.  
   

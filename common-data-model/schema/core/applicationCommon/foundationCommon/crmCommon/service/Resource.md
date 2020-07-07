@@ -1,15 +1,15 @@
 ---
-title: Resource - Common Data Model | Microsoft Docs
+title: Resource in service - Common Data Model | Microsoft Docs
 description: User or facility/equipment that can be scheduled for a service.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Resource
+# Resource in service
 
 User or facility/equipment that can be scheduled for a service.  
   

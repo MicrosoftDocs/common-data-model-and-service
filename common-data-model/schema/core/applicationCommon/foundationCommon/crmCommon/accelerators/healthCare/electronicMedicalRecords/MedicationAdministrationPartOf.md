@@ -1,15 +1,15 @@
 ---
-title: MedicationAdministrationPartOf - Common Data Model | Microsoft Docs
+title: MedicationAdministrationPartOf in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A larger event of which this particular event is a component or step.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Administration Part Of
+# Medication Administration Part Of in electronicMedicalRecords
 
 A larger event of which this particular event is a component or step.  
   

@@ -1,15 +1,15 @@
 ---
-title: RequestGroupActionDocumentation - Common Data Model | Microsoft Docs
+title: RequestGroupActionDocumentation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Request Group Action Documentation
+# Request Group Action Documentation in electronicMedicalRecords
 
 Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.  
   

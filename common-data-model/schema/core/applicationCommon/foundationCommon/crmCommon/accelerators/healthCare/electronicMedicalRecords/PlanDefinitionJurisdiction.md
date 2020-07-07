@@ -1,15 +1,15 @@
 ---
-title: PlanDefinitionJurisdiction - Common Data Model | Microsoft Docs
+title: PlanDefinitionJurisdiction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A legal or geographic region in which the plan definition is intended to be used.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Plan Definition Jurisdiction
+# Plan Definition Jurisdiction in electronicMedicalRecords
 
 A legal or geographic region in which the plan definition is intended to be used.  
   

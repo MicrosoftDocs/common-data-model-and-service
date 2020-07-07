@@ -1,15 +1,15 @@
 ---
-title: CommunicationRequestCategory - Common Data Model | Microsoft Docs
+title: CommunicationRequestCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The type of message to be sent such as alert, notification, reminder, instruction, etc.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Communication Request Category
+# Communication Request Category in electronicMedicalRecords
 
 The type of message to be sent such as alert, notification, reminder, instruction, etc.  
   

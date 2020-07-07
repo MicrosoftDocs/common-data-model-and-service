@@ -1,15 +1,15 @@
 ---
-title: ServiceContractContact - Common Data Model | Microsoft Docs
+title: ServiceContractContact in service - Common Data Model | Microsoft Docs
 description: Item in a Service contract.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Contract Contact
+# Service Contract Contact in service
 
 Item in a Service contract.  
   

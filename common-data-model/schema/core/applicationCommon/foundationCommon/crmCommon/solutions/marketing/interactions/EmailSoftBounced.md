@@ -1,15 +1,15 @@
 ---
-title: EmailSoftBounced - Common Data Model | Microsoft Docs
+title: EmailSoftBounced in interactions - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Email soft bounced
+# Email soft bounced in interactions
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailSoftBounced.cdm.json" target="_blank">GitHub</a>.  

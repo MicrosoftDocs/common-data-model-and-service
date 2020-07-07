@@ -1,15 +1,15 @@
 ---
-title: TeamMembership - Common Data Model | Microsoft Docs
+title: TeamMembership in applicationCommon - Common Data Model | Microsoft Docs
 description: User membership in Teams
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Team Membership
+# Team Membership in applicationCommon
 
 User membership in Teams  
   

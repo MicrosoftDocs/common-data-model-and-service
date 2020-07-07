@@ -1,15 +1,15 @@
 ---
-title: EncounterReason - Common Data Model | Microsoft Docs
+title: EncounterReason in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Encounter Reason
+# Encounter Reason in electronicMedicalRecords
 
 Reason the encounter takes place, expressed as a code. For admissions, this can be used for a coded admission diagnosis.  
   

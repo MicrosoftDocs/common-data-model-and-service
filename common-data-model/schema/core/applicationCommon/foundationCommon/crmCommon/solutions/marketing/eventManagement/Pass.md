@@ -1,15 +1,15 @@
 ---
-title: Pass - Common Data Model | Microsoft Docs
+title: Pass in eventManagement - Common Data Model | Microsoft Docs
 description: Information about passes.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Pass
+# Pass in eventManagement
 
 Information about passes.  
   

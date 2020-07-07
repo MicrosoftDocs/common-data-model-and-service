@@ -1,15 +1,15 @@
 ---
-title: ServiceOrderGroup - Common Data Model | Microsoft Docs
+title: ServiceOrderGroup in automotive - Common Data Model | Microsoft Docs
 description: Group of service orders.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Service Order Group
+# Service Order Group in automotive
 
 Group of service orders.  
   

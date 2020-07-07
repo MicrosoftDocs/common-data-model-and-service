@@ -1,15 +1,15 @@
 ---
-title: DeviceRequestPriorRequest - Common Data Model | Microsoft Docs
+title: DeviceRequestPriorRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The request takes the place of the referenced completed or terminated request(s).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Device Request Prior Request
+# Device Request Prior Request in electronicMedicalRecords
 
 The request takes the place of the referenced completed or terminated request(s).  
   

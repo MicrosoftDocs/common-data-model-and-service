@@ -1,15 +1,15 @@
 ---
-title: ProcedureRequestSupportingInformation - Common Data Model | Microsoft Docs
+title: ProcedureRequestSupportingInformation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Additional clinical information about the patient or specimen that may influence the procedure or diagnostics or their interpretations.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Procedure Request Supporting Information
+# Procedure Request Supporting Information in electronicMedicalRecords
 
 Additional clinical information about the patient or specimen that may influence the procedure or diagnostics or their interpretations.  
   

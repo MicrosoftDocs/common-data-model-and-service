@@ -1,15 +1,15 @@
 ---
-title: SubstanceCategory - Common Data Model | Microsoft Docs
+title: SubstanceCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code that classifies the general type of substance. This is used for searching, sorting and display purposes.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Substance Category
+# Substance Category in electronicMedicalRecords
 
 A code that classifies the general type of substance. This is used for searching, sorting and display purposes.  
   

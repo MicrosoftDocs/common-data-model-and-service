@@ -1,15 +1,15 @@
 ---
-title: RolePriceMarkup - Common Data Model | Microsoft Docs
+title: RolePriceMarkup in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of markups for prices by role on a price list.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Role Price Markup
+# Role Price Markup in projectServiceAutomation
 
 List of markups for prices by role on a price list.  
   

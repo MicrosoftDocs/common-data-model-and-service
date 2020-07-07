@@ -1,15 +1,15 @@
 ---
-title: InventPackagingJour_W - Common Data Model | Microsoft Docs
+title: InventPackagingJour_W in WorksheetHeader - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Packing material calculation journal
+# Packing material calculation journal in WorksheetHeader
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/WorksheetHeader/InventPackagingJour_W.cdm.json" target="_blank">GitHub</a>.  

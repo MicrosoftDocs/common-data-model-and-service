@@ -1,15 +1,15 @@
 ---
-title: ProjectParameter - Common Data Model | Microsoft Docs
+title: ProjectParameter in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of settings that determine the behavior of the project-based service solution.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Project Parameter
+# Project Parameter in projectServiceAutomation
 
 List of settings that determine the behavior of the project-based service solution.  
   

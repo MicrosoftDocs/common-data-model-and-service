@@ -1,15 +1,15 @@
 ---
-title: MedicationRequestDetectedIssue - Common Data Model | Microsoft Docs
+title: MedicationRequestDetectedIssue in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Medication Request Detected Issue
+# Medication Request Detected Issue in electronicMedicalRecords
 
 Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc.  
   

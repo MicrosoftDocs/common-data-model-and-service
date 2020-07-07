@@ -1,15 +1,15 @@
 ---
-title: CareTeamReasonReference - Common Data Model | Microsoft Docs
+title: CareTeamReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Condition(s) that this care team addresses.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Care Team Reason Reference
+# Care Team Reason Reference in electronicMedicalRecords
 
 Condition(s) that this care team addresses.  
   

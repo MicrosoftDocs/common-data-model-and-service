@@ -1,15 +1,15 @@
 ---
-title: WHSWarehousePutawayClusterProfileWorkTemplateEntity - Common Data Model | Microsoft Docs
+title: WHSWarehousePutawayClusterProfileWorkTemplateEntity in WMS - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# The WHSWarehousePutawayClusterProfileWorkTemplates data entity contains information for putaway cluster work templates.
+# The WHSWarehousePutawayClusterProfileWorkTemplates data entity contains information for putaway cluster work templates. in WMS
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/SupplyChain/WMS/WHSWarehousePutawayClusterProfileWorkTemplateEntity.cdm.json" target="_blank">GitHub</a>.  

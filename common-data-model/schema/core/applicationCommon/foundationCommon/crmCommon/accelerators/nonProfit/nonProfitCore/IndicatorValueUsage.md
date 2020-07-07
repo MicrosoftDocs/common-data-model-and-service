@@ -1,15 +1,15 @@
 ---
-title: IndicatorValueUsage - Common Data Model | Microsoft Docs
+title: IndicatorValueUsage in nonProfitCore - Common Data Model | Microsoft Docs
 description: Used to demonstrate a usage of a indicator value
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Indicator Value Usage
+# Indicator Value Usage in nonProfitCore
 
 Used to demonstrate a usage of a indicator value  
   

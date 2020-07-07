@@ -1,15 +1,15 @@
 ---
-title: TaxWithholdReportSetup_TH - Common Data Model | Microsoft Docs
+title: TaxWithholdReportSetup_TH in Group - Common Data Model | Microsoft Docs
 description: undefined
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Withholding tax report setup
+# Withholding tax report setup in Group
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Tax/Group/TaxWithholdReportSetup_TH.cdm.json" target="_blank">GitHub</a>.  

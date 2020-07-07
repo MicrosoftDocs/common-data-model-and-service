@@ -1,15 +1,15 @@
 ---
-title: BookableResourceCharacteristic - Common Data Model | Microsoft Docs
+title: BookableResourceCharacteristic in foundationCommon - Common Data Model | Microsoft Docs
 description: Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Bookable Resource Characteristic
+# Bookable Resource Characteristic in foundationCommon
 
 Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.  
   

@@ -1,15 +1,15 @@
 ---
-title: HealthcareServiceCoverageArea - Common Data Model | Microsoft Docs
+title: HealthcareServiceCoverageArea in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The location(s) that this service is available to (not where the service is provided).
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Healthcare Service Coverage Area
+# Healthcare Service Coverage Area in electronicMedicalRecords
 
 The location(s) that this service is available to (not where the service is provided).  
   

@@ -1,15 +1,15 @@
 ---
-title: NutritionOrderOralDietTexture - Common Data Model | Microsoft Docs
+title: NutritionOrderOralDietTexture in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Class that describes any texture modifications required for the patient to safely consume various types of solid foods.
 author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
+ms.date: 7/7/2020
 ms.author: nebanfic
 ---
 
-# Nutrition Order Oral Diet Texture
+# Nutrition Order Oral Diet Texture in electronicMedicalRecords
 
 Class that describes any texture modifications required for the patient to safely consume various types of solid foods.  
   
