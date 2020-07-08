@@ -6,14 +6,14 @@ author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: Deonhe
 ms.topic: article
-ms.date: 05/01/2020
+ms.date: 07/07/2020
 ms.author: merami
 
 ---
 
 # Dynamics 365 education accelerator – higher education
 
-With the higher education component in the [Dynamics 365 education accelerator](https://appsource.microsoft.com/en-us/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The component includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The component also provides entities, fields, forms, views, and dashboards specific to higher education.
+With the higher education component in the [Dynamics 365 education accelerator](https://appsource.microsoft.com/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview), you can develop solutions that are based on entities and attributes that higher-education institutions use. The component includes entities around student engagement and additional entities around internships, scholarships, grants, and accomplishments. The component also provides entities, fields, forms, views, and dashboards specific to higher education.
 
 ## Common Data Model extensions
 
@@ -99,7 +99,7 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 ## Additional resources
 
-- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview).
+- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview).
 
 - The higher-education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license, available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/releases).
 
