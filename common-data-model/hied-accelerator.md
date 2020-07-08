@@ -99,7 +99,7 @@ This accelerator includes a student dashboard in Dynamics 365 and an institution
 
 ## Additional resources
 
-- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview).
+- Download the Dynamics 365 education accelerator from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mshied.educationcommondatamodel?tab=Overview).
 
 - The higher-education data model, solutions, data samples, Power BI examples, SDK extensions, and more are provided as part of the open-source creative license, available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Education/releases).
 
