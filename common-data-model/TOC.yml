@@ -1,7 +1,7 @@
 - name: Common Data Model
   href: index.md
   items:
-  - name: How to use Common Data Model
+  - name: About Common Data Model
     href: use.md
   - name: Common Data Model Technical Guide
     items:
