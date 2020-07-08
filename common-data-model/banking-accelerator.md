@@ -5,7 +5,7 @@ author: JamesGalvin
 ms.service: common-data-model
 ms.reviewer: Deonhe
 ms.topic: article
-ms.date: 05/27/2020
+ms.date: 07/07/2020
 ms.author: jgalvin
 ---
 
@@ -73,7 +73,7 @@ Example dashboards in Dynamics 365 and Power BI are included. For example, in th
 
 - The financial services accelerator is provided as part of the open-source creative license and available on [GitHub](https://github.com/microsoft/Industry-Accelerator-FinancialServices).
 
-- Refer to this [blog post](https://https:/cloudblogs.microsoft.com/dynamics365/bdm/2019/07/17/microsoft-dynamics-365-banking-accelerator-is-now-generally-available/) to read more about the value of the banking component to ISVs, banks, and other financial services institutions.
+- Refer to this [blog post](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/07/17/microsoft-dynamics-365-banking-accelerator-is-now-generally-available/) to read more about the value of the banking component to ISVs, banks, and other financial services institutions.
 
 - Continue your accelerator experience and engage with experts and peers, read blog articles, and find local events within the industry accelerator community. [Join us](https://community.dynamics.com/365/industry-accelerators)
 
