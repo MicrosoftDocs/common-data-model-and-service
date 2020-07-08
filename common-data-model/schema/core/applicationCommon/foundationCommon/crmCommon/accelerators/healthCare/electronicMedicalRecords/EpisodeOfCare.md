@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Episode of Care in electronicMedicalRecords
+# Episode of Care in electronicMedicalRecords(EpisodeOfCare)
 
 An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.  
   

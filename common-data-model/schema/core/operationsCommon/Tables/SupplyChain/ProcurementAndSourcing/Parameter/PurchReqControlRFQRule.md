@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Purchase requisitions: Request for quotation control rules in Parameter
+# Purchase requisitions: Request for quotation control rules in Parameter(PurchReqControlRFQRule)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/PurchReqControlRFQRule.cdm.json" target="_blank">GitHub</a>.  

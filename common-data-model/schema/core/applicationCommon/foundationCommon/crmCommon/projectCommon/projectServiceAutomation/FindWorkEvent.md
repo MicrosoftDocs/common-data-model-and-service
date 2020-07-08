@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Find Work Event (Deprecated in v3.0) in projectServiceAutomation
+# Find Work Event (Deprecated in v3.0) in projectServiceAutomation(FindWorkEvent)
 
 Entity used for counting the number of times resources apply for open positions and other behavioral attributes of resources.  
   

@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Appointment (EMR) Indication in electronicMedicalRecords
+# Appointment (EMR) Indication in electronicMedicalRecords(AppointmentEMRIndication)
 
 Reason the appointment has been scheduled to take place, as specified using information from another entity. The indication will typically be a Condition or a Procedure  
   

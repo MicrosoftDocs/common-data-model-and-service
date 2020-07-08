@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Reason code for restitution and complement in Miscellaneous
+# Reason code for restitution and complement in Miscellaneous(FBReasonCodeForRestitutionComplement_BR)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/FBReasonCodeForRestitutionComplement_BR.cdm.json" target="_blank">GitHub</a>.  

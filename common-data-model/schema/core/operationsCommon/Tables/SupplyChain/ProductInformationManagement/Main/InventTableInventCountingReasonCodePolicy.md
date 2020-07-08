@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Inventory counting reason code policy for item in Main
+# Inventory counting reason code policy for item in Main(InventTableInventCountingReasonCodePolicy)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/InventTableInventCountingReasonCodePolicy.cdm.json" target="_blank">GitHub</a>.  

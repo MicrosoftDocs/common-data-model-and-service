@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Defines budget register entries for budget reservation line in Miscellaneous
+# Defines budget register entries for budget reservation line in Miscellaneous(PSNBudgetReservationTransactionLineForCorrection)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Budget/Miscellaneous/PSNBudgetReservationTransactionLineForCorrection.cdm.json" target="_blank">GitHub</a>.  

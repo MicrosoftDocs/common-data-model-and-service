@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# CFOP and Credit base source in Miscellaneous
+# CFOP and Credit base source in Miscellaneous(FBCFOPCreditBaseSource_BR)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/FBCFOPCreditBaseSource_BR.cdm.json" target="_blank">GitHub</a>.  

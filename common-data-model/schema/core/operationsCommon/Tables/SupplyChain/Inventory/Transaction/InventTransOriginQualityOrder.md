@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Relationship between the inventory quality order and the inventory transactions originator in Transaction
+# Relationship between the inventory quality order and the inventory transactions originator in Transaction(InventTransOriginQualityOrder)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/Transaction/InventTransOriginQualityOrder.cdm.json" target="_blank">GitHub</a>.  

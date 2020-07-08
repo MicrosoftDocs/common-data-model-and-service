@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Project Contract Project Price List in projectServiceAutomation
+# Project Contract Project Price List in projectServiceAutomation(OrderPriceList)
 
 Sales price list used on the contract to set default sales prices on all project-based components such as time and expense.  
   

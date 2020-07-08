@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Role competency requirement in projectServiceAutomation
+# Role competency requirement in projectServiceAutomation(RoleCompetencyRequirement)
 
 Entity used  to associate skills in a role.  
   

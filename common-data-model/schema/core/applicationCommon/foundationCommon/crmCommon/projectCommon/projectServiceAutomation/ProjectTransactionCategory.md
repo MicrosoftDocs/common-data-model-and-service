@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Project Transaction Category (Deprecated) in projectServiceAutomation
+# Project Transaction Category (Deprecated) in projectServiceAutomation(ProjectTransactionCategory)
 
 (Deprecated in v3.0)  
   

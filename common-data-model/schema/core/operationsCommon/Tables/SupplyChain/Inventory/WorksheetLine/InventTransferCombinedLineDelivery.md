@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Combined transfer order line delivery in WorksheetLine
+# Combined transfer order line delivery in WorksheetLine(InventTransferCombinedLineDelivery)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/Inventory/WorksheetLine/InventTransferCombinedLineDelivery.cdm.json" target="_blank">GitHub</a>.  

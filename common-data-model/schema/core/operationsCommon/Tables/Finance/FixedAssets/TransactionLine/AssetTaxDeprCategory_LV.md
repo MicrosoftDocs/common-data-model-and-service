@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Tax depreciation details for category in TransactionLine
+# Tax depreciation details for category in TransactionLine(AssetTaxDeprCategory_LV)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FixedAssets/TransactionLine/AssetTaxDeprCategory_LV.cdm.json" target="_blank">GitHub</a>.  

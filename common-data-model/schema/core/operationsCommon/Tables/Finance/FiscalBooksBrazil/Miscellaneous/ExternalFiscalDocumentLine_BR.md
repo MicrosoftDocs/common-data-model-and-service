@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# External fiscal document line information in Miscellaneous
+# External fiscal document line information in Miscellaneous(ExternalFiscalDocumentLine_BR)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/ExternalFiscalDocumentLine_BR.cdm.json" target="_blank">GitHub</a>.  

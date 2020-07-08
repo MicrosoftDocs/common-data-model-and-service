@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Transaction Category Price in projectServiceAutomation
+# Transaction Category Price in projectServiceAutomation(TransactionCategoryPriceLevel)
 
 List of prices by category on a price list.  
   

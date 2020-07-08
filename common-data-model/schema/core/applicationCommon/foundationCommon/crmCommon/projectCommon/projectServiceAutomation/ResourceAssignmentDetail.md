@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Resource Assignment Detail (Deprecated in v2.0) in projectServiceAutomation
+# Resource Assignment Detail (Deprecated in v2.0) in projectServiceAutomation(ResourceAssignmentDetail)
 
 Entity used to keep track of resource assignment details on tasks.   
   

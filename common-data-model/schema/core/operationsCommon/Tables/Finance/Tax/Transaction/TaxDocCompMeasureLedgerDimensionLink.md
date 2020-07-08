@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Tax document component measure ledger dimension link in Transaction
+# Tax document component measure ledger dimension link in Transaction(TaxDocCompMeasureLedgerDimensionLink)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Tax/Transaction/TaxDocCompMeasureLedgerDimensionLink.cdm.json" target="_blank">GitHub</a>.  

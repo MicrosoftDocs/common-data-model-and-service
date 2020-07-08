@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Fulfillment Preference in scheduling
+# Fulfillment Preference in scheduling(TimeGroup)
 
 Specify time groups consisting of multiple time windows to be used for scheduling, for example.  
   

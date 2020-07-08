@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Quote Project Price List in projectServiceAutomation
+# Quote Project Price List in projectServiceAutomation(QuotePriceList)
 
 Sales price list that will used by the quote to default sales prices on all project-based components such as time and expense.  
   

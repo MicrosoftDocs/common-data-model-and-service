@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Active configuration of electronic document sending service in Parameter
+# Active configuration of electronic document sending service in Parameter(LedgerRRGEDParameters_W)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Ledger/Parameter/LedgerRRGEDParameters_W.cdm.json" target="_blank">GitHub</a>.  

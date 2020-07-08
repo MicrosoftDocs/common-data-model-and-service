@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Withholding tax ledger posting groups in Tax
+# Withholding tax ledger posting groups in Tax(TaxWithholdLedgerAccountGroupEntity)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/Tax/TaxWithholdLedgerAccountGroupEntity.cdm.json" target="_blank">GitHub</a>.  

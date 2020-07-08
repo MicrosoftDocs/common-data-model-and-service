@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Account Project Price List in projectServiceAutomation
+# Account Project Price List in projectServiceAutomation(AccountPriceList)
 
 Sales price list for this customer to capture special pricing agreements for products, roles and categories.  
   

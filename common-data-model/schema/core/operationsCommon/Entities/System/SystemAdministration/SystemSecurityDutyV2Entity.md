@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# System Security Duty V2 in SystemAdministration
+# System Security Duty V2 in SystemAdministration(SystemSecurityDutyV2Entity)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/System/SystemAdministration/SystemSecurityDutyV2Entity.cdm.json" target="_blank">GitHub</a>.  

@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Project Contract Line Milestone in projectServiceAutomation
+# Project Contract Line Milestone in projectServiceAutomation(ContractLineScheduleOfValue)
 
 List of billing milestones and invoice amounts for this project contract line.  
   

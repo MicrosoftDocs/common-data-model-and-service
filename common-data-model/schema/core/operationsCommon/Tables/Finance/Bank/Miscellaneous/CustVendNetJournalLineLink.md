@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Linked netting journal lines in Miscellaneous
+# Linked netting journal lines in Miscellaneous(CustVendNetJournalLineLink)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Bank/Miscellaneous/CustVendNetJournalLineLink.cdm.json" target="_blank">GitHub</a>.  

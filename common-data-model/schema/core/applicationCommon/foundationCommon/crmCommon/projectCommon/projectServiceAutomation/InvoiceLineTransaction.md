@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Invoice Line Detail in projectServiceAutomation
+# Invoice Line Detail in projectServiceAutomation(InvoiceLineTransaction)
 
 Transactions that are associated to an invoice line.  
   

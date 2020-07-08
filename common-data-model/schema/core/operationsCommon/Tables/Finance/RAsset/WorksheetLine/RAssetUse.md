@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Product output/mileage in WorksheetLine
+# Product output/mileage in WorksheetLine(RAssetUse)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/RAsset/WorksheetLine/RAssetUse.cdm.json" target="_blank">GitHub</a>.  

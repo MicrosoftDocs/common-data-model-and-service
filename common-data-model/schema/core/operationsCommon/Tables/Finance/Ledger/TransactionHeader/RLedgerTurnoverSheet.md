@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Turnover and balances statement report archive in TransactionHeader
+# Turnover and balances statement report archive in TransactionHeader(RLedgerTurnoverSheet)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/Ledger/TransactionHeader/RLedgerTurnoverSheet.cdm.json" target="_blank">GitHub</a>.  

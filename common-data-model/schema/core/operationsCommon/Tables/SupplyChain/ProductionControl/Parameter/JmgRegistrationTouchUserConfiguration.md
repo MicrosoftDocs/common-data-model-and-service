@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/7/2020
+ms.date: 7/8/2020
 ms.author: nebanfic
 ---
 
-# Configuration of touch experience for job card registration in Parameter
+# Configuration of touch experience for job card registration in Parameter(JmgRegistrationTouchUserConfiguration)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProductionControl/Parameter/JmgRegistrationTouchUserConfiguration.cdm.json" target="_blank">GitHub</a>.  
