@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -85,9 +85,7 @@ ms.author: nebanfic
 |[registrationStatus](#registrationStatus)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 |[syncedWithProvider](#syncedWithProvider)|A flag that indicates that the registration was synced with provider|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 |[syncedWithProvider_display](#syncedWithProvider_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
-|[timesCheckedIn](#timesCheckedIn)|Hidden field. Number of Event Check-ins related to this ER.
-Used as partial aggregation for Check-in count of Event.
-Increasing and decreasing done by corresponding workflows.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
+|[timesCheckedIn](#timesCheckedIn)|Hidden field. Number of Event Check-ins related to this ER.Used as partial aggregation for Check-in count of Event.Increasing and decreasing done by corresponding workflows.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 |[webinarRegistrationID](#webinarRegistrationID)|Webinar ID of the Event Registration.|<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 |[yearsInIndustry](#yearsInIndustry)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|
 |[yearsInIndustry_display](#yearsInIndustry_display)||<a href="EventRegistration.md" target="_blank">eventManagement/EventRegistration</a>|

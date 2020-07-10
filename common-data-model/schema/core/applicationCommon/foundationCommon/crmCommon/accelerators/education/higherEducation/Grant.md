@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -66,8 +66,7 @@ This entity stores the list of grants offered to a school by all business partne
 |[versionNumber](#versionNumber)|Version Number|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[grantId](#grantId)|Unique identifier for entity instances|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
-|[amount](#amount)|Amount offered to perform required research
-|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[amount](#amount)|Amount offered to perform required research|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[amount_Base](#amount_Base)|Value of the Amount in base currency.|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[applicationDeadlineDate](#applicationDeadlineDate)|Last date to apply|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[areaOfStudyId](#areaOfStudyId)|Field in which grant of offered|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
@@ -78,8 +77,7 @@ This entity stores the list of grants offered to a school by all business partne
 |[qualifications](#qualifications)|Qualifications required to be eligible for Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[responsibleFacultyContactId](#responsibleFacultyContactId)|Name of the professor guiding research|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[validFrom](#validFrom)|Start Date of Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
-|[validTo](#validTo)|End Date of Grant
-|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
+|[validTo](#validTo)|End Date of Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[websiteURL](#websiteURL)|Grant URL|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[workDescription](#workDescription)|Description of work to be performed|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|
 |[stateCode](#stateCode)|Status of the Grant|<a href="Grant.md" target="_blank">higherEducation/Grant</a>|

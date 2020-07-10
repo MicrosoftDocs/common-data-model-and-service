@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -70,15 +70,12 @@ This entity is used as an scholarship application form and to store the list of 
 |[applicationStateCode_display](#applicationStateCode_display)||<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[businessPartnerId](#businessPartnerId)|Partner offering scholarship|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[name](#name)|Required name field|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
-|[offerAcceptedDate](#offerAcceptedDate)|Date the offer was accepted
-|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
+|[offerAcceptedDate](#offerAcceptedDate)|Date the offer was accepted|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[offerDeadlineDate](#offerDeadlineDate)|Deadline to accept the offer|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[offerMadeDate](#offerMadeDate)|Date the offer was made|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
-|[qualificationDescription](#qualificationDescription)|Description about why an applicant should be selected for the scholarship
-|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
+|[qualificationDescription](#qualificationDescription)|Description about why an applicant should be selected for the scholarship|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[scholarshipId](#scholarshipId)|Scholarship Applied for|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
-|[submissionDate](#submissionDate)|Date the application was submitted
-|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
+|[submissionDate](#submissionDate)|Date the application was submitted|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[processId](#processId)|Contains the id of the process associated with the entity.|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[deprecatedStageId](#deprecatedStageId)|Contains the id of the stage where the entity is located.|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[stateCode](#stateCode)|Status of the Scholarship Applicant|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|

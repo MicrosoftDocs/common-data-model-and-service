@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -63,8 +63,7 @@ ms.author: nebanfic
 |[forumThreadTypeId](#forumThreadTypeId)|Shows the entity instances.|<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
 |[stateCode](#stateCode)|Status of the Forum Thread Type|<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
 |[stateCode_display](#stateCode_display)||<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
-|[statusCode](#statusCode)|Select the forum thread type's status.
-|<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
+|[statusCode](#statusCode)|Select the forum thread type's status.|<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
 |[statusCode_display](#statusCode_display)||<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
 |[name](#name)|Shows the name of the custom entity.|<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|
 |[allowsVoting](#allowsVoting)||<a href="ForumThreadType.md" target="_blank">portals/ForumThreadType</a>|

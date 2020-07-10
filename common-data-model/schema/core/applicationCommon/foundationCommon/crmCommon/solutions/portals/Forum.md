@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -63,8 +63,7 @@ ms.author: nebanfic
 |[communityForumId](#communityForumId)|Shows the entity instances.|<a href="Forum.md" target="_blank">portals/Forum</a>|
 |[stateCode](#stateCode)|Status of the Forum|<a href="Forum.md" target="_blank">portals/Forum</a>|
 |[stateCode_display](#stateCode_display)||<a href="Forum.md" target="_blank">portals/Forum</a>|
-|[statusCode](#statusCode)|Select the forum's status.
-|<a href="Forum.md" target="_blank">portals/Forum</a>|
+|[statusCode](#statusCode)|Select the forum's status.|<a href="Forum.md" target="_blank">portals/Forum</a>|
 |[statusCode_display](#statusCode_display)||<a href="Forum.md" target="_blank">portals/Forum</a>|
 |[name](#name)|Shows the name of the custom entity.|<a href="Forum.md" target="_blank">portals/Forum</a>|
 |[description](#description)||<a href="Forum.md" target="_blank">portals/Forum</a>|

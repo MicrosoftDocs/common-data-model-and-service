@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -67,8 +67,7 @@ A post belonging to a portal blog.
 |[blogPostId](#blogPostId)|Shows the entity instances.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 |[stateCode](#stateCode)|Shows whether the blog post is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 |[stateCode_display](#stateCode_display)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
-|[statusCode](#statusCode)|Select the blog post's status.
-|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
+|[statusCode](#statusCode)|Select the blog post's status.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 |[statusCode_display](#statusCode_display)||<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 |[name](#name)|Shows the name or title of the blog post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|
 |[authorId](#authorId)|Shows the author of the blog post.|<a href="BlogPost.md" target="_blank">portals/BlogPost</a>|

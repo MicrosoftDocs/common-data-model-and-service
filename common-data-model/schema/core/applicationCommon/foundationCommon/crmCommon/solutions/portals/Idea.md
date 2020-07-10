@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -67,8 +67,7 @@ An idea belonging to a portal Idea Forum.
 |[ideaId](#ideaId)|Shows the entity instances.|<a href="Idea.md" target="_blank">portals/Idea</a>|
 |[stateCode](#stateCode)|Shows whether the idea is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="Idea.md" target="_blank">portals/Idea</a>|
 |[stateCode_display](#stateCode_display)||<a href="Idea.md" target="_blank">portals/Idea</a>|
-|[statusCode](#statusCode)|Select the idea's status.
-|<a href="Idea.md" target="_blank">portals/Idea</a>|
+|[statusCode](#statusCode)|Select the idea's status.|<a href="Idea.md" target="_blank">portals/Idea</a>|
 |[statusCode_display](#statusCode_display)||<a href="Idea.md" target="_blank">portals/Idea</a>|
 |[name](#name)|Shows the name or title of the idea.|<a href="Idea.md" target="_blank">portals/Idea</a>|
 |[approved](#approved)|Indicates whether or not this idea is approved for display.|<a href="Idea.md" target="_blank">portals/Idea</a>|

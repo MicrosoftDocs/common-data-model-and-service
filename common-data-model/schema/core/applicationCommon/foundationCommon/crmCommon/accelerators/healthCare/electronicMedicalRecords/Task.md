@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -123,8 +123,7 @@ Generic activity representing work needed to be done.
 |[referenceId](#referenceId)|A reference to a formal or informal definition of the task. For example, a protocol, a step within a defined workflow definition, etc.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgent](#requesterAgent)|The device, practitioner, etc. who initiated the task.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgent_display](#requesterAgent_display)||<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
-|[requesterAgentDeviceId](#requesterAgentDeviceId)|" 
-This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
+|[requesterAgentDeviceId](#requesterAgentDeviceId)|" This resource identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgentOrganizationId](#requesterAgentOrganizationId)|A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgentPatientId](#requesterAgentPatientId)|Demographics and other administrative information about an individual or animal receiving care or other health-related services.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|
 |[requesterAgentPractitionerId](#requesterAgentPractitionerId)|A person who is directly or indirectly involved in the provisioning of healthcare.|<a href="Task.md" target="_blank">electronicMedicalRecords/Task</a>|

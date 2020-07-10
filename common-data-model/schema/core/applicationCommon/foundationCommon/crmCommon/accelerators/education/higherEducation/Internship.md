@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -68,19 +68,15 @@ This entity stores the list of internships offered to a school by all business p
 |[applicationDeadlineDate](#applicationDeadlineDate)|Last date to apply for internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[businessPartnerId](#businessPartnerId)|Business Partner|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[businessPartnerContactId](#businessPartnerContactId)|Internship point of contact|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
-|[description](#description)|Description about the internship
-|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
+|[description](#description)|Description about the internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[isPaid](#isPaid)|Is the internship paid/unpaid|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[locationDescription](#locationDescription)|Location where work is performed|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
-|[postedDate](#postedDate)|Date the internship was posted 
-|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
+|[postedDate](#postedDate)|Date the internship was posted |<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[qualifications](#qualifications)|Qualifications required to be eligible for Internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[title](#title)|Required name field|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[validFrom](#validFrom)|Start date of the internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
-|[validTo](#validTo)|End date of the internship
-|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
-|[websiteURL](#websiteURL)|Internship URL
-|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
+|[validTo](#validTo)|End date of the internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
+|[websiteURL](#websiteURL)|Internship URL|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[stateCode](#stateCode)|Status of the Internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[stateCode_display](#stateCode_display)||<a href="Internship.md" target="_blank">higherEducation/Internship</a>|
 |[statusCode](#statusCode)|Reason for the status of the Internship|<a href="Internship.md" target="_blank">higherEducation/Internship</a>|

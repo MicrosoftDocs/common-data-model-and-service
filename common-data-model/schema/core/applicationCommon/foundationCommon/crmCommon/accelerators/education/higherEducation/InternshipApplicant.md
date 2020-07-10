@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -70,13 +70,11 @@ This entity is used as an internship application form and to store the list of s
 |[applicationStateCode_display](#applicationStateCode_display)||<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[businessPartnerId](#businessPartnerId)|Partner offering internship|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[internshipId](#internshipId)|Internship being applied for|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
-|[isWillingToRelocate](#isWillingToRelocate)|Is the applicant willing to relocate
-|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
+|[isWillingToRelocate](#isWillingToRelocate)|Is the applicant willing to relocate|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[name](#name)|Required name field|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[offerAcceptedDate](#offerAcceptedDate)|Date the offer was accepted|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[offerDeadlineDate](#offerDeadlineDate)|Deadline to accept the offer|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
-|[offerMadeDate](#offerMadeDate)|Date the offer was made
-|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
+|[offerMadeDate](#offerMadeDate)|Date the offer was made|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[qualificationDescription](#qualificationDescription)|Description about why an applicant should be selected for the internship|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[submissionDate](#submissionDate)|Date the application was submitted|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|
 |[processId](#processId)|Contains the id of the process associated with the entity.|<a href="InternshipApplicant.md" target="_blank">higherEducation/InternshipApplicant</a>|

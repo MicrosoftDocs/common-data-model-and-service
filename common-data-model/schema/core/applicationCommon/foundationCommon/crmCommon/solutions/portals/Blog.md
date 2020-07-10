@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -67,8 +67,7 @@ The root entity for a portal blog.
 |[blogId](#blogId)|Shows the entity instances.|<a href="Blog.md" target="_blank">portals/Blog</a>|
 |[stateCode](#stateCode)|Shows whether the blog is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.|<a href="Blog.md" target="_blank">portals/Blog</a>|
 |[stateCode_display](#stateCode_display)||<a href="Blog.md" target="_blank">portals/Blog</a>|
-|[statusCode](#statusCode)|Select the blog's status.
-|<a href="Blog.md" target="_blank">portals/Blog</a>|
+|[statusCode](#statusCode)|Select the blog's status.|<a href="Blog.md" target="_blank">portals/Blog</a>|
 |[statusCode_display](#statusCode_display)||<a href="Blog.md" target="_blank">portals/Blog</a>|
 |[name](#name)|Shows the name or title of the blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|
 |[archiveTemplateId](#archiveTemplateId)|Shows the page template to be used to render the archive page (for example, posts by date, tags, and so on) of the blog.|<a href="Blog.md" target="_blank">portals/Blog</a>|

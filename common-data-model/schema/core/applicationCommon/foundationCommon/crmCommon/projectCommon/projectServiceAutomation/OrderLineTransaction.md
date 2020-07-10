@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -77,11 +77,7 @@ Sales estimate detail of an project contract line.
 |[transactionCurrencyId](#transactionCurrencyId)|Shows the currency associated with the entity.|<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
 |[exchangeRate](#exchangeRate)|Exchange rate for the currency associated with the entity with respect to the base currency.|<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
 |[amountBase](#amountBase)|Value of the Amount in base currency.|<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
-|[amountMethod](#amountMethod)|Select the amount calculation method used for this project contract estimate line. Valid values are: 
-0: Multiply Quantity By Price
-1: Fixed Price
-2: Multiply Basis Quantity By Price
-3: Multiply Basis Amount By Percent |<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
+|[amountMethod](#amountMethod)|Select the amount calculation method used for this project contract estimate line. Valid values are: 0: Multiply Quantity By Price1: Fixed Price2: Multiply Basis Quantity By Price3: Multiply Basis Amount By Percent |<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
 |[amountMethod_display](#amountMethod_display)||<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
 |[basisAmount](#basisAmount)||<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|
 |[basisAmountBase](#basisAmountBase)|Value of the Basis Amount in base currency.|<a href="OrderLineTransaction.md" target="_blank">projectServiceAutomation/OrderLineTransaction</a>|

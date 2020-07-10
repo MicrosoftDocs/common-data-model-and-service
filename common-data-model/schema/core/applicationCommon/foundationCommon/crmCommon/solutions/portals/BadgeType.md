@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -62,11 +62,7 @@ ms.author: nebanfic
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Shows the time zone code that was in use when the record was created.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 |[name](#name)|Shows the name of the custom entity.|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
-|[backgroundColor](#backgroundColor)|Enter a hex value or RGB or RGBA
-
-ex: #FFFFFF
-rgb(255,255,255)
-rgba(255,255,255,0.5)|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
+|[backgroundColor](#backgroundColor)|Enter a hex value or RGB or RGBAex: #FFFFFFrgb(255,255,255)rgba(255,255,255,0.5)|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 |[description](#description)||<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 |[displayText](#displayText)|Actual shown label for the badge|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|
 |[iconName](#iconName)|Add font awesome name such as fa-user|<a href="BadgeType.md" target="_blank">portals/BadgeType</a>|

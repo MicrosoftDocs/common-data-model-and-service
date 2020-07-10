@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/8/2020
+ms.date: 7/10/2020
 ms.author: nebanfic
 ---
 
@@ -64,21 +64,9 @@ A Salutation represents the way a constituent wishes to be addressed, depending 
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
-|[addressLabelLine1](#addressLabelLine1)|The first line of the address label when printing an envelope
->Mr John Smith
-Mrs Wilma Smith
-1234 Main Street
-Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
-|[addressLabelLine2](#addressLabelLine2)|This is the 2nd line of the envelope usually the 2nd person in the household if applicable
-Mr John Smith
->Mrs Wilma Smith
-1234 Main Street
-Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
-|[addressLabelLine3](#addressLabelLine3)|This is the 3rd line of the address which could be an Organization name or a C/O
-Mr John Smith
-Mrs Wilma Smith c/o Anytown Company
-1234 Main Street
-Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
+|[addressLabelLine1](#addressLabelLine1)|The first line of the address label when printing an envelope>Mr John SmithMrs Wilma Smith1234 Main StreetAnytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
+|[addressLabelLine2](#addressLabelLine2)|This is the 2nd line of the envelope usually the 2nd person in the household if applicableMr John Smith>Mrs Wilma Smith1234 Main StreetAnytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
+|[addressLabelLine3](#addressLabelLine3)|This is the 3rd line of the address which could be an Organization name or a C/OMr John SmithMrs Wilma Smith c/o Anytown Company1234 Main StreetAnytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[communicationMethod](#communicationMethod)|Indicates that this Salutation should be applied when the Customer is contacted via the indicated communication channel|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[communicationMethod_display](#communicationMethod_display)||<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[constituentType](#constituentType)|Indicates that this Salutation should be applied when the Customer is contacted in their capacity as the indicated ConstituentType|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
