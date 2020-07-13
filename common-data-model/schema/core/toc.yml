@@ -1,5 +1,3 @@
-- name: Summary
-  href: overview.md
 - name: applicationCommon
   items:
   - name: foundationCommon
