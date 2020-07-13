@@ -2,24 +2,14 @@
   href: overview.md
 - name: applicationCommon
   items:
-  - name: Summary
-    href: applicationCommon/overview.md
   - name: foundationCommon
     items:
-    - name: Summary
-      href: applicationCommon/foundationCommon/overview.md
     - name: crmCommon
       items:
-      - name: Summary
-        href: applicationCommon/foundationCommon/crmCommon/overview.md
       - name: accelerators
         items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/accelerators/overview.md
         - name: automotive
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/overview.md
           - name: AggregateKPI 
             href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/AggregateKPI.md
           - name: AggregateKPIContext 
@@ -202,12 +192,8 @@
             href: applicationCommon/foundationCommon/crmCommon/accelerators/automotive/WarrantyType.md
         - name: education
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/education/overview.md
           - name: higherEducation
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/overview.md
             - name: AcademicPeriod 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/AcademicPeriod.md
             - name: AcademicPeriodDetail 
@@ -276,12 +262,8 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/TestType.md
         - name: financialServices
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/overview.md
           - name: banking
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Account.md
             - name: Bank 
@@ -332,12 +314,8 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.md
         - name: healthCare
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/overview.md
           - name: electronicMedicalRecords
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
             - name: AccountType 
@@ -1010,12 +988,8 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/VisionPrescriptionDispense.md
         - name: nonProfit
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/overview.md
           - name: nonProfitCore
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.md
             - name: Address 
@@ -1114,8 +1088,6 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/WorkItemAction.md
           - name: nonProfitForSales
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/overview.md
             - name: Campaign 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Campaign.md
             - name: CreditPlan 
@@ -1146,8 +1118,6 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Transaction.md
           - name: nonProfitIati
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.md
             - name: AidType 
@@ -1256,8 +1226,6 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Website.md
           - name: nonProfitMeasurement
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/overview.md
             - name: DeliveryFramework 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/DeliveryFramework.md
             - name: Indicator 
@@ -1272,8 +1240,6 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitMeasurement/Result.md
           - name: nonProfitVolunteers
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Account.md
             - name: Contact 
@@ -1284,12 +1250,8 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Schedule.md
       - name: projectCommon
         items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/projectCommon/overview.md
         - name: projectServiceAutomation
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/overview.md
           - name: Account 
             href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Account.md
           - name: AccountPriceList 
@@ -1468,8 +1430,6 @@
             href: applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/UserWorkHistory.md
         - name: scheduling
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/overview.md
           - name: Actual 
             href: applicationCommon/foundationCommon/crmCommon/projectCommon/scheduling/Actual.md
           - name: BookableResourceAssociation 
@@ -1550,8 +1510,6 @@
           href: applicationCommon/foundationCommon/crmCommon/projectCommon/User.md
       - name: sales
         items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/sales/overview.md
         - name: Competitor 
           href: applicationCommon/foundationCommon/crmCommon/sales/Competitor.md
         - name: CompetitorAddress 
@@ -1612,8 +1570,6 @@
           href: applicationCommon/foundationCommon/crmCommon/sales/SalesLiterature.md
       - name: service
         items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/service/overview.md
         - name: ActivityParty 
           href: applicationCommon/foundationCommon/crmCommon/service/ActivityParty.md
         - name: Case 
@@ -1662,12 +1618,8 @@
           href: applicationCommon/foundationCommon/crmCommon/service/User.md
       - name: solutions
         items:
-        - name: Summary
-          href: applicationCommon/foundationCommon/crmCommon/solutions/overview.md
         - name: customerInsights
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/overview.md
           - name: CustomerActivity 
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/CustomerActivity.md
           - name: CustomerProfile 
@@ -1680,12 +1632,8 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
         - name: marketing
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/overview.md
           - name: LinkedInLeads
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/overview.md
             - name: LinkedInAccount 
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInAccount.md
             - name: LinkedInCampaign 
@@ -1700,8 +1648,6 @@
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/LinkedInLeads/LinkedInLeadGenFormSubmission.md
           - name: eventManagement
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/overview.md
             - name: Account 
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/Account.md
             - name: AttendeePass 
@@ -1758,8 +1704,6 @@
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/eventManagement/WaitlistItem.md
           - name: interactions
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/overview.md
             - name: ActivityContactDispatched 
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/ActivityContactDispatched.md
             - name: ActivityContactProcessingFailed 
@@ -1840,8 +1784,6 @@
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/WebsiteVisited.md
           - name: marketingLeads
             items:
-            - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/overview.md
             - name: LeadScoringModel 
               href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/marketingLeads/LeadScoringModel.md
           - name: Appointment 
@@ -1882,8 +1824,6 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/marketing/Website.md
         - name: portals
           items:
-          - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/solutions/portals/overview.md
           - name: Account 
             href: applicationCommon/foundationCommon/crmCommon/solutions/portals/Account.md
           - name: Ad 
@@ -2008,8 +1948,6 @@
         href: applicationCommon/foundationCommon/crmCommon/SocialActivity.md
     - name: financialCommon
       items:
-      - name: Summary
-        href: applicationCommon/foundationCommon/financialCommon/overview.md
       - name: FinancialActivity 
         href: applicationCommon/foundationCommon/financialCommon/FinancialActivity.md
       - name: FiscalCalendarPeriod 
@@ -2022,8 +1960,6 @@
         href: applicationCommon/foundationCommon/financialCommon/MainAccountCategory.md
     - name: productInsights
       items:
-      - name: Summary
-        href: applicationCommon/foundationCommon/productInsights/overview.md
       - name: Asset 
         href: applicationCommon/foundationCommon/productInsights/Asset.md
       - name: Signal 
@@ -2170,20 +2106,12 @@
     href: applicationCommon/User.md
 - name: operationsCommon
   items:
-  - name: Summary
-    href: operationsCommon/overview.md
   - name: Entities
     items:
-    - name: Summary
-      href: operationsCommon/Entities/overview.md
     - name: Common
       items:
-      - name: Summary
-        href: operationsCommon/Entities/Common/overview.md
       - name: Currency
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Common/Currency/overview.md
         - name: ExchangeRateCDSEntity 
           href: operationsCommon/Entities/Common/Currency/ExchangeRateCDSEntity.md
         - name: ExchangeRateCurrencyPairCalculationRulesEntity 
@@ -2192,22 +2120,16 @@
           href: operationsCommon/Entities/Common/Currency/ExchangeRateCurrencyPairEntity.md
       - name: Customer
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Common/Customer/overview.md
         - name: CustTableChangeProposalFieldEnablementEntity 
           href: operationsCommon/Entities/Common/Customer/CustTableChangeProposalFieldEnablementEntity.md
         - name: DimAttributeCustGroupEntity 
           href: operationsCommon/Entities/Common/Customer/DimAttributeCustGroupEntity.md
       - name: EMPAShared
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Common/EMPAShared/overview.md
         - name: SharedCategoryEntity 
           href: operationsCommon/Entities/Common/EMPAShared/SharedCategoryEntity.md
       - name: GAB
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Common/GAB/overview.md
         - name: BranchEntity 
           href: operationsCommon/Entities/Common/GAB/BranchEntity.md
         - name: CompanyInfoEntity 
@@ -2336,12 +2258,8 @@
           href: operationsCommon/Entities/Common/GAB/SystemSecurityUserRoleOrganizationEntity.md
     - name: Finance
       items:
-      - name: Summary
-        href: operationsCommon/Entities/Finance/overview.md
       - name: APARShared
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/APARShared/overview.md
         - name: AgingPeriodDefinitionEntity 
           href: operationsCommon/Entities/Finance/APARShared/AgingPeriodDefinitionEntity.md
         - name: BankReturnFormatErrorCodesEntity 
@@ -2412,8 +2330,6 @@
           href: operationsCommon/Entities/Finance/APARShared/smmBusinessSubsegmentEntity.md
       - name: AccountsPayable
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/AccountsPayable/overview.md
         - name: BankVendPaymModeBankAccountsEntity 
           href: operationsCommon/Entities/Finance/AccountsPayable/BankVendPaymModeBankAccountsEntity.md
         - name: CustomChequeLayoutEntity 
@@ -2520,8 +2436,6 @@
           href: operationsCommon/Entities/Finance/AccountsPayable/VendorPriceToleranceGroupEntity.md
       - name: AccountsReceivable
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/AccountsReceivable/overview.md
         - name: BankCustPaymModeBankAccountsEntity 
           href: operationsCommon/Entities/Finance/AccountsReceivable/BankCustPaymModeBankAccountsEntity.md
         - name: CancelFiscalDocumentEntity 
@@ -2848,8 +2762,6 @@
           href: operationsCommon/Entities/Finance/AccountsReceivable/smmSalesDistrictEntity.md
       - name: Budgeting
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/Budgeting/overview.md
         - name: BudgetAllocationTermEntity 
           href: operationsCommon/Entities/Finance/Budgeting/BudgetAllocationTermEntity.md
         - name: BudgetAllowTransferRuleEntity 
@@ -2962,8 +2874,6 @@
           href: operationsCommon/Entities/Finance/Budgeting/PurchCommitmentLineEntity.md
       - name: CashAndBankManagement
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/CashAndBankManagement/overview.md
         - name: BLWICountryRegionGroupEntity 
           href: operationsCommon/Entities/Finance/CashAndBankManagement/BLWICountryRegionGroupEntity.md
         - name: BLWICurrencyEntity 
@@ -3076,8 +2986,6 @@
           href: operationsCommon/Entities/Finance/CashAndBankManagement/VendPaymFeeBankRuleEntity.md
       - name: EInvoice
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/EInvoice/overview.md
         - name: EInvoiceExtCodeTableEntity 
           href: operationsCommon/Entities/Finance/EInvoice/EInvoiceExtCodeTableEntity.md
         - name: EInvoicePropertyTableEntity 
@@ -3088,8 +2996,6 @@
           href: operationsCommon/Entities/Finance/EInvoice/EInvoicePropertyTypeTableEntity.md
       - name: FinancialDimensions
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/FinancialDimensions/overview.md
         - name: DerivedDimensionAttributeEntity 
           href: operationsCommon/Entities/Finance/FinancialDimensions/DerivedDimensionAttributeEntity.md
         - name: DerivedDimensionAttributeValuesEntity 
@@ -3146,8 +3052,6 @@
           href: operationsCommon/Entities/Finance/FinancialDimensions/OMDimensionRelationshipConstraintEntity.md
       - name: FiscalBooks_BR
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/FiscalBooks_BR/overview.md
         - name: DimAttributeFiscalEstablishment_BREntity 
           href: operationsCommon/Entities/Finance/FiscalBooks_BR/DimAttributeFiscalEstablishment_BREntity.md
         - name: EFDocTechResponsibleInformationEntity 
@@ -3158,8 +3062,6 @@
           href: operationsCommon/Entities/Finance/FiscalBooks_BR/FBReasonCodeForRestitutionComplementEntity_BR.md
       - name: FixedAssets
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/FixedAssets/overview.md
         - name: AssetAcceleratedDepreciationGroupEntity 
           href: operationsCommon/Entities/Finance/FixedAssets/AssetAcceleratedDepreciationGroupEntity.md
         - name: AssetAcquisitionMethodEntity 
@@ -3280,8 +3182,6 @@
           href: operationsCommon/Entities/Finance/FixedAssets/DimAttributeAssetGroupEntity.md
       - name: GeneralLedger
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/GeneralLedger/overview.md
         - name: AccountantEntity 
           href: operationsCommon/Entities/Finance/GeneralLedger/AccountantEntity.md
         - name: AdvancedLedgerEntryEntity 
@@ -3600,8 +3500,6 @@
           href: operationsCommon/Entities/Finance/GeneralLedger/SubledgerJournalTransferRuleEntity.md
       - name: RAsset
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/RAsset/overview.md
         - name: DimAttributeRAssetTable_RUEntity 
           href: operationsCommon/Entities/Finance/RAsset/DimAttributeRAssetTable_RUEntity.md
         - name: RAssetDeprProfileEntity 
@@ -3648,14 +3546,10 @@
           href: operationsCommon/Entities/Finance/RAsset/RAssetUseEntity.md
       - name: RCash
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/RCash/overview.md
         - name: DimAttributeRCashTable_RUEntity 
           href: operationsCommon/Entities/Finance/RCash/DimAttributeRCashTable_RUEntity.md
       - name: RCashFlowManagement
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/RCashFlowManagement/overview.md
         - name: CFMJournalNameAggregationFieldEntity 
           href: operationsCommon/Entities/Finance/RCashFlowManagement/CFMJournalNameAggregationFieldEntity.md
         - name: CFMJournalNameCashBalanceControlEntity 
@@ -3678,8 +3572,6 @@
           href: operationsCommon/Entities/Finance/RCashFlowManagement/CFMSalesAgreementPaymentOrderEntity.md
       - name: RDeferrals
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/RDeferrals/overview.md
         - name: DimAttributeRDeferralsTable_RUEntity 
           href: operationsCommon/Entities/Finance/RDeferrals/DimAttributeRDeferralsTable_RUEntity.md
         - name: RDeferralsBookEntity 
@@ -3702,16 +3594,12 @@
           href: operationsCommon/Entities/Finance/RDeferrals/RDeferralsTableEntity.md
       - name: RSalesPurchBooks
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/RSalesPurchBooks/overview.md
         - name: FactureOperationCodeEntity 
           href: operationsCommon/Entities/Finance/RSalesPurchBooks/FactureOperationCodeEntity.md
         - name: VATOperationCodeTableEntity 
           href: operationsCommon/Entities/Finance/RSalesPurchBooks/VATOperationCodeTableEntity.md
       - name: RTax25
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/RTax25/overview.md
         - name: DimAttributeRTax25ProfitTable_RUEntity 
           href: operationsCommon/Entities/Finance/RTax25/DimAttributeRTax25ProfitTable_RUEntity.md
         - name: RTax25DebtPeriodEntity 
@@ -3750,8 +3638,6 @@
           href: operationsCommon/Entities/Finance/RTax25/RTax25TaxTableEntity.md
       - name: Tax
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/Tax/overview.md
         - name: DimAttributeTaxBranchEntity 
           href: operationsCommon/Entities/Finance/Tax/DimAttributeTaxBranchEntity.md
         - name: DiotDeclarationConceptEntity 
@@ -4122,8 +4008,6 @@
           href: operationsCommon/Entities/Finance/Tax/YearlyTaxCommunicationSetupEntity.md
       - name: TravelAndExpense
         items:
-        - name: Summary
-          href: operationsCommon/Entities/Finance/TravelAndExpense/overview.md
         - name: DimAttributeEmployeeTable_RUEntity 
           href: operationsCommon/Entities/Finance/TravelAndExpense/DimAttributeEmployeeTable_RUEntity.md
         - name: EmplAdvLineEntity 
@@ -4208,12 +4092,8 @@
           href: operationsCommon/Entities/Finance/TravelAndExpense/TrvValidatePaymentEntity.md
     - name: HumanResources
       items:
-      - name: Summary
-        href: operationsCommon/Entities/HumanResources/overview.md
       - name: HRM
         items:
-        - name: Summary
-          href: operationsCommon/Entities/HumanResources/HRM/overview.md
         - name: EmplPostingEntity_W 
           href: operationsCommon/Entities/HumanResources/HRM/EmplPostingEntity_W.md
         - name: HcmApplicantProjectRoleEntity 
@@ -4358,8 +4238,6 @@
           href: operationsCommon/Entities/HumanResources/HRM/PayrollPayPeriodEntity.md
       - name: Payroll
         items:
-        - name: Summary
-          href: operationsCommon/Entities/HumanResources/Payroll/overview.md
         - name: PayrollAccrualBasisEarningCodeEntity 
           href: operationsCommon/Entities/HumanResources/Payroll/PayrollAccrualBasisEarningCodeEntity.md
         - name: PayrollAccrualEarningCodeEntity 
@@ -4508,12 +4386,8 @@
           href: operationsCommon/Entities/HumanResources/Payroll/StateHolidayEntity.md
     - name: ProfessionalServices
       items:
-      - name: Summary
-        href: operationsCommon/Entities/ProfessionalServices/overview.md
       - name: ProjectManagementAndAccounting
         items:
-        - name: Summary
-          href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/overview.md
         - name: CategoryEntity 
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/CategoryEntity.md
         - name: ExpenseJournalHeaderEntity 
@@ -4750,12 +4624,8 @@
           href: operationsCommon/Entities/ProfessionalServices/ProjectManagementAndAccounting/TrvProjectExpensePolicyGroupEntity.md
     - name: SupplyChain
       items:
-      - name: Summary
-        href: operationsCommon/Entities/SupplyChain/overview.md
       - name: CostAccounting
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/CostAccounting/overview.md
         - name: CAMAggregatedCostEntryWithDefaultCostObjectHierarchyEntity 
           href: operationsCommon/Entities/SupplyChain/CostAccounting/CAMAggregatedCostEntryWithDefaultCostObjectHierarchyEntity.md
         - name: CAMAggregatedCostEntryWithHierarchiesEntity 
@@ -4776,8 +4646,6 @@
           href: operationsCommon/Entities/SupplyChain/CostAccounting/CAMImportedStatisticalMeasureEntity.md
       - name: CostManagement
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/CostManagement/overview.md
         - name: ACOCostCenterTypeEntity 
           href: operationsCommon/Entities/SupplyChain/CostManagement/ACOCostCenterTypeEntity.md
         - name: ACOJournalNameEntity 
@@ -4788,8 +4656,6 @@
           href: operationsCommon/Entities/SupplyChain/CostManagement/CostStatementEntryV2Entity.md
       - name: InventoryAndWarehouseManagement
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/overview.md
         - name: BOMBillOfMaterialsJournalNameEntity 
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/BOMBillOfMaterialsJournalNameEntity.md
         - name: ConsignmentInventoryOwnerEntity 
@@ -5158,8 +5024,6 @@
           href: operationsCommon/Entities/SupplyChain/InventoryAndWarehouseManagement/WMSWarehouseLocationBlockingCauseEntity.md
       - name: MasterPlanning
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/MasterPlanning/overview.md
         - name: ForecastDemandForecastEntryEntity 
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/ForecastDemandForecastEntryEntity.md
         - name: ForecastModelEntity 
@@ -5228,8 +5092,6 @@
           href: operationsCommon/Entities/SupplyChain/MasterPlanning/WrkCtrOperationsResourceCapacityReservationEntity.md
       - name: ProcurementAndSourcing
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/overview.md
         - name: CatProcurementCatalogCategoryEntity 
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/CatProcurementCatalogCategoryEntity.md
         - name: CatProcurementCatalogEntity 
@@ -5576,8 +5438,6 @@
           href: operationsCommon/Entities/SupplyChain/ProcurementAndSourcing/smmVendorContactPersonCDSEntity.md
       - name: ProductInformationManagement
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/overview.md
         - name: BOMBillOfMaterialsHeaderEntity 
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/BOMBillOfMaterialsHeaderEntity.md
         - name: BOMBillOfMaterialsLineV3Entity 
@@ -5814,8 +5674,6 @@
           href: operationsCommon/Entities/SupplyChain/ProductInformationManagement/UnitOfMeasureTranslationEntity.md
       - name: ProductionControl
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/ProductionControl/overview.md
         - name: JmgBundledJobsTimeAllocationKeyEntity 
           href: operationsCommon/Entities/SupplyChain/ProductionControl/JmgBundledJobsTimeAllocationKeyEntity.md
         - name: JmgElectronicTimecardActivityRegistrationHeaderEntity 
@@ -6006,8 +5864,6 @@
           href: operationsCommon/Entities/SupplyChain/ProductionControl/WrkCtrSiteSpecificOperationsResourceSchedulingParametersEntity.md
       - name: SalesAndMarketing
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/overview.md
         - name: AgreementExternalAgreementClassificationCodeEntity 
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/AgreementExternalAgreementClassificationCodeEntity.md
         - name: CommissionSalesRepresentativeGroupEntity 
@@ -6434,8 +6290,6 @@
           href: operationsCommon/Entities/SupplyChain/SalesAndMarketing/smmTransactionLoggingPolicyEntity.md
       - name: ServiceManagement
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/ServiceManagement/overview.md
         - name: SMAServiceAgreementGroupEntity 
           href: operationsCommon/Entities/SupplyChain/ServiceManagement/SMAServiceAgreementGroupEntity.md
         - name: SMAServiceAgreementHeaderEntity 
@@ -6488,8 +6342,6 @@
           href: operationsCommon/Entities/SupplyChain/ServiceManagement/SMAServiceTimeWindowEntity.md
       - name: Transportation
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/Transportation/overview.md
         - name: TMSAccessorialChargeMasterEntity 
           href: operationsCommon/Entities/SupplyChain/Transportation/TMSAccessorialChargeMasterEntity.md
         - name: TMSCarrierFuelIndexEntity 
@@ -6690,14 +6542,10 @@
           href: operationsCommon/Entities/SupplyChain/Transportation/WHSProductHarmonizedTariffCodeEntity.md
       - name: Vendor
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/Vendor/overview.md
         - name: VendTableChangeProposalFieldEnablementEntity 
           href: operationsCommon/Entities/SupplyChain/Vendor/VendTableChangeProposalFieldEnablementEntity.md
       - name: WMS
         items:
-        - name: Summary
-          href: operationsCommon/Entities/SupplyChain/WMS/overview.md
         - name: WHSAllowedContainerTypeEntity 
           href: operationsCommon/Entities/SupplyChain/WMS/WHSAllowedContainerTypeEntity.md
         - name: WHSAllowedContainerTypeGroupEntity 
@@ -6998,20 +6846,14 @@
           href: operationsCommon/Entities/SupplyChain/WMS/WMSWarehouseLocationParametersEntity.md
     - name: System
       items:
-      - name: Summary
-        href: operationsCommon/Entities/System/overview.md
       - name: OrganizationAdministration
         items:
-        - name: Summary
-          href: operationsCommon/Entities/System/OrganizationAdministration/overview.md
         - name: EmailTemplateMessageOrganizationEntity 
           href: operationsCommon/Entities/System/OrganizationAdministration/EmailTemplateMessageOrganizationEntity.md
         - name: EmailTemplateOrganizationEntity 
           href: operationsCommon/Entities/System/OrganizationAdministration/EmailTemplateOrganizationEntity.md
       - name: SystemAdministration
         items:
-        - name: Summary
-          href: operationsCommon/Entities/System/SystemAdministration/overview.md
         - name: BIDateGregorianEntity 
           href: operationsCommon/Entities/System/SystemAdministration/BIDateGregorianEntity.md
         - name: BatchGroupEntity 
@@ -7212,8 +7054,6 @@
           href: operationsCommon/Entities/System/SystemAdministration/SystemUserGroupUserListEntity.md
       - name: Workflow
         items:
-        - name: Summary
-          href: operationsCommon/Entities/System/Workflow/overview.md
         - name: ExpressionEntity 
           href: operationsCommon/Entities/System/Workflow/ExpressionEntity.md
         - name: WorkflowElementActionEntity 
@@ -7266,20 +7106,12 @@
           href: operationsCommon/Entities/System/Workflow/WorkflowWorkItemQueueGroupRelationEntity.md
   - name: Tables
     items:
-    - name: Summary
-      href: operationsCommon/Tables/overview.md
     - name: Common
       items:
-      - name: Summary
-        href: operationsCommon/Tables/Common/overview.md
       - name: Currency
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Common/Currency/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Currency/Group/overview.md
           - name: Currency 
             href: operationsCommon/Tables/Common/Currency/Group/Currency.md
           - name: CurrencyEuroDenomination 
@@ -7294,8 +7126,6 @@
             href: operationsCommon/Tables/Common/Currency/Group/ExchangeRateType.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Currency/Miscellaneous/overview.md
           - name: ExchangeRateCurrencyPairCalculationRules 
             href: operationsCommon/Tables/Common/Currency/Miscellaneous/ExchangeRateCurrencyPairCalculationRules.md
           - name: ExchangeRateProviderConfiguration 
@@ -7304,8 +7134,6 @@
             href: operationsCommon/Tables/Common/Currency/Miscellaneous/ExchangeRateProviderConfigurationDetails.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Currency/Reference/overview.md
           - name: CurrencyGender 
             href: operationsCommon/Tables/Common/Currency/Reference/CurrencyGender.md
           - name: ExchangeRate 
@@ -7314,34 +7142,22 @@
             href: operationsCommon/Tables/Common/Currency/Reference/ISOCurrencyCode.md
       - name: Customer
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Common/Customer/overview.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Customer/Main/overview.md
           - name: CustTable 
             href: operationsCommon/Tables/Common/Customer/Main/CustTable.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Customer/Miscellaneous/overview.md
           - name: CustTableChangeProposal 
             href: operationsCommon/Tables/Common/Customer/Miscellaneous/CustTableChangeProposal.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Customer/Parameter/overview.md
           - name: CustTableChangeProposalFieldEnablement 
             href: operationsCommon/Tables/Common/Customer/Parameter/CustTableChangeProposalFieldEnablement.md
       - name: EMPAShared
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Common/EMPAShared/overview.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/EMPAShared/Reference/overview.md
           - name: SharedCategory 
             href: operationsCommon/Tables/Common/EMPAShared/Reference/SharedCategory.md
           - name: SharedCategoryRoleType 
@@ -7350,12 +7166,8 @@
             href: operationsCommon/Tables/Common/EMPAShared/Reference/SharedCategoryRoles.md
       - name: GAB
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Common/GAB/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/Group/overview.md
           - name: AddressCountryRegionGroupBLWI 
             href: operationsCommon/Tables/Common/GAB/Group/AddressCountryRegionGroupBLWI.md
           - name: AddressTypeTable_RU 
@@ -7398,8 +7210,6 @@
             href: operationsCommon/Tables/Common/GAB/Group/OMHierPurposeOrgTypeMap.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/Main/overview.md
           - name: AddressCountryRegionBLWI 
             href: operationsCommon/Tables/Common/GAB/Main/AddressCountryRegionBLWI.md
           - name: DirAddressBookParty 
@@ -7472,8 +7282,6 @@
             href: operationsCommon/Tables/Common/GAB/Main/OMUserRoleOrganization.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/Miscellaneous/overview.md
           - name: CompanyInfoExtension_CN 
             href: operationsCommon/Tables/Common/GAB/Miscellaneous/CompanyInfoExtension_CN.md
           - name: DirPolicyPartition 
@@ -7534,8 +7342,6 @@
             href: operationsCommon/Tables/Common/GAB/Miscellaneous/UserExternalParty.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/Parameter/overview.md
           - name: DirAppParameters 
             href: operationsCommon/Tables/Common/GAB/Parameter/DirAppParameters.md
           - name: DirParameters 
@@ -7548,8 +7354,6 @@
             href: operationsCommon/Tables/Common/GAB/Parameter/LogisticsAddressParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/Reference/overview.md
           - name: DirNameAffix 
             href: operationsCommon/Tables/Common/GAB/Reference/DirNameAffix.md
           - name: DirNameSequence 
@@ -7566,24 +7370,16 @@
             href: operationsCommon/Tables/Common/GAB/Reference/OMTeamMembershipCriterion.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/Transaction/overview.md
           - name: AddressZipCodeImportLog_NL 
             href: operationsCommon/Tables/Common/GAB/Transaction/AddressZipCodeImportLog_NL.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/GAB/WorksheetLine/overview.md
           - name: CommReportTransItem_RU 
             href: operationsCommon/Tables/Common/GAB/WorksheetLine/CommReportTransItem_RU.md
       - name: Intrastat
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Common/Intrastat/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Intrastat/Group/overview.md
           - name: IntrastatArchiveGeneral 
             href: operationsCommon/Tables/Common/Intrastat/Group/IntrastatArchiveGeneral.md
           - name: IntrastatItemCode 
@@ -7600,16 +7396,12 @@
             href: operationsCommon/Tables/Common/Intrastat/Group/IntrastatTransportMode.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Intrastat/Main/overview.md
           - name: IntrastatArchiveDetail 
             href: operationsCommon/Tables/Common/Intrastat/Main/IntrastatArchiveDetail.md
           - name: IntrastatToProdcom 
             href: operationsCommon/Tables/Common/Intrastat/Main/IntrastatToProdcom.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Intrastat/Parameter/overview.md
           - name: IntrastatCompressParameters 
             href: operationsCommon/Tables/Common/Intrastat/Parameter/IntrastatCompressParameters.md
           - name: IntrastatCountryRegionParameters 
@@ -7620,22 +7412,14 @@
             href: operationsCommon/Tables/Common/Intrastat/Parameter/IntrastatStateParameters.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Common/Intrastat/Transaction/overview.md
           - name: Intrastat 
             href: operationsCommon/Tables/Common/Intrastat/Transaction/Intrastat.md
     - name: Finance
       items:
-      - name: Summary
-        href: operationsCommon/Tables/Finance/overview.md
       - name: APARShared
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/APARShared/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/Group/overview.md
           - name: AgreementClassificationExt_RU 
             href: operationsCommon/Tables/Finance/APARShared/Group/AgreementClassificationExt_RU.md
           - name: Branches_RU 
@@ -7658,8 +7442,6 @@
             href: operationsCommon/Tables/Finance/APARShared/Group/SATAuthorizationNumber_MX.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/Main/overview.md
           - name: BusinessVerticalsTable_IN 
             href: operationsCommon/Tables/Finance/APARShared/Main/BusinessVerticalsTable_IN.md
           - name: CasualRegistration_IN 
@@ -7688,8 +7470,6 @@
             href: operationsCommon/Tables/Finance/APARShared/Main/WorkTypeTable_W.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/Miscellaneous/overview.md
           - name: AgreementLine_IN 
             href: operationsCommon/Tables/Finance/APARShared/Miscellaneous/AgreementLine_IN.md
           - name: AifEndPointActionValueMapExt_RU 
@@ -7746,8 +7526,6 @@
             href: operationsCommon/Tables/Finance/APARShared/Miscellaneous/UniqueCertificationVendorList_IT.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/Parameter/overview.md
           - name: AdvanceAdjustmentParameters_W 
             href: operationsCommon/Tables/Finance/APARShared/Parameter/AdvanceAdjustmentParameters_W.md
           - name: AgreementParameters_RU 
@@ -7764,14 +7542,10 @@
             href: operationsCommon/Tables/Finance/APARShared/Parameter/TradeBLWIParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/Reference/overview.md
           - name: CityHoliday 
             href: operationsCommon/Tables/Finance/APARShared/Reference/CityHoliday.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/Transaction/overview.md
           - name: DIOTAdditionalInfoForNoVendor_MX 
             href: operationsCommon/Tables/Finance/APARShared/Transaction/DIOTAdditionalInfoForNoVendor_MX.md
           - name: DIOTAddlInfoForNoVendorLedger_MX 
@@ -7820,42 +7594,30 @@
             href: operationsCommon/Tables/Finance/APARShared/Transaction/UpdatePLA_IN.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/TransactionHeader/overview.md
           - name: AgreementHeaderExt_RU 
             href: operationsCommon/Tables/Finance/APARShared/TransactionHeader/AgreementHeaderExt_RU.md
           - name: AgreementHeaderHistoryExt_RU 
             href: operationsCommon/Tables/Finance/APARShared/TransactionHeader/AgreementHeaderHistoryExt_RU.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/TransactionLine/overview.md
           - name: AgreementLineHistoryExt_RU 
             href: operationsCommon/Tables/Finance/APARShared/TransactionLine/AgreementLineHistoryExt_RU.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/WorksheetHeader/overview.md
           - name: ExceptionalEvents_IT 
             href: operationsCommon/Tables/Finance/APARShared/WorksheetHeader/ExceptionalEvents_IT.md
           - name: ExportSalesOrder 
             href: operationsCommon/Tables/Finance/APARShared/WorksheetHeader/ExportSalesOrder.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/APARShared/WorksheetLine/overview.md
           - name: AgreementLineExt_RU 
             href: operationsCommon/Tables/Finance/APARShared/WorksheetLine/AgreementLineExt_RU.md
           - name: TransitDocumentEWayBill_IN 
             href: operationsCommon/Tables/Finance/APARShared/WorksheetLine/TransitDocumentEWayBill_IN.md
       - name: AccountingFoundation
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/AccountingFoundation/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Group/overview.md
           - name: AccountingDistributionTemplate 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Group/AccountingDistributionTemplate.md
           - name: JournalizingDefinitionBankTrans 
@@ -7882,8 +7644,6 @@
             href: operationsCommon/Tables/Finance/AccountingFoundation/Group/LedgerJournalPostControlUserGroup.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Main/overview.md
           - name: JournalizingDefinition 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Main/JournalizingDefinition.md
           - name: JournalizingDefinitionBudgetTrans 
@@ -7900,8 +7660,6 @@
             href: operationsCommon/Tables/Finance/AccountingFoundation/Main/LedgerJournalTxt.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Miscellaneous/overview.md
           - name: DomainEvent 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Miscellaneous/DomainEvent.md
           - name: DomainEventActivityTypeModule 
@@ -7970,28 +7728,20 @@
             href: operationsCommon/Tables/Finance/AccountingFoundation/Miscellaneous/SubledgerJournalErrorLog.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Parameter/overview.md
           - name: MeasureDimensionMapping 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Parameter/MeasureDimensionMapping.md
           - name: SourceDocumentParameters 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Parameter/SourceDocumentParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Reference/overview.md
           - name: SubledgerJournalTransferRule 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Reference/SubledgerJournalTransferRule.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Staging/overview.md
           - name: JournalizingTransactionPostingDefinitionBudgetReservationStaging_PSN 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Staging/JournalizingTransactionPostingDefinitionBudgetReservationStaging_PSN.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Transaction/overview.md
           - name: AccountingDistribution 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Transaction/AccountingDistribution.md
           - name: AccountingEvent 
@@ -8002,8 +7752,6 @@
             href: operationsCommon/Tables/Finance/AccountingFoundation/Transaction/SubledgerJournalEntryDomainEvent.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/TransactionHeader/overview.md
           - name: SourceDocumentAcctEventReferenceIdentity 
             href: operationsCommon/Tables/Finance/AccountingFoundation/TransactionHeader/SourceDocumentAcctEventReferenceIdentity.md
           - name: SourceDocumentHeader 
@@ -8012,28 +7760,20 @@
             href: operationsCommon/Tables/Finance/AccountingFoundation/TransactionHeader/SourceDocumentLineReferenceIdentity.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/TransactionLine/overview.md
           - name: SourceDocumentLine 
             href: operationsCommon/Tables/Finance/AccountingFoundation/TransactionLine/SourceDocumentLine.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/Worksheet/overview.md
           - name: AccountingDistributionTemplateDetail 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Worksheet/AccountingDistributionTemplateDetail.md
           - name: LedgerJournalParmPost 
             href: operationsCommon/Tables/Finance/AccountingFoundation/Worksheet/LedgerJournalParmPost.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/WorksheetHeader/overview.md
           - name: LedgerJournalTable 
             href: operationsCommon/Tables/Finance/AccountingFoundation/WorksheetHeader/LedgerJournalTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountingFoundation/WorksheetLine/overview.md
           - name: LedgerJournalTrans 
             href: operationsCommon/Tables/Finance/AccountingFoundation/WorksheetLine/LedgerJournalTrans.md
           - name: LedgerJournalTransBankLC 
@@ -8048,12 +7788,8 @@
             href: operationsCommon/Tables/Finance/AccountingFoundation/WorksheetLine/SubledgerJournalAccountEntry.md
       - name: AccountsPayable
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/AccountsPayable/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/Group/overview.md
           - name: InventItemPriceToleranceGroup 
             href: operationsCommon/Tables/Finance/AccountsPayable/Group/InventItemPriceToleranceGroup.md
           - name: LineOfBusiness 
@@ -8078,8 +7814,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Group/VendPriceToleranceGroup.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/Main/overview.md
           - name: Tax1099Reports 
             href: operationsCommon/Tables/Finance/AccountsPayable/Main/Tax1099Reports.md
           - name: Vend1099OIDDetail 
@@ -8098,8 +7832,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Main/VendStateTaxID.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/overview.md
           - name: DemoDataPostDocumentTargetCombinations 
             href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/DemoDataPostDocumentTargetCombinations.md
           - name: DemoDataPostRun 
@@ -8166,8 +7898,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Miscellaneous/VendWriteOffFinancialReasonsSetup.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/Parameter/overview.md
           - name: PurchPriceTolerance 
             href: operationsCommon/Tables/Finance/AccountsPayable/Parameter/PurchPriceTolerance.md
           - name: Tax1099SoftwareVendParameters 
@@ -8192,8 +7922,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Parameter/VendorInformationFormConfiguration.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/Transaction/overview.md
           - name: CzVendAdvanceInvoiceLink 
             href: operationsCommon/Tables/Finance/AccountsPayable/Transaction/CzVendAdvanceInvoiceLink.md
           - name: PurchComplementaryInvoiceHeader 
@@ -8290,8 +8018,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Transaction/VendTrans_W.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/TransactionHeader/overview.md
           - name: PurchAgreementHeaderHistoryExt_RU 
             href: operationsCommon/Tables/Finance/AccountsPayable/TransactionHeader/PurchAgreementHeaderHistoryExt_RU.md
           - name: VendInvoiceInfoSubMarkupMatchingTrans 
@@ -8310,8 +8036,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/TransactionHeader/VendInvoiceInfoTable_W.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/overview.md
           - name: PSNPurchasingCardVendInvoiceInfoTable 
             href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/PSNPurchasingCardVendInvoiceInfoTable.md
           - name: PSNPurchasingCardVendTrans 
@@ -8336,8 +8060,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/TransactionLine/VendInvoiceMatchingLine.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/Worksheet/overview.md
           - name: PurchLine_Intrastat 
             href: operationsCommon/Tables/Finance/AccountsPayable/Worksheet/PurchLine_Intrastat.md
           - name: Tax1099StateSummary 
@@ -8346,8 +8068,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/Worksheet/Tax1099Summary.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/WorksheetHeader/overview.md
           - name: CzCustAdvanceInvoiceTable 
             href: operationsCommon/Tables/Finance/AccountsPayable/WorksheetHeader/CzCustAdvanceInvoiceTable.md
           - name: CzVendAdvanceInvoiceTable 
@@ -8372,8 +8092,6 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/WorksheetHeader/VendOverdueCITPITJournalTable_W.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsPayable/WorksheetLine/overview.md
           - name: CzVendAdvanceInvoiceLine 
             href: operationsCommon/Tables/Finance/AccountsPayable/WorksheetLine/CzVendAdvanceInvoiceLine.md
           - name: PurchGoodsReceiptNoteTmp_IN 
@@ -8396,12 +8114,8 @@
             href: operationsCommon/Tables/Finance/AccountsPayable/WorksheetLine/VendOverdueCITPITTurnJournalLine_W.md
       - name: AccountsReceivable
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/AccountsReceivable/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Group/overview.md
           - name: CredManAccountStatusTable 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Group/CredManAccountStatusTable.md
           - name: CredManCollectionGroupTable 
@@ -8498,8 +8212,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Group/SalesPurchCycle.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Main/overview.md
           - name: CashRegisterLocation_W 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Main/CashRegisterLocation_W.md
           - name: CashRegisterOperator_W 
@@ -8572,8 +8284,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Main/WarrantyPolicy.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Miscellaneous/overview.md
           - name: CredManBlockExclusionRule 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Miscellaneous/CredManBlockExclusionRule.md
           - name: CredManBlockReason 
@@ -8670,8 +8380,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Miscellaneous/TransportationDeliveryParty.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Parameter/overview.md
           - name: CredManParameters 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Parameter/CredManParameters.md
           - name: CredManStatusCheckSetup 
@@ -8686,8 +8394,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Parameter/PlSADParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Reference/overview.md
           - name: CustCollectionsAgentPool 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Reference/CustCollectionsAgentPool.md
           - name: CustCollectionsPool 
@@ -8700,14 +8406,10 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Reference/CustVendAifPaymTable.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Staging/overview.md
           - name: CustIntentLetterStaging_IT 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Staging/CustIntentLetterStaging_IT.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Transaction/overview.md
           - name: CashRegisterFiscalTransCode_W 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Transaction/CashRegisterFiscalTransCode_W.md
           - name: CashRegisterFiscalTransTax_W 
@@ -8926,8 +8628,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Transaction/WarrantiedRelationSalesLine.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/TransactionHeader/overview.md
           - name: EUSalesListReportingGroup 
             href: operationsCommon/Tables/Finance/AccountsReceivable/TransactionHeader/EUSalesListReportingGroup.md
           - name: EUSalesListReportingHeader 
@@ -8936,16 +8636,12 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/TransactionHeader/SalesAgreementHeaderHistoryExt_RU.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/TransactionLine/overview.md
           - name: CustTransOpenLine 
             href: operationsCommon/Tables/Finance/AccountsReceivable/TransactionLine/CustTransOpenLine.md
           - name: EUSalesListReportingLine 
             href: operationsCommon/Tables/Finance/AccountsReceivable/TransactionLine/EUSalesListReportingLine.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/Worksheet/overview.md
           - name: CustRecurrenceInvoice 
             href: operationsCommon/Tables/Finance/AccountsReceivable/Worksheet/CustRecurrenceInvoice.md
           - name: CustRecurrenceInvoiceGroup 
@@ -8956,8 +8652,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/Worksheet/SalesLine_Intrastat.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/WorksheetHeader/overview.md
           - name: CredManCreditLimitAdjTable 
             href: operationsCommon/Tables/Finance/AccountsReceivable/WorksheetHeader/CredManCreditLimitAdjTable.md
           - name: CredManRiskScoreGroup 
@@ -9004,8 +8698,6 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/WorksheetHeader/TransportationVehicle.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/AccountsReceivable/WorksheetLine/overview.md
           - name: CredManCreditLimitAdjTrans 
             href: operationsCommon/Tables/Finance/AccountsReceivable/WorksheetLine/CredManCreditLimitAdjTrans.md
           - name: CredManCreditLimitRule 
@@ -9084,12 +8776,8 @@
             href: operationsCommon/Tables/Finance/AccountsReceivable/WorksheetLine/SalesParmLine_IN.md
       - name: Bank
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/Bank/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/Group/overview.md
           - name: BankCentralBankPurpose 
             href: operationsCommon/Tables/Finance/Bank/Group/BankCentralBankPurpose.md
           - name: BankClientAccountFormatSetup_RU 
@@ -9168,8 +8856,6 @@
             href: operationsCommon/Tables/Finance/Bank/Group/VendPaymModeTable.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/Main/overview.md
           - name: BankAccountTable 
             href: operationsCommon/Tables/Finance/Bank/Main/BankAccountTable.md
           - name: BankAccountTrap 
@@ -9218,8 +8904,6 @@
             href: operationsCommon/Tables/Finance/Bank/Main/PaymentOrderTypeTable_RU.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/Miscellaneous/overview.md
           - name: BankAccountStatementChanged 
             href: operationsCommon/Tables/Finance/Bank/Miscellaneous/BankAccountStatementChanged.md
           - name: BankAccountStatementReconciliationCancelHistory 
@@ -9310,8 +8994,6 @@
             href: operationsCommon/Tables/Finance/Bank/Miscellaneous/VendSettlementOffsetVoucher.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/Parameter/overview.md
           - name: BankCodaParameters 
             href: operationsCommon/Tables/Finance/Bank/Parameter/BankCodaParameters.md
           - name: BankParameters 
@@ -9338,8 +9020,6 @@
             href: operationsCommon/Tables/Finance/Bank/Parameter/VendPaymModeFeeInterval.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/Reference/overview.md
           - name: BankPositivePayFormat 
             href: operationsCommon/Tables/Finance/Bank/Reference/BankPositivePayFormat.md
           - name: BankReconciliationMatchRule 
@@ -9388,8 +9068,6 @@
             href: operationsCommon/Tables/Finance/Bank/Reference/VendPaymMethodVal.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/Transaction/overview.md
           - name: BankAccountStatement 
             href: operationsCommon/Tables/Finance/Bank/Transaction/BankAccountStatement.md
           - name: BankAccountTrans 
@@ -9480,8 +9158,6 @@
             href: operationsCommon/Tables/Finance/Bank/Transaction/VendSettlement.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/TransactionHeader/overview.md
           - name: BankCodaAccountStatement 
             href: operationsCommon/Tables/Finance/Bank/TransactionHeader/BankCodaAccountStatement.md
           - name: BankDocumentTable 
@@ -9492,8 +9168,6 @@
             href: operationsCommon/Tables/Finance/Bank/TransactionHeader/BankStmtISOGroupHeader.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/TransactionLine/overview.md
           - name: BankCodaAccountStatementLines 
             href: operationsCommon/Tables/Finance/Bank/TransactionLine/BankCodaAccountStatementLines.md
           - name: BankCodaTrans 
@@ -9512,8 +9186,6 @@
             href: operationsCommon/Tables/Finance/Bank/TransactionLine/VendPaymSchedLineHistory.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/WorksheetHeader/overview.md
           - name: BankDocumentFacilityAgreement 
             href: operationsCommon/Tables/Finance/Bank/WorksheetHeader/BankDocumentFacilityAgreement.md
           - name: BankLC 
@@ -9540,8 +9212,6 @@
             href: operationsCommon/Tables/Finance/Bank/WorksheetHeader/LvCashReceiptTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Bank/WorksheetLine/overview.md
           - name: BankDocumentFacilityAgreementLine 
             href: operationsCommon/Tables/Finance/Bank/WorksheetLine/BankDocumentFacilityAgreementLine.md
           - name: BankLCExportLine 
@@ -9582,12 +9252,8 @@
             href: operationsCommon/Tables/Finance/Bank/WorksheetLine/SpecTrans.md
       - name: Budget
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/Budget/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Group/overview.md
           - name: BudgetAllocationTerm 
             href: operationsCommon/Tables/Finance/Budget/Group/BudgetAllocationTerm.md
           - name: BudgetAllocationTermDetail 
@@ -9728,14 +9394,10 @@
             href: operationsCommon/Tables/Finance/Budget/Group/HcmPositionForecastScenario.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Main/overview.md
           - name: HcmPositionForecast 
             href: operationsCommon/Tables/Finance/Budget/Main/HcmPositionForecast.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Miscellaneous/overview.md
           - name: BudgetControlDataMaintenance 
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/BudgetControlDataMaintenance.md
           - name: BudgetControlDataMaintenanceTracking 
@@ -9776,8 +9438,6 @@
             href: operationsCommon/Tables/Finance/Budget/Miscellaneous/PurchCommitmentLine_PSN.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Parameter/overview.md
           - name: BudgetParameters 
             href: operationsCommon/Tables/Finance/Budget/Parameter/BudgetParameters.md
           - name: BudgetPlanningBIParameter 
@@ -9788,8 +9448,6 @@
             href: operationsCommon/Tables/Finance/Budget/Parameter/BudgetPlanningConfiguration.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Reference/overview.md
           - name: BudgetPlanLineSource 
             href: operationsCommon/Tables/Finance/Budget/Reference/BudgetPlanLineSource.md
           - name: HcmBudgetPurposeEarningBasis 
@@ -9802,16 +9460,12 @@
             href: operationsCommon/Tables/Finance/Budget/Reference/HcmPositionForecastCompensationRate.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Staging/overview.md
           - name: BudgetReservationAgreementLineStaging_PSN 
             href: operationsCommon/Tables/Finance/Budget/Staging/BudgetReservationAgreementLineStaging_PSN.md
           - name: BudgetReservationTypeStaging_PSN 
             href: operationsCommon/Tables/Finance/Budget/Staging/BudgetReservationTypeStaging_PSN.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/Transaction/overview.md
           - name: BudgetCheckResultErrorWarningDetail 
             href: operationsCommon/Tables/Finance/Budget/Transaction/BudgetCheckResultErrorWarningDetail.md
           - name: BudgetDimensionFocusDimensionReference 
@@ -9832,8 +9486,6 @@
             href: operationsCommon/Tables/Finance/Budget/Transaction/PSNPositionForecastDimensionValidation.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/WorksheetHeader/overview.md
           - name: BudgetPlanHeader 
             href: operationsCommon/Tables/Finance/Budget/WorksheetHeader/BudgetPlanHeader.md
           - name: BudgetReservationHeader_PSN 
@@ -9844,8 +9496,6 @@
             href: operationsCommon/Tables/Finance/Budget/WorksheetHeader/HcmPositionForecastCalculationStatus.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Budget/WorksheetLine/overview.md
           - name: BudgetPlanAttachment 
             href: operationsCommon/Tables/Finance/Budget/WorksheetLine/BudgetPlanAttachment.md
           - name: BudgetPlanLine 
@@ -9860,12 +9510,8 @@
             href: operationsCommon/Tables/Finance/Budget/WorksheetLine/BudgetTransactionLine.md
       - name: ComplianceAndInternalControls
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/ComplianceAndInternalControls/overview.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ComplianceAndInternalControls/Main/overview.md
           - name: AuditPolicyAdditionalOption 
             href: operationsCommon/Tables/Finance/ComplianceAndInternalControls/Main/AuditPolicyAdditionalOption.md
           - name: AuditPolicyCaseGroup 
@@ -9880,26 +9526,18 @@
             href: operationsCommon/Tables/Finance/ComplianceAndInternalControls/Main/AuditPolicyRuleDetail.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ComplianceAndInternalControls/Miscellaneous/overview.md
           - name: AuditPolicyRuleViolation 
             href: operationsCommon/Tables/Finance/ComplianceAndInternalControls/Miscellaneous/AuditPolicyRuleViolation.md
       - name: EGAIS
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/EGAIS/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/Group/overview.md
           - name: EGAISInfoVersionTTN_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Group/EGAISInfoVersionTTN_RU.md
           - name: EGAISQuery_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Group/EGAISQuery_RU.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/Main/overview.md
           - name: EGAISAlcoholProduction_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Main/EGAISAlcoholProduction_RU.md
           - name: EGAISClient_RU 
@@ -9924,16 +9562,12 @@
             href: operationsCommon/Tables/Finance/EGAIS/Main/EGAISWaybillSettlement_RU.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/Miscellaneous/overview.md
           - name: AlcoholLicenseRelTable_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Miscellaneous/AlcoholLicenseRelTable_RU.md
           - name: EGAISRestsLine_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Miscellaneous/EGAISRestsLine_RU.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/Parameter/overview.md
           - name: AlcoholActivityKind_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Parameter/AlcoholActivityKind_RU.md
           - name: AlcoholLicenseLine_RU 
@@ -9946,14 +9580,10 @@
             href: operationsCommon/Tables/Finance/EGAIS/Parameter/EGAISParameters_RU.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/Reference/overview.md
           - name: EGAISMarkReference_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Reference/EGAISMarkReference_RU.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/Transaction/overview.md
           - name: AlcoholDailyTransIssue_RU 
             href: operationsCommon/Tables/Finance/EGAIS/Transaction/AlcoholDailyTransIssue_RU.md
           - name: AlcoholDailyTransMovement_RU 
@@ -9970,8 +9600,6 @@
             href: operationsCommon/Tables/Finance/EGAIS/Transaction/EGAISWriteOffTrans_RU.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/WorksheetHeader/overview.md
           - name: AlcoholDailyJournalTable_RU 
             href: operationsCommon/Tables/Finance/EGAIS/WorksheetHeader/AlcoholDailyJournalTable_RU.md
           - name: AlcoholDeclarationJournalTable_RU 
@@ -9992,8 +9620,6 @@
             href: operationsCommon/Tables/Finance/EGAIS/WorksheetHeader/EGAISWriteOffJour_RU.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EGAIS/WorksheetLine/overview.md
           - name: AlcoholDeclarationJournalTransBranch_RU 
             href: operationsCommon/Tables/Finance/EGAIS/WorksheetLine/AlcoholDeclarationJournalTransBranch_RU.md
           - name: AlcoholDeclarationJournalTrans_RU 
@@ -10008,28 +9634,20 @@
             href: operationsCommon/Tables/Finance/EGAIS/WorksheetLine/EGAISWaybillLine_RU.md
       - name: EInvoice
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/EInvoice/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EInvoice/Group/overview.md
           - name: CFDIWithholdingType_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Group/CFDIWithholdingType_MX.md
           - name: EInvoiceExtCodeTable_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Group/EInvoiceExtCodeTable_MX.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EInvoice/Main/overview.md
           - name: EInvoicePropertyTable 
             href: operationsCommon/Tables/Finance/EInvoice/Main/EInvoicePropertyTable.md
           - name: EInvoicePropertyTypeApplicabilitySetup 
             href: operationsCommon/Tables/Finance/EInvoice/Main/EInvoicePropertyTypeApplicabilitySetup.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EInvoice/Miscellaneous/overview.md
           - name: EInvoiceCFDIPACTable_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Miscellaneous/EInvoiceCFDIPACTable_MX.md
           - name: EInvoiceCFDIWebServiceSetup_MX 
@@ -10040,8 +9658,6 @@
             href: operationsCommon/Tables/Finance/EInvoice/Miscellaneous/OnlineInvoicingParameters_HU.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EInvoice/Parameter/overview.md
           - name: EInvoiceCFDIParameters_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Parameter/EInvoiceCFDIParameters_MX.md
           - name: EInvoiceParameters_IT 
@@ -10052,8 +9668,6 @@
             href: operationsCommon/Tables/Finance/EInvoice/Parameter/EInvoicePropertyTypeTable.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EInvoice/Transaction/overview.md
           - name: CFDIWithholdingJour_MX 
             href: operationsCommon/Tables/Finance/EInvoice/Transaction/CFDIWithholdingJour_MX.md
           - name: CFDIWithholdingTrans_MX 
@@ -10074,20 +9688,14 @@
             href: operationsCommon/Tables/Finance/EInvoice/Transaction/EInvoice_IT.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/EInvoice/WorksheetLine/overview.md
           - name: CFDIWithholdingComplInterest_MX 
             href: operationsCommon/Tables/Finance/EInvoice/WorksheetLine/CFDIWithholdingComplInterest_MX.md
           - name: CFDIWithholdingComplPaymBeneficiary_MX 
             href: operationsCommon/Tables/Finance/EInvoice/WorksheetLine/CFDIWithholdingComplPaymBeneficiary_MX.md
       - name: Expense
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/Expense/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Group/overview.md
           - name: EmplAdvExpendTable_RU 
             href: operationsCommon/Tables/Finance/Expense/Group/EmplAdvExpendTable_RU.md
           - name: EmplGroup_RU 
@@ -10100,16 +9708,12 @@
             href: operationsCommon/Tables/Finance/Expense/Group/TrvCostTypeStatistics.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Main/overview.md
           - name: EmployeeTable_RU 
             href: operationsCommon/Tables/Finance/Expense/Main/EmployeeTable_RU.md
           - name: TrvPartyEmployeeRelationship 
             href: operationsCommon/Tables/Finance/Expense/Main/TrvPartyEmployeeRelationship.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Miscellaneous/overview.md
           - name: TrvAccountingEventVoucher 
             href: operationsCommon/Tables/Finance/Expense/Miscellaneous/TrvAccountingEventVoucher.md
           - name: TrvExpPerdiemData 
@@ -10120,16 +9724,12 @@
             href: operationsCommon/Tables/Finance/Expense/Miscellaneous/TrvReceiptsFailedAttempts.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Parameter/overview.md
           - name: EmplParameters_RU 
             href: operationsCommon/Tables/Finance/Expense/Parameter/EmplParameters_RU.md
           - name: TrvParameters 
             href: operationsCommon/Tables/Finance/Expense/Parameter/TrvParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Reference/overview.md
           - name: TrvAdminCustomFields 
             href: operationsCommon/Tables/Finance/Expense/Reference/TrvAdminCustomFields.md
           - name: TrvAllowanceRate 
@@ -10184,14 +9784,10 @@
             href: operationsCommon/Tables/Finance/Expense/Reference/TrvValidatePayment.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Staging/overview.md
           - name: EmplPostingStaging_W 
             href: operationsCommon/Tables/Finance/Expense/Staging/EmplPostingStaging_W.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Transaction/overview.md
           - name: EmplExchRateAdjustment_RU 
             href: operationsCommon/Tables/Finance/Expense/Transaction/EmplExchRateAdjustment_RU.md
           - name: EmplSettlement_RU 
@@ -10214,8 +9810,6 @@
             href: operationsCommon/Tables/Finance/Expense/Transaction/TrvRequisitionTable.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/Worksheet/overview.md
           - name: TrvCashAdvance 
             href: operationsCommon/Tables/Finance/Expense/Worksheet/TrvCashAdvance.md
           - name: TrvExpGuest 
@@ -10236,16 +9830,12 @@
             href: operationsCommon/Tables/Finance/Expense/Worksheet/TrvWorkflowLog.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/WorksheetHeader/overview.md
           - name: EmplAdvTable_RU 
             href: operationsCommon/Tables/Finance/Expense/WorksheetHeader/EmplAdvTable_RU.md
           - name: TrvExpTable 
             href: operationsCommon/Tables/Finance/Expense/WorksheetHeader/TrvExpTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Expense/WorksheetLine/overview.md
           - name: EmplAdvLine_RU 
             href: operationsCommon/Tables/Finance/Expense/WorksheetLine/EmplAdvLine_RU.md
           - name: TrvEnhancedCarRentalData 
@@ -10276,12 +9866,8 @@
             href: operationsCommon/Tables/Finance/Expense/WorksheetLine/TrvWorkflowExpProviderCache.md
       - name: ExportImportIndia
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/ExportImportIndia/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/Group/overview.md
           - name: EximDBKRates_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/Group/EximDBKRates_IN.md
           - name: EximDEPBScheduleTable_IN 
@@ -10294,8 +9880,6 @@
             href: operationsCommon/Tables/Finance/ExportImportIndia/Group/EximSionTable_IN.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/Main/overview.md
           - name: EximDBKValues_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/Main/EximDBKValues_IN.md
           - name: EximDEPBScheduleValues_IN 
@@ -10310,8 +9894,6 @@
             href: operationsCommon/Tables/Finance/ExportImportIndia/Main/EximSionLine_IN.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/Miscellaneous/overview.md
           - name: EximAuthorizationSchemeReference_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/Miscellaneous/EximAuthorizationSchemeReference_IN.md
           - name: EximEPCGBankGuaranteeDetails_IN 
@@ -10348,14 +9930,10 @@
             href: operationsCommon/Tables/Finance/ExportImportIndia/Miscellaneous/EximTaxTable_IN.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/Parameter/overview.md
           - name: EximParameters_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/Parameter/EximParameters_IN.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/Transaction/overview.md
           - name: EximAnnualConsumption_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/Transaction/EximAnnualConsumption_IN.md
           - name: EximCustConfirmTrans_IN 
@@ -10400,8 +9978,6 @@
             href: operationsCommon/Tables/Finance/ExportImportIndia/Transaction/EximVendInvoiceTrans_IN.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/WorksheetHeader/overview.md
           - name: EximAuthorizationSchemesTable_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/WorksheetHeader/EximAuthorizationSchemesTable_IN.md
           - name: EximConfirmOrderTable_IN 
@@ -10418,8 +9994,6 @@
             href: operationsCommon/Tables/Finance/ExportImportIndia/WorksheetHeader/EximExportOrderTable_IN.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/ExportImportIndia/WorksheetLine/overview.md
           - name: EximAuthorizationSchemesLine_IN 
             href: operationsCommon/Tables/Finance/ExportImportIndia/WorksheetLine/EximAuthorizationSchemesLine_IN.md
           - name: EximConfirmOrderLines_IN 
@@ -10440,12 +10014,8 @@
             href: operationsCommon/Tables/Finance/ExportImportIndia/WorksheetLine/EximSalesLine_IN.md
       - name: FinancialDimensions
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/FinancialDimensions/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialDimensions/Group/overview.md
           - name: DimensionAttributeValueGroupStatus 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Group/DimensionAttributeValueGroupStatus.md
           - name: DimensionConstraintNodeCriteria 
@@ -10476,8 +10046,6 @@
             href: operationsCommon/Tables/Finance/FinancialDimensions/Group/MainAccountControlUser.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialDimensions/Main/overview.md
           - name: DimensionAttrValueCOAOverride 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Main/DimensionAttrValueCOAOverride.md
           - name: DimensionAttrValueLedgerOverride 
@@ -10524,8 +10092,6 @@
             href: operationsCommon/Tables/Finance/FinancialDimensions/Main/MainAccountTranslation.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialDimensions/Miscellaneous/overview.md
           - name: DimensionAttributeValueDerivedDimensions 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Miscellaneous/DimensionAttributeValueDerivedDimensions.md
           - name: DimensionDataEntitySFKCache 
@@ -10546,16 +10112,12 @@
             href: operationsCommon/Tables/Finance/FinancialDimensions/Miscellaneous/MainAccountConsolidateAccount.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialDimensions/Parameter/overview.md
           - name: DimensionAlias 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Parameter/DimensionAlias.md
           - name: DimensionParameters 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Parameter/DimensionParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialDimensions/Reference/overview.md
           - name: DimensionAttribute 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Reference/DimensionAttribute.md
           - name: DimensionAttributeDirCategory 
@@ -10576,36 +10138,24 @@
             href: operationsCommon/Tables/Finance/FinancialDimensions/Reference/DimensionReferences.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialDimensions/Staging/overview.md
           - name: FinancialDimensionValueTotalAccountIntervalEntityStagingV2 
             href: operationsCommon/Tables/Finance/FinancialDimensions/Staging/FinancialDimensionValueTotalAccountIntervalEntityStagingV2.md
       - name: FinancialReporting
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/FinancialReporting/overview.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialReporting/Miscellaneous/overview.md
           - name: FinancialReportVersion 
             href: operationsCommon/Tables/Finance/FinancialReporting/Miscellaneous/FinancialReportVersion.md
           - name: FinancialReports 
             href: operationsCommon/Tables/Finance/FinancialReporting/Miscellaneous/FinancialReports.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FinancialReporting/Parameter/overview.md
           - name: FinancialReportingSettings 
             href: operationsCommon/Tables/Finance/FinancialReporting/Parameter/FinancialReportingSettings.md
       - name: FiscalBooksBrazil
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/FiscalBooksBrazil/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Group/overview.md
           - name: CustFiscalDocumentType_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Group/CustFiscalDocumentType_BR.md
           - name: FBTaxStatementsCode_BR 
@@ -10620,8 +10170,6 @@
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Group/VendFiscalDocumentType_BR.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Main/overview.md
           - name: EFDocSchema_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Main/EFDocSchema_BR.md
           - name: FBExplanationSuspensionCode_BR 
@@ -10656,8 +10204,6 @@
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Main/FiscalOrganization_BR.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/overview.md
           - name: BrazilianElectronicReportingParameters 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/BrazilianElectronicReportingParameters.md
           - name: EFDReturnCode_BR 
@@ -10802,8 +10348,6 @@
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Miscellaneous/FiscalReferenceParm_BR.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Parameter/overview.md
           - name: BrazilParameters 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Parameter/BrazilParameters.md
           - name: FBParametersPerState_BR 
@@ -10820,8 +10364,6 @@
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Parameter/FiscalDocumentType_BR.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Transaction/overview.md
           - name: EFDocumentCity_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Transaction/EFDocumentCity_BR.md
           - name: EFDocumentReceivedXML_BR 
@@ -10916,16 +10458,12 @@
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/Transaction/TmpInvoiceCancel_BR.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/TransactionHeader/overview.md
           - name: FBProductionHeader_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/TransactionHeader/FBProductionHeader_BR.md
           - name: RetailFiscalDocumentModel2_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/TransactionHeader/RetailFiscalDocumentModel2_BR.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/TransactionLine/overview.md
           - name: FBProductionBOMLine_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/TransactionLine/FBProductionBOMLine_BR.md
           - name: FBProductionLine_BR 
@@ -10936,24 +10474,16 @@
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/TransactionLine/RetailFiscalDocumentModel2TaxTrans_BR.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/WorksheetHeader/overview.md
           - name: WHSLoadLineFiscalDocument_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/WorksheetHeader/WHSLoadLineFiscalDocument_BR.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FiscalBooksBrazil/WorksheetLine/overview.md
           - name: FBLedgerJournalTrans_FiscalBooks_BR 
             href: operationsCommon/Tables/Finance/FiscalBooksBrazil/WorksheetLine/FBLedgerJournalTrans_FiscalBooks_BR.md
       - name: FixedAssets
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/FixedAssets/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/Group/overview.md
           - name: AssetAcceleratedDepGroup_JP 
             href: operationsCommon/Tables/Finance/FixedAssets/Group/AssetAcceleratedDepGroup_JP.md
           - name: AssetActivityCode 
@@ -10996,8 +10526,6 @@
             href: operationsCommon/Tables/Finance/FixedAssets/Group/AssetStatementRow.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/Main/overview.md
           - name: AssetAcquisitionMethod 
             href: operationsCommon/Tables/Finance/FixedAssets/Main/AssetAcquisitionMethod.md
           - name: AssetAddition 
@@ -11046,8 +10574,6 @@
             href: operationsCommon/Tables/Finance/FixedAssets/Main/AssetTransferHistory.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/Miscellaneous/overview.md
           - name: AssetDepProfileChange_JP 
             href: operationsCommon/Tables/Finance/FixedAssets/Miscellaneous/AssetDepProfileChange_JP.md
           - name: AssetDepSuspension_CZ 
@@ -11076,8 +10602,6 @@
             href: operationsCommon/Tables/Finance/FixedAssets/Miscellaneous/AssetTransReportingCurrencyAmounts.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/Parameter/overview.md
           - name: AssetBookTaxCoefficient 
             href: operationsCommon/Tables/Finance/FixedAssets/Parameter/AssetBookTaxCoefficient.md
           - name: AssetConsumptionFactor 
@@ -11112,8 +10636,6 @@
             href: operationsCommon/Tables/Finance/FixedAssets/Parameter/AssetSorting.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/Reference/overview.md
           - name: AssetAdvancedRule_JP 
             href: operationsCommon/Tables/Finance/FixedAssets/Reference/AssetAdvancedRule_JP.md
           - name: AssetAllocationRuleLine_CN 
@@ -11156,8 +10678,6 @@
             href: operationsCommon/Tables/Finance/FixedAssets/Reference/AssetUndepreciatedBalance_JP.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/Transaction/overview.md
           - name: AssetBookTableDerivedJournal 
             href: operationsCommon/Tables/Finance/FixedAssets/Transaction/AssetBookTableDerivedJournal.md
           - name: AssetBudget 
@@ -11198,22 +10718,16 @@
             href: operationsCommon/Tables/Finance/FixedAssets/Transaction/LtAssetRepair.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/TransactionHeader/overview.md
           - name: AssetTaxDepr_LV 
             href: operationsCommon/Tables/Finance/FixedAssets/TransactionHeader/AssetTaxDepr_LV.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/TransactionLine/overview.md
           - name: AssetTaxDeprCategory_LV 
             href: operationsCommon/Tables/Finance/FixedAssets/TransactionLine/AssetTaxDeprCategory_LV.md
           - name: AssetTaxDepreciationCategoryDetail 
             href: operationsCommon/Tables/Finance/FixedAssets/TransactionLine/AssetTaxDepreciationCategoryDetail.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/WorksheetHeader/overview.md
           - name: AssetDepPreTaxDedProcess_JP 
             href: operationsCommon/Tables/Finance/FixedAssets/WorksheetHeader/AssetDepPreTaxDedProcess_JP.md
           - name: AssetDocumentAcceleratedDepTable_JP 
@@ -11230,8 +10744,6 @@
             href: operationsCommon/Tables/Finance/FixedAssets/WorksheetHeader/AssetRetirementObligationTable_JP.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/FixedAssets/WorksheetLine/overview.md
           - name: AssetAcceleratedDepWorkingHours_JP 
             href: operationsCommon/Tables/Finance/FixedAssets/WorksheetLine/AssetAcceleratedDepWorkingHours_JP.md
           - name: AssetComponent_JP 
@@ -11260,12 +10772,8 @@
             href: operationsCommon/Tables/Finance/FixedAssets/WorksheetLine/PurchParmLine_Asset.md
       - name: Ledger
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/Ledger/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Group/overview.md
           - name: CompanyImage 
             href: operationsCommon/Tables/Finance/Ledger/Group/CompanyImage.md
           - name: CurrencyNameDeclension_RU 
@@ -11378,8 +10886,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Group/TransactTxt.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Main/overview.md
           - name: AccountantLogisticsLocationRole_BR 
             href: operationsCommon/Tables/Finance/Ledger/Main/AccountantLogisticsLocationRole_BR.md
           - name: AccountantLogisticsLocation_BR 
@@ -11464,8 +10970,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Main/StatRepIntervalLine.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/overview.md
           - name: DimensionFocusBalance 
             href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/DimensionFocusBalance.md
           - name: DimensionFocusLedgerBalanceTracking 
@@ -11546,8 +11050,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Miscellaneous/TransactionReversalExecutionDetail.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Parameter/overview.md
           - name: CurrencyBLWI 
             href: operationsCommon/Tables/Finance/Ledger/Parameter/CurrencyBLWI.md
           - name: LedgerInvoiceIssueDueDateSetup_W 
@@ -11564,8 +11066,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Parameter/RTSLParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Reference/overview.md
           - name: FiscalCalendar 
             href: operationsCommon/Tables/Finance/Ledger/Reference/FiscalCalendar.md
           - name: FiscalCalendarPeriod 
@@ -11592,8 +11092,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Reference/LedgerPrintLayoutGroup_CN.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Staging/overview.md
           - name: GeneralJournalAccountEntrySimStaging_IT 
             href: operationsCommon/Tables/Finance/Ledger/Staging/GeneralJournalAccountEntrySimStaging_IT.md
           - name: SimulationJournalGroupLineStaging_IT 
@@ -11602,8 +11100,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Staging/SimulationJournalGroupTableStaging_IT.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Transaction/overview.md
           - name: DimensionFocusBalanceSim_IT 
             href: operationsCommon/Tables/Finance/Ledger/Transaction/DimensionFocusBalanceSim_IT.md
           - name: DimensionFocusLedgerDimensionRefSim_IT 
@@ -11686,8 +11182,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Transaction/TransactionReversalTrans.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/TransactionHeader/overview.md
           - name: GeneralJournalEntry 
             href: operationsCommon/Tables/Finance/Ledger/TransactionHeader/GeneralJournalEntry.md
           - name: GeneralJournalEntrySim_IT 
@@ -11700,8 +11194,6 @@
             href: operationsCommon/Tables/Finance/Ledger/TransactionHeader/RLedgerTurnoverSheet.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/TransactionLine/overview.md
           - name: GeneralJournalAccountEntry 
             href: operationsCommon/Tables/Finance/Ledger/TransactionLine/GeneralJournalAccountEntry.md
           - name: GeneralJournalAccountEntrySim_IT 
@@ -11722,8 +11214,6 @@
             href: operationsCommon/Tables/Finance/Ledger/TransactionLine/RLedgerTurnoverSheetLine.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/Worksheet/overview.md
           - name: LedgerAllocationTmpSource 
             href: operationsCommon/Tables/Finance/Ledger/Worksheet/LedgerAllocationTmpSource.md
           - name: LedgerEliminationTmpJournalLine 
@@ -11734,8 +11224,6 @@
             href: operationsCommon/Tables/Finance/Ledger/Worksheet/Tax1099ValidationErrors.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/WorksheetHeader/overview.md
           - name: AdvancedLedgerEntryHeader 
             href: operationsCommon/Tables/Finance/Ledger/WorksheetHeader/AdvancedLedgerEntryHeader.md
           - name: LedgerBalanceSheetHeader 
@@ -11758,8 +11246,6 @@
             href: operationsCommon/Tables/Finance/Ledger/WorksheetHeader/LedgerStatementHeader.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Ledger/WorksheetLine/overview.md
           - name: AdvancedLedgerEntryLine 
             href: operationsCommon/Tables/Finance/Ledger/WorksheetLine/AdvancedLedgerEntryLine.md
           - name: LedgerBalanceSheetCorrection 
@@ -11814,30 +11300,20 @@
             href: operationsCommon/Tables/Finance/Ledger/WorksheetLine/LedgerStatementDefinition.md
       - name: PublicSector
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/PublicSector/overview.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/overview.md
           - name: ConfirmingPO 
             href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/ConfirmingPO.md
           - name: PurchAgreementActivity 
             href: operationsCommon/Tables/Finance/PublicSector/Miscellaneous/PurchAgreementActivity.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/overview.md
           - name: PurchTotalsSummary 
             href: operationsCommon/Tables/Finance/PublicSector/WorksheetHeader/PurchTotalsSummary.md
       - name: RAsset
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/RAsset/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RAsset/Group/overview.md
           - name: RAssetGroup 
             href: operationsCommon/Tables/Finance/RAsset/Group/RAssetGroup.md
           - name: RAssetGroupDefinitionPeriod 
@@ -11870,8 +11346,6 @@
             href: operationsCommon/Tables/Finance/RAsset/Group/RAssetTransportTaxFactorGroup.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RAsset/Main/overview.md
           - name: RAssetBonus 
             href: operationsCommon/Tables/Finance/RAsset/Main/RAssetBonus.md
           - name: RAssetInventIssueQuotaTypes 
@@ -11882,8 +11356,6 @@
             href: operationsCommon/Tables/Finance/RAsset/Main/RAssetTaxAllowance.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RAsset/Parameter/overview.md
           - name: RAssetDeferralsAccounts 
             href: operationsCommon/Tables/Finance/RAsset/Parameter/RAssetDeferralsAccounts.md
           - name: RAssetDeprAccount 
@@ -11906,8 +11378,6 @@
             href: operationsCommon/Tables/Finance/RAsset/Parameter/RAssetParameters.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RAsset/Transaction/overview.md
           - name: InventTransOriginRAssetScrap_RU 
             href: operationsCommon/Tables/Finance/RAsset/Transaction/InventTransOriginRAssetScrap_RU.md
           - name: RAssetBudgetTrans 
@@ -11928,8 +11398,6 @@
             href: operationsCommon/Tables/Finance/RAsset/Transaction/RAssetTrans.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RAsset/WorksheetHeader/overview.md
           - name: RAssetAdjustmentTable 
             href: operationsCommon/Tables/Finance/RAsset/WorksheetHeader/RAssetAdjustmentTable.md
           - name: RAssetInferiorDisposalTable 
@@ -11942,8 +11410,6 @@
             href: operationsCommon/Tables/Finance/RAsset/WorksheetHeader/RAssetTransferTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RAsset/WorksheetLine/overview.md
           - name: LedgerJournalTrans_RAsset 
             href: operationsCommon/Tables/Finance/RAsset/WorksheetLine/LedgerJournalTrans_RAsset.md
           - name: RAssetAdjustmentTrans 
@@ -11980,12 +11446,8 @@
             href: operationsCommon/Tables/Finance/RAsset/WorksheetLine/RestoredVATLogTransOperAsset_RU.md
       - name: RCash
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/RCash/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCash/Group/overview.md
           - name: RCashDestinationTable 
             href: operationsCommon/Tables/Finance/RCash/Group/RCashDestinationTable.md
           - name: RCashLedger 
@@ -11994,22 +11456,16 @@
             href: operationsCommon/Tables/Finance/RCash/Group/RCashLedgerAccount.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCash/Main/overview.md
           - name: RCashRemainLimit 
             href: operationsCommon/Tables/Finance/RCash/Main/RCashRemainLimit.md
           - name: RCashTable 
             href: operationsCommon/Tables/Finance/RCash/Main/RCashTable.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCash/Parameter/overview.md
           - name: RCashParameters 
             href: operationsCommon/Tables/Finance/RCash/Parameter/RCashParameters.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCash/Transaction/overview.md
           - name: RCashBalances 
             href: operationsCommon/Tables/Finance/RCash/Transaction/RCashBalances.md
           - name: RCashDestinationTrans 
@@ -12018,18 +11474,12 @@
             href: operationsCommon/Tables/Finance/RCash/Transaction/RCashTrans.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCash/WorksheetHeader/overview.md
           - name: RCashReportJour_PL 
             href: operationsCommon/Tables/Finance/RCash/WorksheetHeader/RCashReportJour_PL.md
       - name: RCashFlowManagement
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/RCashFlowManagement/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/Group/overview.md
           - name: CFMCashBalanceControlTable 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Group/CFMCashBalanceControlTable.md
           - name: CFMJournalName 
@@ -12046,38 +11496,26 @@
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Group/CFMPaymentRequestType.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/Main/overview.md
           - name: CFMDirPartyTable 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Main/CFMDirPartyTable.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/Miscellaneous/overview.md
           - name: CFMJournalAggregationField 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Miscellaneous/CFMJournalAggregationField.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/Parameter/overview.md
           - name: CFMParameters 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Parameter/CFMParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/Reference/overview.md
           - name: CFMJournalTransLog 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Reference/CFMJournalTransLog.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/Transaction/overview.md
           - name: CFMAnalyticDataEditUncommitted 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/Transaction/CFMAnalyticDataEditUncommitted.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/WorksheetHeader/overview.md
           - name: CFMAgreementPaymentOrder 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/WorksheetHeader/CFMAgreementPaymentOrder.md
           - name: CFMJournalTable 
@@ -12090,8 +11528,6 @@
             href: operationsCommon/Tables/Finance/RCashFlowManagement/WorksheetHeader/CFMPlannedPaymentTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RCashFlowManagement/WorksheetLine/overview.md
           - name: CFMJournalTrans 
             href: operationsCommon/Tables/Finance/RCashFlowManagement/WorksheetLine/CFMJournalTrans.md
           - name: CFMPaymentRequestCashDisc 
@@ -12106,18 +11542,12 @@
             href: operationsCommon/Tables/Finance/RCashFlowManagement/WorksheetLine/CFMPlannedPaymentLine.md
       - name: RDeferrals
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/RDeferrals/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RDeferrals/Group/overview.md
           - name: RDeferralsGroup 
             href: operationsCommon/Tables/Finance/RDeferrals/Group/RDeferralsGroup.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RDeferrals/Main/overview.md
           - name: RDeferralsBook 
             href: operationsCommon/Tables/Finance/RDeferrals/Main/RDeferralsBook.md
           - name: RDeferralsBookTable 
@@ -12126,8 +11556,6 @@
             href: operationsCommon/Tables/Finance/RDeferrals/Main/RDeferralsTable.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RDeferrals/Parameter/overview.md
           - name: RDeferralsBookAmount 
             href: operationsCommon/Tables/Finance/RDeferrals/Parameter/RDeferralsBookAmount.md
           - name: RDeferralsLedger 
@@ -12142,34 +11570,24 @@
             href: operationsCommon/Tables/Finance/RDeferrals/Parameter/RDeferralsProfileTrans.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RDeferrals/Transaction/overview.md
           - name: RDeferralsTrans 
             href: operationsCommon/Tables/Finance/RDeferrals/Transaction/RDeferralsTrans.md
           - name: RDeferralsWritingOffFactor 
             href: operationsCommon/Tables/Finance/RDeferrals/Transaction/RDeferralsWritingOffFactor.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RDeferrals/WorksheetHeader/overview.md
           - name: RDeferralsCountingJournal 
             href: operationsCommon/Tables/Finance/RDeferrals/WorksheetHeader/RDeferralsCountingJournal.md
           - name: RDeferralsFactorCalculation 
             href: operationsCommon/Tables/Finance/RDeferrals/WorksheetHeader/RDeferralsFactorCalculation.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RDeferrals/WorksheetLine/overview.md
           - name: RDeferralsCountingJournalLine 
             href: operationsCommon/Tables/Finance/RDeferrals/WorksheetLine/RDeferralsCountingJournalLine.md
       - name: RSalesPurchBooks
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/RSalesPurchBooks/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RSalesPurchBooks/Group/overview.md
           - name: PurchBookVATLedgerPosting_RU 
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/Group/PurchBookVATLedgerPosting_RU.md
           - name: PurchBookVATProcessParameters_RU 
@@ -12182,8 +11600,6 @@
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/Group/VATOperationCodeTable_RU.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RSalesPurchBooks/Transaction/overview.md
           - name: FactureSequence_RU 
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/Transaction/FactureSequence_RU.md
           - name: PurchBookVATProcessLogTable_RU 
@@ -12210,8 +11626,6 @@
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/Transaction/SalesBookVATProcessLogTrans_RU.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RSalesPurchBooks/WorksheetHeader/overview.md
           - name: FactureCorrectionReference_RU 
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/WorksheetHeader/FactureCorrectionReference_RU.md
           - name: FactureJourHeader_RU 
@@ -12228,8 +11642,6 @@
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/WorksheetHeader/SalesBookTable_RU.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RSalesPurchBooks/WorksheetLine/overview.md
           - name: FactureTrans_RU 
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/WorksheetLine/FactureTrans_RU.md
           - name: PurchBookTrans_RU 
@@ -12238,12 +11650,8 @@
             href: operationsCommon/Tables/Finance/RSalesPurchBooks/WorksheetLine/SalesBookTrans_RU.md
       - name: RTax25
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/RTax25/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/Group/overview.md
           - name: RTax25DebtLedgerAccounts 
             href: operationsCommon/Tables/Finance/RTax25/Group/RTax25DebtLedgerAccounts.md
           - name: RTax25DebtModel 
@@ -12282,30 +11690,22 @@
             href: operationsCommon/Tables/Finance/RTax25/Group/RTax25TaxTable.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/Main/overview.md
           - name: RTax25RegisterTable 
             href: operationsCommon/Tables/Finance/RTax25/Main/RTax25RegisterTable.md
           - name: RTax25StdSeq 
             href: operationsCommon/Tables/Finance/RTax25/Main/RTax25StdSeq.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/Miscellaneous/overview.md
           - name: RTax25RegisterTrans_ProfitAllocation 
             href: operationsCommon/Tables/Finance/RTax25/Miscellaneous/RTax25RegisterTrans_ProfitAllocation.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/Parameter/overview.md
           - name: RTax25Parameters 
             href: operationsCommon/Tables/Finance/RTax25/Parameter/RTax25Parameters.md
           - name: RTax25RegisterParameters 
             href: operationsCommon/Tables/Finance/RTax25/Parameter/RTax25RegisterParameters.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/Transaction/overview.md
           - name: RTax25AllocCalcDetails 
             href: operationsCommon/Tables/Finance/RTax25/Transaction/RTax25AllocCalcDetails.md
           - name: RTax25RegisterTrans 
@@ -12418,26 +11818,18 @@
             href: operationsCommon/Tables/Finance/RTax25/Transaction/RTax25RegisterTrans_TransportTaxCalc.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/WorksheetHeader/overview.md
           - name: RTax25RegisterJournalTable 
             href: operationsCommon/Tables/Finance/RTax25/WorksheetHeader/RTax25RegisterJournalTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/RTax25/WorksheetLine/overview.md
           - name: RTax25RegisterJournalLink 
             href: operationsCommon/Tables/Finance/RTax25/WorksheetLine/RTax25RegisterJournalLink.md
           - name: RTax25RegisterJournalTrans 
             href: operationsCommon/Tables/Finance/RTax25/WorksheetLine/RTax25RegisterJournalTrans.md
       - name: Tax
         items:
-        - name: Summary
-          href: operationsCommon/Tables/Finance/Tax/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Group/overview.md
           - name: DIOTDeclarationTaxCode_MX 
             href: operationsCommon/Tables/Finance/Tax/Group/DIOTDeclarationTaxCode_MX.md
           - name: FormulaDesigner_IN 
@@ -12572,8 +11964,6 @@
             href: operationsCommon/Tables/Finance/Tax/Group/VATInvoiceDescTable_CN.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Main/overview.md
           - name: EcoResCategoryTax 
             href: operationsCommon/Tables/Finance/Tax/Main/EcoResCategoryTax.md
           - name: HSNCodeTable_IN 
@@ -12666,8 +12056,6 @@
             href: operationsCommon/Tables/Finance/Tax/Main/Threshold_IN.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Miscellaneous/overview.md
           - name: DirectTaxTotal_IN 
             href: operationsCommon/Tables/Finance/Tax/Miscellaneous/DirectTaxTotal_IN.md
           - name: GBTModelElementLookup 
@@ -12876,8 +12264,6 @@
             href: operationsCommon/Tables/Finance/Tax/Miscellaneous/VATTotal_IN.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Parameter/overview.md
           - name: GBTParameters_CN 
             href: operationsCommon/Tables/Finance/Tax/Parameter/GBTParameters_CN.md
           - name: ReverseChargeParameters_UK 
@@ -12918,8 +12304,6 @@
             href: operationsCommon/Tables/Finance/Tax/Parameter/VATSchedule_IN.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Reference/overview.md
           - name: TaxAuthorityAddressRegistration 
             href: operationsCommon/Tables/Finance/Tax/Reference/TaxAuthorityAddressRegistration.md
           - name: TaxBookSectionDate 
@@ -12930,8 +12314,6 @@
             href: operationsCommon/Tables/Finance/Tax/Reference/ThresholdReference_IN.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Transaction/overview.md
           - name: CzTaxCreditMemo 
             href: operationsCommon/Tables/Finance/Tax/Transaction/CzTaxCreditMemo.md
           - name: CzTaxCreditMemoTrans 
@@ -13082,20 +12464,14 @@
             href: operationsCommon/Tables/Finance/Tax/Transaction/VATRetentionTrans_IN.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/TransactionHeader/overview.md
           - name: TaxDocumentToPost 
             href: operationsCommon/Tables/Finance/Tax/TransactionHeader/TaxDocumentToPost.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/Worksheet/overview.md
           - name: TransTaxInformation 
             href: operationsCommon/Tables/Finance/Tax/Worksheet/TransTaxInformation.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/WorksheetHeader/overview.md
           - name: ServiceTaxAdjustments_IN 
             href: operationsCommon/Tables/Finance/Tax/WorksheetHeader/ServiceTaxAdjustments_IN.md
           - name: TaxElectronicDeclaration 
@@ -13118,8 +12494,6 @@
             href: operationsCommon/Tables/Finance/Tax/WorksheetHeader/TaxYearlyCom_IT.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/Finance/Tax/WorksheetLine/overview.md
           - name: FDTaxTransPresumedUncommitted_BR 
             href: operationsCommon/Tables/Finance/Tax/WorksheetLine/FDTaxTransPresumedUncommitted_BR.md
           - name: PSNTaxHSTDimensionRule 
@@ -13174,16 +12548,10 @@
             href: operationsCommon/Tables/Finance/Tax/WorksheetLine/TransitDocumentSalesTaxForm_IN.md
     - name: HumanResources
       items:
-      - name: Summary
-        href: operationsCommon/Tables/HumanResources/overview.md
       - name: HumanResource
         items:
-        - name: Summary
-          href: operationsCommon/Tables/HumanResources/HumanResource/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/Group/overview.md
           - name: EssPersonProjectRole 
             href: operationsCommon/Tables/HumanResources/HumanResource/Group/EssPersonProjectRole.md
           - name: HcmEmploymentContractor 
@@ -13196,8 +12564,6 @@
             href: operationsCommon/Tables/HumanResources/HumanResource/Group/HcmWorkerGroup_RU.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/Main/overview.md
           - name: HRMCompPerfPlanEmpl 
             href: operationsCommon/Tables/HumanResources/HumanResource/Main/HRMCompPerfPlanEmpl.md
           - name: HRPApprovedLimit 
@@ -13236,8 +12602,6 @@
             href: operationsCommon/Tables/HumanResources/HumanResource/Main/HRPRevokedLimit.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/Miscellaneous/overview.md
           - name: MeasurementActivity 
             href: operationsCommon/Tables/HumanResources/HumanResource/Miscellaneous/MeasurementActivity.md
           - name: MeasurementActivityCategoryRestriction 
@@ -13256,14 +12620,10 @@
             href: operationsCommon/Tables/HumanResources/HumanResource/Miscellaneous/MeasurementSourceSystem.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/Parameter/overview.md
           - name: HRPLimitParameters 
             href: operationsCommon/Tables/HumanResources/HumanResource/Parameter/HRPLimitParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/Reference/overview.md
           - name: HRMCompPerfPlan 
             href: operationsCommon/Tables/HumanResources/HumanResource/Reference/HRMCompPerfPlan.md
           - name: HRMCompPerfRating 
@@ -13272,24 +12632,16 @@
             href: operationsCommon/Tables/HumanResources/HumanResource/Reference/HRPLimitDocument.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/WorksheetHeader/overview.md
           - name: HRMCompPerfAllocation 
             href: operationsCommon/Tables/HumanResources/HumanResource/WorksheetHeader/HRMCompPerfAllocation.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/HumanResource/WorksheetLine/overview.md
           - name: HRMCompPerfAllocationLine 
             href: operationsCommon/Tables/HumanResources/HumanResource/WorksheetLine/HRMCompPerfAllocationLine.md
       - name: Payroll
         items:
-        - name: Summary
-          href: operationsCommon/Tables/HumanResources/Payroll/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/Group/overview.md
           - name: PayrollJournalizingDefMatchPrimaryEntry 
             href: operationsCommon/Tables/HumanResources/Payroll/Group/PayrollJournalizingDefMatchPrimaryEntry.md
           - name: PayrollTaxGroup 
@@ -13300,22 +12652,16 @@
             href: operationsCommon/Tables/HumanResources/Payroll/Group/PayrollWorkCycle.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/Miscellaneous/overview.md
           - name: PayrollWorkPeriod 
             href: operationsCommon/Tables/HumanResources/Payroll/Miscellaneous/PayrollWorkPeriod.md
           - name: RTax25RegisterTrans_PayRoll 
             href: operationsCommon/Tables/HumanResources/Payroll/Miscellaneous/RTax25RegisterTrans_PayRoll.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/Parameter/overview.md
           - name: PayrollParameters 
             href: operationsCommon/Tables/HumanResources/Payroll/Parameter/PayrollParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/Reference/overview.md
           - name: PayrollAccrual 
             href: operationsCommon/Tables/HumanResources/Payroll/Reference/PayrollAccrual.md
           - name: PayrollAccrualBasisEarningcode 
@@ -13352,8 +12698,6 @@
             href: operationsCommon/Tables/HumanResources/Payroll/Reference/PayrollWorkerTaxRegionForSymmetry.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/Transaction/overview.md
           - name: PRLDeductionArrear 
             href: operationsCommon/Tables/HumanResources/Payroll/Transaction/PRLDeductionArrear.md
           - name: PRLDeductionArrearRecovery 
@@ -13366,16 +12710,12 @@
             href: operationsCommon/Tables/HumanResources/Payroll/Transaction/PayrollWorkerAccrualAdjustment.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/WorksheetHeader/overview.md
           - name: PayrollEarningStatement 
             href: operationsCommon/Tables/HumanResources/Payroll/WorksheetHeader/PayrollEarningStatement.md
           - name: PayrollPayStatement 
             href: operationsCommon/Tables/HumanResources/Payroll/WorksheetHeader/PayrollPayStatement.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/HumanResources/Payroll/WorksheetLine/overview.md
           - name: LedgerJournalTransPayrollDisbursement 
             href: operationsCommon/Tables/HumanResources/Payroll/WorksheetLine/LedgerJournalTransPayrollDisbursement.md
           - name: PayrollEarningStatementLine 
@@ -13390,28 +12730,18 @@
             href: operationsCommon/Tables/HumanResources/Payroll/WorksheetLine/PayrollPayStatementTaxLine.md
     - name: ProfessionalServices
       items:
-      - name: Summary
-        href: operationsCommon/Tables/ProfessionalServices/overview.md
       - name: Project
         items:
-        - name: Summary
-          href: operationsCommon/Tables/ProfessionalServices/Project/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/Project/Group/overview.md
           - name: CategoryTable 
             href: operationsCommon/Tables/ProfessionalServices/Project/Group/CategoryTable.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/Project/Main/overview.md
           - name: PSAActivitySetup 
             href: operationsCommon/Tables/ProfessionalServices/Project/Main/PSAActivitySetup.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/Project/Miscellaneous/overview.md
           - name: ExpenseFieldsVisibility 
             href: operationsCommon/Tables/ProfessionalServices/Project/Miscellaneous/ExpenseFieldsVisibility.md
           - name: PSAActivityEstimates 
@@ -13424,8 +12754,6 @@
             href: operationsCommon/Tables/ProfessionalServices/Project/Miscellaneous/SysWindowsAppApprovalsConfigReports.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/Project/Parameter/overview.md
           - name: CollabSiteParameters 
             href: operationsCommon/Tables/ProfessionalServices/Project/Parameter/CollabSiteParameters.md
           - name: SysWindowsAppApprovalsConfig 
@@ -13436,8 +12764,6 @@
             href: operationsCommon/Tables/ProfessionalServices/Project/Parameter/SysWindowsAzureParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/Project/Reference/overview.md
           - name: CollabSiteLink 
             href: operationsCommon/Tables/ProfessionalServices/Project/Reference/CollabSiteLink.md
           - name: CollabSiteTable 
@@ -13446,18 +12772,12 @@
             href: operationsCommon/Tables/ProfessionalServices/Project/Reference/SysWindowsAppReportsMapping.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/Project/WorksheetLine/overview.md
           - name: InventTestOperationTimeSheet 
             href: operationsCommon/Tables/ProfessionalServices/Project/WorksheetLine/InventTestOperationTimeSheet.md
       - name: ProjectManagementAndAccounting
         items:
-        - name: Summary
-          href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Group/overview.md
           - name: PSAComponentGroupAssignment 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Group/PSAComponentGroupAssignment.md
           - name: PSACustomerRetentionTermLine 
@@ -13552,8 +12872,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Group/ProjValProjCategoryTable.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Main/overview.md
           - name: PSAIndirectComponent 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Main/PSAIndirectComponent.md
           - name: PSAIndirectCompoundingRulesSelection 
@@ -13618,8 +12936,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Main/TSTimesheetTableLog.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/overview.md
           - name: PSAContractLineItems 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/PSAContractLineItems.md
           - name: PSAContractLineItemsSetup 
@@ -13764,8 +13080,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Miscellaneous/TSTimesheetLineTaxExtensionIN.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Parameter/overview.md
           - name: PSAParameters 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Parameter/PSAParameters.md
           - name: ProjAdjTreeVisualizationLine 
@@ -13788,8 +13102,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Parameter/TSAppEmplSub.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Reference/overview.md
           - name: ProjExportToExcelPivotTable 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Reference/ProjExportToExcelPivotTable.md
           - name: ProjStageTable 
@@ -13802,14 +13114,10 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Reference/TSPolicyRule.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Staging/overview.md
           - name: ProjValProjCategorySetUpStagingV2 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Staging/ProjValProjCategorySetUpStagingV2.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Transaction/overview.md
           - name: CostControlTransCommittedCost 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Transaction/CostControlTransCommittedCost.md
           - name: CustInvoiceLineInterProj 
@@ -13990,8 +13298,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Transaction/TSWorkflowTable.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/TransactionHeader/overview.md
           - name: ProjectRevenueHeader 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/TransactionHeader/ProjectRevenueHeader.md
           - name: ResRequest 
@@ -14000,8 +13306,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/TransactionHeader/TSIntercompanyCost.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/TransactionLine/overview.md
           - name: ProjActivityAssignment 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/TransactionLine/ProjActivityAssignment.md
           - name: ProjBudgetLine 
@@ -14016,14 +13320,10 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/TransactionLine/VendInvoiceInfoLine_Project.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Worksheet/overview.md
           - name: ProjExpPolicies 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/Worksheet/ProjExpPolicies.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/WorksheetHeader/overview.md
           - name: ProjAdvancedJournal 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/WorksheetHeader/ProjAdvancedJournal.md
           - name: ProjInvoiceJour_TH 
@@ -14034,8 +13334,6 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/WorksheetHeader/ProjProposalJour_TH.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/WorksheetLine/overview.md
           - name: LedgerJournalTrans_Project 
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/WorksheetLine/LedgerJournalTrans_Project.md
           - name: ProdJournalRouteProj 
@@ -14058,74 +13356,48 @@
             href: operationsCommon/Tables/ProfessionalServices/ProjectManagementAndAccounting/WorksheetLine/PurchParmLine_Project.md
     - name: SupplyChain
       items:
-      - name: Summary
-        href: operationsCommon/Tables/SupplyChain/overview.md
       - name: Costing
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/Costing/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/Group/overview.md
           - name: ACOJournalName_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/Group/ACOJournalName_BR.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/Miscellaneous/overview.md
           - name: ACOCostCenterAttributeValue_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/Miscellaneous/ACOCostCenterAttributeValue_BR.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/Parameter/overview.md
           - name: ACOParameters_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/Parameter/ACOParameters_BR.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/Transaction/overview.md
           - name: CostAllocationHistory_RU 
             href: operationsCommon/Tables/SupplyChain/Costing/Transaction/CostAllocationHistory_RU.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/TransactionHeader/overview.md
           - name: ACOProdCostTable_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/TransactionHeader/ACOProdCostTable_BR.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/TransactionLine/overview.md
           - name: ACOProdOverHeadCostTrans_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/TransactionLine/ACOProdOverHeadCostTrans_BR.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/WorksheetHeader/overview.md
           - name: ACOJournalTable_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/WorksheetHeader/ACOJournalTable_BR.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Costing/WorksheetLine/overview.md
           - name: ACOJournalTransOverHead_BR 
             href: operationsCommon/Tables/SupplyChain/Costing/WorksheetLine/ACOJournalTransOverHead_BR.md
       - name: Inventory
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/Inventory/overview.md
         - name: Framework
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Framework/overview.md
           - name: InventTransDirection 
             href: operationsCommon/Tables/SupplyChain/Inventory/Framework/InventTransDirection.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Group/overview.md
           - name: BOMCalcGroup 
             href: operationsCommon/Tables/SupplyChain/Inventory/Group/BOMCalcGroup.md
           - name: BOMCostGroup 
@@ -14263,7 +13535,6 @@
           - name: WHSContainerizationTable 
             href: operationsCommon/Tables/SupplyChain/Inventory/Group/WHSContainerizationTable.md
           - name: WHSCycleCountPlanOverview 
-            href: operationsCommon/Tables/SupplyChain/Inventory/Group/WHSCycleCountPlanOverview.md
           - name: WHSCycleCountPlanProductSelection 
             href: operationsCommon/Tables/SupplyChain/Inventory/Group/WHSCycleCountPlanProductSelection.md
           - name: WHSCycleCountThreshold 
@@ -14372,8 +13643,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/Group/WMSJournalName.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Main/overview.md
           - name: BOMDefaultProductionFlow 
             href: operationsCommon/Tables/SupplyChain/Inventory/Main/BOMDefaultProductionFlow.md
           - name: CostSheetCalculationBasis 
@@ -14670,8 +13939,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/Main/WMSLocation.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/overview.md
           - name: CostEntryTable 
             href: operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/CostEntryTable.md
           - name: CostEventTable 
@@ -14814,8 +14081,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/Miscellaneous/WMSWorkloadCapacityWarehouse.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Parameter/overview.md
           - name: CostInventoryAccountingKPIGoals 
             href: operationsCommon/Tables/SupplyChain/Inventory/Parameter/CostInventoryAccountingKPIGoals.md
           - name: CostParameters 
@@ -14842,14 +14107,10 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/Parameter/WMSParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Reference/overview.md
           - name: WHSNumberSequenceExtReference 
             href: operationsCommon/Tables/SupplyChain/Inventory/Reference/WHSNumberSequenceExtReference.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Transaction/overview.md
           - name: BOMCalcItemInventoryDimensionTask 
             href: operationsCommon/Tables/SupplyChain/Inventory/Transaction/BOMCalcItemInventoryDimensionTask.md
           - name: BOMCalcTable 
@@ -15156,8 +14417,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/Transaction/WMSOrderTrans.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/TransactionHeader/overview.md
           - name: InventClosing 
             href: operationsCommon/Tables/SupplyChain/Inventory/TransactionHeader/InventClosing.md
           - name: InventItemPrice 
@@ -15170,8 +14429,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/TransactionHeader/WMSBillOfLading.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/TransactionLine/overview.md
           - name: InventClosingLog 
             href: operationsCommon/Tables/SupplyChain/Inventory/TransactionLine/InventClosingLog.md
           - name: InventCostBundleList 
@@ -15206,8 +14463,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/TransactionLine/WMSBillOfLadingOrder.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/Worksheet/overview.md
           - name: BOMParmReportFinish_IN 
             href: operationsCommon/Tables/SupplyChain/Inventory/Worksheet/BOMParmReportFinish_IN.md
           - name: InventBlocking 
@@ -15226,8 +14481,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/Worksheet/WHSOrderCommittedReservationTransferred.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/WorksheetHeader/overview.md
           - name: CommReportJour_RU 
             href: operationsCommon/Tables/SupplyChain/Inventory/WorksheetHeader/CommReportJour_RU.md
           - name: InventBatch 
@@ -15302,8 +14555,6 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/WorksheetHeader/WMSShipment.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Inventory/WorksheetLine/overview.md
           - name: CommReportTransItemDetail_RU 
             href: operationsCommon/Tables/SupplyChain/Inventory/WorksheetLine/CommReportTransItemDetail_RU.md
           - name: InventBatchJournalResult 
@@ -15420,12 +14671,8 @@
             href: operationsCommon/Tables/SupplyChain/Inventory/WorksheetLine/WMSPickingRouteLink.md
       - name: MasterPlanning
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/MasterPlanning/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/Group/overview.md
           - name: ForecastItemAllocation 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Group/ForecastItemAllocation.md
           - name: ForecastItemAllocationLine 
@@ -15468,8 +14715,6 @@
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Group/WrkCtrPropertyLine.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/Main/overview.md
           - name: LeanScheduleGroup 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Main/LeanScheduleGroup.md
           - name: LeanScheduleGroupEntryGroup 
@@ -15568,8 +14813,6 @@
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Main/WrkCtrRouteOprActivity.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/Miscellaneous/overview.md
           - name: ReqCalcCapacityConflictOrders 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Miscellaneous/ReqCalcCapacityConflictOrders.md
           - name: ReqCalcTasksBundle 
@@ -15620,8 +14863,6 @@
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Miscellaneous/WrkCtrSchedulingLog.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/Parameter/overview.md
           - name: ReqDemPlanForecastAttribute 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Parameter/ReqDemPlanForecastAttribute.md
           - name: ReqDemPlanForecastParameters 
@@ -15640,8 +14881,6 @@
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Parameter/WrkCtrParametersDim.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/Transaction/overview.md
           - name: KanbanJobSchedule 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Transaction/KanbanJobSchedule.md
           - name: KanbanJobScheduleCapacitySum 
@@ -15684,36 +14923,26 @@
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Transaction/WrkCtrSchedulerLock.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/TransactionHeader/overview.md
           - name: ReqDemPlanTaskCollectionLog 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/TransactionHeader/ReqDemPlanTaskCollectionLog.md
           - name: ReqProcessList 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/TransactionHeader/ReqProcessList.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/TransactionLine/overview.md
           - name: ReqDemPlanTaskLog 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/TransactionLine/ReqDemPlanTaskLog.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/Worksheet/overview.md
           - name: ReqCalcTask 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/Worksheet/ReqCalcTask.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/WorksheetHeader/overview.md
           - name: ReqItemJournalTable 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/WorksheetHeader/ReqItemJournalTable.md
           - name: ReqPO 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/WorksheetHeader/ReqPO.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/MasterPlanning/WorksheetLine/overview.md
           - name: ForecastInvent 
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/WorksheetLine/ForecastInvent.md
           - name: ForecastPurch 
@@ -15740,12 +14969,8 @@
             href: operationsCommon/Tables/SupplyChain/MasterPlanning/WorksheetLine/WrkCtrSchedulerRuntimeTable.md
       - name: ProcurementAndSourcing
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Group/overview.md
           - name: AgreementClassification 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Group/AgreementClassification.md
           - name: AgreementClassificationTranslation 
@@ -15788,8 +15013,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Group/PurchReqControlRFQCategoryCondition.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Main/overview.md
           - name: CatCatalogPolicyRule 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Main/CatCatalogPolicyRule.md
           - name: CatCatalogProductRelationType 
@@ -15978,8 +15201,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Main/VendReviewCriterionTranslation.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/overview.md
           - name: AifPortValueMap 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/AifPortValueMap.md
           - name: PSNPurchRFQBiddingGuidanceItem 
@@ -16034,8 +15255,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Miscellaneous/VendRFQAmendmentJour.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/overview.md
           - name: CatCXMLParameters 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/CatCXMLParameters.md
           - name: CatParameters 
@@ -16078,8 +15297,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Parameter/VendRequestManagementParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Reference/overview.md
           - name: AifEndpointActionValueMap 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Reference/AifEndpointActionValueMap.md
           - name: CatCXMLExtrinsic 
@@ -16106,8 +15323,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Reference/WorkflowParticipantExpenTokenLine.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Transaction/overview.md
           - name: ConsignmentProductReceiptJournalHeader 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Transaction/ConsignmentProductReceiptJournalHeader.md
           - name: ConsignmentProductReceiptJournalLine 
@@ -16188,8 +15403,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Transaction/VendRequestProfileQuestionnaire.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/TransactionHeader/overview.md
           - name: AgreementHeaderDefaultHistory 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/TransactionHeader/AgreementHeaderDefaultHistory.md
           - name: AgreementHeaderHistory 
@@ -16206,8 +15419,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/TransactionHeader/PurchaseOrderResponseHeaderHistory.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/TransactionLine/overview.md
           - name: AgreementLineDefaultHistory 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/TransactionLine/AgreementLineDefaultHistory.md
           - name: AgreementLineHistory 
@@ -16222,8 +15433,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/TransactionLine/PurchaseOrderResponseLineHistory.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Worksheet/overview.md
           - name: AgreementLineReleasedLine 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Worksheet/AgreementLineReleasedLine.md
           - name: AgreementLineReleasedLineHistory 
@@ -16258,8 +15467,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/Worksheet/VendProspectiveVendorRegistrationRequest.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/overview.md
           - name: AgreementHeader 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/AgreementHeader.md
           - name: AgreementHeaderDefault 
@@ -16310,8 +15517,6 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetHeader/VendProspectiveVendorRegistration.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetLine/overview.md
           - name: AgreementLine 
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetLine/AgreementLine.md
           - name: AgreementLineDefault 
@@ -16408,12 +15613,8 @@
             href: operationsCommon/Tables/SupplyChain/ProcurementAndSourcing/WorksheetLine/VendRFQTrans.md
       - name: ProductInformationManagement
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Group/overview.md
           - name: COODualUseCategory 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Group/COODualUseCategory.md
           - name: ConfigGroup 
@@ -16476,8 +15677,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Group/PdsMRCItemCAS.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/overview.md
           - name: BOM 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/BOM.md
           - name: BOMConfigRoute 
@@ -16788,8 +15987,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/PdsMRCValidityIntervalByCountry.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Miscellaneous/overview.md
           - name: BOMLevelRecalculation 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Miscellaneous/BOMLevelRecalculation.md
           - name: COODualUseCountry 
@@ -16828,8 +16025,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Miscellaneous/PCRuntimeCacheXml.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Parameter/overview.md
           - name: BOMParameters 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Parameter/BOMParameters.md
           - name: EcoResProductParameters 
@@ -16838,14 +16033,10 @@
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Parameter/PdsMRCParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Reference/overview.md
           - name: PCTemplateAttribute 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Reference/PCTemplateAttribute.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Transaction/overview.md
           - name: EcoResReleaseProductLegalEntity 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Transaction/EcoResReleaseProductLegalEntity.md
           - name: EcoResReleaseProductLegalEntityLog 
@@ -16874,56 +16065,38 @@
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Transaction/PdsMRCVendorHistory.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Worksheet/overview.md
           - name: BOMParmReportFinish 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/Worksheet/BOMParmReportFinish.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/WorksheetLine/overview.md
           - name: PCSourceDocumentLineDocuRef 
             href: operationsCommon/Tables/SupplyChain/ProductInformationManagement/WorksheetLine/PCSourceDocumentLineDocuRef.md
       - name: Production
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/Production/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Production/Group/overview.md
           - name: ProdReleaseKindTable_RU 
             href: operationsCommon/Tables/SupplyChain/Production/Group/ProdReleaseKindTable_RU.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Production/Transaction/overview.md
           - name: ProdReleaseTrans_RU 
             href: operationsCommon/Tables/SupplyChain/Production/Transaction/ProdReleaseTrans_RU.md
           - name: ProdWIPHistoricalCostTable_RU 
             href: operationsCommon/Tables/SupplyChain/Production/Transaction/ProdWIPHistoricalCostTable_RU.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Production/WorksheetHeader/overview.md
           - name: ProdTable_IN 
             href: operationsCommon/Tables/SupplyChain/Production/WorksheetHeader/ProdTable_IN.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Production/WorksheetLine/overview.md
           - name: ProdJournalBOM_IN 
             href: operationsCommon/Tables/SupplyChain/Production/WorksheetLine/ProdJournalBOM_IN.md
           - name: ProdJournalRelease_RU 
             href: operationsCommon/Tables/SupplyChain/Production/WorksheetLine/ProdJournalRelease_RU.md
       - name: ProductionControl
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/ProductionControl/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Group/overview.md
           - name: GanttColorTable 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Group/GanttColorTable.md
           - name: GanttLine 
@@ -16994,8 +16167,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Group/WorkCalendarTable.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Main/overview.md
           - name: GanttLineResourceGroups 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Main/GanttLineResourceGroups.md
           - name: JmgAbsenceCalendar 
@@ -17082,8 +16253,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Main/WorkCalendarEmployment.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Miscellaneous/overview.md
           - name: JmgJobReportDeviationUpdateParam 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Miscellaneous/JmgJobReportDeviationUpdateParam.md
           - name: JmgProdJobSummaryDataSetTable 
@@ -17104,8 +16273,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Miscellaneous/ProdTableRecalcQueue.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Parameter/overview.md
           - name: JmgClientFieldTable 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Parameter/JmgClientFieldTable.md
           - name: JmgParameters 
@@ -17140,8 +16307,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Parameter/RouteParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Reference/overview.md
           - name: JmgIpcActivity 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Reference/JmgIpcActivity.md
           - name: JmgIpcCategory 
@@ -17162,14 +16327,10 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Reference/JmgTermTexts.md
         - name: Staging
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Staging/overview.md
           - name: RouteRouteOperationStagingV2 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Staging/RouteRouteOperationStagingV2.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Transaction/overview.md
           - name: JmgAssistance 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Transaction/JmgAssistance.md
           - name: JmgAttendanceRegistration 
@@ -17266,14 +16427,10 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Transaction/ProdTableJour.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/TransactionHeader/overview.md
           - name: JmgIpcJournalTable 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/TransactionHeader/JmgIpcJournalTable.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/Worksheet/overview.md
           - name: JmgChangeLog 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Worksheet/JmgChangeLog.md
           - name: JmgProdJobStatus 
@@ -17302,8 +16459,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/Worksheet/ProdParmStatusDecrease.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/WorksheetHeader/overview.md
           - name: JmgGroupSigningTable 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/WorksheetHeader/JmgGroupSigningTable.md
           - name: JmgIpcLedgerJournal 
@@ -17324,8 +16479,6 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/WorksheetHeader/ProdTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ProductionControl/WorksheetLine/overview.md
           - name: JmgGroupSigningLine 
             href: operationsCommon/Tables/SupplyChain/ProductionControl/WorksheetLine/JmgGroupSigningLine.md
           - name: JmgIpcJournalTrans 
@@ -17360,12 +16513,8 @@
             href: operationsCommon/Tables/SupplyChain/ProductionControl/WorksheetLine/ProdRouteJob.md
       - name: SalesAndMarketing
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Group/overview.md
           - name: CommissionCalc 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Group/CommissionCalc.md
           - name: CommissionCustomerGroup 
@@ -17548,8 +16697,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Group/smmTMReasonGroup.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Main/overview.md
           - name: ContactPerson 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Main/ContactPerson.md
           - name: CustVendExternalItem 
@@ -17720,8 +16867,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Main/smmTMContactResponses.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Miscellaneous/overview.md
           - name: ContactPersonUserRelation 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Miscellaneous/ContactPersonUserRelation.md
           - name: HMIMIdentificationTranslation 
@@ -17758,8 +16903,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Miscellaneous/TAMVendRebateVendInvoiceTrans.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Parameter/overview.md
           - name: AxdDocumentParameters 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Parameter/AxdDocumentParameters.md
           - name: CustFormletterDocument 
@@ -17802,8 +16945,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Parameter/smmSourceTypeOptions.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Reference/overview.md
           - name: FormLetterRemarks 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Reference/FormLetterRemarks.md
           - name: InventFallbackWarehouse 
@@ -17816,8 +16957,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Reference/ReturnReasonCodeGroup.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Transaction/overview.md
           - name: CommissionTrans 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Transaction/CommissionTrans.md
           - name: CustConfirmJour 
@@ -17920,8 +17059,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Transaction/smmTransLog.md
         - name: TransactionHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/TransactionHeader/overview.md
           - name: HMIMCarrOfMerchByRoad 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/TransactionHeader/HMIMCarrOfMerchByRoad.md
           - name: HMIMMultimodalDG 
@@ -17934,8 +17071,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/TransactionHeader/SalesAgreementHeaderHistory.md
         - name: TransactionLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/TransactionLine/overview.md
           - name: HMIMCarrOfMerchByRoadItem 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/TransactionLine/HMIMCarrOfMerchByRoadItem.md
           - name: HMIMMultimodalDGItem 
@@ -17944,8 +17079,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/TransactionLine/HMIMShipperDeclarationItem.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Worksheet/overview.md
           - name: HMIMItemMaterial 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Worksheet/HMIMItemMaterial.md
           - name: HMIMMaterial 
@@ -17964,8 +17097,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/Worksheet/SalesQuotationDeliverySchedule.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetHeader/overview.md
           - name: MCRBrokerClaim 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetHeader/MCRBrokerClaim.md
           - name: MCRBrokerContractTable 
@@ -18010,8 +17141,6 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetHeader/smmLeadTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetLine/overview.md
           - name: MCRBrokerAccrual 
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetLine/MCRBrokerAccrual.md
           - name: MCRBrokerContractLine 
@@ -18058,12 +17187,8 @@
             href: operationsCommon/Tables/SupplyChain/SalesAndMarketing/WorksheetLine/TradeNonStockedConversionItem.md
       - name: ServiceManagement
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/ServiceManagement/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ServiceManagement/Group/overview.md
           - name: SMAAgreementGroup 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Group/SMAAgreementGroup.md
           - name: SMAAgreementInterval 
@@ -18102,8 +17227,6 @@
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Group/SMATimeAgreement.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ServiceManagement/Main/overview.md
           - name: SMAServiceBOMTable 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Main/SMAServiceBOMTable.md
           - name: SMAServiceLevelAgreementTable 
@@ -18122,16 +17245,12 @@
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Main/SMATemplateBOMTable.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ServiceManagement/Parameter/overview.md
           - name: SMAParameters 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Parameter/SMAParameters.md
           - name: SMAParametersSubscription 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Parameter/SMAParametersSubscription.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ServiceManagement/Transaction/overview.md
           - name: SMAAccruePeriodLine 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Transaction/SMAAccruePeriodLine.md
           - name: SMAPreServiceOrderLine 
@@ -18148,16 +17267,12 @@
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/Transaction/SMAServiceOrderReason.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ServiceManagement/WorksheetHeader/overview.md
           - name: SMAAgreementTable 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/WorksheetHeader/SMAAgreementTable.md
           - name: SMAServiceOrderTable 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/WorksheetHeader/SMAServiceOrderTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/ServiceManagement/WorksheetLine/overview.md
           - name: SMAAgreementLine 
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/WorksheetLine/SMAAgreementLine.md
           - name: SMARepairLine 
@@ -18166,12 +17281,8 @@
             href: operationsCommon/Tables/SupplyChain/ServiceManagement/WorksheetLine/SMAServiceOrderLine.md
       - name: Transportation
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/Transportation/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/Group/overview.md
           - name: TMSApportionedValue 
             href: operationsCommon/Tables/SupplyChain/Transportation/Group/TMSApportionedValue.md
           - name: TMSAuditException 
@@ -18274,8 +17385,6 @@
             href: operationsCommon/Tables/SupplyChain/Transportation/Group/TMSZoneMasterDetail.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/Main/overview.md
           - name: TMSAccessorialAssignment 
             href: operationsCommon/Tables/SupplyChain/Transportation/Main/TMSAccessorialAssignment.md
           - name: TMSAccessorialMaster 
@@ -18344,8 +17453,6 @@
             href: operationsCommon/Tables/SupplyChain/Transportation/Main/TMSZoneMasterField.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/Miscellaneous/overview.md
           - name: TMSCarrierDefaultLocation 
             href: operationsCommon/Tables/SupplyChain/Transportation/Miscellaneous/TMSCarrierDefaultLocation.md
           - name: TMSCarrierLogisticsLocation 
@@ -18364,14 +17471,10 @@
             href: operationsCommon/Tables/SupplyChain/Transportation/Miscellaneous/TMSLoadBuildTemplateLoadTemplate.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/Parameter/overview.md
           - name: TMSParameters 
             href: operationsCommon/Tables/SupplyChain/Transportation/Parameter/TMSParameters.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/Transaction/overview.md
           - name: TMSAppointment 
             href: operationsCommon/Tables/SupplyChain/Transportation/Transaction/TMSAppointment.md
           - name: TMSApptHistory 
@@ -18418,8 +17521,6 @@
             href: operationsCommon/Tables/SupplyChain/Transportation/Transaction/TMSTransferCharges.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/WorksheetHeader/overview.md
           - name: TMSInventTransferTable 
             href: operationsCommon/Tables/SupplyChain/Transportation/WorksheetHeader/TMSInventTransferTable.md
           - name: TMSInvoiceTable 
@@ -18436,8 +17537,6 @@
             href: operationsCommon/Tables/SupplyChain/Transportation/WorksheetHeader/TMSTransportRequestTable.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Transportation/WorksheetLine/overview.md
           - name: TMSCarrierFuelIndexLine 
             href: operationsCommon/Tables/SupplyChain/Transportation/WorksheetLine/TMSCarrierFuelIndexLine.md
           - name: TMSCarrierXRef 
@@ -18462,18 +17561,12 @@
             href: operationsCommon/Tables/SupplyChain/Transportation/WorksheetLine/TMSTransportRequestLine.md
       - name: Vendor
         items:
-        - name: Summary
-          href: operationsCommon/Tables/SupplyChain/Vendor/overview.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Vendor/Group/overview.md
           - name: VendGroup 
             href: operationsCommon/Tables/SupplyChain/Vendor/Group/VendGroup.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Vendor/Main/overview.md
           - name: VendBankAccount 
             href: operationsCommon/Tables/SupplyChain/Vendor/Main/VendBankAccount.md
           - name: VendDefaultAccounts 
@@ -18488,20 +17581,14 @@
             href: operationsCommon/Tables/SupplyChain/Vendor/Main/VendTable.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Vendor/Miscellaneous/overview.md
           - name: VendVendorPortalUserRequest 
             href: operationsCommon/Tables/SupplyChain/Vendor/Miscellaneous/VendVendorPortalUserRequest.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Vendor/Parameter/overview.md
           - name: VendTableChangeProposalFieldEnablement 
             href: operationsCommon/Tables/SupplyChain/Vendor/Parameter/VendTableChangeProposalFieldEnablement.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Vendor/Transaction/overview.md
           - name: VendCategory 
             href: operationsCommon/Tables/SupplyChain/Vendor/Transaction/VendCategory.md
           - name: VendCertification 
@@ -18512,8 +17599,6 @@
             href: operationsCommon/Tables/SupplyChain/Vendor/Transaction/VendUserRequest.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/SupplyChain/Vendor/Worksheet/overview.md
           - name: VendTableChangeProposal 
             href: operationsCommon/Tables/SupplyChain/Vendor/Worksheet/VendTableChangeProposal.md
           - name: VendVendorRequest 
@@ -18522,16 +17607,10 @@
             href: operationsCommon/Tables/SupplyChain/Vendor/Worksheet/VendVendorRequestNewVendor.md
     - name: System
       items:
-      - name: Summary
-        href: operationsCommon/Tables/System/overview.md
       - name: SystemAdministration
         items:
-        - name: Summary
-          href: operationsCommon/Tables/System/SystemAdministration/overview.md
         - name: Framework
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Framework/overview.md
           - name: AifSqlCdcEnabledTables 
             href: operationsCommon/Tables/System/SystemAdministration/Framework/AifSqlCdcEnabledTables.md
           - name: AifSqlCtTriggers 
@@ -18720,8 +17799,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Framework/xRefTableRelation.md
         - name: Group
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Group/overview.md
           - name: BatchGroup 
             href: operationsCommon/Tables/System/SystemAdministration/Group/BatchGroup.md
           - name: BatchJobActivePeriod 
@@ -18748,8 +17825,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Group/SysDocuBrands.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Main/overview.md
           - name: BIDateDimension 
             href: operationsCommon/Tables/System/SystemAdministration/Main/BIDateDimension.md
           - name: BIDateDimensionTranslations 
@@ -18838,8 +17913,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Main/UserGroupInfo.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/overview.md
           - name: AifSqlChangeTrackingEnabledTables 
             href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/AifSqlChangeTrackingEnabledTables.md
           - name: AxKPIGoalTable 
@@ -19306,8 +18379,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Miscellaneous/XmlCertificate.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Parameter/overview.md
           - name: BIMeasurementParameters 
             href: operationsCommon/Tables/System/SystemAdministration/Parameter/BIMeasurementParameters.md
           - name: BusinessEventsParameters 
@@ -19362,8 +18433,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Parameter/UserRequestParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Reference/overview.md
           - name: BIDateDimensionFormatStrings 
             href: operationsCommon/Tables/System/SystemAdministration/Reference/BIDateDimensionFormatStrings.md
           - name: SRSAnalysisEnums 
@@ -19384,8 +18453,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Reference/TimezoneInfo.md
         - name: Transaction
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Transaction/overview.md
           - name: Batch 
             href: operationsCommon/Tables/System/SystemAdministration/Transaction/Batch.md
           - name: BatchConstraints 
@@ -19454,8 +18521,6 @@
             href: operationsCommon/Tables/System/SystemAdministration/Transaction/UserRequest.md
         - name: Worksheet
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/Worksheet/overview.md
           - name: KeyVaultParameters 
             href: operationsCommon/Tables/System/SystemAdministration/Worksheet/KeyVaultParameters.md
           - name: SysTestJobTable 
@@ -19468,14 +18533,10 @@
             href: operationsCommon/Tables/System/SystemAdministration/Worksheet/SysTestTable.md
         - name: WorksheetHeader
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/WorksheetHeader/overview.md
           - name: SysFileStore 
             href: operationsCommon/Tables/System/SystemAdministration/WorksheetHeader/SysFileStore.md
         - name: WorksheetLine
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/SystemAdministration/WorksheetLine/overview.md
           - name: DocuDeletedRef 
             href: operationsCommon/Tables/System/SystemAdministration/WorksheetLine/DocuDeletedRef.md
           - name: DocuRef 
@@ -19484,12 +18545,8 @@
             href: operationsCommon/Tables/System/SystemAdministration/WorksheetLine/SysFileStoreFile.md
       - name: Workflow
         items:
-        - name: Summary
-          href: operationsCommon/Tables/System/Workflow/overview.md
         - name: Framework
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/Workflow/Framework/overview.md
           - name: SysWorkflowElementTable 
             href: operationsCommon/Tables/System/Workflow/Framework/SysWorkflowElementTable.md
           - name: SysWorkflowExternalElementTable 
@@ -19580,8 +18637,6 @@
             href: operationsCommon/Tables/System/Workflow/Framework/WorkflowWorkItemTable.md
         - name: Main
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/Workflow/Main/overview.md
           - name: SysPolicy 
             href: operationsCommon/Tables/System/Workflow/Main/SysPolicy.md
           - name: SysPolicyOrganization 
@@ -19604,14 +18659,10 @@
             href: operationsCommon/Tables/System/Workflow/Main/SysPolicyTypeSequence.md
         - name: Miscellaneous
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/Workflow/Miscellaneous/overview.md
           - name: WorkflowInstantFlowEndpoints 
             href: operationsCommon/Tables/System/Workflow/Miscellaneous/WorkflowInstantFlowEndpoints.md
         - name: Parameter
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/Workflow/Parameter/overview.md
           - name: SysWorkflowParameters 
             href: operationsCommon/Tables/System/Workflow/Parameter/SysWorkflowParameters.md
           - name: WorkflowParameters 
@@ -19620,8 +18671,6 @@
             href: operationsCommon/Tables/System/Workflow/Parameter/WorkflowWorkItemDelegationParameters.md
         - name: Reference
           items:
-          - name: Summary
-            href: operationsCommon/Tables/System/Workflow/Reference/overview.md
           - name: SysPolicyRuleType 
             href: operationsCommon/Tables/System/Workflow/Reference/SysPolicyRuleType.md
           - name: SysPolicySourceDocumentRuleType 
