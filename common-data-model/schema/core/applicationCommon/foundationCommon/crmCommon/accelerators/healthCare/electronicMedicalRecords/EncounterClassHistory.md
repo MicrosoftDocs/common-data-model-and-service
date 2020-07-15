@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/13/2020
+ms.date: 7/14/2020
 ms.author: nebanfic
 ---
 
@@ -69,7 +69,7 @@ The class history permits the tracking of the encounters transitions without nee
 |[encounterClass_display](#encounterClass_display)||<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
 |[encounterClassEndDate](#encounterClassEndDate)|The time that the episode was in the specified class.|<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
 |[encounterClassHistoryId](#encounterClassHistoryId)|Unique identifier for entity instances|<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
-|[encounterClassStartDate](#encounterClassStartDate)|inpatient | outpatient | ambulatory | emergency +.|<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
+|[encounterClassStartDate](#encounterClassStartDate)|inpatient \| outpatient \| ambulatory \| emergency +.|<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
 |[name](#name)|The name of the custom entity.|<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
 |[stateCode](#stateCode)|Status of the Encounter Class History|<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
 |[stateCode_display](#stateCode_display)||<a href="EncounterClassHistory.md" target="_blank">electronicMedicalRecords/EncounterClassHistory</a>|
@@ -979,12 +979,12 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 
 ### <a href=#encounterClassStartDate name="encounterClassStartDate">encounterClassStartDate</a>
 
-inpatient | outpatient | ambulatory | emergency +.  
+inpatient \| outpatient \| ambulatory \| emergency +.  
 First included in: electronicMedicalRecords/EncounterClassHistory (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterclassstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start Date</td></tr><tr><td>description</td><td>inpatient &#124 outpatient &#124 ambulatory &#124 emergency +.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_encounterclassstartdate</td></tr></table>
 
 #### Traits
 

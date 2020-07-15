@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/13/2020
+ms.date: 7/14/2020
 ms.author: nebanfic
 ---
 
@@ -121,7 +121,7 @@ Measurements and simple assertions made about a patient, device or other subject
 |[valueRatioNumeratorSystem](#valueRatioNumeratorSystem)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorUnit](#valueRatioNumeratorUnit)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorValue](#valueRatioNumeratorValue)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueSampledDataTypeData](#valueSampledDataTypeData)|Decimal values with spaces, or "E" | "U" | "L"|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeData](#valueSampledDataTypeData)|Decimal values with spaces, or "E" \| "U" \| "L"|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueSampledDataTypeDimension](#valueSampledDataTypeDimension)|Number of sample points at each time point.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueSampledDataTypeFactor](#valueSampledDataTypeFactor)|Multiply data by this before adding to origin.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueSampledDataTypeLowerLimit](#valueSampledDataTypeLowerLimit)|Lower limit of detection|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
@@ -3071,12 +3071,12 @@ for setting the exact precision and scale of numeric values
 
 ### <a href=#valueSampledDataTypeData name="valueSampledDataTypeData">valueSampledDataTypeData</a>
 
-Decimal values with spaces, or "E" | "U" | "L"  
+Decimal values with spaces, or "E" \| "U" \| "L"  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" | "U" | "L"</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" &#124 "U" &#124 "L"</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr></table>
 
 #### Traits
 

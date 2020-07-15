@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/13/2020
+ms.date: 7/14/2020
 ms.author: nebanfic
 ---
 
@@ -65,7 +65,7 @@ An interaction between a patient and healthcare provider(s) for the purpose of p
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[appointmentEMRId](#appointmentEMRId)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
-|[class](#class)|Type of: inpatient | outpatient | ambulatory | emergency +.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[class](#class)|Type of: inpatient \| outpatient \| ambulatory \| emergency +.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[class_display](#class_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[contextEncounterId](#contextEncounterId)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[contextEpisodeOfCareId](#contextEpisodeOfCareId)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
@@ -864,12 +864,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#class name="class">class</a>
 
-Type of: inpatient | outpatient | ambulatory | emergency +.  
+Type of: inpatient \| outpatient \| ambulatory \| emergency +.  
 First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient &#124 outpatient &#124 ambulatory &#124 emergency +.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr></table></td></tr></table>
 
 #### Traits
 
