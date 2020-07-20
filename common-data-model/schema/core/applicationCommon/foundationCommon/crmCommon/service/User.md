@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/14/2020
+ms.date: 7/20/2020
 ms.author: nebanfic
 ---
 
@@ -377,6 +377,8 @@ First included in: service/User (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.firstName**  
+A person's given or first name.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -505,6 +507,8 @@ First included in: service/User (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.lastName**  
+A person's surname, family name or last name.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -4224,6 +4228,8 @@ First included in: service/User (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.lastName**  
+A person's surname, family name or last name.  
+
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -4312,6 +4318,8 @@ First included in: service/User (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.firstName**  
+A person's given or first name.  
+
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

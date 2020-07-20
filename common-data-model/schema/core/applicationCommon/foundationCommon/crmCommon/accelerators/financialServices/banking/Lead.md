@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/14/2020
+ms.date: 7/20/2020
 ms.author: nebanfic
 ---
 
@@ -22,7 +22,7 @@ A prospect represents a potential customer or sale happening in the system. A pr
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/Lead.cdm.json/Lead/hasAttributes<br>/attributesAddedAtThisScope</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/financialServices/banking<br>/Lead.cdm.json/Lead/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -651,6 +651,8 @@ First included in: banking/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3232,7 +3234,7 @@ First included in: banking/Lead (this entity)
 <summary>List of traits for the budgetAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3367,7 +3369,7 @@ First included in: banking/Lead (this entity)
 <summary>List of traits for the budgetAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -3611,6 +3613,8 @@ First included in: banking/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.localized.displayedAs**  
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Customer Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
@@ -4069,7 +4073,7 @@ First included in: banking/Lead (this entity)
 <summary>List of traits for the estimatedAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -4113,7 +4117,7 @@ First included in: banking/Lead (this entity)
 <summary>List of traits for the estimatedAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -4322,6 +4326,8 @@ First included in: banking/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.firstName**  
+A person's given or first name.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"recommended"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -4541,6 +4547,8 @@ First included in: banking/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.lastName**  
+A person's surname, family name or last name.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"required"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -5352,7 +5360,7 @@ First included in: banking/Lead (this entity)
 <summary>List of traits for the revenue attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -5396,7 +5404,7 @@ First included in: banking/Lead (this entity)
 <summary>List of traits for the revenueBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -5800,19 +5808,21 @@ First included in: banking/Lead (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the lead's status.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.constrainedList.correlated**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
+
 **does.haveDefault**  
 An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>New</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Contacted</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Qualified</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Lost</td><td>4</td><td>2</td></tr><tr><td>en</td><td>Cannot Contact</td><td>5</td><td>2</td></tr><tr><td>en</td><td>No Longer Interested</td><td>6</td><td>2</td></tr><tr><td>en</td><td>Canceled</td><td>7</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>
@@ -5835,7 +5845,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10164"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.integer**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>
@@ -6584,6 +6595,8 @@ First included in: banking/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.firstName**  
+A person's given or first name.  
+
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -6672,6 +6685,8 @@ First included in: banking/Lead (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.lastName**  
+A person's surname, family name or last name.  
+
 **means.reference.phonetic**  
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>

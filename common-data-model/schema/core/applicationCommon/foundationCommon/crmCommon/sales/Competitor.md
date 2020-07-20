@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/14/2020
+ms.date: 7/20/2020
 ms.author: nebanfic
 ---
 
@@ -3009,7 +3009,7 @@ First included in: sales/Competitor (this entity)
 <summary>List of traits for the reportedRevenue attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3144,7 +3144,7 @@ First included in: sales/Competitor (this entity)
 <summary>List of traits for the reportedRevenueBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  

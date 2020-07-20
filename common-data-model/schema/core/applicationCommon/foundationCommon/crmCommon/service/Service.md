@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/14/2020
+ms.date: 7/20/2020
 ms.author: nebanfic
 ---
 
@@ -874,19 +874,21 @@ First included in: service/Service (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Status Reason</td></tr><tr><td>description</td><td>Initial status reason for the service activity.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>initialstatuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Requested</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Pending</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Reserved</td><td>4</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>9</td><td>2</td></tr><tr><td>en</td><td>No Show</td><td>10</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Initial Status Reason</td></tr><tr><td>description</td><td>Initial status reason for the service activity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>sourceName</td><td>initialstatuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Requested</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Pending</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Reserved</td><td>4</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>9</td><td>2</td></tr><tr><td>en</td><td>No Show</td><td>10</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the initialStatusCode attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
+**is.dataFormat.character**  
+**is.dataFormat.big**  
+**is.dataFormat.array**  
+**is.constrainedList.correlated**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
+
 **does.haveDefault**  
 An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Requested</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Tentative</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Pending</td><td>3</td><td>0</td></tr><tr><td>en</td><td>Reserved</td><td>4</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>6</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>7</td><td>0</td></tr><tr><td>en</td><td>Completed</td><td>8</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>9</td><td>2</td></tr><tr><td>en</td><td>No Show</td><td>10</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"UNSPECIFIED"</td><td>attributeName</td><td></td></tr></table>
@@ -906,7 +908,8 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10028"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.integer**  
+**is.dataFormat.character**  
+**is.dataFormat.array**  
 </details>
 
 ### <a href=#initialStatusCode_display name="initialStatusCode_display">initialStatusCode_display</a>

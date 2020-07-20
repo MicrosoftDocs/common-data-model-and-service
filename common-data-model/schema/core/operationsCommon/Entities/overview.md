@@ -5,7 +5,7 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/15/2020
+ms.date: 7/20/2020
 ms.author: nebanfic
 ---
 
@@ -17,6 +17,7 @@ Common Data Model logical entities for operations applications
 
 |Name|
 |---|
+|[Commerce](Commerce/overview.md)|
 |[Common](Common/overview.md)|
 |[Finance](Finance/overview.md)|
 |[HumanResources](HumanResources/overview.md)|
