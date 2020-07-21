@@ -5,11 +5,11 @@ author: nenad1002
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/20/2020
+ms.date: 7/21/2020
 ms.author: nebanfic
 ---
 
-# nonProfitVolunteers
+# Overview of nonProfitVolunteers
 
 CDM Solution for the 'NONPROFITVOLUNTEERS' CDS Solution  
 
