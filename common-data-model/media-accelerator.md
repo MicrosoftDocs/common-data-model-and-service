@@ -26,6 +26,7 @@ The accelerator includes the following features:
   - Ticket sales
   - Guest management
   - Display and advertising sales
+- A sample Power Portal app enables self-registration of media events which allows attendees to browse all upcoming events and sign up. This information is automatically captured and stored in your instance of the media-enhanced Common Data Model as new guest and registration entities.
 - A solution that you can deploy and install from AppSource or GitHub.
 
 ## Site-map extensions
@@ -123,6 +124,13 @@ From scheduling industry events such as conferences, concerts, sporting events, 
 
 > [!div class="mx-imgBorder"]
 > ![Venue seat map](media/media-seat-map.png "Venue seat map")
+
+### Event registration portal
+
+The event and registration portal allows consumers to search for upcoming media events, view their details (dates, locations, descriptions), and register to attend the event. Consumers search for events and refine their search based on event type, location, and date.
+
+![Image of the event registration portal](media/event-registration-portal.png)
+
 
 ### Sports management
 
