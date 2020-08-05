@@ -1,12 +1,12 @@
 ---
 title: BusinessEventsEndpoint in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Business events endpoint in Miscellaneous(BusinessEventsEndpoint)
@@ -73,18 +73,13 @@ First included in: Miscellaneous/BusinessEventsEndpoint (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Name attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#Type name="Type">Type</a>

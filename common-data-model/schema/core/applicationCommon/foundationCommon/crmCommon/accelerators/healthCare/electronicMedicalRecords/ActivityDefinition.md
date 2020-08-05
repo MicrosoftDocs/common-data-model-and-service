@@ -1,12 +1,12 @@
 ---
 title: ActivityDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This entity allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Activity Definition in electronicMedicalRecords
@@ -22,7 +22,7 @@ This entity allows for the definition of some activity to be performed, independ
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ActivityDefinition/(resolvedAttributes)/identifiesspecifictimeswhentheeventoccuId](#identifiesspecifictimeswhentheeventoccuId)</td><td>attribute</td><td></td></tr></table>
@@ -1968,16 +1968,14 @@ First included in: electronicMedicalRecords/ActivityDefinition (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Activity Definition</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Activity Definition</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
+**is.dataFormat.integer**  
 **is.constrainedList.correlated**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
 
@@ -2002,8 +2000,7 @@ Holds the list of language specific descriptive text for an object.  <table><tr>
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
+**is.dataFormat.integer**  
 </details>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>

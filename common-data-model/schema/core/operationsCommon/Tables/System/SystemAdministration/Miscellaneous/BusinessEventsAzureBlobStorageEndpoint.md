@@ -1,12 +1,12 @@
 ---
 title: BusinessEventsAzureBlobStorageEndpoint in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Business events Azure Blob Storage endpoint in Miscellaneous(BusinessEventsAzureBlobStorageEndpoint)
@@ -78,18 +78,13 @@ First included in: Miscellaneous/BusinessEventsAzureBlobStorageEndpoint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Name attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#Type name="Type">Type</a>
@@ -157,18 +152,13 @@ First included in: Miscellaneous/BusinessEventsAzureBlobStorageEndpoint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the KeyVaultDnsName attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#KeyVaultSecretName name="KeyVaultSecretName">KeyVaultSecretName</a>
@@ -177,18 +167,13 @@ First included in: Miscellaneous/BusinessEventsAzureBlobStorageEndpoint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the KeyVaultSecretName attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#AzureAppId name="AzureAppId">AzureAppId</a>
@@ -197,18 +182,13 @@ First included in: Miscellaneous/BusinessEventsAzureBlobStorageEndpoint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the AzureAppId attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#AzureAppSecret name="AzureAppSecret">AzureAppSecret</a>
@@ -217,18 +197,13 @@ First included in: Miscellaneous/BusinessEventsAzureBlobStorageEndpoint (this en
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the AzureAppSecret attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#ContainerName name="ContainerName">ContainerName</a>

@@ -1,12 +1,12 @@
 ---
 title: overview of marketing - Common Data Model | Microsoft Docs
 description: marketing is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Overview of marketing
@@ -46,4 +46,3 @@ CDM standard entities
 |[PhoneCall](PhoneCall.md)|Activity to track a telephone call.|
 |[Segment](Segment.md)||
 |[Task](Task.md)|Generic activity representing work needed to be done.|
-|[Website](Website.md)||

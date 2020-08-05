@@ -1,12 +1,12 @@
 ---
 title: FinancialProduct in banking - Common Data Model | Microsoft Docs
 description: The record of the different products that the customer holds with the bank.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Financial Product in banking
@@ -22,7 +22,7 @@ The record of the different products that the customer holds with the bank.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.2"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/financialServices/banking<br>/FinancialProduct.cdm.json/FinancialProduct<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -588,6 +588,9 @@ First included in: banking/FinancialProduct (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
 **means.entityName**  
 a string value is the name of a CDM entity.  
 
@@ -1497,6 +1500,9 @@ First included in: banking/FinancialProduct (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
 **means.entityName**  
 a string value is the name of a CDM entity.  
 
@@ -3959,16 +3965,14 @@ First included in: banking/FinancialProduct (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Financial Product</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Financial Product</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
+**is.dataFormat.integer**  
 **is.constrainedList.correlated**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
 
@@ -3987,8 +3991,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 **is.localized.describedAs**  
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Financial Product</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
+**is.dataFormat.integer**  
 </details>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>

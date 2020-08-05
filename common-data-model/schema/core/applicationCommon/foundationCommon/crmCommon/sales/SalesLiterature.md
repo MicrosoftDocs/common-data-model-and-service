@@ -1,12 +1,12 @@
 ---
 title: SalesLiterature in sales - Common Data Model | Microsoft Docs
 description: Storage of sales literature, which may contain one or more documents.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Sales Literature in sales
@@ -22,7 +22,7 @@ Storage of sales literature, which may contain one or more documents.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SalesLiterature/(resolvedAttributes)/salesLiteratureId](#salesLiteratureId)</td><td>attribute</td><td></td></tr></table>

@@ -1,12 +1,12 @@
 ---
 title: PropertyInstance in sales - Common Data Model | Microsoft Docs
 description: Instance of a property with its value.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Property Instance in sales
@@ -22,7 +22,7 @@ Instance of a property with its value.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.2"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/PropertyInstance.cdm.json/PropertyInstance<br>/hasAttributes/attributesAddedAtThisScope</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/sales/PropertyInstance.cdm.json<br>/PropertyInstance/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -500,6 +500,9 @@ First included in: sales/PropertyInstance (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
 a string value is the name of a CDM entity.  
 
 **is.requiredAtLevel**  
@@ -851,6 +854,9 @@ First included in: sales/PropertyInstance (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
 **means.entityName**  
 a string value is the name of a CDM entity.  
 

@@ -1,12 +1,12 @@
 ---
 title: MarketingListMember in crmCommon - Common Data Model | Microsoft Docs
 description: Item in a marketing list.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Marketing List Member in crmCommon
@@ -22,7 +22,7 @@ Item in a marketing list.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.2"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MarketingListMember/(resolvedAttributes)/listMemberId](#listMemberId)</td><td>attribute</td><td></td></tr></table>
@@ -674,6 +674,9 @@ First included in: crmCommon/MarketingListMember (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
 a string value is the name of a CDM entity.  
 
 **is.localized.displayedAs**  
@@ -828,6 +831,9 @@ First included in: crmCommon/MarketingListMember (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
 **means.entityName**  
 a string value is the name of a CDM entity.  
 

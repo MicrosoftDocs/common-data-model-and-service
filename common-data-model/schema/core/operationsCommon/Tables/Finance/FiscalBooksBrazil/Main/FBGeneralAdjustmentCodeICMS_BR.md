@@ -1,12 +1,12 @@
 ---
 title: FBGeneralAdjustmentCodeICMS_BR in Main - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # ICMS and ICMS-ST adjustment codes table in Main(FBGeneralAdjustmentCodeICMS_BR)
@@ -107,18 +107,16 @@ First included in: Main/FBGeneralAdjustmentCodeICMS_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the CreatePayment attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
 </details>
 
 ### <a href=#Description name="Description">Description</a>
@@ -127,18 +125,13 @@ First included in: Main/FBGeneralAdjustmentCodeICMS_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Description attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#InstanceRelationType name="InstanceRelationType">InstanceRelationType</a>
@@ -147,21 +140,17 @@ First included in: Main/FBGeneralAdjustmentCodeICMS_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 **is.readOnly**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#RevenueCode name="RevenueCode">RevenueCode</a>
@@ -170,21 +159,16 @@ First included in: Main/FBGeneralAdjustmentCodeICMS_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the RevenueCode attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#TaxType name="TaxType">TaxType</a>
@@ -213,16 +197,13 @@ First included in: Main/FBGeneralAdjustmentCodeICMS_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>date</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ValidFrom attribute are listed below.</summary>
 
-**is.dataFormat.date**  
-**means.measurement.date**  
-**is.dataFormat.date**  
 </details>
 
 ### <a href=#ValidTo name="ValidTo">ValidTo</a>
@@ -231,19 +212,16 @@ First included in: Main/FBGeneralAdjustmentCodeICMS_BR (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the ValidTo attribute are listed below.</summary>
 
-**is.dataFormat.date**  
-**means.measurement.date**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.date**  
 </details>
 
 ### <a href=#IsPovertyFund name="IsPovertyFund">IsPovertyFund</a>

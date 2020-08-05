@@ -1,12 +1,12 @@
 ---
 title: overview of FixedAssets - Common Data Model | Microsoft Docs
 description: FixedAssets is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Overview of FixedAssets

@@ -1,12 +1,12 @@
 ---
 title: EcoResValue in Main - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # The base table for other value tables that each stores values of a different data type in Main(EcoResValue)
@@ -117,20 +117,15 @@ First included in: Main/EcoResValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the SHA1HashHex attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
 **is.readOnly**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>

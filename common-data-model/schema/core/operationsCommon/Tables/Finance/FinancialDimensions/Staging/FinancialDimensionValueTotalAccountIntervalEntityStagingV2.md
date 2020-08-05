@@ -1,12 +1,12 @@
 ---
 title: FinancialDimensionValueTotalAccountIntervalEntityStagingV2 in Staging - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Financial dimension value totaling account intervals in Staging(FinancialDimensionValueTotalAccountIntervalEntityStagingV2)

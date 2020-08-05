@@ -1,12 +1,12 @@
 ---
 title: Letter in applicationCommon - Common Data Model | Microsoft Docs
 description: Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Letter in applicationCommon
@@ -31,7 +31,7 @@ Activity that tracks the delivery of a letter. The activity can contain the elec
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/activityCommon</td></tr><tr><td>/core/applicationCommon/Letter.cdm.json/Letter<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -542,6 +542,9 @@ First included in: applicationCommon/Letter (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
 a string value is the name of a CDM entity.  
 
 **is.requiredAtLevel**  
@@ -891,6 +894,9 @@ First included in: applicationCommon/Letter (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
 a string value is the name of a CDM entity.  
 
 **is.requiredAtLevel**  
@@ -1138,6 +1144,9 @@ First included in: applicationCommon/Letter (this entity)
 **is.dataFormat.character**  
 **is.dataFormat.big**  
 **is.dataFormat.array**  
+**means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
 **means.entityName**  
 a string value is the name of a CDM entity.  
 
@@ -1810,16 +1819,14 @@ First included in: applicationCommon/Letter (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the letter's status.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Received</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Select the letter's status.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Open</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Draft</td><td>2</td><td>0</td></tr><tr><td>en</td><td>Received</td><td>3</td><td>1</td></tr><tr><td>en</td><td>Sent</td><td>4</td><td>1</td></tr><tr><td>en</td><td>Canceled</td><td>5</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
+**is.dataFormat.integer**  
 **is.constrainedList.correlated**  
 the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
 
@@ -1847,8 +1854,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 **is.CDS.ordered**  
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"23"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
+**is.dataFormat.integer**  
 </details>
 
 ### <a href=#statusCode_display name="statusCode_display">statusCode_display</a>

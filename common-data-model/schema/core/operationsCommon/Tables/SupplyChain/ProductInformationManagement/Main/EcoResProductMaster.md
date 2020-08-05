@@ -1,12 +1,12 @@
 ---
 title: EcoResProductMaster in Main - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # Product masters in Main(EcoResProductMaster)
@@ -83,18 +83,13 @@ First included in: Main/EcoResProductMaster (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the DisplayProductNumber attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#InstanceRelationType name="InstanceRelationType">InstanceRelationType</a>
@@ -103,21 +98,17 @@ First included in: Main/EcoResProductMaster (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 **is.readOnly**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#PdsCWProduct name="PdsCWProduct">PdsCWProduct</a>
@@ -163,21 +154,16 @@ First included in: Main/EcoResProductMaster (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the SearchName attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#ServiceType name="ServiceType">ServiceType</a>

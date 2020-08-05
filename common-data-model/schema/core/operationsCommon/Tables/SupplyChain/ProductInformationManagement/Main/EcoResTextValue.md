@@ -1,12 +1,12 @@
 ---
 title: EcoResTextValue in Main - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 7/21/2020
-ms.author: nebanfic
+ms.date: 8/5/2020
+ms.author: weiluo
 ---
 
 # The value of the Text data type for the attributes in Main(EcoResTextValue)
@@ -73,21 +73,17 @@ First included in: Main/EcoResTextValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 **is.readOnly**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#Origin name="Origin">Origin</a>
@@ -96,20 +92,16 @@ First included in: Main/EcoResTextValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Origin attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#SHA1HashHex name="SHA1HashHex">SHA1HashHex</a>
@@ -118,22 +110,17 @@ First included in: Main/EcoResTextValue (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the SHA1HashHex attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
 **is.readOnly**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#TextValue name="TextValue">TextValue</a>
