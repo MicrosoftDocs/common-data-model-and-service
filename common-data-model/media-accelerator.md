@@ -1,19 +1,17 @@
 ---
 
-title: Dynamics 365 media and communications accelerator (preview) | Microsoft Docs
+title: Dynamics 365 media and communications accelerator | Microsoft Docs
 description:  Develop media and communications solutions with extensions to Common Data Model. Connect to built-in forms and Dynamics 365 media and communications accelerator views.
 author: MeenooRami
 ms.service: common-data-model
 ms.reviewer: v-dehaas
 ms.topic: article
-ms.date: 05/11/2020
+ms.date: 07/20/2020
 ms.author: merami
 
 ---
 
-# Dynamics 365 media and communications accelerator (preview)
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Dynamics 365 media and communications accelerator
 
 The [Dynamics 365 media and communications accelerator](https://aka.ms/d365media) expands Common Data Model and Microsoft Power Platform into the media and entertainment industries. Version 1 of the media and communications accelerator includes data entities and attributes that center on the theme of “fan and guest engagement.” 
 
@@ -28,6 +26,7 @@ The accelerator includes the following features:
   - Ticket sales
   - Guest management
   - Display and advertising sales
+- A sample power portal app, enabling self-registration of media events. Attendees can browse all upcoming events and sign up. This information is automatically captured and stored in your instance of the media-enhanced Common Data Model as new guest and registration entities.
 - A solution that you can deploy and install from AppSource or GitHub.
 
 ## Site-map extensions
@@ -125,6 +124,13 @@ From scheduling industry events such as conferences, concerts, sporting events, 
 
 > [!div class="mx-imgBorder"]
 > ![Venue seat map](media/media-seat-map.png "Venue seat map")
+
+### Event registration portal
+
+The event and registration portal allows consumers to search for upcoming media events, view their details (dates, locations, descriptions), and register to attend the event. Consumers search for events and refine their search based on event type, location, and date.
+
+![Image of the event registration portal](media/event-registration-portal.png)
+
 
 ### Sports management
 

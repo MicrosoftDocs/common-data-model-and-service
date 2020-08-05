@@ -1,7 +1,7 @@
 - name: Common Data Model
   href: index.md
   items:
-  - name: How to use Common Data Model
+  - name: About Common Data Model
     href: use.md
   - name: Common Data Model Technical Guide
     items:
@@ -41,9 +41,9 @@
             href: insurance-accelerator.md            
       - name: Healthcare accelerator
         href: health-accelerator.md
-      - name: Manufacturing accelerator (preview)
+      - name: Manufacturing accelerator
         href: manufacturing-accelerator.md
-      - name: Media and communications accelerator (preview)
+      - name: Media and communications accelerator
         href: media-accelerator.md    
       - name: Nonprofit accelerator
         href: NFP-accelerator.md

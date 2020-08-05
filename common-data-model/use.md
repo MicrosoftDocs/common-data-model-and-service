@@ -1,15 +1,15 @@
 ---
-title: Usage - Common Data Model | Microsoft Docs
-description: How to use Common Data Model to develop apps and solutions.
+title: About - Common Data Model | Microsoft Docs
+description: Learn about Common Data Model.
 author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 05/06/2020
+ms.date: 07/07/2020
 ms.author: olegov
 ---
 
-# How to use Common Data Model
+# About Common Data Model
 
 Common Data Model is built upon a rich and extensible metadata definition system
 that enables you to describe and share your own semantically enhanced data types
