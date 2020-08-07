@@ -5,7 +5,7 @@ author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/5/2020
+ms.date: 8/7/2020
 ms.author: weiluo
 ---
 
@@ -19,6 +19,5 @@ Use this reference to explore and learn about all the available Common Data Mode
 |---|
 |[applicationCommon](applicationCommon/overview.md)|
 |[operationsCommon](operationsCommon/overview.md)|
-
 
 

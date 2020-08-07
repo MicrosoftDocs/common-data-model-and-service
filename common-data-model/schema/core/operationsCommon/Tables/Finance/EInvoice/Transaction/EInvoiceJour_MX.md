@@ -5,7 +5,7 @@ author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 8/5/2020
+ms.date: 8/7/2020
 ms.author: weiluo
 ---
 
