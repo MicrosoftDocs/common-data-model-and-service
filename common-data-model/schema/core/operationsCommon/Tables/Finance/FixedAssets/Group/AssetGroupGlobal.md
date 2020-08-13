@@ -1,15 +1,15 @@
 ---
-title: AssetGroupGlobal - Common Data Model | Microsoft Docs
+title: AssetGroupGlobal in Group - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Organization-wide fixed asset identifiers
+# Organization-wide fixed asset identifiers in Group(AssetGroupGlobal)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/Finance/FixedAssets/Group/AssetGroupGlobal.cdm.json" target="_blank">GitHub</a>.  

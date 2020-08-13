@@ -1,15 +1,15 @@
 ---
-title: EcoResProductVariantNomenclature - Common Data Model | Microsoft Docs
+title: EcoResProductVariantNomenclature in Main - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Product variant nomenclature
+# Product variant nomenclature in Main(EcoResProductVariantNomenclature)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/SupplyChain/ProductInformationManagement/Main/EcoResProductVariantNomenclature.cdm.json" target="_blank">GitHub</a>.  
@@ -72,20 +72,16 @@ First included in: Main/EcoResProductVariantNomenclature (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#Name name="Name">Name</a>
@@ -94,18 +90,13 @@ First included in: Main/EcoResProductVariantNomenclature (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Name attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>
 
 ### <a href=#Description name="Description">Description</a>
@@ -114,19 +105,14 @@ First included in: Main/EcoResProductVariantNomenclature (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the Description attribute are listed below.</summary>
 
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.character**  
-**is.dataFormat.array**  
 </details>

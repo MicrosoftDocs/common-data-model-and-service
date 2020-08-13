@@ -1,15 +1,15 @@
 ---
-title: ResourceSpecification - Common Data Model | Microsoft Docs
+title: ResourceSpecification in service - Common Data Model | Microsoft Docs
 description: Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Resource Specification
+# Resource Specification in service
 
 Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.  
   
@@ -22,7 +22,7 @@ Selection rule that allows the scheduling engine to select a number of resources
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ResourceSpecification/(resolvedAttributes)/resourceSpecId](#resourceSpecId)</td><td>attribute</td><td></td></tr></table>
@@ -886,6 +886,11 @@ First included in: service/ResourceSpecification (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 

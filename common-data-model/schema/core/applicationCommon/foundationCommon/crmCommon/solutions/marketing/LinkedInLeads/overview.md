@@ -1,15 +1,15 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
+title: overview of LinkedInLeads - Common Data Model | Microsoft Docs
 description: LinkedInLeads is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# LinkedInLeads
+# Overview of LinkedInLeads
 
 CDM standard entities  
 

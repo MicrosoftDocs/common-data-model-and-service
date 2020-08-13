@@ -1,15 +1,15 @@
 ---
-title: TeamMembership - Common Data Model | Microsoft Docs
+title: TeamMembership in applicationCommon - Common Data Model | Microsoft Docs
 description: User membership in Teams
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Team Membership
+# Team Membership in applicationCommon
 
 User membership in Teams  
   
@@ -22,7 +22,7 @@ User membership in Teams
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TeamMembership/(resolvedAttributes)/teamMembershipId](#teamMembershipId)</td><td>attribute</td><td></td></tr></table>

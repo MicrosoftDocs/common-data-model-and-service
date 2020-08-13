@@ -1,15 +1,15 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
+title: overview of electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: electronicMedicalRecords is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# electronicMedicalRecords
+# Overview of electronicMedicalRecords
 
 CDM standard entities for 'electronicMedicalRecords'  
 
@@ -165,7 +165,7 @@ CDM standard entities for 'electronicMedicalRecords'
 |[GoalAddresses](GoalAddresses.md)|The identified conditions and other health record elements that are intended to be addressed by the goal.|
 |[GoalCategory](GoalCategory.md)|Indicates a category the goal falls within.|
 |[GoalOutcome](GoalOutcome.md)|Identifies the change (or lack of change) at the point when the status of the goal is assessed.|
-|[GoalOutcomeReference](GoalOutcomeReference.md)||
+|[GoalOutcomeReference](GoalOutcomeReference.md)|Details of what's changed (or not changed).|
 |[HealthcareService](HealthcareService.md)|The details of a healthcare service available at a location.|
 |[HealthcareServiceAvailableTime](HealthcareServiceAvailableTime.md)|A collection of times that the Service Site is available.|
 |[HealthcareServiceCategory](HealthcareServiceCategory.md)|Identifies the broad category of service being performed or delivered.|

@@ -1,15 +1,15 @@
 ---
-title: SysWorkflowFaultTable - Common Data Model | Microsoft Docs
+title: SysWorkflowFaultTable in Framework - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Workflow fault messages
+# Workflow fault messages in Framework(SysWorkflowFaultTable)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/Workflow/Framework/SysWorkflowFaultTable.cdm.json" target="_blank">GitHub</a>.  

@@ -1,15 +1,15 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
+title: overview of marketingLeads - Common Data Model | Microsoft Docs
 description: marketingLeads is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# marketingLeads
+# Overview of marketingLeads
 
 CDM standard entities  
 

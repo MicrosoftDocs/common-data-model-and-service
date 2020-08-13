@@ -1,15 +1,15 @@
 ---
-title: Ledger - Common Data Model | Microsoft Docs
+title: Ledger in financialCommon - Common Data Model | Microsoft Docs
 description: The collection of all accounts making up the central repository of accounting data for a company.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Ledger
+# Ledger in financialCommon
 
 The collection of all accounts making up the central repository of accounting data for a company.  
   
@@ -22,7 +22,7 @@ The collection of all accounts making up the central repository of accounting da
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"0.9"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Ledger/(resolvedAttributes)/ledgerId](#ledgerId)</td><td>attribute</td><td></td></tr></table>

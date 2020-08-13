@@ -1,15 +1,15 @@
 ---
-title: PropertyOptionSetItem - Common Data Model | Microsoft Docs
+title: PropertyOptionSetItem in foundationCommon - Common Data Model | Microsoft Docs
 description: Item with a name and value in a property option set type.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Property Option Set Item
+# Property Option Set Item in foundationCommon
 
 Item with a name and value in a property option set type.  
   
@@ -22,7 +22,7 @@ Item with a name and value in a property option set type.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PropertyOptionSetItem/(resolvedAttributes)/dynamicPropertyOptionSetValueId](#dynamicPropertyOptionSetValueId)</td><td>attribute</td><td></td></tr></table>

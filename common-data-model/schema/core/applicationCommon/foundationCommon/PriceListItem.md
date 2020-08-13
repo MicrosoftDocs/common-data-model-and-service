@@ -1,15 +1,15 @@
 ---
-title: PriceListItem - Common Data Model | Microsoft Docs
+title: PriceListItem in foundationCommon - Common Data Model | Microsoft Docs
 description: Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Price List Item
+# Price List Item in foundationCommon
 
 Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.  
   
@@ -31,7 +31,7 @@ Information about how to price a product in the specified price level, including
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PriceListItem/(resolvedAttributes)/productPriceLevelId](#productPriceLevelId)</td><td>attribute</td><td></td></tr></table>
@@ -742,7 +742,7 @@ First included in: foundationCommon/PriceListItem (this entity)
 <summary>List of traits for the amount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -877,7 +877,7 @@ First included in: foundationCommon/PriceListItem (this entity)
 <summary>List of traits for the amountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -1268,7 +1268,7 @@ First included in: foundationCommon/PriceListItem (this entity)
 <summary>List of traits for the roundingOptionAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -1312,7 +1312,7 @@ First included in: foundationCommon/PriceListItem (this entity)
 <summary>List of traits for the roundingOptionAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  

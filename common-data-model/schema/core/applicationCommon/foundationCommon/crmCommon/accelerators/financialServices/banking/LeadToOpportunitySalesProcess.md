@@ -1,15 +1,15 @@
 ---
-title: LeadToOpportunitySalesProcess - Common Data Model | Microsoft Docs
+title: LeadToOpportunitySalesProcess in banking - Common Data Model | Microsoft Docs
 description: Process entity for Lead to Opportunity  Sales Process.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Lead To Opportunity Sales Process
+# Lead To Opportunity Sales Process in banking
 
 Process entity for Lead to Opportunity  Sales Process.  
   

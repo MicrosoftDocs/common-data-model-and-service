@@ -1,15 +1,15 @@
 ---
-title: InvoiceProduct - Common Data Model | Microsoft Docs
+title: InvoiceProduct in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Line item in an invoice containing detailed billing information for a product.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Invoice Product
+# Invoice Product in projectServiceAutomation
 
 Line item in an invoice containing detailed billing information for a product.  
   
@@ -22,7 +22,7 @@ Line item in an invoice containing detailed billing information for a product.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.2"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/sales/InvoiceProduct.cdm.json<br>/InvoiceProduct/hasAttributes<br>/attributesAddedAtThisScope</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/projectCommon/projectServiceAutomation<br>/InvoiceProduct.cdm.json/InvoiceProduct<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -46,11 +46,11 @@ Line item in an invoice containing detailed billing information for a product.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
-|[createdBy](#createdBy)|Unique identifier of the user who created the record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
+|[createdBy](#createdBy)|Shows who created the record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
-|[modifiedBy](#modifiedBy)|Unique identifier of the user who modified the record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
-|[createdOnBehalfBy](#createdOnBehalfBy)|Unique identifier of the delegate user who created the record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
-|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Unique identifier of the delegate user who modified the record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
+|[modifiedBy](#modifiedBy)|Shows who last updated the record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
+|[createdOnBehalfBy](#createdOnBehalfBy)|Shows who created the record on behalf of another user.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
+|[modifiedOnBehalfBy](#modifiedOnBehalfBy)|Shows who last updated the record on behalf of another user.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
 |[ownerId](#ownerId)|Owner Id|<a href="InvoiceProduct.md" target="_blank">projectServiceAutomation/InvoiceProduct</a>|
@@ -179,12 +179,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdBy name="createdBy">createdBy</a>
 
-Unique identifier of the user who created the record.  
+Shows who created the record.  
 First included in: projectServiceAutomation/InvoiceProduct (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Unique identifier of the user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By</td></tr><tr><td>description</td><td>Shows who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdby</td></tr></table>
 
 #### Traits
 
@@ -212,7 +212,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/projectCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
@@ -271,12 +271,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedBy name="modifiedBy">modifiedBy</a>
 
-Unique identifier of the user who modified the record.  
+Shows who last updated the record.  
 First included in: projectServiceAutomation/InvoiceProduct (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Unique identifier of the user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By</td></tr><tr><td>description</td><td>Shows who last updated the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedby</td></tr></table>
 
 #### Traits
 
@@ -304,7 +304,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr><tr><td>en</td><td>Unique identifier of the user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/projectCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
@@ -322,12 +322,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#createdOnBehalfBy name="createdOnBehalfBy">createdOnBehalfBy</a>
 
-Unique identifier of the delegate user who created the record.  
+Shows who created the record on behalf of another user.  
 First included in: projectServiceAutomation/InvoiceProduct (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who created the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created By (Delegate)</td></tr><tr><td>description</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -355,7 +355,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who created the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who created the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/projectCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
@@ -373,12 +373,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#modifiedOnBehalfBy name="modifiedOnBehalfBy">modifiedOnBehalfBy</a>
 
-Unique identifier of the delegate user who modified the record.  
+Shows who last updated the record on behalf of another user.  
 First included in: projectServiceAutomation/InvoiceProduct (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Unique identifier of the delegate user who modified the record.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified By (Delegate)</td></tr><tr><td>description</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedonbehalfby</td></tr></table>
 
 #### Traits
 
@@ -406,7 +406,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified By (Delegate)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr><tr><td>en</td><td>Unique identifier of the delegate user who modified the record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Shows who last updated the record on behalf of another user.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../User.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/projectCommon/User.cdm.json/User</a></td><td><a href="../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
@@ -565,6 +565,11 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -949,7 +954,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the baseAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -1084,7 +1089,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the baseAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -1173,7 +1178,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the extendedAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -1217,7 +1222,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the extendedAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -1556,7 +1561,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the manualDiscountAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -1600,7 +1605,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the manualDiscountAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -1799,7 +1804,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the pricePerUnit attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -1843,7 +1848,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the pricePerUnitBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -2848,7 +2853,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the tax attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -2892,7 +2897,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the taxBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -2987,7 +2992,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the volumeDiscountAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3031,7 +3036,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the volumeDiscountAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -3423,7 +3428,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the chargeableAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3467,7 +3472,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the chargeableAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -3514,7 +3519,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the complimentaryAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3558,7 +3563,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the complimentaryAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -3647,7 +3652,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the contractLineAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3691,7 +3696,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the contractLineAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -3738,7 +3743,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the invoicedTillDate attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3782,7 +3787,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the invoicedTillDateBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  
@@ -3829,7 +3834,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the nonChargeableAmount attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3873,7 +3878,7 @@ First included in: projectServiceAutomation/InvoiceProduct (this entity)
 <summary>List of traits for the nonChargeableAmountBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  

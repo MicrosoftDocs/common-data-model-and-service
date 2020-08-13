@@ -1,15 +1,15 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
+title: overview of Tables - Common Data Model | Microsoft Docs
 description: Tables is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Tables
+# Overview of Tables
 
 Common Data Model physical table entities for operations applications  
 
@@ -17,6 +17,7 @@ Common Data Model physical table entities for operations applications
 
 |Name|
 |---|
+|[Commerce](Commerce/overview.md)|
 |[Common](Common/overview.md)|
 |[Finance](Finance/overview.md)|
 |[HumanResources](HumanResources/overview.md)|

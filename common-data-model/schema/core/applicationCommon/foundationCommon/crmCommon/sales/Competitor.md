@@ -1,15 +1,15 @@
 ---
-title: Competitor - Common Data Model | Microsoft Docs
+title: Competitor in sales - Common Data Model | Microsoft Docs
 description: Business competing for the sale represented by a lead or opportunity.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Competitor
+# Competitor in sales
 
 Business competing for the sale represented by a lead or opportunity.  
   
@@ -22,7 +22,7 @@ Business competing for the sale represented by a lead or opportunity.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Competitor/(resolvedAttributes)/competitorId](#competitorId)</td><td>attribute</td><td></td></tr></table>
@@ -3009,7 +3009,7 @@ First included in: sales/Competitor (this entity)
 <summary>List of traits for the reportedRevenue attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.requiredAtLevel**  
@@ -3144,7 +3144,7 @@ First included in: sales/Competitor (this entity)
 <summary>List of traits for the reportedRevenueBase attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
-for setting the exact precision and scale of numeric values  
+for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
 **means.measurement.currency**  
 **is.calculationOf**  

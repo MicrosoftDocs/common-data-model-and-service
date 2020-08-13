@@ -1,15 +1,15 @@
 ---
-title: DataManagementEntity - Common Data Model | Microsoft Docs
+title: DataManagementEntity in SystemAdministration - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Data management
+# Data management in SystemAdministration(DataManagementEntity)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/System/SystemAdministration/DataManagementEntity.cdm.json" target="_blank">GitHub</a>.  
