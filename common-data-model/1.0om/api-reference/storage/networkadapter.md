@@ -20,8 +20,8 @@ public abstract class NetworkAdapter
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Timeout|TimeSpan?|The timeout for an HTTP request. The default value is 2000ms.|
-|MaximumTimeout|TimeSpan?|The maximum timeout for all retried HTTP requests. The default value is 10000ms.|
+|Timeout|TimeSpan?|The timeout for an HTTP request. The default value is 2000 ms.|
+|MaximumTimeout|TimeSpan?|The maximum timeout for all retried HTTP requests. The default value is 10000 ms.|
 |NumberOfRetries|int|The maximum number of retries for an HTTP request. The default value is 2.|
 |WaitTimeCallback|CdmHttpClient.Callback|The wait time callback that gets called after each request is executed.|
 
