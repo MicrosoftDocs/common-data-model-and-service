@@ -1,15 +1,15 @@
 ---
-title: ChildIncidentCount - Common Data Model | Microsoft Docs
+title: ChildIncidentCount in service - Common Data Model | Microsoft Docs
 description: For internal use only.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Child Incident Count
+# Child Incident Count in service
 
 For internal use only.  
   

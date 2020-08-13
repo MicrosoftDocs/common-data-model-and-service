@@ -1,15 +1,15 @@
 ---
-title: ReleaseUpdateSysDeleted - Common Data Model | Microsoft Docs
+title: ReleaseUpdateSysDeleted in Framework - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Release update sys deleted objects
+# Release update sys deleted objects in Framework(ReleaseUpdateSysDeleted)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/SystemAdministration/Framework/ReleaseUpdateSysDeleted.cdm.json" target="_blank">GitHub</a>.  

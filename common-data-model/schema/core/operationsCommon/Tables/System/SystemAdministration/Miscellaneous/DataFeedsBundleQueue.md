@@ -1,15 +1,15 @@
 ---
-title: DataFeedsBundleQueue - Common Data Model | Microsoft Docs
+title: DataFeedsBundleQueue in Miscellaneous - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Data Feeds Bundles Queue
+# Data Feeds Bundles Queue in Miscellaneous(DataFeedsBundleQueue)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/System/SystemAdministration/Miscellaneous/DataFeedsBundleQueue.cdm.json" target="_blank">GitHub</a>.  

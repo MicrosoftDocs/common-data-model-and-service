@@ -1,15 +1,15 @@
 ---
-title: FacilityEquipment - Common Data Model | Microsoft Docs
+title: FacilityEquipment in service - Common Data Model | Microsoft Docs
 description: Resource that can be scheduled.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Facility/Equipment
+# Facility/Equipment in service(FacilityEquipment)
 
 Resource that can be scheduled.  
   
@@ -22,7 +22,7 @@ Resource that can be scheduled.
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityEquipment/(resolvedAttributes)/equipmentId](#equipmentId)</td><td>attribute</td><td></td></tr></table>

@@ -1,15 +1,15 @@
 ---
-title: Encounter - Common Data Model | Microsoft Docs
+title: Encounter in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Encounter
+# Encounter in electronicMedicalRecords
 
 An interaction between a patient and healthcare provider(s) for the purpose of providing healthcare service(s) or assessing the health status of a patient.  
   
@@ -22,7 +22,7 @@ An interaction between a patient and healthcare provider(s) for the purpose of p
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/healthCare<br>/electronicMedicalRecords/Encounter.cdm.json<br>/Encounter/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -65,7 +65,7 @@ An interaction between a patient and healthcare provider(s) for the purpose of p
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[appointmentEMRId](#appointmentEMRId)|A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
-|[class](#class)|Type of: inpatient | outpatient | ambulatory | emergency +.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
+|[class](#class)|Type of: inpatient \| outpatient \| ambulatory \| emergency +.|<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[class_display](#class_display)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[contextEncounterId](#contextEncounterId)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
 |[contextEpisodeOfCareId](#contextEpisodeOfCareId)||<a href="Encounter.md" target="_blank">electronicMedicalRecords/Encounter</a>|
@@ -530,6 +530,11 @@ First included in: electronicMedicalRecords/Encounter (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -864,12 +869,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#class name="class">class</a>
 
-Type of: inpatient | outpatient | ambulatory | emergency +.  
+Type of: inpatient \| outpatient \| ambulatory \| emergency +.  
 First included in: electronicMedicalRecords/Encounter (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient | outpatient | ambulatory | emergency +.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Class</td></tr><tr><td>description</td><td>Type of: inpatient &#124 outpatient &#124 ambulatory &#124 emergency +.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_class</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>ambulatory</td><td>935000000</td></tr><tr><td>en</td><td>emergency</td><td>935000001</td></tr><tr><td>en</td><td>field</td><td>935000002</td></tr><tr><td>en</td><td>home health</td><td>935000003</td></tr><tr><td>en</td><td>inpatient encounter</td><td>935000004</td></tr><tr><td>en</td><td>inpatient acute</td><td>935000005</td></tr><tr><td>en</td><td>inpatient non-acute</td><td>935000006</td></tr><tr><td>en</td><td>pre-admission</td><td>935000007</td></tr><tr><td>en</td><td>short stay</td><td>935000008</td></tr><tr><td>en</td><td>virtual</td><td>935000009</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2152,7 +2157,7 @@ First included in: electronicMedicalRecords/Encounter (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Encounter</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Encounter</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -2160,11 +2165,11 @@ First included in: electronicMedicalRecords/Encounter (this entity)
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.constrainedList.correlated**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
+
 **does.haveDefault**  
 An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Planned</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Arrived</td><td>935000000</td><td>0</td></tr><tr><td>en</td><td>Triaged</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>In Progress</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>On Leave</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Finished</td><td>935000004</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000005</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000007</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>

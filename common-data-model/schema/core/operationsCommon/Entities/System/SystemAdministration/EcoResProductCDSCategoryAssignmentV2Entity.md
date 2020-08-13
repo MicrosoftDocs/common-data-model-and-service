@@ -1,15 +1,15 @@
 ---
-title: EcoResProductCDSCategoryAssignmentV2Entity - Common Data Model | Microsoft Docs
+title: EcoResProductCDSCategoryAssignmentV2Entity in SystemAdministration - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Common data service product category assignments V2
+# Common data service product category assignments V2 in SystemAdministration(EcoResProductCDSCategoryAssignmentV2Entity)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/System/SystemAdministration/EcoResProductCDSCategoryAssignmentV2Entity.cdm.json" target="_blank">GitHub</a>.  

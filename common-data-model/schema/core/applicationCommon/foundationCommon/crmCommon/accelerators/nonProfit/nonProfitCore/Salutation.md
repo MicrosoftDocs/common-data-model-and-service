@@ -1,15 +1,15 @@
 ---
-title: Salutation - Common Data Model | Microsoft Docs
+title: Salutation in nonProfitCore - Common Data Model | Microsoft Docs
 description: A Salutation represents the way a constituent wishes to be addressed, depending on the source, purpose and content of a of communication.  Salutations may or may not be auto-created by workflow.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Salutation
+# Salutation in nonProfitCore
 
 A Salutation represents the way a constituent wishes to be addressed, depending on the source, purpose and content of a of communication.  Salutations may or may not be auto-created by workflow.  
   
@@ -22,7 +22,7 @@ A Salutation represents the way a constituent wishes to be addressed, depending 
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/nonProfit/nonProfitCore<br>/Salutation.cdm.json/Salutation/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -64,21 +64,9 @@ A Salutation represents the way a constituent wishes to be addressed, depending 
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[versionNumber](#versionNumber)|Version Number|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
-|[addressLabelLine1](#addressLabelLine1)|The first line of the address label when printing an envelope
->Mr John Smith
-Mrs Wilma Smith
-1234 Main Street
-Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
-|[addressLabelLine2](#addressLabelLine2)|This is the 2nd line of the envelope usually the 2nd person in the household if applicable
-Mr John Smith
->Mrs Wilma Smith
-1234 Main Street
-Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
-|[addressLabelLine3](#addressLabelLine3)|This is the 3rd line of the address which could be an Organization name or a C/O
-Mr John Smith
-Mrs Wilma Smith c/o Anytown Company
-1234 Main Street
-Anytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
+|[addressLabelLine1](#addressLabelLine1)|The first line of the address label when printing an envelope>Mr John SmithMrs Wilma Smith1234 Main StreetAnytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
+|[addressLabelLine2](#addressLabelLine2)|This is the 2nd line of the envelope usually the 2nd person in the household if applicableMr John Smith>Mrs Wilma Smith1234 Main StreetAnytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
+|[addressLabelLine3](#addressLabelLine3)|This is the 3rd line of the address which could be an Organization name or a C/OMr John SmithMrs Wilma Smith c/o Anytown Company1234 Main StreetAnytown, USA 11111|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[communicationMethod](#communicationMethod)|Indicates that this Salutation should be applied when the Customer is contacted via the indicated communication channel|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[communicationMethod_display](#communicationMethod_display)||<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
 |[constituentType](#constituentType)|Indicates that this Salutation should be applied when the Customer is contacted in their capacity as the indicated ConstituentType|<a href="Salutation.md" target="_blank">nonProfitCore/Salutation</a>|
@@ -533,6 +521,11 @@ First included in: nonProfitCore/Salutation (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1119,6 +1112,8 @@ First included in: nonProfitCore/Salutation (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.firstName**  
+A person's given or first name.  
+
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_firstname"</td><td>string</td><td></td></tr></table>
 
@@ -1271,6 +1266,8 @@ First included in: nonProfitCore/Salutation (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.identity.person.lastName**  
+A person's surname, family name or last name.  
+
 **is.CDS.sourceNamed**  
 the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msnfp_lastname"</td><td>string</td><td></td></tr></table>
 
@@ -1462,6 +1459,11 @@ First included in: nonProfitCore/Salutation (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.linkedEntity.name**  
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.  
 
@@ -1754,7 +1756,7 @@ First included in: nonProfitCore/Salutation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Salutation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Salutation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1762,11 +1764,11 @@ First included in: nonProfitCore/Salutation (this entity)
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.constrainedList.correlated**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
+
 **does.haveDefault**  
 An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>

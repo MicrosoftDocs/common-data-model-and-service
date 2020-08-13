@@ -1,15 +1,15 @@
 ---
-title: FiscalPeriodDateEntity - Common Data Model | Microsoft Docs
+title: FiscalPeriodDateEntity in GeneralLedger - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Ledger fiscal calendar year
+# Ledger fiscal calendar year in GeneralLedger(FiscalPeriodDateEntity)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Entities/Finance/GeneralLedger/FiscalPeriodDateEntity.cdm.json" target="_blank">GitHub</a>.  

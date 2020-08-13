@@ -1,12 +1,12 @@
 ---
-title: overview - Common Data Model | Microsoft Docs
+title: overview of core - Common Data Model | Microsoft Docs
 description: core is a folder that contains standard entities related to the Common Data Model.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
 # Entity Reference
@@ -19,6 +19,5 @@ Use this reference to explore and learn about all the available Common Data Mode
 |---|
 |[applicationCommon](applicationCommon/overview.md)|
 |[operationsCommon](operationsCommon/overview.md)|
-
 
 

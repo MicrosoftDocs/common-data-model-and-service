@@ -1,15 +1,15 @@
 ---
-title: Observation - Common Data Model | Microsoft Docs
+title: Observation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Measurements and simple assertions made about a patient, device or other subject.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Observation
+# Observation in electronicMedicalRecords
 
 Measurements and simple assertions made about a patient, device or other subject.  
   
@@ -22,7 +22,7 @@ Measurements and simple assertions made about a patient, device or other subject
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"2.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/healthCare<br>/electronicMedicalRecords/Observation.cdm.json<br>/Observation/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -121,7 +121,7 @@ Measurements and simple assertions made about a patient, device or other subject
 |[valueRatioNumeratorSystem](#valueRatioNumeratorSystem)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorUnit](#valueRatioNumeratorUnit)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueRatioNumeratorValue](#valueRatioNumeratorValue)||<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
-|[valueSampledDataTypeData](#valueSampledDataTypeData)|Decimal values with spaces, or "E" | "U" | "L"|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
+|[valueSampledDataTypeData](#valueSampledDataTypeData)|Decimal values with spaces, or "E" \| "U" \| "L"|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueSampledDataTypeDimension](#valueSampledDataTypeDimension)|Number of sample points at each time point.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueSampledDataTypeFactor](#valueSampledDataTypeFactor)|Multiply data by this before adding to origin.|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
 |[valueSampledDataTypeLowerLimit](#valueSampledDataTypeLowerLimit)|Lower limit of detection|<a href="Observation.md" target="_blank">electronicMedicalRecords/Observation</a>|
@@ -568,6 +568,11 @@ First included in: electronicMedicalRecords/Observation (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -3071,12 +3076,12 @@ for setting the exact precision and scale of numeric values
 
 ### <a href=#valueSampledDataTypeData name="valueSampledDataTypeData">valueSampledDataTypeData</a>
 
-Decimal values with spaces, or "E" | "U" | "L"  
+Decimal values with spaces, or "E" \| "U" \| "L"  
 First included in: electronicMedicalRecords/Observation (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" | "U" | "L"</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Value Sampled DataType Data</td></tr><tr><td>description</td><td>Decimal values with spaces, or "E" &#124 "U" &#124 "L"</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_valuesampleddatatypedata</td></tr></table>
 
 #### Traits
 
@@ -3617,7 +3622,7 @@ First included in: electronicMedicalRecords/Observation (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Observation Status</td></tr><tr><td>description</td><td>Reason for the status of the Observation</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -3625,11 +3630,11 @@ First included in: electronicMedicalRecords/Observation (this entity)
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.constrainedList.correlated**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
+
 **does.haveDefault**  
 An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Registered</td><td>935000001</td><td>0</td></tr><tr><td>en</td><td>Preliminary</td><td>935000002</td><td>0</td></tr><tr><td>en</td><td>Final</td><td>935000003</td><td>0</td></tr><tr><td>en</td><td>Amended</td><td>935000004</td><td>0</td></tr><tr><td>en</td><td>Corrected</td><td>935000005</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr><tr><td>en</td><td>Cancelled</td><td>935000006</td><td>1</td></tr><tr><td>en</td><td>Entered in Error</td><td>935000007</td><td>1</td></tr><tr><td>en</td><td>Unknown</td><td>935000008</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>

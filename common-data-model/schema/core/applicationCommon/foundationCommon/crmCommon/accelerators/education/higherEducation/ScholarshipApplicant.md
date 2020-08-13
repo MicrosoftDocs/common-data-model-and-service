@@ -1,15 +1,15 @@
 ---
-title: ScholarshipApplicant - Common Data Model | Microsoft Docs
+title: ScholarshipApplicant in higherEducation - Common Data Model | Microsoft Docs
 description: This entity is used as an scholarship application form and to store the list of students who have applied to a particular scholarship.
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Scholarship Applicant
+# Scholarship Applicant in higherEducation
 
 This entity is used as an scholarship application form and to store the list of students who have applied to a particular scholarship.  
   
@@ -22,7 +22,7 @@ This entity is used as an scholarship application form and to store the list of 
 </summary>
 
 **is.CDM.entityVersion**  
-  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.0"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
+  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsCreationModificationDatesAndIds</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsOwnershipInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsTimeZoneInfo</td></tr><tr><td>/core/wellKnownCDSAttributeGroups.cdm.json<br>/cdsVersionTracking</td></tr><tr><td>/core/applicationCommon/foundationCommon<br>/crmCommon/accelerators/education/higherEducation<br>/ScholarshipApplicant.cdm.json<br>/ScholarshipApplicant/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -70,15 +70,12 @@ This entity is used as an scholarship application form and to store the list of 
 |[applicationStateCode_display](#applicationStateCode_display)||<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[businessPartnerId](#businessPartnerId)|Partner offering scholarship|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[name](#name)|Required name field|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
-|[offerAcceptedDate](#offerAcceptedDate)|Date the offer was accepted
-|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
+|[offerAcceptedDate](#offerAcceptedDate)|Date the offer was accepted|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[offerDeadlineDate](#offerDeadlineDate)|Deadline to accept the offer|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[offerMadeDate](#offerMadeDate)|Date the offer was made|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
-|[qualificationDescription](#qualificationDescription)|Description about why an applicant should be selected for the scholarship
-|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
+|[qualificationDescription](#qualificationDescription)|Description about why an applicant should be selected for the scholarship|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[scholarshipId](#scholarshipId)|Scholarship Applied for|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
-|[submissionDate](#submissionDate)|Date the application was submitted
-|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
+|[submissionDate](#submissionDate)|Date the application was submitted|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[processId](#processId)|Contains the id of the process associated with the entity.|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[deprecatedStageId](#deprecatedStageId)|Contains the id of the stage where the entity is located.|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
 |[stateCode](#stateCode)|Status of the Scholarship Applicant|<a href="ScholarshipApplicant.md" target="_blank">higherEducation/ScholarshipApplicant</a>|
@@ -516,6 +513,11 @@ First included in: higherEducation/ScholarshipApplicant (this entity)
 **is.dataFormat.big**  
 **is.dataFormat.array**  
 **means.entityName**  
+[deprecated] use the standalone 'means.entityName' trait instead.  
+
+**means.entityName**  
+a string value is the name of a CDM entity.  
+
 **is.requiredAtLevel**  
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
@@ -1396,7 +1398,7 @@ First included in: higherEducation/ScholarshipApplicant (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Scholarship Applicant</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Scholarship Applicant</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1404,11 +1406,11 @@ First included in: higherEducation/ScholarshipApplicant (this entity)
 <summary>List of traits for the statusCode attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
+**is.constrainedList.correlated**  
+the values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status  
+
 **does.haveDefault**  
 An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
-
-**is.constrainedList**  
-the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **is.correlatedWith**  
 the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"stateCode"</td><td>attributeName</td><td></td></tr></table>

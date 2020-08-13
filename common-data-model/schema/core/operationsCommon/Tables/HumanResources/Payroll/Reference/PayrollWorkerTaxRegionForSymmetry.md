@@ -1,15 +1,15 @@
 ---
-title: PayrollWorkerTaxRegionForSymmetry - Common Data Model | Microsoft Docs
+title: PayrollWorkerTaxRegionForSymmetry in Reference - Common Data Model | Microsoft Docs
 description: undefined
-author: nenad1002
+author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/30/2020
-ms.author: nebanfic
+ms.date: 8/7/2020
+ms.author: weiluo
 ---
 
-# Worker tax region Symmetry
+# Worker tax region Symmetry in Reference(PayrollWorkerTaxRegionForSymmetry)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/operationsCommon/Tables/HumanResources/Payroll/Reference/PayrollWorkerTaxRegionForSymmetry.cdm.json" target="_blank">GitHub</a>.  
@@ -73,21 +73,17 @@ First included in: Reference/PayrollWorkerTaxRegionForSymmetry (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr><tr><td>isReadOnly</td><td>true</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the InstanceRelationType attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 **is.readOnly**  
 **is.nullable**  
 The attribute value may be set to NULL.  
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#WorkerTaxRegion name="WorkerTaxRegion">WorkerTaxRegion</a>
@@ -96,17 +92,13 @@ First included in: Reference/PayrollWorkerTaxRegionForSymmetry (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int64</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>unknown</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the WorkerTaxRegion attribute are listed below.</summary>
 
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
-**is.dataFormat.integer**  
-**is.dataFormat.big**  
 </details>
 
 ### <a href=#MunicipalityId name="MunicipalityId">MunicipalityId</a>
