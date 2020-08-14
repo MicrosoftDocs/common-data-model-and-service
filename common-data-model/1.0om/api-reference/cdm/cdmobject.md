@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 10/18/2019
+ms.date: 08/14/2020
 ms.author: jibyun
 ---
 
@@ -30,7 +30,7 @@ public interface CdmObject
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt [optional]*: The resolve options.|Returns the resolved object reference.|T, where T extends [CdmObjectDefinition](cdmobjectdefinition.md)<br/><br/>**Note:** In TypeScript, there is an async variant of this function called FetchObjectDefinitionAsync. This function will load the import files as they are required by this function.|
+|**FetchObjectDefinition\<T>([ResolveOptions](../utilities/resolveoptions.md))**<br/>*resOpt [optional]*: The resolve options.|Returns the resolved object reference.|T, where T extends [CdmObjectDefinition](cdmobjectdefinition.md)<br/><br/>**Note:** In TypeScript, there is an async variant of this function called FetchObjectDefinitionAsync. This function loads the import files when they are required by this function.|
 |**FetchObjectDefinitionName()**|Returns the name of the object if this is an object definition, or the name of the referenced object if this is an object reference.|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**<br/>*baseDef*: The name of the object that we want to check whether this object is derived from it.<br/>*resOpt [optional]*: The resolve options.|Returns true if the object (or the referenced object) is an extension of the specified symbol name in some way.|bool|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**<br/>*resOpt*: The resolve options.<br/>*host [optional]*: For internal use. The host to copy the object into, instead of creating a new object instance.|Creates a copy of this object.|[CdmObject](cdmobject.md)|
