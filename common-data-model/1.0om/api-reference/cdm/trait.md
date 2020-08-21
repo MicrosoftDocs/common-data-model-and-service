@@ -27,7 +27,7 @@ public class CdmTraitDefinition extends CdmObjectDefinitionBase
 |Name|Type|Description|
 |---|---|---|
 |TraitName|string|The trait's name.|
-|ExtendsTrait|[CdmTraitReference](traitreference.md)|The trait extended by this trait.|
+|ExtendsTrait|[CdmTraitReference](traitreference.md)?|The trait extended by this trait.|
 |Parameters|[CdmCollection](collection.md)\<[CdmParameterDefinition](parameter.md)>|The trait's parameters, for holding values or settings with the trait.|
 |Elevated|bool?|Denotes whether this trait is elevated. If an attribute has an elevated trait, then that trait should also be applied to the outer entity.|
 |Ugly|bool?|Denotes whether the trait is user facing (false if it's user facing, true otherwise).|
