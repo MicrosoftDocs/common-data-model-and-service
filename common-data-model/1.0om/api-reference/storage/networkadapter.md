@@ -14,7 +14,7 @@ ms.author: jibyun
 This is an abstract class that contains logic for adapters that deal with data across a network. See [GithubAdapter](githubadapter.md), [ADLSAdapter](adlsadapter.md), or [RemoteAdapter](remoteadapter.md) for usage of this class. When extending this class, a CdmHttpClient has to be defined with the specified endpoint and callback function in the constructor. Then the class helper methods can be used to set up HTTP requests and read data. If *Timeout*, *MaxmimumTimeout*, or *NumberOfRetries* aren't specified, the default values for those properties that are specified in this class will be used. 
 
 ```csharp
-public abstract class NetworkAdapter
+public abstract class NetworkAdapter extends StorageAdapterBase
 ```
 
 ## Properties
