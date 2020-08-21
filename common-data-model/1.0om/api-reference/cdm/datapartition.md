@@ -32,7 +32,7 @@ public class CdmDataPartitionDefinition extends CdmObjectDefinitionBase, CdmFile
 |Inferred|bool|Denotes whether the data partition was created from a data partition pattern.|
 |Arguments|Dictionary\<string, List\<string>>|The dictionary of argument names to argument values. If this data partition was created from a data partition pattern, then the argument names will match the parameters specified in the data partition pattern, and the values will be those discovered from the pattern's regular expression.|
 |SpecializedSchema|string|The path of the specialized schema to use specifically for the data partitions generated (for example, *CSV*).|
-|RefreshTime|DateTime?|The data partition's refresh time.|
+|RefreshTime|DateTimeOffset?|The data partition's refresh time.|
 |LastFileStatusCheckTime|DateTimeOffset?|The last time the modified time was checked for this file.|
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the object model.|
 |LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
