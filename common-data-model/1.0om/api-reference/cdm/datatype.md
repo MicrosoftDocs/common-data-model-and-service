@@ -27,7 +27,7 @@ public class CdmDataTypeDefinition extends CdmObjectDefinitionBase
 |Name|Type|Description|
 |---|---|---|
 |DataTypeName|string|The data type's name.|
-|ExtendsDataType|CdmDataTypeReference|The data type extended by this data type.|
+|ExtendsDataType|CdmDataTypeReference?|The data type extended by this data type.|
 
 ## Methods
 |Name|Description|Return Type|
