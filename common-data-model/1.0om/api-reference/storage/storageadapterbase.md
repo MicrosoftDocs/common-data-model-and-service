@@ -5,13 +5,13 @@ author: evank
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 08/21/2020
+ms.date: 08/24/2020
 ms.author: evank
 ---
 
 # Storage Adapter Base
 
-This is the base class for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the [object model](../cdm/cdm.md) is running. By deriving from this class users are able to create their own adapter if needed.
+This is the base class for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the [object model](../cdm/cdm.md) is running. By deriving from this class, users are able to create their own adapter if needed.
 
 ```csharp
 public abstract class StorageAdapterBase
@@ -39,4 +39,4 @@ public abstract class StorageAdapterBase
 |**FetchConfig()**|Constructs the adapter's configuration. Returns a JSON string representing the configuration.|string|
 |**UpdateConfig(string)**<br/>*string*: A JSON string representing the configuration for the adapter.|Applies the specified configuration to the adapter. This method must be called after using the default constructor.|void|
 |**ClearCache()**|Empties the cache of files and folders if the storage adapter uses a cache.|void|
-|**CreateFileQueryCacheContext()**|Calling this function tells the adapter it can begin to cache and reuse the results of file queries. The adapter can continue to reuse cached results until the *Dispose()* function is called on the returned object|IDisposable| 
+|**CreateFileQueryCacheContext()**|Calling this function tells the adapter it can begin to cache and reuse the results of file queries. The adapter can continue to reuse cached results until the *Dispose()* function is called on the returned object.|IDisposable| 

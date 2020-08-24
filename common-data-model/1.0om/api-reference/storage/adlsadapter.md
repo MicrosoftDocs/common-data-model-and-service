@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 10/18/2019
+ms.date: 08/24/2020
 ms.author: jibyun
 ---
 
@@ -47,7 +47,7 @@ public class ADLSAdapter extends NetworkAdapter
 |**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods).|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapterBase.CreateAdapterPath(...)](storageadapterbase.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
-|**ClearCache()**|See [StorageAdapterBase.ClearCache()](storageadapterbase.md#methods). This method doesn't do anything because the ADLS adapter doesn't maintain a cache.|void|
+|**ClearCache()**|See [StorageAdapterBase.ClearCache()](storageadapterbase.md#methods). This method doesn't do anything if the ADLS adapter doesn't maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapterBase.ComputeLastModifiedTimeAsync(...)](storageadapterbase.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapterBase.FetchAllFilesAsync(...)](storageadapterbase.md#methods).|Task\<List\<string>>|
 |**FetchConfig()**|See [StorageAdapterBase.FetchConfig()](storageadapterbase.md#methods).|string|

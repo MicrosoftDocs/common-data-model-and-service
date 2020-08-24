@@ -5,7 +5,7 @@ author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 06/22/2020
+ms.date: 08/24/2020
 ms.author: jibyun
 ---
 
@@ -13,7 +13,8 @@ ms.author: jibyun
 
 This is the base interface for an adapter object that can read and write documents to and from a data source. It allows a user to interact with data from multiple data sources without having to manually copy data to the location where the [object model](../cdm/cdm.md) is running. This interface also allows users to create their own adapter, if needed.
 
-**Note**: This class is on the deprecation path. Use [StorageAdapterBase] instead
+>[!NOTE]
+>This class is on the deprecation path. Use [StorageAdapterBase] instead
 
 ```csharp
 public interface StorageAdapter
