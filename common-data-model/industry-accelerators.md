@@ -25,7 +25,7 @@ Common Data Model enables horizontal consistency for customers' business data, m
 
 ## ISV opportunity view
 
-Microsoft Power Platform combines with industry accelerators to create a unique opportunity for ISVs to provide solutions for different scenarios and levels of development. This image shows the opportunities for ISVs who build on top of the platform and the industry accelerators.
+Microsoft Power Platform and industry accelerators create a unique opportunity for ISVs to provide solutions for different scenarios and levels of development. This image shows the opportunities for ISVs who build on top of the platform and the industry accelerators.
 
 ![ISV opportunity view](media/isv-layered-opportunity.png "ISV opportunity view")
 
