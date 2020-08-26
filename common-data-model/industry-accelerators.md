@@ -25,22 +25,11 @@ Common Data Model enables horizontal consistency for customers' business data, m
 
 ## ISV opportunity view
 
-Microsoft Power Platform combines with industry accelerators to create a unique opportunity for ISVs to provide solutions for different scenarios and levels of development. This image shows the opportunities for ISVs who build on top of the platform and the industry accelerators.
+Microsoft Power Platform and industry accelerators create a unique opportunity for ISVs to provide solutions for different scenarios and levels of development. This image shows the opportunities for ISVs who build on top of the platform and the industry accelerators.
 
-![ISV opportunity view](media/isv-layered-opportunity_mockup.png "ISV opportunity view")
+![ISV opportunity view](media/isv-layered-opportunity.png "ISV opportunity view")
 
-|           |            |
-|-----------|------------|
-| **A** | Common Data Model is the foundation on which the Microsoft Power Platform accelerators and other solutions are built or extended. |
-| **B**, **C** | ISV solutions extend Common Data Model, as do industry accelerators from Microsoft and its partners.|
-| **D**,&nbsp;**E**,&nbsp;**F** | ISVs, industry ISVs, and industry sample apps from Microsoft all extend the Microsoft industry accelerators.|
-| **G** | ISVs further extend industry ISV solutions that were built on top of the Microsoft industry accelerator.|
-| **H**, **I** | ISVs and industry ISVs further extend industry sample apps that were built on top of the Microsoft industry accelerator. |
-| **J** | ISVs further extend industry ISV solutions that were built on top of the industry sample apps from Microsoft.|
-| **K** | Accelerators&mdash;along with ISV, industry ISV, and industry sample app solutions&mdash;are made available on AppSource.|
-| **L** | System integrators provide expertise for customer, ISV, and industry ISV solutions that were built on top of the Microsoft industry accelerators. System integrators can create industry vertical solution support and practices that can help customers directly build their own solutions and tools, or support ISV deliveries.|
-
-As the image shows, from the bottom level on up through the stack, ISVs have multiple opportunities to deliver industry-focused apps and solutions. These opportunities exist whether you're building directly on Power Apps (Common Data Service) or Dynamics 365 apps. Each level further expands the opportunities at the next level up. The accelerators provide opportunities to rapidly build vertical, industry-focused apps, in addition to enabling system integrators to help scale and support these new apps and solutions.
+As the previous image shows, from the bottom level up through the stack, ISVs have multiple opportunities to deliver industry-focused apps and solutions. These opportunities exist whether you're building directly on Power Apps (Common Data Service) or Dynamics 365 apps. Each level further expands the opportunities at the next level above. The accelerators provide opportunities to rapidly build vertical, industry-focused apps, in addition to enabling system integrators to help scale and support these new apps and solutions.
 
 
 ## Additional accelerators
