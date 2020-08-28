@@ -29,7 +29,7 @@ Microsoft Power Platform and industry accelerators create a unique opportunity f
 
 ![ISV opportunity view](media/isv-layered-opportunity.png "ISV opportunity view")
 
-As the previous image shows, from the bottom level up through the stack, ISVs have multiple opportunities to deliver industry-focused apps and solutions. These opportunities exist whether you're building directly on Power Apps (Common Data Service) or Dynamics 365 apps. Each level further expands the opportunities at the next level above. The accelerators provide opportunities to rapidly build vertical, industry-focused apps, in addition to enabling system integrators to help scale and support these new apps and solutions.
+As the image shows, ISVs have multiple opportunities to deliver industry-focused applications and solutions. These opportunities exist whether you're building directly on Power Apps (Common Data Service) or Dynamics 365 apps. Each level further expands the opportunities at the next level above. The accelerators provide opportunities to rapidly build vertical, industry-focused apps, in addition to enabling system integrators to help scale and support these new apps and solutions.
 
 
 ## Additional accelerators
