@@ -74,7 +74,7 @@ The standard entity definitions, and the schema format itself, use a major/minor
 
 ### Where can I find libraries to help read and write Common Data Model metadata?
 
-You can find sample libraries to read and write Common Data Model schema documents in [.NET](https://aka.ms/AA39f6f), [Java](https://github.com/microsoft/CDM/tree/master/objectModel/Java), [Python](https://aka.ms/AA39n1b), and [TypeScript](https://github.com/Microsoft/CDM/tree/master/src).
+You can find sample libraries to read and write Common Data Model schema documents in [.NET](https://aka.ms/AA39f6f), [Java](https://github.com/microsoft/CDM/tree/master/objectModel/Java), [Python](https://aka.ms/AA39n1b), and [TypeScript](https://github.com/microsoft/CDM/tree/master/objectModel/TypeScript).
 
 
 ## Common Data Service
