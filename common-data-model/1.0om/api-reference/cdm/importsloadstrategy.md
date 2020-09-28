@@ -11,16 +11,18 @@ ms.author: violivei
 
 # Imports Load Strategy
 
-An enum class containing the options on when the Object Model will load the imported files. 
+An enum class that specifies when the Object Model will load the documents imported by the document being loaded.
 
 ```csharp
 public enum ImportsLoadStrategy
 {
-    // With the LazyLoad option, the imports will only be loaded when a symbol from an external file is needed by the Object Model.
     LazyLoad,
-    // The imports will be loaded along with the file.
     Load,
-    // The imports will not be loaded at all. If a symbol is needed the Object Model will log an error.
     DoNotLoad
 }
 ```
+
+* **LazyLoad**: the imports will only be loaded when a symbol from an external file is needed by the Object Model.
+For example if `FetchObjectAsync` is called the imports will not be loaded since they are not required right away. If an API like `CreateResolvedEntityAsync` is called the imports are needed and will be loaded before continuning the execution.
+* **Load**: the imports will be loaded along with the file when calling `FetchObjectAsync`.
+* **DoNotLoad**: the imports will not be loaded at all. If an import is needed the Object Model will log an error.
