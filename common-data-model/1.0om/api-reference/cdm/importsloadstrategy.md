@@ -22,7 +22,7 @@ public enum ImportsLoadStrategy
 }
 ```
 
-* **LazyLoad**: the imports will only be loaded when a symbol from an external file is needed by the Object Model.
-For example, if `FetchObjectAsync` is called the imports will not be loaded since they are not required right away. If an API like `CreateResolvedEntityAsync` is called the imports are needed and will be loaded before continuing the execution.
-* **Load**: the imports will be loaded along with the file when calling `FetchObjectAsync`.
-* **DoNotLoad**: the imports will not be loaded at all. If an import is needed the Object Model will log an error.
+* **LazyLoad**: the imports will only load when the Object Model needs access to definitions existent in the imported files.
+For example, if `FetchObjectAsync` is called, the imports will not load since they are not required right away. If after loading the document, an API like `CreateResolvedEntityAsync` is called, the imports will load before continuing the execution.
+* **Load**: the imports will be loaded along with the document when calling `FetchObjectAsync`.
+* **DoNotLoad**: the imports will not load at any point. The Object Model will log an error if it needs an import to load during the execution.
