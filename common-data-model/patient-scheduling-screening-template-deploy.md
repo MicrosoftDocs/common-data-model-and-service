@@ -5,7 +5,7 @@ author: edgarwilsonjr2
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 04/06/2020
+ms.date: 10/19/2020
 ms.author: edwilson
 ---
 
@@ -18,16 +18,14 @@ The Patient Scheduling and Screening template requires some setup to meet your n
 
 Estimated time to complete these steps: 35–40 minutes.
 
-Download the files needed to install the solutions from [Dynamics 365 health accelerator v2.2.3.0](https://github.com/microsoft/Industry-Accelerator-Health/releases) on GitHub.
+Download the files needed to install the solutions from [Healthcare Accelerator Patient Scheduling and Screening Template](https://github.com/microsoft/Industry-Accelerator-Health/releases/tag/HCA-PSSTv1.0.0.1) on GitHub.
 
 ## Prerequisite files 
 
 - To import the main solutions, acquire the following managed solution files: 
-  - Dynamics365ElectronicMedicalRecords_2_2_0_3_managed.zip 
-  - MicrosoftDynamicsHealthcareCustomerService_3_0_3_0_managed.zip 
-  - MicrosoftDynamics365PatientSegmentation_3_0_3_0_managed.zip 
-  - SpatialSolution_1_4_0.zip
-  - MicrosoftDynamicsHealthcareCrisisManagement_1_0_0_0_managed.zip)
+  - Dynamics365ElectronicMedicalRecords_2_2_3_0_managed.zip 
+  - MicrosoftDynamicsHealthcareCustomerService_3_0_3_0_managed.zip  
+  - MicrosoftDynamicsHealthcareCrisisManagement_0_0_0_9_managed.zip
   - CrisisManagementPortalDataPackage.zip
   - SampleDataPackage.zip
   - MarketingDataPackage.zip
