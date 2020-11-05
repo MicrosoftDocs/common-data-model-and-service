@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["^master$"]
- :allowed-filename-matches ["(?i)^common-data-model/(?:(?!schema/core/operationsCommon/Common.md))"]
+ :allowed-filename-matches ["(?i)common-data-model/(?:(?!schema/core/operationsCommon/Common.md))"]
  :targets
  {
      :scores
