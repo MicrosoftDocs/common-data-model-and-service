@@ -134,6 +134,8 @@
             href: 1.0om/api-reference/cdm/import.md
           - name: Import Collection
             href: 1.0om/api-reference/cdm/importcollection.md
+          - name: Imports Load Strategy
+            href: 1.0om/api-reference/cdm/importsloadstrategy.md
           - name: Local Entity Declaration
             href: 1.0om/api-reference/cdm/localentitydeclaration.md
           - name: Manifest
