@@ -28,6 +28,7 @@ public class CdmDocumentDefinition extends CdmObjectSimple, CdmContainerDefiniti
 |Name|string|The document's name.|
 |Schema|string|The schema link that points to a validating schema.|
 |JsonSchemaSemanticVersion|string|Identifies the version of the object model that supports this file shape.|
+|DocumentVersion|string|Identifies the version of the document.|
 |Definitions|[CdmDefinitionCollection](definitioncollection.md)|The document's definitions - can be any object that implements [CdmObjectDefinition](cdmobjectdefinition.md).|
 |Imports|[CdmImportCollection](importcollection.md)|The collection of corpus paths/monikers that denote the Common Data Model objects that need to be imported in order to use the document.|
 |AtCorpusPath|string|The corpus path of the object declaration.|
