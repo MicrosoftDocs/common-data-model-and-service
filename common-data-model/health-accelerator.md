@@ -14,7 +14,7 @@ ms.author: tpalmer
 >
 >The [Dynamics 365 healthcare accelerator](https://docs.microsoft.com/en-us/common-data-model/health-accelerator) is deprecated effective 11/13 and will no longer be available for download after Dec 30, 2020. Customers can continue to use the accelerator but Microsoft won't release any additional functionality beyond what is already present, nor will there be a migration path to Microsoft Cloud for Healthcare.
 
-This reflects the shift in focus to Microsoft Cloud for Healthcare. Microsoft Cloud for Healthcare provides a unified approach across the Microsoft Cloud and enables healthcare organizations to deliver better experiences, better insights, and better care. More information: [What is Microsoft Cloud for Healthcare?](/industry/healthcare/overview) 
+>This reflects the shift in focus to Microsoft Cloud for Healthcare. Microsoft Cloud for Healthcare provides a unified approach across the Microsoft Cloud and enables healthcare organizations to deliver better experiences, better insights, and better care. More information: [What is Microsoft Cloud for Healthcare?](/industry/healthcare/overview) 
 >
 >**Partners and Microsoft Cloud for Healthcare**
 >
