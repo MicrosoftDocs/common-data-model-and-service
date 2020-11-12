@@ -5,11 +5,14 @@ author: TheresaPalmer
 ms.service: common-data-model
 ms.reviewer: anneta
 ms.topic: article
-ms.date: 03/30/2020
+ms.date: 11/13/2020
 ms.author: tpalmer
 ---
 
 # Dynamics 365 healthcare accelerator
+
+> [!NOTE]
+> The Dynamics 365 healthcare accelerator is deprecated effective 11/13 and will no longer be available for download after Dec 30, 2020. More information: [Deprecation of Dynamics 365 healthcare accelerator](/dynamics365/industry/healthcare/accelerator-deprecation)
 
 Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) entities (such as patient, condition, and care plan) in the [Dynamics 365 healthcare accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
 
