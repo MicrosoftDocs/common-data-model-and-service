@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 healthcare accelerator  | Microsoft Docs
-description: Develop healthcare solutions with the extensions to Common Data Model and built-in forms and views of the Dynamics 365 healthcare accelerator.
+title: Dynamics 365 healthcare accelerator (Deprecated)  | Microsoft Docs
+description: This is deprecated.
 author: TheresaPalmer
 ms.service: common-data-model
 ms.reviewer: anneta
