@@ -11,6 +11,9 @@ ms.author: weiluo
 
 # Overview of healthCare
 
+> [!NOTE]
+> The Dynamics 365 healthcare accelerator is deprecated effective November 13, 2020 and will no longer be available for download after December 30, 2020. More information: [Deprecation of Dynamics 365 healthcare accelerator](/dynamics365/industry/healthcare/accelerator-deprecation)
+
 CDM standard entities  
 
 ## Sub-folders
