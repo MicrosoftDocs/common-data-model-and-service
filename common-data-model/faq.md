@@ -11,7 +11,7 @@ ms.author: tpalmer
 
 # Frequently asked questions about the Common Data Model
 
-This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Common Data Service and Microsoft Azure Data Lake Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
+This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Microsoft Dataverse and Microsoft Azure Data Lake Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
@@ -21,9 +21,9 @@ This topic contains answers to frequently asked questions and best practices aro
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
   - [Where can I find libraries to help read and write Common Data Model metadata?](#where-can-i-find-libraries-to-help-read-and-write-common-data-model-metadata)
 
-- Common Data Service
-  - [How is the Common Data Model related to Common Data Service?](#how-does-the-common-data-model-relate-to-common-data-service)
-  - [How do I get all the standard entities in my Common Data Service database?](#how-do-i-get-all-the-standard-entities-in-my-common-data-service-database)
+- Microsoft Dataverse
+  - [How is the Common Data Model related to Dataverse?](#how-does-the-common-data-model-relate-to-common-data-service)
+  - [How do I get all the standard entities in my Dataverse database?](#how-do-i-get-all-the-standard-entities-in-my-common-data-service-database)
 
 - Azure Data Lake Storage Gen2
   - [How do I discover Common Data Model content in the data lake?](#how-do-i-discover-common-data-model-content-in-the-lake)
@@ -77,19 +77,19 @@ The standard entity definitions, and the schema format itself, use a major/minor
 You can find sample libraries to read and write Common Data Model schema documents in [.NET](https://aka.ms/AA39f6f), [Java](https://github.com/microsoft/CDM/tree/master/objectModel/Java), [Python](https://aka.ms/AA39n1b), and [TypeScript](https://github.com/microsoft/CDM/tree/master/objectModel/TypeScript).
 
 
-## Common Data Service
+## Dataverse
 
 <a name="how-does-the-common-data-model-relate-to-common-data-service"></a>
 
-### How is the Common Data Model related to Common Data Service?
+### How is the Common Data Model related to Dataverse?
 
-Common Data Service implements the Common Data Model standard entities, such as Account and Contact.
+Dataverse implements the Common Data Model standard entities, such as Account and Contact.
 
 <a name="how-do-i-get-all-the-standard-entities-in-my-common-data-service-database"></a>
 
-### How do I get all the standard entities in my Common Data Service database?
+### How do I get all the standard entities in my Dataverse database?
 
-Some standard entities in the Common Data Model are built in to each Common Data Service database. Other standard entities are installed as part of a solution, including first-party applications (such as Dynamics 365 Field Service) or [industry solution accelerators](industry-accelerators.md) (such as Dynamics 365 Healthcare Accelerator).
+Some standard entities in the Common Data Model are built in to each Dataverse database. Other standard entities are installed as part of a solution, including first-party applications (such as Dynamics 365 Field Service) or [industry solution accelerators](industry-accelerators.md) (such as Dynamics 365 Healthcare Accelerator).
 
 ## Data Lake Gen2 Storage
 

@@ -91,7 +91,7 @@ The solutions in the nonprofit accelerator leverage Common Data Model for Nonpro
 
 ### Data schema
 
-- Nonprofit core – This data schema contains the essentials for the nonprofit accelerator including views, forms, and data entities. It has no dependency on Microsoft Dynamics 365 and is only dependent on Microsoft Common Data Service.
+- Nonprofit core – This data schema contains the essentials for the nonprofit accelerator including views, forms, and data entities. It has no dependency on Microsoft Dynamics 365 and is only dependent on Microsoft Dataverse.
 - Nonprofit measurement – This data schema improves the way of measuring nonprofit programs and depends on the nonprofit core data schema. 
 - MicrosoftDynamics365VolunteerManagement – This data schema supports volunteer management scenarios and depends on the nonprofit core, nonprofit sale, Dynamics 365 sales data, and Dynamics 365 project service automation data schemas. 
 - MicrosoftDynamics365IATI – This data schema creates efficiencies in IATI reporting compliance and depends on nonprofit core, nonprofit sale, and Dynamics 365 sales data schemas. 
