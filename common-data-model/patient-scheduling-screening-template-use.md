@@ -64,7 +64,7 @@ at-risk patient populations, the **Patient Outreach** module in the Patient
 Scheduling and Screening template will encompass template patient segments for
 organizations to compile a marketing segment in order to reach out to these
 patients. Leveraging the core healthcare accelerator solution to store patient
-clinical data in Common Data Service, we are able to utilize conditions and the corresponding
+clinical data in Dataverse, we are able to utilize conditions and the corresponding
 ICD-10 code in order to formulate the segment. The Patient Segments included
 within the solution are as follows:
 
