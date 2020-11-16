@@ -27,31 +27,32 @@ up-to-date [Common Data Model Entity Reference](https://aka.ms/entityreference)
 
 [Learn
 more](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#glossary-of-definable-objects)
-about Common Data Model definable objects
+about Common Data Model definable objects.
 
 Microsoft provided Common Data Model reference entities are categorized into
 subject areas for easy discoverability and published to public GitHub repo with
 supporting documentation. These entities have matured over tens of years with
 thousands of hours of investment from within Microsoft as well as the partner
-eco-system. As opposed to building a new data model for your app, you can simply
+eco-system. 
+
+As opposed to building a new data model for your app, you can simply
 re-use the entity definitions available to you. Common Data Model can be used by
-various applications and services including Common Data Service, Dynamics 365,
+various applications and services including Microsoft Dataverse, Dynamics 365,
 Power Platform and Azure ensuring that all of your services can access the same
 data. Common Data Model is already available to many customers a great example
 of how Common Data Model can be leveraged is with the data-preparation
 capabilities in Power BI dataflows that creates data files which follow the
 Common Data Model definition, which is stored in Azure Data Lake. The Common
-Data Model definitions are open and available to any service or application that
-wants to use them.
+Data Model definitions are open and available to any service or application that wants to use them.
 
-![Common Data Model with Common Data Service](media/cdm-with-cds.png)
+![Common Data Model with Dataverse](media/cdm-with-cds.png)
 
 Data described using Common Data Model can be used with Azure services to build
 scalable analytical solutions as well as being a
 [source](https://docs.microsoft.com/dynamics365/ai/customer-insights/connect-common-data-model-folder)
 of semantically rich data for applications driving actionable insights like
 Dynamics 365 Customer Insights. that reason over data using machine-readable
-semantic metadata. Common Data Model is used to define Entities for Dynamics 365
+semantic metadata. Common Data Model is used to define entities for Dynamics 365
 applications in Sales, Finance, Supply Chain and Commerce can be readily
 available in Azure Data Lake.
 
@@ -70,9 +71,9 @@ benefit from the Common Data Model and the platforms that support it.
 
 Let’s explore some of the scenarios in detail
 
--   Jump-start app development with Power Apps and Common Data Service
+-   Jump-start app development with Power Apps and Dataverse
 
--   Export data from Common Data Service into Azure Data Lake.
+-   Export data from Dataverse into Azure Data Lake.
 
 -   Export data from Dynamics 365 Finance and Operations into Azure Data Lake
 
@@ -83,15 +84,15 @@ Let’s explore some of the scenarios in detail
 
 -   Optimize data exchange in the Azure Data Lake.
 
-## Jump-start Common Data Service app development
+## Jump-start Dataverse app development
 
-By using Common Data Service, you can jump-start app development by using the
+By using [Dataverse](/powerapps/maker/common-data-service/data-platform-intro), you can jump-start app development by using the
 Common Data Model with business logic, security, and integration already built-
 in. The platform provides these benefits:
 
 -   **Leverage packaged business applications**: Many Microsoft Dynamics 365
     solutions and third-party apps are built on top of (or at least leverage)
-    Common Data Service. When your data is structured according to the Common
+    Dataverse. When your data is structured according to the Common
     Data Model, you can take advantage of those packaged applications.
 
 -   **Gain access to customized solutions**: Developers who understand and work
@@ -101,12 +102,11 @@ in. The platform provides these benefits:
 Whatever your intent, using the Common Data Model structures your data in a
 common format so that you can use, share, and analyze it more easily.
 
-## Resources for Common Data Service
+## Resources for Dataverse
 
--   [What is Common Data
-    Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+-   [What is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 
--   [Add data to an entity in Common Data Service by using Power
+-   [Add data to an entity in Dataverse by using Power
     Query](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
 
 -   [Introduction to
@@ -118,18 +118,17 @@ common format so that you can use, share, and analyze it more easily.
 -   [Build a canvas
     app](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)
 
--   [Create a flow that uses Common Data
-    Service](https://docs.microsoft.com/flow/common-data-model-intro)
+-   [Create a flow that uses Dataverse](https://docs.microsoft.com/flow/common-data-model-intro)
 
--   [Exporting Common Data Service data to Azure Data
+-   [Exporting Dataverse data to Azure Data
     Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
 
-## Export data from Common Data Service into Azure Data 
+## Export data from Dataverse into Azure Data 
 -------------------------------------------------------------------------
 
 -   Simple and intuitive interface to enable and administer replicated entities.
 
--   Ability to link/unlink the Common Data Service environment to a data lake in
+-   Ability to link/unlink the Dataverse environment to a data lake in
     customer’s Azure subscription.
 
 -   Continuous replication of entities to Azure data lake.
@@ -142,7 +141,7 @@ common format so that you can use, share, and analyze it more easily.
 
 -   Continuous snapshot updates for large analytics scenarios.
 
->   Learn more: [Exporting Common Data Service data to Azure Data
+>   Learn more: [Exporting Dataverse data to Azure Data
 >   Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
 
 ## Export data from Dynamics 365 Finance and Operations into Azure Data 
@@ -157,11 +156,11 @@ See more details here:
 -   Overview of Azure Data Lake integration in Dynamics 365 for Finance and
     Operations
 
-<https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview>
+    <https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview>
 
 -   Configuring an Azure Data Lake in Finance and Operations
 
-<https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake>
+    <https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake>
 
 ## Perform quick data integration by using Power Query Online
 
