@@ -89,8 +89,7 @@ object or the use of (reference to) a defined object.
 
 ## Traits
 
-A **Trait** is a simple object that describes a semantic meaning, settings, or
-measurement. Consider the following example.
+A **Trait** is a simple object that describes a semantic meaning, settings, or measurement. Consider the following example.
 
 ```json
 {
@@ -182,6 +181,8 @@ measurement. Consider the following example.
     **Meters**, when any other object has this
     **means.measurement.distance.meters** trait applied to it, the **units**
     argument will always be **Meters**.
+
+For detailed guidance on traits including their use case, how they are described and how they are applied, please read [Trait concepts and use cases - a detailed overview of traits for representing dataTypes](trait-concepts-and-use-cases.md).   
 
 ## Trait specifics
 

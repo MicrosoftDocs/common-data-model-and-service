@@ -58,5 +58,6 @@ Organizations from industries such as healthcare are working closely with Micros
 
 [How to use Common Data Model](use.md): Describes Common Data Model in detail and discusses use cases for creating data in the model or transforming your existing data into the model.  
 [How to create Common Data Model schema documents](creating-schemas.md): Describes how to create custom Common Data Model entity schema documents.   
+[Learn more about traits and their use cases](/sdk/trait-concepts-and-use-cases.md): Read detailed guidance on CDM traits including how they are described, how they represent the format of stored data values and how they are applied.   
 [Learn more about industry accelerators](industry-accelerators.md): Describes the effort around industry extensions and the solutions that Microsoft has already released.  
 [Common Data Model and Microsoft Azure Data Lake Storage Gen2](data-lake.md): Describes how putting data in Common Data Model form and storing it in Azure Data Lake Storage Gen2 helps services in the Azure ecosystem to exchange data.
