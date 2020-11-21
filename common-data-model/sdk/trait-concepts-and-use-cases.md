@@ -28,16 +28,36 @@ Traits are annotation objects that are an expression of semantic meaning. Traits
 
 For example:
 
-![Trait reference](../media/sdk/trait-concepts-and-use-cases/traits-img1.png)
+```json
+{
+  "definitions": [
+  {
+    "entityName": "Device",
+    "displayName": "Device",
+    "description": "A device that is an application or browser instance",
+    "version": "0.9",
+    "hasAttributes": [
+      {
+        "name": "manufacturer",
+        "appliedTraits": [
+          "is.dataFormat.character",
+          "is.dataFormat.array"
+        ],
+        "displayName": "Manufacturer",
+        "description": "The name of the organization who owns the design and creation…",
+        "dataFormat": "String"
+      },
+      {
+```
+</br>
 
 Notice that there are some properties on the entity and attributes that do not look like trait references. However, the helper properties such as *displayName*, *description* and *dataFormat*, are representing hidden trait values. These traits still exist in the Common Data Model object model and can be accessed as traits instead of property values.
 
 A string such as "means.measurement.distance.pixels" are referred to as *trait references* because each of them corresponds to a trait object that is defined (perhaps in another document) in the Common Data Model system. Using the Common Data Model object model, these strings are actually TraitReference objects that can be queried to fetch the underlying TraitDefinition.
 
-The following example shows what trait definitions look like in a Common Data Model definition document.
+The example below (using the code example above) shows what trait definitions look like in a Common Data Model definition document.
 
-![Common Data Model definition document](../media/sdk/trait-concepts-and-use-cases/traits-img2.png) 
-<!-- duplicate of traits-img1.png-->
+![Common Data Model definition document](../media/sdk/trait-concepts-and-use-cases/traits-img1.png) 
 
 Note in this example:
 
@@ -222,13 +242,13 @@ For more explanation, consider the following examples:
 |------------|---------------|
 | is.dataFormat.integer | Part of the dataFormat set of traits, indicates that the attribute represents whole numbers. |
 | means.identity.entityId | Set for an attribute that holds an identifier (primary key) value for an entity |
-| is.required | <!-- anything for this? --> |
+| is.required | Specifies that an attribute is required |
 | is.CDM.entityVersion | Holds the version number for the schema of an Entity |
 | is.localized.displayedAs | The "Display Name" for an attribute or entity. Holds a table of language specifics strings. |
 | is.correlatedWith | Indicates that the values found in the tagged attribute are correlated with the values from another indicated attribute. |
 | means.calendar.dayOfWeek | Part of the Calendar trait set. Indicates the day of the week. Note that the data values could be "Mon, Tues" or 0,1,2, and this trait is still valid. Another trait like dataFormat.integer indicates the data shape. |
 | means.demographic.maritalStatus | Marital status. Such an attribute can also, with other traits, be constrained to a specific list or an enum of possible values. |
-| means.formatting.font.size | <!-- anything for this? --> |
+| means.formatting.font.size | Could be used in an application to set a standard font size |
 | means.idea.product | Could be used on an entity that holds product information. |
 | means.location.city | Contains the name of a city. |
 | means.measurement.distance.inches | Inches. Also defines measurement and measurement of distance. |
@@ -266,7 +286,137 @@ When the Common Data Model SDK is used to open a model.json document, the model.
 
 A set of PBI custom extensions will be translated into well-known traits. The best way to explain the correlation is to simply describe the traits:
 
-![Trait definitions](../media/sdk/trait-concepts-and-use-cases/traits-img4.png)
+```json
+{
+    "traitName": "is.extension.pbi:dataCategory",
+    "extendsTrait": "is.extension",
+    "explanation": "The Power BI data category for the entity or attribute this property is added for.",
+    "hasParameters": [
+        {
+            "name": "is.extension.pbi:dataCategory",
+            "dataType": "string",
+            "explanation": "Default parameter since extension isn't an object."
+        }
+    ]
+},
+{
+    "traitName": "is.extension.pbi:mashup",
+    "explanation": "The mashup query and properties for the current document.",
+    "extendsTrait": "is.extension",
+    "hasParameters": [
+        {
+            "name": "fastCombine",
+            "dataType": "boolean",
+            "defaultValue": true,
+            "explanation": "The fastCombine for the mashup query."
+        },
+        {
+            "name": "allowNativeQueries",
+            "dataType": "boolean",
+            "defaultValue": false,
+            "explanation": "Set if native queries are allowed."
+        },
+        {
+            "name": "document",
+            "dataType": "string",
+            "explanation": "The mashup query for the current document."
+        },
+        {
+            "name": "queriesMetadata",
+            "dataType": "object",
+            "explanation": "Dictionary of query name to it's metadata containing query id, name, entity name etc."
+        }
+    ]
+},
+{
+    "traitName": "is.extension.pbi:refreshPolicy",
+    "explanation": "The refresh policy for the entity. Full Refresh and Incremental Refresh are potential examples from Power BI.",
+    "extendsTrait": "is.extension",
+    "hasParameters": [
+        {
+            "name": "$type",
+            "explanation": "The type of the refresh policy.",
+            "dataType": "string"
+        },
+        {
+            "name": "location",
+            "explanation": "The root location to use for refresh.",
+            "dataType": "string"
+        },
+        {
+            "name": "rollingWindowGranularity",
+            "dataType": "string",
+            "explanation": "The granularity of the rolling window for the incremental refresh. it can be day, month, quarter or year.",
+            "defaultValue": "Invalid"
+        },
+        {
+            "name": "incrementalGranularity",
+            "dataType": "string",
+            "explanation": "The granularity of the incremental period in the window. it can be day, month, quarter or year.",
+            "defaultValue": "Invalid"
+        }
+    ]
+},
+{
+    "traitName": "is.extension.pbi:partitionDataQuery",
+    "extendsTrait": "is.extension",
+    "explanation": "Stores the partition query.",
+    "hasParameters": [
+        {
+            "name": "is.extension.pbi:partitionDataQuery",
+            "dataType": "string"
+        }
+    ]
+},
+{
+    "traitName": "is.extension.pbi:refreshBookmark",
+    "explanation": "The refresh bookmark for the last refresh of the partition.",
+    "extendsTrait": "is.extension",
+    "hasParameters": [
+        {
+            "name": "is.extension.pbi:refreshBookmark",
+            "dataType": "string"
+        }
+    ]
+},
+{
+    "traitName": "is.extension.pbi:source",
+    "explanation": "The source for the partition.",
+    "extendsTrait": "is.extension",
+    "hasParameters": [
+        {
+            "name": "$type",
+            "explanation": "The type of source of the partition.",
+            "dataType": "string"
+        },
+        {
+            "name": "start",
+            "explanation": "The start date time for the ranged partition.",
+            "dataType": "string"
+        },
+        {
+            "name": "end",
+            "explanation": "The end date time for the ranged partition.",
+            "dataType": "string"
+        }
+    ]
+},
+{
+    "traitName": "is.extension.pbi:timezone",
+    "explanation": "The timezone for which the times specified in the document are valid.",
+    "extendsTrait": "is.extension",
+    "hasParameters": [
+        {
+            "name": "is.extension.pbi:timezone",
+            "dataType": "string",
+            "default value": "Greenwich Mean Time"
+        }
+    ]
+}
+
+```
+</br>
+
 
 ### Other custom extensions
 
@@ -282,19 +432,57 @@ Other custom extensions, "pbi" or other prefix, encountered in the model.json ar
 
 As an example, consider the following custom extension.
 
-![Custom extension example](../media/sdk/trait-concepts-and-use-cases/traits-img5.png)
+```json
+{
+ "pbi:customThing": "valueFromModel",
+}
+```
+</br>
 
 The custom extension turns into the following trait definition.
 
-![Trait definition](../media/sdk/trait-concepts-and-use-cases/traits-img6.png)
+```json
+            {
+              "traitReference": "is.extension.pbi:customThing",
+              "arguments": [
+                {
+                  "name": " is.extension.pbi:customThing",
+                  "value": "valueFromModel"
+                }
+              ]
+            },
+```
+</br>
 
-For example, consider the following custom extension that has a value that is a structured object.
+Now, consider the following custom extension that has a value that is a structured object.
 
-![Custom extension has a value that is a structured object](../media/sdk/trait-concepts-and-use-cases/traits-img7.png)
+```json
+{          "pbi:customThing": {
+            "prop": "bet",
+            "foo": "valueFromModel"
+          }
+```
+</br>
 
 The custom extension turns into the following trait definition that is given one parameter for each named member of the custom extension's object type.
 
-![Custom extension turned into a trait definition](../media/sdk/trait-concepts-and-use-cases/traits-img8.png)
+```json
+      {
+        "traitReference": "is.extension.pbi:customThing",
+          "arguments": [
+          {
+            "name": "prop",
+            "value": "bet"
+          },
+          {
+            "name": "foo",
+            "value": "valueFromModel"
+          },
+       ]
+     },
+
+```
+</br>
 
 ### Translation of annotations
 
@@ -302,16 +490,65 @@ Annotation in the model.json will also be turned into traits.
 
 For example, the model.json form has the following annotation.
 
-![Example of model.json with annotation](../media/sdk/trait-concepts-and-use-cases/traits-img9.png)
+```json
+{
+      "annotations": [
+        {
+          "name": "pbi:EntityTypeDisplayHint",
+          "value": "LinkedEntity"
+        }
+      ],
+
+```
+</br>
 
 The Common Data Model object then exhibits this trait:
 
-![Common Data Model object turns the annotation into a trait](../media/sdk/trait-concepts-and-use-cases/traits-img10.png)
+```json
+{      "exhibitsTraits": [
+        {
+          "traitReference": "is.modelConversion.otherAnnotations",
+          "arguments": [
+            {
+              "name": "annotations",
+              "value": [
+                {
+                  "name": "pbi:EntityTypeDisplayHint",
+                  "value": "LinkedEntity"
+                }
+              ]
+            }
+          ]
+        },
+
+```
+</br>
 
 Note that saving a Common Data Model manifest as a model.json using the SDK will run these trait to extension conversions and trait to annotation conversions in reverse.
 
 However, there will be Common Data Model traits that have no equivalent representation in the model.json form. These traits will show up as Common Data Model custom extensions. For example:
 
-![Traits turned into custom extensions](../media/sdk/trait-concepts-and-use-cases/traits-img11.png)
+```json
+{
+   "attributes": [
+        {
+          "dataType": "dateTimeOffset",
+          "name": "createdOn",
+          "description": "Date and time when the record was created.",
+          "cdm:traits": [
+            "is.dataFormat.date",
+            "means.measurement.date",
+            "is.dataFormat.time",
+            "means.measurement.time",
+            "means.measurement.date.creation",
+            "is.CDS.standard",
+            {
+              "traitReference": "is.requiredAtLevel",
+              "arguments": [
+                "none"
+              ]
+            },
+```
+</br>
 
 This shows an attribute definition in a model.json that holds a **cdm:traits** custom extension with an array of the persisted trait references that one would also see in the equivalent EntityDefinition.
