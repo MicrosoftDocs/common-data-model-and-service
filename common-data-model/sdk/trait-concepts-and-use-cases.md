@@ -18,7 +18,7 @@ Traits are the fundamental mechanism in the Common Data Model metadata grammar f
 - Translation using the Common Data Model SDK
 - Equivalence of traits when converting to or from the previous representation of Common Data Model folders (referred to as the model.json file format)
 
-For reference, the current form for representing Common Data Model metadata is called the *manifest* format. The Common Data Model manifest format encompasses several critical enhancements over the more limited *model.json* format. For more information, see [Common Data Model Manifest object](https://docs.microsoft.com/common-data-model/sdk/manifest).
+For reference, the current form for representing Common Data Model metadata is called the *manifest* format. The Common Data Model manifest format encompasses several critical enhancements over the more limited *model.json* format. For more information, see [Common Data Model manifest object](https://docs.microsoft.com/common-data-model/sdk/manifest).
 
 For detailed information about the model.json document format, see [Metadata file for the Common Data Model](https://docs.microsoft.com/common-data-model/model-json).
 
@@ -30,26 +30,28 @@ For example:
 
 ```json
 {
-  "definitions": [
-  {
-    "entityName": "Device",
-    "displayName": "Device",
-    "description": "A device that is an application or browser instance",
-    "version": "0.9",
-    "hasAttributes": [
-      {
-        "name": "manufacturer",
-        "appliedTraits": [
-          "is.dataFormat.character",
-          "is.dataFormat.array"
-        ],
-        "displayName": "Manufacturer",
-        "description": "The name of the organization who owns the design and creation…",
-        "dataFormat": "String"
-      },
-      {
+    "definitions":[
+       {
+          "entityName":"Device",
+          "displayName":"Device",
+          "description":"A device that is an application or browser instance",
+          "version":"0.9",
+          "hasAttributes":[
+             {
+                "name":"manufacturer",
+                "appliedTraits":[
+                   "is.dataFormat.character",
+                   "is.dataFormat.array"
+                ],
+                "displayName":"Manufacturer",
+                "description":"The name of the organization who owns the design and creation…",
+                "dataFormat":"String"
+             }
+          ]
+       }
+    ]
+}
 ```
-</br>
 
 Notice that there are some properties on the entity and attributes that do not look like trait references. However, the helper properties such as *displayName*, *description* and *dataFormat*, are representing hidden trait values. These traits still exist in the Common Data Model object model and can be accessed as traits instead of property values.
 
@@ -98,12 +100,12 @@ Note in this example:
 
     - Maintaining a standard naming convention simplifies collections of traits into understandable and standard semantic groups. Standard semantics include: 
 
-        | Trait base collection | Description | Example |
-        |-----------------------|-------------|-------------|
-        | is | The actual value, format or shape of the data object or attribute. | The *is.dataFormat.array* attribute is a string with an array of characters. |
-        | does | How the data object or attribute affects or contributes to another attribute. | The *does.haveDefault* attribute indicates if a default value is required, present or applied. |
-        | has | Describes the characteristic or shape of an attribute. | The *has.format("L, F M")* attribute specifies the acceptable data format, in this case **L**astname **,** **F**irstname **M**iddlename. |
-        | means | What the data object or attribute relates to or represents. | The *means.location.city* attribute is the location having a city name.|
+      | Trait base collection | Description | Example |
+      |-----------------------|-------------|-------------|
+      | is | The actual value, format or shape of the data object or attribute. | The *is.dataFormat.array* attribute is a string with an array of characters. |
+      | does | How the data object or attribute affects or contributes to another attribute. | The *does.haveDefault* attribute indicates if a default value is required, present or applied. |
+      | has | Describes the characteristic or shape of an attribute. | The *has.format("L, F M")* attribute specifies the acceptable data format, in this case **L**astname **,** **F**irstname **M**iddlename. |
+      | means | What the data object or attribute relates to or represents. | The *means.location.city* attribute is the location having a city name.|
 
 ## Trait specifics
 
@@ -297,9 +299,7 @@ A set of PBI custom extensions will be translated into well-known traits. The be
             "dataType": "string",
             "explanation": "Default parameter since extension isn't an object."
         }
-    ]
-},
-{
+    ],
     "traitName": "is.extension.pbi:mashup",
     "explanation": "The mashup query and properties for the current document.",
     "extendsTrait": "is.extension",
@@ -326,9 +326,7 @@ A set of PBI custom extensions will be translated into well-known traits. The be
             "dataType": "object",
             "explanation": "Dictionary of query name to it's metadata containing query id, name, entity name etc."
         }
-    ]
-},
-{
+    ],
     "traitName": "is.extension.pbi:refreshPolicy",
     "explanation": "The refresh policy for the entity. Full Refresh and Incremental Refresh are potential examples from Power BI.",
     "extendsTrait": "is.extension",
@@ -355,9 +353,7 @@ A set of PBI custom extensions will be translated into well-known traits. The be
             "explanation": "The granularity of the incremental period in the window. it can be day, month, quarter or year.",
             "defaultValue": "Invalid"
         }
-    ]
-},
-{
+    ],
     "traitName": "is.extension.pbi:partitionDataQuery",
     "extendsTrait": "is.extension",
     "explanation": "Stores the partition query.",
@@ -366,9 +362,7 @@ A set of PBI custom extensions will be translated into well-known traits. The be
             "name": "is.extension.pbi:partitionDataQuery",
             "dataType": "string"
         }
-    ]
-},
-{
+    ],
     "traitName": "is.extension.pbi:refreshBookmark",
     "explanation": "The refresh bookmark for the last refresh of the partition.",
     "extendsTrait": "is.extension",
@@ -377,9 +371,7 @@ A set of PBI custom extensions will be translated into well-known traits. The be
             "name": "is.extension.pbi:refreshBookmark",
             "dataType": "string"
         }
-    ]
-},
-{
+    ],
     "traitName": "is.extension.pbi:source",
     "explanation": "The source for the partition.",
     "extendsTrait": "is.extension",
@@ -399,9 +391,7 @@ A set of PBI custom extensions will be translated into well-known traits. The be
             "explanation": "The end date time for the ranged partition.",
             "dataType": "string"
         }
-    ]
-},
-{
+    ],
     "traitName": "is.extension.pbi:timezone",
     "explanation": "The timezone for which the times specified in the document are valid.",
     "extendsTrait": "is.extension",
@@ -434,35 +424,33 @@ As an example, consider the following custom extension.
 
 ```json
 {
- "pbi:customThing": "valueFromModel",
+ "pbi:customThing": "valueFromModel"
 }
 ```
-</br>
 
 The custom extension turns into the following trait definition.
 
 ```json
-            {
-              "traitReference": "is.extension.pbi:customThing",
-              "arguments": [
-                {
-                  "name": " is.extension.pbi:customThing",
-                  "value": "valueFromModel"
-                }
-              ]
-            },
+{
+  "traitReference": "is.extension.pbi:customThing",
+  "arguments": [
+    {
+      "name": " is.extension.pbi:customThing",
+      "value": "valueFromModel"
+    }
+  ]
+}
 ```
-</br>
 
 Now, consider the following custom extension that has a value that is a structured object.
 
 ```json
-{          "pbi:customThing": {
-            "prop": "bet",
-            "foo": "valueFromModel"
-          }
+{     "pbi:customThing": {
+      "prop": "bet",
+      "sample": "valueFromModel"
+      }
+}
 ```
-</br>
 
 The custom extension turns into the following trait definition that is given one parameter for each named member of the custom extension's object type.
 
@@ -475,14 +463,13 @@ The custom extension turns into the following trait definition that is given one
             "value": "bet"
           },
           {
-            "name": "foo",
+            "name": "sample",
             "value": "valueFromModel"
-          },
+          }
        ]
-     },
+     }
 
 ```
-</br>
 
 ### Translation of annotations
 
@@ -497,10 +484,10 @@ For example, the model.json form has the following annotation.
           "name": "pbi:EntityTypeDisplayHint",
           "value": "LinkedEntity"
         }
-      ],
+      ]
+}
 
 ```
-</br>
 
 The Common Data Model object then exhibits this trait:
 
@@ -519,10 +506,10 @@ The Common Data Model object then exhibits this trait:
               ]
             }
           ]
-        },
-
+        }
+      ]
+}
 ```
-</br>
 
 Note that saving a Common Data Model manifest as a model.json using the SDK will run these trait to extension conversions and trait to annotation conversions in reverse.
 
@@ -547,8 +534,11 @@ However, there will be Common Data Model traits that have no equivalent represen
               "arguments": [
                 "none"
               ]
-            },
+            }
+          ]
+        }
+      ]
+}
 ```
-</br>
 
 This shows an attribute definition in a model.json that holds a **cdm:traits** custom extension with an array of the persisted trait references that one would also see in the equivalent EntityDefinition.
