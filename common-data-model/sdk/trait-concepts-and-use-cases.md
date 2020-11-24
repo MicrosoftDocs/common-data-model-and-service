@@ -5,7 +5,7 @@ author: msftman
 ms.service: common-data-model
 ms.reviewer: matgos
 ms.topic: article
-ms.date: 11/16/2020
+ms.date: 11/24/2020
 ms.author: jeffbern
 ---
 
@@ -280,7 +280,7 @@ Consult the [Common Data Model object model documentation](../1.0om/api-referenc
 
 ## Traits in model.json
 
-The model.json file format was the initial version of the format that describes Common Data Model folders. The Common Data Model manifest format is the new version that accommodates additional requirements and covers a superset of functionality of model.json. The Common Data Model SDK, available in multiple languages, provides automatic forward- (and backward-) translation between the metadata formats. The reference specification for manifest is publicly available [here](https://docs.microsoft.com/common-data-model/sdk/manifest).
+The model.json file format was the initial version of the format that describes Common Data Model folders. The Common Data Model manifest format is the new version that accommodates additional requirements and covers a superset of functionality of model.json. The Common Data Model SDK, available in multiple languages, provides automatic forward- (and backward-) translation between the metadata formats. The reference specification for manifest is publicly available at [The Manifest object](https://docs.microsoft.com/common-data-model/sdk/manifest).
 
 When the Common Data Model SDK is used to open a model.json document, the model.json document will be converted into a manifest object with references to EntityDefinitions. When a **pbi:dataCategory** custom extension is encountered on an entity or attribute, it will be automatically translated into the equivalent Common Data Model standard semantic trait and that trait will be attached to the converted Common Data Model entity or attribute.
 
@@ -445,29 +445,30 @@ The custom extension turns into the following trait definition.
 Now, consider the following custom extension that has a value that is a structured object.
 
 ```json
-{     "pbi:customThing": {
-      "prop": "bet",
-      "sample": "valueFromModel"
-      }
+{
+  "pbi:customThing": {
+    "prop": "bet",
+    "sample": "valueFromModel"
+  }
 }
 ```
 
 The custom extension turns into the following trait definition that is given one parameter for each named member of the custom extension's object type.
 
 ```json
-      {
-        "traitReference": "is.extension.pbi:customThing",
-          "arguments": [
-          {
-            "name": "prop",
-            "value": "bet"
-          },
-          {
-            "name": "sample",
-            "value": "valueFromModel"
-          }
-       ]
-     }
+{
+  "traitReference": "is.extension.pbi:customThing",
+  "arguments": [
+    {
+      "name": "prop",
+      "value": "bet"
+    },
+    {
+      "name": "sample",
+      "value": "valueFromModel"
+    }
+  ]
+}
 
 ```
 
@@ -479,12 +480,12 @@ For example, the model.json form has the following annotation.
 
 ```json
 {
-      "annotations": [
-        {
-          "name": "pbi:EntityTypeDisplayHint",
-          "value": "LinkedEntity"
-        }
-      ]
+  "annotations": [
+    {
+      "name": "pbi:EntityTypeDisplayHint",
+      "value": "LinkedEntity"
+    }
+  ]
 }
 
 ```
@@ -492,22 +493,23 @@ For example, the model.json form has the following annotation.
 The Common Data Model object then exhibits this trait:
 
 ```json
-{      "exhibitsTraits": [
+{
+  "exhibitsTraits": [
+    {
+      "traitReference": "is.modelConversion.otherAnnotations",
+      "arguments": [
         {
-          "traitReference": "is.modelConversion.otherAnnotations",
-          "arguments": [
+          "name": "annotations",
+          "value": [
             {
-              "name": "annotations",
-              "value": [
-                {
-                  "name": "pbi:EntityTypeDisplayHint",
-                  "value": "LinkedEntity"
-                }
-              ]
+              "name": "pbi:EntityTypeDisplayHint",
+              "value": "LinkedEntity"
             }
           ]
         }
       ]
+    }
+  ]
 }
 ```
 
@@ -517,27 +519,27 @@ However, there will be Common Data Model traits that have no equivalent represen
 
 ```json
 {
-   "attributes": [
+  "attributes": [
+    {
+      "dataType": "dateTimeOffset",
+      "name": "createdOn",
+      "description": "Date and time when the record was created.",
+      "cdm:traits": [
+        "is.dataFormat.date",
+        "means.measurement.date",
+        "is.dataFormat.time",
+        "means.measurement.time",
+        "means.measurement.date.creation",
+        "is.CDS.standard",
         {
-          "dataType": "dateTimeOffset",
-          "name": "createdOn",
-          "description": "Date and time when the record was created.",
-          "cdm:traits": [
-            "is.dataFormat.date",
-            "means.measurement.date",
-            "is.dataFormat.time",
-            "means.measurement.time",
-            "means.measurement.date.creation",
-            "is.CDS.standard",
-            {
-              "traitReference": "is.requiredAtLevel",
-              "arguments": [
-                "none"
-              ]
-            }
+          "traitReference": "is.requiredAtLevel",
+          "arguments": [
+            "none"
           ]
         }
       ]
+    }
+  ]
 }
 ```
 
