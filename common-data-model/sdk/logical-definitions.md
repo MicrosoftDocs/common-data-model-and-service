@@ -89,8 +89,7 @@ object or the use of (reference to) a defined object.
 
 ## Traits
 
-A **Trait** is a simple object that describes a semantic meaning, settings, or
-measurement. Consider the following example.
+A **Trait** is a simple object that describes a semantic meaning, settings, or measurement. Consider the following example.
 
 ```json
 {
@@ -183,6 +182,8 @@ measurement. Consider the following example.
     **means.measurement.distance.meters** trait applied to it, the **units**
     argument will always be **Meters**.
 
+For detailed guidance on traits including their use case, how they are described and how they are applied, please read [Trait concepts and use cases - a detailed overview of traits for representing dataTypes](trait-concepts-and-use-cases.md).   
+
 ## Trait specifics
 
 
@@ -235,13 +236,7 @@ length can be set.
 
 ## Standard traits
 
-The standard definition documents for Common Data Model (primitives.cdm.json,
-foundations.cdm.json, and meaning.cdm.json) contain a number of predefined
-standard traits that should be used or extended to help create a shared
-understanding of metadata from different systems. These standard traits define
-data formats, data shapes, usage guidance and restrictions, semantic meanings,
-and structural information about the relationships within the entity itself.
-Some standard examples are described in the following table.
+The standard definition documents for Common Data Model (primitives.cdm.json, foundations.cdm.json, and meaning.cdm.json) contain a number of predefined standard traits that should be used or extended to help create a shared understanding of metadata from different systems. These standard traits define data formats, data shapes, usage guidance and restrictions, semantic meanings, and structural information about the relationships within the entity itself. Some standard examples are described in the following table.
 
 | Trait name                        | Description                                                                                                                                                                                                                                               |
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -258,29 +253,18 @@ Some standard examples are described in the following table.
 | means.location.city               | The name of a city                                                                                                                                                                                                                                        |
 | means.measurement.distance.inches | Inches, but also measurement and measurement of distance.                                                                                                                                                                                                 |
 | means.identity.person.fullName    |                                                                                                                                                                                                                                                           |
-
 ## The dataType object
 
-The **dataType** object that's referenced as a part of defining an attribute or
-a trait parameter is just a convenient mechanism for giving a meaningful name to
-a collection of traits, some of which might have specific parameter values set.
-When an attribute is defined by using a data type, the attribute will gain the
-traits of the data type. The kinds of traits used to make data types should be
-about the format, meaning, or shape of individual data values.
+The **dataType** object that's referenced as a part of defining an attribute or a trait parameter is just a convenient mechanism for giving a meaningful name to a collection of traits, some of which might have specific parameter values set. When an attribute is defined by using a data type, the attribute will gain the traits of the data type. The kinds of traits used to make data types should be about the format, meaning, or shape of individual data values.
 
-Data types can extend other data types, in which case they gain (and can
-augment) the traits taken from the base data type. For example, we define:
+Data types can extend other data types, in which case they gain (and can augment) the traits taken from the base data type. For example, we define:
 
 <!-- image10 -->
 ![Extend data types](../media/sdk/logical-definitions/data-types-extend-data-types.png) 
 
 ## Standard data types
 
-The standard definition documents for Common Data Model (primitives.cdm.json,
-foundations.cdm.json, and meaning.cdm.json) contain a number of already defined
-data types that should be used or extended to help create a shared understanding
-of metadata from different systems. Some examples are included in the following
-table.
+The standard definition documents for Common Data Model (primitives.cdm.json, foundations.cdm.json, and meaning.cdm.json) contain a number of already defined data types that should be used or extended to help create a shared understanding of metadata from different systems. Some examples are included in the following table.
 
 | dataType Name | Description                                                                         |
 |---------------|-------------------------------------------------------------------------------------|
@@ -293,64 +277,43 @@ table.
 
 The following JSON excerpt is an example of how to define a data type:
 
-
 <!-- image11 -->
 ![Define data types](../media/sdk/logical-definitions/define-data-types.png) 
 
 ## Entities and their attributes
 
 
-The primary object described by Common Data Model is the entity. An entity
-describes the structural shape and semantic meaning for records of data.
-Entities can represent physical objects, locations, interactions, individuals,
-point-in-time measurements, and more.
+The primary object described by Common Data Model is the entity. An entity describes the structural shape and semantic meaning for records of data. Entities can represent physical objects, locations, interactions, individuals,point-in-time measurements, and more.
 
-A given entity describes the meaning and shape of data through a set of
-attributes. There are two kinds of attributes: the atomic, simple type and the
-more complex, composite type.
+A given entity describes the meaning and shape of data through a set of attributes. There are two kinds of attributes: the atomic, simple type and the more complex, composite type.
 
 
 >[!NOTE]
->We refer to the attributes of an entity as objects, but logically they're more
-like connections between objects or events. They describe the act of associating
-some semantically described data values with the entity.
+>We refer to the attributes of an entity as objects, but logically they're more like connections between objects or events. They describe the act of associating some semantically described data values with the entity.
 
 ## Simple, typed attributes
 
-The first kind of attribute describes an individual, atomic piece of data that
-has a single name, data format, semantic meaning, and purpose within the entity.
+The first kind of attribute describes an individual, atomic piece of data that has a single name, data format, semantic meaning, and purpose within the entity.
 
 <!-- image12 -->
 ![Simple typed attributes](../media/sdk/logical-definitions/simple-typed-attributes-1.png) 
 
-
 These attributes are described in the following JSON excerpt:
 
 <!-- image13 -->
-![Simple typed attributes](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
+![Simple typed attributes described in JSON](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
 
 ## The Purpose object
 
-Beyond the data format or semantic meaning of an attribute's data values, we
-might need to describe the reason that an attribute is included in the entity or
-what purpose it serves. The **Purpose** object in Common Data Model is used to
-describe such meaning. Structurally and syntactically, a purpose is identical to
-a **dataType** object. It gives a meaningful name to a collection of traits.
-When an attribute is defined by using a purpose, the attribute gains the traits
-of the **Purpose** object. A **Purpose** object can extend base **Purpose**
-objects, in which case it also gains the traits of the base.
+Beyond the data format or semantic meaning of an attribute's data values, we might need to describe the reason that an attribute is included in the entity or what purpose it serves. The **Purpose** object in Common Data Model is used to describe such meaning. Structurally and syntactically, a purpose is identical to a **dataType** object. It gives a meaningful name to a collection of traits. When an attribute is defined by using a purpose, the attribute gains the traits of the **Purpose** object. A **Purpose** object can extend base **Purpose** objects, in which case it also gains the traits of the base.
 
-Often, the traits on a **Purpose** object are elevated, meaning that they will
-also appear on the entity that contains the attribute.
+Often, the traits on a **Purpose** object are elevated, meaning that they will also appear on the entity that contains the attribute.
 
 ## Standard Purpose objects
 
 
-The standard definition documents for Common Data Model (primitives.cdm.json,
-foundations.cdm.json and meaning.cdm.json) contain a number of predefined
-**Purpose** objects that should be used or extended to help create a shared
-understanding of metadata from different systems. Some examples are included in
-the following table.
+The standard definition documents for Common Data Model (primitives.cdm.json, foundations.cdm.json and meaning.cdm.json) contain a number of predefined **Purpose** objects that should be used or extended to help create a shared
+understanding of metadata from different systems. Some examples are included in the following table.
 
 | Purpose Name        | Description                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
@@ -363,18 +326,11 @@ the following table.
 | createdOn           | Indicates when the record was created.                                                              |
 | completedOn         | Holds a date for some application-specific notion of a record's being complete.                     |
 
-Of special note, the **identifiedBy** purpose is important to use for the
-primary key attribute of an entity to help Common Data Model discover
-relationships between entities.
+Of special note, the **identifiedBy** purpose is important to use for the primary key attribute of an entity to help Common Data Model discover relationships between entities.
 
 ### Entity extensions
 
-To be able to reuse common definitions, an entity can be defined as an extension
-of one other entity. When this is done, the extended entity gains all the
-attributes from the base entity along with any new attributes it defines. For
-example, because a student is a person, a Student entity can be extended from
-the Person entity, with a student-specific attribute added to the entity
-definition.
+To be able to reuse common definitions, an entity can be defined as an extension of one other entity. When this is done, the extended entity gains all the attributes from the base entity along with any new attributes it defines. For example, because a student is a person, a Student entity can be extended from the Person entity, with a student-specific attribute added to the entity definition.
 
 <!-- image14 -->
 ![Entity extensions](../media/sdk/logical-definitions/entity-extensions.png) 
@@ -383,12 +339,9 @@ definition.
 ## Traits applied to attributes
 
 
-At the point where an attribute is being defined, a set of traits can be
-applied. These traits are applied on "top" of the traits that the attribute
-might get from its purpose or data type.
+At the point where an attribute is being defined, a set of traits can be applied. These traits are applied on "top" of the traits that the attribute might get from its purpose or data type.
 
-Informally speaking, the full "grammar" for composing a typed attribute can be
-expressed in the following way:
+Informally speaking, the full "grammar" for composing a typed attribute can be expressed in the following way:
 
 <!-- image15 -->
 ![Traits applied image](../media/sdk/logical-definitions/traits-applied-attributes.png) 
@@ -451,28 +404,20 @@ The resulting attribute is named **fullName** and has these traits:
 ## Using an entity as the type of an attribute
 
 
-One entity can use a second entity as one of its attributes. This is the other
-type of attribute composition mentioned earlier. Using an entity as an attribute
-is the mechanism in Common Data Model for:
+One entity can use a second entity as one of its attributes. This is the other type of attribute composition mentioned earlier. Using an entity as an attribute is the mechanism in Common Data Model for:
 
 1.  Reusing common concepts from a shared definition.
 
 2.  Containment and scoping of ideas, and construction of complex types.
 
-3.  Identifying the semantic meaning behind an entity-to-entity relationship.
-    For example, a student might have a favorite teacher. Student and Teacher
-    are entities, but the concept of "favorite" is the part of the attribute
-    definition that ties them together.
+3.  Identifying the semantic meaning behind an entity-to-entity relationship. For example, a student might have a favorite teacher. Student and Teacher are entities, but the concept of "favorite" is the part of the attribute definition that ties them together.
 
 Adding to our example:
 
 <!-- image17 -->
 ![Entity type attribute](../media/sdk/logical-definitions/using-entity-type-attribute.png) 
 
-
-The default behavior for Common Data Model is to treat an attribute of an entity
-type as an inline, complex data type. By default, the composition shown above
-resolves to:
+The default behavior for Common Data Model is to treat an attribute of an entity type as an inline, complex data type. By default, the composition shown above resolves to:
 
 1.  **fullName**
 
@@ -498,23 +443,14 @@ The [convert logical entities into resolved entities](./convert-logical-entities
 
 ## The AttributeGroup object
 
-The **AttributeGroup** object offers a convenient way to name and reuse a set of
-attributes that are always used together, but the grouping doesn't quite merit
-being called an entity, or when you don't want to deal with the complex data
-type semantics of using an entity typed attribute.
+The **AttributeGroup** object offers a convenient way to name and reuse a set of attributes that are always used together, but the grouping doesn't quite merit being called an entity, or when you don't want to deal with the complex data type semantics of using an entity typed attribute.
 
-After it's defined, an attribute group can be used by reference in place of a
-regular attribute definition. Doing this simply "copies and pastes" the group's
-attributes into the entity. No attempt is made to disambiguate names or make
-relationships.
+After it's defined, an attribute group can be used by reference in place of a regular attribute definition. Doing this simply "copies and pastes" the group's attributes into the entity. No attempt is made to disambiguate names or make relationships.
 
-To illustrate, we can add some common bookkeeping attributes to our Person
-entity:
-
+To illustrate, we can add some common bookkeeping attributes to our Person entity:
 
 <!-- image18 -->
 ![Add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes.png) 
-
 
 Or, in JSON form:
 
@@ -524,13 +460,8 @@ Or, in JSON form:
 
 ## The ConstantEntity object
 
-There are situations where a structured table of values needs to be held as a
-part of the definition or description of schema objects. The most common
-examples are the tables of per-language description text that can be applied to
-entities or attributes, or the tables of code lookup values that can be
-associated with attributes that have a data type where values are picked from a
-set of enumerated possibilities. Constant entities make it possible to store a
-table of information inside a parameter of a trait.
+There are situations where a structured table of values needs to be held as a part of the definition or description of schema objects. The most common examples are the tables of per-language description text that can be applied to
+entities or attributes, or the tables of code lookup values that can be associated with attributes that have a data type where values are picked from a set of enumerated possibilities. Constant entities make it possible to store a table of information inside a parameter of a trait.
 
 | Property Name      | Description                                                                                                                                                                                      |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -540,18 +471,11 @@ table of information inside a parameter of a trait.
 | ConstantValues     | An array or arrays of strings. One item in the outer array represents a row of data in the constant entity. Each item in the inner arrays represents a column value in that row.                 |
 | ExhibitsTraits     | Any traits that are always exhibited by this constant entity.                                                                                                                                    |
 
-Like any other object in Common Data Model, a constant entity can be one of the
-definitions inside a cdm.json document, which can then be referenced by name
-when needed. However, because many constant entities are only used in one place,
-they're more often defined directly inside the individual entity reference from
-which they're being used. For example:
-
+Like any other object in Common Data Model, a constant entity can be one of the definitions inside a cdm.json document, which can then be referenced by name when needed. However, because many constant entities are only used in one place, they're more often defined directly inside the individual entity reference from which they're being used. For example:
 
 <!-- image20 -->
 ![Constant entity object](../media/sdk/logical-definitions/constant-entity-object.png) 
 
-
 ## Learn more
 
-- Common Data Model [fundamentals](fundamentals.md)
-
+Common Data Model [fundamentals](fundamentals.md)
