@@ -1,9 +1,9 @@
 ---
 title: Trait concepts and use cases | Microsoft Docs
 description: Trait concepts and use cases - a detailed overview of traits for representing dataTypes
-author: msftman
+author: matgos
 ms.service: common-data-model
-ms.reviewer: matgos
+ms.reviewer: iangpgh
 ms.topic: article
 ms.date: 11/24/2020
 ms.author: jeffbern
