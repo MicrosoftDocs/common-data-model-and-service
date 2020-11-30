@@ -13,7 +13,7 @@
         href: sdk/manifest.md
       - name: Logical definitions
         href: sdk/logical-definitions.md
-      - name: Trait concepts and their use cases
+      - name: Trait concepts and use cases
         href: sdk/trait-concepts-and-use-cases.md
       - name: Convert logical entities into resolved entities
         href: sdk/convert-logical-entities-resolved-entities.md
