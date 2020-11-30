@@ -1,9 +1,9 @@
 ---
 title: Trait concepts and use cases | Microsoft Docs
 description: Trait concepts and use cases - a detailed overview of traits for representing dataTypes
-author: msftman
+author: matgos
 ms.service: common-data-model
-ms.reviewer: matgos
+ms.reviewer: iangpgh
 ms.topic: article
 ms.date: 11/24/2020
 ms.author: jeffbern
@@ -22,7 +22,7 @@ For reference, the current form for representing Common Data Model metadata is c
 
 For detailed information about the model.json document format, see [Metadata file for the Common Data Model](https://docs.microsoft.com/common-data-model/model-json).
 
-## What are traits
+## What are traits?
 
 Traits are annotation objects that are an expression of semantic meaning. Traits can hold a set of named argument values. When an entity is in the *resolved* form, that is, when it is being used to map out the specific layout of data records, an entity object can be as little as a named collection of references to traits, along with a list of attributes where each attribute is simply a named collection of references to traits.
 
@@ -63,26 +63,26 @@ The example below (using the code example above) shows what trait definitions lo
 
 Note in this example:
 
-1. By convention, trait names describe the meaning and domain of the trait by using a *word.word.word* format. As part of the convention, the first word is either a namespace identifier (for custom extensions) or the verb "is", "does", "has" or "means".
+- By convention, trait names describe the meaning and domain of the trait by using a *word.word.word* format. As part of the convention, the first word is either a namespace identifier (for custom extensions) or the verb "is", "does", "has" or "means".
 
-1. A best practice is to give traits an explanation that makes it clear when or where the traits should be applied.
+- A best practice is to give traits an explanation that makes it clear when or where the traits should be applied.
 
-1. Traits can be defined as extensions of a base trait. This creates an inheritance hierarchy that allows for mixing specific and general expressions of meaning. For example, if *means.measurement.distance* extends *means.measurement*, and *means.measurement.temperature* also extends *means.measurement*, then any object that exhibits either of the more specific traits for distance or temperature can also be seen to have the *means.measurement* trait. This is useful for searching or grouping.
+- Traits can be defined as extensions of a base trait. This creates an inheritance hierarchy that allows for mixing specific and general expressions of meaning. For example, if *means.measurement.distance* extends *means.measurement*, and *means.measurement.temperature* also extends *means.measurement*, then any object that exhibits either of the more specific traits for distance or temperature can also be seen to have the *means.measurement* trait. This is useful for searching or grouping.
 
-1. Traits can define a set of named parameters that give additional details about the trait or a setting.
+- Traits can define a set of named parameters that give additional details about the trait or a setting.
 
-1. Trait parameters have the following qualities:
+- Trait parameters have the following qualities:
 
     - a name and explanation
     - can be required or optional
     - can have default values
     - have an expected data type
 
-1. The *dataType* for a trait parameter can be any of the data types defined in the Common Data Model system.
+- The *dataType* for a trait parameter can be any of the data types defined in the Common Data Model system.
 
-1. In this example, because the base trait parameter for "units"' is set to "Meters", when any other object has this *means.measurement.distance.meters* trait applied to it, the units argument will always be "Meters".
+- In this example, because the base trait parameter for "units"' is set to "Meters", when any other object has this *means.measurement.distance.meters* trait applied to it, the units argument will always be "Meters".
 
-1. A defined trait, such as *means.measurement*, can then be applied or used by making a reference to the defined trait.
+- A defined trait, such as *means.measurement*, can then be applied or used by making a reference to the defined trait.
 
     - An example of a simple trait reference is the use of *means.measurement* as the base or "extendedTrait" for the *means.measurement.distance* trait.
 
