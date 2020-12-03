@@ -28,12 +28,12 @@ done for users of the solutions within the template:
 
 -   Ensure **Omnichannel Contact Center** users have **Customer Service app
     access** and **Customer Service Representative** roles. Along with this, the users
-    will need **Omnichannel administrator**, **Omnichannel agent** or **Omnichannel supervisor** roles.
+    will need **Omnichannel administrator**, **Omnichannel agent**, or **Omnichannel supervisor** roles.
 
     ![Manage security roles](media/security-role2.png "Manage security roles")
 
 To get started with the **Screening app** included in the solution, you need to
-download Power Apps Mobile on your device using the device's app store.
+download Power Apps Mobile on your device using the device's app store.<!-- Edit note: Suggest not bolding Download, Apple, and Android here. Does not seem to directly relate to a UI. Also, maybe not bold Screening app as well. -->
 
 -   **Download** [Power Apps
     Mobile](https://powerapps.microsoft.com/downloads).
@@ -55,7 +55,7 @@ Watch a quick demo on how to use the Patient Screening and Scheduling template.
 
 > [!VIDEO https://www.youtube.com/embed/iDLWFAlxZOY]
 
-## Patient Outreach
+## Patient Outreach<!-- Edit note: Try to avoid starting a section with a graphic instead of text. See a revision in the next section. -->
 
 ![Patient Outreach](media/patient-outreach.jpg "Patient Outreach")
 
@@ -63,10 +63,10 @@ To provide tools to allow for organizations to proactively provide outreach to
 at-risk patient populations, the **Patient Outreach** module in the Patient
 Scheduling and Screening template will encompass template patient segments for
 organizations to compile a marketing segment in order to reach out to these
-patients. Leveraging the core healthcare accelerator solution to store patient
-clinical data in Dataverse, we are able to utilize conditions and the corresponding
+patients. By taking advantage of the core healthcare accelerator solution to store patient
+clinical data in Dataverse, we are able to use conditions and the corresponding
 ICD-10 code in order to formulate the segment. The Patient Segments included
-within the solution are as follows:
+within the solution are as follows:<!-- Edit note: Avoid Leverage per CELA, and avoid Utilize per Style. -->
 
 -   Respiratory Patients over 60
 
@@ -79,6 +79,8 @@ configured to meet the organization's individual needs for patient outreach.
 
 ## Patient Journeys email templates
 
+The following journey and template are included in the **Patient Outreach** module:<!-- Edit note: Avoid starting a section with a graphic instead of text. Maybe could be better text than this. Note that Patient Outreach here likely does not need to be bold, similar issue elsewhere in the topic. --> 
+
 ![Patient Journeys](media/patient-journeys.jpg "Patient Journeys")
 
 *Patient Journeys*
@@ -88,11 +90,10 @@ configured to meet the organization's individual needs for patient outreach.
 
 *Email templates*
 
-Also included with the **Patient Outreach** module is a Crisis Management Journey
-and baseline marketing email template to provide the proactive outreach to the
-predefined or newly created patient segments. This provides patient outreach
-specialists the ability to utilize a multitude of channels including email, SMS,
-surveys, and social channels for proactive outreach and ongoing communications.
+Also included is a Crisis Management Journey<!-- Edit note: Not sure if this differs from the journey shown above. -->
+and a baseline marketing email template for contacting patient segments. Patient outreach
+specialists can use a variety of channels for proactive outreach and communication, including email, SMS,
+surveys, and social channels.
 
 ## Patient portal and assessments
 
@@ -116,7 +117,7 @@ sentiment analysis. Also included in the template is a mechanism to perform a
 search via zip code to find the closest testing center as well as providing the
 slots that are open for booking at the location.
 
-## Patient 360 in Omnichannel test scheduling
+## Patient 360 in Omnichannel test scheduling<!-- Edit note: Try to avoid starting a section with a graphic instead of text. See a revision in an earlier section. -->
 
 ![Patient 360](media/patient-360.png "Patient 360")
 
@@ -140,7 +141,7 @@ to receive screening.
 
 ## Screening app
 
-Utilizing a purpose-built canvas app, the test technician can search for the
+Using a purpose-built canvas app, the test technician can search for the
 patient record by last name or by scanning the QR/bar code that was provided
 through the automation workflow above. Once the appointment and patient
 information are retrieved, the technician can create a new observation and
