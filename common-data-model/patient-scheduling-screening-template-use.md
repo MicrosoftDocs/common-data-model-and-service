@@ -28,7 +28,7 @@ done for users of the solutions within the template:
 
 -   Ensure **Omnichannel Contact Center** users have **Customer Service app
     access** and **Customer Service Representative** roles. Along with this, the users
-    will need **Omnichannel administrator**, **Omnichannel agent** or **Omnichannel supervisor** roles.
+    will need **Omnichannel administrator**, **Omnichannel agent**, or **Omnichannel supervisor** roles.
 
     ![Manage security roles](media/security-role2.png "Manage security roles")
 
