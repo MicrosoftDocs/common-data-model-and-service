@@ -75,7 +75,7 @@ The nonprofit areas include:
 *As part of the v2.3 release, and going forward, unmanaged solutions are no longer published or available for any Microsoft industry accelerator, including the nonprofit accelerator. If you have questions, contact dynindaccsupport@microsoft.com. 
 
 
-## Site-map extensions
+## Site map extensions<!-- Edit note: Two words in Style, and generally not hyphenated when modifying a noun. Also was kind of surprised that the term is not used in this section. -->
 
 With the Dynamics 365 nonprofit accelerator, nonprofits can streamline their operational management of constituents, fundraising, grant and award management, program delivery, and impact tracking. The nonprofit accelerator can be used with Microsoft Dynamics 365 or independently with Common Data Model for Nonprofits core solution layer that is not dependent on Microsoft Dynamics 365. This independent solution layer can be leveraged to build Power Apps and Power BI visualizations, or to serve as a foundational layer to Modern Workplace and Azure solutions.
 
