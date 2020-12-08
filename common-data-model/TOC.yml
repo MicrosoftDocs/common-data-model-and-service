@@ -19,20 +19,12 @@
         href: sdk/convert-logical-entities-resolved-entities.md
       - name: From model.json to the future
         href: sdk/from-modeljson-to-the-future.md
-  - name: Industry accelerators
+  - name: Industry
     items:
       - name: Overview
         href: industry-accelerators.md
-      - name: Automotive accelerator
-        href: automotive-accelerator.md
-      - name: Education accelerator
-        items: 
-          - name: Overview
-            href: edu-overview.md
-          - name: Higher education 
-            href: hied-accelerator.md
-          - name: K-12 education
-            href: edu-k12-accelerator.md
+      - name: Healthcare accelerator
+        href: health-accelerator.md
       - name: Financial services accelerator
         items: 
           - name: Overview
@@ -40,25 +32,35 @@
           - name: Banking
             href: banking-accelerator.md
           - name: Insurance (preview)
-            href: insurance-accelerator.md            
-      - name: Healthcare accelerator
-        href: health-accelerator.md
-      - name: Manufacturing accelerator
-        href: manufacturing-accelerator.md
-      - name: Media and communications accelerator
-        href: media-accelerator.md    
-      - name: Nonprofit accelerator
-        href: NFP-accelerator.md
-      - name: Templates
+            href: insurance-accelerator.md
+      - name: Accelerators
         items:
-        - name: Healthcare accelerator Patient Scheduling and Screening template
-          items:
-          - name: Overview
-            href: patient-scheduling-screening-template.md
-          - name: Deploy and configure the template
-            href: patient-scheduling-screening-template-deploy.md
-          - name: Use the template
-            href: patient-scheduling-screening-template-use.md
+          - name: Automotive accelerator
+            href: automotive-accelerator.md
+          - name: Education accelerator
+            items: 
+              - name: Overview
+                href: edu-overview.md
+              - name: Higher education 
+                href: hied-accelerator.md
+              - name: K-12 education
+                href: edu-k12-accelerator.md
+              - name: Manufacturing accelerator
+                href: manufacturing-accelerator.md
+              - name: Media and communications accelerator
+                href: media-accelerator.md    
+              - name: Nonprofit accelerator
+                href: NFP-accelerator.md
+              - name: Templates
+                items:
+                - name: Healthcare accelerator Patient Scheduling and Screening template
+                  items:
+                  - name: Overview
+                    href: patient-scheduling-screening-template.md
+                  - name: Deploy and configure the template
+                    href: patient-scheduling-screening-template-deploy.md
+                  - name: Use the template
+                    href: patient-scheduling-screening-template-use.md
   - name: Azure Data Lake
     href: data-lake.md
     items:

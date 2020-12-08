@@ -14,11 +14,13 @@ ms.author: tpalmer
 
 If you've ever had to bring data from multiple systems and applications together, you know what an expensive and time-consuming task that can be. Without being able to share and understand the same data easily, each application or data integration project requires a custom implementation.
 
-Common Data Model simplifies this process by providing a shared data language for business and analytical applications to use. The Common Data Model metadata system makes it possible for data and its meaning to be shared across applications and business processes such as Microsoft Power Apps, Power BI, Dynamics 365, and Azure.
+Common Data Model simplifies this process by providing a shared data language for business and analytical applications to use. The Common Data Model metadata system makes it possible for data and its meaning to be shared across applications and business processes such as Microsoft PowerApps, Power BI, Dynamics 365, and Azure.
 
 ## What's in Common Data Model?
 
-In addition to the metadata system, Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes entities, attributes, semantic metadata, and relationships. The schemas represent commonly used concepts and activities, such as **Account** and **Campaign**, to simplify the creation, aggregation, and analysis of data. This graphic shows some elements of the standard entities. More information: [Common Data Model repository on GitHub](https://aka.ms/cdmrepo)
+In addition to the metadata system, Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes [entities](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), [attributes](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), [semantic metadata](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#traits), and [relationships](https://docs.microsoft.com/en-us/common-data-model/sdk/manifest#entity-relationships). The schemas represent commonly used concepts and activities, such as [**Account**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/account) and [**Campaign**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/campaign), to simplify the creation, aggregation, and analysis of data. 
+
+The graphic below shows some elements of the [standard entities](https://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon) available within Common Data Model. For more information please see the [Common Data Model repository on GitHub](https://aka.ms/cdmrepo).
 
 ![Common Data Model poster](media/cdm-entities-v1.png "Common Data Model poster")
 
@@ -26,7 +28,7 @@ In addition to the metadata system, Common Data Model includes a set of standard
 
 ## Why use Common Data Model?
 
-Imagine that you have three business apps&mdash;one each for materials, manufacturing, and sales. It's likely that each app was created independently, with different structures to represent an entity, such as **Account**, in nearly (but not quite) the same way. If you'd used Common Data Model, you would have built your data in a standardized format (using the Common Data Model standard entities, attributes, and relationships) and then each app could use the same data. Of course, each app might have its own additional data and schemas, depending on its functionality. But when it comes to development, your apps and reports can pull common data elements quickly, cleanly, and with confidence.
+Imagine that you have three business apps&mdash;one each for materials, manufacturing, and sales. It's likely that each app was created independently, with different structures to represent an entity, such as [**Account**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/account), in nearly (but not quite) the same way. If you'd used Common Data Model, you would have built your data in a standardized format (using the Common Data Model [standard entities](https://docs.microsoft.com/en-us/common-data-model/schema/core/overview), [attributes](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), and [relationships](https://docs.microsoft.com/en-us/common-data-model/sdk/manifest#entity-relationships)) and then each app could use the same data. Of course, each app might have its own additional data and schemas, depending on its functionality. But when it comes to development, your apps and reports can pull common data elements quickly, cleanly, and with confidence.
 
 And what if you need to create a fourth app? Your data will be ready in Common Data Model schema, so your development efforts can concentrate on business logic rather than data quagmires and sticky transformations.
 
@@ -52,7 +54,7 @@ Common Data Model is influenced by data schemas that are present in Dynamics 365
 
 Thousands of independent software vendors (ISVs) and their partners use Common Data Model for their own solutions, and are building services and offerings based on Common Data Model schemas. 
 
-Organizations from industries such as healthcare are working closely with Microsoft to extend Common Data Model to their specific business concepts&mdash;for example, **Patient** and **Care Plan**&mdash;through [industry accelerators](industry-accelerators.md). This extends the benefit of the Common Data Model standard entities to these verticals so that industry solutions can interoperate more easily.
+Organizations from industries such as healthcare are working closely with Microsoft to extend Common Data Model to their specific business concepts&mdash;for example, **Budget** and **Currency**&mdash;through [industry accelerators](industry-accelerators.md). This extends the benefit of the Common Data Model standard entities to these verticals so that industry solutions can interoperate more easily.
 
 ## Next steps
 
