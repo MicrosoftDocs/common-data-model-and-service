@@ -25,7 +25,7 @@ The banking component provides the following to partners and customers:
 - Test drive experiences through AppSource with walkthroughs, reference guides, entity-relationship diagrams and metadata documentation on the data model.
 
 
-## Sitemap extensions
+## Site map extensions
 
 With the banking component, you can optimize the customer experience, improve collaboration within banks, and gain insights from analytics. When this component is installed into Dynamics 365, the experience is transformed into one specifically built for banks, allowing institutions to quickly build Power Apps and Power BI visualizations.
 
