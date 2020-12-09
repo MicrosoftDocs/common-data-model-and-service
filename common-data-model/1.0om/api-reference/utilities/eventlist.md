@@ -16,6 +16,10 @@ EventList is a supporting class for the logging system and allows subset of mess
 Upon completion of the API call, the recorded events can be inspected by the host application to determine what step to take to address the issue. To simply list all events and their elements,a simple for-each like this will work:
 
 ```csharp
+corpus.SetEventCallback(eventCallback, CdmStatusLevel.Warning, userSessionCorrelationId);
+
+var manifest = await corpus.FetchObjectAsync<CdmManifestDefinition>(userSuppliedManifestPath);
+
 corpus.Ctx.Events.ForEach(
     logEntry => logEntry.ToList().ForEach(
         logEntryPair => Console.WriteLine($"{logEntryPair.Key}={logEntryPair.Value}")
