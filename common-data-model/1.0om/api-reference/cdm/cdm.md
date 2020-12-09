@@ -53,7 +53,6 @@ The C# code can be found [here](https://github.com/microsoft/CDM/tree/master/obj
 |[Parameter](parameter.md)|Provides the ability to specify the parameters that a [trait](trait.md) should contain. By providing a name, default values, and supported data types, trait references become restricted by which arguments they can contain. Parameters are defined for traits in the [schema documents](https://github.com/microsoft/CDM/tree/master/schemaDocuments) folder.|
 |[Purpose](purpose.md)|Provides an attribute with what it does for an entity (for example, *SortedBy* or *NamedBy*).|
 |[Referenced Entity Declaration](referencedentitydeclaration.md)|A declaration of an entity that resides in a remote location.|
-|[Resolve Context](resolvecontext.md)|Resolution execution context.|
 |[Trait](trait.md)|Helps express the semantic meaning and structural guidance. Traits are essentially a metadata's metadata. Traits can extend other traits and have a format that's easy to understand and follow.|
 |[Trait Collection](traitcollection.md)|Extends [Collection](collection.md) and adds additional behaviors specific to trait collections.|
 |[Type Attribute](typeattribute.md)|Defines data type attributes along with supported functionalities, such as custom default values and descriptions. Model.json attributes are converted into Common Data Model type attributes.|

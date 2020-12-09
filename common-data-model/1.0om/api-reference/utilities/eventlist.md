@@ -11,8 +11,7 @@ ms.author: miplese
 
 # Event List
 
-EventList is a supporting class for the logging system and allows subset of messages
-emitted by the SDK to be collected and inspected by the SDK users. The events are stored in an ordered list, each element being a dictionary of string keys and string values.
+EventList is a supporting class for the logging system and allows subset of messages emitted by the SDK to be collected and inspected by the SDK users. The events are stored in an ordered list, each element being a dictionary of string keys and string values.
 
 Upon completion of the API call, the recorded events can be inspected by the host application to determine what step to take to address the issue. To simply list all events and their elements,a simple for-each like this will work:
 
