@@ -11,7 +11,7 @@ ms.author: miplese
 
 # Resolve Context
 
-Holds information about current executing resolution context, including configuration for the logging subsystem. This object is initialized by CdmCorpusDefinition upon its instantiation and can be adjusted with subsequent call to [CdmCorpusDefinition.SetEventCallback](corpus.md#methods) API.
+Holds information about current executing resolution context, including configuration for the logging subsystem. This object is initialized by CdmCorpusDefinition upon its instantiation and can be adjusted with subsequent call to [CdmCorpusDefinition.SetEventCallback](../cdm/corpus.md#methods) API.
 
 ```csharp
 public class ResolveContext extends CdmCorpusContext
