@@ -31,7 +31,7 @@ The accelerator includes the following features:
 - Student Behavior Management application
 - Track and Report Attendance application and dashboard
 
-## Site-map extensions
+## Site map extensions
 
 With the K-12 component, schools can optimize student success through understanding data about the student journey. When the accelerator is installed, the experience is transformed into one specifically built for K-12 schools and one that allows schools to quickly build Power Apps and Power BI visualizations.
 
