@@ -33,7 +33,7 @@ The accelerator includes the following features via a model-driven app:
 
 The supplier relationship-management scenario as part of the manufacturing accelerator puts the full strength of Microsoft Power Platform to use, helping manufacturing organizations to optimize their supplier and sales relationships and enabling them to more effectively manage those important supplier relationships.
 
-## Site-map extensions
+## Site map extensions
 
 You can use the manufacturing accelerator with a model-driven app for Microsoft Dynamics 365, or independently using the core solution layer that is not dependent on Dynamics 365. You can use the independent solution layer to build model-driven and canvas-based Power Apps applications.
 
