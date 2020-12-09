@@ -30,7 +30,7 @@ This accelerator contains extensions to Common Data Model to include concepts fo
 - Support for building additional canvases and model-driven apps in Power Apps.
 - A solution that you can deploy and install from AppSource or GitHub.
 
-## Site-map extensions
+## Site map extensions
 
 With the higher education component of the Dynamics 365 education accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, predict outcomes, and gain insights from analytics. When the accelerator is installed, the experience is transformed into one specifically built for higher education and one that allows institutions to quickly build Power Apps and Power BI visualizations.
 
