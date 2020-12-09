@@ -28,7 +28,7 @@ The automotive accelerator provides the following to partners and customers:
 The latest version of the automotive accelerator focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
 
 
-## Sitemap extensions
+## Site map extensions
 
 With the Dynamics 365 automotive accelerator, you can optimize the customer experience, streamline OEM-to-dealer integration, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for automotive and it allows partners and customers to quickly build Power Apps and Power BI visualizations.
 - **Marketing**: Test Drives - Customer Segmentation
