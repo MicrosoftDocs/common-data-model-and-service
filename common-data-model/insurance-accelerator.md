@@ -27,7 +27,7 @@ The preview of the insurance component includes these features:
 -	A [test drive experience](https://appsource.microsoft.com/product/dynamics-365/msfsi.bankingcommondatamodel?tab=Overview) through AppSource, including walkthrough and sample data.
 -	A [package deployment solution](https://experience.dynamics.com/accelerators/). 
 
-## Sitemap extensions
+## Site map extensions
 
 With the insurance component, insurance companies, intermediaries, brokers, agents, and agencies can optimize the customer experience, improve productivity, and gain insights. When you install the component, the environment is transforms into one specifically built for insurance and one that allows customers and partners to quickly build Power Apps, customize Dynamics 365, and build Power BI dashboards for the insurance industry.
 

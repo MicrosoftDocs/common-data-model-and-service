@@ -26,7 +26,7 @@ This accelerator was announced in July 2018 at Ignite, and the initial release i
 - Support for analytics.
 - A Microsoft Dataverse solution that you can install from AppSource.
 
-## Site-map extensions
+## Site map extensions
 
 With the healthcare accelerator plugged in to the Dynamics 365 platform, you can optimize various aspects of care coordination and segment patients and providers based on EMR data. You can also manage the care continuum of all patients by leveraging the entire customer-engagement solution within Dynamics 365.
 
