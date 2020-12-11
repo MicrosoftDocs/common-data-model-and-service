@@ -19,6 +19,11 @@
         href: sdk/convert-logical-entities-resolved-entities.md
       - name: From model.json to the future
         href: sdk/from-modeljson-to-the-future.md
+      - name: List of CDM dataTypes
+        href: sdk/list-of-datatypes.md
+      - name: List of CDM traits
+        href: sdk/list-of-traits.md
+
   - name: Industry
     items:
       - name: Overview
