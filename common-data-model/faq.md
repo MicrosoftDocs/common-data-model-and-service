@@ -11,7 +11,7 @@ ms.author: matgos
 
 # Frequently asked questions about the Common Data Model
 
-This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Microsoft Dataverse and Microsoft Azure [data lake](https://docs.microsoft.com/en-us/common-data-model/data-lake) Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
+This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Microsoft Dataverse and Microsoft Azure [data lake](https://docs.microsoft.com/common-data-model/data-lake) Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
@@ -46,11 +46,11 @@ The Common Data Model comprises of Microsoft application and analytical data sch
 
 ### How is the Common Data Model related to the Open Data Initiative?
 
-The Open Data Initiative, announced in September 2018 at Microsoft Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the Common Data Model metadata format and standard [entities](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), will continue to evolve and directly accrue value toward the Open Data Initiative.<br>More information: [The Open Data Initiative](https://aka.ms/opendatainitiative) website
+The Open Data Initiative, announced in September 2018 at Microsoft Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the Common Data Model metadata format and standard [entities](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes), will continue to evolve and directly accrue value toward the Open Data Initiative.<br>More information: [The Open Data Initiative](https://aka.ms/opendatainitiative) website
 
 ### How is the Common Data Model related to other standard definitions?
 
-The Common Data Model schema and standard [entities](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes) are influenced by existing standards, such as schema.org, throughout a variety of industries. Many Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/overview) originated from Dynamics 365 but, as we extend to new industries and areas, we look to public standards in that space to help define extensions to the Common Data Model. Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/overview) are open source and available under a Creative Commons license on [GitHub](https://aka.ms/cdmrepo).
+The Common Data Model schema and standard [entities](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes) are influenced by existing standards, such as schema.org, throughout a variety of industries. Many Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/overview) originated from Dynamics 365 but, as we extend to new industries and areas, we look to public standards in that space to help define extensions to the Common Data Model. Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/overview) are open source and available under a Creative Commons license on [GitHub](https://aka.ms/cdmrepo).
 
 ### What type of semantic information can be defined with the Common Data Model?
 
@@ -104,7 +104,7 @@ Today, Common Data Model folders and data files are treated the same as any othe
 
 ### How do I access Common Data Model artifacts?
 
-You can create, read, update, or delete Common Data Model folders, [model.json](https://docs.microsoft.com/en-us/common-data-model/sdk/from-modeljson-to-the-future#using-the-common-data-model-sdk-with-modeljson-files) files, and data files by using APIs for Azure data lake Storage Gen2.<br>More information: [Azure data lake Store REST API](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2)
+You can create, read, update, or delete Common Data Model folders, [model.json](https://docs.microsoft.com/common-data-model/sdk/from-modeljson-to-the-future#using-the-common-data-model-sdk-with-modeljson-files) files, and data files by using APIs for Azure data lake Storage Gen2.<br>More information: [Azure data lake Store REST API](https://docs.microsoft.com/rest/api/storageservices/data-lake-storage-gen2)
 
 ## Power BI dataflows
 
