@@ -1,12 +1,12 @@
 ---
 title: Common Data Model
 description: "Common Data Model is a standardized, modular, and extensible collection of data schemas that Microsoft published to help you build, use, and analyze data."
-author: TheresaPalmer
+author: matgos
 ms.service: common-data-model
-ms.reviewer: MSFTMan
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/11/2020
-ms.author: tpalmer
+ms.author: matgos
 ---
 
 
@@ -18,9 +18,9 @@ Common Data Model simplifies this process by providing a shared data language fo
 
 ## What's in Common Data Model?
 
-In addition to the metadata system, Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes [entities](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), [attributes](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), [semantic metadata](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#traits), and [relationships](https://docs.microsoft.com/en-us/common-data-model/sdk/manifest#entity-relationships). The schemas represent commonly used concepts and activities, such as [**Account**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/account) and [**Campaign**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/campaign), to simplify the creation, aggregation, and analysis of data. 
+In addition to the metadata system, Common Data Model includes a set of standardized, extensible data schemas that Microsoft and its partners have published. This collection of predefined schemas includes [entities](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes), [attributes](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes), [semantic metadata](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#traits), and [relationships](https://docs.microsoft.com/common-data-model/sdk/manifest#entity-relationships). The schemas represent commonly used concepts and activities, such as [**Account**](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/account) and [**Campaign**](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/campaign), to simplify the creation, aggregation, and analysis of data. 
 
-The graphic below shows some elements of the [standard entities](https://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon) available within Common Data Model. For more information please see the [Common Data Model repository on GitHub](https://aka.ms/cdmrepo).
+The graphic below shows some elements of the [standard entities](https://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon) available within Common Data Model. More information: [Common Data Model repository on GitHub](https://aka.ms/cdmrepo).
 
 ![Common Data Model poster](media/cdm-entities-v1.png "Common Data Model poster")
 
@@ -28,7 +28,7 @@ The graphic below shows some elements of the [standard entities](https://github.
 
 ## Why use Common Data Model?
 
-Imagine that you have three business apps&mdash;one each for materials, manufacturing, and sales. It's likely that each app was created independently, with different structures to represent an entity, such as [**Account**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/account), in nearly (but not quite) the same way. If you'd used Common Data Model, you would have built your data in a standardized format (using the Common Data Model [standard entities](https://docs.microsoft.com/en-us/common-data-model/schema/core/overview), [attributes](https://docs.microsoft.com/en-us/common-data-model/sdk/logical-definitions#entities-and-their-attributes), and [relationships](https://docs.microsoft.com/en-us/common-data-model/sdk/manifest#entity-relationships)) and then each app could use the same data. Of course, each app might have its own additional data and schemas, depending on its functionality. But when it comes to development, your apps and reports can pull common data elements quickly, cleanly, and with confidence.
+Imagine that you have three business apps&mdash;one each for materials, manufacturing, and sales. It's likely that each app was created independently, with different structures to represent an entity, such as [**Account**](https://docs.microsoft.com/en-us/common-data-model/schema/core/applicationcommon/account), in nearly (but not quite) the same way. If you'd used Common Data Model, you would have built your data in a standardized format (using the Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/overview), [attributes](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes), and [relationships](https://docs.microsoft.com/common-data-model/sdk/manifest#entity-relationships)) and then each app could use the same data. Of course, each app might have its own additional data and schemas, depending on its functionality. But when it comes to development, your apps and reports can pull common data elements quickly, cleanly, and with confidence.
 
 And what if you need to create a fourth app? Your data will be ready in Common Data Model schema, so your development efforts can concentrate on business logic rather than data quagmires and sticky transformations.
 
@@ -59,7 +59,7 @@ Organizations from industries such as healthcare are working closely with Micros
 ## Next steps
 
 [How to use Common Data Model](use.md): Describes Common Data Model in detail and discusses use cases for creating data in the model or transforming your existing data into the model.  
-[How to create Common Data Model schema documents](creating-schemas.md): Describes how to create custom Common Data Model entity schema documents.   
-[Learn more about traits and their use cases](/sdk/trait-concepts-and-use-cases.md): Read detailed guidance on CDM traits including how they are described, how they represent the format of stored data values and how they are applied.   
+[How to create Common Data Model schema documents](creating-schemas.md): Describes how to create custom Common Data Model entity schema documents.
+[Learn more about traits and their use cases](/sdk/trait-concepts-and-use-cases.md): Read detailed guidance on CDM traits including how they are described, how they represent the format of stored data values and how they are applied.
 [Learn more about industry accelerators](industry-accelerators.md): Describes the effort around industry extensions and the solutions that Microsoft has already released.  
 [Common Data Model and Microsoft Azure Data Lake Storage Gen2](data-lake.md): Describes how putting data in Common Data Model form and storing it in Azure Data Lake Storage Gen2 helps services in the Azure ecosystem to exchange data.
