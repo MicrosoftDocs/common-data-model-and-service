@@ -13,7 +13,7 @@ ms.author: merami
 
 # Dynamics 365 media and entertainment accelerator
 
-The [Dynamics 365 media and entertainment accelerator](https://aka.ms/d365media) expands Common Data Model and Microsoft Power Platform into the media and entertainment industries. Version 1 of the media and entertainment accelerator includes data entities and attributes that center on the theme of "fan and guest engagement."
+The [Dynamics 365 Media and Entertainment Accelerator](https://appsource.microsoft.com/product/dynamics-365/msftmedia.mediaindustrysolutions?tab=Overview) expands Common Data Model and Microsoft Power Platform into the media and entertainment industries. Version 1.1 of the media and entertainment accelerator includes data entities and attributes that center on the theme of "fan and guest engagement."
 
 It includes prebuilt solutions that focus on event and venue management, sports management, ticketing and advertising sales, media sponsorships, and various guest interactions such as event registrations and the tracking of loyalty programs. The media and entertainment accelerator also integrates seamlessly with the Dynamics 365 Sales application and includes fields, forms, views, and dashboards.
 
