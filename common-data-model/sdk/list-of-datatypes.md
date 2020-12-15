@@ -1,5 +1,16 @@
-# List of CDM datatypes
-This page lists the datatypes which are available in CDM.
+---
+title: List of Common Data Model datatypes | Microsoft Docs
+description: Lists the datatypes that are available in Common Data Model and describes the inheritance and traits of the datatypes.
+author: matgos
+ms.service: common-data-model
+ms.reviewer: v-iap
+ms.topic: article
+ms.date: 12/14/2020
+ms.author: matgos
+---
+
+# List of Common Data Model datatypes
+This page lists the datatypes that are available in Common Data Model.
 
 ## <b>any</b>
 **Description**

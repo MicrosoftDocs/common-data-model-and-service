@@ -1,5 +1,16 @@
-# List of CDM traits
-This page lists the traits which are available in CDM.
+---
+title: List of Common Data Model traits | Microsoft Docs
+description: Lists the traits that are available in Common Data Model and describes the inheritance and properties of the traits.
+author: matgos
+ms.service: common-data-model
+ms.reviewer: v-iap
+ms.topic: article
+ms.date: 12/14/2020
+ms.author: matgos
+---
+
+# List of Common Data Model traits
+This page lists the traits that are available in Common Data Model.
 
 ## <b>is</b>
 **Description**
