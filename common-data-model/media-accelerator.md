@@ -4,9 +4,9 @@ title: Dynamics 365 media and entertainment accelerator | Microsoft Docs
 description:  Develop media and entertainment solutions with extensions to Common Data Model. Connect to built-in forms and Dynamics 365 media and entertainment accelerator views.
 author: MeenooRami
 ms.service: common-data-model
-ms.reviewer: v-dehaas
+ms.reviewer: v-iap
 ms.topic: article
-ms.date: 12/08/2020
+ms.date: 12/15/2020
 ms.author: merami
 
 ---

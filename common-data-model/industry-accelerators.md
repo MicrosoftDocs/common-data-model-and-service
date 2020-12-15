@@ -21,7 +21,7 @@ Common Data Model enables horizontal consistency for customers' business data, m
 -	Education, including [higher education](hied-accelerator.md) and [K&ndash;12](edu-k12-accelerator.md)
 -	[Nonprofit](nfp-accelerator.md)
 -	[Manufacturing](manufacturing-accelerator.md)
-- [Media and communications](media-accelerator.md)
+- [Media and entertainment](media-accelerator.md)
 
 ## ISV opportunity view
 
