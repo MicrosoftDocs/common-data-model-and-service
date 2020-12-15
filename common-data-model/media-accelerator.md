@@ -29,7 +29,7 @@ The accelerator includes the following features:
 - A sample power portal app, enabling self-registration of media events. Attendees can browse all upcoming events and sign up. This information is automatically captured and stored in your instance of the media-enhanced Common Data Model as new guest and registration entities.
 - A solution that you can deploy and install from AppSource or GitHub.
 
-## Sitemap extensions
+## Site map extensions
 
 With the Dynamics 365 media and entertainment accelerator, institutions can optimize fan engagement, improve interactions, profile and predict actions of their customers, and gain insights from analytics. When the accelerator is installed in Dynamics 365, the experience is transformed into one specifically built for operators of theme parks, sport venues, theaters, arenas, or other places for tourism, hospitality, business conferencing, or the arts. The goal is to allow such institutions to quickly build Power Apps and Power BI visualizations.
 

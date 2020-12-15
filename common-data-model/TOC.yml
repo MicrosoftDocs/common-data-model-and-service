@@ -194,6 +194,10 @@
             href: 1.0om/api-reference/utilities/callback.md  
           - name: Logger
             href: 1.0om/api-reference/utilities/logger.md  
+          - name: Event List
+            href: 1.0om/api-reference/utilities/eventlist.md  
+          - name: Resolve Context
+            href: 1.0om/api-reference/utilities/resolvecontext.md
           - name: Resolve Options
             href: 1.0om/api-reference/utilities/resolveoptions.md  
           - name: Storage Utils
