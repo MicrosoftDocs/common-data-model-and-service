@@ -25,10 +25,14 @@ Since the initial release in November 2018 at the NetHope Global Summit we've ha
 - December 2020
 
 The nonprofit accelerator provides the following to partners and nonprofit organizations:
+
 - Extensions to Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
+
 - A Program design template application that partners can evolve to help nonprofit program and country managers to create and browse Logframes (logical frameworks, the building blocks of effective program design).
+
 - Connect logframes to internal, external, and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order to improve program measurement and outcome tracking.
-- Eight unique sample model-driven applications to help partners rapidly develop UI, workflows, and business logic to automate the following areas: 
+
+- Eight unique sample model-driven applications to help partners rapidly develop UI, workflows, and business logic to automate the following areas:
 
   - Awards
   - Case management
@@ -53,15 +57,15 @@ As part of the December 2020 v3.0 release, the nonprofit accelerator is enhanced
 
 The nonprofit areas include:
 
-1. Our assessment management Common Data Model extensions, sample app and sample data provide partners with a foundation to enable frontline workers to accurately, consistently, rapidly and efficiently record detailed observations and answer the "who," "where," "what," "how," and "when" questions critical to delivering nimble services. These investments allow disaster organizations to evaluate damage and assess on-the-ground needs to enable easier coordinated field response. The assessment management extensions support nonprofit program and beneficiary management and can be leveraged in tandem with the program management and case management data schema already included in the Common Data Model for Nonprofits. 
+1. Our assessment management Common Data Model extensions, sample app and sample data provide partners with a foundation to enable frontline workers to accurately, consistently, rapidly and efficiently record detailed observations and answer the "who," "where," "what," "how," and "when" questions critical to delivering frontline services. These investments allow disaster organizations to evaluate damage and assess on-the-ground needs to enable easier coordinated field response. The assessment management extensions support nonprofit program and beneficiary management and can be leveraged in tandem with the program management and case management data schema already included in the Common Data Model for Nonprofits. 
 
-2. Convened by NetHope, the Frontline Humanitarian Logistics (FHL) initiative was created to reduce the time and cost involved in implementing IT solutions within humanitarian supply chains and encourage interoperability of data, service delivery, and systems across the sector. NetHope convened a cross-sector group of 24 collaborating academic, public, and private sector organizations which resulted in the development of a [Frontline Humanitarian Logistics Data Standard](https://solutionscenter.nethope.org/resources/initiatives/frontline-humanitarian-logistics). With this release, we are aligning item requests, types, and groups to that standard to further ease collaboration between nonprofits responding to the same crisis to ensure faster delivery of needed services. The Frontline Humanitarian Logistics data schema also provides nonprofits and partners with the foundation to provide donors with exact information about what items are in demand, where the supplies they helped fund with their donations were delivered, and the subsequent impact made to beneficiaries. The ability to report back on donor impact is critical at this time of increased demand for transparency.
+2. Convened by NetHope, the Frontline Humanitarian Logistics (FHL) initiative was created to reduce the time and cost involved in implementing IT solutions within humanitarian supply chains and encourage interoperability of data, service delivery, and systems across the sector. NetHope convened a cross-sector group of 24 collaborating academic, public, and private sector organizations which resulted in the development of a [Frontline Humanitarian Logistics Data Standard](https://solutionscenter.nethope.org/resources/initiatives/frontline-humanitarian-logistics). With this release, we align item requests, types, and groups to that standard to ease collaborating nonprofits’ disaster response and guarantee faster delivery of needed items. The Frontline Humanitarian Logistics data schema also provides nonprofits and partners with the foundation to provide donors with exact information about what items are in demand, where funded supplies were delivered, and the direct impact made to beneficiaries. This ability to report back on donor impact is critical at this time of increased demand for transparency.
 
-3. The Frontline Humanitarian Logistics Mapping Guide provides guidance to nonprofits and partners on how to put the NetHope convened and sector-developed Frontline Humanitarian Logistics Data Standard into practice. This Guide maps the FHL Data Standard to the Common Data Model for Nonprofits to support organizations who align to these valuable industry standards.
+3. The Frontline Humanitarian Logistics Mapping Guide provides guidance to nonprofits and partners on how to put the NetHope convened and sector-developed [Frontline Humanitarian Logistics Data Standard](https://solutionscenter.nethope.org/resources/initiatives/frontline-humanitarian-logistics) into practice. This Guide maps the FHL Data Standard to the Common Data Model for Nonprofits to support organizations who align to these valuable industry standards.
 
 4. Additional volunteer management extensions to the Common Data Model for Nonprofits will aid partners in building affordable solutions for nonprofits at a time when recruiting and retaining critical volunteers is essential. Organizations can track and recruit for a broad range of engagement opportunities, while volunteers themselves can align their time, talents, and qualifications with available volunteer opportunities. The new volunteer data extensions remove any dependency on Dynamics Project Service Automation (PSA). Now partners can build directly on PowerApps to lower the total cost of ownership to support volunteer engagement.
 
-5. Streamlined Nonprofit Accelerator Architecture: As we continue to rapidly scale the Nonprofit Accelerator, we seek ways to increase friction-free innovation among our partner community. In line with this goal, we have brought all Nonprofit Accelerator data packages (with the exception of IATI data standard package) into the Nonprofit Core data schema layer. Streamlining data packages into a single Core package reduces dependencies on additional platform licenses, eliminates the tax of introducing additional data schema packages, ensures that partners have a one-stop shop for extending all Common Data Model for Nonprofit data schema.  
+5. Streamlined Nonprofit Accelerator Architecture: As we continue to rapidly scale the Nonprofit Accelerator, we seek ways to increase friction-free innovation among our partner community. In line with this goal, we have brought all Nonprofit Accelerator data packages (with the exception of the IATI data standard package) into the Nonprofit Core data schema layer. Streamlining data packages into a single Core package reduces dependencies on additional platform licenses, eliminates the tax of introducing additional data schema packages, ensures that partners have a one-stop shop for extending all Common Data Model for Nonprofit data schema.  
 
 ## Site map extensions
 
@@ -78,12 +82,15 @@ The solutions in the nonprofit accelerator leverage Common Data Model for Nonpro
 ### Data schema
 
 - Nonprofit core – This data schema contains the essentials for the nonprofit accelerator including views, forms, and data entities. It has no dependency on Microsoft Dynamics 365 and is only dependent on Microsoft Dataverse.
+
 - Nonprofit IATI – This data schema creates efficiencies in IATI reporting compliance and depends on nonprofit core, and Microsoft Dataverse. 
 
 ### Functionality
 
-- Program design – In order to support this application, this solution depends on nonprofit core and nonprofit measurement data schemas. 
-- Nonprofit operations toolkit - In order to support this application, this solution depends on the nonprofit core data schema. 
+- Program design – In order to support this application, this solution depends on nonprofit core and nonprofit measurement data schemas.
+
+- Nonprofit operations toolkit - In order to support this application, this solution depends on the nonprofit core data schema.
+
 - Common Data Model for Nonprofits sample apps - In order to support this application, this solution depends on the nonprofit core data schema.
 
 The following illustration explains the solution layer dependencies. 
