@@ -134,7 +134,7 @@ The sample dashboard for donations includes gift acknowledgements, tracking of i
 
 The nonprofit accelerator can track all major stages of high-touch fundraising. 
 
-![Fundraising](./media/nfp-accelerator/fundraising.png)
+![Tack major stages of high-touch fundraising](./media/nfp-accelerator/fundraising.png)
 
 ### Awards management
 
