@@ -26,8 +26,7 @@ Since the initial release in November 2018 at the NetHope Global Summit we've ha
 
 The nonprofit accelerator provides the following to partners and nonprofit organizations:
 - Extensions to Common Data Model for Nonprofits that include industry-standard definitions of constituent management, fundraising, awards, program delivery, and impact tracking data. The model includes 90+ entity data definitions and relationships.
-- A Program design template application that partners can evolve to help nonprofit program and country managers to: 
-  - Create and browse logframes (logical frameworks, the building blocks of effective program design).
+- A Program design template application that partners can evolve to help nonprofit program and country managers to create and browse Logframes (logical frameworks, the building blocks of effective program design).
 - Connect logframes to internal, external, and standard indicators like the United Nations Sustainable Development Goals (SDGs) in order to improve program measurement and outcome tracking.
 - Eight unique sample model-driven applications to help partners rapidly develop UI, workflows, and business logic to automate the following areas: 
 
@@ -89,7 +88,7 @@ The solutions in the nonprofit accelerator leverage Common Data Model for Nonpro
 
 The following illustration explains the solution layer dependencies. 
 
-![Nonprofit accelerator solution layer dependencies](./media/nfp-accelerator/30Architecture.png)
+![Nonprofit accelerator solution layer dependencies](./media/nfp-accelerator/updated-30-architecture.png)
 
 For details about the entities and attributes, see the entity relationship diagrams and Admin Guide available on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit).
 
