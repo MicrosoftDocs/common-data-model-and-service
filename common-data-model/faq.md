@@ -1,6 +1,6 @@
 ---
 title: Frequently asked questions - Common Data Model
-description: "Frequently asked questions about using the Common Data Model."
+description: "Frequently asked questions about using Common Data Model."
 author: theresapalmer
 ms.service: common-data-model
 ms.reviewer: anneta
@@ -9,9 +9,9 @@ ms.date: 02/11/2020
 ms.author: tpalmer
 ---
 
-# Frequently asked questions about the Common Data Model
+# Frequently asked questions about Common Data Model
 
-This topic contains answers to frequently asked questions and best practices around a variety of areas related to the Common Data Model, including Microsoft Dataverse and Microsoft Azure Data Lake Storage Gen2. If you have more questions or comments about the Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
+This topic contains answers to frequently asked questions and best practices around a variety of areas related to Common Data Model, including Microsoft Dataverse and Microsoft Azure Data Lake Storage Gen2. If you have more questions or comments about Common Data Model and related topics, we recommend that you [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
 
 - General
   - [What is the Common Data Model?](#what-is-the-common-data-model)
@@ -42,25 +42,25 @@ This topic contains answers to frequently asked questions and best practices aro
 
 <a name="what-is-the-common-data-model"></a>
 
-### What is the Common Data Model?
+### What is Common Data Model?
 
-The Common Data Model comprises a standardized metadata system and data schemas that help applications and services interoperate and help you get more value from your data. The Common Data Model simplifies data integration and application-development scenarios, allowing applications to be developed independently while they still maintain shared meaning of data.<br>More information: [The Common Data Model](index.md)
+Common Data Model comprises a standardized metadata system and data schemas that help applications and services interoperate and help you get more value from your data. Common Data Model simplifies data integration and application-development scenarios, allowing applications to be developed independently while they still maintain shared meaning of data.<br>More information: [Common Data Model](index.md)
 
 <a name="how-does-the-common-data-model-relate-to-the-open-data-initiative"></a>
 
-### How is the Common Data Model related to the Open Data Initiative?
+### How is Common Data Model related to the Open Data Initiative?
 
-The Open Data Initiative, announced in September 2018 at Microsoft Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. The Common Data Model, including the Common Data Model metadata format and standard entities, will continue to evolve and directly accrue value toward the Open Data Initiative.<br>More information: [The Open Data Initiative](https://aka.ms/opendatainitiative) website
+The Open Data Initiative, announced in September 2018 at Microsoft Ignite, is a vision that was jointly developed by Adobe, Microsoft, and SAP. Common Data Model, including the Common Data Model metadata format and standard entities, will continue to evolve and directly accrue value toward the Open Data Initiative.<br>More information: [The Open Data Initiative](https://aka.ms/opendatainitiative) website
 
 <a name="how-does-the-common-data-model-relate-to-other-standard-definitions"></a>
 
-### How is the Common Data Model related to other standard definitions?
+### How is Common Data Model related to other standard definitions?
 
-The Common Data Model schema and standard entities are influenced by existing standards, such as schema.org, throughout a variety of industries. Many Common Data Model standard entities originated from Dynamics 365 but, as we extend to new industries and areas, we look to public standards in that space to help define extensions to the Common Data Model. Common Data Model standard entities are open source and available under a Creative Commons license.
+The Common Data Model schema and standard entities are influenced by existing standards, such as schema.org, throughout a variety of industries. Many Common Data Model standard entities originated from Dynamics 365 but, as we extend to new industries and areas, we look to public standards in that space to help define extensions to Common Data Model. Common Data Model standard entities are open source and available under a Creative Commons license.
 
 <a name="what-type-of-semantic-information-can-be-defined-with-the-common-data-model"></a>
 
-### What type of semantic information can be defined with the Common Data Model?
+### What type of semantic information can be defined with Common Data Model?
 
 The Common Data Model schema definitions include a wide variety of semantic information, such as metadata related to geolocation, demographics, measurements, and calendar/dates, in addition to standard data types. You can see examples of these types within the published Common Data Model [standard entities](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/overview).
 
@@ -81,17 +81,17 @@ You can find sample libraries to read and write Common Data Model schema documen
 
 <a name="how-does-the-common-data-model-relate-to-common-data-service"></a>
 
-### How is the Common Data Model related to Dataverse?
+### How is Common Data Model related to Dataverse?
 
-Dataverse implements the Common Data Model standard entities, such as Account and Contact.
+Dataverse implements Common Data Model standard entities, such as Account and Contact.
 
 <a name="how-do-i-get-all-the-standard-entities-in-my-common-data-service-database"></a>
 
 ### How do I get all the standard entities in my Dataverse database?
 
-Some standard entities in the Common Data Model are built in to each Dataverse database. Other standard entities are installed as part of a solution, including first-party applications (such as Dynamics 365 Field Service) or [industry solution accelerators](industry-accelerators.md) (such as Dynamics 365 Healthcare Accelerator).
+Some standard entities in Common Data Model are built in to each Dataverse database. Other standard entities are installed as part of a solution, including first-party applications (such as Dynamics 365 Field Service) or [industry solution accelerators](industry-accelerators.md) (such as Dynamics 365 healthcare accelerator).
 
-## Data Lake Gen2 Storage
+## Data Lake Storage Gen2
 
 <a name="how-do-i-discover-common-data-model-content-in-the-lake"></a>
 
@@ -140,9 +140,9 @@ You can create, read, update, or delete Common Data Model folders, model.json fi
 
 <a name="how-does-the-common-data-model-relate-to-power-bi-dataflows"></a>
 
-### How is the Common Data Model related to Power BI dataflows?
+### How is Common Data Model related to Power BI dataflows?
 
-Power BI dataflows are both a data producer and data consumer of the Common Data Model. Power BI dataflows can write data in Common Data Model folders in Data Lake Storage Gen2 and read data in Common Data Model folder format. Power BI dataflows also offer an experience to [map your data to Common Data Model standard entities](https://docs.microsoft.com/power-bi/service-dataflows-create-use#dataflows-and-the-common-data-model-cdm) through the mapping transformation in Power Query Online.
+Power BI dataflows are both a data producer and data consumer of Common Data Model. Power BI dataflows can write data in Common Data Model folders in Data Lake Storage Gen2 and read data in Common Data Model folder format. Power BI dataflows also offer an experience to [map your data to Common Data Model standard entities](https://docs.microsoft.com/power-bi/service-dataflows-create-use#dataflows-and-the-common-data-model-cdm) through the mapping transformation in Power Query Online.
 
 <a name="will-my-dataflows-be-affected-if-the-common-data-model-standard-entities-are-revised"></a>
 
@@ -152,4 +152,4 @@ When entities in a dataflow are mapped to a Common Data Model standard entity, s
 
 ## More questions?
 
-If you have more questions or comments about the Common Data Model or related topics, please [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
+If you have more questions or comments about Common Data Model or related topics, please [submit an issue in GitHub](https://github.com/microsoft/cdm/issues).
