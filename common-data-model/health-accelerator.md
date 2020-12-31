@@ -12,7 +12,7 @@ ms.author: mney
 # Dynamics 365 healthcare accelerator
 
 > [!NOTE]
-> The Dynamics 365 healthcare accelerator is deprecated effective November 13, 2020 and will no longer be available for download after March 31, 2021. More information: [Deprecation of Dynamics 365 healthcare accelerator](/dynamics365/industry/healthcare/accelerator-deprecation)
+> The Dynamics 365 healthcare accelerator is deprecated effective November 13, 2020, and will no longer be available for download after March 31, 2021. More information: [Deprecation of Dynamics 365 healthcare accelerator](/dynamics365/industry/healthcare/accelerator-deprecation)
 
 Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) entities (such as patient, condition, and care plan) in the [Dynamics 365 healthcare accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
 
@@ -20,7 +20,7 @@ This accelerator was announced in July 2018 at Ignite, and the initial release i
 
 - Extension of Common Data Model to include concepts for health, including entity definitions and relationships.
 - **Patient**, **Practitioner**, **Related person**, and other customer-engagement forms that you can enhance or use out of the box.
-- A sample app that demonstrates some possibilities of the Unified Interface.
+- A sample app that demonstrates some possibilities of Unified Interface.
 - Support for building canvas and model-driven apps in Power Apps.
 - Support for extending the model with custom entities, forms, and relationships that meet your business needs.
 - Support for analytics.
