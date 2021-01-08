@@ -17,7 +17,7 @@ The automotive accelerator provides the following to partners and customers:
 
 -   Extensions to Common Data Model to include a data model that supports customer experiences, including entity definitions and relationships.
 -	Sample model-driven apps to show some possibilities of how Dynamics 365 and the automotive data model can be used, including customer experience management, customer 360, connected field service, and DMS.
--	Sample canvas apps for the Fleet Manager to quickly and pro-actively schedule service appointments with service centers to show how anyone can quickly develop new apps with Microsoft Power Platform using the automotive accelerator.
+-	Sample canvas apps for the Fleet Manager to quickly and proactively schedule service appointments with service centers to show how anyone can quickly develop new apps with Microsoft Power Platform using the automotive accelerator.
 -	Sample Power BI dashboards that provide analytics around vehicle inventory, services, lead disposition, branding, and business operation. 
 -	Sample "Model.json" file to implement the automotive data model as Common Data Model folders in Azure Data Lake Storage for analytics, AI, and Machine Learning.
 -	Individual solutions for Sales, After Sales, Marketing, and a package that you can deploy and install, including sample data. The Automotive Common Data Model extension can also be installed using a Microsoft Power Platform SKU. 
@@ -28,7 +28,7 @@ The automotive accelerator provides the following to partners and customers:
 The latest version of the automotive accelerator focuses on customer engagement with a customer 360 view, digital marketing and B2C portal interactions to enable even deeper and intentional conversations with customers, provide better customer experience, and unlocks upsell and cross sell opportunities, and increases the overall customer lifetime value.
 
 
-## Sitemap extensions
+## Site map extensions
 
 With the Dynamics 365 automotive accelerator, you can optimize the customer experience, streamline OEM-to-dealer integration, and gain insights from analytics. When the accelerator is installed into Dynamics 365, the experience is transformed into one specifically built for automotive and it allows partners and customers to quickly build Power Apps and Power BI visualizations.
 - **Marketing**: Test Drives - Customer Segmentation

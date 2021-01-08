@@ -25,11 +25,11 @@ The banking component provides the following to partners and customers:
 - Test drive experiences through AppSource with walkthroughs, reference guides, entity-relationship diagrams and metadata documentation on the data model.
 
 
-## Sitemap extensions
+## Site map extensions
 
 With the banking component, you can optimize the customer experience, improve collaboration within banks, and gain insights from analytics. When this component is installed into Dynamics 365, the experience is transformed into one specifically built for banks, allowing institutions to quickly build Power Apps and Power BI visualizations.
 
-Banks, ISVs, and others in financial services can build their solutions and business processes on top of the new entities found within the banking component. The current data model supports common banking activities but has been designed to allow flexibility for other use cases in financial services. The data model was developed in collaboration with [BIAN](https://www.bian.org/) and other open API initiatives to ensure interoperability to help unlock new open banking opportunities.
+Banks, ISVs, and others in financial services can build their solutions and business processes on top of the new entities found within the banking component. The current data model supports common banking activities, but it has been designed to allow flexibility for other use cases in financial services. The data model was developed in collaboration with [BIAN](https://www.bian.org/) and other open API initiatives to ensure interoperability to help unlock new open banking opportunities.
 
 
 ## Entities and workflows

@@ -1,18 +1,18 @@
 ---
 title: Dynamics 365 healthcare accelerator (Deprecated)  | Microsoft Docs
 description: This is deprecated.
-author: TheresaPalmer
+author: miriamney
 ms.service: common-data-model
-ms.reviewer: anneta
+ms.reviewer: v-iap
 ms.topic: article
-ms.date: 11/13/2020
-ms.author: tpalmer
+ms.date: 12/15/2020
+ms.author: mney
 ---
 
 # Dynamics 365 healthcare accelerator
 
 > [!NOTE]
-> The Dynamics 365 healthcare accelerator is deprecated effective November 13, 2020 and will no longer be available for download after December 30, 2020. More information: [Deprecation of Dynamics 365 healthcare accelerator](/dynamics365/industry/healthcare/accelerator-deprecation)
+> The Dynamics 365 healthcare accelerator is deprecated effective November 13, 2020, and will no longer be available for download after March 31, 2021. More information: [Deprecation of Dynamics 365 healthcare accelerator](/dynamics365/industry/healthcare/accelerator-deprecation)
 
 Rapidly develop healthcare solutions using [Fast Healthcare Interoperability Resources (FHIR)](https://www.hl7.org/fhir/overview.html) entities (such as patient, condition, and care plan) in the [Dynamics 365 healthcare accelerator](https://appsource.microsoft.com/product/dynamics-365/msemr.healthcarecommondatamodel?tab=Overview).
 
@@ -20,13 +20,13 @@ This accelerator was announced in July 2018 at Ignite, and the initial release i
 
 - Extension of Common Data Model to include concepts for health, including entity definitions and relationships.
 - **Patient**, **Practitioner**, **Related person**, and other customer-engagement forms that you can enhance or use out of the box.
-- A sample app that demonstrates some possibilities of the Unified Interface.
+- A sample app that demonstrates some possibilities of Unified Interface.
 - Support for building canvas and model-driven apps in Power Apps.
 - Support for extending the model with custom entities, forms, and relationships that meet your business needs.
 - Support for analytics.
 - A Microsoft Dataverse solution that you can install from AppSource.
 
-## Site-map extensions
+## Site map extensions
 
 With the healthcare accelerator plugged in to the Dynamics 365 platform, you can optimize various aspects of care coordination and segment patients and providers based on EMR data. You can also manage the care continuum of all patients by leveraging the entire customer-engagement solution within Dynamics 365.
 

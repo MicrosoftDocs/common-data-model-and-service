@@ -25,12 +25,12 @@ This accelerator contains extensions to Common Data Model to include concepts fo
 - The Grants phone app allows research faculty to keep track of applications and approval of grants to which they've applied.
 - All personas, including students, business partners, and faculty members, have access to rich reporting on the students applying for internships, grants, and scholarships.
 - System views that provide easy access to relevant areas. This includes the following entities: students, faculty, extracurricular activities, previous education, test scores, courses, academic periods, programs, test types, registration status, and areas of interest.
-- Sample apps to show some of the possibilities of the unified interface.
+- Sample apps to show some of the possibilities of Unified Interface.
 - Example Dynamics 365 dashboards and Power BI dashboards that provide analytics for completed courses and allow drilling into details about student performance, instructor effectiveness, and course feedback.
 - Support for building additional canvases and model-driven apps in Power Apps.
 - A solution that you can deploy and install from AppSource or GitHub.
 
-## Site-map extensions
+## Site map extensions
 
 With the higher education component of the Dynamics 365 education accelerator, institutions can optimize student and faculty engagement, improve institutional effectiveness, predict outcomes, and gain insights from analytics. When the accelerator is installed, the experience is transformed into one specifically built for higher education and one that allows institutions to quickly build Power Apps and Power BI visualizations.
 
