@@ -330,7 +330,7 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/RequestedFacility.md
             - name: Syndicates 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.md
-        - name: healthCare
+        - name: Healthcare
           items:
           - name: Summary
             href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/overview.md
