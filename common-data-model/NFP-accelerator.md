@@ -77,7 +77,7 @@ The nonprofit accelerator and Common Data Model for Nonprofits are developed in 
 
 ## Entities and workflows
 
-The solutions in the nonprofit accelerator leverage Common Data Model for Nonprofits and can be leveraged to build solutions on the Microsoft Power Platform and/or Microsoft Dynamics 365. Depending on the partner and organization needs, the nonprofit accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases). The following explains the differences:
+The solutions in the nonprofit accelerator leverage Common Data Model for Nonprofits and can be leveraged to build solutions on Microsoft Power Platform and/or Microsoft Dynamics 365. Depending on the partner and organization needs, the nonprofit accelerator can be implemented in multiple ways with dependencies to consider with each solution. These solution packages can be referenced on [GitHub](https://github.com/microsoft/Industry-Accelerator-Nonprofit/releases). The following explains the differences:
 
 ### Data schema
 
