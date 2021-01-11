@@ -55,13 +55,7 @@
           - name: Higher education 
             href: hied-accelerator.md
           - name: K-12 education
-            href: edu-k12-accelerator.md
-      - name: Manufacturing accelerator
-        href: manufacturing-accelerator.md
-      - name: Media and communications accelerator
-        href: media-accelerator.md    
-      - name: Nonprofit accelerator
-        href: NFP-accelerator.md
+            href: edu-k12-accelerator.md      
       - name: Templates
         items:
         - name: Healthcare accelerator Patient Scheduling and Screening template
