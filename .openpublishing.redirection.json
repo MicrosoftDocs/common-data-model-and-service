@@ -334,6 +334,11 @@
       "source_path": "entity-reference/index.md",
       "redirect_url": "/common-data-service/entity-reference/introduction",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/health-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/healthcare",
+      "redirect_document_id": false
     }
   ]
 }

@@ -27,9 +27,7 @@
   - name: Industry
     items:
       - name: Overview
-        href: industry-accelerators.md
-      - name: Healthcare accelerator
-        href: health-accelerator.md
+        href: industry-accelerators.md      
       - name: Financial services accelerator
         items: 
           - name: Overview
