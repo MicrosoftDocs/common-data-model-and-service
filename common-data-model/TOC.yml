@@ -45,35 +45,33 @@
       - name: Media and entertainment accelerator
         href: media-accelerator.md    
       - name: Nonprofit accelerator
+        href: NFP-accelerator.md      
+      - name: Automotive accelerator
+        href: automotive-accelerator.md
+      - name: Education accelerator
+        items: 
+          - name: Overview
+            href: edu-overview.md
+          - name: Higher education 
+            href: hied-accelerator.md
+          - name: K-12 education
+            href: edu-k12-accelerator.md
+      - name: Manufacturing accelerator
+        href: manufacturing-accelerator.md
+      - name: Media and communications accelerator
+        href: media-accelerator.md    
+      - name: Nonprofit accelerator
         href: NFP-accelerator.md
       - name: Templates
         items:
-          - name: Automotive accelerator
-            href: automotive-accelerator.md
-          - name: Education accelerator
-            items: 
-              - name: Overview
-                href: edu-overview.md
-              - name: Higher education 
-                href: hied-accelerator.md
-              - name: K-12 education
-                href: edu-k12-accelerator.md
-              - name: Manufacturing accelerator
-                href: manufacturing-accelerator.md
-              - name: Media and communications accelerator
-                href: media-accelerator.md    
-              - name: Nonprofit accelerator
-                href: NFP-accelerator.md
-              - name: Templates
-                items:
-                - name: Healthcare accelerator Patient Scheduling and Screening template
-                  items:
-                  - name: Overview
-                    href: patient-scheduling-screening-template.md
-                  - name: Deploy and configure the template
-                    href: patient-scheduling-screening-template-deploy.md
-                  - name: Use the template
-                    href: patient-scheduling-screening-template-use.md
+        - name: Healthcare accelerator Patient Scheduling and Screening template
+          items:
+          - name: Overview
+            href: patient-scheduling-screening-template.md
+          - name: Deploy and configure the template
+            href: patient-scheduling-screening-template-deploy.md
+          - name: Use the template
+            href: patient-scheduling-screening-template-use.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
