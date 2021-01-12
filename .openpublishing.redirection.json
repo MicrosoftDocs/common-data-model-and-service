@@ -391,11 +391,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/manufacturing-accelerator.md",
-      "redirect_url": "/dynamics365/industry/accelerators/manufacturing",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "common-data-model/industry-accelerators.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
