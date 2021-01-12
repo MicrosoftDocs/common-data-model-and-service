@@ -30,7 +30,7 @@
       - name: Microsoft Cloud for Healthcare
         items:
           - name: Overview
-          - href: industryCommon/Healthcare/Healthcare-overview.md
+            href: industryCommon/Healthcare/Healthcare-overview.md
           - name: Administration
             href: industryCommon/Healthcare/Administration/overview.md
           - name: Application
