@@ -49,14 +49,6 @@
             href: schema/core/industryCommon/Healthcare/Medication/overview.md
           - name: Workflow
             href: schema/core/industryCommon/Healthcare/Workflow/overview.md
-      - name: Financial services accelerator
-        items: 
-          - name: Overview
-            href: fs-overview.md
-          - name: Banking
-            href: banking-accelerator.md
-          - name: Insurance (preview)
-            href: insurance-accelerator.md
       - name: Accelerators
         items:
           - name: Automotive accelerator
@@ -69,22 +61,30 @@
                 href: hied-accelerator.md
               - name: K-12 education
                 href: edu-k12-accelerator.md
+              - name: Financial services accelerator
+                items: 
+                - name: Overview
+                  href: fs-overview.md
+                - name: Banking
+                  href: banking-accelerator.md
+                - name: Insurance (preview)
+                  href: insurance-accelerator.md
               - name: Manufacturing accelerator
                 href: manufacturing-accelerator.md
               - name: Media and communications accelerator
                 href: media-accelerator.md    
               - name: Nonprofit accelerator
                 href: NFP-accelerator.md
-              - name: Templates
-                items:
-                - name: Healthcare accelerator Patient Scheduling and Screening template
-                  items:
-                  - name: Overview
-                    href: patient-scheduling-screening-template.md
-                  - name: Deploy and configure the template
-                    href: patient-scheduling-screening-template-deploy.md
-                  - name: Use the template
-                    href: patient-scheduling-screening-template-use.md
+          - name: Templates
+            items:
+            - name: Healthcare accelerator Patient Scheduling and Screening template
+              items:
+              - name: Overview
+                href: patient-scheduling-screening-template.md
+              - name: Deploy and configure the template
+                href: patient-scheduling-screening-template-deploy.md
+              - name: Use the template
+                href: patient-scheduling-screening-template-use.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
