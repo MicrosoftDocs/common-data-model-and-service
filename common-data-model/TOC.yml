@@ -23,13 +23,30 @@
         href: sdk/list-of-datatypes.md
       - name: List of Common Data Model traits
         href: sdk/list-of-traits.md
-
   - name: Industry
     items:
       - name: Overview
         href: industry-accelerators.md
-      - name: Healthcare accelerator
-        href: health-accelerator.md
+      - name: Microsoft Cloud for Healthcare
+        items:
+          - name: Administration
+            href: industryCommon/Heathcare/Administration/overview.md
+          - name: Application
+            href: industryCommon/Heathcare/Application/overview.md
+          - name: Azure API for FHIR support
+            href: industryCommon/Heathcare/AzureAPIforFHIRsupport/overview.md
+          - name: Clinical
+            href: industryCommon/Heathcare/Clinical/overview.md
+          - name: Diagnostics
+            href: industryCommon/Heathcare/Diagnostics/overview.md
+          - name: Financial
+            href: industryCommon/Heathcare/Financial/overview.md
+          - name: Foundational
+            href: industryCommon/Heathcare/Foundational/overview.md
+          - name: Medication
+            href: industryCommon/Heathcare/Medication/overview.md
+          - name: Workflow
+            href: industryCommon/Heathcare/Workflow/overview.md
       - name: Financial services accelerator
         items: 
           - name: Overview

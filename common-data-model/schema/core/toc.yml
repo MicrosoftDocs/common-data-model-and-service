@@ -333,681 +333,1117 @@
         - name: Healthcare
           items:
           - name: Summary
-            href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/overview.md
-          - name: electronicMedicalRecords
+            href: industryCommon/Healthcare/Healthcare-overview.md
+          - name: Administration
             items:
             - name: Summary
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/overview.md
-            - name: Account 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md
-            - name: AccountType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AccountType.md
-            - name: ActivityDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinition.md
-            - name: ActivityDefinitionBodySite 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionBodySite.md
-            - name: ActivityDefinitionContact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionContact.md
-            - name: ActivityDefinitionContributor 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionContributor.md
-            - name: ActivityDefinitionContributorContact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionContributorContact.md
-            - name: ActivityDefinitionDosage 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionDosage.md
-            - name: ActivityDefinitionDynamicValue 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionDynamicValue.md
-            - name: ActivityDefinitionJurisdiction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionJurisdiction.md
-            - name: ActivityDefinitionLibrary 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionLibrary.md
-            - name: ActivityDefinitionParticipant 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionParticipant.md
-            - name: ActivityDefinitionRelatedArtifact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionRelatedArtifact.md
-            - name: ActivityDefinitionTopic 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionTopic.md
-            - name: ActivityDefinitionUseContext 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ActivityDefinitionUseContext.md
-            - name: AdditionalName 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AdditionalName.md
-            - name: Address 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Address.md
-            - name: AllergyIntolerance 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AllergyIntolerance.md
-            - name: AppointmentEMR 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMR.md
-            - name: AppointmentEMRIndication 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRIndication.md
-            - name: AppointmentEMRParticipant 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRParticipant.md
-            - name: AppointmentEMRReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRReason.md
-            - name: AppointmentEMRReferralRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRReferralRequest.md
-            - name: AppointmentEMRRequestedPeriod 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRRequestedPeriod.md
-            - name: AppointmentEMRServiceType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRServiceType.md
-            - name: AppointmentEMRSlot 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRSlot.md
-            - name: AppointmentEMRSpecialty 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentEMRSpecialty.md
-            - name: AppointmentServiceCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/AppointmentServiceCategory.md
-            - name: BodySite 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/BodySite.md
-            - name: CarePlan 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlan.md
-            - name: CarePlanActivity 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivity.md
-            - name: CarePlanActivityGoal 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityGoal.md
-            - name: CarePlanActivityOutcome 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityOutcome.md
-            - name: CarePlanActivityOutcomeReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityOutcomeReference.md
-            - name: CarePlanActivityPerformer 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityPerformer.md
-            - name: CarePlanActivityReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityReason.md
-            - name: CarePlanActivityReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityReasonCode.md
-            - name: CarePlanActivityReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanActivityReasonReference.md
-            - name: CarePlanAddresses 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanAddresses.md
-            - name: CarePlanAuthor 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanAuthor.md
-            - name: CarePlanBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanBasedOn.md
-            - name: CarePlanCareTeam 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanCareTeam.md
-            - name: CarePlanCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanCategory.md
-            - name: CarePlanDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanDefinition.md
-            - name: CarePlanGoal 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoal.md
-            - name: CarePlanGoalMeasure 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoalMeasure.md
-            - name: CarePlanGoalOutcome 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanGoalOutcome.md
-            - name: CarePlanPartOf 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanPartOf.md
-            - name: CarePlanReplace 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanReplace.md
-            - name: CarePlanSupportInfo 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CarePlanSupportInfo.md
-            - name: CareTeam 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeam.md
-            - name: CareTeamCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamCategory.md
-            - name: CareTeamManagingOrganization 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamManagingOrganization.md
-            - name: CareTeamParticipant 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipant.md
-            - name: CareTeamParticipantRole 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamParticipantRole.md
-            - name: CareTeamReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamReasonCode.md
-            - name: CareTeamReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CareTeamReasonReference.md
-            - name: ClinicalImpression 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpression.md
-            - name: ClinicalImpressionAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionAction.md
-            - name: ClinicalImpressionFinding 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionFinding.md
-            - name: ClinicalImpressionInvestigation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionInvestigation.md
-            - name: ClinicalImpressionInvestigationItem 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionInvestigationItem.md
-            - name: ClinicalImpressionProblem 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionProblem.md
-            - name: ClinicalImpressionPrognosis 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionPrognosis.md
-            - name: ClinicalImpressionProtocol 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ClinicalImpressionProtocol.md
-            - name: CodeableConcept 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CodeableConcept.md
-            - name: Communication 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Communication.md
-            - name: CommunicationRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequest.md
-            - name: CommunicationRequestBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestBasedOn.md
-            - name: CommunicationRequestCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestCategory.md
-            - name: CommunicationRequestMedium 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestMedium.md
-            - name: CommunicationRequestPayload 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestPayload.md
-            - name: CommunicationRequestReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestReason.md
-            - name: CommunicationRequestReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestReasonReference.md
-            - name: CommunicationRequestRecipient 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestRecipient.md
-            - name: CommunicationRequestReplace 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestReplace.md
-            - name: CommunicationRequestTopic 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/CommunicationRequestTopic.md
-            - name: Condition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Condition.md
-            - name: ConditionBodySite 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionBodySite.md
-            - name: ConditionCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionCategory.md
-            - name: ConditionEvidence 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionEvidence.md
-            - name: ConditionStage 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ConditionStage.md
-            - name: Contact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md
-            - name: ContactLink 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ContactLink.md
-            - name: DataReqCodeFilterValueCodeableConcept 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataReqCodeFilterValueCodeableConcept.md
-            - name: DataRequirement 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirement.md
-            - name: DataRequirementCodeFilter 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementCodeFilter.md
-            - name: DataRequirementCodeFilterValueCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementCodeFilterValueCode.md
-            - name: DataRequirementCodeFilterValueCoding 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementCodeFilterValueCoding.md
-            - name: DataRequirementDateFilter 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementDateFilter.md
-            - name: DataRequirementMustSupport 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementMustSupport.md
-            - name: DataRequirementProfile 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DataRequirementProfile.md
-            - name: Device 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Device.md
-            - name: DeviceCalibration 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceCalibration.md
-            - name: DeviceComponent 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceComponent.md
-            - name: DeviceComponentOperationalStatus 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceComponentOperationalStatus.md
-            - name: DeviceComponentProductionSpecification 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceComponentProductionSpecification.md
-            - name: DeviceContactPoint 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceContactPoint.md
-            - name: DeviceMetric 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceMetric.md
-            - name: DeviceMetricType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceMetricType.md
-            - name: DeviceRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequest.md
-            - name: DeviceRequestBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestBasedOn.md
-            - name: DeviceRequestDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestDefinition.md
-            - name: DeviceRequestPriorRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestPriorRequest.md
-            - name: DeviceRequestReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestReasonCode.md
-            - name: DeviceRequestReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestReasonReference.md
-            - name: DeviceRequestRelevantHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestRelevantHistory.md
-            - name: DeviceRequestSupportingInfo 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceRequestSupportingInfo.md
-            - name: DeviceSafety 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceSafety.md
-            - name: DeviceStatus 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DeviceStatus.md
-            - name: Dosage 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Dosage.md
-            - name: DosageAddInstruction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/DosageAddInstruction.md
-            - name: Encounter 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Encounter.md
-            - name: EncounterAccount 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterAccount.md
-            - name: EncounterClassHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterClassHistory.md
-            - name: EncounterDiagnosis 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterDiagnosis.md
-            - name: EncounterEpisodeOfCare 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterEpisodeOfCare.md
-            - name: EncounterHospitalizationArrangement 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterHospitalizationArrangement.md
-            - name: EncounterHospitalizationCourtesy 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterHospitalizationCourtesy.md
-            - name: EncounterHospitalizationDiet 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterHospitalizationDiet.md
-            - name: EncounterLocation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterLocation.md
-            - name: EncounterParticipant 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterParticipant.md
-            - name: EncounterParticipantType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterParticipantType.md
-            - name: EncounterReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterReason.md
-            - name: EncounterReferralRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterReferralRequest.md
-            - name: EncounterStatusHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterStatusHistory.md
-            - name: EncounterType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EncounterType.md
-            - name: Endpoint 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Endpoint.md
-            - name: EndpointContact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointContact.md
-            - name: EndpointHeader 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointHeader.md
-            - name: EndpointPayloadMimeType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointPayloadMimeType.md
-            - name: EndpointPayloadType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EndpointPayloadType.md
-            - name: EpisodeOfCare 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCare.md
-            - name: EpisodeOfCareAccount 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareAccount.md
-            - name: EpisodeOfCareCareTeam 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareCareTeam.md
-            - name: EpisodeOfCareDiagnosis 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareDiagnosis.md
-            - name: EpisodeOfCareHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareHistory.md
-            - name: EpisodeOfCareReferralRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareReferralRequest.md
-            - name: EpisodeOfCareType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/EpisodeOfCareType.md
-            - name: FamilyMemberHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistory.md
-            - name: FamilyMemberHistoryCondition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryCondition.md
-            - name: FamilyMemberHistoryDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryDefinition.md
-            - name: FamilyMemberHistoryReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryReason.md
-            - name: FamilyMemberHistoryReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/FamilyMemberHistoryReasonReference.md
-            - name: Goal 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Goal.md
-            - name: GoalAddresses 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalAddresses.md
-            - name: GoalCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalCategory.md
-            - name: GoalOutcome 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalOutcome.md
-            - name: GoalOutcomeReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/GoalOutcomeReference.md
-            - name: HealthcareService 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareService.md
-            - name: HealthcareServiceAvailableTime 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceAvailableTime.md
-            - name: HealthcareServiceCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceCategory.md
-            - name: HealthcareServiceCharacteristic 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceCharacteristic.md
-            - name: HealthcareServiceCoverageArea 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceCoverageArea.md
-            - name: HealthcareServiceEndpoint 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceEndpoint.md
-            - name: HealthcareServiceLocation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceLocation.md
-            - name: HealthcareServiceProgramName 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceProgramName.md
-            - name: HealthcareServiceProvision 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceProvision.md
-            - name: HealthcareServiceReferralMethod 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceReferralMethod.md
-            - name: HealthcareServiceSpecialty 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceSpecialty.md
-            - name: HealthcareServiceTelecom 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/HealthcareServiceTelecom.md
-            - name: Location 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Location.md
-            - name: LocationEndPoint 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/LocationEndPoint.md
-            - name: LocationTelecom 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/LocationTelecom.md
-            - name: MedicalIdentifier 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicalIdentifier.md
-            - name: Medication 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Medication.md
-            - name: MedicationAdministration 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministration.md
-            - name: MedicationAdministrationDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationDefinition.md
-            - name: MedicationAdministrationDevice 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationDevice.md
-            - name: MedicationAdministrationEventHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationEventHistory.md
-            - name: MedicationAdministrationPartOf 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationPartOf.md
-            - name: MedicationAdministrationPerformer 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationPerformer.md
-            - name: MedicationAdministrationReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationReasonCode.md
-            - name: MedicationAdministrationReasonNotGiven 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationReasonNotGiven.md
-            - name: MedicationAdministrationReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationReasonReference.md
-            - name: MedicationAdministrationSupportingInformation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationAdministrationSupportingInformation.md
-            - name: MedicationCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationCode.md
-            - name: MedicationForm 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationForm.md
-            - name: MedicationImage 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationImage.md
-            - name: MedicationIngredient 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationIngredient.md
-            - name: MedicationPackageBatch 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationPackageBatch.md
-            - name: MedicationPackageContent 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationPackageContent.md
-            - name: MedicationRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequest.md
-            - name: MedicationRequestBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestBasedOn.md
-            - name: MedicationRequestDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestDefinition.md
-            - name: MedicationRequestDetectedIssue 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestDetectedIssue.md
-            - name: MedicationRequestDosageInstruction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestDosageInstruction.md
-            - name: MedicationRequestEventHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestEventHistory.md
-            - name: MedicationRequestReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestReasonCode.md
-            - name: MedicationRequestReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestReasonReference.md
-            - name: MedicationRequestSupportingInfo 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/MedicationRequestSupportingInfo.md
-            - name: NutritionOrder 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrder.md
-            - name: NutritionOrderAllergyIntolerance 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderAllergyIntolerance.md
-            - name: NutritionOrderEnteralFormulaAdministration 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderEnteralFormulaAdministration.md
-            - name: NutritionOrderExcludeFoodModifier 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderExcludeFoodModifier.md
-            - name: NutritionOrderFoodPreferenceModifier 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderFoodPreferenceModifier.md
-            - name: NutritionOrderOralDietFluidConsistencyType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietFluidConsistencyType.md
-            - name: NutritionOrderOralDietNutrient 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietNutrient.md
-            - name: NutritionOrderOralDietSchedule 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietSchedule.md
-            - name: NutritionOrderOralDietTexture 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietTexture.md
-            - name: NutritionOrderOralDietType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderOralDietType.md
-            - name: NutritionOrderSupplement 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderSupplement.md
-            - name: NutritionOrderSupplementSchedule 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/NutritionOrderSupplementSchedule.md
-            - name: Observation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Observation.md
-            - name: ObservationBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationBasedOn.md
-            - name: ObservationCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationCategory.md
-            - name: ObservationCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationCode.md
-            - name: ObservationComponent 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationComponent.md
-            - name: ObservationComponentReferenceRange 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationComponentReferenceRange.md
-            - name: ObservationInterpretation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationInterpretation.md
-            - name: ObservationMethod 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationMethod.md
-            - name: ObservationPerformer 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationPerformer.md
-            - name: ObservationReferenceRange 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationReferenceRange.md
-            - name: ObservationReferenceRangeAppliesTo 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationReferenceRangeAppliesTo.md
-            - name: ObservationRelatedResource 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ObservationRelatedResource.md
-            - name: PlanDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinition.md
-            - name: PlanDefinitionAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionAction.md
-            - name: PlanDefinitionActionAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionAction.md
-            - name: PlanDefinitionActionArtifact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionArtifact.md
-            - name: PlanDefinitionActionCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionCode.md
-            - name: PlanDefinitionActionCondition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionCondition.md
-            - name: PlanDefinitionActionDynamicValue 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionDynamicValue.md
-            - name: PlanDefinitionActionGoal 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionGoal.md
-            - name: PlanDefinitionActionInput 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionInput.md
-            - name: PlanDefinitionActionOutput 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionOutput.md
-            - name: PlanDefinitionActionReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionReason.md
-            - name: PlanDefinitionActionRelatedAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionRelatedAction.md
-            - name: PlanDefinitionActionTriggerDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionActionTriggerDefinition.md
-            - name: PlanDefinitionArtifact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionArtifact.md
-            - name: PlanDefinitionContributor 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionContributor.md
-            - name: PlanDefinitionContributorContact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionContributorContact.md
-            - name: PlanDefinitionGoal 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoal.md
-            - name: PlanDefinitionGoalAddresses 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoalAddresses.md
-            - name: PlanDefinitionGoalArtifact 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoalArtifact.md
-            - name: PlanDefinitionGoalTarget 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionGoalTarget.md
-            - name: PlanDefinitionJurisdiction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionJurisdiction.md
-            - name: PlanDefinitionLibrary 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionLibrary.md
-            - name: PlanDefinitionParticipant 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionParticipant.md
-            - name: PlanDefinitionTopic 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionTopic.md
-            - name: PlanDefinitionUseContext 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PlanDefinitionUseContext.md
-            - name: PractitionerQualification 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerQualification.md
-            - name: PractitionerRole 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRole.md
-            - name: PractitionerRoleAvailableTime 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleAvailableTime.md
-            - name: PractitionerRoleCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleCode.md
-            - name: PractitionerRoleEndPoint 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleEndPoint.md
-            - name: PractitionerRoleHealthcareService 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleHealthcareService.md
-            - name: PractitionerRoleLocation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleLocation.md
-            - name: PractitionerRoleSpecialty 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleSpecialty.md
-            - name: PractitionerRoleTelecom 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerRoleTelecom.md
-            - name: PractitionerSpecialty 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/PractitionerSpecialty.md
-            - name: Procedure 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Procedure.md
-            - name: ProcedureBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureBasedOn.md
-            - name: ProcedureBodySite 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureBodySite.md
-            - name: ProcedureCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureCode.md
-            - name: ProcedureComplication 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureComplication.md
-            - name: ProcedureComplicationDetail 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureComplicationDetail.md
-            - name: ProcedureDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureDefinition.md
-            - name: ProcedureFocalDevice 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureFocalDevice.md
-            - name: ProcedureFollowUp 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureFollowUp.md
-            - name: ProcedurePartOf 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedurePartOf.md
-            - name: ProcedurePerformer 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedurePerformer.md
-            - name: ProcedureReason 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureReason.md
-            - name: ProcedureReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureReasonReference.md
-            - name: ProcedureReport 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureReport.md
-            - name: ProcedureRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequest.md
-            - name: ProcedureRequestBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestBasedOn.md
-            - name: ProcedureRequestBodySite 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestBodySite.md
-            - name: ProcedureRequestCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestCategory.md
-            - name: ProcedureRequestDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestDefinition.md
-            - name: ProcedureRequestReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestReasonCode.md
-            - name: ProcedureRequestReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestReasonReference.md
-            - name: ProcedureRequestRelevantHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestRelevantHistory.md
-            - name: ProcedureRequestReplace 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestReplace.md
-            - name: ProcedureRequestSpecimen 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestSpecimen.md
-            - name: ProcedureRequestSupportingInformation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureRequestSupportingInformation.md
-            - name: ProcedureUsedCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureUsedCode.md
-            - name: ProcedureUsedReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ProcedureUsedReference.md
-            - name: ReferenceRangeAppliesTo 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferenceRangeAppliesTo.md
-            - name: ReferralRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequest.md
-            - name: ReferralRequestBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestBasedOn.md
-            - name: ReferralRequestDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestDefinition.md
-            - name: ReferralRequestReasonCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestReasonCode.md
-            - name: ReferralRequestReasonReference 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestReasonReference.md
-            - name: ReferralRequestRecipient 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestRecipient.md
-            - name: ReferralRequestRelevantHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestRelevantHistory.md
-            - name: ReferralRequestReplace 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestReplace.md
-            - name: ReferralRequestServiceRequested 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestServiceRequested.md
-            - name: ReferralRequestSupportingInformation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ReferralRequestSupportingInformation.md
-            - name: RelatedPerson 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RelatedPerson.md
-            - name: RequestGroup 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroup.md
-            - name: RequestGroupAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupAction.md
-            - name: RequestGroupActionAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionAction.md
-            - name: RequestGroupActionCode 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionCode.md
-            - name: RequestGroupActionCondition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionCondition.md
-            - name: RequestGroupActionDocumentation 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionDocumentation.md
-            - name: RequestGroupActionParticipant 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionParticipant.md
-            - name: RequestGroupActionRelatedAction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupActionRelatedAction.md
-            - name: RequestGroupBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupBasedOn.md
-            - name: RequestGroupDefinition 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupDefinition.md
-            - name: RequestGroupReplace 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RequestGroupReplace.md
-            - name: RiskAssessment 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessment.md
-            - name: RiskAssessmentBasis 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessmentBasis.md
-            - name: RiskAssessmentPrediction 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/RiskAssessmentPrediction.md
-            - name: Schedule 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Schedule.md
-            - name: ScheduleActor 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ScheduleActor.md
-            - name: ScheduleServiceType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ScheduleServiceType.md
-            - name: ScheduleSpecialty 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/ScheduleSpecialty.md
-            - name: Slot 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Slot.md
-            - name: SlotServiceType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SlotServiceType.md
-            - name: SlotSpecialty 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SlotSpecialty.md
-            - name: Specimen 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Specimen.md
-            - name: SpecimenContainer 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenContainer.md
-            - name: SpecimenParent 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenParent.md
-            - name: SpecimenProcessing 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenProcessing.md
-            - name: SpecimenProcessingAdditive 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenProcessingAdditive.md
-            - name: SpecimenRequest 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SpecimenRequest.md
-            - name: Substance 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Substance.md
-            - name: SubstanceCategory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SubstanceCategory.md
-            - name: SubstanceIngredient 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SubstanceIngredient.md
-            - name: SubstanceInstance 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/SubstanceInstance.md
-            - name: Task 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Task.md
-            - name: TaskBasedOn 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskBasedOn.md
-            - name: TaskInput 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskInput.md
-            - name: TaskOutput 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskOutput.md
-            - name: TaskPartOf 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskPartOf.md
-            - name: TaskPerformerType 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskPerformerType.md
-            - name: TaskRelevantHistory 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskRelevantHistory.md
-            - name: TaskRestrictionRecipient 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TaskRestrictionRecipient.md
-            - name: Timing 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Timing.md
-            - name: TimingDayOfWeek 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingDayOfWeek.md
-            - name: TimingEvent 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingEvent.md
-            - name: TimingTimeOfDay 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingTimeOfDay.md
-            - name: TimingWhen 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/TimingWhen.md
-            - name: VisionPrescription 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/VisionPrescription.md
-            - name: VisionPrescriptionDispense 
-              href: applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/VisionPrescriptionDispense.md
+              href: industryCommon/Healthcare/Administration/overview.md
+            - name: AdministrationAppointmentEMR
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/overview.md
+              - name: AppointmentEMRIndication 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRIndication.md
+              - name: AppointmentEMRParticipant 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRParticipant.md
+              - name: AppointmentEMRReason 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRReason.md
+              - name: AppointmentEMRReferralRequest 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRReferralRequest.md
+              - name: AppointmentEMRRequestedPeriod 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRRequestedPeriod.md
+              - name: AppointmentEMRServiceType 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRServiceType.md
+              - name: AppointmentEMRSlot 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRSlot.md
+              - name: AppointmentEMRSpecialty 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRSpecialty.md
+              - name: AppointmentServiceCategory 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentServiceCategory.md
+              - name: ScheduleActor 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/ScheduleActor.md
+              - name: ScheduleServiceType 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/ScheduleServiceType.md
+              - name: ScheduleSpecialty 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/ScheduleSpecialty.md
+              - name: Slot 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/Slot.md
+              - name: SlotServiceType 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/SlotServiceType.md
+              - name: SlotSpecialty 
+                href: industryCommon/Healthcare/Administration/AdministrationAppointmentEMR/SlotSpecialty.md
+            - name: AdministrationCommunication
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/overview.md
+              - name: Communication 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/Communication.md
+              - name: CommunicationRequestBasedOn 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestBasedOn.md
+              - name: CommunicationRequestCategory 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestCategory.md
+              - name: CommunicationRequestMedium 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestMedium.md
+              - name: CommunicationRequestPayload 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestPayload.md
+              - name: CommunicationRequestReason 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestReason.md
+              - name: CommunicationRequestReasonReference 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestReasonReference.md
+              - name: CommunicationRequestRecipient 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestRecipient.md
+              - name: CommunicationRequestReplace 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestReplace.md
+              - name: CommunicationRequestTopic 
+                href: industryCommon/Healthcare/Administration/AdministrationCommunication/CommunicationRequestTopic.md
+            - name: AdministrationCore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Administration/AdministrationCore/overview.md
+              - name: Account 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/Account.md
+              - name: AdditionalName 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/AdditionalName.md
+              - name: Contact 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/Contact.md
+              - name: ContactLink 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/ContactLink.md
+              - name: EndpointContact 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/EndpointContact.md
+              - name: EndpointHeader 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/EndpointHeader.md
+              - name: EndpointPayloadMimeType 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/EndpointPayloadMimeType.md
+              - name: EndpointPayloadType 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/EndpointPayloadType.md
+              - name: PractitionerQualification 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerQualification.md
+              - name: PractitionerRoleAvailableTime 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleAvailableTime.md
+              - name: PractitionerRoleCode 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleCode.md
+              - name: PractitionerRoleEndPoint 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleEndPoint.md
+              - name: PractitionerRoleHealthcareService 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleHealthcareService.md
+              - name: PractitionerRoleLocation 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleLocation.md
+              - name: PractitionerRoleSpecialty 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleSpecialty.md
+              - name: PractitionerRoleTelecom 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerRoleTelecom.md
+              - name: PractitionerSpecialty 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/PractitionerSpecialty.md
+              - name: RequestGroupAction 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupAction.md
+              - name: RequestGroupActionAction 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupActionAction.md
+              - name: RequestGroupActionCode 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupActionCode.md
+              - name: RequestGroupActionCondition 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupActionCondition.md
+              - name: RequestGroupActionDocumentation 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupActionDocumentation.md
+              - name: RequestGroupActionParticipant 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupActionParticipant.md
+              - name: RequestGroupActionRelatedAction 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupActionRelatedAction.md
+              - name: RequestGroupBasedOn 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupBasedOn.md
+              - name: RequestGroupDefinition 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupDefinition.md
+              - name: RequestGroupReplace 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/RequestGroupReplace.md
+              - name: SubstanceCategory 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/SubstanceCategory.md
+              - name: SubstanceIngredient 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/SubstanceIngredient.md
+              - name: SubstanceInstance 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/SubstanceInstance.md
+              - name: Task 
+                href: industryCommon/Healthcare/Administration/AdministrationCore/Task.md
+            - name: AdministrationDevice
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/overview.md
+              - name: DeviceCalibration 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceCalibration.md
+              - name: DeviceComponentOperationalStatus 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceComponentOperationalStatus.md
+              - name: DeviceComponentProductionSpecification 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceComponentProductionSpecification.md
+              - name: DeviceContactPoint 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceContactPoint.md
+              - name: DeviceMetricType 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceMetricType.md
+              - name: DeviceRequestBasedOn 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestBasedOn.md
+              - name: DeviceRequestDefinition 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestDefinition.md
+              - name: DeviceRequestPriorRequest 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestPriorRequest.md
+              - name: DeviceRequestReasonCode 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestReasonCode.md
+              - name: DeviceRequestReasonReference 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestReasonReference.md
+              - name: DeviceRequestRelevantHistory 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestRelevantHistory.md
+              - name: DeviceRequestSupportingInfo 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceRequestSupportingInfo.md
+              - name: DeviceSafety 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceSafety.md
+              - name: DeviceStatus 
+                href: industryCommon/Healthcare/Administration/AdministrationDevice/DeviceStatus.md
+            - name: AdministrationEncounter
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/overview.md
+              - name: EncounterAccount 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterAccount.md
+              - name: EncounterClassHistory 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterClassHistory.md
+              - name: EncounterDiagnosis 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterDiagnosis.md
+              - name: EncounterEpisodeOfCare 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterEpisodeOfCare.md
+              - name: EncounterHospitalizationArrangement 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterHospitalizationArrangement.md
+              - name: EncounterHospitalizationCourtesy 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterHospitalizationCourtesy.md
+              - name: EncounterHospitalizationDiet 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterHospitalizationDiet.md
+              - name: EncounterLocation 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterLocation.md
+              - name: EncounterParticipant 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterParticipant.md
+              - name: EncounterParticipantType 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterParticipantType.md
+              - name: EncounterReason 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterReason.md
+              - name: EncounterReferralRequest 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterReferralRequest.md
+              - name: EncounterStatusHistory 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterStatusHistory.md
+              - name: EncounterType 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EncounterType.md
+              - name: EpisodeOfCareAccount 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EpisodeOfCareAccount.md
+              - name: EpisodeOfCareCareTeam 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EpisodeOfCareCareTeam.md
+              - name: EpisodeOfCareDiagnosis 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EpisodeOfCareDiagnosis.md
+              - name: EpisodeOfCareHistory 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EpisodeOfCareHistory.md
+              - name: EpisodeOfCareReferralRequest 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EpisodeOfCareReferralRequest.md
+              - name: EpisodeOfCareType 
+                href: industryCommon/Healthcare/Administration/AdministrationEncounter/EpisodeOfCareType.md
+            - name: AdministrationHealthServices
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/overview.md
+              - name: HealthcareServiceAvailableTime 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceAvailableTime.md
+              - name: HealthcareServiceCategory 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceCategory.md
+              - name: HealthcareServiceCharacteristic 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceCharacteristic.md
+              - name: HealthcareServiceCoverageArea 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceCoverageArea.md
+              - name: HealthcareServiceEndpoint 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceEndpoint.md
+              - name: HealthcareServiceLocation 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceLocation.md
+              - name: HealthcareServiceProgramName 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceProgramName.md
+              - name: HealthcareServiceProvision 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceProvision.md
+              - name: HealthcareServiceReferralMethod 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceReferralMethod.md
+              - name: HealthcareServiceSpecialty 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceSpecialty.md
+              - name: HealthcareServiceTelecom 
+                href: industryCommon/Healthcare/Administration/AdministrationHealthServices/HealthcareServiceTelecom.md
+          - name: Application
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Application/overview.md
+            - name: HealthcareCareManagement
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Application/HealthcareCareManagement/overview.md
+              - name: CarePlan 
+                href: industryCommon/Healthcare/Application/HealthcareCareManagement/CarePlan.md
+              - name: CarePlanActivity 
+                href: industryCommon/Healthcare/Application/HealthcareCareManagement/CarePlanActivity.md
+              - name: CarePlanCareTeam 
+                href: industryCommon/Healthcare/Application/HealthcareCareManagement/CarePlanCareTeam.md
+              - name: CarePlanGoal 
+                href: industryCommon/Healthcare/Application/HealthcareCareManagement/CarePlanGoal.md
+            - name: HealthcareHomeHealth
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/overview.md
+              - name: BookedHomeVisit 
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/BookedHomeVisit.md
+              - name: CareTeamMemberBusinessProcessFlow 
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/CareTeamMemberBusinessProcessFlow.md
+              - name: Case 
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/Case.md
+              - name: Contact 
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/Contact.md
+              - name: HomeCare 
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/HomeCare.md
+              - name: SchedulerHomeHealthBusinessProcessFlow 
+                href: industryCommon/Healthcare/Application/HealthcareHomeHealth/SchedulerHomeHealthBusinessProcessFlow.md
+            - name: HealthcarePatientAccess
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Application/HealthcarePatientAccess/overview.md
+              - name: AppointmentEMR 
+                href: industryCommon/Healthcare/Application/HealthcarePatientAccess/AppointmentEMR.md
+              - name: SecureMessage 
+                href: industryCommon/Healthcare/Application/HealthcarePatientAccess/SecureMessage.md
+          - name: AzureAPIforFHIRsupport
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/AzureAPIforFHIRsupport/overview.md
+            - name: SyncAgentCDMUpdates
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/overview.md
+              - name: Account 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Account.md
+              - name: AllergyIntolerance 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/AllergyIntolerance.md
+              - name: AppointmentEMR 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/AppointmentEMR.md
+              - name: AppointmentEMRSlot 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/AppointmentEMRSlot.md
+              - name: CarePlan 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CarePlan.md
+              - name: CareTeam 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CareTeam.md
+              - name: CareTeamParticipant 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CareTeamParticipant.md
+              - name: Claim 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Claim.md
+              - name: Condition 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Condition.md
+              - name: Contact 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Contact.md
+              - name: Device 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Device.md
+              - name: DiagnosticReport 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/DiagnosticReport.md
+              - name: Encounter 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Encounter.md
+              - name: Location 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Location.md
+              - name: Medication 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Medication.md
+              - name: MedicationRequest 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/MedicationRequest.md
+              - name: Observation 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Observation.md
+              - name: Procedure 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Procedure.md
+              - name: RelatedPerson 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/RelatedPerson.md
+              - name: Schedule 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Schedule.md
+              - name: Slot 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Slot.md
+            - name: SyncAgentCommon
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/overview.md
+              - name: AttributeValueMap 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/AttributeValueMap.md
+              - name: AzureFHIRResource 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/AzureFHIRResource.md
+              - name: Contact 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/Contact.md
+              - name: SyncAgentLog 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/SyncAgentLog.md
+              - name: UpdateServiceAttributeMap 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/UpdateServiceAttributeMap.md
+              - name: UpdateServiceEntityMap 
+                href: industryCommon/Healthcare/AzureAPIforFHIRsupport/SyncAgentCommon/UpdateServiceEntityMap.md
+          - name: Clinical
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Clinical/overview.md
+            - name: ClinicalCareTeam
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/overview.md
+              - name: CarePlanActivity 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivity.md
+              - name: CarePlanActivityGoal 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityGoal.md
+              - name: CarePlanActivityOutcome 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityOutcome.md
+              - name: CarePlanActivityOutcomeReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityOutcomeReference.md
+              - name: CarePlanActivityPerformer 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityPerformer.md
+              - name: CarePlanActivityReason 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityReason.md
+              - name: CarePlanActivityReasonCode 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityReasonCode.md
+              - name: CarePlanActivityReasonReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivityReasonReference.md
+              - name: CarePlanAddresses 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanAddresses.md
+              - name: CarePlanAuthor 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanAuthor.md
+              - name: CarePlanBasedOn 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanBasedOn.md
+              - name: CarePlanCareTeam 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanCareTeam.md
+              - name: CarePlanCategory 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanCategory.md
+              - name: CarePlanDefinition 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanDefinition.md
+              - name: CarePlanGoal 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanGoal.md
+              - name: CarePlanGoalMeasure 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanGoalMeasure.md
+              - name: CarePlanGoalOutcome 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanGoalOutcome.md
+              - name: CarePlanPartOf 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanPartOf.md
+              - name: CarePlanReplace 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanReplace.md
+              - name: CarePlanSupportInfo 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CarePlanSupportInfo.md
+              - name: CareTeamCategory 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CareTeamCategory.md
+              - name: CareTeamManagingOrganization 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CareTeamManagingOrganization.md
+              - name: CareTeamParticipant 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CareTeamParticipant.md
+              - name: CareTeamParticipantRole 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CareTeamParticipantRole.md
+              - name: CareTeamReasonCode 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CareTeamReasonCode.md
+              - name: CareTeamReasonReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/CareTeamReasonReference.md
+              - name: Goal 
+                href: industryCommon/Healthcare/Clinical/ClinicalCareTeam/Goal.md
+            - name: ClinicalCore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/overview.md
+              - name: AllergyIntolerance 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/AllergyIntolerance.md
+              - name: ClinicalImpression 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpression.md
+              - name: ClinicalImpressionAction 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionAction.md
+              - name: ClinicalImpressionFinding 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionFinding.md
+              - name: ClinicalImpressionInvestigation 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionInvestigation.md
+              - name: ClinicalImpressionInvestigationItem 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionInvestigationItem.md
+              - name: ClinicalImpressionProblem 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionProblem.md
+              - name: ClinicalImpressionPrognosis 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionPrognosis.md
+              - name: ClinicalImpressionProtocol 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ClinicalImpressionProtocol.md
+              - name: ConditionBodySite 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ConditionBodySite.md
+              - name: ConditionCategory 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ConditionCategory.md
+              - name: ConditionEvidence 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ConditionEvidence.md
+              - name: ConditionStage 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/ConditionStage.md
+              - name: FamilyMemberHistory 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/FamilyMemberHistory.md
+              - name: FamilyMemberHistoryCondition 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/FamilyMemberHistoryCondition.md
+              - name: FamilyMemberHistoryDefinition 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/FamilyMemberHistoryDefinition.md
+              - name: FamilyMemberHistoryReason 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/FamilyMemberHistoryReason.md
+              - name: FamilyMemberHistoryReasonReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/FamilyMemberHistoryReasonReference.md
+              - name: GoalAddresses 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/GoalAddresses.md
+              - name: GoalCategory 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/GoalCategory.md
+              - name: GoalOutcome 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/GoalOutcome.md
+              - name: GoalOutcomeReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/GoalOutcomeReference.md
+              - name: RiskAssessment 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/RiskAssessment.md
+              - name: RiskAssessmentBasis 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/RiskAssessmentBasis.md
+              - name: RiskAssessmentPrediction 
+                href: industryCommon/Healthcare/Clinical/ClinicalCore/RiskAssessmentPrediction.md
+            - name: ClinicalProcedure
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/overview.md
+              - name: ProcedureBasedOn 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureBasedOn.md
+              - name: ProcedureBodySite 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureBodySite.md
+              - name: ProcedureCode 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureCode.md
+              - name: ProcedureComplication 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureComplication.md
+              - name: ProcedureComplicationDetail 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureComplicationDetail.md
+              - name: ProcedureDefinition 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureDefinition.md
+              - name: ProcedureFocalDevice 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureFocalDevice.md
+              - name: ProcedureFollowUp 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureFollowUp.md
+              - name: ProcedurePartOf 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedurePartOf.md
+              - name: ProcedurePerformer 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedurePerformer.md
+              - name: ProcedureReason 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureReason.md
+              - name: ProcedureReasonReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureReasonReference.md
+              - name: ProcedureReport 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureReport.md
+              - name: ProcedureRequestBasedOn 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestBasedOn.md
+              - name: ProcedureRequestBodySite 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestBodySite.md
+              - name: ProcedureRequestCategory 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestCategory.md
+              - name: ProcedureRequestDefinition 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestDefinition.md
+              - name: ProcedureRequestReasonCode 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestReasonCode.md
+              - name: ProcedureRequestReasonReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestReasonReference.md
+              - name: ProcedureRequestRelevantHistory 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestRelevantHistory.md
+              - name: ProcedureRequestReplace 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestReplace.md
+              - name: ProcedureRequestSpecimen 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestSpecimen.md
+              - name: ProcedureRequestSupportingInformation 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestSupportingInformation.md
+              - name: ProcedureUsedCode 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureUsedCode.md
+              - name: ProcedureUsedReference 
+                href: industryCommon/Healthcare/Clinical/ClinicalProcedure/ProcedureUsedReference.md
+            - name: ClinicalReasoningCore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/overview.md
+              - name: DataReqCodeFilterValueCodeableConcept 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataReqCodeFilterValueCodeableConcept.md
+              - name: DataRequirementCodeFilter 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataRequirementCodeFilter.md
+              - name: DataRequirementCodeFilterValueCode 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataRequirementCodeFilterValueCode.md
+              - name: DataRequirementCodeFilterValueCoding 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataRequirementCodeFilterValueCoding.md
+              - name: DataRequirementDateFilter 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataRequirementDateFilter.md
+              - name: DataRequirementMustSupport 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataRequirementMustSupport.md
+              - name: DataRequirementProfile 
+                href: industryCommon/Healthcare/Clinical/ClinicalReasoningCore/DataRequirementProfile.md
+          - name: Diagnostics
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Diagnostics/overview.md
+            - name: DiagnosticCore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/overview.md
+              - name: BodySite 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/BodySite.md
+              - name: ObservationBasedOn 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationBasedOn.md
+              - name: ObservationCategory 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationCategory.md
+              - name: ObservationCode 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationCode.md
+              - name: ObservationComponent 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationComponent.md
+              - name: ObservationComponentReferenceRange 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationComponentReferenceRange.md
+              - name: ObservationInterpretation 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationInterpretation.md
+              - name: ObservationMethod 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationMethod.md
+              - name: ObservationPerformer 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationPerformer.md
+              - name: ObservationReferenceRange 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationReferenceRange.md
+              - name: ObservationReferenceRangeAppliesTo 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationReferenceRangeAppliesTo.md
+              - name: ObservationRelatedResource 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/ObservationRelatedResource.md
+              - name: SpecimenContainer 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/SpecimenContainer.md
+              - name: SpecimenParent 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/SpecimenParent.md
+              - name: SpecimenProcessing 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/SpecimenProcessing.md
+              - name: SpecimenProcessingAdditive 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/SpecimenProcessingAdditive.md
+              - name: SpecimenRequest 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticCore/SpecimenRequest.md
+            - name: DiagnosticReport
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticReport/overview.md
+              - name: DiagnosticReport 
+                href: industryCommon/Healthcare/Diagnostics/DiagnosticReport/DiagnosticReport.md
+          - name: Financial
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Financial/overview.md
+            - name: Financial
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Financial/Financial/overview.md
+              - name: Account 
+                href: industryCommon/Healthcare/Financial/Financial/Account.md
+              - name: BillingAccount 
+                href: industryCommon/Healthcare/Financial/Financial/BillingAccount.md
+              - name: Claim 
+                href: industryCommon/Healthcare/Financial/Financial/Claim.md
+              - name: ClaimCareTeam 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimCareTeam.md
+              - name: ClaimDiagnosis 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimDiagnosis.md
+              - name: ClaimInformation 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimInformation.md
+              - name: ClaimItem 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimItem.md
+              - name: ClaimResponse 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimResponse.md
+              - name: ClaimResponseAddItem 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimResponseAddItem.md
+              - name: ClaimResponseItem 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimResponseItem.md
+              - name: ClaimResponseItemAdjudication 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimResponseItemAdjudication.md
+              - name: ClaimResponseItemDetail 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimResponseItemDetail.md
+              - name: ClaimsProcedure 
+                href: industryCommon/Healthcare/Financial/Financial/ClaimsProcedure.md
+              - name: CodeableConcept 
+                href: industryCommon/Healthcare/Financial/Financial/CodeableConcept.md
+              - name: Contract 
+                href: industryCommon/Healthcare/Financial/Financial/Contract.md
+              - name: Coverage 
+                href: industryCommon/Healthcare/Financial/Financial/Coverage.md
+              - name: EligibilityRequest 
+                href: industryCommon/Healthcare/Financial/Financial/EligibilityRequest.md
+              - name: EligibilityRequestItem 
+                href: industryCommon/Healthcare/Financial/Financial/EligibilityRequestItem.md
+              - name: EligibilityResponse 
+                href: industryCommon/Healthcare/Financial/Financial/EligibilityResponse.md
+              - name: EligibilityResponseInsurance 
+                href: industryCommon/Healthcare/Financial/Financial/EligibilityResponseInsurance.md
+              - name: EnrollmentRequest 
+                href: industryCommon/Healthcare/Financial/Financial/EnrollmentRequest.md
+              - name: EnrollmentResponse 
+                href: industryCommon/Healthcare/Financial/Financial/EnrollmentResponse.md
+              - name: Insurance 
+                href: industryCommon/Healthcare/Financial/Financial/Insurance.md
+              - name: PaymentNotice 
+                href: industryCommon/Healthcare/Financial/Financial/PaymentNotice.md
+          - name: Foundational
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Foundational/overview.md
+            - name: Commoncore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Foundational/Commoncore/overview.md
+              - name: AccountType 
+                href: industryCommon/Healthcare/Foundational/Commoncore/AccountType.md
+              - name: ActivityDefinition 
+                href: industryCommon/Healthcare/Foundational/Commoncore/ActivityDefinition.md
+              - name: AppointmentEMR 
+                href: industryCommon/Healthcare/Foundational/Commoncore/AppointmentEMR.md
+              - name: CarePlan 
+                href: industryCommon/Healthcare/Foundational/Commoncore/CarePlan.md
+              - name: CareTeam 
+                href: industryCommon/Healthcare/Foundational/Commoncore/CareTeam.md
+              - name: CodeableConcept 
+                href: industryCommon/Healthcare/Foundational/Commoncore/CodeableConcept.md
+              - name: CommunicationRequest 
+                href: industryCommon/Healthcare/Foundational/Commoncore/CommunicationRequest.md
+              - name: Condition 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Condition.md
+              - name: DataRequirement 
+                href: industryCommon/Healthcare/Foundational/Commoncore/DataRequirement.md
+              - name: Device 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Device.md
+              - name: DeviceComponent 
+                href: industryCommon/Healthcare/Foundational/Commoncore/DeviceComponent.md
+              - name: DeviceMetric 
+                href: industryCommon/Healthcare/Foundational/Commoncore/DeviceMetric.md
+              - name: DeviceRequest 
+                href: industryCommon/Healthcare/Foundational/Commoncore/DeviceRequest.md
+              - name: Dosage 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Dosage.md
+              - name: DosageAddInstruction 
+                href: industryCommon/Healthcare/Foundational/Commoncore/DosageAddInstruction.md
+              - name: Encounter 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Encounter.md
+              - name: Endpoint 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Endpoint.md
+              - name: EpisodeOfCare 
+                href: industryCommon/Healthcare/Foundational/Commoncore/EpisodeOfCare.md
+              - name: Goal 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Goal.md
+              - name: HealthcareService 
+                href: industryCommon/Healthcare/Foundational/Commoncore/HealthcareService.md
+              - name: Location 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Location.md
+              - name: LocationEndPoint 
+                href: industryCommon/Healthcare/Foundational/Commoncore/LocationEndPoint.md
+              - name: LocationTelecom 
+                href: industryCommon/Healthcare/Foundational/Commoncore/LocationTelecom.md
+              - name: Medication 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Medication.md
+              - name: MedicationAdministration 
+                href: industryCommon/Healthcare/Foundational/Commoncore/MedicationAdministration.md
+              - name: MedicationRequest 
+                href: industryCommon/Healthcare/Foundational/Commoncore/MedicationRequest.md
+              - name: NutritionOrder 
+                href: industryCommon/Healthcare/Foundational/Commoncore/NutritionOrder.md
+              - name: Observation 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Observation.md
+              - name: PlanDefinition 
+                href: industryCommon/Healthcare/Foundational/Commoncore/PlanDefinition.md
+              - name: PractitionerRole 
+                href: industryCommon/Healthcare/Foundational/Commoncore/PractitionerRole.md
+              - name: Procedure 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Procedure.md
+              - name: ProcedureRequest 
+                href: industryCommon/Healthcare/Foundational/Commoncore/ProcedureRequest.md
+              - name: ReferralRequest 
+                href: industryCommon/Healthcare/Foundational/Commoncore/ReferralRequest.md
+              - name: RelatedPerson 
+                href: industryCommon/Healthcare/Foundational/Commoncore/RelatedPerson.md
+              - name: RequestGroup 
+                href: industryCommon/Healthcare/Foundational/Commoncore/RequestGroup.md
+              - name: Schedule 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Schedule.md
+              - name: Specimen 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Specimen.md
+              - name: Substance 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Substance.md
+              - name: Timing 
+                href: industryCommon/Healthcare/Foundational/Commoncore/Timing.md
+              - name: TimingDayOfWeek 
+                href: industryCommon/Healthcare/Foundational/Commoncore/TimingDayOfWeek.md
+              - name: TimingEvent 
+                href: industryCommon/Healthcare/Foundational/Commoncore/TimingEvent.md
+              - name: TimingTimeOfDay 
+                href: industryCommon/Healthcare/Foundational/Commoncore/TimingTimeOfDay.md
+              - name: TimingWhen 
+                href: industryCommon/Healthcare/Foundational/Commoncore/TimingWhen.md
+              - name: VisionPrescription 
+                href: industryCommon/Healthcare/Foundational/Commoncore/VisionPrescription.md
+            - name: HealthcareFoundation
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/overview.md
+              - name: AllergyIntolerance 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/AllergyIntolerance.md
+              - name: AppointmentEMR 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/AppointmentEMR.md
+              - name: CarePlan 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CarePlan.md
+              - name: CarePlanActivity 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CarePlanActivity.md
+              - name: CarePlanActivityGoal 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CarePlanActivityGoal.md
+              - name: CarePlanGoal 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CarePlanGoal.md
+              - name: CareTeam 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CareTeam.md
+              - name: CareTeamCategory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CareTeamCategory.md
+              - name: CareTeamManagingOrganization 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CareTeamManagingOrganization.md
+              - name: CareTeamParticipant 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CareTeamParticipant.md
+              - name: CareTeamReasonCode 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CareTeamReasonCode.md
+              - name: CareTeamReasonReference 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/CareTeamReasonReference.md
+              - name: Condition 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/Condition.md
+              - name: ConditionBodySite 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ConditionBodySite.md
+              - name: ConditionCategory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ConditionCategory.md
+              - name: ConditionEvidence 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ConditionEvidence.md
+              - name: ConditionStage 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ConditionStage.md
+              - name: Contact 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/Contact.md
+              - name: Encounter 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/Encounter.md
+              - name: EncounterAccount 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterAccount.md
+              - name: EncounterClassHistory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterClassHistory.md
+              - name: EncounterDiagnosis 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterDiagnosis.md
+              - name: EncounterEpisodeOfCare 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterEpisodeOfCare.md
+              - name: EncounterHospitalizationArrangement 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterHospitalizationArrangement.md
+              - name: EncounterHospitalizationCourtesy 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterHospitalizationCourtesy.md
+              - name: EncounterHospitalizationDiet 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterHospitalizationDiet.md
+              - name: EncounterLocation 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterLocation.md
+              - name: EncounterParticipant 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterParticipant.md
+              - name: EncounterParticipantType 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterParticipantType.md
+              - name: EncounterReason 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterReason.md
+              - name: EncounterReferralRequest 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterReferralRequest.md
+              - name: EncounterStatusHistory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterStatusHistory.md
+              - name: EncounterType 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/EncounterType.md
+              - name: MedicationAdministration 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministration.md
+              - name: MedicationAdministrationDefinition 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationDefinition.md
+              - name: MedicationAdministrationDevice 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationDevice.md
+              - name: MedicationAdministrationEventHistory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationEventHistory.md
+              - name: MedicationAdministrationPartOf 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationPartOf.md
+              - name: MedicationAdministrationPerformer 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationPerformer.md
+              - name: MedicationAdministrationReasonCode 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationReasonCode.md
+              - name: MedicationAdministrationReasonNotGiven 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationReasonNotGiven.md
+              - name: MedicationAdministrationReasonReference 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationReasonReference.md
+              - name: MedicationAdministrationSupportingInformation 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationAdministrationSupportingInformation.md
+              - name: MedicationRequest 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequest.md
+              - name: MedicationRequestBasedOn 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestBasedOn.md
+              - name: MedicationRequestDefinition 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestDefinition.md
+              - name: MedicationRequestDetectedIssue 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestDetectedIssue.md
+              - name: MedicationRequestDosageInstruction 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestDosageInstruction.md
+              - name: MedicationRequestEventHistory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestEventHistory.md
+              - name: MedicationRequestReasonCode 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestReasonCode.md
+              - name: MedicationRequestReasonReference 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestReasonReference.md
+              - name: MedicationRequestSupportingInfo 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/MedicationRequestSupportingInfo.md
+              - name: Observation 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/Observation.md
+              - name: ObservationBasedOn 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationBasedOn.md
+              - name: ObservationCategory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationCategory.md
+              - name: ObservationCode 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationCode.md
+              - name: ObservationComponent 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationComponent.md
+              - name: ObservationComponentReferenceRange 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationComponentReferenceRange.md
+              - name: ObservationInterpretation 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationInterpretation.md
+              - name: ObservationMethod 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationMethod.md
+              - name: ObservationPerformer 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationPerformer.md
+              - name: ObservationReferenceRange 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationReferenceRange.md
+              - name: ObservationReferenceRangeAppliesTo 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationReferenceRangeAppliesTo.md
+              - name: ObservationRelatedResource 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ObservationRelatedResource.md
+              - name: Procedure 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/Procedure.md
+              - name: ProcedureBasedOn 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureBasedOn.md
+              - name: ProcedureBodySite 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureBodySite.md
+              - name: ProcedureCode 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureCode.md
+              - name: ProcedureComplicationDetail 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureComplicationDetail.md
+              - name: ProcedureDefinition 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureDefinition.md
+              - name: ProcedureFocalDevice 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureFocalDevice.md
+              - name: ProcedureFollowUp 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureFollowUp.md
+              - name: ProcedurePartOf 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedurePartOf.md
+              - name: ProcedurePerformer 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedurePerformer.md
+              - name: ProcedureReason 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureReason.md
+              - name: ProcedureReasonReference 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureReasonReference.md
+              - name: ProcedureReport 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureReport.md
+              - name: ProcedureRequest 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequest.md
+              - name: ProcedureRequestBasedOn 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestBasedOn.md
+              - name: ProcedureRequestCategory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestCategory.md
+              - name: ProcedureRequestDefinition 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestDefinition.md
+              - name: ProcedureRequestReasonCode 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestReasonCode.md
+              - name: ProcedureRequestReasonReference 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestReasonReference.md
+              - name: ProcedureRequestRelevantHistory 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestRelevantHistory.md
+              - name: ProcedureRequestReplace 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestReplace.md
+              - name: ProcedureRequestSpecimen 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestSpecimen.md
+              - name: ProcedureRequestSupportingInformation 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestSupportingInformation.md
+              - name: ProcedureUsedReference 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/ProcedureUsedReference.md
+              - name: RelatedPerson 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/RelatedPerson.md
+              - name: Task 
+                href: industryCommon/Healthcare/Foundational/HealthcareFoundation/Task.md
+          - name: Medication
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Medication/overview.md
+            - name: MedicationCore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Medication/MedicationCore/overview.md
+              - name: MedicalIdentifier 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicalIdentifier.md
+              - name: MedicationAdministrationDefinition 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationDefinition.md
+              - name: MedicationAdministrationDevice 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationDevice.md
+              - name: MedicationAdministrationEventHistory 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationEventHistory.md
+              - name: MedicationAdministrationPartOf 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationPartOf.md
+              - name: MedicationAdministrationPerformer 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationPerformer.md
+              - name: MedicationAdministrationReasonCode 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationReasonCode.md
+              - name: MedicationAdministrationReasonNotGiven 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationReasonNotGiven.md
+              - name: MedicationAdministrationReasonReference 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationReasonReference.md
+              - name: MedicationAdministrationSupportingInformation 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationAdministrationSupportingInformation.md
+              - name: MedicationCode 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationCode.md
+              - name: MedicationForm 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationForm.md
+              - name: MedicationImage 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationImage.md
+              - name: MedicationIngredient 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationIngredient.md
+              - name: MedicationPackageBatch 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationPackageBatch.md
+              - name: MedicationPackageContent 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationPackageContent.md
+              - name: MedicationRequestBasedOn 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestBasedOn.md
+              - name: MedicationRequestDefinition 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestDefinition.md
+              - name: MedicationRequestDetectedIssue 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestDetectedIssue.md
+              - name: MedicationRequestDosageInstruction 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestDosageInstruction.md
+              - name: MedicationRequestEventHistory 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestEventHistory.md
+              - name: MedicationRequestReasonCode 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestReasonCode.md
+              - name: MedicationRequestReasonReference 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestReasonReference.md
+              - name: MedicationRequestSupportingInfo 
+                href: industryCommon/Healthcare/Medication/MedicationCore/MedicationRequestSupportingInfo.md
+          - name: Workflow
+            items:
+            - name: Summary
+              href: industryCommon/Healthcare/Workflow/overview.md
+            - name: WorkflowClinicalProcess
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/overview.md
+              - name: ActivityDefinitionBodySite 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionBodySite.md
+              - name: ActivityDefinitionContact 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionContact.md
+              - name: ActivityDefinitionContributor 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionContributor.md
+              - name: ActivityDefinitionContributorContact 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionContributorContact.md
+              - name: ActivityDefinitionDosage 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionDosage.md
+              - name: ActivityDefinitionDynamicValue 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionDynamicValue.md
+              - name: ActivityDefinitionJurisdiction 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionJurisdiction.md
+              - name: ActivityDefinitionLibrary 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionLibrary.md
+              - name: ActivityDefinitionParticipant 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionParticipant.md
+              - name: ActivityDefinitionRelatedArtifact 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionRelatedArtifact.md
+              - name: ActivityDefinitionTopic 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionTopic.md
+              - name: ActivityDefinitionUseContext 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/ActivityDefinitionUseContext.md
+              - name: NutritionOrderAllergyIntolerance 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderAllergyIntolerance.md
+              - name: NutritionOrderEnteralFormulaAdministration 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderEnteralFormulaAdministration.md
+              - name: NutritionOrderExcludeFoodModifier 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderExcludeFoodModifier.md
+              - name: NutritionOrderFoodPreferenceModifier 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderFoodPreferenceModifier.md
+              - name: NutritionOrderOralDietFluidConsistencyType 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderOralDietFluidConsistencyType.md
+              - name: NutritionOrderOralDietNutrient 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderOralDietNutrient.md
+              - name: NutritionOrderOralDietSchedule 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderOralDietSchedule.md
+              - name: NutritionOrderOralDietTexture 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderOralDietTexture.md
+              - name: NutritionOrderOralDietType 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderOralDietType.md
+              - name: NutritionOrderSupplement 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderSupplement.md
+              - name: NutritionOrderSupplementSchedule 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/NutritionOrderSupplementSchedule.md
+              - name: VisionPrescriptionDispense 
+                href: industryCommon/Healthcare/Workflow/WorkflowClinicalProcess/VisionPrescriptionDispense.md
+            - name: WorkflowCore
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/overview.md
+              - name: PlanDefinitionAction 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionAction.md
+              - name: PlanDefinitionActionAction 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionAction.md
+              - name: PlanDefinitionActionArtifact 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionArtifact.md
+              - name: PlanDefinitionActionCode 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionCode.md
+              - name: PlanDefinitionActionCondition 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionCondition.md
+              - name: PlanDefinitionActionDynamicValue 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionDynamicValue.md
+              - name: PlanDefinitionActionGoal 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionGoal.md
+              - name: PlanDefinitionActionInput 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionInput.md
+              - name: PlanDefinitionActionOutput 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionOutput.md
+              - name: PlanDefinitionActionReason 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionReason.md
+              - name: PlanDefinitionActionRelatedAction 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionRelatedAction.md
+              - name: PlanDefinitionActionTriggerDefinition 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionActionTriggerDefinition.md
+              - name: PlanDefinitionArtifact 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionArtifact.md
+              - name: PlanDefinitionContributor 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionContributor.md
+              - name: PlanDefinitionContributorContact 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionContributorContact.md
+              - name: PlanDefinitionGoal 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionGoal.md
+              - name: PlanDefinitionGoalAddresses 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionGoalAddresses.md
+              - name: PlanDefinitionGoalArtifact 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionGoalArtifact.md
+              - name: PlanDefinitionGoalTarget 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionGoalTarget.md
+              - name: PlanDefinitionJurisdiction 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionJurisdiction.md
+              - name: PlanDefinitionLibrary 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionLibrary.md
+              - name: PlanDefinitionParticipant 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionParticipant.md
+              - name: PlanDefinitionTopic 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionTopic.md
+              - name: PlanDefinitionUseContext 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/PlanDefinitionUseContext.md
+              - name: ReferenceRangeAppliesTo 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/ReferenceRangeAppliesTo.md
+              - name: TaskBasedOn 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskBasedOn.md
+              - name: TaskInput 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskInput.md
+              - name: TaskOutput 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskOutput.md
+              - name: TaskPartOf 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskPartOf.md
+              - name: TaskPerformerType 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskPerformerType.md
+              - name: TaskRelevantHistory 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskRelevantHistory.md
+              - name: TaskRestrictionRecipient 
+                href: industryCommon/Healthcare/Workflow/WorkflowCore/TaskRestrictionRecipient.md
+            - name: WorkflowReferral
+              items:
+              - name: Summary
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/overview.md
+              - name: ReferralRequestBasedOn 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestBasedOn.md
+              - name: ReferralRequestDefinition 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestDefinition.md
+              - name: ReferralRequestReasonCode 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestReasonCode.md
+              - name: ReferralRequestReasonReference 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestReasonReference.md
+              - name: ReferralRequestRecipient 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestRecipient.md
+              - name: ReferralRequestRelevantHistory 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestRelevantHistory.md
+              - name: ReferralRequestReplace 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestReplace.md
+              - name: ReferralRequestServiceRequested 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
+              - name: ReferralRequestSupportingInformation 
+                href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
         - name: nonProfit
           items:
           - name: Summary
