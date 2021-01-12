@@ -72,19 +72,19 @@
           - name: Manufacturing accelerator
             href: manufacturing-accelerator.md
           - name: Media and communications accelerator
-            href: media-accelerator.md    
+            href: media-accelerator.md
           - name: Nonprofit accelerator
             href: NFP-accelerator.md
           - name: Templates
             items:
               - name: Healthcare accelerator Patient Scheduling and Screening template
                 items:
-                - name: Overview
-                  href: patient-scheduling-screening-template.md
-                - name: Deploy and configure the template
-                  href: patient-scheduling-screening-template-deploy.md
-                - name: Use the template
-                  href: patient-scheduling-screening-template-use.md
+                  - name: Overview
+                    href: patient-scheduling-screening-template.md
+                  - name: Deploy and configure the template
+                    href: patient-scheduling-screening-template-deploy.md
+                  - name: Use the template
+                    href: patient-scheduling-screening-template-use.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
