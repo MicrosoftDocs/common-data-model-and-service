@@ -30,25 +30,25 @@
       - name: Microsoft Cloud for Healthcare
         items:
           - name: Overview
-            href: industryCommon/Healthcare/Healthcare-overview.md
+            href: schema/core/industryCommon/Healthcare/Healthcare-overview.md
           - name: Administration
-            href: industryCommon/Healthcare/Administration/overview.md
+            href: schema/core/industryCommon/Healthcare/Administration/overview.md
           - name: Application
-            href: industryCommon/Healthcare/Application/overview.md
+            href: schema/core/industryCommon/Healthcare/Application/overview.md
           - name: Azure API for FHIR support
-            href: industryCommon/Healthcare/AzureAPIforFHIRsupport/overview.md
+            href: schema/core/industryCommon/Healthcare/AzureAPIforFHIRsupport/overview.md
           - name: Clinical
-            href: industryCommon/Healthcare/Clinical/overview.md
+            href: schema/core/industryCommon/Healthcare/Clinical/overview.md
           - name: Diagnostics
-            href: industryCommon/Healthcare/Diagnostics/overview.md
+            href: schema/core/industryCommon/Healthcare/Diagnostics/overview.md
           - name: Financial
-            href: industryCommon/Healthcare/Financial/overview.md
+            href: schema/core/industryCommon/Healthcare/Financial/overview.md
           - name: Foundational
-            href: industryCommon/Healthcare/Foundational/overview.md
+            href: schema/core/industryCommon/Healthcare/Foundational/overview.md
           - name: Medication
-            href: industryCommon/Healthcare/Medication/overview.md
+            href: schema/core/industryCommon/Healthcare/Medication/overview.md
           - name: Workflow
-            href: industryCommon/Healthcare/Workflow/overview.md
+            href: schema/core/industryCommon/Healthcare/Workflow/overview.md
       - name: Financial services accelerator
         items: 
           - name: Overview
