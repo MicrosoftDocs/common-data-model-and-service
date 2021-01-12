@@ -61,20 +61,20 @@
                 href: hied-accelerator.md
               - name: K-12 education
                 href: edu-k12-accelerator.md
-              - name: Financial services accelerator
-                items: 
-                - name: Overview
-                  href: fs-overview.md
-                - name: Banking
-                  href: banking-accelerator.md
-                - name: Insurance (preview)
-                  href: insurance-accelerator.md
-              - name: Manufacturing accelerator
-                href: manufacturing-accelerator.md
-              - name: Media and communications accelerator
-                href: media-accelerator.md    
-              - name: Nonprofit accelerator
-                href: NFP-accelerator.md
+          - name: Financial services accelerator
+            items: 
+            - name: Overview
+              href: fs-overview.md
+            - name: Banking
+              href: banking-accelerator.md
+            - name: Insurance (preview)
+              href: insurance-accelerator.md
+          - name: Manufacturing accelerator
+            href: manufacturing-accelerator.md
+          - name: Media and communications accelerator
+            href: media-accelerator.md    
+          - name: Nonprofit accelerator
+            href: NFP-accelerator.md
           - name: Templates
             items:
             - name: Healthcare accelerator Patient Scheduling and Screening template
