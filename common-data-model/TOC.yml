@@ -29,6 +29,8 @@
         href: industry-accelerators.md
       - name: Microsoft Cloud for Healthcare
         items:
+          - name: Overview
+          - href: industryCommon/Heathcare/Healthcare-overview.md
           - name: Administration
             href: industryCommon/Heathcare/Administration/overview.md
           - name: Application
