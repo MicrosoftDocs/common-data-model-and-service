@@ -17,10 +17,10 @@ This page lists the traits that are available in Common Data Model.
 
 The root 'trait' from which all others derive.
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.application</b>
@@ -28,21 +28,21 @@ None
 
 Root trait for application information
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.application|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.application.releaseVersion</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.application -> is.application.releaseVersion|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.CDM</b>
@@ -50,21 +50,21 @@ None
 
 Root trait for information about the CDM itself.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.CDM|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.CDM.entityVersion</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.CDM -> is.CDM.entityVersion|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>version</b>|
@@ -74,12 +74,12 @@ None
 
 Identifies standard groups of attributes in CDM entities.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.CDM -> is.CDM.attributeGroup|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>cdmSchemas</b>|
@@ -89,12 +89,12 @@ Identifies standard groups of attributes in CDM entities.
 
 Associates a list of localized string with an object
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.localized|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.localized.displayedAs</b>
@@ -102,12 +102,12 @@ None
 
 Holds the list of language specific display text for an object.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.localized -> is.localized.displayedAs|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>displayName</b>|
@@ -117,12 +117,12 @@ Holds the list of language specific display text for an object.
 
 Holds the list of language specific descriptive text for an object.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.localized -> is.localized.describedAs|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>description</b>|
@@ -132,23 +132,23 @@ Holds the list of language specific descriptive text for an object.
 
 The attribute value may be set to NULL.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.nullable|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>isNullable</b>|
 
 ## <b>is.readOnly</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.readOnly|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>isReadOnly</b>|
@@ -158,12 +158,12 @@ The attribute value may be set to NULL.
 
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.requiredAtLevel|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.constrained</b>
@@ -171,12 +171,12 @@ None
 
 Maximum length or value constraints
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.constrained|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>maximumValue</b>|
@@ -188,12 +188,12 @@ Maximum length or value constraints
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.constrainedList|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>valueConstrainedToList</b>|
@@ -203,12 +203,12 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.constrainedList.correlated|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>valueConstrainedToList</b>|
@@ -218,12 +218,12 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.constrainedList.string|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>valueConstrainedToList</b>|
@@ -233,12 +233,12 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities which are defined in an identified public location.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.constrainedList.wellKnown|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>valueConstrainedToList</b>|
@@ -248,12 +248,12 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 
 The attribute value is correlated with the sourceAttribute
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.correlatedWith|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.calculationOf</b>
@@ -261,12 +261,12 @@ None
 
 The attribute value is the result of a calculation on the sourceAttribute
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.correlatedWith -> is.calculationOf|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.partition</b>
@@ -274,21 +274,21 @@ None
 
 The base trait for partition specific traits.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.partition|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.partition.format</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.partition -> is.partition.format|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.partition.format.CSV</b>
@@ -296,12 +296,12 @@ None
 
 The value is the file format settings of a partition CSV file.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.partition -> is.partition.format -> is.partition.format.CSV|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.partition.format.parquet</b>
@@ -309,12 +309,12 @@ None
 
 The value is the file format settings of a partition parquet file.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.partition -> is.partition.format -> is.partition.format.parquet|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.partition.format.deltaLake</b>
@@ -322,12 +322,12 @@ None
 
 The partition path points to one complete folder of Spark Delta Lake data. Options allow for time travel access to the data.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.partition -> is.partition.format -> is.partition.format.deltaLake|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.partition.culture</b>
@@ -335,12 +335,12 @@ None
 
 The value denotes culture in the partition files.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.partition -> is.partition.culture|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.modelConversion</b>
@@ -348,12 +348,12 @@ None
 
 Represents a correlation with model.json to CDM model conversion.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.modelConversion|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.modelConversion.modelVersion</b>
@@ -361,12 +361,12 @@ None
 
 The value denotes the version number set in a converted model.json file
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.modelConversion -> is.modelConversion.modelVersion|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.modelConversion.otherAnnotations</b>
@@ -374,12 +374,12 @@ None
 
 The value denotes model.json annotations which have not been recognized.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.modelConversion -> is.modelConversion.otherAnnotations|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.modelConversion.referenceModelMap</b>
@@ -387,12 +387,12 @@ None
 
 The value denotes a reference model map containing multiple id-location pairs used for reference entity resolution.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.modelConversion -> is.modelConversion.referenceModelMap|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.managedBy</b>
@@ -400,12 +400,12 @@ None
 
 The value denotes information about a service/entity who is owning a model.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.managedBy|
 
-### Properties
+### **Properties**
 None
 
 ## <b>does</b>
@@ -413,12 +413,12 @@ None
 
 A root with a more meaningful base name for certain exhibited traits
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does|
 
-### Properties
+### **Properties**
 None
 
 ## <b>does.haveDefault</b>
@@ -426,12 +426,12 @@ None
 
 An attribute has a default value
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.haveDefault|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>defaultValue</b>|
@@ -441,12 +441,12 @@ An attribute has a default value
 
 Elevates (up to a entity) a trait that describes a specific attribute
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.elevateAttribute|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.entityState</b>
@@ -454,12 +454,12 @@ None
 
 The attribute represents the current state of the entity.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.elevateAttribute -> means.entityState|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.identifiedBy</b>
@@ -467,42 +467,42 @@ None
 
 Names a specifc identity attribute to use with an entity
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.elevateAttribute -> is.identifiedBy|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>primaryKey</b>|
 |<b>isPrimaryKey</b>|
 
 ## <b>is.named</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.elevateAttribute -> is.named|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.ordered</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.elevateAttribute -> is.ordered|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.locatable</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> does -> does.elevateAttribute -> is.locatable|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means</b>
@@ -510,75 +510,75 @@ None
 
 A root with a more meaningful base name for certain semantic meaning traits
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.entityId</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.entityId|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.barCode</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.barCode|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.brand</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.brand|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.governmentID</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.governmentID|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.name</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.company.name</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.company.name|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.person.prefix</b>
@@ -586,12 +586,12 @@ None
 
 A salutation such as a title, rank or honorific to place before a person's name
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.person.prefix|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.person.firstName</b>
@@ -599,21 +599,21 @@ None
 
 A person's given or first name.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.person.firstName|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.person.middleName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.person.middleName|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.person.lastName</b>
@@ -621,12 +621,12 @@ None
 
 A person's surname, family name or last name.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.person.lastName|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.person.suffix</b>
@@ -634,138 +634,138 @@ None
 
 Follows a person's name and provides additional information about their position, education or honorific
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.person.suffix|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.person.fullName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.name -> means.identity.person.fullName|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.rowNumber</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.rowNumber|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.scd.originalIdentity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.scd.originalIdentity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.scd.surogateIdentity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.scd.surogateIdentity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service.email</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service.email|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service.facebook</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service.facebook|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service.phone</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service.phone|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service.phone.cell</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service.phone.cell|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service.phone.fax</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service.phone.fax|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.service.twitter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.service.twitter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.SKU</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.SKU|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.tickerSymbol</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.tickerSymbol|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.title</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.title|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.IP4Address</b>
@@ -773,12 +773,12 @@ None
 
 Internet Protocol V4 Address
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.IP4Address|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.identity.IP6Address</b>
@@ -786,21 +786,21 @@ None
 
 Internet Protocol V6 Address
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.identity -> means.identity.IP6Address|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.fileName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.fileName|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.entityName</b>
@@ -808,12 +808,12 @@ None
 
 A string value is the name of a CDM entity.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.entityName|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.entityName.specific</b>
@@ -821,741 +821,741 @@ None
 
 Holds the name of specific CDM entity as a parameter of the trait.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.entityName -> means.entityName.specific|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.text</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.text|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.text.HTML</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.text -> means.content.text.HTML|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.text.JSON</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.text -> means.content.text.JSON|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.text.XML</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.text -> means.content.text.XML|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.text.CSV</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.text -> means.content.text.CSV|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary.image</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary -> means.content.binary.image|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary.image.BMP</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.BMP|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary.image.GIF</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.GIF|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary.image.JPG</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.JPG|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary.image.PNG</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.PNG|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.content.binary.image.TIFF</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.TIFF|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.account</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.account|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.accountLeads</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.accountLeads|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.activityParty</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.activityParty|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.activityPointer</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.activityPointer|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.annotation</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.annotation|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.appointment</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.appointment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.brand</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.brand|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.businessUnit</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.businessUnit|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.campaign</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.campaign|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.campaignActivity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.campaignActivity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.campaignItem</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.campaignItem|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.campaignResponse</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.campaignResponse|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.channel</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.channel|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.characteristic</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.characteristic|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.company</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.company|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.competitor</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.competitor|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.competitorAddress</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.competitorAddress|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.competitorProduct</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.competitorProduct|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.connection</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.connection|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.connectionRole</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.connectionRole|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.contract</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.contract|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.contractDetail</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.contractDetail|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.customer</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.customer|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.customerAddress</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.customerAddress|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.customerRelationship</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.customerRelationship|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.discount</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.discount|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.discountType</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.discountType|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.email</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.email|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.entitlement</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.entitlement|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.equipment</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.equipment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.fax</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.fax|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.feedback</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.feedback|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.goal</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.goal|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.incident</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.incident|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.invoice</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.invoice|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.invoiceDetail</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.invoiceDetail|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.KbArticle</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.KbArticle|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.knowledgeArticle</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.knowledgeArticle|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.lead</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.lead|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.leadAddress</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.leadAddress|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.letter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.letter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.metric</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.metric|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.opportunity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.opportunity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.organization</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.organization|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.organization.unit</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.organization.unit|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.owner</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.owner|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.person</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.person|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.person.contact</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.person -> means.idea.person.contact|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.person.employee</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.person -> means.idea.person.employee|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.person.representative</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.person -> means.idea.person.representative|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.phoneCall</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.phoneCall|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.place</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.place|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.position</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.position|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.priceLevel</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.priceLevel|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.product</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.product|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.productGroup</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.productGroup|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.project</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.project|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.promotion</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.promotion|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.quote</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.quote|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.ratingModel</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.ratingModel|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.resource</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.resource|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.resourceGroup</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.resourceGroup|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.salesLiterature</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.salesLiterature|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.salesOrder</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.salesOrder|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.scenario</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.scenario|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.schedule</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.schedule|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.service</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.service|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.service </b>
@@ -1563,30 +1563,30 @@ None
 
 Deprecated. extra space at the end was an error.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.service -> means.idea.service |
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.serviceAppointment</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.serviceAppointment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.site</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.site|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.SLA</b>
@@ -1594,192 +1594,192 @@ None
 
 A Service Level Agreement
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.SLA|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.socialActivity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.socialActivity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.socialProfile</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.socialProfile|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.systemUser</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.systemUser|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.task</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.task|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.team</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.team|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.territory</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.territory|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.UoM</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.UoM|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.idea.utility</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.idea -> means.idea.utility|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.category</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.category|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.relationship</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.relationship|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.relationship.parent</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.relationship -> means.relationship.parent|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.relationship.child</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.relationship -> means.relationship.child|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.caption</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.caption|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.displayText</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.displayText|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.documentation</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.documentation|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.description</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.description|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.definition</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.definition|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.phonetic</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.phonetic|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.regarding</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.regarding|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.URL</b>
@@ -1787,21 +1787,21 @@ None
 
 A Uniform Resource Locator. A web address.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.URL|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.URL.image</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.URL -> means.reference.URL.image|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.URI</b>
@@ -1809,390 +1809,390 @@ None
 
 A Uniform Resource Identifier
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.URI|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.language</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.language|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.language.tag</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.language -> means.reference.language.tag|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.culture</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.culture|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.reference.culture.tag</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.reference -> means.reference.culture -> means.reference.culture.tag|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.fiscal</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.fiscal|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.ISO8601</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.ISO8601|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.manufacturing</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.manufacturing|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.reporting</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.reporting|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.day</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfWeek</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfWeek|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfTendays</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfTendays|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfMonth</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfMonth|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfMonthOrPeriod</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfMonthOrPeriod|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfQuarter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfQuarter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfTrimester</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfTrimester|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfHalfyear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfHalfyear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.dayOfYear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfYear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.week</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.week|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.weekOfMonth</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfMonth|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.weekOfQuarter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfQuarter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.weekOfTrimester</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfTrimester|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.weekOfHalfyear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfHalfyear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.weekOfYear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfYear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.tenday</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.tenday|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.tendayOfMonth</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfMonth|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.tendayOfQuarter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfQuarter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.tendayOfTrimester</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfTrimester|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.tendayOfHalfyear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfHalfyear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.tendayOfYear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfYear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.month</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.month|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.monthOfQuarter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfQuarter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.monthOfTrimester</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfTrimester|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.monthOfHalfyear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfHalfyear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.monthOfYear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfYear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.quarter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.quarter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.quarterOfHalfyear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.quarter -> means.calendar.quarterOfHalfyear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.quarterOfYear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.quarter -> means.calendar.quarterOfYear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.trimester</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.trimester|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.trimesterOfYear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.trimester -> means.calendar.trimesterOfYear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.calendar.year</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.calendar -> means.calendar.year|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension</b>
@@ -2200,12 +2200,12 @@ None
 
 Measurement of some physical dimension
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.time</b>
@@ -2213,12 +2213,12 @@ None
 
 Measurement of time
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.time|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.length</b>
@@ -2226,39 +2226,39 @@ None
 
 Measurement of length
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.distance</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length -> means.measurement.distance|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.distance.inches</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length -> means.measurement.distance -> means.measurement.distance.inches|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.distance.cm</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length -> means.measurement.distance -> means.measurement.distance.cm|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.mass</b>
@@ -2266,12 +2266,12 @@ None
 
 Measurement of mass
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.mass|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.electricCurrent</b>
@@ -2279,12 +2279,12 @@ None
 
 Measurement of electic current
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.electricCurrent|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.temperature</b>
@@ -2292,21 +2292,21 @@ None
 
 Measurement of thermodynamic temperature
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.temperature|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.temperature</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.temperature -> means.measurement.temperature|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.amount</b>
@@ -2314,12 +2314,12 @@ None
 
 Measurement of amount of substance
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.amount|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.luminousIntensity</b>
@@ -2327,12 +2327,12 @@ None
 
 Measurement of electic current
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.luminousIntensity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.frequency</b>
@@ -2340,12 +2340,12 @@ None
 
 Measurement of frequency
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.frequency|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.angle</b>
@@ -2353,12 +2353,12 @@ None
 
 Measurement of geometric angle
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.angle|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.force</b>
@@ -2366,21 +2366,21 @@ None
 
 Measurement of force
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.force|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.weight</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.force -> means.measurement.weight|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.pressure</b>
@@ -2388,12 +2388,12 @@ None
 
 Measurement of pressure or stress
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.pressure|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.energy</b>
@@ -2401,12 +2401,12 @@ None
 
 Measurement of energy, work, heat
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.energy|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.power</b>
@@ -2414,12 +2414,12 @@ None
 
 Measurement of power, radiant flex
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.power|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.electricCharge</b>
@@ -2427,12 +2427,12 @@ None
 
 Measurement of electric charge, quantity of electricity
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.electricCharge|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.electromotiveForce</b>
@@ -2440,12 +2440,12 @@ None
 
 Measurement of volatage, EMF, electrical potential difference
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.electromotiveForce|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.capacitance</b>
@@ -2453,12 +2453,12 @@ None
 
 Measurement of electical capacitance
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.capacitance|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.resistance</b>
@@ -2466,12 +2466,12 @@ None
 
 Measurement of electrical resistance, impedance, reactance
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.resistance|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.dimension.dataRate</b>
@@ -2479,12 +2479,12 @@ None
 
 Measurement of data rate
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.dataRate|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent</b>
@@ -2492,12 +2492,12 @@ None
 
 Description of one fundamental component of a derived unit
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.second</b>
@@ -2505,12 +2505,12 @@ None
 
 A fundamental component expressing time in seconds
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.second|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.meter</b>
@@ -2518,12 +2518,12 @@ None
 
 A fundamental component expressing length in meters
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.meter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.kilogram</b>
@@ -2531,12 +2531,12 @@ None
 
 A fundamental component expressing mass in kilogram
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.kilogram|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.ampere</b>
@@ -2544,12 +2544,12 @@ None
 
 A fundamental component expressing electric current in amperes
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.ampere|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.kelvin</b>
@@ -2557,12 +2557,12 @@ None
 
 A fundamental component expressing thermodynamic temperature in degrees kelvin
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.kelvin|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.mole</b>
@@ -2570,12 +2570,12 @@ None
 
 A fundamental component expressing amount in moles
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.mole|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.measurement.fundamentalComponent.candela</b>
@@ -2583,12 +2583,12 @@ None
 
 A fundamental component expressing luminous intensity in candelas
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.candela|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix</b>
@@ -2596,12 +2596,12 @@ None
 
 Unit prefixes denoting a factor of one thousandth
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.giga</b>
@@ -2609,12 +2609,12 @@ None
 
 Denotes one thousanth of the unit; 10E9
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.giga|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.mega</b>
@@ -2622,12 +2622,12 @@ None
 
 Denotes one thousanth of the unit; 10E6
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.mega|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.kilo</b>
@@ -2635,12 +2635,12 @@ None
 
 Denotes one thousanth of the unit; 10E3
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.kilo|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.centi</b>
@@ -2648,12 +2648,12 @@ None
 
 Denotes one thousanth of the unit; 10E-2
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.centi|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.milli</b>
@@ -2661,12 +2661,12 @@ None
 
 Denotes one thousanth of the unit; 10E-3
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.milli|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.micro</b>
@@ -2674,12 +2674,12 @@ None
 
 Denotes one thousanth of the unit; 10E-6
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.micro|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.nano</b>
@@ -2687,12 +2687,12 @@ None
 
 Denotes one thousanth of the unit; 10E-9
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.nano|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.prefix.pico</b>
@@ -2700,480 +2700,480 @@ None
 
 Denotes one thousanth of the unit; 10E-12
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.pico|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.degree</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.units.degree|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.age</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.age|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.code</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.code|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.color</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.color|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.density</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.density|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.sequence</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.sequence|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.version</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.version|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.cost</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency -> means.measurement.currency.cost|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.price</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency -> means.measurement.currency.price|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.revenue</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency -> means.measurement.currency.revenue|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.iSOCode</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency.iSOCode|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.type</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency.type|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.type.destination</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency.type -> means.measurement.currency.type.destination|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currency.type.source</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currency.type -> means.measurement.currency.type.source|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.time</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.time|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.completion</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.completion|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.creation</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.creation|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.end</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.end|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.end.scd</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.end.scd|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.modify</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.modify|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.occurrence</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.occurrence|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.remove</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.remove|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.start</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.start|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.start.scd</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.start.scd|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.date.target</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.target|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.seconds</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.seconds|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.minutes</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.minutes|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.hours</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.hours|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.days</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.days|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.months</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.months|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.weeks</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.weeks|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.quarters</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.quarters|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.trimesters</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.trimesters|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.duration.years</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.years|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.probability</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.probability|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.count</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.count|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.percent</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.percent|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.percent.ownership</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.percent.ownership|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.percent.voterright</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.percent.voterright|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.range</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.range|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.range.high</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.range -> means.measurement.range.high|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.range.low</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.range -> means.measurement.range.low|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.rate</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.rate|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.rate.type</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.rate.type|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.size</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.size|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.size.depth</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.depth|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.size.height</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.height|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.size.volume</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.volume|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.size.width</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.width|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.currencyCode</b>
@@ -3181,12 +3181,12 @@ None
 
 Indicates this value represents an ISO 4217 currency code
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement -> means.measurement.currencyCode|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si</b>
@@ -3194,12 +3194,12 @@ None
 
 Measurments in international system of units
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.second</b>
@@ -3207,12 +3207,12 @@ None
 
 Measurement of time in seconds
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.second|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.meter</b>
@@ -3220,12 +3220,12 @@ None
 
 Measurement of length in meters
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.meter|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.kilogram</b>
@@ -3233,12 +3233,12 @@ None
 
 Measurement of mass in kilogram
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.kilogram|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.ampere</b>
@@ -3246,12 +3246,12 @@ None
 
 Measurement of electric current in amperes
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.ampere|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.kelvin</b>
@@ -3259,12 +3259,12 @@ None
 
 Measurement of thermodynamic temperature in degrees kelvin
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.kelvin|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.mole</b>
@@ -3272,12 +3272,12 @@ None
 
 Measurement of amount in moles
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.mole|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.candela</b>
@@ -3285,12 +3285,12 @@ None
 
 Measurement of luminous intensity in candelas
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.candela|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.hertz</b>
@@ -3298,12 +3298,12 @@ None
 
 Measurement of frequency in hertz
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.hertz|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.radian</b>
@@ -3311,12 +3311,12 @@ None
 
 Measurement of angle in radians
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.radian|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.newton</b>
@@ -3324,12 +3324,12 @@ None
 
 Measurement of force or weight in newtons
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.newton|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.pascal</b>
@@ -3337,12 +3337,12 @@ None
 
 Measurement of pressure or stress in pascals
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.pascal|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.joule</b>
@@ -3350,12 +3350,12 @@ None
 
 Measurement of energy, work or heat in joules
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.joule|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.watt</b>
@@ -3363,12 +3363,12 @@ None
 
 Measurement of power or radiant flux in watts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.watt|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.coulomb</b>
@@ -3376,12 +3376,12 @@ None
 
 Measurement of electric charge or amount of electricity in coulombs
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.coulomb|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.volt</b>
@@ -3389,12 +3389,12 @@ None
 
 Measurement of voltage, EMF, electrical potantial difference in volts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.volt|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.farad</b>
@@ -3402,12 +3402,12 @@ None
 
 Measurement of electric capacitance in farads
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.farad|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.ohm</b>
@@ -3415,12 +3415,12 @@ None
 
 Measurement of electrical resistance, impedance, reactance in ohms
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.ohm|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.celsius</b>
@@ -3428,12 +3428,12 @@ None
 
 Measurement of temperature in degrees celsius
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.celsius|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.gram</b>
@@ -3441,12 +3441,12 @@ None
 
 Measurement of mass in grams
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.gram|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.measurement.units.si.bitPerSecond</b>
@@ -3454,75 +3454,75 @@ None
 
 Measurement of data rate in bits per second
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.measurement.units.si -> means.measurement.units.si.bitPerSecond|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.color</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.color|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.font</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.font|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.font.size</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.font -> means.formatting.font.size|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.font.effects</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.font -> means.formatting.font.effects|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.heading</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.heading|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.order</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.order|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.formatting.stringFormat</b>
@@ -3530,12 +3530,12 @@ None
 
 Indicates this value represents the format of a string
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.formatting -> means.formatting.stringFormat|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.qualification</b>
@@ -3543,12 +3543,12 @@ None
 
 Augments the meaning of entities or attributes with a qualification
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.qualification|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.qualification.estimate</b>
@@ -3556,399 +3556,399 @@ None
 
 Values are an estimate only.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.qualification -> means.qualification.estimate|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.age</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.age|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.gender</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.gender|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.ethnicity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.ethnicity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.maritalStatus</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.maritalStatus|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.birthDate</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.birthDate|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.income</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.income|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.demographic.education</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.demographic -> means.demographic.education|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.building</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.building|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.floor</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.floor|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.house</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.house|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.room</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.room|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.street</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.street|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.street.line1</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.street -> means.location.address.street.line1|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.street.line2</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.street -> means.location.address.street.line2|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.address.street.line3</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.address.street -> means.location.address.street.line3|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.county</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.address -> means.location.county|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.city</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.city|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.continent</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.continent|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.country</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.country|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.latitude</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.latitude|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.longitude</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.longitude|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.point</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.point|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.postalCode</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.postalCode|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.province</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.province|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.region</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.region|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.stateOrProvince</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.stateOrProvince|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.timezone</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.timezone|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.bottom</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.bottom|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.front</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.front|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.left</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.left|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.polygon</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.polygon|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.rear</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.rear|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.right</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.right|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.boundary.top</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.top|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.centroid</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.centroid|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.centroid.X</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.centroid -> means.location.geo.centroid.X|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.centroid.y</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.centroid -> means.location.geo.centroid.y|
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.location.geo.centroid.z</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> means -> means.location -> means.location.geo -> means.location.geo.centroid -> means.location.geo.centroid.z|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has</b>
@@ -3956,12 +3956,12 @@ None
 
 A root for traits that describe properties of an object
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.entitySchemaAbstractionLevel</b>
@@ -3969,12 +3969,12 @@ None
 
 A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.entitySchemaAbstractionLevel|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category</b>
@@ -3982,12 +3982,12 @@ None
 
 The root trait for the system of traits of hierarchical categorization
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.level1</b>
@@ -3995,12 +3995,12 @@ None
 
 Common explanation for level1 category items
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level1|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.sourceSystem</b>
@@ -4008,12 +4008,12 @@ None
 
 A level1 hierarchy item explaining the source system for entities. Entities from a given source system are expected to be self-consistent on identifiers and similar data domains.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level1 -> has.category.sourceSystem|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.sourceSystem.Dynamics365</b>
@@ -4021,12 +4021,12 @@ None
 
 Entities from the Dynamics365 source system
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level1 -> has.category.sourceSystem -> has.category.sourceSystem.Dynamics365|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.level2</b>
@@ -4034,12 +4034,12 @@ None
 
 Common explanation for level2 category items
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level2|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.subjectArea</b>
@@ -4047,12 +4047,12 @@ None
 
 A level2 hierarchy item explaining the subject area entities. Subject areas can represent broad business categories such as Finance, Sales and Human Resouces
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level2 -> has.category.subjectArea|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.subjectArea.HumanResources</b>
@@ -4060,12 +4060,12 @@ None
 
 Entities from Human Resources subject area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.HumanResources|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.subjectArea.Commerce</b>
@@ -4073,12 +4073,12 @@ None
 
 Entities from Commerce subject area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.Commerce|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.subjectArea.SupplyChain</b>
@@ -4086,12 +4086,12 @@ None
 
 Entities from Supply Chain subject area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.SupplyChain|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.subjectArea.Finance</b>
@@ -4099,12 +4099,12 @@ None
 
 Entities from Finance subject area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.Finance|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.level3</b>
@@ -4112,12 +4112,12 @@ None
 
 Common explanation for level3 category items
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea</b>
@@ -4125,12 +4125,12 @@ None
 
 A level3 hierarchy item explaining the functional area for entities. Functional areas can divide entities by their purpose or use case such as auditing, reporting, recruiting, budgeting
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Recruitment</b>
@@ -4138,12 +4138,12 @@ None
 
 Entities from Recruitment functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Recruitment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Terminations</b>
@@ -4151,12 +4151,12 @@ None
 
 Entities from Terminations functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Terminations|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Suppliers</b>
@@ -4164,12 +4164,12 @@ None
 
 Entities from Suppliers functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Suppliers|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Warehousing</b>
@@ -4177,12 +4177,12 @@ None
 
 Entities from Warehousing functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Warehousing|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.GeneralLedger</b>
@@ -4190,12 +4190,12 @@ None
 
 Entities from GeneralLedger functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.GeneralLedger|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.AccountsReceivable</b>
@@ -4203,12 +4203,12 @@ None
 
 Entities from AccountsReceivable functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.AccountsReceivable|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Auditing</b>
@@ -4216,12 +4216,12 @@ None
 
 Entities from Auditing functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Auditing|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Budgeting</b>
@@ -4229,12 +4229,12 @@ None
 
 Entities from Budgeting functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Budgeting|
 
-### Properties
+### **Properties**
 None
 
 ## <b>has.category.functionalArea.Reporting</b>
@@ -4242,32 +4242,32 @@ None
 
 Entities from Reporting functional area
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Reporting|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.dataFormat</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.integer</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.integer|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
@@ -4277,34 +4277,34 @@ None
 
 Indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.big|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.small</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.small|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.floatingPoint</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.floatingPoint|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
@@ -4314,45 +4314,45 @@ Indicates an atomic but multi-unit version of a fundamental type such as a multi
 
 Indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.array|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.character</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.character|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.byte</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.byte|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.numeric</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.numeric|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
@@ -4362,67 +4362,67 @@ Indicates a contiguous sequence of fundamental units that shoud be taken as a wh
 
 For setting the exact precision and scale of numeric values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.numeric -> is.dataFormat.numeric.shaped|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.date</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.date|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.time</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.time|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.boolean</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.boolean|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.guid</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.guid|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.dataFormat.timeOffset</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.timeOffset|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
@@ -4432,50 +4432,50 @@ For setting the exact precision and scale of numeric values
 
 Represents the 54 bit integer numbers compatible with javascript
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.dataFormat -> is.dataFormat.JSInteger|
 
-### Properties
+### **Properties**
 | |
 |--|
 |<b>dataFormat</b>|
 
 ## <b>is.secret</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.secret|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.required</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.required|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.sensitive</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.sensitive|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.addedInSupportOf</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.addedInSupportOf|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.inCurrency</b>
@@ -4483,12 +4483,12 @@ None
 
 The data represents an amount of the specified currency
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.inCurrency|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.formatted</b>
@@ -4496,12 +4496,12 @@ None
 
 A root for traits that describe how data is formatted
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.formatted|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.formatted.forCulture</b>
@@ -4509,12 +4509,12 @@ None
 
 Values are stored using the specified culture
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.formatted -> is.formatted.forCulture|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.formatted.text</b>
@@ -4522,12 +4522,12 @@ None
 
 String data is formatted according to the format parameter
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.formatted -> is.formatted.text|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.formatted.dateTime</b>
@@ -4535,12 +4535,12 @@ None
 
 DateTime data formatted as a string in ISO 8601 format
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.formatted -> is.formatted.dateTime|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.formatted.date</b>
@@ -4548,12 +4548,12 @@ None
 
 Date data formatted as a string in ISO 8601 format
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.formatted -> is.formatted.date|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.formatted.time</b>
@@ -4561,12 +4561,12 @@ None
 
 Time data formatted as a string in ISO 8601 format
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.formatted -> is.formatted.time|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.inTimeZone</b>
@@ -4574,12 +4574,12 @@ None
 
 The associated data is assumed to be in the specified time zone
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.inTimeZone|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.inTimeZone.MicrosoftFormat</b>
@@ -4587,12 +4587,12 @@ None
 
 The associated data is assumed to be in the specified time zone. timeZoneName value is a Microsoft standard time zone name. see https://support.microsoft.com/en-us/help/973627
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.inTimeZone -> is.inTimeZone.MicrosoftFormat|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.inTimeZone.tzDatabaseFormat</b>
@@ -4600,12 +4600,12 @@ None
 
 The associated data is assumed to be in the specified time zone. timeZoneName value is a Time Zone Database standard time zone name. see https://www.iana.org/time-zones
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is -> is.inTimeZone -> is.inTimeZone.tzDatabaseFormat|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.hidden</b>
@@ -4613,10 +4613,10 @@ None
 
 All attributes with this trait should be hidden from view of the entity consumer.
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.linkedEntity</b>
@@ -4624,10 +4624,10 @@ None
 
 Base for traits that are used to decorate the attributes and artifacts created by the traits on the hasFlexibleRelationshipWithEntity relationship.
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.linkedEntity.identifier</b>
@@ -4635,12 +4635,12 @@ None
 
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is.linkedEntity -> is.linkedEntity.identifier|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.linkedEntity.name</b>
@@ -4648,12 +4648,12 @@ None
 
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |is.linkedEntity -> is.linkedEntity.name|
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.linkedEntity.array</b>
@@ -4661,10 +4661,10 @@ None
 
 Identifies the case when one entity links to (uses as an attribute) an array of other entities.
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>is.linkedEntity.array.count</b>
@@ -4672,10 +4672,10 @@ None
 
 Marks an attribute that contains the count of items in the array of linked (used as an attribute) entities
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>means.userId</b>
@@ -4683,10 +4683,10 @@ None
 
 Contains a userId
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy</b>
@@ -4694,10 +4694,10 @@ None
 
 A privacy related trait.
 
-### Inheritance
+### **Inheritance**
 None
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataSubjectAction</b>
@@ -4705,48 +4705,48 @@ None
 
 The set of actions a data subject must be able to take on a set of data.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataSubjectAction|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataSubjectAction.view</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.view|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataSubjectAction.delete</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.delete|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataSubjectAction.edit</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.edit|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataSubjectAction.export</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.export|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataIdentifiablity</b>
@@ -4754,57 +4754,57 @@ None
 
 The root trait for the set explaining how data value may identity an individual.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataIdentifiablity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataIdentifiablity.identified</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.identified|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataIdentifiablity.pseudonimized</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.pseudonimized|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataIdentifiablity.pseudonimizedNotLinked</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.pseudonimizedNotLinked|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataIdentifiablity.anonymized</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.anonymized|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataIdentifiablity.aggregated</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.aggregated|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory</b>
@@ -4812,12 +4812,12 @@ None
 
 The root trait for expressing 'Controller' data categories
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned</b>
@@ -4825,543 +4825,543 @@ None
 
 The root trait for expressing 'Processor' data categories
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.content</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.content.provided</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content -> privacy.dataCategory.customerOwned.content.provided|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.content.credentials</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content -> privacy.dataCategory.customerOwned.content.credentials|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.content.contactList</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content -> privacy.dataCategory.customerOwned.content.contactList|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.endUserIdentifying</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.endUserIdentifying|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.support</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.support|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.support.content</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.support -> privacy.dataCategory.customerOwned.support.content|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.support.interaction</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.support -> privacy.dataCategory.customerOwned.support.interaction|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.account</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.account.customerContact</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account -> privacy.dataCategory.customerOwned.account.customerContact|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.account.licensingAndPurchase</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account -> privacy.dataCategory.customerOwned.account.licensingAndPurchase|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.account.paymentInstrument</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account -> privacy.dataCategory.customerOwned.account.paymentInstrument|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.publicPersonalData</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.publicPersonalData|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.financeAccountingAndRecords</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.financeAccountingAndRecords|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.customerOwned.corporateCommunication</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.corporateCommunication|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.content</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.content.provided</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content -> privacy.dataCategory.endUser.content.provided|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.content.credentials</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content -> privacy.dataCategory.endUser.content.credentials|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.content.contactList</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content -> privacy.dataCategory.endUser.content.contactList|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.attributes</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.attributes.demographic</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.demographic|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.attributes.feedbackAndRatings</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.feedbackAndRatings|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.attributes.interestsAndFavorites</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.interestsAndFavorites|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.attributes.socialActivity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.socialActivity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.browsingHistory</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.browsingHistory|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.cloudService</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.cloudService|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.contentConsumption</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.contentConsumption|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.searchRequests</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.searchRequests|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.environmentalSensor</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.environmentalSensor|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.fitnessAndActivity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.fitnessAndActivity|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.preciceLocation</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.preciceLocation|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.productAndServicePerformance</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.productAndServicePerformance|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.productAndServiceUsage</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.productAndServiceUsage|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.interactions.softwareSetAndInventory</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.softwareSetAndInventory|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.support</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.support|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.support.content</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.support -> privacy.dataCategory.endUser.support.content|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.support.interaction</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.support -> privacy.dataCategory.endUser.support.interaction|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.account</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.account.customerContact</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account -> privacy.dataCategory.endUser.account.customerContact|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.account.licensingAndPurchase</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account -> privacy.dataCategory.endUser.account.licensingAndPurchase|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.endUser.account.paymentInstrument</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account -> privacy.dataCategory.endUser.account.paymentInstrument|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.commuteAndTravel</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.commuteAndTravel|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.compensationAndBenefits</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.compensationAndBenefits|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.learningAndDevelopment</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.learningAndDevelopment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.profesionalAndPersonalProfile</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.profesionalAndPersonalProfile|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.recruitment</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.recruitment|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.workContacts</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workContacts|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.workProfile</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workProfile|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.workRecognition</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workRecognition|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.workTime</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workTime|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.employment.workplaceInteractions</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workplaceInteractions|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.bizOps</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.bizOps|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.bizOps.financeAccountingAndRecords</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.bizOps -> privacy.dataCategory.bizOps.financeAccountingAndRecords|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataCategory.bizOps.corporateCommunication</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataCategory -> privacy.dataCategory.bizOps -> privacy.dataCategory.bizOps.corporateCommunication|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage</b>
@@ -5369,111 +5369,111 @@ None
 
 The purpose for a sepcific usage of a set of data
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.provide</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.provide|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.personalize</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.personalize|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.recommend</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.recommend|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.improve</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.improve|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.research</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.research|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.advertising</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.advertising|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.advertising.directMarketing</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.advertising -> privacy.dataUsage.advertising.directMarketing|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.advertising.adPlatform</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.advertising -> privacy.dataUsage.advertising.adPlatform|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.share</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.share|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.share.processor</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.share -> privacy.dataUsage.share.processor|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.dataUsage.share.controller</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.dataUsage -> privacy.dataUsage.share -> privacy.dataUsage.share.controller|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements</b>
@@ -5481,102 +5481,102 @@ None
 
 The consent requirements or consent settings for data
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.notice</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.notice|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.notice.discoverable</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.notice -> privacy.consentRequirements.notice.discoverable|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.notice.prominent</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.notice -> privacy.consentRequirements.notice.prominent|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.legitimateInterest</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.legitimateInterest|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.optIn</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.optIn|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.optOut</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.optOut|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.customerControls</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.customerControls|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.customerControls.notRequired</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.customerControls -> privacy.consentRequirements.customerControls.notRequired|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.customerControls.required</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.customerControls -> privacy.consentRequirements.customerControls.required|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.consentRequirements.notPermitted</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.consentRequirements -> privacy.consentRequirements.notPermitted|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.expresses</b>
@@ -5584,12 +5584,12 @@ None
 
 The root meta trait that indicates how to interpret a group of co-ascribed privacy traits.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.expresses|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.expresses.data</b>
@@ -5597,12 +5597,12 @@ None
 
 The assumed default behavior, if privacy.expresses.metaData is not set, then this trait is implicit. When a group of traits are ascribed to an entity or attribute, The other privacy traits describe the aspects of data values held by the entity or attribute.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.expresses -> privacy.expresses.data|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.expresses.metaData</b>
@@ -5610,12 +5610,12 @@ None
 
 When this trait and a group of other privacy traits are ascribed to an entity or attribute, The other privacy traits describe the aspects of the metatdata for the data values held by the entity or attribute. That is, the entity itself may contain privacy or policy descriptions, rules, settings.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.expresses -> privacy.expresses.metaData|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.expresses.useAllowed</b>
@@ -5623,12 +5623,12 @@ None
 
 Use is allowed for the condition using the combined meanings of all other privacy traits in a set.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.expresses -> privacy.expresses.useAllowed|
 
-### Properties
+### **Properties**
 None
 
 ## <b>privacy.expresses.useRestricted</b>
@@ -5636,11 +5636,11 @@ None
 
 Use is dis-allowed for the condition formed using the combined meanings of all other privacy traits in a set.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |privacy -> privacy.expresses -> privacy.expresses.useRestricted|
 
-### Properties
+### **Properties**
 None
 
