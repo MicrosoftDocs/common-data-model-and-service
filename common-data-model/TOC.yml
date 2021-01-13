@@ -13,7 +13,7 @@
         href: sdk/manifest.md
       - name: Logical definitions
         href: sdk/logical-definitions.md
-      - name: Trait concepts and their use cases
+      - name: Trait concepts and use cases
         href: sdk/trait-concepts-and-use-cases.md
       - name: Convert logical entities into resolved entities
         href: sdk/convert-logical-entities-resolved-entities.md
@@ -22,7 +22,7 @@
       - name: List of Common Data Model dataTypes
         href: sdk/list-of-datatypes.md
       - name: List of Common Data Model traits
-        href: sdk/list-of-traits.md  
+        href: sdk/list-of-traits.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
@@ -158,6 +158,10 @@
             href: 1.0om/api-reference/utilities/callback.md  
           - name: Logger
             href: 1.0om/api-reference/utilities/logger.md  
+          - name: Event List
+            href: 1.0om/api-reference/utilities/eventlist.md  
+          - name: Resolve Context
+            href: 1.0om/api-reference/utilities/resolvecontext.md
           - name: Resolve Options
             href: 1.0om/api-reference/utilities/resolveoptions.md  
           - name: Storage Utils

@@ -334,6 +334,66 @@
       "source_path": "entity-reference/index.md",
       "redirect_url": "/common-data-service/entity-reference/introduction",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/automotive-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/automotive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/banking-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/banking",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/edu-k12-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/edu-k12",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/edu-overview.md",
+      "redirect_url": "/dynamics365/industry/accelerators/edu-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/fs-overview.md",
+      "redirect_url": "/dynamics365/industry/accelerators/fs-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/health-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/healthcare",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/hied-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/hied",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/insurance-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/insurance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/manufacturing-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/manufacturing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/media-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/media",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/NFP-accelerator.md",
+      "redirect_url": "/dynamics365/industry/accelerators/NFP",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/industry-accelerators.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
     }
   ]
 }
