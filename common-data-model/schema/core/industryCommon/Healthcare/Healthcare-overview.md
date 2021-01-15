@@ -20,8 +20,6 @@ For more information please visit [Microsoft Cloud for Healthcare](https://www.m
 |Name|Description|
 |---|---|
 |[Administration](Administration/overview.md)|Text|
-|[Application](Application/overview.md)|Text|
-|[Azure API for FHIR support](AzureAPIforFHIRsupport/overview.md)|Text|
 |[Clinical](Clinical/overview.md)|Text|
 |[Diagnostics](Diagnostics/overview.md)|Text|
 |[Financial](Financial/overview.md)|Text|
