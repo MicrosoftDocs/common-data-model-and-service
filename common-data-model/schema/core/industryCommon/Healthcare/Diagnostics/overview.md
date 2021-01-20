@@ -10,7 +10,7 @@ ms.author: matgos
 ---
 
 # Overview of Diagnostics
-
+The Diagnostics Module provides an overview and guide to the FHIR content that addresses ordering and reporting of clinical diagnostics including laboratory testing, imaging and genomics.
 
 ## Sub-folders
 

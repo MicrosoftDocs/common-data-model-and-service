@@ -15,14 +15,16 @@ This section provides the information for [Microsoft Cloud for Healthcare](https
 
 For more information please visit [Microsoft Cloud for Healthcare](https://www.microsoft.com/industry/health/microsoft-cloud-for-healthcare).
 
+The modules and associated descriptions are aligned with the [HL7 FHIR (Release 4)](http://hl7.org/fhir/) standards.
+
 ## Entity categories
 
 |Name|Description|
 |---|---|
-|[Administration](Administration/overview.md)|Text|
-|[Clinical](Clinical/overview.md)|Text|
-|[Diagnostics](Diagnostics/overview.md)|Text|
-|[Financial](Financial/overview.md)|Text|
-|[Foundational](Foundational/overview.md)|Text|
-|[Medication](Medication/overview.md)|Text|
-|[Workflow](Workflow/overview.md)|Text|
+|[Administration](Administration/overview.md)|The Administrative module covers the base data that is then linked into the other modules for clinical content, finance/billing, workflow, etc.  It is built on the FHIR technology platform modules.|
+|[Clinical](Clinical/overview.md)|This Clinical Module focuses on the FHIR Resources that represent core clinical information for a patient. The information contained in these Resources are those frequently documented, created or retrieved by healthcare providers during the course of clinical care.|
+|[Diagnostics](Diagnostics/overview.md)|The Diagnostics Module provides an overview and guide to the FHIR content that addresses ordering and reporting of clinical diagnostics including laboratory testing, imaging and genomics.|
+|[Financial](Financial/overview.md)|The Financial module covers the resources and services provided by FHIR to support the costing, financial transactions and billing which occur within a healthcare provider.|
+|[Foundational](Foundational/overview.md)|This is the base or main module which contains  applicable core or foundational entities.|
+|[Medication](Medication/overview.md)|This module covers resources and functionality in 3 main domains including medication use, Immunizations, and drug knowledge.|
+|[Workflow](Workflow/overview.md)|The workflow module focuses on the coordination of activities within and across systems including interacting with and tracking of devices, activities and dependencies.|

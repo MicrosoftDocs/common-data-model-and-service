@@ -330,6 +330,8 @@
               href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/RequestedFacility.md
             - name: Syndicates 
               href: applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.md
+        - name: industryCommon
+          items:
         - name: Healthcare
           items:
           - name: Summary
@@ -2602,6 +2604,7 @@
     href: applicationCommon/Territory.md
   - name: User 
     href: applicationCommon/User.md
+    
 - name: operationsCommon
   items:
   - name: Summary

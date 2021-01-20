@@ -10,7 +10,10 @@ ms.author: matgos
 ---
 
 # Overview of Administration
+The Administrative module covers the base data that is then linked into the other modules for clinical content, finance/billing, workflow, etc.
+It is built on the FHIR technology platform modules.
 
+Before any clinical data can be recorded, the basic information of the patient must be recorded, and then often the basis of the interaction (such as an encounter).
 
 ## Sub-folders
 
