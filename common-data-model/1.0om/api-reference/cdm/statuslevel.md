@@ -1,12 +1,12 @@
 ---
 title: Status Level | Microsoft Docs
 description: API reference for CdmStatusLevel.
-author: jinichu
+author: miroslavplese
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 10/18/2019
-ms.author: jibyun
+ms.date: 12/08/2020
+ms.author: miplese
 ---
 
 # Status Level
@@ -19,7 +19,8 @@ public enum CdmStatusLevel
     Info,
     Progress,
     Warning,
-    Error
+    Error,
+    None
 }
 ```
 
