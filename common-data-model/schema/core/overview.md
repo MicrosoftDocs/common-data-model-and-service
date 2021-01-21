@@ -19,6 +19,7 @@ Use this reference to explore and learn about all the available Common Data Mode
 |Name|
 |---|
 |[applicationCommon](applicationCommon/overview.md)|
+|[industryCommon](industryCommon/overview.md)|
 |[operationsCommon](operationsCommon/overview.md)|
 
 
