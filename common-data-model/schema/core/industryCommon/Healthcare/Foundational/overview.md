@@ -10,14 +10,10 @@ ms.author: matgos
 ---
 
 # Overview of Foundational
-This is the base or main module which contains  applicable core or foundational entities.
+This is the base or main module which contains applicable core or foundational entities.
 
 ## Sub-folders
 
 |Name|
 |---|
 |[Commoncore](Commoncore/overview.md)|
-|[HealthcareFoundation](HealthcareFoundation/overview.md)|
-
-
-
