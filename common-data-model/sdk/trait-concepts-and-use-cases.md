@@ -205,8 +205,9 @@ The best practice is to use a semantically rich dataType in your entity definiti
 | Date | is.dataFormat.date |
 | DateTime | is.dataFormat.date, is.dataFormat.time |
 | DateTimeOffset | is.dataFormat.date, is.dataFormat.time, is.dataFormat.timeOffset |
-| Boolean | is.dataFormat.date |
-| Decimal | is.dataFormat.date |
+| Boolean | is.dataFormat.boolean |
+| Numeric | is.dataFormat.numeric |
+| Decimal | is.dataFormat.numeric.shaped (extends is.dataFormat.numeric) |
 | Json | is.dataFormat.character, is.dataFormat.array, means.content.text.JSON |
 
 ### model.json types

@@ -17,10 +17,10 @@ This page lists the datatypes that are available in Common Data Model.
 
 The root dataType
 
-### Inheritance
+### **Inheritance**
 None
 
-### Traits
+### **Traits**
 None
 
 ## <b>integer</b>
@@ -28,12 +28,12 @@ None
 
 Whole numbers, assumed to correspond with a 32 bit signed int
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -43,12 +43,12 @@ Whole numbers, assumed to correspond with a 32 bit signed int
 
 One integer value from a defined list of possibilities
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> listLookup|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -60,60 +60,60 @@ One integer value from a defined list of possibilities
 
 One integer value from a defined list of possibilities where the list represents correlated status
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> listLookupCorrelated|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
 |<b>is.constrainedList.correlated</b>|
 
 ## <b>smallInteger</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> smallInteger|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
 |<b>is.dataFormat.small</b>|
 
 ## <b>bigInteger</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> bigInteger|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
 |<b>is.dataFormat.big</b>|
 
 ## <b>integerCalendarPart</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
 |<b>means.calendar</b>|
 
 ## <b>day</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> day|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -121,12 +121,12 @@ One integer value from a defined list of possibilities where the list represents
 |<b>means.calendar.day</b>|
 
 ## <b>week</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> week|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -134,12 +134,12 @@ One integer value from a defined list of possibilities where the list represents
 |<b>means.calendar.week</b>|
 
 ## <b>tenday</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> tenday|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -147,12 +147,12 @@ One integer value from a defined list of possibilities where the list represents
 |<b>means.calendar.tenday</b>|
 
 ## <b>month</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> month|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -160,12 +160,12 @@ One integer value from a defined list of possibilities where the list represents
 |<b>means.calendar.month</b>|
 
 ## <b>quarter</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> quarter|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -173,12 +173,12 @@ One integer value from a defined list of possibilities where the list represents
 |<b>means.calendar.quarter</b>|
 
 ## <b>trimester</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> trimester|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -186,12 +186,12 @@ One integer value from a defined list of possibilities where the list represents
 |<b>means.calendar.trimester</b>|
 
 ## <b>year</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> integerCalendarPart -> year|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -203,12 +203,12 @@ One integer value from a defined list of possibilities where the list represents
 
 Unit of measure for time in 60 second interval
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> minute|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -217,12 +217,12 @@ Unit of measure for time in 60 second interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 ## <b>minutes</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> minute -> minutes|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -235,12 +235,12 @@ Unit of measure for time in 60 second interval
 
 Unit of measure for time in 3600 second interval
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> hour|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -253,12 +253,12 @@ Unit of measure for time in 3600 second interval
 
 Unit of measure for time in 'one earth rotation' interval
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> day|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -271,12 +271,12 @@ Unit of measure for time in 'one earth rotation' interval
 
 Unit of measure for time in 'one solar orbit' interval
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> year|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -285,24 +285,24 @@ Unit of measure for time in 'one solar orbit' interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 ## <b>displayOrder</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> displayOrder|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
 |<b>means.formatting.order</b>|
 
 ## <b>age</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> integer -> age|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
@@ -314,23 +314,23 @@ Unit of measure for time in 'one solar orbit' interval
 
 Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 
 ## <b>double</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -341,12 +341,12 @@ Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation
 
 Unit of measure for time in seconds
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> second|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -361,12 +361,12 @@ Unit of measure for time in seconds
 
 Unit of measure for time in 10E-6 seconds
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> second -> microSecond|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -382,12 +382,12 @@ Unit of measure for time in 10E-6 seconds
 
 Unit of measure for time in 10E-3 seconds
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> second -> milliSecond|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -403,12 +403,12 @@ Unit of measure for time in 10E-3 seconds
 
 Unit of measure for length in meters
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> meter|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -422,12 +422,12 @@ Unit of measure for length in meters
 
 Unit of measure for length in 10E-3 meters
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> meter -> millimeter|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -442,12 +442,12 @@ Unit of measure for length in 10E-3 meters
 
 Unit of measure for length in 10E-2 meters
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> meter -> centimeter|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -462,12 +462,12 @@ Unit of measure for length in 10E-2 meters
 
 Unit of measure for length in 10E3 meters
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> meter -> kilometer|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -482,12 +482,12 @@ Unit of measure for length in 10E3 meters
 
 Unit of measure for mass in kilogram
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> kilogram|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -501,12 +501,12 @@ Unit of measure for mass in kilogram
 
 Unit of measure for electric current in amperes
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> ampere|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -520,12 +520,12 @@ Unit of measure for electric current in amperes
 
 Unit of capacitance, equivalent to 10E-6 amperes
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> ampere -> microampere|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -540,12 +540,12 @@ Unit of capacitance, equivalent to 10E-6 amperes
 
 Unit of capacitance, equivalent to 10E-3 amperes
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> ampere -> milliampere|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -560,12 +560,12 @@ Unit of capacitance, equivalent to 10E-3 amperes
 
 Unit of measure for thermodynamic temperature in degrees kelvin
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> kelvin|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -579,12 +579,12 @@ Unit of measure for thermodynamic temperature in degrees kelvin
 
 Unit of measure for amount in moles
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> mole|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -598,12 +598,12 @@ Unit of measure for amount in moles
 
 Unit of measure for luminous intensity in candelas
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> candela|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -617,12 +617,12 @@ Unit of measure for luminous intensity in candelas
 
 Unit of measure for frequency in hertz
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> hertz|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -636,12 +636,12 @@ Unit of measure for frequency in hertz
 
 Unit of frequency equivalent to 10E3 hertz
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> hertz -> kilohertz|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -656,12 +656,12 @@ Unit of frequency equivalent to 10E3 hertz
 
 Unit of frequency equivalent to 10E6 hertz
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> hertz -> megahertz|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -676,12 +676,12 @@ Unit of frequency equivalent to 10E6 hertz
 
 Unit of frequency equivalent to 10E9 hertz
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> hertz -> gigahertz|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -696,12 +696,12 @@ Unit of frequency equivalent to 10E9 hertz
 
 Unit of measure for angle in radians
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> radian|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -715,12 +715,12 @@ Unit of measure for angle in radians
 
 Unit of measure for force or weight in newtons
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> newton|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -736,12 +736,12 @@ Unit of measure for force or weight in newtons
 
 Unit of measure for pressure or stress in pascals
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> pascal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -757,12 +757,12 @@ Unit of measure for pressure or stress in pascals
 
 Unit of stress, equivalent to 10E3 pascals
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> pascal -> kilopascal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -779,12 +779,12 @@ Unit of stress, equivalent to 10E3 pascals
 
 Unit of stress, equivalent to 10E6 pascals
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> pascal -> megapascal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -801,12 +801,12 @@ Unit of stress, equivalent to 10E6 pascals
 
 Unit of stress, equivalent to 10E9 pascals
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> pascal -> gigapascal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -823,12 +823,12 @@ Unit of stress, equivalent to 10E9 pascals
 
 Unit of measure for energy, work or heat in joules
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> joule|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -844,12 +844,12 @@ Unit of measure for energy, work or heat in joules
 
 Unit of measure for power or radiant flux in watts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> watt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -865,12 +865,12 @@ Unit of measure for power or radiant flux in watts
 
 Unit of power, equivalent to 10E-3 watts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> watt -> milliwatt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -887,12 +887,12 @@ Unit of power, equivalent to 10E-3 watts
 
 Unit of power, equivalent to 10E3 watts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> watt -> kilowatt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -909,12 +909,12 @@ Unit of power, equivalent to 10E3 watts
 
 Unit of power, equivalent to 10E6 watts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> watt -> megawatt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -931,12 +931,12 @@ Unit of power, equivalent to 10E6 watts
 
 Unit of measure for electric charge or amount of electricity in coulombs
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> coulomb|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -951,12 +951,12 @@ Unit of measure for electric charge or amount of electricity in coulombs
 
 Unit of measure for voltage, EMF, electrical potantial difference in volts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> volt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -973,12 +973,12 @@ Unit of measure for voltage, EMF, electrical potantial difference in volts
 
 Unit of power, equivalent to 10E-3 volts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> volt -> millivolt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -996,12 +996,12 @@ Unit of power, equivalent to 10E-3 volts
 
 Unit of power, equivalent to 10E3 volts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> volt -> kilovolt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1019,12 +1019,12 @@ Unit of power, equivalent to 10E3 volts
 
 Unit of power, equivalent to 10E6 volts
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> volt -> megavolt|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1042,12 +1042,12 @@ Unit of power, equivalent to 10E6 volts
 
 Unit of measure for electric capacitance in farads
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> farad|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1064,12 +1064,12 @@ Unit of measure for electric capacitance in farads
 
 Unit of capacitance, equivalent to 10E-6 farads
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> farad -> microfarad|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1087,12 +1087,12 @@ Unit of capacitance, equivalent to 10E-6 farads
 
 Unit of capacitance, equivalent to 10E-9 farads
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> farad -> nanofarad|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1110,12 +1110,12 @@ Unit of capacitance, equivalent to 10E-9 farads
 
 Unit of capacitance, equivalent to 10E-12 farads
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> farad -> picofarad|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1133,12 +1133,12 @@ Unit of capacitance, equivalent to 10E-12 farads
 
 Unit of measure for electrical resistance, impedance, reactance in ohms
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> ohm|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1155,12 +1155,12 @@ Unit of measure for electrical resistance, impedance, reactance in ohms
 
 Unit of power, equivalent to 10E3 ohms
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> ohm -> kiloOhm|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1178,12 +1178,12 @@ Unit of power, equivalent to 10E3 ohms
 
 Unit of power, equivalent to 10E6 Ohms
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> ohm -> megaOhm|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1201,12 +1201,12 @@ Unit of power, equivalent to 10E6 Ohms
 
 Unit of measure for mass in grams
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> gram|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1220,12 +1220,12 @@ Unit of measure for mass in grams
 
 Unit of measure for mass in milligrams
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> gram -> milligram|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1240,12 +1240,12 @@ Unit of measure for mass in milligrams
 
 Unit of measure for temperature in degrees celsius
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> celsius|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1259,12 +1259,12 @@ Unit of measure for temperature in degrees celsius
 
 Unit of measure for angles in degrees, 1/360 rotation
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> degree|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1274,12 +1274,12 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>has.measurement.fundamentalComponent</b>|
 
 ## <b>inches</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> inches|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1287,12 +1287,12 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>means.measurement.distance.inches</b>|
 
 ## <b>latitude</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> latitude|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1300,12 +1300,12 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>means.location.latitude</b>|
 
 ## <b>longitude</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> float -> double -> longitude|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1317,12 +1317,12 @@ Unit of measure for angles in degrees, 1/360 rotation
 
 A precice fractional number with a specific precision and scale
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> decimal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.numeric.shaped</b>|
@@ -1332,12 +1332,12 @@ A precice fractional number with a specific precision and scale
 
 The 64 bit fixed (4) scale numbers used by PBI
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> decimal -> fixedDecimal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.numeric.shaped</b>|
@@ -1347,23 +1347,23 @@ The 64 bit fixed (4) scale numbers used by PBI
 
 15 digit precision numbers with no fixed scale
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> decimal -> variableDecimal|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.numeric.shaped</b>|
 
 ## <b>JSInteger</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> decimal -> JSInteger|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.numeric.shaped</b>|
@@ -1374,12 +1374,12 @@ The 64 bit fixed (4) scale numbers used by PBI
 
 An amount of currency, money in units specified elsewhere.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> decimal -> currency|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.numeric.shaped</b>|
@@ -1390,12 +1390,12 @@ An amount of currency, money in units specified elsewhere.
 
 Value is expressed in the base currency units for the system
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> decimal -> currency -> baseCurrency|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.numeric.shaped</b>|
@@ -1403,35 +1403,35 @@ Value is expressed in the base currency units for the system
 |<b>means.measurement.currency</b>|
 
 ## <b>boolean</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> boolean|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.boolean</b>|
 
 ## <b>char</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
 
 ## <b>string</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1443,12 +1443,12 @@ Value is expressed in the base currency units for the system
 
 A set of one or more values from a defined list of possibilities
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> listLookupMultiple|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1463,12 +1463,12 @@ A set of one or more values from a defined list of possibilities
 
 One string value from a defined list of possibilities
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> listLookupString|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1481,12 +1481,12 @@ One string value from a defined list of possibilities
 
 One string value from a defined list of possibilities which are defined in an identified public location.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> listLookupWellKnown|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1495,12 +1495,12 @@ One string value from a defined list of possibilities which are defined in an id
 |<b>is.constrainedList.wellKnown</b>|
 
 ## <b>guid</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> guid|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1513,12 +1513,12 @@ One string value from a defined list of possibilities which are defined in an id
 
 A unique identifier for entity instances
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> guid -> entityId|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1532,12 +1532,12 @@ A unique identifier for entity instances
 
 The identifier of a system user
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> guid -> entityId -> userId|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1552,12 +1552,12 @@ The identifier of a system user
 
 A unique identifier for file instances
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> guid -> entityId -> fileId|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1571,12 +1571,12 @@ A unique identifier for file instances
 
 A string value representing the name of a file.
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> fileName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1589,12 +1589,12 @@ A string value representing the name of a file.
 
 Type for trait parameters that take entity names as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> entityName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1608,12 +1608,12 @@ Type for trait parameters that take entity names as values
 
 Type for trait parameters that take attribute names as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> attributeName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1626,12 +1626,12 @@ Type for trait parameters that take attribute names as values
 
 A CSV contained within one string value
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> list|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1644,12 +1644,12 @@ A CSV contained within one string value
 
 A language identifier
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> language|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1662,12 +1662,12 @@ A language identifier
 
 A BCP 47 language tag
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> languageTag|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1680,12 +1680,12 @@ A BCP 47 language tag
 
 A BCP 47 language tag
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> languageTag -> cultureTag|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1695,12 +1695,12 @@ A BCP 47 language tag
 |<b>means.reference.culture.tag</b>|
 
 ## <b>localizedDisplayText</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> localizedDisplayText|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1709,12 +1709,12 @@ A BCP 47 language tag
 |<b>means.reference.displayText</b>|
 
 ## <b>localizedDisplayTextMultiple</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> localizedDisplayText -> localizedDisplayTextMultiple|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1724,12 +1724,12 @@ A BCP 47 language tag
 |<b>means.content.text.CSV</b>|
 
 ## <b>url</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> url|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1738,12 +1738,12 @@ A BCP 47 language tag
 |<b>means.reference.URL</b>|
 
 ## <b>uri</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> uri|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1752,12 +1752,12 @@ A BCP 47 language tag
 |<b>means.reference.URI</b>|
 
 ## <b>governmentId</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> governmentId|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1766,12 +1766,12 @@ A BCP 47 language tag
 |<b>means.identity.governmentID</b>|
 
 ## <b>name</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> name|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1780,12 +1780,12 @@ A BCP 47 language tag
 |<b>means.identity.name</b>|
 
 ## <b>companyName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> companyName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1794,12 +1794,12 @@ A BCP 47 language tag
 |<b>means.identity.company.name</b>|
 
 ## <b>firstName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> firstName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1808,12 +1808,12 @@ A BCP 47 language tag
 |<b>means.identity.person.firstName</b>|
 
 ## <b>fullName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> fullName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1822,12 +1822,12 @@ A BCP 47 language tag
 |<b>means.identity.person.fullName</b>|
 
 ## <b>lastName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> lastName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1836,12 +1836,12 @@ A BCP 47 language tag
 |<b>means.identity.person.lastName</b>|
 
 ## <b>middleName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> middleName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1850,12 +1850,12 @@ A BCP 47 language tag
 |<b>means.identity.person.middleName</b>|
 
 ## <b>email</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> email|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1864,12 +1864,12 @@ A BCP 47 language tag
 |<b>means.identity.service.email</b>|
 
 ## <b>phone</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> phone|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1878,12 +1878,12 @@ A BCP 47 language tag
 |<b>means.identity.service.phone</b>|
 
 ## <b>phoneCell</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> phoneCell|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1892,12 +1892,12 @@ A BCP 47 language tag
 |<b>means.identity.service.phone.cell</b>|
 
 ## <b>phoneFax</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> phoneFax|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1906,12 +1906,12 @@ A BCP 47 language tag
 |<b>means.identity.service.phone.fax</b>|
 
 ## <b>tickerSymbol</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> tickerSymbol|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1924,12 +1924,12 @@ A BCP 47 language tag
 
 Internet Protocol V4 Address of the form DDD.DDD.DDD.DDD
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> IP4Address|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1942,12 +1942,12 @@ Internet Protocol V4 Address of the form DDD.DDD.DDD.DDD
 
 Internet Protocol V6 Address of the form  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> IP6Address|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1960,12 +1960,12 @@ Internet Protocol V6 Address of the form  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXX
 
 Value is a ISO 4217 currency code
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> currencyCode|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1974,12 +1974,12 @@ Value is a ISO 4217 currency code
 |<b>means.measurement.currencyCode</b>|
 
 ## <b>colorName</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> colorName|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1992,12 +1992,12 @@ Value is a ISO 4217 currency code
 
 A string representing the format used to encode data in another string
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> stringFormat|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2010,12 +2010,12 @@ A string representing the format used to encode data in another string
 
 A JSON fragment contained within one string value
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> json|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2028,12 +2028,12 @@ A JSON fragment contained within one string value
 
 An XML fragment contained within one string value
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> xml|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2042,12 +2042,12 @@ An XML fragment contained within one string value
 |<b>means.content.text.XML</b>|
 
 ## <b>gender</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> gender|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2056,12 +2056,12 @@ An XML fragment contained within one string value
 |<b>means.demographic.gender</b>|
 
 ## <b>ethnicity</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> ethnicity|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2070,12 +2070,12 @@ An XML fragment contained within one string value
 |<b>means.demographic.ethnicity</b>|
 
 ## <b>maritalStatus</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> maritalStatus|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2084,12 +2084,12 @@ An XML fragment contained within one string value
 |<b>means.demographic.maritalStatus</b>|
 
 ## <b>addressLine</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> addressLine|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2098,12 +2098,12 @@ An XML fragment contained within one string value
 |<b>means.location.address</b>|
 
 ## <b>city</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> city|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2112,12 +2112,12 @@ An XML fragment contained within one string value
 |<b>means.location.city</b>|
 
 ## <b>country</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> country|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2126,12 +2126,12 @@ An XML fragment contained within one string value
 |<b>means.location.country</b>|
 
 ## <b>county</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> county|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2140,12 +2140,12 @@ An XML fragment contained within one string value
 |<b>means.location.county</b>|
 
 ## <b>postalCode</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> postalCode|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2154,12 +2154,12 @@ An XML fragment contained within one string value
 |<b>means.location.postalCode</b>|
 
 ## <b>stateOrProvince</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> stateOrProvince|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2168,12 +2168,12 @@ An XML fragment contained within one string value
 |<b>means.location.stateOrProvince</b>|
 
 ## <b>timezone</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> char -> string -> timezone|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2182,46 +2182,46 @@ An XML fragment contained within one string value
 |<b>means.location.timezone</b>|
 
 ## <b>sChar</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> sChar|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 
 ## <b>byte</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> byte|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.byte</b>|
 
 ## <b>binary</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> byte -> binary|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.byte</b>|
 |<b>is.dataFormat.array</b>|
 
 ## <b>image</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> byte -> binary -> image|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.byte</b>|
@@ -2233,12 +2233,12 @@ An XML fragment contained within one string value
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object|
 
-### Traits
+### **Traits**
 None
 
 ## <b>cdmObject</b>
@@ -2246,12 +2246,12 @@ None
 
 Types for trait parameters that take CDM objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject|
 
-### Traits
+### **Traits**
 None
 
 ## <b>trait</b>
@@ -2259,12 +2259,12 @@ None
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject -> trait|
 
-### Traits
+### **Traits**
 None
 
 ## <b>dataType</b>
@@ -2272,12 +2272,12 @@ None
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject -> dataType|
 
-### Traits
+### **Traits**
 None
 
 ## <b>purpose</b>
@@ -2285,12 +2285,12 @@ None
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject -> purpose|
 
-### Traits
+### **Traits**
 None
 
 ## <b>entity</b>
@@ -2298,12 +2298,12 @@ None
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject -> entity|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>means.entityName.specific</b>|
@@ -2313,12 +2313,12 @@ Types for trait parameters that take objects as values
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject -> attribute|
 
-### Traits
+### **Traits**
 None
 
 ## <b>attributeGroup</b>
@@ -2326,33 +2326,33 @@ None
 
 Types for trait parameters that take objects as values
 
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> object -> cdmObject -> attributeGroup|
 
-### Traits
+### **Traits**
 None
 
 ## <b>date</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> date|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.date</b>|
 |<b>means.measurement.date</b>|
 
 ## <b>dateTime</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> date -> dateTime|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.date</b>|
@@ -2361,12 +2361,12 @@ None
 |<b>means.measurement.time</b>|
 
 ## <b>dateTimeOffset</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> date -> dateTime -> dateTimeOffset|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.date</b>|
@@ -2376,12 +2376,12 @@ None
 |<b>is.dataFormat.timeOffset</b>|
 
 ## <b>birthDate</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> date -> dateTime -> birthDate|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.date</b>|
@@ -2391,12 +2391,12 @@ None
 |<b>means.demographic.birthDate</b>|
 
 ## <b>time</b>
-### Inheritance
+### **Inheritance**
 | |
 |--|
 |any -> time|
 
-### Traits
+### **Traits**
 | |
 |--|
 |<b>is.dataFormat.time</b>|
