@@ -79,11 +79,11 @@ definitions, examine an entity, it's attributes and partitions.
 1.  Run the project. You should see a console with the list of entities and
     corresponding schema locations.
 
-    ![folder content](media/console1.png)
+    ![List of entities and schema locations](media/console1.png)
 
 1.  Type a number for a chosen entity and see the list of attributes and traits.
 
-    ![folder content](media/console2.png)
+    ![List of attributes and traits](media/console2.png)
 
 
 **How it works:**

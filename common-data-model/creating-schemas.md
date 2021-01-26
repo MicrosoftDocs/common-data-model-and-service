@@ -342,17 +342,21 @@ You haven't provided any attribute resolution guidance properties in this entity
 
 Earlier, *browserName* was used rather than *uaBrowserName* when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with *ua*. When using default resolution guidance, if you notice a common prefix, you can use that as the name of the entity attribute. Since you used *ua* as the name of the entity attribute in **Session**, the attribute *browserName* from **UserAgent** becomes:
 
-    ua + browserName = uaBrowserName
+```
+ua + browserName = uaBrowserName
+```
 
 >[!NOTE]
 >The first letter of the original attribute name becomes capitalized during this process, for example, **browserName** becomes **BrowserName**.
 
 This is done to all attributes taken from **UserAgent**, so in **Session** you'll have:
 
-    uaBrowserName
-	uaBrowserVersion
-	…
-	uaPlatform
+```
+uaBrowserName
+uaBrowserVersion
+…
+uaPlatform
+```
 
 <br/>This becomes particularly useful when you want to use the same entity attributes from the same entity, but with slightly different attribute names:
 
