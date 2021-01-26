@@ -3,7 +3,7 @@ title: Common Data Model and Azure Data Lake Storage Gen2
 description: "The Common Data Model provides semantic consistency to data in Azure Data Lake Storage Gen2."
 author: oovanesy 
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/11/2020
 ms.author: olegov

@@ -3,7 +3,7 @@ title: The Common Data Model manifest object | Microsoft Docs
 description: The Common Data Model manifest object.
 author: msftman
 ms.service: common-data-model
-ms.reviewer:
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 03/13/2020
 ms.author: Deonhe
