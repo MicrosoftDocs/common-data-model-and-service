@@ -116,12 +116,12 @@ In this example, you will learn how to create a manifest with select number of p
 1.  Run the project. Monitor messages in the console as they are informative to
     what is going on.
 
-    ![](media/console3.png)
+    ![Monitor messages in the console](media/console3.png)
 
 1.  Look into your directory, it should have all files with entity definitions,
     manifest file and folders with empty csv files for data generated for you.
 
-    ![](media/sample-folder1.png)
+    ![Look in your directory](media/sample-folder1.png)
 
 1.  There are few code fragments here. After configuring adapters, same as in
     the first sample, we create temporary manifest object, add specific entities of
