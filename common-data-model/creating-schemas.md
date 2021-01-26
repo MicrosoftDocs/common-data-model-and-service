@@ -439,10 +439,12 @@ Since **UserAgent** is a *logical* entity, the attribute names in the entity sch
 
 Notice that this time a resolution guidance is specified with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, you use *renameFormat*: *{m}* to specify that you want to use the attribute names exactly as they're named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
 
-	ripContinent
-	ripCountry
-	…
-	isBot
+```
+ripContinent
+ripCountry
+…
+isBot
+```
 
 If you didn't specify a resolution guidance here, then the final attribute names in **Session** would have had the default format of *[name of entity attribute ][name of attribute]*, for example, *reverseIpContinent*.  
 
