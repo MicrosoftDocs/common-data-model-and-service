@@ -3,7 +3,7 @@ title: Introducing Common Data Model metadata manifest | Microsoft Docs
 description: Learn more about Common Data Model metadata manifest.
 author: oovanesy
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 04/23/2020
 ms.author: olegov

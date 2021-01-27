@@ -3,7 +3,7 @@ title: Create schema documents for the Common Data Model | Microsoft Docs
 description: How to create schema documents for the Common Data Model.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 06/24/2020
 ms.author: jibyun
@@ -342,17 +342,21 @@ You haven't provided any attribute resolution guidance properties in this entity
 
 Earlier, *browserName* was used rather than *uaBrowserName* when defining the attribute in **UserAgent**. This is because all the attributes in **UserAgent** starts with *ua*. When using default resolution guidance, if you notice a common prefix, you can use that as the name of the entity attribute. Since you used *ua* as the name of the entity attribute in **Session**, the attribute *browserName* from **UserAgent** becomes:
 
-    ua + browserName = uaBrowserName
+```
+ua + browserName = uaBrowserName
+```
 
 >[!NOTE]
 >The first letter of the original attribute name becomes capitalized during this process, for example, **browserName** becomes **BrowserName**.
 
 This is done to all attributes taken from **UserAgent**, so in **Session** you'll have:
 
-    uaBrowserName
-	uaBrowserVersion
-	…
-	uaPlatform
+```
+uaBrowserName
+uaBrowserVersion
+…
+uaPlatform
+```
 
 <br/>This becomes particularly useful when you want to use the same entity attributes from the same entity, but with slightly different attribute names:
 
@@ -435,10 +439,12 @@ Since **UserAgent** is a *logical* entity, the attribute names in the entity sch
 
 Notice that this time a resolution guidance is specified with a *renameFormat* property. This property is a format specifier for the final resolved attribute names. Here, you use *renameFormat*: *{m}* to specify that you want to use the attribute names exactly as they're named in the referenced entity. This means that in **Session**, the attributes that are taken from **ReverseIp** will look like:
 
-	ripContinent
-	ripCountry
-	…
-	isBot
+```
+ripContinent
+ripCountry
+…
+isBot
+```
 
 If you didn't specify a resolution guidance here, then the final attribute names in **Session** would have had the default format of *[name of entity attribute ][name of attribute]*, for example, *reverseIpContinent*.  
 

@@ -3,7 +3,7 @@ title: Overview of Common Data Model | Microsoft Docs
 description: Overview of Common Data Model.
 author: msftman
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 03/13/2020
 ms.author: Deonhe

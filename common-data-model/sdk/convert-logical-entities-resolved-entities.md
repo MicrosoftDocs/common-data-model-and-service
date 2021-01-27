@@ -3,7 +3,7 @@ title: Convert logical entities into resolved entities | Microsoft Docs
 description: Convert logical entities into resolved entities.
 author: msftman
 ms.service: common-data-model
-ms.reviewer:
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 03/13/2020
 ms.author: Deonhe
