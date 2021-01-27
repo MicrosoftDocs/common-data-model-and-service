@@ -3,7 +3,7 @@ title: How to use the sample code | Microsoft Docs
 description: How to how to use the Common Data Model sample code.
 author: oovanesy
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/27/2020
 ms.author: olegov
@@ -79,11 +79,11 @@ definitions, examine an entity, it's attributes and partitions.
 1.  Run the project. You should see a console with the list of entities and
     corresponding schema locations.
 
-    ![folder content](media/console1.png)
+    ![List of entities and schema locations](media/console1.png)
 
 1.  Type a number for a chosen entity and see the list of attributes and traits.
 
-    ![folder content](media/console2.png)
+    ![List of attributes and traits](media/console2.png)
 
 
 **How it works:**
@@ -116,12 +116,12 @@ In this example, you will learn how to create a manifest with select number of p
 1.  Run the project. Monitor messages in the console as they are informative to
     what is going on.
 
-    ![](media/console3.png)
+    ![Monitor messages in the console](media/console3.png)
 
 1.  Look into your directory, it should have all files with entity definitions,
     manifest file and folders with empty csv files for data generated for you.
 
-    ![](media/sample-folder1.png)
+    ![Look in your directory](media/sample-folder1.png)
 
 1.  There are few code fragments here. After configuring adapters, same as in
     the first sample, we create temporary manifest object, add specific entities of
