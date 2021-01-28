@@ -1,6 +1,6 @@
 ---
-title: Github Adapter | Microsoft Docs
-description: API reference for GithubAdapter.
+title: GitHub Adapter | Microsoft Docs
+description: API reference for GitHubAdapter.
 author: jinichu
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -9,21 +9,21 @@ ms.date: 08/24/2020
 ms.author: jibyun
 ---
 
-# Github Adapter
+# GitHub Adapter
 
-The Github adapter is the storage adapter that points to the Common Data Model public standards schema documents on [Github](https://github.com/microsoft/CDM/tree/master/schemaDocuments).<br/>
+The GitHub adapter is the storage adapter that points to the Common Data Model public standards schema documents on [GitHub](https://github.com/microsoft/CDM/tree/master/schemaDocuments).<br/>
 
 **Note**: This class is on the deprecation path. 
 
 ```csharp
-public class GithubAdapter extends NetworkAdapter
+public class GitHubAdapter extends NetworkAdapter
 ```
-*GithubAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
+*GitHubAdapter extends NetworkAdapter, StorageAdapterBase in Python.*
 
 ## Constructors
 |Name|Description|
 |---|---|
-|**GithubAdapter()**|Initializes a new instance of the [GithubAdapter](githubadapter.md) class.|
+|**GitHubAdapter()**|Initializes a new instance of the [GitHubAdapter](githubadapter.md) class.|
 
 ## Properties
 |Name|Type|Description|
@@ -33,10 +33,10 @@ public class GithubAdapter extends NetworkAdapter
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**CanRead()**|Returns true, since the Github adapter can read data.|bool|
-|**CanWrite()**|Returns false, since the Github adapter can't write data to its source.|bool|
+|**CanRead()**|Returns true, since the GitHub adapter can read data.|bool|
+|**CanWrite()**|Returns false, since the GitHub adapter can't write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapterBase.ReadAsync(...)](storageadapterbase.md#methods).|Task\<string>|
-|**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods). Throws a *NotImplementedException* because the Github adapter can't write to its source.|Task|
+|**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods). Throws a *NotImplementedException* because the GitHub adapter can't write to its source.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapterBase.CreateAdapterPath(...)](storageadapterbase.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
 |**ClearCache()**|See [StorageAdapterBase.ClearCache()](storageadapterbase.md#methods).|void|
