@@ -1,453 +1,274 @@
 ---
 title: List of Common Data Model datatypes | Microsoft Docs
-description: Lists the datatypes that are available in Common Data Model and describes the inheritance and traits of the datatypes.
-author: matgos
+description: The list of datatypes available within Common Data Model.
+author: msftman
 ms.service: common-data-model
 ms.reviewer: v-iap
 ms.topic: article
-ms.date: 12/14/2020
+ms.date: 02/11/2021
 ms.author: matgos
 ---
 
-# List of Common Data Model datatypes
-This page lists the datatypes that are available in Common Data Model.
+# List of CDM data types
+This page lists the data types which are available in Common Data Model.
 
-## <b>any</b>
-**Description**
-
-The root dataType
-
-### **Inheritance**
-None
-
-### **Traits**
-None
-
-## <b>integer</b>
-**Description**
-
-Whole numbers, assumed to correspond with a 32 bit signed int
-
-### **Inheritance**
+## <a id="addressline"><b>addressLine</b></a>
+**Inheritance**
 | |
 |--|
-|any -> integer|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>addressLine</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.integer</b>|
-
-## <b>listLookup</b>
-**Description**
-
-One integer value from a defined list of possibilities
-
-### **Inheritance**
-| |
-|--|
-|any -> integer -> listLookup|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>does.haveDefault</b>|
-|<b>is.constrainedList</b>|
-
-## <b>listLookupCorrelated</b>
-**Description**
-
-One integer value from a defined list of possibilities where the list represents correlated status
-
-### **Inheritance**
-| |
-|--|
-|any -> integer -> listLookupCorrelated|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>is.constrainedList.correlated</b>|
-
-## <b>smallInteger</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> smallInteger|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>is.dataFormat.small</b>|
-
-## <b>bigInteger</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> bigInteger|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.address</b>|
 
-## <b>integerCalendarPart</b>
-### **Inheritance**
+
+## <a id="age"><b>age</b></a>
+**Inheritance**
 | |
 |--|
-|any -> integer -> integerCalendarPart|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>age</b>|
 
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-
-## <b>day</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> day|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.day</b>|
-
-## <b>week</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> week|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.week</b>|
-
-## <b>tenday</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> tenday|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.tenday</b>|
-
-## <b>month</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> month|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.month</b>|
-
-## <b>quarter</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> quarter|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.quarter</b>|
-
-## <b>trimester</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> trimester|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.trimester</b>|
-
-## <b>year</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> integerCalendarPart -> year|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.year</b>|
-
-## <b>minute</b>
-**Description**
-
-Unit of measure for time in 60 second interval
-
-### **Inheritance**
-| |
-|--|
-|any -> integer -> minute|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.duration.minutes</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-
-## <b>minutes</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> minute -> minutes|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.duration.minutes</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-
-## <b>hour</b>
-**Description**
-
-Unit of measure for time in 3600 second interval
-
-### **Inheritance**
-| |
-|--|
-|any -> integer -> hour|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.duration.hours</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-
-## <b>day</b>
-**Description**
-
-Unit of measure for time in 'one earth rotation' interval
-
-### **Inheritance**
-| |
-|--|
-|any -> integer -> day|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.duration.days</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-
-## <b>year</b>
-**Description**
-
-Unit of measure for time in 'one solar orbit' interval
-
-### **Inheritance**
-| |
-|--|
-|any -> integer -> year|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.duration.years</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-
-## <b>displayOrder</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> displayOrder|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.formatting.order</b>|
-
-## <b>age</b>
-### **Inheritance**
-| |
-|--|
-|any -> integer -> age|
-
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
 |<b>means.demographic.age</b>|
 |<b>means.measurement.age</b>|
 
-## <b>float</b>
+
+## <a id="ampere"><b>ampere</b></a>
 **Description**
 
-Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation.
+Unit of measure for electric current in amperes
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>ampere</b>|
 
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-
-## <b>double</b>
-### **Inheritance**
-| |
-|--|
-|any -> float -> double|
-
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.electricCurrent</b>|
+|<b>means.measurement.units.si.ampere</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
 
-## <b>second</b>
+
+## <a id="any"><b>any</b></a>
 **Description**
 
-Unit of measure for time in seconds
+The root dataType
 
-### **Inheritance**
+**Inheritance**
+None
+
+**Traits**
+None
+
+
+## <a id="attribute"><b>attribute</b></a>
+**Description**
+
+Types for trait parameters that take objects as values
+
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> second|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>attribute</b>|
 
-### **Traits**
+**Traits**
+None
+
+
+## <a id="attributegroup"><b>attributeGroup</b></a>
+**Description**
+
+Types for trait parameters that take objects as values
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>attributeGroup</b>|
+
+**Traits**
+None
+
+
+## <a id="attributename"><b>attributeName</b></a>
+**Description**
+
+Type for trait parameters that take attribute names as values
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>attributeName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.attributeName</b>|
+
+
+## <a id="basecurrency"><b>baseCurrency</b></a>
+**Description**
+
+Value is expressed in the base currency units for the system
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- [<b>currency</b>](#currency) <- <b>baseCurrency</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.numeric.shaped</b>|
+|<b>means.measurement.currency</b>|
+|<b>means.measurement.currency</b>|
+
+
+## <a id="biginteger"><b>bigInteger</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>bigInteger</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.big</b>|
+
+
+## <a id="binary"><b>binary</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>byte</b>](#byte) <- <b>binary</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.byte</b>|
+|<b>is.dataFormat.array</b>|
+
+
+## <a id="birthdate"><b>birthDate</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>date</b>](#date) <- [<b>dateTime</b>](#datetime) <- <b>birthDate</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.date</b>|
+|<b>means.measurement.date</b>|
+|<b>is.dataFormat.time</b>|
+|<b>means.measurement.time</b>|
+|<b>means.demographic.birthDate</b>|
+
+
+## <a id="boolean"><b>boolean</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- <b>boolean</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.boolean</b>|
+
+
+## <a id="byte"><b>byte</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- <b>byte</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.byte</b>|
+
+
+## <a id="candela"><b>candela</b></a>
+**Description**
+
+Unit of measure for luminous intensity in candelas
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>candela</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.units.si.second</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.duration.seconds</b>|
+|<b>means.measurement.dimension.luminousIntensity</b>|
+|<b>means.measurement.units.si.candela</b>|
+|<b>has.measurement.fundamentalComponent.candela</b>|
 
-## <b>microSecond</b>
+
+## <a id="cdmobject"><b>cdmObject</b></a>
 **Description**
 
-Unit of measure for time in 10E-6 seconds
+Types for trait parameters that take CDM objects as values
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> second -> microSecond|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- <b>cdmObject</b>|
 
-### **Traits**
+**Traits**
+None
+
+
+## <a id="celsius"><b>celsius</b></a>
+**Description**
+
+Unit of measure for temperature in degrees celsius
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>celsius</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.units.si.second</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.duration.seconds</b>|
-|<b>means.measurement.prefix.micro</b>|
+|<b>means.measurement.dimension.temperature</b>|
+|<b>means.measurement.units.si.celsius</b>|
+|<b>has.measurement.fundamentalComponent.kelvin</b>|
 
-## <b>milliSecond</b>
-**Description**
 
-Unit of measure for time in 10E-3 seconds
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> second -> milliSecond|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.time</b>|
-|<b>means.measurement.units.si.second</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.duration.seconds</b>|
-|<b>means.measurement.prefix.milli</b>|
-
-## <b>meter</b>
-**Description**
-
-Unit of measure for length in meters
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> meter|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.length</b>|
-|<b>means.measurement.units.si.meter</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-
-## <b>millimeter</b>
-**Description**
-
-Unit of measure for length in 10E-3 meters
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> meter -> millimeter|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.length</b>|
-|<b>means.measurement.units.si.meter</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>means.measurement.prefix.milli</b>|
-
-## <b>centimeter</b>
+## <a id="centimeter"><b>centimeter</b></a>
 **Description**
 
 Unit of measure for length in 10E-2 meters
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> meter -> centimeter|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>meter</b>](#meter) <- <b>centimeter</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -457,356 +278,582 @@ Unit of measure for length in 10E-2 meters
 |<b>has.measurement.fundamentalComponent.meter</b>|
 |<b>means.measurement.prefix.centi</b>|
 
-## <b>kilometer</b>
-**Description**
 
-Unit of measure for length in 10E3 meters
-
-### **Inheritance**
+## <a id="char"><b>char</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> meter -> kilometer|
+|[<b>any</b>](#any) <- <b>char</b>|
 
-### **Traits**
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+
+
+## <a id="city"><b>city</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>city</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.city</b>|
+
+
+## <a id="colorname"><b>colorName</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>colorName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.measurement.color</b>|
+
+
+## <a id="companyname"><b>companyName</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>companyName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.company.name</b>|
+
+
+## <a id="coulomb"><b>coulomb</b></a>
+**Description**
+
+Unit of measure for electric charge or amount of electricity in coulombs
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>coulomb</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.length</b>|
-|<b>means.measurement.units.si.meter</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>means.measurement.prefix.kilo</b>|
-
-## <b>kilogram</b>
-**Description**
-
-Unit of measure for mass in kilogram
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> kilogram|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.mass</b>|
-|<b>means.measurement.units.si.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-
-## <b>ampere</b>
-**Description**
-
-Unit of measure for electric current in amperes
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> ampere|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.electricCurrent</b>|
-|<b>means.measurement.units.si.ampere</b>|
+|<b>means.measurement.dimension.electricCharge</b>|
+|<b>means.measurement.units.si.coulomb</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 
-## <b>microampere</b>
+
+## <a id="country"><b>country</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>country</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.country</b>|
+
+
+## <a id="county"><b>county</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>county</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.county</b>|
+
+
+## <a id="culturetag"><b>cultureTag</b></a>
 **Description**
 
-Unit of capacitance, equivalent to 10E-6 amperes
+A BCP 47 language tag
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> ampere -> microampere|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>languageTag</b>](#languagetag) <- <b>cultureTag</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.electricCurrent</b>|
-|<b>means.measurement.units.si.ampere</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-|<b>means.measurement.prefix.micro</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.reference.language.tag</b>|
+|<b>means.reference.culture.tag</b>|
 
-## <b>milliampere</b>
+
+## <a id="currency"><b>currency</b></a>
 **Description**
 
-Unit of capacitance, equivalent to 10E-3 amperes
+An amount of currency, money in units specified elsewhere.
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> ampere -> milliampere|
+|[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>currency</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.electricCurrent</b>|
-|<b>means.measurement.units.si.ampere</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-|<b>means.measurement.prefix.milli</b>|
+|<b>is.dataFormat.numeric.shaped</b>|
+|<b>means.measurement.currency</b>|
 
-## <b>kelvin</b>
+
+## <a id="currencycode"><b>currencyCode</b></a>
 **Description**
 
-Unit of measure for thermodynamic temperature in degrees kelvin
+Value is a ISO 4217 currency code
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> kelvin|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>currencyCode</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.temperature</b>|
-|<b>means.measurement.units.si.kelvin</b>|
-|<b>has.measurement.fundamentalComponent.kelvin</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.measurement.currencyCode</b>|
 
-## <b>mole</b>
+
+## <a id="datatype"><b>dataType</b></a>
 **Description**
 
-Unit of measure for amount in moles
+Types for trait parameters that take objects as values
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> mole|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>dataType</b>|
 
-### **Traits**
+**Traits**
+None
+
+
+## <a id="date"><b>date</b></a>
+**Inheritance**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.amount</b>|
-|<b>means.measurement.units.si.mole</b>|
-|<b>has.measurement.fundamentalComponent.mole</b>|
+|[<b>any</b>](#any) <- <b>date</b>|
 
-## <b>candela</b>
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.date</b>|
+|<b>means.measurement.date</b>|
+
+
+## <a id="datetime"><b>dateTime</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>date</b>](#date) <- <b>dateTime</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.date</b>|
+|<b>means.measurement.date</b>|
+|<b>is.dataFormat.time</b>|
+|<b>means.measurement.time</b>|
+
+
+## <a id="datetimeoffset"><b>dateTimeOffset</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>date</b>](#date) <- [<b>dateTime</b>](#datetime) <- <b>dateTimeOffset</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.date</b>|
+|<b>means.measurement.date</b>|
+|<b>is.dataFormat.time</b>|
+|<b>means.measurement.time</b>|
+|<b>is.dataFormat.timeOffset</b>|
+
+
+## <a id="day"><b>day</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>day</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.day</b>|
+
+
+## <a id="day"><b>day</b></a>
 **Description**
 
-Unit of measure for luminous intensity in candelas
+Unit of measure for time in 'one earth rotation' interval
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> candela|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>day</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.luminousIntensity</b>|
-|<b>means.measurement.units.si.candela</b>|
-|<b>has.measurement.fundamentalComponent.candela</b>|
-
-## <b>hertz</b>
-**Description**
-
-Unit of measure for frequency in hertz
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> hertz|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.frequency</b>|
-|<b>means.measurement.units.si.hertz</b>|
+|<b>is.dataFormat.integer</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.duration.days</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
 
-## <b>kilohertz</b>
+
+## <a id="decimal"><b>decimal</b></a>
 **Description**
 
-Unit of frequency equivalent to 10E3 hertz
+A precice fractional number with a specific precision and scale
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> hertz -> kilohertz|
+|[<b>any</b>](#any) <- <b>decimal</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.frequency</b>|
-|<b>means.measurement.units.si.hertz</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.kilo</b>|
+|<b>is.dataFormat.numeric.shaped</b>|
 
-## <b>megahertz</b>
+
+## <a id="degree"><b>degree</b></a>
 **Description**
 
-Unit of frequency equivalent to 10E6 hertz
+Unit of measure for angles in degrees, 1/360 rotation
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> hertz -> megahertz|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>degree</b>|
 
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.frequency</b>|
-|<b>means.measurement.units.si.hertz</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.mega</b>|
-
-## <b>gigahertz</b>
-**Description**
-
-Unit of frequency equivalent to 10E9 hertz
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> hertz -> gigahertz|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.frequency</b>|
-|<b>means.measurement.units.si.hertz</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.giga</b>|
-
-## <b>radian</b>
-**Description**
-
-Unit of measure for angle in radians
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> radian|
-
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
 |<b>means.measurement.dimension.angle</b>|
-|<b>means.measurement.units.si.radian</b>|
+|<b>means.measurement.units.degree</b>|
 |<b>has.measurement.fundamentalComponent</b>|
 
-## <b>newton</b>
-**Description**
 
-Unit of measure for force or weight in newtons
-
-### **Inheritance**
+## <a id="displayorder"><b>displayOrder</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> newton|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>displayOrder</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.force</b>|
-|<b>means.measurement.units.si.newton</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>is.dataFormat.integer</b>|
+|<b>means.formatting.order</b>|
 
-## <b>pascal</b>
-**Description**
 
-Unit of measure for pressure or stress in pascals
-
-### **Inheritance**
+## <a id="double"><b>double</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> pascal|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- <b>double</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.pressure</b>|
-|<b>means.measurement.units.si.pascal</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
 
-## <b>kilopascal</b>
-**Description**
 
-Unit of stress, equivalent to 10E3 pascals
-
-### **Inheritance**
+## <a id="email"><b>email</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> pascal -> kilopascal|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>email</b>|
 
-### **Traits**
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.service.email</b>|
+
+
+## <a id="entity"><b>entity</b></a>
+**Description**
+
+Types for trait parameters that take objects as values
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>entity</b>|
+
+**Traits**
+| |
+|--|
+|<b>means.entityName.specific</b>|
+
+
+## <a id="entityid"><b>entityId</b></a>
+**Description**
+
+A unique identifier for entity instances
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>guid</b>](#guid) <- <b>entityId</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>is.dataFormat.guid</b>|
+|<b>means.identity.entityId</b>|
+
+
+## <a id="entityname"><b>entityName</b></a>
+**Description**
+
+Type for trait parameters that take entity names as values
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>entityName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.entityName</b>|
+|<b>means.entityName</b>|
+
+
+## <a id="ethnicity"><b>ethnicity</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>ethnicity</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.demographic.ethnicity</b>|
+
+
+## <a id="farad"><b>farad</b></a>
+**Description**
+
+Unit of measure for electric capacitance in farads
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>farad</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.pressure</b>|
-|<b>means.measurement.units.si.pascal</b>|
+|<b>means.measurement.dimension.capacitance</b>|
+|<b>means.measurement.units.si.farad</b>|
 |<b>has.measurement.fundamentalComponent.kilogram</b>|
 |<b>has.measurement.fundamentalComponent.meter</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.kilo</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
 
-## <b>megapascal</b>
+
+## <a id="fileid"><b>fileId</b></a>
 **Description**
 
-Unit of stress, equivalent to 10E6 pascals
+A unique identifier for file instances
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> pascal -> megapascal|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>guid</b>](#guid) <- [<b>entityId</b>](#entityid) <- <b>fileId</b>|
 
-### **Traits**
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>is.dataFormat.guid</b>|
+|<b>means.identity.entityId</b>|
+
+
+## <a id="filename"><b>fileName</b></a>
+**Description**
+
+A string value representing the name of a file.
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>fileName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.fileName</b>|
+
+
+## <a id="firstname"><b>firstName</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>firstName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.person.firstName</b>|
+
+
+## <a id="fixeddecimal"><b>fixedDecimal</b></a>
+**Description**
+
+The 64 bit fixed (4) scale numbers used by PBI
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>fixedDecimal</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.numeric.shaped</b>|
+
+
+## <a id="float"><b>float</b></a>
+**Description**
+
+Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation.
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- <b>float</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+
+
+## <a id="fullname"><b>fullName</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>fullName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.person.fullName</b>|
+
+
+## <a id="gender"><b>gender</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>gender</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.demographic.gender</b>|
+
+
+## <a id="gigahertz"><b>gigahertz</b></a>
+**Description**
+
+Unit of frequency equivalent to 10E9 hertz
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>hertz</b>](#hertz) <- <b>gigahertz</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.pressure</b>|
-|<b>means.measurement.units.si.pascal</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>means.measurement.dimension.frequency</b>|
+|<b>means.measurement.units.si.hertz</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.mega</b>|
+|<b>means.measurement.prefix.giga</b>|
 
-## <b>gigapascal</b>
+
+## <a id="gigapascal"><b>gigapascal</b></a>
 **Description**
 
 Unit of stress, equivalent to 10E9 pascals
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> pascal -> gigapascal|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>pascal</b>](#pascal) <- <b>gigapascal</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -818,17 +865,202 @@ Unit of stress, equivalent to 10E9 pascals
 |<b>has.measurement.fundamentalComponent.second</b>|
 |<b>means.measurement.prefix.giga</b>|
 
-## <b>joule</b>
+
+## <a id="governmentid"><b>governmentId</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>governmentId</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.governmentID</b>|
+
+
+## <a id="gram"><b>gram</b></a>
+**Description**
+
+Unit of measure for mass in grams
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>gram</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.mass</b>|
+|<b>means.measurement.units.si.gram</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+
+
+## <a id="guid"><b>guid</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>guid</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>is.dataFormat.guid</b>|
+
+
+## <a id="hertz"><b>hertz</b></a>
+**Description**
+
+Unit of measure for frequency in hertz
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>hertz</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.frequency</b>|
+|<b>means.measurement.units.si.hertz</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+
+
+## <a id="hour"><b>hour</b></a>
+**Description**
+
+Unit of measure for time in 3600 second interval
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>hour</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.duration.hours</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+
+
+## <a id="image"><b>image</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>byte</b>](#byte) <- [<b>binary</b>](#binary) <- <b>image</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.byte</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.content.binary.image</b>|
+
+
+## <a id="inches"><b>inches</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>inches</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.distance.inches</b>|
+
+
+## <a id="integer"><b>integer</b></a>
+**Description**
+
+Whole numbers, assumed to correspond with a 32 bit signed int
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- <b>integer</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+
+
+## <a id="integercalendarpart"><b>integerCalendarPart</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>integerCalendarPart</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+
+
+## <a id="ip4address"><b>IP4Address</b></a>
+**Description**
+
+Internet Protocol V4 Address of the form DDD.DDD.DDD.DDD
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>IP4Address</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.IP4Address</b>|
+
+
+## <a id="ip6address"><b>IP6Address</b></a>
+**Description**
+
+Internet Protocol V6 Address of the form  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>IP6Address</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.IP6Address</b>|
+
+
+## <a id="joule"><b>joule</b></a>
 **Description**
 
 Unit of measure for energy, work or heat in joules
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> joule|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>joule</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -839,169 +1071,179 @@ Unit of measure for energy, work or heat in joules
 |<b>has.measurement.fundamentalComponent.meter</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
 
-## <b>watt</b>
-**Description**
 
-Unit of measure for power or radiant flux in watts
-
-### **Inheritance**
+## <a id="jsinteger"><b>JSInteger</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> watt|
+|[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>JSInteger</b>|
 
-### **Traits**
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.numeric.shaped</b>|
+|<b>is.dataFormat.JSInteger</b>|
+
+
+## <a id="json"><b>json</b></a>
+**Description**
+
+A JSON fragment contained within one string value
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>json</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.content.text.JSON</b>|
+
+
+## <a id="kelvin"><b>kelvin</b></a>
+**Description**
+
+Unit of measure for thermodynamic temperature in degrees kelvin
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>kelvin</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.power</b>|
-|<b>means.measurement.units.si.watt</b>|
+|<b>means.measurement.dimension.temperature</b>|
+|<b>means.measurement.units.si.kelvin</b>|
+|<b>has.measurement.fundamentalComponent.kelvin</b>|
+
+
+## <a id="kilogram"><b>kilogram</b></a>
+**Description**
+
+Unit of measure for mass in kilogram
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>kilogram</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.mass</b>|
+|<b>means.measurement.units.si.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+
+
+## <a id="kilohertz"><b>kilohertz</b></a>
+**Description**
+
+Unit of frequency equivalent to 10E3 hertz
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>hertz</b>](#hertz) <- <b>kilohertz</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.frequency</b>|
+|<b>means.measurement.units.si.hertz</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.prefix.kilo</b>|
+
+
+## <a id="kilometer"><b>kilometer</b></a>
+**Description**
+
+Unit of measure for length in 10E3 meters
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>meter</b>](#meter) <- <b>kilometer</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.length</b>|
+|<b>means.measurement.units.si.meter</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>means.measurement.prefix.kilo</b>|
+
+
+## <a id="kiloohm"><b>kiloOhm</b></a>
+**Description**
+
+Unit of power, equivalent to 10E3 ohms
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ohm</b>](#ohm) <- <b>kiloOhm</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.resistance</b>|
+|<b>means.measurement.units.si.ohm</b>|
 |<b>has.measurement.fundamentalComponent.kilogram</b>|
 |<b>has.measurement.fundamentalComponent.meter</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>means.measurement.prefix.kilo</b>|
 
-## <b>milliwatt</b>
+
+## <a id="kilopascal"><b>kilopascal</b></a>
 **Description**
 
-Unit of power, equivalent to 10E-3 watts
+Unit of stress, equivalent to 10E3 pascals
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> watt -> milliwatt|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>pascal</b>](#pascal) <- <b>kilopascal</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.power</b>|
-|<b>means.measurement.units.si.watt</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.milli</b>|
-
-## <b>kilowatt</b>
-**Description**
-
-Unit of power, equivalent to 10E3 watts
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> watt -> kilowatt|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.power</b>|
-|<b>means.measurement.units.si.watt</b>|
+|<b>means.measurement.dimension.pressure</b>|
+|<b>means.measurement.units.si.pascal</b>|
 |<b>has.measurement.fundamentalComponent.kilogram</b>|
 |<b>has.measurement.fundamentalComponent.meter</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
 |<b>means.measurement.prefix.kilo</b>|
 
-## <b>megawatt</b>
-**Description**
 
-Unit of power, equivalent to 10E6 watts
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> watt -> megawatt|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.power</b>|
-|<b>means.measurement.units.si.watt</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>means.measurement.prefix.mega</b>|
-
-## <b>coulomb</b>
-**Description**
-
-Unit of measure for electric charge or amount of electricity in coulombs
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> coulomb|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.electricCharge</b>|
-|<b>means.measurement.units.si.coulomb</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-
-## <b>volt</b>
-**Description**
-
-Unit of measure for voltage, EMF, electrical potantial difference in volts
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> volt|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.electromotiveForce</b>|
-|<b>means.measurement.units.si.volt</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-
-## <b>millivolt</b>
-**Description**
-
-Unit of power, equivalent to 10E-3 volts
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> volt -> millivolt|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.electromotiveForce</b>|
-|<b>means.measurement.units.si.volt</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-|<b>means.measurement.prefix.milli</b>|
-
-## <b>kilovolt</b>
+## <a id="kilovolt"><b>kilovolt</b></a>
 **Description**
 
 Unit of power, equivalent to 10E3 volts
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> volt -> kilovolt|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>volt</b>](#volt) <- <b>kilovolt</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1014,17 +1256,349 @@ Unit of power, equivalent to 10E3 volts
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 |<b>means.measurement.prefix.kilo</b>|
 
-## <b>megavolt</b>
+
+## <a id="kilowatt"><b>kilowatt</b></a>
+**Description**
+
+Unit of power, equivalent to 10E3 watts
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>watt</b>](#watt) <- <b>kilowatt</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.power</b>|
+|<b>means.measurement.units.si.watt</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.prefix.kilo</b>|
+
+
+## <a id="language"><b>language</b></a>
+**Description**
+
+A language identifier
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>language</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.reference.language</b>|
+
+
+## <a id="languagetag"><b>languageTag</b></a>
+**Description**
+
+A BCP 47 language tag
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>languageTag</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.reference.language.tag</b>|
+
+
+## <a id="lastname"><b>lastName</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>lastName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.person.lastName</b>|
+
+
+## <a id="latitude"><b>latitude</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>latitude</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.location.latitude</b>|
+
+
+## <a id="list"><b>list</b></a>
+**Description**
+
+A CSV contained within one string value
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>list</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.content.text.CSV</b>|
+
+
+## <a id="listlookup"><b>listLookup</b></a>
+**Description**
+
+One integer value from a defined list of possibilities
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>listLookup</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>does.haveDefault</b>|
+|<b>is.constrainedList</b>|
+
+
+## <a id="listlookupcorrelated"><b>listLookupCorrelated</b></a>
+**Description**
+
+One integer value from a defined list of possibilities where the list represents correlated status
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>listLookupCorrelated</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>is.constrainedList.correlated</b>|
+
+
+## <a id="listlookupmultiple"><b>listLookupMultiple</b></a>
+**Description**
+
+A set of one or more values from a defined list of possibilities
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>listLookupMultiple</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>does.haveDefault</b>|
+|<b>means.content.text.CSV</b>|
+|<b>is.constrainedList</b>|
+
+
+## <a id="listlookupstring"><b>listLookupString</b></a>
+**Description**
+
+One string value from a defined list of possibilities
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>listLookupString</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>is.constrainedList.string</b>|
+
+
+## <a id="listlookupwellknown"><b>listLookupWellKnown</b></a>
+**Description**
+
+One string value from a defined list of possibilities which are defined in an identified public location.
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>listLookupWellKnown</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>is.constrainedList.wellKnown</b>|
+
+
+## <a id="localizeddisplaytext"><b>localizedDisplayText</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>localizedDisplayText</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.reference.displayText</b>|
+
+
+## <a id="localizeddisplaytextmultiple"><b>localizedDisplayTextMultiple</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>localizedDisplayText</b>](#localizeddisplaytext) <- <b>localizedDisplayTextMultiple</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.reference.displayText</b>|
+|<b>means.content.text.CSV</b>|
+
+
+## <a id="longitude"><b>longitude</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>longitude</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.location.longitude</b>|
+
+
+## <a id="maritalstatus"><b>maritalStatus</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>maritalStatus</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.demographic.maritalStatus</b>|
+
+
+## <a id="megahertz"><b>megahertz</b></a>
+**Description**
+
+Unit of frequency equivalent to 10E6 hertz
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>hertz</b>](#hertz) <- <b>megahertz</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.frequency</b>|
+|<b>means.measurement.units.si.hertz</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.prefix.mega</b>|
+
+
+## <a id="megaohm"><b>megaOhm</b></a>
+**Description**
+
+Unit of power, equivalent to 10E6 Ohms
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ohm</b>](#ohm) <- <b>megaOhm</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.resistance</b>|
+|<b>means.measurement.units.si.ohm</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>means.measurement.prefix.mega</b>|
+
+
+## <a id="megapascal"><b>megapascal</b></a>
+**Description**
+
+Unit of stress, equivalent to 10E6 pascals
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>pascal</b>](#pascal) <- <b>megapascal</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.pressure</b>|
+|<b>means.measurement.units.si.pascal</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.prefix.mega</b>|
+
+
+## <a id="megavolt"><b>megavolt</b></a>
 **Description**
 
 Unit of power, equivalent to 10E6 volts
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> volt -> megavolt|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>volt</b>](#volt) <- <b>megavolt</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1037,39 +1611,82 @@ Unit of power, equivalent to 10E6 volts
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 |<b>means.measurement.prefix.mega</b>|
 
-## <b>farad</b>
+
+## <a id="megawatt"><b>megawatt</b></a>
 **Description**
 
-Unit of measure for electric capacitance in farads
+Unit of power, equivalent to 10E6 watts
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> farad|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>watt</b>](#watt) <- <b>megawatt</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.capacitance</b>|
-|<b>means.measurement.units.si.farad</b>|
+|<b>means.measurement.dimension.power</b>|
+|<b>means.measurement.units.si.watt</b>|
 |<b>has.measurement.fundamentalComponent.kilogram</b>|
 |<b>has.measurement.fundamentalComponent.meter</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>means.measurement.prefix.mega</b>|
 
-## <b>microfarad</b>
+
+## <a id="meter"><b>meter</b></a>
+**Description**
+
+Unit of measure for length in meters
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>meter</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.length</b>|
+|<b>means.measurement.units.si.meter</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+
+
+## <a id="microampere"><b>microampere</b></a>
+**Description**
+
+Unit of capacitance, equivalent to 10E-6 amperes
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ampere</b>](#ampere) <- <b>microampere</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.electricCurrent</b>|
+|<b>means.measurement.units.si.ampere</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>means.measurement.prefix.micro</b>|
+
+
+## <a id="microfarad"><b>microfarad</b></a>
 **Description**
 
 Unit of capacitance, equivalent to 10E-6 farads
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> farad -> microfarad|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>farad</b>](#farad) <- <b>microfarad</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1082,17 +1699,270 @@ Unit of capacitance, equivalent to 10E-6 farads
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 |<b>means.measurement.prefix.micro</b>|
 
-## <b>nanofarad</b>
+
+## <a id="microsecond"><b>microSecond</b></a>
+**Description**
+
+Unit of measure for time in 10E-6 seconds
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>second</b>](#second) <- <b>microSecond</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.units.si.second</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.duration.seconds</b>|
+|<b>means.measurement.prefix.micro</b>|
+
+
+## <a id="middlename"><b>middleName</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>middleName</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.person.middleName</b>|
+
+
+## <a id="milliampere"><b>milliampere</b></a>
+**Description**
+
+Unit of capacitance, equivalent to 10E-3 amperes
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ampere</b>](#ampere) <- <b>milliampere</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.electricCurrent</b>|
+|<b>means.measurement.units.si.ampere</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>means.measurement.prefix.milli</b>|
+
+
+## <a id="milligram"><b>milligram</b></a>
+**Description**
+
+Unit of measure for mass in milligrams
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>gram</b>](#gram) <- <b>milligram</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.mass</b>|
+|<b>means.measurement.units.si.gram</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>means.measurement.prefix.milli</b>|
+
+
+## <a id="millimeter"><b>millimeter</b></a>
+**Description**
+
+Unit of measure for length in 10E-3 meters
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>meter</b>](#meter) <- <b>millimeter</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.length</b>|
+|<b>means.measurement.units.si.meter</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>means.measurement.prefix.milli</b>|
+
+
+## <a id="millisecond"><b>milliSecond</b></a>
+**Description**
+
+Unit of measure for time in 10E-3 seconds
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>second</b>](#second) <- <b>milliSecond</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.units.si.second</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.duration.seconds</b>|
+|<b>means.measurement.prefix.milli</b>|
+
+
+## <a id="millivolt"><b>millivolt</b></a>
+**Description**
+
+Unit of power, equivalent to 10E-3 volts
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>volt</b>](#volt) <- <b>millivolt</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.electromotiveForce</b>|
+|<b>means.measurement.units.si.volt</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>means.measurement.prefix.milli</b>|
+
+
+## <a id="milliwatt"><b>milliwatt</b></a>
+**Description**
+
+Unit of power, equivalent to 10E-3 watts
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>watt</b>](#watt) <- <b>milliwatt</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.power</b>|
+|<b>means.measurement.units.si.watt</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.prefix.milli</b>|
+
+
+## <a id="minute"><b>minute</b></a>
+**Description**
+
+Unit of measure for time in 60 second interval
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>minute</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.duration.minutes</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+
+
+## <a id="minutes"><b>minutes</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>minute</b>](#minute) <- <b>minutes</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.duration.minutes</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+
+
+## <a id="mole"><b>mole</b></a>
+**Description**
+
+Unit of measure for amount in moles
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>mole</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.amount</b>|
+|<b>means.measurement.units.si.mole</b>|
+|<b>has.measurement.fundamentalComponent.mole</b>|
+
+
+## <a id="month"><b>month</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>month</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.month</b>|
+
+
+## <a id="name"><b>name</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>name</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.name</b>|
+
+
+## <a id="nanofarad"><b>nanofarad</b></a>
 **Description**
 
 Unit of capacitance, equivalent to 10E-9 farads
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> farad -> nanofarad|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>farad</b>](#farad) <- <b>nanofarad</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1105,17 +1975,144 @@ Unit of capacitance, equivalent to 10E-9 farads
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 |<b>means.measurement.prefix.nano</b>|
 
-## <b>picofarad</b>
+
+## <a id="newton"><b>newton</b></a>
+**Description**
+
+Unit of measure for force or weight in newtons
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>newton</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.force</b>|
+|<b>means.measurement.units.si.newton</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+
+
+## <a id="object"><b>object</b></a>
+**Description**
+
+Types for trait parameters that take objects as values
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- <b>object</b>|
+
+**Traits**
+None
+
+
+## <a id="ohm"><b>ohm</b></a>
+**Description**
+
+Unit of measure for electrical resistance, impedance, reactance in ohms
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>ohm</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.resistance</b>|
+|<b>means.measurement.units.si.ohm</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
+
+
+## <a id="pascal"><b>pascal</b></a>
+**Description**
+
+Unit of measure for pressure or stress in pascals
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>pascal</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.big</b>|
+|<b>means.measurement.dimension.pressure</b>|
+|<b>means.measurement.units.si.pascal</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+
+
+## <a id="phone"><b>phone</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phone</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.service.phone</b>|
+
+
+## <a id="phonecell"><b>phoneCell</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phoneCell</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.service.phone.cell</b>|
+
+
+## <a id="phonefax"><b>phoneFax</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phoneFax</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.service.phone.fax</b>|
+
+
+## <a id="picofarad"><b>picofarad</b></a>
 **Description**
 
 Unit of capacitance, equivalent to 10E-12 farads
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> farad -> picofarad|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>farad</b>](#farad) <- <b>picofarad</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -1128,416 +2125,290 @@ Unit of capacitance, equivalent to 10E-12 farads
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 |<b>means.measurement.prefix.pico</b>|
 
-## <b>ohm</b>
-**Description**
 
-Unit of measure for electrical resistance, impedance, reactance in ohms
-
-### **Inheritance**
+## <a id="postalcode"><b>postalCode</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> ohm|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>postalCode</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
+|<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.resistance</b>|
-|<b>means.measurement.units.si.ohm</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.postalCode</b>|
 
-## <b>kiloOhm</b>
+
+## <a id="purpose"><b>purpose</b></a>
 **Description**
 
-Unit of power, equivalent to 10E3 ohms
+Types for trait parameters that take objects as values
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> ohm -> kiloOhm|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>purpose</b>|
 
-### **Traits**
+**Traits**
+None
+
+
+## <a id="quarter"><b>quarter</b></a>
+**Inheritance**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.resistance</b>|
-|<b>means.measurement.units.si.ohm</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-|<b>means.measurement.prefix.kilo</b>|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>quarter</b>|
 
-## <b>megaOhm</b>
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.quarter</b>|
+
+
+## <a id="radian"><b>radian</b></a>
 **Description**
 
-Unit of power, equivalent to 10E6 Ohms
+Unit of measure for angle in radians
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> ohm -> megaOhm|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>radian</b>|
 
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.resistance</b>|
-|<b>means.measurement.units.si.ohm</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>has.measurement.fundamentalComponent.meter</b>|
-|<b>has.measurement.fundamentalComponent.second</b>|
-|<b>has.measurement.fundamentalComponent.ampere</b>|
-|<b>means.measurement.prefix.mega</b>|
-
-## <b>gram</b>
-**Description**
-
-Unit of measure for mass in grams
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> gram|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.mass</b>|
-|<b>means.measurement.units.si.gram</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-
-## <b>milligram</b>
-**Description**
-
-Unit of measure for mass in milligrams
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> gram -> milligram|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.mass</b>|
-|<b>means.measurement.units.si.gram</b>|
-|<b>has.measurement.fundamentalComponent.kilogram</b>|
-|<b>means.measurement.prefix.milli</b>|
-
-## <b>celsius</b>
-**Description**
-
-Unit of measure for temperature in degrees celsius
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> celsius|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.measurement.dimension.temperature</b>|
-|<b>means.measurement.units.si.celsius</b>|
-|<b>has.measurement.fundamentalComponent.kelvin</b>|
-
-## <b>degree</b>
-**Description**
-
-Unit of measure for angles in degrees, 1/360 rotation
-
-### **Inheritance**
-| |
-|--|
-|any -> float -> double -> degree|
-
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
 |<b>means.measurement.dimension.angle</b>|
-|<b>means.measurement.units.degree</b>|
+|<b>means.measurement.units.si.radian</b>|
 |<b>has.measurement.fundamentalComponent</b>|
 
-## <b>inches</b>
-### **Inheritance**
+
+## <a id="schar"><b>sChar</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> inches|
+|[<b>any</b>](#any) <- <b>sChar</b>|
 
-### **Traits**
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+
+
+## <a id="second"><b>second</b></a>
+**Description**
+
+Unit of measure for time in seconds
+
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>second</b>|
+
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>means.measurement.distance.inches</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.units.si.second</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>means.measurement.duration.seconds</b>|
 
-## <b>latitude</b>
-### **Inheritance**
+
+## <a id="smallinteger"><b>smallInteger</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> latitude|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>smallInteger</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.location.latitude</b>|
+|<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.small</b>|
 
-## <b>longitude</b>
-### **Inheritance**
+
+## <a id="stateorprovince"><b>stateOrProvince</b></a>
+**Inheritance**
 | |
 |--|
-|any -> float -> double -> longitude|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>stateOrProvince</b>|
 
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.floatingPoint</b>|
-|<b>is.dataFormat.big</b>|
-|<b>means.location.longitude</b>|
-
-## <b>decimal</b>
-**Description**
-
-A precice fractional number with a specific precision and scale
-
-### **Inheritance**
-| |
-|--|
-|any -> decimal|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.numeric.shaped</b>|
-
-## <b>fixedDecimal</b>
-**Description**
-
-The 64 bit fixed (4) scale numbers used by PBI
-
-### **Inheritance**
-| |
-|--|
-|any -> decimal -> fixedDecimal|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.numeric.shaped</b>|
-
-## <b>variableDecimal</b>
-**Description**
-
-15 digit precision numbers with no fixed scale
-
-### **Inheritance**
-| |
-|--|
-|any -> decimal -> variableDecimal|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.numeric.shaped</b>|
-
-## <b>JSInteger</b>
-### **Inheritance**
-| |
-|--|
-|any -> decimal -> JSInteger|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.numeric.shaped</b>|
-|<b>is.dataFormat.JSInteger</b>|
-
-## <b>currency</b>
-**Description**
-
-An amount of currency, money in units specified elsewhere.
-
-### **Inheritance**
-| |
-|--|
-|any -> decimal -> currency|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.numeric.shaped</b>|
-|<b>means.measurement.currency</b>|
-
-## <b>baseCurrency</b>
-**Description**
-
-Value is expressed in the base currency units for the system
-
-### **Inheritance**
-| |
-|--|
-|any -> decimal -> currency -> baseCurrency|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.numeric.shaped</b>|
-|<b>means.measurement.currency</b>|
-|<b>means.measurement.currency</b>|
-
-## <b>boolean</b>
-### **Inheritance**
-| |
-|--|
-|any -> boolean|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.boolean</b>|
-
-## <b>char</b>
-### **Inheritance**
-| |
-|--|
-|any -> char|
-
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.stateOrProvince</b>|
 
-## <b>string</b>
-### **Inheritance**
+
+## <a id="string"><b>string</b></a>
+**Inheritance**
 | |
 |--|
-|any -> char -> string|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- <b>string</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
 |<b>is.dataFormat.array</b>|
 
-## <b>listLookupMultiple</b>
+
+## <a id="stringformat"><b>stringFormat</b></a>
 **Description**
 
-A set of one or more values from a defined list of possibilities
+A string representing the format used to encode data in another string
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> listLookupMultiple|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>stringFormat</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
 |<b>is.dataFormat.array</b>|
-|<b>does.haveDefault</b>|
-|<b>means.content.text.CSV</b>|
-|<b>is.constrainedList</b>|
+|<b>means.formatting.stringFormat</b>|
 
-## <b>listLookupString</b>
+
+## <a id="tenday"><b>tenday</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>tenday</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.tenday</b>|
+
+
+## <a id="tickersymbol"><b>tickerSymbol</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>tickerSymbol</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.identity.tickerSymbol</b>|
+
+
+## <a id="time"><b>time</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- <b>time</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.time</b>|
+|<b>means.measurement.time</b>|
+
+
+## <a id="timezone"><b>timezone</b></a>
+**Inheritance**
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>timezone</b>|
+
+**Traits**
+| |
+|--|
+|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.big</b>|
+|<b>is.dataFormat.array</b>|
+|<b>means.location.timezone</b>|
+
+
+## <a id="trait"><b>trait</b></a>
 **Description**
 
-One string value from a defined list of possibilities
+Types for trait parameters that take objects as values
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> listLookupString|
+|[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>trait</b>|
 
-### **Traits**
+**Traits**
+None
+
+
+## <a id="trimester"><b>trimester</b></a>
+**Inheritance**
 | |
 |--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>is.constrainedList.string</b>|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>trimester</b>|
 
-## <b>listLookupWellKnown</b>
-**Description**
-
-One string value from a defined list of possibilities which are defined in an identified public location.
-
-### **Inheritance**
+**Traits**
 | |
 |--|
-|any -> char -> string -> listLookupWellKnown|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.trimester</b>|
 
-### **Traits**
+
+## <a id="uri"><b>uri</b></a>
+**Inheritance**
 | |
 |--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>is.constrainedList.wellKnown</b>|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>uri</b>|
 
-## <b>guid</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> guid|
-
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
 |<b>is.dataFormat.array</b>|
-|<b>is.dataFormat.guid</b>|
+|<b>means.reference.URI</b>|
 
-## <b>entityId</b>
-**Description**
 
-A unique identifier for entity instances
-
-### **Inheritance**
+## <a id="url"><b>url</b></a>
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> guid -> entityId|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>url</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
 |<b>is.dataFormat.big</b>|
 |<b>is.dataFormat.array</b>|
-|<b>is.dataFormat.guid</b>|
-|<b>means.identity.entityId</b>|
+|<b>means.reference.URL</b>|
 
-## <b>userId</b>
+
+## <a id="userid"><b>userId</b></a>
 **Description**
 
 The identifier of a system user
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> guid -> entityId -> userId|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>guid</b>](#guid) <- [<b>entityId</b>](#entityid) <- <b>userId</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -1547,493 +2418,93 @@ The identifier of a system user
 |<b>means.identity.entityId</b>|
 |<b>means.userId</b>|
 
-## <b>fileId</b>
+
+## <a id="variabledecimal"><b>variableDecimal</b></a>
 **Description**
 
-A unique identifier for file instances
+15 digit precision numbers with no fixed scale
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> guid -> entityId -> fileId|
+|[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>variableDecimal</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>is.dataFormat.guid</b>|
-|<b>means.identity.entityId</b>|
+|<b>is.dataFormat.numeric.shaped</b>|
 
-## <b>fileName</b>
+
+## <a id="volt"><b>volt</b></a>
 **Description**
 
-A string value representing the name of a file.
+Unit of measure for voltage, EMF, electrical potantial difference in volts
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> fileName|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>volt</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.fileName</b>|
+|<b>means.measurement.dimension.electromotiveForce</b>|
+|<b>means.measurement.units.si.volt</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
+|<b>has.measurement.fundamentalComponent.ampere</b>|
 
-## <b>entityName</b>
+
+## <a id="watt"><b>watt</b></a>
 **Description**
 
-Type for trait parameters that take entity names as values
+Unit of measure for power or radiant flux in watts
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> entityName|
+|[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>watt</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.character</b>|
+|<b>is.dataFormat.floatingPoint</b>|
 |<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.entityName</b>|
-|<b>means.entityName</b>|
+|<b>means.measurement.dimension.power</b>|
+|<b>means.measurement.units.si.watt</b>|
+|<b>has.measurement.fundamentalComponent.kilogram</b>|
+|<b>has.measurement.fundamentalComponent.meter</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
 
-## <b>attributeName</b>
-**Description**
 
-Type for trait parameters that take attribute names as values
-
-### **Inheritance**
+## <a id="week"><b>week</b></a>
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> attributeName|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>week</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.attributeName</b>|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.week</b>|
 
-## <b>list</b>
-**Description**
 
-A CSV contained within one string value
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> list|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.content.text.CSV</b>|
-
-## <b>language</b>
-**Description**
-
-A language identifier
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> language|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.language</b>|
-
-## <b>languageTag</b>
-**Description**
-
-A BCP 47 language tag
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> languageTag|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.language.tag</b>|
-
-## <b>cultureTag</b>
-**Description**
-
-A BCP 47 language tag
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> languageTag -> cultureTag|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.language.tag</b>|
-|<b>means.reference.culture.tag</b>|
-
-## <b>localizedDisplayText</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> localizedDisplayText|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.displayText</b>|
-
-## <b>localizedDisplayTextMultiple</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> localizedDisplayText -> localizedDisplayTextMultiple|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.displayText</b>|
-|<b>means.content.text.CSV</b>|
-
-## <b>url</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> url|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.URL</b>|
-
-## <b>uri</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> uri|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.reference.URI</b>|
-
-## <b>governmentId</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> governmentId|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.governmentID</b>|
-
-## <b>name</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> name|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.name</b>|
-
-## <b>companyName</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> companyName|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.company.name</b>|
-
-## <b>firstName</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> firstName|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.person.firstName</b>|
-
-## <b>fullName</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> fullName|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.person.fullName</b>|
-
-## <b>lastName</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> lastName|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.person.lastName</b>|
-
-## <b>middleName</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> middleName|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.person.middleName</b>|
-
-## <b>email</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> email|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.service.email</b>|
-
-## <b>phone</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> phone|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.service.phone</b>|
-
-## <b>phoneCell</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> phoneCell|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.service.phone.cell</b>|
-
-## <b>phoneFax</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> phoneFax|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.service.phone.fax</b>|
-
-## <b>tickerSymbol</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> tickerSymbol|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.tickerSymbol</b>|
-
-## <b>IP4Address</b>
-**Description**
-
-Internet Protocol V4 Address of the form DDD.DDD.DDD.DDD
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> IP4Address|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.IP4Address</b>|
-
-## <b>IP6Address</b>
-**Description**
-
-Internet Protocol V6 Address of the form  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> IP6Address|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.identity.IP6Address</b>|
-
-## <b>currencyCode</b>
-**Description**
-
-Value is a ISO 4217 currency code
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> currencyCode|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.measurement.currencyCode</b>|
-
-## <b>colorName</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> colorName|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.measurement.color</b>|
-
-## <b>stringFormat</b>
-**Description**
-
-A string representing the format used to encode data in another string
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> stringFormat|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.formatting.stringFormat</b>|
-
-## <b>json</b>
-**Description**
-
-A JSON fragment contained within one string value
-
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> json|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.content.text.JSON</b>|
-
-## <b>xml</b>
+## <a id="xml"><b>xml</b></a>
 **Description**
 
 An XML fragment contained within one string value
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> char -> string -> xml|
+|[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>xml</b>|
 
-### **Traits**
+**Traits**
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -2041,364 +2512,37 @@ An XML fragment contained within one string value
 |<b>is.dataFormat.array</b>|
 |<b>means.content.text.XML</b>|
 
-## <b>gender</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> gender|
 
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.demographic.gender</b>|
-
-## <b>ethnicity</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> ethnicity|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.demographic.ethnicity</b>|
-
-## <b>maritalStatus</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> maritalStatus|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.demographic.maritalStatus</b>|
-
-## <b>addressLine</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> addressLine|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.address</b>|
-
-## <b>city</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> city|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.city</b>|
-
-## <b>country</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> country|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.country</b>|
-
-## <b>county</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> county|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.county</b>|
-
-## <b>postalCode</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> postalCode|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.postalCode</b>|
-
-## <b>stateOrProvince</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> stateOrProvince|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.stateOrProvince</b>|
-
-## <b>timezone</b>
-### **Inheritance**
-| |
-|--|
-|any -> char -> string -> timezone|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-|<b>is.dataFormat.big</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.location.timezone</b>|
-
-## <b>sChar</b>
-### **Inheritance**
-| |
-|--|
-|any -> sChar|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.character</b>|
-
-## <b>byte</b>
-### **Inheritance**
-| |
-|--|
-|any -> byte|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.byte</b>|
-
-## <b>binary</b>
-### **Inheritance**
-| |
-|--|
-|any -> byte -> binary|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.byte</b>|
-|<b>is.dataFormat.array</b>|
-
-## <b>image</b>
-### **Inheritance**
-| |
-|--|
-|any -> byte -> binary -> image|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.byte</b>|
-|<b>is.dataFormat.array</b>|
-|<b>means.content.binary.image</b>|
-
-## <b>object</b>
+## <a id="year"><b>year</b></a>
 **Description**
 
-Types for trait parameters that take objects as values
+Unit of measure for time in 'one solar orbit' interval
 
-### **Inheritance**
+**Inheritance**
 | |
 |--|
-|any -> object|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>year</b>|
 
-### **Traits**
-None
-
-## <b>cdmObject</b>
-**Description**
-
-Types for trait parameters that take CDM objects as values
-
-### **Inheritance**
+**Traits**
 | |
 |--|
-|any -> object -> cdmObject|
+|<b>is.dataFormat.integer</b>|
+|<b>means.measurement.dimension.time</b>|
+|<b>means.measurement.duration.years</b>|
+|<b>has.measurement.fundamentalComponent.second</b>|
 
-### **Traits**
-None
 
-## <b>trait</b>
-**Description**
-
-Types for trait parameters that take objects as values
-
-### **Inheritance**
+## <a id="year"><b>year</b></a>
+**Inheritance**
 | |
 |--|
-|any -> object -> cdmObject -> trait|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>year</b>|
 
-### **Traits**
-None
-
-## <b>dataType</b>
-**Description**
-
-Types for trait parameters that take objects as values
-
-### **Inheritance**
+**Traits**
 | |
 |--|
-|any -> object -> cdmObject -> dataType|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.year</b>|
 
-### **Traits**
-None
-
-## <b>purpose</b>
-**Description**
-
-Types for trait parameters that take objects as values
-
-### **Inheritance**
-| |
-|--|
-|any -> object -> cdmObject -> purpose|
-
-### **Traits**
-None
-
-## <b>entity</b>
-**Description**
-
-Types for trait parameters that take objects as values
-
-### **Inheritance**
-| |
-|--|
-|any -> object -> cdmObject -> entity|
-
-### **Traits**
-| |
-|--|
-|<b>means.entityName.specific</b>|
-
-## <b>attribute</b>
-**Description**
-
-Types for trait parameters that take objects as values
-
-### **Inheritance**
-| |
-|--|
-|any -> object -> cdmObject -> attribute|
-
-### **Traits**
-None
-
-## <b>attributeGroup</b>
-**Description**
-
-Types for trait parameters that take objects as values
-
-### **Inheritance**
-| |
-|--|
-|any -> object -> cdmObject -> attributeGroup|
-
-### **Traits**
-None
-
-## <b>date</b>
-### **Inheritance**
-| |
-|--|
-|any -> date|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.date</b>|
-|<b>means.measurement.date</b>|
-
-## <b>dateTime</b>
-### **Inheritance**
-| |
-|--|
-|any -> date -> dateTime|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.date</b>|
-|<b>means.measurement.date</b>|
-|<b>is.dataFormat.time</b>|
-|<b>means.measurement.time</b>|
-
-## <b>dateTimeOffset</b>
-### **Inheritance**
-| |
-|--|
-|any -> date -> dateTime -> dateTimeOffset|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.date</b>|
-|<b>means.measurement.date</b>|
-|<b>is.dataFormat.time</b>|
-|<b>means.measurement.time</b>|
-|<b>is.dataFormat.timeOffset</b>|
-
-## <b>birthDate</b>
-### **Inheritance**
-| |
-|--|
-|any -> date -> dateTime -> birthDate|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.date</b>|
-|<b>means.measurement.date</b>|
-|<b>is.dataFormat.time</b>|
-|<b>means.measurement.time</b>|
-|<b>means.demographic.birthDate</b>|
-
-## <b>time</b>
-### **Inheritance**
-| |
-|--|
-|any -> time|
-
-### **Traits**
-| |
-|--|
-|<b>is.dataFormat.time</b>|
-|<b>means.measurement.time</b>|
 
