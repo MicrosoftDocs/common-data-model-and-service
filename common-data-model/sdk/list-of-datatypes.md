@@ -12,14 +12,13 @@ ms.author: matgos
 # List of CDM data types
 This page lists the data types which are available in Common Data Model.
 
-## addressline
-
-**Inheritance**
+## <a id="addressline"><b>addressLine</b></a>
+Inheritance
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>addressLine</b>|
 
-**Traits**
+Traits
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -30,13 +29,13 @@ This page lists the data types which are available in Common Data Model.
 
 ## <a id="age"><b>age</b></a>
 
-Inheritance
+**Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>age</b>|
 
-Traits
+**Traits**
 
 | |
 |--|
@@ -50,12 +49,12 @@ Traits
 
 Unit of measure for electric current in amperes
 
-**Inheritance**
+Inheritance
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>ampere</b>|
 
-**Traits**
+Traits
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
