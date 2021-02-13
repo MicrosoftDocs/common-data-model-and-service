@@ -12,7 +12,8 @@ ms.author: matgos
 # List of CDM data types
 This page lists the data types which are available in Common Data Model.
 
-## <a id="addressline"><b>addressLine</b></a>
+## addressline
+
 **Inheritance**
 | |
 |--|
@@ -28,12 +29,15 @@ This page lists the data types which are available in Common Data Model.
 
 
 ## <a id="age"><b>age</b></a>
-**Inheritance**
+
+Inheritance
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>age</b>|
 
-**Traits**
+Traits
+
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
