@@ -13,7 +13,9 @@ ms.author: matgos
 This page lists the data types which are available in Common Data Model.
 
 ## <a id="addressline"><b>addressLine</b></a>
+
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>addressLine</b>|
@@ -28,12 +30,13 @@ This page lists the data types which are available in Common Data Model.
 
 
 ## <a id="age"><b>age</b></a>
-**Inheritance**
+Inheritance
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>age</b>|
 
 **Traits**
+
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
