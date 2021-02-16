@@ -170,14 +170,15 @@
             href: 1.0om/api-reference/utilities/tokenprovider.md   
   - name: How to create schema documents 
     href: creating-schemas.md
-  - name: How to use samples 
-    href: samples.md
+
+   
   - name: Troubleshooting
     items:
       - name: Overview
         href: troubleshooting/troubleshooting-overview.md
-      - name: Event list usage
+      - name: EventList usage
         href: troubleshooting/eventlist-usage.md
+  - name: How to use samples 
     href: samples.md
   - name: Frequently asked questions
     href: faq.md
