@@ -175,8 +175,8 @@
   - name: Troubleshooting
     items:
       - name: Overview
-        href: troubleshooting/overview.md
-      - name: Event list 
+        href: troubleshooting/troubleshooting-overview.md
+      - name: Event list usage
         href: troubleshooting/eventlist-usage.md
     href: samples.md
   - name: Frequently asked questions

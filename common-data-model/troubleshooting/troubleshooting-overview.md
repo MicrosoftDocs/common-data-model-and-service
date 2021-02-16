@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer:
 ms.topic: article
 ms.date: 02/15/2021
-ms.author: 
+ms.author: supawa
 ---
 
 # Overview

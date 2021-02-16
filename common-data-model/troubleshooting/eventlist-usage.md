@@ -1,12 +1,12 @@
 ---
-title: Event List | Microsoft Docs
-description: API reference for EventList.
+title: Event List usage | Microsoft Docs
+description: Troubleshooting using EventList.
 author: surenderpawar
 ms.service: common-data-model
 ms.reviewer: 
 ms.topic: article
 ms.date: 02/15/2021
-ms.author: miplese
+ms.author: supawa
 ---
 
 # EventList Usage
@@ -86,4 +86,4 @@ corpus.Ctx.CorrelationId
 
 ## Class
 
-- Event List [class](../1.0om/api-reference/utilities/eventlist.md)
+- [Event List class](../1.0om/api-reference/utilities/eventlist.md)
