@@ -29,19 +29,19 @@ artAtt.DataType = MakeObject<CdmDataTypeReference>(CdmObjectType.DataTypeRef, "i
 
 Parquet Type | CDM Type | Trait
 -------|----|-------
-string | [string](list-of-datatypes.md#string) | [is.dataFormat.character](list-of-traits.md#<b>isdataformatcharacter</b>),<br>[is.dataFormat.array](list-of-traits.md#<b>isdataformatarray</b>),<br>[is.dataFormat.big](list-of-traits.md#<b>isdataformatbig</b>)
-uuid | [guid](list-of-datatypes.md#<b>guid</b>) | [is.dataFormat.guid](list-of-traits.md#<b>isdataformatguid</b>)
-Decimal | [decimal](list-of-datatypes.md#<b>decimal</b>) | [is.dataFormat.numeric.shaped](list-of-traits.md#<b>isdataformatnumericshaped</b>) (extends [is.dataFormat.numeric](list-of-traits.md#<b>isdataformatnumeric</b>))<br>It has two parameters. <UL><LI>Precision - The total number of significant digits and datatype is an integer.</LI><LI>Scale - The number of digits to the right of the decimal place and datatype is integer. 
-Date | [date](list-of-datatypes.md#<b>date</b>) | [is.dataFormat.date](list-of-traits.md#<b>isdataformatdate</b>)
-interval | [binary](list-of-datatypes.md#<b>binary</b>) | [is.dataFormat.byte](list-of-traits.md#<b>isdataformatbyte</b>), <br>[is.dataFormat.array](list-of-traits.md#<b>isdataformatarray</b>)
-Json | [json](list-of-datatypes.md#<b>json</b>) | [is.dataFormat.character](list-of-traits.md#<b>isdataformatcharacter</b>), <br>[is.dataFormat.array](list-of-traits.md#<b>isdataformatarray</b>),<br>[means.content.text.JSON](list-of-traits.md#<b>meanscontenttextjson</b>)
-Enum | [string](list-of-datatypes.md#<b>string</b>) | [is.dataFormat.character](list-of-traits.md#<b>isdataformatcharacter</b>), <br>[is.dataFormat.array](list-of-traits.md#<b>isdataformatarray</b>),<br>[is.dataFormat.big](list-of-traits.md#<b>isdataformatbig</b>)
-boolean | [boolean](list-of-datatypes.md#<b>boolean</b>) | [is.dataFormat.boolean](list-of-traits.md#<b>isdataformatboolean</b>)
+string | [string](list-of-datatypes.md#string) | [is.dataFormat.character](list-of-traits.md#isdataformatcharacter),<br>[is.dataFormat.array](list-of-traits.md#isdataformatarray),<br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
+uuid | [guid](list-of-datatypes.md#guid) | [is.dataFormat.guid](list-of-traits.md#isdataformatguid)
+Decimal | [decimal](list-of-datatypes.md#decimal) | [is.dataFormat.numeric.shaped](list-of-traits.md#isdataformatnumericshaped) (extends [is.dataFormat.numeric](list-of-traits.md#isdataformatnumeric))<br>It has two parameters. <UL><LI>Precision - The total number of significant digits and datatype is an integer.</LI><LI>Scale - The number of digits to the right of the decimal place and datatype is integer. 
+Date | [date](list-of-datatypes.md#date) | [is.dataFormat.date](list-of-traits.md#isdataformatdate)
+interval | [binary](list-of-datatypes.md#binary) | [is.dataFormat.byte](list-of-traits.md#isdataformatbyte), <br>[is.dataFormat.array](list-of-traits.md#isdataformatarray)
+Json | [json](list-of-datatypes.md#json) | [is.dataFormat.character](list-of-traits.md#isdataformatcharacter), <br>[is.dataFormat.array](list-of-traits.md#isdataformatarray),<br>[means.content.text.JSON](list-of-traits.md#meanscontenttextjson)
+Enum | [string](list-of-datatypes.md#string) | [is.dataFormat.character](list-of-traits.md#isdataformatcharacter), <br>[is.dataFormat.array](list-of-traits.md#isdataformatarray),<br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
+boolean | [boolean](list-of-datatypes.md#boolean) | [is.dataFormat.boolean](list-of-traits.md#isdataformatboolean)
 **Signed integer** | |
-INT(8, true) | [byte](list-of-datatypes.md#<b>byte</b>) | [is.dataFormat.byte](list-of-traits.md#<b>isdataformatbyte</b>)
-INT(16, true) | [smallinteger](list-of-datatypes.md#<b>smallinteger</b>) | [is.dataFormat.integer](list-of-traits.md#<b>isdataformatinteger</b>), <br>[is.dataFormat.small](list-of-traits.md#<b>isdataformatsmall</b>)
-INT(32, true) | [Integer](list-of-datatypes.md#<b>integer</b>) | [is.dataFormat.integer](list-of-traits.md#<b>isdataformatinteger</b>)
-INT(64, true) | [biginteger](list-of-datatypes.md#<b>biginteger</b>) | [is.dataFormat.integer](list-of-traits.md#<b>isdataformatinteger</b>), <br>[is.dataFormat.big](list-of-traits.md#<b>isdataformatbig</b>)
+INT(8, true) | [byte](list-of-datatypes.md#byte) | [is.dataFormat.byte](list-of-traits.md#isdataformatbyte)
+INT(16, true) | [smallinteger](list-of-datatypes.md#smallinteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.small](list-of-traits.md#isdataformatsmall)
+INT(32, true) | [Integer](list-of-datatypes.md#integer) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger)
+INT(64, true) | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
 **Unsupported** | |
 Time (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | NA | NA 
 Timestamp ( UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO) ) | NA | NA 
