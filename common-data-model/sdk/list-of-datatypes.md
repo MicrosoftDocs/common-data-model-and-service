@@ -165,6 +165,7 @@ Value is expressed in the base currency units for the system
 ## <a id="biginteger"><b>bigInteger</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>bigInteger</b>|
@@ -180,6 +181,7 @@ Value is expressed in the base currency units for the system
 ## <a id="binary"><b>binary</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>byte</b>](#byte) <- <b>binary</b>|
@@ -195,6 +197,7 @@ Value is expressed in the base currency units for the system
 ## <a id="birthdate"><b>birthDate</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>date</b>](#date) <- [<b>dateTime</b>](#datetime) <- <b>birthDate</b>|
@@ -213,6 +216,7 @@ Value is expressed in the base currency units for the system
 ## <a id="boolean"><b>boolean</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- <b>boolean</b>|
@@ -1746,6 +1750,7 @@ One string value from a defined list of possibilities which are defined in an id
 ## <a id="longitude"><b>longitude</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>longitude</b>|
@@ -2394,6 +2399,7 @@ Unit of measure for pressure or stress in pascals
 ## <a id="phone"><b>phone</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phone</b>|
