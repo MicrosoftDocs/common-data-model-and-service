@@ -29,7 +29,7 @@ artAtt.DataType = MakeObject<CdmDataTypeReference>(CdmObjectType.DataTypeRef, "i
 
 Parquet Type | CDM Type | Trait
 -------|----|-------
-string | [string](list-of-datatypes.md#<b>string</b>) | [is.dataFormat.character](list-of-traits.md#<b>isdataformatcharacter</b>),<br>[is.dataFormat.array](list-of-traits.md#<b>isdataformatarray</b>),<br>[is.dataFormat.big](list-of-traits.md#<b>isdataformatbig</b>)
+string | [string](list-of-datatypes.md#string) | [is.dataFormat.character](list-of-traits.md#<b>isdataformatcharacter</b>),<br>[is.dataFormat.array](list-of-traits.md#<b>isdataformatarray</b>),<br>[is.dataFormat.big](list-of-traits.md#<b>isdataformatbig</b>)
 uuid | [guid](list-of-datatypes.md#<b>guid</b>) | [is.dataFormat.guid](list-of-traits.md#<b>isdataformatguid</b>)
 Decimal | [decimal](list-of-datatypes.md#<b>decimal</b>) | [is.dataFormat.numeric.shaped](list-of-traits.md#<b>isdataformatnumericshaped</b>) (extends [is.dataFormat.numeric](list-of-traits.md#<b>isdataformatnumeric</b>))<br>It has two parameters. <UL><LI>Precision - The total number of significant digits and datatype is an integer.</LI><LI>Scale - The number of digits to the right of the decimal place and datatype is integer. 
 Date | [date](list-of-datatypes.md#<b>date</b>) | [is.dataFormat.date](list-of-traits.md#<b>isdataformatdate</b>)
