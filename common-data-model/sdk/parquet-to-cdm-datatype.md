@@ -45,10 +45,12 @@ INT(64, true) | [biginteger](https://docs.microsoft.com/en-us/common-data-model/
 **Unsupported** | |
 Time (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | NA | NA 
 Timestamp ( UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO) ) | NA | NA 
-list | NA | NA 
-null | NA | NA
-Bson | NA | NA 
-map | NA | NA 
 unsigned integer | NA | NA 
+map | NA | NA 
+list | NA | NA 
+Bson | NA | NA 
+null | NA | NA
+
+
 
 
