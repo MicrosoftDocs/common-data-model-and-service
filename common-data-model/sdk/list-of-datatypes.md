@@ -21,6 +21,7 @@ This page lists the data types which are available in Common Data Model.
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>addressLine</b>|
 
 **Traits**
+
 | |
 |--|
 |<b>is.dataFormat.character</b>|
@@ -30,7 +31,9 @@ This page lists the data types which are available in Common Data Model.
 
 
 ## <a id="age"><b>age</b></a>
-Inheritance
+
+**Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>age</b>|
@@ -45,16 +48,19 @@ Inheritance
 
 
 ## <a id="ampere"><b>ampere</b></a>
+
 **Description**
 
 Unit of measure for electric current in amperes
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>ampere</b>|
 
 **Traits**
+
 | |
 |--|
 |<b>is.dataFormat.floatingPoint</b>|
@@ -65,42 +71,51 @@ Unit of measure for electric current in amperes
 
 
 ## <a id="any"><b>any</b></a>
+
 **Description**
 
 The root dataType
 
 **Inheritance**
+
 None
 
 **Traits**
+
 None
 
 
 ## <a id="attribute"><b>attribute</b></a>
+
 **Description**
 
 Types for trait parameters that take objects as values
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>attribute</b>|
 
 **Traits**
+
 None
 
 
 ## <a id="attributegroup"><b>attributeGroup</b></a>
+
 **Description**
 
 Types for trait parameters that take objects as values
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>attributeGroup</b>|
 
 **Traits**
+
 None
 
 
