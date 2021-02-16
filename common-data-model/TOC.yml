@@ -172,5 +172,12 @@
     href: creating-schemas.md
   - name: How to use samples 
     href: samples.md
+  - name: Troubleshooting
+    items:
+      - name: Overview
+        href: troubleshooting/overview.md
+      - name: Event list 
+        href: troubleshooting/eventlist-usage.md
+    href: samples.md
   - name: Frequently asked questions
     href: faq.md
