@@ -9,14 +9,14 @@ ms.date: 02/12/2021
 ms.author: supawa
 ---
 
-# Parquet Type to CDM Type
+# Mapping Parquet types to Common Data Model data types
 
 This article provides assistance to developers in finding the appropriate equivalents of Parquet data types in Common Data Model.
 
 - [Parquet Type](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md) : This column represents parquet data type. For more details visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).
 - [Common Data Model Type](list-of-datatypes.md) : Each attribute in Common Data Model entities can be associated with a single data type. A Common Data Model dataType is an object that represents a collection of traits. All dataTypes should indicate the dataFormat traits but can also add additional semantic information.For more details visit [here](logical-definitions.md#the-datatype-object)
 - [Trait](trait-concepts-and-use-cases.md) : Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.
-- Unsupported Types | Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
+- Unsupported Types : Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
 
 The following is code snippet to set integer data type to Common Data Model attribute. Please follow [CDM SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
 
@@ -42,8 +42,8 @@ INT(16, true) | [smallinteger](list-of-datatypes.md#smallinteger) | [is.dataForm
 INT(32, true) | [Integer](list-of-datatypes.md#integer) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger)
 INT(64, true) | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
 **Unsupported** | |
-Time (UTC adjustment (true/false) and precision (MILLIS/MICRO/Not availableNO)) | Not available | Not available 
-Timestamp ( UTC adjustment (true/false) and precision (MILLIS/MICRO/Not availableNO) ) | Not available | Not available 
+Time (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | Not available | Not available 
+Timestamp ( UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO) ) | Not available | Not available 
 unsigned integer | Not available | Not available 
 map | Not available | Not available 
 list | Not available | Not available 
