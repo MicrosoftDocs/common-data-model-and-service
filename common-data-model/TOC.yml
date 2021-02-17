@@ -172,8 +172,6 @@
     href: creating-schemas.md
   - name: Troubleshooting
     items:
-      - name: Overview
-        href: troubleshooting/troubleshooting-overview.md
       - name: Using EventList to analyze API behavior
         href: troubleshooting/eventlist-usage.md
   - name: How to use samples 
