@@ -1914,6 +1914,7 @@ None
 ## <a id="is-named"><b>is.named</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.named</b>|
@@ -1951,6 +1952,7 @@ None
 ## <a id="is-ordered"><b>is.ordered</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.ordered</b>|
@@ -2153,6 +2155,7 @@ None
 ## <a id="is-secret"><b>is.secret</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- <b>is.secret</b>|
@@ -2168,6 +2171,7 @@ None
 ## <a id="is-sensitive"><b>is.sensitive</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- <b>is.sensitive</b>|
@@ -2223,6 +2227,7 @@ None
 ## <a id="means-calendar"><b>means.calendar</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.calendar</b>|
@@ -2334,6 +2339,7 @@ None
 ## <a id="means-calendar-dayoftrimester"><b>means.calendar.dayOfTrimester</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfTrimester</b>|
@@ -3323,6 +3329,7 @@ None
 ## <a id="means-formatting-heading"><b>means.formatting.heading</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.heading</b>|
@@ -3406,6 +3413,7 @@ None
 ## <a id="means-idea-accountleads"><b>means.idea.accountLeads</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.accountLeads</b>|
@@ -3421,6 +3429,7 @@ None
 ## <a id="means-idea-activityparty"><b>means.idea.activityParty</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.activityParty</b>|
@@ -3548,6 +3557,7 @@ None
 ## <a id="means-idea-campaignitem"><b>means.idea.campaignItem</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignItem</b>|
@@ -3771,6 +3781,7 @@ None
 ## <a id="means-idea-customerrelationship"><b>means.idea.customerRelationship</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customerRelationship</b>|
@@ -3818,6 +3829,7 @@ None
 ## <a id="means-idea-email"><b>means.idea.email</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.email</b>|
@@ -3865,6 +3877,7 @@ None
 ## <a id="means-idea-fax"><b>means.idea.fax</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.fax</b>|
@@ -4152,6 +4165,7 @@ None
 ## <a id="means-idea-person-employee"><b>means.idea.person.employee</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.employee</b>|
@@ -4375,6 +4389,7 @@ None
 ## <a id="means-idea-salesliterature"><b>means.idea.salesLiterature</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.salesLiterature</b>|
@@ -4918,6 +4933,7 @@ None
 ## <a id="means-identity-rownumber"><b>means.identity.rowNumber</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.rowNumber</b>|
@@ -4933,6 +4949,7 @@ None
 ## <a id="means-identity-scd-originalidentity"><b>means.identity.scd.originalIdentity</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.scd.originalIdentity</b>|
@@ -4948,6 +4965,7 @@ None
 ## <a id="means-identity-scd-surogateidentity"><b>means.identity.scd.surogateIdentity</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.scd.surogateIdentity</b>|
@@ -5843,6 +5861,7 @@ None
 ## <a id="means-measurement-currency-type"><b>means.measurement.currency.type</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency.type</b>|
@@ -6919,7 +6938,9 @@ None
 None
 
 ## <a id="means-measurement-probability"><b>means.measurement.probability</b></a>
+
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.probability</b>|
@@ -7598,6 +7619,7 @@ None
 ## <a id="means-measurement-weight"><b>means.measurement.weight</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.force</b>](#means-measurement-dimension-force) <- <b>means.measurement.weight</b>|
@@ -7653,6 +7675,7 @@ None
 ## <a id="means-reference"><b>means.reference</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.reference</b>|
@@ -7668,6 +7691,7 @@ None
 ## <a id="means-reference-caption"><b>means.reference.caption</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.caption</b>|
@@ -7747,6 +7771,7 @@ None
 ## <a id="means-reference-displaytext"><b>means.reference.displayText</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.displayText</b>|
@@ -7762,6 +7787,7 @@ None
 ## <a id="means-reference-documentation"><b>means.reference.documentation</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.documentation</b>|
@@ -8599,7 +8625,9 @@ None
 None
 
 ## <a id="privacy-datacategory-employment-workplaceinteractions"><b>privacy.dataCategory.employment.workplaceInteractions</b></a>
+
 **Inheritance**
+
 | |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workplaceInteractions</b>|
@@ -8935,6 +8963,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-contentconsumption"><b>privacy.dataCategory.endUser.interactions.contentConsumption</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.contentConsumption</b>|

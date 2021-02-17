@@ -231,6 +231,7 @@ Value is expressed in the base currency units for the system
 ## <a id="byte"><b>byte</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- <b>byte</b>|
@@ -793,6 +794,7 @@ Type for trait parameters that take entity names as values
 ## <a id="ethnicity"><b>ethnicity</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>ethnicity</b>|
@@ -2204,6 +2206,7 @@ Unit of measure for time in 60 second interval
 ## <a id="minutes"><b>minutes</b></a>
 
 **Inheritance**
+
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>minute</b>](#minute) <- <b>minutes</b>|
