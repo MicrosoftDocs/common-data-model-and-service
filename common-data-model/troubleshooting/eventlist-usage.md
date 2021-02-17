@@ -1,6 +1,6 @@
 ---
-title: Event List usage | Microsoft Docs
-description: Troubleshooting using EventList.
+title: Using EventList to analyze API behavior | Microsoft Docs
+description: This article helps developer to analyze API behaviour using EventList class.
 author: surenderpawar
 ms.service: common-data-model
 ms.reviewer: 
@@ -9,12 +9,12 @@ ms.date: 02/15/2021
 ms.author: supawa
 ---
 
-# EventList Usage
+# Using EventList to analyze API behavior
 
 ## Overview
-Services implementing Common Data Model features sometime perform many API calls to the SDK which accumulates considerable number of log messages in plain string form and makes it difficult for the service to know and understand what happened after each call. 
+Services implementing Common Data Model features sometime perform many API calls to the SDK which accumulates considerable number of log messages in plain string form through asynchronous callbacks, making it difficult for the service to know and understand what happened after each call. 
 
-To help developers, EventList is introduced which is initialized on commonly used API entry points and collect the log message data emitted by underlying code from the entry to the exit, to be then retrievable by clients easily after relevant API calls are complete.
+To help developers, [EventList](../1.0om/api-reference/utilities/eventlist.md) has been introduced which is initialized on commonly used API entry points and performs collection of log messages emitted by underlying code from the entry to the exit, to be then retrievable by clients easily after relevant API calls are complete.
 
 ## Usage
 EventList is a supporting class for the logging system and allows subset of messages emitted by the SDK to be collected and inspected by the SDK users. The events are stored in an ordered list, each element being a dictionary of string keys and string values. Upon completion of the API call, the recorded events can be inspected by the host application to determine what step to take to address the issue. To simply list all events and their elements, a simple for-each like this will work: 
@@ -25,12 +25,14 @@ EventList is a supporting class for the logging system and allows subset of mess
          ) 
      ); 
 ```
- Note: this class is NOT a replacement for the standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the filesystem, etc. 
+ >Note :
+ > <br>This class is NOT a replacement for the standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the filesystem, etc. 
 
 ## Sample Code 
-  This sample code shows the usage of EventList class. It creates a 'manifest' object and adds entity. If resolution fails, iterate over eventlist object to analysis the error. P
+  This sample code shows the usage of EventList class. It creates a 'manifest' object and adds entity. If resolution fails, iterate over EventList object to analysis the error.
 
-When iterate over Events object following errors can be observed. "Cannot resolve the manifest 'dummy' because it has not been added to a folder" 
+When iterate over Events object following errors can be observed.<br> "Cannot resolve the manifest 'dummy' because it has not been added to a folder" <br>
+
 Please follow the comments to understand the code.
 ```csharp
     CdmCorpusDefinition corpus = new CdmCorpusDefinition(); 
@@ -68,8 +70,10 @@ Purposely commented, the following line in sample code.This makes CreateResolved
 ```csharp
 //corpus.Storage.FetchRootFolder("local").Documents.Add(manifest); 
 ```
+If there are multiple related errors, their order in the EventList will be the root cause being first, followed with other logs reported by upper layers as the problem propagates upward.
+
 ## Bonus Tip
-CorrelationId is optional parameter, can be set to event callback function which will append correlation ID with log messages, generated within SDK and sends back to callback. This can help SDK caller to filter log using correlation id. 
+CorrelationId is optional parameter, can be set to event callback function which will append correlation ID with log messages, generated within SDK and sends back to callback. This can help SDK caller to filter log using correlation Id. 
 ```csharp
 corpus.SetEventCallback(eventCallback, CdmStatusLevel.Warning, CorrelationId); 
 ```
@@ -78,12 +82,8 @@ CorrelationId can also be set on Ctx object in the corpus.
 corpus.Ctx.CorrelationId 
 ```
 ## APIs supporting EventList logging 
--   CreateResolvedEntityAsync 
--   CreateResolvedManifestAsync 
--   FetchObjectAsync 
--   FileStatusCheckAsync 
--   SaveAsAsync
-
-## Class
-
-- [Event List class](../1.0om/api-reference/utilities/eventlist.md)
+-   [CreateResolvedEntityAsync](../1.0om/api-reference/cdm/entity.md#methods)
+-   [CreateResolvedManifestAsync](../1.0om/api-reference/cdm/manifest.md#methods)
+-   [FetchObjectAsync](../1.0om/api-reference/cdm/corpus.md#methods)
+-   [FileStatusCheckAsync](../1.0om/api-reference/cdm/manifest.md#methods)
+-   [SaveAsAsync](../1.0om/api-reference/cdm/document.md#methods)
