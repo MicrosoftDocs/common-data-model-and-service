@@ -1,5646 +1,9651 @@
 ---
 title: List of Common Data Model traits | Microsoft Docs
-description: Lists the traits that are available in Common Data Model and describes the inheritance and properties of the traits.
-author: matgos
+description: The list of traits available within Common Data Model.
+author: msftman
 ms.service: common-data-model
 ms.reviewer: v-iap
 ms.topic: article
-ms.date: 12/14/2020
+ms.date: 02/11/2021
 ms.author: matgos
 ---
 
-# List of Common Data Model traits
-This page lists the traits that are available in Common Data Model.
+# List of CDM traits
+This page lists the traits which are available in Common Data Model.
 
-## <b>is</b>
+## <a id="does"><b>does</b></a>
+
+**Description**
+
+A root with a more meaningful base name for certain exhibited traits
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>does</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="does-elevateattribute"><b>does.elevateAttribute</b></a>
+
+**Description**
+
+Elevates (up to a entity) a trait that describes a specific attribute
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- <b>does.elevateAttribute</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|attribute|attribute|True
+
+## <a id="does-havedefault"><b>does.haveDefault</b></a>
+
+**Description**
+
+An attribute has a default value
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- <b>does.haveDefault</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>defaultValue</b>|
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|default|any|True
+
+## <a id="has"><b>has</b></a>
+
+**Description**
+
+A root for traits that describe properties of an object
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>has</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category"><b>has.category</b></a>
+
+**Description**
+
+The root trait for the system of traits of hierarchical categorization
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.category</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|categoryName|string|False
+|classification|string|False
+|parentCategoryName|string|False
+|hierarchyLevel|integer|False
+|hierarchyName|string|False
+
+## <a id="has-category-functionalarea"><b>has.category.functionalArea</b></a>
+
+**Description**
+
+A level3 hierarchy item explaining the functional area for entities. Functional areas can divide entities by their purpose or use case such as auditing, reporting, recruiting, budgeting
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- <b>has.category.functionalArea</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-accountsreceivable"><b>has.category.functionalArea.AccountsReceivable</b></a>
+
+**Description**
+
+Entities from AccountsReceivable functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.AccountsReceivable</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-auditing"><b>has.category.functionalArea.Auditing</b></a>
+
+**Description**
+
+Entities from Auditing functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Auditing</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-budgeting"><b>has.category.functionalArea.Budgeting</b></a>
+
+**Description**
+
+Entities from Budgeting functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Budgeting</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-generalledger"><b>has.category.functionalArea.GeneralLedger</b></a>
+
+**Description**
+
+Entities from GeneralLedger functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.GeneralLedger</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-recruitment"><b>has.category.functionalArea.Recruitment</b></a>
+
+**Description**
+
+Entities from Recruitment functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Recruitment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-reporting"><b>has.category.functionalArea.Reporting</b></a>
+
+**Description**
+
+Entities from Reporting functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Reporting</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-suppliers"><b>has.category.functionalArea.Suppliers</b></a>
+
+**Description**
+
+Entities from Suppliers functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Suppliers</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-terminations"><b>has.category.functionalArea.Terminations</b></a>
+
+**Description**
+
+Entities from Terminations functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Terminations</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-functionalarea-warehousing"><b>has.category.functionalArea.Warehousing</b></a>
+
+**Description**
+
+Entities from Warehousing functional area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Warehousing</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-level1"><b>has.category.level1</b></a>
+
+**Description**
+
+Common explanation for level1 category items
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- <b>has.category.level1</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-level2"><b>has.category.level2</b></a>
+
+**Description**
+
+Common explanation for level2 category items
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- <b>has.category.level2</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-level3"><b>has.category.level3</b></a>
+
+**Description**
+
+Common explanation for level3 category items
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- <b>has.category.level3</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-sourcesystem"><b>has.category.sourceSystem</b></a>
+
+**Description**
+
+A level1 hierarchy item explaining the source system for entities. Entities from a given source system are expected to be self-consistent on identifiers and similar data domains.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level1</b>](#has-category-level1) <- <b>has.category.sourceSystem</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-sourcesystem-dynamics365"><b>has.category.sourceSystem.Dynamics365</b></a>
+
+**Description**
+
+Entities from the Dynamics365 source system
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level1</b>](#has-category-level1) <- [<b>has.category.sourceSystem</b>](#has-category-sourcesystem) <- <b>has.category.sourceSystem.Dynamics365</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-subjectarea"><b>has.category.subjectArea</b></a>
+
+**Description**
+
+A level2 hierarchy item explaining the subject area entities. Subject areas can represent broad business categories such as Finance, Sales and Human Resouces
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- <b>has.category.subjectArea</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-subjectarea-commerce"><b>has.category.subjectArea.Commerce</b></a>
+
+**Description**
+
+Entities from Commerce subject area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.Commerce</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-subjectarea-finance"><b>has.category.subjectArea.Finance</b></a>
+
+**Description**
+
+Entities from Finance subject area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.Finance</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-subjectarea-humanresources"><b>has.category.subjectArea.HumanResources</b></a>
+
+**Description**
+
+Entities from Human Resources subject area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.HumanResources</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-category-subjectarea-supplychain"><b>has.category.subjectArea.SupplyChain</b></a>
+
+**Description**
+
+Entities from Supply Chain subject area
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.SupplyChain</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-entityschemaabstractionlevel"><b>has.entitySchemaAbstractionLevel</b></a>
+
+**Description**
+
+A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.entitySchemaAbstractionLevel</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|level|string|False
+
+## <a id="has-filelist"><b>has.fileList</b></a>
+
+**Description**
+
+Has a list of files associated with.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.fileList</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|fileList|entity|True
+
+## <a id="has-measurement-fundamentalcomponent"><b>has.measurement.fundamentalComponent</b></a>
+
+**Description**
+
+Description of one fundamental component of a derived unit
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>has.measurement.fundamentalComponent</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|fundamentalUnit|string|False
+|symbol|string|False
+|dimension|string|False
+|fundamentalExponent|double|False
+|fundamentalScale|double|False
+|fundamentalOffset|double|False
+
+## <a id="has-measurement-fundamentalcomponent-ampere"><b>has.measurement.fundamentalComponent.ampere</b></a>
+
+**Description**
+
+A fundamental component expressing electric current in amperes
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.ampere</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-measurement-fundamentalcomponent-candela"><b>has.measurement.fundamentalComponent.candela</b></a>
+
+**Description**
+
+A fundamental component expressing luminous intensity in candelas
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.candela</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-measurement-fundamentalcomponent-kelvin"><b>has.measurement.fundamentalComponent.kelvin</b></a>
+
+**Description**
+
+A fundamental component expressing thermodynamic temperature in degrees kelvin
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.kelvin</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-measurement-fundamentalcomponent-kilogram"><b>has.measurement.fundamentalComponent.kilogram</b></a>
+
+**Description**
+
+A fundamental component expressing mass in kilogram
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.kilogram</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-measurement-fundamentalcomponent-meter"><b>has.measurement.fundamentalComponent.meter</b></a>
+
+**Description**
+
+A fundamental component expressing length in meters
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.meter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-measurement-fundamentalcomponent-mole"><b>has.measurement.fundamentalComponent.mole</b></a>
+
+**Description**
+
+A fundamental component expressing amount in moles
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.mole</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-measurement-fundamentalcomponent-second"><b>has.measurement.fundamentalComponent.second</b></a>
+
+**Description**
+
+A fundamental component expressing time in seconds
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.second</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="has-schemaobjectidentifier"><b>has.schemaObjectIdentifier</b></a>
+
+**Description**
+
+The schema object has an identifier, which is a string, specified as the parameter of the trait. This allows writers to define additional identification values.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.schemaObjectIdentifier</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|identifier|string|True
+
+## <a id="is"><b>is</b></a>
+
 **Description**
 
 The root 'trait' from which all others derive.
 
-### **Inheritance**
+**Inheritance**
+
 None
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.application</b>
+**Parameters**
+
+None
+
+## <a id="is-addedinsupportof"><b>is.addedInSupportOf</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.addedInSupportOf</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|inSupportOf|attributeName|False
+
+## <a id="is-application"><b>is.application</b></a>
+
 **Description**
 
 Root trait for application information
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.application|
+|[<b>is</b>](#is) <- <b>is.application</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.application.releaseVersion</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="is-application-releaseversion"><b>is.application.releaseVersion</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|is -> is.application -> is.application.releaseVersion|
+|[<b>is</b>](#is) <- [<b>is.application</b>](#is-application) <- <b>is.application.releaseVersion</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.CDM</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|releaseVersion|string|False
+
+## <a id="is-calculationof"><b>is.calculationOf</b></a>
+
+**Description**
+
+The attribute value is the result of a calculation on the sourceAttribute
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.correlatedWith</b>](#is-correlatedwith) <- <b>is.calculationOf</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-cdm"><b>is.CDM</b></a>
+
 **Description**
 
 Root trait for information about the CDM itself.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.CDM|
+|[<b>is</b>](#is) <- <b>is.CDM</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.CDM.entityVersion</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.CDM -> is.CDM.entityVersion|
+**Parameters**
 
-### **Properties**
-| |
-|--|
-|<b>version</b>|
+None
 
-## <b>is.CDM.attributeGroup</b>
+## <a id="is-cdm-attributegroup"><b>is.CDM.attributeGroup</b></a>
+
 **Description**
 
 Identifies standard groups of attributes in CDM entities.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.CDM -> is.CDM.attributeGroup|
+|[<b>is</b>](#is) <- [<b>is.CDM</b>](#is-cdm) <- <b>is.CDM.attributeGroup</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>cdmSchemas</b>|
 
-## <b>is.localized</b>
-**Description**
+**Parameters**
 
-Associates a list of localized string with an object
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|groupList|entity|False
 
-### **Inheritance**
+## <a id="is-cdm-entityversion"><b>is.CDM.entityVersion</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|is -> is.localized|
+|[<b>is</b>](#is) <- [<b>is.CDM</b>](#is-cdm) <- <b>is.CDM.entityVersion</b>|
 
-### **Properties**
-None
+**Properties**
 
-## <b>is.localized.displayedAs</b>
-**Description**
-
-Holds the list of language specific display text for an object.
-
-### **Inheritance**
 | |
 |--|
-|is -> is.localized -> is.localized.displayedAs|
+|<b>version</b>|
 
-### **Properties**
-| |
-|--|
-|<b>displayName</b>|
+**Parameters**
 
-## <b>is.localized.describedAs</b>
-**Description**
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|versionNumber|string|True
 
-Holds the list of language specific descriptive text for an object.
+## <a id="is-constrained"><b>is.constrained</b></a>
 
-### **Inheritance**
-| |
-|--|
-|is -> is.localized -> is.localized.describedAs|
-
-### **Properties**
-| |
-|--|
-|<b>description</b>|
-
-## <b>is.nullable</b>
-**Description**
-
-The attribute value may be set to NULL.
-
-### **Inheritance**
-| |
-|--|
-|is -> is.nullable|
-
-### **Properties**
-| |
-|--|
-|<b>isNullable</b>|
-
-## <b>is.readOnly</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.readOnly|
-
-### **Properties**
-| |
-|--|
-|<b>isReadOnly</b>|
-
-## <b>is.requiredAtLevel</b>
-**Description**
-
-The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
-
-### **Inheritance**
-| |
-|--|
-|is -> is.requiredAtLevel|
-
-### **Properties**
-None
-
-## <b>is.constrained</b>
 **Description**
 
 Maximum length or value constraints
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.constrained|
+|[<b>is</b>](#is) <- <b>is.constrained</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>maximumValue</b>|
 |<b>minimumValue</b>|
 |<b>maximumLength</b>|
 
-## <b>is.constrainedList</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|maximumLength|integer|False
+|minimumValue|decimal|False
+|maximumValue|decimal|False
+
+## <a id="is-constrainedlist"><b>is.constrainedList</b></a>
+
 **Description**
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.constrainedList|
+|[<b>is</b>](#is) <- <b>is.constrainedList</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>valueConstrainedToList</b>|
 
-## <b>is.constrainedList.correlated</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|defaultList|entity|False
+
+## <a id="is-constrainedlist-correlated"><b>is.constrainedList.correlated</b></a>
+
 **Description**
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.constrainedList.correlated|
+|[<b>is</b>](#is) <- <b>is.constrainedList.correlated</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>valueConstrainedToList</b>|
 
-## <b>is.constrainedList.string</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|defaultList|entity|False
+
+## <a id="is-constrainedlist-string"><b>is.constrainedList.string</b></a>
+
 **Description**
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.constrainedList.string|
+|[<b>is</b>](#is) <- <b>is.constrainedList.string</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>valueConstrainedToList</b>|
 
-## <b>is.constrainedList.wellKnown</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|defaultList|entity|False
+
+## <a id="is-constrainedlist-wellknown"><b>is.constrainedList.wellKnown</b></a>
+
 **Description**
 
 The values of an attribute are taken from or looked up from a fixed list of possibilities which are defined in an identified public location.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.constrainedList.wellKnown|
+|[<b>is</b>](#is) <- <b>is.constrainedList.wellKnown</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>valueConstrainedToList</b>|
 
-## <b>is.correlatedWith</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|uniqueIdentifier|string|False
+|defaultList|entity|False
+
+## <a id="is-correlatedwith"><b>is.correlatedWith</b></a>
+
 **Description**
 
 The attribute value is correlated with the sourceAttribute
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.correlatedWith|
+|[<b>is</b>](#is) <- <b>is.correlatedWith</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.calculationOf</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|sourceAttribute|attributeName|True
+
+## <a id="is-dataformat"><b>is.dataFormat</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.dataFormat</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-array"><b>is.dataFormat.array</b></a>
+
 **Description**
 
-The attribute value is the result of a calculation on the sourceAttribute
+Indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.correlatedWith -> is.calculationOf|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.array</b>|
 
-### **Properties**
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
 None
 
-## <b>is.partition</b>
+## <a id="is-dataformat-big"><b>is.dataFormat.big</b></a>
+
 **Description**
 
-The base trait for partition specific traits.
+Indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.partition|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.big</b>|
 
-### **Properties**
-None
+**Properties**
 
-## <b>is.partition.format</b>
-### **Inheritance**
 | |
 |--|
-|is -> is.partition -> is.partition.format|
+|<b>dataFormat</b>|
 
-### **Properties**
+**Parameters**
+
 None
 
-## <b>is.partition.format.CSV</b>
+## <a id="is-dataformat-boolean"><b>is.dataFormat.boolean</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.boolean</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-byte"><b>is.dataFormat.byte</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.byte</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-character"><b>is.dataFormat.character</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.character</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-date"><b>is.dataFormat.date</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.date</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-floatingpoint"><b>is.dataFormat.floatingPoint</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.floatingPoint</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-guid"><b>is.dataFormat.guid</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.guid</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-integer"><b>is.dataFormat.integer</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.integer</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-jsinteger"><b>is.dataFormat.JSInteger</b></a>
+
 **Description**
 
-The value is the file format settings of a partition CSV file.
+Represents the 54 bit integer numbers compatible with javascript
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.partition -> is.partition.format -> is.partition.format.CSV|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.JSInteger</b>|
 
-### **Properties**
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
 None
 
-## <b>is.partition.format.parquet</b>
-**Description**
+## <a id="is-dataformat-numeric"><b>is.dataFormat.numeric</b></a>
 
-The value is the file format settings of a partition parquet file.
+**Inheritance**
 
-### **Inheritance**
 | |
 |--|
-|is -> is.partition -> is.partition.format -> is.partition.format.parquet|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.numeric</b>|
 
-### **Properties**
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
 None
 
-## <b>is.partition.format.deltaLake</b>
+## <a id="is-dataformat-numeric-shaped"><b>is.dataFormat.numeric.shaped</b></a>
+
 **Description**
 
-The partition path points to one complete folder of Spark Delta Lake data. Options allow for time travel access to the data.
+For setting the exact precision and scale of numeric values
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.partition -> is.partition.format -> is.partition.format.deltaLake|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- [<b>is.dataFormat.numeric</b>](#is-dataformat-numeric) <- <b>is.dataFormat.numeric.shaped</b>|
 
-### **Properties**
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|precision|integer|False
+|scale|integer|False
+
+## <a id="is-dataformat-small"><b>is.dataFormat.small</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.small</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
 None
 
-## <b>is.partition.culture</b>
-**Description**
+## <a id="is-dataformat-time"><b>is.dataFormat.time</b></a>
 
-The value denotes culture in the partition files.
+**Inheritance**
 
-### **Inheritance**
 | |
 |--|
-|is -> is.partition -> is.partition.culture|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.time</b>|
 
-### **Properties**
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
 None
 
-## <b>is.modelConversion</b>
-**Description**
+## <a id="is-dataformat-timeoffset"><b>is.dataFormat.timeOffset</b></a>
 
-Represents a correlation with model.json to CDM model conversion.
+**Inheritance**
 
-### **Inheritance**
 | |
 |--|
-|is -> is.modelConversion|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.timeOffset</b>|
 
-### **Properties**
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
+
+**Parameters**
+
 None
 
-## <b>is.modelConversion.modelVersion</b>
+## <a id="is-formatted"><b>is.formatted</b></a>
+
 **Description**
 
-The value denotes the version number set in a converted model.json file
+A root for traits that describe how data is formatted
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.modelConversion -> is.modelConversion.modelVersion|
+|[<b>is</b>](#is) <- <b>is.formatted</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.modelConversion.otherAnnotations</b>
-**Description**
+**Parameters**
 
-The value denotes model.json annotations which have not been recognized.
-
-### **Inheritance**
-| |
-|--|
-|is -> is.modelConversion -> is.modelConversion.otherAnnotations|
-
-### **Properties**
 None
 
-## <b>is.modelConversion.referenceModelMap</b>
+## <a id="is-formatted-date"><b>is.formatted.date</b></a>
+
 **Description**
 
-The value denotes a reference model map containing multiple id-location pairs used for reference entity resolution.
+Date data formatted as a string in ISO 8601 format
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.modelConversion -> is.modelConversion.referenceModelMap|
+|[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.date</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.managedBy</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|format|stringFormat|False
+
+## <a id="is-formatted-datetime"><b>is.formatted.dateTime</b></a>
+
 **Description**
 
-The value denotes information about a service/entity who is owning a model.
+DateTime data formatted as a string in ISO 8601 format
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.managedBy|
+|[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.dateTime</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>does</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|format|stringFormat|False
+
+## <a id="is-formatted-forculture"><b>is.formatted.forCulture</b></a>
+
 **Description**
 
-A root with a more meaningful base name for certain exhibited traits
+Values are stored using the specified culture
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> does|
+|[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.forCulture</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>does.haveDefault</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|culture|cultureTag|True
+
+## <a id="is-formatted-text"><b>is.formatted.text</b></a>
+
 **Description**
 
-An attribute has a default value
+String data is formatted according to the format parameter
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> does -> does.haveDefault|
+|[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.text</b>|
 
-### **Properties**
-| |
-|--|
-|<b>defaultValue</b>|
+**Properties**
 
-## <b>does.elevateAttribute</b>
-**Description**
-
-Elevates (up to a entity) a trait that describes a specific attribute
-
-### **Inheritance**
-| |
-|--|
-|is -> does -> does.elevateAttribute|
-
-### **Properties**
 None
 
-## <b>means.entityState</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|format|stringFormat|True
+
+## <a id="is-formatted-time"><b>is.formatted.time</b></a>
+
 **Description**
 
-The attribute represents the current state of the entity.
+Time data formatted as a string in ISO 8601 format
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> does -> does.elevateAttribute -> means.entityState|
+|[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.time</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.identifiedBy</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|format|stringFormat|False
+
+## <a id="is-hidden"><b>is.hidden</b></a>
+
+**Description**
+
+All attributes with this trait should be hidden from view of the entity consumer.
+
+**Inheritance**
+
+None
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-identifiedby"><b>is.identifiedBy</b></a>
+
 **Description**
 
 Names a specifc identity attribute to use with an entity
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> does -> does.elevateAttribute -> is.identifiedBy|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.identifiedBy</b>|
 
-### **Properties**
+**Properties**
+
 | |
 |--|
 |<b>primaryKey</b>|
 |<b>isPrimaryKey</b>|
 
-## <b>is.named</b>
-### **Inheritance**
-| |
-|--|
-|is -> does -> does.elevateAttribute -> is.named|
+**Parameters**
 
-### **Properties**
 None
 
-## <b>is.ordered</b>
-### **Inheritance**
-| |
-|--|
-|is -> does -> does.elevateAttribute -> is.ordered|
+## <a id="is-incurrency"><b>is.inCurrency</b></a>
 
-### **Properties**
-None
-
-## <b>is.locatable</b>
-### **Inheritance**
-| |
-|--|
-|is -> does -> does.elevateAttribute -> is.locatable|
-
-### **Properties**
-None
-
-## <b>means</b>
-**Description**
-
-A root with a more meaningful base name for certain semantic meaning traits
-
-### **Inheritance**
-| |
-|--|
-|is -> means|
-
-### **Properties**
-None
-
-## <b>means.identity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity|
-
-### **Properties**
-None
-
-## <b>means.identity.entityId</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.entityId|
-
-### **Properties**
-None
-
-## <b>means.identity.barCode</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.barCode|
-
-### **Properties**
-None
-
-## <b>means.identity.brand</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.brand|
-
-### **Properties**
-None
-
-## <b>means.identity.governmentID</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.governmentID|
-
-### **Properties**
-None
-
-## <b>means.identity.name</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name|
-
-### **Properties**
-None
-
-## <b>means.identity.company.name</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.company.name|
-
-### **Properties**
-None
-
-## <b>means.identity.person.prefix</b>
-**Description**
-
-A salutation such as a title, rank or honorific to place before a person's name
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.person.prefix|
-
-### **Properties**
-None
-
-## <b>means.identity.person.firstName</b>
-**Description**
-
-A person's given or first name.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.person.firstName|
-
-### **Properties**
-None
-
-## <b>means.identity.person.middleName</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.person.middleName|
-
-### **Properties**
-None
-
-## <b>means.identity.person.lastName</b>
-**Description**
-
-A person's surname, family name or last name.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.person.lastName|
-
-### **Properties**
-None
-
-## <b>means.identity.person.suffix</b>
-**Description**
-
-Follows a person's name and provides additional information about their position, education or honorific
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.person.suffix|
-
-### **Properties**
-None
-
-## <b>means.identity.person.fullName</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.name -> means.identity.person.fullName|
-
-### **Properties**
-None
-
-## <b>means.identity.rowNumber</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.rowNumber|
-
-### **Properties**
-None
-
-## <b>means.identity.scd.originalIdentity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.scd.originalIdentity|
-
-### **Properties**
-None
-
-## <b>means.identity.scd.surogateIdentity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.scd.surogateIdentity|
-
-### **Properties**
-None
-
-## <b>means.identity.service</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service|
-
-### **Properties**
-None
-
-## <b>means.identity.service.email</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service.email|
-
-### **Properties**
-None
-
-## <b>means.identity.service.facebook</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service.facebook|
-
-### **Properties**
-None
-
-## <b>means.identity.service.phone</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service.phone|
-
-### **Properties**
-None
-
-## <b>means.identity.service.phone.cell</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service.phone.cell|
-
-### **Properties**
-None
-
-## <b>means.identity.service.phone.fax</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service.phone.fax|
-
-### **Properties**
-None
-
-## <b>means.identity.service.twitter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.service.twitter|
-
-### **Properties**
-None
-
-## <b>means.identity.SKU</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.SKU|
-
-### **Properties**
-None
-
-## <b>means.identity.tickerSymbol</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.tickerSymbol|
-
-### **Properties**
-None
-
-## <b>means.identity.title</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.title|
-
-### **Properties**
-None
-
-## <b>means.identity.IP4Address</b>
-**Description**
-
-Internet Protocol V4 Address
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.IP4Address|
-
-### **Properties**
-None
-
-## <b>means.identity.IP6Address</b>
-**Description**
-
-Internet Protocol V6 Address
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.identity -> means.identity.IP6Address|
-
-### **Properties**
-None
-
-## <b>means.fileName</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.fileName|
-
-### **Properties**
-None
-
-## <b>means.entityName</b>
-**Description**
-
-A string value is the name of a CDM entity.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.entityName|
-
-### **Properties**
-None
-
-## <b>means.entityName.specific</b>
-**Description**
-
-Holds the name of specific CDM entity as a parameter of the trait.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.entityName -> means.entityName.specific|
-
-### **Properties**
-None
-
-## <b>means.content</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content|
-
-### **Properties**
-None
-
-## <b>means.content.text</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.text|
-
-### **Properties**
-None
-
-## <b>means.content.text.HTML</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.text -> means.content.text.HTML|
-
-### **Properties**
-None
-
-## <b>means.content.text.JSON</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.text -> means.content.text.JSON|
-
-### **Properties**
-None
-
-## <b>means.content.text.XML</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.text -> means.content.text.XML|
-
-### **Properties**
-None
-
-## <b>means.content.text.CSV</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.text -> means.content.text.CSV|
-
-### **Properties**
-None
-
-## <b>means.content.binary</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary|
-
-### **Properties**
-None
-
-## <b>means.content.binary.image</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary -> means.content.binary.image|
-
-### **Properties**
-None
-
-## <b>means.content.binary.image.BMP</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.BMP|
-
-### **Properties**
-None
-
-## <b>means.content.binary.image.GIF</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.GIF|
-
-### **Properties**
-None
-
-## <b>means.content.binary.image.JPG</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.JPG|
-
-### **Properties**
-None
-
-## <b>means.content.binary.image.PNG</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.PNG|
-
-### **Properties**
-None
-
-## <b>means.content.binary.image.TIFF</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.content -> means.content.binary -> means.content.binary.image -> means.content.binary.image.TIFF|
-
-### **Properties**
-None
-
-## <b>means.idea</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea|
-
-### **Properties**
-None
-
-## <b>means.idea.account</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.account|
-
-### **Properties**
-None
-
-## <b>means.idea.accountLeads</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.accountLeads|
-
-### **Properties**
-None
-
-## <b>means.idea.activityParty</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.activityParty|
-
-### **Properties**
-None
-
-## <b>means.idea.activityPointer</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.activityPointer|
-
-### **Properties**
-None
-
-## <b>means.idea.annotation</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.annotation|
-
-### **Properties**
-None
-
-## <b>means.idea.appointment</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.appointment|
-
-### **Properties**
-None
-
-## <b>means.idea.brand</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.brand|
-
-### **Properties**
-None
-
-## <b>means.idea.businessUnit</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.businessUnit|
-
-### **Properties**
-None
-
-## <b>means.idea.campaign</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.campaign|
-
-### **Properties**
-None
-
-## <b>means.idea.campaignActivity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.campaignActivity|
-
-### **Properties**
-None
-
-## <b>means.idea.campaignItem</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.campaignItem|
-
-### **Properties**
-None
-
-## <b>means.idea.campaignResponse</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.campaignResponse|
-
-### **Properties**
-None
-
-## <b>means.idea.channel</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.channel|
-
-### **Properties**
-None
-
-## <b>means.idea.characteristic</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.characteristic|
-
-### **Properties**
-None
-
-## <b>means.idea.company</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.company|
-
-### **Properties**
-None
-
-## <b>means.idea.competitor</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.competitor|
-
-### **Properties**
-None
-
-## <b>means.idea.competitorAddress</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.competitorAddress|
-
-### **Properties**
-None
-
-## <b>means.idea.competitorProduct</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.competitorProduct|
-
-### **Properties**
-None
-
-## <b>means.idea.connection</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.connection|
-
-### **Properties**
-None
-
-## <b>means.idea.connectionRole</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.connectionRole|
-
-### **Properties**
-None
-
-## <b>means.idea.contract</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.contract|
-
-### **Properties**
-None
-
-## <b>means.idea.contractDetail</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.contractDetail|
-
-### **Properties**
-None
-
-## <b>means.idea.customer</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.customer|
-
-### **Properties**
-None
-
-## <b>means.idea.customerAddress</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.customerAddress|
-
-### **Properties**
-None
-
-## <b>means.idea.customerRelationship</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.customerRelationship|
-
-### **Properties**
-None
-
-## <b>means.idea.discount</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.discount|
-
-### **Properties**
-None
-
-## <b>means.idea.discountType</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.discountType|
-
-### **Properties**
-None
-
-## <b>means.idea.email</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.email|
-
-### **Properties**
-None
-
-## <b>means.idea.entitlement</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.entitlement|
-
-### **Properties**
-None
-
-## <b>means.idea.equipment</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.equipment|
-
-### **Properties**
-None
-
-## <b>means.idea.fax</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.fax|
-
-### **Properties**
-None
-
-## <b>means.idea.feedback</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.feedback|
-
-### **Properties**
-None
-
-## <b>means.idea.goal</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.goal|
-
-### **Properties**
-None
-
-## <b>means.idea.incident</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.incident|
-
-### **Properties**
-None
-
-## <b>means.idea.invoice</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.invoice|
-
-### **Properties**
-None
-
-## <b>means.idea.invoiceDetail</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.invoiceDetail|
-
-### **Properties**
-None
-
-## <b>means.idea.KbArticle</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.KbArticle|
-
-### **Properties**
-None
-
-## <b>means.idea.knowledgeArticle</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.knowledgeArticle|
-
-### **Properties**
-None
-
-## <b>means.idea.lead</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.lead|
-
-### **Properties**
-None
-
-## <b>means.idea.leadAddress</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.leadAddress|
-
-### **Properties**
-None
-
-## <b>means.idea.letter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.letter|
-
-### **Properties**
-None
-
-## <b>means.idea.metric</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.metric|
-
-### **Properties**
-None
-
-## <b>means.idea.opportunity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.opportunity|
-
-### **Properties**
-None
-
-## <b>means.idea.organization</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.organization|
-
-### **Properties**
-None
-
-## <b>means.idea.organization.unit</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.organization.unit|
-
-### **Properties**
-None
-
-## <b>means.idea.owner</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.owner|
-
-### **Properties**
-None
-
-## <b>means.idea.person</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.person|
-
-### **Properties**
-None
-
-## <b>means.idea.person.contact</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.person -> means.idea.person.contact|
-
-### **Properties**
-None
-
-## <b>means.idea.person.employee</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.person -> means.idea.person.employee|
-
-### **Properties**
-None
-
-## <b>means.idea.person.representative</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.person -> means.idea.person.representative|
-
-### **Properties**
-None
-
-## <b>means.idea.phoneCall</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.phoneCall|
-
-### **Properties**
-None
-
-## <b>means.idea.place</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.place|
-
-### **Properties**
-None
-
-## <b>means.idea.position</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.position|
-
-### **Properties**
-None
-
-## <b>means.idea.priceLevel</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.priceLevel|
-
-### **Properties**
-None
-
-## <b>means.idea.product</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.product|
-
-### **Properties**
-None
-
-## <b>means.idea.productGroup</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.productGroup|
-
-### **Properties**
-None
-
-## <b>means.idea.project</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.project|
-
-### **Properties**
-None
-
-## <b>means.idea.promotion</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.promotion|
-
-### **Properties**
-None
-
-## <b>means.idea.quote</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.quote|
-
-### **Properties**
-None
-
-## <b>means.idea.ratingModel</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.ratingModel|
-
-### **Properties**
-None
-
-## <b>means.idea.resource</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.resource|
-
-### **Properties**
-None
-
-## <b>means.idea.resourceGroup</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.resourceGroup|
-
-### **Properties**
-None
-
-## <b>means.idea.salesLiterature</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.salesLiterature|
-
-### **Properties**
-None
-
-## <b>means.idea.salesOrder</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.salesOrder|
-
-### **Properties**
-None
-
-## <b>means.idea.scenario</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.scenario|
-
-### **Properties**
-None
-
-## <b>means.idea.schedule</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.schedule|
-
-### **Properties**
-None
-
-## <b>means.idea.service</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.service|
-
-### **Properties**
-None
-
-## <b>means.idea.service </b>
-**Description**
-
-Deprecated. extra space at the end was an error.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.service -> means.idea.service |
-
-### **Properties**
-None
-
-## <b>means.idea.serviceAppointment</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.serviceAppointment|
-
-### **Properties**
-None
-
-## <b>means.idea.site</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.site|
-
-### **Properties**
-None
-
-## <b>means.idea.SLA</b>
-**Description**
-
-A Service Level Agreement
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.SLA|
-
-### **Properties**
-None
-
-## <b>means.idea.socialActivity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.socialActivity|
-
-### **Properties**
-None
-
-## <b>means.idea.socialProfile</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.socialProfile|
-
-### **Properties**
-None
-
-## <b>means.idea.systemUser</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.systemUser|
-
-### **Properties**
-None
-
-## <b>means.idea.task</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.task|
-
-### **Properties**
-None
-
-## <b>means.idea.team</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.team|
-
-### **Properties**
-None
-
-## <b>means.idea.territory</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.territory|
-
-### **Properties**
-None
-
-## <b>means.idea.UoM</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.UoM|
-
-### **Properties**
-None
-
-## <b>means.idea.utility</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.idea -> means.idea.utility|
-
-### **Properties**
-None
-
-## <b>means.category</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.category|
-
-### **Properties**
-None
-
-## <b>means.relationship</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.relationship|
-
-### **Properties**
-None
-
-## <b>means.relationship.parent</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.relationship -> means.relationship.parent|
-
-### **Properties**
-None
-
-## <b>means.relationship.child</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.relationship -> means.relationship.child|
-
-### **Properties**
-None
-
-## <b>means.reference</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference|
-
-### **Properties**
-None
-
-## <b>means.reference.caption</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.caption|
-
-### **Properties**
-None
-
-## <b>means.reference.displayText</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.displayText|
-
-### **Properties**
-None
-
-## <b>means.reference.documentation</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.documentation|
-
-### **Properties**
-None
-
-## <b>means.reference.description</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.description|
-
-### **Properties**
-None
-
-## <b>means.reference.definition</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.definition|
-
-### **Properties**
-None
-
-## <b>means.reference.phonetic</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.phonetic|
-
-### **Properties**
-None
-
-## <b>means.reference.regarding</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.regarding|
-
-### **Properties**
-None
-
-## <b>means.reference.URL</b>
-**Description**
-
-A Uniform Resource Locator. A web address.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.URL|
-
-### **Properties**
-None
-
-## <b>means.reference.URL.image</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.URL -> means.reference.URL.image|
-
-### **Properties**
-None
-
-## <b>means.reference.URI</b>
-**Description**
-
-A Uniform Resource Identifier
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.URI|
-
-### **Properties**
-None
-
-## <b>means.reference.language</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.language|
-
-### **Properties**
-None
-
-## <b>means.reference.language.tag</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.language -> means.reference.language.tag|
-
-### **Properties**
-None
-
-## <b>means.reference.culture</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.culture|
-
-### **Properties**
-None
-
-## <b>means.reference.culture.tag</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.reference -> means.reference.culture -> means.reference.culture.tag|
-
-### **Properties**
-None
-
-## <b>means.calendar</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar|
-
-### **Properties**
-None
-
-## <b>means.calendar.fiscal</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.fiscal|
-
-### **Properties**
-None
-
-## <b>means.calendar.ISO8601</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.ISO8601|
-
-### **Properties**
-None
-
-## <b>means.calendar.manufacturing</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.manufacturing|
-
-### **Properties**
-None
-
-## <b>means.calendar.reporting</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.reporting|
-
-### **Properties**
-None
-
-## <b>means.calendar.day</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfWeek</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfWeek|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfTendays</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfTendays|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfMonth</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfMonth|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfMonthOrPeriod</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfMonthOrPeriod|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfQuarter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfQuarter|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfTrimester</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfTrimester|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfHalfyear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfHalfyear|
-
-### **Properties**
-None
-
-## <b>means.calendar.dayOfYear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.day -> means.calendar.dayOfYear|
-
-### **Properties**
-None
-
-## <b>means.calendar.week</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.week|
-
-### **Properties**
-None
-
-## <b>means.calendar.weekOfMonth</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfMonth|
-
-### **Properties**
-None
-
-## <b>means.calendar.weekOfQuarter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfQuarter|
-
-### **Properties**
-None
-
-## <b>means.calendar.weekOfTrimester</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfTrimester|
-
-### **Properties**
-None
-
-## <b>means.calendar.weekOfHalfyear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfHalfyear|
-
-### **Properties**
-None
-
-## <b>means.calendar.weekOfYear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.week -> means.calendar.weekOfYear|
-
-### **Properties**
-None
-
-## <b>means.calendar.tenday</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.tenday|
-
-### **Properties**
-None
-
-## <b>means.calendar.tendayOfMonth</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfMonth|
-
-### **Properties**
-None
-
-## <b>means.calendar.tendayOfQuarter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfQuarter|
-
-### **Properties**
-None
-
-## <b>means.calendar.tendayOfTrimester</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfTrimester|
-
-### **Properties**
-None
-
-## <b>means.calendar.tendayOfHalfyear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfHalfyear|
-
-### **Properties**
-None
-
-## <b>means.calendar.tendayOfYear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.tenday -> means.calendar.tendayOfYear|
-
-### **Properties**
-None
-
-## <b>means.calendar.month</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.month|
-
-### **Properties**
-None
-
-## <b>means.calendar.monthOfQuarter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfQuarter|
-
-### **Properties**
-None
-
-## <b>means.calendar.monthOfTrimester</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfTrimester|
-
-### **Properties**
-None
-
-## <b>means.calendar.monthOfHalfyear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfHalfyear|
-
-### **Properties**
-None
-
-## <b>means.calendar.monthOfYear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.month -> means.calendar.monthOfYear|
-
-### **Properties**
-None
-
-## <b>means.calendar.quarter</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.quarter|
-
-### **Properties**
-None
-
-## <b>means.calendar.quarterOfHalfyear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.quarter -> means.calendar.quarterOfHalfyear|
-
-### **Properties**
-None
-
-## <b>means.calendar.quarterOfYear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.quarter -> means.calendar.quarterOfYear|
-
-### **Properties**
-None
-
-## <b>means.calendar.trimester</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.trimester|
-
-### **Properties**
-None
-
-## <b>means.calendar.trimesterOfYear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.trimester -> means.calendar.trimesterOfYear|
-
-### **Properties**
-None
-
-## <b>means.calendar.year</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.calendar -> means.calendar.year|
-
-### **Properties**
-None
-
-## <b>means.measurement</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension</b>
-**Description**
-
-Measurement of some physical dimension
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.time</b>
-**Description**
-
-Measurement of time
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.time|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.length</b>
-**Description**
-
-Measurement of length
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length|
-
-### **Properties**
-None
-
-## <b>means.measurement.distance</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length -> means.measurement.distance|
-
-### **Properties**
-None
-
-## <b>means.measurement.distance.inches</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length -> means.measurement.distance -> means.measurement.distance.inches|
-
-### **Properties**
-None
-
-## <b>means.measurement.distance.cm</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.length -> means.measurement.distance -> means.measurement.distance.cm|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.mass</b>
-**Description**
-
-Measurement of mass
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.mass|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.electricCurrent</b>
-**Description**
-
-Measurement of electic current
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.electricCurrent|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.temperature</b>
-**Description**
-
-Measurement of thermodynamic temperature
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.temperature|
-
-### **Properties**
-None
-
-## <b>means.measurement.temperature</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.temperature -> means.measurement.temperature|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.amount</b>
-**Description**
-
-Measurement of amount of substance
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.amount|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.luminousIntensity</b>
-**Description**
-
-Measurement of electic current
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.luminousIntensity|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.frequency</b>
-**Description**
-
-Measurement of frequency
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.frequency|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.angle</b>
-**Description**
-
-Measurement of geometric angle
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.angle|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.force</b>
-**Description**
-
-Measurement of force
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.force|
-
-### **Properties**
-None
-
-## <b>means.measurement.weight</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.force -> means.measurement.weight|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.pressure</b>
-**Description**
-
-Measurement of pressure or stress
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.pressure|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.energy</b>
-**Description**
-
-Measurement of energy, work, heat
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.energy|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.power</b>
-**Description**
-
-Measurement of power, radiant flex
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.power|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.electricCharge</b>
-**Description**
-
-Measurement of electric charge, quantity of electricity
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.electricCharge|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.electromotiveForce</b>
-**Description**
-
-Measurement of volatage, EMF, electrical potential difference
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.electromotiveForce|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.capacitance</b>
-**Description**
-
-Measurement of electical capacitance
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.capacitance|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.resistance</b>
-**Description**
-
-Measurement of electrical resistance, impedance, reactance
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.resistance|
-
-### **Properties**
-None
-
-## <b>means.measurement.dimension.dataRate</b>
-**Description**
-
-Measurement of data rate
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.dimension -> means.measurement.dimension.dataRate|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent</b>
-**Description**
-
-Description of one fundamental component of a derived unit
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.second</b>
-**Description**
-
-A fundamental component expressing time in seconds
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.second|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.meter</b>
-**Description**
-
-A fundamental component expressing length in meters
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.meter|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.kilogram</b>
-**Description**
-
-A fundamental component expressing mass in kilogram
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.kilogram|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.ampere</b>
-**Description**
-
-A fundamental component expressing electric current in amperes
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.ampere|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.kelvin</b>
-**Description**
-
-A fundamental component expressing thermodynamic temperature in degrees kelvin
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.kelvin|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.mole</b>
-**Description**
-
-A fundamental component expressing amount in moles
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.mole|
-
-### **Properties**
-None
-
-## <b>has.measurement.fundamentalComponent.candela</b>
-**Description**
-
-A fundamental component expressing luminous intensity in candelas
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> has.measurement.fundamentalComponent -> has.measurement.fundamentalComponent.candela|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix</b>
-**Description**
-
-Unit prefixes denoting a factor of one thousandth
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.giga</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E9
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.giga|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.mega</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E6
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.mega|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.kilo</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E3
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.kilo|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.centi</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E-2
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.centi|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.milli</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E-3
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.milli|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.micro</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E-6
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.micro|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.nano</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E-9
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.nano|
-
-### **Properties**
-None
-
-## <b>means.measurement.prefix.pico</b>
-**Description**
-
-Denotes one thousanth of the unit; 10E-12
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.prefix -> means.measurement.prefix.pico|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.degree</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.units.degree|
-
-### **Properties**
-None
-
-## <b>means.measurement.age</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.age|
-
-### **Properties**
-None
-
-## <b>means.measurement.code</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.code|
-
-### **Properties**
-None
-
-## <b>means.measurement.color</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.color|
-
-### **Properties**
-None
-
-## <b>means.measurement.density</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.density|
-
-### **Properties**
-None
-
-## <b>means.measurement.sequence</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.sequence|
-
-### **Properties**
-None
-
-## <b>means.measurement.version</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.version|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.cost</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency -> means.measurement.currency.cost|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.price</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency -> means.measurement.currency.price|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.revenue</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency -> means.measurement.currency.revenue|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.iSOCode</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency.iSOCode|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.type</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency.type|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.type.destination</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency.type -> means.measurement.currency.type.destination|
-
-### **Properties**
-None
-
-## <b>means.measurement.currency.type.source</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currency.type -> means.measurement.currency.type.source|
-
-### **Properties**
-None
-
-## <b>means.measurement.time</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.time|
-
-### **Properties**
-None
-
-## <b>means.measurement.date</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.completion</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.completion|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.creation</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.creation|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.end</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.end|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.end.scd</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.end.scd|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.modify</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.modify|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.occurrence</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.occurrence|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.remove</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.remove|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.start</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.start|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.start.scd</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.start.scd|
-
-### **Properties**
-None
-
-## <b>means.measurement.date.target</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.date -> means.measurement.date.target|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.seconds</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.seconds|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.minutes</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.minutes|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.hours</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.hours|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.days</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.days|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.months</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.months|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.weeks</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.weeks|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.quarters</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.quarters|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.trimesters</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.trimesters|
-
-### **Properties**
-None
-
-## <b>means.measurement.duration.years</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.duration -> means.measurement.duration.years|
-
-### **Properties**
-None
-
-## <b>means.measurement.probability</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.probability|
-
-### **Properties**
-None
-
-## <b>means.measurement.count</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.count|
-
-### **Properties**
-None
-
-## <b>means.measurement.percent</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.percent|
-
-### **Properties**
-None
-
-## <b>means.measurement.percent.ownership</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.percent.ownership|
-
-### **Properties**
-None
-
-## <b>means.measurement.percent.voterright</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.percent.voterright|
-
-### **Properties**
-None
-
-## <b>means.measurement.range</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.range|
-
-### **Properties**
-None
-
-## <b>means.measurement.range.high</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.range -> means.measurement.range.high|
-
-### **Properties**
-None
-
-## <b>means.measurement.range.low</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.range -> means.measurement.range.low|
-
-### **Properties**
-None
-
-## <b>means.measurement.rate</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.rate|
-
-### **Properties**
-None
-
-## <b>means.measurement.rate.type</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.rate.type|
-
-### **Properties**
-None
-
-## <b>means.measurement.size</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.size|
-
-### **Properties**
-None
-
-## <b>means.measurement.size.depth</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.depth|
-
-### **Properties**
-None
-
-## <b>means.measurement.size.height</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.height|
-
-### **Properties**
-None
-
-## <b>means.measurement.size.volume</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.volume|
-
-### **Properties**
-None
-
-## <b>means.measurement.size.width</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.size -> means.measurement.size.width|
-
-### **Properties**
-None
-
-## <b>means.measurement.currencyCode</b>
-**Description**
-
-Indicates this value represents an ISO 4217 currency code
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement -> means.measurement.currencyCode|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si</b>
-**Description**
-
-Measurments in international system of units
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.second</b>
-**Description**
-
-Measurement of time in seconds
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.second|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.meter</b>
-**Description**
-
-Measurement of length in meters
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.meter|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.kilogram</b>
-**Description**
-
-Measurement of mass in kilogram
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.kilogram|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.ampere</b>
-**Description**
-
-Measurement of electric current in amperes
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.ampere|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.kelvin</b>
-**Description**
-
-Measurement of thermodynamic temperature in degrees kelvin
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.kelvin|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.mole</b>
-**Description**
-
-Measurement of amount in moles
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.mole|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.candela</b>
-**Description**
-
-Measurement of luminous intensity in candelas
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.candela|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.hertz</b>
-**Description**
-
-Measurement of frequency in hertz
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.hertz|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.radian</b>
-**Description**
-
-Measurement of angle in radians
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.radian|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.newton</b>
-**Description**
-
-Measurement of force or weight in newtons
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.newton|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.pascal</b>
-**Description**
-
-Measurement of pressure or stress in pascals
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.pascal|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.joule</b>
-**Description**
-
-Measurement of energy, work or heat in joules
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.joule|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.watt</b>
-**Description**
-
-Measurement of power or radiant flux in watts
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.watt|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.coulomb</b>
-**Description**
-
-Measurement of electric charge or amount of electricity in coulombs
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.coulomb|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.volt</b>
-**Description**
-
-Measurement of voltage, EMF, electrical potantial difference in volts
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.volt|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.farad</b>
-**Description**
-
-Measurement of electric capacitance in farads
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.farad|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.ohm</b>
-**Description**
-
-Measurement of electrical resistance, impedance, reactance in ohms
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.ohm|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.celsius</b>
-**Description**
-
-Measurement of temperature in degrees celsius
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.celsius|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.gram</b>
-**Description**
-
-Measurement of mass in grams
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.gram|
-
-### **Properties**
-None
-
-## <b>means.measurement.units.si.bitPerSecond</b>
-**Description**
-
-Measurement of data rate in bits per second
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.measurement.units.si -> means.measurement.units.si.bitPerSecond|
-
-### **Properties**
-None
-
-## <b>means.formatting</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting|
-
-### **Properties**
-None
-
-## <b>means.formatting.color</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.color|
-
-### **Properties**
-None
-
-## <b>means.formatting.font</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.font|
-
-### **Properties**
-None
-
-## <b>means.formatting.font.size</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.font -> means.formatting.font.size|
-
-### **Properties**
-None
-
-## <b>means.formatting.font.effects</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.font -> means.formatting.font.effects|
-
-### **Properties**
-None
-
-## <b>means.formatting.heading</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.heading|
-
-### **Properties**
-None
-
-## <b>means.formatting.order</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.order|
-
-### **Properties**
-None
-
-## <b>means.formatting.stringFormat</b>
-**Description**
-
-Indicates this value represents the format of a string
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.formatting -> means.formatting.stringFormat|
-
-### **Properties**
-None
-
-## <b>means.qualification</b>
-**Description**
-
-Augments the meaning of entities or attributes with a qualification
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.qualification|
-
-### **Properties**
-None
-
-## <b>means.qualification.estimate</b>
-**Description**
-
-Values are an estimate only.
-
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.qualification -> means.qualification.estimate|
-
-### **Properties**
-None
-
-## <b>means.demographic</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic|
-
-### **Properties**
-None
-
-## <b>means.demographic.age</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.age|
-
-### **Properties**
-None
-
-## <b>means.demographic.gender</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.gender|
-
-### **Properties**
-None
-
-## <b>means.demographic.ethnicity</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.ethnicity|
-
-### **Properties**
-None
-
-## <b>means.demographic.maritalStatus</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.maritalStatus|
-
-### **Properties**
-None
-
-## <b>means.demographic.birthDate</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.birthDate|
-
-### **Properties**
-None
-
-## <b>means.demographic.income</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.income|
-
-### **Properties**
-None
-
-## <b>means.demographic.education</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.demographic -> means.demographic.education|
-
-### **Properties**
-None
-
-## <b>means.location</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location|
-
-### **Properties**
-None
-
-## <b>means.location.address</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address|
-
-### **Properties**
-None
-
-## <b>means.location.address.building</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.building|
-
-### **Properties**
-None
-
-## <b>means.location.address.floor</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.floor|
-
-### **Properties**
-None
-
-## <b>means.location.address.house</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.house|
-
-### **Properties**
-None
-
-## <b>means.location.address.room</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.room|
-
-### **Properties**
-None
-
-## <b>means.location.address.street</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.street|
-
-### **Properties**
-None
-
-## <b>means.location.address.street.line1</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.street -> means.location.address.street.line1|
-
-### **Properties**
-None
-
-## <b>means.location.address.street.line2</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.street -> means.location.address.street.line2|
-
-### **Properties**
-None
-
-## <b>means.location.address.street.line3</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.address.street -> means.location.address.street.line3|
-
-### **Properties**
-None
-
-## <b>means.location.county</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.address -> means.location.county|
-
-### **Properties**
-None
-
-## <b>means.location.city</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.city|
-
-### **Properties**
-None
-
-## <b>means.location.continent</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.continent|
-
-### **Properties**
-None
-
-## <b>means.location.country</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.country|
-
-### **Properties**
-None
-
-## <b>means.location.latitude</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.latitude|
-
-### **Properties**
-None
-
-## <b>means.location.longitude</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.longitude|
-
-### **Properties**
-None
-
-## <b>means.location.point</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.point|
-
-### **Properties**
-None
-
-## <b>means.location.postalCode</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.postalCode|
-
-### **Properties**
-None
-
-## <b>means.location.province</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.province|
-
-### **Properties**
-None
-
-## <b>means.location.region</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.region|
-
-### **Properties**
-None
-
-## <b>means.location.stateOrProvince</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.stateOrProvince|
-
-### **Properties**
-None
-
-## <b>means.location.timezone</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.timezone|
-
-### **Properties**
-None
-
-## <b>means.location.geo</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.bottom</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.bottom|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.front</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.front|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.left</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.left|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.polygon</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.polygon|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.rear</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.rear|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.right</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.right|
-
-### **Properties**
-None
-
-## <b>means.location.geo.boundary.top</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.boundary -> means.location.geo.boundary.top|
-
-### **Properties**
-None
-
-## <b>means.location.geo.centroid</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.centroid|
-
-### **Properties**
-None
-
-## <b>means.location.geo.centroid.X</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.centroid -> means.location.geo.centroid.X|
-
-### **Properties**
-None
-
-## <b>means.location.geo.centroid.y</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.centroid -> means.location.geo.centroid.y|
-
-### **Properties**
-None
-
-## <b>means.location.geo.centroid.z</b>
-### **Inheritance**
-| |
-|--|
-|is -> means -> means.location -> means.location.geo -> means.location.geo.centroid -> means.location.geo.centroid.z|
-
-### **Properties**
-None
-
-## <b>has</b>
-**Description**
-
-A root for traits that describe properties of an object
-
-### **Inheritance**
-| |
-|--|
-|is -> has|
-
-### **Properties**
-None
-
-## <b>has.entitySchemaAbstractionLevel</b>
-**Description**
-
-A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.entitySchemaAbstractionLevel|
-
-### **Properties**
-None
-
-## <b>has.category</b>
-**Description**
-
-The root trait for the system of traits of hierarchical categorization
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category|
-
-### **Properties**
-None
-
-## <b>has.category.level1</b>
-**Description**
-
-Common explanation for level1 category items
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level1|
-
-### **Properties**
-None
-
-## <b>has.category.sourceSystem</b>
-**Description**
-
-A level1 hierarchy item explaining the source system for entities. Entities from a given source system are expected to be self-consistent on identifiers and similar data domains.
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level1 -> has.category.sourceSystem|
-
-### **Properties**
-None
-
-## <b>has.category.sourceSystem.Dynamics365</b>
-**Description**
-
-Entities from the Dynamics365 source system
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level1 -> has.category.sourceSystem -> has.category.sourceSystem.Dynamics365|
-
-### **Properties**
-None
-
-## <b>has.category.level2</b>
-**Description**
-
-Common explanation for level2 category items
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level2|
-
-### **Properties**
-None
-
-## <b>has.category.subjectArea</b>
-**Description**
-
-A level2 hierarchy item explaining the subject area entities. Subject areas can represent broad business categories such as Finance, Sales and Human Resouces
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level2 -> has.category.subjectArea|
-
-### **Properties**
-None
-
-## <b>has.category.subjectArea.HumanResources</b>
-**Description**
-
-Entities from Human Resources subject area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.HumanResources|
-
-### **Properties**
-None
-
-## <b>has.category.subjectArea.Commerce</b>
-**Description**
-
-Entities from Commerce subject area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.Commerce|
-
-### **Properties**
-None
-
-## <b>has.category.subjectArea.SupplyChain</b>
-**Description**
-
-Entities from Supply Chain subject area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.SupplyChain|
-
-### **Properties**
-None
-
-## <b>has.category.subjectArea.Finance</b>
-**Description**
-
-Entities from Finance subject area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level2 -> has.category.subjectArea -> has.category.subjectArea.Finance|
-
-### **Properties**
-None
-
-## <b>has.category.level3</b>
-**Description**
-
-Common explanation for level3 category items
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea</b>
-**Description**
-
-A level3 hierarchy item explaining the functional area for entities. Functional areas can divide entities by their purpose or use case such as auditing, reporting, recruiting, budgeting
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Recruitment</b>
-**Description**
-
-Entities from Recruitment functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Recruitment|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Terminations</b>
-**Description**
-
-Entities from Terminations functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Terminations|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Suppliers</b>
-**Description**
-
-Entities from Suppliers functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Suppliers|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Warehousing</b>
-**Description**
-
-Entities from Warehousing functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Warehousing|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.GeneralLedger</b>
-**Description**
-
-Entities from GeneralLedger functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.GeneralLedger|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.AccountsReceivable</b>
-**Description**
-
-Entities from AccountsReceivable functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.AccountsReceivable|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Auditing</b>
-**Description**
-
-Entities from Auditing functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Auditing|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Budgeting</b>
-**Description**
-
-Entities from Budgeting functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Budgeting|
-
-### **Properties**
-None
-
-## <b>has.category.functionalArea.Reporting</b>
-**Description**
-
-Entities from Reporting functional area
-
-### **Inheritance**
-| |
-|--|
-|is -> has -> has.category -> has.category.level3 -> has.category.functionalArea -> has.category.functionalArea.Reporting|
-
-### **Properties**
-None
-
-## <b>is.dataFormat</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.integer</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.integer|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.big</b>
-**Description**
-
-Indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.
-
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.big|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.small</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.small|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.floatingPoint</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.floatingPoint|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.array</b>
-**Description**
-
-Indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object
-
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.array|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.character</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.character|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.byte</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.byte|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.numeric</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.numeric|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.numeric.shaped</b>
-**Description**
-
-For setting the exact precision and scale of numeric values
-
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.numeric -> is.dataFormat.numeric.shaped|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.date</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.date|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.time</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.time|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.boolean</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.boolean|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.guid</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.guid|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.timeOffset</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.timeOffset|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.dataFormat.JSInteger</b>
-**Description**
-
-Represents the 54 bit integer numbers compatible with javascript
-
-### **Inheritance**
-| |
-|--|
-|is -> is.dataFormat -> is.dataFormat.JSInteger|
-
-### **Properties**
-| |
-|--|
-|<b>dataFormat</b>|
-
-## <b>is.secret</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.secret|
-
-### **Properties**
-None
-
-## <b>is.required</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.required|
-
-### **Properties**
-None
-
-## <b>is.sensitive</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.sensitive|
-
-### **Properties**
-None
-
-## <b>is.addedInSupportOf</b>
-### **Inheritance**
-| |
-|--|
-|is -> is.addedInSupportOf|
-
-### **Properties**
-None
-
-## <b>is.inCurrency</b>
 **Description**
 
 The data represents an amount of the specified currency
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.inCurrency|
+|[<b>is</b>](#is) <- <b>is.inCurrency</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.formatted</b>
-**Description**
+**Parameters**
 
-A root for traits that describe how data is formatted
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|code|currencyCode|True
 
-### **Inheritance**
-| |
-|--|
-|is -> is.formatted|
+## <a id="is-intimezone"><b>is.inTimeZone</b></a>
 
-### **Properties**
-None
-
-## <b>is.formatted.forCulture</b>
-**Description**
-
-Values are stored using the specified culture
-
-### **Inheritance**
-| |
-|--|
-|is -> is.formatted -> is.formatted.forCulture|
-
-### **Properties**
-None
-
-## <b>is.formatted.text</b>
-**Description**
-
-String data is formatted according to the format parameter
-
-### **Inheritance**
-| |
-|--|
-|is -> is.formatted -> is.formatted.text|
-
-### **Properties**
-None
-
-## <b>is.formatted.dateTime</b>
-**Description**
-
-DateTime data formatted as a string in ISO 8601 format
-
-### **Inheritance**
-| |
-|--|
-|is -> is.formatted -> is.formatted.dateTime|
-
-### **Properties**
-None
-
-## <b>is.formatted.date</b>
-**Description**
-
-Date data formatted as a string in ISO 8601 format
-
-### **Inheritance**
-| |
-|--|
-|is -> is.formatted -> is.formatted.date|
-
-### **Properties**
-None
-
-## <b>is.formatted.time</b>
-**Description**
-
-Time data formatted as a string in ISO 8601 format
-
-### **Inheritance**
-| |
-|--|
-|is -> is.formatted -> is.formatted.time|
-
-### **Properties**
-None
-
-## <b>is.inTimeZone</b>
 **Description**
 
 The associated data is assumed to be in the specified time zone
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.inTimeZone|
+|[<b>is</b>](#is) <- <b>is.inTimeZone</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.inTimeZone.MicrosoftFormat</b>
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|timeZoneName|timezone|True
+|format|stringFormat|True
+
+## <a id="is-intimezone-microsoftformat"><b>is.inTimeZone.MicrosoftFormat</b></a>
+
 **Description**
 
 The associated data is assumed to be in the specified time zone. timeZoneName value is a Microsoft standard time zone name. see https://support.microsoft.com/en-us/help/973627
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.inTimeZone -> is.inTimeZone.MicrosoftFormat|
+|[<b>is</b>](#is) <- [<b>is.inTimeZone</b>](#is-intimezone) <- <b>is.inTimeZone.MicrosoftFormat</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.inTimeZone.tzDatabaseFormat</b>
+**Parameters**
+
+None
+
+## <a id="is-intimezone-tzdatabaseformat"><b>is.inTimeZone.tzDatabaseFormat</b></a>
+
 **Description**
 
 The associated data is assumed to be in the specified time zone. timeZoneName value is a Time Zone Database standard time zone name. see https://www.iana.org/time-zones
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|is -> is.inTimeZone -> is.inTimeZone.tzDatabaseFormat|
+|[<b>is</b>](#is) <- [<b>is.inTimeZone</b>](#is-intimezone) <- <b>is.inTimeZone.tzDatabaseFormat</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.hidden</b>
-**Description**
+**Parameters**
 
-All attributes with this trait should be hidden from view of the entity consumer.
-
-### **Inheritance**
 None
 
-### **Properties**
-None
+## <a id="is-linkedentity"><b>is.linkedEntity</b></a>
 
-## <b>is.linkedEntity</b>
 **Description**
 
 Base for traits that are used to decorate the attributes and artifacts created by the traits on the hasFlexibleRelationshipWithEntity relationship.
 
-### **Inheritance**
+**Inheritance**
+
 None
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.linkedEntity.identifier</b>
-**Description**
+**Parameters**
 
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
-
-### **Inheritance**
-| |
-|--|
-|is.linkedEntity -> is.linkedEntity.identifier|
-
-### **Properties**
 None
 
-## <b>is.linkedEntity.name</b>
-**Description**
+## <a id="is-linkedentity-array"><b>is.linkedEntity.array</b></a>
 
-Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
-
-### **Inheritance**
-| |
-|--|
-|is.linkedEntity -> is.linkedEntity.name|
-
-### **Properties**
-None
-
-## <b>is.linkedEntity.array</b>
 **Description**
 
 Identifies the case when one entity links to (uses as an attribute) an array of other entities.
 
-### **Inheritance**
+**Inheritance**
+
 None
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>is.linkedEntity.array.count</b>
+**Parameters**
+
+None
+
+## <a id="is-linkedentity-array-count"><b>is.linkedEntity.array.count</b></a>
+
 **Description**
 
 Marks an attribute that contains the count of items in the array of linked (used as an attribute) entities
 
-### **Inheritance**
+**Inheritance**
+
 None
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>means.userId</b>
+**Parameters**
+
+None
+
+## <a id="is-linkedentity-identifier"><b>is.linkedEntity.identifier</b></a>
+
+**Description**
+
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is.linkedEntity</b>](#is-linkedentity) <- <b>is.linkedEntity.identifier</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|entityReferences|entity|False
+
+## <a id="is-linkedentity-name"><b>is.linkedEntity.name</b></a>
+
+**Description**
+
+Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is.linkedEntity</b>](#is-linkedentity) <- <b>is.linkedEntity.name</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-localized"><b>is.localized</b></a>
+
+**Description**
+
+Associates a list of localized string with an object
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.localized</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|localizedDisplayText|entity|False
+
+## <a id="is-localized-describedas"><b>is.localized.describedAs</b></a>
+
+**Description**
+
+Holds the list of language specific descriptive text for an object.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.localized</b>](#is-localized) <- <b>is.localized.describedAs</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>description</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-localized-displayedas"><b>is.localized.displayedAs</b></a>
+
+**Description**
+
+Holds the list of language specific display text for an object.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.localized</b>](#is-localized) <- <b>is.localized.displayedAs</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>displayName</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-locatable"><b>is.locatable</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.locatable</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-managedby"><b>is.managedBy</b></a>
+
+**Description**
+
+The value denotes information about a service/entity who is owning a model.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.managedBy</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|application|string|False
+
+## <a id="is-modelconversion"><b>is.modelConversion</b></a>
+
+**Description**
+
+Represents a correlation with model.json to CDM model conversion.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.modelConversion</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-modelconversion-modelversion"><b>is.modelConversion.modelVersion</b></a>
+
+**Description**
+
+The value denotes the version number set in a converted model.json file
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.modelConversion</b>](#is-modelconversion) <- <b>is.modelConversion.modelVersion</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|version|string|False
+
+## <a id="is-modelconversion-otherannotations"><b>is.modelConversion.otherAnnotations</b></a>
+
+**Description**
+
+The value denotes model.json annotations which have not been recognized.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.modelConversion</b>](#is-modelconversion) <- <b>is.modelConversion.otherAnnotations</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|annotations|object|False
+
+## <a id="is-modelconversion-referencemodelmap"><b>is.modelConversion.referenceModelMap</b></a>
+
+**Description**
+
+The value denotes a reference model map containing multiple id-location pairs used for reference entity resolution.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.modelConversion</b>](#is-modelconversion) <- <b>is.modelConversion.referenceModelMap</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|referenceModelMap|object|False
+
+## <a id="is-named"><b>is.named</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.named</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-nullable"><b>is.nullable</b></a>
+
+**Description**
+
+The attribute value may be set to NULL.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.nullable</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>isNullable</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-ordered"><b>is.ordered</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.ordered</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-partition"><b>is.partition</b></a>
+
+**Description**
+
+The base trait for partition specific traits.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.partition</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-partition-culture"><b>is.partition.culture</b></a>
+
+**Description**
+
+The value denotes culture in the partition files.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.culture</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|culture|string|False
+
+## <a id="is-partition-format"><b>is.partition.format</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.format</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-partition-format-csv"><b>is.partition.format.CSV</b></a>
+
+**Description**
+
+The value is the file format settings of a partition CSV file.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.CSV</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|columnHeaders|boolean|False
+|csvStyle|string|False
+|delimiter|string|False
+|quoteStyle|string|False
+|encoding|string|False
+|escape|char|False
+|newline|char|False
+|quote|char|False
+|skipLines|integer|False
+
+## <a id="is-partition-format-deltalake"><b>is.partition.format.deltaLake</b></a>
+
+**Description**
+
+The partition path points to one complete folder of Spark Delta Lake data. Options allow for time travel access to the data.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.deltaLake</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|versionAsOf|integer|False
+|timestampAsOf|dateTime|False
+
+## <a id="is-partition-format-parquet"><b>is.partition.format.parquet</b></a>
+
+**Description**
+
+The value is the file format settings of a partition parquet file.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.parquet</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-readonly"><b>is.readOnly</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.readOnly</b>|
+
+**Properties**
+
+| |
+|--|
+|<b>isReadOnly</b>|
+
+**Parameters**
+
+None
+
+## <a id="is-required"><b>is.required</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.required</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-requiredatlevel"><b>is.requiredAtLevel</b></a>
+
+**Description**
+
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.requiredAtLevel</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|level|string|True
+
+## <a id="is-secret"><b>is.secret</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.secret</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-sensitive"><b>is.sensitive</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.sensitive</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="is-virtual-attribute"><b>is.virtual.attribute</b></a>
+
+**Description**
+
+Marks an attribute added to an entity to document or represent a concept, often regarding other attributes. When working with data, be aware that virtual attributes might never have corresponding data values in an entity's partition or might only have data values if special measures are taken to manifest them.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.virtual.attribute</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means"><b>means</b></a>
+
+**Description**
+
+A root with a more meaningful base name for certain semantic meaning traits
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>means</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar"><b>means.calendar</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.calendar</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-day"><b>means.calendar.day</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.day</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayofhalfyear"><b>means.calendar.dayOfHalfyear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfHalfyear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayofmonth"><b>means.calendar.dayOfMonth</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfMonth</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayofmonthorperiod"><b>means.calendar.dayOfMonthOrPeriod</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfMonthOrPeriod</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayofquarter"><b>means.calendar.dayOfQuarter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfQuarter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayoftendays"><b>means.calendar.dayOfTendays</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfTendays</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayoftrimester"><b>means.calendar.dayOfTrimester</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfTrimester</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayofweek"><b>means.calendar.dayOfWeek</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfWeek</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-dayofyear"><b>means.calendar.dayOfYear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfYear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-fiscal"><b>means.calendar.fiscal</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.fiscal</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-iso8601"><b>means.calendar.ISO8601</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.ISO8601</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-manufacturing"><b>means.calendar.manufacturing</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.manufacturing</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-month"><b>means.calendar.month</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.month</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-monthofhalfyear"><b>means.calendar.monthOfHalfyear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfHalfyear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-monthofquarter"><b>means.calendar.monthOfQuarter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfQuarter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-monthoftrimester"><b>means.calendar.monthOfTrimester</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfTrimester</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-monthofyear"><b>means.calendar.monthOfYear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfYear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-quarter"><b>means.calendar.quarter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.quarter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-quarterofhalfyear"><b>means.calendar.quarterOfHalfyear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.quarter</b>](#means-calendar-quarter) <- <b>means.calendar.quarterOfHalfyear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-quarterofyear"><b>means.calendar.quarterOfYear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.quarter</b>](#means-calendar-quarter) <- <b>means.calendar.quarterOfYear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-reporting"><b>means.calendar.reporting</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.reporting</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-tenday"><b>means.calendar.tenday</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.tenday</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-tendayofhalfyear"><b>means.calendar.tendayOfHalfyear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfHalfyear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-tendayofmonth"><b>means.calendar.tendayOfMonth</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfMonth</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-tendayofquarter"><b>means.calendar.tendayOfQuarter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfQuarter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-tendayoftrimester"><b>means.calendar.tendayOfTrimester</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfTrimester</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-tendayofyear"><b>means.calendar.tendayOfYear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfYear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-trimester"><b>means.calendar.trimester</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.trimester</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-trimesterofyear"><b>means.calendar.trimesterOfYear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.trimester</b>](#means-calendar-trimester) <- <b>means.calendar.trimesterOfYear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-week"><b>means.calendar.week</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.week</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-weekofhalfyear"><b>means.calendar.weekOfHalfyear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfHalfyear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-weekofmonth"><b>means.calendar.weekOfMonth</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfMonth</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-weekofquarter"><b>means.calendar.weekOfQuarter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfQuarter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-weekoftrimester"><b>means.calendar.weekOfTrimester</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfTrimester</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-weekofyear"><b>means.calendar.weekOfYear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfYear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-calendar-year"><b>means.calendar.year</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.year</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-category"><b>means.category</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.category</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content"><b>means.content</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.content</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary"><b>means.content.binary</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- <b>means.content.binary</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary-image"><b>means.content.binary.image</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- <b>means.content.binary.image</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary-image-bmp"><b>means.content.binary.image.BMP</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.BMP</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary-image-gif"><b>means.content.binary.image.GIF</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.GIF</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary-image-jpg"><b>means.content.binary.image.JPG</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.JPG</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary-image-png"><b>means.content.binary.image.PNG</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.PNG</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-binary-image-tiff"><b>means.content.binary.image.TIFF</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.TIFF</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-text"><b>means.content.text</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- <b>means.content.text</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-text-csv"><b>means.content.text.CSV</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.CSV</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-text-html"><b>means.content.text.HTML</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.HTML</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-text-json"><b>means.content.text.JSON</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.JSON</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-content-text-xml"><b>means.content.text.XML</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.XML</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic"><b>means.demographic</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.demographic</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-age"><b>means.demographic.age</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.age</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-birthdate"><b>means.demographic.birthDate</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.birthDate</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-education"><b>means.demographic.education</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.education</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-ethnicity"><b>means.demographic.ethnicity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.ethnicity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-gender"><b>means.demographic.gender</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.gender</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-income"><b>means.demographic.income</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.income</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-demographic-maritalstatus"><b>means.demographic.maritalStatus</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.maritalStatus</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-entityname"><b>means.entityName</b></a>
+
+**Description**
+
+A string value is the name of a CDM entity.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.entityName</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-entityname-specific"><b>means.entityName.specific</b></a>
+
+**Description**
+
+Holds the name of specific CDM entity as a parameter of the trait.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.entityName</b>](#means-entityname) <- <b>means.entityName.specific</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|entity|entityName|False
+
+## <a id="means-entitystate"><b>means.entityState</b></a>
+
+**Description**
+
+The attribute represents the current state of the entity.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>means.entityState</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-filename"><b>means.fileName</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.fileName</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting"><b>means.formatting</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.formatting</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-color"><b>means.formatting.color</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.color</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-font"><b>means.formatting.font</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.font</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-font-effects"><b>means.formatting.font.effects</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- [<b>means.formatting.font</b>](#means-formatting-font) <- <b>means.formatting.font.effects</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-font-size"><b>means.formatting.font.size</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- [<b>means.formatting.font</b>](#means-formatting-font) <- <b>means.formatting.font.size</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-heading"><b>means.formatting.heading</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.heading</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-order"><b>means.formatting.order</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.order</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-formatting-stringformat"><b>means.formatting.stringFormat</b></a>
+
+**Description**
+
+Indicates this value represents the format of a string
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.stringFormat</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea"><b>means.idea</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.idea</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-account"><b>means.idea.account</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.account</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-accountleads"><b>means.idea.accountLeads</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.accountLeads</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-activityparty"><b>means.idea.activityParty</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.activityParty</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-activitypointer"><b>means.idea.activityPointer</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.activityPointer</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-annotation"><b>means.idea.annotation</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.annotation</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-appointment"><b>means.idea.appointment</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.appointment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-brand"><b>means.idea.brand</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.brand</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-businessunit"><b>means.idea.businessUnit</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.businessUnit</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-campaign"><b>means.idea.campaign</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaign</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-campaignactivity"><b>means.idea.campaignActivity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignActivity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-campaignitem"><b>means.idea.campaignItem</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignItem</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-campaignresponse"><b>means.idea.campaignResponse</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignResponse</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-channel"><b>means.idea.channel</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.channel</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-characteristic"><b>means.idea.characteristic</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.characteristic</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-company"><b>means.idea.company</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.company</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-competitor"><b>means.idea.competitor</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.competitor</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-competitoraddress"><b>means.idea.competitorAddress</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.competitorAddress</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-competitorproduct"><b>means.idea.competitorProduct</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.competitorProduct</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-connection"><b>means.idea.connection</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.connection</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-connectionrole"><b>means.idea.connectionRole</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.connectionRole</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-contract"><b>means.idea.contract</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.contract</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-contractdetail"><b>means.idea.contractDetail</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.contractDetail</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-customer"><b>means.idea.customer</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customer</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-customeraddress"><b>means.idea.customerAddress</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customerAddress</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-customerrelationship"><b>means.idea.customerRelationship</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customerRelationship</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-discount"><b>means.idea.discount</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.discount</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-discounttype"><b>means.idea.discountType</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.discountType</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-email"><b>means.idea.email</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.email</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-entitlement"><b>means.idea.entitlement</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.entitlement</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-equipment"><b>means.idea.equipment</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.equipment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-fax"><b>means.idea.fax</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.fax</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-feedback"><b>means.idea.feedback</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.feedback</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-goal"><b>means.idea.goal</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.goal</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-incident"><b>means.idea.incident</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.incident</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-invoice"><b>means.idea.invoice</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.invoice</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-invoicedetail"><b>means.idea.invoiceDetail</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.invoiceDetail</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-kbarticle"><b>means.idea.KbArticle</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.KbArticle</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-knowledgearticle"><b>means.idea.knowledgeArticle</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.knowledgeArticle</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-lead"><b>means.idea.lead</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.lead</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-leadaddress"><b>means.idea.leadAddress</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.leadAddress</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-letter"><b>means.idea.letter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.letter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-metric"><b>means.idea.metric</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.metric</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-opportunity"><b>means.idea.opportunity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.opportunity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-organization"><b>means.idea.organization</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.organization</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-organization-unit"><b>means.idea.organization.unit</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.organization.unit</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-owner"><b>means.idea.owner</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.owner</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-person"><b>means.idea.person</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.person</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-person-contact"><b>means.idea.person.contact</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.contact</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-person-employee"><b>means.idea.person.employee</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.employee</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-person-representative"><b>means.idea.person.representative</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.representative</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-phonecall"><b>means.idea.phoneCall</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.phoneCall</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-place"><b>means.idea.place</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.place</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-position"><b>means.idea.position</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.position</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-pricelevel"><b>means.idea.priceLevel</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.priceLevel</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-product"><b>means.idea.product</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.product</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-productgroup"><b>means.idea.productGroup</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.productGroup</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-project"><b>means.idea.project</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.project</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-promotion"><b>means.idea.promotion</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.promotion</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-quote"><b>means.idea.quote</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.quote</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-ratingmodel"><b>means.idea.ratingModel</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.ratingModel</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-resource"><b>means.idea.resource</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.resource</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-resourcegroup"><b>means.idea.resourceGroup</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.resourceGroup</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-salesliterature"><b>means.idea.salesLiterature</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.salesLiterature</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-salesorder"><b>means.idea.salesOrder</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.salesOrder</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-scenario"><b>means.idea.scenario</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.scenario</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-schedule"><b>means.idea.schedule</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.schedule</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-service"><b>means.idea.service</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.service</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-service "><b>means.idea.service </b></a>
+
+**Description**
+
+Deprecated. extra space at the end was an error.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.service</b>](#means-idea-service) <- <b>means.idea.service </b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-serviceappointment"><b>means.idea.serviceAppointment</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.serviceAppointment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-site"><b>means.idea.site</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.site</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-sla"><b>means.idea.SLA</b></a>
+
+**Description**
+
+A Service Level Agreement
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.SLA</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-socialactivity"><b>means.idea.socialActivity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.socialActivity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-socialprofile"><b>means.idea.socialProfile</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.socialProfile</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-systemuser"><b>means.idea.systemUser</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.systemUser</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-task"><b>means.idea.task</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.task</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-team"><b>means.idea.team</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.team</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-territory"><b>means.idea.territory</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.territory</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-uom"><b>means.idea.UoM</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.UoM</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-idea-utility"><b>means.idea.utility</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.utility</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity"><b>means.identity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.identity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-barcode"><b>means.identity.barCode</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.barCode</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-brand"><b>means.identity.brand</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.brand</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-company-name"><b>means.identity.company.name</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.company.name</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-entityid"><b>means.identity.entityId</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.entityId</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-governmentid"><b>means.identity.governmentID</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.governmentID</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-ip4address"><b>means.identity.IP4Address</b></a>
+
+**Description**
+
+Internet Protocol V4 Address
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.IP4Address</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-ip6address"><b>means.identity.IP6Address</b></a>
+
+**Description**
+
+Internet Protocol V6 Address
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.IP6Address</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-name"><b>means.identity.name</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.name</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-person-firstname"><b>means.identity.person.firstName</b></a>
+
+**Description**
+
+A person's given or first name.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.firstName</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-person-fullname"><b>means.identity.person.fullName</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.fullName</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-person-lastname"><b>means.identity.person.lastName</b></a>
+
+**Description**
+
+A person's surname, family name or last name.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.lastName</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-person-middlename"><b>means.identity.person.middleName</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.middleName</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-person-prefix"><b>means.identity.person.prefix</b></a>
+
+**Description**
+
+A salutation such as a title, rank or honorific to place before a person's name
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.prefix</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-person-suffix"><b>means.identity.person.suffix</b></a>
+
+**Description**
+
+Follows a person's name and provides additional information about their position, education or honorific
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.suffix</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-rownumber"><b>means.identity.rowNumber</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.rowNumber</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-scd-originalidentity"><b>means.identity.scd.originalIdentity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.scd.originalIdentity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-scd-surogateidentity"><b>means.identity.scd.surogateIdentity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.scd.surogateIdentity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service"><b>means.identity.service</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service-email"><b>means.identity.service.email</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.email</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service-facebook"><b>means.identity.service.facebook</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.facebook</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service-phone"><b>means.identity.service.phone</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.phone</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service-phone-cell"><b>means.identity.service.phone.cell</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.phone.cell</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service-phone-fax"><b>means.identity.service.phone.fax</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.phone.fax</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-service-twitter"><b>means.identity.service.twitter</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.twitter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-sku"><b>means.identity.SKU</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.SKU</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-tickersymbol"><b>means.identity.tickerSymbol</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.tickerSymbol</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-identity-title"><b>means.identity.title</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.title</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location"><b>means.location</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.location</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address"><b>means.location.address</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.address</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-building"><b>means.location.address.building</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.building</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-floor"><b>means.location.address.floor</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.floor</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-house"><b>means.location.address.house</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.house</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-room"><b>means.location.address.room</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.room</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-street"><b>means.location.address.street</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.street</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-street-line1"><b>means.location.address.street.line1</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- [<b>means.location.address.street</b>](#means-location-address-street) <- <b>means.location.address.street.line1</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-street-line2"><b>means.location.address.street.line2</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- [<b>means.location.address.street</b>](#means-location-address-street) <- <b>means.location.address.street.line2</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-address-street-line3"><b>means.location.address.street.line3</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- [<b>means.location.address.street</b>](#means-location-address-street) <- <b>means.location.address.street.line3</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-city"><b>means.location.city</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.city</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-continent"><b>means.location.continent</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.continent</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-country"><b>means.location.country</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.country</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-county"><b>means.location.county</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.county</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo"><b>means.location.geo</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.geo</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary"><b>means.location.geo.boundary</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- <b>means.location.geo.boundary</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-bottom"><b>means.location.geo.boundary.bottom</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.bottom</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-front"><b>means.location.geo.boundary.front</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.front</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-left"><b>means.location.geo.boundary.left</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.left</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-polygon"><b>means.location.geo.boundary.polygon</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.polygon</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-rear"><b>means.location.geo.boundary.rear</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.rear</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-right"><b>means.location.geo.boundary.right</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.right</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-boundary-top"><b>means.location.geo.boundary.top</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.top</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-centroid"><b>means.location.geo.centroid</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- <b>means.location.geo.centroid</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-centroid-x"><b>means.location.geo.centroid.X</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.centroid</b>](#means-location-geo-centroid) <- <b>means.location.geo.centroid.X</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-centroid-y"><b>means.location.geo.centroid.y</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.centroid</b>](#means-location-geo-centroid) <- <b>means.location.geo.centroid.y</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-geo-centroid-z"><b>means.location.geo.centroid.z</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.centroid</b>](#means-location-geo-centroid) <- <b>means.location.geo.centroid.z</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-latitude"><b>means.location.latitude</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.latitude</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-longitude"><b>means.location.longitude</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.longitude</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-point"><b>means.location.point</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.point</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-postalcode"><b>means.location.postalCode</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.postalCode</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-province"><b>means.location.province</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.province</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-region"><b>means.location.region</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.region</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-stateorprovince"><b>means.location.stateOrProvince</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.stateOrProvince</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-location-timezone"><b>means.location.timezone</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.timezone</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement"><b>means.measurement</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.measurement</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-age"><b>means.measurement.age</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.age</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-code"><b>means.measurement.code</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.code</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-color"><b>means.measurement.color</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.color</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-count"><b>means.measurement.count</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.count</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency"><b>means.measurement.currency</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-cost"><b>means.measurement.currency.cost</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency</b>](#means-measurement-currency) <- <b>means.measurement.currency.cost</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-isocode"><b>means.measurement.currency.iSOCode</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency.iSOCode</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-price"><b>means.measurement.currency.price</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency</b>](#means-measurement-currency) <- <b>means.measurement.currency.price</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-revenue"><b>means.measurement.currency.revenue</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency</b>](#means-measurement-currency) <- <b>means.measurement.currency.revenue</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-type"><b>means.measurement.currency.type</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency.type</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-type-destination"><b>means.measurement.currency.type.destination</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency.type</b>](#means-measurement-currency-type) <- <b>means.measurement.currency.type.destination</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currency-type-source"><b>means.measurement.currency.type.source</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency.type</b>](#means-measurement-currency-type) <- <b>means.measurement.currency.type.source</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-currencycode"><b>means.measurement.currencyCode</b></a>
+
+**Description**
+
+Indicates this value represents an ISO 4217 currency code
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currencyCode</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date"><b>means.measurement.date</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.date</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-completion"><b>means.measurement.date.completion</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.completion</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-creation"><b>means.measurement.date.creation</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.creation</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-end"><b>means.measurement.date.end</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.end</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-end-scd"><b>means.measurement.date.end.scd</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.end.scd</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-modify"><b>means.measurement.date.modify</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.modify</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-occurrence"><b>means.measurement.date.occurrence</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.occurrence</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-remove"><b>means.measurement.date.remove</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.remove</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-start"><b>means.measurement.date.start</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.start</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-start-scd"><b>means.measurement.date.start.scd</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.start.scd</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-date-target"><b>means.measurement.date.target</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.target</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-density"><b>means.measurement.density</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.density</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension"><b>means.measurement.dimension</b></a>
+
+**Description**
+
+Measurement of some physical dimension
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.dimension</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|dimension|string|False
+
+## <a id="means-measurement-dimension-amount"><b>means.measurement.dimension.amount</b></a>
+
+**Description**
+
+Measurement of amount of substance
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.amount</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-angle"><b>means.measurement.dimension.angle</b></a>
+
+**Description**
+
+Measurement of geometric angle
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.angle</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-capacitance"><b>means.measurement.dimension.capacitance</b></a>
+
+**Description**
+
+Measurement of electical capacitance
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.capacitance</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-datarate"><b>means.measurement.dimension.dataRate</b></a>
+
+**Description**
+
+Measurement of data rate
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.dataRate</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-electriccharge"><b>means.measurement.dimension.electricCharge</b></a>
+
+**Description**
+
+Measurement of electric charge, quantity of electricity
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.electricCharge</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-electriccurrent"><b>means.measurement.dimension.electricCurrent</b></a>
+
+**Description**
+
+Measurement of electic current
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.electricCurrent</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-electromotiveforce"><b>means.measurement.dimension.electromotiveForce</b></a>
+
+**Description**
+
+Measurement of volatage, EMF, electrical potential difference
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.electromotiveForce</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-energy"><b>means.measurement.dimension.energy</b></a>
+
+**Description**
+
+Measurement of energy, work, heat
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.energy</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-force"><b>means.measurement.dimension.force</b></a>
+
+**Description**
+
+Measurement of force
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.force</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-frequency"><b>means.measurement.dimension.frequency</b></a>
+
+**Description**
+
+Measurement of frequency
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.frequency</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-length"><b>means.measurement.dimension.length</b></a>
+
+**Description**
+
+Measurement of length
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.length</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-luminousintensity"><b>means.measurement.dimension.luminousIntensity</b></a>
+
+**Description**
+
+Measurement of electic current
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.luminousIntensity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-mass"><b>means.measurement.dimension.mass</b></a>
+
+**Description**
+
+Measurement of mass
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.mass</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-power"><b>means.measurement.dimension.power</b></a>
+
+**Description**
+
+Measurement of power, radiant flex
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.power</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-pressure"><b>means.measurement.dimension.pressure</b></a>
+
+**Description**
+
+Measurement of pressure or stress
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.pressure</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-resistance"><b>means.measurement.dimension.resistance</b></a>
+
+**Description**
+
+Measurement of electrical resistance, impedance, reactance
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.resistance</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-temperature"><b>means.measurement.dimension.temperature</b></a>
+
+**Description**
+
+Measurement of thermodynamic temperature
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.temperature</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-dimension-time"><b>means.measurement.dimension.time</b></a>
+
+**Description**
+
+Measurement of time
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.time</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-distance"><b>means.measurement.distance</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.length</b>](#means-measurement-dimension-length) <- <b>means.measurement.distance</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-distance-cm"><b>means.measurement.distance.cm</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.length</b>](#means-measurement-dimension-length) <- [<b>means.measurement.distance</b>](#means-measurement-distance) <- <b>means.measurement.distance.cm</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-distance-inches"><b>means.measurement.distance.inches</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.length</b>](#means-measurement-dimension-length) <- [<b>means.measurement.distance</b>](#means-measurement-distance) <- <b>means.measurement.distance.inches</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration"><b>means.measurement.duration</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.duration</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-days"><b>means.measurement.duration.days</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.days</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-hours"><b>means.measurement.duration.hours</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.hours</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-minutes"><b>means.measurement.duration.minutes</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.minutes</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-months"><b>means.measurement.duration.months</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.months</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-quarters"><b>means.measurement.duration.quarters</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.quarters</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-seconds"><b>means.measurement.duration.seconds</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.seconds</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-trimesters"><b>means.measurement.duration.trimesters</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.trimesters</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-weeks"><b>means.measurement.duration.weeks</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.weeks</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-duration-years"><b>means.measurement.duration.years</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.years</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-percent"><b>means.measurement.percent</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.percent</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-percent-ownership"><b>means.measurement.percent.ownership</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.percent.ownership</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-percent-voterright"><b>means.measurement.percent.voterright</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.percent.voterright</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix"><b>means.measurement.prefix</b></a>
+
+**Description**
+
+Unit prefixes denoting a factor of one thousandth
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.prefix</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|scaleExponent|double|False
+
+## <a id="means-measurement-prefix-centi"><b>means.measurement.prefix.centi</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E-2
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.centi</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-giga"><b>means.measurement.prefix.giga</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E9
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.giga</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-kilo"><b>means.measurement.prefix.kilo</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E3
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.kilo</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-mega"><b>means.measurement.prefix.mega</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E6
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.mega</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-micro"><b>means.measurement.prefix.micro</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E-6
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.micro</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-milli"><b>means.measurement.prefix.milli</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E-3
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.milli</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-nano"><b>means.measurement.prefix.nano</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E-9
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.nano</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-prefix-pico"><b>means.measurement.prefix.pico</b></a>
+
+**Description**
+
+Denotes one thousanth of the unit; 10E-12
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.pico</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+None
+
+## <a id="means-measurement-probability"><b>means.measurement.probability</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.probability</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-range"><b>means.measurement.range</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.range</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-range-high"><b>means.measurement.range.high</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.range</b>](#means-measurement-range) <- <b>means.measurement.range.high</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-range-low"><b>means.measurement.range.low</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.range</b>](#means-measurement-range) <- <b>means.measurement.range.low</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-rate"><b>means.measurement.rate</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.rate</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-rate-type"><b>means.measurement.rate.type</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.rate.type</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-sequence"><b>means.measurement.sequence</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.sequence</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-size"><b>means.measurement.size</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.size</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-size-depth"><b>means.measurement.size.depth</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.depth</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-size-height"><b>means.measurement.size.height</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.height</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-size-volume"><b>means.measurement.size.volume</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.volume</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-size-width"><b>means.measurement.size.width</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.width</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-temperature"><b>means.measurement.temperature</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.temperature</b>](#means-measurement-dimension-temperature) <- <b>means.measurement.temperature</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-time"><b>means.measurement.time</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.time</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-degree"><b>means.measurement.units.degree</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.units.degree</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si"><b>means.measurement.units.si</b></a>
+
+**Description**
+
+Measurments in international system of units
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.measurement.units.si</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|unit|string|False
+|dimension|string|False
+|symbol|string|False
+
+## <a id="means-measurement-units-si-ampere"><b>means.measurement.units.si.ampere</b></a>
+
+**Description**
+
+Measurement of electric current in amperes
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.ampere</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-bitpersecond"><b>means.measurement.units.si.bitPerSecond</b></a>
+
+**Description**
+
+Measurement of data rate in bits per second
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.bitPerSecond</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-candela"><b>means.measurement.units.si.candela</b></a>
+
+**Description**
+
+Measurement of luminous intensity in candelas
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.candela</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-celsius"><b>means.measurement.units.si.celsius</b></a>
+
+**Description**
+
+Measurement of temperature in degrees celsius
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.celsius</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-coulomb"><b>means.measurement.units.si.coulomb</b></a>
+
+**Description**
+
+Measurement of electric charge or amount of electricity in coulombs
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.coulomb</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-farad"><b>means.measurement.units.si.farad</b></a>
+
+**Description**
+
+Measurement of electric capacitance in farads
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.farad</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-gram"><b>means.measurement.units.si.gram</b></a>
+
+**Description**
+
+Measurement of mass in grams
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.gram</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-hertz"><b>means.measurement.units.si.hertz</b></a>
+
+**Description**
+
+Measurement of frequency in hertz
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.hertz</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-joule"><b>means.measurement.units.si.joule</b></a>
+
+**Description**
+
+Measurement of energy, work or heat in joules
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.joule</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-kelvin"><b>means.measurement.units.si.kelvin</b></a>
+
+**Description**
+
+Measurement of thermodynamic temperature in degrees kelvin
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.kelvin</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-kilogram"><b>means.measurement.units.si.kilogram</b></a>
+
+**Description**
+
+Measurement of mass in kilogram
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.kilogram</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-meter"><b>means.measurement.units.si.meter</b></a>
+
+**Description**
+
+Measurement of length in meters
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.meter</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-mole"><b>means.measurement.units.si.mole</b></a>
+
+**Description**
+
+Measurement of amount in moles
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.mole</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-newton"><b>means.measurement.units.si.newton</b></a>
+
+**Description**
+
+Measurement of force or weight in newtons
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.newton</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-ohm"><b>means.measurement.units.si.ohm</b></a>
+
+**Description**
+
+Measurement of electrical resistance, impedance, reactance in ohms
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.ohm</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-pascal"><b>means.measurement.units.si.pascal</b></a>
+
+**Description**
+
+Measurement of pressure or stress in pascals
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.pascal</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-radian"><b>means.measurement.units.si.radian</b></a>
+
+**Description**
+
+Measurement of angle in radians
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.radian</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-second"><b>means.measurement.units.si.second</b></a>
+
+**Description**
+
+Measurement of time in seconds
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.second</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-volt"><b>means.measurement.units.si.volt</b></a>
+
+**Description**
+
+Measurement of voltage, EMF, electrical potantial difference in volts
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.volt</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-units-si-watt"><b>means.measurement.units.si.watt</b></a>
+
+**Description**
+
+Measurement of power or radiant flux in watts
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.watt</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-version"><b>means.measurement.version</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.version</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-measurement-weight"><b>means.measurement.weight</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.force</b>](#means-measurement-dimension-force) <- <b>means.measurement.weight</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-qualification"><b>means.qualification</b></a>
+
+**Description**
+
+Augments the meaning of entities or attributes with a qualification
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.qualification</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-qualification-estimate"><b>means.qualification.estimate</b></a>
+
+**Description**
+
+Values are an estimate only.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.qualification</b>](#means-qualification) <- <b>means.qualification.estimate</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference"><b>means.reference</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.reference</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-caption"><b>means.reference.caption</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.caption</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-culture"><b>means.reference.culture</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.culture</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-culture-tag"><b>means.reference.culture.tag</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- [<b>means.reference.culture</b>](#means-reference-culture) <- <b>means.reference.culture.tag</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-definition"><b>means.reference.definition</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.definition</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-description"><b>means.reference.description</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.description</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-displaytext"><b>means.reference.displayText</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.displayText</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-documentation"><b>means.reference.documentation</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.documentation</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-language"><b>means.reference.language</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.language</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-language-tag"><b>means.reference.language.tag</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- [<b>means.reference.language</b>](#means-reference-language) <- <b>means.reference.language.tag</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-phonetic"><b>means.reference.phonetic</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.phonetic</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-regarding"><b>means.reference.regarding</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.regarding</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-uri"><b>means.reference.URI</b></a>
+
+**Description**
+
+A Uniform Resource Identifier
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.URI</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-url"><b>means.reference.URL</b></a>
+
+**Description**
+
+A Uniform Resource Locator. A web address.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.URL</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-reference-url-image"><b>means.reference.URL.image</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- [<b>means.reference.URL</b>](#means-reference-url) <- <b>means.reference.URL.image</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-relationship"><b>means.relationship</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.relationship</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-relationship-child"><b>means.relationship.child</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.relationship</b>](#means-relationship) <- <b>means.relationship.child</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-relationship-parent"><b>means.relationship.parent</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.relationship</b>](#means-relationship) <- <b>means.relationship.parent</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="means-userid"><b>means.userId</b></a>
+
 **Description**
 
 Contains a userId
 
-### **Inheritance**
+**Inheritance**
+
 None
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy</b>
+**Parameters**
+
+None
+
+## <a id="privacy"><b>privacy</b></a>
+
 **Description**
 
 A privacy related trait.
 
-### **Inheritance**
-None
-
-### **Properties**
-None
-
-## <b>privacy.dataSubjectAction</b>
-**Description**
-
-The set of actions a data subject must be able to take on a set of data.
-
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataSubjectAction|
-
-### **Properties**
-None
-
-## <b>privacy.dataSubjectAction.view</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.view|
-
-### **Properties**
-None
-
-## <b>privacy.dataSubjectAction.delete</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.delete|
-
-### **Properties**
-None
-
-## <b>privacy.dataSubjectAction.edit</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.edit|
-
-### **Properties**
-None
-
-## <b>privacy.dataSubjectAction.export</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataSubjectAction -> privacy.dataSubjectAction.export|
-
-### **Properties**
-None
-
-## <b>privacy.dataIdentifiablity</b>
-**Description**
-
-The root trait for the set explaining how data value may identity an individual.
-
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataIdentifiablity|
-
-### **Properties**
-None
-
-## <b>privacy.dataIdentifiablity.identified</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.identified|
-
-### **Properties**
-None
-
-## <b>privacy.dataIdentifiablity.pseudonimized</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.pseudonimized|
-
-### **Properties**
-None
-
-## <b>privacy.dataIdentifiablity.pseudonimizedNotLinked</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.pseudonimizedNotLinked|
-
-### **Properties**
-None
-
-## <b>privacy.dataIdentifiablity.anonymized</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.anonymized|
-
-### **Properties**
-None
-
-## <b>privacy.dataIdentifiablity.aggregated</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataIdentifiablity -> privacy.dataIdentifiablity.aggregated|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory</b>
-**Description**
-
-The root trait for expressing 'Controller' data categories
-
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned</b>
-**Description**
-
-The root trait for expressing 'Processor' data categories
-
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.content</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.content.provided</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content -> privacy.dataCategory.customerOwned.content.provided|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.content.credentials</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content -> privacy.dataCategory.customerOwned.content.credentials|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.content.contactList</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.content -> privacy.dataCategory.customerOwned.content.contactList|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.endUserIdentifying</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.endUserIdentifying|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.support</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.support|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.support.content</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.support -> privacy.dataCategory.customerOwned.support.content|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.support.interaction</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.support -> privacy.dataCategory.customerOwned.support.interaction|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.account</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.account.customerContact</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account -> privacy.dataCategory.customerOwned.account.customerContact|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.account.licensingAndPurchase</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account -> privacy.dataCategory.customerOwned.account.licensingAndPurchase|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.account.paymentInstrument</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.account -> privacy.dataCategory.customerOwned.account.paymentInstrument|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.publicPersonalData</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.publicPersonalData|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.financeAccountingAndRecords</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.financeAccountingAndRecords|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.customerOwned.corporateCommunication</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.customerOwned -> privacy.dataCategory.customerOwned.corporateCommunication|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.content</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.content.provided</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content -> privacy.dataCategory.endUser.content.provided|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.content.credentials</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content -> privacy.dataCategory.endUser.content.credentials|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.content.contactList</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.content -> privacy.dataCategory.endUser.content.contactList|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.attributes</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.attributes.demographic</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.demographic|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.attributes.feedbackAndRatings</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.feedbackAndRatings|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.attributes.interestsAndFavorites</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.interestsAndFavorites|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.attributes.socialActivity</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.attributes -> privacy.dataCategory.endUser.attributes.socialActivity|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions|
-
-### **Properties**
-None
+**Inheritance**
 
-## <b>privacy.dataCategory.endUser.interactions.browsingHistory</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.browsingHistory|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.cloudService</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.cloudService|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.contentConsumption</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.contentConsumption|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.searchRequests</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.searchRequests|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.environmentalSensor</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.environmentalSensor|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.fitnessAndActivity</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.fitnessAndActivity|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.preciceLocation</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.preciceLocation|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.productAndServicePerformance</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.productAndServicePerformance|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.productAndServiceUsage</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.productAndServiceUsage|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.interactions.softwareSetAndInventory</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.interactions -> privacy.dataCategory.endUser.interactions.softwareSetAndInventory|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.support</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.support|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.support.content</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.support -> privacy.dataCategory.endUser.support.content|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.support.interaction</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.support -> privacy.dataCategory.endUser.support.interaction|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.account</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.account.customerContact</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account -> privacy.dataCategory.endUser.account.customerContact|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.account.licensingAndPurchase</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account -> privacy.dataCategory.endUser.account.licensingAndPurchase|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.endUser.account.paymentInstrument</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.endUser -> privacy.dataCategory.endUser.account -> privacy.dataCategory.endUser.account.paymentInstrument|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.commuteAndTravel</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.commuteAndTravel|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.compensationAndBenefits</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.compensationAndBenefits|
-
-### **Properties**
 None
 
-## <b>privacy.dataCategory.employment.learningAndDevelopment</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.learningAndDevelopment|
+**Properties**
 
-### **Properties**
 None
 
-## <b>privacy.dataCategory.employment.profesionalAndPersonalProfile</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.profesionalAndPersonalProfile|
+**Parameters**
 
-### **Properties**
 None
 
-## <b>privacy.dataCategory.employment.recruitment</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.recruitment|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.workContacts</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workContacts|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.workProfile</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workProfile|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.workRecognition</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workRecognition|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.workTime</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workTime|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.employment.workplaceInteractions</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.employment -> privacy.dataCategory.employment.workplaceInteractions|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.bizOps</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.bizOps|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.bizOps.financeAccountingAndRecords</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.bizOps -> privacy.dataCategory.bizOps.financeAccountingAndRecords|
-
-### **Properties**
-None
-
-## <b>privacy.dataCategory.bizOps.corporateCommunication</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataCategory -> privacy.dataCategory.bizOps -> privacy.dataCategory.bizOps.corporateCommunication|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage</b>
-**Description**
-
-The purpose for a sepcific usage of a set of data
-
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.provide</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.provide|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.personalize</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.personalize|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.recommend</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.recommend|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.improve</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.improve|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.research</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.research|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.advertising</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.advertising|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.advertising.directMarketing</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.advertising -> privacy.dataUsage.advertising.directMarketing|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.advertising.adPlatform</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.advertising -> privacy.dataUsage.advertising.adPlatform|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.share</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.share|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.share.processor</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.share -> privacy.dataUsage.share.processor|
-
-### **Properties**
-None
-
-## <b>privacy.dataUsage.share.controller</b>
-### **Inheritance**
-| |
-|--|
-|privacy -> privacy.dataUsage -> privacy.dataUsage.share -> privacy.dataUsage.share.controller|
-
-### **Properties**
-None
+## <a id="privacy-consentrequirements"><b>privacy.consentRequirements</b></a>
 
-## <b>privacy.consentRequirements</b>
 **Description**
 
 The consent requirements or consent settings for data
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements|
+|[<b>privacy</b>](#privacy) <- <b>privacy.consentRequirements</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.notice</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-customercontrols"><b>privacy.consentRequirements.customerControls</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.notice|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.customerControls</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.notice.discoverable</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-customercontrols-notrequired"><b>privacy.consentRequirements.customerControls.notRequired</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.notice -> privacy.consentRequirements.notice.discoverable|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.customerControls</b>](#privacy-consentrequirements-customercontrols) <- <b>privacy.consentRequirements.customerControls.notRequired</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.notice.prominent</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-customercontrols-required"><b>privacy.consentRequirements.customerControls.required</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.notice -> privacy.consentRequirements.notice.prominent|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.customerControls</b>](#privacy-consentrequirements-customercontrols) <- <b>privacy.consentRequirements.customerControls.required</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.legitimateInterest</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-legitimateinterest"><b>privacy.consentRequirements.legitimateInterest</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.legitimateInterest|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.legitimateInterest</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.optIn</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-notice"><b>privacy.consentRequirements.notice</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.optIn|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.notice</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.optOut</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-notice-discoverable"><b>privacy.consentRequirements.notice.discoverable</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.optOut|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.notice</b>](#privacy-consentrequirements-notice) <- <b>privacy.consentRequirements.notice.discoverable</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.customerControls</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-notice-prominent"><b>privacy.consentRequirements.notice.prominent</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.customerControls|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.notice</b>](#privacy-consentrequirements-notice) <- <b>privacy.consentRequirements.notice.prominent</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.customerControls.notRequired</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-notpermitted"><b>privacy.consentRequirements.notPermitted</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.customerControls -> privacy.consentRequirements.customerControls.notRequired|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.notPermitted</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.customerControls.required</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-optin"><b>privacy.consentRequirements.optIn</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.customerControls -> privacy.consentRequirements.customerControls.required|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.optIn</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.consentRequirements.notPermitted</b>
-### **Inheritance**
+**Parameters**
+
+None
+
+## <a id="privacy-consentrequirements-optout"><b>privacy.consentRequirements.optOut</b></a>
+
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.consentRequirements -> privacy.consentRequirements.notPermitted|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.optOut</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.expresses</b>
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory"><b>privacy.dataCategory</b></a>
+
+**Description**
+
+The root trait for expressing 'Controller' data categories
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- <b>privacy.dataCategory</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-bizops"><b>privacy.dataCategory.bizOps</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.bizOps</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-bizops-corporatecommunication"><b>privacy.dataCategory.bizOps.corporateCommunication</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.bizOps</b>](#privacy-datacategory-bizops) <- <b>privacy.dataCategory.bizOps.corporateCommunication</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-bizops-financeaccountingandrecords"><b>privacy.dataCategory.bizOps.financeAccountingAndRecords</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.bizOps</b>](#privacy-datacategory-bizops) <- <b>privacy.dataCategory.bizOps.financeAccountingAndRecords</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned"><b>privacy.dataCategory.customerOwned</b></a>
+
+**Description**
+
+The root trait for expressing 'Processor' data categories
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.customerOwned</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-account"><b>privacy.dataCategory.customerOwned.account</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.account</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-account-customercontact"><b>privacy.dataCategory.customerOwned.account.customerContact</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.account</b>](#privacy-datacategory-customerowned-account) <- <b>privacy.dataCategory.customerOwned.account.customerContact</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-account-licensingandpurchase"><b>privacy.dataCategory.customerOwned.account.licensingAndPurchase</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.account</b>](#privacy-datacategory-customerowned-account) <- <b>privacy.dataCategory.customerOwned.account.licensingAndPurchase</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-account-paymentinstrument"><b>privacy.dataCategory.customerOwned.account.paymentInstrument</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.account</b>](#privacy-datacategory-customerowned-account) <- <b>privacy.dataCategory.customerOwned.account.paymentInstrument</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-content"><b>privacy.dataCategory.customerOwned.content</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.content</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-content-contactlist"><b>privacy.dataCategory.customerOwned.content.contactList</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.content</b>](#privacy-datacategory-customerowned-content) <- <b>privacy.dataCategory.customerOwned.content.contactList</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-content-credentials"><b>privacy.dataCategory.customerOwned.content.credentials</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.content</b>](#privacy-datacategory-customerowned-content) <- <b>privacy.dataCategory.customerOwned.content.credentials</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-content-provided"><b>privacy.dataCategory.customerOwned.content.provided</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.content</b>](#privacy-datacategory-customerowned-content) <- <b>privacy.dataCategory.customerOwned.content.provided</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-corporatecommunication"><b>privacy.dataCategory.customerOwned.corporateCommunication</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.corporateCommunication</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-enduseridentifying"><b>privacy.dataCategory.customerOwned.endUserIdentifying</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.endUserIdentifying</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-financeaccountingandrecords"><b>privacy.dataCategory.customerOwned.financeAccountingAndRecords</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.financeAccountingAndRecords</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-publicpersonaldata"><b>privacy.dataCategory.customerOwned.publicPersonalData</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.publicPersonalData</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-support"><b>privacy.dataCategory.customerOwned.support</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.support</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-support-content"><b>privacy.dataCategory.customerOwned.support.content</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.support</b>](#privacy-datacategory-customerowned-support) <- <b>privacy.dataCategory.customerOwned.support.content</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-customerowned-support-interaction"><b>privacy.dataCategory.customerOwned.support.interaction</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.support</b>](#privacy-datacategory-customerowned-support) <- <b>privacy.dataCategory.customerOwned.support.interaction</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment"><b>privacy.dataCategory.employment</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.employment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-commuteandtravel"><b>privacy.dataCategory.employment.commuteAndTravel</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.commuteAndTravel</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-compensationandbenefits"><b>privacy.dataCategory.employment.compensationAndBenefits</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.compensationAndBenefits</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-learninganddevelopment"><b>privacy.dataCategory.employment.learningAndDevelopment</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.learningAndDevelopment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-profesionalandpersonalprofile"><b>privacy.dataCategory.employment.profesionalAndPersonalProfile</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.profesionalAndPersonalProfile</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-recruitment"><b>privacy.dataCategory.employment.recruitment</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.recruitment</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-workcontacts"><b>privacy.dataCategory.employment.workContacts</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workContacts</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-workplaceinteractions"><b>privacy.dataCategory.employment.workplaceInteractions</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workplaceInteractions</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-workprofile"><b>privacy.dataCategory.employment.workProfile</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workProfile</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-workrecognition"><b>privacy.dataCategory.employment.workRecognition</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workRecognition</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-employment-worktime"><b>privacy.dataCategory.employment.workTime</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workTime</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser"><b>privacy.dataCategory.endUser</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.endUser</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-account"><b>privacy.dataCategory.endUser.account</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.account</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-account-customercontact"><b>privacy.dataCategory.endUser.account.customerContact</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.account</b>](#privacy-datacategory-enduser-account) <- <b>privacy.dataCategory.endUser.account.customerContact</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-account-licensingandpurchase"><b>privacy.dataCategory.endUser.account.licensingAndPurchase</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.account</b>](#privacy-datacategory-enduser-account) <- <b>privacy.dataCategory.endUser.account.licensingAndPurchase</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-account-paymentinstrument"><b>privacy.dataCategory.endUser.account.paymentInstrument</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.account</b>](#privacy-datacategory-enduser-account) <- <b>privacy.dataCategory.endUser.account.paymentInstrument</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-attributes"><b>privacy.dataCategory.endUser.attributes</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.attributes</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-attributes-demographic"><b>privacy.dataCategory.endUser.attributes.demographic</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.demographic</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-attributes-feedbackandratings"><b>privacy.dataCategory.endUser.attributes.feedbackAndRatings</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.feedbackAndRatings</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-attributes-interestsandfavorites"><b>privacy.dataCategory.endUser.attributes.interestsAndFavorites</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.interestsAndFavorites</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-attributes-socialactivity"><b>privacy.dataCategory.endUser.attributes.socialActivity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.socialActivity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-content"><b>privacy.dataCategory.endUser.content</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.content</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-content-contactlist"><b>privacy.dataCategory.endUser.content.contactList</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.content</b>](#privacy-datacategory-enduser-content) <- <b>privacy.dataCategory.endUser.content.contactList</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-content-credentials"><b>privacy.dataCategory.endUser.content.credentials</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.content</b>](#privacy-datacategory-enduser-content) <- <b>privacy.dataCategory.endUser.content.credentials</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-content-provided"><b>privacy.dataCategory.endUser.content.provided</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.content</b>](#privacy-datacategory-enduser-content) <- <b>privacy.dataCategory.endUser.content.provided</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions"><b>privacy.dataCategory.endUser.interactions</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.interactions</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-browsinghistory"><b>privacy.dataCategory.endUser.interactions.browsingHistory</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.browsingHistory</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-cloudservice"><b>privacy.dataCategory.endUser.interactions.cloudService</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.cloudService</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-contentconsumption"><b>privacy.dataCategory.endUser.interactions.contentConsumption</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.contentConsumption</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-deviceconnectivityandconfiguration"><b>privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-environmentalsensor"><b>privacy.dataCategory.endUser.interactions.environmentalSensor</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.environmentalSensor</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-fitnessandactivity"><b>privacy.dataCategory.endUser.interactions.fitnessAndActivity</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.fitnessAndActivity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-inkingtypingandspeach"><b>privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-precicelocation"><b>privacy.dataCategory.endUser.interactions.preciceLocation</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.preciceLocation</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-productandserviceperformance"><b>privacy.dataCategory.endUser.interactions.productAndServicePerformance</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.productAndServicePerformance</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-productandserviceusage"><b>privacy.dataCategory.endUser.interactions.productAndServiceUsage</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.productAndServiceUsage</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-searchrequests"><b>privacy.dataCategory.endUser.interactions.searchRequests</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.searchRequests</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-interactions-softwaresetandinventory"><b>privacy.dataCategory.endUser.interactions.softwareSetAndInventory</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.softwareSetAndInventory</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-support"><b>privacy.dataCategory.endUser.support</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.support</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-support-content"><b>privacy.dataCategory.endUser.support.content</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.support</b>](#privacy-datacategory-enduser-support) <- <b>privacy.dataCategory.endUser.support.content</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datacategory-enduser-support-interaction"><b>privacy.dataCategory.endUser.support.interaction</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.support</b>](#privacy-datacategory-enduser-support) <- <b>privacy.dataCategory.endUser.support.interaction</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-dataidentifiablity"><b>privacy.dataIdentifiablity</b></a>
+
+**Description**
+
+The root trait for the set explaining how data value may identity an individual.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- <b>privacy.dataIdentifiablity</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-dataidentifiablity-aggregated"><b>privacy.dataIdentifiablity.aggregated</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.aggregated</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-dataidentifiablity-anonymized"><b>privacy.dataIdentifiablity.anonymized</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.anonymized</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-dataidentifiablity-identified"><b>privacy.dataIdentifiablity.identified</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.identified</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-dataidentifiablity-pseudonimized"><b>privacy.dataIdentifiablity.pseudonimized</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.pseudonimized</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-dataidentifiablity-pseudonimizednotlinked"><b>privacy.dataIdentifiablity.pseudonimizedNotLinked</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.pseudonimizedNotLinked</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datasubjectaction"><b>privacy.dataSubjectAction</b></a>
+
+**Description**
+
+The set of actions a data subject must be able to take on a set of data.
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- <b>privacy.dataSubjectAction</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datasubjectaction-delete"><b>privacy.dataSubjectAction.delete</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.delete</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datasubjectaction-edit"><b>privacy.dataSubjectAction.edit</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.edit</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datasubjectaction-export"><b>privacy.dataSubjectAction.export</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.export</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datasubjectaction-view"><b>privacy.dataSubjectAction.view</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.view</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage"><b>privacy.dataUsage</b></a>
+
+**Description**
+
+The purpose for a sepcific usage of a set of data
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- <b>privacy.dataUsage</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-advertising"><b>privacy.dataUsage.advertising</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.advertising</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-advertising-adplatform"><b>privacy.dataUsage.advertising.adPlatform</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.advertising</b>](#privacy-datausage-advertising) <- <b>privacy.dataUsage.advertising.adPlatform</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-advertising-directmarketing"><b>privacy.dataUsage.advertising.directMarketing</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.advertising</b>](#privacy-datausage-advertising) <- <b>privacy.dataUsage.advertising.directMarketing</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-improve"><b>privacy.dataUsage.improve</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.improve</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-personalize"><b>privacy.dataUsage.personalize</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.personalize</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-provide"><b>privacy.dataUsage.provide</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.provide</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-recommend"><b>privacy.dataUsage.recommend</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.recommend</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-research"><b>privacy.dataUsage.research</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.research</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-share"><b>privacy.dataUsage.share</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.share</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-share-controller"><b>privacy.dataUsage.share.controller</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.share</b>](#privacy-datausage-share) <- <b>privacy.dataUsage.share.controller</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-datausage-share-processor"><b>privacy.dataUsage.share.processor</b></a>
+
+**Inheritance**
+
+| |
+|--|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.share</b>](#privacy-datausage-share) <- <b>privacy.dataUsage.share.processor</b>|
+
+**Properties**
+
+None
+
+**Parameters**
+
+None
+
+## <a id="privacy-expresses"><b>privacy.expresses</b></a>
+
 **Description**
 
 The root meta trait that indicates how to interpret a group of co-ascribed privacy traits.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.expresses|
+|[<b>privacy</b>](#privacy) <- <b>privacy.expresses</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.expresses.data</b>
+**Parameters**
+
+None
+
+## <a id="privacy-expresses-data"><b>privacy.expresses.data</b></a>
+
 **Description**
 
 The assumed default behavior, if privacy.expresses.metaData is not set, then this trait is implicit. When a group of traits are ascribed to an entity or attribute, The other privacy traits describe the aspects of data values held by the entity or attribute.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.expresses -> privacy.expresses.data|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.data</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.expresses.metaData</b>
+**Parameters**
+
+None
+
+## <a id="privacy-expresses-metadata"><b>privacy.expresses.metaData</b></a>
+
 **Description**
 
 When this trait and a group of other privacy traits are ascribed to an entity or attribute, The other privacy traits describe the aspects of the metatdata for the data values held by the entity or attribute. That is, the entity itself may contain privacy or policy descriptions, rules, settings.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.expresses -> privacy.expresses.metaData|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.metaData</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.expresses.useAllowed</b>
+**Parameters**
+
+None
+
+## <a id="privacy-expresses-useallowed"><b>privacy.expresses.useAllowed</b></a>
+
 **Description**
 
 Use is allowed for the condition using the combined meanings of all other privacy traits in a set.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.expresses -> privacy.expresses.useAllowed|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.useAllowed</b>|
 
-### **Properties**
+**Properties**
+
 None
 
-## <b>privacy.expresses.useRestricted</b>
+**Parameters**
+
+None
+
+## <a id="privacy-expresses-userestricted"><b>privacy.expresses.useRestricted</b></a>
+
 **Description**
 
 Use is dis-allowed for the condition formed using the combined meanings of all other privacy traits in a set.
 
-### **Inheritance**
+**Inheritance**
+
 | |
 |--|
-|privacy -> privacy.expresses -> privacy.expresses.useRestricted|
+|[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.useRestricted</b>|
 
-### **Properties**
+**Properties**
+
+None
+
+**Parameters**
+
 None
 
