@@ -14,7 +14,7 @@ ms.author: supawa
 ## Overview
 Services implementing Common Data Model features sometime perform many API calls to the SDK which accumulates considerable number of log messages in plain string form through asynchronous callbacks, making it difficult for the service to know and understand what happened after each call. 
 
-To help developers, [EventList](../1.0om/api-reference/utilities/eventlist.md) has been introduced which is initialized on commonly used API entry points and performs collection of log messages emitted by underlying code from the entry to the exit, to be then retrievable by clients easily after relevant API calls are complete.
+To help developers, [EventList](../1.0om/api-reference/utilities/eventlist.md) has been introduced which is initialized on commonly used API entry points, performing collection of log messages emitted by underlying code from the entry to the exit. The collected logs can then be easily accessed and analyzed after each relevant API call has completed.
 
 ## Usage
 EventList is a supporting class for the logging system and allows subset of messages emitted by the SDK to be collected and inspected by the SDK users. The events are stored in an ordered list, each element being a dictionary of string keys and string values. Upon completion of the API call, the recorded events can be inspected by the host application to determine what step to take to address the issue. To simply list all events and their elements, a simple for-each like this will work: 
@@ -25,6 +25,8 @@ EventList is a supporting class for the logging system and allows subset of mess
          ) 
      ); 
 ```
+If there are multiple related errors, their order in the EventList will be the root cause being first, followed with other logs reported by upper layers as the problem propagates upward.
+
  >Note :
  > <br>This class is NOT a replacement for the standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the filesystem, etc. 
 
@@ -66,11 +68,10 @@ Please follow the comments to understand the code.
         // throw exception as per recorded messages.   
         } 
 ```
-Purposely commented, the following line in sample code.This makes CreateResolvedManifestAsync return null. 
+Following line has been purposely commented out to make the subsequent call CreateResolvedManifestAsync fail and return null.
 ```csharp
 //corpus.Storage.FetchRootFolder("local").Documents.Add(manifest); 
 ```
-If there are multiple related errors, their order in the EventList will be the root cause being first, followed with other logs reported by upper layers as the problem propagates upward.
 
 ## Bonus Tip
 CorrelationId is optional parameter, can be set to event callback function which will append correlation ID with log messages, generated within SDK and sends back to callback. This can help SDK caller to filter log using correlation Id. 
