@@ -15,8 +15,8 @@ This article is a guide to the mapping from Parquet data type to Commmon Data Mo
 
 Document | Description | 
 |------|--------|
-[Parquet Type](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md) | This column represents parquet data type. For more details visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).|
-[CDM Type](list-of-datatypes.md) | This represents datatype in Commmon Data Model format. For more details visit [here](logical-definitions.md#the-datatype-object)|
+[Parquet type](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md) | This column represents parquet data type. For more details visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).|
+[Commmon Data Model type](list-of-datatypes.md) | This represents datatype in Commmon Data Model format. For more details visit [here](logical-definitions.md#the-datatype-object)|
 [Trait](trait-concepts-and-use-cases.md) | Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.|
 Unsupported Types | Commmon Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it would not be standard.|
 
