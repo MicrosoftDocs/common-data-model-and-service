@@ -23,6 +23,8 @@
         href: sdk/list-of-datatypes.md
       - name: List of Common Data Model traits
         href: sdk/list-of-traits.md
+      - name: Parquet type to Common Data Model type
+        href: sdk/parquet-to-cdm-datatype.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
