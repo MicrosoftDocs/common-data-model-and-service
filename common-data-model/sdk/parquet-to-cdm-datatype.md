@@ -1,6 +1,6 @@
 ---
-title: Parquet type to Commmon Data Model type | Microsoft Docs
-description: Learn about the mapping from Parquet data type to Commmon Data Model data type.
+title: Parquet type to Common Data Model type | Microsoft Docs
+description: Learn about the mapping from Parquet data type to Common Data Model data type.
 author: surenderpawar
 ms.service: common-data-model
 ms.reviewer: v-iap
@@ -11,16 +11,16 @@ ms.author: supawa
 
 # Parquet Type to CDM Type
 
-This article is a guide to the mapping from Parquet data type to Commmon Data Model data type. 
+This article is a guide to the mapping from Parquet data type to Common Data Model data type. 
 
 Document | Description | 
 |------|--------|
 [Parquet type](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md) | This column represents parquet data type. For more details visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).|
-[Commmon Data Model type](list-of-datatypes.md) | This represents datatype in Commmon Data Model format. For more details visit [here](logical-definitions.md#the-datatype-object)|
+[Common Data Model type](list-of-datatypes.md) | This represents datatype in Common Data Model format. For more details visit [here](logical-definitions.md#the-datatype-object)|
 [Trait](trait-concepts-and-use-cases.md) | Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.|
-Unsupported Types | Commmon Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it would not be standard.|
+Unsupported Types | Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it would not be standard.|
 
-The following is code snippet to set integer data type to Commmon Data Model attribute. Please follow [Commmon Data Model SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
+The following is code snippet to set integer data type to Common Data Model attribute. Please follow [Common Data Model SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
 
 ```csharp
 CdmTypeAttributeDefinition artAtt = MakeObject<CdmTypeAttributeDefinition>(CdmObjectType.TypeAttributeDef, "count"); 
