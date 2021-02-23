@@ -15,12 +15,12 @@ This article is a guide to the mapping from Parquet data type to Common Data Mod
 
 Document | Description | 
 |------|--------|
-[Parquet type](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md) | This column represents parquet data type. For more details visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).|
-[Common Data Model type](list-of-datatypes.md) | This represents datatype in Common Data Model format. For more details visit [here](logical-definitions.md#the-datatype-object)|
+[Parquet type](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md) | This column represents parquet data type. For more details, visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).|
+[Common Data Model type](list-of-datatypes.md) | This column represents datatype in Common Data Model format. For more details, visit [here](logical-definitions.md#the-datatype-object)|
 [Trait](trait-concepts-and-use-cases.md) | Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.|
 Unsupported Types | Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it would not be standard.|
 
-The following is code snippet to set integer data type to Common Data Model attribute. Please follow [Common Data Model SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
+The following code snippet sets integer data type to Common Data Model attribute. Follow [Common Data Model SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
 
 ```csharp
 CdmTypeAttributeDefinition artAtt = MakeObject<CdmTypeAttributeDefinition>(CdmObjectType.TypeAttributeDef, "count"); 
@@ -39,12 +39,12 @@ Enum | [string](list-of-datatypes.md#string) | [is.dataFormat.character](list-of
 boolean | [boolean](list-of-datatypes.md#boolean) | [is.dataFormat.boolean](list-of-traits.md#isdataformatboolean)
 **Signed integer** | |
 INT(8, true) | [byte](list-of-datatypes.md#byte) | [is.dataFormat.byte](list-of-traits.md#isdataformatbyte)
-INT(16, true) | [smallinteger](list-of-datatypes.md#smallinteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.small](list-of-traits.md#isdataformatsmall)
+INT(16, true) | [small integer](list-of-datatypes.md#smallinteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.small](list-of-traits.md#isdataformatsmall)
 INT(32, true) | [Integer](list-of-datatypes.md#integer) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger)
-INT(64, true) | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
+INT(64, true) | [big integer](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
 **Unsupported** | |
 Time (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | NA | NA 
-Timestamp ( UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO) ) | NA | NA 
+Timestamp (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | NA | NA 
 unsigned integer | NA | NA 
 map | NA | NA 
 list | NA | NA 
