@@ -14,7 +14,7 @@ ms.author: supawa
 This article provides assistance to developers in finding the appropriate equivalents of Parquet data types in Common Data Model.
 
 - **Parquet Type** : This column represents Parquet data type. For more details visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).
-- **Common Data Model Type** : Each attribute in Common Data Model entities can be associated with a single data type. A Common Data Model dataType is an object that represents a collection of traits. All dataTypes should indicate the dataFormat traits but can also add additional semantic information.For more details visit [here](logical-definitions.md#the-datatype-object)
+- **Common Data Model Type** : Each attribute in Common Data Model entities can be associated with a single data type. A Common Data Model data type is an object that represents a collection of traits. All data types should indicate the data format traits but can also add additional semantic information.For more details visit [here](logical-definitions.md#the-datatype-object)
 - **Trait** : Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.For more details visit [here](trait-concepts-and-use-cases.md)
 - **Unsupported Types** : Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
 
