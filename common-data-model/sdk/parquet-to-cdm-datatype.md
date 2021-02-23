@@ -3,7 +3,7 @@ title: Mapping Parquet types to Common Data Model data types | Microsoft Docs
 description: This article provides assistance to developers in finding the appropriate equivalents of Parquet data types in Common Data Model.
 author: surenderpawar
 ms.service: common-data-model
-ms.reviewer: 
+ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/12/2021
 ms.author: supawa
@@ -18,7 +18,7 @@ This article provides assistance to developers in finding the appropriate equiva
 - **Trait** : Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.For more details visit [here](trait-concepts-and-use-cases.md)
 - **Unsupported Types** : Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
 
-The following is code snippet to set integer data type to Common Data Model attribute. Please follow [CDM SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
+The following is code snippet to set integer data type to Common Data Model attribute. Follow [CDM SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
 
 ```csharp
 CdmTypeAttributeDefinition artAtt = MakeObject<CdmTypeAttributeDefinition>(CdmObjectType.TypeAttributeDef, "count"); 
@@ -46,7 +46,7 @@ INT(32, true) | [Integer](list-of-datatypes.md#integer) | [is.dataFormat.integer
 INT(64, true) | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
 **Unsupported** | |
 TIME (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | Not available | Not available 
-TIMESTAMP ( UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO) ) | Not available | Not available 
+TIMESTAMP (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | Not available | Not available 
 INT96 | Not available | Not available 
 Unsigned integers | Not available | Not available
 Maps | Not available | Not available 
