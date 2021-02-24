@@ -23,6 +23,8 @@
         href: sdk/list-of-datatypes.md
       - name: List of Common Data Model traits
         href: sdk/list-of-traits.md
+      - name: Mapping Parquet types to Common Data Model data types
+        href: sdk/parquet-to-cdm-datatype.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
@@ -170,6 +172,10 @@
             href: 1.0om/api-reference/utilities/tokenprovider.md   
   - name: How to create schema documents 
     href: creating-schemas.md
+  - name: Troubleshooting
+    items:
+      - name: Using EventList to analyze API behavior
+        href: troubleshooting/eventlist-usage.md
   - name: How to use samples 
     href: samples.md
   - name: Frequently asked questions
