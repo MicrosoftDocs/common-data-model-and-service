@@ -1,0 +1,114 @@
+---
+title: Operation Combine Attributes | Microsoft Docs
+description: API reference for CdmOperationCombineAttributes.
+author: violivei
+ms.service: common-data-model
+ms.reviewer: deonhe 
+ms.topic: article
+ms.date: 24/02/2020
+ms.author: violivei
+---
+
+# Projection - Operation Combine Attributes
+
+## Overview
+
+CombineAttributes is a projection operation that allows you to merge multiple input attribute into one. This operation takes a list of attributes on the `select` property and replace them with the data typed attribute supplied on the `mergeInto` property. If the list of attributes to be merged is empty, this operation does not have any effect.
+
+## Examples
+
+The examples below refer to the `ContactKinds` entity as defined here.
+
+```json
+{
+    "entityName": "ContactKinds",
+    "hasAttributes": [
+        {
+            "name": "emailKind",
+            "entity": "Email"
+        },
+        { 
+            "name": "phoneKind", 
+            "entity": "Phone"
+        },
+        {
+            "name": "socialKind",
+            "entity": "Social"
+        }
+    ]
+}
+```
+
+|Email|Phone|Social|
+|-|-|-|
+|emailId|phoneId|socialId|
+|address|number|account|
+|isPrimary|isPrimary|isPrimary|
+
+### I can use a CombineAttributes operation on an entity attribute
+
+If we have an entity attribute, we can use RenameAttributes to rename all the attributes we get from the referenced entity. In this example {a} will be replaced with “PersonInfo” and {M} will be replaced with each attribute name with the first letter capitalized.
+
+```json
+{
+    "name": "contactAt",
+    "isPolymorphicSource": true,
+    "entity": {
+        "operations": [
+            {
+                "$type": "combineAttributes",
+                "select": ["emailId", "phoneId", "socialId"],
+                "mergeInto": {
+                    "name": "contactId",
+                    "dataType": "entityId"
+                }
+            }
+        ],
+        "source": "ContactKinds"
+    }
+}
+```
+
+The resulting resolved contactAt entity typed attribute is:
+|contactAt|
+|-|
+|address|
+|isPrimary|
+|number|
+|account|
+|contactId|
+|contactType|
+
+### I can use an CombineAttributes operation when extending an entity
+
+If we have an entity that extends another entity, we can use RenameAttributes the attributes that are inherited from the entity we are extending from.
+Given an entity, Child, that extends from the Person entity:
+
+```json
+{
+    "entityName": "Customer",
+    "extendsEntity": {
+        "operations": [
+            {
+                "$type": "combineAttributes",
+                "select": [ "emailId", "phoneId", "socialId" ],
+                "mergeInto": {
+                    "name": "contactId",
+                    "dataType": "entityId"
+                }
+            }
+        ],
+        "source": "ContactKinds"
+    },
+    "hasAttributes": []
+}
+```
+
+The resulting resolved Customer entity is:
+|Customer|
+|-|
+|address|
+|isPrimary|
+|number|
+|account|
+|contactId|

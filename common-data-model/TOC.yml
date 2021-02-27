@@ -15,8 +15,32 @@
         href: sdk/logical-definitions.md
       - name: Trait concepts and use cases
         href: sdk/trait-concepts-and-use-cases.md
-      - name: Convert logical entities into resolved entities
-        href: sdk/convert-logical-entities-resolved-entities.md
+      - name: Resolving a logical entity definition
+          items:
+            - name: Overview
+              href: sdk/convert-logical-entities-resolved-entities.md
+            - name: Projections
+              items:
+                - name: Add Attribute Group
+                  href: 1.0om/api-reference/cdm/projections/addattributegroup.md
+                - name: Add Count Attribute
+                  href: 1.0om/api-reference/cdm/projections/addcountattribute.md
+                - name: Add Supporting Attribute
+                  href: 1.0om/api-reference/cdm/projections/addsupportingattribute.md
+                - name: Add Type Attribute
+                  href: 1.0om/api-reference/cdm/projections/addtypeattribute.md
+                - name: Array Expansion
+                  href: 1.0om/api-reference/cdm/projections/arrayexpansion.md
+                - name: Combine Attributes
+                  href: 1.0om/api-reference/cdm/projections/combineattributes.md
+                - name: Exclude Attributes
+                  href: 1.0om/api-reference/cdm/projections/excludeattributes.md
+                - name: Include Attributes
+                  href: 1.0om/api-reference/cdm/projections/includeattributes.md
+                - name: Rename Attributes
+                  href: 1.0om/api-reference/cdm/projections/renameattributes.md
+                - name: Replace as Foreign Key
+                  href: 1.0om/api-reference/cdm/projections/replaceasforeignkey.md
       - name: From model.json to the future
         href: sdk/from-modeljson-to-the-future.md
       - name: List of Common Data Model dataTypes
@@ -110,6 +134,32 @@
             href: 1.0om/api-reference/cdm/manifestdeclaration.md
           - name: Parameter
             href: 1.0om/api-reference/cdm/parameter.md
+          - name: Projections
+            items:
+              - name: Add Attribute Group
+                href: 1.0om/api-reference/cdm/projections/addattributegroup.md
+              - name: Add Count Attribute
+                href: 1.0om/api-reference/cdm/projections/addcountattribute.md
+              - name: Add Supporting Attribute
+                href: 1.0om/api-reference/cdm/projections/addsupportingattribute.md
+              - name: Add Type Attribute
+                href: 1.0om/api-reference/cdm/projections/addtypeattribute.md
+              - name: Array Expansion
+                href: 1.0om/api-reference/cdm/projections/arrayexpansion.md
+              - name: Combine Attributes
+                href: 1.0om/api-reference/cdm/projections/combineattributes.md
+              - name: Exclude Attributes
+                href: 1.0om/api-reference/cdm/projections/excludeattributes.md
+              - name: Include Attributes
+                href: 1.0om/api-reference/cdm/projections/includeattributes.md
+              - name: Operation Base
+                href: 1.0om/api-reference/cdm/projections/operationbase.md
+              - name: Projection
+                href: 1.0om/api-reference/cdm/projections/projection.md
+              - name: Rename Attributes
+                href: 1.0om/api-reference/cdm/projections/renameattributes.md
+              - name: Replace as Foreign Key
+                href: 1.0om/api-reference/cdm/projections/replaceasforeignkey.md
           - name: Purpose
             href: 1.0om/api-reference/cdm/purpose.md
           - name: Referenced Entity Declaration

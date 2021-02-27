@@ -1,6 +1,6 @@
 ---
-title: Convert logical entities into resolved entities | Microsoft Docs
-description: Convert logical entities into resolved entities.
+title: Resolving a logical entity definition | Microsoft Docs
+description: Resolving a logical entity definition.
 author: msftman
 ms.service: common-data-model
 ms.reviewer: v-iap
@@ -10,7 +10,13 @@ ms.author: Deonhe
 ---
 
 
-# Convert logical entities into resolved entities
+# Resolving a logical entity definition
+
+A logical entity definition may reference (reuse) other object definitions to better organize or factor a data model.  For example, an entity may extend another entity, include entity-typed attributes, or include attribute groups.  Attributes may be defined by custom data types that extend other data types with trait references.  These referenced definitions may in turn reference other definitions.
+
+The full definition of an entity requires that all these references be examined and resolved.  The Common Data Model object model can resolve a logical entity definition by following these references to create a resolved entity definition in which all the references are replaced by in-lined attribute definitions that use primitive data formats and trait references.  The resolved entity definition can then be used programmatically within the object model or written out as a new document.  When a CDM folder is created, the manifest contains only references to resolved entity definitions.
+
+As a rule, when defining a data model it is best to create logical entity definitions and then use the CDM object model to resolve these rather than trying to create resolved entity definitions directly.  
 
 To illustrate the concept of converting logical entities into resolved entities,
 let's return to our Student entity example. Given the new, full definition of
@@ -226,211 +232,396 @@ a type.
 If no directives are provided to CreateResolvedEntity, by default referenceOnly
 and Normalized are used. This makes a relational resolved schema.
 
-### Resolution guidance
-
-To further clarify and illustrate the process that resolves logical entities
-into a concrete attribute list, consider this example schema:
-
-<!-- image26 -->
-![Resolution guidance](../media/sdk/convert-logical-entities-resolved-entities/resolution-guidance.png) 
-
-Holding in mind the **shipTo** entity attribute defined in the Customer entity
-above, consider this pipeline of operations that's performed on the set of
-attributes that result from the Addresses entity. (Note that for explanatory
-purposes, this list describes every possible stage even though, in reality, not
-all of them apply in all situations.) 
-
-| Stage                         | Does                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Example                                                                                                                                                                                                                                  |
-|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| all source attributes         | Takes all attributes in the natural order from the source entity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | The Addresses entity combines the Residential and Business Address entities into this list of attributes: [addressId, line1, city, ST, postalCode, careOf, line2]                                                                        |
-| polymorphic factoring         | When a source entity is a combination of many other entities, the attributes of those entities will be combined and merged. The default meaning of the combination is AND; that is, the data values for one row of data are assumed to be from a combination of the domains of the sub-entities. In the case where an OR should be considered—that is, the data values for one row should be assumed to be from just one of the sub-entities at a time—this stage will mark the set appropriately.                                   | The schema will be written in a way to indicate that per record, one should expect values in either the attributes [addressId, line1, city, ST, postalCode] OR in the attributes [addressId, careOf, line1, line2, city, ST, postalCode] |
-| take only an ordered set      | Selects out only attributes mentioned in a given list. Also, the input attributes are reordered to match the order in the list.                                                                                                                                                                                                                                                                                                                                                                                                      | Take (addressId, postalCode, line1, line2, poBox, careOf) produces [addressId, postalCode, line1, line2, careOf]                                                                                                                         |
-| remove from a set             | Removes the listed attributes from the input set. All others pass through in their original order.                                                                                                                                                                                                                                                                                                                                                                                                                                   | Remove (line2, firstName, careOf) produces [addressId, postalCode, line1]                                                                                                                                                                |
-| augment with supporting       | Adds a provided attribute to the set and adds a trait to the attribute indicating it was addedInSupportOf(input attribute).                                                                                                                                                                                                                                                                                                                                                                                                          | (breaking from the example for just this stage) Input attribute (statusCode) augment with supporting {statusCode_display} produces [statusCode, statusCode_display with addedInSupportOf(statusCode)]                                    |
-| foreign key replacement       | Replace all input attributes with the provided attribute, and mark that new attribute as a link to the source entity.                                                                                                                                                                                                                                                                                                                                                                                                                | (back to the example set) Replace with foreignKey {addId} produces [addId with is.Linked.Identifier (Addresses on addressId, because of the polymorphic stage, this actually gets two links, one to each sub-entity) ]                   |
-| indicate poly type            | For the case from stage 2 where a polymorphic OR is needed, this stage adds a specified attribute that's used to indicate the per-record type that matches one of the source entities.                                                                                                                                                                                                                                                                                                                                               | Indicate type with {‘addType’} results in [addId, addType with is.entity.type trait} ] this addType attribute's data values should indicate the kind of record to consider.                                                              |
-| duplicate for array expansion | Makes *n* copies of every input attribute, and marks each temporarily with an ordinal.                                                                                                                                                                                                                                                                                                                                                                                                                                               | Copy from one to three results in [addId(1), addType(1), addId(2), addType(2), addId(3), addType(3)]                                                                                                                                     |
-| Indicate count                | Adds a provided attribute to the set and marks it with a trait indicating that for each record, this attribute holds the count of array members that should be expected to contain data values.                                                                                                                                                                                                                                                                                                                                      | Indicate count with {addCount} results in [addId(1), addType(1), addId(2), addType(2), addId(3), addType(3), addCount with trait indicating it holds a count]                                                                            |
-| Rename with format            | Renames each attribute in the input set by applying a provided format string. The format string can contain one instance each of the replacement indicators (‘{a}’ or ‘{A}’) for the (lowercase or uppercase first character) name of the containing attribute name (in our example, ‘shipTo’), (‘{m}’ or ‘{M}’) for the (lowercase or uppercase first character) name of the set member (like ‘line1’ or ‘addId’ and ‘{o}’ for the held ordinal of the attribute in the set. Examples are “{m}AsPartOf{A}”, “{a}{M}” or “{a}{M}{o}” | Rename with “{a}_{m}_{o}” produces [ shipTo_addId_1, shipTo_addType_1, shipTo_addId_2, shipTo_addType_2, shipTo_addId_3, shipTo_addType_3, shipTo_addCount]                                                                              |
-| merge results                 | Any attributes in the set with identical names will be merged together; that is, one attribute will result with traits of all source attributes combined into one uniquely named set. Then, any resulting attributes from this pipeline will be merged in the same way into the final set of attributes for the outer entity that's being defined.                                                                                                                                                                                   | [ customerId, shipTo_addId_1, shipTo_addType_1, shipTo_addId_2, shipTo_addType_2, shipTo_addId_3, shipTo_addType_3, shipTo_addCount]                                                                                                     |
-
-The example above was contrived to demonstrate each stage, but in most
-situations these stages won't all occur. For a given attribute or base entity,
-the settings in the associated resolution guidance structure—along with any
-resolution directives that are supplied at resolution time—will interact with,
-and trigger, stages.
-
-| Stage                         | When applied                                                                                                                                                                                            | Reason/notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| all source attributes         | Always                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| polymorphic factoring         | SelectsSubAttributes.selects = “one”                                                                                                                                                                    | The referenced entity should be a container of other entity typed attributes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| take only an ordered set      | SelectsSubAttributes.selects = “some”                                                                                                                                                                   | If set, the list of attribute names in the SelectsSubAttributes. SelectsSomeTakeNames array will be used to filter in and reorder the source attributes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| remove from a set             | SelectsSubAttributes.selects = “some”                                                                                                                                                                   | If set, the list of attribute names in the SelectsSubAttributes. SelectesSomeAvoidNames array will be used to filter out attributes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| augment with supporting       | An attribute definition in the addSupportingAttribute property will be added and will indicate that it supports the one other attribute in the set.                                                     | This stage is only applied to a single dataType attribute, not a set from an entity.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| foreign key replacement       | If EntityByReference.AllowReference = true AND (the “ByReference” directive is applied OR the depth of entities traversed in resolving the top entity is \> EntityByReference. ReferenceOnlyAfterDepth) | The default resolution guidance allows references and sets a maximum depth of five. The attribute definition stored in **EntityByReference. ForeignKeyAttribute** will be added in place of the input set. If none is specified, a default attribute named **id** is used.                                                                                                                                                                                                                                                                                                                                                                                   |
-| indicate poly type            | SelectsSubAttributes.selects = “one”                                                                                                                                                                    | The attribute definition stored in the SelectsSubAttributes. SelectedTypeAttribute will be added to the set. If not set, a default attribute named “type” will be used.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| duplicate for array expansion | Cardinality="many" and the structured directive isn't set, or the normalized directive is set                                                                                                           | The **StartingOrdinal** and **MaximumExpansion** properties in the Expansion structure control the number and ordinals or repeats. A structured directive builds a description that assumes array indicators are built into the storage system (like JSON doc or Parquet), so expanding the array isn't done. Note: The normalized directive assumes that entity-to-entity relationships are only modeled from the "many" side; that is, the referencing side of a relationship that points at one instance of another entity. For this reason, if normalized is the directive, the array expansion stage will instead *remove* all attributes from the set. |
-| Indicate count                | If the duplicate for array stage is triggered                                                                                                                                                           | The attribute definition in the **Expansion.CountAttribute** property is added to the set.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Rename with format            | Structured directive isn't given and a format is set in the **renameFormat** property.                                                                                                                  | Structured output creates groups for entity attributes, so renaming isn't needed to prevent name conflicts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| merge results                 | Always                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-
-### The ResolutionGuidance structure in detail
-
-bool removeAttribute
-
-If true, this attribute definition will be removed from the entity's final
-resolved attribute list. This functionality has been moved to the
-'selectsSomeAvoidList' property.
-
-List\<string\> imposedDirectives
-
-A list of strings, one for each 'directive' that should be always imposed at
-this attribute definition.
-
-List\<string\> removedDirectives
-
-A list of strings, one for each 'directive' that should be removed if it was
-previously imposed.
-
-Common Data ModelTypeAttributeDefinition addSupportingAttribute
-
-A guidance that this attribute definition should be added to the final set of
-attributes and should be marked as 'supporting' the attribute that has the
-guidance set on it.
-
-string cardinality
-
-If 'one', a single instance of the attribute or entity has been used. If 'many',
-multiple instances have been used, in which case the 'expansion' properties will
-describe the array enumeration to use when needed.
-
-string renameFormat
-
-Format specifier for generated attribute names. Might contain a single occurence
-of ('{a} or 'A'), ('{m}' or '{M}'), and '{o}', for the base (a/A)ttribute name,
-any (m/M)ember attributes from entities and array (o)rdinal. examples:
-'{a}{o}.{m}' could produce 'address2.city', '{a}{o}' gives 'city1'. Using '{A}'
-or '{M}' will uppercase the first letter of the name portions.
-
-Parameters that control array expansion if inline repeating of attributes is
-needed.
-
-### Expansion
-
-- int startingOrdinal
-
-- The index to start counting from when an array is being expanded for a repeating set of attributes.
-
-- int maximumExpansion
-
-- The maximum number of times that the attribute pattern should be repeated.
-
-- Common Data ModelTypeAttributeDefinition countAttribute
-
-- The supplied attribute definition will be added to the entity to represent the total number of instances found in the data.
-
-Parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.
-
-### EntityByReference
-
-- bool allowReference
-
-- Whether a reference to an entity is allowed through the use of a foreign key to the entity.
-
-- bool alwaysIncludeForeignKey
-
-- If true, a foreign key attribute will be added to the entity even when the entity attribute is embedded in a nested way.
-
-- int referenceOnlyAfterDepth
-
-- After a given depth of non-reference nesting by using entity attributes, the 'referenceOnly' directive will be imposed.
-
-- Common Data ModelTypeAttributeDefinition foreignKeyAttribute
-
-- The supplied attribute definition will be added to the entity to hold a foreign key value for the referenced entity.
-
-Used to indicate that this attribute selects either 'one' or 'all' of the
-sub-attributes from an entity. If the 'structured' directive is set, this trait
-causes resolved attributes to end up in groups rather than a flattened list.
-
-### SelectsSubAttribute
-
-- string selects
-
-- Used to indicate either 'one' or 'all' sub-attributes selected.
-
-- Common Data ModelTypeAttributeDefinition selectedTypeAttribute
-
-- The supplied attribute definition will be added to the entity to hold a description of the single attribute that was selected from the sub-entity when 'one' is selected.
-
-- List\<string\> selectsSomeTakeNames
-
-- The list of sub-attributes from an entity that should be added.
-
-- List\<string\> selectsSomeAvoidNames
-
-- The list of sub-attributes from an entity that shouldn't be added.
-
-## Revisiting the three examples
-
-
-Recall this diagram of our simple logical entities:
-
-<!-- image27 -->
-![Simple logical entities](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities.png) 
-
-By using the Common Data Model JSON grammar, these logical entities are expressed like this:
-
-<!-- image28 -->
-![Image showing how logical entities are expressed](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities-2.png) 
-
-To resolve the SmallBusiness entity into this shape:
-
-<!-- image29 -->
-![The smallbusiness entity shape](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape.png) 
-
-
-We can restate the SmallBusiness entity with some attribute guidance. This
-creates a new entity that extends SmallBusiness. For clarity, we'll also give it
-a new name.
-
-<!-- image30 -->
-![The smallbusiness entity shape with a new name](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-new-name.png) 
-
-
-To resolve the SmallBusiness entity into this shape:
-
-<!-- image31 -->
-![The resolved SmallBusiness entity shape](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved.png) 
-
-
-We can restate the SmallBusiness entity with some attribute guidance.
-
- <!-- image32 -->
-![Image showing how to restate the SmallBusiness entity](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved-2.png) 
-
-To resolve the SmallBusiness entity into this shape:
-
- <!-- image33 -->
-![Image showing the resolved SmallBusiness entity](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved2.png) 
-
-
-We can simply resolve the logical entity with no added guidance, and use the
-structured directive.
-
-## The attribute promise
-
-There are places in a Common Data Model entity or manifest document where one
-must make a reference to an attribute from another entity. Examples include
-describing one-to-many relationships in the manifest. Because the final set of
-attributes for a logical entity can come from base entities or from embedded
-entities, these references use a special path syntax called an attribute
-promise. The promise takes the form:
-
-[normal path up to the entity name]/(resolvedAttributes)/[expectedAttributeName]
-
-When the object model is used to get a reference to one of these attribute
-objects, the entity containing the attribute will be resolved by using the
-current set of directives and the attribute will be located in the final
-resolved set.
+### Projection overview
+
+The Projections feature provides a way to customize the definition of a logical entity by influencing how the entity is resolved by the object model.  For example, projections can be used, to selectively include or exclude attributes from a base entity, or to determine whether an entity attribute should be resolved by including attributes of the related entity inline or by including only foreign key attributes.  Attributes that are included can be grouped, reordered, and renamed, and additional meta data attributes can be introduced.  Projections allows you to define, or ‘project’, different derived data shapes from a common set of underlying logical entities.
+
+The projections feature comprises a set of operations that can be used in an entity definition and which are evaluated by the object model during resolution.  While projection operations can be conditionally executed, it’s important to recognize that any projections included in an entity definition are integral to that entity definition and must be resolved by the object model.
+
+#### Projections replaces Resolution Guidance
+
+Previously, resolution guidance was used to instruct the Object Model how to resolve a given logical definition . Resolution guidance has pre-configured  and sometimes obscure behavior that varies depending on the directives provided which could cause the definitions to be resolved into a shape different than expected if not properly configured.Projections fully replaces resolution guidance and provides more flexibility when modeling logical definitions. To access the resolution guidance deprecated documentation refer to [this link](resolution-guidance.md).
+
+#### The Projection Object
+
+The structure of a  projection object  is shown below.
+
+```json
+{
+  "source": <string> | <Projection> | <EntityDefinition>,
+  "condition": <string>,
+  "runSequentially": <bool>,
+  "operations": List<Operations>
+} 
+```
+
+A projection can be applied when extending an entity, on an entity typed attribute or on a data typed attribute.
+
+Extending an entity:
+
+```json
+{
+  "entityName": "Child",
+  "extendsEntity": {
+    "source": "Person",
+    "operations": [ ... ] 
+  }
+}
+```
+
+Entity typed attribute:
+
+```json
+{
+  "name": "child",
+  "entity": {
+    "source": "Parent",
+    "operations": [ ... ]
+  }
+}
+```
+
+Data typed attribute:
+
+```json
+{
+  "name": "name",
+  "dataType": "string",
+  "projection": {
+    "operations": [ ... ]
+  }
+}
+```
+
+An easy way to disable the resolution guidance’s implicit behavior is to reference the entity definition using a projection object. There is no need to add operations here since the only required property on the projection is the source.
+
+```json
+{
+  "name": "child",
+  "entity": {
+    "source": "Parent"
+  }
+}
+```
+
+While defining an entity attribute like below will use resolution guidance.
+
+```json
+{
+  "name": "child",
+  "entity": "Parent"
+}
+```
+
+> Note: Using projections and resolution guidance on the same object will cause an error to be logged.
+
+#### Source
+
+The source of a projection specifies from where the input attributes come from. It can be set to a string, another projection, or an entity definition. The examples below refer to the “Person” entity defined in a “Person.cdm.json” document as shown here.
+
+```json
+{
+    "entityName": "Person",
+    "hasAttributes": [
+        {
+            "name": "name",
+            "dataType": "string"
+        },
+        {
+            "name": "age",
+            "dataType": "integer"
+        },
+        {
+            "name": "address",
+            "dataType": "string"
+        }
+    ]
+}
+```
+
+When the source is a text string, it is interpreted as the name of an entity currently in scope.   It works the same way that any other object reference in the Object Model would. In most cases it should be set with the entity name that you are trying to refer to, unless the entity is defined in a document imported with a moniker. In that case, the entity name should be preceded by the moniker name as shown below.
+
+```json
+imports: [
+    {
+        "corpusPath": "Person.cdm.json"
+    }
+]
+
+...
+{
+    "source": "Person"
+}
+```
+
+Using a moniker:
+
+```json
+imports: [
+    {
+    "corpusPath": "Person.cdm.json",
+    "moniker": "Person_base",
+    }
+]
+
+...
+{
+    "source": "Person_base/Person"
+}
+```
+
+The source of a projection can also be another projection. In this scenario, the innermost projection will execute first then its output is provided as input to the outer projection.
+
+```json
+{ 
+    "name": "PersonInfo", 
+    "entity": {
+        "operations": [
+            {
+                "$type": "renameAttributes",
+                "renameFormat": "{a}{M}"
+            }
+        ],
+        "source": { 
+            "operations": [ 
+                {
+                    "$type": "renameAttributes", 
+                    "renameFormat": "yearsOld", 
+                    "applyTo": [ 
+                        "age"
+                    ]
+                } 
+            ],
+            "source": "Person"
+        }
+    } 
+}
+```
+
+In the example above, the inner projection containing a rename operation which renames the “age” attribute to “yearsOld” will run first. The output of that projection is used as input to the outer projection, which renames all the attributes with the format “{a}{M}”.
+
+|Input|After inner projection|After outer projection|
+|-|-|-|
+|name|name|PersonInfoName|
+|age|yearsOld |PersonInfoYearsOld|
+|address|address|PersonInfoAddress|
+
+Note that referencing either “age” or “yearsOld” in the outer projection yields the same attribute. Even though in the outer projection’s input set of attributes the attribute is named, “yearsOld”, you can still reference it as “age”. This works because the projections system keeps track of the changes applied to each attribute and can locate them based on previous states .
+
+The third option is to use an inline  entity definition as the projection source. The entity definition here looks like any other entity definition, the only difference is that it is defined inline in the source property. This is particularly useful when dealing with a polymorphic entity  typed attribute as shown in the next example.
+
+```json
+{ 
+    "name": "Contact",
+    "isPolymorphicSource": true,
+    "entity": {
+        "source": {
+            "entityName": "contactAt",
+            "hasAttributes": [
+                {
+                    "name": "emailKind",
+                    "entity": "Email"
+                },
+                {
+                    "name": "phoneKind",
+                    "entity": "Phone"
+                }
+            ]
+        }
+    } 
+}
+```
+
+> Note: It is important to notice that, when applying a projection to a data typed attribute, the source property cannot be set. In this case, the input attribute is the attribute itself. Setting a source will cause the Object Model to log an error. If you need an attribute to reference an entity, use an entity typed attribute instead.
+
+#### Condition
+
+The condition property allows you to choose whether   the projection will execute or not. There   is a set of pre-defined tokens and operations that can be used to construct a condition.
+
+Let us first have a look at the tokens table below.
+
+|Name|Type|Description|
+|-|-|-|
+|always|Bool|Equivalent to “true”.|
+|cardinality.maximum|Integer|The maximum cardinality set on the |attribute. Null if not set.
+|cardinality.minimum|Integer|The minimum cardinality set on the |attribute. Null if not set.
+|depth|Integer|The current depth of the entity. This number gets |increased by one when following an entity attribute.
+|false|Bool|A token that always yield false.|
+|isArray|Bool (directive)|True if the “isArray” directive is present on |the directives set.
+|maxDepth|Integer|The maximum depth specified on the ResolveOptions  |object.
+|noMaxDepth|Bool (directive)|True if the “noMaxDepth” directive is |present on the directives set.
+|normalized|Bool (directive)|True if the “normalized” directive is |present on the directives set.
+|referenceOnly|Bool (directive)|True if the “referenceOnly” directive is |present on the directives set.
+|structured|Bool (directive)|True if the “structured” directive is |present on the directives set.
+|true|Bool|A token that always yield true.|
+|virtual|Bool (directive)|True if the “virtual” directive is present on |the directives set.
+
+Along with the tokens there are a set of operators that are used to construct more complex conditions. The full set of operators are shown below.
+
+|Name|Symbol|Example|
+|-|-|-|
+|And|&&|“normalized && referenceOnly”|
+|Equal|==|“depth == 1”<br/>“structured == false”|
+|Greater than|>|“cardinality.maximum > 1”|
+|Greater than or equal|>=|“cardinality.maximum >= 2”|
+|Less than|<|“depth < 3”|
+|Less than or equal|<=|“depth <= 2”|
+|Not|!|“!referenceOnly”|
+|Not equal|!=|“depth != 1”<br/>“structured != true”|
+|Or|\|\||“structured \|\| referenceOnly”|
+
+
+The condition clause here looks very similar to a condition clause in many programming languages. You can combine multiple tokens and operators as well as group them between parentheses. For example:
+
+" ((!normalized) || (cardinality.maximum <= 1) )  &&  (referenceOnly || noMaxDepth || (depth > maxDepth)) "
+
+If during the execution the condition evaluates to true, then the operations will run. Each operation might also have additional conditions which will be evaluated before running each of them. On the other hand, if the condition evaluates to false, the operations are not executed, and the output of the projection will be the same set of attributes that came from the source.
+
+```json
+{
+    "name": "PersonInfo",
+    "entity": {
+        "condition": "referenceOnly"
+        "source": "Person",
+        "operations": [
+            {
+                "$type": "excludeAttributes",
+                "excludeAttributes": [
+                    "address"
+                ]
+            }
+        ]
+    }
+}
+```
+
+We would get either one of the resulting resolved PersonInfo, depending on if the condition evaluated to true or not:
+
+|Condition = true <br /> (resolution directive = “referenceOnly”)|Condition = false <br /> (resolution directive != “referenceOnly”)|
+|-|-|
+|name|name|
+|age|age|
+||address|
+
+#### Run Sequentially
+
+By default, the value of the “runSequentially” property is false, meaning that all the operations will receive the same set of attributes that comes out of the source. If set to true, each operation receives as input the output of the previous operation. The first operation on the list always receives the attributes coming from the source. This behavior needs to be taken into consideration   when modeling your set of operations.  Let us analyze two examples to better understand how this flag affects the execution of the operations.
+
+The first example is a projection with two replaceAsForeignKey operations. The replaceAsForeignKey operation receives a set of attributes as input and outputs a single foreign key attribute which is specified on the “replaceWith” property. To further understand the functioning of this operation, refer to its [documentation page](projections/replaceasforeignkey.md).
+
+```json
+{
+    "name": "PersonInfo",
+    "entity": {
+        "source": "Person",
+        "runSequentially": <bool>,
+        "operations": [
+            {
+                "$type": "replaceAsForeignKey",
+                "reference": "name",
+                "replaceWith": {
+                    "name": "nameFK",
+                    "dataType": "entityId",
+                }
+            },
+            {
+                "$type": "replaceAsForeignKey",
+                "reference": "address",
+                "replaceWith": {
+                    "name": "addressFK",
+                    "dataType": "entityId",
+                }
+            }
+        ]
+    }
+}
+```
+
+Running the above projection with the `runSequentially` flag set to false works as expected and generates two foreign key attributes `nameFK` and `addressFK`:
+
+|Input|After operation #1|After operation #2|Output|
+|-|-|-|-|
+|name|nameFK||nameFK
+|age||
+|address||addressFK|addressFK|
+
+If the `runSequentially` flag is true on the example above, the projection fails to execute. This happens because the second replaceAsForeignKey operation receives only the “nameFK” attribute outputted by the first operation, but it tries to reference the “address” attribute which does not exist on the input attribute set.
+
+On the second example, there is a projection with two renameAttributes operations. The first renames `age` to `yearsOld` while the second renames `address` to `homePlace`.
+
+```json
+{
+    "name": "PersonInfo",
+    "entity": {
+        "source": "Person",
+        "runSequentially": <bool>,
+        "operations": [
+            {
+                "$type": "renameAttributes",
+                "renameFormat": "yearsOld", 
+                "applyTo": [ 
+                    "age"
+                ] 
+            },
+            {
+                "$type": "renameAttributes",
+                "renameFormat": "homePlace", 
+                "applyTo": [ 
+                    "address"
+                ] 
+            }
+        ]
+    }
+}
+```
+
+Depending on the value of the `runSequentially` property, this entity typed attribute   will resolve differently. Let us first check how it works with the default value “false”.
+
+|Input|After operation #1|After operation #2|Output|
+|-|-|-|-|
+|name|name|name|name
+|age|yearsOld|age|yearsOld
+|address|address|homePlace|address|
+||||age|
+||||homePlace|
+
+On the other hand, when the run sequentially flag is set to true, each operation will receive as input the output of the previous operation.
+
+|Input|After operation #1|After operation #2|Output|
+|-|-|-|-|
+|name|name|name|name
+|age|yearsOld|yearsOld|yearsOld
+|address|address|homePlace|homePlace|
+
+#### Operations
+
+The main processing unit in projections is an operation. The operations can be combined to model complex manipulations of logical definitions.   All the operations share some common properties and are distinguished  by the `$type` property. 
+
+```json
+{
+  "$type": <string>,
+  "condition": <string>,
+  "explanation": <string>,
+  "sourceInput": <bool>
+}
+```
+
+Apart from the common properties  , some operations might have extra properties. To further understand all the properties for each operation, refer to the operation documentation page.
+
+The set of attributes that each operation receives by default is determined by the “runSequentially” property that is set at the projection level. If you need more granular control over this behavior you can use the “sourceInput” property. If set to true, the operation will receive the attributes coming from the source entity, otherwise, it will receive the attributes coming from the previous operation.
+
+The table below contains a list of the supported operations, along with a brief description. You can access detailed documentation for each of the operations by clicking on their name  in the table below.
+
+|$type  (name)|Description|
+|-|-|
+|[addAttributeGroup](projections/addattributegroup.md)|The result of this operation is the attribute group with all the input attributes inside it.|
+|[addCountAttribute](projections/addcountattribute.md)|Adds a count attribute and marks it with the `is.linkedEntity.array.count` trait indicating that for each record, this attribute holds the count of array members that should be expected to contain data values.|
+|[addSupportingAttribute](projections/addsupportingattribute.md)|Adds a supporting attribute to the set. Two traits will be added to the resulting attribute. The first trait, `is.addedInSupportOf`, links to the attribute is supports. The second trait, `is.virtual.attribute`, specifies that this is a virtual attribute .|
+|[addTypeAttribute](projections/addtypeattribute.md)|When dealing with a polymorphic entity, this operation adds an attribute that is used to indicate the per-record type that matches one of the source entities. Ex.: given a polymorphic entity typed attribute named “contactAt” that points to Email or Phone. This attribute can either point to Email or Phone per-record. The type attribute is used to determine to which entity that record is pointing to.
+|[arrayExpansion](projections/arrayexpansion.md)|Makes n copies of every input attribute and marks each temporarily with an ordinal .|
+|[combineAttributes](projections/combineattributes.md)|Combines a set of attributes specified on the operation into one resulting attribute.|
+|[excludeAttributes](projections/excludeattributes.md)|Removes the listed attributes from the input set and filter out the rest. All others pass through in their original order.|
+|[includeAttributes](projections/includeattributes.md)|Selects only those attributes mentioned in the given list. The selected attributes are ordered as given in the list.|
+|[renameAttributes](projections/renameattributes.md)|Renames each attribute in the input set by applying a provided format string. The format string can contain literal text  and one instance each of the replacement indicators (‘{a}’ or ‘{A}’) for the (lowercase or uppercase first character) name of the containing attribute name, (‘{m}’ or ‘{M}’) for the (lowercase or uppercase first character) name of the set member (like ‘line1’ or ‘addId’ and ‘{o}’ for the held ordinal of the attribute in the set. Examples are “{m}AsPartOf{A}”, “{a}{M}” or “{a}{M}{o}” |
+|[replaceAsForeignKey](projections/replaceasforeignkey.md)|Replace all input attributes with a foreign key attribute. A `is.linkedEntity.identifier` trait will be added to the attribute linking the foreign key to an attribute on the source.|
 
