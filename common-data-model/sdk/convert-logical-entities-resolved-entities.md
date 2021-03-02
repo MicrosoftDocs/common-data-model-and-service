@@ -313,7 +313,7 @@ While defining an entity attribute like below will use resolution guidance.
 }
 ```
 
-> Note: Using projections and resolution guidance on the same object will cause an error to be logged.
+> **__Note:__** Using projections and resolution guidance on the same object will cause an error to be logged.
 
 #### Source
 
@@ -432,7 +432,7 @@ The third option is to use an inline  entity definition as the projection source
 }
 ```
 
-> Note: It is important to notice that, when applying a projection to a data typed attribute, the source property cannot be set. In this case, the input attribute is the attribute itself. Setting a source will cause the Object Model to log an error. If you need an attribute to reference an entity, use an entity typed attribute instead.
+> **__Note:__** It is important to notice that, when applying a projection to a data typed attribute, the source property cannot be set. In this case, the input attribute is the attribute itself. Setting a source will cause the Object Model to log an error. If you need an attribute to reference an entity, use an entity typed attribute instead.
 
 #### Condition
 

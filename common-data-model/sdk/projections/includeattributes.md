@@ -1,6 +1,6 @@
 ---
 title: Operation Include Attributes | Microsoft Docs
-description: API reference for CdmOperationIncludeAttributes.
+description: Usage guide for the Include Attributes operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -19,7 +19,9 @@ IncludeAttributes is a projection operation that selects a specified set of attr
 1. Only the attributes that are listed in the specified set of attributes to include are taken from the input and added to the output. If an empty list of attributes to include is provided, no attribute from the input will be passed to the output resulting in an empty set.
 1. A filtered set of attributes is returned.
 
-> **__NOTE:__** The selected attributes are ordered as given in the list.
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/includeattributes.md).
+
+> **__Note:__** The selected attributes are ordered as given in the list.
 
 ## Examples
 

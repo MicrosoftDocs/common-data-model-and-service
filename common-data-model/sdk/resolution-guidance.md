@@ -1,5 +1,7 @@
 ### Resolution guidance (Deprecated)
 
+> **__Note:__** Resolution guidance has pre-configured  and sometimes obscure behavior that varies depending on the directives provided which could cause the definitions to be resolved into a shape different than expected if not properly configured. This feature is now deprecated in favor of the [Projections feature](convert-logical-entities-resolved-entities.md#Projection-overview) which removes all the implict behavior and has more power than resolution guidance.
+
 To further clarify and illustrate the process that resolves logical entities
 into a concrete attribute list, consider this example schema:
 

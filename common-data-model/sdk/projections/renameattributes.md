@@ -1,6 +1,6 @@
 ---
 title: Operation Rename Attributes | Microsoft Docs
-description: API reference for CdmOperationRenameAttributes.
+description: Usage guide for the Rename Attributes operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -22,6 +22,8 @@ RenameAttributes is a projection operation that renames a specified set of attri
    * If {A} or {M} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 1. All the attributes will be renamed following the specified “renameFormat” by default. It is possible to specify a “applyTo” property which is a list of attributes to be renamed. The attributes that are in the specified list are renamed and added to the attribute list. If an attribute is not in the rename list, it is added to the set of attributes without changes.
+
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/renameattributes.md).
 
 ## Examples
 

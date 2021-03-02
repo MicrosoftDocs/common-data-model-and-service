@@ -1,6 +1,6 @@
 ---
 title: Operation Array Expansion | Microsoft Docs
-description: API reference for CdmOperationArrayExpansion.
+description: Usage guide for the Array Expansion operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -28,12 +28,14 @@ The array expansion goes through a single round.
 1. endOrdinal > maxOrdinalForArrayExpansion:
 maxOrdinalForArrayExpansion is a configurable value in ResolveOptions for setting the maximum ending ordinal value. The default value is 20. If endOrdinal is greater than maxOrdinalForArrayExpansion, then maxOrdinalForArrayExpansion is used instead.
 
-> **_NOTE:_** Doing an ArrayExpansion without a [RenameAttributes](renameattributes.md) afterwards will result in the expanded attributes being merged in the final resolved entity. This is because ArrayExpansion does not rename the attributes it expands by default. The expanded attributes end up with the same name and gets merged. <br>
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/arrayexpansion.md).
+
+> **__Note__** Doing an ArrayExpansion without a [RenameAttributes](renameattributes.md) afterwards will result in the expanded attributes being merged in the final resolved entity. This is because ArrayExpansion does not rename the attributes it expands by default. The expanded attributes end up with the same name and gets merged. <br>
 > Ex. We expand A to A[1], A[2], A[3], but A[1], A[2], A[3] are still named “A”.<br><br>
 > We must chain a RenameAttributes operation after an ArrayExpansion if we wish to see the expanded attributes (with the ordinal in their attribute name) in the final output. We do this by nesting projections, where the inner projection contains the ArrayExpansion and the outer projection contains the RenameAttributes. <br>
 > Ex. We expand A to A[1], A[2], A[3], and then rename to {m}_{o}, to get A_1, A_2, A_3
 
-> **__NOTE:__** The ArrayExpansion operation is commonly used alongside the [AddCountAttribute](addcountattribute.md) operation. Although not required, the count attribute is useful to hold the number of elements in the array that have data.
+> **__Note:__** The ArrayExpansion operation is commonly used alongside the [AddCountAttribute](addcountattribute.md) operation. Although not required, the count attribute is useful to hold the number of elements in the array that have data.
 
 ## Examples
 

@@ -1,6 +1,6 @@
 ---
 title: Operation Combine Attributes | Microsoft Docs
-description: API reference for CdmOperationCombineAttributes.
+description: Usage guide for the Combine Attributes operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -14,6 +14,8 @@ ms.author: violivei
 ## Overview
 
 CombineAttributes is a projection operation that allows you to merge multiple input attribute into one. This operation takes a list of attributes on the `select` property and replace them with the data typed attribute supplied on the `mergeInto` property. If the list of attributes to be merged is empty, this operation does not have any effect.
+
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/combineattributes.md).
 
 ## Examples
 

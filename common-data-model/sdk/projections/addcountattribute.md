@@ -1,6 +1,6 @@
 ---
 title: Operation Add Count | Microsoft Docs
-description: API reference for CdmOperationAddCountAttribute.
+description: Usage guide for the Add Count Attribute operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -15,6 +15,8 @@ ms.author: violivei
 
 AddCountAttribute is a projection operation that adds a user-specified count type attribute to the final resolved entity. It is recommended—but not mandated—to be used with the [ArrayExpansion](arrayexpansion.md) operation to provide an ArrayExpansion a count attribute that represents the total number of expanded elements. AddCountAttribute can also be used by itself.
 The created count attribute will have the trait `is.linkedEntity.array.count`. This trait indicates that the attribute holds a count.
+
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addcountattribute.md).
 
 ## Examples
 

@@ -1,6 +1,6 @@
 ---
 title: Operation Replace as Foreign Key | Microsoft Docs
-description: API reference for CdmOperationReplaceAsForeignKey.
+description: Usage guide for the Replace as Foreign Key operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -13,7 +13,7 @@ ms.author: violivei
 
 ## Overview
 
-ReplaceAsForeignKey is a projection operation that creates a foreign key which references one of the source attributes. This operation receives a set of attributes as input and outputs a single foreign key attribute which is specified on the `replaceWith` property. A `is.linkedEntity.identifier` trait is added to the resulting attribute. The argument of this trait has information about the source attribute that is referenced by this foreign key.
+ReplaceAsForeignKey is a projection operation that creates a foreign key that references one of the source attributes. This operation receives a set of attributes as input and outputs a single foreign key attribute, which is specified on the `replaceWith` property. A `is.linkedEntity.identifier` trait is added to the resulting attribute. The argument of this trait has information about the source attribute that is referenced by this foreign key.
 
 ```json
 {
@@ -35,7 +35,9 @@ ReplaceAsForeignKey is a projection operation that creates a foreign key which r
 }
 ```
 
-> **__NOTE:__** The foreign key attributes are used by the Object Model to calculate relationships.
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/replaceasforeignkey.md).
+
+> **__Note:__** The foreign key attributes are used by the Object Model to calculate relationships.
 
 ## Examples
 
@@ -150,9 +152,9 @@ The resulting resolved Child entity is:
 |-|
 |personFK|
 
-### I can use a ReplaceAsForeignKey opeation to create a multi part foreign key
+### I can use a ReplaceAsForeignKey operation to create a multi part foreign key
 
-On the examples above, the foreign keys created are identified by one attribute only. In some cases one attribute alone is not capable of uniquely identifying a relationship, for example there might be multiple people with the same name. For these cases we can create a relationship that is composed by multiple attributes as below.
+On the examples above, the foreign keys created are identified by one attribute only. In some cases one attribute alone is not capable of uniquely identifying a relationship, for example there might be multiple people with the same name. For these cases, we can create a relationship that is composed by multiple attributes as below.
 
 ```json
 {
@@ -235,9 +237,9 @@ Now `addressFK`:
 
 By looking at the two traits above, you can see that both the relationship names are the same `PersonInfo_Person`. This is an indicator that these attributes combined make up the relationship foreign key.
 
-### I can use a ReplaceAsForeignKey opeation to create a polymorphic relationship
+### I can use a ReplaceAsForeignKey operation to create a polymorphic relationship
 
-For this example we will use another entity called `ContactKinds` that has three entity attributes pointing to `Email`, `Phone` and `Social`.
+For this example, we will use another entity called `ContactKinds` that has three entity attributes pointing to `Email`, `Phone` and `Social`.
 
 ```json
 {
@@ -265,7 +267,7 @@ For this example we will use another entity called `ContactKinds` that has three
 |address|number|account|
 |isPrimary|isPrimary|isPrimary|
 
-This entity defines three different methods that a customer can be contact at. We want to create an entity attribute that is a foreign key to one of email, phone or social. To achieve this goal we will use the ReplaceAsForeignKey along with [CombineAttributes](combineattributes.md). Note that because `ContactKinds` is a polymorphic entity we need to set the `isPolymorphicSource` property to true.
+This entity defines three different methods that a customer can be contact at. We want to create an entity attribute that is a foreign key to one of email, phone or social. To achieve this goal, we will use the ReplaceAsForeignKey along with [CombineAttributes](combineattributes.md). Note that because `ContactKinds` is a polymorphic entity we need to set the `isPolymorphicSource` property to true.
 
 ```json
 {
@@ -309,4 +311,4 @@ The resulting resolved ContactAt entity typed attribute is:
 |contactAtFK|
 |contactAtType|
 
-__**NOTE:**__ in this case the attribute `contactAtFK` holds a foreign key to email, phone or social. We also used a [AddTypeAttribute](addtypeattribute.md) operation to create an attribute that is used to specify which entity `contactAtFK` is pointing to per-record. Adding the type attribute is not required, but useful.
+__**NOTE:**__ in this case the attribute, `contactAtFK` holds a foreign key to email, phone or social. We also used a [AddTypeAttribute](addtypeattribute.md) operation to create an attribute that is used to specify which entity `contactAtFK` is pointing to per-record. Adding the type attribute is not required, but useful.

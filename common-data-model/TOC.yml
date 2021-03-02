@@ -22,25 +22,25 @@
             - name: Projections
               items:
                 - name: Add Attribute Group
-                  href: 1.0om/api-reference/cdm/projections/addattributegroup.md
+                  href: sdk/projections/addattributegroup.md
                 - name: Add Count Attribute
-                  href: 1.0om/api-reference/cdm/projections/addcountattribute.md
+                  href: sdk/projections/addcountattribute.md
                 - name: Add Supporting Attribute
-                  href: 1.0om/api-reference/cdm/projections/addsupportingattribute.md
+                  href: sdk/projections/addsupportingattribute.md
                 - name: Add Type Attribute
-                  href: 1.0om/api-reference/cdm/projections/addtypeattribute.md
+                  href: sdk/projections/addtypeattribute.md
                 - name: Array Expansion
-                  href: 1.0om/api-reference/cdm/projections/arrayexpansion.md
+                  href: sdk/projections/arrayexpansion.md
                 - name: Combine Attributes
-                  href: 1.0om/api-reference/cdm/projections/combineattributes.md
+                  href: sdk/projections/combineattributes.md
                 - name: Exclude Attributes
-                  href: 1.0om/api-reference/cdm/projections/excludeattributes.md
+                  href: sdk/projections/excludeattributes.md
                 - name: Include Attributes
-                  href: 1.0om/api-reference/cdm/projections/includeattributes.md
+                  href: sdk/projections/includeattributes.md
                 - name: Rename Attributes
-                  href: 1.0om/api-reference/cdm/projections/renameattributes.md
+                  href: sdk/projections/renameattributes.md
                 - name: Replace as Foreign Key
-                  href: 1.0om/api-reference/cdm/projections/replaceasforeignkey.md
+                  href: sdk/projections/replaceasforeignkey.md
       - name: From model.json to the future
         href: sdk/from-modeljson-to-the-future.md
       - name: List of Common Data Model dataTypes

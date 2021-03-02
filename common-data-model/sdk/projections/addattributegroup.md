@@ -1,6 +1,6 @@
 ---
 title: Operation Add Attribute Group | Microsoft Docs
-description: API reference for CdmOperationAddAttributeGroup.
+description: Usage guide for the Add Attribute Group operation.
 author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
@@ -18,6 +18,8 @@ AddAttributeGroup is a projection operation that groups all the attributes from 
 1. All the resolved attributes from the source are provided as input to the operation.
 1. An attribute group is created with the name supplied by the property “attributeGroupName”.
 1. The attributes received as input are added to the newly created attribute group.
+
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addattributegroup.md).
 
 ## Examples
 
@@ -64,7 +66,6 @@ We can use the AddAttributeGroup operation to place all the attributes being poi
             {
                 "$type": "addAttributeGroup",
                 "attributeGroupName": "PersonInfoGroup"
-
             }
         ]
     }
