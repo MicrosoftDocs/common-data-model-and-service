@@ -3,9 +3,9 @@ title: Operation Rename Attributes Usage Guide | Microsoft Docs
 description: Usage guide for the Rename Attributes operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -21,7 +21,7 @@ RenameAttributes is a projection operation that renames a specified set of attri
    * {m} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
    * If {A} or {M} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
-1. All the attributes will be renamed following the specified “renameFormat” by default. It is possible to specify a “applyTo” property which is a list of attributes to be renamed. The attributes that are in the specified list are renamed and added to the attribute list. If an attribute is not in the rename list, it is added to the set of attributes without changes.
+1. All the attributes will be renamed following the specified “renameFormat” by default. It is possible to specify a "applyTo" property which is a list of attributes to be renamed. The attributes that are in the specified list are renamed and added to the attribute list. If an attribute is not in the rename list, it is added to the set of attributes without changes.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/renameattributes.md).
 
@@ -59,7 +59,7 @@ The examples below refer to the `Person` entity as defined here.
 
 ### I can use a RenameAttributes operation on an entity attribute
 
-If we have an entity attribute, we can use RenameAttributes to rename all the attributes we get from the referenced entity. In this example {a} will be replaced with “PersonInfo” and {M} will be replaced with each attribute name with the first letter capitalized.
+If we have an entity attribute, we can use RenameAttributes to rename all the attributes we get from the referenced entity. In this example {a} will be replaced with "PersonInfo" and {M} will be replaced with each attribute name with the first letter capitalized.
 
 ```json
 {
@@ -77,6 +77,7 @@ If we have an entity attribute, we can use RenameAttributes to rename all the at
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |PersonInfoName|
@@ -88,6 +89,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 ### I can use an RenameAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use RenameAttributes the attributes that are inherited from the entity we are extending from.
+
 Given an entity, Child, that extends from the Person entity:
 
 ```json
@@ -107,6 +109,7 @@ Given an entity, Child, that extends from the Person entity:
 ```
 
 The resulting resolved Child entity is:
+
 |Child|
 |-|
 |childName|
@@ -133,6 +136,7 @@ The resulting resolved Child entity is:
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |NewName|
@@ -163,6 +167,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |name|
@@ -174,7 +179,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 ### I can use an RenameAttributes operation with a condition
 
 We can have a condition that must evaluate to true in order for the operations in a projection to execute. This means that we can have two different scenarios where a condition is evaluated to true in one (causing the RenameAttributes operation to execute), and the condition is evaluated to false in another (preventing the RenameAttributes operation from executing).
-We have the NewPerson entity with an entity attribute definition again. Given the following projection with a condition stating that the RenameAttributes operation should only run when the resolution directives are “referenceOnly”:
+We have the NewPerson entity with an entity attribute definition again. Given the following projection with a condition stating that the RenameAttributes operation should only run when the resolution directives are "referenceOnly":
 
 ```json
 {
@@ -315,6 +320,7 @@ We can use an RenameAttributes operation the same way as before.
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |PersonInfoName|

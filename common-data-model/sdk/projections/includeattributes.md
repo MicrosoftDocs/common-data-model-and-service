@@ -3,9 +3,9 @@ title: Operation Include Attributes Usage Guide | Microsoft Docs
 description: Usage guide for the Include Attributes operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -79,6 +79,7 @@ If we have an entity attribute, we can use IncludeAttributes to include certain 
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |name|
@@ -112,6 +113,7 @@ Given an entity, Child, that extends from the Person entity:
 ```
 
 The resulting resolved Child entity is:
+
 |Child|
 |-|
 |name|

@@ -3,9 +3,9 @@ title: Operation Add Attribute Group Usage Guide | Microsoft Docs
 description: Usage guide for the Add Attribute Group operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -16,7 +16,7 @@ ms.author: violivei
 AddAttributeGroup is a projection operation that groups all the attributes from the source into an attribute group. This operation will work as follows:  
 
 1. All the resolved attributes from the source are provided as input to the operation.
-1. An attribute group is created with the name supplied by the property “attributeGroupName”.
+1. An attribute group is created with the name supplied by the property "attributeGroupName".
 1. The attributes received as input are added to the newly created attribute group.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addattributegroup.md).
@@ -73,6 +73,7 @@ We can use the AddAttributeGroup operation to place all the attributes being poi
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo||
 |-|-|
 |PersonInfoGroup||
@@ -104,6 +105,7 @@ Given an entity, NewPerson, that extends from the Person entity:
 ```
 
 The resulting resolved Child entity is:
+
 |Child||
 |-|-|
 |ChildGroup||
@@ -141,6 +143,7 @@ Using multiple addAttributeGroup operations will result into an attribute group 
 ```
 
 The resulting resolved Child entity is:
+
 |Child|||
 |-|-|-|
 |OuterGroup|||

@@ -3,9 +3,9 @@ title: Operation Add Count Usage Guide | Microsoft Docs
 description: Usage guide for the Add Count Attribute operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -85,6 +85,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 ### I can use an AddTypeAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddCountAttribute to add a Count attribute.
+
 Given an entity, NewPerson, that extends from the Person entity:
 
 ```json
@@ -156,6 +157,7 @@ We can use an AddCountAttribute operation after an ArrayExpansion operation to a
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |name_1|

@@ -3,9 +3,9 @@ title: Operation Array Expansion Usage Guide | Microsoft Docs
 description: Usage guide for the Array Expansion operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -31,7 +31,7 @@ maxOrdinalForArrayExpansion is a configurable value in ResolveOptions for settin
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/arrayexpansion.md).
 
 > **__Note__** Doing an ArrayExpansion without a [RenameAttributes](renameattributes.md) afterwards will result in the expanded attributes being merged in the final resolved entity. This is because ArrayExpansion does not rename the attributes it expands by default. The expanded attributes end up with the same name and gets merged. <br>
-> Ex. We expand A to A[1], A[2], A[3], but A[1], A[2], A[3] are still named “A”.<br><br>
+> Example: We expand A to A[1], A[2], A[3], but A[1], A[2], A[3] are still named "A".<br><br>
 > We must chain a RenameAttributes operation after an ArrayExpansion if we wish to see the expanded attributes (with the ordinal in their attribute name) in the final output. We do this by nesting projections, where the inner projection contains the ArrayExpansion and the outer projection contains the RenameAttributes. <br>
 > Ex. We expand A to A[1], A[2], A[3], and then rename to {m}_{o}, to get A_1, A_2, A_3
 
@@ -90,6 +90,7 @@ If we have an entity attribute, we can use ArrayExpansion to expand each attribu
 ```
 
 The resulting resolved ThreeMusketeers entity typed attribute is:
+
 |ThreeMusketeers|
 |-|
 |name|
@@ -98,7 +99,7 @@ The resulting resolved ThreeMusketeers entity typed attribute is:
 |phoneNumber|
 |email|
 
-**Note:** Since we did not use a RenameAttributes operation after the ArrayExpansion, the expanded attributes are merged in the final resolved attributes due to having the same name.
+**__Note:__** Since we did not use a RenameAttributes operation after the ArrayExpansion, the expanded attributes are merged in the final resolved attributes due to having the same name.
 
 Adding a RenameAttributes operations:
 
@@ -127,6 +128,7 @@ Adding a RenameAttributes operations:
 ```
 
 The resulting resolved ThreeMusketeers entity typed attribute is:
+
 |ThreeMusketeers|
 |-|
 |name_1|
@@ -148,6 +150,7 @@ The resulting resolved ThreeMusketeers entity typed attribute is:
 ### I can use an ArrayExpansion operation when extending an entity
 
 If we have an entity that extends another entity, we can use ArrayExpansion to expand the attributes inherited from the base entity.
+
 Given an entity, ThreeMusketeers, that extends from the Person entity:
 
 ```json
@@ -176,6 +179,7 @@ Given an entity, ThreeMusketeers, that extends from the Person entity:
 ```
 
 The resulting resolved ThreeMusketeers entity is:
+
 |ThreeMusketeers|
 |-|
 |name_1|
@@ -196,7 +200,7 @@ The resulting resolved ThreeMusketeers entity is:
 
 ### I can use multiple ArrayExpansion operations
 
-We can nest projections if we want an ArrayExpansion operation to use another ArrayExpansion operation’s output as its source.
+We can nest projections if we want an ArrayExpansion operation to use another ArrayExpansion operation's output as its source.
 
 Given the following nested projection:
 
@@ -242,6 +246,7 @@ Given the following nested projection:
 ```
 
 The resulting resolved ThreeMusketeers entity typed attribute is:
+
 |Input|After inner projection|Output|
 |-|-|-|
 |name|name_1|name_1_1

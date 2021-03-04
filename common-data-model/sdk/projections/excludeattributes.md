@@ -3,9 +3,9 @@ title: Operation Exclude Attributes Usage Guide | Microsoft Docs
 description: Usage guide for the Exclude Attributes operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -77,6 +77,7 @@ If we have an entity attribute, we can use ExcludeAttributes to exclude certain 
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |name|
@@ -108,6 +109,7 @@ Given an entity, Child, that extends from the Person entity:
 ```
 
 The resulting resolved Child entity is:
+
 |Child|
 |-|
 |name|
@@ -149,7 +151,7 @@ Given the following nested projection:
 
 The resulting resolved PersonInfo entity typed attribute depends on the value set to the `runSequentially` flag on the projection level.
 
-If `runSequentially` is false, all the operations in a single projection are given the same set of inputs, so while the operations are run sequentially, they work independently on the input. This means that if we have two ExcludeAttributes operations in a projection, the final output will be the result of both ExcludeAttributes’ outputs merged together resulting on the entity typed attribute below.
+If `runSequentially` is false, all the operations in a single projection are given the same set of inputs, so while the operations are run sequentially, they work independently on the input. This means that if we have two ExcludeAttributes operations in a projection, the final output will be the result of both ExcludeAttributes' outputs merged together resulting on the entity typed attribute below.
 
 |PersonInfo|
 |-|
