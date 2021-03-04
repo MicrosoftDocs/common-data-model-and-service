@@ -1,5 +1,5 @@
 ---
-title: Operation Add Supporting Attribute | Microsoft Docs
+title: Operation Add Supporting Attribute Usage Guide | Microsoft Docs
 description: Usage guide for the Add Supporting Attribute operation.
 author: violivei
 ms.service: common-data-model

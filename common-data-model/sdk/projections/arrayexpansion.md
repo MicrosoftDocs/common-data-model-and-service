@@ -1,5 +1,5 @@
 ---
-title: Operation Array Expansion | Microsoft Docs
+title: Operation Array Expansion Usage Guide | Microsoft Docs
 description: Usage guide for the Array Expansion operation.
 author: violivei
 ms.service: common-data-model

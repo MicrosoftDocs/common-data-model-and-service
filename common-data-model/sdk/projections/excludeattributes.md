@@ -1,5 +1,5 @@
 ---
-title: Operation Exclude Attributes | Microsoft Docs
+title: Operation Exclude Attributes Usage Guide | Microsoft Docs
 description: Usage guide for the Exclude Attributes operation.
 author: violivei
 ms.service: common-data-model

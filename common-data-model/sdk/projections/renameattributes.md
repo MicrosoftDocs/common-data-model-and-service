@@ -1,5 +1,5 @@
 ---
-title: Operation Rename Attributes | Microsoft Docs
+title: Operation Rename Attributes Usage Guide | Microsoft Docs
 description: Usage guide for the Rename Attributes operation.
 author: violivei
 ms.service: common-data-model

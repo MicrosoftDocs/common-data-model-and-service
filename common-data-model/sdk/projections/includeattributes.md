@@ -1,5 +1,5 @@
 ---
-title: Operation Include Attributes | Microsoft Docs
+title: Operation Include Attributes Usage Guide | Microsoft Docs
 description: Usage guide for the Include Attributes operation.
 author: violivei
 ms.service: common-data-model

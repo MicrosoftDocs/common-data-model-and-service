@@ -1,5 +1,5 @@
 ---
-title: Operation Add Count | Microsoft Docs
+title: Operation Add Count Usage Guide | Microsoft Docs
 description: Usage guide for the Add Count Attribute operation.
 author: violivei
 ms.service: common-data-model

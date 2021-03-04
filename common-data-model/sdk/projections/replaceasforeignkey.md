@@ -1,5 +1,5 @@
 ---
-title: Operation Replace as Foreign Key | Microsoft Docs
+title: Operation Replace as Foreign Key Usage Guide | Microsoft Docs
 description: Usage guide for the Replace as Foreign Key operation.
 author: violivei
 ms.service: common-data-model

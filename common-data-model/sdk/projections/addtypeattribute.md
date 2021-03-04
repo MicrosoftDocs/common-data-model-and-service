@@ -1,5 +1,5 @@
 ---
-title: Operation Add Type | Microsoft Docs
+title: Operation Add Type Usage Guide | Microsoft Docs
 description: Usage guide for the Add Type Attribute operation.
 author: violivei
 ms.service: common-data-model
