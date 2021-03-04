@@ -9,9 +9,9 @@ ms.date: 02/24/2021
 ms.author: Deonhe
 ---
 
-### Resolution guidance (Deprecated)
+# Resolution guidance (Deprecated)
 
-> **__Note:__** Resolution guidance has pre-configured and sometimes obscure behavior that varies depending on the directives provided which could cause the definitions to be resolved into a shape different than expected if not properly configured. This feature is now deprecated in favor of the [Projections feature](convert-logical-entities-resolved-entities.md#Projection-overview) which removes all the implict behavior and has more power than resolution guidance.
+> **__Note:__** Resolution guidance has pre-configured and sometimes obscure behavior that varies depending on the directives provided which could cause the definitions to be resolved into a shape different than expected if not properly configured. This feature is now deprecated in favor of the [Projections feature](convert-logical-entities-resolved-entities.md#projection-overview) which removes all the implict behavior and has more power than resolution guidance.
 
 To further clarify and illustrate the process that resolves logical entities into a concrete attribute list, consider this example schema:
 
@@ -50,7 +50,7 @@ The example above was contrived to demonstrate each stage, but in most situation
 | Rename with format            | Structured directive isn't given and a format is set in the **renameFormat** property.                                                                                                                  | Structured output creates groups for entity attributes, so renaming isn't needed to prevent name conflicts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | merge results                 | Always                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-### The ResolutionGuidance structure in detail
+## The ResolutionGuidance structure in detail
 
 bool removeAttribute
 
@@ -78,7 +78,7 @@ string renameFormat
 
 Parameters that control array expansion if inline repeating of attributes is needed.
 
-### Expansion
+## Expansion
 
 - int startingOrdinal
 
@@ -94,7 +94,7 @@ Parameters that control array expansion if inline repeating of attributes is nee
 
     Parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.
 
-### EntityByReference
+## EntityByReference
 
 - bool allowReference
 
@@ -114,7 +114,7 @@ Parameters that control array expansion if inline repeating of attributes is nee
 
     Used to indicate that this attribute selects either 'one' or 'all' of the sub-attributes from an entity. If the 'structured' directive is set, this trait causes resolved attributes to end up in groups rather than a flattened list.
 
-### SelectsSubAttribute
+## SelectsSubAttribute
 
 - string selects
 

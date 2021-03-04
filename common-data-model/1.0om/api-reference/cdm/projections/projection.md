@@ -11,7 +11,7 @@ ms.author: violivei
 
 # Projection
 
-A projection provides the ability to define a set of operations to dynamically manipulate a logical definition. For a in-depth explanation about how projections work refer to [this page](../../../../sdk/convert-logical-entities-resolved-entities.md#Projection-overview).
+A projection provides the ability to define a set of operations to dynamically manipulate a logical definition. For a in-depth explanation about how projections work refer to [this page](../../../../sdk/convert-logical-entities-resolved-entities.md#projection-overview).
 
 ```csharp
 public class CdmProjection extends CdmObjectDefinitionBase
