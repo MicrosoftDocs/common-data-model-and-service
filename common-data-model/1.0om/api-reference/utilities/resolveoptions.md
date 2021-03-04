@@ -3,9 +3,9 @@ title: Resolve Options | Microsoft Docs
 description: API reference for ResolveOptions.
 author: jinichu
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 08/20/2020
+ms.date: 02/24/2021
 ms.author: jibyun
 ---
 

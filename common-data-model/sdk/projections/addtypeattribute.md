@@ -3,9 +3,9 @@ title: Operation Add Type | Microsoft Docs
 description: Usage guide for the Add Type Attribute operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -16,9 +16,9 @@ ms.author: violivei
 AddTypeAttribute is a projection operation that adds a user-specified type attribute to the final resolved entity. It is generally used after a [CombineAttributes](combineattributes.md) operation to create a type attribute that indicates the type that matches one of the entities from a polymorphic source, but can also be used by itself. Think of it like the $type property in a JSON object.
 
 For example:
-We have an Account entity with the attribute “accountId” and a Contact entity with the attribute “contactId”. Using CombineAttributes, we merge “accountId” and “contactId” into “customerId”. We can then use AddTypeAttribute to create a “customerType” type attribute that is used to indicate whether "customerId” is an Account or a Contact type.
+We have an Account entity with the attribute "accountId" and a Contact entity with the attribute "contactId". Using CombineAttributes, we merge "accountId" and "contactId" into "customerId". We can then use AddTypeAttribute to create a "customerType" type attribute that is used to indicate whether "customerId" is an Account or a Contact type.
 
-Because of this, the created type attribute is often an “entityName” data type. It will also have the trait `is.linkedEntity.name`.
+Because of this, the created type attribute is often an "entityName" data type. It will also have the trait `is.linkedEntity.name`.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addtypeattribute.md).
 
@@ -54,7 +54,7 @@ The examples below refer to the `ContactKinds` entity as defined here.
 
 ### I can use a AddTypeAttribute operation on an entity attribute
 
-If we have an entity attribute, we can use AddTypeAttribute to add a type attribute. We can have an entity, Customer, that contains the following entity attribute definition (called contactAt) with a CombineAttributes operation (using ContactKinds as the source) that merges “emailId”, “phoneId”, and “socialId” into “contactId”:
+If we have an entity attribute, we can use AddTypeAttribute to add a type attribute. We can have an entity, Customer, that contains the following entity attribute definition (called contactAt) with a CombineAttributes operation (using ContactKinds as the source) that merges "emailId", "phoneId", and "socialId" into "contactId":
 
 ```json
 {
@@ -90,6 +90,7 @@ If we have an entity attribute, we can use AddTypeAttribute to add a type attrib
 ```
 
 The resulting resolved contactAt entity typed attribute is:
+
 |contactAt|
 |-|
 |address|
@@ -102,6 +103,7 @@ The resulting resolved contactAt entity typed attribute is:
 ### I can use an AddTypeAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddTypeAttribute to add a type attribute.
+
 Given the entity, Customer, that extends from the ContactKinds entity:
 
 ```json
@@ -137,6 +139,7 @@ Given the entity, Customer, that extends from the ContactKinds entity:
 ```
 
 The resulting resolved Customer entity is:
+
 |Customer|
 |-|
 |address|
@@ -167,6 +170,7 @@ The resulting resolved Customer entity is:
 ```
 
 The resulting resolved contactAt entity typed attribute is:
+
 |contactAt|
 |-|
 |emailId|

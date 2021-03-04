@@ -3,9 +3,9 @@ title: Operation Replace as Foreign Key | Microsoft Docs
 description: Usage guide for the Replace as Foreign Key operation.
 author: violivei
 ms.service: common-data-model
-ms.reviewer: deonhe 
+ms.reviewer: v-iap 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2021
 ms.author: violivei
 ---
 
@@ -95,6 +95,7 @@ If we have an entity attribute, we can use ReplaceAsForeignKey to create a forei
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |personFK|
@@ -148,6 +149,7 @@ Given an entity, Child, that extends from the Person entity:
 ```
 
 The resulting resolved Child entity is:
+
 |Child|
 |-|
 |personFK|
@@ -184,6 +186,7 @@ On the examples above, the foreign keys created are identified by one attribute 
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |nameFK|
@@ -306,6 +309,7 @@ This entity defines three different methods that a customer can be contact at. W
 ```
 
 The resulting resolved ContactAt entity typed attribute is:
+
 |ContactAt|
 |-|
 |contactAtFK|
