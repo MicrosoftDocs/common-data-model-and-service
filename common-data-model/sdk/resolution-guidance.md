@@ -52,33 +52,33 @@ The example above was contrived to demonstrate each stage, but in most situation
 
 ## The ResolutionGuidance structure in detail
 
-bool removeAttribute
+- bool removeAttribute
 
     If true, this attribute definition will be removed from the entity's final resolved attribute list. This functionality has been moved to the 'selectsSomeAvoidList' property.
 
-List\<string\> imposedDirectives
+- List\<string\> imposedDirectives
 
     A list of strings, one for each 'directive' that should be always imposed at this attribute definition.
 
-List\<string\> removedDirectives
+- List\<string\> removedDirectives
 
     A list of strings, one for each 'directive' that should be removed if it was previously imposed.
 
-Common Data ModelTypeAttributeDefinition addSupportingAttribute
+- Common Data ModelTypeAttributeDefinition addSupportingAttribute
 
     A guidance that this attribute definition should be added to the final set of attributes and should be marked as 'supporting' the attribute that has the guidance set on it.
 
-string cardinality
+- string cardinality
 
     If 'one', a single instance of the attribute or entity has been used. If 'many', multiple instances have been used, in which case the 'expansion' properties will describe the array enumeration to use when needed.
 
-string renameFormat
+- string renameFormat
 
     Format specifier for generated attribute names. Might contain a single occurrence of ('{a} or 'A'), ('{m}' or '{M}'), and '{o}', for the base (a/A)ttribute name, any (m/M)ember attributes from entities and array (o)rdinal. Examples: '{a}{o}.{m}' could produce 'address2.city', '{a}{o}' gives 'city1'. Using '{A}' or '{M}' will uppercase the first letter of the name portions.
 
-Parameters that control array expansion if inline repeating of attributes is needed.
-
 ## Expansion
+
+Parameters that control array expansion if inline repeating of attributes is needed.
 
 - int startingOrdinal
 
@@ -92,9 +92,9 @@ Parameters that control array expansion if inline repeating of attributes is nee
 
     The supplied attribute definition will be added to the entity to represent the total number of instances found in the data.
 
-    Parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.
-
 ## EntityByReference
+
+Parameters that control the use of foreign keys to reference entity instances instead of embedding the entity in a nested way.
 
 - bool allowReference
 

@@ -5,7 +5,7 @@ author: violivei
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
-ms.date: 24/02/2020
+ms.date: 02/24/2020
 ms.author: violivei
 ---
 
