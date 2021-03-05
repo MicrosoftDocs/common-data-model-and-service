@@ -73,6 +73,7 @@ If we have an entity attribute, we can use AddCountAttribute to add a count attr
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |name|
@@ -107,6 +108,7 @@ Given an entity, NewPerson, that extends from the Person entity:
 ```
 
 The resulting resolved NewPerson entity is:
+
 |NewPerson|
 |-|
 |name|
