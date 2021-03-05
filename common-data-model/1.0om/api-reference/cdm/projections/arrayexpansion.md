@@ -14,7 +14,7 @@ ms.author: violivei
 Makes n copies of every input attribute and marks each temporarily with an ordinal. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/arrayexpansion.md).
 
 ```csharp
-public abstract class CdmOperationArrayExpansion extends CdmOperationBase
+public class CdmOperationArrayExpansion extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*

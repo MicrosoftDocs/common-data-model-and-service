@@ -14,7 +14,7 @@ ms.author: violivei
 Selects only those attributes mentioned in the given list and filter out the rest. The selected attributes are ordered as given in the list. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/includeattributes.md).
 
 ```csharp
-public abstract class CdmOperationIncludeAttributes extends CdmOperationBase
+public class CdmOperationIncludeAttributes extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*

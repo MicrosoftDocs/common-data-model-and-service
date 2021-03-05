@@ -14,7 +14,7 @@ ms.author: violivei
 Adds an attribute that holds the per-record type of a polymorphic entity. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addtypeattribute.md).
 
 ```csharp
-public abstract class CdmOperationAddTypeAttribute extends CdmOperationBase
+public class CdmOperationAddTypeAttribute extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*

@@ -14,7 +14,7 @@ ms.author: violivei
 Combines a set of attributes  specified on the operation into one resulting attribute. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/combineattributes.md).
 
 ```csharp
-public abstract class CdmOperationCombineAttributes extends CdmOperationBase
+public class CdmOperationCombineAttributes extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*

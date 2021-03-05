@@ -14,7 +14,7 @@ ms.author: violivei
 Creates an attribute group and adds all the input attributes into it. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addattributegroup.md).
 
 ```csharp
-public abstract class CdmOperationAddAttributeGroup extends CdmOperationBase
+public class CdmOperationAddAttributeGroup extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*

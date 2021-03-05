@@ -14,7 +14,7 @@ ms.author: violivei
 Removes the listed attributes from the input set. All others pass through in their original order. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/excludeattributes.md).
 
 ```csharp
-public abstract class CdmOperationExcludeAttributes extends CdmOperationBase
+public class CdmOperationExcludeAttributes extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*

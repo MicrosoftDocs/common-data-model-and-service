@@ -14,7 +14,7 @@ ms.author: violivei
 Replace all input attributes with a foreign key attribute.  A `is.linkedEntity.identifier` trait will be added to the attribute linking the foreign key to an attribute on the source. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/replaceasforeignkey.md).
 
 ```csharp
-public abstract class CdmOperationReplaceAsForeignKey extends CdmOperationBase
+public class CdmOperationReplaceAsForeignKey extends CdmOperationBase
 ```
 
 *CdmProjection extends CdmObjectDefinition in Python.*
