@@ -252,7 +252,7 @@ If `runSequentially = false` (default behavior)
 ||||age|
 ||||homePlace|
 
-If `runSequentially = true` (default behavior)
+If `runSequentially = true`
 
 |Input|After operation #1|After operation #2|Output|
 |-|-|-|-|
