@@ -119,6 +119,7 @@ In some scenarios a data typed attribute can hold a list of constant values to w
 On the example above, the `priorityCode` attribute is constrained to a set of possible values specified by the `listLookup` data type. Each entry on the listLookup table follows the structure `{languageTag, displayText, attributeValue, displayOrder}`. The priorityCode attribute holds the `attributeValue` but it might be also useful to have the `displayText` saved somewhere. For this purpose we can add a support attribute. In this case, we are adding the `priorityCode_display` to hold the display text. 
 
 The resulting resolved priorityCode data typed attribute is:
+
 ||
 |-|
 |priorityCode|
@@ -147,6 +148,7 @@ We can use the AddSupportingAttribute operation to create a supporting attribute
 ```
 
 The resulting resolved PersonInfo entity typed attribute is:
+
 |PersonInfo|
 |-|
 |name|
@@ -181,6 +183,7 @@ Given an entity, NewPerson, that extends from the Person entity:
 ```
 
 The resulting resolved Child entity is:
+
 |Child|
 |-|
 |name|

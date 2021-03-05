@@ -253,6 +253,7 @@ If `runSequentially = false` (default behavior)
 ||||homePlace|
 
 If `runSequentially = true` (default behavior)
+
 |Input|After operation #1|After operation #2|Output|
 |-|-|-|-|
 |name|name|name|name

@@ -72,6 +72,7 @@ If we have an entity attribute, we can use RenameAttributes to rename all the at
 ```
 
 The resulting resolved contactAt entity typed attribute is:
+
 |contactAt|
 |-|
 |address|

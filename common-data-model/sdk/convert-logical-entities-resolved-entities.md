@@ -14,9 +14,9 @@ ms.author: Deonhe
 
 A logical entity definition may reference (reuse) other object definitions to better organize or factor a data model. For example, an entity may extend another entity, include entity-typed attributes, or include attribute groups. Attributes may be defined by custom data types that extend other data types with trait references. These referenced definitions may in turn reference other definitions.
 
-The full definition of an entity requires that all these references be examined and resolved. The Common Data Model object model can resolve a logical entity definition by following these references to create a resolved entity definition in which all the references are replaced by in-lined attribute definitions that use primitive data formats and trait references. The resolved entity definition can then be used programmatically within the object model or written out as a new document. When a CDM folder is created, the manifest contains only references to resolved entity definitions.
+The full definition of an entity requires that all these references be examined and resolved. The Common Data Model object model can resolve a logical entity definition by following these references to create a resolved entity definition in which all the references are replaced by in-lined attribute definitions that use primitive data formats and trait references. The resolved entity definition can then be used programmatically within the object model or written out as a new document. When a Common Data Model folder is created, the manifest contains only references to resolved entity definitions.
 
-As a rule, when defining a data model it is best to create logical entity definitions and then use the CDM object model to resolve these rather than trying to create resolved entity definitions directly.  
+As a rule, when defining a data model it is best to create logical entity definitions and then use the Common Data Model object model to resolve these rather than trying to create resolved entity definitions directly.  
 
 To illustrate the concept of converting logical entities into resolved entities, let's return to our Student entity example. Given the new, full definition of Student, it will be a bit cumbersome to determine the final set of attribute names and traits for the entity.
 
