@@ -391,7 +391,7 @@ If during the execution the condition evaluates to true, then the operations wil
 {
     "name": "PersonInfo",
     "entity": {
-        "condition": "referenceOnly"
+        "condition": "referenceOnly",
         "source": "Person",
         "operations": [
             {
