@@ -49,7 +49,8 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/common-data-model-and-service",
       "feedback_product_url": "https://github.com/Microsoft/CDM/issues",
-      "titleSuffix": "Common Data Model"
+      "titleSuffix": "Common Data Model",
+      "recommendations": true
     },
     "fileMetadata": {},
     "template": [],
