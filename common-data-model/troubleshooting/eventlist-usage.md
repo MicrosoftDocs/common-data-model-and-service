@@ -84,9 +84,20 @@ CorrelationId can also be set on Ctx object in the corpus.
 ```csharp
 corpus.Ctx.CorrelationId 
 ```
-## APIs supporting EventList logging 
--   [CreateResolvedEntityAsync](../1.0om/api-reference/cdm/entity.md#methods)
--   [CreateResolvedManifestAsync](../1.0om/api-reference/cdm/manifest.md#methods)
--   [FetchObjectAsync](../1.0om/api-reference/cdm/corpus.md#methods)
--   [FileStatusCheckAsync](../1.0om/api-reference/cdm/manifest.md#methods)
--   [SaveAsAsync](../1.0om/api-reference/cdm/document.md#methods)
+## APIs supporting EventList logging
+-   [CdmCorpusDefinition.CalculateEntityGraphAsync](../1.0om/api-reference/cdm/corpus.md#methods)
+-   [CdmCorpusDefinition.FetchObjectAsync](../1.0om/api-reference/cdm/corpus.md#methods)
+-   [CdmDataPartitionDefinition.FileStatusCheckAsync](../1.0om/api-reference/cdm/datapartition.md#methods)
+-   [CdmDataPartitionPatternDefinition.FileStatusCheckAsync](../1.0om/api-reference/cdm/datapartitionpattern.md#methods)
+-   [CdmEntityDefinition.CreateResolvedEntityAsync](../1.0om/api-reference/cdm/entity.md#methods)
+-   [CdmManifestDefinition.CreateResolvedManifestAsync](../1.0om/api-reference/cdm/manifest.md#methods)
+-   [CdmManifestDefinition.FileStatusCheckAsync](../1.0om/api-reference/cdm/manifest.md#methods)
+-   [CdmManifestDefinition.PopulateManifestRelationshipsAsync](../1.0om/api-reference/cdm/manifest.md#methods)
+-   [CdmManifestDefinition.SaveAsAsync](../1.0om/api-reference/cdm/document.md#methods)
+-   [StorageManager.Mount](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
+-   [StorageManager.Unmount](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
+-   [StorageManager.FetchRootFolder](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
+-   [StorageManager.AdapterPathToCorpusPath](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
+-   [StorageManager.CorpusPathToAdapterPath](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
+-   [StorageManager.CreateAbsoluteCorpusPath](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
+-   [StorageManager.CreateRelativeCorpusPath](../1.0om/api-reference/cdm/storage/storagemanager.md#methods)
