@@ -260,7 +260,7 @@ Sample:
 
 Property name: **partitions**
 
-The partition array indicates the name and location of the actual data files that correspond to the entity definition. Today, the partition contains a full URI to the location of the data file, so new data files must be manually added to the list of partitions. In the future, we’re looking to support patterns of data files (for example, wildcards)
+The partition array indicates the name and location of the actual data files that correspond to the entity definition. Today, the partition contains a full URI to the location of the data file, so new data files must be manually added to the list of partitions.
 
 | Property | Type | Description | Required? |
 | ---------------- |---------------- |-------------------------------- |------------- |
