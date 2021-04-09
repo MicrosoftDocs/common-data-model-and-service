@@ -55,7 +55,7 @@ The examples below refer to the `Person` entity as defined here.
 
 ### I can use a AddAttributeGroup operation on an entity attribute
 
-We can use the AddAttributeGroup operation to place all the attributes being pointed by the source entity attribute into an attribute group.
+We can use the AddAttributeGroup operation to place all the attributes referenced by the source entity attribute into an attribute group.
 
 ```json
 {
@@ -74,19 +74,18 @@ We can use the AddAttributeGroup operation to place all the attributes being poi
 
 The resulting resolved PersonInfo entity typed attribute is:
 
-|PersonInfo||
-|-|-|
-|PersonInfoGroup||
-||name|
-||age|
-||address|
-||phoneNumber|
-||email|
+| PersonInfoGroup | |
+|-----------------|--|
+| | name |
+| | age |
+| | address |
+| | phoneNumber |
+| | email |
 
 ### I can use an AddAttributeGroup operation when extending an entity
 
-If we have an entity that extends another entity, we can use AddCountAttribute to add a Count attribute.
-Given an entity, NewPerson, that extends from the Person entity:
+If we have an entity that extends another entity, we can use AddAttributeGroup to add the attributes of the base entity into an attribute group in the extended entity.
+Given an entity, Child, that extends the Person entity:
 
 ```json
 {
@@ -106,18 +105,17 @@ Given an entity, NewPerson, that extends from the Person entity:
 
 The resulting resolved Child entity is:
 
-|Child||
-|-|-|
-|ChildGroup||
-||name|
-||age|
-||address|
-||phoneNumber|
-||email|
+| ChildGroup | |
+|-----------------|--|
+| | name |
+| | age |
+| | address |
+| | phoneNumber |
+| | email |
 
 ### I can use multiple AddAttributeGroup operations
 
-Using multiple addAttributeGroup operations will result into an attribute group being created inside another attribute group.
+Using multiple addAttributeGroup operations will result in an attribute group being created inside another attribute group.
 
 ```json
 {
@@ -144,12 +142,11 @@ Using multiple addAttributeGroup operations will result into an attribute group 
 
 The resulting resolved Child entity is:
 
-|Child|||
-|-|-|-|
-|OuterGroup|||
-||InnerGroup||
-|||name|
-|||age|
-|||address|
-|||phoneNumber|
-|||email|
+| OuterGroup | | |
+|------------|--|--|
+| | InnerGroup | |
+| | | name |
+| | | age |
+| | | address |
+| | | phoneNumber |
+| | | email |

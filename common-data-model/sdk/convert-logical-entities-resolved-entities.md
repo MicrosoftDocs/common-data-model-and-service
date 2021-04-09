@@ -354,18 +354,18 @@ Let us first have a look at the tokens table below.
 |Name|Type|Description|
 |-|-|-|
 |always|Bool|Equivalent to "true".|
-|cardinality.maximum|Integer|The maximum cardinality set on the |attribute. Null if not set.
-|cardinality.minimum|Integer|The minimum cardinality set on the |attribute. Null if not set.
-|depth|Integer|The current depth of the entity. This number gets |increased by one when following an entity attribute.
+|cardinality.maximum|Integer|The maximum cardinality set on the attribute. Null if not set.|
+|cardinality.minimum|Integer|The minimum cardinality set on the attribute. Null if not set.|
+|depth|Integer|The current depth of the entity. This number gets increased by one when following an entity attribute.|
 |false|Bool|A token that always yield false.|
-|isArray|Bool (directive)|True if the "isArray" directive is present on |the directives set.
-|maxDepth|Integer|The maximum depth specified on the ResolveOptions  |object.
-|noMaxDepth|Bool (directive)|True if the "noMaxDepth" directive is |present on the directives set.
-|normalized|Bool (directive)|True if the "normalized" directive is |present on the directives set.
-|referenceOnly|Bool (directive)|True if the "referenceOnly" directive is |present on the directives set.
-|structured|Bool (directive)|True if the "structured" directive is |present on the directives set.
+|isArray|Bool (directive)|True if the "isArray" directive is present in the directives set.|
+|maxDepth|Integer|The maximum depth specified on the ResolveOptions object.|
+|noMaxDepth|Bool (directive)|True if the "noMaxDepth" directive is present in the directives set.|
+|normalized|Bool (directive)|True if the "normalized" directive is present in the directives set.|
+|referenceOnly|Bool (directive)|True if the "referenceOnly" directive is present in the directives set.|
+|structured|Bool (directive)|True if the "structured" directive is present in the directives set.|
 |true|Bool|A token that always yield true.|
-|virtual|Bool (directive)|True if the "virtual" directive is present on |the directives set.
+|virtual|Bool (directive)|True if the "virtual" directive is present in the directives set.|
 
 Along with the tokens there are a set of operators that are used to construct more complex conditions. The full set of operators are shown below.
 
