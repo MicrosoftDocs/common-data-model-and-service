@@ -74,12 +74,12 @@ We can use the AddAttributeGroup operation to place all the attributes reference
 
 The resulting resolved PersonInfo entity typed attribute is:
 
-|PersonInfoGroup||
-||name|
-||age|
-||address|
-||phoneNumber|
-||email|
+|PersonInfoGroup| |
+| |name|
+| |age|
+| |address|
+| |phoneNumber|
+| |email|
 
 ### I can use an AddAttributeGroup operation when extending an entity
 
@@ -104,12 +104,12 @@ Given an entity, Child, that extends the Person entity:
 
 The resulting resolved Child entity is:
 
-|ChildGroup||
-||name|
-||age|
-||address|
-||phoneNumber|
-||email|
+|ChildGroup| |
+| |name|
+| |age|
+| |address|
+| |phoneNumber|
+| |email|
 
 ### I can use multiple AddAttributeGroup operations
 
@@ -140,10 +140,10 @@ Using multiple addAttributeGroup operations will result in an attribute group be
 
 The resulting resolved Child entity is:
 
-|OuterGroup|||
-||InnerGroup||
-|||name|
-|||age|
-|||address|
-|||phoneNumber|
-|||email|
+|OuterGroup| | |
+| |InnerGroup| |
+| | |name|
+| | |age|
+| | |address|
+| | |phoneNumber|
+| | |email|
