@@ -13,7 +13,7 @@ ms.author: violivei
 
 ## Overview
 
-AddCountAttribute is a projection operation that adds a user-specified count type attribute to the final resolved entity. It is recommended—but not mandated—to be used with the [ArrayExpansion](arrayexpansion.md) operation to provide an ArrayExpansion a count attribute that represents the total number of expanded elements. AddCountAttribute can also be used by itself.
+AddCountAttribute is a projection operation that adds a user-specified count attribute to the final resolved entity. It is recommended but not required to be used with an [ArrayExpansion](arrayexpansion.md) operation to provide the ArrayExpansion a count attribute that represents the total number of expanded elements. AddCountAttribute can also be used by itself.
 The created count attribute will have the trait `is.linkedEntity.array.count`. This trait indicates that the attribute holds a count.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addcountattribute.md).
@@ -50,7 +50,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a AddTypeAttribute operation on an entity attribute
+### I can use a AddCountAttribute operation on an entity attribute
 
 If we have an entity attribute, we can use AddCountAttribute to add a count attribute.
 
@@ -83,7 +83,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |email|
 |someCount|
 
-### I can use an AddTypeAttribute operation when extending an entity
+### I can use an AddCountAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddCountAttribute to add a Count attribute.
 
