@@ -1,12 +1,12 @@
 ---
 title: CdmObject Reference | Microsoft Docs
 description: API reference for CdmObjectReference.
-author: jinichu
+author: miroslavplese
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jibyun
+ms.author: miplese
 ---
 
 # CdmObject Reference
@@ -21,6 +21,7 @@ public interface CdmObjectReference extends CdmObject
 ## Properties
 |Name|Type|Description|
 |---|---|---|
+|Optional|bool|A boolean that denotes whether the reference is optional or not. This indicates the SDK to not error out in case the definition to which this reference points at can't be resolved.|
 |AppliedTraits|[CdmTraitCollection](traitcollection.md)|The collection of applied traits.|
 |ExplicitReference|[CdmObjectDefinition](cdmobjectdefinition.md)|The object definition that this reference is referencing.|
 |NamedReference|string|The string used to simply reference different concepts just by name without having to include any other extra data.|
