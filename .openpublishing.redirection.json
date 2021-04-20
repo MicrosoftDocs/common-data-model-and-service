@@ -2,137 +2,137 @@
   "redirections": [
     {
       "source_path": "entity-reference/common-data-model.md",
-      "redirect_url": "https://docs.microsoft.com/common-data-model/",
+      "redirect_url": "/common-data-model/",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/introduction.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/index.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/index.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/complete-upgrade-process.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/delete-legacy-cds-database.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/errors-resolutions.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/introduction-upgrade-cds.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/start-upgrade-process.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/upgrade-overview.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/upgrade-verify-apps-flows.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "common-data-service/upgradecds/what-to-expect.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro",
+      "redirect_url": "/powerapps/maker/common-data-service/data-platform-intro",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-intro.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/create-database.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/database-security.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-create-entity.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-cds-newentity-pq.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-manage-fields.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/field-groups.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/custom-picklists.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-entity-lookup.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-create-app.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-create-app-scratch.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-delete-entity.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-export-data.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-interactive-excel.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/powerapps/samples-resources.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
@@ -272,12 +272,12 @@
     },
     {
       "source_path": "entity-reference/data-integration-home-page.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/administrator/data-integrator",
+      "redirect_url": "/powerapps/administrator/data-integrator",
       "redirect_document_id": "false"
     },
     {
       "source_path": "entity-reference/dynamics-365-integration.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps/administrator/data-integrator",
+      "redirect_url": "/powerapps/administrator/data-integrator",
       "redirect_document_id": "false"
     },
     {
@@ -317,7 +317,7 @@
     },
     {
       "source_path": "entity-reference/powerapps/data-platform-cds-newentity-troubleshooting-mashup.md",
-      "redirect_url": "https://docs.microsoft.com/powerapps",
+      "redirect_url": "/powerapps",
       "redirect_document_id": "false"
     },
     {
