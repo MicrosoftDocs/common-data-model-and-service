@@ -11,6 +11,8 @@ ms.author: miplese
 
 # Trait Group
 
+*SDK version 1.2*
+
 A trait group allows multiple traits to be combined into a single set identified by a name. Behavior is similar to that of data types and purposes, except that trait groups may be applied to any object, not just entity or type attributes.
 
 ```csharp

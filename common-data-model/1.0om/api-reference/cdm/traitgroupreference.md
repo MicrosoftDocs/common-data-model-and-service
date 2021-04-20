@@ -11,6 +11,8 @@ ms.author: miplese
 
 # Trait Group Reference
 
+*SDK version 1.2*
+
 This is the reference class for [traits groups](traitgroup.md).
 
 ```csharp

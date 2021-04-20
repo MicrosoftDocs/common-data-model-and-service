@@ -11,6 +11,8 @@ ms.author: miplese
 
 # Trait Reference Base
 
+*SDK version 1.2*
+
 This is the base interface for trait and trait group references and doesn't introduce any new properties or methods. It's extended by *CdmTraitReference* and *CdmTraitGroupReference*.
 
 ```csharp
