@@ -18,9 +18,9 @@ Traits are the fundamental mechanism in the Common Data Model metadata grammar f
 - Translation using the Common Data Model SDK
 - Equivalence of traits when converting to or from the previous representation of Common Data Model folders (referred to as the model.json file format)
 
-For reference, the current form for representing Common Data Model metadata is called the *manifest* format. The Common Data Model manifest format encompasses several critical enhancements over the more limited *model.json* format. For more information, see [Common Data Model manifest object](https://docs.microsoft.com/common-data-model/sdk/manifest).
+For reference, the current form for representing Common Data Model metadata is called the *manifest* format. The Common Data Model manifest format encompasses several critical enhancements over the more limited *model.json* format. For more information, see [Common Data Model manifest object](./manifest.md).
 
-For detailed information about the model.json document format, see [Metadata file for the Common Data Model](https://docs.microsoft.com/common-data-model/model-json).
+For detailed information about the model.json document format, see [Metadata file for the Common Data Model](../model-json.md).
 
 ## What are traits?
 
@@ -281,7 +281,7 @@ Consult the [Common Data Model object model documentation](../1.0om/api-referenc
 
 ## Traits in model.json
 
-The model.json file format was the initial version of the format that describes Common Data Model folders. The Common Data Model manifest format is the new version that accommodates additional requirements and covers a superset of functionality of model.json. The Common Data Model SDK, available in multiple languages, provides automatic forward- (and backward-) translation between the metadata formats. The reference specification for manifest is publicly available at [The Manifest object](https://docs.microsoft.com/common-data-model/sdk/manifest).
+The model.json file format was the initial version of the format that describes Common Data Model folders. The Common Data Model manifest format is the new version that accommodates additional requirements and covers a superset of functionality of model.json. The Common Data Model SDK, available in multiple languages, provides automatic forward- (and backward-) translation between the metadata formats. The reference specification for manifest is publicly available at [The Manifest object](./manifest.md).
 
 When the Common Data Model SDK is used to open a model.json document, the model.json document will be converted into a manifest object with references to EntityDefinitions. When a **pbi:dataCategory** custom extension is encountered on an entity or attribute, it will be automatically translated into the equivalent Common Data Model standard semantic trait and that trait will be attached to the converted Common Data Model entity or attribute.
 
