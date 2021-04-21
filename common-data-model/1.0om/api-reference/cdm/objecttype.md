@@ -1,12 +1,12 @@
 ---
 title: CdmObject Type | Microsoft Docs
 description: API reference for CdmObjectType.
-author: jinichu
+author: miroslavplese
 ms.service: common-data-model
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
-ms.author: jibyun
+ms.author: miplese
 ---
 
 # CdmObject Type
@@ -24,6 +24,8 @@ public enum CdmObjectType
     TraitRef,
     PurposeDef,
     PurposeRef,
+    TraitGroupDef,
+    TraitGroupRef,
     DataTypeDef,
     DataTypeRef,
     AttributeRef,

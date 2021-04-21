@@ -11,12 +11,13 @@ ms.author: jibyun
 
 # Trait Reference
 
+*From SDK version 1.2 this class extends CdmTraitReferenceBase instead of CdmObjectReferenceBase*
+
 This is the reference class for [traits](trait.md).
 
 ```csharp
-public class CdmTraitReference extends CdmObjectReferenceBase
+public class CdmTraitReference extends CdmTraitReferenceBase
 ```
-*CdmTraitReference extends CdmObjectReference in Python.*
 
 ## Constructors
 |Name|Description|
