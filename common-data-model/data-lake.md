@@ -27,8 +27,8 @@ These terms are used throughout Common Data Model documentation.
 |   \*.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially references other sub-Manifest for nested solutions. If this file exists in such a folder, it's a Common Data Model folder.  For more information, go to [Common Data Model: Introducing manifest](./cdm-manifest.md). |
 |   model.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format. If this file exists in such a folder, it's a Common Data Model folder.  For more information, go to [the metadata file (model.json) for the Common Data Model](./model-json.md). |
 |    <*entity_name*>.cdm.json    |    A metadata file in the Common Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  For an example, see the [**Account**](https://github.com/microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/Account.cdm.json) entity document on GitHub. |
-|    Data producer    |    A service or app that creates data in Common Data Model folders in Azure Data Lake Storage Gen2.  For more information, go to [Common Data Model and Azure Data Lake Storage gen2]().|
-|    Data consumer    |    A service or app that consumes data in Common Data Model folders in Azure Data Lake Storage Gen2.  For more information, go to [Common Data Model and Azure Data Lake Storage gen2]().    |
+|    Data producer    |    A service or app that creates data in Common Data Model folders in Azure Data Lake Storage Gen2.|
+|    Data consumer    |    A service or app that consumes data in Common Data Model folders in Azure Data Lake Storage Gen2.|
 
 ## Common Data Model folders
 
