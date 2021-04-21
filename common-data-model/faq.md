@@ -15,15 +15,15 @@ This topic contains answers to frequently asked questions and best practices aro
 
 
 - General
-  - [What is the Common Data Model?](#what-is-the-common-data-model)
-  - [How is the Common Data Model related to the Open Data Initiative?](#how-is-the-common-data-model-related-to-the-open-data-initiative)
-  - [How is the Common Data Model related to other standard definitions?](#how-is-the-common-data-model-related-to-other-standard-definitions)
-  - [What type of semantic information can be defined with the Common Data Model?](#what-type-of-semantic-information-can-be-defined-with-the-common-data-model)
+  - [What is Common Data Model?](#what-is-common-data-model)
+  - [How is Common Data Model related to the Open Data Initiative?](#how-is-common-data-model-related-to-the-open-data-initiative)
+  - [How is Common Data Model related to other standard definitions?](#how-is-common-data-model-related-to-other-standard-definitions)
+  - [What type of semantic information can be defined with Common Data Model?](#what-type-of-semantic-information-can-be-defined-with-common-data-model)
   - [How are schemas and other artifacts versioned?](#how-are-schemas-and-other-artifacts-versioned)
   - [Where can I find libraries to help read and write Common Data Model metadata?](#where-can-i-find-libraries-to-help-read-and-write-common-data-model-metadata)
 
 - Microsoft Dataverse
-  - [How is the Common Data Model related to Dataverse?](#how-is-the-common-data-model-related-to-dataverse)
+  - [How is Common Data Model related to Dataverse?](#how-is-common-data-model-related-to-dataverse)
   - [How do I get all the standard entities in my Dataverse database?](#how-do-i-get-all-the-standard-entities-in-my-dataverse-database)
 
 - Azure data lake Storage Gen2
@@ -41,7 +41,7 @@ This topic contains answers to frequently asked questions and best practices aro
 
 ## General
 
-### What is the Common Data Model?
+### What is Common Data Model?
 
 The Common Data Model comprises of Microsoft application and analytical data schemas which have a standardized metadata system that help applications and services interoperate so that you get more value from your data. The Common Data Model simplifies data integration and application-development scenarios, allowing applications to be developed independently while they still maintain shared meaning of data.<br>More information: [The Common Data Model](index.md)
 
@@ -73,7 +73,7 @@ You can find sample libraries to read and write Common Data Model schema documen
 ## Dataverse
 
 
-### How is the Common Data Model related to Dataverse?
+### How is Common Data Model related to Dataverse?
 
 Dataverse implements the Common Data Model [standard entities](./schema/core/overview.md), such as [Account](./schema/core/applicationcommon/account.md) and [Contact](./schema/core/applicationcommon/contact.md).
 
