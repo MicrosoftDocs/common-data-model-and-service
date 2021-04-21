@@ -54,7 +54,6 @@ The Open Data Initiative, announced in September 2018 at Microsoft Ignite, is a 
 ### How is Common Data Model related to other standard definitions?
 
 The Common Data Model schema and standard [entities](./sdk/logical-definitions.md#entities-and-their-attributes) are influenced by existing standards, such as schema.org, throughout a variety of industries. Many Common Data Model [standard entities](./schema/core/overview.md) originated from Dynamics 365 but, as we extend to new industries and areas, we look to public standards in that space to help define extensions to the Common Data Model. Common Data Model [standard entities](./schema/core/overview.md) are open source and available under a Creative Commons license on [GitHub](https://aka.ms/cdmrepo).
-=======
 
 
 ### What type of semantic information can be defined with Common Data Model?
