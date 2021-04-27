@@ -24,11 +24,11 @@ These terms are used throughout Common Data Model documentation.
 | Concept | Definition |
 |--|--|
 |    Common Data Model folder       |    A folder in a data lake that conforms to specific, well-defined, and standardized metadata structures and self-describing data. These folders facilitate metadata discovery and interoperability between data producers and data consumers.    |
-|   \*.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially references other sub-Manifest for nested solutions. If this file exists in such a folder, it's a Common Data Model folder.  For more information, go to [Common Data Model: Introducing manifest](https://docs.microsoft.com/common-data-model/cdm-manifest). |
-|   model.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format. If this file exists in such a folder, it's a Common Data Model folder.  For more information, go to [the metadata file (model.json) for the Common Data Model](https://docs.microsoft.com/common-data-model/model-json). |
+|   \*.manifest.cdm.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format and potentially references other sub-Manifest for nested solutions. If this file exists in such a folder, it's a Common Data Model folder.  For more information, go to [Common Data Model: Introducing manifest](./cdm-manifest.md). |
+|   model.json |    A metadata file in a folder in a Data Lake Storage Gen2 instance that follows the Common Data Model metadata format. If this file exists in such a folder, it's a Common Data Model folder.  For more information, go to [the metadata file (model.json) for the Common Data Model](./model-json.md). |
 |    <*entity_name*>.cdm.json    |    A metadata file in the Common Data Model folder that contains the metadata about the specific entity, its attributes, semantic meanings of entity and attributes.  For an example, see the [**Account**](https://github.com/microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/Account.cdm.json) entity document on GitHub. |
-|    Data producer    |    A service or app that creates data in Common Data Model folders in Azure Data Lake Storage Gen2.  For more information, go to [Common Data Model and Azure Data Lake Storage gen2](https://docs.microsoft.com/common-data-model/data-lake).|
-|    Data consumer    |    A service or app that consumes data in Common Data Model folders in Azure Data Lake Storage Gen2.  For more information, go to [Common Data Model and Azure Data Lake Storage gen2](https://docs.microsoft.com/common-data-model/data-lake).    |
+|    Data producer    |    A service or app that creates data in Common Data Model folders in Azure Data Lake Storage Gen2.|
+|    Data consumer    |    A service or app that consumes data in Common Data Model folders in Azure Data Lake Storage Gen2.|
 
 ## Common Data Model folders
 
@@ -80,7 +80,7 @@ Data consumers are services or applications, such as Power BI or Dynamics 365 Cu
 
 Authorization is an important concept for both data producers and data consumers. Failure to set the right permissions for either scenario can lead to users' or services' having unrestricted access to all the data in the data lake.
 
-Data Lake Storage Gen2 supports a variety of authentication schemes, but we recommend you use Azure Active Directory (Azure AD) Bearer tokens and access control lists (ACLs) because they give you more granularity in scoping permissions to resources in the lake. Full details about the available schemes are provided in [Security recommendations for Blob storage](https://docs.microsoft.com/azure/storage/common/storage-security-guide).
+Data Lake Storage Gen2 supports a variety of authentication schemes, but we recommend you use Azure Active Directory (Azure AD) Bearer tokens and access control lists (ACLs) because they give you more granularity in scoping permissions to resources in the lake. Full details about the available schemes are provided in [Security recommendations for Blob storage](/azure/storage/common/storage-security-guide).
 
 ### Azure AD OAuth Bearer tokens and POSIX ACLs
 
@@ -96,4 +96,4 @@ Sharing Common Data Model folders with data consumers (that is, people and servi
 
 ### Alternative forms of authorization
 
-Storage Account Key or Shared Key authorization schemes are commonly used; these forms permit holders of the key to access all resources in the account. This path is the simplest, but limits your ability to share specific resources in the lake and doesn't allow administrators to audit who accessed the storage. [Security recommendations for Blob storage](https://docs.microsoft.com/azure/storage/common/storage-security-guide) provides full details about the available schemes.
+Storage Account Key or Shared Key authorization schemes are commonly used; these forms permit holders of the key to access all resources in the account. This path is the simplest, but limits your ability to share specific resources in the lake and doesn't allow administrators to audit who accessed the storage. [Security recommendations for Blob storage](/azure/storage/common/storage-security-guide) provides full details about the available schemes.

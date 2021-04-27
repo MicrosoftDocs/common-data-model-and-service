@@ -22,11 +22,11 @@ that data, reuse it, and interoperate with other businesses and apps that use
 the same format. Common data model can be used to define thousands of entities
 such as Customer, Product, Opportunity, Sale, Purchase Order, etc. as well as
 identifying data for regulatory and compliance purposes. Discover and explore
-up-to-date [Common Data Model Entity Reference](https://aka.ms/entityreference)
+up-to-date [Common Data Model Entity Reference](./schema/core/overview.md)
 
 
 [Learn
-more](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#glossary-of-definable-objects)
+more](./sdk/logical-definitions.md#glossary-of-definable-objects)
 about Common Data Model definable objects.
 
 Microsoft provided Common Data Model reference entities are categorized into
@@ -49,7 +49,7 @@ Data Model definitions are open and available to any service or application that
 
 Data described using Common Data Model can be used with Azure services to build
 scalable analytical solutions as well as being a
-[source](https://docs.microsoft.com/dynamics365/ai/customer-insights/connect-common-data-model-folder)
+[source](/dynamics365/ai/customer-insights/connect-common-data-model-folder)
 of semantically rich data for applications driving actionable insights like
 Dynamics 365 Customer Insights. that reason over data using machine-readable
 semantic metadata. Common Data Model is used to define entities for Dynamics 365
@@ -58,15 +58,15 @@ available in Azure Data Lake.
 
 Microsoft continues to extend the Common Data Model in collaboration with many
 partners and subject-matter experts so that more industries, building [Industry
-Accelerators](https://docs.microsoft.com/common-data-model/industry-accelerators)
+Accelerators](/dynamics365/industry/accelerators/overview)
 such as
-[Automotive](https://docs.microsoft.com/common-data-model/automotive-accelerator),
-[Banking](https://docs.microsoft.com/common-data-model/banking-accelerator),
-[Healthcare](https://docs.microsoft.com/common-data-model/health-accelerator),
+[Automotive](/dynamics365/industry/accelerators/automotive),
+[Banking](/dynamics365/industry/accelerators/banking),
+[Healthcare](/dynamics365/industry/accelerators/healthcare),
 [Higher
-Education](https://docs.microsoft.com/common-data-model/hied-accelerator),
+Education](/dynamics365/industry/accelerators/hied),
 [Not for
-profit](https://docs.microsoft.com/common-data-model/nfp-accelerator) can
+profit](/dynamics365/industry/accelerators/NFP) can
 benefit from the Common Data Model and the platforms that support it.
 
 Let’s explore some of the scenarios in detail
@@ -104,24 +104,24 @@ common format so that you can use, share, and analyze it more easily.
 
 ## Resources for Dataverse
 
--   [What is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+-   [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 -   [Add data to an entity in Dataverse by using Power
-    Query](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
+    Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq)
 
 -   [Introduction to
-    solutions](https://docs.microsoft.com/powerapps/developer/common-data-service/introduction-solutions)
+    solutions](/powerapps/developer/common-data-service/introduction-solutions)
 
 -   [Build a model-driven
-    app](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+    app](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 -   [Build a canvas
-    app](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)
+    app](/powerapps/maker/canvas-apps/getting-started)
 
--   [Create a flow that uses Dataverse](https://docs.microsoft.com/flow/common-data-model-intro)
+-   [Create a flow that uses Dataverse](/flow/common-data-model-intro)
 
 -   [Exporting Dataverse data to Azure Data
-    Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
+    Lake](/powerapps/maker/common-data-service/export-to-data-lake)
 
 ## Export data from Dataverse into Azure Data 
 -------------------------------------------------------------------------
@@ -142,7 +142,7 @@ common format so that you can use, share, and analyze it more easily.
 -   Continuous snapshot updates for large analytics scenarios.
 
 >   Learn more: [Exporting Dataverse data to Azure Data
->   Lake](https://docs.microsoft.com/powerapps/maker/common-data-service/export-to-data-lake)
+>   Lake](/powerapps/maker/common-data-service/export-to-data-lake)
 
 ## Export data from Dynamics 365 Finance and Operations into Azure Data 
 
@@ -199,21 +199,21 @@ Organizations can incorporate dataflows to suit their needs in these ways:
 ## Resources for Power BI
 
 -   [Self-service data prep in Power
-    BI](https://docs.microsoft.com/power-bi/service-dataflows-overview)
+    BI](/power-bi/service-dataflows-overview)
 
 -   [Creating and using dataflows in Power
-    BI](https://docs.microsoft.com/power-bi/service-dataflows-create-use)
+    BI](/power-bi/service-dataflows-create-use)
 
 -   [Connect to data created by Power BI dataflows in Power BI
-    Desktop](https://docs.microsoft.com/power-bi/desktop-connect-dataflows)
+    Desktop](/power-bi/desktop-connect-dataflows)
 
 -   [Developer resources for Power BI
-    dataflows](https://docs.microsoft.com/power-bi/service-dataflows-developer-resources)
+    dataflows](/power-bi/service-dataflows-developer-resources)
 
 ## Optimize data exchange in the Azure Data Lake
 
 [Azure Data Lake Storage
-Gen2](https://docs.microsoft.com/common-data-model/data-lake) is designed
+Gen2](./data-lake.md) is designed
 specifically for enterprises to run large-scale analytical workloads in the
 cloud. A wide variety of applications and services can easily access data in a
 data lake, however, each consumer must understand the format and meaning of the
@@ -224,9 +224,9 @@ which producers can map.
 ## Resources for the Common Data Model and Azure Data Lake Storage Gen2
 
 -   [Introduction to Azure Data Lake Storage
-    Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+    Gen2](/azure/storage/blobs/data-lake-storage-introduction)
 
 -   [Power BI and Azure Data Services dismantle data silos and unlock
     insights](https://aka.ms/cdmadsblog)
--   [Learn how to create Common Data Model definitions](https://docs.microsoft.com/common-data-model/creating-schemas)
-- [Learn how to use Common Data Model SDK](https://docs.microsoft.com/common-data-model/1.0om/api-reference/api-reference) with [sample code](https://docs.microsoft.com/common-data-model/samples) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
+-   [Learn how to create Common Data Model definitions](./creating-schemas.md)
+- [Learn how to use Common Data Model SDK](./1.0om/api-reference/api-reference.md) with [sample code](./samples.md) to [author Common Data Model artifacts](https://github.com/microsoft/CDM/tree/master/objectModel)
