@@ -441,6 +441,208 @@ The default behavior for Common Data Model is to treat an attribute of an entity
 
 The [convert logical entities into resolved entities](./convert-logical-entities-resolved-entities.md) article explains this behavior in depth and explains how to override the defaults to get the shaped entities you want.
 
+
+## Relationship Meanings - Defining a Purpose Object on an attribute of an entity type
+
+
+At the point where an **[entity typed attribute](#using-an-entity-as-the-type-of-an-attribute)** of one entity is being created, a **[purpose object](#the-purpose-object)** can be defined with **a set of applied traits**. This **[entity relationship](./manifest.md#entity-relationships)** can be obtained by calculating and populating the entity graph that in the **[manifest](./manifest.md)** that this entity is owned. This set of traits on the Purpose object will be elevated and shown up in the **[relationship list](./manifest.md#entity-relationships)** of the manifest.
+
+### Example
+
+The example below uses:
+ - 2 entities - `Product` and `Sales`
+ - 2 traits `means.backward` and `means.forward` 
+
+
+
+```json
+{
+    "entityName": "Product",
+    "hasAttributes": [
+        {
+            "purpose": "hasA",
+            "dataType": "integer",
+            "name": "ProductId"
+        },
+        {
+            "purpose": "hasA",
+            "dataType": "string",
+            "name": "ProductName"
+        }
+    ]
+},
+{
+    "entityName": "Sales",
+    "hasAttributes": [
+        {
+            "purpose": "hasA",
+            "dataType": "integer",
+            "name": "Amount"
+        }
+    ]
+},
+{
+    "traitName": "means.backward",
+    "explanation": "the attribute represents B->A.",
+    "hasParameters": [
+        {
+            "name": "description",
+            "dataType": "string",
+            "explanation": "The description of the relationship B->A",
+            "required": false
+        }
+    ]
+},
+{
+    "traitName": "means.forward",
+    "explanation": "the attribute represents A->B.",
+    "hasParameters": [
+        {
+            "name": "test",
+            "dataType": "description",
+            "explanation": "The description of the relationship A->B",
+            "required": false
+        }
+    ]
+}
+```
+
+[Using the projection operation ReplaceAsForeignKey to create a simple entity typed attribute](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) `SalesProductInfo` for `Sales`:
+
+```json
+{
+    "name": "SalesProductInfo",
+    "entity": {
+        "source": "Product",
+        "operations": [
+            {
+                "$type": "replaceAsForeignKey",
+                "reference": "name",
+                "replaceWith": {
+                    "name": "ProductFK",
+                    "dataType": "entityId"
+                }
+            }
+        ]
+    }
+}
+```
+
+Define a purpose object like below:
+
+```json
+{
+    "purpose": {
+        "purposeReference": "hasA",
+        "appliedTraits": [
+            {
+                "traitReference": "means.forward",
+                "arguments": [
+                    "Description for the forward direction in the relationship."
+                ]
+            },
+            {
+                "traitReference": "means.backward",
+                "arguments": [
+                    "Description for the backward direction in the relationship."
+                ]
+            }
+        ]
+    }
+}
+```
+
+Now, add the entity typed attribute `SalesProductInfo` with the purpose.
+
+```json
+{
+    "name": "SalesProductInfo",
+    "purpose": {
+        "purposeReference": "hasA",
+        "appliedTraits": [
+            {
+                "traitReference": "means.forward",
+                "arguments": [
+                    "Description for the forward direction in the relationship."
+                ]
+            },
+            {
+                "traitReference": "means.backward",
+                "arguments": [
+                    "Description for the backward direction in the relationship."
+                ]
+            }
+        ]
+    },
+    "entity": {
+        "source": "Product",
+        "operations": [
+            {
+                "$type": "replaceAsForeignKey",
+                "reference": "name",
+                "replaceWith": {
+                    "name": "ProductFK",
+                    "dataType": "entityId"
+                }
+            }
+        ]
+    }
+}
+
+```
+
+After calculating and populating the entity graph for the following manifest:
+
+
+```json
+{
+    "manifestName": "default.manifest.cdm.json",
+    "entities": [
+        {
+            "type": "LocalEntity",
+            "entityName": "Product",
+            "entityPath": "Product.cdm.json/Product"
+        },
+        {
+            "type": "LocalEntity",
+            "entityName": "Sales",
+            "entityPath": "Sales.cdm.json/Sales"
+        }
+    ]   
+}
+```
+
+A relationship list like below will be generated:
+
+```json
+{
+  "relationships": [
+    {
+      "name": "SalesProductInfo_Product",
+      "fromEntity": "local:/Sales.cdm.json/Sales",
+      "fromEntityAttribute": "ProductFK",
+      "toEntity": "local:/Product.cdm.json/Product",
+      "toEntityAttribute": "ProductId",
+      "exhibitsTraits": [
+        {
+          "traitReference": "means.forward",
+          "arguments": [
+            "Description for the forward direction in the relationship."
+          ]
+        },
+        {
+          "traitReference": "means.backward",
+          "arguments": [
+            "Description for the backward direction in the relationship."
+          ]
+        }
+      ]
+    }
+  ]     
+}
+```
+
+
 ## The AttributeGroup object
 
 The **AttributeGroup** object offers a convenient way to name and reuse a set of attributes that are always used together, but the grouping doesn't quite merit being called an entity, or when you don't want to deal with the complex data type semantics of using an entity typed attribute.

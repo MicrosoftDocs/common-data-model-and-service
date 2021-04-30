@@ -279,7 +279,8 @@ correlates two many-to-one relationships.
 | fromEntityAttribute                                                      | The name of the referencing attribute, a foreign key.                                                                                                                                                              |
 | toEntity                                                                 | A corpus path to the document or entity on the "one" side of the relationship.                                                                                                                                     |
 | toEntityAttribute                                                        | The name of the referenced attribute, often the primary key of that entity.                                                                                                                                        |
-| Method                                                                   | Description                                                                                                                                                                                                        |
+| name                                                                     | The name of the relationship                                                                                                                                                                                                        |
+| exhibitsTraits                                                           | Relationship meanings                                                                                                                                                                                                        |
 | Corpus.CalculateEntityGraph(ICommon Data ModelManifestDef rootManifest); | Causes the corpus to calculate and cache knowledge about all of the entity-to-entity relationships found in the logical entity descriptions for the given manifest, and all of the submanifests that it indicates. |
 | Manifest. PopulateManifestRelationships()                                | The manifest will use the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that's on either the "one" side or the "many" side of a known relationship.      |
 
@@ -427,5 +428,6 @@ The following manifest document demonstrates each of the abovementioned capabili
 ## Learn more
 
 - Common Data Model [fundamentals](fundamentals.md)
+- Common Data Model [manifest](manifest.md)
 - Common Data Model [logical definitions](logical-definitions.md)
 
