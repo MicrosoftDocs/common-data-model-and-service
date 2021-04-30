@@ -552,41 +552,51 @@ Define a purpose object like below:
 }
 ```
 
-Now, add the entity typed attribute `SalesProductInfo` with the purpose.
+Now, add the entity typed attribute `SalesProductInfo` with the purpose to the entity `Sales`.
 
 ```json
 {
-    "name": "SalesProductInfo",
-    "purpose": {
-        "purposeReference": "hasA",
-        "appliedTraits": [
-            {
-                "traitReference": "means.forward",
-                "arguments": [
-                    "Description for the forward direction in the relationship."
+    "entityName": "Sales",
+    "hasAttributes": [
+        {
+            "purpose": "hasA",
+            "dataType": "integer",
+            "name": "Amount"
+        },
+        {
+            "name": "SalesProductInfo",
+            "purpose": {
+                "purposeReference": "hasA",
+                "appliedTraits": [
+                    {
+                        "traitReference": "means.forward",
+                        "arguments": [
+                            "Description for the forward direction in the relationship."
+                        ]
+                    },
+                    {
+                        "traitReference": "means.backward",
+                        "arguments": [
+                            "Description for the backward direction in the relationship."
+                        ]
+                    }
                 ]
             },
-            {
-                "traitReference": "means.backward",
-                "arguments": [
-                    "Description for the backward direction in the relationship."
+            "entity": {
+                "source": "Product",
+                "operations": [
+                    {
+                        "$type": "replaceAsForeignKey",
+                        "reference": "name",
+                        "replaceWith": {
+                            "name": "ProductFK",
+                            "dataType": "entityId"
+                        }
+                    }
                 ]
             }
-        ]
-    },
-    "entity": {
-        "source": "Product",
-        "operations": [
-            {
-                "$type": "replaceAsForeignKey",
-                "reference": "name",
-                "replaceWith": {
-                    "name": "ProductFK",
-                    "dataType": "entityId"
-                }
-            }
-        ]
-    }
+        }
+    ]
 }
 
 ```
