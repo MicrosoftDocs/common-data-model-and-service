@@ -1,3 +1,13 @@
+---
+title: A list of Common Data Model traits | Microsoft Docs
+description: A list of Common Data Model traits.
+author: msftman
+ms.service: common-data-model
+ms.reviewer: v-iap
+ms.topic: article
+ms.date: 05/06/2021
+ms.author: matgos
+---
 
 # List of CDM traits
 
