@@ -1,24 +1,18 @@
----
-title: List of Common Data Model datatypes | Microsoft Docs
-description: The list of datatypes available within Common Data Model.
-author: msftman
-ms.service: common-data-model
-ms.reviewer: v-iap
-ms.topic: article
-ms.date: 02/11/2021
-ms.author: matgos
----
 
 # List of CDM data types
+
 This page lists the data types which are available in Common Data Model.
 
+
 ## <a id="addressline"><b>addressLine</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>addressLine</b>|
+
 
 **Traits**
 
@@ -30,13 +24,16 @@ This page lists the data types which are available in Common Data Model.
 |<b>means.location.address</b>|
 
 
+
 ## <a id="age"><b>age</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>age</b>|
+
 
 **Traits**
 
@@ -47,17 +44,22 @@ This page lists the data types which are available in Common Data Model.
 |<b>means.measurement.age</b>|
 
 
+
 ## <a id="ampere"><b>ampere</b></a>
+
 
 **Description**
 
+
 Unit of measure for electric current in amperes
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>ampere</b>|
+
 
 **Traits**
 
@@ -70,26 +72,35 @@ Unit of measure for electric current in amperes
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 
 
+
 ## <a id="any"><b>any</b></a>
+
 
 **Description**
 
+
 The root dataType
+
 
 **Inheritance**
 
 None
+
 
 **Traits**
 
 None
 
 
+
 ## <a id="attribute"><b>attribute</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
@@ -97,16 +108,21 @@ Types for trait parameters that take objects as values
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>attribute</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="attributegroup"><b>attributeGroup</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
@@ -114,22 +130,28 @@ Types for trait parameters that take objects as values
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>attributeGroup</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="attributename"><b>attributeName</b></a>
+
 
 **Description**
 
+
 Type for trait parameters that take attribute names as values
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>attributeName</b>|
+
 
 **Traits**
 
@@ -141,17 +163,22 @@ Type for trait parameters that take attribute names as values
 |<b>means.attributeName</b>|
 
 
+
 ## <a id="basecurrency"><b>baseCurrency</b></a>
+
 
 **Description**
 
+
 Value is expressed in the base currency units for the system
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- [<b>currency</b>](#currency) <- <b>baseCurrency</b>|
+
 
 **Traits**
 
@@ -162,13 +189,16 @@ Value is expressed in the base currency units for the system
 |<b>means.measurement.currency</b>|
 
 
+
 ## <a id="biginteger"><b>bigInteger</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>bigInteger</b>|
+
 
 **Traits**
 
@@ -178,13 +208,16 @@ Value is expressed in the base currency units for the system
 |<b>is.dataFormat.big</b>|
 
 
+
 ## <a id="binary"><b>binary</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>byte</b>](#byte) <- <b>binary</b>|
+
 
 **Traits**
 
@@ -194,13 +227,16 @@ Value is expressed in the base currency units for the system
 |<b>is.dataFormat.array</b>|
 
 
+
 ## <a id="birthdate"><b>birthDate</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>date</b>](#date) <- [<b>dateTime</b>](#datetime) <- <b>birthDate</b>|
+
 
 **Traits**
 
@@ -213,13 +249,16 @@ Value is expressed in the base currency units for the system
 |<b>means.demographic.birthDate</b>|
 
 
+
 ## <a id="boolean"><b>boolean</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>boolean</b>|
+
 
 **Traits**
 
@@ -228,13 +267,16 @@ Value is expressed in the base currency units for the system
 |<b>is.dataFormat.boolean</b>|
 
 
+
 ## <a id="byte"><b>byte</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>byte</b>|
+
 
 **Traits**
 
@@ -243,17 +285,22 @@ Value is expressed in the base currency units for the system
 |<b>is.dataFormat.byte</b>|
 
 
+
 ## <a id="candela"><b>candela</b></a>
+
 
 **Description**
 
+
 Unit of measure for luminous intensity in candelas
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>candela</b>|
+
 
 **Traits**
 
@@ -266,11 +313,15 @@ Unit of measure for luminous intensity in candelas
 |<b>has.measurement.fundamentalComponent.candela</b>|
 
 
+
 ## <a id="cdmobject"><b>cdmObject</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take CDM objects as values
+
 
 **Inheritance**
 
@@ -278,22 +329,28 @@ Types for trait parameters that take CDM objects as values
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- <b>cdmObject</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="celsius"><b>celsius</b></a>
+
 
 **Description**
 
+
 Unit of measure for temperature in degrees celsius
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>celsius</b>|
+
 
 **Traits**
 
@@ -306,17 +363,22 @@ Unit of measure for temperature in degrees celsius
 |<b>has.measurement.fundamentalComponent.kelvin</b>|
 
 
+
 ## <a id="centimeter"><b>centimeter</b></a>
+
 
 **Description**
 
+
 Unit of measure for length in 10E-2 meters
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>meter</b>](#meter) <- <b>centimeter</b>|
+
 
 **Traits**
 
@@ -330,13 +392,16 @@ Unit of measure for length in 10E-2 meters
 |<b>means.measurement.prefix.centi</b>|
 
 
+
 ## <a id="char"><b>char</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>char</b>|
+
 
 **Traits**
 
@@ -346,13 +411,16 @@ Unit of measure for length in 10E-2 meters
 |<b>is.dataFormat.big</b>|
 
 
+
 ## <a id="city"><b>city</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>city</b>|
+
 
 **Traits**
 
@@ -364,13 +432,16 @@ Unit of measure for length in 10E-2 meters
 |<b>means.location.city</b>|
 
 
+
 ## <a id="colorname"><b>colorName</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>colorName</b>|
+
 
 **Traits**
 
@@ -382,13 +453,16 @@ Unit of measure for length in 10E-2 meters
 |<b>means.measurement.color</b>|
 
 
+
 ## <a id="companyname"><b>companyName</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>companyName</b>|
+
 
 **Traits**
 
@@ -400,17 +474,22 @@ Unit of measure for length in 10E-2 meters
 |<b>means.identity.company.name</b>|
 
 
+
 ## <a id="coulomb"><b>coulomb</b></a>
+
 
 **Description**
 
+
 Unit of measure for electric charge or amount of electricity in coulombs
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>coulomb</b>|
+
 
 **Traits**
 
@@ -424,13 +503,16 @@ Unit of measure for electric charge or amount of electricity in coulombs
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 
 
+
 ## <a id="country"><b>country</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>country</b>|
+
 
 **Traits**
 
@@ -442,13 +524,16 @@ Unit of measure for electric charge or amount of electricity in coulombs
 |<b>means.location.country</b>|
 
 
+
 ## <a id="county"><b>county</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>county</b>|
+
 
 **Traits**
 
@@ -460,17 +545,22 @@ Unit of measure for electric charge or amount of electricity in coulombs
 |<b>means.location.county</b>|
 
 
+
 ## <a id="culturetag"><b>cultureTag</b></a>
+
 
 **Description**
 
+
 A BCP 47 language tag
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>languageTag</b>](#languagetag) <- <b>cultureTag</b>|
+
 
 **Traits**
 
@@ -483,17 +573,22 @@ A BCP 47 language tag
 |<b>means.reference.culture.tag</b>|
 
 
+
 ## <a id="currency"><b>currency</b></a>
+
 
 **Description**
 
+
 An amount of currency, money in units specified elsewhere.
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>currency</b>|
+
 
 **Traits**
 
@@ -503,17 +598,22 @@ An amount of currency, money in units specified elsewhere.
 |<b>means.measurement.currency</b>|
 
 
+
 ## <a id="currencycode"><b>currencyCode</b></a>
+
 
 **Description**
 
+
 Value is a ISO 4217 currency code
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>currencyCode</b>|
+
 
 **Traits**
 
@@ -525,11 +625,15 @@ Value is a ISO 4217 currency code
 |<b>means.measurement.currencyCode</b>|
 
 
+
 ## <a id="datatype"><b>dataType</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
@@ -537,18 +641,22 @@ Types for trait parameters that take objects as values
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>dataType</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="date"><b>date</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>date</b>|
+
 
 **Traits**
 
@@ -558,13 +666,16 @@ None
 |<b>means.measurement.date</b>|
 
 
+
 ## <a id="datetime"><b>dateTime</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>date</b>](#date) <- <b>dateTime</b>|
+
 
 **Traits**
 
@@ -576,13 +687,16 @@ None
 |<b>means.measurement.time</b>|
 
 
+
 ## <a id="datetimeoffset"><b>dateTimeOffset</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>date</b>](#date) <- [<b>dateTime</b>](#datetime) <- <b>dateTimeOffset</b>|
+
 
 **Traits**
 
@@ -595,34 +709,22 @@ None
 |<b>is.dataFormat.timeOffset</b>|
 
 
-## <a id="day"><b>day</b></a>
-
-**Inheritance**
-
-| |
-|--|
-|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>day</b>|
-
-**Traits**
-
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.day</b>|
-
 
 ## <a id="day"><b>day</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in 'one earth rotation' interval
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>day</b>|
+
 
 **Traits**
 
@@ -634,17 +736,42 @@ Unit of measure for time in 'one earth rotation' interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
+## <a id="day"><b>day</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>day</b>|
+
+
+**Traits**
+
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.day</b>|
+
+
+
 ## <a id="decimal"><b>decimal</b></a>
+
 
 **Description**
 
+
 A precice fractional number with a specific precision and scale
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>decimal</b>|
+
 
 **Traits**
 
@@ -653,17 +780,22 @@ A precice fractional number with a specific precision and scale
 |<b>is.dataFormat.numeric.shaped</b>|
 
 
+
 ## <a id="degree"><b>degree</b></a>
+
 
 **Description**
 
+
 Unit of measure for angles in degrees, 1/360 rotation
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>degree</b>|
+
 
 **Traits**
 
@@ -676,13 +808,16 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>has.measurement.fundamentalComponent</b>|
 
 
+
 ## <a id="displayorder"><b>displayOrder</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>displayOrder</b>|
+
 
 **Traits**
 
@@ -692,13 +827,16 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>means.formatting.order</b>|
 
 
+
 ## <a id="double"><b>double</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- <b>double</b>|
+
 
 **Traits**
 
@@ -708,13 +846,16 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>is.dataFormat.big</b>|
 
 
+
 ## <a id="email"><b>email</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>email</b>|
+
 
 **Traits**
 
@@ -726,17 +867,22 @@ Unit of measure for angles in degrees, 1/360 rotation
 |<b>means.identity.service.email</b>|
 
 
+
 ## <a id="entity"><b>entity</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>entity</b>|
+
 
 **Traits**
 
@@ -745,17 +891,22 @@ Types for trait parameters that take objects as values
 |<b>means.entityName.specific</b>|
 
 
+
 ## <a id="entityid"><b>entityId</b></a>
+
 
 **Description**
 
+
 A unique identifier for entity instances
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>guid</b>](#guid) <- <b>entityId</b>|
+
 
 **Traits**
 
@@ -768,17 +919,22 @@ A unique identifier for entity instances
 |<b>means.identity.entityId</b>|
 
 
+
 ## <a id="entityname"><b>entityName</b></a>
+
 
 **Description**
 
+
 Type for trait parameters that take entity names as values
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>entityName</b>|
+
 
 **Traits**
 
@@ -791,13 +947,16 @@ Type for trait parameters that take entity names as values
 |<b>means.entityName</b>|
 
 
+
 ## <a id="ethnicity"><b>ethnicity</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>ethnicity</b>|
+
 
 **Traits**
 
@@ -809,17 +968,22 @@ Type for trait parameters that take entity names as values
 |<b>means.demographic.ethnicity</b>|
 
 
+
 ## <a id="farad"><b>farad</b></a>
+
 
 **Description**
 
+
 Unit of measure for electric capacitance in farads
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>farad</b>|
+
 
 **Traits**
 
@@ -835,17 +999,22 @@ Unit of measure for electric capacitance in farads
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 
 
+
 ## <a id="fileid"><b>fileId</b></a>
+
 
 **Description**
 
+
 A unique identifier for file instances
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>guid</b>](#guid) <- [<b>entityId</b>](#entityid) <- <b>fileId</b>|
+
 
 **Traits**
 
@@ -858,17 +1027,22 @@ A unique identifier for file instances
 |<b>means.identity.entityId</b>|
 
 
+
 ## <a id="filename"><b>fileName</b></a>
+
 
 **Description**
 
+
 A string value representing the name of a file.
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>fileName</b>|
+
 
 **Traits**
 
@@ -880,13 +1054,16 @@ A string value representing the name of a file.
 |<b>means.fileName</b>|
 
 
+
 ## <a id="firstname"><b>firstName</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>firstName</b>|
+
 
 **Traits**
 
@@ -898,17 +1075,22 @@ A string value representing the name of a file.
 |<b>means.identity.person.firstName</b>|
 
 
+
 ## <a id="fixeddecimal"><b>fixedDecimal</b></a>
+
 
 **Description**
 
+
 The 64 bit fixed (4) scale numbers used by PBI
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>fixedDecimal</b>|
+
 
 **Traits**
 
@@ -917,17 +1099,22 @@ The 64 bit fixed (4) scale numbers used by PBI
 |<b>is.dataFormat.numeric.shaped</b>|
 
 
+
 ## <a id="float"><b>float</b></a>
+
 
 **Description**
 
+
 Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation.
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>float</b>|
+
 
 **Traits**
 
@@ -936,13 +1123,16 @@ Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation
 |<b>is.dataFormat.floatingPoint</b>|
 
 
+
 ## <a id="fullname"><b>fullName</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>fullName</b>|
+
 
 **Traits**
 
@@ -954,13 +1144,16 @@ Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation
 |<b>means.identity.person.fullName</b>|
 
 
+
 ## <a id="gender"><b>gender</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>gender</b>|
+
 
 **Traits**
 
@@ -972,17 +1165,22 @@ Fractional numbers, assumed to correspond with a 32 bit float IEEE approximation
 |<b>means.demographic.gender</b>|
 
 
+
 ## <a id="gigahertz"><b>gigahertz</b></a>
+
 
 **Description**
 
+
 Unit of frequency equivalent to 10E9 hertz
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>hertz</b>](#hertz) <- <b>gigahertz</b>|
+
 
 **Traits**
 
@@ -996,17 +1194,22 @@ Unit of frequency equivalent to 10E9 hertz
 |<b>means.measurement.prefix.giga</b>|
 
 
+
 ## <a id="gigapascal"><b>gigapascal</b></a>
+
 
 **Description**
 
+
 Unit of stress, equivalent to 10E9 pascals
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>pascal</b>](#pascal) <- <b>gigapascal</b>|
+
 
 **Traits**
 
@@ -1022,13 +1225,16 @@ Unit of stress, equivalent to 10E9 pascals
 |<b>means.measurement.prefix.giga</b>|
 
 
+
 ## <a id="governmentid"><b>governmentId</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>governmentId</b>|
+
 
 **Traits**
 
@@ -1040,17 +1246,22 @@ Unit of stress, equivalent to 10E9 pascals
 |<b>means.identity.governmentID</b>|
 
 
+
 ## <a id="gram"><b>gram</b></a>
+
 
 **Description**
 
+
 Unit of measure for mass in grams
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>gram</b>|
+
 
 **Traits**
 
@@ -1063,13 +1274,16 @@ Unit of measure for mass in grams
 |<b>has.measurement.fundamentalComponent.kilogram</b>|
 
 
+
 ## <a id="guid"><b>guid</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>guid</b>|
+
 
 **Traits**
 
@@ -1081,17 +1295,22 @@ Unit of measure for mass in grams
 |<b>is.dataFormat.guid</b>|
 
 
+
 ## <a id="hertz"><b>hertz</b></a>
+
 
 **Description**
 
+
 Unit of measure for frequency in hertz
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>hertz</b>|
+
 
 **Traits**
 
@@ -1104,17 +1323,22 @@ Unit of measure for frequency in hertz
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="hour"><b>hour</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in 3600 second interval
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>hour</b>|
+
 
 **Traits**
 
@@ -1126,13 +1350,16 @@ Unit of measure for time in 3600 second interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="image"><b>image</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>byte</b>](#byte) <- [<b>binary</b>](#binary) <- <b>image</b>|
+
 
 **Traits**
 
@@ -1143,13 +1370,16 @@ Unit of measure for time in 3600 second interval
 |<b>means.content.binary.image</b>|
 
 
+
 ## <a id="inches"><b>inches</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>inches</b>|
+
 
 **Traits**
 
@@ -1160,17 +1390,22 @@ Unit of measure for time in 3600 second interval
 |<b>means.measurement.distance.inches</b>|
 
 
+
 ## <a id="integer"><b>integer</b></a>
+
 
 **Description**
 
+
 Whole numbers, assumed to correspond with a 32 bit signed int
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>integer</b>|
+
 
 **Traits**
 
@@ -1179,13 +1414,16 @@ Whole numbers, assumed to correspond with a 32 bit signed int
 |<b>is.dataFormat.integer</b>|
 
 
+
 ## <a id="integercalendarpart"><b>integerCalendarPart</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>integerCalendarPart</b>|
+
 
 **Traits**
 
@@ -1195,17 +1433,22 @@ Whole numbers, assumed to correspond with a 32 bit signed int
 |<b>means.calendar</b>|
 
 
+
 ## <a id="ip4address"><b>IP4Address</b></a>
+
 
 **Description**
 
+
 Internet Protocol V4 Address of the form DDD.DDD.DDD.DDD
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>IP4Address</b>|
+
 
 **Traits**
 
@@ -1217,17 +1460,22 @@ Internet Protocol V4 Address of the form DDD.DDD.DDD.DDD
 |<b>means.identity.IP4Address</b>|
 
 
+
 ## <a id="ip6address"><b>IP6Address</b></a>
+
 
 **Description**
 
+
 Internet Protocol V6 Address of the form  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>IP6Address</b>|
+
 
 **Traits**
 
@@ -1239,17 +1487,22 @@ Internet Protocol V6 Address of the form  XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXX
 |<b>means.identity.IP6Address</b>|
 
 
+
 ## <a id="joule"><b>joule</b></a>
+
 
 **Description**
 
+
 Unit of measure for energy, work or heat in joules
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>joule</b>|
+
 
 **Traits**
 
@@ -1264,13 +1517,16 @@ Unit of measure for energy, work or heat in joules
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="jsinteger"><b>JSInteger</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>JSInteger</b>|
+
 
 **Traits**
 
@@ -1280,17 +1536,22 @@ Unit of measure for energy, work or heat in joules
 |<b>is.dataFormat.JSInteger</b>|
 
 
+
 ## <a id="json"><b>json</b></a>
+
 
 **Description**
 
+
 A JSON fragment contained within one string value
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>json</b>|
+
 
 **Traits**
 
@@ -1302,17 +1563,22 @@ A JSON fragment contained within one string value
 |<b>means.content.text.JSON</b>|
 
 
+
 ## <a id="kelvin"><b>kelvin</b></a>
+
 
 **Description**
 
+
 Unit of measure for thermodynamic temperature in degrees kelvin
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>kelvin</b>|
+
 
 **Traits**
 
@@ -1325,17 +1591,22 @@ Unit of measure for thermodynamic temperature in degrees kelvin
 |<b>has.measurement.fundamentalComponent.kelvin</b>|
 
 
+
 ## <a id="kilogram"><b>kilogram</b></a>
+
 
 **Description**
 
+
 Unit of measure for mass in kilogram
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>kilogram</b>|
+
 
 **Traits**
 
@@ -1348,17 +1619,22 @@ Unit of measure for mass in kilogram
 |<b>has.measurement.fundamentalComponent.kilogram</b>|
 
 
+
 ## <a id="kilohertz"><b>kilohertz</b></a>
+
 
 **Description**
 
+
 Unit of frequency equivalent to 10E3 hertz
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>hertz</b>](#hertz) <- <b>kilohertz</b>|
+
 
 **Traits**
 
@@ -1372,17 +1648,22 @@ Unit of frequency equivalent to 10E3 hertz
 |<b>means.measurement.prefix.kilo</b>|
 
 
+
 ## <a id="kilometer"><b>kilometer</b></a>
+
 
 **Description**
 
+
 Unit of measure for length in 10E3 meters
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>meter</b>](#meter) <- <b>kilometer</b>|
+
 
 **Traits**
 
@@ -1396,17 +1677,22 @@ Unit of measure for length in 10E3 meters
 |<b>means.measurement.prefix.kilo</b>|
 
 
+
 ## <a id="kiloohm"><b>kiloOhm</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E3 ohms
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ohm</b>](#ohm) <- <b>kiloOhm</b>|
+
 
 **Traits**
 
@@ -1423,17 +1709,22 @@ Unit of power, equivalent to 10E3 ohms
 |<b>means.measurement.prefix.kilo</b>|
 
 
+
 ## <a id="kilopascal"><b>kilopascal</b></a>
+
 
 **Description**
 
+
 Unit of stress, equivalent to 10E3 pascals
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>pascal</b>](#pascal) <- <b>kilopascal</b>|
+
 
 **Traits**
 
@@ -1449,17 +1740,22 @@ Unit of stress, equivalent to 10E3 pascals
 |<b>means.measurement.prefix.kilo</b>|
 
 
+
 ## <a id="kilovolt"><b>kilovolt</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E3 volts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>volt</b>](#volt) <- <b>kilovolt</b>|
+
 
 **Traits**
 
@@ -1476,17 +1772,22 @@ Unit of power, equivalent to 10E3 volts
 |<b>means.measurement.prefix.kilo</b>|
 
 
+
 ## <a id="kilowatt"><b>kilowatt</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E3 watts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>watt</b>](#watt) <- <b>kilowatt</b>|
+
 
 **Traits**
 
@@ -1502,17 +1803,22 @@ Unit of power, equivalent to 10E3 watts
 |<b>means.measurement.prefix.kilo</b>|
 
 
+
 ## <a id="language"><b>language</b></a>
+
 
 **Description**
 
+
 A language identifier
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>language</b>|
+
 
 **Traits**
 
@@ -1524,17 +1830,22 @@ A language identifier
 |<b>means.reference.language</b>|
 
 
+
 ## <a id="languagetag"><b>languageTag</b></a>
+
 
 **Description**
 
+
 A BCP 47 language tag
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>languageTag</b>|
+
 
 **Traits**
 
@@ -1546,13 +1857,16 @@ A BCP 47 language tag
 |<b>means.reference.language.tag</b>|
 
 
+
 ## <a id="lastname"><b>lastName</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>lastName</b>|
+
 
 **Traits**
 
@@ -1564,13 +1878,16 @@ A BCP 47 language tag
 |<b>means.identity.person.lastName</b>|
 
 
+
 ## <a id="latitude"><b>latitude</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>latitude</b>|
+
 
 **Traits**
 
@@ -1581,17 +1898,22 @@ A BCP 47 language tag
 |<b>means.location.latitude</b>|
 
 
+
 ## <a id="list"><b>list</b></a>
+
 
 **Description**
 
+
 A CSV contained within one string value
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>list</b>|
+
 
 **Traits**
 
@@ -1603,17 +1925,22 @@ A CSV contained within one string value
 |<b>means.content.text.CSV</b>|
 
 
+
 ## <a id="listlookup"><b>listLookup</b></a>
+
 
 **Description**
 
+
 One integer value from a defined list of possibilities
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>listLookup</b>|
+
 
 **Traits**
 
@@ -1624,17 +1951,22 @@ One integer value from a defined list of possibilities
 |<b>is.constrainedList</b>|
 
 
+
 ## <a id="listlookupcorrelated"><b>listLookupCorrelated</b></a>
+
 
 **Description**
 
+
 One integer value from a defined list of possibilities where the list represents correlated status
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>listLookupCorrelated</b>|
+
 
 **Traits**
 
@@ -1644,17 +1976,22 @@ One integer value from a defined list of possibilities where the list represents
 |<b>is.constrainedList.correlated</b>|
 
 
+
 ## <a id="listlookupmultiple"><b>listLookupMultiple</b></a>
+
 
 **Description**
 
+
 A set of one or more values from a defined list of possibilities
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>listLookupMultiple</b>|
+
 
 **Traits**
 
@@ -1668,17 +2005,22 @@ A set of one or more values from a defined list of possibilities
 |<b>is.constrainedList</b>|
 
 
+
 ## <a id="listlookupstring"><b>listLookupString</b></a>
+
 
 **Description**
 
+
 One string value from a defined list of possibilities
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>listLookupString</b>|
+
 
 **Traits**
 
@@ -1690,17 +2032,22 @@ One string value from a defined list of possibilities
 |<b>is.constrainedList.string</b>|
 
 
+
 ## <a id="listlookupwellknown"><b>listLookupWellKnown</b></a>
+
 
 **Description**
 
+
 One string value from a defined list of possibilities which are defined in an identified public location.
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>listLookupWellKnown</b>|
+
 
 **Traits**
 
@@ -1712,13 +2059,16 @@ One string value from a defined list of possibilities which are defined in an id
 |<b>is.constrainedList.wellKnown</b>|
 
 
+
 ## <a id="localizeddisplaytext"><b>localizedDisplayText</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>localizedDisplayText</b>|
+
 
 **Traits**
 
@@ -1730,13 +2080,16 @@ One string value from a defined list of possibilities which are defined in an id
 |<b>means.reference.displayText</b>|
 
 
+
 ## <a id="localizeddisplaytextmultiple"><b>localizedDisplayTextMultiple</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>localizedDisplayText</b>](#localizeddisplaytext) <- <b>localizedDisplayTextMultiple</b>|
+
 
 **Traits**
 
@@ -1749,13 +2102,16 @@ One string value from a defined list of possibilities which are defined in an id
 |<b>means.content.text.CSV</b>|
 
 
+
 ## <a id="longitude"><b>longitude</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>longitude</b>|
+
 
 **Traits**
 
@@ -1766,13 +2122,16 @@ One string value from a defined list of possibilities which are defined in an id
 |<b>means.location.longitude</b>|
 
 
+
 ## <a id="maritalstatus"><b>maritalStatus</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>maritalStatus</b>|
+
 
 **Traits**
 
@@ -1784,17 +2143,22 @@ One string value from a defined list of possibilities which are defined in an id
 |<b>means.demographic.maritalStatus</b>|
 
 
+
 ## <a id="megahertz"><b>megahertz</b></a>
+
 
 **Description**
 
+
 Unit of frequency equivalent to 10E6 hertz
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>hertz</b>](#hertz) <- <b>megahertz</b>|
+
 
 **Traits**
 
@@ -1808,17 +2172,22 @@ Unit of frequency equivalent to 10E6 hertz
 |<b>means.measurement.prefix.mega</b>|
 
 
+
 ## <a id="megaohm"><b>megaOhm</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E6 Ohms
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ohm</b>](#ohm) <- <b>megaOhm</b>|
+
 
 **Traits**
 
@@ -1835,17 +2204,22 @@ Unit of power, equivalent to 10E6 Ohms
 |<b>means.measurement.prefix.mega</b>|
 
 
+
 ## <a id="megapascal"><b>megapascal</b></a>
+
 
 **Description**
 
+
 Unit of stress, equivalent to 10E6 pascals
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>pascal</b>](#pascal) <- <b>megapascal</b>|
+
 
 **Traits**
 
@@ -1861,17 +2235,22 @@ Unit of stress, equivalent to 10E6 pascals
 |<b>means.measurement.prefix.mega</b>|
 
 
+
 ## <a id="megavolt"><b>megavolt</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E6 volts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>volt</b>](#volt) <- <b>megavolt</b>|
+
 
 **Traits**
 
@@ -1888,17 +2267,22 @@ Unit of power, equivalent to 10E6 volts
 |<b>means.measurement.prefix.mega</b>|
 
 
+
 ## <a id="megawatt"><b>megawatt</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E6 watts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>watt</b>](#watt) <- <b>megawatt</b>|
+
 
 **Traits**
 
@@ -1914,17 +2298,22 @@ Unit of power, equivalent to 10E6 watts
 |<b>means.measurement.prefix.mega</b>|
 
 
+
 ## <a id="meter"><b>meter</b></a>
+
 
 **Description**
 
+
 Unit of measure for length in meters
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>meter</b>|
+
 
 **Traits**
 
@@ -1937,17 +2326,22 @@ Unit of measure for length in meters
 |<b>has.measurement.fundamentalComponent.meter</b>|
 
 
+
 ## <a id="microampere"><b>microampere</b></a>
+
 
 **Description**
 
+
 Unit of capacitance, equivalent to 10E-6 amperes
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ampere</b>](#ampere) <- <b>microampere</b>|
+
 
 **Traits**
 
@@ -1961,17 +2355,22 @@ Unit of capacitance, equivalent to 10E-6 amperes
 |<b>means.measurement.prefix.micro</b>|
 
 
+
 ## <a id="microfarad"><b>microfarad</b></a>
+
 
 **Description**
 
+
 Unit of capacitance, equivalent to 10E-6 farads
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>farad</b>](#farad) <- <b>microfarad</b>|
+
 
 **Traits**
 
@@ -1988,17 +2387,22 @@ Unit of capacitance, equivalent to 10E-6 farads
 |<b>means.measurement.prefix.micro</b>|
 
 
+
 ## <a id="microsecond"><b>microSecond</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in 10E-6 seconds
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>second</b>](#second) <- <b>microSecond</b>|
+
 
 **Traits**
 
@@ -2013,13 +2417,16 @@ Unit of measure for time in 10E-6 seconds
 |<b>means.measurement.prefix.micro</b>|
 
 
+
 ## <a id="middlename"><b>middleName</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>middleName</b>|
+
 
 **Traits**
 
@@ -2031,17 +2438,22 @@ Unit of measure for time in 10E-6 seconds
 |<b>means.identity.person.middleName</b>|
 
 
+
 ## <a id="milliampere"><b>milliampere</b></a>
+
 
 **Description**
 
+
 Unit of capacitance, equivalent to 10E-3 amperes
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>ampere</b>](#ampere) <- <b>milliampere</b>|
+
 
 **Traits**
 
@@ -2055,17 +2467,22 @@ Unit of capacitance, equivalent to 10E-3 amperes
 |<b>means.measurement.prefix.milli</b>|
 
 
+
 ## <a id="milligram"><b>milligram</b></a>
+
 
 **Description**
 
+
 Unit of measure for mass in milligrams
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>gram</b>](#gram) <- <b>milligram</b>|
+
 
 **Traits**
 
@@ -2079,17 +2496,22 @@ Unit of measure for mass in milligrams
 |<b>means.measurement.prefix.milli</b>|
 
 
+
 ## <a id="millimeter"><b>millimeter</b></a>
+
 
 **Description**
 
+
 Unit of measure for length in 10E-3 meters
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>meter</b>](#meter) <- <b>millimeter</b>|
+
 
 **Traits**
 
@@ -2103,17 +2525,22 @@ Unit of measure for length in 10E-3 meters
 |<b>means.measurement.prefix.milli</b>|
 
 
+
 ## <a id="millisecond"><b>milliSecond</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in 10E-3 seconds
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>second</b>](#second) <- <b>milliSecond</b>|
+
 
 **Traits**
 
@@ -2128,17 +2555,22 @@ Unit of measure for time in 10E-3 seconds
 |<b>means.measurement.prefix.milli</b>|
 
 
+
 ## <a id="millivolt"><b>millivolt</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E-3 volts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>volt</b>](#volt) <- <b>millivolt</b>|
+
 
 **Traits**
 
@@ -2155,17 +2587,22 @@ Unit of power, equivalent to 10E-3 volts
 |<b>means.measurement.prefix.milli</b>|
 
 
+
 ## <a id="milliwatt"><b>milliwatt</b></a>
+
 
 **Description**
 
+
 Unit of power, equivalent to 10E-3 watts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>watt</b>](#watt) <- <b>milliwatt</b>|
+
 
 **Traits**
 
@@ -2181,11 +2618,15 @@ Unit of power, equivalent to 10E-3 watts
 |<b>means.measurement.prefix.milli</b>|
 
 
+
 ## <a id="minute"><b>minute</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in 60 second interval
+
 
 **Inheritance**
 
@@ -2193,6 +2634,7 @@ Unit of measure for time in 60 second interval
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>minute</b>|
 
+
 **Traits**
 
 | |
@@ -2203,7 +2645,9 @@ Unit of measure for time in 60 second interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="minutes"><b>minutes</b></a>
+
 
 **Inheritance**
 
@@ -2211,6 +2655,7 @@ Unit of measure for time in 60 second interval
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>minute</b>](#minute) <- <b>minutes</b>|
 
+
 **Traits**
 
 | |
@@ -2221,17 +2666,22 @@ Unit of measure for time in 60 second interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="mole"><b>mole</b></a>
+
 
 **Description**
 
+
 Unit of measure for amount in moles
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>mole</b>|
+
 
 **Traits**
 
@@ -2244,13 +2694,16 @@ Unit of measure for amount in moles
 |<b>has.measurement.fundamentalComponent.mole</b>|
 
 
+
 ## <a id="month"><b>month</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>month</b>|
+
 
 **Traits**
 
@@ -2261,13 +2714,16 @@ Unit of measure for amount in moles
 |<b>means.calendar.month</b>|
 
 
+
 ## <a id="name"><b>name</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>name</b>|
+
 
 **Traits**
 
@@ -2279,17 +2735,22 @@ Unit of measure for amount in moles
 |<b>means.identity.name</b>|
 
 
+
 ## <a id="nanofarad"><b>nanofarad</b></a>
+
 
 **Description**
 
+
 Unit of capacitance, equivalent to 10E-9 farads
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>farad</b>](#farad) <- <b>nanofarad</b>|
+
 
 **Traits**
 
@@ -2306,17 +2767,22 @@ Unit of capacitance, equivalent to 10E-9 farads
 |<b>means.measurement.prefix.nano</b>|
 
 
+
 ## <a id="newton"><b>newton</b></a>
+
 
 **Description**
 
+
 Unit of measure for force or weight in newtons
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>newton</b>|
+
 
 **Traits**
 
@@ -2331,11 +2797,15 @@ Unit of measure for force or weight in newtons
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="object"><b>object</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
@@ -2343,22 +2813,28 @@ Types for trait parameters that take objects as values
 |--|
 |[<b>any</b>](#any) <- <b>object</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="ohm"><b>ohm</b></a>
+
 
 **Description**
 
+
 Unit of measure for electrical resistance, impedance, reactance in ohms
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>ohm</b>|
+
 
 **Traits**
 
@@ -2374,17 +2850,22 @@ Unit of measure for electrical resistance, impedance, reactance in ohms
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 
 
+
 ## <a id="pascal"><b>pascal</b></a>
+
 
 **Description**
 
+
 Unit of measure for pressure or stress in pascals
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>pascal</b>|
+
 
 **Traits**
 
@@ -2399,13 +2880,16 @@ Unit of measure for pressure or stress in pascals
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="phone"><b>phone</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phone</b>|
+
 
 **Traits**
 
@@ -2417,13 +2901,16 @@ Unit of measure for pressure or stress in pascals
 |<b>means.identity.service.phone</b>|
 
 
+
 ## <a id="phonecell"><b>phoneCell</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phoneCell</b>|
+
 
 **Traits**
 
@@ -2435,13 +2922,16 @@ Unit of measure for pressure or stress in pascals
 |<b>means.identity.service.phone.cell</b>|
 
 
+
 ## <a id="phonefax"><b>phoneFax</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>phoneFax</b>|
+
 
 **Traits**
 
@@ -2453,17 +2943,22 @@ Unit of measure for pressure or stress in pascals
 |<b>means.identity.service.phone.fax</b>|
 
 
+
 ## <a id="picofarad"><b>picofarad</b></a>
+
 
 **Description**
 
+
 Unit of capacitance, equivalent to 10E-12 farads
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- [<b>farad</b>](#farad) <- <b>picofarad</b>|
+
 
 **Traits**
 
@@ -2480,13 +2975,16 @@ Unit of capacitance, equivalent to 10E-12 farads
 |<b>means.measurement.prefix.pico</b>|
 
 
+
 ## <a id="postalcode"><b>postalCode</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>postalCode</b>|
+
 
 **Traits**
 
@@ -2498,11 +2996,15 @@ Unit of capacitance, equivalent to 10E-12 farads
 |<b>means.location.postalCode</b>|
 
 
+
 ## <a id="purpose"><b>purpose</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
@@ -2510,18 +3012,22 @@ Types for trait parameters that take objects as values
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>purpose</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="quarter"><b>quarter</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>quarter</b>|
+
 
 **Traits**
 
@@ -2532,17 +3038,22 @@ None
 |<b>means.calendar.quarter</b>|
 
 
+
 ## <a id="radian"><b>radian</b></a>
+
 
 **Description**
 
+
 Unit of measure for angle in radians
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>radian</b>|
+
 
 **Traits**
 
@@ -2555,13 +3066,16 @@ Unit of measure for angle in radians
 |<b>has.measurement.fundamentalComponent</b>|
 
 
+
 ## <a id="schar"><b>sChar</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>sChar</b>|
+
 
 **Traits**
 
@@ -2570,17 +3084,22 @@ Unit of measure for angle in radians
 |<b>is.dataFormat.character</b>|
 
 
+
 ## <a id="second"><b>second</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in seconds
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>second</b>|
+
 
 **Traits**
 
@@ -2594,13 +3113,16 @@ Unit of measure for time in seconds
 |<b>means.measurement.duration.seconds</b>|
 
 
+
 ## <a id="smallinteger"><b>smallInteger</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>smallInteger</b>|
+
 
 **Traits**
 
@@ -2610,13 +3132,16 @@ Unit of measure for time in seconds
 |<b>is.dataFormat.small</b>|
 
 
+
 ## <a id="stateorprovince"><b>stateOrProvince</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>stateOrProvince</b>|
+
 
 **Traits**
 
@@ -2628,13 +3153,16 @@ Unit of measure for time in seconds
 |<b>means.location.stateOrProvince</b>|
 
 
+
 ## <a id="string"><b>string</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- <b>string</b>|
+
 
 **Traits**
 
@@ -2645,17 +3173,22 @@ Unit of measure for time in seconds
 |<b>is.dataFormat.array</b>|
 
 
+
 ## <a id="stringformat"><b>stringFormat</b></a>
+
 
 **Description**
 
+
 A string representing the format used to encode data in another string
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>stringFormat</b>|
+
 
 **Traits**
 
@@ -2667,13 +3200,16 @@ A string representing the format used to encode data in another string
 |<b>means.formatting.stringFormat</b>|
 
 
+
 ## <a id="tenday"><b>tenday</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>tenday</b>|
+
 
 **Traits**
 
@@ -2684,13 +3220,16 @@ A string representing the format used to encode data in another string
 |<b>means.calendar.tenday</b>|
 
 
+
 ## <a id="tickersymbol"><b>tickerSymbol</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>tickerSymbol</b>|
+
 
 **Traits**
 
@@ -2702,13 +3241,16 @@ A string representing the format used to encode data in another string
 |<b>means.identity.tickerSymbol</b>|
 
 
+
 ## <a id="time"><b>time</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- <b>time</b>|
+
 
 **Traits**
 
@@ -2718,13 +3260,16 @@ A string representing the format used to encode data in another string
 |<b>means.measurement.time</b>|
 
 
+
 ## <a id="timezone"><b>timezone</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>timezone</b>|
+
 
 **Traits**
 
@@ -2736,11 +3281,15 @@ A string representing the format used to encode data in another string
 |<b>means.location.timezone</b>|
 
 
+
 ## <a id="trait"><b>trait</b></a>
+
 
 **Description**
 
+
 Types for trait parameters that take objects as values
+
 
 **Inheritance**
 
@@ -2748,18 +3297,22 @@ Types for trait parameters that take objects as values
 |--|
 |[<b>any</b>](#any) <- [<b>object</b>](#object) <- [<b>cdmObject</b>](#cdmobject) <- <b>trait</b>|
 
+
 **Traits**
 
 None
 
 
+
 ## <a id="trimester"><b>trimester</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>trimester</b>|
+
 
 **Traits**
 
@@ -2770,13 +3323,16 @@ None
 |<b>means.calendar.trimester</b>|
 
 
+
 ## <a id="uri"><b>uri</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>uri</b>|
+
 
 **Traits**
 
@@ -2788,13 +3344,16 @@ None
 |<b>means.reference.URI</b>|
 
 
+
 ## <a id="url"><b>url</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>url</b>|
+
 
 **Traits**
 
@@ -2806,17 +3365,22 @@ None
 |<b>means.reference.URL</b>|
 
 
+
 ## <a id="userid"><b>userId</b></a>
+
 
 **Description**
 
+
 The identifier of a system user
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- [<b>guid</b>](#guid) <- [<b>entityId</b>](#entityid) <- <b>userId</b>|
+
 
 **Traits**
 
@@ -2830,17 +3394,22 @@ The identifier of a system user
 |<b>means.userId</b>|
 
 
+
 ## <a id="variabledecimal"><b>variableDecimal</b></a>
+
 
 **Description**
 
+
 15 digit precision numbers with no fixed scale
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>decimal</b>](#decimal) <- <b>variableDecimal</b>|
+
 
 **Traits**
 
@@ -2849,17 +3418,22 @@ The identifier of a system user
 |<b>is.dataFormat.numeric.shaped</b>|
 
 
+
 ## <a id="volt"><b>volt</b></a>
+
 
 **Description**
 
+
 Unit of measure for voltage, EMF, electrical potantial difference in volts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>volt</b>|
+
 
 **Traits**
 
@@ -2875,17 +3449,22 @@ Unit of measure for voltage, EMF, electrical potantial difference in volts
 |<b>has.measurement.fundamentalComponent.ampere</b>|
 
 
+
 ## <a id="watt"><b>watt</b></a>
+
 
 **Description**
 
+
 Unit of measure for power or radiant flux in watts
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>float</b>](#float) <- [<b>double</b>](#double) <- <b>watt</b>|
+
 
 **Traits**
 
@@ -2900,13 +3479,16 @@ Unit of measure for power or radiant flux in watts
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="week"><b>week</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>week</b>|
+
 
 **Traits**
 
@@ -2917,17 +3499,22 @@ Unit of measure for power or radiant flux in watts
 |<b>means.calendar.week</b>|
 
 
+
 ## <a id="xml"><b>xml</b></a>
+
 
 **Description**
 
+
 An XML fragment contained within one string value
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>char</b>](#char) <- [<b>string</b>](#string) <- <b>xml</b>|
+
 
 **Traits**
 
@@ -2939,17 +3526,22 @@ An XML fragment contained within one string value
 |<b>means.content.text.XML</b>|
 
 
+
 ## <a id="year"><b>year</b></a>
+
 
 **Description**
 
+
 Unit of measure for time in 'one solar orbit' interval
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- <b>year</b>|
+
 
 **Traits**
 
@@ -2961,13 +3553,16 @@ Unit of measure for time in 'one solar orbit' interval
 |<b>has.measurement.fundamentalComponent.second</b>|
 
 
+
 ## <a id="year"><b>year</b></a>
+
 
 **Inheritance**
 
 | |
 |--|
 |[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>year</b>|
+
 
 **Traits**
 
