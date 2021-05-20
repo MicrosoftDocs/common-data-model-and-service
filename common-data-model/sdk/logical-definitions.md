@@ -445,15 +445,15 @@ The [convert logical entities into resolved entities](./convert-logical-entities
 ## Relationship Meanings - Defining a Purpose Object on an attribute of an entity type
 
 
-At the point where an **[entity typed attribute](#using-an-entity-as-the-type-of-an-attribute)** of one entity is being created, a **[purpose object](#the-purpose-object)** can be defined with **a set of applied traits**. This **[entity relationship](./manifest.md#entity-relationships)** can be obtained by calculating and populating the entity graph that in the **[manifest](./manifest.md)** that this entity is owned. This set of traits on the Purpose object will be elevated and shown up in the **[relationship list](./manifest.md#entity-relationships)** of the manifest.
+We mentioned two concepts above, **[purpose object](#the-purpose-object)** is used to describe what purpose an attribute serves, and an entity-to-entity relationship description is created by defining an **[entity typed attribute](#using-an-entity-as-the-type-of-an-attribute)**. The purpose object is also applicable to entity typed attributes, which means that Common Object Model allows ascribing of meanings to relationships. At the point where an attribute of one entity is being created, a purpose object can be defined with **a set of applied traits**. For example, if you want to  describe forward and reverse meanings between two entities, you can use the standard traits **[means.relationship.verbPhrase](./list-of-traits.md#meansrelationshipverbphrase)** and **[means.relationship.inverseVerbPhrase](./list-of-traits.md#meansrelationshipinverseverbphrase)** This **[entity relationship](./manifest.md#entity-relationships)** can be obtained by calculating and populating the entity graph that in the **[manifest](./manifest.md)** that this entity is owned. This set of traits on the Purpose object will be elevated and shown up in the **[relationship list](./manifest.md#entity-relationships)** of the manifest.
+
 
 ### Example
 
-The example below uses:
- - 2 entities - `Product` and `Sales`
- - 2 traits `means.backward` and `means.forward` 
+The entity `Sales` initially only has one attribute, the example below shows how to add a relationship between `Product` and `Sales` with relationship meanings by adding an entity typed attribute with two traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`, as well as how these traits are elevated from the attribute to the relationship as relationship meanings in the manifest.
 
 
+The entities `Product` and `Sales` are defined as follows:
 
 ```json
 {
@@ -480,34 +480,59 @@ The example below uses:
             "name": "Amount"
         }
     ]
-},
+}
+```
+
+The definitions of the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase` can be found in [schemaDocuments/foundations.cdm.json](https://github.com/microsoft/CDM/blob/master/schemaDocuments/foundations.cdm.json):
+
+```json
 {
-    "traitName": "means.backward",
-    "explanation": "the attribute represents B->A.",
+    "traitName": "means.relationship.verbPhrase",
+    "extendsTrait": "means.relationship",
+    "explanation": "The Verb Phrase used to model the relationship between the FROM entity and the TO entity.",
     "hasParameters": [
         {
-            "name": "description",
-            "dataType": "string",
-            "explanation": "The description of the relationship B->A",
-            "required": false
+            "name": "verbPhrase",
+            "explanation": "the localized Verb Phrase",
+            "dataType": {
+            "dataTypeReference": "entity",
+            "appliedTraits": [
+                    {
+                        "traitReference": "means.entityName.specific",
+                        "arguments": [
+                            "localizedTable"
+                        ]
+                    }
+                ]
+            }
         }
     ]
 },
 {
-    "traitName": "means.forward",
-    "explanation": "the attribute represents A->B.",
+    "traitName": "means.relationship.inverseVerbPhrase",
+    "extendsTrait": "means.relationship",
+    "explanation": "The Verb Phrase used to model the relationship between the TO entity and the FROM entity.",
     "hasParameters": [
         {
-            "name": "test",
-            "dataType": "description",
-            "explanation": "The description of the relationship A->B",
-            "required": false
+            "name": "verbPhrase",
+            "explanation": "the localized Verb Phrase",
+            "dataType": {
+            "dataTypeReference": "entity",
+            "appliedTraits": [
+                    {
+                        "traitReference": "means.entityName.specific",
+                        "arguments": [
+                            "localizedTable"
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }
 ```
 
-[Using the projection operation ReplaceAsForeignKey to create a simple entity typed attribute](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) `SalesProductInfo` for `Sales`:
+Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) to create a simple entity typed attribute `SalesProductInfo` for `Sales`:
 
 ```json
 {
@@ -528,23 +553,51 @@ The example below uses:
 }
 ```
 
-Define a purpose object like below:
+Define a purpose object and apply the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`:
 
 ```json
 {
     "purpose": {
-        "purposeReference": "hasA",
+        "purposeReference": "meaningOfRelationshipVerbPhrases",
         "appliedTraits": [
             {
-                "traitReference": "means.forward",
+                "traitReference": "means.relationship.verbPhrase",
                 "arguments": [
-                    "Description for the forward direction in the relationship."
+                    {
+                        "entityReference": {
+                            "entityShape": "localizedTable",
+                            "constantValues": [
+                                [
+                                    "en",
+                                    "Forwards"
+                                ],
+                                [
+                                    "cn",
+                                    "正向"
+                                ]
+                            ]
+                        }
+                    }
                 ]
             },
             {
-                "traitReference": "means.backward",
+                "traitReference": "means.relationship.verbPhrase",
                 "arguments": [
-                    "Description for the backward direction in the relationship."
+                    {
+                        "entityReference": {
+                            "entityShape": "localizedTable",
+                            "constantValues": [
+                                [
+                                    "en",
+                                    "Backwards"
+                                ],
+                                [
+                                    "cn",
+                                    "反向"
+                                ]
+                            ]
+                        }
+                    }
                 ]
             }
         ]
@@ -566,18 +619,46 @@ Now, add the entity typed attribute `SalesProductInfo` with the purpose to the e
         {
             "name": "SalesProductInfo",
             "purpose": {
-                "purposeReference": "hasA",
+                "purposeReference": "meaningOfRelationshipVerbPhrases",
                 "appliedTraits": [
                     {
-                        "traitReference": "means.forward",
+                        "traitReference": "means.relationship.verbPhrase",
                         "arguments": [
-                            "Description for the forward direction in the relationship."
+                            {
+                                "entityReference": {
+                                "entityShape": "localizedTable",
+                                "constantValues": [
+                                        [
+                                            "en",
+                                            "Forwards"
+                                        ],
+                                        [
+                                            "cn",
+                                            "正向"
+                                        ]
+                                    ]
+                                }
+                            }
                         ]
                     },
                     {
-                        "traitReference": "means.backward",
+                        "traitReference": "means.relationship.verbPhrase",
                         "arguments": [
-                            "Description for the backward direction in the relationship."
+                            {
+                                "entityReference": {
+                                    "entityShape": "localizedTable",
+                                    "constantValues": [
+                                        [
+                                            "en",
+                                            "Backwards"
+                                        ],
+                                        [
+                                            "cn",
+                                            "反向"
+                                        ]
+                                    ]
+                                }
+                            }
                         ]
                     }
                 ]
@@ -602,6 +683,7 @@ Now, add the entity typed attribute `SalesProductInfo` with the purpose to the e
 ```
 
 After calculating and populating the entity graph for the following manifest:
+   >**__Note:__** the API reference can be found [here](../1.0om/api-reference/cdm/corpus.md#methods)
 
 
 ```json
@@ -622,33 +704,74 @@ After calculating and populating the entity graph for the following manifest:
 }
 ```
 
-A relationship list like below will be generated:
+A relationship list like below will be generated, the traits on the purpose object which are elevated to the relationship object as relationship meanings:
 
 ```json
 {
-  "relationships": [
-    {
-      "name": "SalesProductInfo_Product",
-      "fromEntity": "local:/Sales.cdm.json/Sales",
-      "fromEntityAttribute": "ProductFK",
-      "toEntity": "local:/Product.cdm.json/Product",
-      "toEntityAttribute": "ProductId",
-      "exhibitsTraits": [
+    "manifestName": "default.manifest.cdm.json",
+    "entities": [
         {
-          "traitReference": "means.forward",
-          "arguments": [
-            "Description for the forward direction in the relationship."
-          ]
+            "type": "LocalEntity",
+            "entityName": "Product",
+            "entityPath": "Product.cdm.json/Product"
         },
         {
-          "traitReference": "means.backward",
-          "arguments": [
-            "Description for the backward direction in the relationship."
-          ]
+            "type": "LocalEntity",
+            "entityName": "Sales",
+            "entityPath": "Sales.cdm.json/Sales"
         }
-      ]
-    }
-  ]     
+    ] ,
+    "relationships": [
+        {
+            "name": "SalesProductInfo_Product",
+            "fromEntity": "local:/Sales.cdm.json/Sales",
+            "fromEntityAttribute": "ProductFK",
+            "toEntity": "local:/Product.cdm.json/Product",
+            "toEntityAttribute": "ProductId",
+            "exhibitsTraits": [
+                {
+                    "traitReference": "means.relationship.verbPhrase",
+                    "arguments": [
+                        {
+                            "entityReference": {
+                                "entityShape": "localizedTable",
+                                "constantValues": [
+                                    [
+                                        "en",
+                                        "Forwards"
+                                    ],
+                                    [
+                                        "cn",
+                                        "正向"
+                                    ]
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "traitReference": "means.relationship.verbPhrase",
+                    "arguments": [
+                        {
+                            "entityReference": {
+                                "entityShape": "localizedTable",
+                                "constantValues": [
+                                    [
+                                        "en",
+                                        "Backwards"
+                                    ],
+                                    [
+                                        "cn",
+                                        "反向"
+                                    ]
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]     
 }
 ```
 
