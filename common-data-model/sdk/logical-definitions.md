@@ -445,12 +445,12 @@ The [convert logical entities into resolved entities](./convert-logical-entities
 ## Relationship Meanings - Defining a Purpose Object on an attribute of an entity type
 
 
-We mentioned two concepts above, **[purpose object](#the-purpose-object)** is used to describe what purpose an attribute serves, and an entity-to-entity relationship description is created by defining an **[entity typed attribute](#using-an-entity-as-the-type-of-an-attribute)**. The purpose object is also applicable to entity typed attributes, which means that Common Object Model allows ascribing of meanings to relationships. At the point where an attribute of one entity is being created, a purpose object can be defined with **a set of applied traits**. For example, if you want to  describe forward and reverse meanings between two entities, you can use the standard traits **[means.relationship.verbPhrase](./list-of-traits.md#meansrelationshipverbphrase)** and **[means.relationship.inverseVerbPhrase](./list-of-traits.md#meansrelationshipinverseverbphrase)** This **[entity relationship](./manifest.md#entity-relationships)** can be obtained by calculating and populating the entity graph that in the **[manifest](./manifest.md)** that this entity is owned. This set of traits on the Purpose object will be elevated and shown up in the **[relationship list](./manifest.md#entity-relationships)** of the manifest.
+We mentioned two concepts above, **[purpose object](#the-purpose-object)** which describes what purpose an attribute serves, and the entity-to-entity relationship description which is created by defining an **[entity typed attribute](#using-an-entity-as-the-type-of-an-attribute)**. The Object Model allows purpose objects to be attached not only to standard type attributes, but also to entity typed attributes. This allows data modelers to ascribe meanings to relationships, thereby providing model consumers better understanding of the interactions between linked entities. At the point where an attribute is being defined, a purpose can be attached with applied traits information. Common Data Model provides two standardized traits for describing forward and reverse meanings of relationships, **[means.relationship.verbPhrase](./list-of-traits.md#meansrelationshipverbphrase)** and **[means.relationship.inverseVerbPhrase](./list-of-traits.md#meansrelationshipinverseverbphrase)**. hese and any other attached traits will get conveyed to the resolved entity attributes, as well as to the manifest's **[relationship list](./manifest.md#entity-relationships)** after performing calculation and population of the relationships entity graph.
 
 
 ### Example
 
-The entity `Sales` initially only has one attribute, the example below shows how to add a relationship between `Product` and `Sales` with relationship meanings by adding an entity typed attribute with two traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`, as well as how these traits are elevated from the attribute to the relationship as relationship meanings in the manifest.
+In the example below, the `Sales` entity initially includes just one attribute representing a sale amount. We then add a relationship between `Product` and `Sales` with associated meaning information by adding an entity typed attribute with two traits `means.relationship.verbPhrase` and `means.relationship.inverseVerbPhrase`. Finally, we observe how the meanings traits get elevated from entity typed attribute into the relationship section of the manifest.
 
 
 The entities `Product` and `Sales` are defined as follows:
@@ -485,54 +485,8 @@ The entities `Product` and `Sales` are defined as follows:
 
 The definitions of the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase` can be found in [schemaDocuments/foundations.cdm.json](https://github.com/microsoft/CDM/blob/master/schemaDocuments/foundations.cdm.json):
 
-```json
-{
-    "traitName": "means.relationship.verbPhrase",
-    "extendsTrait": "means.relationship",
-    "explanation": "The Verb Phrase used to model the relationship between the FROM entity and the TO entity.",
-    "hasParameters": [
-        {
-            "name": "verbPhrase",
-            "explanation": "the localized Verb Phrase",
-            "dataType": {
-            "dataTypeReference": "entity",
-            "appliedTraits": [
-                    {
-                        "traitReference": "means.entityName.specific",
-                        "arguments": [
-                            "localizedTable"
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
-},
-{
-    "traitName": "means.relationship.inverseVerbPhrase",
-    "extendsTrait": "means.relationship",
-    "explanation": "The Verb Phrase used to model the relationship between the TO entity and the FROM entity.",
-    "hasParameters": [
-        {
-            "name": "verbPhrase",
-            "explanation": "the localized Verb Phrase",
-            "dataType": {
-            "dataTypeReference": "entity",
-            "appliedTraits": [
-                    {
-                        "traitReference": "means.entityName.specific",
-                        "arguments": [
-                            "localizedTable"
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
-}
-```
 
-Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) to create a simple entity typed attribute `SalesProductInfo` for `Sales`:
+Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) on a simple entity typed attribute `SalesProductInfo` to create a foreign key attribute `ProductFK`, which is used by the Object Model to calculate relationships:
 
 ```json
 {
@@ -553,7 +507,7 @@ Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasfor
 }
 ```
 
-Define a purpose object and apply the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`:
+Here we create a purpose object and apply the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`:
 
 ```json
 {
@@ -605,7 +559,7 @@ Define a purpose object and apply the traits `means.relationship.verbPhras` and 
 }
 ```
 
-Now, add the entity typed attribute `SalesProductInfo` with the purpose to the entity `Sales`.
+Now, we add the entity typed attribute `SalesProductInfo` with the purpose to the entity `Sales`.
 
 ```json
 {
@@ -682,8 +636,8 @@ Now, add the entity typed attribute `SalesProductInfo` with the purpose to the e
 
 ```
 
-After calculating and populating the entity graph for the following manifest:
-   >**__Note:__** the API reference can be found [here](../1.0om/api-reference/cdm/corpus.md#methods)
+After [calculating and populating](../1.0om/api-reference/cdm/corpus.md#methods) the entity graph for the following manifest:
+
 
 
 ```json
