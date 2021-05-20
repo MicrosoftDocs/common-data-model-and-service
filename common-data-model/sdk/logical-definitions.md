@@ -483,7 +483,7 @@ The entities `Product` and `Sales` are defined as follows:
 }
 ```
 
-Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) on a simple entity typed attribute `SalesProductInfo` to create a foreign key attribute `ProductFK`, which is used by the Object Model to calculate relationships:
+Using projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) on an entity typed attribute `SalesProductInfo` we ensure a foreign key attribute `ProductFK` is created after resolving the entity. Existence of entity typed attribute indicates to the Object Model that the two entities are linked, and this information is used later for manifest relationships calculations:
 
 ```json
 {
@@ -504,7 +504,7 @@ Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasfor
 }
 ```
 
-Here we create a purpose object and apply the traits [`means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`](https://github.com/microsoft/CDM/blob/master/schemaDocuments/foundations.cdm.json):
+Here we create a purpose object and apply the traits [`means.relationship.verbPhras`](./list-of-traits.md#meansrelationshipverbphrasee) and [`means.relationship.inverseVerbPhrase`](./list-of-traits.md#meansrelationshipinverseverbphrase):
 
 ```json
 {
@@ -556,7 +556,7 @@ Here we create a purpose object and apply the traits [`means.relationship.verbPh
 }
 ```
 
-Now, we add the entity typed attribute `SalesProductInfo` with the purpose to the entity `Sales`.
+Now, we add entity typed attribute `SalesProductInfo` containing  purpose information, pointing to entity `Sales`:
 
 ```json
 {
@@ -633,7 +633,7 @@ Now, we add the entity typed attribute `SalesProductInfo` with the purpose to th
 
 ```
 
-After [calculating and populating](../1.0om/api-reference/cdm/corpus.md#methods) the entity graph for the following manifest:
+After [calculating](../1.0om/api-reference/cdm/corpus.md#methods) and [populating](../1.0om/api-reference/cdm/manifest.md#methods) the entity graph for the following manifest:
 
 
 
@@ -655,7 +655,7 @@ After [calculating and populating](../1.0om/api-reference/cdm/corpus.md#methods)
 }
 ```
 
-A relationship list like below will be generated, the traits on the purpose object which are elevated to the relationship object as relationship meanings:
+A relationship list will be generated as below. The traits originally applied on the purpose have been elevated to the relationship object in the list:
 
 ```json
 {
