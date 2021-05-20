@@ -483,9 +483,6 @@ The entities `Product` and `Sales` are defined as follows:
 }
 ```
 
-The definitions of the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase` can be found in [schemaDocuments/foundations.cdm.json](https://github.com/microsoft/CDM/blob/master/schemaDocuments/foundations.cdm.json):
-
-
 Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#i-can-use-a-replaceasforeignkey-operation-on-an-entity-attribute) on a simple entity typed attribute `SalesProductInfo` to create a foreign key attribute `ProductFK`, which is used by the Object Model to calculate relationships:
 
 ```json
@@ -507,7 +504,7 @@ Using the projection operation [ReplaceAsForeignKey](.//projections/replaceasfor
 }
 ```
 
-Here we create a purpose object and apply the traits `means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`:
+Here we create a purpose object and apply the traits [`means.relationship.verbPhras` and `means.relationship.inverseVerbPhrase`](https://github.com/microsoft/CDM/blob/master/schemaDocuments/foundations.cdm.json):
 
 ```json
 {
