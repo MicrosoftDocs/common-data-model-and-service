@@ -435,11 +435,11 @@ The steps are:
 
     // Add type attributes to the entity instance
 
-    var personAttributeId = CreateEntityAttributeWithPurposeAndDataType(cdmCorpus,$"{CustomPersonEntityName}Id", "identifiedBy", "entityId");
+    var personAttributeId = CreateTypeAttributeWithPurposeAndDataType(cdmCorpus, $"{CustomPersonEntityName}Id", "identifiedBy", "entityId");
 
     personEntity.Attributes.Add(personAttributeId);
 
-    var personAttributeName = CreateEntityAttributeWithPurposeAndDataType(cdmCorpus,$"{CustomPersonEntityName}Name", "hasA", "string");
+    var personAttributeName = CreateTypeAttributeWithPurposeAndDataType(cdmCorpus, $"{CustomPersonEntityName}Name", "hasA", "name");
 
     personEntity.Attributes.Add(personAttributeName);
 
