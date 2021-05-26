@@ -1,6 +1,6 @@
 ---
-title: The Common Data Model manifest object | Microsoft Docs
-description: The Common Data Model manifest object.
+title: The Common Data Model Manifest object | Microsoft Docs
+description: Learn about the Common Data Model Manifest object.
 author: msftman
 ms.service: common-data-model
 ms.reviewer: v-iap
@@ -13,7 +13,7 @@ ms.author: Deonhe
 
 In a data lake, a *Common Data Model folder* is a collection—spread over
 subfolders or accounts—of the data files and schema description files that
-constitute a set of related entities, which have been organized for some purpose
+constitute a set of related entities. The entities have been organized for some purpose
 such as to back an application or perform analysis. This collection of related
 data is sometimes called a *solution*. A Common Data Model **Manifest** object
 and the document that contains it (\*.manifest.cdm.json) is an organizing
@@ -98,7 +98,7 @@ manifest section.
 | Property / Method     | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | entityName            | The name of the owned entity                                                                                                                                                                                                                                                                                                                                                                                          |
-| entityPath            | A corpus path to the entity definition within its containing document—for example, local:/MyEntity.cdm.json/MyEntity. By convention, this entity definition should be the "resolved" form of a definition [More information](./convert-logical-entities-resolved-entities.md). This is the default schema that should be used for any partition file that doesn't offer a specialized alternate schema. |
+| entityPath            | A corpus path to the entity definition within its containing document—for example, local:/MyEntity.cdm.json/MyEntity. By convention, this entity definition should be the "resolved" form of a definition. [More information](./convert-logical-entities-resolved-entities.md). This is the default schema that should be used for any partition file that doesn't offer a specialized alternate schema. |
 | dataPartitions        | The **dataPartitions** objects in this collection each describe the location, format, and perhaps specific details about one file that contains data records for the local entity.                                                                                                                                                                                                                                    |
 | dataPartitionPatterns | A **dataPartitionPatterns** object describes a search space over a set of files that can be used to infer or discover, and list, new data partition files. These patterns are used for situations where many new partition files are being regularly added in some structured way and finding or listing them individually is impractical.                                                                           |
 
@@ -279,8 +279,8 @@ correlates two many-to-one relationships.
 | fromEntityAttribute                                                      | The name of the referencing attribute, a foreign key.                                                                                                                                                              |
 | toEntity                                                                 | A corpus path to the document or entity on the "one" side of the relationship.                                                                                                                                     |
 | toEntityAttribute                                                        | The name of the referenced attribute, often the primary key of that entity.                                                                                                                                        |
-| name                                                                     | The name of the relationship                                                                                                                                                                                                        |
-| exhibitsTraits                                                           | The collection of traits that is initially applied to the purpose object in the referencing attribute, then is elevated to the relationship as relationship meanings.                                                                                                                                                                                                        |
+| name                                                                     | The name of the relationship.                                                                                                                                                                                                        |
+| exhibitsTraits                                                           | The collection of traits that is initially applied to the purpose object in the referencing attribute, and then is elevated to the relationship as relationship meanings.                                                                                                                                                                                                        |
 | Corpus.CalculateEntityGraph(ICommon Data ModelManifestDef rootManifest); | Causes the corpus to calculate and cache knowledge about all of the entity-to-entity relationships found in the logical entity descriptions for the given manifest, and all of the submanifests that it indicates. |
 | Manifest. PopulateManifestRelationships()                                | The manifest will use the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that's on either the "one" side or the "many" side of a known relationship.      |
 
@@ -293,7 +293,7 @@ information about the times when files they reference have been modified.
 | Property / Method         | Description                                                                                                                                                                                                                                                                   |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LastFileStatusCheckTime   | The last time that the status of files and child objects was checked. This is set directly by using application logic or indirectly by the **fileStatusCheck** method.                                                                                                        |
-| LastFileModifiedTime      | The last time reported from the file system about any modifications or saving of a file. / objects tracked.                                                                                                                                                                   |
+| LastFileModifiedTime      | The last time reported from the file system about any modifications or saving of a file. / objects tracked.<!-- Edit note: Unclear what happened here. -->                                                                                                                                                                   |
 | LastChildFileModifiedTime | The latest time reported by any of child objects about their file status check times. Because the **fileStatusCheck** method can be called on individual objects and individual files can be updated at different times, this property helps locate the latest changed child. |
 
 The meaning of these times and the scope of the status check method depend on
@@ -304,7 +304,7 @@ the specific object being checked.
 | Manifest             | Checks the manifest, all entity declarations, and all submanifests.                        |
 | Local entity         | Checks the schema documents, and all data partitions and patterns for the entity.          |
 | Referenced entity    | Checks the status of the remote manifest document.                                         |
-| dataPartition        | Checks the file indicated by the partitions and the optional alternateSchema document      |
+| dataPartition        | Checks the file indicated by the partitions and the optional alternateSchema document.      |
 | dataPartitionPattern | Causes evaluation of the data partition pattern search and the creation of new partitions. |
 | SubManifest          | Checks the files of submanifests.                                                          |
 
@@ -428,6 +428,5 @@ The following manifest document demonstrates each of the abovementioned capabili
 ## Learn more
 
 - Common Data Model [fundamentals](fundamentals.md)
-- Common Data Model [manifest](manifest.md)
 - Common Data Model [logical definitions](logical-definitions.md)
 
