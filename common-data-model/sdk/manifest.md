@@ -237,7 +237,6 @@ name and a location.
 
 ## The subManifest object
 
-
 When a set of related manifests forms a logical hierarchy, the hierarchy can be
 described by using **subManifest** objects. A **Manifest** object can indicate a
 list of submanifests. A submanifest might be an independent solution, but often
@@ -251,7 +250,6 @@ A manifest has a collection of manifest declarations named **subManifests**.
 | Definition        | The corpus path to the submanifest’s \*.manifest.cdm.json document |
 
 ## Entity relationships
-
 
 A manifest might contain a list of the known entity-to-entity relationships
 involving entities in the manifest. When data is stored in a data lake in
@@ -284,11 +282,9 @@ correlates two many-to-one relationships.
 | Corpus.CalculateEntityGraph(ICommon Data ModelManifestDef rootManifest); | Causes the corpus to calculate and cache knowledge about all of the entity-to-entity relationships found in the logical entity descriptions for the given manifest, and all of the submanifests that it indicates. |
 | Manifest. PopulateManifestRelationships()                                | The manifest will use the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that's on either the "one" side or the "many" side of a known relationship.      |
 
-File status check and modification times
-----------------------------------------
+## File status check and modification times
 
-The **Manifest** object and the objects it contains collect and report
-information about the times when files they reference have been modified.
+The **Manifest** object and the objects it contains collect and report information about the times when files they reference have been modified.<!-- Edit note: Assuming this is the right heading level. -->
 
 | Property / Method         | Description                                                                                                                                                                                                                                                                   |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
