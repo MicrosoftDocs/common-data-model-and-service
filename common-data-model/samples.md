@@ -1,6 +1,6 @@
 ---
 title: How to use the sample code | Microsoft Docs
-description: How to how to use the Common Data Model sample code.
+description: "How to how to use the Common Data Model sample code."
 author: oovanesy
 ms.service: common-data-model
 ms.reviewer: v-iap
@@ -16,26 +16,26 @@ This article provides information about using the Common Data Model sample code.
 ## Sample location and structure
 
 Sample code that demonstrates concepts and their use is available for C#
-implementation at <https://github.com/microsoft/CDM/tree/master/samples>
+implementation at <https://github.com/microsoft/CDM/tree/master/samples>.
 
-Here you will find Visual Studio sample projects organized in separate folders.
-There is also the [example-public-standards](https://github.com/microsoft/CDM/tree/master/samples/example-public-standards) folder that contains local
+Here you will find Microsoft Visual Studio sample projects organized in separate folders.
+There is also the **[example-public-standards](https://github.com/microsoft/CDM/tree/master/samples/example-public-standards)** folder that contains a local
 copy of Common Data Model standard entities and is referenced by the sample projects.
 
 Within each samples folder, the files are organized as follows:
 
--   The **code-cs** folder contains the Visual Studio solution.
+-   The **code-cs** folder that contains the Visual Studio solution
 
--   Set of JSON files with Common Data Model entity definitions
+-   A set of JSON files with Common Data Model entity definitions
 
--   Set of folders that may contain empty sample data partition file in the CSV format
+-   A set of folders that may contain an empty sample data partition file in the CSV format
 
 
 ## Prerequisites for all samples
 
-Every time we interact with Common Data Model, we interact with some persisted form of Common Data Model and need to register storage adapters which embed I/O logic for specific file-system implementations, such as local file-system or ADLSg2. 
+Every time you interact with Common Data Model, you interact with some persisted form of Common Data Model and need to register storage adapters that embed I/O logic for specific file-system implementations, such as local file system or ADLSg2. 
 
-Following is the sample code that sets up a configuration to use the local storage system where we need to provide paths to the schema documents on a local file system (some commonly used schema documents can be provided by using CDN/GitHub storage adapters):
+The following sample code sets up a configuration to use the local storage system, where you need to provide paths to the schema documents on a local file system (some commonly used schema documents can be provided by using CDN/GitHub storage adapters):
 
 ```csharp
 // Configure storage adapters and mount them to the corpus.
@@ -58,10 +58,10 @@ cdmCorpus.Storage.DefaultNamespace = "local";
 // Storage adapter pointing to the example public standards.
 
 // This is a sample 'cdm'; normally the Github adapter would be used to point at
-the real public standards.
+// the real public standards.
 
 // Mount it as the 'cdm' device, not the default, so that we must use
-"cdm:\<folder-path\>" to get there.
+// "cdm:\<folder-path\>" to get there.
 
 cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
 ```
@@ -70,26 +70,24 @@ cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "exam
 
 ### Read Manifest
 
-
-In this sample, you will learn how to read the Common Data Model manifest with all entity
-definitions, examine an entity, it's attributes and partitions.
+In the Read Manifest sample, you will learn how to read the Common Data Model manifest with all entity
+definitions and examine an entity, including it's attributes and partitions.<!-- Edit note: Later we say attributes and traits, so should it be partitions or traits. Also would need to update ALT text. -->
 
 1.  Under the **1-read-manifest/code-cs** folder, open the `read-manifest.sln` file.
 
 1.  Run the project. You should see a console with the list of entities and
     corresponding schema locations.
 
-    ![List of entities and schema locations](media/console1.png)
+    ![List of entities and schema locations](media/console1.png "List of entities and schema locations")
 
 1.  Type a number for a chosen entity and see the list of attributes and traits.
 
-    ![List of attributes and traits](media/console2.png)
+    ![List of attributes and traits](media/console2.png "List of attributes and traits")
 
 
 **How it works:**
 
-The object model reads the content of the `default.manifest.cdm.json` file located at the root of the project folder. The relative path points at it from the location of the .exe file. For example, the location of the read manifest
-executable is:
+The object model reads the content of the `default.manifest.cdm.json` file located at the root of the project folder. The relative path points at it from the location of the .exe file. For example, the location of the read manifest executable is:
 
 E:\cdm_sdk_test\CDM SDK\1-read-manifest\code-cs\read-manifest\bin\\Debug\netcoreapp2.1
 
@@ -102,29 +100,24 @@ string pathFromExeToExampleRoot = "../../../../../../";
 Once it lists entities, it can be pointed at a specific entity and will parse JSON for that specific entity to get the entity attributes and traits.
 
 Follow comments in the `Program.cs` file for each specific fragment for iterating
-through entities, their attributes, traits and data partition locations.
+through entities, their attributes, traits, and data partition locations.
 
 ### Create Manifest 
 
-
-In this example, you will learn how to create a manifest with select number of pre-defined entities as well as corresponding partitions. 
+In the Create Manifest example, you will learn how to create a manifest with a select number of predefined entities as well as corresponding partitions. 
 
 1. Under the **2-create-manifest/code-cs** folder, open the `create-manifest.sln` file.
 
-    
+1.  Run the project. Monitor messages in the console because they will inform you about what is going on.
 
-1.  Run the project. Monitor messages in the console as they are informative to
-    what is going on.
+    ![Monitor messages in the console](media/console3.png "Monitor messages in the console")
 
-    ![Monitor messages in the console](media/console3.png)
+1.  Look into your directory. It should have all files with entity definitions, the manifest file, and folders with empty CSV files with data generated for you.
 
-1.  Look into your directory, it should have all files with entity definitions,
-    manifest file and folders with empty csv files for data generated for you.
+    ![Look in your directory](media/sample-folder1.png "Look in your directory")
 
-    ![Look in your directory](media/sample-folder1.png)
-
-1.  There are few code fragments here. After configuring adapters, same as in
-    the first sample, we create temporary manifest object, add specific entities of
+1.  There are a few code fragments here. After configuring adapters, just as in
+    the first sample, you create a temporary manifest object and add specific entities of
     your choice. Note that you need to point at definitions for those entities.
 
     ```csharp
@@ -169,8 +162,8 @@ In this example, you will learn how to create a manifest with select number of p
 
 1.  The following fragment implements resolving entities (creating instances of
 specific entities using their abstract definitions as well as foundation
-definitions). After that, each entity is saved to the directory in corresponding
-JSON file along with the eponymous folder with empty CSV partition file.
+definitions). After that, each entity is saved to the directory in the corresponding
+JSON file along with the eponymous folder with an empty CSV partition file.
 
     ```csharp
     // Create the resolved version of everything in the root folder too
@@ -189,15 +182,14 @@ JSON file along with the eponymous folder with empty CSV partition file.
 
 ### Customize Entities
 
+The Customize Entities sample will load an existing manifest and add to it a new entity that is a
+customized version of a standard entity. 
 
 1.  Under the **3-customize-entities/code-cs** folder, open the `customize-manifest.sln` file.
 
 2.  Run the project.
 
-This sample will load an existing manifest and add to it a new entity that is a
-customized version of a standard entity. 
-
-We will add the CareTeam entity, but first we will add the 'currentCity' attribute and give the new entity a new name 'MobileCareTeam'. This new definition becomes a local abstract description of an entity that is transformed from the logical definition into the concrete
+You will add the CareTeam entity, but first add the 'currentCity' attribute and give the new entity a new name, 'MobileCareTeam'.<!-- Edit note: Not sure if these were meant to be marked up as code. --> This new definition becomes a local abstract description of an entity that is transformed from the logical definition into the concrete
 definition per instructions on how to process references and relationships before being added to the manifest.
 
 ```csharp
@@ -296,7 +288,7 @@ Console.WriteLine("Make a local 'resolved' copy");
 // Now resolve it
 
 // Made the entity and document have a different name to avoid conflicts in this
-folder
+// folder
 
 var entFlat = await entAbs.CreateResolvedEntityAsync("LocalMobileCareTeam");
 
@@ -316,7 +308,7 @@ await manifest.SaveAsAsync("default.manifest.cdm.json", true);
 ```
 
 
-The result is the extended (customized) entity:
+The result is the extended (customized) entity:<!-- Edit note: Looks like the await manifest.Refresh line above should not be commented out. Line 303 -->
 
 ```JSON
 {
@@ -370,21 +362,20 @@ Follow comments in the `Program.cs` for each specific fragment.
 
 ### Create net new entity 
 
-This sample is going to simulate the steps a tool would follow to
-create a new manifest document in some user storage folder with two types of
+The Create net new entity sample is going to simulate the steps that a tool would follow to create a new manifest document in some user storage folder with two types of
 entities:
+
 - a net new entity
-- an entity extended from some public standards.
+- an entity extended from some public standards
 
 > [!NOTE]
-> To create a relationship from a new custom entity to an existing entity loaded from some public standards, we need to create an entity extended from the existing entity and add a relationship to the attribute of the new entity because we can't modify attributes from an abstract schema definition in the public standards.
+> To create a relationship from a new custom entity to an existing entity loaded from some public standards, you need to create an entity extended from the existing entity and add a relationship to the attribute of the new entity. This is because you can't modify attributes from an abstract schema definition in the public standards.
 
-This sample also creates a relationship from a net new entity to an existing
-entity, and a relationship between two net new entities.
+This sample also creates a relationship from a net new entity to an existing entity, and a relationship between two net new entities.
 
-The steps are:
+Take the following steps:
 
-1. Configure adapters as with all sample projects
+1. Configure adapters, as with all sample projects.
 
    ```csharp 
     // Make a corpus, the corpus is the collection of all documents and folders created or discovered while navigating objects and paths
@@ -410,7 +401,7 @@ The steps are:
     cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "example-public-standards"));
     ```
 
-1. Create a temporary manifest object at the root of the corpus
+1. Create a temporary manifest object at the root of the corpus.
 
     ```csharp
     // Make the temp manifest and add it to the root of the local documents in the corpus
@@ -472,7 +463,7 @@ The steps are:
 
 Follow the same code path to create another new entity.
 
-1. Next is to create an entity that extends from the public standards, create a relationship from it to a net new entity, and add the entity to the manifest.
+1. Next, create an entity that extends from the public standards, create a relationship from it to a net new entity, and add the entity to the manifest.
 
     ```csharp 
     // Create an entity which extends "Account" from the standard, it contains everything that "Account" has
@@ -485,12 +476,11 @@ Follow the same code path to create another new entity.
     true);
     ```
 
-1. Follow the code in the sample to fully define the extended entity similar
-to the sample extending the standard entity
+1. Follow the code in the sample to fully define the extended entity, similar to the sample extending the standard entity.
 
-1. Make a 'resolved' version of each entity doc in our local folder. Call
-`CreateResolvedManifestAsync` on our starting manifest. This will resolve
-everything and find all of the relationships between entities for us. Check out the second example 2-create-manifest for more details. Save the new documents.
+1. Make a 'resolved' version of each entity doc in the local folder. Call
+`CreateResolvedManifestAsync` on your starting manifest. This will resolve
+everything and find all of the relationships between entities. Check out the second example, 2-create-manifest, for more details. Save the new documents.
 
     ```csharp
     // Save as manifest.cdm.json
@@ -501,4 +491,4 @@ everything and find all of the relationships between entities for us. Check out 
 
 As a result, you should have new entities created with logical definitions and resolved definitions in the **resolved** folder
 
-Follow comments in the `Program.cs` for each specific fragment.
+Follow comments in `Program.cs` for each specific fragment.
