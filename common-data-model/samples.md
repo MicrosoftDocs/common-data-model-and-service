@@ -70,13 +70,11 @@ cdmCorpus.Storage.Mount("cdm", new LocalAdapter(pathFromExeToExampleRoot + "exam
 
 ### Read Manifest
 
-In the Read Manifest sample, you will learn how to read the Common Data Model manifest with all entity
-definitions and examine an entity, including it's attributes and partitions.<!-- Edit note: Later we say attributes and traits, so should it be partitions or traits. Also would need to update ALT text. -->
+In the Read Manifest sample, you will learn how to read the Common Data Model manifest with all entity definitions and examine an entity, including it's attributes and partitions.
 
 1.  Under the **1-read-manifest/code-cs** folder, open the `read-manifest.sln` file.
 
-1.  Run the project. You should see a console with the list of entities and
-    corresponding schema locations.
+1.  Run the project. You should see a console with the list of entities and corresponding schema locations.
 
     ![List of entities and schema locations](media/console1.png "List of entities and schema locations")
 
@@ -116,9 +114,7 @@ In the Create Manifest example, you will learn how to create a manifest with a s
 
     ![Look in your directory](media/sample-folder1.png "Look in your directory")
 
-1.  There are a few code fragments here. After configuring adapters, just as in
-    the first sample, you create a temporary manifest object and add specific entities of
-    your choice. Note that you need to point at definitions for those entities.
+1.  There are a few code fragments here. After configuring adapters, just as in the first sample, you create a temporary manifest object and add specific entities of your choice. Note that you need to point at definitions for those entities.
 
     ```csharp
     // Add each declaration, this example is about medical appointments and care plans
@@ -160,10 +156,7 @@ In the Create Manifest example, you will learn how to create a manifest with a s
     localRoot.Documents.Add(manifestAbstract);
     ```
 
-1.  The following fragment implements resolving entities (creating instances of
-specific entities using their abstract definitions as well as foundation
-definitions). After that, each entity is saved to the directory in the corresponding
-JSON file along with the eponymous folder with an empty CSV partition file.
+1.  The following fragment implements resolving entities (creating instances of specific entities using their abstract definitions as well as foundation definitions). After that, each entity is saved to the directory in the corresponding JSON file along with the eponymous folder with an empty CSV partition file.
 
     ```csharp
     // Create the resolved version of everything in the root folder too
@@ -189,8 +182,7 @@ customized version of a standard entity. 
 
 2.  Run the project.
 
-You will add the CareTeam entity, but first add the 'currentCity' attribute and give the new entity a new name, 'MobileCareTeam'.<!-- Edit note: Not sure if these were meant to be marked up as code. --> This new definition becomes a local abstract description of an entity that is transformed from the logical definition into the concrete
-definition per instructions on how to process references and relationships before being added to the manifest.
+You will add the CareTeam entity, but first add the 'currentCity' attribute and give the new entity a new name, 'MobileCareTeam'. This new definition becomes a local abstract description of an entity that is transformed from the logical definition into the concrete definition per instructions on how to process references and relationships before being added to the manifest.
 
 ```csharp
 // This method turns relative corpus paths into absolute ones in case we are in
@@ -300,7 +292,7 @@ manifest.Entities.Add(entFlat);
 
 // This function will update all of the fileStatus times in the manifest
 
-// await manifest.RefreshFileStatus();
+await manifest.RefreshFileStatus();
 
 // Save the manifest along with linked definition files
 
@@ -308,7 +300,7 @@ await manifest.SaveAsAsync("default.manifest.cdm.json", true);
 ```
 
 
-The result is the extended (customized) entity:<!-- Edit note: Looks like the await manifest.Refresh line above should not be commented out. Line 303 -->
+The result is the extended (customized) entity:
 
 ```JSON
 {
@@ -362,8 +354,7 @@ Follow comments in the `Program.cs` for each specific fragment.
 
 ### Create net new entity 
 
-The Create net new entity sample is going to simulate the steps that a tool would follow to create a new manifest document in some user storage folder with two types of
-entities:
+The Create net new entity sample is going to simulate the steps that a tool would follow to create a new manifest document in some user storage folder with two types of entities:
 
 - a net new entity
 - an entity extended from some public standards
@@ -478,9 +469,7 @@ Follow the same code path to create another new entity.
 
 1. Follow the code in the sample to fully define the extended entity, similar to the sample extending the standard entity.
 
-1. Make a 'resolved' version of each entity doc in the local folder. Call
-`CreateResolvedManifestAsync` on your starting manifest. This will resolve
-everything and find all of the relationships between entities. Check out the second example, 2-create-manifest, for more details. Save the new documents.
+1. Make a 'resolved' version of each entity doc in the local folder. Call `CreateResolvedManifestAsync` on your starting manifest. This will resolve everything and find all of the relationships between entities. Check out the second example, 2-create-manifest, for more details. Save the new documents.
 
     ```csharp
     // Save as manifest.cdm.json
