@@ -16,47 +16,27 @@ ms.author: Deonhe
 ## Glossary of definable objects
 
 
--   **Trait** - Annotation objects that are an expression of semantic meaning.
-    Traits can hold a set of named argument values.
+-   **Trait** - Annotation objects that are an expression of semantic meaning. Traits can hold a set of named argument values.
 
--   **DataType** - A named collection of traits to represent commonly used
-    concepts that combine data format, data value constraints, and semantic
-    meanings. Example data types are **integer** and **firstName**.
+-   **DataType** - A named collection of traits to represent commonly used concepts that combine data format, data value constraints, and semantic meanings. Example data types are **integer** and **firstName**.
 
--   **Attribute** - A simple (data type) or complex (entity) typed and named
-    description of data values being used to represent a specific idea or
-    purpose. For example, the data type **firstName** can be used to make an
-    attribute called **partnerFirstName**.
+-   **Attribute** - A simple (data type) or complex (entity) typed and named description of data values being used to represent a specific idea or purpose. For example, the data type **firstName** can be used to make an attribute called **partnerFirstName**.
 
--   **Entity** - A container that holds together a collection of traits and
-    attributes so that the collection represents some logical concept, business
-    process, event, or another object. Customer, Purchase, and Task are examples.
+-   **Entity** - A container that holds together a collection of traits and attributes so that the collection represents some logical concept, business process, event, or another object. Customer, Purchase, and Task are examples.
 
--   **Purpose** - A named collection of traits to represent commonly used reasons
-    or uses that an attribute serves within an entity. The purpose can be a part
-    of the entity definition to identify ideas like "default display text,"
-    "primary key," or "default sort column."
+-   **Purpose** - A named collection of traits to represent commonly used reasons or uses that an attribute serves within an entity. The purpose can be a part of the entity definition to identify ideas like "default display text," "primary key," or "default sort column."
 
 -   **AttributeGroup** - A named collection of attributes that works like a macro.
 
--   **ConstantEntity** - An association between an entity schema and a constant
-    array of data values that exist only within the metadata documents. Used to
-    represent tables of values.
+-   **ConstantEntity** - An association between an entity schema and a constant array of data values that exist only within the metadata documents. Used to represent tables of values.
 
 ## Definition documents 
 
-The definitions of logical objects in Common Data Model such as entities, data
-types, and traits are found in definition documents (myDefs.cdm.json).
-Definition documents can import other definition documents upon which they
-depend. The main content of a definition document is an array of object
-definitions.
+The definitions of logical objects in Common Data Model such as entities, data types, and traits are found in definition documents (myDefs.cdm.json). Definition documents can import other definition documents upon which they depend. The main content of a definition document is an array of object definitions.
 
 ## Base classes
 
-All the objects in the object model for Common Data Model share a set of common
-properties and methods; these are factored into the Common Data Model object
-base class. Most Common Data Model objects represent either the definition of an
-object or the use of (reference to) a defined object.
+All the objects in the object model for Common Data Model share a set of common properties and methods; these are factored into the Common Data Model object base class. Most Common Data Model objects represent either the definition of an object or the use of (reference to) a defined object.
 
 ### Common Data Model object
 
@@ -123,64 +103,35 @@ A *trait* is a simple object that describes a semantic meaning, settings, or mea
 }
 ```
 
-1.  By convention, trait names describe the meaning and domain of the trait by
-    using a *word.word.word* format. As part of the convention, the first word
-    is either a namespace identifier (for custom extensions) or the verb **is**,
-    **does**, or **means**.
+1.  By convention, trait names describe the meaning and domain of the trait by using a *word.word.word* format. As part of the convention, the first word is either a namespace identifier (for custom extensions) or the verb **is**, **does**, or **means**.
 
-1.  A best practice is to give traits an explanation that makes it clear when or
-    where they should be applied.
+1.  A best practice is to give traits an explanation that makes it clear when or where they should be applied.
 
-1.  Traits can be defined as extensions of a base trait. This creates an
-    inheritance hierarchy that allows for mixing specific and general
-    expressions of meaning. For example, if **means.measurement.distance**
-    extends **means.measurement** and **means.measurement.temperature** also
-    extends **means.measurement**, any object that exhibits either of the more
-    specific traits for distance or temperature can also be seen to have the
-    **means.measurement** trait. This can be useful for searching or grouping.
+1.  Traits can be defined as extensions of a base trait. This creates an inheritance hierarchy that allows for mixing specific and general expressions of meaning. For example, if **means.measurement.distance** extends **means.measurement** and **means.measurement.temperature** also extends **means.measurement**, any object that exhibits either of the more specific traits for distance or temperature can also be seen to have the **means.measurement** trait. This can be useful for searching or grouping.
 
-1.  Traits can define a set of named parameters that give additional details
-    about the trait or a setting..
+1.  Traits can define a set of named parameters that give additional details about the trait or a setting..
 
-1.  Trait parameters have a name and explanation, can be required or optional,
-    can have default values, and have an expected data type.
+1.  Trait parameters have a name and explanation, can be required or optional, can have default values, and have an expected data type.
 
-1.  The data type for a trait parameter can be any of the **dataType** objects
-    defined in the corpus.
+1.  The data type for a trait parameter can be any of the **dataType** objects defined in the corpus.
 
-1.  A trait that has been defined, such as **means.measurement**, can then be
-    applied or used by making a reference to the defined trait.
+1.  A trait that has been defined, such as **means.measurement**, can then be applied or used by making a reference to the defined trait.
 
-    1.  An example of a simple trait reference is the use of
-        **means.measurement** as the base—or extended trait—for the
-        **means.measurement.distance** trait.
+    1.  An example of a simple trait reference is the use of **means.measurement** as the base—or extended trait—for the **means.measurement.distance** trait.
 
-    2.  A structured reference to a trait, which describes the base trait for
-        **means.measurement.distance.meters** as shown in the preceding example,
-        allows trait arguments to be set for that specific use of the trait.
+    2.  A structured reference to a trait, which describes the base trait for **means.measurement.distance.meters** as shown in the preceding example, allows trait arguments to be set for that specific use of the trait.
 
-    3.  The supplied trait arguments correspond to the defined trait parameters,
-        including the trait parameters that might be inherited from a base
-        trait.
+    3.  The supplied trait arguments correspond to the defined trait parameters, including the trait parameters that might be inherited from a base trait.
 
-    4.  A trait argument can be a simple string value. This assumes that values
-        are set on parameters in the order in which they were defined, starting
-        from the "deepest" base trait on up.
+    4.  A trait argument can be a simple string value. This assumes that values are set on parameters in the order in which they were defined, starting from the "deepest" base trait on up.
 
-    5.  Another way to specify trait arguments is with **name** and **value**
-        pairs in an object.
+    5.  Another way to specify trait arguments is with **name** and **value** pairs in an object.
 
-    6.  Trait arguments for simple values are always expressed as strings, even
-        if the trait parameter has a data type of **integer**, **Boolean**, or
-        so on.
+    6.  Trait arguments for simple values are always expressed as strings, even if the trait parameter has a data type of **integer**, **Boolean**, or so on.
 
-    7.  Trait argument values for complex types like attributes or entities can
-        be objects.
+    7.  Trait argument values for complex types like attributes or entities can be objects.
 
-1.  In this example, because the base trait parameter for **units** is set to
-    **Meters**, when any other object has this
-    **means.measurement.distance.meters** trait applied to it, the **units**
-    argument will always be **Meters**.
+1.  In this example, because the base trait parameter for **units** is set to **Meters**, when any other object has this **means.measurement.distance.meters** trait applied to it, the **units** argument will always be **Meters**.
 
 For detailed guidance on traits, including their use case, how they are described, and how they are applied, please read [Trait concepts and use cases - a detailed overview of traits for representing dataTypes](trait-concepts-and-use-cases.md).   
 
@@ -207,31 +158,17 @@ For detailed guidance on traits, including their use case, how they are describe
 
 ### Applying traits
 
-When an entity or other object is defined in Common Data Model, part of its
-definition can be the set of traits that the object will exhibit—meaning that
-any time the object is used by reference, it will have those traits.
+When an entity or other object is defined in Common Data Model, part of its definition can be the set of traits that the object will exhibit—meaning that any time the object is used by reference, it will have those traits.
 
-In the places where an object is used by reference, additional traits can be
-applied. These additional traits will sit along with the object's exhibited
-traits. Applying a trait to an object reference overrides the parameter values
-of the identically named trait that's exhibited by the object. For example, the
-following trait **is.constrained** is extended.
+In the places where an object is used by reference, additional traits can be applied. These additional traits will sit along with the object's exhibited traits. Applying a trait to an object reference overrides the parameter values of the identically named trait that's exhibited by the object. For example, the following trait **is.constrained** is extended.
 
-<!-- image8 -->
 ![The isconstrained trait](../media/sdk/logical-definitions/isconstrained-trait.png) 
 
 
-This results in a trait called **is.constrained.length** that can be applied to
-an attribute to help understand the attribute's limitations. The extended trait
-has an *Enforced* parameter that tells us whether the length constraint is
-enforced by a source system (the default value here is **True**), along with a
-*maximumLength* parameter that's required to be set to a known maximum for an
-attribute.
+This results in a trait called **is.constrained.length** that can be applied to an attribute to help understand the attribute's limitations. The extended trait has an *Enforced* parameter that tells us whether the length constraint is enforced by a source system (the default value here is **True**), along with a *maximumLength* parameter that's required to be set to a known maximum for an attribute.
 
-When an attribute is defined by using this trait, the attribute-specific maximum
-length can be set.
+When an attribute is defined by using this trait, the attribute-specific maximum length can be set.
 
-<!-- image9 -->
 ![Set the maximum length of an attribute](../media/sdk/logical-definitions/attribute-max-length.png) 
 
 ## Standard traits
@@ -259,7 +196,6 @@ The **dataType** object that's referenced as a part of defining an attribute or 
 
 Data types can extend other data types, in which case they gain (and can augment) the traits taken from the base data type. For example, we define:
 
-<!-- image10 -->
 ![Extend data types](../media/sdk/logical-definitions/data-types-extend-data-types.png) 
 
 ## Standard data types
@@ -277,7 +213,6 @@ The standard definition documents for Common Data Model (primitives.cdm.json, fo
 
 The following JSON excerpt is an example of how to define a data type:
 
-<!-- image11 -->
 ![Define data types](../media/sdk/logical-definitions/define-data-types.png) 
 
 ## Entities and their attributes
@@ -294,12 +229,10 @@ A given entity describes the meaning and shape of data through a set of attribut
 
 The first kind of attribute describes an individual, atomic piece of data that has a single name, data format, semantic meaning, and purpose within the entity.
 
-<!-- image12 -->
 ![Simple typed attributes](../media/sdk/logical-definitions/simple-typed-attributes-1.png) 
 
 These attributes are described in the following JSON excerpt:
 
-<!-- image13 -->
 ![Simple typed attributes described in JSON](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
 
 ## The Purpose object
@@ -329,7 +262,6 @@ Of special note, the **identifiedBy** purpose is important to use for the primar
 
 To be able to reuse common definitions, an entity can be defined as an extension of one other entity. When this is done, the extended entity gains all the attributes from the base entity along with any new attributes it defines. For example, because a student is a person, a Student entity can be extended from the Person entity, with a student-specific attribute added to the entity definition.
 
-<!-- image14 -->
 ![Entity extensions](../media/sdk/logical-definitions/entity-extensions.png) 
 
 
@@ -340,13 +272,10 @@ At the point where an attribute is being defined, a set of traits can be applied
 
 Informally speaking, the full "grammar" for composing a typed attribute can be expressed in the following way:
 
-<!-- image15 -->
 ![Traits applied image](../media/sdk/logical-definitions/traits-applied-attributes.png) 
 
-Using shorthand for the full JSON definition, the grammar described above gives
-us:
+Using shorthand for the full JSON definition, the grammar described above gives us:
 
-<!-- image16 -->
 ![Traits applied in shorthand](../media/sdk/logical-definitions/traits-applied-attributes2.png) 
 
 This attribute will do the following:
@@ -363,15 +292,13 @@ This attribute will do the following:
 
     1.  Add traits from **personName**.
 
-        1.  Get traits from **string** (**is.dataFormat.char**,
-            **is.dataFormat.array**).
+        1.  Get traits from **string** (**is.dataFormat.char**, **is.dataFormat.array**).
 
         2.  Add **means.human.name**.
 
         3.  Add the trait **is.constrained.length**.
 
-            1.  Add the parameter from the base **is.constrained**
-                (*enforced*=true).
+            1.  Add the parameter from the base **is.constrained** (*enforced*=true).
 
             2.  Add the parameter *maximumLength*.
 
@@ -381,8 +308,7 @@ This attribute will do the following:
 
 1.  Give the attribute the name **fullName**.
 
-1.  Reapply the **is.constrained.length** trait with a new argument for
-    **maximumLength**.
+1.  Reapply the **is.constrained.length** trait with a new argument for **maximumLength**.
 
 The resulting attribute is named **fullName** and has these traits:
 
@@ -410,7 +336,6 @@ One entity can use a second entity as one of its attributes. This is the other t
 
 Adding to our example:
 
-<!-- image17 -->
 ![Entity type attribute](../media/sdk/logical-definitions/using-entity-type-attribute.png) 
 
 The default behavior for Common Data Model is to treat an attribute of an entity type as an inline, complex data type. By default, the composition shown above resolves to:
@@ -497,7 +422,7 @@ Using projection operation [ReplaceAsForeignKey](.//projections/replaceasforeign
 }
 ```
 
-Here we create a purpose object and apply the traits [`means.relationship.verbPhras`](./list-of-traits.md#meansrelationshipverbphrasee) and [`means.relationship.inverseVerbPhrase`](./list-of-traits.md#meansrelationshipinverseverbphrase):
+Here we create a purpose object and apply the traits [`means.relationship.verbPhras`](./list-of-traits.md#meansrelationshipverbphrase) and [`means.relationship.inverseVerbPhrase`](./list-of-traits.md#meansrelationshipinverseverbphrase):
 
 ```json
 {
@@ -728,19 +653,16 @@ After it's defined, an attribute group can be used by reference in place of a re
 
 To illustrate, we can add some common bookkeeping attributes to our Person entity:
 
-<!-- image18 -->
 ![Add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes.png) 
 
 Or, in JSON form:
 
-<!-- image19 -->
 ![Json to add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes-2.png) 
 
 
 ## The ConstantEntity object
 
-There are situations where a structured table of values needs to be held as a part of the definition or description of schema objects. The most common examples are the tables of per-language description text that can be applied to
-entities or attributes, or the tables of code lookup values that can be associated with attributes that have a data type where values are picked from a set of enumerated possibilities. Constant entities make it possible to store a table of information inside a parameter of a trait.
+There are situations where a structured table of values needs to be held as a part of the definition or description of schema objects. The most common examples are the tables of per-language description text that can be applied to entities or attributes, or the tables of code lookup values that can be associated with attributes that have a data type where values are picked from a set of enumerated possibilities. Constant entities make it possible to store a table of information inside a parameter of a trait.
 
 | Property name      | Description                                                                                                                                                                                      |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -752,7 +674,6 @@ entities or attributes, or the tables of code lookup values that can be associat
 
 Like any other object in Common Data Model, a constant entity can be one of the definitions inside a cdm.json document, which can then be referenced by name when needed. However, because many constant entities are only used in one place, they're more often defined directly inside the individual entity reference from which they're being used. For example:
 
-<!-- image20 -->
 ![Constant entity object](../media/sdk/logical-definitions/constant-entity-object.png) 
 
 ## Learn more
