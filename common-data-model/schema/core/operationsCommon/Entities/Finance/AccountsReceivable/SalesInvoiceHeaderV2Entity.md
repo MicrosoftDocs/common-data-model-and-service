@@ -44,7 +44,6 @@ ms.author: weiluo
 |[PaymentTermsName](#PaymentTermsName)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
 |[TotalInvoiceAmount](#TotalInvoiceAmount)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
 |[CurrencyCode](#CurrencyCode)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
-|[InvoiceHeaderTaxAmount](#InvoiceHeaderTaxAmount)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
 |[TotalTaxAmount](#TotalTaxAmount)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
 |[TotalChargeAmount](#TotalChargeAmount)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
 |[TotalDiscountCustomerGroupCode](#TotalDiscountCustomerGroupCode)||<a href="SalesInvoiceHeaderV2Entity.md" target="_blank">AccountsReceivable/SalesInvoiceHeaderV2Entity</a>|
@@ -273,28 +272,6 @@ The attribute value may be set to NULL.
 **is.dataFormat.array**  
 </details>
 
-### <a href=#InvoiceHeaderTaxAmount name="InvoiceHeaderTaxAmount">InvoiceHeaderTaxAmount</a>
-
-First included in: AccountsReceivable/SalesInvoiceHeaderV2Entity (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the InvoiceHeaderTaxAmount attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-**is.dataFormat.big**  
-**is.dataFormat.array**  
-**is.nullable**  
-The attribute value may be set to NULL.  
-
-**is.dataFormat.character**  
-**is.dataFormat.array**  
-</details>
 
 ### <a href=#TotalTaxAmount name="TotalTaxAmount">TotalTaxAmount</a>
 
