@@ -15,15 +15,6 @@ Any special requests that have been made for this hospitalization encounter, suc
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterHospitalizationArrangement.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterHospitalizationArrangement](../../Foundational/HealthcareFoundation/EncounterHospitalizationArrangement.md "/Healthcare/Foundational/HealthcareFoundation/EncounterHospitalizationArrangement.cdm.json/EncounterHospitalizationArrangement")  
-</details>
-
 ## Traits
 
 <details>

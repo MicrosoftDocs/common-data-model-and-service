@@ -1,6 +1,6 @@
 ---
 title: Coverage in Financial - Common Data Model | Microsoft Docs
-description: "The party(s) that are responsible for payment (or part of) of charges applied to this account (including self-pay).A coverage may only be resposible for specific types of charges, and the sequence o
+description: "The party(s) that are responsible for payment (or part of) of charges applied to this account (including self-pay). A coverage may only be resposible for specific types of charges."
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -12,7 +12,7 @@ ms.author: matgos
 # Coverage in Financial
 
 "The party(s) that are responsible for payment (or part of) of charges applied to this account (including self-pay).
-A coverage may only be resposible for specific types of charges, and the sequence o  
+A coverage may only be resposible for specific types of charges.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Financial/Financial/Coverage.cdm.json" target="_blank">GitHub</a>.  
 
