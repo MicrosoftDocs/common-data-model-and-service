@@ -15,15 +15,6 @@ A protocol, guideline, order set or other definition that was adhered to in whol
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureDefinition.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureDefinition](../../Foundational/HealthcareFoundation/ProcedureDefinition.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureDefinition.cdm.json/ProcedureDefinition")  
-</details>
-
 ## Traits
 
 <details>

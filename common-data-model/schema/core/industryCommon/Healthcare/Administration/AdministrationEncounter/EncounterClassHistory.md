@@ -15,15 +15,6 @@ The class history permits the tracking of the encounters transitions without nee
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterClassHistory.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterClassHistory](../../Foundational/HealthcareFoundation/EncounterClassHistory.md "/Healthcare/Foundational/HealthcareFoundation/EncounterClassHistory.cdm.json/EncounterClassHistory")  
-</details>
-
 ## Traits
 
 <details>
