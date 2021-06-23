@@ -26,7 +26,7 @@ public class CdmE2ERelationship extends CdmObjectDefinitionBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Name<br/><br/>*relationship_name in Python.*|string|The relationship's name.|
+|Name|string|The relationship's name.|
 |FromEntity|string|The corpus path to the entity the relationship is pointing from.|
 |FromEntityAttribute|string|The entity attribute the relationship is pointing from (foreign key).|
 |ToEntity|string|The corpus path to entity the relationship is pointing to.|
