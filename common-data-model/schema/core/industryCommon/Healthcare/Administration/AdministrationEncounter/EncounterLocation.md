@@ -15,15 +15,6 @@ List of locations where the patient has been during this encounter.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterLocation.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterLocation](../../Foundational/HealthcareFoundation/EncounterLocation.md "/Healthcare/Foundational/HealthcareFoundation/EncounterLocation.cdm.json/EncounterLocation")  
-</details>
-
 ## Traits
 
 <details>

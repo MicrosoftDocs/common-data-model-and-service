@@ -15,15 +15,6 @@ Codes to indicate the target population this reference range applies to. For exa
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Diagnostics/DiagnosticCore/ObservationReferenceRangeAppliesTo.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ObservationReferenceRangeAppliesTo](../../Foundational/HealthcareFoundation/ObservationReferenceRangeAppliesTo.md "/Healthcare/Foundational/HealthcareFoundation/ObservationReferenceRangeAppliesTo.cdm.json/ObservationReferenceRangeAppliesTo")  
-</details>
-
 ## Traits
 
 <details>

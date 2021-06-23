@@ -15,15 +15,6 @@ Identifies all people and organizations who are expected to be involved in the c
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalCareTeam/CarePlanCareTeam.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareCareManagement/CarePlanCareTeam](../../Application/HealthcareCareManagement/CarePlanCareTeam.md "/Healthcare/Application/HealthcareCareManagement/CarePlanCareTeam.cdm.json/CarePlanCareTeam")  
-</details>
-
 ## Traits
 
 <details>

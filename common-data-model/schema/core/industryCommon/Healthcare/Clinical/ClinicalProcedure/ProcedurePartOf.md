@@ -15,15 +15,6 @@ A larger event of which this particular procedure is a component or step.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedurePartOf.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedurePartOf](../../Foundational/HealthcareFoundation/ProcedurePartOf.md "/Healthcare/Foundational/HealthcareFoundation/ProcedurePartOf.cdm.json/ProcedurePartOf")  
-</details>
-
 ## Traits
 
 <details>

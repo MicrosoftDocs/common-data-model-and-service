@@ -15,17 +15,6 @@ Describes the intention of how one or more practitioners intend to deliver care 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Foundational/Commoncore/CarePlan.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareCareManagement/CarePlan](../../Application/HealthcareCareManagement/CarePlan.md "/Healthcare/Application/HealthcareCareManagement/CarePlan.cdm.json/CarePlan")  
-- [/SyncAgentCDMUpdates/CarePlan](../../AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CarePlan.md "/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CarePlan.cdm.json/CarePlan")  
-- [/HealthcareFoundation/CarePlan](../HealthcareFoundation/CarePlan.md "/Healthcare/Foundational/HealthcareFoundation/CarePlan.cdm.json/CarePlan")  
-</details>
-
 ## Traits
 
 <details>

@@ -15,15 +15,6 @@ The slots from the participants' schedules that will be filled by the appointmen
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationAppointmentEMR/AppointmentEMRSlot.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/SyncAgentCDMUpdates/AppointmentEMRSlot](../../AzureAPIforFHIRsupport/SyncAgentCDMUpdates/AppointmentEMRSlot.md "/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/AppointmentEMRSlot.cdm.json/AppointmentEMRSlot")  
-</details>
-
 ## Traits
 
 <details>

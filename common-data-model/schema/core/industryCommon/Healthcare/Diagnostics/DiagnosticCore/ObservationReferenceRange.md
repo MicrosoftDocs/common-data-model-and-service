@@ -15,15 +15,6 @@ Guidance on how to interpret the value by comparison to a normal or recommended 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Diagnostics/DiagnosticCore/ObservationReferenceRange.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ObservationReferenceRange](../../Foundational/HealthcareFoundation/ObservationReferenceRange.md "/Healthcare/Foundational/HealthcareFoundation/ObservationReferenceRange.cdm.json/ObservationReferenceRange")  
-</details>
-
 ## Traits
 
 <details>

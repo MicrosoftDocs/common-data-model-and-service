@@ -15,15 +15,6 @@ Clinical stage or grade of a condition. May include formal severity assessments.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalCore/ConditionStage.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ConditionStage](../../Foundational/HealthcareFoundation/ConditionStage.md "/Healthcare/Foundational/HealthcareFoundation/ConditionStage.cdm.json/ConditionStage")  
-</details>
-
 ## Traits
 
 <details>

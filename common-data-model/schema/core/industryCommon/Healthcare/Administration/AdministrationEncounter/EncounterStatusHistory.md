@@ -15,15 +15,6 @@ The status history permits the encounter entity to contain the status history wi
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterStatusHistory.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterStatusHistory](../../Foundational/HealthcareFoundation/EncounterStatusHistory.md "/Healthcare/Foundational/HealthcareFoundation/EncounterStatusHistory.cdm.json/EncounterStatusHistory")  
-</details>
-
 ## Traits
 
 <details>

@@ -15,15 +15,6 @@ The organization responsible for the care team.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalCareTeam/CareTeamManagingOrganization.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/CareTeamManagingOrganization](../../Foundational/HealthcareFoundation/CareTeamManagingOrganization.md "/Healthcare/Foundational/HealthcareFoundation/CareTeamManagingOrganization.cdm.json/CareTeamManagingOrganization")  
-</details>
-
 ## Traits
 
 <details>

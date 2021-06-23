@@ -14,15 +14,6 @@ ms.author: matgos
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Diagnostics/DiagnosticReport/DiagnosticReport.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/SyncAgentCDMUpdates/DiagnosticReport](../../AzureAPIforFHIRsupport/SyncAgentCDMUpdates/DiagnosticReport.md "/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/DiagnosticReport.cdm.json/DiagnosticReport")  
-</details>
-
 ## Traits
 
 <details>

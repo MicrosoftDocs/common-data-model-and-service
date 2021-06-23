@@ -22,7 +22,6 @@ Identifies a planned action to occur as part of the plan. For example, a medicat
 </summary>
 
 - [/HealthcareCareManagement/CarePlanActivity](../../Application/HealthcareCareManagement/CarePlanActivity.md "/Healthcare/Application/HealthcareCareManagement/CarePlanActivity.cdm.json/CarePlanActivity")  
-- [/HealthcareFoundation/CarePlanActivity](../../Foundational/HealthcareFoundation/CarePlanActivity.md "/Healthcare/Foundational/HealthcareFoundation/CarePlanActivity.cdm.json/CarePlanActivity")  
 </details>
 
 ## Traits

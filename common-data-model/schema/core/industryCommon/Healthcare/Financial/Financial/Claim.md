@@ -15,15 +15,6 @@ A provider issued list of services and products provided, or to be provided, to 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Financial/Financial/Claim.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/SyncAgentCDMUpdates/Claim](../../AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Claim.md "/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/Claim.cdm.json/Claim")  
-</details>
-
 ## Traits
 
 <details>

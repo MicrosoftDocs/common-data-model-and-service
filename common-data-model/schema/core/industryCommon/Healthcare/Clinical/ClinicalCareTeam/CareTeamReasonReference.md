@@ -15,15 +15,6 @@ Condition(s) that this care team addresses.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalCareTeam/CareTeamReasonReference.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/CareTeamReasonReference](../../Foundational/HealthcareFoundation/CareTeamReasonReference.md "/Healthcare/Foundational/HealthcareFoundation/CareTeamReasonReference.cdm.json/CareTeamReasonReference")  
-</details>
-
 ## Traits
 
 <details>

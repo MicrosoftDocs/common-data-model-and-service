@@ -15,15 +15,6 @@ The referral request this encounter satisfies (incoming referral).
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterReferralRequest.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterReferralRequest](../../Foundational/HealthcareFoundation/EncounterReferralRequest.md "/Healthcare/Foundational/HealthcareFoundation/EncounterReferralRequest.cdm.json/EncounterReferralRequest")  
-</details>
-
 ## Traits
 
 <details>

@@ -15,15 +15,6 @@ A reference to a resource that contains details of the request for this procedur
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureBasedOn.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureBasedOn](../../Foundational/HealthcareFoundation/ProcedureBasedOn.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureBasedOn.cdm.json/ProcedureBasedOn")  
-</details>
-
 ## Traits
 
 <details>

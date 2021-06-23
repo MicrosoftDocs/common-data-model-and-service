@@ -15,15 +15,6 @@ A code that classifies the procedure for searching, sorting and display purposes
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestCategory.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureRequestCategory](../../Foundational/HealthcareFoundation/ProcedureRequestCategory.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestCategory.cdm.json/ProcedureRequestCategory")  
-</details>
-
 ## Traits
 
 <details>

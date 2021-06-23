@@ -15,15 +15,6 @@ The anatomical location where this condition manifests itself.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalCore/ConditionBodySite.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ConditionBodySite](../../Foundational/HealthcareFoundation/ConditionBodySite.md "/Healthcare/Foundational/HealthcareFoundation/ConditionBodySite.cdm.json/ConditionBodySite")  
-</details>
-
 ## Traits
 
 <details>

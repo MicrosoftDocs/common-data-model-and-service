@@ -15,15 +15,6 @@ Who was responsible for asserting the observed value as "true".
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Diagnostics/DiagnosticCore/ObservationPerformer.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ObservationPerformer](../../Foundational/HealthcareFoundation/ObservationPerformer.md "/Healthcare/Foundational/HealthcareFoundation/ObservationPerformer.cdm.json/ObservationPerformer")  
-</details>
-
 ## Traits
 
 <details>
