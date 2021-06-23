@@ -15,15 +15,6 @@ The set of accounts that may be used for billing for this Encounter.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterAccount.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterAccount](../../Foundational/HealthcareFoundation/EncounterAccount.md "/Healthcare/Foundational/HealthcareFoundation/EncounterAccount.cdm.json/EncounterAccount")  
-</details>
-
 ## Traits
 
 <details>

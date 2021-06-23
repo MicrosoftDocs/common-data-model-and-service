@@ -15,15 +15,6 @@ The list of diagnosis relevant to this encounter.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Administration/AdministrationEncounter/EncounterDiagnosis.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/EncounterDiagnosis](../../Foundational/HealthcareFoundation/EncounterDiagnosis.md "/Healthcare/Foundational/HealthcareFoundation/EncounterDiagnosis.cdm.json/EncounterDiagnosis")  
-</details>
-
 ## Traits
 
 <details>
