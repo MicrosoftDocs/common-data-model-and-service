@@ -15,15 +15,6 @@ Additional clinical information about the patient or specimen that may influence
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestSupportingInformation.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureRequestSupportingInformation](../../Foundational/HealthcareFoundation/ProcedureRequestSupportingInformation.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestSupportingInformation.cdm.json/ProcedureRequestSupportingInformation")  
-</details>
-
 ## Traits
 
 <details>

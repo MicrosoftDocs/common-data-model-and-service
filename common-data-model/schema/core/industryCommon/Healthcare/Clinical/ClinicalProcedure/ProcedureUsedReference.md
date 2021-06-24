@@ -15,15 +15,6 @@ Identifies medications, devices and any other substance used as part of the proc
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureUsedReference.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureUsedReference](../../Foundational/HealthcareFoundation/ProcedureUsedReference.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureUsedReference.cdm.json/ProcedureUsedReference")  
-</details>
-
 ## Traits
 
 <details>

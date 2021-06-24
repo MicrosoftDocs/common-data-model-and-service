@@ -15,15 +15,6 @@ The coded reason why the procedure was performed. This may be coded entity of so
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureReason.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureReason](../../Foundational/HealthcareFoundation/ProcedureReason.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureReason.cdm.json/ProcedureReason")  
-</details>
-
 ## Traits
 
 <details>
