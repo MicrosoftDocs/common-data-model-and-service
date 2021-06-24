@@ -15,16 +15,6 @@ The Care Team includes all the people and organizations who plan to participate 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Foundational/Commoncore/CareTeam.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/SyncAgentCDMUpdates/CareTeam](../../AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CareTeam.md "/Healthcare/AzureAPIforFHIRsupport/SyncAgentCDMUpdates/CareTeam.cdm.json/CareTeam")  
-- [/HealthcareFoundation/CareTeam](../HealthcareFoundation/CareTeam.md "/Healthcare/Foundational/HealthcareFoundation/CareTeam.cdm.json/CareTeam")  
-</details>
-
 ## Traits
 
 <details>

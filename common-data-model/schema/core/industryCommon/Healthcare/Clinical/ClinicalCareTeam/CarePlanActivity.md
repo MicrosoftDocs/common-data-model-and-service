@@ -15,15 +15,6 @@ Identifies a planned action to occur as part of the plan. For example, a medicat
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalCareTeam/CarePlanActivity.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareCareManagement/CarePlanActivity](../../Application/HealthcareCareManagement/CarePlanActivity.md "/Healthcare/Application/HealthcareCareManagement/CarePlanActivity.cdm.json/CarePlanActivity")  
-</details>
-
 ## Traits
 
 <details>

@@ -15,15 +15,6 @@ Protocol or definition followed by this request.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Clinical/ClinicalProcedure/ProcedureRequestDefinition.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ProcedureRequestDefinition](../../Foundational/HealthcareFoundation/ProcedureRequestDefinition.md "/Healthcare/Foundational/HealthcareFoundation/ProcedureRequestDefinition.cdm.json/ProcedureRequestDefinition")  
-</details>
-
 ## Traits
 
 <details>
