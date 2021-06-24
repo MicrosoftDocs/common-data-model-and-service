@@ -15,15 +15,6 @@ The assessment made based on the result of the observation.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Healthcare/Diagnostics/DiagnosticCore/ObservationInterpretation.cdm.json" target="_blank">GitHub</a>.  
 
-## Instances
-
-<details>
-<summary>Entities that inherit from the currently viewed entity are listed below.  
-</summary>
-
-- [/HealthcareFoundation/ObservationInterpretation](../../Foundational/HealthcareFoundation/ObservationInterpretation.md "/Healthcare/Foundational/HealthcareFoundation/ObservationInterpretation.cdm.json/ObservationInterpretation")  
-</details>
-
 ## Traits
 
 <details>
