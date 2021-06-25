@@ -20,9 +20,10 @@ public abstract class NetworkAdapter extends StorageAdapterBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Timeout|TimeSpan?|The timeout for an HTTP request. The default value is 2000 ms.|
+|AvoidRetryCodes|Set\<HttpStatusCode\>|A set of HttpStatusCodes that will stop the retry logic if the HTTP response has one of these types.|
 |MaximumTimeout|TimeSpan?|The maximum timeout for all retried HTTP requests. The default value is 10000 ms.|
 |NumberOfRetries|int|The maximum number of retries for an HTTP request. The default value is 2.|
+|Timeout|TimeSpan?|The timeout for an HTTP request. The default value is 2000 ms.|
 |WaitTimeCallback|CdmHttpClient.Callback|The wait time callback that gets called after each request is executed.|
 
 ## Methods
