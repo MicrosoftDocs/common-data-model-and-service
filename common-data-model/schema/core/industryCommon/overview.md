@@ -13,4 +13,4 @@ ms.author: matgos
 
 The industryCommon group contains  entities which are related to or are derived from solutions offered by Microsoft.
 
-For more information, please refer to [Dynamics 365 industry solutions](https://docs.microsoft.com/en-us/dynamics365/industry).
+For more information, please refer to [Dynamics 365 industry solutions](https://docs.microsoft.com/dynamics365/industry).
