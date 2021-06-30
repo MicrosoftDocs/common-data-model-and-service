@@ -1,6 +1,6 @@
 ---
 title: CarePlanGoalOutcome in electronicMedicalRecords - Common Data Model | Microsoft Docs
-description: undefined
+description: undefined - CarePlanGoalOutcome in electronicMedicalRecords
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
