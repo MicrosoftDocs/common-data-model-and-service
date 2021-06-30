@@ -21,7 +21,6 @@ Information about products and their pricing information.
 <summary>Entities that inherit from the currently viewed entity are listed below.  
 </summary>
 
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Product](crmCommon/accelerators/financialServices/banking/Product.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.cdm.json/Product")  
 - [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product](crmCommon/projectCommon/projectServiceAutomation/Product.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Product.cdm.json/Product")  
 </details>
 

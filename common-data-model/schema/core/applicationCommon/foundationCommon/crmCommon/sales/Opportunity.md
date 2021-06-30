@@ -21,7 +21,6 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 <summary>Entities that inherit from the currently viewed entity are listed below.  
 </summary>
 
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity](../accelerators/financialServices/banking/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.cdm.json/Opportunity")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity](../accelerators/nonProfit/nonProfitForSales/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Opportunity.cdm.json/Opportunity")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity](../accelerators/nonProfit/nonProfitIati/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Opportunity.cdm.json/Opportunity")  
 - [/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity](../projectCommon/projectServiceAutomation/Opportunity.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/projectServiceAutomation/Opportunity.cdm.json/Opportunity")  
