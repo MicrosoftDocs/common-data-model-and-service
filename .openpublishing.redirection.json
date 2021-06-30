@@ -471,57 +471,57 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/KYC.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/LeadToOpportunitySalesProcess.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Limit.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/MortgageApplication.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Opportunity.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Product.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/RequestedFacility.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Syndicates.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/overview.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/",
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/overview.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
     },
