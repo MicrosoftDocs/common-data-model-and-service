@@ -394,6 +394,86 @@
       "source_path": "common-data-model/industry-accelerators.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Account.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Bank.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Branch.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/BusinessCheckingAccount.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CertificateOfDeposit.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Collateral.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
   ]
 }
