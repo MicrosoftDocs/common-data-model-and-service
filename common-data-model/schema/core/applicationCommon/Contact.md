@@ -1,6 +1,6 @@
 ---
 title: Contact in applicationCommon - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague. Contact in applicationCommon.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -24,7 +24,6 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 - [/foundationCommon/Contact](foundationCommon/Contact.md "/core/applicationCommon/foundationCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/Contact](foundationCommon/crmCommon/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact](foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Contact.cdm.json/Contact")  
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact](foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact](foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Contact.cdm.json/Contact")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Contact](foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Contact.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Contact.cdm.json/Contact")  

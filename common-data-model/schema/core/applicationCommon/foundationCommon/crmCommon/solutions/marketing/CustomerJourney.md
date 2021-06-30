@@ -1,6 +1,6 @@
 ---
 title: CustomerJourney in marketing - Common Data Model | Microsoft Docs
-description: undefined
+description: undefined - Opportunity in portals
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -20,7 +20,6 @@ ms.author: weiluo
 <summary>Entities that inherit from the currently viewed entity are listed below.  
 </summary>
 
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney](../../accelerators/financialServices/banking/CustomerJourney.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney.cdm.json/CustomerJourney")  
 </details>
 
 ## Traits

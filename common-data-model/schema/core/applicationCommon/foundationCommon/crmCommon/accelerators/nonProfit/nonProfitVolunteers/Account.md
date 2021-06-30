@@ -1,6 +1,6 @@
 ---
 title: Account in nonProfitVolunteers - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in nonProfitVolunteers.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe

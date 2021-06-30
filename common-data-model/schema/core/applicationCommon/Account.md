@@ -1,6 +1,6 @@
 ---
 title: Account in applicationCommon - Common Data Model | Microsoft Docs
-description: Business that represents a customer or potential customer. The company that is billed in business transactions.
+description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in applicationCommon.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -24,7 +24,6 @@ Business that represents a customer or potential customer. The company that is b
 - [/foundationCommon/Account](foundationCommon/Account.md "/core/applicationCommon/foundationCommon/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/Account](foundationCommon/crmCommon/Account.md "/core/applicationCommon/foundationCommon/crmCommon/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/education/higherEducation/Account](foundationCommon/crmCommon/accelerators/education/higherEducation/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/education/higherEducation/Account.cdm.json/Account")  
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Account](foundationCommon/crmCommon/accelerators/financialServices/banking/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account](foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account](foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitCore/Account.cdm.json/Account")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account](foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Account.cdm.json/Account")  

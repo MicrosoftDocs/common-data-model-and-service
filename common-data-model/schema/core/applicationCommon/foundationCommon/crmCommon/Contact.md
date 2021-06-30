@@ -1,6 +1,6 @@
 ---
 title: Contact in crmCommon - Common Data Model | Microsoft Docs
-description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
+description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague. Contact in crmCommon.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
