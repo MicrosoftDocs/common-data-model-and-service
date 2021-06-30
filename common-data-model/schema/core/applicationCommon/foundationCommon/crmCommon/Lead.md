@@ -1,6 +1,6 @@
 ---
 title: Lead in crmCommon - Common Data Model | Microsoft Docs
-description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
+description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived. Lead in crmCommon.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -22,7 +22,6 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 </summary>
 
 - [/foundationCommon/crmCommon/accelerators/automotive/Lead](accelerators/automotive/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/automotive/Lead.cdm.json/Lead")  
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead](accelerators/financialServices/banking/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead](accelerators/nonProfit/nonProfitForSales/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitForSales/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/projectCommon/Lead](projectCommon/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/projectCommon/Lead.cdm.json/Lead")  
 - [/foundationCommon/crmCommon/solutions/marketing/Lead](solutions/marketing/Lead.md "/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/Lead.cdm.json/Lead")  

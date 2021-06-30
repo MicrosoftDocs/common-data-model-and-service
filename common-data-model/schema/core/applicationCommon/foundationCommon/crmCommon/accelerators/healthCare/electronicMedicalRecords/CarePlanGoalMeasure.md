@@ -1,6 +1,6 @@
 ---
 title: CarePlanGoalMeasure in electronicMedicalRecords - Common Data Model | Microsoft Docs
-description: undefined
+description: undefined - CarePlanGoalMeasure in electronicMedicalRecords
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe

@@ -1,6 +1,6 @@
 ---
 title: ContactLeads in crmCommon - Common Data Model | Microsoft Docs
-description: undefined
+description: undefined - ContactLeads in crmCommon
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
