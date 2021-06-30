@@ -20,7 +20,6 @@ ms.author: weiluo
 <summary>Entities that inherit from the currently viewed entity are listed below.  
 </summary>
 
-- [/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney](../../accelerators/financialServices/banking/CustomerJourney.md "/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney.cdm.json/CustomerJourney")  
 </details>
 
 ## Traits
