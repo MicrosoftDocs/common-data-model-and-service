@@ -1,6 +1,6 @@
 ---
 title: DeviceStatus in electronicMedicalRecords - Common Data Model | Microsoft Docs
-description: undefined - CarePlanGoalOutcome in electronicMedicalRecords
+description: undefined - DeviceStatus in electronicMedicalRecords
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
