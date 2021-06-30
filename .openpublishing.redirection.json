@@ -426,6 +426,56 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CommercialDeposit.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CommercialLoan.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Company360.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CompanyOnboarding.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Contact.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/ContactOnboardingFromProspect.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/Customer360Person.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/CustomerJourney.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/banking/FinancialProduct.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "common-data-model/",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
