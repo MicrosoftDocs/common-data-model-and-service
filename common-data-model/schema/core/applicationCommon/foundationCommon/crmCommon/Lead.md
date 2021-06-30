@@ -1,6 +1,6 @@
 ---
 title: Lead in crmCommon - Common Data Model | Microsoft Docs
-description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
+description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived. Lead in crmCommon.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
