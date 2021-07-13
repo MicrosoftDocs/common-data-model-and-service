@@ -41,6 +41,6 @@ ms.assetid: ""
 
 [Link to website](http://www.microsoft.com "Hover title") 
 
-![Screenshot](media/screenshot.png "Hover title")
+![Screenshot.](media/screenshot.png "Hover title")
 
 

@@ -16,7 +16,7 @@ ms.author: Deonhe
 To further clarify and illustrate the process that resolves logical entities into a concrete attribute list, consider this example schema:
 
 <!-- image26 -->
-![Resolution guidance](../media/sdk/convert-logical-entities-resolved-entities/resolution-guidance.png) 
+![Resolution guidance.](../media/sdk/convert-logical-entities-resolved-entities/resolution-guidance.png) 
 
 Holding in mind the **shipTo** entity attribute defined in the Customer entity above, consider this pipeline of operations that's performed on the set of attributes that result from the Addresses entity. (Note that for explanatory purposes, this list describes every possible stage even though, in reality, not all of them apply in all situations.) 
 
@@ -137,37 +137,37 @@ Parameters that control the use of foreign keys to reference entity instances in
 Recall this diagram of our simple logical entities:
 
 <!-- image27 -->
-![Simple logical entities](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities.png) 
+![Simple logical entities.](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities.png) 
 
 By using the Common Data Model JSON grammar, these logical entities are expressed like this:
 
 <!-- image28 -->
-![Image showing how logical entities are expressed](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities-2.png) 
+![Image showing how logical entities are expressed.](../media/sdk/convert-logical-entities-resolved-entities/simple-logical-entities-2.png) 
 
 To resolve the SmallBusiness entity into this shape:
 
 <!-- image29 -->
-![The smallbusiness entity shape](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape.png) 
+![The smallbusiness entity shape.](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape.png) 
 
 We can restate the SmallBusiness entity with some attribute guidance. This creates a new entity that extends SmallBusiness. For clarity, we'll also give it a new name.
 
 <!-- image30 -->
-![The smallbusiness entity shape with a new name](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-new-name.png) 
+![The smallbusiness entity shape with a new name.](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-new-name.png) 
 
 To resolve the SmallBusiness entity into this shape:
 
 <!-- image31 -->
-![The resolved SmallBusiness entity shape](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved.png) 
+![The resolved SmallBusiness entity shape.](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved.png) 
 
 We can restate the SmallBusiness entity with some attribute guidance.
 
  <!-- image32 -->
-![Image showing how to restate the SmallBusiness entity](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved-2.png) 
+![Image showing how to restate the SmallBusiness entity.](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved-2.png) 
 
 To resolve the SmallBusiness entity into this shape:
 
  <!-- image33 -->
-![Image showing the resolved SmallBusiness entity](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved2.png) 
+![Image showing the resolved SmallBusiness entity.](../media/sdk/convert-logical-entities-resolved-entities/small-business-entity-shape-resolved2.png) 
 
 We can simply resolve the logical entity with no added guidance, and use the structured directive.
 

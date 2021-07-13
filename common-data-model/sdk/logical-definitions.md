@@ -162,14 +162,14 @@ When an entity or other object is defined in Common Data Model, part of its defi
 
 In the places where an object is used by reference, additional traits can be applied. These additional traits will sit along with the object's exhibited traits. Applying a trait to an object reference overrides the parameter values of the identically named trait that's exhibited by the object. For example, the following trait **is.constrained** is extended.
 
-![The isconstrained trait](../media/sdk/logical-definitions/isconstrained-trait.png) 
+![The isconstrained trait.](../media/sdk/logical-definitions/isconstrained-trait.png) 
 
 
 This results in a trait called **is.constrained.length** that can be applied to an attribute to help understand the attribute's limitations. The extended trait has an *Enforced* parameter that tells us whether the length constraint is enforced by a source system (the default value here is **True**), along with a *maximumLength* parameter that's required to be set to a known maximum for an attribute.
 
 When an attribute is defined by using this trait, the attribute-specific maximum length can be set.
 
-![Set the maximum length of an attribute](../media/sdk/logical-definitions/attribute-max-length.png) 
+![Set the maximum length of an attribute.](../media/sdk/logical-definitions/attribute-max-length.png) 
 
 ## Standard traits
 
@@ -196,7 +196,7 @@ The **dataType** object that's referenced as a part of defining an attribute or 
 
 Data types can extend other data types, in which case they gain (and can augment) the traits taken from the base data type. For example, we define:
 
-![Extend data types](../media/sdk/logical-definitions/data-types-extend-data-types.png) 
+![Extend data types.](../media/sdk/logical-definitions/data-types-extend-data-types.png) 
 
 ## Standard data types
 
@@ -213,7 +213,7 @@ The standard definition documents for Common Data Model (primitives.cdm.json, fo
 
 The following JSON excerpt is an example of how to define a data type:
 
-![Define data types](../media/sdk/logical-definitions/define-data-types.png) 
+![Define data types.](../media/sdk/logical-definitions/define-data-types.png) 
 
 ## Entities and their attributes
 
@@ -229,11 +229,11 @@ A given entity describes the meaning and shape of data through a set of attribut
 
 The first kind of attribute describes an individual, atomic piece of data that has a single name, data format, semantic meaning, and purpose within the entity.
 
-![Simple typed attributes](../media/sdk/logical-definitions/simple-typed-attributes-1.png) 
+![Simple typed attributes.](../media/sdk/logical-definitions/simple-typed-attributes-1.png) 
 
 These attributes are described in the following JSON excerpt:
 
-![Simple typed attributes described in JSON](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
+![Simple typed attributes described in JSON.](../media/sdk/logical-definitions/simple-typed-attributes-2.png) 
 
 ## The Purpose object
 
@@ -262,7 +262,7 @@ Of special note, the **identifiedBy** purpose is important to use for the primar
 
 To be able to reuse common definitions, an entity can be defined as an extension of one other entity. When this is done, the extended entity gains all the attributes from the base entity along with any new attributes it defines. For example, because a student is a person, a Student entity can be extended from the Person entity, with a student-specific attribute added to the entity definition.
 
-![Entity extensions](../media/sdk/logical-definitions/entity-extensions.png) 
+![Entity extensions.](../media/sdk/logical-definitions/entity-extensions.png) 
 
 
 ## Traits applied to attributes
@@ -272,11 +272,11 @@ At the point where an attribute is being defined, a set of traits can be applied
 
 Informally speaking, the full "grammar" for composing a typed attribute can be expressed in the following way:
 
-![Traits applied image](../media/sdk/logical-definitions/traits-applied-attributes.png) 
+![Traits applied image.](../media/sdk/logical-definitions/traits-applied-attributes.png) 
 
 Using shorthand for the full JSON definition, the grammar described above gives us:
 
-![Traits applied in shorthand](../media/sdk/logical-definitions/traits-applied-attributes2.png) 
+![Traits applied in shorthand.](../media/sdk/logical-definitions/traits-applied-attributes2.png) 
 
 This attribute will do the following:
 
@@ -336,7 +336,7 @@ One entity can use a second entity as one of its attributes. This is the other t
 
 Adding to our example:
 
-![Entity type attribute](../media/sdk/logical-definitions/using-entity-type-attribute.png) 
+![Entity type attribute.](../media/sdk/logical-definitions/using-entity-type-attribute.png) 
 
 The default behavior for Common Data Model is to treat an attribute of an entity type as an inline, complex data type. By default, the composition shown above resolves to:
 
@@ -653,11 +653,11 @@ After it's defined, an attribute group can be used by reference in place of a re
 
 To illustrate, we can add some common bookkeeping attributes to our Person entity:
 
-![Add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes.png) 
+![Add bookkeeping attributes to the Person entity.](../media/sdk/logical-definitions/bookkeeping-attributes.png) 
 
 Or, in JSON form:
 
-![Json to add bookkeeping attributes to the Person entity](../media/sdk/logical-definitions/bookkeeping-attributes-2.png) 
+![Json to add bookkeeping attributes to the Person entity.](../media/sdk/logical-definitions/bookkeeping-attributes-2.png) 
 
 
 ## The ConstantEntity object
@@ -674,7 +674,7 @@ There are situations where a structured table of values needs to be held as a pa
 
 Like any other object in Common Data Model, a constant entity can be one of the definitions inside a cdm.json document, which can then be referenced by name when needed. However, because many constant entities are only used in one place, they're more often defined directly inside the individual entity reference from which they're being used. For example:
 
-![Constant entity object](../media/sdk/logical-definitions/constant-entity-object.png) 
+![Constant entity object.](../media/sdk/logical-definitions/constant-entity-object.png) 
 
 ## Learn more
 

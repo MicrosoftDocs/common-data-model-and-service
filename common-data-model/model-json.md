@@ -20,7 +20,7 @@ The model file enables:
 - Indicates compliance with Common Data Model standard entities
 - Information about when entities were most recently updated
 
-![model.json in Common Data Model folder structure](media/cdm-folder.png)
+![model.json in Common Data Model folder structure.](media/cdm-folder.png)
 
 [Download](https://github.com/Microsoft/CDM/tree/master/docs/schema) the schema of the model.json file.
 
