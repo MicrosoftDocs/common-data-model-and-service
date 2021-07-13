@@ -59,7 +59,7 @@ A string such as "means.measurement.distance.pixels" are referred to as *trait r
 
 The example below (using the code example above) shows what trait definitions look like in a Common Data Model definition document.
 
-![Common Data Model definition document](../media/sdk/trait-concepts-and-use-cases/traits-img1.png) 
+![Common Data Model definition document.](../media/sdk/trait-concepts-and-use-cases/traits-img1.png) 
 
 Note in this example:
 

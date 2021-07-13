@@ -22,7 +22,7 @@ In addition to the metadata system, Common Data Model includes a set of standard
 
 The graphic below shows some elements of the [standard entities](https://github.com/microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon) available within Common Data Model. More information: [Common Data Model repository on GitHub](https://aka.ms/cdmrepo).
 
-![Common Data Model poster](media/cdm-entities-v1.png "Common Data Model poster")
+![Common Data Model poster.](media/cdm-entities-v1.png "Common Data Model poster")
 
 [Download the Common Data Model poster](https://aka.ms/cdmposter)
 

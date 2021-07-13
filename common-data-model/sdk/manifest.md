@@ -228,7 +228,7 @@ The meaning of these times and the scope of the status check method depend on th
 
 The following manifest document demonstrates each of the abovementioned capabilities for the **Manifest** object.
 
-![Document showing the capabilities of the Manifest object](../media/sdk/mainfest/manifest-example.png) 
+![Document showing the capabilities of the Manifest object.](../media/sdk/mainfest/manifest-example.png) 
 
 ```json
 {
