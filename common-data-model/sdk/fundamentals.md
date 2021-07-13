@@ -21,14 +21,14 @@ The shape and meaning of Common Data Model entities and the description for the 
 
 For example, Person.cdm.json contains the following:
 
-![Json document sample](../media/sdk/technical-details/json-doc-sample.png) 
+![Json document sample.](../media/sdk/technical-details/json-doc-sample.png) 
 
 ## The corpus
 
 The top-level object of the object model is called a *corpus*. A corpus holds the hierarchy of folders containing the related and interlinked documents referenced or created during a session of Common Data Model operations.
 
 
-![Conceptual diagram](../media/sdk/technical-details/conceptual-corpus-diagram.png) 
+![Conceptual diagram.](../media/sdk/technical-details/conceptual-corpus-diagram.png) 
 
 Corpus paths
 
@@ -43,7 +43,7 @@ For instance, the label **cdm:** is reserved to mean the storage adapter that ac
 on a local hard drive, while the **adls:** label might point to a folder in a storage account. The following diagram illustrates the relationship among these folders and locations.
 
 
-![Detailed composition](../media/sdk/technical-details/detailed-corpus-composition.png) 
+![Detailed composition.](../media/sdk/technical-details/detailed-corpus-composition.png) 
 
 When you use the object model for Common Data Model to get the object from the corpus path local:/manifest.cdm, the local adapter reads from the c:\\temp\\ folder.
 

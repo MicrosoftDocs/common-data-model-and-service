@@ -35,7 +35,7 @@ To get started, you'll need the entity definitions for your physical entities an
 
 Here's an entity definition sample for the **Session** physical entity: 
 
-![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
+![Session Entity Definition.](media/creating-schemas-sessionentitydefinition.png)
 
 When you create the entity schema for **Session**, you'll be creating a logical representation of this physical entity. You'll describe all the fields in **Session** using entity attributes in the schema. 
 
@@ -46,11 +46,11 @@ Notice that **Session** has fields, such as *uaBrowserName* and *uaBrowserVersio
 
 <br>The logical entity, **UserAgent**, is defined this way:
 
-![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
+![UserAgent Entity Definition.](media/creating-schemas-useragententitydefinition.png)
 
 <br>In this other example, the entity definition for the physical entity, **AggPageViewDetailDaily**, also uses some fields from **UserAgent**, **ReverseIp**, and **Page**: 
 
-![AggPageViewDetailDaily](media/creating-schemas-aggpageviewdetail.png)
+![AggPageViewDetailDaily.](media/creating-schemas-aggpageviewdetail.png)
 
 >[!NOTE]
 >There are more physical and logical entity definitions than what's mentioned above that will be used throughout this guide.
@@ -63,7 +63,7 @@ Now that the entity definitions have been laid out, let's dive into creating the
 
 For the purpose of this example, all schema documents will be created under the *[schemaDocuments](https://github.com/microsoft/CDM/tree/master/schemaDocuments)* folder, in a sub-folder called *clickstream*:
 
-![clickstream Folder](media/creating-schemas-clickstreamfolder.png)
+![clickstream Folder.](media/creating-schemas-clickstreamfolder.png)
 
 You'll be using some of the fundamental Common Data Model documents in this root folder, including *foundations.cdm.json* and *schema.cdm.json*, by importing them to your schema documents. 
 
@@ -116,7 +116,7 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 
 <br/>Going back to the entity definition for **UserAgent**, you can see that there are seven fields:
 
-![UserAgent Entity Definition](media/creating-schemas-useragententitydefinition.png)
+![UserAgent Entity Definition.](media/creating-schemas-useragententitydefinition.png)
 
 <br/>The first attribute you'll create is *uaBrowserName*, which is a string type. An attribute object can be defined as follows, under **hasAttributes**:
 
@@ -220,7 +220,7 @@ Just like *browserName* in the previous step, *browserVersion* was used as the n
 
 <br/>Here's another example entity definition for the other logical entity, **ReverseIp**:
 
-![ReverseIp Entity Definition](media/creating-schemas-reverseipentitydefinition.png)
+![ReverseIp Entity Definition.](media/creating-schemas-reverseipentitydefinition.png)
 
 <br/>And here's the entity schema, *ReverseIp.cdm.json*:
 
@@ -295,7 +295,7 @@ Creating the schemas for the physical entities is similar to how you created the
 
 Here's the entity definition for the physical entity, **Session**, again:
 
-![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
+![Session Entity Definition.](media/creating-schemas-sessionentitydefinition.png)
 
 **Session** uses attributes from **UserAgent** and **ReverseIp**, so you'll need to import these entity schemas. Since you added **UserAgent** and **ReverseIp** to the *allImports* document, you can import that file instead.
 
@@ -360,7 +360,7 @@ uaPlatform
 
 <br/>This becomes particularly useful when you want to use the same entity attributes from the same entity, but with slightly different attribute names:
 
-![Definition for Entity Attributes with Different Names](media/creating-schemas-differentprefix.png)
+![Definition for Entity Attributes with Different Names.](media/creating-schemas-differentprefix.png)
 
 Here, attributes from **UserAgent** are used twice, but the prefix differs slightly (*machine1UserAgent* vs. *machine2UserAgent*). Since the attributes in **UserAgent** are defined without a prefix, you can do the following to generate resolved attribute names that match the entity definition above:
 
@@ -491,7 +491,7 @@ If you had a *renameFormat* as well, you would use the attribute names after the
 
 Here's the entity definition for **Session**:
 
-![Session Entity Definition](media/creating-schemas-sessionentitydefinition.png)
+![Session Entity Definition.](media/creating-schemas-sessionentitydefinition.png)
 
 While you *could* define all the fields listed in gray (such as *dateId*, *environmentId*, *sessionRevenue*, etc.) as attributes in **Session**, many of these fields are also used in other physical entities. It would be useful to define these fields once and just reuse the attribute definitions, like you did with the attributes from the logical entities. 
 
@@ -499,11 +499,11 @@ Instead of grouping these fields into logical entities, you can also use attribu
 
 A helpful way to determine attribute groups is to lay out all the fields used in your entity definitions in a table with the entities on one axis and fields on the other:
 
-![Attribute Group Table](media/creating-schemas-attributegrouptable.png)
+![Attribute Group Table.](media/creating-schemas-attributegrouptable.png)
 
 From this table, you can see that there are several groups of attributes that always appear together. A few notable attributes are highlighted in red.
 
-![Highlighted Attribute Group Table](media/creating-schemas-attributegrouptablehighlighted.png)
+![Highlighted Attribute Group Table.](media/creating-schemas-attributegrouptablehighlighted.png)
 
 For instance, the attributes *orderId*, *cartId*, and *cartVersion* always appear together in **PageView**, **PageAction**, and **Event**. These can be put into an attribute group.
 
@@ -739,7 +739,7 @@ Most of the properties in the previous code block are fairly self-explanatory. T
 
 The manifest can reference sub-manifests as well. For example, if you had a sub-folder under *clickstream* called aggregations (that contained entity schemas relating to aggregated data), you could create an *aggregrations.manifest.cdm.json* document in that folder: 
 
-![aggregations Folder Structure](media/creating-schemas-aggregationsfolder.png)
+![aggregations Folder Structure.](media/creating-schemas-aggregationsfolder.png)
 
 You would then add the manifest declaration for *aggregrations.manifest.cdm.json* in *clickstream.manifest.cdm.json* under **subManifests**:
 
@@ -785,21 +785,21 @@ You can use the [Entity navigator](https://microsoft.github.io/CDM/) to view you
 
 You'll need to load your manifest to explore your entities. First, select *Load from files…*, upload the root *schemaDocuments* folder, and then select *clickstream/clickstream.manifest.cdm.json* as the manifest:
 
-![Load from files](media/creating-schemas-navigatorloadfromfiles.png)
+![Load from files.](media/creating-schemas-navigatorloadfromfiles.png)
 
-![Select manifest](media/creating-schemas-navigatorselectmanifest.png)
+![Select manifest.](media/creating-schemas-navigatorselectmanifest.png)
 
 The navigator displays the following after loading the manifest:
 
-![Loaded manifest](media/creating-schemas-navigatorloadmanifest.png)
+![Loaded manifest.](media/creating-schemas-navigatorloadmanifest.png)
 
 You can see all three entities for which you created schemas under *clickstream*. You can also see all the entities that are referenced by the sub-manifest *aggregations.manifest.cdm.json*, under “aggregations”. Notice that the original folder structure of all these files is maintained. 
 
 Lastly, select the **Session** entity and compare the resolved entity to the original entity definition:
 
-![Session entity](media/creating-schemas-navigatorsession.png)
+![Session entity.](media/creating-schemas-navigatorsession.png)
 
-![Session entity definition](media/creating-schemas-sessionentitydefinition.png)
+![Session entity definition.](media/creating-schemas-sessionentitydefinition.png)
 
 ### Read the manifest sample
 
@@ -910,19 +910,19 @@ static async Task ExploreManifest(CdmCorpusDefinition cdmCorpus, string manifest
 
 Now you can run the sample:
 
-![Run read manifest sample](media/creating-schemas-runsample.png)
+![Run read manifest sample.](media/creating-schemas-runsample.png)
 
 You can see that the program has read the manifest and listed all your entities.
 
 Explore the **Session** entity by entering **2**:
 
-![Explore session](media/creating-schemas-runsampleexploresession.png)
+![Explore session.](media/creating-schemas-runsampleexploresession.png)
 
 You can see that the **Session** entity schema was read.
 
 Lastly, explore the attributes in **Session** by entering **1**:
 
-![Explore attributes](media/creating-schemas-runsampleexploreattributes.png)
+![Explore attributes.](media/creating-schemas-runsampleexploreattributes.png)
 
 >[!NOTE]
 >There are more attributes listed by the program than what's shown in this image.

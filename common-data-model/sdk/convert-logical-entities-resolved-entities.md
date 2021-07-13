@@ -26,7 +26,7 @@ By default, the resolved entity for Student will result in:
 
 1. entity: Student
 
-   ![Student entity image](../media/sdk/convert-logical-entities-resolved-entities/resolved-student-entity.png) 
+   ![Student entity image.](../media/sdk/convert-logical-entities-resolved-entities/resolved-student-entity.png) 
 
 1. In addition to this entity shape, a section of the document contains an
     **attributeContext** graph with the following characteristics:
@@ -57,7 +57,7 @@ The set of attributes shown in the resolved entity example above represents the 
 
 Informally speaking, there's only one "grammar" for describing entities:
 
-![Entity definition flavors](../media/sdk/convert-logical-entities-resolved-entities/entity-definition-flavors.png) 
+![Entity definition flavors.](../media/sdk/convert-logical-entities-resolved-entities/entity-definition-flavors.png) 
 
 By using this same grammar, however, it's possible to describe three conceptually different kinds of entity definitions:
 
@@ -113,12 +113,12 @@ On the persisted data side, some systems might insist on always using foreign ke
 For example, here are three ways to represent a relationship between a small business and the one person who's the owner of the business.
 
 <!-- image24 -->
-![Business relationship with owner](../media/sdk/convert-logical-entities-resolved-entities/relationship-business-owner.png) 
+![Business relationship with owner.](../media/sdk/convert-logical-entities-resolved-entities/relationship-business-owner.png) 
 
 These three shapes of persisted data are consistent with this one statement of the logical model:
 
 <!-- image25 -->
-![Persisted data](../media/sdk/convert-logical-entities-resolved-entities/persisted-data.png) 
+![Persisted data.](../media/sdk/convert-logical-entities-resolved-entities/persisted-data.png) 
 
 The logical definition of these entities states that a SmallBusiness is also a Business and it has an Owner who is a Person. This logical model can be instructed to resolve in each of the three ways listed above:
 

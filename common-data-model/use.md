@@ -45,7 +45,7 @@ capabilities in Power BI dataflows that creates data files which follow the
 Common Data Model definition, which is stored in Azure Data Lake. The Common
 Data Model definitions are open and available to any service or application that wants to use them.
 
-![Common Data Model with Dataverse](media/cdm-with-cds.png)
+![Common Data Model with Dataverse.](media/cdm-with-cds.png)
 
 Data described using Common Data Model can be used with Azure services to build
 scalable analytical solutions as well as being a
@@ -171,7 +171,7 @@ Data Model or create custom entities. Power Query Online leverages the same
 visual, self-service data preparation experience as Power Query within Microsoft
 Excel and Power BI Desktop, so existing users can begin using it quickly.
 
-![Map data with entities in the Common Data Model](media/cdm-map-entities.png)
+![Map data with entities in the Common Data Model.](media/cdm-map-entities.png)
 
 ## Ingest data by using Power BI dataflows
 

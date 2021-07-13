@@ -76,11 +76,11 @@ In the Read Manifest sample, you will learn how to read the Common Data Model ma
 
 1.  Run the project. You should see a console with the list of entities and corresponding schema locations.
 
-    ![List of entities and schema locations](media/console1.png "List of entities and schema locations")
+    ![List of entities and schema locations.](media/console1.png "List of entities and schema locations")
 
 1.  Type a number for a chosen entity and see the list of attributes and traits.
 
-    ![List of attributes and traits](media/console2.png "List of attributes and traits")
+    ![List of attributes and traits.](media/console2.png "List of attributes and traits")
 
 
 **How it works:**
@@ -108,11 +108,11 @@ In the Create Manifest example, you will learn how to create a manifest with a s
 
 1.  Run the project. Monitor messages in the console because they will inform you about what is going on.
 
-    ![Monitor messages in the console](media/console3.png "Monitor messages in the console")
+    ![Monitor messages in the console.](media/console3.png "Monitor messages in the console")
 
 1.  Look into your directory. It should have all files with entity definitions, the manifest file, and folders with empty CSV files with data generated for you.
 
-    ![Look in your directory](media/sample-folder1.png "Look in your directory")
+    ![Look in your directory.](media/sample-folder1.png "Look in your directory")
 
 1.  There are a few code fragments here. After configuring adapters, just as in the first sample, you create a temporary manifest object and add specific entities of your choice. Note that you need to point at definitions for those entities.
 
