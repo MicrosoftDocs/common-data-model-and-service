@@ -27,10 +27,12 @@ public class CdmFolderDefinition extends CdmObjectDefinitionBase, CdmContainerDe
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Name|string|The name of the folder.|
-|Documents|[CdmDocumentCollection](documentcollection.md)|The child documents of the folder.|
-|ChildFolders|[CdmFolderCollection](foldercollection.md)|The direct children of the folder.|
 |AtCorpusPath|string|The corpus path of the folder.|
+|ChildFolders|[CdmFolderCollection](foldercollection.md)|The direct children of the folder.|
+|Documents|[CdmDocumentCollection](documentcollection.md)|The child documents of the folder.|
+|FolderPath|string (read-only)|The folder path starting from the root.|
+|Name|string|The name of the folder.|
+|Namespace|string (read-only)|The root namespace of the folder.|
 
 ## Methods
 |Name|Description|Return Type|
