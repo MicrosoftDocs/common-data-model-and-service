@@ -24,5 +24,5 @@ public enum EnvironmentType
 
 
 * **DEV**: Development environment. Allows the more detailed information to be consumed in development environment.
-* **TIP**: Testing In Production. Protects all information that may contains user-created contents.
-* **PROD**: Production environment. Protects all information that may contains user-created contents.
+* **TIP**: Testing In Production. Protects all information that may contain user-created contents.
+* **PROD**: Production environment. Protects all information that may contain user-created contents.

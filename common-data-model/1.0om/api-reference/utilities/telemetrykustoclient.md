@@ -9,6 +9,9 @@ ms.date: 07/15/2021
 ms.author: t-honchen
 ---
 
+> [!IMPORTANT]
+> Telemetry Kusto Client is currently in PREVIEW.
+
 # Telemetry Kusto Client
 
 The telemetry Kusto client is a client for ingesting logs into Kusto database. 

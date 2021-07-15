@@ -9,6 +9,9 @@ ms.date: 07/15/2021
 ms.author: t-honchen
 ---
 
+> [!IMPORTANT]
+> Telemetry Client is currently in PREVIEW.
+
 # Telemetry Client
 
 This is an interface that can be implemented to ingest telemetry into databases.
