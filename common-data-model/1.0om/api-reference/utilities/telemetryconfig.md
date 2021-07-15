@@ -9,10 +9,10 @@ ms.date: 07/15/2021
 ms.author: t-honchen
 ---
 
+# Telemetry Configuration
+
 > [!IMPORTANT]
 > Telemetry Configuration is currently in PREVIEW.
-
-# Telemetry Configuration
 
 Configuration information to establish a connection with the database for telemetry collection.
 
