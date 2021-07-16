@@ -16,6 +16,9 @@ ms.author: t-honchen
 
 Configuration information to establish a connection with the database for telemetry collection.
 
+> [!NOTE]
+> TelemetryConfig is available in SDK version >= 1.2.4.
+
 ```csharp
 public class TelemetryConfig
 ```

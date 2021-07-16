@@ -11,18 +11,21 @@ ms.author: t-honchen
 
 # Environment Type
 
-An enum class containing the security/privacy levels of running environment.
+An enum class indicating the running environment type.
+
+> [!NOTE]
+> EnvironmentType is available in SDK version >= 1.2.4.
 
 ```csharp
 public enum EnvironmentType
 {
     DEV,
-    TIP,
+    TEST,
     PROD
 }
 ```
 
 
 * **DEV**: Development environment. Allows the more detailed information to be consumed in development environment.
-* **TIP**: Testing In Production. Protects all information that may contain user-created contents.
+* **TEST**: Testing In Production. Protects all information that may contain user-created contents.
 * **PROD**: Production environment. Protects all information that may contain user-created contents.
