@@ -118,6 +118,8 @@
             href: 1.0om/api-reference/cdm/entitycollection.md
           - name: Entity Declaration
             href: 1.0om/api-reference/cdm/entitydeclaration.md
+          - name: Environment Type
+            href: 1.0om/api-reference/cdm/environmenttype.md
           - name: Folder
             href: 1.0om/api-reference/cdm/folder.md
           - name: Folder Collection
@@ -212,12 +214,20 @@
             href: 1.0om/api-reference/utilities/logger.md  
           - name: Event List
             href: 1.0om/api-reference/utilities/eventlist.md  
+          - name: HTTP Client
+            href: 1.0om/api-reference/utilities/httpclient.md
           - name: Resolve Context
             href: 1.0om/api-reference/utilities/resolvecontext.md
           - name: Resolve Options
             href: 1.0om/api-reference/utilities/resolveoptions.md  
           - name: Storage Utils
             href: 1.0om/api-reference/utilities/storageutils.md
+          - name: Telemetry Client
+            href: 1.0om/api-reference/utilities/telemetryclient.md
+          - name: Telemetry Configuration
+            href: 1.0om/api-reference/utilities/telemetryconfig.md
+          - name: Telemetry Kusto Client
+            href: 1.0om/api-reference/utilities/telemetrykustoclient.md
           - name: Token Provider
             href: 1.0om/api-reference/utilities/tokenprovider.md   
   - name: How to create schema documents 

@@ -30,6 +30,7 @@ public class CdmCorpusDefinition
 |Storage|[StorageManager](../storage/storagemanager.md)|The storage for the corpus. Used for interacting with storage adapters.|
 |AppId|string|The ID of the application using the object model. This is an optional property.|
 |DefaultResolutionDirectives|AttributeResolutionDirectiveSet|The set of default resolution directives that will be used by the object model when it's resolving entities and when no per-call set of directives is provided.|
+|TelemetryClient|[TelemetryClient](../utilities/telemetryclient.md)|The client for telemetry collection. This is an optional property.|
 
 ## Methods
 |Name|Description|Return Type|
