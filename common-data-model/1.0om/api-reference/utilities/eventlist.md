@@ -38,3 +38,4 @@ public class EventList extends List<Dictionary<string, string>>
 |Name|Type|Description|
 |---|---|---|
 |IsRecording|bool|Specifies if the recording of events is in progress. Read-only.|
+|ApiCorrelationId|Guid|A GUID that is automatically generated and added to the event when the outermost-level API method is called. The methods called internally will have the same ID as the outermost-level method. Read-only.
