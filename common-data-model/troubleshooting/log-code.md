@@ -1,6 +1,6 @@
 ---
 title: Guidance on SDK error and warning codes | Microsoft Docs
-description: Common Data Model Errors and Warnings details.
+description: Guidance on SDK error and warning codes.
 author: supawa
 ms.service: common-data-model
 ms.topic: article
