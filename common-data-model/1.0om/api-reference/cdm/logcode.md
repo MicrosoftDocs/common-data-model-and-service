@@ -10,7 +10,7 @@ ms.author: supawa
 
 # Common Data Model Error and Warning Codes
 
-An enum class containing the error and warning Codes. 
+An enum class containing the error and warning codes. 
 
 ```csharp
     public enum CdmLogCode
