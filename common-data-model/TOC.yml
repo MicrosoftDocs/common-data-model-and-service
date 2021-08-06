@@ -236,6 +236,8 @@
     items:
       - name: Using EventList to analyze API behavior
         href: troubleshooting/eventlist-usage.md
+      - name: Common Data Model error and warning codes
+        href: troubleshooting/log-code.md
   - name: How to use samples 
     href: samples.md
   - name: Frequently asked questions

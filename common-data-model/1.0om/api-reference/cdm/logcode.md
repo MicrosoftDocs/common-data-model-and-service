@@ -1,16 +1,16 @@
 ---
-title: Common Data Model Errors/Warnings Code | Microsoft Docs
+title: Common Data Model Error and Warning Codes | Microsoft Docs
 description: Errors/Warnings for CDM SDK.
 author: supawa
 ms.service: common-data-model
 ms.topic: article
 ms.date: 07/28/2021
-ms.author: jibyun
+ms.author: supawa
 ---
 
-# Common Data Model Errors/Warnings Code
+# Common Data Model Error and Warning Codes
 
-An enum class containing the Errors/Warnings Codes. 
+An enum class containing the error and warning Codes. 
 
 ```csharp
     public enum CdmLogCode
@@ -161,5 +161,4 @@ An enum class containing the Errors/Warnings Codes.
         WarnValdnOrdinalStartEndOrder,
         WarnTelemetryIngestionFailed
     }
-}
 ```

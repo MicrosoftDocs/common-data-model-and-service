@@ -10,7 +10,8 @@ ms.author: supawa
 
 # Common Data Model Errors and Warnings 
 
-[CdmLogcode](../1.0om/api-reference/cdm/logcode.md) enum represents Common data model errors and warnings code.
+The following list describes the possible error and warning codes logged by the Common Data Model SDK with their description.
+These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference/cdm/logcode.md) enum class.
 
 ## Errors 
 |Enum|Description|
@@ -79,7 +80,7 @@ ms.author: supawa
 |**ErrProjFailedToResolve**|SDK logs this error when for any reason the projection context is not created correctly. It is a generic error that should be preceeded by other error logs containing specific information about the kind of issue that lead to the projection context to be null.	Failed to resolve a projection. Check previous logs to get more details.
 |**ErrProjInvalidAttrState**|SDK logs this error occurs if a resolved attribute is null or if its name is null or an empty string.
 |**ErrProjRefAttrStateFailure**|SDK logs this error when an attribute that is referenced by any operation within a projection cannot be found. Verify that the source entity or the prior operations introduce an attribute with the specified name.
-|**ErrProjRenameFormatIsNotSet**|SDK logs this error if  the "renameFormat" property of an renameAttributes operation  is not set. Please check the documentation for the operation - [here](../sdk/projections/renameattributes.md).
+|**ErrProjRenameFormatIsNotSet**|SDK logs this error if  the "renameFormat" property of an renameAttributes operation  is not set. Please check the documentation for the operation [here](../sdk/projections/renameattributes.md).
 |**ErrProjSourceError**|SDK logs this error if the source of a projection that is applied to a data typed attribute is anything other than another projection. If you want the source to point to another entity use an entity typed attribute instead.
 |**ErrProjStringError**|SDK logs this error if either the minimum or maximum cardinality is not a valid number.
 |**ErrProjUnsupportedAttrGroups**|This error is logged if an array expansion operation is applied to an attribute group.
