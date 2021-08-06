@@ -1,6 +1,6 @@
 ---
-title: Common Data Model Errors/Warnings | Microsoft Docs
-description: Common Data Model |**Errors/Warnings details.
+title: Common Data Model Errors and Warnings | Microsoft Docs
+description: Common Data Model Errors and Warnings details.
 author: supawa
 ms.service: common-data-model
 ms.topic: article
@@ -10,7 +10,7 @@ ms.author: supawa
 
 # Common Data Model Errors and Warnings 
 
-[CdmLogcode](../1.0om/api-reference/cdm/logcode.md) enum represents Common data model errors/warnings code.
+[CdmLogcode](../1.0om/api-reference/cdm/logcode.md) enum represents Common data model errors and warnings code.
 
 ## Errors 
 |Enum|Description|
@@ -124,8 +124,8 @@ ms.author: supawa
 
 
 ## Warnings 
-|Enum|Description
-|---|---
+|Enum|Description|
+|---|---|
 |**WarnAnnotationTypeNotSupported**|SDK logs this warning when loading model.json file, when argument type provided in trait "is.modelConversion.otherAnnotations" is neither JObject nor a pair of "name" and "value" properties. Please correct the argument accordingly to correct this warning.
 |**WarnDocChangesDiscarded**|SDK logs this warning if a document had unsaved changes in it, but a request to reload this document was received. Any changes to the document will in this situation be discarded. Make sure to save updated documents before loading them again.
 |**WarnDocImportNotLoaded**|This error is logged when an import was not resolved to any document. This may be due to variety of reasons, such as import having wrong path, document missing in the file-system, access permissions, and others. Please check the prior logs for potential root causes.
@@ -161,5 +161,5 @@ ms.author: supawa
 |**WarnProjAddArtifactAttrNotSupported**|SDK logs this warning if the attribute supplied to the AddArtifactAttribute operation is not a Data Type Attribute.
 |**WarnProjCreateForeignKeyTraits**|SDK logs this warning to indicate an internal error where an attribute does not have the owner property set.
 |**WarnProjFKWithoutSourceEntity**|This warning is logged if a replaceAsForeignKey operation is used while extending an entity or on an data typed attribute. This operaion is only allowed on a entity typed attribute.
-|****WarnTelemetryIngestionFailed**|This warning is logged when the Kusto ingestion process throws an exception due to authentication failure or HTTP request failure.
+|**WarnTelemetryIngestionFailed**|This warning is logged when the Kusto ingestion process throws an exception due to authentication failure or HTTP request failure.
 |**WarnValdnOrdinalStartEndOrder**|This warning is logged if the "StartOrdinal" of an array expansion operation is smaller than the "EndOrdinal". In that case the operation will not execute.
