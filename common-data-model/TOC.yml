@@ -236,7 +236,7 @@
     items:
       - name: Using EventList to analyze API behavior
         href: troubleshooting/eventlist-usage.md
-      - name: Common Data Model error and warning codes
+      - name: Guidance on SDK error and warning codes
         href: troubleshooting/log-code.md
   - name: How to use samples 
     href: samples.md

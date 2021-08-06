@@ -1,5 +1,5 @@
 ---
-title: Common Data Model Errors and Warnings | Microsoft Docs
+title: Guidance on SDK error and warning codes | Microsoft Docs
 description: Common Data Model Errors and Warnings details.
 author: supawa
 ms.service: common-data-model
@@ -8,7 +8,7 @@ ms.date: 07/28/2021
 ms.author: supawa
 ---
 
-# Common Data Model Errors and Warnings 
+# Guidance on SDK error and warning codes
 
 The following list describes the possible error and warning codes logged by the Common Data Model SDK with their description.
 These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference/cdm/logcode.md) enum class.
@@ -17,7 +17,7 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |Enum|Description|
 |---|---|
 |**ErrAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given document is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound	
-|**ErrDocAdapterNotFound**|SDK attempted to obtain adapter associated with the namespace that the given document is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and  ErrStorageAdapterNotFound.
+|**ErrDocAdapterNotFound**|SDK attempted to obtain adapter associated with the namespace that the given document is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound.
 |**ErrDocEntityDocSavingFailure**|SDK was unable to save documents containing definitions of local or partition-specialized entities. This error is usually reported after errors ErrValdnInvalidCorpusPath, ErrPersistObjectNotFound and ErrDocEntityDocSavingFailure.
 |**ErrDocEntityReplacementFailure**|This error occurs during resolution of an entity if the document where the resolved entity is going to be saved already exists. To avoid this error, you can specify non-conflicting resolved document name (if calling CreateResolvedEntityAsync) or document rename pattern (if calling CreateResolvedManifestAsync).	
 |**ErrDocImportSavingFailure**|SDK was unable to save one or more documents imported by the document currently being saved. This error is usually reported after errors ErrValdnInvalidCorpusPath, ErrPersistObjectNotFound and ErrDocEntityDocSavingFailure.
@@ -39,7 +39,7 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistCdmEntityFetchError**|This error is logged when SDK fails to obtain entity definition document indicated in the supplied path of a local entity declaration in a manifest. There is variety of possible root causes for this situation, so please inspect the preceeding logs reported by the SDK. 
 |**ErrPersistClassMissing**|SDK logs this error during loading or saving of a document when it cannot recognize the document type. Supported document types are "*.cdm.json", " manifest.cdm.json" and "model.json".Supported formats are model.json, manifest.cdm.json and cdm.json.
 |**ErrPersistConversionError**|This is a catch-all error reported on manifest object level, issued when performing load from the file-system. Please inspect the contained exception message and any other prior error messages to find possible root cause.
-|**ErrPersistCsvProcessingError**|SDK logs this error when cs format passed are incorrect or missing.  Csv should have columnHeaders, csvstyle, delimiter, quoteStyle and encoding.
+|**ErrPersistCsvProcessingError**|SDK logs this error when cs format passed are incorrect or missing. Csv should have columnHeaders, csvstyle, delimiter, quoteStyle and encoding.
 |**ErrPersistDeserializeError**|SDK logs this error when entity fails to deserilaize. Reason logged in message.Check eventlist object to get more granular error codes.
 |**ErrPersistDocConversionFailure**|This is a catch-all error reported on manifest object level, issued when performing load from the file-system. Please inspect the contained exception message and any other prior error messages to find possible root cause.
 |**ErrPersistDocNameLoadFailure**|This error is logged while loading a document with an invalid file name. This is specific to model.json files which must be named exactly that, any other file name, for example "foo.model.json", will get rejected.
@@ -50,7 +50,7 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistFilePersistError**|This is a catch-all error that is logged if any exception is encountered during saving of a document. Please inspect the contained exception message and any other prior error messages to find possible root cause.
 |**ErrPersistFilePersistFailed**|This is a catch-all error reported in case SDK is not able to serialize a document. Please inspect prior error messages to find possible root cause.
 |**ErrPersistFileReadFailure**|SDK logs this error when attempting to load a document from a file-system via corresponding adapter, but encounters an exception. This is usually I/O related and possible root cause may be found in the exception details.
-|**ErrPersistFileWriteFailure**|SDK has encountered error(s) while saving the specified document. The common reasons include object serialization errors, I/O errors, invalid object paths, or adapter configuration saving errors.  Please inspect the contained exception message and any other prior error messages to find possible root cause.
+|**ErrPersistFileWriteFailure**|SDK has encountered error(s) while saving the specified document. The common reasons include object serialization errors, I/O errors, invalid object paths, or adapter configuration saving errors. Please inspect the contained exception message and any other prior error messages to find possible root cause.
 |**ErrPersistInvalidMaxCardinality**|SDK logs this error when it tries to create entity attribute object but fails because of invalid maximum cardinality value. Please ensure the value must is a number greater than zero or "*".
 |**ErrPersistInvalidMinCardinality**|SDK logs this error when it tries to create entity attribute object but fails because of invalid minimum cardinality value. Please ensure the value is greater than or equal to 0 and less than maximum cardinality.
 |**ErrPersistJsonAttrContextConversionError**|SDK logs this error when it is not able to deserialize from JSON to an attribute context object. Please inspect the contained exception message to find possible root cause.
@@ -75,12 +75,12 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistObjectNotFound**|SDK logs this error when performing loading or saving of documents, if the specified path is not pointing at a valid document. Generally this happens if SDK is asked to load an invalid path, or save a document that has an import pointing at an invalid path. When investigating this problem, look for prior logged errors such as ErrPathNullObjectPath, ErrStorageNamespaceMismatch, ErrStorageInvalidPathFormat, ErrValdnInvalidDoc and ErrDocSymbolNotFound.
 |**ErrPersistProjInvalidOpsType**|SDK logs this error if an invalid "$type" is provided on a projection operation. Please consult [here](../sdk/convert-logical-entities-resolved-entities.md) for a list of valid operation type values.
 |**ErrPersistProjUnsupportedProp**|This error is reported during loading of documents if an entity definition's attribute has a renameAttributes operation where "applyTo" property is neither a String value nor a List of String values. Please update the definition with correct "applyTo" value.
-|**ErrPersistSaveLinkedDocs**|SDK logs this error when it fails to save one or more linked (imported) documents. There may be variety of reasons, including imports with wrong paths to documents, absence of files or access limitations on the target location.  Please inspect prior error messages to find possible root cause.
+|**ErrPersistSaveLinkedDocs**|SDK logs this error when it fails to save one or more linked (imported) documents. There may be variety of reasons, including imports with wrong paths to documents, absence of files or access limitations on the target location. Please inspect prior error messages to find possible root cause.
 |**ErrPersistUnsupportedJsonSemVer**|SDK reports this error during loading of a document, when it realizes its jsonSchemaSemanticVersion is higher than what this SDK accepts. Upgrading to a newer version of the SDK is strongly advised.	This ObjectModel version supports json semantic version {0} at maximum.
 |**ErrProjFailedToResolve**|SDK logs this error when for any reason the projection context is not created correctly. It is a generic error that should be preceeded by other error logs containing specific information about the kind of issue that lead to the projection context to be null.	Failed to resolve a projection. Check previous logs to get more details.
 |**ErrProjInvalidAttrState**|SDK logs this error occurs if a resolved attribute is null or if its name is null or an empty string.
 |**ErrProjRefAttrStateFailure**|SDK logs this error when an attribute that is referenced by any operation within a projection cannot be found. Verify that the source entity or the prior operations introduce an attribute with the specified name.
-|**ErrProjRenameFormatIsNotSet**|SDK logs this error if  the "renameFormat" property of an renameAttributes operation  is not set. Please check the documentation for the operation [here](../sdk/projections/renameattributes.md).
+|**ErrProjRenameFormatIsNotSet**|SDK logs this error if the "renameFormat" property of an renameAttributes operation is not set. Please check the documentation for the operation [here](../sdk/projections/renameattributes.md).
 |**ErrProjSourceError**|SDK logs this error if the source of a projection that is applied to a data typed attribute is anything other than another projection. If you want the source to point to another entity use an entity typed attribute instead.
 |**ErrProjStringError**|SDK logs this error if either the minimum or maximum cardinality is not a valid number.
 |**ErrProjUnsupportedAttrGroups**|This error is logged if an array expansion operation is applied to an attribute group.
@@ -91,7 +91,7 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrResolveManifestFailed**|This error is logged when the manifest for which resolution was requested has not been placed in a folder yet. Before calling CreateResolvedManifestAsync API, add the manifest to a CdmFolderDefinition representing the folder where this manifest should reside.
 |**ErrResolveNewEntityNameNotSet**|SDK logs this error when new entity name has not been provided to CreateResolvedEntityAsync call.
 |**ErrResolveReferenceFailure**|This error is logged during indexing of a document, when an object reference cannot be resolved to any known objects, and the ResolveOptions.ShallowValidation is set to False. Usual causes of this error are missing import of the document containing the object definition or mispelled object name.
-|**ErrStorageAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given corpus path is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and  ErrStorageAdapterNotFound. A
+|**ErrStorageAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given corpus path is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound. A
 |**ErrStorageFolderNotFound**|SDK logs this error when there is no folder exist from the given nampespace.
 |**ErrStorageInvalidAdapterPath**|This error is reported when SDK attempts to convert given corpus path to an adapter path, but there was no adapter found that understood this corpus path. Make sure that all adapters the given schema relies on are mounted on the corpus object before loading the schema.
 |**ErrStorageInvalidPathFormat**|SDK rasies this error when the path does not start with '.\' or contains '..\' or '\.\'.
@@ -109,7 +109,7 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrTraitArgumentMissing**|This error is logged during resolution, when SDK encounters a trait reference which does not have arguments supplied for all of the required parameters defined in the trait definition. Please check the trait definition and add missing arguments to the trait reference.
 |**ErrTraitAttrFetchError**|SDK logs this error if it is unable to obtain attribute and its traits due to an unexpected exception. Please check the exception for the root cause of the error.
 |**ErrTraitResolutionFailure**|SDK logs this error if it is unable to resolve trait arguments due to an unexpected exception. Please check the exception for the root cause of the error.	
-|**ErrUnexpectedDataType**|SDK logs this error  when it encounters unexpected data type or zero type. Expected data types are entity, attribute, dataType, purpose, trait and attributeGroup.
+|**ErrUnexpectedDataType**|SDK logs this error when it encounters unexpected data type or zero type. Expected data types are entity, attribute, dataType, purpose, trait and attributeGroup.
 |**ErrUnexpectedType**|This error is logged when SDK finds symbol matching the given reference, but the type of the symbol is not matching the type of the reference. This can happen for example if a data type reference name is actually belonging to a purpose definition. Please correct the reference object to point at the right matching definition.
 |**ErrUnrecognizedDataType**|This error is logged when SDK checks trait parameters and finds an unrecognized data type. Usual causes of this error are missing import of the document containing the data type definition or mispelled data type name.
 |**ErrUnsupportedRef**|This error is logged when SDK finds a symbol reference that appears to be absolute, starting with '/'. Correct the reference to start with a moniker name.
