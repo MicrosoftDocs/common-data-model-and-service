@@ -8,7 +8,7 @@ ms.date: 07/28/2021
 ms.author: supawa
 ---
 
-# Common Data Model |Errors/Warnings 
+# Common Data Model Errors and Warnings 
 
 [CdmLogcode](../1.0om/api-reference/cdm/logcode.md) enum represents Common data model errors/warnings code.
 
