@@ -49,6 +49,8 @@
         href: sdk/list-of-traits.md
       - name: Mapping Parquet types to Common Data Model data types
         href: sdk/parquet-to-cdm-datatype.md
+      - name: CDM SyMS interactions
+        href: sdk/syms-cdm.md
   - name: Azure Data Lake
     href: data-lake.md
     items:
@@ -202,6 +204,8 @@
             href: 1.0om/api-reference/storage/storageadapter.md
           - name: Storage Manager
             href: 1.0om/api-reference/storage/storagemanager.md
+          - name: Syms Adapter
+            href: 1.0om/api-reference/storage/symsadapter.md
       - name: Utilities
         items:
           - name: Overview

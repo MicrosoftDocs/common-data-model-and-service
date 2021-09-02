@@ -3470,6 +3470,31 @@ None
 
 None
 
+## <a id="is-storagesource"><b>is.storagesource</b></a>
+
+
+**Description**
+
+
+Stores location of default lake linked to SyMS workspace. This is mandatory trait for SyMS write operation.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- <b>is.storagesource</b>|
+
+
+**Properties**
+
+None
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|namespace|string|True
 
 ## <a id="is-virtual-attribute"><b>is.virtual.attribute</b></a>
 
