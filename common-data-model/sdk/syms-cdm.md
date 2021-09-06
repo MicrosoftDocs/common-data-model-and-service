@@ -290,13 +290,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
         ```
     7. Save manifest.
     
-    </br>
-## Error Handling and Troubleshooting 
-
-Register [event callback](../1.0om/api-reference/utilities/callback.md) to capture the error/warning logs and code.
-Please refer [log code](../troubleshooting/log-code.md) and [troubleshooting](../troubleshooting/eventlist-usage.md) section for more details.
-
 </br>
 
 ## SymsAdapter Class
-Refere [this](../1.0om/api-reference/storage/symsadapter.md) section.
+Refer [this](../1.0om/api-reference/storage/symsadapter.md) section.

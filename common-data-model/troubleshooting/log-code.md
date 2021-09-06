@@ -82,14 +82,14 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistSymsEntityFetchError**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was invalid.
 |**ErrPersistSymsEntityPathNull**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was null.
 |**ErrPersistSymsPartitionNotSupported**| SDK logs this error while reading from SyMS when it encounters spark data partition which is not supported in CDM currently.
-|**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration.
-|**ErrPersistSymsEntityDeclConversionException**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration because of unexpected exception. Please check excpetion message.
+|**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration.Look for excpetion message and more error code on stack for root cause.
+|**ErrPersistSymsEntityDeclConversionException**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration because of unexpected exception. Please check exception message.
 |**ErrPersistSymsMultipleOrZeroTableDefinition**| SDK supports only one entity definition in document for CDM-SyMs conversion.
 |**ErrPersistSymsInvalidDbPropObject**| SDK logs this error when it gets null database or database location from SyMS.
-|**ErrPersistSymsInvalidDbObject**| SDK logs this error when it expect database type object but revieve different type of object from SyMS.
-|**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trais is missing from manifest. This trait is mandatory trait for writing into SyMS.
+|**ErrPersistSymsInvalidDbObject**| SDK logs this error when it expect database type object but receive different type of object other than table from SyMS.
+|**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trait was missing from manifest. This trait is mandatory trait for writing into SyMS. To avoid this error please add this trait in manifest.
 |**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than csv from SyMS.
-|**ErrPersistSymsTableInvalidDataLocation**| SDK logs this error when it find invalid or null data partitions or data partition pattern from SyMS.
+|**ErrPersistSymsTableInvalidDataLocation**| SDK logs this error when it find invalid or null data partitions or pattern from SyMS.
 |**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it finds that storage descriptor received from SyMS has empty source location.
 |**ErrPersistSymsUnknownDataFormat**| SDK logs this error when it could not find CDM-SyMS data format mapping for a data type.
 |**ErrPersistSymsUnsupportedCdmConversion**| SDK supports *.manifest.cdm.json or *.cdm.json file for SyMS.
@@ -165,7 +165,8 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**WarnPersistPartitionNameNull**|SDK logs this warning when saving manifest to model.json format, but finds a partition object that doesn't have name property set. Partition names are mandatory in model.json format, so the SDK will in this situation use empty string as the name.
 |**WarnPersistRelUndefinedSourceEntity**|SDK logs this warning when loading relationships from model.json file, when one of the relationships is missing source entity name. Please check the model.json's relationships list and correct entries that are missing this property.
 |**WarnPersistRelUndefinedTargetEntity**|SDK logs this warning when loading relationships from model.json file, when one of the relationships is missing target entity name. Please check the model.json's relationships list and correct entries that are missing this property.
-|**WarnPersistSymsEntityMissing**| SDK logs this warning entity is missing.
+|**WarnPersistSymsEntityMissing**| SDK logs this warning if entity is missing.
+|**WarnPersistSymsEntitySkipped**| SDK logs this warning when it skips entity creation. This could occur if file format type is not csv or storage descriptor received from SyMS does not have location.
 |**WarnPersistSymsProjNotExist**| SDK logs this warning when it finds projection in document. CDM-SyMS works on resolve model.
 |**WarnPersistUnsupportedJsonSemVer**|SDK reports this warning during loading of a document, when it realizes its jsonSchemaSemanticVersion is higher than what this SDK accepts. Upgrading to a newer version of the SDK is strongly advised.
 |**WarnProjRenameAttrNotSupported**|SDK logs this warning when it tries to rename an attribute group, but this action is currently not supported. Please avoid running rename operation over attribute groups.

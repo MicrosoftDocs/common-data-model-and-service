@@ -9,7 +9,7 @@ ms.author: supawa
 ---
 # SyMS Adapter
 
-The SyMS adapter is the storage adapter that's used to interact with data in synapse workspace. It provides the Common Data Model view of synpase workspace. For more details refer [this](../../../sdk/syms-cdm.md) section
+The SyMS adapter is a Common Data Model SDK storage adapter that is used to interact with metadata stored in a Synapse workspace, by providing a standardized representation of the workspace. For more details about its use, please refer to this [article](../../../sdk/syms-cdm.md).
 
 ```csharp
 public class SymsAdapter extends NetworkAdapter
@@ -19,13 +19,13 @@ public class SymsAdapter extends NetworkAdapter
 |Name|Description|
 |---|---|
 |**SymsAdapter()**|Initializes a new instance of the [SymsAdapter](symsadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *UpdateConfig(...)*.|
-|**SymsAdapter(string, string, string, string)**<br/>*endpoint*: The syms workspace endpoint.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing SyMS.<br/>*secret*: The secret for the application accessing SyMS.|Initializes a new instance of the [SymsAdapter](symsadapter.md) class with client ID/secret authentication.|
-|**SymsAdapter(string, string, [TokenProvider](../utilities/tokenprovider.md))**<br/>*endpoint*: The Syms workspace endpoint.<br/>*tokenProvider*: The user-defined token provider.|Initializes a new instance of the [SymsAdapter](symsadapter.md) class with a user-defined implementation of the [TokenProvider](../utilities/tokenprovider.md) interface.|
+|**SymsAdapter(string, string, string, string)**<br/>*endpoint*: The SyMS workspace endpoint.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing SyMS.<br/>*secret*: The secret for the application accessing SyMS.|Initializes a new instance of the [SymsAdapter](symsadapter.md) class with client ID/secret authentication.|
+|**SymsAdapter(string, string, [TokenProvider](../utilities/tokenprovider.md))**<br/>*endpoint*: The SyMS workspace endpoint.<br/>*tokenProvider*: The user-defined token provider.|Initializes a new instance of the [SymsAdapter](symsadapter.md) class with a user-defined implementation of the [TokenProvider](../utilities/tokenprovider.md) interface.|
 
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|Endpoint|string|The Syms workspace endpoint.|
+|Endpoint|string|The SyMS workspace endpoint.|
 |Tenant|string|The tenant.|
 |ClientId|string|The client ID of the application accessing SyMS.|
 |Secret|string|The secret for the application accessing SyMS.|
