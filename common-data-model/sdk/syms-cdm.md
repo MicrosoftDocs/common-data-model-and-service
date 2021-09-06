@@ -1,5 +1,5 @@
 ---
-title: SyMS Adapter | Microsoft Docs
+title: SyMS Adapter Overview | Microsoft Docs
 description: Overview of SymsAdapter.
 author: supawa
 ms.service: common-data-model
@@ -8,7 +8,7 @@ ms.date: 09/01/2021
 ms.author: supawa
 ---
 
-# SyMS Adapter
+# SyMS Adapter Overview
 
 The SyMS adapter is the storage adapter that's used to interact with data in synapse workspace. It provides the Common Data Model view of synpase workspace.
 
@@ -19,7 +19,7 @@ The SyMS adapter is the storage adapter that's used to interact with data in syn
 Common Data Model maps SyMS metadata into a folder structure as shown below:
 
  
- ![cdm-syms-mapping](../media/cdm-syms-mapping.png) 
+ ![cdmsymsmapping](../media/cdm-syms-mapping.png) 
 
 
 |File Name|SyMS Mapping|
@@ -262,7 +262,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     CdmManifestDefinition manifestdb = await corpus.FetchObjectAsync<CdmManifestDefinition>("syms:/<databaseName>/<databaseName>.manifest.cdm.json");
     ```
     2. Create table definition i.e. [tableName].cdm.json document.
-    3. Add <tableName> under entity declaration in [databaseName].manifest.cdm.json.
+    3. Add [tableName] under entity declaration in [databaseName].manifest.cdm.json.
     4. Save manifest.
     ```csharp
     var ret = await manifest.SaveAsAsync($"syms:/{manifest.ManifestName}/{manifest.ManifestName}.manifest.cdm.json")
