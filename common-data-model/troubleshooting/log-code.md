@@ -75,14 +75,14 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistObjectNotFound**|SDK logs this error when performing loading or saving of documents, if the specified path is not pointing at a valid document. Generally this happens if SDK is asked to load an invalid path, or save a document that has an import pointing at an invalid path. When investigating this problem, look for prior logged errors such as ErrPathNullObjectPath, ErrStorageNamespaceMismatch, ErrStorageInvalidPathFormat, ErrValdnInvalidDoc and ErrDocSymbolNotFound.
 |**ErrPersistProjInvalidOpsType**|SDK logs this error if an invalid "$type" is provided on a projection operation. Please consult [here](../sdk/convert-logical-entities-resolved-entities.md) for a list of valid operation type values.
 |**ErrPersistProjUnsupportedProp**|This error is reported during loading of documents if an entity definition's attribute has a renameAttributes operation where "applyTo" property is neither a String value nor a List of String values. Please update the definition with correct "applyTo" value.
-|**ErrPersistSymsAdlsAdapterMissing**| SDK logs this error when adls adapter corresponds to data location was missing while reading entity from SyMS.
-|**ErrPersistSymsAdlsAdapterNotMounted**| SDK logs this error when SDK fails to create/mount adls adapter using is.storagesource traits and SyMS adapter path.
-|**ErrPersistSymsAttrConversionFailure**| SDK logs this error when it fails to convert SyMS column into attribute for an entity.
-|**ErrPersistSymsAttrConversionError**| SDK logs this error while reading from SyMS when SyMS storage descriptor or its column received was null.
-|**ErrPersistSymsEntityFetchError**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was invalid.
-|**ErrPersistSymsEntityPathNull**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was null.
+|**ErrPersistSymsAdlsAdapterMissing**| SDK logs this error when adls adapter corresponds to data location was missing while reading entity from SyMS. Please retry again to resolve the issue. If issue persist, contact microsoft CDM team.
+|**ErrPersistSymsAdlsAdapterNotMounted**| SDK logs this error when SDK fails to create/mount adls adapter using is.storagesource traits and SyMS adapter path.Please retry again to resolve the issue. If issue persist, contact microsoft CDM team.
+|**ErrPersistSymsAttrConversionFailure**| SDK logs this error when it fails to convert SyMS column into attribute for an entity. Please check other errors in stack before this errors.
+|**ErrPersistSymsAttrConversionError**| SDK logs this error while reading from SyMS when SyMS storage descriptor or its column received was null. Please check SyMS database.
+|**ErrPersistSymsEntityFetchError**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was invalid. Please check entity paths in manifest.
+|**ErrPersistSymsEntityPathNull**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was null. Please check entity path were missing in manifest.
 |**ErrPersistSymsPartitionNotSupported**| SDK logs this error while reading from SyMS when it encounters spark data partition which is not supported in CDM currently.
-|**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration.Look for excpetion message and more error code on stack for root cause.
+|**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration.Look for exception message and more error code on stack for root cause.
 |**ErrPersistSymsEntityDeclConversionException**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration because of unexpected exception. Please check exception message.
 |**ErrPersistSymsMultipleOrZeroTableDefinition**| SDK supports only one entity definition in document for CDM-SyMs conversion.
 |**ErrPersistSymsInvalidDbPropObject**| SDK logs this error when it gets null database or database location from SyMS.
