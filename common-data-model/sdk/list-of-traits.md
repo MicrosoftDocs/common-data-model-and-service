@@ -155,6 +155,49 @@ None
 |hierarchyLevel|integer|False
 |hierarchyName|string|False
 
+## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.expansionInfo</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|categoryName|string|True
+
+
+## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.expansionInfo</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|categoryName|string|True
+
 
 ## <a id="has-category-functionalarea"><b>has.category.functionalArea</b></a>
 
@@ -786,6 +829,84 @@ None
 | **Name** | **Type** | **Required** |
 |--|--|--|
 |level|string|False
+
+
+## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.expansionInfo</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|expansionName|string|True
+
+
+## <a id="has-expansionInfo-list"><b>has.expansionInfo.list</b></a>
+
+
+**Description**
+
+Marks the attribute that is part of a list and its ordinal.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo-list</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|ordinal|integer|True
+|memberAttribute|string|False
+
+
+## <a id="has-expansionInfo-mapValue"><b>has.expansionInfo.mapValue</b></a>
+
+
+**Description**
+
+Marks the attribute that is one of the values in a map and its ordinal
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo-mapValue</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|ordinal|integer|True
+|memberAttribute|string|False
 
 
 ## <a id="has-filelist"><b>has.fileList</b></a>
@@ -1589,6 +1710,60 @@ None
 |identifier|string|True
 
 
+## <a id="indicates-expansionInfo-count"><b>indicates.expansionInfo.count</b></a>
+
+
+**Description**
+
+
+Marks the attribute is the count of elements in an expansion.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>indicates.expansionInfo.count</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters
+
+None
+
+
+## <a id="indicates-expansionInfo-mapKey"><b>indicates.expansionInfo.mapKey</b></a>
+
+
+**Description**
+
+
+Marks the attribute that is one of the keys in a map and its ordinal.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>indicates.expansionInfo.mapKey</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|ordinal|integer|True
+
+
 ## <a id="is"><b>is</b></a>
 
 
@@ -2231,6 +2406,31 @@ Represents the 54 bit integer numbers compatible with javascript
 
 None
 
+## <a id="is-dataformat-list"><b>is.dataFormat.list</b></a>
+
+
+**Description**
+
+
+Marks the attribute that contains a list of attributes.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.list</b>
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
 
 ## <a id="is-dataformat-numeric"><b>is.dataFormat.numeric</b></a>
 
@@ -2283,6 +2483,81 @@ For setting the exact precision and scale of numeric values
 |--|--|--|
 |precision|integer|False
 |scale|integer|False
+
+
+## <a id="is-dataformat-map"><b>is.dataFormat.map</b></a>
+
+
+**Description**
+
+
+Marks the attribute that contains a map of attributes.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.map</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+## <a id="is-dataformat-mapKey"><b>is.dataFormat.mapKey</b></a>
+
+**Description**
+
+Marks the attribute that is one of the keys in a map.
+
+
+**Inheritance**
+
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapKey</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="is-dataformat-mapValue"><b>is.dataFormat.mapValue</b></a>
+
+**Description**
+
+Marks the attribute that is one of the values in a map.
+
+
+**Inheritance**
+
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapValue</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
 
 
 ## <a id="is-dataformat-small"><b>is.dataFormat.small</b></a>
