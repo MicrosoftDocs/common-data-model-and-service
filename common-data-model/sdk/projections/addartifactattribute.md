@@ -18,7 +18,7 @@ AddArtifactAttribute is a projection operation is a projection operation that ad
 1. All the resolved attributes from the source are provided as input to the operation.
 2. The attribute received as input are added to the input attribute list. If the property "InsertAtTop" is not set, or it is false, the attribute will be added at the bottom of the list. Otherwise, it is added at the top of the list.
 
-> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addartifactattribute.md.md).
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addartifactattribute.md).
 
 ## Examples
 
@@ -52,7 +52,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a AddArtifactAttribute operation on an entity attribute
+### I can use an AddArtifactAttribute operation on an entity attribute
 
 If we have an entity attribute, we can use AddArtifactAttribute to insert a type attribute to the attribute list that we get from the referenced entity.
 

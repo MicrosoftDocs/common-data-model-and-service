@@ -124,7 +124,7 @@ The examples below refer to the `Person` entity and a few traits as defined here
 }
 ```
 
-### I can use a AlterTraits operation on an type attribute
+### I can use an AlterTraits operation on an type attribute
 
 We can use the AlterTraits operation to insert an attribute in an entity. Let us first have a look at the entity definition below.
 
@@ -170,7 +170,7 @@ The resulting resolved PersonInfo entity is:
 |legalName||
 |job|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 
-### I can use a AlterTraits operation on an entity attribute
+### I can use an AlterTraits operation on an entity attribute
 
 If we have an entity attribute, we can use AlterTraits to edit traits in all the attributes we get from the referenced entity.
 
