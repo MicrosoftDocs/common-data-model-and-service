@@ -155,49 +155,6 @@ None
 |hierarchyLevel|integer|False
 |hierarchyName|string|False
 
-## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
-
-
-**Inheritance**
-
-| |
-|--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.expansionInfo</b>|
-
-
-**Properties**
-
-None
-
-
-**Parameters**
-
-| **Name** | **Type** | **Required** |
-|--|--|--|
-|categoryName|string|True
-
-
-## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
-
-
-**Inheritance**
-
-| |
-|--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.expansionInfo</b>|
-
-
-**Properties**
-
-None
-
-
-**Parameters**
-
-| **Name** | **Type** | **Required** |
-|--|--|--|
-|categoryName|string|True
-
 
 ## <a id="has-category-functionalarea"><b>has.category.functionalArea</b></a>
 
@@ -865,7 +822,7 @@ Marks the attribute that is part of a list and its ordinal.
 
 | |
 |--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo-list</b>|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo.list</b>|
 
 
 **Properties**
@@ -886,7 +843,7 @@ None
 
 **Description**
 
-Marks the attribute that is one of the values in a map and its ordinal
+Marks the attribute that is one of the values in a map and its ordinal.
 
 
 **Inheritance**
@@ -1731,7 +1688,7 @@ Marks the attribute is the count of elements in an expansion.
 None
 
 
-**Parameters
+**Parameters**
 
 None
 
