@@ -199,7 +199,7 @@ If `runSequentially` is false, all the operations in a single projection are giv
 |phoneNumber||age|
 |email|
 
-If `runSequentially` is false, each operation is given the output of the previous operation. The second IncludeAttributes operation receives just "address" and "email" as input resulting on the entity typed attribute below.
+If `runSequentially` is true, each operation is given the output of the previous operation. The second IncludeAttributes operation receives just "address" and "email" as input resulting on the entity typed attribute below.
 
 |Input|After operation #1|Output|
 |-|-|-|

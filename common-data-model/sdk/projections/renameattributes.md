@@ -23,7 +23,7 @@ RenameAttributes is a projection operation that renames a specified set of attri
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 1. All the attributes will be renamed following the specified “renameFormat” by default. It is possible to specify a "applyTo" property which is a list of attributes to be renamed. The attributes that are in the specified list are renamed and added to the attribute list. If an attribute is not in the rename list, it is added to the set of attributes without changes.
 
-> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/renameattributes.md).
+> **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/altertraits.md).
 
 ## Examples
 
@@ -88,7 +88,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 ### I can use an RenameAttributes operation when extending an entity
 
-If we have an entity that extends another entity, we can use RenameAttributes the attributes that are inherited from the entity we are extending from.
+If we have an entity that extends another entity, we can use RenameAttributes to rename all the attributes that are inherited from the entity we are extending from.
 
 Given an entity, Child, that extends from the Person entity:
 
@@ -264,7 +264,7 @@ If `runSequentially = true`
 
 ### I can use an RenameAttributes operation on an attribute group
 
-If we have an entity that contains an attribute group and we use this entity as an entity attribute, we can then use ExcludeAttributes on it.
+If we have an entity that contains an attribute group and we use this entity as an entity attribute, we can then use RenameAttributes on it.
 
 Given the Person entity, now with an attribute group reference:
 

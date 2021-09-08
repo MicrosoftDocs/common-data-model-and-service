@@ -161,7 +161,7 @@ If `runSequentially` is false, all the operations in a single projection are giv
 |phoneNumber|
 |email|
 
-If `runSequentially` is false, each operation is given the output of the previous operation resulting on the entity typed attribute below.
+If `runSequentially` is true, each operation is given the output of the previous operation resulting on the entity typed attribute below.
 
 |PersonInfo|
 |-|

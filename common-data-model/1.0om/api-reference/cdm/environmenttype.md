@@ -14,7 +14,7 @@ ms.author: t-honchen
 An enum class indicating the running environment type.
 
 > [!NOTE]
-> EnvironmentType is available in SDK version >= 1.2.4.
+> EnvironmentType is available in SDK version >= 1.3.0.
 
 ```csharp
 public enum EnvironmentType
