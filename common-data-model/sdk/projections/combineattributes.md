@@ -47,7 +47,7 @@ The examples below refer to the `ContactKinds` entity as defined here.
 |address|number|account|
 |isPrimary|isPrimary|isPrimary|
 
-### I can use a CombineAttributes operation on an entity attribute
+### Using the CombineAttributes operation on an entity attribute
 
 If we have an entity attribute, we can use CombineAttributes to merge certain attributes we get from the referenced entity.
 
@@ -82,7 +82,7 @@ The resulting resolved contactAt entity typed attribute is:
 |contactId|
 |contactType|
 
-### I can use an CombineAttributes operation when extending an entity
+### Using the CombineAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use CombineAttributes to merge certain attributes that are inherited from the entity we are extending from.
 
