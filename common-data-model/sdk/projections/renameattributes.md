@@ -57,7 +57,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a RenameAttributes operation on an entity attribute
+### Using the RenameAttributes operation on an entity attribute
 
 If we have an entity attribute, we can use RenameAttributes to rename all the attributes we get from the referenced entity. In this example {a} will be replaced with "PersonInfo" and {M} will be replaced with each attribute name with the first letter capitalized.
 
@@ -86,7 +86,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |PersonInfoPhoneNumber|
 |PersonInfoEmail|
 
-### I can use an RenameAttributes operation when extending an entity
+### Using the RenameAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use RenameAttributes to rename all the attributes that are inherited from the entity we are extending from.
 
@@ -118,7 +118,7 @@ The resulting resolved Child entity is:
 |childPhoneNumber|
 |childEmail|
 
-### I can mix a string and a wild card in the rename format
+### Mixing strings and wildcards in the rename format
 
 ```json
 {
@@ -145,7 +145,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |NewPhoneNumber|
 |NewEmail|
 
-### I can rename a specific list of attributes
+### Renaming a specific list of attributes
 
 ```json
 {
@@ -176,7 +176,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |phoneNumber|
 |PersonInfoEmail|
 
-### I can use an RenameAttributes operation with a condition
+### Using the RenameAttributes operation with a condition
 
 We can have a condition that must evaluate to true in order for the operations in a projection to execute. This means that we can have two different scenarios where a condition is evaluated to true in one (causing the RenameAttributes operation to execute), and the condition is evaluated to false in another (preventing the RenameAttributes operation from executing).
 We have the NewPerson entity with an entity attribute definition again. Given the following projection with a condition stating that the RenameAttributes operation should only run when the resolution directives are "referenceOnly":
@@ -207,7 +207,7 @@ We would get either one of the resulting resolved PersonInfo entities, depending
 |PersonInfoPhoneNumber|phoneNumber
 |PersonInfoEmail|email
 
-### I can use multiple RenameAttributes operations in a single projection
+### Using multiple RenameAttributes operations in a single projection
 
 All the operations in a single projection are given the same set of inputs, so while the operations are run sequentially, they work independently on the input. This means that if we have two RenameAttributes operations in a projection, the final output will be the result of both RenameAttributes’ outputs merged together.
 If we want an RenameAttributes to build on top of another RenameAttributes result, we would need to use nested projections like we did in the previous use case. The other option is to set the `runSequentially` flag on the projection.
@@ -262,7 +262,7 @@ If `runSequentially = true`
 |phoneNumber|phoneNumber|phoneNumber|phoneNumber
 |email|email|email|email
 
-### I can use an RenameAttributes operation on an attribute group
+### Using the RenameAttributes operation on an attribute group
 
 If we have an entity that contains an attribute group and we use this entity as an entity attribute, we can then use RenameAttributes on it.
 
