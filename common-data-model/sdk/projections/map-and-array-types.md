@@ -52,19 +52,19 @@ The examples below refer to the `Person` entity as defined here.
 
 There are two ways to indicate the type of array on an item, `array[item]`.
 
-1. Structured resolution form
+1. Structured Resolution Form
 
-   Applying the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist) to item without making space to hold a fixed number of the item.
+   Apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist) to the item without making space to hold a fixed number of copies of the item.
 
-2. Non-structured resolution form
+2. Non-structured Resolution Form
 
-   Making a certain number of copies of the item, and applying the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansionInfolist) to each item. If multiple type attributes are expanded and renamed, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each trait's unique info.
+   Make a certain number of copies of the item, and apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansionInfolist) to each item. If multiple attributes are expanded and renamed, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each trait's unique info.
 
 #### I can construct a Array of type attributes
 
 The following examples are to define a new `NewPerson` entity which has an array of `email`.
 
-- Structured resolution form
+- Structured Resolution Form
 
     We can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on `email` to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist).
 
@@ -116,9 +116,9 @@ The following examples are to define a new `NewPerson` entity which has an array
     |phoneNumber||
     |email|is.dataFormat.list|
 
-- None-structured resolution form  
+- None-structured Resolution Form  
 
-    First, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation on `email` to expand `email`, the example below makes 2 copies of `email`. Then we can the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each copy to avoid expanded emails getting merge to one single attribute due to the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansionInfolist). In this case, we need to use wildcards to provide values for the parameters `expansionName` and `ordinal`.
+    First, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation on `email` to expand `email`, the example below makes 2 copies of `email`. Then we can the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each copy to avoid the expanded emails getting merge to one single attribute due to the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansionInfolist). In this case, we need to use wildcards to provide values for the parameters `expansionName` and `ordinal`.
 
     **__Note:__** We can use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to insert a new attribute `emailCount` and use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.count](../list-of-traits.md#hasexpansionInfocount) on it.
 
@@ -222,9 +222,9 @@ The following examples are to define a new `NewPerson` entity which has an array
 
 The following examples are to define a new `PersonInfo` entity which has an array of `Person`.
 
-- Structured resolution form
+- Structured Resolution Form
 
-    We need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group all member attributes from the `Person` entity, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on attribute group to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist).
+    We need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group all member attributes from the `Person` entity, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist).
 
     ```json
     {
@@ -270,7 +270,7 @@ The following examples are to define a new `PersonInfo` entity which has an arra
     ||phoneNumber||
     ||email||
 
-- None-structured resolution form  
+- None-structured Resolution Form  
 
     First, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation to expand the entity attribute `Person`, the example below makes 2 copies of `Person`. Then we can the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each copy of the member attribute to avoid expanded attributes getting merge to one single attribute due to the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansionInfolist). In this case, we need to use wildcards to provide values for the parameters `expansionName`, `ordinal`, and `memberAttribute`.
 
@@ -345,3 +345,240 @@ The following examples are to define a new `PersonInfo` entity which has an arra
 
 ### Map Type
 
+There are two ways to interpret the type of map as mapping keys to items.
+
+1. Structured Resolution Form
+
+   Create a key to map the item, apply the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataFormatmapkey) to the key and the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataFormatmapvalue). Group the key and the item and apply the trait the trait [is.dataFormat.map](../list-of-traits.md#isdataFormatmap) to the group. Do not make space to hold a fixed number of copies of the key-value pair.
+
+2. Non-structured Resolution Form
+
+    Create a key to map the item, make a certain number of copies of the `[key, item]` pair, and apply the trait [indicates.expansionInfo.mapKey](../list-of-traits.md#hasexpansionInfomapkey) on keys and the trait [indicates.expansionInfo.mapValue](../list-of-traits.md#hasexpansionInfomapvalue) on the values. If multiple type attributes are expanded and renamed, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each trait's unique info.
+
+#### I can construct a Map on type attribute
+
+The following examples are to define a new `NewPerson` entity which has an array of `[key, email]` pairs.
+
+- Structured Resolution Form
+
+    We can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on `email` to apply the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataFormatmapvalue). Now, we need to use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to create a key for the item `email` with the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataFormatmapKey). Finally, we need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group the key and the item `email` to a key-pair pair, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.map](../list-of-traits.md#isdataFormatmap).
+
+    ```json
+    {
+        "entityName": "NewPerson",
+        "hasAttributes": [
+            {
+                "name": "name",
+                "dataType": "string"
+            },
+            {
+                "name": "age",
+                "dataType": "integer"
+            },
+            {
+                "name": "address",
+                "dataType": "string"
+            },
+            {
+                "name": "phoneNumber",
+                "dataType": "string"
+            },
+            {
+                "name": "email",
+                "dataType": "string",
+                "projection": {
+                    "operations": [
+                        {
+                            "$type": "alterTraits",
+                            "traitsToAdd": [
+                                "is.dataFormat.mapValue"
+                            ]
+                        },
+                        {
+                            "$type": "addArtifactAttribute",
+                            "newAttribute": {
+                                "name": "keyOfEmail",
+                                "dataType": "string",
+                                "appliedTraits": [
+                                    "is.dataFormat.mapKey"
+                                ]
+                            },
+                            "insertAtTop": true
+                        },
+                        {
+                            "$type": "addAttributeGroup",
+                            "attributeGroupName": "favorite Term Group"
+                        },
+                        {
+                            "$type": "alterTraits",
+                            "traitsToAdd": [
+                                "is.dataFormat.map"
+                            ]
+                        }
+                    ],
+                    "runSequentially": true
+                }
+            }
+        ]
+    }
+    ```
+
+    The resulting resolved NewPerson entity is:
+
+    |NewPerson|Members in Attribute Group Reference|Newly added traits from projection operations|
+    |---|---|---|
+    |name|||
+    |age|||
+    |address|||
+    |phoneNumber|||
+    |emailMap||is.dataFormat.map|
+    ||keyOfEmail|is.dataFormat.mapKey|
+    ||email|is.dataFormat.mapValue|
+
+- None-structured Resolution Form  
+
+    First, we need to use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to create a key for the item `email`. Now, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation to expand the `[key email]` pair, the example below makes 2 copies of `[key, email]` pairs. Then we can the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each key and value to avoid the expanded attributes getting merge to one single attribute due to the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [indicates.expansionInfo.mapKey](../list-of-traits.md#hasexpansionInfomapkey) on keys and the trait [indicates.expansionInfo.mapValue](../list-of-traits.md#hasexpansionInfomapvalue) on the values. In this case, we need to use wildcards to provide values for the parameters `expansionName` and `ordinal`. Also, because of the dynamic argument values, we need to use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait for the newly added key attribute at the end instead of attaching the trait from the the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation in the first step.
+
+    **__Note:__** We can use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to insert a new attribute `emailPairCount` and use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.count](../list-of-traits.md#hasexpansionInfocount) on it.
+
+    ```json
+    {
+        "entityName": "NewPerson",
+        "hasAttributes": [
+            {
+                "name": "name",
+                "dataType": "string"
+            },
+            {
+                "name": "age",
+                "dataType": "integer"
+            },
+            {
+                "name": "address",
+                "dataType": "string"
+            },
+            {
+                "name": "phoneNumber",
+                "dataType": "string"
+            },
+            {
+                "name": "email",
+                "dataType": "string",
+                "projection": {
+                    "operations": [
+                        {
+                            "$type": "addArtifactAttribute",
+                            "newAttribute": {
+                                "name": "keyOfEmail",
+                                "dataType": "string"
+                            },
+                            "insertAtTop": true
+                        },
+                        {
+                            "$type": "arrayExpansion",
+                            "startOrdinal": 1,
+                            "endOrdinal": 2
+                        },
+                        {
+                            "$type": "renameAttributes",
+                            "renameFormat": "{m}_{o}_value",
+                            "applyTo": [
+                                "email"
+                            ]
+                        },
+                        {
+                            "$type": "renameAttributes",
+                            "renameFormat": "{m}_{o}_key",
+                            "applyTo": [
+                                "keyOfEmail"
+                            ]
+                        },
+                        {
+                            "$type": "alterTraits",
+                            "traitsToAdd": [
+                                {
+                                    "traitReference": "has.expansionInfo.mapValue",
+                                    "arguments": [
+                                        {
+                                            "name": "expansionName",
+                                            "value": "{a}"
+                                        },
+                                        {
+                                            "name": "ordinal",
+                                            "value": "{o}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "applyTo": [
+                                "email"
+                            ],
+                            "argumentsContainWildcards": true
+                        },
+                        {
+                            "$type": "alterTraits",
+                            "condition": "!structured",
+                            "traitsToAdd": [
+                                {
+                                    "traitReference": "indicates.expansionInfo.mapKey",
+                                    "arguments": [
+                                        {
+                                            "name": "expansionName",
+                                            "value": "{a}"
+                                        },
+                                        {
+                                            "name": "ordinal",
+                                            "value": "{o}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "applyTo": [
+                                "keyOfEmail"
+                            ],
+                            "argumentsContainWildcards": true
+                        },
+                        {
+                            "$type": "addArtifactAttribute",
+                            "newAttribute": {
+                                "name": "emailPairCount",
+                                "dataType": "integer"
+                            }
+                        },
+                        {
+                            "$type": "alterTraits",
+                            "traitsToAdd": [
+                                {
+                                    "traitReference": "indicates.expansionInfo.count",
+                                    "arguments": [
+                                        {
+                                            "name": "expansionName",
+                                            "value": "{a}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "applyTo": "emailPairCount",
+                            "argumentsContainWildcards": true
+                        }
+                    ],
+                    "runSequentially": true
+                }
+            }
+        ]
+    }
+    ```
+
+    The resulting resolved NewPerson entity is:
+
+    |NewPerson|Newly added traits from projection operations|
+    |---|---|
+    |name||
+    |age||
+    |address||
+    |phoneNumber||
+    |keyOfEmail_1|indicates.expansionInfo.mapKey(email, 1)|
+    |email_1|has.expansionInfo.mapValue(email, 1)|
+    |keyOfEmail_2|indicates.expansionInfo.mapKey(email, 2)|
+    |email_2|has.expansionInfo.mapValue(email, 2)|
+    |emailPairCount|indicates.expansionInfo.count(email)|
