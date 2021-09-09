@@ -41,9 +41,7 @@ public class SymsAdapter extends NetworkAdapter
 |**WriteAsync(string, string)**| Create/Update/Remove database or table from SyMS workspace. |
 |**CreateAdapterPath(string)**|See [StorageAdapterBase.CreateAdapterPath(...)](storageadapterbase.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
-|**ClearCache()**|See [StorageAdapterBase.ClearCache()](storageadapterbase.md#methods). This method doesn't do anything if the SyMS adapter doesn't maintain a cache.|void|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapterBase.ComputeLastModifiedTimeAsync(...)](storageadapterbase.md#methods).|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(string)**| Gets all table as a list from SyMS database.|Task\<List\<string>>|
+|**FetchAllFilesAsync(string)**| Gets all tables as a list from SyMS database.|Task\<List\<string>>|
 |**FetchConfig()**|See [StorageAdapterBase.FetchConfig()](storageadapterbase.md#methods).|string|
 |**UpdateConfig(string)**|See [StorageAdapterBase.UpdateConfig(...)](storageadapterbase.md#methods).|void|
-|**CreateFileQueryCacheContext()**|See [StorageAdapterBase.CreateFileQueryCacheContext()](storageadapterbase.md#methods).|IDisposable|

@@ -3476,7 +3476,7 @@ None
 **Description**
 
 
-Stores location of default lake linked to SyMS workspace. This is mandatory trait for SyMS write operation.
+Stores location of the default lake linked to the SyMS workspace. This is a mandatory trait for SyMS write operation.
 
 
 **Inheritance**

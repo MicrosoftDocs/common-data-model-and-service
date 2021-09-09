@@ -1,6 +1,6 @@
 ---
-title: SyMS Adapter Overview | Microsoft Docs
-description: Overview of SymsAdapter.
+title: Working with Synapse metadata store | Microsoft Docs
+description: This article provides guidance to developers for using Common Data Model SDK with Synapse workspaces and their metadata stores.
 author: supawa
 ms.service: common-data-model
 ms.topic: article
@@ -10,11 +10,10 @@ ms.author: supawa
 
 # SyMS Adapter Overview
 
-The SyMS adapter is the storage adapter that's used to interact with data in synapse workspace. It provides the Common Data Model view of synpase workspace.
+The SyMS adapter is the storage adapter that's used to interact with data in Synapse workspace. It provides the Common Data Model view of Synpase workspace.
 
-</br>
 
-## SyMS View in Common Data Model
+## SyMS object hierarchy representation in Common Data Model
 
 Common Data Model maps SyMS metadata into a folder structure as shown below:
 
@@ -24,11 +23,9 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 
 |File Name|SyMS Mapping|
 |---|---|
-|databases.manifest.cdm.json| It stores list of databases in SyMS as sub-manifest.
-|[databaseName].manifest.cdm.json| It stores entities (SyMS tables) declaration such as data location information.
-|[entityName].cdm.json| It stores entity (SyMS table) definition like attributes (SyMS column) and traits.
-
-</br>
+|databases.manifest.cdm.json| Stores list of databases in SyMS as sub-manifest.
+|[databaseName].manifest.cdm.json| Stores entities (SyMS tables) declaration such as data location information.
+|[entityName].cdm.json| Stores entity (SyMS table) definition like attributes (SyMS column) and traits.
 
 ## How to read from SyMS?
 
@@ -39,7 +36,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 
     corpus.Storage.Mount("syms", adapter);
     ```
-2. Optional: Create and mount all ADLS storage account as ADLS adapter which are attached to the SyMS workspace.
+2. Optional: Create and mount all ADLS storage accounts as ADLS adapters which are attached to the SyMS workspace.
 
     ```csharp
     corpus.Storage.Mount("adls1",
@@ -57,21 +54,21 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
                 "<CLIENT-SECRET>"
                 ));
     ```
-    Note : If you don’t create it , CDM internally create the respective ADLS adapters corresponding to location of data and mount it which can be later on found in mounted adapter list.
+   Note: If the ADLS adapters are not added, CDM will create and mount respective adapters that correspond to the discovered data locations.
 
     ```csharp
     corpus.Storage.NamespaceAdapters
     ```
-3.	Read the list of Database from SyMS workspace
+3.	Read the list of databases from SyMS workspace
  
-    Databases are stored as submanifest in databases.manifest.cdm.json. So read databases.manifest.cdm.json first.
+    Databases are stored as submanifests in databases.manifest.cdm.json. So read databases.manifest.cdm.json first.
 
     ```csharp
     CdmManifestDefinition manifest = await corpus.FetchObjectAsync<CdmManifestDefinition>("syms:/databases.manifest.cdm.json");
     ```
 4.	Read SyMS database 
  
-    Read the submanifest definiton to get database as manifest.
+    Read the submanifest definition to get databases as manifests.
 
     ```csharp
     CdmManifestDefinition manifestdb = await corpus.FetchObjectAsync<CdmManifestDefinition>(manifest.SubManifests[0].Definition, null, true);
@@ -94,26 +91,25 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     ```csharp
     var doc = await corpus.FetchObjectAsync<CdmDocumentDefinition>($"syms:/{manifestdb.ManifestName}/<tableName>.cdm.json");
     ```
-    Note: Database Name is manifestdb.ManifestName.
+   Note: Database name will be in the form of "manifestdb.ManifestName".
 
-7. Data locations are stored in form of data partition pattern. Use following api to resolve it to datapartition objects. 
+7. Data locations are represented in the form of data partition patterns. Use the following API to resolve the pattern to individual data partition objects.
     ```csharp
     manifestdb.FileStatusCheckAsync();
     ```
 
+
+## How to create database and table in SyMS?
+
 </br>
 
-## How to Create database and table in SyMS?
-
-</br>
-
-1. Create and mount SyMS adapter to cropus.
+1. Create and mount SyMS adapter to corpus.
     ```csharp
-    SymsAdapter adapter = new SymsAdapter("<symsworkspaceName>.dev.azuresynapse-dogfood.net","<tenantid>","<clientId>","<Secret>");
+    SymsAdapter adapter = new SymsAdapter("<symsWorkSpaceName>.dev.azuresynapse-dogfood.net","<tenantId>","<clientId>","<secret>");
 
     corpus.Storage.Mount("syms", adapter);
     ```
-2. Create and mount all ADLS storage account as ADLS adapter which are attached to the SyMS workspace.
+2. Create and mount all ADLS storage accounts attached to the SyMS workspace as SDK's ADLS adapters.
 
     ```csharp
     corpus.Storage.Mount("adls1",
@@ -136,10 +132,10 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
      ```csharp
     var manifest = await corpus.FetchObjectAsync<CdmManifestDefinition>("local:/<manifestFileName>.manifest.cdm.json");
     ```
-    Make sure manifest have following content
-    1. [is.storagesource](list-of-traits.md#isstoragesource) trait must be defined in manifest. This store location of default lake linked to SyMS. This is mandatory trait.
-    2. Manifest Name is SyMS database name.
-    3. Data partition for entity(SyMS table) is mandatory in SyMS. If ADLS adapter's namespace is provided, then corresponding ADLS adapter path will be converted to absolute path otherwise location would be calculated relative to location value of is.storagesource trait. In example below, it is adls1:/ which is default for address entity.
+    Make sure manifest has following content
+    1. [is.storagesource](list-of-traits.md#isstoragesource) is a mandatory trait that must be defined in the manifest, and should contain location of the default lake linked to SyMS.
+    2. Manifest name is SyMS database name.
+    3. Providing data partition for an entity (SyMS table) is mandatory in SyMS. If ADLS adapter's namespace is provided, then the corresponding ADLS adapter path will be converted to absolute path of the partition. Otherwise, location will be calculated relative to the location value found in "is.storagesource" trait. In the example below, it is "adls1:/" which is default for the Address entity.
 
     Example :
     ```json
@@ -253,11 +249,10 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     ```csharp
     var ret = await manifest.SaveAsAsync($"syms:/{manifest.ManifestName}/{manifest.ManifestName}.manifest.cdm.json")
     ```
-</br>
 
-## How to Push Deltas into SyMS Database
+## How to push deltas into SyMS Database
 1. Create a new table in existing SyMS database.
-    1. Read Syms database.
+    1. Read SyMS database.
      ```csharp
     CdmManifestDefinition manifestdb = await corpus.FetchObjectAsync<CdmManifestDefinition>("syms:/<databaseName>/<databaseName>.manifest.cdm.json");
     ```
@@ -274,23 +269,22 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 
 3. Modify existing table.
     1. Read SyMS database.
-    2. Read [tabeName].cdm.json
+    2. Read [tableName].cdm.json
         ```csharp
         var doc = await corpus.FetchObjectAsync<CdmDocumentDefinition>($"syms:/{manifestdb.ManifestName}/<tableName>.cdm.json");
         ```
-    3. Add/Modify column in [tabeName].cdm.json
+    3. Add/Modify column in [tableName].cdm.json
     4. Save document
         ```csharp
         var ret = await doc.SaveAsAsync($"syms:/{manifestdb.ManifestName}/<tableName>.cdm.json")
         ```
-    5. Change entity decalration object in manifest.
-    6. Update LastFileModifiedTime to currernt time.
+    5. Change entity declaration object in manifest.
+    6. Update LastFileModifiedTime to current time.
         ```csharp
         manifestModified.Entities[0].LastFileModifiedTime = DateTimeOffset.UtcNow;
         ```
     7. Save manifest.
     
-</br>
 
 ## SymsAdapter Class
 Refer [this](../1.0om/api-reference/storage/symsadapter.md) section.
