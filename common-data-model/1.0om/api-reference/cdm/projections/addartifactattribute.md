@@ -11,7 +11,7 @@ ms.author: weiluo
 
 # CdmOperationAddArtifactAttribute
 
-Renames each attribute in the input set by applying a provided format string. The format string can contain literal text  and one instance each of the replacement indicators ('{a}' or '{A}') for the (lowercase or uppercase first character) name of the containing attribute name, ('{m}' or '{M}') for the (lowercase or uppercase first character) name of the set member (like 'line1' or 'addId' and '{o}' for the held ordinal of the attribute in the set. Examples are "{m}AsPartOf{A}", "{a}{M}" or "{a}{M}{o}". For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addartifactattribute.md).
+Renames each attribute in the input set by applying a provided format string. The format string can contain literal text and one instance each of the replacement indicators ('{a}' or '{A}') for the (lowercase or uppercase first character) name of the containing attribute name, ('{m}' or '{M}') for the (lowercase or uppercase first character) name of the set member (like 'line1' or 'addId' and '{o}' for the held ordinal of the attribute in the set. Examples are "{m}AsPartOf{A}", "{a}{M}" or "{a}{M}{o}". For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addartifactattribute.md).
 
 ```csharp
 public class CdmOperationAddArtifactAttribute extends CdmOperationBase
@@ -38,7 +38,7 @@ public class CdmOperationAddArtifactAttribute extends CdmOperationBase
 |---|---|---|
 |Condition|string|A string condition that is evaluated at runtime to determine if the operation will run or not. If the condition evaluates to false, only this operation will not run.
 |Explanation|string|The operation's explanation.
-|SourceInput|bool?|Property of an operation that defines if the operation receives the input from previous operation or from source entity. If true, this operation receives the attributes coming from the source entity while if false, receives the attributes coming from the previous operation. In case this property is not set, it defaults to `!runSequentially`.
+|SourceInput|bool?|Property of an operation that defines if the operation receives the input from previous operation or from source entity. If true, this operation receives the attributes coming from the source entity while if false, receives the attributes coming from the previous operation. In case this property is not set, it defaults to `!runSequentially` (false).
 
 ## Methods
 
