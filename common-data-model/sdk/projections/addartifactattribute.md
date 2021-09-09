@@ -1,6 +1,6 @@
 ---
 title: Operation Add Artifact Attribute Usage Guide | Microsoft Docs
-description: API reference for CdmOperationAddArtifactAttribute.
+description: Usage guide for for CdmOperationAddArtifactAttribute.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: v-iap 

@@ -23,7 +23,7 @@ public class CdmOperationAlterTraits extends CdmOperationBase
 
 |Name|Description|
 |---|---|
-|**CdmOperationAlterTraits(CdmCorpusContext)**<br/>*ctx*: The corpus context.<br/>|Initializes a new instance of the [CdmOperationAlterTraits](operationaltertraits.md) class.|
+|**CdmOperationAlterTraits(CdmCorpusContext)**<br/>*ctx*: The corpus context.<br/>|Initializes a new instance of the [CdmOperationAlterTraits](altertraits.md) class.|
 
 ## Properties
 

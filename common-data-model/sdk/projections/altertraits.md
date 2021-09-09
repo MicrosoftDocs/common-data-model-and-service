@@ -1,6 +1,6 @@
 ---
 title: Operation Alter Traits Usage Guide | Microsoft Docs
-description: API reference for CdmOperationAlterTraits.
+description: Usage guide for for CdmOperationAlterTraits.
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: v-iap 

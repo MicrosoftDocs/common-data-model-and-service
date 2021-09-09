@@ -23,7 +23,7 @@ public class CdmOperationAddArtifactAttribute extends CdmOperationBase
 
 |Name|Description|
 |---|---|
-|**CdmOperationAddArtifactAttribute(CdmCorpusContext)**<br/>*ctx*: The corpus context.<br/>|Initializes a new instance of the [CdmOperationAddArtifactAttribute](operationaddartifactattribute.md) class.|
+|**CdmOperationAddArtifactAttribute(CdmCorpusContext)**<br/>*ctx*: The corpus context.<br/>|Initializes a new instance of the [CdmOperationAddArtifactAttribute](addartifactattribute.md) class.|
 
 ## Properties
 

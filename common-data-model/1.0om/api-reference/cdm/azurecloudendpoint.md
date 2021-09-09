@@ -11,7 +11,7 @@ ms.author: weiluo
 
 # Azure Cloud Endpoint
 
-An enum class containing all the national cloud endpoints which enables [ADLSAdapter](./../storage/adlsadapter.md) to support [Azure AD authentication endpoints](https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-national-cloud#azure-ad-authentication-endpoints) of each sovereign cloud.
+An enum class containing all the national cloud endpoints which enables [ADLSAdapter](./../storage/adlsadapter.md) to support [Azure AD authentication endpoints](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud#azure-ad-authentication-endpoints) of each sovereign cloud.
 
 > [!NOTE]
 > AzureCloudEndpoint is available in SDK version >= 1.3.1. Use Pascal Case in adapter's configuration config.json file.
