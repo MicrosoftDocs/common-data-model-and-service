@@ -18,8 +18,8 @@ AlterTraits is a projection operation that alters traits or trait groups for a s
 1. All the attributes from the source are provided as input to the operation will be added to a list where each attribute's traits will be modified. It is possible to specify a `applyTo` property which is a list of attributes' traits to be changed. The attributes that are in the specified list will be applied the rest of steps and added to the final attribute list. If an attribute is not in the specified list, it is added to the final set of attributes without changes.
 
 2. The traits or trait groups defined in `traitsToAdd` property will be added to each of the pending attributes. If `argumentsContainWildcards` property is defined and set to true, it checks all arguments from all traits and performs replacement. The format supports the wilds cards {a/A}, {m/M}, and {o}.
-   * {a} will be replaced with the current attribute name. If used in an attribute group reference, it will be replaced with an empty string.
-   * {m} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
+   * {a} will be replaced with the attribute name.
+   * {m} will be replaced with the member attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
    * If {A} or {M} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 
@@ -165,7 +165,7 @@ We can use the AlterTraits operation to insert an attribute in an entity. Let us
 
 The resulting resolved PersonInfo entity is:
 
-|PersonInfo|Newly added traits or updated arguments
+|PersonInfo|Newly added traits or updated arguments|
 |---|---|
 |legalName||
 |job|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
@@ -227,7 +227,7 @@ If we have an entity attribute, we can use AlterTraits to edit traits in all the
 
 The resulting resolved PersonInfo entity typed attribute is:
 
-|PersonInfo|Newly added traits or updated arguments
+|PersonInfo|Newly added traits or updated arguments|
 |---|---|
 |name|means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 |age|means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
@@ -291,7 +291,7 @@ Given an entity, Child, that extends from the Person entity:
 
 The resulting resolved Child entity is:
 
-|Child|Newly added traits or updated arguments
+|Child|Newly added traits or updated arguments|
 |---|---|
 |name|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 |age|means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
@@ -302,7 +302,7 @@ The resulting resolved Child entity is:
 
 ### I can use an AlterTraits operation on an attribute group
 
-We can use an [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to place all the attributes referenced by the source entity attribute into an attribute group, then use AlterTraits.
+We can use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to place all the attributes referenced by the source entity attribute into an attribute group, then use AlterTraits.
 
 ```json
 {
@@ -361,7 +361,7 @@ We can use an [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/adda
 
 The resulting resolved PersonInfo entity typed attribute is:
 
-|Attribute Group Reference|Members in Attribute Group Reference|Newly added traits or updated arguments
+|Attribute Group Reference|Members in Attribute Group Reference|Newly added traits or updated arguments|
 |---|---|---|
 |PersonAttributeGroup| |means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 ||name||
