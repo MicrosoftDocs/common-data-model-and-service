@@ -9,7 +9,7 @@ ms.date: 09/03/2021
 ms.author: weiluo
 ---
 
-# Projection - Operation Alter Traits
+# Projection - Alter Traits operation
 
 ## Overview
 
@@ -23,7 +23,7 @@ AlterTraits is a projection operation that alters traits or trait groups for a s
    * If {A} or {M} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 
-3. The traits or trait groups indicated in `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
+3. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
 
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/altertraits.md).
@@ -124,7 +124,7 @@ The examples below refer to the `Person` entity and a few traits as defined here
 }
 ```
 
-### I can use an AlterTraits operation on an type attribute
+### Using the AlterTraits operation on a type attribute
 
 We can use the AlterTraits operation to insert an attribute in an entity. Let us first have a look at the entity definition below.
 
@@ -170,7 +170,7 @@ The resulting resolved PersonInfo entity is:
 |legalName||
 |job|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 
-### I can use an AlterTraits operation on an entity attribute
+### Using the AlterTraits operation on an entity attribute
 
 If we have an entity attribute, we can use AlterTraits to edit traits in all the attributes we get from the referenced entity.
 
@@ -235,7 +235,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |phoneNumber|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 |email|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 
-### I can use an AlterTraits operation when extending an entity
+### Using the AlterTraits operation when extending an entity
 
 If we have an entity that extends another entity, we can use AlterTraits to modify traits in the attributes that are inherited from the entity we are extending from.
 
@@ -300,7 +300,7 @@ The resulting resolved Child entity is:
 |email|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
 
 
-### I can use an AlterTraits operation on an attribute group
+### Using the AlterTraits operation on an attribute group
 
 We can use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to place all the attributes referenced by the source entity attribute into an attribute group, then use AlterTraits.
 

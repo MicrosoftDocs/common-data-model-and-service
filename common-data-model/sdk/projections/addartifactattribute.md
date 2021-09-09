@@ -52,7 +52,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use an AddArtifactAttribute operation on an entity attribute
+### Using the AddArtifactAttribute operation on an entity attribute
 
 If we have an entity attribute, we can use AddArtifactAttribute to insert a type attribute to the attribute list that we get from the referenced entity.
 
@@ -85,7 +85,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |email|
 |newName|
 
-### I can use an AddArtifactAttribute operation when extending an entity
+### Using the AddArtifactAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddArtifactAttribute to insert a type attribute to the attribute list that are inherited from the entity we are extending from.
 
@@ -121,7 +121,7 @@ The resulting resolved Child entity is:
 |email|
 |newName|
 
-### I can use an AddArtifactAttribute operation on an type attribute
+### Using the AddArtifactAttribute operation on a type attribute
 
 We can use the AddArtifactAttribute operation to insert an attribute in an entity. Let us first have a look at the entity definition below.
 
@@ -154,7 +154,7 @@ We can use the AddArtifactAttribute operation to insert an attribute in an entit
 }
 ```
 
-On the example above, the `nickname` attribute is the second attribute in the entity. When the `newNickname` attribute is added to the attribute list by the AddArtifactAttribute operation, it is placed before `nickname` and becomes the new second attribute, as the `insertAtTop` flag is set to true.
+On the example above, the `nickname` attribute is the second attribute in the entity. When the `newNickname` attribute is added to the attribute list by the AddArtifactAttribute operation, it is placed before `nickname` and becomes the new second attribute because the `insertAtTop` flag is set to true.
 
 The resulting resolved PersonInfo entity is:
 
