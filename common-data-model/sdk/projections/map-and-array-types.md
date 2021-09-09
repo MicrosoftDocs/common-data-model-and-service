@@ -60,7 +60,7 @@ There are two ways to indicate the type of array on an item, `array[item]`.
 
    Make a certain number of copies of the item, and apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansionInfolist) to each item. If multiple attributes are expanded and renamed, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each trait's unique info.
 
-#### I can construct a Array of type attributes
+#### Constructing an Array of type attributes
 
 The following examples are to define a new `NewPerson` entity which has an array of `email`.
 
@@ -218,7 +218,7 @@ The following examples are to define a new `NewPerson` entity which has an array
     |email_2|has.expansionInfo.list(email, 2)|
     |emailCount|indicates.expansionInfo.count(email)|
 
-#### I can construct a Array of entity attributes
+#### Constructing an Array of entity attributes
 
 The following examples are to define a new `PersonInfo` entity which has an array of `Person`.
 
@@ -357,7 +357,7 @@ There are two ways to interpret the type of map as mapping keys to items.
 
     Create a key to map the item, make a certain number of copies of the `[key, item]` pair, and apply the trait [indicates.expansionInfo.mapKey](../list-of-traits.md#hasexpansionInfomapkey) on keys and the trait [indicates.expansionInfo.mapValue](../list-of-traits.md#hasexpansionInfomapvalue) on the values. If multiple type attributes are expanded and renamed, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each trait's unique info.
 
-#### I can construct a Map on type attribute
+#### Constructing a Map on a type attribute
 
 The following examples are to define a new `NewPerson` entity which has an array of `[key, email]` pairs.
 
@@ -585,7 +585,7 @@ The following examples are to define a new `NewPerson` entity which has an array
     |email_2|has.expansionInfo.mapValue(email, 2)|
     |emailPairCount|indicates.expansionInfo.count(email)|
 
-#### I can construct a Map on entity attribute
+#### Constructing a Map on an entity attribute
 
 The following examples are to define a new `PersonInfo` entity which has an array of `[key, Person]` pairs.
 
