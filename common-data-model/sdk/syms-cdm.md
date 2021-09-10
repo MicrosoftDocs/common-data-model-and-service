@@ -10,7 +10,7 @@ ms.author: supawa
 
 # SyMS Adapter Overview
 
-The SyMS adapter is the storage adapter that's used to interact with data in Synapse workspace. It provides the Common Data Model view of Synpase workspace.
+The SyMS adapter is the storage adapter that's used to interact with data in Synapse workspace. It provides the Common Data Model view of Synapse workspace.
 
 
 ## SyMS object hierarchy representation in Common Data Model
