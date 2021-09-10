@@ -30,7 +30,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 ## How to read from SyMS?
 
 
-1. Create and mount SyMS adapter to cropus.
+1. Create and mount SyMS adapter to corpus.
     ```csharp
     SymsAdapter adapter = new SymsAdapter("<symsworkspaceName>.dev.azuresynapse-dogfood.net","<tenantid>","<clientId>","<Secret>");
 
@@ -135,7 +135,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     Make sure manifest has following content
     1. [is.storagesource](list-of-traits.md#isstoragesource) is a mandatory trait that must be defined in the manifest, and should contain location of the default lake linked to SyMS.
     2. Manifest name is SyMS database name.
-    3. Providing data partition for an entity (SyMS table) is mandatory in SyMS. If ADLS adapter's namespace is provided, then the corresponding ADLS adapter path will be converted to absolute path of the partition. Otherwise, location will be calculated relative to the location value found in "is.storagesource" trait. In the example below, it is "adls1:/" which is default for the Address entity.
+    3. Providing data partition for an entity (SyMS table) is mandatory in SyMS. If ADLS adapter's namespace is provided, then the corresponding ADLS adapter path will be converted to the absolute path of the partition. Otherwise, the location will be calculated relative to the location value found in "is.storagesource" trait. In the example below, it is "adls1:/" which is default for the Address entity.
 
     Example :
     ```json
@@ -287,4 +287,4 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     
 
 ## SymsAdapter Class
-Refer [this](../1.0om/api-reference/storage/symsadapter.md) section.
+Please refer to [this](../1.0om/api-reference/storage/symsadapter.md) section.
