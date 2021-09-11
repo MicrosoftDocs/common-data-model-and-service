@@ -15,7 +15,7 @@ ms.author: violivei
 
 IncludeAttributes is a projection operation that selects a specified set of attributes from the source, which can either be an entity reference or another projection. This operation will work as follows:
 
-1. All the resolved attributes from the source are provided as input to the operation.
+1. All the resolved attributes from the source that are provided as input to the operation.
 1. Only the attributes that are listed in the specified set of attributes to include are taken from the input and added to the output. If an empty list of attributes to include is provided, no attribute from the input will be passed to the output resulting in an empty set.
 1. A filtered set of attributes is returned.
 

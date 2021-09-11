@@ -13,10 +13,10 @@ ms.author: weiluo
 
 ## Overview
 
-AddArtifactAttribute is a projection operation is a projection operation that adds a user-specified attribute (currently, only supports type attribute) to a specified set of attributes from the source, which can either be an entity reference or another projection. This operation will work as follows:  
+AddArtifactAttribute is a projection operation that adds a user-specified attribute (currently, only supports type attribute) to the final resolved entity. This operation will work as follows:  
 
-1. All the resolved attributes from the source are provided as input to the operation.
-2. The attribute received as input are added to the input attribute list. If the property "InsertAtTop" is not set, or it is false, the attribute will be added at the bottom of the list. Otherwise, it is added at the top of the list.
+1. All the resolved attributes from the source that are provided as input to the operation.
+2. The attribute received as argument to the operation are added to the input attribute list. If the property "insertAtTop" is not set, or it is false, the attribute will be added at the bottom of the list. Otherwise, it is added at the top of the list.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/addartifactattribute.md).
 

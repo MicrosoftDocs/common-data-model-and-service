@@ -15,7 +15,7 @@ ms.author: violivei
 
 AddAttributeGroup is a projection operation that groups all the attributes from the source into an attribute group. This operation will work as follows:  
 
-1. All the resolved attributes from the source are provided as input to the operation.
+1. All the resolved attributes from the source that are provided as input to the operation.
 1. An attribute group is created with the name supplied by the property "attributeGroupName".
 1. The attributes received as input are added to the newly created attribute group.
 
@@ -53,7 +53,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### Using the AddAttributeGroup operation on an entity attribute
+### Using an AddAttributeGroup operation on an entity attribute
 
 We can use the AddAttributeGroup operation to place all the attributes referenced by the source entity attribute into an attribute group.
 
@@ -82,7 +82,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 | | phoneNumber |
 | | email |
 
-### Using the AddAttributeGroup operation when extending an entity
+### Using an AddAttributeGroup operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddAttributeGroup to add the attributes of the base entity into an attribute group in the extended entity.
 Given an entity, Child, that extends the Person entity:
@@ -113,7 +113,7 @@ The resulting resolved Child entity is:
 | | phoneNumber |
 | | email |
 
-### Using multiple AddAttributeGroup operations
+### I can use multiple AddAttributeGroup operations
 
 Using multiple addAttributeGroup operations will result in an attribute group being created inside another attribute group.
 

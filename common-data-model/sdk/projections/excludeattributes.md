@@ -15,7 +15,7 @@ ms.author: violivei
 
 ExcludeAttributes is a projection operation that filters out a specified set of attributes from the source, which can either be an entity reference or another projection. This operation will work as follows:
 
-1. All the resolved attributes from the source are provided as input to the operation.
+1. All the resolved attributes from the source that are provided as input to the operation.
 1. Only the attributes that are not listed in the specified set of attributes to exclude are taken from the input and added to the output. If an empty list of attributes to filter is provided, all the attributes from the input will be passed to the output.
 1. A filtered set of attributes is returned.
 
