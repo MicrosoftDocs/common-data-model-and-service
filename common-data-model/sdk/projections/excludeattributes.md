@@ -53,7 +53,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a ExcludeAttributes operation on an entity attribute
+### Using the ExcludeAttributes operation on an entity attribute
 
 If we have an entity attribute, we can use ExcludeAttributes to exclude certain attributes we get from the referenced entity.
 
@@ -83,7 +83,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |name|
 |age|
 
-### I can use an ExcludeAttributes operation when extending an entity
+### Using the ExcludeAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use ExcludeAttributes to filter out certain attributes that are inherited from the entity we are extending from.
 
@@ -116,7 +116,7 @@ The resulting resolved Child entity is:
 |age|
 |phoneNumber|
 
-### I can use multiple ExcludeAttributes operations
+### Using multiple ExcludeAttributes operations
 
 We can have multiple ExcludeAttributes operations on the same projection.
 

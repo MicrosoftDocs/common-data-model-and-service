@@ -53,7 +53,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a AddAttributeGroup operation on an entity attribute
+### Using the AddAttributeGroup operation on an entity attribute
 
 We can use the AddAttributeGroup operation to place all the attributes referenced by the source entity attribute into an attribute group.
 
@@ -82,7 +82,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 | | phoneNumber |
 | | email |
 
-### I can use an AddAttributeGroup operation when extending an entity
+### Using the AddAttributeGroup operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddAttributeGroup to add the attributes of the base entity into an attribute group in the extended entity.
 Given an entity, Child, that extends the Person entity:
@@ -113,7 +113,7 @@ The resulting resolved Child entity is:
 | | phoneNumber |
 | | email |
 
-### I can use multiple AddAttributeGroup operations
+### Using multiple AddAttributeGroup operations
 
 Using multiple addAttributeGroup operations will result in an attribute group being created inside another attribute group.
 

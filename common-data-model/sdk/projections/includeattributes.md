@@ -55,7 +55,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a IncludeAttributes operation on an entity attribute
+### Using the IncludeAttributes operation on an entity attribute
 
 If we have an entity attribute, we can use IncludeAttributes to include certain attributes we get from the referenced entity.
 
@@ -86,7 +86,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |address|
 |email|
 
-### I can use an IncludeAttributes operation when extending an entity
+### Using the IncludeAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use IncludeAttributes to select certain attributes that are inherited from the entity we are extending from.
 
@@ -120,7 +120,7 @@ The resulting resolved Child entity is:
 |age|
 |address|
 
-### I can use an IncludeAttributes operation to reorder the source attributes
+### Using the IncludeAttributes operation to reorder the source attributes
 
 The order of the attributes in the output is given by the order they are specified on the IncludeAttributes operation. This characteristic can be used to reorder the attributes from the source entity.
 
@@ -154,7 +154,7 @@ The order of the attributes in the output is given by the order they are specifi
 |name|
 |age|
 
-### I can use multiple IncludeAttributes operations
+### Using multiple IncludeAttributes operations
 
 We can have multiple IncludeAttributes operations on the same projection.
 
