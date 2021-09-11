@@ -25,7 +25,6 @@ AlterTraits is a projection operation that alters traits or trait groups for a s
 
 1. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
 
-
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/altertraits.md).
 
 ## Examples
@@ -126,7 +125,7 @@ The examples below refer to the `Person` entity and a few traits as defined here
 
 ### Using the AlterTraits operation on a type attribute
 
-We can use the AlterTraits operation to insert an attribute in an entity. Let us first have a look at the entity definition below.
+We can use the AlterTraits operation to modify traits in a type attribute in an entity. Let us first have a look at the entity definition below.
 
 ```json
 {
@@ -302,7 +301,7 @@ The resulting resolved Child entity is:
 
 ### Using the AlterTraits operation on an attribute group
 
-We can use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to place all the attributes referenced by the source entity attribute into an attribute group, then use AlterTraits.
+We can use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to place all the attributes referenced by the source entity attribute into an attribute group, then use the AlterTraits operation.
 
 ```json
 {
