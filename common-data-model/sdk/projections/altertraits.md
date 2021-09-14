@@ -18,12 +18,12 @@ AlterTraits is a projection operation that alters traits or trait groups for a s
 1. All the attributes from the source that are provided as input to the operation will be added to a list where each attribute's traits will be modified. It is possible to specify a `applyTo` property which is a list of attributes' traits to be changed. The attributes that are in the specified list will be applied the rest of steps and added to the final attribute list. If an attribute is not in the specified list, it is added to the final set of attributes without changes.
 
 1. The traits or trait groups defined in `traitsToAdd` property will be added to each of the pending attributes. If `argumentsContainWildcards` property is defined and set to true, it checks all arguments from all traits and performs replacement. The format supports the wilds cards {a/A}, {m/M}, and {o}.
-   * {a} will be replaced with the current attribute name.
-   * {m} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
+   * {a} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
+   * {m} will be replaced with the current attribute name.
    * If {A} or {M} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 
-1. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
+2. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/altertraits.md).
 

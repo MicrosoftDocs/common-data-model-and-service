@@ -17,8 +17,8 @@ RenameAttributes is a projection operation that renames a specified set of attri
 
 1. All the resolved attributes from the source that are provided as input to the operation.
 1. The attributes are renamed following the “renameFormat” property provided. The format supports the wilds cards {a/A}, {m/M}, and {o}.
-   * {a} will be replaced with the current attribute name.
-   * {m} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
+   * {a} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
+   * {m} will be replaced with the current attribute name.
    * If {A} or {M} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 1. All the attributes will be renamed following the specified “renameFormat” by default. It is possible to specify a "applyTo" property which is a list of attributes to be renamed. The attributes that are in the specified list are renamed and added to the attribute list. If an attribute is not in the rename list, it is added to the set of attributes without changes.
