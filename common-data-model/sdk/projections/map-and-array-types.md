@@ -52,7 +52,7 @@ There are two ways to indicate the type of array on an item, `array[item]`.
 
 1. Structured Resolution Form
 
-   Apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist) to the item without making space to hold a fixed number of copies of the item.
+   Apply the trait [is.dataFormat.list](../list-of-traits.md#isdataformatlist) to the item without making space to hold a fixed number of copies of the item.
 
 2. Non-structured Resolution Form
 
@@ -64,7 +64,7 @@ The following examples are to define a new `NewPerson` entity which has an array
 
 - Structured Resolution Form
 
-    We can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on `email` to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist).
+    We can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on `email` to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataformatlist).
 
     ```json
     {
@@ -222,7 +222,7 @@ The following examples are to define a new `PersonInfo` entity which has an arra
 
 - Structured Resolution Form
 
-    We need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group all member attributes from the `Person` entity, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataFormatlist).
+    We need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group all member attributes from the `Person` entity, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.list](../list-of-traits.md#isdataformatlist).
 
     ```json
     {
@@ -349,7 +349,7 @@ There are two ways to interpret the type of map as mapping keys to items.
 
 1. Structured Resolution Form
 
-   Create a key to map the item, apply the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataFormatmapkey) to the key and the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataFormatmapvalue). Group the key and the item and apply the trait the trait [is.dataFormat.map](../list-of-traits.md#isdataFormatmap) to the group. Do not make space to hold a fixed number of copies of the key-value pair.
+   Create a key to map the item, apply the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataformatmapkey) to the key and the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataformatmapvalue). Group the key and the item and apply the trait the trait [is.dataFormat.map](../list-of-traits.md#isdataformatmap) to the group. Do not make space to hold a fixed number of copies of the key-value pair.
 
 2. Non-structured Resolution Form
 
@@ -361,7 +361,7 @@ The following examples are to define a new `NewPerson` entity which has an array
 
 - Structured Resolution Form
 
-    We can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on `email` to apply the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataFormatmapvalue). Now, we need to use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to create a key for the item `email` with the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataFormatmapKey). Finally, we need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group the key and the item `email` to a key-pair pair, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.map](../list-of-traits.md#isdataFormatmap).
+    We can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on `email` to apply the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataformatmapvalue). Now, we need to use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to create a key for the item `email` with the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataformatmapkey). Finally, we need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group the key and the item `email` to a key-pair pair, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.map](../list-of-traits.md#isdataformatmap).
 
     ```json
     {
@@ -589,7 +589,7 @@ The following examples are to define a new `PersonInfo` entity which has an arra
 
 - Structured Resolution Form
 
-    We need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group all member attributes from the `Person` entity, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataFormatmapvalue). Now, we need to use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to create a key for the group `person` and use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataFormatmapKey). Finally, we need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group the key and the item `person` to a key-pair pair, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the outer attribute group (key-value pair) to apply the trait [is.dataFormat.map](../list-of-traits.md#isdataFormatmap).
+    We need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group all member attributes from the `Person` entity, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the attribute group to apply the trait [is.dataFormat.mapValue](../list-of-traits.md#isdataformatmapvalue). Now, we need to use the [AddArtifactAttribute](../../1.0om/api-reference/cdm/projections/addartifactattribute.md) operation to create a key for the group `person` and use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [is.dataFormat.mapKey](../list-of-traits.md#isdataformatmapkey). Finally, we need to use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/addattributegroup.md) operation to group the key and the item `person` to a key-pair pair, then we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation on the outer attribute group (key-value pair) to apply the trait [is.dataFormat.map](../list-of-traits.md#isdataformatmap).
 
     ```json
     {
