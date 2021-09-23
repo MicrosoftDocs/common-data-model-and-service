@@ -26,7 +26,7 @@ artAtt.DataType = MakeObject<CdmDataTypeReference>(CdmObjectType.DataTypeRef, "i
 ```
 [Here](../samples.md#customize-entities) is a sample application demonstrating how data types can be set.
 
-Parquet Type | Common Data Model Type | Trait
+Parquet Type | Common Data Model Equivalent | Trait
 -------|----|-------
 BOOLEAN | [boolean](list-of-datatypes.md#boolean) | [is.dataFormat.boolean](list-of-traits.md#isdataformatboolean)
 FLOAT | [float](list-of-datatypes.md#float) |  [is.dataFormat.floatingPoint](list-of-traits.md#isdataformatfloatingpoint)
@@ -39,8 +39,8 @@ DATE | [date](list-of-datatypes.md#date) | [is.dataFormat.date](list-of-traits.m
 INTERVAL | [binary](list-of-datatypes.md#binary) | [is.dataFormat.byte](list-of-traits.md#isdataformatbyte), <br>[is.dataFormat.array](list-of-traits.md#isdataformatarray)
 JSON | [json](list-of-datatypes.md#json) | [is.dataFormat.character](list-of-traits.md#isdataformatcharacter), <br>[is.dataFormat.array](list-of-traits.md#isdataformatarray),<br>[means.content.text.JSON](list-of-traits.md#meanscontenttextjson)
 ENUM | [string](list-of-datatypes.md#string) | [is.dataFormat.character](list-of-traits.md#isdataformatcharacter), <br>[is.dataFormat.array](list-of-traits.md#isdataformatarray), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
-MAP | Not available | Structured Resolution Form: <br>[is.dataFormat.map](list-of-traits.md#isdataformatmap), <br>[is.dataFormat.mapKey](list-of-traits.md#isdataformatmapkey), <br>[is.dataFormat.mapValue](list-of-traits.md#isdataformatmapvalue) <br>Non-structured Resolution Form; <br>[indicates.expansionInfo.mapKey](list-of-traits.md#indicatesexpansioninfomapKey), <br>[indicates.expansionInfo.mapValue](list-of-traits.md#hasexpansioninfomapvalue) <br><br> For a detailed description and use cases refer to [this page](./projections/map-and-array-types.md##map-type).
-LIST | Not available | Structured Resolution Form: <br>[is.dataFormat.list](list-of-traits.md#isdataformatlist) <br>Non-structured Resolution Form: <br>[has.expansionInfo.list](list-of-traits.md#hasexpansioninfolist) <br><br> For a detailed description and use cases refer to [this page](./projections/map-and-array-types.md##array-type).
+MAP | *(complex object)* | Structured Resolution Form: <br>[is.dataFormat.map](list-of-traits.md#isdataformatmap), <br>[is.dataFormat.maspKey](list-of-traits.md#isdataformatmapkey), <br>[is.dataFormat.mapValue](list-of-traits.md#isdataformatmapvalue) <br>Non-structured Resolution Form; <br>[indicates.expansionInfo.mapKey](list-of-traits.md#indicatesexpansioninfomapkey), <br>[indicates.expansionInfo.mapValue](list-of-traits.md#hasexpansioninfomapvalue) <br><br> For a detailed description and use cases refer to [this page](./projections/map-and-array-types.md#map-type).
+LIST | *(complex object)* | Structured Resolution Form: <br>[is.dataFormat.list](list-of-traits.md#isdataformatlist) <br>Non-structured Resolution Form: <br>[has.expansionInfo.list](list-of-traits.md#hasexpansioninfolist) <br><br> For a detailed description and use cases refer to [this page](./projections/map-and-array-types.md#array-type).
 **Signed integers** | |
 INT(8, true) | [byte](list-of-datatypes.md#byte) | [is.dataFormat.byte](list-of-traits.md#isdataformatbyte)
 INT(16, true) | [smallinteger](list-of-datatypes.md#smallinteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.small](list-of-traits.md#isdataformatsmall)
