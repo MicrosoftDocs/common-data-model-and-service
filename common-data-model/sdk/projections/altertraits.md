@@ -17,13 +17,14 @@ AlterTraits is a projection operation that alters traits or trait groups for a s
 
 1. All the attributes from the source that are provided as input to the operation will be added to a list where each attribute's traits will be modified. It is possible to specify a `applyTo` property which is a list of attributes' traits to be changed. The attributes that are in the specified list will be applied the rest of steps and added to the final attribute list. If an attribute is not in the specified list, it is added to the final set of attributes without changes.
 
-1. The traits or trait groups defined in `traitsToAdd` property will be added to each of the pending attributes. If `argumentsContainWildcards` property is defined and set to true, it checks all arguments from all traits and performs replacement. The format supports the wilds cards {a/A}, {m/M}, and {o}.
-   * {a} will be replaced with the entity attribute name. If used in something other than an entity attribute, it will be replaced with an empty string.
-   * {m} will be replaced with the current attribute name.
-   * If {A} or {M} is used the first letter of the value will be capitalized.
+1. The traits or trait groups defined in `traitsToAdd` property will be added to each of the pending attributes. If `argumentsContainWildcards` property is defined and set to true, it checks all arguments from all traits and performs replacement. The format supports the wilds cards {a/A}, {m/M}, {mo/Mo}, and {o}.
+   * {a} will be replaced with the attribute name of the projection owner (which is the attribute to call the projection operation). If the projection owner is not a type attribute or an entity attribute, it will be replaced with an empty string.
+   * {m} will be replaced with the resolved name of the current member attribute without changing the case of the text.
+   * {mo} will be replaced with the original name of the current member attribute without changing the case of the text.
+   * If {A}, {M}, {Mo} is used the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 
-2. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
+1. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
 
 > **__Note:__** you can access the API reference for this operation on [this link](../../1.0om/api-reference/cdm/projections/altertraits.md).
 
@@ -40,19 +41,15 @@ The examples below refer to the `Person` entity and a few traits as defined here
             "dataType": "string",
             "appliedTraits": [
                 {
-                    "traitReference": "means.TraitG4",
+                    "traitReference": "means.requiredUpdateDate",
                     "arguments": [
                         {
-                            "name": "scale",
-                            "value": "20"
+                            "name": "month",
+                            "value": "1"
                         }
                     ]
                 }
             ]
-        },
-        {
-            "name": "age",
-            "dataType": "integer"
         },
         {
             "name": "address",
@@ -69,55 +66,52 @@ The examples below refer to the `Person` entity and a few traits as defined here
     ]
 },
 {
-    "traitName": "means.TraitG100",
+    "traitName": "means.requiredUpdateAtAge18",
     "extendsTrait": "means"
 },
 {
-    "traitName": "means.TraitG200",
+    "traitName": "means.requiredUpdateAtAge30",
     "extendsTrait": "means"
 },
 {
-    "traitName": "means.TraitG300",
+    "traitName": "means.requiredUpdateAtAge45",
     "extendsTrait": "means"
 },
 {
-    "traitName": "means.TraitG400",
+    "traitName": "means.requiredUpdateAtAge60",
     "extendsTrait": "means"
 },
 {
-    "traitName": "means.TraitG4",
+    "traitName": "means.requiredUpdateDate",
     "extendsTrait": "means",
-    "explanation": "Trait 4 with parameters",
     "hasParameters": [
         {
-            "name": "precision",
-            "explanation": "the total number of significant digits",
-            "dataType": "integer",
-            "direction": "both"
+            "name": "month",
+            "explanation": "The month of a year",
+            "dataType": "integer"
         },
         {
-            "name": "scale",
-            "explanation": "the number of digits to the right of the decimal place",
-            "dataType": "integer",
-            "direction": "both"
+            "name": "day",
+            "explanation": "The day of a month",
+            "dataType": "integer"
         }
     ]
 },
 {
-    "traitGroupName": "JobTitleBase",
-    "explanation": "Trait group that defines JobTitle base traits",
+    "traitGroupName": "AllRequiredUpdate",
+    "explanation": "Trait group that defines traits for updating person info at all ages.",
     "exhibitsTraits": [
         {
-            "traitReference": "means.TraitG100"
+            "traitReference": "means.requiredUpdateAtAge18"
         },
         {
-            "traitReference": "means.TraitG200"
+            "traitReference": "means.requiredUpdateAtAge30"
         },
         {
-            "traitReference": "means.TraitG300"
+            "traitReference": "means.requiredUpdateAtAge45"
         },
         {
-            "traitReference": "means.TraitG400"
+            "traitReference": "means.requiredUpdateAtAge60"
         }
     ]
 }
@@ -145,14 +139,14 @@ We can use the AlterTraits operation to modify traits in a type attribute in an 
                         "$type": "alterTraits",
                         "traitsToAdd": [
                             {
-                                "traitReference": "means.TraitG100"
+                                "traitReference": "means.requiredUpdateAtAge18"
                             },
                             {
-                                "traitGroupReference": "JobTitleBase"
+                                "traitGroupReference": "AllRequiredUpdate"
                             }
                         ],
                         "traitsToRemove": [
-                            "means.TraitG300"
+                            "means.requiredUpdateAtAge60"
                         ]
                     }
                 ]
@@ -167,7 +161,7 @@ The resulting resolved PersonInfo entity is:
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
 |legalName||
-|job|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
+|job|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 
 ### Using the AlterTraits operation on an entity attribute
 
@@ -182,14 +176,14 @@ If we have an entity attribute, we can use AlterTraits to edit traits in all the
                 "$type": "alterTraits",
                 "traitsToAdd": [
                     {
-                        "traitReference": "means.TraitG100"
+                        "traitReference": "means.requiredUpdateAtAge18"
                     },
                     {
-                        "traitGroupReference": "JobTitleBase"
+                        "traitGroupReference": "AllRequiredUpdate"
                     }
                 ],
                 "traitsToRemove": [
-                    "means.TraitG300"
+                    "means.requiredUpdateAtAge60"
                 ]
             }
         ],
@@ -199,22 +193,21 @@ If we have an entity attribute, we can use AlterTraits to edit traits in all the
                     "$type": "alterTraits",
                     "traitsToAdd": [
                         {
-                            "traitReference": "means.TraitG4",
+                            "traitReference": "means.requiredUpdateDate",
                             "arguments": [
                                 {
-                                    "name": "precision",
+                                    "name": "month",
                                     "value": "5"
                                 },
                                 {
-                                    "name": "scale",
+                                    "name": "day",
                                     "value": "15"
                                 }
                             ]
                         }
                     ],
                     "applyTo": [
-                        "name",
-                        "age"
+                        "name"
                     ]
                 }
             ],
@@ -228,11 +221,10 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
-|name|means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|age|means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|address|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|phoneNumber|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|email|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
+|name|means.requiredUpdateDate(month: 5, day:15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|email|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 
 ### Using the AlterTraits operation when extending an entity
 
@@ -250,35 +242,35 @@ Given an entity, Child, that extends from the Person entity:
                         "$type": "alterTraits",
                         "traitsToAdd": [
                             {
-                                "traitReference": "means.TraitG100"
+                                "traitReference": "means.requiredUpdateAtAge18"
                             },
                             {
-                                "traitGroupReference": "JobTitleBase"
+                                "traitGroupReference": "AllRequiredUpdate"
                             }
                         ],
                         "traitsToRemove": [
-                            "means.TraitG300"
+                            "means.requiredUpdateAtAge60"
                         ]
                     },
                     {
                         "$type": "alterTraits",
                         "traitsToAdd": [
                             {
-                                "traitReference": "means.TraitG4",
+                                "traitReference": "means.requiredUpdateDate",
                                 "arguments": [
                                     {
-                                        "name": "precision",
+                                        "name": "month",
                                         "value": "5"
                                     },
                                     {
-                                        "name": "scale",
+                                        "name": "day",
                                         "value": "15"
                                     }
                                 ]
                             }
                         ],
                         "applyTo": [
-                            "age"
+                            "email"
                         ]
                     }
                 ],
@@ -292,11 +284,10 @@ The resulting resolved Child entity is:
 
 |Child|Newly added traits or updated arguments|
 |---|---|
-|name|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|age|means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|address|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|phoneNumber|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
-|email|means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
+|name|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|email|means.requiredUpdateDate(month: 5, day:15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 
 
 ### Using the AlterTraits operation on an attribute group
@@ -312,14 +303,14 @@ We can use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/add
                 "$type": "alterTraits",
                 "traitsToAdd": [
                     {
-                        "traitReference": "means.TraitG100"
+                        "traitReference": "means.requiredUpdateAtAge18"
                     },
                     {
-                        "traitGroupReference": "JobTitleBase"
+                        "traitGroupReference": "AllRequiredUpdate"
                     }
                 ],
                 "traitsToRemove": [
-                    "means.TraitG300"
+                    "means.requiredUpdateAtAge60"
                 ]
             }
         ],
@@ -329,14 +320,14 @@ We can use the [AddAttributeGroup](../../1.0om/api-reference/cdm/projections/add
                     "$type": "alterTraits",
                     "traitsToAdd": [
                         {
-                            "traitReference": "means.TraitG4",
+                            "traitReference": "means.requiredUpdateDate",
                             "arguments": [
                                 {
-                                    "name": "precision",
+                                    "name": "month",
                                     "value": "5"
                                 },
                                 {
-                                    "name": "scale",
+                                    "name": "day",
                                     "value": "15"
                                 }
                             ]
@@ -362,9 +353,81 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |Attribute Group Reference|Members in Attribute Group Reference|Newly added traits or updated arguments|
 |---|---|---|
-|PersonAttributeGroup| |means.TraitG4(precision: 5, scale:15) <br/>means.TraitG100 <br/>means.TraitG200 <br/>means.TraitG400|
+|PersonAttributeGroup| |means.requiredUpdateDate(month: 5, day:15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 ||name||
-||age||
 ||address||
 ||phoneNumber||
 ||email||
+
+### Using the AlterTraits operation with wildcards
+
+First, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation to expand the entity attribute `Person`, the example below makes 2 copies of `Person`. Then we can the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each copy of the member attribute to avoid expanded attributes getting merge to one single attribute due to the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansioninfolist). In this case, we need to use wildcards to provide values for the parameters `expansionName`, `ordinal`, and `memberAttribute`.
+
+> **__Note:__** For detailed descriptions and use cases for map and array types refer to [this page](./map-and-array-types.md).
+
+```json
+{
+    "entityName": "PersonInfo",
+    "hasAttributes": [
+        {
+            "name": "id",
+            "dataType": "string"
+        },
+        {
+            "name": "twoPeople",
+            "entity": {
+                "source": "Person",
+                "operations": [
+                    {
+                        "$type": "arrayExpansion",
+                        "startOrdinal": 1,
+                        "endOrdinal": 2
+                    },
+                    {
+                        "$type": "renameAttributes",
+                        "renameFormat": "{m}_{o}"
+                    },
+                    {
+                        "$type": "alterTraits",
+                        "traitsToAdd": [
+                            {
+                                "traitReference": "has.expansionInfo.list",
+                                "arguments": [
+                                    {
+                                        "name": "expansionName",
+                                        "value": "{a}"
+                                    },
+                                    {
+                                        "name": "ordinal",
+                                        "value": "{o}"
+                                    },
+                                    {
+                                        "name": "memberAttribute",
+                                        "value": "{mo}"
+                                    }
+                                ]
+                            }
+                        ],
+                        "argumentsContainWildcards": true
+                    }
+                ],
+                "runSequentially": true
+            }
+        }
+    ]
+}
+```
+
+The resulting resolved PersonInfo entity is:
+
+|PersonInfo|Newly added traits from projection operations|
+|---|---|
+|id||
+|name_1|has.expansionInfo.list(twoPeople, 1, name)|
+|address_1|has.expansionInfo.list(twoPeople, 1, address)|
+|phoneNumber_1|has.expansionInfo.list(twoPeople, 1, phoneNumber)|
+|email_1|has.expansionInfo.list(twoPeople, 1, email)|
+|name_2|has.expansionInfo.list(twoPeople, 2, name)|
+|address_2|has.expansionInfo.list(twoPeople, 2, address)|
+|phoneNumber_2|has.expansionInfo.list(twoPeople, 2, phoneNumber)|
+|email_2|has.expansionInfo.list(twoPeople, 2, email)|

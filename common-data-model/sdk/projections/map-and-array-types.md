@@ -312,7 +312,7 @@ The following examples are to define a new `PersonInfo` entity which has an arra
                                         },
                                         {
                                             "name": "memberAttribute",
-                                            "value": "{m}"
+                                            "value": "{mo}"
                                         }
                                     ]
                                 }
@@ -488,7 +488,7 @@ The following examples are to define a new `NewPerson` entity which has an array
                         },
                         {
                             "$type": "renameAttributes",
-                            "renameFormat": "{a}_{o}_key",
+                            "renameFormat": "{Mo}_{o}_key",
                             "applyTo": [
                                 "keyOfEmail"
                             ]
@@ -577,9 +577,9 @@ The following examples are to define a new `NewPerson` entity which has an array
     |age||
     |address||
     |phoneNumber||
-    |email_1_key|indicates.expansionInfo.mapKey(email, 1)|
+    |KeyOfEmail_1_key|indicates.expansionInfo.mapKey(email, 1)|
     |email_1_value|has.expansionInfo.mapValue(email, 1)|
-    |email_2_key|indicates.expansionInfo.mapKey(email, 2)|
+    |KeyOfEmail_2_key|indicates.expansionInfo.mapKey(email, 2)|
     |email_2_value|has.expansionInfo.mapValue(email, 2)|
     |emailPairCount|indicates.expansionInfo.count(email)|
 
@@ -730,7 +730,7 @@ The following examples are to define a new `PersonInfo` entity which has an arra
                                         },
                                         {
                                             "name": "memberAttribute",
-                                            "value": "{m}"
+                                            "value": "{mo}"
                                         }
                                     ]
                                 }

@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationCombineAttributes
 
-Combining a set of attributes  specified on the operation into one resulting attribute. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/combineattributes.md).
+Combining a set of attributes specified on the operation into one resulting attribute. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/combineattributes.md).
 
 ```csharp
 public class CdmOperationCombineAttributes extends CdmOperationBase

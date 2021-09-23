@@ -28,6 +28,6 @@ public enum AzureCloudEndpoint
 
 * **AzurePublic**: Microsoft Azure public cloud. Maps to https://login.microsoftonline.com.
 * **AzureChina**: Microsoft Chinese national cloud. Maps to https://login.chinacloudapi.cn.
-* **AzureGermany**: Microsoft German national cloud ("Black Forest"). Maps to https://login.microsoftonline.de.
+* **AzureGermany**: Microsoft German national cloud. Maps to https://login.microsoftonline.de.
 * **AzureUsGovernment**: US Government cloud. Maps to https://login.microsoftonline.us.
 

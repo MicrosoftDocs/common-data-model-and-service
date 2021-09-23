@@ -31,7 +31,7 @@ public class CdmOperationAlterTraits extends CdmOperationBase
 |---|---|---|
 |TraitsToAdd|List\<[CdmTraitReferenceBase](..\traitreferencebase.md)>|A list of traits or trait groups that will be applied on the input.
 |TraitsToRemove|List\<[CdmTraitReferenceBase](..\traitreferencebase.md)>|A list of traits or trait groups that will be removed (if found) on the input.
-|ArgumentsContainWildcards|bool?|If true, checks all arguments from all traits and performs replacement. May contain a single occurrence of ('{a} or 'A'), ('{m}' or '{M}') and '{o}' for the base (a/A)ttribute name, any (m/M)ember attributes from entities and array (o)rdinal.
+|ArgumentsContainWildcards|bool?|If true, checks all arguments from all traits and performs replacement. May contain a single occurrence of ('{a} or 'A'), ('{m}' or '{M}') , ('{mo}' or '{Mo}'), and '{o}' for the (a/A)ttribute name of the projection owner, any (m/M)ember attributes' resolved names, any (m/M)ember attributes' (o)riginal names, and array (o)rdinal.
 |ApplyTo|List\<string>|A list of attributes from the input attributes set to which traits defined in traitsToAdd property will be added (or arguments updated) and/or removed as indicated in traitsToRemove property. If not specified, traits in all attributes from the source will be targeted.
 
 ## Common properties

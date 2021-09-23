@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationIncludeAttributes
 
-Selecting only those attributes mentioned in the given list and filter out the rest. The selected attributes are ordered as given in the list. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/includeattributes.md).
+Selecting only those attributes mentioned in the given list and filtering out the rest. The selected attributes are ordered as given in the list. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/includeattributes.md).
 
 ```csharp
 public class CdmOperationIncludeAttributes extends CdmOperationBase
