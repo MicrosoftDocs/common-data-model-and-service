@@ -401,7 +401,7 @@ The entities `Product` and `Sales` are defined as follows:
 }
 ```
 
-Using projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#using-a-replaceasforeignkey-operation-on-an-entity-attribute) on an entity typed attribute `SalesProductInfo` we ensure a foreign key attribute `ProductFK` is created after resolving the entity. Existence of entity typed attribute indicates to the Object Model that the two entities are linked, and this information is used later for manifest relationship calculations:
+Using projection operation [ReplaceAsForeignKey](.//projections/replaceasforeignkey.md#using-the-replaceasforeignkey-operation-on-an-entity-attribute) on an entity typed attribute `SalesProductInfo` we ensure a foreign key attribute `ProductFK` is created after resolving the entity. Existence of entity typed attribute indicates to the Object Model that the two entities are linked, and this information is used later for manifest relationship calculations:
 
 ```json
 {
