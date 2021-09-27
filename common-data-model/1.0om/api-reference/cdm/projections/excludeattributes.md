@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationExcludeAttributes
 
-Removing the listed attributes from the input set. All others pass through in their original order. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/excludeattributes.md).
+Removes the listed attributes from the input set. All others pass through in their original order. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/excludeattributes.md).
 
 ```csharp
 public class CdmOperationExcludeAttributes extends CdmOperationBase

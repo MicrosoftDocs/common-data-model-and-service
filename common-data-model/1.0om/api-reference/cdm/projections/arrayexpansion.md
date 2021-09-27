@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationArrayExpansion
 
-Making n copies of every input attribute and marking each temporarily with an ordinal. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/arrayexpansion.md).
+Makes n copies of every input attribute and marks each temporarily with an ordinal. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/arrayexpansion.md).
 
 ```csharp
 public class CdmOperationArrayExpansion extends CdmOperationBase

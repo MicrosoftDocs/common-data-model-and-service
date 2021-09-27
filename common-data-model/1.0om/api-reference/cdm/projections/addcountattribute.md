@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationAddCountAttribute
 
-Adding a count attribute and marking it with the `is.linkedEntity.array.count` trait indicating that for each record, this attribute holds the count of array members that should be expected to contain data values. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addcountattribute.md).
+Adds a count attribute and marks it with the `is.linkedEntity.array.count` trait indicating that for each record, this attribute holds the count of array members that should be expected to contain data values. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addcountattribute.md).
 
 ```csharp
 public class CdmOperationAddCountAttribute extends CdmOperationBase

@@ -47,9 +47,9 @@ The examples below refer to the `ContactKinds` entity as defined here.
 |address|number|account|
 |isPrimary|isPrimary|isPrimary|
 
-### Using the CombineAttributes operation on an entity attribute
+### I can use a CombineAttributes operation on an entity attribute
 
-If we have an entity attribute, we can use CombineAttributes to merge certain attributes we get from the referenced entity.
+If we have an entity attribute, we can use RenameAttributes to rename all the attributes we get from the referenced entity. In this example {a} will be replaced with "PersonInfo" and {M} will be replaced with each attribute name with the first letter capitalized.
 
 ```json
 {
@@ -82,9 +82,9 @@ The resulting resolved contactAt entity typed attribute is:
 |contactId|
 |contactType|
 
-### Using the CombineAttributes operation when extending an entity
+### I can use an CombineAttributes operation when extending an entity
 
-If we have an entity that extends another entity, we can use CombineAttributes to merge certain attributes that are inherited from the entity we are extending from.
+If we have an entity that extends another entity, we can use RenameAttributes the attributes that are inherited from the entity we are extending from.
 
 Given an entity, Child, that extends from the Person entity:
 
