@@ -353,7 +353,7 @@ There are two ways to interpret the type of map as mapping keys to items.
 
 2. Non-structured Resolution Form
 
-    Create a key to map the item, make a certain number of copies of the `[key, item]` pair, and apply the trait [indicates.expansionInfo.mapKey](../list-of-traits.md#indicatesexpansioninfomapKey) on keys and the trait [indicates.expansionInfo.mapValue](../list-of-traits.md#hasexpansioninfomapvalue) on the values. If multiple entity attributes and/or type attributes are expanded and renamed within one single entity, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each attribute's unique info.
+    Create a key to map the item, make a certain number of copies of the `[key, item]` pair, and apply the trait [indicates.expansionInfo.mapKey](../list-of-traits.md#indicatesexpansioninfomapkey) on keys and the trait [indicates.expansionInfo.mapValue](../list-of-traits.md#hasexpansioninfomapvalue) on the values. If multiple entity attributes and/or type attributes are expanded and renamed within one single entity, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName` and `ordinal` to hold each attribute's unique info.
 
 ### Constructing Map on a type attribute
 
