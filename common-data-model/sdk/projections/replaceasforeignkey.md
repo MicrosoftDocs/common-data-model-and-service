@@ -71,7 +71,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a ReplaceAsForeignKey operation on an entity attribute
+### Using the ReplaceAsForeignKey operation on an entity attribute
 
 If we have an entity attribute, we can use ReplaceAsForeignKey to create a foreign key attribute.
 
@@ -122,7 +122,7 @@ The `is.linkedEntity.identifier` trait on the `personFK` attribute looks like th
 }
 ```
 
-### I can use a ReplaceAsForeignKey operation when extending an entity
+### Using the ReplaceAsForeignKey operation when extending an entity
 
 If we have an entity that extends another entity, we can use ReplaceAsForeignKey to create a foreign key attribute.
 
@@ -154,7 +154,7 @@ The resulting resolved Child entity is:
 |-|
 |personFK|
 
-### I can use a ReplaceAsForeignKey operation to create a multi part foreign key
+### Using the ReplaceAsForeignKey operation to create a multi part foreign key
 
 On the examples above, the foreign keys created are identified by one attribute only. In some cases one attribute alone is not capable of uniquely identifying a relationship, for example there might be multiple people with the same name. For these cases, we can create a relationship that is composed by multiple attributes as below.
 
@@ -240,7 +240,7 @@ Now `addressFK`:
 
 By looking at the two traits above, you can see that both the relationship names are the same `PersonInfo_Person`. This is an indicator that these attributes combined make up the relationship foreign key.
 
-### I can use a ReplaceAsForeignKey operation to create a polymorphic relationship
+### Using the ReplaceAsForeignKey operation to create a polymorphic relationship
 
 For this example, we will use another entity called `ContactKinds` that has three entity attributes pointing to `Email`, `Phone` and `Social`.
 

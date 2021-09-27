@@ -22,7 +22,7 @@ public class ADLSAdapter extends NetworkAdapter
 |Name|Description|
 |---|---|
 |**ADLSAdapter()**|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class. The user must apply an adapter configuration if this constructor is used. See *UpdateConfig(...)*.|
-|**ADLSAdapter(string, string, string, string, string)**<br/>*hostname*: The ADLS hostname.<br/>*root*: The root path of the schema documents.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing ADLS.<br/>*secret*: The secret for the application accessing ADLS.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with client ID/secret authentication.|
+|**ADLSAdapter(string, string, string, string, string, [AzureCloudEndpoint](../cdm/azurecloudendpoint.md))**<br/>*hostname*: The ADLS hostname.<br/>*root*: The root path of the schema documents.<br/>*tenant*: The tenant.<br/>*clientId*: The client ID of the application accessing ADLS.<br/>*secret*: The secret for the application accessing ADLS.<br/>*endpoint [optional]*: The national cloud authentication endpoint, default is the public cloud endpoint.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with client ID/secret authentication.|
 |**ADLSAdapter(string, string, string)**<br/>*hostname*: The ADLS hostname.<br/>*root*: The root path of the schema documents.<br/>*sharedKey*: The account/shared key.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with shared key authentication.|
 |**ADLSAdapter(string, string, [TokenProvider](../utilities/tokenprovider.md))**<br/>*hostname*: The ADLS hostname.<br/>*root*: The root path of the schema documents.<br/>*tokenProvider*: The user-defined token provider.|Initializes a new instance of the [ADLSAdapter](adlsadapter.md) class with a user-defined implementation of the [TokenProvider](../utilities/tokenprovider.md) interface.|
 
@@ -34,6 +34,7 @@ public class ADLSAdapter extends NetworkAdapter
 |Tenant|string|The tenant.|
 |ClientId|string|The client ID of the application accessing ADLS.|
 |Secret|string|The secret for the application accessing ADLS.|
+|Endpoint|[AzureCloudEndpoint](../cdm/azurecloudendpoint.md)|The [Azure AD authentication endpoint](/azure/active-directory/develop/authentication-national-cloud#azure-ad-authentication-endpoints) for the application accessing ADLS.|
 |SharedKey|string|The account or shared key.|
 |SasToken|string|The SAS token.|
 |Token Provider|[TokenProvider](../utilities/tokenprovider.md)|The token provider used to dynamically generate the access token.|
