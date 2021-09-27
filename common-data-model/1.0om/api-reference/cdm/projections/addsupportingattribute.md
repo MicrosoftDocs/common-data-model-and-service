@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationAddSupportingAttribute
 
-Adds a supporting attribute to the set. Two traits will be added to the resulting attribute. The first trait, `is.addedInSupportOf`, links to the attribute it supports. The second trait, "is.virtual.attribute", specifies that this is a virtual attribute. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addsupportingattribute.md).
+Adding a supporting attribute to the set. Two traits will be added to the resulting attribute. The first trait, `is.addedInSupportOf`, links to the attribute it supports. The second trait, "is.virtual.attribute", specifies that this is a virtual attribute. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addsupportingattribute.md).
 
 ```csharp
 public class CdmOperationAddSupportingAttribute extends CdmOperationBase

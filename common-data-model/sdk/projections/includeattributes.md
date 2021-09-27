@@ -15,7 +15,7 @@ ms.author: violivei
 
 IncludeAttributes is a projection operation that selects a specified set of attributes from the source, which can either be an entity reference or another projection. This operation will work as follows:
 
-1. All the resolved attributes from the source are provided as input to the operation.
+1. All the resolved attributes from the source that are provided as input to the operation.
 1. Only the attributes that are listed in the specified set of attributes to include are taken from the input and added to the output. If an empty list of attributes to include is provided, no attribute from the input will be passed to the output resulting in an empty set.
 1. A filtered set of attributes is returned.
 
@@ -55,7 +55,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a IncludeAttributes operation on an entity attribute
+### Using the IncludeAttributes operation on an entity attribute
 
 If we have an entity attribute, we can use IncludeAttributes to include certain attributes we get from the referenced entity.
 
@@ -86,7 +86,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |address|
 |email|
 
-### I can use an IncludeAttributes operation when extending an entity
+### Using the IncludeAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use IncludeAttributes to select certain attributes that are inherited from the entity we are extending from.
 
@@ -120,7 +120,7 @@ The resulting resolved Child entity is:
 |age|
 |address|
 
-### I can use an IncludeAttributes operation to reorder the source attributes
+### Using the IncludeAttributes operation to reorder the source attributes
 
 The order of the attributes in the output is given by the order they are specified on the IncludeAttributes operation. This characteristic can be used to reorder the attributes from the source entity.
 
@@ -154,7 +154,7 @@ The order of the attributes in the output is given by the order they are specifi
 |name|
 |age|
 
-### I can use multiple IncludeAttributes operations
+### Using multiple IncludeAttributes operations
 
 We can have multiple IncludeAttributes operations on the same projection.
 
@@ -199,7 +199,7 @@ If `runSequentially` is false, all the operations in a single projection are giv
 |phoneNumber||age|
 |email|
 
-If `runSequentially` is false, each operation is given the output of the previous operation. The second IncludeAttributes operation receives just "address" and "email" as input resulting on the entity typed attribute below.
+If `runSequentially` is true, each operation is given the output of the previous operation. The second IncludeAttributes operation receives just "address" and "email" as input resulting on the entity typed attribute below.
 
 |Input|After operation #1|Output|
 |-|-|-|

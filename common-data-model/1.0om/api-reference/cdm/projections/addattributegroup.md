@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationAddAttributeGroup
 
-Creates an attribute group and adds all the input attributes into it. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addattributegroup.md).
+Creating an attribute group and adding all the input attributes into it. For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/addattributegroup.md).
 
 ```csharp
 public class CdmOperationAddAttributeGroup extends CdmOperationBase

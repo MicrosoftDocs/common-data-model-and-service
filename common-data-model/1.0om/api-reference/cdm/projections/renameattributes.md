@@ -11,7 +11,7 @@ ms.author: violivei
 
 # CdmOperationRenameAttributes
 
-Renames each attribute in the input set by applying a provided format string. The format string can contain literal text  and one instance each of the replacement indicators ('{a}' or '{A}') for the (lowercase or uppercase first character) name of the containing attribute name, ('{m}' or '{M}') for the (lowercase or uppercase first character) name of the set member (like 'line1' or 'addId' and '{o}' for the held ordinal of the attribute in the set. Examples are "{m}AsPartOf{A}", "{a}{M}" or "{a}{M}{o}". For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/renameattributes.md).
+Renaming each attribute in the input set by applying a provided format string. The format string can contain literal text and one instance each of the replacement indicators ('{a}' or '{A}') for the (original or capitalized) form name of the projection owner, ('{m}' or '{M}') for the (original or capitalized) resolved name of the member attribute, ('{mo}' or '{Mo}') for the (original or capitalized) original name of the member attribute, and '{o}' for the held ordinal of the attribute in the set. Examples are "{m}AsPartOf{A}", "{a}{M}" or "{a}{M}{o}". For a detailed description and a list of use cases for this operation refer to [this page](../../../../sdk/projections/renameattributes.md).
 
 ```csharp
 public class CdmOperationRenameAttributes extends CdmOperationBase

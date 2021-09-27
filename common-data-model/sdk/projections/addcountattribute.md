@@ -50,7 +50,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a AddCountAttribute operation on an entity attribute
+### Using the AddCountAttribute operation on an entity attribute
 
 If we have an entity attribute, we can use AddCountAttribute to add a count attribute.
 
@@ -83,7 +83,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |email|
 |someCount|
 
-### I can use an AddCountAttribute operation when extending an entity
+### Using the AddCountAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddCountAttribute to add a Count attribute.
 
@@ -118,7 +118,7 @@ The resulting resolved NewPerson entity is:
 |email|
 |someCount|
 
-### I can combine an AddCountAttribute operation with an ArrayExpansion
+### Using the AddCountAttribute operation combined with an ArrayExpansion
 
 We can use an AddCountAttribute operation after an ArrayExpansion operation to add a Count attribute alongside the expanded attributes.
 
