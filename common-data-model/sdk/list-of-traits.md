@@ -10987,26 +10987,6 @@ None
 None
 
 
-## <a id="means-relationship"><b>means.relationship</b></a>
-
-
-**Inheritance**
-
-| |
-|--|
-|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.relationship</b>|
-
-
-**Properties**
-
-None
-
-
-**Parameters**
-
-None
-
-
 ## <a id="means-relationship-child"><b>means.relationship.child</b></a>
 
 
