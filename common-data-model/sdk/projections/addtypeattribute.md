@@ -52,7 +52,7 @@ The examples below refer to the `ContactKinds` entity as defined here.
 |address|number|account|
 |isPrimary|isPrimary|isPrimary|
 
-### Using the AddTypeAttribute operation on an entity attribute
+### I can use a AddTypeAttribute operation on an entity attribute
 
 If we have an entity attribute, we can use AddTypeAttribute to add a type attribute. We can have an entity, Customer, that contains the following entity attribute definition (called contactAt) with a CombineAttributes operation (using ContactKinds as the source) that merges "emailId", "phoneId", and "socialId" into "contactId":
 
@@ -100,7 +100,7 @@ The resulting resolved contactAt entity typed attribute is:
 |contactId|
 |contactType|
 
-### Using the AddTypeAttribute operation when extending an entity
+### I can use an AddTypeAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddTypeAttribute to add a type attribute.
 
@@ -149,7 +149,7 @@ The resulting resolved Customer entity is:
 |contactId|
 |contactType|
 
-### Using the AddTypeAttribute operation by itself
+### I can use an AddTypeAttribute operation by itself
 
 ```json
 {
