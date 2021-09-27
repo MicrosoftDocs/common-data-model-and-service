@@ -34,7 +34,7 @@ public class ADLSAdapter extends NetworkAdapter
 |Tenant|string|The tenant.|
 |ClientId|string|The client ID of the application accessing ADLS.|
 |Secret|string|The secret for the application accessing ADLS.|
-|Endpoint|[AzureCloudEndpoint](../cdm/azurecloudendpoint.md)|The [Azure AD authentication endpoint](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud#azure-ad-authentication-endpoints) for the application accessing ADLS.|
+|Endpoint|[AzureCloudEndpoint](../cdm/azurecloudendpoint.md)|The [Azure AD authentication endpoint](/azure/active-directory/develop/authentication-national-cloud#azure-ad-authentication-endpoints) for the application accessing ADLS.|
 |SharedKey|string|The account or shared key.|
 |SasToken|string|The SAS token.|
 |Token Provider|[TokenProvider](../utilities/tokenprovider.md)|The token provider used to dynamically generate the access token.|
