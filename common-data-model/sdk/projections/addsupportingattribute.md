@@ -55,7 +55,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use an AddSupportingAttribute operation on a data typed attribute
+### Using the AddSupportingAttribute operation on a data typed attribute
 
 In some scenarios a data typed attribute can hold a list of constant values to which the attribute value is constrained. Let us first have a look at the attribute definition below.
 
@@ -125,7 +125,7 @@ The resulting resolved priorityCode data typed attribute is:
 |priorityCode|
 |priorityCode_display|
 
-### I can use an AddSupportingAttribute operation on an entity attribute
+### Using the AddSupportingAttribute operation on an entity attribute
 
 We can use the AddSupportingAttribute operation to create a supporting attribute.
 
@@ -158,7 +158,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |email|
 |age|
 
-### I can use an AddSupportingAttribute operation when extending an entity
+### Using the AddSupportingAttribute operation when extending an entity
 
 If we have an entity that extends another entity, we can use AddCountAttribute to create a supporting attribute.
 Given an entity, NewPerson, that extends from the Person entity:

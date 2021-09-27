@@ -21,6 +21,8 @@
             href: sdk/convert-logical-entities-resolved-entities.md
           - name: Projections
             items:
+              - name: Add Artifact Attribute
+                href: sdk/projections/addartifactattribute.md
               - name: Add Attribute Group
                 href: sdk/projections/addattributegroup.md
               - name: Add Count Attribute
@@ -80,6 +82,8 @@
             href: 1.0om/api-reference/cdm/attributeitem.md
           - name: Attribute Resolution Guidance
             href: 1.0om/api-reference/cdm/attributeresolutionguidance.md
+          - name: Azure Cloud Endpoint
+            href: 1.0om/api-reference/cdm/azurecloudendpoint.md
           - name: CdmObject
             href: 1.0om/api-reference/cdm/cdmobject.md
           - name: CdmObject Definition
@@ -140,6 +144,8 @@
             href: 1.0om/api-reference/cdm/parameter.md
           - name: Projections
             items:
+              - name: Add Artifact Attribute
+                href: 1.0om/api-reference/cdm/projections/addartifactattribute.md
               - name: Add Attribute Group
                 href: 1.0om/api-reference/cdm/projections/addattributegroup.md
               - name: Add Count Attribute
@@ -148,6 +154,8 @@
                 href: 1.0om/api-reference/cdm/projections/addsupportingattribute.md
               - name: Add Type Attribute
                 href: 1.0om/api-reference/cdm/projections/addtypeattribute.md
+              - name: Alter traits
+                href: 1.0om/api-reference/cdm/projections/altertraits.md
               - name: Array Expansion
                 href: 1.0om/api-reference/cdm/projections/arrayexpansion.md
               - name: Combine Attributes
