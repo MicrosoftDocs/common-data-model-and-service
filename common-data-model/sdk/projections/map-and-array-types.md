@@ -1,6 +1,6 @@
 ---
-title: Construct map and array types using projection operations | Microsoft Docs
-description: Usage guide for construct map and array types using projection operations 
+title: Constructing map and array types using projection operations | Microsoft Docs
+description: Usage guide for constructing map and array types using projection operations 
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: v-iap 
