@@ -15,7 +15,7 @@ ms.author: violivei
 
 ExcludeAttributes is a projection operation that filters out a specified set of attributes from the source, which can either be an entity reference or another projection. This operation will work as follows:
 
-1. All the resolved attributes from the source are provided as input to the operation.
+1. All the resolved attributes from the source that are provided as input to the operation.
 1. Only the attributes that are not listed in the specified set of attributes to exclude are taken from the input and added to the output. If an empty list of attributes to filter is provided, all the attributes from the input will be passed to the output.
 1. A filtered set of attributes is returned.
 
@@ -53,7 +53,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a ExcludeAttributes operation on an entity attribute
+### Using the ExcludeAttributes operation on an entity attribute
 
 If we have an entity attribute, we can use ExcludeAttributes to exclude certain attributes we get from the referenced entity.
 
@@ -83,7 +83,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 |name|
 |age|
 
-### I can use an ExcludeAttributes operation when extending an entity
+### Using the ExcludeAttributes operation when extending an entity
 
 If we have an entity that extends another entity, we can use ExcludeAttributes to filter out certain attributes that are inherited from the entity we are extending from.
 
@@ -116,7 +116,7 @@ The resulting resolved Child entity is:
 |age|
 |phoneNumber|
 
-### I can use multiple ExcludeAttributes operations
+### Using multiple ExcludeAttributes operations
 
 We can have multiple ExcludeAttributes operations on the same projection.
 
@@ -161,7 +161,7 @@ If `runSequentially` is false, all the operations in a single projection are giv
 |phoneNumber|
 |email|
 
-If `runSequentially` is false, each operation is given the output of the previous operation resulting on the entity typed attribute below.
+If `runSequentially` is true, each operation is given the output of the previous operation resulting on the entity typed attribute below.
 
 |PersonInfo|
 |-|

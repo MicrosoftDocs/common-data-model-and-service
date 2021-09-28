@@ -69,7 +69,7 @@ The examples below refer to the `Person` entity as defined here.
 }
 ```
 
-### I can use a ArrayExpansion operation on an entity attribute
+### Using the ArrayExpansion operation on an entity attribute
 
 If we have an entity attribute, we can use ArrayExpansion to expand each attribute.
 
@@ -147,7 +147,7 @@ The resulting resolved ThreeMusketeers entity typed attribute is:
 |phoneNumber_3|
 |email_3|
 
-### I can use an ArrayExpansion operation when extending an entity
+### Using the ArrayExpansion operation when extending an entity
 
 If we have an entity that extends another entity, we can use ArrayExpansion to expand the attributes inherited from the base entity.
 
@@ -198,7 +198,7 @@ The resulting resolved ThreeMusketeers entity is:
 |phoneNumber_3|
 |email_3|
 
-### I can use multiple ArrayExpansion operations
+### Using multiple ArrayExpansion operations
 
 We can nest projections if we want an ArrayExpansion operation to use another ArrayExpansion operation's output as its source.
 
