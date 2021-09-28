@@ -31,6 +31,8 @@
                 href: sdk/projections/addsupportingattribute.md
               - name: Add Type Attribute
                 href: sdk/projections/addtypeattribute.md
+              - name: Alter Traits
+                href: sdk/projections/altertraits.md
               - name: Array Expansion
                 href: sdk/projections/arrayexpansion.md
               - name: Combine Attributes
@@ -39,6 +41,8 @@
                 href: sdk/projections/excludeattributes.md
               - name: Include Attributes
                 href: sdk/projections/includeattributes.md
+              - name: Constructing map and array types using projection operations
+                href: sdk/projections/map-and-array-types.md
               - name: Rename Attributes
                 href: sdk/projections/renameattributes.md
               - name: Replace as Foreign Key
@@ -154,7 +158,7 @@
                 href: 1.0om/api-reference/cdm/projections/addsupportingattribute.md
               - name: Add Type Attribute
                 href: 1.0om/api-reference/cdm/projections/addtypeattribute.md
-              - name: Alter traits
+              - name: Alter Traits
                 href: 1.0om/api-reference/cdm/projections/altertraits.md
               - name: Array Expansion
                 href: 1.0om/api-reference/cdm/projections/arrayexpansion.md
