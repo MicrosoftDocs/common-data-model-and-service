@@ -87,6 +87,7 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistSymsMultipleOrZeroTableDefinition**| SDK supports only one entity definition in document for CDM-SyMs conversion.
 |**ErrPersistSymsInvalidDbPropObject**| SDK logs this error when it gets null database or database location from SyMS.
 |**ErrPersistSymsInvalidDbObject**| SDK logs this error when it expect database type object but receive different type of object other than table from SyMS.
+|**ErrPersistSymsIncompatibleFileToType**| SDK logs this error when SyMS returns file type and format which are incompatible with each other. Please error message and SyMS database metadata.
 |**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trait was missing from manifest. This trait is mandatory trait for writing into SyMS. To avoid this error please add this trait in manifest.
 |**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than csv from SyMS.
 |**ErrPersistSymsTableInvalidDataLocation**| SDK logs this error when it finds invalid or null data partitions or patterns in SyMS.

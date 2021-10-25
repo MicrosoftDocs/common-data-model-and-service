@@ -84,6 +84,7 @@ public enum CdmLogCode
     ErrPersistSymsEntityDeclConversionFailure,
     ErrPersistSymsEntityDeclConversionException,
     ErrPersistSymsMultipleOrZeroTableDefinition,
+    ErrPersistSymsIncompatibleFileToType,
     ErrPersistSymsInvalidDbPropObject,
     ErrPersistSymsInvalidDbObject,
     ErrPersistSymsStorageSourceTraitError,
