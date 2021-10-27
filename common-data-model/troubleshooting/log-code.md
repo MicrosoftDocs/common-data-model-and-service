@@ -89,10 +89,11 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistSymsInvalidDbObject**| SDK logs this error when it expect database type object but receive different type of object other than table from SyMS.
 |**ErrPersistSymsIncompatibleFileToType**| SDK logs this error when SyMS returns file type and format which are incompatible with each other. Please error message and SyMS database metadata.
 |**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trait was missing from manifest. This trait is mandatory trait for writing into SyMS. To avoid this error please add this trait in manifest.
-|**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than csv from SyMS.
+|**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than CSV and parquet from SyMS.
 |**ErrPersistSymsTableInvalidDataLocation**| SDK logs this error when it finds invalid or null data partitions or patterns in SyMS.
 |**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it finds that storage descriptor received from SyMS has empty source location.
 |**ErrPersistSymsUnknownDataFormat**| SDK logs this error when it could not find CDM-SyMS data format mapping for a data type.
+|**ErrPersistSymsUnsupportedTableFormat**|  SDK logs this error when it encounters format type other than CSV and parquet from SyMS.
 |**ErrPersistSymsUnsupportedCdmConversion**| SDK supports *.manifest.cdm.json or *.cdm.json file for SyMS.
 |**ErrPersistSymsUnsupportedManifest**| SDK does not support saving databases.manifest.cdm.json file as it can cause perfomance issue on SyMS workspace.
 |**ErrPersistSaveLinkedDocs**|SDK logs this error when it fails to save one or more linked (imported) documents. There may be variety of reasons, including imports with wrong paths to documents, absence of files or access limitations on the target location. Please inspect prior error messages to find possible root cause.

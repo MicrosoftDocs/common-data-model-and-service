@@ -93,6 +93,7 @@ public enum CdmLogCode
     ErrPersistSymsTableMissingDataLocation,
     ErrPersistSymsUnknownDataFormat,
     ErrPersistSymsUnsupportedCdmConversion,
+    ErrPersistSymsUnsupportedTableFormat,
     ErrPersistSymsUnsupportedManifest,
     ErrPersistUnsupportedJsonSemVer,
     ErrPersistInvalidMaxCardinality,
