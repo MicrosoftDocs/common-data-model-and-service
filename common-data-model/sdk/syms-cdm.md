@@ -10,7 +10,7 @@ ms.author: supawa
 
 # SyMS Adapter Overview
 
-The SyMS adapter is the storage adapter that's used to interact with data in Sapse workspace. It provides the Common Data Model view of [Synapse](/azure/synapse-analytics/overview-what-is) workspace.
+The SyMS adapter is the storage adapter that's used to interact with data in Synapse workspace. It provides the Common Data Model view of [Synapse](/azure/synapse-analytics/overview-what-is) workspace.
 
 **__Note:__** : SyMS adapter is in preview stage and few functionality might change in future.
 
@@ -30,7 +30,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 
 ## Reading metadata from SyMS
 
-1. Create and mount SyMS adapter to corpus.Please consult [this page](../1.0om/api-reference/storage/symsadapter.md) for more information about adapter’s API.
+1. Create and mount SyMS adapter to corpus. Please consult [this page](../1.0om/api-reference/storage/symsadapter.md) for more information about adapter’s API.
     ```csharp
     SymsAdapter adapter = new SymsAdapter("<symsworkspaceName>.dev.azuresynapse-dogfood.net","<tenantid>","<clientId>","<Secret>");
 
