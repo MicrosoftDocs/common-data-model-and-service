@@ -10,7 +10,7 @@ ms.author: matgos
 ---
 
 # Overview of Financial Services
-This section provides the information for Microsoft Cloud for Financial Services entities.  Microsoft Cloud for Financial Services offers a comprehensive set of solutions for the Financial Services industry that brings together capabilities of Microsoft Dynamics 365, and Microsoft Azure, Microsoft Cloud for Financial Services enables Financial Services organizations to quickly deploy solutions using a common collection of entities specifically designed for Financial Services.
+This section provides the information for Microsoft Cloud for Financial Services entities. Microsoft Cloud for Financial Services offers a comprehensive set of solutions for the Financial Services industry that brings together capabilities of Microsoft Dynamics 365, and Microsoft Azure, Microsoft Cloud for Financial Services enables Financial Services organizations to quickly deploy solutions using a common collection of entities specifically designed for Financial Services.
 
 For more information, see [Microsoft Cloud for Financial Services](https://docs.microsoft.com/en-us/dynamics365/industry/financialservices/overview).
 
