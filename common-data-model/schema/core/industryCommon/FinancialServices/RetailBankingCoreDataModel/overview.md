@@ -21,7 +21,7 @@ ms.author: matgos
 |[Branch](Branch.md)|The branch of the main bank, when borrower applies for a loan at a branch.|
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
 |[Customerfinancialholding](Customerfinancialholding.md)|Financial holdings owned by the customer.|
-|[Fh_account](Fh_account.md)|A deposit account holding that allows the holder to make deposits and withdrawals through financial holding instruments. An account can be interest bearing|
+|[Fh_account](Fh_account.md)|A deposit account holding that allows the holder to make deposits and withdrawals through financial holding instruments. An account can be interest bearing.|
 |[Fh_creditline](Fh_creditline.md)|A preset borrowing limit associated with a credit or charge card.|
 |[Fh_investment](Fh_investment.md)|A holding representing a portfolio of securities or other investible assets.|
 |[Fh_loan](Fh_loan.md)|Loans held by the customer with the financial institution.|
@@ -32,7 +32,7 @@ ms.author: matgos
 |[Fi_directdebit](Fi_directdebit.md)|An automated payment system whereby an account holder authorizes a creditor to debit the customer's bank account at regular intervals.|
 |[Fi_overdraft](Fi_overdraft.md)|An extension of credit associated with a checking account allowing the account holder to continue withdrawing funds when an account reaches zero.|
 |[Fi_standingorder](Fi_standingorder.md)|An instruction order from an account holder for a set amount of money to be removed from an account at regular intervals and paid to or transferred to another account.|
-|[Group](Group.md)|An association of several customers allowing e.g. the representation of households|
+|[Group](Group.md)|An association of several customers allowing e.g. the representation of households.|
 |[Groupfinancialholding](Groupfinancialholding.md)|Financial holdings associated with a Group, to be included in the group's total assets and liabilities.|
 |[Groupmember](Groupmember.md)|An association between a customer and a Group.|
 |[Lifemoment](Lifemoment.md)|Significant milestones in a customer's personal life which can impact their financial situation, such as attending college, marriage, having a child, retirement, etc.|
