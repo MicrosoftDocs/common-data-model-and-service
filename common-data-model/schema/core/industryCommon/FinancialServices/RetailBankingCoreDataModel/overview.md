@@ -9,7 +9,7 @@ ms.date: 10/28/2021
 ms.author: matgos
 ---
 
-# Overview of RetailBankingCoreDataModel
+# Overview of Retail Banking Core Data Model
 
 
 ## Entities
