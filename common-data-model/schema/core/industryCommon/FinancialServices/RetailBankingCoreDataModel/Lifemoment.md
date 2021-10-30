@@ -5,11 +5,11 @@ author: GithubUser
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 10/28/2021
+ms.date: 10/30/2021
 ms.author: matgos
 ---
 
-# Life event in Retail Banking Core Data Model(LifeEvent)
+# Life event in Retail Banking Core Data Model (LifeEvent)
 
 Significant milestones in a customer's personal life which can impact their financial situation, such as attending college, marriage, having a child, retirement, etc.  
   
@@ -50,7 +50,7 @@ Significant milestones in a customer's personal life which can impact their fina
 |---|---|---|
 |[lifemomentId](#lifemomentId)|Unique identifier for entity instances.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the event was modified.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 |[statecode](#statecode)|Status of the Life Event.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 |[statuscode](#statuscode)|Reason for the status of the Life Event.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
@@ -63,6 +63,7 @@ Significant milestones in a customer's personal life which can impact their fina
 |[lifemomentdate](#lifemomentdate)|Represents the date of the life event.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 |[lifemomenttitle](#lifemomenttitle)|Life event title as a description of the event.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 |[lifeMomentType](#lifeMomentType)|The type of the life event. Act as a subcategory|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
+|[msfsiModifiedOn](#msfsiModifiedOn)|Date and time when the event was modified.|<a href="Lifemoment.md" target="_blank">RetailBankingCoreDataModel/Lifemoment</a>|
 
 ### <a href=#lifemomentId name="lifemomentId">lifemomentId</a>
 
@@ -154,12 +155,12 @@ the column number for an attribute with an entity in CDS for Applications.  <tab
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the event was modified.  
+Date and time when the record was modified.  
 First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the event was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msfsi_modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -174,19 +175,19 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity)
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr><tr><td>en</td><td>Date and time when the event was modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr><tr><td>en</td><td>Modified on</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_modifiedon"</td><td>string</td><td></td></tr></table>
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
 **is.dataFormat.date**  
@@ -708,4 +709,44 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
+</details>
+
+### <a href=#msfsiModifiedOn name="msfsiModifiedOn">msfsiModifiedOn</a>
+
+Date and time when the event was modified.  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the event was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msfsi_modifiedon</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the msfsiModifiedOn attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+**means.measurement.date**  
+**is.dataFormat.time**  
+**means.measurement.time**  
+**is.requiredAtLevel**  
+The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the event was modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified on</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_modifiedon"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.time**  
+**is.dataFormat.date**  
 </details>
