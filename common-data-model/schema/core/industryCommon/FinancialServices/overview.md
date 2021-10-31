@@ -11,7 +11,7 @@ ms.author: matgos
 
 # Overview of Microsoft Cloud for Financial Services entities
 
-This section provides the information for Microsoft Cloud for Financial Services entities. Microsoft Cloud for Financial Services offers a comprehensive set of solutions for the Financial Services industry that brings together capabilities of Microsoft Dynamics 365, Power Platform and Microsoft Azure. The Retail banking data model enables Financial Services organizations to quickly deploy solutions using a common collection of entities.
+This section provides the information for Microsoft Cloud for Financial Services entities. Microsoft Cloud for Financial Services offers a comprehensive set of solutions for the Financial Services industry that brings together capabilities of Microsoft Dynamics 365, Power Platform and Microsoft Azure. The Retail banking data model enables financial services organizations to quickly deploy solutions using a common collection of entities.
 
 For more information, see [Microsoft Cloud for Financial Services](https://docs.microsoft.com/en-us/dynamics365/industry/financialservices/overview).
 
