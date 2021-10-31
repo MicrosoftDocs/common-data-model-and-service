@@ -10,9 +10,9 @@ ms.author: supawa
 
 # SyMS Adapter Overview
 
-The SyMS adapter is the storage adapter that's used to interact with data in Synapse workspace. It provides the Common Data Model view of [Synpase](/azure/synapse-analytics/overview-what-is) workspace.
+The SyMS adapter is the storage adapter that's used to interact with data in Synapse workspace. It provides the Common Data Model view of [Synapse](/azure/synapse-analytics/overview-what-is) workspace.
 
-Note : SyMS adapter is in preview stage and few functionality might change in future.
+**__Note:__** : SyMS adapter is in preview stage and few functionality might change in future.
 
 ## SyMS object hierarchy representation in Common Data Model
 
@@ -28,10 +28,9 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 |[databaseName].manifest.cdm.json| Stores entities (SyMS tables) declaration such as data location information.
 |[entityName].cdm.json| Stores entity (SyMS table) definition like attributes (SyMS column) and traits.
 
-## How to read from SyMS?
+## Reading metadata from SyMS
 
-
-1. Create and mount SyMS adapter to corpus.
+1. Create and mount SyMS adapter to corpus. Please consult [this page](../1.0om/api-reference/storage/symsadapter.md) for more information about adapter’s API.
     ```csharp
     SymsAdapter adapter = new SymsAdapter("<symsworkspaceName>.dev.azuresynapse-dogfood.net","<tenantid>","<clientId>","<Secret>");
 
@@ -55,7 +54,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
                 "<CLIENT-SECRET>"
                 ));
     ```
-   Note: If the ADLS adapters are not added, CDM will create and mount respective adapters that correspond to the discovered data locations.
+   **__Note:__** If the ADLS adapters are not added, CDM will create and mount respective adapters that correspond to the discovered data locations.
 
     ```csharp
     corpus.Storage.NamespaceAdapters
@@ -70,16 +69,13 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 4.	Read SyMS database 
  
     Read the submanifest definition to get databases as manifests.
-
-    ```csharp
-    CdmManifestDefinition manifestdb = await corpus.FetchObjectAsync<CdmManifestDefinition>(manifest.SubManifests[0].Definition, null, true);
-    ```
-    or 
-
     ```csharp
     CdmManifestDefinition manifestdb = await corpus.FetchObjectAsync<CdmManifestDefinition>($"syms:/<databaseName>/<databaseName>.manifest.cdm.json" null, true);
     ```
-    
+    or
+    ```csharp
+    CdmManifestDefinition manifestdb = await corpus.FetchObjectAsync<CdmManifestDefinition>(manifest.SubManifests[0].Definition, null, true);
+    ```
 5.	Read SyMS tables
  
     Tables are stored as entities in CDM. Read CdmEntityDefinition object to read SyMS table.
@@ -92,7 +88,8 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     ```csharp
     var doc = await corpus.FetchObjectAsync<CdmDocumentDefinition>($"syms:/{manifestdb.ManifestName}/<tableName>.cdm.json");
     ```
-   Note: Database name will be in the form of "manifestdb.ManifestName".
+
+   **__Note:__** Database name will be in the form of "manifestdb.ManifestName".
 
 7. Data locations are represented in the form of data partition patterns. Use the following API to resolve the pattern to individual data partition objects.
     ```csharp
@@ -100,11 +97,9 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     ```
 
 
-## How to create database and table in SyMS?
+## Creating a database and a table in SyMS
 
-</br>
-
-1. Create and mount SyMS adapter to corpus.
+1. Create and mount SyMS adapter to corpus. Please consult [this page](../1.0om/api-reference/storage/symsadapter.md) for more information about adapter’s API.
     ```csharp
     SymsAdapter adapter = new SymsAdapter("<symsWorkSpaceName>.dev.azuresynapse-dogfood.net","<tenantId>","<clientId>","<secret>");
 
@@ -251,7 +246,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
     var ret = await manifest.SaveAsAsync($"syms:/{manifest.ManifestName}/{manifest.ManifestName}.manifest.cdm.json")
     ```
 
-## How to push deltas into SyMS Database
+## Writing deltas into SyMS
 1. Create a new table in existing SyMS database.
     1. Read SyMS database.
      ```csharp

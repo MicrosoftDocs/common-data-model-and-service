@@ -59,10 +59,11 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistJsonImportConversionError**|SDK logs this error when it is not able to deserialize from JSON to an import declaration object because the JSON is null.
 |**ErrPersistJsonObjectRefConversionError**|SDK logs this error when it is not able to serialize reference objects to JSON. Inspect the contained exception message to find possible root cause.
 |**ErrPersistModelJsonDocConversionError**|SDK logs this error when data partition object creation fails for the entity.
-|**ErrPersistModelJsonEntityAttrError**|This error occurs if a manifest containing an entity that has an entity attribute is saved to model.json format. This may happen if attempting to save a manifest containing one or more logical (non-resolved) entity definitions. Make sure only resolved entities are saved to model.json form.
-|**ErrPersistModelJsonEntityConversionError**|SDK logs this error when it tries to create model.json document but fails to load relationship. Check entitylist object for more granular error code causing this.
-|**ErrPersistModelJsonEntityDeclarationConversionError**|This error is a catch-all error, which is logged when SDK encounters a problem when converting entity (declaration) to model.json format. Possible reasons include ErrPersistInvalidEntityPath and ErrPersistModelIdDuplication. Inspect prior error messages to find possible root cause.
-|**ErrPersistModelJsonEntityDeclarationConversionFailure**|This error is a catch-all error, which is logged when SDK encounters an exception when converting entity (declaration) to model.json format. Inspect the contained exception message to find possible root cause.
+|**ErrPersistModelJsonEntityAttrError**|This error occurs if a manifest containing an entity that has an entity attribute is saved to model.json format. This may happen if attempting to save a manifest containing one or more logical (non-resolved) entity definitions. Please make sure only resolved entities are saved to model.json form.
+|**ErrPersistModelJsonEntityConversionError**|SDK logs this error when it tries to create model.json document but fails to load relationship. Please check entitylist object for more granular error code causing this.
+|**ErrPersistModelJsonEntityDeclarationConversionError**|This is a catch-all error which is logged when SDK encounters a problem when converting entity (declaration) to model.json format. Possible reasons include ErrPersistInvalidEntityPath and ErrPersistModelIdDuplication. Please inspect prior error messages to find possible root cause.
+|**ErrPersistModelJsonEntityDeclarationConversionFailure**|This is a catch-all error which is logged when SDK encounters an exception when converting entity (declaration) to model.json format. Please inspect the contained exception message to find possible root cause.
+|**ErrPersistModelJsonRefEntityInvalidLocation**|This error is logged if the location in the model.json file for an entity is not understood by any storage adapter. Either the location value is incorrect or an adapter that can understand the location path needs to be mounted.
 |**ErrPersistModelJsonEntityParsingError**|This error is logged if a model.json file being loaded contains entities with invalid "type" property, or if other problems occurred reading the entity information. The only supported model.json entity types are "LocalEntity" and "ReferenceEntity".
 |**ErrPersistModelJsonEntityRefConversionError**|SDK logs this error when reference entity path is not valid.
 |**ErrPersistModelJsonFromAttrConversionFailure**|SDK logs this error when it tries to create cdm document object from CDM object but fails. Check entitylist object for more granular error code causing this.
@@ -87,11 +88,13 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistSymsMultipleOrZeroTableDefinition**| SDK supports only one entity definition in document for CDM-SyMs conversion.
 |**ErrPersistSymsInvalidDbPropObject**| SDK logs this error when it gets null database or database location from SyMS.
 |**ErrPersistSymsInvalidDbObject**| SDK logs this error when it expect database type object but receive different type of object other than table from SyMS.
-|**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trait was missing from manifest. This trait is mandatory trait for writing into SyMS. To avoid this error, add this trait in manifest.
-|**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than csv from SyMS.
+|**ErrPersistSymsIncompatibleFileToType**| SDK logs this error when SyMS returns file type and format which are incompatible with each other. Please check SyMS database metadata and error message returned from caller.
+|**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trait was missing from manifest. This trait is mandatory trait for writing into SyMS. To avoid this error please add this trait in manifest.
+|**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than CSV and Parquet from SyMS.
 |**ErrPersistSymsTableInvalidDataLocation**| SDK logs this error when it finds invalid or null data partitions or patterns in SyMS.
 |**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it finds that storage descriptor received from SyMS has empty source location.
 |**ErrPersistSymsUnknownDataFormat**| SDK logs this error when it could not find CDM-SyMS data format mapping for a data type.
+|**ErrPersistSymsUnsupportedTableFormat**|  SDK logs this error when it encounters format type other than CSV and Parquet from SyMS.
 |**ErrPersistSymsUnsupportedCdmConversion**| SDK supports *.manifest.cdm.json or *.cdm.json file for SyMS.
 |**ErrPersistSymsUnsupportedManifest**| SDK does not support saving databases.manifest.cdm.json file as it can cause performance issue on SyMS workspace.
 |**ErrPersistSaveLinkedDocs**|SDK logs this error when it fails to save one or more linked (imported) documents. There may be variety of reasons, including imports with wrong paths to documents, absence of files or access limitations on the target location. Inspect prior error messages to find possible root cause.
