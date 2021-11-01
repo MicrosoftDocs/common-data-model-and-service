@@ -1,5 +1,5 @@
 ---
-title: overview of Financial Services Common Data Model - Common Data Model | Microsoft Docs
+title: Overview of Financial Services Common Data Model - Common Data Model | Microsoft Docs
 description: FinancialServicesCommonDataModel is a folder that contains standard entities related to the Common Data Model.
 author: GithubUser
 ms.service: common-data-model
