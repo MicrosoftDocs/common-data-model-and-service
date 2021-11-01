@@ -1437,6 +1437,112 @@
             href: applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitVolunteers/Schedule.md
     - name: Solutions
       items: 
+      - name: Microsoft Cloud for Financial Services
+        items:
+        - name: Summary
+          href: industryCommon/FinancialServices/overview.md
+        - name: Financial Services Common Data Model
+          items:
+          - name: Summary
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/overview.md
+          - name: Account 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Account.md
+          - name: Applicationdocument 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Applicationdocument.md
+          - name: Bank 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Bank.md
+          - name: Branch 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Branch.md
+          - name: Contact 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Contact.md
+          - name: Customdocument 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Customdocument.md
+          - name: Group 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Group.md
+          - name: Groupmember 
+            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Groupmember.md
+        - name: Loan Onboarding Data Model
+          items:
+          - name: Summary
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/overview.md
+          - name: Applicationdocument 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Applicationdocument.md
+          - name: Bank 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Bank.md
+          - name: Collateral 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Collateral.md
+          - name: Contact 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Contact.md
+          - name: Creditcheck 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Creditcheck.md
+          - name: Customdocument 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Customdocument.md
+          - name: Employment 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Employment.md
+          - name: Kyc 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Kyc.md
+          - name: Loanapplication 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplication.md
+          - name: Loanapplicationasset 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationasset.md
+          - name: Loanapplicationcollateral 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcollateral.md
+          - name: Loanapplicationcollateralvaluation 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcollateralvaluation.md
+          - name: Loanapplicationcontact 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontact.md
+          - name: Loanapplicationcontactasset 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactasset.md
+          - name: Loanapplicationcontactliability 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactliability.md
+          - name: Loanapplicationliability 
+            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationliability.md
+        - name: Retail Banking Core Data Model
+          items:
+          - name: Summary
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/overview.md
+          - name: Account 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Account.md
+          - name: Bank 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Bank.md
+          - name: Branch 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Branch.md
+          - name: Contact 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Contact.md
+          - name: Customerfinancialholding 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Customerfinancialholding.md
+          - name: Fh_account 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_account.md
+          - name: Fh_creditline 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_creditline.md
+          - name: Fh_investment 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_investment.md
+          - name: Fh_loan 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_loan.md
+          - name: Fh_saving 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_saving.md
+          - name: Fi_card 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_card.md
+          - name: Fi_directdebit 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_directdebit.md
+          - name: Fi_overdraft 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_overdraft.md
+          - name: Fi_standingorder 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_standingorder.md
+          - name: Financialholding 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Financialholding.md
+          - name: Financialholdinginstrument 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Financialholdinginstrument.md
+          - name: Group 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Group.md
+          - name: Groupfinancialholding 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Groupfinancialholding.md
+          - name: Groupmember 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Groupmember.md
+          - name: Lifemoment 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Lifemoment.md
+          - name: Relationship 
+            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Relationship.md
       - name: Microsoft Cloud for Healthcare
         items:
         - name: Summary
