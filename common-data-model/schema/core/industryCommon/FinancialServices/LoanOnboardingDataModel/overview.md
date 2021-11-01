@@ -1,5 +1,5 @@
 ---
-title: overview of LoanOnboardingDataModel - Common Data Model | Microsoft Docs
+title: Overview of LoanOnboardingDataModel - Common Data Model | Microsoft Docs
 description: LoanOnboardingDataModel is a folder that contains standard entities related to the Common Data Model.
 author: GithubUser
 ms.service: common-data-model
