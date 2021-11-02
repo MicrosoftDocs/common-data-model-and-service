@@ -55,6 +55,8 @@
         href: sdk/list-of-traits.md
       - name: Mapping Parquet types to Common Data Model data types
         href: sdk/parquet-to-cdm-datatype.md
+      - name: Mapping Common Data Model to SyMS data types
+        href: sdk/cdm-to-syms-datatype.md
       - name: Working with Synapse metadata store
         href: sdk/syms-cdm.md
   - name: Azure Data Lake

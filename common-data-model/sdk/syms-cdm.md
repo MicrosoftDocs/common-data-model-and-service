@@ -289,3 +289,6 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
 
 ## SymsAdapter Class
 Please refer to [this](../1.0om/api-reference/storage/symsadapter.md) section.
+
+## Mapping Common Data Model to SyMS data types
+Please refer to [this](../sdk/cdm-to-syms-datatype.md) section.
