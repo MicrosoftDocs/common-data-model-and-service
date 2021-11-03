@@ -221,7 +221,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
-|name|means.requiredUpdateDate(month: 5, day: 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|name|means.requiredUpdateDate(5, 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 |address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 |phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 |email|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
@@ -287,7 +287,7 @@ The resulting resolved Child entity is:
 |name|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 |address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 |phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|email|means.requiredUpdateDate(month: 5, day: 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|email|means.requiredUpdateDate(5, 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 
 
 ### Using the AlterTraits operation on an attribute group
@@ -353,7 +353,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |Attribute Group Reference|Members in Attribute Group Reference|Newly added traits or updated arguments|
 |---|---|---|
-|PersonAttributeGroup| |means.requiredUpdateDate(month: 5, day: 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|PersonAttributeGroup| |means.requiredUpdateDate(5, 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
 ||name||
 ||address||
 ||phoneNumber||
