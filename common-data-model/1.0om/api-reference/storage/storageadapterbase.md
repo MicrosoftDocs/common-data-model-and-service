@@ -23,7 +23,7 @@ public abstract class StorageAdapterBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|LocationHint|string|The hint given to the reader application about the location of the implementation for the adapter (Nuget, NPM, etc.).|
+|LocationHint|string|The hint given to the reader application about the location of the implementation for the adapter (NuGet, NPM, and so on.).|
 
 >[!IMPORTANT]
 >Storage adapter methods that take in a corpus path as a parameter (*ReadAsync(...), WriteAsync(...), CreateAdapterPath(...), ComputeLastModifiedTimeAsync(...), and FetchAllFilesAsync(...)*) will only accept corpus paths **without** a namespace. For example, use "/some/path" instead of "local:/some/path".
@@ -42,4 +42,4 @@ public abstract class StorageAdapterBase
 |**FetchConfig()**|Constructs the adapter's configuration. Returns a JSON string representing the configuration.|string|
 |**UpdateConfig(string)**<br/>*string*: A JSON string representing the configuration for the adapter.|Applies the specified configuration to the adapter. This method must be called after using the default constructor.|void|
 |**ClearCache()**|Empties the cache of files and folders if the storage adapter uses a cache.|void|
-|**CreateFileQueryCacheContext()**|Calling this function tells the adapter it can begin to cache and reuse the results of file queries. The adapter can continue to reuse cached results until the *Dispose()* function is called on the returned object.|IDisposable| 
+|**CreateFileQueryCacheContext()**|Calling this function tells the adapter it can begin to cache and reuse the results of file queries. The adapter can continue to reuse cached results until the *Dispose()* function is called on the returned object.|IDisposable|
