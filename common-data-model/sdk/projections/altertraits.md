@@ -161,7 +161,7 @@ The resulting resolved PersonInfo entity is:
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
 |legalName||
-|job|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|job|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 
 ### Using the AlterTraits operation on an entity attribute
 
@@ -221,10 +221,10 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
-|name|means.requiredUpdateDate(5, 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|email|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|name|`means.requiredUpdateDate`(5, 15) <br/>`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|address|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|phoneNumber|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|email|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 
 ### Using the AlterTraits operation when extending an entity
 
@@ -284,10 +284,10 @@ The resulting resolved Child entity is:
 
 |Child|Newly added traits or updated arguments|
 |---|---|
-|name|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|email|means.requiredUpdateDate(5, 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|name|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|address|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|phoneNumber|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|email|`means.requiredUpdateDate`(5, 15) <br/>`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 
 
 ### Using the AlterTraits operation on an attribute group
@@ -353,7 +353,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |Attribute Group Reference|Members in Attribute Group Reference|Newly added traits or updated arguments|
 |---|---|---|
-|PersonAttributeGroup| |means.requiredUpdateDate(5, 15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|PersonAttributeGroup| |`means.requiredUpdateDate`(5, 15) <br/>`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 ||name||
 ||address||
 ||phoneNumber||
@@ -427,11 +427,11 @@ The resulting resolved PersonInfo entity is:
 |PersonInfo|Newly added traits from projection operations|
 |---|---|
 |id||
-|name_1|has.expansionInfo.list(twoPeople, 1, name)|
-|address_1|has.expansionInfo.list(twoPeople, 1, address)|
-|phoneNumber_1|has.expansionInfo.list(twoPeople, 1, phoneNumber)|
-|email_1|has.expansionInfo.list(twoPeople, 1, email)|
-|name_2|has.expansionInfo.list(twoPeople, 2, name)|
-|address_2|has.expansionInfo.list(twoPeople, 2, address)|
-|phoneNumber_2|has.expansionInfo.list(twoPeople, 2, phoneNumber)|
-|email_2|has.expansionInfo.list(twoPeople, 2, email)|
+|name_1|`has.expansionInfo.list`(twoPeople, 1, name)|
+|address_1|`has.expansionInfo.list`(twoPeople, 1, address)|
+|phoneNumber_1|`has.expansionInfo.list`(twoPeople, 1, phoneNumber)|
+|email_1|`has.expansionInfo.list`(twoPeople, 1, email)|
+|name_2|`has.expansionInfo.list`(twoPeople, 2, name)|
+|address_2|`has.expansionInfo.list`(twoPeople, 2, address)|
+|phoneNumber_2|`has.expansionInfo.list`(twoPeople, 2, phoneNumber)|
+|email_2|`has.expansionInfo.list`(twoPeople, 2, email)|
