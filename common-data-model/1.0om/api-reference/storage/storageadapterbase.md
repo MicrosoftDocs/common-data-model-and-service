@@ -23,7 +23,7 @@ public abstract class StorageAdapterBase
 ## Properties
 |Name|Type|Description|
 |---|---|---|
-|LocationHint|string|The hint that given to the reader application about the location of the implementation for the adapter (NuGet, NPM, and so on.).|
+|LocationHint|string|The hint that's given to the reader application about the location of the implementation for the adapter (NuGet, NPM, and so on.).|
 
 >[!IMPORTANT]
 >Storage adapter methods that take in a corpus path as a parameter (*ReadAsync(...), WriteAsync(...), CreateAdapterPath(...), ComputeLastModifiedTimeAsync(...), and FetchAllFilesAsync(...)*) will only accept corpus paths **without** a namespace. For example, use "/some/path" instead of "local:/some/path".
