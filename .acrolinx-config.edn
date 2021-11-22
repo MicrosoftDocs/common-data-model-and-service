@@ -1,4 +1,4 @@
-{:allowed-branchname-matches ["^master$"]
+{:allowed-branchname-matches ["^main$"]
  :allowed-filename-matches ["(?i)common-data-model/(?:(?!schema/core/operationsCommon/Common.md))"]
  :use-skip-label true
  :targets
