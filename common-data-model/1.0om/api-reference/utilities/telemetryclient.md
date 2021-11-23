@@ -17,7 +17,7 @@ ms.author: t-honchen
 The interface that can be implemented to ingest telemetry into databases.
 
 > [!NOTE]
-> TelemetryClient is available in SDK version >= 1.2.4.
+> TelemetryClient is available in SDK version >= 1.3.0.
 
 ```csharp
 public interface TelemetryClient

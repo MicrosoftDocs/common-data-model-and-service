@@ -17,7 +17,7 @@ ms.author: t-honchen
 The telemetry Kusto client is a client for ingesting logs into Kusto database. 
 
 > [!NOTE]
-> TelemetryKustoClient is available in SDK version >= 1.2.4.
+> TelemetryKustoClient is available in SDK version >= 1.3.0.
 
 For the client to function as expected, the log tables in the Kusto database must have the following schema:<br>
 `timestamp: datetime, className: string, method: string, message: string, code: string, corpusPath: string, correlationId: string, apiCorrelationId: string, appId: string, property: string`.
