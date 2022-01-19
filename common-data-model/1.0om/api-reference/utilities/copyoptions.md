@@ -25,6 +25,7 @@ public class CopyOptions
 ## Properties
 |Name|Type|Description|
 |---|---|---|
+|SaveConfigFile|bool|Determines if the config.json file should be saved or not when calling SaveAsAsync.|
 |StringRefs|bool?|Denotes whether to turn simple named string object references into objects with a relative path.|
 
 
