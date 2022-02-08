@@ -4,7 +4,7 @@ description: Contact details to assist a user in finding and communicating with 
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

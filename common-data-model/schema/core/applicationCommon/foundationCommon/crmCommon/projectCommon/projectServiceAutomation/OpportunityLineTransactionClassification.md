@@ -4,7 +4,7 @@ description: List of transaction classification heads, which are four broad cost
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

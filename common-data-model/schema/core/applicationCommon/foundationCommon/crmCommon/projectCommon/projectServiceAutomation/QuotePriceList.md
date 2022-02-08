@@ -4,7 +4,7 @@ description: Sales price list that will used by the quote to default sales price
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

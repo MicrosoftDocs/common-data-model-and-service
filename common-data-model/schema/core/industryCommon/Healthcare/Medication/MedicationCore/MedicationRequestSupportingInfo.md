@@ -4,7 +4,7 @@ description: Include additional information (for example, patient height and wei
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

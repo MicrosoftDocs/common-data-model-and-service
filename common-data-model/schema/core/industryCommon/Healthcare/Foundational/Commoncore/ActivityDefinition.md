@@ -4,7 +4,7 @@ description: This entity allows for the definition of some activity to be perfor
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

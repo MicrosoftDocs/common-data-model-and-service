@@ -4,7 +4,7 @@ description: A provider issued list of services and products provided, or to be 
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

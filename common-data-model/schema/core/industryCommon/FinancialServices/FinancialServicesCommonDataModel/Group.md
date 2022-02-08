@@ -4,7 +4,7 @@ description: An association of several customers allowing e.g. the representatio
 author: GithubUser
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

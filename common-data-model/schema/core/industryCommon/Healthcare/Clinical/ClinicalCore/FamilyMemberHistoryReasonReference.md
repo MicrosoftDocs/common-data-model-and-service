@@ -4,7 +4,7 @@ description: Indicates a Condition, Observation, Allergy Intolerance, or Questio
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

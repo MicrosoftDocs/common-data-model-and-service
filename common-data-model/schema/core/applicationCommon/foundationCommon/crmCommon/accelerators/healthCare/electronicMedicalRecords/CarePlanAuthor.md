@@ -4,7 +4,7 @@ description: Identifies the individual(s) or organization who is responsible for
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

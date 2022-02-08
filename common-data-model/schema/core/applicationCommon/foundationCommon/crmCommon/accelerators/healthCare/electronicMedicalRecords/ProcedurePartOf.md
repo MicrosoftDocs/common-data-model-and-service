@@ -4,7 +4,7 @@ description: A larger event of which this particular procedure is a component or
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

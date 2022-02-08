@@ -4,7 +4,7 @@ description: The time period and frequency at which the diet should be given. Th
 author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -4,7 +4,7 @@ description: healthCare is a folder that contains standard entities related to t
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference
 ms.date: 12/15/2020
 ms.author: weiluo
 ---

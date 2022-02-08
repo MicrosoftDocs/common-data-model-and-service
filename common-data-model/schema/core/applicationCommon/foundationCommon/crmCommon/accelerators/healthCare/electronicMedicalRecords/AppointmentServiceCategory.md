@@ -4,7 +4,7 @@ description: A broad categorization of the service that is to be performed durin
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

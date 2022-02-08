@@ -4,7 +4,7 @@ description: An action that is or was performed on a patient. This can be a phys
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

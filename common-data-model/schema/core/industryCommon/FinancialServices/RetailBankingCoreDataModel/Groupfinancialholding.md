@@ -4,7 +4,7 @@ description: Financial holdings associated with a Group, to be included in the g
 author: GithubUser
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

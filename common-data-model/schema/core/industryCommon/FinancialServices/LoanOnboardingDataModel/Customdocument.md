@@ -4,7 +4,7 @@ description: Any document that is requested by or accepted by the bank, e.g. for
 author: GithubUser
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

@@ -4,7 +4,7 @@ description: An area to which funds may be allocated, including a GL-relevant ac
 author: llawwaii
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---
