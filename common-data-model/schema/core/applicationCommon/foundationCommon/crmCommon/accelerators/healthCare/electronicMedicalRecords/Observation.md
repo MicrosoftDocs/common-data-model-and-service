@@ -2,7 +2,7 @@
 title: Observation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Measurements and simple assertions made about a patient, device or other subject.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

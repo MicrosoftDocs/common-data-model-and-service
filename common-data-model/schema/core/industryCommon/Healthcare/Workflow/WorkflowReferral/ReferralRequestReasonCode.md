@@ -2,7 +2,7 @@
 title: ReferralRequestReasonCode in WorkflowReferral - Common Data Model | Microsoft Docs
 description: Description of clinical condition indicating why referral/transfer of care is requested.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

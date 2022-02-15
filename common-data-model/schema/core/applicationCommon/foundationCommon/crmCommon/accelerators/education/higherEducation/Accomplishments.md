@@ -2,7 +2,7 @@
 title: Accomplishments in higherEducation - Common Data Model | Microsoft Docs
 description: This entity is used to store the accomplishments of a particular student
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: BookableResourceCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Categorize resources that have capacity into categories such as roles.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: Contact in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

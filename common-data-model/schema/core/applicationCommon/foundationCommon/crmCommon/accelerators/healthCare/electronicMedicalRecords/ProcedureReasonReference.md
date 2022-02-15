@@ -2,7 +2,7 @@
 title: ProcedureReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The condition that is the reason why the procedure was performed.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

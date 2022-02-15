@@ -2,7 +2,7 @@
 title: CarePlanActivityGoal in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Internal reference that identifies the goals that this activity is intended to contribute towards meeting.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

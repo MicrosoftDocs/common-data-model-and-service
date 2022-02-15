@@ -2,7 +2,7 @@
 title: Employment in Loan Onboarding Data Model - Common Data Model | Microsoft Docs
 description: Describes the loan contact's job or place of work, or work history.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

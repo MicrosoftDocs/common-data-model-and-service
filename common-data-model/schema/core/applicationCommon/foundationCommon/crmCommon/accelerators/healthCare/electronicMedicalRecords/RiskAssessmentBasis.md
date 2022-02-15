@@ -2,7 +2,7 @@
 title: RiskAssessmentBasis in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates the source data considered as part of the assessment (Family History, Observations, Procedures, Conditions, etc.).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

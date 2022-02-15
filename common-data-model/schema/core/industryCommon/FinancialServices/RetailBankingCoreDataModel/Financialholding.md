@@ -2,7 +2,7 @@
 title: FinancialHolding in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Accounts, loans, investments, credit lines and savings accounts held by a customer.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

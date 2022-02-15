@@ -2,7 +2,7 @@
 title: Fleet in automotive - Common Data Model | Microsoft Docs
 description: Collection of devices belonging to a specific customer or business operation, typically serving a specific purpose.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

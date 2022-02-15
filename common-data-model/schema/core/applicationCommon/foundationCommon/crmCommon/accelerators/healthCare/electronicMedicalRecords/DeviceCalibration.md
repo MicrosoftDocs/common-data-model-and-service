@@ -2,7 +2,7 @@
 title: DeviceCalibration in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes the calibrations that have been performed or that are required to be performed.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: NutritionOrderOralDietSchedule in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: The time period and frequency at which the diet should be given. The diet should be given for the combination of all schedules if more than one schedule is present.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

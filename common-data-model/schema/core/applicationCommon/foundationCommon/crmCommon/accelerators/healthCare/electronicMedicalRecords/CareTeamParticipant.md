@@ -2,7 +2,7 @@
 title: CareTeamParticipant in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies all people and organizations who are expected to be involved in the care team.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

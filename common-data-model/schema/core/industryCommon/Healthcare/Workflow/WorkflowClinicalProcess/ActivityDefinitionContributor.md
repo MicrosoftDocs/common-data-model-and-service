@@ -2,7 +2,7 @@
 title: ActivityDefinitionContributor in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: A contributor to the content of the asset, including authors, editors, reviewers, and endorsers.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: RequirementGroup in scheduling - Common Data Model | Microsoft Docs
 description: Service which has resource requirement offering periods
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

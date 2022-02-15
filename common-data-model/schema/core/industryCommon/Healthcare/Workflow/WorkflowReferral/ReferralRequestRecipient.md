@@ -2,7 +2,7 @@
 title: ReferralRequestRecipient in WorkflowReferral - Common Data Model | Microsoft Docs
 description: The healthcare provider(s) or provider organization(s) who/which is to receive the referral/transfer of care request.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

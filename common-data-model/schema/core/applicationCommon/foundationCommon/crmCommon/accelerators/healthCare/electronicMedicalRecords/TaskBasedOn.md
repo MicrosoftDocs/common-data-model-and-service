@@ -2,7 +2,7 @@
 title: TaskBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: BasedOn refers to a higher-level authorization that triggered the creation of the task. It references a "request" entity such as a ProcedureRequest, MedicationRequest, ProcedureRequest, CarePlan, etc
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

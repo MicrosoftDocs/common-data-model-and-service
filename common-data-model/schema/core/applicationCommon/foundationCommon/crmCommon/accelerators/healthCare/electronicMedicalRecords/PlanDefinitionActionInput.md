@@ -2,7 +2,7 @@
 title: PlanDefinitionActionInput in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Defines input data requirements for the action.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

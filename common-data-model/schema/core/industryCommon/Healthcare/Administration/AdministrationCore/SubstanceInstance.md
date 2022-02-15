@@ -2,7 +2,7 @@
 title: SubstanceInstance in AdministrationCore - Common Data Model | Microsoft Docs
 description: Substance may be used to describe a kind of substance, or a specific package/container of the substance&#58 an instance.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

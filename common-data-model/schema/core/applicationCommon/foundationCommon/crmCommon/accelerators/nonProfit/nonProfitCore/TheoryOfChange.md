@@ -2,7 +2,7 @@
 title: TheoryOfChange in nonProfitCore - Common Data Model | Microsoft Docs
 description: Theories of Change are hypotheses for achieving a desired social impact and are comprised of a sequence of cause-and-effect actions or occurrences.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

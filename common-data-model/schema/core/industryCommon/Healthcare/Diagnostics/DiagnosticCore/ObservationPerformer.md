@@ -2,7 +2,7 @@
 title: ObservationPerformer in DiagnosticCore - Common Data Model | Microsoft Docs
 description: Who was responsible for asserting the observed value as "true".
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

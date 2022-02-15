@@ -2,7 +2,7 @@
 title: TimeEntry in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used  for time entry.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

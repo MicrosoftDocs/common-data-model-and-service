@@ -2,7 +2,7 @@
 title: EndpointContact in AdministrationCore - Common Data Model | Microsoft Docs
 description: Contact details for a human to contact about the subscription. The primary use of this for system administrator troubleshooting.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

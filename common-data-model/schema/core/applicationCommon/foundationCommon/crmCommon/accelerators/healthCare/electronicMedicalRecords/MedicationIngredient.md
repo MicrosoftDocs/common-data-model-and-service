@@ -2,7 +2,7 @@
 title: MedicationIngredient in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies a particular constituent of interest in the product.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

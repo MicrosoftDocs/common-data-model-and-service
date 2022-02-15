@@ -2,7 +2,7 @@
 title: AppointmentEMRIndication in AdministrationAppointmentEMR - Common Data Model | Microsoft Docs
 description: Reason the appointment has been scheduled to take place, as specified using information from another entity. The indication will typically be a Condition or a Procedure
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

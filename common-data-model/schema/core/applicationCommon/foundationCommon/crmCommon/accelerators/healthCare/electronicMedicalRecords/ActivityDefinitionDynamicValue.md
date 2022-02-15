@@ -2,7 +2,7 @@
 title: ActivityDefinitionDynamicValue in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Dynamic values that will be evaluated to produce values for elements of the resulting entity.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

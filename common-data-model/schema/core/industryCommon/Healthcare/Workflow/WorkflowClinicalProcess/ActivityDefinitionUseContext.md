@@ -2,7 +2,7 @@
 title: ActivityDefinitionUseContext in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: The content was developed with a focus and intent of supporting the contexts that are listed. These terms may be used to assist with indexing and searching for appropriate activity definition instance
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

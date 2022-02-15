@@ -2,7 +2,7 @@
 title: overview of industryCommon - Common Data Model | Microsoft Docs
 description: industryCommon is a folder that contains standard industry-related solution entities available within the Common Data Model.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/19/2021

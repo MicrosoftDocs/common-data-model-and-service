@@ -2,7 +2,7 @@
 title: Blog in portals - Common Data Model | Microsoft Docs
 description: The root entity for a portal blog.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

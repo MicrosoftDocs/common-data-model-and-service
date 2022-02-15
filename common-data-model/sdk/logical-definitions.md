@@ -2,7 +2,7 @@
 title: The Common Data Model logical definitions | Microsoft Docs
 description: Logical definitions for Common Data Model.
 author: msftman
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 03/13/2020

@@ -2,7 +2,7 @@
 title: SpecimenParent in DiagnosticCore - Common Data Model | Microsoft Docs
 description: Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

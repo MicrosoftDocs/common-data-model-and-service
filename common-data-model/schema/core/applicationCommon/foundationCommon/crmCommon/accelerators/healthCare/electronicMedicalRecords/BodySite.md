@@ -2,7 +2,7 @@
 title: BodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Record details about the anatomical location of a specimen or body part. This entity may be used when a coded concept does not provide the necessary detail needed for the use case.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

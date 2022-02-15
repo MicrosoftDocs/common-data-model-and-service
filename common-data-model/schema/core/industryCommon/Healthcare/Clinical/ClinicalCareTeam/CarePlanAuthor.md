@@ -2,7 +2,7 @@
 title: CarePlanAuthor in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Identifies the individual(s) or organization who is responsible for the content of the care plan.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

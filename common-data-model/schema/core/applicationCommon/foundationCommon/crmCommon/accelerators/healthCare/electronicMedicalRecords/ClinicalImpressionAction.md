@@ -2,7 +2,7 @@
 title: ClinicalImpressionAction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Action taken as part of assessment procedure.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

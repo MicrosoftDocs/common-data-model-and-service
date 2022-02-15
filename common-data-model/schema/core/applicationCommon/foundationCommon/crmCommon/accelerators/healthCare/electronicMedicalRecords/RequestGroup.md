@@ -2,7 +2,7 @@
 title: RequestGroup in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A group of related requests that can be used to capture intended activities that have inter-dependencies such as "give this medication after that one".
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

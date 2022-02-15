@@ -2,7 +2,7 @@
 title: GrantApplicant in higherEducation - Common Data Model | Microsoft Docs
 description: This entity is used as an internship application form and to store the list of students who have applied to a particular internship.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

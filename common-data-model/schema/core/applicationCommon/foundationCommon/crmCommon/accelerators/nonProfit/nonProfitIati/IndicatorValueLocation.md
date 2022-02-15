@@ -2,7 +2,7 @@
 title: IndicatorValueLocation in nonProfitIati - Common Data Model | Microsoft Docs
 description: Indicates the location of the indicator value
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

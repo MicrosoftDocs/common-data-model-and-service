@@ -2,7 +2,7 @@
 title: Endpoint in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The technical details of an endpoint that can be used for electronic services.This may include any security context information.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

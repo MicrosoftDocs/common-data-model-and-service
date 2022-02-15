@@ -2,7 +2,7 @@
 title: MedicationImage in MedicationCore - Common Data Model | Microsoft Docs
 description: Photo(s) or graphic representation(s) of the medication.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: InvoiceProduct in sales - Common Data Model | Microsoft Docs
 description: Line item in an invoice containing detailed billing information for a product.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

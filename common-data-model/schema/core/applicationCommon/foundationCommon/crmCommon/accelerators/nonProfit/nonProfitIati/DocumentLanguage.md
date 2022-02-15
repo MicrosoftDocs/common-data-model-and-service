@@ -2,7 +2,7 @@
 title: DocumentLanguage in nonProfitIati - Common Data Model | Microsoft Docs
 description: The language in which target document is written.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

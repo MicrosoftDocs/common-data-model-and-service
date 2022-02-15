@@ -2,7 +2,7 @@
 title: RatingModel in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Represents a model to evaluate skills or other related entities.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

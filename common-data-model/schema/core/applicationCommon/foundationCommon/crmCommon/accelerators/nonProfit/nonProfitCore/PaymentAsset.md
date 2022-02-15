@@ -2,7 +2,7 @@
 title: PaymentAsset in nonProfitCore - Common Data Model | Microsoft Docs
 description: Payment Asset represents the assets associated with specific types of payments including, but not limited to, in-kind gifts, stocks and securities..
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

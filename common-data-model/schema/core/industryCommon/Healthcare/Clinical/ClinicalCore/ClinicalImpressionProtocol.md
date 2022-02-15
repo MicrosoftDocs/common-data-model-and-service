@@ -2,7 +2,7 @@
 title: ClinicalImpressionProtocol in ClinicalCore - Common Data Model | Microsoft Docs
 description: Reference to a specific published clinical protocol that was followed during this assessment, and/or that provides evidence in support of the diagnosis.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

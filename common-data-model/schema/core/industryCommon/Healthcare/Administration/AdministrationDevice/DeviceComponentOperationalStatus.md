@@ -2,7 +2,7 @@
 title: DeviceComponentOperationalStatus in AdministrationDevice - Common Data Model | Microsoft Docs
 description: The current operational status of the device. For example&#58 On, Off, Standby, etc.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

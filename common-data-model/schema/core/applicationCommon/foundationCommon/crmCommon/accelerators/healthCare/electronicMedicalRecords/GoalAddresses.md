@@ -2,7 +2,7 @@
 title: GoalAddresses in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The identified conditions and other health record elements that are intended to be addressed by the goal.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

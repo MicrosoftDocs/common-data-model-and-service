@@ -2,7 +2,7 @@
 title: Deal in automotive - Common Data Model | Microsoft Docs
 description: Business proposal for the sale of one or more vehicle or device, including optional trade-ins, add-ons and financial terms.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

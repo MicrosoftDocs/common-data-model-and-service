@@ -2,7 +2,7 @@
 title: EncounterClassHistory in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: The class history permits the tracking of the encounters transitions without needing to go through the entity history.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

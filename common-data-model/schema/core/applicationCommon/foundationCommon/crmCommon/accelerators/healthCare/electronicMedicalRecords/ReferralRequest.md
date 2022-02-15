@@ -2,7 +2,7 @@
 title: ReferralRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

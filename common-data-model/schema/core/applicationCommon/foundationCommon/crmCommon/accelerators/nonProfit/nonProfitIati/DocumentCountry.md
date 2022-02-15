@@ -2,7 +2,7 @@
 title: DocumentCountry in nonProfitIati - Common Data Model | Microsoft Docs
 description: The recipient country that is the focus of the document.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

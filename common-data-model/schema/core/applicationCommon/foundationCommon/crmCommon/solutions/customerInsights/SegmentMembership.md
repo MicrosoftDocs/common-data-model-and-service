@@ -2,7 +2,7 @@
 title: SegmentMembership in customerInsights - Common Data Model | Microsoft Docs
 description: Members participating in a given segment.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

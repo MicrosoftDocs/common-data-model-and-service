@@ -2,7 +2,7 @@
 title: ProjectTaskDependency in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Dependency data between tasks.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

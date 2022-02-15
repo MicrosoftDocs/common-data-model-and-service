@@ -2,7 +2,7 @@
 title: KnowledgeBaseRecord in applicationCommon - Common Data Model | Microsoft Docs
 description: Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

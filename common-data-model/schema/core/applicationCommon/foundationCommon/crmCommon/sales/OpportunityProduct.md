@@ -2,7 +2,7 @@
 title: OpportunityProduct in sales - Common Data Model | Microsoft Docs
 description: Association between an opportunity and a product.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

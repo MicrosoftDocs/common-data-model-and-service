@@ -2,7 +2,7 @@
 title: ConditionEvidence in ClinicalCore - Common Data Model | Microsoft Docs
 description: Supporting Evidence / manifestations that are the basis on which this condition is suspected or confirmed.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

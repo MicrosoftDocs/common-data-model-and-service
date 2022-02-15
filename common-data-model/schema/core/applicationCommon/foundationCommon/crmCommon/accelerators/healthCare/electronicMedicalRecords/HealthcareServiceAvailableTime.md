@@ -2,7 +2,7 @@
 title: HealthcareServiceAvailableTime in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A collection of times that the Service Site is available.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

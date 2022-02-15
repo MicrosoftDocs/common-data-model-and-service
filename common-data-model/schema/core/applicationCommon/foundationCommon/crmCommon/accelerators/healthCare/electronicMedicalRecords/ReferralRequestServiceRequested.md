@@ -2,7 +2,7 @@
 title: ReferralRequestServiceRequested in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The service(s) that is/are requested to be provided to the patient. For example&#58 cardiac pacemaker insertion.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

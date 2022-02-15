@@ -2,7 +2,7 @@
 title: Fax in applicationCommon - Common Data Model | Microsoft Docs
 description: Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: DeviceWarrantyLimit in automotive - Common Data Model | Microsoft Docs
 description: Limits of a specific warranty on a specific vehicle or device, such as maximum mileage or specific expiration date.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

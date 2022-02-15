@@ -2,7 +2,7 @@
 title: TestType in higherEducation - Common Data Model | Microsoft Docs
 description: Type of test taken by a Student Contact
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

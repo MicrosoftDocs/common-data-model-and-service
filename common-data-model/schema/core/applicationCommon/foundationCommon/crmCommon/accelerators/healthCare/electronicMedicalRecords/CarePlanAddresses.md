@@ -2,7 +2,7 @@
 title: CarePlanAddresses in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

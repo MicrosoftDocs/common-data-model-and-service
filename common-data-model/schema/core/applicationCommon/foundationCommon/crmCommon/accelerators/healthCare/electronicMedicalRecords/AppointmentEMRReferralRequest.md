@@ -2,7 +2,7 @@
 title: AppointmentEMRReferralRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The referral request this appointment is allocated to assess (incoming referral).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

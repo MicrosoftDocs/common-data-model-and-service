@@ -2,7 +2,7 @@
 title: DeliveryFrameworkDescription in nonProfitIati - Common Data Model | Microsoft Docs
 description: A longer, human-readable description containing a meaningful description of the delivery framework
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

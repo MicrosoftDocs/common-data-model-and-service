@@ -2,7 +2,7 @@
 title: CdmObject Type | Microsoft Docs
 description: API reference for CdmObjectType.
 author: miroslavplese
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019

@@ -2,7 +2,7 @@
 title: SlotServiceType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The type of appointments that can be booked into this slot. If provided then this overrides the value provided on the availability resource.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

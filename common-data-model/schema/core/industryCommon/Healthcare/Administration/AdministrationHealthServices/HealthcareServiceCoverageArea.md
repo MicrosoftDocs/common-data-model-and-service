@@ -2,7 +2,7 @@
 title: HealthcareServiceCoverageArea in AdministrationHealthServices - Common Data Model | Microsoft Docs
 description: The location(s) that this service is available to (not where the service is provided).
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

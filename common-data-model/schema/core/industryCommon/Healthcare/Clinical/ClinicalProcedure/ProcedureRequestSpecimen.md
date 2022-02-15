@@ -2,7 +2,7 @@
 title: ProcedureRequestSpecimen in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: One or more specimens that the laboratory procedure will use.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

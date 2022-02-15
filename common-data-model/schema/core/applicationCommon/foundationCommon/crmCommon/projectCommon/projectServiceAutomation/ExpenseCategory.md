@@ -2,7 +2,7 @@
 title: ExpenseCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Main container that holds expense category information.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

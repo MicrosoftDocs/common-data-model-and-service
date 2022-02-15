@@ -2,7 +2,7 @@
 title: Account in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Business that represents a customer or potential customer. The company that is billed in business transactions. Account in projectServiceAutomation.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

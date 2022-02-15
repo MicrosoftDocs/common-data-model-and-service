@@ -2,7 +2,7 @@
 title: PractitionerRole in Commoncore - Common Data Model | Microsoft Docs
 description: A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: PlanDefinitionTopic in WorkflowCore - Common Data Model | Microsoft Docs
 description: Descriptive topics related to the content of the plan definition. Topics provide a high-level categorization of the definition that can be useful for filtering and searching.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

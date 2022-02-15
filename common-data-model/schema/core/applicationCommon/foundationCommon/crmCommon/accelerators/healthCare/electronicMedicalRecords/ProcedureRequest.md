@@ -2,7 +2,7 @@
 title: ProcedureRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A record of a request for diagnostic investigations, treatments, or operations to be performed.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

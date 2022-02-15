@@ -2,7 +2,7 @@
 title: HealthcareServiceReferralMethod in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Ways that the service accepts referrals, if this is not provided then it is implied that no referral is required.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

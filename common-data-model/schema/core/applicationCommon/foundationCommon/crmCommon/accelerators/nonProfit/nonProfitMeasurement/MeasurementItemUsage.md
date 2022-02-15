@@ -2,7 +2,7 @@
 title: MeasurementItemUsage in nonProfitMeasurement - Common Data Model | Microsoft Docs
 description: Used to track where measurement items have been used.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

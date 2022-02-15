@@ -2,7 +2,7 @@
 title: Specimen in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A sample to be used for analysis.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: Grant in higherEducation - Common Data Model | Microsoft Docs
 description: This entity stores the list of grants offered to a school by all business partners
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

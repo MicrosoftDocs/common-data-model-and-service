@@ -2,7 +2,7 @@
 title: ObservationCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code that classifies the general type of observation being made.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

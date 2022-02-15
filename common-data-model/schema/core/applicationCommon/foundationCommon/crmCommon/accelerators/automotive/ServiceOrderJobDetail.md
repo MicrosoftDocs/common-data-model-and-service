@@ -2,7 +2,7 @@
 title: ServiceOrderJobDetail in automotive - Common Data Model | Microsoft Docs
 description: Record of time, material or other information relating to the execution of a given service order job.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: Operation Alter Traits | Microsoft Docs
 description: API reference for CdmOperationAlterTraits.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 09/03/2021

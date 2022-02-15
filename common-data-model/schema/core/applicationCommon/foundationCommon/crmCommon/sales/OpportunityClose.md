@@ -2,7 +2,7 @@
 title: OpportunityClose in sales - Common Data Model | Microsoft Docs
 description: Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

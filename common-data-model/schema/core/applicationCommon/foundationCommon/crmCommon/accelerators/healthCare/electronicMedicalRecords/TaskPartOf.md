@@ -2,7 +2,7 @@
 title: TaskPartOf in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Task that this particular task is part of.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

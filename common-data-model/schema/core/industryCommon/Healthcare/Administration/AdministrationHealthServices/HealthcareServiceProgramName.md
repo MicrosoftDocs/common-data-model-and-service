@@ -2,7 +2,7 @@
 title: HealthcareServiceProgramName in AdministrationHealthServices - Common Data Model | Microsoft Docs
 description: Program Names that can be used to categorize the service.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

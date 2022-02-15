@@ -2,7 +2,7 @@
 title: ProcedureRequestCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code that classifies the procedure for searching, sorting and display purposes (e.g. "Surgical Procedure").
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

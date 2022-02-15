@@ -2,7 +2,7 @@
 title: MedicationRequestDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Protocol or definition followed by this request.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

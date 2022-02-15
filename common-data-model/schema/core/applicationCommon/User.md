@@ -2,7 +2,7 @@
 title: User in applicationCommon - Common Data Model | Microsoft Docs
 description: Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

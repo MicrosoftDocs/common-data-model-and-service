@@ -2,7 +2,7 @@
 title: EncounterParticipantType in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: The participant type indicates how an individual participates in an encounter.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

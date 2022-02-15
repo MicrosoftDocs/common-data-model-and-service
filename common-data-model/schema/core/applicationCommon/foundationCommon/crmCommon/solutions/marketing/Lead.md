@@ -2,7 +2,7 @@
 title: Lead in marketing - Common Data Model | Microsoft Docs
 description: Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived. Lead in marketing.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

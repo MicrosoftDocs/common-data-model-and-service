@@ -2,7 +2,7 @@
 title: FamilyMemberHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Significant health events and conditions for a person related to the patient relevant in the context of care for the patient.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

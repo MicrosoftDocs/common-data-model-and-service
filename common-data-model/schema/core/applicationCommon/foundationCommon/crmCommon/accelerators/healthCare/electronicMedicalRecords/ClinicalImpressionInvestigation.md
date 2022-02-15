@@ -2,7 +2,7 @@
 title: ClinicalImpressionInvestigation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: One or more sets of investigations (signs, etc.). The actual grouping of investigations vary greatly depending on the type and context of the assessment.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

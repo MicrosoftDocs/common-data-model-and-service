@@ -2,7 +2,7 @@
 title: MedicationRequestDetectedIssue in MedicationCore - Common Data Model | Microsoft Docs
 description: Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, duplicate therapy, dosage alert etc.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

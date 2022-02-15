@@ -2,7 +2,7 @@
 title: ActivityDefinitionContact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Contact details to assist a user in finding and communicating with the publisher.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

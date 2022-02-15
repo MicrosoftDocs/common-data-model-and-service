@@ -2,7 +2,7 @@
 title: TaskRestrictionRecipient in WorkflowCore - Common Data Model | Microsoft Docs
 description: For requests that are targeted to more than on potential recipient/target, for whom is fulfillment sought.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

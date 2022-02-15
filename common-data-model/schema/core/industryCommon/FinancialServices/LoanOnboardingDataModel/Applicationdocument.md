@@ -2,7 +2,7 @@
 title: ApplicationDocument in Loan Onboarding Data Model - Common Data Model | Microsoft Docs
 description: Document filled out by a potential borrower to apply for a loan; provides financial and other information to the lender.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

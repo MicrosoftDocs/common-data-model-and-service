@@ -2,7 +2,7 @@
 title: ConditionBodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The anatomical location where this condition manifests itself.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

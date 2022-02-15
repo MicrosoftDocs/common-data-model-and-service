@@ -2,7 +2,7 @@
 title: LoanApplicationContact in Loan Onboarding Data Model - Common Data Model | Microsoft Docs
 description: The customer associated with the loan application.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

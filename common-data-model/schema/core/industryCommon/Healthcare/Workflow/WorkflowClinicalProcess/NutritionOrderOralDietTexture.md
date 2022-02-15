@@ -2,7 +2,7 @@
 title: NutritionOrderOralDietTexture in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: Class that describes any texture modifications required for the patient to safely consume various types of solid foods.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: GroupFinancialHolding in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Financial holdings associated with a Group, to be included in the group's total assets and liabilities.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

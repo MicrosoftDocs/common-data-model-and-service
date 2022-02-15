@@ -2,7 +2,7 @@
 title: Event in eventManagement - Common Data Model | Microsoft Docs
 description: Container to manage and plan marketing activities that take place at a specific venue or location.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

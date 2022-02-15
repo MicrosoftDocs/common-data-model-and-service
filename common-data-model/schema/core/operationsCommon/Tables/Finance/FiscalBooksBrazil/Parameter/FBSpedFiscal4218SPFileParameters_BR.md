@@ -2,7 +2,7 @@
 title: FBSpedFiscal4218SPFileParameters_BR in Parameter - Common Data Model | Microsoft Docs
 description: undefined
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

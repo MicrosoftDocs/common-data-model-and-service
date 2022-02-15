@@ -2,7 +2,7 @@
 title: IndicatorReference in nonProfitIati - Common Data Model | Microsoft Docs
 description: A standardised means of identifying the indicator from a code in a recognised vocabulary.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: ReferralRequestBasedOn in WorkflowReferral - Common Data Model | Microsoft Docs
 description: Indicates any plans, proposals or orders that this request is intended to satisfy - in whole or in part.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

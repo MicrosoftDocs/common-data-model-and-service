@@ -2,7 +2,7 @@
 title: ClaimResponseItemDetail in Financial - Common Data Model | Microsoft Docs
 description: The second tier service adjudications for submitted services.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

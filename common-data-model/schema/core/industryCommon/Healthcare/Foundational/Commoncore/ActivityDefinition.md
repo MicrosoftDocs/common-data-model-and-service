@@ -2,7 +2,7 @@
 title: ActivityDefinition in Commoncore - Common Data Model | Microsoft Docs
 description: This entity allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

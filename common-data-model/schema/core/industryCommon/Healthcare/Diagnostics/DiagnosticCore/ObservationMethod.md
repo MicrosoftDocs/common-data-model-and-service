@@ -2,7 +2,7 @@
 title: ObservationMethod in DiagnosticCore - Common Data Model | Microsoft Docs
 description: Indicates the mechanism used to perform the observation.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021
