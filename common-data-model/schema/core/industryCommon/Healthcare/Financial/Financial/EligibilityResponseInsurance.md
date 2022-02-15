@@ -2,7 +2,7 @@
 title: EligibilityResponseInsurance in Financial - Common Data Model | Microsoft Docs
 description: The insurer may provide both the details for the requested coverage as well as details for additional coverages known to the insurer.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: ObservationRelatedResource in DiagnosticCore - Common Data Model | Microsoft Docs
 description: A reference to another entity(usually another Observation) whose relationship is defined by the relationship type code.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

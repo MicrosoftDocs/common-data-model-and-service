@@ -2,7 +2,7 @@
 title: CareTeamReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Condition(s) that this care team addresses.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

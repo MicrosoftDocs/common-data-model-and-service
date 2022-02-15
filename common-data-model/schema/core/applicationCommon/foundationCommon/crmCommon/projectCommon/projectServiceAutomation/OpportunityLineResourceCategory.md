@@ -2,7 +2,7 @@
 title: OpportunityLineResourceCategory in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of roles that will be considered as costs when understanding the profit of an opportunity line (Deprecated in v3.0)
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

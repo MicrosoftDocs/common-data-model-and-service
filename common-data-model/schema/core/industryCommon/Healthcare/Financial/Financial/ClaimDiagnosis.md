@@ -2,7 +2,7 @@
 title: ClaimDiagnosis in Financial - Common Data Model | Microsoft Docs
 description: List of patient diagnosis for which care is sought.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

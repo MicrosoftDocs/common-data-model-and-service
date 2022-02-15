@@ -2,7 +2,7 @@
 title: TestDrive in automotive - Common Data Model | Microsoft Docs
 description: The physical experience a customer or prospect has of a vehicle or device prior to a possible purchase of same or similar one.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

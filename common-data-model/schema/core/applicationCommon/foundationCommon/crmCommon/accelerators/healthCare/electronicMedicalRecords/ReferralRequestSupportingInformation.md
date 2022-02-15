@@ -2,7 +2,7 @@
 title: ReferralRequestSupportingInformation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Any additional (administrative, financial or clinical) information required to support request for referral or transfer of care.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

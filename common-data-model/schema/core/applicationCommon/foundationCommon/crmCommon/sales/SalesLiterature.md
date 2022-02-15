@@ -2,7 +2,7 @@
 title: SalesLiterature in sales - Common Data Model | Microsoft Docs
 description: Storage of sales literature, which may contain one or more documents.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

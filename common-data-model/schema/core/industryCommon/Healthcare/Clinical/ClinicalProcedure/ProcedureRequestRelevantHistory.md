@@ -2,7 +2,7 @@
 title: ProcedureRequestRelevantHistory in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Key events in the history of the request.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

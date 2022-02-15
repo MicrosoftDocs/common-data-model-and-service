@@ -2,7 +2,7 @@
 title: Operation Add Attribute Group Usage Guide | Microsoft Docs
 description: Usage guide for the Add Attribute Group operation.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 02/24/2021

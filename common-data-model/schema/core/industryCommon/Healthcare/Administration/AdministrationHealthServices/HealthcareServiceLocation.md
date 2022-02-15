@@ -2,7 +2,7 @@
 title: HealthcareServiceLocation in AdministrationHealthServices - Common Data Model | Microsoft Docs
 description: The location(s) where this healthcare service may be provided.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: DeviceSafety in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Provides additional safety characteristics about a medical device. For example devices containing latex.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

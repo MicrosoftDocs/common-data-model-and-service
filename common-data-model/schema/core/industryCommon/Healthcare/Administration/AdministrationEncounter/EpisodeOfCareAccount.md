@@ -2,7 +2,7 @@
 title: EpisodeOfCareAccount in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: The set of accounts that may be used for billing for this Episode Of Care.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

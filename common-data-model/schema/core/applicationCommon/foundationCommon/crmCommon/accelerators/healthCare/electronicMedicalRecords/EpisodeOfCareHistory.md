@@ -2,7 +2,7 @@
 title: EpisodeOfCareHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The history of statuses that the Episode Of Care has been through (without requiring processing the history of the resource).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

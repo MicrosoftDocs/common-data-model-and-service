@@ -2,7 +2,7 @@
 title: DealFile in automotive - Common Data Model | Microsoft Docs
 description: Container for deals relating to a given opportunity.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

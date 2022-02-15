@@ -2,7 +2,7 @@
 title: DeviceMeasure in automotive - Common Data Model | Microsoft Docs
 description: Specific measurable quantity related to a vehicle or device that is used to track usage over time, such as miles driven, engine hours or time since purchase.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

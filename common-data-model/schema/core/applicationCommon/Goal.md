@@ -2,7 +2,7 @@
 title: Goal in applicationCommon - Common Data Model | Microsoft Docs
 description: Target objective for a user or a team for a specified time period.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

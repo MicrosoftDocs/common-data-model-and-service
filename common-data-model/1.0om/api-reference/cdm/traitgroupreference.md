@@ -2,7 +2,7 @@
 title: Trait Group Reference | Microsoft Docs
 description: API reference for CdmTraitGroupReference.
 author: miroslavplese
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 04/17/2021

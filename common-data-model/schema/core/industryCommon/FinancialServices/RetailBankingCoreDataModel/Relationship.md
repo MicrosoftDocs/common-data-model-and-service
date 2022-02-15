@@ -2,7 +2,7 @@
 title: Relationship in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Denotes an association between one contact to another (not as part of the larger group) where there is not necessarily a direct association of finances. For example, a spouse, lawyer, child or grandparent.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

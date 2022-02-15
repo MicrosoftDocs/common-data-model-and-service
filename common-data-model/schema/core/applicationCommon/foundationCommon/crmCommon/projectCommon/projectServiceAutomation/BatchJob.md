@@ -2,7 +2,7 @@
 title: BatchJob in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Placeholder for workflows used for machine learning scenarios.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

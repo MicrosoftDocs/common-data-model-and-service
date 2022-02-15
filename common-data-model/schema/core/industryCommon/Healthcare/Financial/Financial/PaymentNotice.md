@@ -2,7 +2,7 @@
 title: PaymentNotice in Financial - Common Data Model | Microsoft Docs
 description: undefined
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

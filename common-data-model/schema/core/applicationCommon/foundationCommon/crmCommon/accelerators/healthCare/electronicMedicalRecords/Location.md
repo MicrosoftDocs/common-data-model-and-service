@@ -2,7 +2,7 @@
 title: Location in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

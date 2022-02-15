@@ -2,7 +2,7 @@
 title: PlanDefinitionActionTriggerDefinition in WorkflowCore - Common Data Model | Microsoft Docs
 description: A description of when the action should be triggered.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: LinkedInLeadGenForm in LinkedInLeads - Common Data Model | Microsoft Docs
 description: Form shown to prospects on LinkedIn
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: Overview of Microsoft Cloud for Financial Services entities - Common Data Model | Microsoft Docs
 description: Financial Services is a folder that contains standard entities related to the Common Data Model.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

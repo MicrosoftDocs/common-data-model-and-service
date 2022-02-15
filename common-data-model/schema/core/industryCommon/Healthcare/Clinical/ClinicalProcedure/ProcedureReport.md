@@ -2,7 +2,7 @@
 title: ProcedureReport in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Procedure report could represent histology result, pathology report, surgical report, etc.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

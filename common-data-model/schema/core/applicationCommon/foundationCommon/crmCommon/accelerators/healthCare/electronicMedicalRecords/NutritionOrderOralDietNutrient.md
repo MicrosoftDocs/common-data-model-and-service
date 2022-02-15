@@ -2,7 +2,7 @@
 title: NutritionOrderOralDietNutrient in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Class that defines the quantity and type of nutrient modifications (for example carbohydrate, fiber or sodium) required for the oral diet.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

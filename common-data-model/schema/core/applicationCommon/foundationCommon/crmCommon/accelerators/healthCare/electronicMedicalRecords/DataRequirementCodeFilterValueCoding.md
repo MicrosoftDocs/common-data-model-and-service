@@ -2,7 +2,7 @@
 title: DataRequirementCodeFilterValueCoding in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The Coding for the code filter.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

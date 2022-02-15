@@ -2,7 +2,7 @@
 title: CommunicationRequestRecipient in AdministrationCommunication - Common Data Model | Microsoft Docs
 description: The entity (e.g. person, organization, clinical information system, device, group, or care team) which is the intended target of the communication.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

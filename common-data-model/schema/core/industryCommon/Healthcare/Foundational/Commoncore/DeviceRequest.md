@@ -2,7 +2,7 @@
 title: DeviceRequest in Commoncore - Common Data Model | Microsoft Docs
 description: Represents a request for a patient to employ a medical device. The device may be an implantable device, or an external assistive device, such as a walker.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

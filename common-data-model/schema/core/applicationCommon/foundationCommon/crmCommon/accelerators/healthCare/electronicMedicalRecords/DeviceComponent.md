@@ -2,7 +2,7 @@
 title: DeviceComponent in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The characteristics, operational status and capabilities of a medical-related component of a medical device.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

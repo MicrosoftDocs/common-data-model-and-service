@@ -2,7 +2,7 @@
 title: DesignatedCredit in nonProfitCore - Common Data Model | Microsoft Docs
 description: A segment of a donation payment or in-kind gift that indicates the partial amount that is hard- or soft-credited to a Customer and allocated to one Designation.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

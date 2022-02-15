@@ -2,7 +2,7 @@
 title: PractitionerRoleLocation in AdministrationCore - Common Data Model | Microsoft Docs
 description: The location(s) at which this practitioner provides care.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

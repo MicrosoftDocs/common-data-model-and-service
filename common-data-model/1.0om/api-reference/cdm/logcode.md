@@ -2,7 +2,7 @@
 title: Common Data Model Error and Warning Codes | Microsoft Docs
 description: Errors/Warnings for CDM SDK.
 author: supawa
-ms.service: common-data-model
+
 ms.topic: article
 ms.date: 07/28/2021
 ms.author: supawa

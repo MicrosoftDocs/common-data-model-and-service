@@ -2,7 +2,7 @@
 title: ClinicalImpression in ClinicalCore - Common Data Model | Microsoft Docs
 description: A record of a clinical assessment performed to determine what problem(s) may affect the patient and before planning the treatments or management strategies that are best to manage a patient condition
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

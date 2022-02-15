@@ -2,7 +2,7 @@
 title: SpecimenContainer in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The container holding the specimen. The recursive nature of containers; i.e. blood in tube in tray in rack is not addressed here.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

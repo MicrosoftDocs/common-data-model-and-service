@@ -2,7 +2,7 @@
 title: TimingDayOfWeek in Commoncore - Common Data Model | Microsoft Docs
 description: If one or more days of week is provided, then the action happens only on the specified day(s).
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

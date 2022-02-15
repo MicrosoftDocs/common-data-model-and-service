@@ -2,7 +2,7 @@
 title: LocationTelecom in Commoncore - Common Data Model | Microsoft Docs
 description: The contact details of communication devices available at the location. This can include phone numbers, fax numbers, mobile numbers, email addresses and web sites.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

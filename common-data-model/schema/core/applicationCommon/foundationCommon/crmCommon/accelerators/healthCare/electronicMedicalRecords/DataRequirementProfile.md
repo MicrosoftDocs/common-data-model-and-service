@@ -2,7 +2,7 @@
 title: DataRequirementProfile in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: If specified, this indicates a profile that the input data must conform to, or that the output data will conform to.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

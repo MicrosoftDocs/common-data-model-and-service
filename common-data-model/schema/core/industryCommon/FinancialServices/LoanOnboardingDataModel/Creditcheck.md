@@ -2,7 +2,7 @@
 title: CreditCheck in Loan Onboarding Data Model - Common Data Model | Microsoft Docs
 description: A process of checking the customer's financial history and financial behavior.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

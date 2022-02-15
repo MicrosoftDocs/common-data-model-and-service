@@ -2,7 +2,7 @@
 title: ProcedureRequestCategory in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: A code that classifies the procedure for searching, sorting and display purposes (e.g. "Surgical Procedure").
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

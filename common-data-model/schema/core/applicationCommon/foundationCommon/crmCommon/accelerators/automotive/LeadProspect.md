@@ -2,7 +2,7 @@
 title: LeadProspect in automotive - Common Data Model | Microsoft Docs
 description: Contact associated with a given lead.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

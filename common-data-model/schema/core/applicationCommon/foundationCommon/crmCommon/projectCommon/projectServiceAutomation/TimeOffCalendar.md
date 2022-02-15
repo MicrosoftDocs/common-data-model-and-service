@@ -2,7 +2,7 @@
 title: TimeOffCalendar in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Relationship table for time off calendar entries.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

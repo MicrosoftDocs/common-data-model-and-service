@@ -2,7 +2,7 @@
 title: Address in applicationCommon - Common Data Model | Microsoft Docs
 description: Address and shipping information. Used to store additional addresses for an account or contact.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

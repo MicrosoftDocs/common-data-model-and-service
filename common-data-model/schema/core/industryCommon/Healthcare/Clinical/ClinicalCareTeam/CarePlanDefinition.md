@@ -2,7 +2,7 @@
 title: CarePlanDefinition in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Identifies the protocol, questionnaire, guideline or other specification the care plan should be conducted in accordance with.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

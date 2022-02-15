@@ -2,7 +2,7 @@
 title: CodeableConcept in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A Codeable Concept represents a value that is usually supplied by providing a reference to one or more terminologies, but may also be defined by the provision of text.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

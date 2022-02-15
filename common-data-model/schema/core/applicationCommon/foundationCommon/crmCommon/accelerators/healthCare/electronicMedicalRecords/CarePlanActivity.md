@@ -2,7 +2,7 @@
 title: CarePlanActivity in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies a planned action to occur as part of the plan. For example, a medication to be used, lab tests to perform, self-monitoring, education, etc.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

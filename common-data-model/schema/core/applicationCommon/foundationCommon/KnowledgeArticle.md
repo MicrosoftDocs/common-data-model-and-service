@@ -2,7 +2,7 @@
 title: KnowledgeArticle in foundationCommon - Common Data Model | Microsoft Docs
 description: Organizational knowledge for internal and external use.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

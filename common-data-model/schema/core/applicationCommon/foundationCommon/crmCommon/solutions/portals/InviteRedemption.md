@@ -2,7 +2,7 @@
 title: InviteRedemption in portals - Common Data Model | Microsoft Docs
 description: Holds information about the redemption of an invite.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

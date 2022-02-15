@@ -2,7 +2,7 @@
 title: NutritionOrderFoodPreferenceModifier in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: This modifier is used to convey order-specific modifiers about the type of food that should be given. These can be derived from patient allergies, intolerance, or preferences.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

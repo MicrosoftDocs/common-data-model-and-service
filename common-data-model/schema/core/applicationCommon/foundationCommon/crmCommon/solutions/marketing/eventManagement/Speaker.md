@@ -2,7 +2,7 @@
 title: Speaker in eventManagement - Common Data Model | Microsoft Docs
 description: Speaker bios of individuals speaking at an event
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: PlanDefinitionGoal in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Goals that describe what the activities within the plan are intended to achieve.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

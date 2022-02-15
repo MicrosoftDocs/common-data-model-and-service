@@ -2,7 +2,7 @@
 title: Award in nonProfitIati - Common Data Model | Microsoft Docs
 description: An Award represents the total amount of funding that has been agreed to be awarded to an individual or institution.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

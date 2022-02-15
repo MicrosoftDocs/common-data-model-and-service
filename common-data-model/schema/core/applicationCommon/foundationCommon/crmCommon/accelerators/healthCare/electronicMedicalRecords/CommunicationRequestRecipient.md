@@ -2,7 +2,7 @@
 title: CommunicationRequestRecipient in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The entity (e.g. person, organization, clinical information system, device, group, or care team) which is the intended target of the communication.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

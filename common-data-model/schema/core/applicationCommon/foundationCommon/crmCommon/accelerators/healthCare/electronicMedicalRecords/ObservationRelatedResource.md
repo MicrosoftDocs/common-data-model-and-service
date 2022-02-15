@@ -2,7 +2,7 @@
 title: ObservationRelatedResource in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A reference to another entity(usually another Observation) whose relationship is defined by the relationship type code.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

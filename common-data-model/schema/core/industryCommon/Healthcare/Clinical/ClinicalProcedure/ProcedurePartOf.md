@@ -2,7 +2,7 @@
 title: ProcedurePartOf in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: A larger event of which this particular procedure is a component or step.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

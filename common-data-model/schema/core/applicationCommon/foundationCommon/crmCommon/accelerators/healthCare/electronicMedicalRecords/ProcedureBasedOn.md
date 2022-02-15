@@ -2,7 +2,7 @@
 title: ProcedureBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A reference to a resource that contains details of the request for this procedure.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

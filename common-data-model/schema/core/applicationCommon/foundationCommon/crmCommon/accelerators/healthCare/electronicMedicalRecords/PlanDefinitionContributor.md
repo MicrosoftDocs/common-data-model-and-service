@@ -2,7 +2,7 @@
 title: PlanDefinitionContributor in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A contributor to the content of the asset, including authors, editors, reviewers, and endorsers.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

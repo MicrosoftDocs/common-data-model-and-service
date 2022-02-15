@@ -2,7 +2,7 @@
 title: ProcedureUsedReference in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Identifies medications, devices and any other substance used as part of the procedure.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

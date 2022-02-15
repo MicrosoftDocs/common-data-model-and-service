@@ -2,7 +2,7 @@
 title: TradeIn in automotive - Common Data Model | Microsoft Docs
 description: Vehicle or device that a customer wants to use as part of payment buying another one (new or used).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

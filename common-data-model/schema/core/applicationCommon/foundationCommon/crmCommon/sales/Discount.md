@@ -2,7 +2,7 @@
 title: Discount in sales - Common Data Model | Microsoft Docs
 description: Price reduction made from the list price of a product or service based on the quantity purchased.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

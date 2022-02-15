@@ -2,7 +2,7 @@
 title: Timing in Commoncore - Common Data Model | Microsoft Docs
 description: Specifies an event that may occur multiple times. Timing schedules are used to record when things are planned, expected or requested to occur.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

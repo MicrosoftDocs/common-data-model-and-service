@@ -2,7 +2,7 @@
 title: LifeEvent in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Significant milestones in a customer's personal life which can impact their financial situation, such as attending college, marriage, having a child, retirement, etc.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/30/2021

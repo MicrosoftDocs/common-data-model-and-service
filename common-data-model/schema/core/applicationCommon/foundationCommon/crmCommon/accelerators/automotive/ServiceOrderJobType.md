@@ -2,7 +2,7 @@
 title: ServiceOrderJobType in automotive - Common Data Model | Microsoft Docs
 description: Type of service job that is performed frequently and should follow a standard procedure.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: Identifier in nonProfitIati - Common Data Model | Microsoft Docs
 description: An IATI's globally unique identifier for the delivery framework
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

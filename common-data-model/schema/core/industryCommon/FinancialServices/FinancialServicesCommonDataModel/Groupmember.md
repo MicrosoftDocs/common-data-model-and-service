@@ -2,7 +2,7 @@
 title: GroupMember in Financial Services Common Data Model - Common Data Model | Microsoft Docs
 description: An association between a customer and a Group.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

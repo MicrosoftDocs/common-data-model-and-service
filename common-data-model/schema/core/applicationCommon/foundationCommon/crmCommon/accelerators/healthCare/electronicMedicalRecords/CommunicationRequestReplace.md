@@ -2,7 +2,7 @@
 title: CommunicationRequestReplace in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Completed or terminated request(s) whose function is taken by this new request.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

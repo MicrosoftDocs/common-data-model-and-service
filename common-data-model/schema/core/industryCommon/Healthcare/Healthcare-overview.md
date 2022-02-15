@@ -2,7 +2,7 @@
 title: Overview of Microsoft Cloud for Healthcare entities - Common Data Model | Microsoft Docs
 description: Healthcare is a folder that contains standard entities related to  Microsoft Cloud for Healthcare entities which are defined using Common Data Model.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

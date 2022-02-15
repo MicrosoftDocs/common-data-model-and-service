@@ -2,7 +2,7 @@
 title: TimeGroupDetail in scheduling - Common Data Model | Microsoft Docs
 description: Specify individual time windows under a time group.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

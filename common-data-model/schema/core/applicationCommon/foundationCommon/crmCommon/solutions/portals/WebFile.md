@@ -2,7 +2,7 @@
 title: WebFile in portals - Common Data Model | Microsoft Docs
 description: Storage of files used in the web Portals.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

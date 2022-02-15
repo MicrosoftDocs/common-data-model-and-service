@@ -2,7 +2,7 @@
 title: PlanDefinitionTopic in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Descriptive topics related to the content of the plan definition. Topics provide a high-level categorization of the definition that can be useful for filtering and searching.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

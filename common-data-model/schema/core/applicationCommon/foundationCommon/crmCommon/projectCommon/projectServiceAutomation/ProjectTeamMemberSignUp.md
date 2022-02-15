@@ -2,7 +2,7 @@
 title: ProjectTeamMemberSignUp in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used to capture all resources that have applied for open position on projects.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

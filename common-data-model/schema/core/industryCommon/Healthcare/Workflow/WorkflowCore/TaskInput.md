@@ -2,7 +2,7 @@
 title: TaskInput in WorkflowCore - Common Data Model | Microsoft Docs
 description: Additional information that may be needed in the execution of the task.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

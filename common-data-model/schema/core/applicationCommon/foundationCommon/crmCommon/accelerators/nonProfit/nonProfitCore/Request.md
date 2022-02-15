@@ -2,7 +2,7 @@
 title: Request in nonProfitCore - Common Data Model | Microsoft Docs
 description: Requests represent a request from an individual or institution for funding or support. A request is more formal than an inquiry (LOI) and typically happens after an inquiry has already occurred.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

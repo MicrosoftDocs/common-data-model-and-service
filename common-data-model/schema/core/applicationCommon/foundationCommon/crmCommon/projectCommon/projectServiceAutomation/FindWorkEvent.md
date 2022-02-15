@@ -2,7 +2,7 @@
 title: FindWorkEvent in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity used for counting the number of times resources apply for open positions and other behavioral attributes of resources.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

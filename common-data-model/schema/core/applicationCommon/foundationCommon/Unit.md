@@ -2,7 +2,7 @@
 title: Unit in foundationCommon - Common Data Model | Microsoft Docs
 description: Unit of measure.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

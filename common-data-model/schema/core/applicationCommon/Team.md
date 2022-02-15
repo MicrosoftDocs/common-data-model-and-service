@@ -2,7 +2,7 @@
 title: Team in applicationCommon - Common Data Model | Microsoft Docs
 description: Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

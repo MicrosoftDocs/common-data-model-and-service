@@ -2,7 +2,7 @@
 title: TimingEvent in Commoncore - Common Data Model | Microsoft Docs
 description: Identifies specific times when the event occurs.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: ClaimInformation in Financial - Common Data Model | Microsoft Docs
 description: Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues. Often there are mutiple jurisdiction specific valuesets which are requi
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: ProcedureRequestBodySite in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Anatomic location where the procedure should be performed. This is the target site.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

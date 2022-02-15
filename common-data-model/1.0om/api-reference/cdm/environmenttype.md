@@ -2,7 +2,7 @@
 title: Environment Type | Microsoft Docs
 description: API reference for EnvironmentType.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 07/15/2021

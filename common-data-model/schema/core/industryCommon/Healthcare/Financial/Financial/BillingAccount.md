@@ -2,7 +2,7 @@
 title: BillingAccount in Financial - Common Data Model | Microsoft Docs
 description: A financial tool for tracking value accrued for a particular purpose. In the healthcare field, used to track charges for a patient, cost centers, etc.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

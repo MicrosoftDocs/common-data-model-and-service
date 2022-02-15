@@ -2,7 +2,7 @@
 title: ObservationComponentReferenceRange in DiagnosticCore - Common Data Model | Microsoft Docs
 description: Guidance on how to interpret the value by comparison to a normal or recommended range.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

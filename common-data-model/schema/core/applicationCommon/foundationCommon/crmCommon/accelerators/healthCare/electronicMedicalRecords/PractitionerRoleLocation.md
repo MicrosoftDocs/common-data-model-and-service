@@ -2,7 +2,7 @@
 title: PractitionerRoleLocation in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The location(s) at which this practitioner provides care.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

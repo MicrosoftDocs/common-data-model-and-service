@@ -2,7 +2,7 @@
 title: Timing in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Specifies an event that may occur multiple times. Timing schedules are used to record when things are planned, expected or requested to occur.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

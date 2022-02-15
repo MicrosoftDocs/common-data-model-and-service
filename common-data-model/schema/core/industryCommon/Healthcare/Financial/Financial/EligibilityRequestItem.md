@@ -2,7 +2,7 @@
 title: EligibilityRequestItem in Financial - Common Data Model | Microsoft Docs
 description: Eligibility request item.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

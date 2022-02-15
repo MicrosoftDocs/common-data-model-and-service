@@ -2,7 +2,7 @@
 title: MedicationPackageContent in MedicationCore - Common Data Model | Microsoft Docs
 description: A set of components that go to make up the described item.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

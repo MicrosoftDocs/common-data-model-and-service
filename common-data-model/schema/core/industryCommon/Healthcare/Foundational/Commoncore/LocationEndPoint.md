@@ -2,7 +2,7 @@
 title: LocationEndPoint in Commoncore - Common Data Model | Microsoft Docs
 description: Technical endpoints providing access to services operated for the location.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

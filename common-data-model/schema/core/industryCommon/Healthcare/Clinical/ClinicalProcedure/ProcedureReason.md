@@ -2,7 +2,7 @@
 title: ProcedureReason in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: The coded reason why the procedure was performed. This may be coded entity of some type, or may simply be present as text.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

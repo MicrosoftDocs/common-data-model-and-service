@@ -2,7 +2,7 @@
 title: Condition in nonProfitIati - Common Data Model | Microsoft Docs
 description: Specific terms and conditions attached to the Delivery Framework that, if not met, may influence the delivery of commitments made by participating organizations.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

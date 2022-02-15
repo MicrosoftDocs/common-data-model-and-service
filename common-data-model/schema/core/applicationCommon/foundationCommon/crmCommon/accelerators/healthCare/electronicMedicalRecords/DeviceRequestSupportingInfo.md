@@ -2,7 +2,7 @@
 title: DeviceRequestSupportingInfo in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Additional clinical information about the patient that may influence the request fulfillment. For example, this may includes body where on the subject's the device will be used.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

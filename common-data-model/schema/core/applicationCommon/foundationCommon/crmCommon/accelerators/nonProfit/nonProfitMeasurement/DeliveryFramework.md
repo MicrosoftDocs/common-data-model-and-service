@@ -2,7 +2,7 @@
 title: DeliveryFramework in nonProfitMeasurement - Common Data Model | Microsoft Docs
 description: Delivery Framework represents a management unit of work defined by the organization or entity doing the work. In IATI, the Delivery Framework is an "Activity."
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

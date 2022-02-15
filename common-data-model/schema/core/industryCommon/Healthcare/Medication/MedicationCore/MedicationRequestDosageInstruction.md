@@ -2,7 +2,7 @@
 title: MedicationRequestDosageInstruction in MedicationCore - Common Data Model | Microsoft Docs
 description: Indicates how the medication is to be used by the patient.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

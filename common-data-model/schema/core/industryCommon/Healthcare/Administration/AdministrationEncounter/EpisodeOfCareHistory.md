@@ -2,7 +2,7 @@
 title: EpisodeOfCareHistory in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: The history of statuses that the Episode Of Care has been through (without requiring processing the history of the resource).
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

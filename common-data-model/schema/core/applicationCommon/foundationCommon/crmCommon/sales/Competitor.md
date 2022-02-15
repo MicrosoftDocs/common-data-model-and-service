@@ -2,7 +2,7 @@
 title: Competitor in sales - Common Data Model | Microsoft Docs
 description: Business competing for the sale represented by a lead or opportunity.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

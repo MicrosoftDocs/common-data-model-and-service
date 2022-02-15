@@ -2,7 +2,7 @@
 title: ContactLink in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Link to another patient entity that concerns the same actual patient.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

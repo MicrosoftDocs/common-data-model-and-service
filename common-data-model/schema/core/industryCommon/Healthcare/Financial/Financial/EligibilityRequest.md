@@ -2,7 +2,7 @@
 title: EligibilityRequest in Financial - Common Data Model | Microsoft Docs
 description: The EligibilityRequest provides patient and insurance coverage information to an insurer for them to respond, in the form of an EligibilityResponse, with information regarding whether the stated cover
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

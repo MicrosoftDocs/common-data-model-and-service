@@ -2,7 +2,7 @@
 title: ProjectTaskStatusUser in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: User status for project tasks (Deprecated in v3.0).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

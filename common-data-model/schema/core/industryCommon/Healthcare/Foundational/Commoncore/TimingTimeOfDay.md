@@ -2,7 +2,7 @@
 title: TimingTimeOfDay in Commoncore - Common Data Model | Microsoft Docs
 description: Specified time of day for action to take place.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

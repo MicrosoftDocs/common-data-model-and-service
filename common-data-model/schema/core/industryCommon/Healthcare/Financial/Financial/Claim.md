@@ -2,7 +2,7 @@
 title: Claim in Financial - Common Data Model | Microsoft Docs
 description: A provider issued list of services and products provided, or to be provided, to a patient which is provided to an insurer for payment recovery.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021
