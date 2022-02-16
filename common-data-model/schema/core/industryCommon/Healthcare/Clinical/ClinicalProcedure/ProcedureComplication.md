@@ -2,7 +2,7 @@
 title: ProcedureComplication in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Any complications that occurred during the procedure, or in the immediate post-performance period.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

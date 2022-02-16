@@ -2,7 +2,7 @@
 title: PlanDefinitionActionInput in WorkflowCore - Common Data Model | Microsoft Docs
 description: Defines input data requirements for the action.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

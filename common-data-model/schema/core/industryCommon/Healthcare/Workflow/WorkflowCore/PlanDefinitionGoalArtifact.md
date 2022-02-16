@@ -2,7 +2,7 @@
 title: PlanDefinitionGoalArtifact in WorkflowCore - Common Data Model | Microsoft Docs
 description: Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

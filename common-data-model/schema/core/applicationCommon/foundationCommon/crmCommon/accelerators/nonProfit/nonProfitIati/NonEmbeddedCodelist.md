@@ -2,7 +2,7 @@
 title: NonEmbeddedCodelist in nonProfitIati - Common Data Model | Microsoft Docs
 description: Non-functional codelists that usually provide lookup information on e.g. currencies, languages in use, countries, etc.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

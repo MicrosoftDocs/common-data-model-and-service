@@ -2,7 +2,7 @@
 title: DeviceMeasurement in automotive - Common Data Model | Microsoft Docs
 description: Record of usage measurements for a given vehicle or device over time.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

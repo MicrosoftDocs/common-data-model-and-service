@@ -2,7 +2,7 @@
 title: ProjectTask in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Tasks related to project.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

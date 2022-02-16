@@ -2,7 +2,7 @@
 title: FICard in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: A payment card issued by a bank to an account holder enabling the account holder to make payments or purchases, paying back the balance to the issuing bank, plus interest.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

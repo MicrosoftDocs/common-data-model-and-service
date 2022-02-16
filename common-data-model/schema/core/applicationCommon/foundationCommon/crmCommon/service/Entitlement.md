@@ -2,7 +2,7 @@
 title: Entitlement in service - Common Data Model | Microsoft Docs
 description: Defines the amount and type of support a customer should receive.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

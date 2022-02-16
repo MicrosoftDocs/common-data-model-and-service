@@ -2,7 +2,7 @@
 title: ProcedureReport in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Procedure report could represent histology result, pathology report, surgical report, etc.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

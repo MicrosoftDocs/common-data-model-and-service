@@ -2,7 +2,7 @@
 title: CustomerFinancialHolding in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Financial holdings owned by the customer.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

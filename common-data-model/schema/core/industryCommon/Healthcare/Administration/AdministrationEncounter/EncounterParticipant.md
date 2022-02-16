@@ -2,7 +2,7 @@
 title: EncounterParticipant in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: The list of people responsible for providing the service.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

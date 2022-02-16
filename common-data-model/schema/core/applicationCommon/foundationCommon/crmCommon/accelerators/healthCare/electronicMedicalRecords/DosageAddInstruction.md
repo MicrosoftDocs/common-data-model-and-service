@@ -2,7 +2,7 @@
 title: DosageAddInstruction in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Additional instruction such as "Swallow with plenty of water" which may or may not be coded.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

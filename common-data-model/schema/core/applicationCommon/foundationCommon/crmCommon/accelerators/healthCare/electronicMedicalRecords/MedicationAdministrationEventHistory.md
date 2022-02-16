@@ -2,7 +2,7 @@
 title: MedicationAdministrationEventHistory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A summary of the events of interest that have occurred, such as when the administration was verified.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

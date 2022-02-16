@@ -2,7 +2,7 @@
 title: CarePlanSupportInfo in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Identifies portions of the patient's record that specifically influenced the formation of the plan. These might include co-morbidities, recent procedures, limitations, recent assessments, etc.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

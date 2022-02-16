@@ -2,7 +2,7 @@
 title: PropertyOptionSetItem in foundationCommon - Common Data Model | Microsoft Docs
 description: Item with a name and value in a property option set type.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

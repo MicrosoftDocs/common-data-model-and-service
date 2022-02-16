@@ -2,7 +2,7 @@
 title: DeviceType in automotive - Common Data Model | Microsoft Docs
 description: Fundamental type of device, such as vehicle, truck, harvester, boat engine, and so on.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

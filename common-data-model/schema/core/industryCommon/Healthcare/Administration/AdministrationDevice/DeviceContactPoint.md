@@ -2,7 +2,7 @@
 title: DeviceContactPoint in AdministrationDevice - Common Data Model | Microsoft Docs
 description: Contact details for an organization or a particular human that is responsible for the device.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: Dimension in nonProfitIati - Common Data Model | Microsoft Docs
 description: A category used for dis-aggregating the result by gender, age, etc
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: CarePlanCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies what "kind" of plan this is to support differentiation between multiple co-existing plans; e.g. "Home health", "psychiatric", "asthma", "disease management", "wellness plan", etc.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

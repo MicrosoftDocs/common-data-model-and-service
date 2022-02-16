@@ -2,7 +2,7 @@
 title: DeviceStatus in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: undefined - DeviceStatus in electronicMedicalRecords
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

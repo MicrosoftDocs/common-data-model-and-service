@@ -2,7 +2,7 @@
 title: Invitation in portals - Common Data Model | Microsoft Docs
 description: Send invitations to existing contacts or email addresses and assign them to web roles upon redemption.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

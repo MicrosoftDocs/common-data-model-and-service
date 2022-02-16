@@ -2,7 +2,7 @@
 title: CustomerIdentifierType in automotive - Common Data Model | Microsoft Docs
 description: Type of customer identifier, such as customer number or manufacturer ID.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

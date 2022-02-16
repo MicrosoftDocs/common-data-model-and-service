@@ -2,7 +2,7 @@
 title: FinancingOpportunity in automotive - Common Data Model | Microsoft Docs
 description: Financing opportunity associated with a specific vehicle or device included in a lead.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

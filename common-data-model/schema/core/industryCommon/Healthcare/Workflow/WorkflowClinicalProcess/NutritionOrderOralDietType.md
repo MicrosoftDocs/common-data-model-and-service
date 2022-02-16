@@ -2,7 +2,7 @@
 title: NutritionOrderOralDietType in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

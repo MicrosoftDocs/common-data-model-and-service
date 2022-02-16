@@ -2,7 +2,7 @@
 title: ConditionCategory in ClinicalCore - Common Data Model | Microsoft Docs
 description: A category assigned to the condition.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

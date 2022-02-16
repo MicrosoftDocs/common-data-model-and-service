@@ -2,7 +2,7 @@
 title: DeviceInspectionChecklistType in automotive - Common Data Model | Microsoft Docs
 description: Type of checklist, such as pre-delivery or service.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

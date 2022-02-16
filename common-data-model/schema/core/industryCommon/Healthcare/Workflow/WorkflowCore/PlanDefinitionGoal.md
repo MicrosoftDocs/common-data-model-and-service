@@ -2,7 +2,7 @@
 title: PlanDefinitionGoal in WorkflowCore - Common Data Model | Microsoft Docs
 description: Goals that describe what the activities within the plan are intended to achieve.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

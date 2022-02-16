@@ -2,7 +2,7 @@
 title: Stakeholder in nonProfitCore - Common Data Model | Microsoft Docs
 description: A person or entity with an interest or concern in something.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

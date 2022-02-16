@@ -2,7 +2,7 @@
 title: PlanDefinitionGoalTarget in WorkflowCore - Common Data Model | Microsoft Docs
 description: Indicates what should be done and within what time frame.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

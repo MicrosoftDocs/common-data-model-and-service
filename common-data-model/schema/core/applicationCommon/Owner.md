@@ -2,7 +2,7 @@
 title: Owner in applicationCommon - Common Data Model | Microsoft Docs
 description: Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

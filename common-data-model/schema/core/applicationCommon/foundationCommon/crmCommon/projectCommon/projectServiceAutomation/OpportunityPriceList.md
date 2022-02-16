@@ -2,7 +2,7 @@
 title: OpportunityPriceList in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Sales price list that will used by the opportunity to set default sales prices on all project-based components such as time and expense.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

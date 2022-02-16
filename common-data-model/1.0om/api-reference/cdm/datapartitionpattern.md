@@ -2,7 +2,7 @@
 title: Data Partition Pattern | Microsoft Docs
 description: API reference for CdmDataPartitionPatternDefinition.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 06/24/2020

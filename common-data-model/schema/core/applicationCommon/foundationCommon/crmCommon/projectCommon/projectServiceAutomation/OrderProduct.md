@@ -2,7 +2,7 @@
 title: OrderProduct in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Line item in a sales order.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: TransactionCategoryPriceLevel in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of prices by category on a price list.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

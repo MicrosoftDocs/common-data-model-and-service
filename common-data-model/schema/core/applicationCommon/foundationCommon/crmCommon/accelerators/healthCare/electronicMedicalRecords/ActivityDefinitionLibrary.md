@@ -2,7 +2,7 @@
 title: ActivityDefinitionLibrary in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A reference to a Library entity containing any formal logic used by the asset.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

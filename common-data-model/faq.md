@@ -2,7 +2,7 @@
 title: Frequently asked questions - Common Data Model
 description: "Frequently asked questions about using Common Data Model."
 author: theresapalmer
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/11/2020

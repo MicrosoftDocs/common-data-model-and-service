@@ -2,7 +2,7 @@
 title: VisionPrescriptionDispense in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: Deals with details of the dispense part of the supply specification.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

@@ -2,7 +2,7 @@
 title: FHLineOfCredit in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: A preset borrowing limit associated with a credit or charge card.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

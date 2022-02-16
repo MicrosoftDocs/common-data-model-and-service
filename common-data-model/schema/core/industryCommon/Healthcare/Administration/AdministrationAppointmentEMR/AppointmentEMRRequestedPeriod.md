@@ -2,7 +2,7 @@
 title: AppointmentEMRRequestedPeriod in AdministrationAppointmentEMR - Common Data Model | Microsoft Docs
 description: A set of date ranges (potentially including times) that the appointment is preferred to be scheduled within.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

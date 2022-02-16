@@ -2,7 +2,7 @@
 title: FieldComputation in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Product properties whose values are to be considered as factors for quantity computation on a transaction line.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

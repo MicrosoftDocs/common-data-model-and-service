@@ -2,7 +2,7 @@
 title: ProcedureBodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Detailed and structured anatomical location information. Multiple locations are allowed - e.g. multiple punch biopsies of a lesion.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

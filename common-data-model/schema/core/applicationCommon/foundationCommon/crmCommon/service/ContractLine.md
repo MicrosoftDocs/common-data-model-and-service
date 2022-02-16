@@ -2,7 +2,7 @@
 title: ContractLine in service - Common Data Model | Microsoft Docs
 description: Line item in a contract that specifies the type of service a customer is entitled to.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

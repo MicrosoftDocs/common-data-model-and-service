@@ -2,7 +2,7 @@
 title: Designation in nonProfitIati - Common Data Model | Microsoft Docs
 description: An area to which funds may be allocated, including a GL-relevant accounting code.  Designations are the way a donor instructs an organization about how their donation should be spent or earmarked.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

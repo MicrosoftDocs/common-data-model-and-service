@@ -2,7 +2,7 @@
 title: Order in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Quote that has been accepted.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

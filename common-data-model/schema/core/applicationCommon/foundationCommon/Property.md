@@ -2,7 +2,7 @@
 title: Property in foundationCommon - Common Data Model | Microsoft Docs
 description: Information about a product property.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

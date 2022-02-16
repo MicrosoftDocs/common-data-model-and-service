@@ -2,7 +2,7 @@
 title: CarePlanActivityPerformer in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Identifies who's expected to be involved in the activity.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

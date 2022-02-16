@@ -2,7 +2,7 @@
 title: DeviceMetricType in AdministrationDevice - Common Data Model | Microsoft Docs
 description: Describes the type of the metric. For example&#58 Heart Rate, PEEP Setting, etc.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

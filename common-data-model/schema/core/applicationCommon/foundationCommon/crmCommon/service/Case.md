@@ -2,7 +2,7 @@
 title: Case in service - Common Data Model | Microsoft Docs
 description: Service request case associated with a contract.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

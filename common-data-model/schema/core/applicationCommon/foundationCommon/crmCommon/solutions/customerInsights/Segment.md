@@ -2,7 +2,7 @@
 title: Segment in customerInsights - Common Data Model | Microsoft Docs
 description: Defines a group of members  that exhibit common traits.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

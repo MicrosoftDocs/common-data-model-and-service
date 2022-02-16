@@ -2,7 +2,7 @@
 title: SLAItem in applicationCommon - Common Data Model | Microsoft Docs
 description: Contains information about a tracked support KPI for a specific customer.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

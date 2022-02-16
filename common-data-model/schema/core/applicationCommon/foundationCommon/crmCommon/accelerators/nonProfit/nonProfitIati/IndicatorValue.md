@@ -2,7 +2,7 @@
 title: IndicatorValue in nonProfitIati - Common Data Model | Microsoft Docs
 description: An Indicator Value is a quantitative or qualitative value of measurement of an Indicator. Indicator Values may be but are not limited to baseline, target or actual values of measurement.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

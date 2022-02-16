@@ -2,7 +2,7 @@
 title: DeviceComponent in Commoncore - Common Data Model | Microsoft Docs
 description: The characteristics, operational status and capabilities of a medical-related component of a medical device.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

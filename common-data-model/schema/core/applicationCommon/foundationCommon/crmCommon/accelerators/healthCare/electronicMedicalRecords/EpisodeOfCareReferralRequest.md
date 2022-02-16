@@ -2,7 +2,7 @@
 title: EpisodeOfCareReferralRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Referral Request(s) that are fulfilled by this Episode Of Care, incoming referrals.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

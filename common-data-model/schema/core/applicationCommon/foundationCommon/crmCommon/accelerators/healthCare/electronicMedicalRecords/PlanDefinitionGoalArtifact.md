@@ -2,7 +2,7 @@
 title: PlanDefinitionGoalArtifact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Didactic or other informational resources associated with the goal that provide further supporting information about the goal. Information resources can include inline text commentary and links to web
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: QuoteLineAnalyticsBreakdown in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Reporting entity that is used to show quoted sales and estimated cost amounts by various dimensions.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

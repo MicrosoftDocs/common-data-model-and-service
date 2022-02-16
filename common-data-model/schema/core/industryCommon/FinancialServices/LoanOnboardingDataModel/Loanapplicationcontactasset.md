@@ -2,7 +2,7 @@
 title: LoanApplicationContactAsset in Loan Onboarding Data Model - Common Data Model | Microsoft Docs
 description: Application contact associated with the application asset.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

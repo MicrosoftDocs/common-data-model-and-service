@@ -2,7 +2,7 @@
 title: NutritionOrderOralDietFluidConsistencyType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

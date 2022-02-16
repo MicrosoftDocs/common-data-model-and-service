@@ -2,7 +2,7 @@
 title: CareTeamCategory in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Identifies what kind of team. This is to support differentiation between multiple co-existing teams, such as care plan team, episode of care team, longitudinal care team.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

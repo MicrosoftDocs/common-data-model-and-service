@@ -2,7 +2,7 @@
 title: ClinicalImpressionProblem in ClinicalCore - Common Data Model | Microsoft Docs
 description: This a list of the relevant problems/conditions for a patient.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

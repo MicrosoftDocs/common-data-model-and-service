@@ -2,7 +2,7 @@
 title: ResourceTerritory in scheduling - Common Data Model | Microsoft Docs
 description: Allows to specify for which territory a resource could provide services for
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

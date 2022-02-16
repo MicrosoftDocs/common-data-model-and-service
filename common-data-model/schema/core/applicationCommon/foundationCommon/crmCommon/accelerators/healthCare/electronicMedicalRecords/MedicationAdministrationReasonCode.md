@@ -2,7 +2,7 @@
 title: MedicationAdministrationReasonCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code indicating why the medication was given.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

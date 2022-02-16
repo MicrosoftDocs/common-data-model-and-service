@@ -2,7 +2,7 @@
 title: NutritionOrderOralDietTexture in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Class that describes any texture modifications required for the patient to safely consume various types of solid foods.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

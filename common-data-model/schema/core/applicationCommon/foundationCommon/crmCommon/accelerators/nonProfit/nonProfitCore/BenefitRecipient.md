@@ -2,7 +2,7 @@
 title: BenefitRecipient in nonProfitCore - Common Data Model | Microsoft Docs
 description: Benefit Recipient for contact, account and resource catalog.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

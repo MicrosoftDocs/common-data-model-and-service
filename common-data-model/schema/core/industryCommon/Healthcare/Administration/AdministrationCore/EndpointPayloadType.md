@@ -2,7 +2,7 @@
 title: EndpointPayloadType in AdministrationCore - Common Data Model | Microsoft Docs
 description: The payload type describes the acceptable content that can be communicated on the endpoint.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

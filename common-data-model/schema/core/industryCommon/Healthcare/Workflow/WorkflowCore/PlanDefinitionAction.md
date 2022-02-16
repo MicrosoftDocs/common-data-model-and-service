@@ -2,7 +2,7 @@
 title: PlanDefinitionAction in WorkflowCore - Common Data Model | Microsoft Docs
 description: An action to be taken as part of the plan.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

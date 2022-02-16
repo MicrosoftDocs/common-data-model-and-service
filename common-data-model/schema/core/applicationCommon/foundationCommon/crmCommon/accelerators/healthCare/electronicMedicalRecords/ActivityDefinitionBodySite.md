@@ -2,7 +2,7 @@
 title: ActivityDefinitionBodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates the sites on the subject's body where the procedure should be performed (I.e. the target sites).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

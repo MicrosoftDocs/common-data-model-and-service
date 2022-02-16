@@ -2,7 +2,7 @@
 title: Operation Include Attributes | Microsoft Docs
 description: API reference for CdmOperationIncludeAttributes.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 02/24/2021

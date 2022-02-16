@@ -2,7 +2,7 @@
 title: SponsorableArticle in eventManagement - Common Data Model | Microsoft Docs
 description: An item or a group of items that can be sponsored
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: BookingStatus in projectCommon - Common Data Model | Microsoft Docs
 description: Allows creation of multiple sub statuses mapped to a booking status option.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

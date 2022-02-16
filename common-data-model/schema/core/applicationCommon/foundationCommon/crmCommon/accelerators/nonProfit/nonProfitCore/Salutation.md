@@ -2,7 +2,7 @@
 title: Salutation in nonProfitCore - Common Data Model | Microsoft Docs
 description: A Salutation represents the way a constituent wishes to be addressed, depending on the source, purpose and content of a of communication.  Salutations may or may not be auto-created by workflow.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

@@ -2,7 +2,7 @@
 title: QuoteClose in sales - Common Data Model | Microsoft Docs
 description: Activity generated when a quote is closed.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

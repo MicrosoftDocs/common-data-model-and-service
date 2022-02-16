@@ -2,7 +2,7 @@
 title: ProcedureComplication in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Any complications that occurred during the procedure, or in the immediate post-performance period.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

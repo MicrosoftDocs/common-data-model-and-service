@@ -2,7 +2,7 @@
 title: BookableResource in projectCommon - Common Data Model | Microsoft Docs
 description: Resource that has capacity which can be allocated to work.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

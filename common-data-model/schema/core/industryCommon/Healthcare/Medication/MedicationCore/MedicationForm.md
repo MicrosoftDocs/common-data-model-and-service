@@ -2,7 +2,7 @@
 title: MedicationForm in MedicationCore - Common Data Model | Microsoft Docs
 description: Describes the form of the item. Powder; tablets; capsule.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

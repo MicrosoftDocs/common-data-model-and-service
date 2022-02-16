@@ -2,7 +2,7 @@
 title: ArticleComment in applicationCommon - Common Data Model | Microsoft Docs
 description: Comment on a knowledge base article.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

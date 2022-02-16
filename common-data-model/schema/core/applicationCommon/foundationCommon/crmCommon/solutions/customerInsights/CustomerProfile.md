@@ -2,7 +2,7 @@
 title: CustomerProfile in customerInsights - Common Data Model | Microsoft Docs
 description: A person or organization that either performed or has the potential to engage in a business activity. 
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

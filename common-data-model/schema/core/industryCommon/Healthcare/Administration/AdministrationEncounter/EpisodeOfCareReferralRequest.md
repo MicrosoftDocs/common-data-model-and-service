@@ -2,7 +2,7 @@
 title: EpisodeOfCareReferralRequest in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: Referral Request(s) that are fulfilled by this Episode Of Care, incoming referrals.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

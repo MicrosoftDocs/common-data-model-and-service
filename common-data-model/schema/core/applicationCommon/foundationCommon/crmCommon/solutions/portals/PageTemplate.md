@@ -2,7 +2,7 @@
 title: PageTemplate in portals - Common Data Model | Microsoft Docs
 description: URL of the .aspx page used to create new webpages.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

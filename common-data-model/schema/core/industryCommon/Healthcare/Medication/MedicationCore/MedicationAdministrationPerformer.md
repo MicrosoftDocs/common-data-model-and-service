@@ -2,7 +2,7 @@
 title: MedicationAdministrationPerformer in MedicationCore - Common Data Model | Microsoft Docs
 description: The individual who was responsible for giving the medication to the patient.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

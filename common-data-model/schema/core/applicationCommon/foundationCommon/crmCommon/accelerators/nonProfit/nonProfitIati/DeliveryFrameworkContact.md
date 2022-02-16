@@ -2,7 +2,7 @@
 title: DeliveryFrameworkContact in nonProfitIati - Common Data Model | Microsoft Docs
 description: Contact information for the Delivery Framework.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

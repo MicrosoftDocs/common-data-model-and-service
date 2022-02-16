@@ -2,7 +2,7 @@
 title: Queue in applicationCommon - Common Data Model | Microsoft Docs
 description: A list of records that require action, such as accounts, activities, and cases.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020

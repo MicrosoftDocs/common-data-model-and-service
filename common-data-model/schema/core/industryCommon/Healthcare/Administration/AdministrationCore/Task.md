@@ -2,7 +2,7 @@
 title: Task in AdministrationCore - Common Data Model | Microsoft Docs
 description: Generic activity representing work needed to be done.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 1/7/2021

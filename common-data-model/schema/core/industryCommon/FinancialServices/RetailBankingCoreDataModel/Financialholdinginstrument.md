@@ -2,7 +2,7 @@
 title: FinancialHoldingInstrument in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Financial tools associated with financial holdings; a monetary contract between parties which has intrinsic monetary value or transfers value. Provides an efficient flow and transfer of capital.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 10/28/2021

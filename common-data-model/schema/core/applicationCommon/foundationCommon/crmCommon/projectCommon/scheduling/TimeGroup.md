@@ -2,7 +2,7 @@
 title: TimeGroup in scheduling - Common Data Model | Microsoft Docs
 description: Specify time groups consisting of multiple time windows to be used for scheduling, for example.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 8/7/2020
