@@ -4,7 +4,7 @@ description: Sensor attached to or as part of a vehicle or device. May provide s
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

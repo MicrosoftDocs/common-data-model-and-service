@@ -4,7 +4,7 @@ description: Family of vehicles or devices for the specific brand provided by th
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

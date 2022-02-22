@@ -4,7 +4,7 @@ description: Describes the loan contact's job or place of work, or work history.
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

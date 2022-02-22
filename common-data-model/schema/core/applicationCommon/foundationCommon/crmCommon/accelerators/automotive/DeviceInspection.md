@@ -4,7 +4,7 @@ description: Record of inspections carried out on a given vehicle or device over
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

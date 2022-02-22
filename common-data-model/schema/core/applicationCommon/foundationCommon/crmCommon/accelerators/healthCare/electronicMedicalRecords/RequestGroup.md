@@ -4,7 +4,7 @@ description: A group of related requests that can be used to capture intended ac
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: The container holding the specimen. The recursive nature of contain
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

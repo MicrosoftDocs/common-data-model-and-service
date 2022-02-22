@@ -4,7 +4,7 @@ description: Text, attachment(s), or resource(s) to be communicated to the recip
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

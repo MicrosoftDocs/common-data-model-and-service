@@ -4,7 +4,7 @@ description: A single venue can be comprised of zero or more buildings where eve
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

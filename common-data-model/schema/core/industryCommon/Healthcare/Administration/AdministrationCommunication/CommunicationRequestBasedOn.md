@@ -4,7 +4,7 @@ description: A plan or proposal that is fulfilled in whole or in part by this re
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

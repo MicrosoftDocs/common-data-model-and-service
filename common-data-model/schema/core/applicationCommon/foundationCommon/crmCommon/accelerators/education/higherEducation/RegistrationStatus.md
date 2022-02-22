@@ -4,7 +4,7 @@ description: The master list of registration statuses tracked by the institution
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

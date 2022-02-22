@@ -4,7 +4,7 @@ description: Links to Provenance records for past versions of this entity that i
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

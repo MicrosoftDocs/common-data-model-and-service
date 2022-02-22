@@ -4,7 +4,7 @@ description: Limits of a specific warranty on a specific vehicle or device, such
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

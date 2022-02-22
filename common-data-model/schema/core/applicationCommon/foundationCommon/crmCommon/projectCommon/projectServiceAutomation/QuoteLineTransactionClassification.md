@@ -4,7 +4,7 @@ description: List of transaction classification heads, the four broad cost class
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

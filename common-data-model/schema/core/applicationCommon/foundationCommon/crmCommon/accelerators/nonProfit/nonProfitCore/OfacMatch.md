@@ -4,7 +4,7 @@ description: OFAC Match is a placeholder entity for tracking Office of Foreign A
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

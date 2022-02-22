@@ -4,7 +4,7 @@ description: Classification of emergencies, appeals and other humanitarian event
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

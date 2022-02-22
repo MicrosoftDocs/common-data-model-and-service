@@ -4,7 +4,7 @@ description: The coded reason why the procedure was performed. This may be coded
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

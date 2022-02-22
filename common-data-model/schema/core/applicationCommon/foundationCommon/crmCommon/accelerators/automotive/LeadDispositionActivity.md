@@ -4,7 +4,7 @@ description: Specific activity that should be taken to follow up and nurture a l
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

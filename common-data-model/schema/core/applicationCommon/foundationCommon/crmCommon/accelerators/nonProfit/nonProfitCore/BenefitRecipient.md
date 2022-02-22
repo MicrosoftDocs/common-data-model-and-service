@@ -4,7 +4,7 @@ description: Benefit Recipient for contact, account and resource catalog.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

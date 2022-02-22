@@ -4,7 +4,7 @@ description: Internal reference that identifies the goals that this activity is 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

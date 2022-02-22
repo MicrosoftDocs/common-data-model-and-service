@@ -4,7 +4,7 @@ description: The slots from the participants' schedules that will be filled by t
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

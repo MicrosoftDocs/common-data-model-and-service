@@ -4,7 +4,7 @@ description: This represents a single hotel property (for e.g, Marriott in Belle
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

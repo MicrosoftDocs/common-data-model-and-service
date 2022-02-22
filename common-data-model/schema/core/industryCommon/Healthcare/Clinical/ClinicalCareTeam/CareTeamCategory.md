@@ -4,7 +4,7 @@ description: Identifies what kind of team. This is to support differentiation be
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

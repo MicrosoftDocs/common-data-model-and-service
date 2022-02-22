@@ -4,7 +4,7 @@ description: Activity that represents work done to satisfy a customer's need.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

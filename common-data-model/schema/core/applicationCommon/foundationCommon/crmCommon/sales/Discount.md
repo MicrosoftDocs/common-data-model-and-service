@@ -4,7 +4,7 @@ description: Price reduction made from the list price of a product or service ba
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

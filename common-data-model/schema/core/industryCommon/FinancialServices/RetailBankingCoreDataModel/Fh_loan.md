@@ -4,7 +4,7 @@ description: Loans held by the customer with the financial institution.
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

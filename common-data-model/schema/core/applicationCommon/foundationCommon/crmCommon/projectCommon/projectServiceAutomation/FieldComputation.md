@@ -4,7 +4,7 @@ description: Product properties whose values are to be considered as factors for
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

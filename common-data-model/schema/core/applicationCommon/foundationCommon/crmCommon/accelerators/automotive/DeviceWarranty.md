@@ -4,7 +4,7 @@ description: Relationship indicating that a specific warranty applies to a speci
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

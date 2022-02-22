@@ -4,7 +4,7 @@ description: Template for a knowledge base article that contains the standard at
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

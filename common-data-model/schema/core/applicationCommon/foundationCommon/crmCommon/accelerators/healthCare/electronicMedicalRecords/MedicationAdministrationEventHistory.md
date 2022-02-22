@@ -4,7 +4,7 @@ description: A summary of the events of interest that have occurred, such as whe
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

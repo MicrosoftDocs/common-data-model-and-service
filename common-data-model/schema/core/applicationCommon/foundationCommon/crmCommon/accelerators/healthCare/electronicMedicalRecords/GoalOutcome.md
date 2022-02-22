@@ -4,7 +4,7 @@ description: Identifies the change (or lack of change) at the point when the sta
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

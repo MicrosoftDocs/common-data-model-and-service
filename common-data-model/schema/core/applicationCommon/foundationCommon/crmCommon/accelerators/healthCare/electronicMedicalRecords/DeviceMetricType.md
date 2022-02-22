@@ -4,7 +4,7 @@ description: Describes the type of the metric. For example&#58 Heart Rate, PEEP 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: This is a placeholder entity referenced by the Payment Method objec
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: The assessment of a Request made by an internal staff member (or te
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

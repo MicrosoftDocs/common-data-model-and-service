@@ -4,7 +4,7 @@ description: Photo(s) or graphic representation(s) of the medication.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

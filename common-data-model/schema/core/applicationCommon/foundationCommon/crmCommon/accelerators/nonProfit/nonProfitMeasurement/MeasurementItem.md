@@ -4,7 +4,7 @@ description: Library used to store Goals, Objectives, Targets, Outcomes, Indicat
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: A device that is implanted, removed or otherwise manipulated (calib
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

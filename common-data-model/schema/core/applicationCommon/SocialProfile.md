@@ -4,7 +4,7 @@ description: This entity is used to store social profile information of its asso
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

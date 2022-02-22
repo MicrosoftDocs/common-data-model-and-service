@@ -4,7 +4,7 @@ description: The list of diagnosis relevant to this episode of care.
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

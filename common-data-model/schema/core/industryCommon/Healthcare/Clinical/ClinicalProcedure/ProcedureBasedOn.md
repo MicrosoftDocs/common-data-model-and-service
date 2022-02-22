@@ -4,7 +4,7 @@ description: A reference to a resource that contains details of the request for 
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

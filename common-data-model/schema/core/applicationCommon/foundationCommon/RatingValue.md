@@ -4,7 +4,7 @@ description: A unique value associated with a rating model that allows providing
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

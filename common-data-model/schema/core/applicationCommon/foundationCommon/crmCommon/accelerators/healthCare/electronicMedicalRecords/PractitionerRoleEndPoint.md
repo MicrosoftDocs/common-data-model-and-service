@@ -4,7 +4,7 @@ description: Technical endpoints providing access to services operated for the p
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

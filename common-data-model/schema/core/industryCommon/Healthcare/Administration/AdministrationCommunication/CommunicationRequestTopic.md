@@ -4,7 +4,7 @@ description: The entities which were related to producing this communication req
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

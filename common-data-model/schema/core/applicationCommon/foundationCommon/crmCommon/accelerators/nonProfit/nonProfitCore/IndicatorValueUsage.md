@@ -4,7 +4,7 @@ description: Used to demonstrate a usage of a indicator value
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

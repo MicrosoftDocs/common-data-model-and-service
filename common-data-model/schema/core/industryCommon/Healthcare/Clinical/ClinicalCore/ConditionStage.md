@@ -4,7 +4,7 @@ description: Clinical stage or grade of a condition. May include formal severity
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

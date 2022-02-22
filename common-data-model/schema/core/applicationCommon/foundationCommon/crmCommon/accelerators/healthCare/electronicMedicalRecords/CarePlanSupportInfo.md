@@ -4,7 +4,7 @@ description: Identifies portions of the patient's record that specifically influ
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

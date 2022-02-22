@@ -4,7 +4,7 @@ description: The master list of all extra curricular activities tracked by the i
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

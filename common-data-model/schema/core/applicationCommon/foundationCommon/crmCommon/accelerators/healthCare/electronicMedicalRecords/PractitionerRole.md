@@ -4,7 +4,7 @@ description: A specific set of Roles/Locations/specialties/services that a pract
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

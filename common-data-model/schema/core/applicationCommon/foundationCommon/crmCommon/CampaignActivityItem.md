@@ -4,7 +4,7 @@ description: Work item of a campaign activity, such as a list or sales literatur
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

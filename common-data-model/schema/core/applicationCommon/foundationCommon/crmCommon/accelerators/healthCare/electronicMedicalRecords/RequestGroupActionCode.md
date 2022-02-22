@@ -4,7 +4,7 @@ description: A code that provides meaning for the action or action group. For ex
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Class that describes any texture modifications required for the pat
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

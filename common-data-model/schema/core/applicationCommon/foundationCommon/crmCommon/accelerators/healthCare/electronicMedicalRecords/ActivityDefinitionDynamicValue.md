@@ -4,7 +4,7 @@ description: Dynamic values that will be evaluated to produce values for element
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: ProductInformationManagement is a folder that contains standard ent
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

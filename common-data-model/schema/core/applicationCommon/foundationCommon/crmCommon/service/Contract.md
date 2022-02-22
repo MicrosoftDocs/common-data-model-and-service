@@ -4,7 +4,7 @@ description: Agreement to provide customer service during a specified amount of 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

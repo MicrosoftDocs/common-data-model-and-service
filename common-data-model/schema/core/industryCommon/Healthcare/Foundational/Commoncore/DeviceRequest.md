@@ -4,7 +4,7 @@ description: Represents a request for a patient to employ a medical device. The 
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

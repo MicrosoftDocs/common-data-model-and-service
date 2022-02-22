@@ -4,7 +4,7 @@ description: Significant milestones in a customer's personal life which can impa
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/30/2021
 ms.author: matgos
 ---

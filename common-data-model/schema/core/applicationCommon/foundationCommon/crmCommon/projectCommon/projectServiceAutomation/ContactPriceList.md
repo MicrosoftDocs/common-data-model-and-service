@@ -4,7 +4,7 @@ description: Specific sales price list for this customer to capture special pric
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

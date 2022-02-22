@@ -4,7 +4,7 @@ description: A Result is a container that represents the changes in the context 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

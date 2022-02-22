@@ -4,7 +4,7 @@ description: Specify time groups consisting of multiple time windows to be used 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

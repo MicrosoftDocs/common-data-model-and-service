@@ -4,7 +4,7 @@ description: Delivery Framework represents a management unit of work defined by 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

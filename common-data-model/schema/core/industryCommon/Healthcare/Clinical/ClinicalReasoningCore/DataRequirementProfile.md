@@ -4,7 +4,7 @@ description: If specified, this indicates a profile that the input data must con
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

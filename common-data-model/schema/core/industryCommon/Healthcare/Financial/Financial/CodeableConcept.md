@@ -4,7 +4,7 @@ description: A Codeable Concept represents a value that is usually supplied by p
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

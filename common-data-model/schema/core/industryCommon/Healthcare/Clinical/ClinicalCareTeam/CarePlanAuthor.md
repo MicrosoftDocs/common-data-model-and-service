@@ -4,7 +4,7 @@ description: Identifies the individual(s) or organization who is responsible for
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

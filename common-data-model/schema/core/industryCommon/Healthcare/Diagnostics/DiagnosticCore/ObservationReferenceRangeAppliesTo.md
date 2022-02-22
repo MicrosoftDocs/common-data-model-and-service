@@ -4,7 +4,7 @@ description: Codes to indicate the target population this reference range applie
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

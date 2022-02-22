@@ -4,7 +4,7 @@ description: Special type of activity that includes description of the resolutio
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

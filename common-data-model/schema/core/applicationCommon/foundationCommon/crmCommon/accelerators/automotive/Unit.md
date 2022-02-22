@@ -4,7 +4,7 @@ description: Types of measures such as Miles, Kilometres, Hours, Days or Months.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

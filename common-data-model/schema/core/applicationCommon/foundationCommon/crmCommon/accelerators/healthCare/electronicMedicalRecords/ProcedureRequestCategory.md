@@ -4,7 +4,7 @@ description: A code that classifies the procedure for searching, sorting and dis
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

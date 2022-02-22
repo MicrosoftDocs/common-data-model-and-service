@@ -4,7 +4,7 @@ description: Reference to the parent (source) specimen which is used when the sp
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

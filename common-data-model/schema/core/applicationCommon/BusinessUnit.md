@@ -4,7 +4,7 @@ description: Business, division, or department in the Microsoft Dynamics 365 dat
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: The class history permits the tracking of the encounters transition
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

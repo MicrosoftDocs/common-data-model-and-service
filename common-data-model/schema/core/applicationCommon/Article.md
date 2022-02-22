@@ -4,7 +4,7 @@ description: Structured content that is part of the knowledge base.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

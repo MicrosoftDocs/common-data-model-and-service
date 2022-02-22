@@ -4,7 +4,7 @@ description: Additional instruction such as "Swallow with plenty of water" which
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

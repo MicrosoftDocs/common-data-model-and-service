@@ -4,7 +4,7 @@ description: Usage meter attached to a specific vehicle or device, such as odome
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

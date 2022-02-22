@@ -4,7 +4,7 @@ description: Summarization of financial activity for a ledger, date, account, an
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

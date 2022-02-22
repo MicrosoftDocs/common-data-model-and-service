@@ -4,7 +4,7 @@ description: Container to manage and plan marketing activities that take place a
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

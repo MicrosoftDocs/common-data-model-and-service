@@ -4,7 +4,7 @@ description: System operation used to perform lengthy and asynchronous operation
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

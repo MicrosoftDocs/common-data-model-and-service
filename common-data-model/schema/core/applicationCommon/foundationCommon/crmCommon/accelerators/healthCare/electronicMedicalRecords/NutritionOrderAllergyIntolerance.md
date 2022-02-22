@@ -4,7 +4,7 @@ description: A link to a record of allergies or intolerance which should be incl
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

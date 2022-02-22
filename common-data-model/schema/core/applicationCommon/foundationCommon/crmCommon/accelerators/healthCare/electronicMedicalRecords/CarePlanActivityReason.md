@@ -4,7 +4,7 @@ description: Provides the rationale that drove the inclusion of this particular 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---
