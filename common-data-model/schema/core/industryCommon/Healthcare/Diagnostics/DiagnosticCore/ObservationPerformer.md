@@ -4,7 +4,7 @@ description: Who was responsible for asserting the observed value as "true".
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

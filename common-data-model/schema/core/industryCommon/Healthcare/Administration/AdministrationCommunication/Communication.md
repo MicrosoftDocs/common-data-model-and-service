@@ -4,7 +4,7 @@ description: An occurrence of information being transmitted; e.g. an alert that 
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

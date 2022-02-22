@@ -4,7 +4,7 @@ description: Indicates any plans, proposals or orders that this request is inten
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Substance may be used to describe a kind of substance, or a specifi
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

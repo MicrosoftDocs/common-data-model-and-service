@@ -4,7 +4,7 @@ description: The Master appointment of a recurring appointment series.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: The type of aid being supplied (project-type intervention, budget s
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

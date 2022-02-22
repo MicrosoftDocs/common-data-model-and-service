@@ -4,7 +4,7 @@ description: Transactions that are associated to an invoice line.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

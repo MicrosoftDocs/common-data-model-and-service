@@ -4,7 +4,7 @@ description: Customer preference for a given type of business operation, such as
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

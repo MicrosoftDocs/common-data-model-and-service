@@ -4,7 +4,7 @@ description: Entity used for counting the number of times resources apply for op
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

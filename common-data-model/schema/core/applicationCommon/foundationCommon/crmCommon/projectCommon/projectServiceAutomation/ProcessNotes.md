@@ -4,7 +4,7 @@ description: Stores messages or notes relevant to an operation or process execut
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

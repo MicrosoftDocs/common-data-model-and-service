@@ -4,7 +4,7 @@ description: A reference to a Library entity containing any formal logic used by
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

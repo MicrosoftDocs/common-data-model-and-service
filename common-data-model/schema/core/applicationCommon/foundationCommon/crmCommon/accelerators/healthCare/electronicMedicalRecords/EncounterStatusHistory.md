@@ -4,7 +4,7 @@ description: The status history permits the encounter entity to contain the stat
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

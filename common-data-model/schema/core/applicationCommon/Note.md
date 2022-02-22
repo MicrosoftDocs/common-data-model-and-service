@@ -4,7 +4,7 @@ description: Note that is attached to one or more objects, including other notes
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

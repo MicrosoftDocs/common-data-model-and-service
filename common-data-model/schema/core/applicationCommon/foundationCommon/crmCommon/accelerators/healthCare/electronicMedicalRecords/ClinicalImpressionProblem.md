@@ -4,7 +4,7 @@ description: This a list of the relevant problems/conditions for a patient.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Cache for scored work items per resource that are returned from Azu
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: A list of records that require action, such as accounts, activities
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

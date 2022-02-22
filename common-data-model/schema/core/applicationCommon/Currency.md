@@ -4,7 +4,7 @@ description: Currency in which a financial transaction is carried out.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

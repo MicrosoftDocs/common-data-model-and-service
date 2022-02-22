@@ -4,7 +4,7 @@ description: Indicates the sites on the subject's body where the procedure shoul
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

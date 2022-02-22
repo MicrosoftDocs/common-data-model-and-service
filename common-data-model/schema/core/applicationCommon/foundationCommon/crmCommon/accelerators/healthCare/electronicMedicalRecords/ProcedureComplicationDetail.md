@@ -4,7 +4,7 @@ description: Any complications that occurred during the procedure, or in the imm
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

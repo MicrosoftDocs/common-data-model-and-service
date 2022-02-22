@@ -4,7 +4,7 @@ description: The contact details of communication devices available at the locat
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

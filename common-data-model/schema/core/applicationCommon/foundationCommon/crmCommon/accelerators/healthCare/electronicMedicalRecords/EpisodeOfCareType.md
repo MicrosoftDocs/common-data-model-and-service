@@ -4,7 +4,7 @@ description: A classification of the type of episode of care; e.g. specialist re
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Context of a given customer, device, business operation or user, in
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

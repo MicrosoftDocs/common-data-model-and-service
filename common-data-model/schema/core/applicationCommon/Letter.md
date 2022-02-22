@@ -4,7 +4,7 @@ description: Activity that tracks the delivery of a letter. The activity can con
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

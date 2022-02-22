@@ -4,7 +4,7 @@ description: A need that is discovered during the case. May or may not be resolv
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

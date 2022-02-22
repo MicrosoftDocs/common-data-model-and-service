@@ -4,7 +4,7 @@ description: The kind of diet or dietary restriction such as fiber restricted di
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

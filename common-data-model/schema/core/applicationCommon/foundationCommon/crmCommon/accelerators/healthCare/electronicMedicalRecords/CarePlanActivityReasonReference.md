@@ -4,7 +4,7 @@ description: Provides the health condition(s) that drove the inclusion of this p
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

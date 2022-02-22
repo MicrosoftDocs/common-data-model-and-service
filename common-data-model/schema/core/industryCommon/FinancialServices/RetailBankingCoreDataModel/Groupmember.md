@@ -4,7 +4,7 @@ description: An association between a customer and a Group.
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

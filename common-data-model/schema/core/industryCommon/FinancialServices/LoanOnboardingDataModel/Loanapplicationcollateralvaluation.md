@@ -4,7 +4,7 @@ description: Valuation associated with a collateral of the loan application.
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

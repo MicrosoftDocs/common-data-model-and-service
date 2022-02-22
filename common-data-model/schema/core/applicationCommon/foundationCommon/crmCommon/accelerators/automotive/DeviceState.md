@@ -4,7 +4,7 @@ description: Describes state of a vehicle or device, such as New, Used or Scrapp
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

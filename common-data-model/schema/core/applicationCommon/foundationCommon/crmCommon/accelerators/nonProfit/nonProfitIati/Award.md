@@ -4,7 +4,7 @@ description: An Award represents the total amount of funding that has been agree
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

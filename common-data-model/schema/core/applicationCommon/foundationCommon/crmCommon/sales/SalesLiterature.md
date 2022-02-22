@@ -4,7 +4,7 @@ description: Storage of sales literature, which may contain one or more document
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Record of usage measurements for a given vehicle or device over tim
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

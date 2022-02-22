@@ -4,7 +4,7 @@ description: The insurer may provide both the details for the requested coverage
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

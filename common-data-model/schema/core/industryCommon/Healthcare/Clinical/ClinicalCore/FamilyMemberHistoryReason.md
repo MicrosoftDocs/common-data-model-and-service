@@ -4,7 +4,7 @@ description: Describes why the family member history occurred in coded or textua
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

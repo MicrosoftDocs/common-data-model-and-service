@@ -4,7 +4,7 @@ description: The specific service that is to be performed during this appointmen
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

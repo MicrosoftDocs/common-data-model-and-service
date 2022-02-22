@@ -4,7 +4,7 @@ description: The participant type indicates how an individual participates in an
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: The reason or the indication for ordering the medication.
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

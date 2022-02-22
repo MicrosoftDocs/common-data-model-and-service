@@ -4,7 +4,7 @@ description: Financing opportunity associated with a specific vehicle or device 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

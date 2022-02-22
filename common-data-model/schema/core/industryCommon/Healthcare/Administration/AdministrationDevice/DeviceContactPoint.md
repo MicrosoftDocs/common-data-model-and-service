@@ -4,7 +4,7 @@ description: Contact details for an organization or a particular human that is r
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

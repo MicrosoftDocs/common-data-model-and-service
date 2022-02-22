@@ -4,7 +4,7 @@ description: A code that classifies the general type of substance. This is used 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

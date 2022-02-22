@@ -4,7 +4,7 @@ description: Each record of this type tracks a single request made by an event a
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

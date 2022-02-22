@@ -4,7 +4,7 @@ description: Potential revenue-generating event, or sale to an account, which ne
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

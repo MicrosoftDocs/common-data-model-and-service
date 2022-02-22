@@ -4,7 +4,7 @@ description: A payment card issued by a bank to an account holder enabling the a
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

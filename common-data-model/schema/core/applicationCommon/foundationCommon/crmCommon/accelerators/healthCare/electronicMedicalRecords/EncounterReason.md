@@ -4,7 +4,7 @@ description: Reason the encounter takes place, expressed as a code. For admissio
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

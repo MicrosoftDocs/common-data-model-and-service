@@ -4,7 +4,7 @@ description: Distinctive form or type of vehicle or device such as sedan or stat
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

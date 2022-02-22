@@ -4,7 +4,7 @@ description: This entity stores the list of internships offered to a school by a
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

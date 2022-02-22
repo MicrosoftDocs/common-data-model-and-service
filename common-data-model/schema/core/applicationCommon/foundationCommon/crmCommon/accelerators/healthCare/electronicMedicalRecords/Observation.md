@@ -4,7 +4,7 @@ description: Measurements and simple assertions made about a patient, device or 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: The set of accounts that may be used for billing for this Episode O
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

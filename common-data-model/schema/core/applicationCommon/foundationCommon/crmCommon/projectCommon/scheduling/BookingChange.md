@@ -4,7 +4,7 @@ description: An internal entity used to track changes that affect the schedule b
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

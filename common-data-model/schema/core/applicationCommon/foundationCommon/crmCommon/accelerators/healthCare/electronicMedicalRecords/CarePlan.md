@@ -4,7 +4,7 @@ description: Describes the intention of how one or more practitioners intend to 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

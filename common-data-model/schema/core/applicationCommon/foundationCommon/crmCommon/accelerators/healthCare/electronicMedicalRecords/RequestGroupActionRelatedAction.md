@@ -4,7 +4,7 @@ description: A relationship to another action such as "before" or "30-60 minutes
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

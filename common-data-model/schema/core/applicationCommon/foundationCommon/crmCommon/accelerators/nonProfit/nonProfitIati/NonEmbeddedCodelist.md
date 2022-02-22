@@ -4,7 +4,7 @@ description: Non-functional codelists that usually provide lookup information on
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

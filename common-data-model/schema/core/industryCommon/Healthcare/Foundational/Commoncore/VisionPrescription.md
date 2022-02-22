@@ -4,7 +4,7 @@ description: An authorization for the supply of glasses and/or contact lenses to
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

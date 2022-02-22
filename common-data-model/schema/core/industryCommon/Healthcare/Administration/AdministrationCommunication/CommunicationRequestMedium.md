@@ -4,7 +4,7 @@ description: A channel that was used for this communication (e.g. email, fax).
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

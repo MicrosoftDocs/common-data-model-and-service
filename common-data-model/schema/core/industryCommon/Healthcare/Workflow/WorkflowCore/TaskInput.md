@@ -4,7 +4,7 @@ description: Additional information that may be needed in the execution of the t
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -4,7 +4,7 @@ description: industryCommon is a folder that contains standard industry-related 
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/19/2021
 ms.author: matgos
 ---

@@ -4,7 +4,7 @@ description: The type of message to be sent such as alert, notification, reminde
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

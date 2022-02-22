@@ -4,7 +4,7 @@ description: A holding representing a portfolio of securities or other investibl
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

@@ -4,7 +4,7 @@ description: A larger event of which this particular event is a component or ste
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

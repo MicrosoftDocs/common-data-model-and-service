@@ -4,7 +4,7 @@ description: Measured value for a given aggregate KPI in a given context.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

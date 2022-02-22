@@ -4,7 +4,7 @@ description: Link to another patient entity that concerns the same actual patien
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

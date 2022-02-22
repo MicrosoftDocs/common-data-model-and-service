@@ -4,7 +4,7 @@ description: A broad categorization of the service that is to be performed durin
 author: matgos
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

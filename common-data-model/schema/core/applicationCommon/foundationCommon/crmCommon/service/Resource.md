@@ -4,7 +4,7 @@ description: User or facility/equipment that can be scheduled for a service.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Activity that tracks call outcome and number of pages for a fax and
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -4,7 +4,7 @@ description: Categorize resources that have capacity into categories such as rol
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

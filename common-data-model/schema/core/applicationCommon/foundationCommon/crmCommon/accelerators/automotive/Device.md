@@ -4,7 +4,7 @@ description: Physical piece of equipment of considerable value such as a vehicle
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

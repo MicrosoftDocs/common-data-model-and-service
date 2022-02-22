@@ -4,7 +4,7 @@ description: Information about a group of medication produced or packaged from o
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

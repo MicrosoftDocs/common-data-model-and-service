@@ -4,7 +4,7 @@ description: A container for slots of time that may be available for booking app
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

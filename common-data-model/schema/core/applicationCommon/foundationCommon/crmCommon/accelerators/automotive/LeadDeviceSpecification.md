@@ -4,7 +4,7 @@ description: Loose description of a characteristic of a vehicle or device of int
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

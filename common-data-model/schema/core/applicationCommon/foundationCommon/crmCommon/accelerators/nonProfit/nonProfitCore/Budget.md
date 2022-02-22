@@ -4,7 +4,7 @@ description: A Budget represents the amount of funds that can be awarded for a p
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

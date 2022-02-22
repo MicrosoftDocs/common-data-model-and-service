@@ -4,7 +4,7 @@ description: An activity performed by a user that has observational value to the
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

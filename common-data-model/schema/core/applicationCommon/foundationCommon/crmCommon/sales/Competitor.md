@@ -4,7 +4,7 @@ description: Business competing for the sale represented by a lead or opportunit
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

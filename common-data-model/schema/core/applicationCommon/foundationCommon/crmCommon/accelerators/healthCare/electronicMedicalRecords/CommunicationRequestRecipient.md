@@ -4,7 +4,7 @@ description: The entity (e.g. person, organization, clinical information system,
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

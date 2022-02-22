@@ -4,7 +4,7 @@ description: Describes the intended objective(s) for a patient, group or organiz
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

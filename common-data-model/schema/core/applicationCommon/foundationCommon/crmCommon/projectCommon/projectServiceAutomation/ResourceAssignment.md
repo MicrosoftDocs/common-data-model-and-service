@@ -4,7 +4,7 @@ description: Entity used to keep track of resource assignment header information
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

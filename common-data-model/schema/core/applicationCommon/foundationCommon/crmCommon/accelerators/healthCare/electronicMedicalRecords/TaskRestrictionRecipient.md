@@ -4,7 +4,7 @@ description: For requests that are targeted to more than on potential recipient/
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

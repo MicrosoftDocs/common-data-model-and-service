@@ -4,7 +4,7 @@ description: Requests represent a request from an individual or institution for 
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

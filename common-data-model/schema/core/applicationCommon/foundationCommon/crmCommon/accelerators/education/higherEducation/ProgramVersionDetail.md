@@ -4,7 +4,7 @@ description: The master list of program versions start dates defined by the inst
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

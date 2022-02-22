@@ -4,7 +4,7 @@ description: Type of discount specified as either a percentage or an amount.
 author: llawwaii
 
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---
