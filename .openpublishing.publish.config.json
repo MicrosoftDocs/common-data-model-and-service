@@ -51,9 +51,7 @@
       "version": 0
     }
   ],
-  "notification_subscribers": [
-    "jdaly@microsoft.com"
-  ],
+  "notification_subscribers": [],
   "sync_notification_subscribers": [
     "buckley.guderian@microsoft.com"
   ],
@@ -62,7 +60,6 @@
   "git_repository_branch_open_to_public_contributors": "main",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
-  "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
@@ -74,8 +71,7 @@
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
   "targets": {},
-  "docs_build_engine": {
-    "name": "docfx_v3"
-  },
+  "docs_build_engine": {},
+  "contribution_branch_mappings": {},
   "need_generate_intellisense": false
 }
