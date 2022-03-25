@@ -471,7 +471,7 @@ Unit of measure for time in 'one earth rotation' interval
 |<b>means.measurement.duration.days</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
 
-## <a id="day"><b>day</b></a>
+### <a id="day"><b>day</b></a>
 
 | Inheritance |
 |--|
@@ -2264,7 +2264,7 @@ Unit of measure for time in 'one solar orbit' interval
 |<b>means.measurement.duration.years</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
 
-## <a id="year"><b>year</b></a>
+### <a id="year"><b>year</b></a>
 
 | Inheritance |
 |--|
