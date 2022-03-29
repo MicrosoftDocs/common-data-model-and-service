@@ -142,11 +142,11 @@ Using multiple addAttributeGroup operations will result in an attribute group be
 
 The resulting resolved Child entity is:
 
-| OuterGroup | | Attribute |
-|------------|--|--|
-| | InnerGroup |  |
-| | | name |
-| | | age |
-| | | address |
-| | | phoneNumber |
-| | | email |
+| OuterGroup | Attribute | 
+|------------|--|
+| InnerGroup |  |  
+| | name |
+| | age |
+| | address |
+| | phoneNumber |
+| | email |
