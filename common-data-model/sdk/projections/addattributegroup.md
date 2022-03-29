@@ -74,7 +74,7 @@ We can use the AddAttributeGroup operation to place all the attributes reference
 
 The resulting resolved PersonInfo entity typed attribute is:
 
-| PersonInfoGroup | |
+| PersonInfoGroup | Attribute |
 |-----------------|--|
 | | name |
 | | age |
@@ -105,7 +105,7 @@ Given an entity, Child, that extends the Person entity:
 
 The resulting resolved Child entity is:
 
-| ChildGroup | |
+| ChildGroup | Attribute |
 |-----------------|--|
 | | name |
 | | age |
@@ -142,9 +142,9 @@ Using multiple addAttributeGroup operations will result in an attribute group be
 
 The resulting resolved Child entity is:
 
-| OuterGroup | | |
+| OuterGroup | | Attribute |
 |------------|--|--|
-| | InnerGroup | |
+| | InnerGroup |  |
 | | | name |
 | | | age |
 | | | address |

@@ -120,7 +120,7 @@ On the example above, the `priorityCode` attribute is constrained to a set of po
 
 The resulting resolved priorityCode data typed attribute is:
 
-||
+| Data typed attribute |
 |-|
 |priorityCode|
 |priorityCode_display|
