@@ -286,6 +286,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
         ```
     7. Save manifest.
     
+Note : The data partition location path which contain '.', currently not supported in SyMS adapter. Example adls:/abc/is.folder is not supported.
 
 ## SymsAdapter Class
 Please refer to [this](../1.0om/api-reference/storage/symsadapter.md) section.
