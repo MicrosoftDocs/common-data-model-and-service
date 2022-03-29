@@ -6,7 +6,7 @@ author: jinichu
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 06/24/2020
-ms.author: jibyun
+ms.author: kvivek
 ---
 
 # Create schema documents for the Common Data Model
