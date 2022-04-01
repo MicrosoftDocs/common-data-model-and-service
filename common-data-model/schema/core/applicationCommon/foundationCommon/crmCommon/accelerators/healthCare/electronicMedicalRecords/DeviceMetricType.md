@@ -2,9 +2,9 @@
 title: DeviceMetricType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes the type of the metric. For example&#58 Heart Rate, PEEP Setting, etc.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

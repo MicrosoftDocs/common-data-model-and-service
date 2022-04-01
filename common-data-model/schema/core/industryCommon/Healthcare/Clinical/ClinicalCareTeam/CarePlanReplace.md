@@ -2,9 +2,9 @@
 title: CarePlanReplace in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Completed or terminated care plan whose function is taken by this new care plan.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

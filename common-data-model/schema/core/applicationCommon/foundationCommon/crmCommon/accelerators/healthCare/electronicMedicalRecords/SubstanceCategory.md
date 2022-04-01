@@ -2,9 +2,9 @@
 title: SubstanceCategory in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code that classifies the general type of substance. This is used for searching, sorting and display purposes.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: NutritionOrderFoodPreferenceModifier in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This modifier is used to convey order-specific modifiers about the type of food that should be given. These can be derived from patient allergies, intolerance, or preferences.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

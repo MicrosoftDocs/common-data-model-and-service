@@ -2,9 +2,9 @@
 title: Location in Commoncore - Common Data Model | Microsoft Docs
 description: Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

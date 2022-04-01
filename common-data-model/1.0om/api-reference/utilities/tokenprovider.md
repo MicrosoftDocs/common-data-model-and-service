@@ -2,7 +2,7 @@
 title: Token Provider | Microsoft Docs
 description: API reference for TokenProvider.
 author: yidi
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 02/25/2020

@@ -2,7 +2,7 @@
 title: HTTP Client | Microsoft Docs
 description: API reference for CdmHttpClient.
 author: honchenMS
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 07/15/2021

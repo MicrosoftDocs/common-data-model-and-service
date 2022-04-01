@@ -2,9 +2,9 @@
 title: Device in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: This entity identifies an instance or a type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

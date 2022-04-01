@@ -2,9 +2,9 @@
 title: ScheduleServiceType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The specific service that is to be performed during this appointment.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

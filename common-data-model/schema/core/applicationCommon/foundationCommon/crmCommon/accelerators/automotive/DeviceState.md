@@ -2,9 +2,9 @@
 title: DeviceState in automotive - Common Data Model | Microsoft Docs
 description: Describes state of a vehicle or device, such as New, Used or Scrapped.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

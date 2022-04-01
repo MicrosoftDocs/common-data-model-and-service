@@ -2,9 +2,9 @@
 title: ReferralRequestSupportingInformation in WorkflowReferral - Common Data Model | Microsoft Docs
 description: Any additional (administrative, financial or clinical) information required to support request for referral or transfer of care.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: Business in automotive - Common Data Model | Microsoft Docs
 description: Legal entity or organization representing, for example, a national sales company, importer, distributor, dealer group or dealer in the ecosystem.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: EncounterEpisodeOfCare in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: Where a specific encounter should be classified as a part of a specific episode(s) of care this field should be used.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

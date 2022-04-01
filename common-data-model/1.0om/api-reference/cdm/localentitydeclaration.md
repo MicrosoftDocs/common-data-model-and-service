@@ -2,7 +2,7 @@
 title: Local Entity Declaration | Microsoft Docs
 description: API reference for CdmLocalEntityDeclarationDefinition.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
@@ -39,7 +39,7 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**FileStatusCheckAsync()**|Updates the object and its children, if any, with the current time.|Task|
+|**FileStatusCheckAsync()**|Recursively updates the object and its children, if any, with the current time. If this entity declaration contains a data partition pattern, this function will trigger the pattern to be matched against the files on the storage. There will be one data partition per file matching the pattern created on this entity declaration.|Task|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|

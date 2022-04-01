@@ -2,9 +2,9 @@
 title: overview of healthCare - Common Data Model | Microsoft Docs
 description: healthCare is a folder that contains standard entities related to the Common Data Model.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: v-iap
-ms.topic: article
+ms.topic: reference
 ms.date: 12/15/2020
 ms.author: weiluo
 ---

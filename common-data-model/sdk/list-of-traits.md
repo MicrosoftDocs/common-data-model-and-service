@@ -2,7 +2,7 @@
 title: A list of Common Data Model traits | Microsoft Docs
 description: A list of Common Data Model traits.
 author: msftman
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 05/06/2021
@@ -23,9 +23,7 @@ This page lists the traits which are available in Common Data Model.
 A root with a more meaningful base name for certain exhibited traits
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>does</b>|
 
@@ -49,9 +47,7 @@ None
 Elevates (up to a entity) a trait that describes a specific attribute
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- <b>does.elevateAttribute</b>|
 
@@ -77,16 +73,13 @@ None
 An attribute has a default value
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- <b>does.haveDefault</b>|
 
 
-**Properties**
 
-| |
+| Properties |
 |--|
 |<b>defaultValue</b>|
 
@@ -107,9 +100,7 @@ An attribute has a default value
 A root for traits that describe properties of an object
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>has</b>|
 
@@ -133,9 +124,7 @@ None
 The root trait for the system of traits of hierarchical categorization
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.category</b>|
 
@@ -165,9 +154,7 @@ None
 A level3 hierarchy item explaining the functional area for entities. Functional areas can divide entities by their purpose or use case such as auditing, reporting, recruiting, budgeting
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- <b>has.category.functionalArea</b>|
 
@@ -191,9 +178,7 @@ None
 Entities from AccountsReceivable functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.AccountsReceivable</b>|
 
@@ -217,9 +202,7 @@ None
 Entities from Auditing functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Auditing</b>|
 
@@ -243,9 +226,7 @@ None
 Entities from Budgeting functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Budgeting</b>|
 
@@ -269,9 +250,7 @@ None
 Entities from GeneralLedger functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.GeneralLedger</b>|
 
@@ -295,9 +274,7 @@ None
 Entities from Recruitment functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Recruitment</b>|
 
@@ -321,9 +298,7 @@ None
 Entities from Reporting functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Reporting</b>|
 
@@ -347,9 +322,7 @@ None
 Entities from Suppliers functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Suppliers</b>|
 
@@ -373,9 +346,7 @@ None
 Entities from Terminations functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Terminations</b>|
 
@@ -399,9 +370,7 @@ None
 Entities from Warehousing functional area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level3</b>](#has-category-level3) <- [<b>has.category.functionalArea</b>](#has-category-functionalarea) <- <b>has.category.functionalArea.Warehousing</b>|
 
@@ -425,9 +394,7 @@ None
 Common explanation for level1 category items
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- <b>has.category.level1</b>|
 
@@ -451,9 +418,7 @@ None
 Common explanation for level2 category items
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- <b>has.category.level2</b>|
 
@@ -477,9 +442,7 @@ None
 Common explanation for level3 category items
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- <b>has.category.level3</b>|
 
@@ -503,9 +466,7 @@ None
 A level1 hierarchy item explaining the source system for entities. Entities from a given source system are expected to be self-consistent on identifiers and similar data domains.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level1</b>](#has-category-level1) <- <b>has.category.sourceSystem</b>|
 
@@ -529,9 +490,7 @@ None
 Entities from the Dynamics365 source system
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level1</b>](#has-category-level1) <- [<b>has.category.sourceSystem</b>](#has-category-sourcesystem) <- <b>has.category.sourceSystem.Dynamics365</b>|
 
@@ -555,9 +514,7 @@ None
 A level2 hierarchy item explaining the subject area entities. Subject areas can represent broad business categories such as Finance, Sales and Human Resouces
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- <b>has.category.subjectArea</b>|
 
@@ -581,9 +538,7 @@ None
 Entities from Commerce subject area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.Commerce</b>|
 
@@ -607,9 +562,7 @@ None
 Entities from Finance subject area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.Finance</b>|
 
@@ -633,9 +586,7 @@ None
 Entities from Human Resources subject area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.HumanResources</b>|
 
@@ -659,9 +610,7 @@ None
 Entities from Supply Chain subject area
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.category</b>](#has-category) <- [<b>has.category.level2</b>](#has-category-level2) <- [<b>has.category.subjectArea</b>](#has-category-subjectarea) <- <b>has.category.subjectArea.SupplyChain</b>|
 
@@ -685,9 +634,7 @@ None
 Defines a list of localizable text descriptions
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.description</b>|
 
@@ -713,9 +660,7 @@ None
 Defines a localized string representing an arbitrary folder structure for display purposes.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.displayFolder</b>|
 
@@ -741,9 +686,7 @@ None
 Defines a localized string defining display text for an object.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.displayName</b>|
 
@@ -769,9 +712,7 @@ None
 A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.entitySchemaAbstractionLevel</b>|
 
@@ -791,9 +732,7 @@ None
 ## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.expansionInfo</b>|
 
@@ -818,9 +757,7 @@ None
 Marks the attribute that is part of a list and its ordinal.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo.list</b>|
 
@@ -846,9 +783,7 @@ None
 Marks the attribute that is one of the values in a map and its ordinal.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo-mapValue</b>|
 
@@ -875,9 +810,7 @@ None
 Has a list of files associated with.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.fileList</b>|
 
@@ -903,9 +836,7 @@ None
 Description of one fundamental component of a derived unit
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>has.measurement.fundamentalComponent</b>|
 
@@ -936,9 +867,7 @@ None
 A fundamental component expressing electric current in amperes
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.ampere</b>|
 
@@ -962,9 +891,7 @@ None
 A fundamental component expressing luminous intensity in candelas
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.candela</b>|
 
@@ -988,9 +915,7 @@ None
 A fundamental component expressing thermodynamic temperature in degrees kelvin
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.kelvin</b>|
 
@@ -1014,9 +939,7 @@ None
 A fundamental component expressing mass in kilogram
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.kilogram</b>|
 
@@ -1040,9 +963,7 @@ None
 A fundamental component expressing length in meters
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.meter</b>|
 
@@ -1066,9 +987,7 @@ None
 A fundamental component expressing amount in moles
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.mole</b>|
 
@@ -1092,9 +1011,7 @@ None
 A fundamental component expressing time in seconds
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>has.measurement.fundamentalComponent</b>](#has-measurement-fundamentalcomponent) <- <b>has.measurement.fundamentalComponent.second</b>|
 
@@ -1118,9 +1035,7 @@ None
 The root trait for the hierarchy related to the origin of schema.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.origin</b>|
 
@@ -1144,9 +1059,7 @@ None
 A trait defining the origination of the datasource for the schema.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.origin</b>](#has-origin) <- <b>has.origin.dataSource</b>|
 
@@ -1172,9 +1085,7 @@ None
 A trait defining the domain from which the schema originated.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.origin</b>](#has-origin) <- <b>has.origin.domain</b>|
 
@@ -1200,9 +1111,8 @@ None
 The root trait for all traits related specifically to Relational activity.
 
 
-**Inheritance**
 
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.relational</b>|
 
@@ -1226,9 +1136,7 @@ None
 Base trait for default relational aggregations associated with an Attributes.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- <b>has.relational.defaultAggregation</b>|
 
@@ -1254,9 +1162,7 @@ None
 Specifies average as the default relational aggregation associated with an Attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.defaultAggregation</b>](#has-relational-defaultaggregation) <- <b>has.relational.defaultAggregation.average</b>|
 
@@ -1280,9 +1186,7 @@ None
 Specifies count as the default relational aggregation associated with an Attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.defaultAggregation</b>](#has-relational-defaultaggregation) <- <b>has.relational.defaultAggregation.count</b>|
 
@@ -1306,9 +1210,7 @@ None
 Specifies count distinct as the default relational aggregation associated with an Attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.defaultAggregation</b>](#has-relational-defaultaggregation) <- <b>has.relational.defaultAggregation.countDistinct</b>|
 
@@ -1332,9 +1234,7 @@ None
 Specifies maximum as the default relational aggregation associated with an Attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.defaultAggregation</b>](#has-relational-defaultaggregation) <- <b>has.relational.defaultAggregation.maximum</b>|
 
@@ -1358,9 +1258,7 @@ None
 Specifies minimum as the default relational aggregation associated with an Attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.defaultAggregation</b>](#has-relational-defaultaggregation) <- <b>has.relational.defaultAggregation.minimum</b>|
 
@@ -1384,9 +1282,7 @@ None
 Specifies sum as the default relational aggregation associated with an Attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.defaultAggregation</b>](#has-relational-defaultaggregation) <- <b>has.relational.defaultAggregation.sum</b>|
 
@@ -1410,9 +1306,7 @@ None
 Base trait for relational join types associated with a Relationship.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- <b>has.relational.joinType</b>|
 
@@ -1438,9 +1332,7 @@ None
 Specifies FULL OUTER JOIN as the default relational join type associated with this Relationship.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.joinType</b>](#has-relational-jointype) <- <b>has.relational.joinType.fullOuter</b>|
 
@@ -1464,9 +1356,8 @@ None
 Specifies INNER JOIN as the default relational join type associated with this Relationship.
 
 
-**Inheritance**
 
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.joinType</b>](#has-relational-jointype) <- <b>has.relational.joinType.inner</b>|
 
@@ -1490,9 +1381,7 @@ None
 Specifies LEFT ANTI JOIN as the default relational join type associated with this Relationship.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.joinType</b>](#has-relational-jointype) <- <b>has.relational.joinType.leftAnti</b>|
 
@@ -1516,9 +1405,7 @@ None
 Specifies LEFT OUTER JOIN as the default relational join type associated with this Relationship.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.joinType</b>](#has-relational-jointype) <- <b>has.relational.joinType.leftOuter</b>|
 
@@ -1542,9 +1429,7 @@ None
 Specifies RIGHT ANTI JOIN as the default relational join type associated with this Relationship.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.joinType</b>](#has-relational-jointype) <- <b>has.relational.joinType.rightAnti</b>|
 
@@ -1568,9 +1453,7 @@ None
 Specifies RIGHT OUTER JOIN as the default relational join type associated with this Relationship.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relational</b>](#has-relational) <- [<b>has.relational.joinType</b>](#has-relational-jointype) <- <b>has.relational.joinType.rightOuter</b>|
 
@@ -1594,9 +1477,7 @@ None
 The root trait for annotative traits relevant to relationships
 
 
-**Inheritance**
-
-| |
+|  Inheritance|
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.relationship</b>|
 
@@ -1620,9 +1501,7 @@ None
 String value is a clause representing a constraint on the relationship in chosen syntax
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.relationship</b>](#has-relationship) <- <b>has.relationship.constraint</b>|
 
@@ -1648,9 +1527,9 @@ None
 The schema object has an identifier, which is a string, specified as the parameter of the trait. This allows writers to define additional identification values.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.schemaObjectIdentifier</b>|
 
@@ -1676,9 +1555,7 @@ None
 Marks the attribute is the count of elements in an expansion.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>indicates.expansionInfo.count</b>|
 
@@ -1702,9 +1579,7 @@ None
 Marks the attribute that is one of the keys in a map and its ordinal.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>indicates.expansionInfo.mapKey</b>|
 
@@ -1730,7 +1605,7 @@ None
 The root 'trait' from which all others derive.
 
 
-**Inheritance**
+
 
 None
 
@@ -1748,9 +1623,8 @@ None
 ## <a id="is-addedinsupportof"><b>is.addedInSupportOf</b></a>
 
 
-**Inheritance**
 
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.addedInSupportOf</b>|
 
@@ -1776,9 +1650,7 @@ None
 Root trait for application information
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.application</b>|
 
@@ -1796,9 +1668,7 @@ None
 ## <a id="is-application-releaseversion"><b>is.application.releaseVersion</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.application</b>](#is-application) <- <b>is.application.releaseVersion</b>|
 
@@ -1824,9 +1694,7 @@ None
 The attribute value is the result of a calculation on the sourceAttribute
 
 
-**Inheritance**
-
-| |
+|Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.correlatedWith</b>](#is-correlatedwith) <- <b>is.calculationOf</b>|
 
@@ -1850,9 +1718,7 @@ None
 Root trait for information about the CDM itself.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.CDM</b>|
 
@@ -1876,16 +1742,14 @@ None
 Identifies standard groups of attributes in CDM entities.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.CDM</b>](#is-cdm) <- <b>is.CDM.attributeGroup</b>|
 
 
 **Properties**
 
-| |
+| Inheritance |
 |--|
 |<b>cdmSchemas</b>|
 
@@ -1900,16 +1764,12 @@ Identifies standard groups of attributes in CDM entities.
 ## <a id="is-cdm-entityversion"><b>is.CDM.entityVersion</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.CDM</b>](#is-cdm) <- <b>is.CDM.entityVersion</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>version</b>|
 
@@ -1930,16 +1790,12 @@ Identifies standard groups of attributes in CDM entities.
 Maximum length or value constraints
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.constrained</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>maximumValue</b>|
 |<b>minimumValue</b>|
@@ -1964,16 +1820,12 @@ Maximum length or value constraints
 The values of an attribute are taken from or looked up from a fixed list of possibilities
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.constrainedList</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>valueConstrainedToList</b>|
 
@@ -1994,16 +1846,14 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 The values of an attribute are taken from or looked up from a fixed list of possibilities that represent correlated status
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.constrainedList.correlated</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>valueConstrainedToList</b>|
 
@@ -2024,16 +1874,12 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 The values of an attribute are taken from or looked up from a fixed list of possibilities
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.constrainedList.string</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>valueConstrainedToList</b>|
 
@@ -2054,16 +1900,12 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 The values of an attribute are taken from or looked up from a fixed list of possibilities which are defined in an identified public location.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.constrainedList.wellKnown</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>valueConstrainedToList</b>|
 
@@ -2085,9 +1927,7 @@ The values of an attribute are taken from or looked up from a fixed list of poss
 The attribute value is correlated with the sourceAttribute
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.correlatedWith</b>|
 
@@ -2107,16 +1947,14 @@ None
 ## <a id="is-dataformat"><b>is.dataFormat</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.dataFormat</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2135,16 +1973,14 @@ None
 Indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.array</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2163,16 +1999,14 @@ None
 Indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.big</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2185,16 +2019,14 @@ None
 ## <a id="is-dataformat-boolean"><b>is.dataFormat.boolean</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.boolean</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2207,16 +2039,14 @@ None
 ## <a id="is-dataformat-byte"><b>is.dataFormat.byte</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.byte</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2229,16 +2059,14 @@ None
 ## <a id="is-dataformat-character"><b>is.dataFormat.character</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.character</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2251,16 +2079,14 @@ None
 ## <a id="is-dataformat-date"><b>is.dataFormat.date</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.date</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2273,16 +2099,14 @@ None
 ## <a id="is-dataformat-floatingpoint"><b>is.dataFormat.floatingPoint</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.floatingPoint</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2295,16 +2119,14 @@ None
 ## <a id="is-dataformat-guid"><b>is.dataFormat.guid</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.guid</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2317,16 +2139,14 @@ None
 ## <a id="is-dataformat-integer"><b>is.dataFormat.integer</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.integer</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2345,16 +2165,14 @@ None
 Represents the 54 bit integer numbers compatible with javascript
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.JSInteger</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2372,9 +2190,7 @@ None
 Marks the attribute that contains a list of attributes.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.list</b>
 
@@ -2392,16 +2208,14 @@ None
 ## <a id="is-dataformat-numeric"><b>is.dataFormat.numeric</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance|
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.numeric</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2420,16 +2234,14 @@ None
 For setting the exact precision and scale of numeric values
 
 
-**Inheritance**
-
-| |
+| Inheritance|
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- [<b>is.dataFormat.numeric</b>](#is-dataformat-numeric) <- <b>is.dataFormat.numeric.shaped</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2451,9 +2263,7 @@ For setting the exact precision and scale of numeric values
 Marks the attribute that contains a map of attributes.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.map</b>|
 
@@ -2474,10 +2284,7 @@ None
 Marks the attribute that is one of the keys in a map.
 
 
-**Inheritance**
-
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapKey</b>|
 
@@ -2499,10 +2306,7 @@ None
 Marks the attribute that is one of the values in a map.
 
 
-**Inheritance**
-
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapValue</b>|
 
@@ -2520,16 +2324,14 @@ None
 ## <a id="is-dataformat-small"><b>is.dataFormat.small</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.small</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2542,16 +2344,14 @@ None
 ## <a id="is-dataformat-time"><b>is.dataFormat.time</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.time</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2564,16 +2364,14 @@ None
 ## <a id="is-dataformat-timeoffset"><b>is.dataFormat.timeOffset</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.timeOffset</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>dataFormat</b>|
 
@@ -2592,9 +2390,7 @@ None
 A root for traits that describe how data is formatted
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.formatted</b>|
 
@@ -2618,9 +2414,7 @@ None
 Date data formatted as a string in ISO 8601 format
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.date</b>|
 
@@ -2646,9 +2440,7 @@ None
 DateTime data formatted as a string in ISO 8601 format
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.dateTime</b>|
 
@@ -2674,9 +2466,7 @@ None
 Values are stored using the specified culture
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.forCulture</b>|
 
@@ -2702,9 +2492,7 @@ None
 String data is formatted according to the format parameter
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.text</b>|
 
@@ -2730,9 +2518,7 @@ None
 Time data formatted as a string in ISO 8601 format
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.formatted</b>](#is-formatted) <- <b>is.formatted.time</b>|
 
@@ -2758,7 +2544,7 @@ None
 All attributes with this trait should be hidden from view of the entity consumer.
 
 
-**Inheritance**
+
 
 None
 
@@ -2782,16 +2568,14 @@ None
 Names a specifc identity attribute to use with an entity
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.identifiedBy</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>primaryKey</b>|
 |<b>isPrimaryKey</b>|
@@ -2811,9 +2595,7 @@ None
 The data represents an amount of the specified currency
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.inCurrency</b>|
 
@@ -2839,9 +2621,7 @@ None
 The associated data is assumed to be in the specified time zone
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.inTimeZone</b>|
 
@@ -2868,9 +2648,7 @@ None
 The associated data is assumed to be in the specified time zone. timeZoneName value is a Microsoft standard time zone name. see https://support.microsoft.com/en-us/help/973627
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.inTimeZone</b>](#is-intimezone) <- <b>is.inTimeZone.MicrosoftFormat</b>|
 
@@ -2894,9 +2672,7 @@ None
 The associated data is assumed to be in the specified time zone. timeZoneName value is a Time Zone Database standard time zone name. see https://www.iana.org/time-zones
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.inTimeZone</b>](#is-intimezone) <- <b>is.inTimeZone.tzDatabaseFormat</b>|
 
@@ -2920,7 +2696,7 @@ None
 Base for traits that are used to decorate the attributes and artifacts created by the traits on the hasFlexibleRelationshipWithEntity relationship.
 
 
-**Inheritance**
+
 
 None
 
@@ -2944,7 +2720,7 @@ None
 Identifies the case when one entity links to (uses as an attribute) an array of other entities.
 
 
-**Inheritance**
+
 
 None
 
@@ -2968,7 +2744,7 @@ None
 Marks an attribute that contains the count of items in the array of linked (used as an attribute) entities
 
 
-**Inheritance**
+
 
 None
 
@@ -2992,9 +2768,7 @@ None
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is.linkedEntity</b>](#is-linkedentity) <- <b>is.linkedEntity.identifier</b>|
 
@@ -3020,9 +2794,7 @@ None
 Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is.linkedEntity</b>](#is-linkedentity) <- <b>is.linkedEntity.name</b>|
 
@@ -3046,9 +2818,7 @@ None
 Associates a list of localized string with an object
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.localized</b>|
 
@@ -3074,16 +2844,14 @@ None
 Holds the list of language specific descriptive text for an object.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.localized</b>](#is-localized) <- <b>is.localized.describedAs</b>|
 
 
 **Properties**
 
-| |
+| Properties |
 |--|
 |<b>description</b>|
 
@@ -3102,16 +2870,12 @@ None
 Holds the list of language specific display text for an object.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.localized</b>](#is-localized) <- <b>is.localized.displayedAs</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>displayName</b>|
 
@@ -3124,9 +2888,7 @@ None
 ## <a id="is-locatable"><b>is.locatable</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.locatable</b>|
 
@@ -3150,9 +2912,7 @@ None
 The value denotes information about a service/entity who is owning a model.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.managedBy</b>|
 
@@ -3178,9 +2938,7 @@ None
 Represents a correlation with model.json to CDM model conversion.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.modelConversion</b>|
 
@@ -3204,9 +2962,7 @@ None
 The value denotes the version number set in a converted model.json file
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.modelConversion</b>](#is-modelconversion) <- <b>is.modelConversion.modelVersion</b>|
 
@@ -3232,9 +2988,7 @@ None
 The value denotes model.json annotations which have not been recognized.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.modelConversion</b>](#is-modelconversion) <- <b>is.modelConversion.otherAnnotations</b>|
 
@@ -3260,9 +3014,7 @@ None
 The value denotes a reference model map containing multiple id-location pairs used for reference entity resolution.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.modelConversion</b>](#is-modelconversion) <- <b>is.modelConversion.referenceModelMap</b>|
 
@@ -3282,9 +3034,7 @@ None
 ## <a id="is-named"><b>is.named</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.named</b>|
 
@@ -3308,16 +3058,12 @@ None
 The attribute value may be set to NULL.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.nullable</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>isNullable</b>|
 
@@ -3330,9 +3076,8 @@ None
 ## <a id="is-ordered"><b>is.ordered</b></a>
 
 
-**Inheritance**
 
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>is.ordered</b>|
 
@@ -3356,9 +3101,7 @@ None
 The base trait for partition specific traits.
 
 
-**Inheritance**
-
-| |
+|Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.partition</b>|
 
@@ -3382,9 +3125,7 @@ None
 The value is the compression format represented.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.compressed</b>|
 
@@ -3410,9 +3151,7 @@ None
 The value denotes culture in the partition files.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.culture</b>|
 
@@ -3432,9 +3171,7 @@ None
 ## <a id="is-partition-format"><b>is.partition.format</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.format</b>|
 
@@ -3458,9 +3195,7 @@ None
 The value is the file format settings of a partition CSV file.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.CSV</b>|
 
@@ -3495,9 +3230,7 @@ None
 The partition path points to one complete folder of Spark Delta Lake data. Options allow for time travel access to the data.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.deltaLake</b>|
 
@@ -3524,9 +3257,7 @@ None
 The value is the file format settings of a partition parquet file.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.parquet</b>|
 
@@ -3544,16 +3275,12 @@ None
 ## <a id="is-readonly"><b>is.readOnly</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.readOnly</b>|
 
 
-**Properties**
-
-| |
+| Properties |
 |--|
 |<b>isReadOnly</b>|
 
@@ -3572,9 +3299,7 @@ None
 Root trait for structural traits relevant to relationships
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.relationship</b>|
 
@@ -3598,9 +3323,7 @@ None
 The default relationship when there are multiple relationships between two entities.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.relationship.default</b>|
 
@@ -3618,9 +3341,7 @@ None
 ## <a id="is-required"><b>is.required</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.required</b>|
 
@@ -3644,9 +3365,7 @@ None
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.requiredAtLevel</b>|
 
@@ -3666,9 +3385,7 @@ None
 ## <a id="is-secret"><b>is.secret</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.secret</b>|
 
@@ -3686,9 +3403,7 @@ None
 ## <a id="is-sensitive"><b>is.sensitive</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.sensitive</b>|
 
@@ -3711,9 +3426,7 @@ None
 Stores location of the default lake linked to the SyMS workspace. This is a mandatory trait for SyMS write operation.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.storagesource</b>|
 
@@ -3737,9 +3450,7 @@ None
 Marks an attribute added to an entity to document or represent a concept, often regarding other attributes. When working with data, be aware that virtual attributes might never have corresponding data values in an entity's partition or might only have data values if special measures are taken to manifest them.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.virtual.attribute</b>|
 
@@ -3763,9 +3474,7 @@ None
 A root with a more meaningful base name for certain semantic meaning traits
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>means</b>|
 
@@ -3783,9 +3492,7 @@ None
 ## <a id="means-calendar"><b>means.calendar</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.calendar</b>|
 
@@ -3803,9 +3510,7 @@ None
 ## <a id="means-calendar-day"><b>means.calendar.day</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.day</b>|
 
@@ -3823,9 +3528,7 @@ None
 ## <a id="means-calendar-dayofhalfyear"><b>means.calendar.dayOfHalfyear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfHalfyear</b>|
 
@@ -3843,9 +3546,9 @@ None
 ## <a id="means-calendar-dayofmonth"><b>means.calendar.dayOfMonth</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfMonth</b>|
 
@@ -3863,9 +3566,7 @@ None
 ## <a id="means-calendar-dayofmonthorperiod"><b>means.calendar.dayOfMonthOrPeriod</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfMonthOrPeriod</b>|
 
@@ -3883,9 +3584,7 @@ None
 ## <a id="means-calendar-dayofquarter"><b>means.calendar.dayOfQuarter</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfQuarter</b>|
 
@@ -3903,9 +3602,7 @@ None
 ## <a id="means-calendar-dayoftendays"><b>means.calendar.dayOfTendays</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfTendays</b>|
 
@@ -3923,9 +3620,7 @@ None
 ## <a id="means-calendar-dayoftrimester"><b>means.calendar.dayOfTrimester</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfTrimester</b>|
 
@@ -3943,9 +3638,7 @@ None
 ## <a id="means-calendar-dayofweek"><b>means.calendar.dayOfWeek</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfWeek</b>|
 
@@ -3963,9 +3656,7 @@ None
 ## <a id="means-calendar-dayofyear"><b>means.calendar.dayOfYear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.day</b>](#means-calendar-day) <- <b>means.calendar.dayOfYear</b>|
 
@@ -3983,9 +3674,7 @@ None
 ## <a id="means-calendar-fiscal"><b>means.calendar.fiscal</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.fiscal</b>|
 
@@ -4003,9 +3692,7 @@ None
 ## <a id="means-calendar-iso8601"><b>means.calendar.ISO8601</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.ISO8601</b>|
 
@@ -4023,9 +3710,7 @@ None
 ## <a id="means-calendar-manufacturing"><b>means.calendar.manufacturing</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.manufacturing</b>|
 
@@ -4043,9 +3728,7 @@ None
 ## <a id="means-calendar-month"><b>means.calendar.month</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.month</b>|
 
@@ -4063,9 +3746,7 @@ None
 ## <a id="means-calendar-monthofhalfyear"><b>means.calendar.monthOfHalfyear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfHalfyear</b>|
 
@@ -4083,9 +3764,7 @@ None
 ## <a id="means-calendar-monthofquarter"><b>means.calendar.monthOfQuarter</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfQuarter</b>|
 
@@ -4103,9 +3782,7 @@ None
 ## <a id="means-calendar-monthoftrimester"><b>means.calendar.monthOfTrimester</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfTrimester</b>|
 
@@ -4123,9 +3800,7 @@ None
 ## <a id="means-calendar-monthofyear"><b>means.calendar.monthOfYear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.month</b>](#means-calendar-month) <- <b>means.calendar.monthOfYear</b>|
 
@@ -4143,9 +3818,7 @@ None
 ## <a id="means-calendar-quarter"><b>means.calendar.quarter</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.quarter</b>|
 
@@ -4163,9 +3836,7 @@ None
 ## <a id="means-calendar-quarterofhalfyear"><b>means.calendar.quarterOfHalfyear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.quarter</b>](#means-calendar-quarter) <- <b>means.calendar.quarterOfHalfyear</b>|
 
@@ -4183,9 +3854,7 @@ None
 ## <a id="means-calendar-quarterofyear"><b>means.calendar.quarterOfYear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.quarter</b>](#means-calendar-quarter) <- <b>means.calendar.quarterOfYear</b>|
 
@@ -4203,9 +3872,7 @@ None
 ## <a id="means-calendar-reporting"><b>means.calendar.reporting</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.reporting</b>|
 
@@ -4223,9 +3890,7 @@ None
 ## <a id="means-calendar-tenday"><b>means.calendar.tenday</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.tenday</b>|
 
@@ -4243,9 +3908,7 @@ None
 ## <a id="means-calendar-tendayofhalfyear"><b>means.calendar.tendayOfHalfyear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfHalfyear</b>|
 
@@ -4263,9 +3926,7 @@ None
 ## <a id="means-calendar-tendayofmonth"><b>means.calendar.tendayOfMonth</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfMonth</b>|
 
@@ -4283,9 +3944,7 @@ None
 ## <a id="means-calendar-tendayofquarter"><b>means.calendar.tendayOfQuarter</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfQuarter</b>|
 
@@ -4303,9 +3962,7 @@ None
 ## <a id="means-calendar-tendayoftrimester"><b>means.calendar.tendayOfTrimester</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfTrimester</b>|
 
@@ -4323,9 +3980,7 @@ None
 ## <a id="means-calendar-tendayofyear"><b>means.calendar.tendayOfYear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.tenday</b>](#means-calendar-tenday) <- <b>means.calendar.tendayOfYear</b>|
 
@@ -4343,9 +3998,7 @@ None
 ## <a id="means-calendar-trimester"><b>means.calendar.trimester</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.trimester</b>|
 
@@ -4363,9 +4016,7 @@ None
 ## <a id="means-calendar-trimesterofyear"><b>means.calendar.trimesterOfYear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.trimester</b>](#means-calendar-trimester) <- <b>means.calendar.trimesterOfYear</b>|
 
@@ -4383,9 +4034,7 @@ None
 ## <a id="means-calendar-week"><b>means.calendar.week</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.week</b>|
 
@@ -4403,9 +4052,7 @@ None
 ## <a id="means-calendar-weekofhalfyear"><b>means.calendar.weekOfHalfyear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfHalfyear</b>|
 
@@ -4423,9 +4070,7 @@ None
 ## <a id="means-calendar-weekofmonth"><b>means.calendar.weekOfMonth</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfMonth</b>|
 
@@ -4443,9 +4088,7 @@ None
 ## <a id="means-calendar-weekofquarter"><b>means.calendar.weekOfQuarter</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfQuarter</b>|
 
@@ -4463,9 +4106,7 @@ None
 ## <a id="means-calendar-weekoftrimester"><b>means.calendar.weekOfTrimester</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfTrimester</b>|
 
@@ -4483,9 +4124,7 @@ None
 ## <a id="means-calendar-weekofyear"><b>means.calendar.weekOfYear</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- [<b>means.calendar.week</b>](#means-calendar-week) <- <b>means.calendar.weekOfYear</b>|
 
@@ -4503,9 +4142,7 @@ None
 ## <a id="means-calendar-year"><b>means.calendar.year</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.calendar</b>](#means-calendar) <- <b>means.calendar.year</b>|
 
@@ -4523,9 +4160,7 @@ None
 ## <a id="means-category"><b>means.category</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.category</b>|
 
@@ -4543,9 +4178,7 @@ None
 ## <a id="means-content"><b>means.content</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.content</b>|
 
@@ -4563,9 +4196,7 @@ None
 ## <a id="means-content-binary"><b>means.content.binary</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- <b>means.content.binary</b>|
 
@@ -4583,9 +4214,7 @@ None
 ## <a id="means-content-binary-image"><b>means.content.binary.image</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- <b>means.content.binary.image</b>|
 
@@ -4603,9 +4232,7 @@ None
 ## <a id="means-content-binary-image-bmp"><b>means.content.binary.image.BMP</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.BMP</b>|
 
@@ -4623,9 +4250,7 @@ None
 ## <a id="means-content-binary-image-gif"><b>means.content.binary.image.GIF</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.GIF</b>|
 
@@ -4643,9 +4268,7 @@ None
 ## <a id="means-content-binary-image-jpg"><b>means.content.binary.image.JPG</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.JPG</b>|
 
@@ -4663,9 +4286,7 @@ None
 ## <a id="means-content-binary-image-png"><b>means.content.binary.image.PNG</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.PNG</b>|
 
@@ -4683,9 +4304,7 @@ None
 ## <a id="means-content-binary-image-tiff"><b>means.content.binary.image.TIFF</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.binary</b>](#means-content-binary) <- [<b>means.content.binary.image</b>](#means-content-binary-image) <- <b>means.content.binary.image.TIFF</b>|
 
@@ -4703,9 +4322,7 @@ None
 ## <a id="means-content-text"><b>means.content.text</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- <b>means.content.text</b>|
 
@@ -4723,9 +4340,7 @@ None
 ## <a id="means-content-text-csv"><b>means.content.text.CSV</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.CSV</b>|
 
@@ -4743,9 +4358,7 @@ None
 ## <a id="means-content-text-html"><b>means.content.text.HTML</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.HTML</b>|
 
@@ -4763,9 +4376,7 @@ None
 ## <a id="means-content-text-json"><b>means.content.text.JSON</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.JSON</b>|
 
@@ -4783,9 +4394,7 @@ None
 ## <a id="means-content-text-xml"><b>means.content.text.XML</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.content</b>](#means-content) <- [<b>means.content.text</b>](#means-content-text) <- <b>means.content.text.XML</b>|
 
@@ -4803,9 +4412,7 @@ None
 ## <a id="means-demographic"><b>means.demographic</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.demographic</b>|
 
@@ -4823,9 +4430,7 @@ None
 ## <a id="means-demographic-age"><b>means.demographic.age</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.age</b>|
 
@@ -4843,9 +4448,7 @@ None
 ## <a id="means-demographic-birthdate"><b>means.demographic.birthDate</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.birthDate</b>|
 
@@ -4863,9 +4466,7 @@ None
 ## <a id="means-demographic-education"><b>means.demographic.education</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.education</b>|
 
@@ -4883,9 +4484,7 @@ None
 ## <a id="means-demographic-ethnicity"><b>means.demographic.ethnicity</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.ethnicity</b>|
 
@@ -4903,9 +4502,7 @@ None
 ## <a id="means-demographic-gender"><b>means.demographic.gender</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.gender</b>|
 
@@ -4923,9 +4520,7 @@ None
 ## <a id="means-demographic-income"><b>means.demographic.income</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.income</b>|
 
@@ -4943,9 +4538,7 @@ None
 ## <a id="means-demographic-maritalstatus"><b>means.demographic.maritalStatus</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.demographic</b>](#means-demographic) <- <b>means.demographic.maritalStatus</b>|
 
@@ -4969,9 +4562,7 @@ None
 A string value is the name of a CDM entity.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.entityName</b>|
 
@@ -4995,9 +4586,7 @@ None
 Holds the name of specific CDM entity as a parameter of the trait.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.entityName</b>](#means-entityname) <- <b>means.entityName.specific</b>|
 
@@ -5023,9 +4612,7 @@ None
 The attribute represents the current state of the entity.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>does</b>](#does) <- [<b>does.elevateAttribute</b>](#does-elevateattribute) <- <b>means.entityState</b>|
 
@@ -5043,9 +4630,7 @@ None
 ## <a id="means-filename"><b>means.fileName</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.fileName</b>|
 
@@ -5063,9 +4648,7 @@ None
 ## <a id="means-formatting"><b>means.formatting</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.formatting</b>|
 
@@ -5083,9 +4666,7 @@ None
 ## <a id="means-formatting-color"><b>means.formatting.color</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.color</b>|
 
@@ -5103,9 +4684,7 @@ None
 ## <a id="means-formatting-font"><b>means.formatting.font</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.font</b>|
 
@@ -5123,9 +4702,7 @@ None
 ## <a id="means-formatting-font-effects"><b>means.formatting.font.effects</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- [<b>means.formatting.font</b>](#means-formatting-font) <- <b>means.formatting.font.effects</b>|
 
@@ -5143,9 +4720,7 @@ None
 ## <a id="means-formatting-font-size"><b>means.formatting.font.size</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- [<b>means.formatting.font</b>](#means-formatting-font) <- <b>means.formatting.font.size</b>|
 
@@ -5163,9 +4738,7 @@ None
 ## <a id="means-formatting-heading"><b>means.formatting.heading</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.heading</b>|
 
@@ -5183,9 +4756,7 @@ None
 ## <a id="means-formatting-order"><b>means.formatting.order</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.order</b>|
 
@@ -5209,9 +4780,7 @@ None
 Indicates this value represents the format of a string
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.formatting</b>](#means-formatting) <- <b>means.formatting.stringFormat</b>|
 
@@ -5229,9 +4798,7 @@ None
 ## <a id="means-idea"><b>means.idea</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.idea</b>|
 
@@ -5249,9 +4816,7 @@ None
 ## <a id="means-idea-account"><b>means.idea.account</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.account</b>|
 
@@ -5269,9 +4834,7 @@ None
 ## <a id="means-idea-accountleads"><b>means.idea.accountLeads</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.accountLeads</b>|
 
@@ -5289,9 +4852,7 @@ None
 ## <a id="means-idea-activityparty"><b>means.idea.activityParty</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.activityParty</b>|
 
@@ -5309,9 +4870,7 @@ None
 ## <a id="means-idea-activitypointer"><b>means.idea.activityPointer</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.activityPointer</b>|
 
@@ -5329,9 +4888,7 @@ None
 ## <a id="means-idea-annotation"><b>means.idea.annotation</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.annotation</b>|
 
@@ -5349,9 +4906,7 @@ None
 ## <a id="means-idea-appointment"><b>means.idea.appointment</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.appointment</b>|
 
@@ -5369,9 +4924,7 @@ None
 ## <a id="means-idea-brand"><b>means.idea.brand</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.brand</b>|
 
@@ -5389,9 +4942,7 @@ None
 ## <a id="means-idea-businessunit"><b>means.idea.businessUnit</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.businessUnit</b>|
 
@@ -5409,9 +4960,7 @@ None
 ## <a id="means-idea-campaign"><b>means.idea.campaign</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaign</b>|
 
@@ -5429,9 +4978,7 @@ None
 ## <a id="means-idea-campaignactivity"><b>means.idea.campaignActivity</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignActivity</b>|
 
@@ -5449,9 +4996,7 @@ None
 ## <a id="means-idea-campaignitem"><b>means.idea.campaignItem</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignItem</b>|
 
@@ -5469,9 +5014,7 @@ None
 ## <a id="means-idea-campaignresponse"><b>means.idea.campaignResponse</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.campaignResponse</b>|
 
@@ -5489,9 +5032,7 @@ None
 ## <a id="means-idea-channel"><b>means.idea.channel</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.channel</b>|
 
@@ -5509,9 +5050,7 @@ None
 ## <a id="means-idea-characteristic"><b>means.idea.characteristic</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.characteristic</b>|
 
@@ -5529,9 +5068,7 @@ None
 ## <a id="means-idea-company"><b>means.idea.company</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.organization</b>](#means-idea-organization) <- <b>means.idea.company</b>|
 
@@ -5549,9 +5086,7 @@ None
 ## <a id="means-idea-competitor"><b>means.idea.competitor</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.competitor</b>|
 
@@ -5569,9 +5104,7 @@ None
 ## <a id="means-idea-competitoraddress"><b>means.idea.competitorAddress</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.competitorAddress</b>|
 
@@ -5589,9 +5122,7 @@ None
 ## <a id="means-idea-competitorproduct"><b>means.idea.competitorProduct</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.competitorProduct</b>|
 
@@ -5609,9 +5140,7 @@ None
 ## <a id="means-idea-connection"><b>means.idea.connection</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.connection</b>|
 
@@ -5629,9 +5158,7 @@ None
 ## <a id="means-idea-connectionrole"><b>means.idea.connectionRole</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.connectionRole</b>|
 
@@ -5649,9 +5176,7 @@ None
 ## <a id="means-idea-contract"><b>means.idea.contract</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.contract</b>|
 
@@ -5669,9 +5194,7 @@ None
 ## <a id="means-idea-contractdetail"><b>means.idea.contractDetail</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.contractDetail</b>|
 
@@ -5689,9 +5212,7 @@ None
 ## <a id="means-idea-customer"><b>means.idea.customer</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customer</b>|
 
@@ -5709,9 +5230,7 @@ None
 ## <a id="means-idea-customeraddress"><b>means.idea.customerAddress</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customerAddress</b>|
 
@@ -5729,9 +5248,7 @@ None
 ## <a id="means-idea-customerrelationship"><b>means.idea.customerRelationship</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.customerRelationship</b>|
 
@@ -5749,9 +5266,7 @@ None
 ## <a id="means-idea-discount"><b>means.idea.discount</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.discount</b>|
 
@@ -5769,9 +5284,7 @@ None
 ## <a id="means-idea-discounttype"><b>means.idea.discountType</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.discountType</b>|
 
@@ -5789,9 +5302,7 @@ None
 ## <a id="means-idea-email"><b>means.idea.email</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.email</b>|
 
@@ -5809,9 +5320,7 @@ None
 ## <a id="means-idea-employer"><b>means.idea.employer</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.employer</b>|
 
@@ -5829,9 +5338,7 @@ None
 ## <a id="means-idea-entitlement"><b>means.idea.entitlement</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.entitlement</b>|
 
@@ -5849,9 +5356,9 @@ None
 ## <a id="means-idea-equipment"><b>means.idea.equipment</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.equipment</b>|
 
@@ -5869,9 +5376,9 @@ None
 ## <a id="means-idea-fax"><b>means.idea.fax</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.fax</b>|
 
@@ -5889,9 +5396,9 @@ None
 ## <a id="means-idea-feedback"><b>means.idea.feedback</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.feedback</b>|
 
@@ -5909,9 +5416,9 @@ None
 ## <a id="means-idea-goal"><b>means.idea.goal</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.goal</b>|
 
@@ -5929,9 +5436,9 @@ None
 ## <a id="means-idea-incident"><b>means.idea.incident</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.incident</b>|
 
@@ -5949,9 +5456,9 @@ None
 ## <a id="means-idea-invoice"><b>means.idea.invoice</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.invoice</b>|
 
@@ -5969,9 +5476,9 @@ None
 ## <a id="means-idea-invoicedetail"><b>means.idea.invoiceDetail</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.invoiceDetail</b>|
 
@@ -5989,9 +5496,9 @@ None
 ## <a id="means-idea-kbarticle"><b>means.idea.KbArticle</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.KbArticle</b>|
 
@@ -6009,9 +5516,9 @@ None
 ## <a id="means-idea-knowledgearticle"><b>means.idea.knowledgeArticle</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.knowledgeArticle</b>|
 
@@ -6029,9 +5536,9 @@ None
 ## <a id="means-idea-lead"><b>means.idea.lead</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.lead</b>|
 
@@ -6049,9 +5556,9 @@ None
 ## <a id="means-idea-leadaddress"><b>means.idea.leadAddress</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.leadAddress</b>|
 
@@ -6069,9 +5576,9 @@ None
 ## <a id="means-idea-letter"><b>means.idea.letter</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.letter</b>|
 
@@ -6089,9 +5596,9 @@ None
 ## <a id="means-idea-metric"><b>means.idea.metric</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.metric</b>|
 
@@ -6109,9 +5616,9 @@ None
 ## <a id="means-idea-opportunity"><b>means.idea.opportunity</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.opportunity</b>|
 
@@ -6129,9 +5636,9 @@ None
 ## <a id="means-idea-organization"><b>means.idea.organization</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.organization</b>|
 
@@ -6149,9 +5656,9 @@ None
 ## <a id="means-idea-organization-unit"><b>means.idea.organization.unit</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.organization.unit</b>|
 
@@ -6169,9 +5676,9 @@ None
 ## <a id="means-idea-owner"><b>means.idea.owner</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.owner</b>|
 
@@ -6189,9 +5696,9 @@ None
 ## <a id="means-idea-person"><b>means.idea.person</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.person</b>|
 
@@ -6209,9 +5716,9 @@ None
 ## <a id="means-idea-person-contact"><b>means.idea.person.contact</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.contact</b>|
 
@@ -6229,9 +5736,9 @@ None
 ## <a id="means-idea-person-employee"><b>means.idea.person.employee</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.employee</b>|
 
@@ -6249,9 +5756,9 @@ None
 ## <a id="means-idea-person-representative"><b>means.idea.person.representative</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.person</b>](#means-idea-person) <- <b>means.idea.person.representative</b>|
 
@@ -6269,9 +5776,9 @@ None
 ## <a id="means-idea-phonecall"><b>means.idea.phoneCall</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.phoneCall</b>|
 
@@ -6289,9 +5796,9 @@ None
 ## <a id="means-idea-place"><b>means.idea.place</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.place</b>|
 
@@ -6309,9 +5816,9 @@ None
 ## <a id="means-idea-position"><b>means.idea.position</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.position</b>|
 
@@ -6329,9 +5836,9 @@ None
 ## <a id="means-idea-pricelevel"><b>means.idea.priceLevel</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.priceLevel</b>|
 
@@ -6349,9 +5856,9 @@ None
 ## <a id="means-idea-product"><b>means.idea.product</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.product</b>|
 
@@ -6369,9 +5876,9 @@ None
 ## <a id="means-idea-productgroup"><b>means.idea.productGroup</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.productGroup</b>|
 
@@ -6389,9 +5896,9 @@ None
 ## <a id="means-idea-project"><b>means.idea.project</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.project</b>|
 
@@ -6409,9 +5916,9 @@ None
 ## <a id="means-idea-promotion"><b>means.idea.promotion</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.promotion</b>|
 
@@ -6429,9 +5936,9 @@ None
 ## <a id="means-idea-quote"><b>means.idea.quote</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.quote</b>|
 
@@ -6449,9 +5956,9 @@ None
 ## <a id="means-idea-ratingmodel"><b>means.idea.ratingModel</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.ratingModel</b>|
 
@@ -6469,9 +5976,9 @@ None
 ## <a id="means-idea-resource"><b>means.idea.resource</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.resource</b>|
 
@@ -6489,9 +5996,9 @@ None
 ## <a id="means-idea-resourcegroup"><b>means.idea.resourceGroup</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.resourceGroup</b>|
 
@@ -6509,9 +6016,9 @@ None
 ## <a id="means-idea-salesliterature"><b>means.idea.salesLiterature</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.salesLiterature</b>|
 
@@ -6529,9 +6036,9 @@ None
 ## <a id="means-idea-salesorder"><b>means.idea.salesOrder</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.salesOrder</b>|
 
@@ -6549,9 +6056,9 @@ None
 ## <a id="means-idea-scenario"><b>means.idea.scenario</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.scenario</b>|
 
@@ -6569,9 +6076,9 @@ None
 ## <a id="means-idea-schedule"><b>means.idea.schedule</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.schedule</b>|
 
@@ -6589,9 +6096,9 @@ None
 ## <a id="means-idea-service"><b>means.idea.service</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.service</b>|
 
@@ -6615,9 +6122,9 @@ None
 Deprecated. extra space at the end was an error.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- [<b>means.idea.service</b>](#means-idea-service) <- <b>means.idea.service </b>|
 
@@ -6635,9 +6142,9 @@ None
 ## <a id="means-idea-serviceappointment"><b>means.idea.serviceAppointment</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.serviceAppointment</b>|
 
@@ -6655,9 +6162,9 @@ None
 ## <a id="means-idea-site"><b>means.idea.site</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.site</b>|
 
@@ -6681,9 +6188,9 @@ None
 A Service Level Agreement
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.SLA</b>|
 
@@ -6701,9 +6208,9 @@ None
 ## <a id="means-idea-socialactivity"><b>means.idea.socialActivity</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.socialActivity</b>|
 
@@ -6721,9 +6228,9 @@ None
 ## <a id="means-idea-socialprofile"><b>means.idea.socialProfile</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.socialProfile</b>|
 
@@ -6741,9 +6248,9 @@ None
 ## <a id="means-idea-systemuser"><b>means.idea.systemUser</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.systemUser</b>|
 
@@ -6761,9 +6268,9 @@ None
 ## <a id="means-idea-task"><b>means.idea.task</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.task</b>|
 
@@ -6781,9 +6288,9 @@ None
 ## <a id="means-idea-team"><b>means.idea.team</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.team</b>|
 
@@ -6801,9 +6308,9 @@ None
 ## <a id="means-idea-territory"><b>means.idea.territory</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.territory</b>|
 
@@ -6821,9 +6328,9 @@ None
 ## <a id="means-idea-uom"><b>means.idea.UoM</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.UoM</b>|
 
@@ -6841,9 +6348,9 @@ None
 ## <a id="means-idea-utility"><b>means.idea.utility</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.idea</b>](#means-idea) <- <b>means.idea.utility</b>|
 
@@ -6861,9 +6368,9 @@ None
 ## <a id="means-identity"><b>means.identity</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.identity</b>|
 
@@ -6881,9 +6388,9 @@ None
 ## <a id="means-identity-barcode"><b>means.identity.barCode</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.barCode</b>|
 
@@ -6901,9 +6408,9 @@ None
 ## <a id="means-identity-brand"><b>means.identity.brand</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.brand</b>|
 
@@ -6921,9 +6428,9 @@ None
 ## <a id="means-identity-company-name"><b>means.identity.company.name</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.company.name</b>|
 
@@ -6941,9 +6448,9 @@ None
 ## <a id="means-identity-entityid"><b>means.identity.entityId</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.entityId</b>|
 
@@ -6961,9 +6468,9 @@ None
 ## <a id="means-identity-governmentid"><b>means.identity.governmentID</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.governmentID</b>|
 
@@ -6987,9 +6494,9 @@ None
 Internet Protocol V4 Address
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.IP4Address</b>|
 
@@ -7013,9 +6520,9 @@ None
 Internet Protocol V6 Address
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.IP6Address</b>|
 
@@ -7033,9 +6540,9 @@ None
 ## <a id="means-identity-name"><b>means.identity.name</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.name</b>|
 
@@ -7059,9 +6566,9 @@ None
 A person's given or first name.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.firstName</b>|
 
@@ -7079,9 +6586,9 @@ None
 ## <a id="means-identity-person-fullname"><b>means.identity.person.fullName</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.fullName</b>|
 
@@ -7105,9 +6612,9 @@ None
 A person's surname, family name or last name.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.lastName</b>|
 
@@ -7125,9 +6632,9 @@ None
 ## <a id="means-identity-person-middlename"><b>means.identity.person.middleName</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.middleName</b>|
 
@@ -7151,9 +6658,9 @@ None
 A salutation such as a title, rank or honorific to place before a person's name
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.prefix</b>|
 
@@ -7177,9 +6684,9 @@ None
 Follows a person's name and provides additional information about their position, education or honorific
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- [<b>means.identity.name</b>](#means-identity-name) <- <b>means.identity.person.suffix</b>|
 
@@ -7197,9 +6704,9 @@ None
 ## <a id="means-identity-rownumber"><b>means.identity.rowNumber</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.rowNumber</b>|
 
@@ -7217,9 +6724,9 @@ None
 ## <a id="means-identity-scd-originalidentity"><b>means.identity.scd.originalIdentity</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.scd.originalIdentity</b>|
 
@@ -7237,9 +6744,9 @@ None
 ## <a id="means-identity-scd-surogateidentity"><b>means.identity.scd.surogateIdentity</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.scd.surogateIdentity</b>|
 
@@ -7257,9 +6764,9 @@ None
 ## <a id="means-identity-service"><b>means.identity.service</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service</b>|
 
@@ -7277,9 +6784,9 @@ None
 ## <a id="means-identity-service-email"><b>means.identity.service.email</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.email</b>|
 
@@ -7297,9 +6804,9 @@ None
 ## <a id="means-identity-service-facebook"><b>means.identity.service.facebook</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.facebook</b>|
 
@@ -7317,9 +6824,9 @@ None
 ## <a id="means-identity-service-phone"><b>means.identity.service.phone</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.phone</b>|
 
@@ -7337,9 +6844,9 @@ None
 ## <a id="means-identity-service-phone-cell"><b>means.identity.service.phone.cell</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.phone.cell</b>|
 
@@ -7357,9 +6864,9 @@ None
 ## <a id="means-identity-service-phone-fax"><b>means.identity.service.phone.fax</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.phone.fax</b>|
 
@@ -7377,9 +6884,9 @@ None
 ## <a id="means-identity-service-twitter"><b>means.identity.service.twitter</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.service.twitter</b>|
 
@@ -7397,9 +6904,9 @@ None
 ## <a id="means-identity-sku"><b>means.identity.SKU</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.SKU</b>|
 
@@ -7417,9 +6924,9 @@ None
 ## <a id="means-identity-tickersymbol"><b>means.identity.tickerSymbol</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.tickerSymbol</b>|
 
@@ -7437,9 +6944,9 @@ None
 ## <a id="means-identity-title"><b>means.identity.title</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.identity</b>](#means-identity) <- <b>means.identity.title</b>|
 
@@ -7457,9 +6964,9 @@ None
 ## <a id="means-location"><b>means.location</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.location</b>|
 
@@ -7477,9 +6984,9 @@ None
 ## <a id="means-location-address"><b>means.location.address</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.address</b>|
 
@@ -7497,9 +7004,9 @@ None
 ## <a id="means-location-address-building"><b>means.location.address.building</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.building</b>|
 
@@ -7517,9 +7024,9 @@ None
 ## <a id="means-location-address-floor"><b>means.location.address.floor</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.floor</b>|
 
@@ -7537,9 +7044,9 @@ None
 ## <a id="means-location-address-house"><b>means.location.address.house</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.house</b>|
 
@@ -7557,9 +7064,9 @@ None
 ## <a id="means-location-address-room"><b>means.location.address.room</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.room</b>|
 
@@ -7577,9 +7084,9 @@ None
 ## <a id="means-location-address-street"><b>means.location.address.street</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.address.street</b>|
 
@@ -7597,9 +7104,9 @@ None
 ## <a id="means-location-address-street-line1"><b>means.location.address.street.line1</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- [<b>means.location.address.street</b>](#means-location-address-street) <- <b>means.location.address.street.line1</b>|
 
@@ -7617,9 +7124,9 @@ None
 ## <a id="means-location-address-street-line2"><b>means.location.address.street.line2</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- [<b>means.location.address.street</b>](#means-location-address-street) <- <b>means.location.address.street.line2</b>|
 
@@ -7637,9 +7144,9 @@ None
 ## <a id="means-location-address-street-line3"><b>means.location.address.street.line3</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- [<b>means.location.address.street</b>](#means-location-address-street) <- <b>means.location.address.street.line3</b>|
 
@@ -7657,9 +7164,9 @@ None
 ## <a id="means-location-city"><b>means.location.city</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.city</b>|
 
@@ -7677,9 +7184,9 @@ None
 ## <a id="means-location-continent"><b>means.location.continent</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.continent</b>|
 
@@ -7697,9 +7204,9 @@ None
 ## <a id="means-location-country"><b>means.location.country</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.country</b>|
 
@@ -7717,9 +7224,9 @@ None
 ## <a id="means-location-county"><b>means.location.county</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.address</b>](#means-location-address) <- <b>means.location.county</b>|
 
@@ -7737,9 +7244,9 @@ None
 ## <a id="means-location-geo"><b>means.location.geo</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.geo</b>|
 
@@ -7757,9 +7264,9 @@ None
 ## <a id="means-location-geo-boundary"><b>means.location.geo.boundary</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- <b>means.location.geo.boundary</b>|
 
@@ -7777,9 +7284,9 @@ None
 ## <a id="means-location-geo-boundary-bottom"><b>means.location.geo.boundary.bottom</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.bottom</b>|
 
@@ -7797,9 +7304,9 @@ None
 ## <a id="means-location-geo-boundary-front"><b>means.location.geo.boundary.front</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.front</b>|
 
@@ -7817,9 +7324,9 @@ None
 ## <a id="means-location-geo-boundary-left"><b>means.location.geo.boundary.left</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.left</b>|
 
@@ -7837,9 +7344,9 @@ None
 ## <a id="means-location-geo-boundary-polygon"><b>means.location.geo.boundary.polygon</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.polygon</b>|
 
@@ -7857,9 +7364,9 @@ None
 ## <a id="means-location-geo-boundary-rear"><b>means.location.geo.boundary.rear</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.rear</b>|
 
@@ -7877,9 +7384,9 @@ None
 ## <a id="means-location-geo-boundary-right"><b>means.location.geo.boundary.right</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.right</b>|
 
@@ -7897,9 +7404,9 @@ None
 ## <a id="means-location-geo-boundary-top"><b>means.location.geo.boundary.top</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.boundary</b>](#means-location-geo-boundary) <- <b>means.location.geo.boundary.top</b>|
 
@@ -7917,9 +7424,9 @@ None
 ## <a id="means-location-geo-centroid"><b>means.location.geo.centroid</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- <b>means.location.geo.centroid</b>|
 
@@ -7937,9 +7444,9 @@ None
 ## <a id="means-location-geo-centroid-x"><b>means.location.geo.centroid.X</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.centroid</b>](#means-location-geo-centroid) <- <b>means.location.geo.centroid.X</b>|
 
@@ -7957,9 +7464,9 @@ None
 ## <a id="means-location-geo-centroid-y"><b>means.location.geo.centroid.y</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.centroid</b>](#means-location-geo-centroid) <- <b>means.location.geo.centroid.y</b>|
 
@@ -7977,9 +7484,9 @@ None
 ## <a id="means-location-geo-centroid-z"><b>means.location.geo.centroid.z</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- [<b>means.location.geo</b>](#means-location-geo) <- [<b>means.location.geo.centroid</b>](#means-location-geo-centroid) <- <b>means.location.geo.centroid.z</b>|
 
@@ -7997,9 +7504,9 @@ None
 ## <a id="means-location-latitude"><b>means.location.latitude</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.latitude</b>|
 
@@ -8017,9 +7524,9 @@ None
 ## <a id="means-location-longitude"><b>means.location.longitude</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.longitude</b>|
 
@@ -8037,9 +7544,9 @@ None
 ## <a id="means-location-point"><b>means.location.point</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.point</b>|
 
@@ -8057,9 +7564,9 @@ None
 ## <a id="means-location-postalcode"><b>means.location.postalCode</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.postalCode</b>|
 
@@ -8077,9 +7584,9 @@ None
 ## <a id="means-location-province"><b>means.location.province</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.province</b>|
 
@@ -8097,9 +7604,9 @@ None
 ## <a id="means-location-region"><b>means.location.region</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.region</b>|
 
@@ -8117,9 +7624,9 @@ None
 ## <a id="means-location-stateorprovince"><b>means.location.stateOrProvince</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.stateOrProvince</b>|
 
@@ -8137,9 +7644,9 @@ None
 ## <a id="means-location-timezone"><b>means.location.timezone</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.location</b>](#means-location) <- <b>means.location.timezone</b>|
 
@@ -8157,9 +7664,9 @@ None
 ## <a id="means-measurement"><b>means.measurement</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.measurement</b>|
 
@@ -8177,9 +7684,9 @@ None
 ## <a id="means-measurement-age"><b>means.measurement.age</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.age</b>|
 
@@ -8197,9 +7704,9 @@ None
 ## <a id="means-measurement-code"><b>means.measurement.code</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.code</b>|
 
@@ -8217,9 +7724,9 @@ None
 ## <a id="means-measurement-color"><b>means.measurement.color</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.color</b>|
 
@@ -8237,9 +7744,9 @@ None
 ## <a id="means-measurement-count"><b>means.measurement.count</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.count</b>|
 
@@ -8257,9 +7764,9 @@ None
 ## <a id="means-measurement-currency"><b>means.measurement.currency</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency</b>|
 
@@ -8277,9 +7784,9 @@ None
 ## <a id="means-measurement-currency-cost"><b>means.measurement.currency.cost</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency</b>](#means-measurement-currency) <- <b>means.measurement.currency.cost</b>|
 
@@ -8297,9 +7804,9 @@ None
 ## <a id="means-measurement-currency-isocode"><b>means.measurement.currency.iSOCode</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency.iSOCode</b>|
 
@@ -8317,9 +7824,9 @@ None
 ## <a id="means-measurement-currency-price"><b>means.measurement.currency.price</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency</b>](#means-measurement-currency) <- <b>means.measurement.currency.price</b>|
 
@@ -8337,9 +7844,9 @@ None
 ## <a id="means-measurement-currency-revenue"><b>means.measurement.currency.revenue</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency</b>](#means-measurement-currency) <- <b>means.measurement.currency.revenue</b>|
 
@@ -8357,9 +7864,9 @@ None
 ## <a id="means-measurement-currency-type"><b>means.measurement.currency.type</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currency.type</b>|
 
@@ -8377,9 +7884,9 @@ None
 ## <a id="means-measurement-currency-type-destination"><b>means.measurement.currency.type.destination</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency.type</b>](#means-measurement-currency-type) <- <b>means.measurement.currency.type.destination</b>|
 
@@ -8397,9 +7904,9 @@ None
 ## <a id="means-measurement-currency-type-source"><b>means.measurement.currency.type.source</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.currency.type</b>](#means-measurement-currency-type) <- <b>means.measurement.currency.type.source</b>|
 
@@ -8423,9 +7930,9 @@ None
 Indicates this value represents an ISO 4217 currency code
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.currencyCode</b>|
 
@@ -8443,9 +7950,9 @@ None
 ## <a id="means-measurement-date"><b>means.measurement.date</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.date</b>|
 
@@ -8463,9 +7970,9 @@ None
 ## <a id="means-measurement-date-completion"><b>means.measurement.date.completion</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.completion</b>|
 
@@ -8483,9 +7990,9 @@ None
 ## <a id="means-measurement-date-creation"><b>means.measurement.date.creation</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.creation</b>|
 
@@ -8503,9 +8010,9 @@ None
 ## <a id="means-measurement-date-end"><b>means.measurement.date.end</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.end</b>|
 
@@ -8523,9 +8030,9 @@ None
 ## <a id="means-measurement-date-end-scd"><b>means.measurement.date.end.scd</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.end.scd</b>|
 
@@ -8543,9 +8050,9 @@ None
 ## <a id="means-measurement-date-modify"><b>means.measurement.date.modify</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.modify</b>|
 
@@ -8563,9 +8070,9 @@ None
 ## <a id="means-measurement-date-occurrence"><b>means.measurement.date.occurrence</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.occurrence</b>|
 
@@ -8583,9 +8090,9 @@ None
 ## <a id="means-measurement-date-remove"><b>means.measurement.date.remove</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.remove</b>|
 
@@ -8603,9 +8110,9 @@ None
 ## <a id="means-measurement-date-start"><b>means.measurement.date.start</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.start</b>|
 
@@ -8623,9 +8130,9 @@ None
 ## <a id="means-measurement-date-start-scd"><b>means.measurement.date.start.scd</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.start.scd</b>|
 
@@ -8643,9 +8150,9 @@ None
 ## <a id="means-measurement-date-target"><b>means.measurement.date.target</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.date</b>](#means-measurement-date) <- <b>means.measurement.date.target</b>|
 
@@ -8663,9 +8170,9 @@ None
 ## <a id="means-measurement-density"><b>means.measurement.density</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.density</b>|
 
@@ -8689,9 +8196,9 @@ None
 Measurement of some physical dimension
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.dimension</b>|
 
@@ -8717,9 +8224,9 @@ None
 Measurement of amount of substance
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.amount</b>|
 
@@ -8743,9 +8250,9 @@ None
 Measurement of geometric angle
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.angle</b>|
 
@@ -8769,9 +8276,9 @@ None
 Measurement of electical capacitance
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.capacitance</b>|
 
@@ -8795,9 +8302,9 @@ None
 Measurement of data rate
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.dataRate</b>|
 
@@ -8821,9 +8328,9 @@ None
 Measurement of electric charge, quantity of electricity
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.electricCharge</b>|
 
@@ -8847,9 +8354,9 @@ None
 Measurement of electic current
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.electricCurrent</b>|
 
@@ -8873,9 +8380,9 @@ None
 Measurement of volatage, EMF, electrical potential difference
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.electromotiveForce</b>|
 
@@ -8899,9 +8406,9 @@ None
 Measurement of energy, work, heat
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.energy</b>|
 
@@ -8925,9 +8432,9 @@ None
 Measurement of force
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.force</b>|
 
@@ -8951,9 +8458,9 @@ None
 Measurement of frequency
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.frequency</b>|
 
@@ -8977,9 +8484,9 @@ None
 Measurement of length
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.length</b>|
 
@@ -9003,9 +8510,9 @@ None
 Measurement of electic current
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.luminousIntensity</b>|
 
@@ -9029,9 +8536,9 @@ None
 Measurement of mass
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.mass</b>|
 
@@ -9055,9 +8562,9 @@ None
 Measurement of power, radiant flex
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.power</b>|
 
@@ -9081,9 +8588,9 @@ None
 Measurement of pressure or stress
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.pressure</b>|
 
@@ -9107,9 +8614,9 @@ None
 Measurement of electrical resistance, impedance, reactance
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.resistance</b>|
 
@@ -9133,9 +8640,9 @@ None
 Measurement of thermodynamic temperature
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.temperature</b>|
 
@@ -9159,9 +8666,9 @@ None
 Measurement of time
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- <b>means.measurement.dimension.time</b>|
 
@@ -9179,9 +8686,9 @@ None
 ## <a id="means-measurement-distance"><b>means.measurement.distance</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.length</b>](#means-measurement-dimension-length) <- <b>means.measurement.distance</b>|
 
@@ -9199,9 +8706,9 @@ None
 ## <a id="means-measurement-distance-cm"><b>means.measurement.distance.cm</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.length</b>](#means-measurement-dimension-length) <- [<b>means.measurement.distance</b>](#means-measurement-distance) <- <b>means.measurement.distance.cm</b>|
 
@@ -9219,9 +8726,9 @@ None
 ## <a id="means-measurement-distance-inches"><b>means.measurement.distance.inches</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.length</b>](#means-measurement-dimension-length) <- [<b>means.measurement.distance</b>](#means-measurement-distance) <- <b>means.measurement.distance.inches</b>|
 
@@ -9239,9 +8746,9 @@ None
 ## <a id="means-measurement-duration"><b>means.measurement.duration</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.duration</b>|
 
@@ -9259,9 +8766,9 @@ None
 ## <a id="means-measurement-duration-days"><b>means.measurement.duration.days</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.days</b>|
 
@@ -9279,9 +8786,9 @@ None
 ## <a id="means-measurement-duration-hours"><b>means.measurement.duration.hours</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.hours</b>|
 
@@ -9299,9 +8806,9 @@ None
 ## <a id="means-measurement-duration-minutes"><b>means.measurement.duration.minutes</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.minutes</b>|
 
@@ -9319,9 +8826,9 @@ None
 ## <a id="means-measurement-duration-months"><b>means.measurement.duration.months</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.months</b>|
 
@@ -9339,9 +8846,9 @@ None
 ## <a id="means-measurement-duration-quarters"><b>means.measurement.duration.quarters</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.quarters</b>|
 
@@ -9359,9 +8866,9 @@ None
 ## <a id="means-measurement-duration-seconds"><b>means.measurement.duration.seconds</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.seconds</b>|
 
@@ -9379,9 +8886,9 @@ None
 ## <a id="means-measurement-duration-trimesters"><b>means.measurement.duration.trimesters</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.trimesters</b>|
 
@@ -9399,9 +8906,9 @@ None
 ## <a id="means-measurement-duration-weeks"><b>means.measurement.duration.weeks</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.weeks</b>|
 
@@ -9419,9 +8926,9 @@ None
 ## <a id="means-measurement-duration-years"><b>means.measurement.duration.years</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.duration</b>](#means-measurement-duration) <- <b>means.measurement.duration.years</b>|
 
@@ -9439,9 +8946,9 @@ None
 ## <a id="means-measurement-percent"><b>means.measurement.percent</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.percent</b>|
 
@@ -9459,9 +8966,9 @@ None
 ## <a id="means-measurement-percent-ownership"><b>means.measurement.percent.ownership</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.percent.ownership</b>|
 
@@ -9479,9 +8986,9 @@ None
 ## <a id="means-measurement-percent-voterright"><b>means.measurement.percent.voterright</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.percent.voterright</b>|
 
@@ -9505,9 +9012,9 @@ None
 Unit prefixes denoting a factor of one thousandth
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.prefix</b>|
 
@@ -9533,9 +9040,9 @@ None
 Denotes one thousanth of the unit; 10E-2
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.centi</b>|
 
@@ -9559,9 +9066,9 @@ None
 Denotes one thousanth of the unit; 10E9
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.giga</b>|
 
@@ -9585,9 +9092,9 @@ None
 Denotes one thousanth of the unit; 10E3
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.kilo</b>|
 
@@ -9611,9 +9118,9 @@ None
 Denotes one thousanth of the unit; 10E6
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.mega</b>|
 
@@ -9637,9 +9144,9 @@ None
 Denotes one thousanth of the unit; 10E-6
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.micro</b>|
 
@@ -9663,9 +9170,9 @@ None
 Denotes one thousanth of the unit; 10E-3
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.milli</b>|
 
@@ -9689,9 +9196,9 @@ None
 Denotes one thousanth of the unit; 10E-9
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.nano</b>|
 
@@ -9715,9 +9222,9 @@ None
 Denotes one thousanth of the unit; 10E-12
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.prefix</b>](#means-measurement-prefix) <- <b>means.measurement.prefix.pico</b>|
 
@@ -9735,9 +9242,9 @@ None
 ## <a id="means-measurement-probability"><b>means.measurement.probability</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.probability</b>|
 
@@ -9755,9 +9262,9 @@ None
 ## <a id="means-measurement-range"><b>means.measurement.range</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.range</b>|
 
@@ -9775,9 +9282,9 @@ None
 ## <a id="means-measurement-range-high"><b>means.measurement.range.high</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.range</b>](#means-measurement-range) <- <b>means.measurement.range.high</b>|
 
@@ -9795,9 +9302,9 @@ None
 ## <a id="means-measurement-range-low"><b>means.measurement.range.low</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.range</b>](#means-measurement-range) <- <b>means.measurement.range.low</b>|
 
@@ -9815,9 +9322,9 @@ None
 ## <a id="means-measurement-rate"><b>means.measurement.rate</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.rate</b>|
 
@@ -9835,9 +9342,9 @@ None
 ## <a id="means-measurement-rate-type"><b>means.measurement.rate.type</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.rate.type</b>|
 
@@ -9855,9 +9362,9 @@ None
 ## <a id="means-measurement-sequence"><b>means.measurement.sequence</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.sequence</b>|
 
@@ -9875,9 +9382,9 @@ None
 ## <a id="means-measurement-size"><b>means.measurement.size</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.size</b>|
 
@@ -9895,9 +9402,9 @@ None
 ## <a id="means-measurement-size-depth"><b>means.measurement.size.depth</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.depth</b>|
 
@@ -9915,9 +9422,9 @@ None
 ## <a id="means-measurement-size-height"><b>means.measurement.size.height</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.height</b>|
 
@@ -9935,9 +9442,9 @@ None
 ## <a id="means-measurement-size-volume"><b>means.measurement.size.volume</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.volume</b>|
 
@@ -9955,9 +9462,9 @@ None
 ## <a id="means-measurement-size-width"><b>means.measurement.size.width</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.size</b>](#means-measurement-size) <- <b>means.measurement.size.width</b>|
 
@@ -9975,9 +9482,9 @@ None
 ## <a id="means-measurement-temperature"><b>means.measurement.temperature</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.temperature</b>](#means-measurement-dimension-temperature) <- <b>means.measurement.temperature</b>|
 
@@ -9995,9 +9502,9 @@ None
 ## <a id="means-measurement-time"><b>means.measurement.time</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.time</b>|
 
@@ -10015,9 +9522,9 @@ None
 ## <a id="means-measurement-units-degree"><b>means.measurement.units.degree</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.units.degree</b>|
 
@@ -10041,9 +9548,9 @@ None
 Measurments in international system of units
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.measurement.units.si</b>|
 
@@ -10071,9 +9578,9 @@ None
 Measurement of electric current in amperes
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.ampere</b>|
 
@@ -10097,9 +9604,9 @@ None
 Measurement of data rate in bits per second
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.bitPerSecond</b>|
 
@@ -10123,9 +9630,9 @@ None
 Measurement of luminous intensity in candelas
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.candela</b>|
 
@@ -10149,9 +9656,9 @@ None
 Measurement of temperature in degrees celsius
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.celsius</b>|
 
@@ -10175,9 +9682,9 @@ None
 Measurement of electric charge or amount of electricity in coulombs
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.coulomb</b>|
 
@@ -10201,9 +9708,9 @@ None
 Measurement of electric capacitance in farads
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.farad</b>|
 
@@ -10227,9 +9734,9 @@ None
 Measurement of mass in grams
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.gram</b>|
 
@@ -10253,9 +9760,9 @@ None
 Measurement of frequency in hertz
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.hertz</b>|
 
@@ -10279,9 +9786,9 @@ None
 Measurement of energy, work or heat in joules
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.joule</b>|
 
@@ -10305,9 +9812,9 @@ None
 Measurement of thermodynamic temperature in degrees kelvin
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.kelvin</b>|
 
@@ -10331,9 +9838,9 @@ None
 Measurement of mass in kilogram
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.kilogram</b>|
 
@@ -10357,9 +9864,9 @@ None
 Measurement of length in meters
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.meter</b>|
 
@@ -10383,9 +9890,9 @@ None
 Measurement of amount in moles
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.mole</b>|
 
@@ -10409,9 +9916,9 @@ None
 Measurement of force or weight in newtons
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.newton</b>|
 
@@ -10435,9 +9942,9 @@ None
 Measurement of electrical resistance, impedance, reactance in ohms
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.ohm</b>|
 
@@ -10461,9 +9968,9 @@ None
 Measurement of pressure or stress in pascals
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.pascal</b>|
 
@@ -10487,9 +9994,9 @@ None
 Measurement of angle in radians
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.radian</b>|
 
@@ -10513,9 +10020,9 @@ None
 Measurement of time in seconds
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.second</b>|
 
@@ -10539,9 +10046,9 @@ None
 Measurement of voltage, EMF, electrical potantial difference in volts
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.volt</b>|
 
@@ -10565,9 +10072,9 @@ None
 Measurement of power or radiant flux in watts
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement.units.si</b>](#means-measurement-units-si) <- <b>means.measurement.units.si.watt</b>|
 
@@ -10585,9 +10092,9 @@ None
 ## <a id="means-measurement-version"><b>means.measurement.version</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- <b>means.measurement.version</b>|
 
@@ -10605,9 +10112,9 @@ None
 ## <a id="means-measurement-weight"><b>means.measurement.weight</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.measurement</b>](#means-measurement) <- [<b>means.measurement.dimension</b>](#means-measurement-dimension) <- [<b>means.measurement.dimension.force</b>](#means-measurement-dimension-force) <- <b>means.measurement.weight</b>|
 
@@ -10631,9 +10138,9 @@ None
 Augments the meaning of entities or attributes with a qualification
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.qualification</b>|
 
@@ -10657,9 +10164,9 @@ None
 Values are an estimate only.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.qualification</b>](#means-qualification) <- <b>means.qualification.estimate</b>|
 
@@ -10677,9 +10184,9 @@ None
 ## <a id="means-reference"><b>means.reference</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.reference</b>|
 
@@ -10697,9 +10204,9 @@ None
 ## <a id="means-reference-caption"><b>means.reference.caption</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.caption</b>|
 
@@ -10717,9 +10224,9 @@ None
 ## <a id="means-reference-culture"><b>means.reference.culture</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.culture</b>|
 
@@ -10737,9 +10244,9 @@ None
 ## <a id="means-reference-culture-tag"><b>means.reference.culture.tag</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- [<b>means.reference.culture</b>](#means-reference-culture) <- <b>means.reference.culture.tag</b>|
 
@@ -10757,9 +10264,9 @@ None
 ## <a id="means-reference-definition"><b>means.reference.definition</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.definition</b>|
 
@@ -10777,9 +10284,9 @@ None
 ## <a id="means-reference-description"><b>means.reference.description</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.description</b>|
 
@@ -10797,9 +10304,9 @@ None
 ## <a id="means-reference-displaytext"><b>means.reference.displayText</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.displayText</b>|
 
@@ -10817,9 +10324,9 @@ None
 ## <a id="means-reference-documentation"><b>means.reference.documentation</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.documentation</b>|
 
@@ -10837,9 +10344,9 @@ None
 ## <a id="means-reference-language"><b>means.reference.language</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.language</b>|
 
@@ -10857,9 +10364,9 @@ None
 ## <a id="means-reference-language-tag"><b>means.reference.language.tag</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- [<b>means.reference.language</b>](#means-reference-language) <- <b>means.reference.language.tag</b>|
 
@@ -10877,9 +10384,9 @@ None
 ## <a id="means-reference-phonetic"><b>means.reference.phonetic</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.phonetic</b>|
 
@@ -10897,9 +10404,9 @@ None
 ## <a id="means-reference-regarding"><b>means.reference.regarding</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.regarding</b>|
 
@@ -10923,9 +10430,9 @@ None
 A Uniform Resource Identifier
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.URI</b>|
 
@@ -10949,9 +10456,9 @@ None
 A Uniform Resource Locator. A web address.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- <b>means.reference.URL</b>|
 
@@ -10969,9 +10476,9 @@ None
 ## <a id="means-reference-url-image"><b>means.reference.URL.image</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.reference</b>](#means-reference) <- [<b>means.reference.URL</b>](#means-reference-url) <- <b>means.reference.URL.image</b>|
 
@@ -10995,9 +10502,9 @@ None
 Root trait for semantic traits relevant to relationships
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.relationship</b>|
 
@@ -11015,9 +10522,9 @@ None
 ## <a id="means-relationship-child"><b>means.relationship.child</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.relationship</b>](#means-relationship) <- <b>means.relationship.child</b>|
 
@@ -11041,9 +10548,9 @@ None
 The Verb Phrase used to model the relationship between the TO entity and the FROM entity.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.relationship</b>](#means-relationship) <- <b>means.relationship.inverseVerbPhrase</b>|
 
@@ -11063,9 +10570,9 @@ None
 ## <a id="means-relationship-parent"><b>means.relationship.parent</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.relationship</b>](#means-relationship) <- <b>means.relationship.parent</b>|
 
@@ -11089,9 +10596,9 @@ None
 The Verb Phrase used to model the relationship between the FROM entity and the TO entity.
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.relationship</b>](#means-relationship) <- <b>means.relationship.verbPhrase</b>|
 
@@ -11117,7 +10624,7 @@ None
 Contains a userId
 
 
-**Inheritance**
+
 
 None
 
@@ -11141,7 +10648,7 @@ None
 A privacy related trait.
 
 
-**Inheritance**
+
 
 None
 
@@ -11165,9 +10672,9 @@ None
 The consent requirements or consent settings for data
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- <b>privacy.consentRequirements</b>|
 
@@ -11185,9 +10692,9 @@ None
 ## <a id="privacy-consentrequirements-customercontrols"><b>privacy.consentRequirements.customerControls</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.customerControls</b>|
 
@@ -11205,9 +10712,9 @@ None
 ## <a id="privacy-consentrequirements-customercontrols-notrequired"><b>privacy.consentRequirements.customerControls.notRequired</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.customerControls</b>](#privacy-consentrequirements-customercontrols) <- <b>privacy.consentRequirements.customerControls.notRequired</b>|
 
@@ -11225,9 +10732,9 @@ None
 ## <a id="privacy-consentrequirements-customercontrols-required"><b>privacy.consentRequirements.customerControls.required</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.customerControls</b>](#privacy-consentrequirements-customercontrols) <- <b>privacy.consentRequirements.customerControls.required</b>|
 
@@ -11245,9 +10752,9 @@ None
 ## <a id="privacy-consentrequirements-legitimateinterest"><b>privacy.consentRequirements.legitimateInterest</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.legitimateInterest</b>|
 
@@ -11265,9 +10772,9 @@ None
 ## <a id="privacy-consentrequirements-notice"><b>privacy.consentRequirements.notice</b></a>
 
 
-**Inheritance**
 
-| |
+
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.notice</b>|
 
@@ -11285,9 +10792,7 @@ None
 ## <a id="privacy-consentrequirements-notice-discoverable"><b>privacy.consentRequirements.notice.discoverable</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.notice</b>](#privacy-consentrequirements-notice) <- <b>privacy.consentRequirements.notice.discoverable</b>|
 
@@ -11305,9 +10810,7 @@ None
 ## <a id="privacy-consentrequirements-notice-prominent"><b>privacy.consentRequirements.notice.prominent</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- [<b>privacy.consentRequirements.notice</b>](#privacy-consentrequirements-notice) <- <b>privacy.consentRequirements.notice.prominent</b>|
 
@@ -11325,9 +10828,7 @@ None
 ## <a id="privacy-consentrequirements-notpermitted"><b>privacy.consentRequirements.notPermitted</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.notPermitted</b>|
 
@@ -11345,9 +10846,7 @@ None
 ## <a id="privacy-consentrequirements-optin"><b>privacy.consentRequirements.optIn</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.optIn</b>|
 
@@ -11365,9 +10864,7 @@ None
 ## <a id="privacy-consentrequirements-optout"><b>privacy.consentRequirements.optOut</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.consentRequirements</b>](#privacy-consentrequirements) <- <b>privacy.consentRequirements.optOut</b>|
 
@@ -11391,9 +10888,7 @@ None
 The root trait for expressing 'Controller' data categories
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- <b>privacy.dataCategory</b>|
 
@@ -11411,9 +10906,7 @@ None
 ## <a id="privacy-datacategory-bizops"><b>privacy.dataCategory.bizOps</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.bizOps</b>|
 
@@ -11431,9 +10924,7 @@ None
 ## <a id="privacy-datacategory-bizops-corporatecommunication"><b>privacy.dataCategory.bizOps.corporateCommunication</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.bizOps</b>](#privacy-datacategory-bizops) <- <b>privacy.dataCategory.bizOps.corporateCommunication</b>|
 
@@ -11451,9 +10942,7 @@ None
 ## <a id="privacy-datacategory-bizops-financeaccountingandrecords"><b>privacy.dataCategory.bizOps.financeAccountingAndRecords</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.bizOps</b>](#privacy-datacategory-bizops) <- <b>privacy.dataCategory.bizOps.financeAccountingAndRecords</b>|
 
@@ -11477,9 +10966,7 @@ None
 The root trait for expressing 'Processor' data categories
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.customerOwned</b>|
 
@@ -11497,9 +10984,7 @@ None
 ## <a id="privacy-datacategory-customerowned-account"><b>privacy.dataCategory.customerOwned.account</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.account</b>|
 
@@ -11517,9 +11002,7 @@ None
 ## <a id="privacy-datacategory-customerowned-account-customercontact"><b>privacy.dataCategory.customerOwned.account.customerContact</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.account</b>](#privacy-datacategory-customerowned-account) <- <b>privacy.dataCategory.customerOwned.account.customerContact</b>|
 
@@ -11537,9 +11020,7 @@ None
 ## <a id="privacy-datacategory-customerowned-account-licensingandpurchase"><b>privacy.dataCategory.customerOwned.account.licensingAndPurchase</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.account</b>](#privacy-datacategory-customerowned-account) <- <b>privacy.dataCategory.customerOwned.account.licensingAndPurchase</b>|
 
@@ -11557,9 +11038,7 @@ None
 ## <a id="privacy-datacategory-customerowned-account-paymentinstrument"><b>privacy.dataCategory.customerOwned.account.paymentInstrument</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.account</b>](#privacy-datacategory-customerowned-account) <- <b>privacy.dataCategory.customerOwned.account.paymentInstrument</b>|
 
@@ -11577,9 +11056,7 @@ None
 ## <a id="privacy-datacategory-customerowned-content"><b>privacy.dataCategory.customerOwned.content</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.content</b>|
 
@@ -11597,9 +11074,7 @@ None
 ## <a id="privacy-datacategory-customerowned-content-contactlist"><b>privacy.dataCategory.customerOwned.content.contactList</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.content</b>](#privacy-datacategory-customerowned-content) <- <b>privacy.dataCategory.customerOwned.content.contactList</b>|
 
@@ -11617,9 +11092,7 @@ None
 ## <a id="privacy-datacategory-customerowned-content-credentials"><b>privacy.dataCategory.customerOwned.content.credentials</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.content</b>](#privacy-datacategory-customerowned-content) <- <b>privacy.dataCategory.customerOwned.content.credentials</b>|
 
@@ -11637,9 +11110,7 @@ None
 ## <a id="privacy-datacategory-customerowned-content-provided"><b>privacy.dataCategory.customerOwned.content.provided</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.content</b>](#privacy-datacategory-customerowned-content) <- <b>privacy.dataCategory.customerOwned.content.provided</b>|
 
@@ -11657,9 +11128,7 @@ None
 ## <a id="privacy-datacategory-customerowned-corporatecommunication"><b>privacy.dataCategory.customerOwned.corporateCommunication</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.corporateCommunication</b>|
 
@@ -11677,9 +11146,8 @@ None
 ## <a id="privacy-datacategory-customerowned-enduseridentifying"><b>privacy.dataCategory.customerOwned.endUserIdentifying</b></a>
 
 
-**Inheritance**
 
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.endUserIdentifying</b>|
 
@@ -11697,9 +11165,7 @@ None
 ## <a id="privacy-datacategory-customerowned-financeaccountingandrecords"><b>privacy.dataCategory.customerOwned.financeAccountingAndRecords</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.financeAccountingAndRecords</b>|
 
@@ -11717,9 +11183,7 @@ None
 ## <a id="privacy-datacategory-customerowned-publicpersonaldata"><b>privacy.dataCategory.customerOwned.publicPersonalData</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.publicPersonalData</b>|
 
@@ -11737,9 +11201,7 @@ None
 ## <a id="privacy-datacategory-customerowned-support"><b>privacy.dataCategory.customerOwned.support</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- <b>privacy.dataCategory.customerOwned.support</b>|
 
@@ -11757,9 +11219,7 @@ None
 ## <a id="privacy-datacategory-customerowned-support-content"><b>privacy.dataCategory.customerOwned.support.content</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.support</b>](#privacy-datacategory-customerowned-support) <- <b>privacy.dataCategory.customerOwned.support.content</b>|
 
@@ -11777,9 +11237,7 @@ None
 ## <a id="privacy-datacategory-customerowned-support-interaction"><b>privacy.dataCategory.customerOwned.support.interaction</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.customerOwned</b>](#privacy-datacategory-customerowned) <- [<b>privacy.dataCategory.customerOwned.support</b>](#privacy-datacategory-customerowned-support) <- <b>privacy.dataCategory.customerOwned.support.interaction</b>|
 
@@ -11797,9 +11255,7 @@ None
 ## <a id="privacy-datacategory-employment"><b>privacy.dataCategory.employment</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.employment</b>|
 
@@ -11817,9 +11273,7 @@ None
 ## <a id="privacy-datacategory-employment-commuteandtravel"><b>privacy.dataCategory.employment.commuteAndTravel</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.commuteAndTravel</b>|
 
@@ -11837,9 +11291,7 @@ None
 ## <a id="privacy-datacategory-employment-compensationandbenefits"><b>privacy.dataCategory.employment.compensationAndBenefits</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.compensationAndBenefits</b>|
 
@@ -11857,9 +11309,7 @@ None
 ## <a id="privacy-datacategory-employment-learninganddevelopment"><b>privacy.dataCategory.employment.learningAndDevelopment</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.learningAndDevelopment</b>|
 
@@ -11877,9 +11327,7 @@ None
 ## <a id="privacy-datacategory-employment-profesionalandpersonalprofile"><b>privacy.dataCategory.employment.profesionalAndPersonalProfile</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.profesionalAndPersonalProfile</b>|
 
@@ -11897,9 +11345,7 @@ None
 ## <a id="privacy-datacategory-employment-recruitment"><b>privacy.dataCategory.employment.recruitment</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.recruitment</b>|
 
@@ -11917,9 +11363,7 @@ None
 ## <a id="privacy-datacategory-employment-workcontacts"><b>privacy.dataCategory.employment.workContacts</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workContacts</b>|
 
@@ -11937,9 +11381,7 @@ None
 ## <a id="privacy-datacategory-employment-workplaceinteractions"><b>privacy.dataCategory.employment.workplaceInteractions</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workplaceInteractions</b>|
 
@@ -11957,9 +11399,7 @@ None
 ## <a id="privacy-datacategory-employment-workprofile"><b>privacy.dataCategory.employment.workProfile</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workProfile</b>|
 
@@ -11977,9 +11417,7 @@ None
 ## <a id="privacy-datacategory-employment-workrecognition"><b>privacy.dataCategory.employment.workRecognition</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workRecognition</b>|
 
@@ -11997,9 +11435,7 @@ None
 ## <a id="privacy-datacategory-employment-worktime"><b>privacy.dataCategory.employment.workTime</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.employment</b>](#privacy-datacategory-employment) <- <b>privacy.dataCategory.employment.workTime</b>|
 
@@ -12017,9 +11453,7 @@ None
 ## <a id="privacy-datacategory-enduser"><b>privacy.dataCategory.endUser</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- <b>privacy.dataCategory.endUser</b>|
 
@@ -12037,9 +11471,7 @@ None
 ## <a id="privacy-datacategory-enduser-account"><b>privacy.dataCategory.endUser.account</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.account</b>|
 
@@ -12057,9 +11489,7 @@ None
 ## <a id="privacy-datacategory-enduser-account-customercontact"><b>privacy.dataCategory.endUser.account.customerContact</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.account</b>](#privacy-datacategory-enduser-account) <- <b>privacy.dataCategory.endUser.account.customerContact</b>|
 
@@ -12077,9 +11507,7 @@ None
 ## <a id="privacy-datacategory-enduser-account-licensingandpurchase"><b>privacy.dataCategory.endUser.account.licensingAndPurchase</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.account</b>](#privacy-datacategory-enduser-account) <- <b>privacy.dataCategory.endUser.account.licensingAndPurchase</b>|
 
@@ -12097,9 +11525,7 @@ None
 ## <a id="privacy-datacategory-enduser-account-paymentinstrument"><b>privacy.dataCategory.endUser.account.paymentInstrument</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.account</b>](#privacy-datacategory-enduser-account) <- <b>privacy.dataCategory.endUser.account.paymentInstrument</b>|
 
@@ -12117,9 +11543,7 @@ None
 ## <a id="privacy-datacategory-enduser-attributes"><b>privacy.dataCategory.endUser.attributes</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.attributes</b>|
 
@@ -12137,9 +11561,7 @@ None
 ## <a id="privacy-datacategory-enduser-attributes-demographic"><b>privacy.dataCategory.endUser.attributes.demographic</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.demographic</b>|
 
@@ -12157,9 +11579,7 @@ None
 ## <a id="privacy-datacategory-enduser-attributes-feedbackandratings"><b>privacy.dataCategory.endUser.attributes.feedbackAndRatings</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.feedbackAndRatings</b>|
 
@@ -12177,9 +11597,7 @@ None
 ## <a id="privacy-datacategory-enduser-attributes-interestsandfavorites"><b>privacy.dataCategory.endUser.attributes.interestsAndFavorites</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.interestsAndFavorites</b>|
 
@@ -12197,9 +11615,7 @@ None
 ## <a id="privacy-datacategory-enduser-attributes-socialactivity"><b>privacy.dataCategory.endUser.attributes.socialActivity</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.attributes</b>](#privacy-datacategory-enduser-attributes) <- <b>privacy.dataCategory.endUser.attributes.socialActivity</b>|
 
@@ -12217,9 +11633,7 @@ None
 ## <a id="privacy-datacategory-enduser-content"><b>privacy.dataCategory.endUser.content</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.content</b>|
 
@@ -12237,9 +11651,7 @@ None
 ## <a id="privacy-datacategory-enduser-content-contactlist"><b>privacy.dataCategory.endUser.content.contactList</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.content</b>](#privacy-datacategory-enduser-content) <- <b>privacy.dataCategory.endUser.content.contactList</b>|
 
@@ -12257,9 +11669,7 @@ None
 ## <a id="privacy-datacategory-enduser-content-credentials"><b>privacy.dataCategory.endUser.content.credentials</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.content</b>](#privacy-datacategory-enduser-content) <- <b>privacy.dataCategory.endUser.content.credentials</b>|
 
@@ -12277,9 +11687,7 @@ None
 ## <a id="privacy-datacategory-enduser-content-provided"><b>privacy.dataCategory.endUser.content.provided</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.content</b>](#privacy-datacategory-enduser-content) <- <b>privacy.dataCategory.endUser.content.provided</b>|
 
@@ -12297,9 +11705,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions"><b>privacy.dataCategory.endUser.interactions</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.interactions</b>|
 
@@ -12317,9 +11723,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-browsinghistory"><b>privacy.dataCategory.endUser.interactions.browsingHistory</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.browsingHistory</b>|
 
@@ -12337,9 +11741,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-cloudservice"><b>privacy.dataCategory.endUser.interactions.cloudService</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.cloudService</b>|
 
@@ -12357,9 +11759,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-contentconsumption"><b>privacy.dataCategory.endUser.interactions.contentConsumption</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.contentConsumption</b>|
 
@@ -12377,9 +11777,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-deviceconnectivityandconfiguration"><b>privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.deviceConnectivityAndConfiguration</b>|
 
@@ -12397,9 +11795,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-environmentalsensor"><b>privacy.dataCategory.endUser.interactions.environmentalSensor</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.environmentalSensor</b>|
 
@@ -12417,9 +11813,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-fitnessandactivity"><b>privacy.dataCategory.endUser.interactions.fitnessAndActivity</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.fitnessAndActivity</b>|
 
@@ -12437,9 +11831,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-inkingtypingandspeach"><b>privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.inkingTypingAndSpeach</b>|
 
@@ -12457,9 +11849,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-precicelocation"><b>privacy.dataCategory.endUser.interactions.preciceLocation</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.preciceLocation</b>|
 
@@ -12477,9 +11867,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-productandserviceperformance"><b>privacy.dataCategory.endUser.interactions.productAndServicePerformance</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.productAndServicePerformance</b>|
 
@@ -12497,9 +11885,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-productandserviceusage"><b>privacy.dataCategory.endUser.interactions.productAndServiceUsage</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.productAndServiceUsage</b>|
 
@@ -12517,9 +11903,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-searchrequests"><b>privacy.dataCategory.endUser.interactions.searchRequests</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.searchRequests</b>|
 
@@ -12537,9 +11921,7 @@ None
 ## <a id="privacy-datacategory-enduser-interactions-softwaresetandinventory"><b>privacy.dataCategory.endUser.interactions.softwareSetAndInventory</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.interactions</b>](#privacy-datacategory-enduser-interactions) <- <b>privacy.dataCategory.endUser.interactions.softwareSetAndInventory</b>|
 
@@ -12557,9 +11939,7 @@ None
 ## <a id="privacy-datacategory-enduser-support"><b>privacy.dataCategory.endUser.support</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- <b>privacy.dataCategory.endUser.support</b>|
 
@@ -12577,9 +11957,7 @@ None
 ## <a id="privacy-datacategory-enduser-support-content"><b>privacy.dataCategory.endUser.support.content</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.support</b>](#privacy-datacategory-enduser-support) <- <b>privacy.dataCategory.endUser.support.content</b>|
 
@@ -12597,9 +11975,7 @@ None
 ## <a id="privacy-datacategory-enduser-support-interaction"><b>privacy.dataCategory.endUser.support.interaction</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataCategory</b>](#privacy-datacategory) <- [<b>privacy.dataCategory.endUser</b>](#privacy-datacategory-enduser) <- [<b>privacy.dataCategory.endUser.support</b>](#privacy-datacategory-enduser-support) <- <b>privacy.dataCategory.endUser.support.interaction</b>|
 
@@ -12623,9 +11999,7 @@ None
 The root trait for the set explaining how data value may identity an individual.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- <b>privacy.dataIdentifiablity</b>|
 
@@ -12643,9 +12017,7 @@ None
 ## <a id="privacy-dataidentifiablity-aggregated"><b>privacy.dataIdentifiablity.aggregated</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.aggregated</b>|
 
@@ -12663,9 +12035,7 @@ None
 ## <a id="privacy-dataidentifiablity-anonymized"><b>privacy.dataIdentifiablity.anonymized</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.anonymized</b>|
 
@@ -12683,9 +12053,7 @@ None
 ## <a id="privacy-dataidentifiablity-identified"><b>privacy.dataIdentifiablity.identified</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.identified</b>|
 
@@ -12703,9 +12071,7 @@ None
 ## <a id="privacy-dataidentifiablity-pseudonimized"><b>privacy.dataIdentifiablity.pseudonimized</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.pseudonimized</b>|
 
@@ -12723,9 +12089,7 @@ None
 ## <a id="privacy-dataidentifiablity-pseudonimizednotlinked"><b>privacy.dataIdentifiablity.pseudonimizedNotLinked</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataIdentifiablity</b>](#privacy-dataidentifiablity) <- <b>privacy.dataIdentifiablity.pseudonimizedNotLinked</b>|
 
@@ -12749,9 +12113,7 @@ None
 The set of actions a data subject must be able to take on a set of data.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- <b>privacy.dataSubjectAction</b>|
 
@@ -12769,9 +12131,7 @@ None
 ## <a id="privacy-datasubjectaction-delete"><b>privacy.dataSubjectAction.delete</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.delete</b>|
 
@@ -12789,9 +12149,7 @@ None
 ## <a id="privacy-datasubjectaction-edit"><b>privacy.dataSubjectAction.edit</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.edit</b>|
 
@@ -12809,9 +12167,7 @@ None
 ## <a id="privacy-datasubjectaction-export"><b>privacy.dataSubjectAction.export</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.export</b>|
 
@@ -12829,9 +12185,7 @@ None
 ## <a id="privacy-datasubjectaction-view"><b>privacy.dataSubjectAction.view</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataSubjectAction</b>](#privacy-datasubjectaction) <- <b>privacy.dataSubjectAction.view</b>|
 
@@ -12855,9 +12209,7 @@ None
 The purpose for a sepcific usage of a set of data
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- <b>privacy.dataUsage</b>|
 
@@ -12875,9 +12227,7 @@ None
 ## <a id="privacy-datausage-advertising"><b>privacy.dataUsage.advertising</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.advertising</b>|
 
@@ -12895,9 +12245,7 @@ None
 ## <a id="privacy-datausage-advertising-adplatform"><b>privacy.dataUsage.advertising.adPlatform</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.advertising</b>](#privacy-datausage-advertising) <- <b>privacy.dataUsage.advertising.adPlatform</b>|
 
@@ -12915,9 +12263,7 @@ None
 ## <a id="privacy-datausage-advertising-directmarketing"><b>privacy.dataUsage.advertising.directMarketing</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.advertising</b>](#privacy-datausage-advertising) <- <b>privacy.dataUsage.advertising.directMarketing</b>|
 
@@ -12935,9 +12281,7 @@ None
 ## <a id="privacy-datausage-improve"><b>privacy.dataUsage.improve</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.improve</b>|
 
@@ -12955,9 +12299,7 @@ None
 ## <a id="privacy-datausage-personalize"><b>privacy.dataUsage.personalize</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.personalize</b>|
 
@@ -12975,9 +12317,7 @@ None
 ## <a id="privacy-datausage-provide"><b>privacy.dataUsage.provide</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.provide</b>|
 
@@ -12995,9 +12335,7 @@ None
 ## <a id="privacy-datausage-recommend"><b>privacy.dataUsage.recommend</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.recommend</b>|
 
@@ -13015,9 +12353,7 @@ None
 ## <a id="privacy-datausage-research"><b>privacy.dataUsage.research</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.research</b>|
 
@@ -13035,9 +12371,7 @@ None
 ## <a id="privacy-datausage-share"><b>privacy.dataUsage.share</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- <b>privacy.dataUsage.share</b>|
 
@@ -13055,9 +12389,7 @@ None
 ## <a id="privacy-datausage-share-controller"><b>privacy.dataUsage.share.controller</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.share</b>](#privacy-datausage-share) <- <b>privacy.dataUsage.share.controller</b>|
 
@@ -13075,9 +12407,7 @@ None
 ## <a id="privacy-datausage-share-processor"><b>privacy.dataUsage.share.processor</b></a>
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.dataUsage</b>](#privacy-datausage) <- [<b>privacy.dataUsage.share</b>](#privacy-datausage-share) <- <b>privacy.dataUsage.share.processor</b>|
 
@@ -13101,9 +12431,7 @@ None
 The root meta trait that indicates how to interpret a group of co-ascribed privacy traits.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- <b>privacy.expresses</b>|
 
@@ -13127,9 +12455,7 @@ None
 The assumed default behavior, if privacy.expresses.metaData is not set, then this trait is implicit. When a group of traits are ascribed to an entity or attribute, The other privacy traits describe the aspects of data values held by the entity or attribute.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.data</b>|
 
@@ -13153,9 +12479,7 @@ None
 When this trait and a group of other privacy traits are ascribed to an entity or attribute, The other privacy traits describe the aspects of the metatdata for the data values held by the entity or attribute. That is, the entity itself may contain privacy or policy descriptions, rules, settings.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.metaData</b>|
 
@@ -13179,9 +12503,7 @@ None
 Use is allowed for the condition using the combined meanings of all other privacy traits in a set.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.useAllowed</b>|
 
@@ -13205,9 +12527,7 @@ None
 Use is dis-allowed for the condition formed using the combined meanings of all other privacy traits in a set.
 
 
-**Inheritance**
-
-| |
+| Inheritance |
 |--|
 |[<b>privacy</b>](#privacy) <- [<b>privacy.expresses</b>](#privacy-expresses) <- <b>privacy.expresses.useRestricted</b>|
 

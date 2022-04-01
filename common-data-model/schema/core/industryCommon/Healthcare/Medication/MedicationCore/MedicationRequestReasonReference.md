@@ -2,9 +2,9 @@
 title: MedicationRequestReasonReference in MedicationCore - Common Data Model | Microsoft Docs
 description: Condition or observation that supports why the medication was ordered.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

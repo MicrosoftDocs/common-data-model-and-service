@@ -2,7 +2,7 @@
 title: Operation Add Supporting Attribute Usage Guide | Microsoft Docs
 description: Usage guide for the Add Supporting Attribute operation.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 02/24/2020
@@ -120,7 +120,7 @@ On the example above, the `priorityCode` attribute is constrained to a set of po
 
 The resulting resolved priorityCode data typed attribute is:
 
-||
+| Data typed attribute |
 |-|
 |priorityCode|
 |priorityCode_display|

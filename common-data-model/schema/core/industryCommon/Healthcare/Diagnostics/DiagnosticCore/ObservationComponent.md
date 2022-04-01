@@ -2,9 +2,9 @@
 title: ObservationComponent in DiagnosticCore - Common Data Model | Microsoft Docs
 description: Some observations have multiple component observations. These component observations are expressed as separate code value pairs that share the same attributes.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

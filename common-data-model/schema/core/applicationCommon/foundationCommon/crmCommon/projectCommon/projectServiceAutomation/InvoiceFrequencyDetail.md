@@ -2,9 +2,9 @@
 title: InvoiceFrequencyDetail in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of days expressed as dates or day of week for a specific invoice schedule template.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

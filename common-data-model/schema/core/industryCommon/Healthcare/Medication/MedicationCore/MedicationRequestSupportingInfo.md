@@ -2,9 +2,9 @@
 title: MedicationRequestSupportingInfo in MedicationCore - Common Data Model | Microsoft Docs
 description: Include additional information (for example, patient height and weight) that supports the ordering of the medication.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

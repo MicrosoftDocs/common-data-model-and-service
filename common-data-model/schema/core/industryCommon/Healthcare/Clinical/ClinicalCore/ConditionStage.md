@@ -2,9 +2,9 @@
 title: ConditionStage in ClinicalCore - Common Data Model | Microsoft Docs
 description: Clinical stage or grade of a condition. May include formal severity assessments.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

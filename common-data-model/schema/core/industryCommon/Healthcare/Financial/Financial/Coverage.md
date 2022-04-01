@@ -2,9 +2,9 @@
 title: Coverage in Financial - Common Data Model | Microsoft Docs
 description: "The party(s) that are responsible for payment (or part of) of charges applied to this account (including self-pay). A coverage may only be resposible for specific types of charges."
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

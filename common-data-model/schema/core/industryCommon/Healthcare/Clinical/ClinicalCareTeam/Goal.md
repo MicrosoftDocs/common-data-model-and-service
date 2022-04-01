@@ -2,9 +2,9 @@
 title: Goal in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Target objective for a user or a team for a specified time period.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

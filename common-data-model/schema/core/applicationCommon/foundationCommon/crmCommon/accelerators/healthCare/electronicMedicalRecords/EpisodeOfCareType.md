@@ -2,9 +2,9 @@
 title: EpisodeOfCareType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

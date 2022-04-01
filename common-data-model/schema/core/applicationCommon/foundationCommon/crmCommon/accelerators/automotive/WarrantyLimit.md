@@ -2,9 +2,9 @@
 title: WarrantyLimit in automotive - Common Data Model | Microsoft Docs
 description: Limits to a specific warranty, such as maximum mileage or time until expiration.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

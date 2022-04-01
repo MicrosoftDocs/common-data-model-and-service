@@ -2,9 +2,9 @@
 title: DealerPlateDeviceAssignment in automotive - Common Data Model | Microsoft Docs
 description: Record of which dealer plates were used on which vehicle or device over time.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

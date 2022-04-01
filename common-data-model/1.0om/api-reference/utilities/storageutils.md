@@ -2,7 +2,7 @@
 title: Storage Utils | Microsoft Docs
 description: API reference for StorageUtils.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 06/19/2020

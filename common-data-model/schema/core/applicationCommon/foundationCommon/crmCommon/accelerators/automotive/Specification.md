@@ -2,9 +2,9 @@
 title: Specification in automotive - Common Data Model | Microsoft Docs
 description: Specification of a vehicle or device with a given combination of configuration options and accessories.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

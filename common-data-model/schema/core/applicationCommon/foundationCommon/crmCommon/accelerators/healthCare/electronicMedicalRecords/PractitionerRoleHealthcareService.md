@@ -2,9 +2,9 @@
 title: PractitionerRoleHealthcareService in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The list of healthcare services that this worker provides for this role's Organization/Location(s).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---
