@@ -6,7 +6,7 @@ author: jinichu
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 06/24/2020
-ms.author: jibyun
+ms.author: kvivek
 ---
 
 # Create schema documents for the Common Data Model
@@ -130,7 +130,7 @@ You'll start by creating an entity schema for the *logical* entity, **UserAgent*
 
 Notice the use of the name *browserName*, rather than *uaBrowserName*. You'll learn why this was done in the [Attribute resolution guidance](creating-schemas.md#attribute-resolution-guidance) section.
 
-The data type for this attribute is a string. Alternatively, you could have used the *name* data type, which describes a string that also has the trait "means.identity.name<no-link>". Traits are useful because they help express further semantic meaning. Using the *name* data type shows that this attribute is a name of some kind, which is more meaningful than just knowing that it's a string.
+The data type for this attribute is a string. Alternatively, you could have used the *name* data type, which describes a string that also has the trait "means.identity.name". Traits are useful because they help express further semantic meaning. Using the *name* data type shows that this attribute is a name of some kind, which is more meaningful than just knowing that it's a string.
 
 >[!TIP]
 >The complete list of all the data types is listed in *primitives.cdm.json* and the various *meanings.cdm.json* files (for example, *meanings.identity.cdm.json*).
