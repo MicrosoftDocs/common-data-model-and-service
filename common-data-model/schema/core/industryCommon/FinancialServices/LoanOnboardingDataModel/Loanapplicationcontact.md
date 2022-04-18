@@ -88,7 +88,7 @@ The customer associated with the loan application.
 |[numberofYearsatPresentAddress](#numberofYearsatPresentAddress)|Number of Years at Present Address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[phone](#phone)|The main phone number of the loan application contact.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[postOfficeBox](#postOfficeBox)|The post office box number of the present address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
-|[prefix](#prefix)|The loan application contact's title (Ms., Mr., Doctor, etc).|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
+|[prefix](#prefix)|(Deprecated) This field is deprecated and should not be used. The loan application contact's title (Ms., Mr., Doctor, etc).|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[presentAddressOwnershipStatus](#presentAddressOwnershipStatus)|Does loan contact own or rent their current living address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[primaryMemberHelper](#primaryMemberHelper)|A calculated field helping determine if this loan application contact is the primary member of the loan application.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[stateProvince](#stateProvince)|The state or province of this loan application contact's present address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
