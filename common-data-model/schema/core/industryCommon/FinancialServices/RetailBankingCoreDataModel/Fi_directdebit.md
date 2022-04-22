@@ -2,9 +2,9 @@
 title: FIDirectDebit in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: An automated payment system whereby an account holder authorizes a creditor to debit the customer's bank account at regular intervals.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

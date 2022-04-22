@@ -2,9 +2,9 @@
 title: EndpointContact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Contact details for a human to contact about the subscription. The primary use of this for system administrator troubleshooting.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

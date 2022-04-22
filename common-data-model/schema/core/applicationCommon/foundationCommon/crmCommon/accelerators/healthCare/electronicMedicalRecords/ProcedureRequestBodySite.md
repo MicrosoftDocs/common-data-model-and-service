@@ -2,9 +2,9 @@
 title: ProcedureRequestBodySite in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Anatomic location where the procedure should be performed. This is the target site.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,7 +2,7 @@
 title: Working with Synapse metadata store | Microsoft Docs
 description: This article provides guidance to developers for using Common Data Model SDK with Synapse workspaces and their metadata stores.
 author: supawa
-ms.service: common-data-model
+
 ms.topic: article
 ms.date: 09/01/2021
 ms.author: supawa
@@ -281,6 +281,7 @@ Common Data Model maps SyMS metadata into a folder structure as shown below:
         ```
     7. Save manifest.
     
+Note : The data partition location path which contain '.', currently not supported in SyMS adapter. Example adls:/abc/is.folder is not supported.
 
 ## SymsAdapter Class
 Please refer to [this](../1.0om/api-reference/storage/symsadapter.md) section.

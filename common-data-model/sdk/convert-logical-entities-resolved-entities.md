@@ -2,7 +2,7 @@
 title: Resolving a logical entity definition | Microsoft Docs
 description: Resolving a logical entity definition.
 author: msftman
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/24/2021

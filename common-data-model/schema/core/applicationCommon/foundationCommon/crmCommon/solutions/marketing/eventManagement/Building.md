@@ -2,9 +2,9 @@
 title: Building in eventManagement - Common Data Model | Microsoft Docs
 description: A single venue can be comprised of zero or more buildings where event activities are held. Each building in turn is comprised of zero or more rooms where event activities are held.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: Contact in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague. Contact in electronicMedicalRecords.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: MedicationRequestReasonCode in MedicationCore - Common Data Model | Microsoft Docs
 description: The reason or the indication for ordering the medication.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

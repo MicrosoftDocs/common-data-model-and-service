@@ -2,7 +2,7 @@
 title: Attribute Resolution Guidance | Microsoft Docs
 description: API reference for CdmAttributeResolutionGuidance.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 06/24/2020

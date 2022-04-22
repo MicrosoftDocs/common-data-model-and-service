@@ -2,9 +2,9 @@
 title: SpecimenRequest in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Details concerning a test or procedure request that required a specimen to be collected.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

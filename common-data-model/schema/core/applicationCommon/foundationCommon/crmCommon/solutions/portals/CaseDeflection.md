@@ -2,9 +2,9 @@
 title: CaseDeflection in portals - Common Data Model | Microsoft Docs
 description: Captures the number of Found My Answer clicks in the portal.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

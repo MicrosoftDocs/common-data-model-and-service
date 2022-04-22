@@ -2,9 +2,9 @@
 title: ProcedureUsedReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies medications, devices and any other substance used as part of the procedure.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

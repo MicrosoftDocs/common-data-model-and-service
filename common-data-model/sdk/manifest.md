@@ -2,7 +2,7 @@
 title: The Common Data Model Manifest object | Microsoft Docs
 description: Learn about the Common Data Model Manifest object.
 author: msftman
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 03/13/2020

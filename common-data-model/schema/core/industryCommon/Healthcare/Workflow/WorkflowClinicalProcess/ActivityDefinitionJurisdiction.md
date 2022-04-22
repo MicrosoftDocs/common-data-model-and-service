@@ -2,9 +2,9 @@
 title: ActivityDefinitionJurisdiction in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: A legal or geographic region in which the activity definition is intended to be used.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

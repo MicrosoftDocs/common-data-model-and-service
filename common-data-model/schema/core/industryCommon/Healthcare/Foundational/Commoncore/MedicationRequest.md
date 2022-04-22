@@ -2,9 +2,9 @@
 title: MedicationRequest in Commoncore - Common Data Model | Microsoft Docs
 description: An order or request for both supply of the medication and the instructions for administration of the medication to a patient.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: SpecimenParent in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Reference to the parent (source) specimen which is used when the specimen was either derived from or a component of another specimen.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

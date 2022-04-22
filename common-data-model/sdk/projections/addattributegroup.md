@@ -2,7 +2,7 @@
 title: Operation Add Attribute Group Usage Guide | Microsoft Docs
 description: Usage guide for the Add Attribute Group operation.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 02/24/2021
@@ -74,7 +74,7 @@ We can use the AddAttributeGroup operation to place all the attributes reference
 
 The resulting resolved PersonInfo entity typed attribute is:
 
-| PersonInfoGroup | |
+| PersonInfoGroup | Attribute |
 |-----------------|--|
 | | name |
 | | age |
@@ -105,7 +105,7 @@ Given an entity, Child, that extends the Person entity:
 
 The resulting resolved Child entity is:
 
-| ChildGroup | |
+| ChildGroup | Attribute |
 |-----------------|--|
 | | name |
 | | age |
@@ -142,11 +142,11 @@ Using multiple addAttributeGroup operations will result in an attribute group be
 
 The resulting resolved Child entity is:
 
-| OuterGroup | | |
-|------------|--|--|
-| | InnerGroup | |
-| | | name |
-| | | age |
-| | | address |
-| | | phoneNumber |
-| | | email |
+| OuterGroup | Attribute | 
+|------------|--|
+| InnerGroup |  |  
+| | name |
+| | age |
+| | address |
+| | phoneNumber |
+| | email |

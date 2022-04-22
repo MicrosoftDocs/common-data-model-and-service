@@ -2,9 +2,9 @@
 title: HealthcareServiceProvision in AdministrationHealthServices - Common Data Model | Microsoft Docs
 description: The code(s) that detail the conditions under which the healthcare service is available/offered.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

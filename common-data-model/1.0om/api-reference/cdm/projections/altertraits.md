@@ -2,7 +2,7 @@
 title: Operation Alter Traits | Microsoft Docs
 description: API reference for CdmOperationAlterTraits.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 09/03/2021
@@ -29,8 +29,8 @@ public class CdmOperationAlterTraits extends CdmOperationBase
 
 |Name|Type|Description|
 |---|---|---|
-|TraitsToAdd|List\<[CdmTraitReferenceBase](..\traitreferencebase.md)>|A list of traits or trait groups that will be applied on the input.
-|TraitsToRemove|List\<[CdmTraitReferenceBase](..\traitreferencebase.md)>|A list of traits or trait groups that will be removed (if found) on the input.
+|TraitsToAdd|[CdmCollection](..\collection.md)\<[CdmTraitReferenceBase](..\traitreferencebase.md)>|A CdmCollection of traits or trait groups that will be applied on the input.
+|TraitsToRemove|[CdmCollection](..\collection.md)\<[CdmTraitReferenceBase](..\traitreferencebase.md)>|A CdmCollection of traits or trait groups that will be removed (if found) on the input.
 |ArgumentsContainWildcards|bool?|If true, checks all arguments from all traits and performs replacement. May contain a single occurrence of ('{a}' or '{A}') for the (original or capitalized) form name of the projection owner, ('{m}' or '{M}') for the (original or capitalized) resolved name of the member attribute, ('{mo}' or '{Mo}') for the (original or capitalized) original name of the member attribute, and '{o}' for the held ordinal of the attribute in the array.
 |ApplyTo|List\<string>|A list of attributes from the input attributes set to which traits defined in traitsToAdd property will be added (or arguments updated) and/or removed as indicated in traitsToRemove property. If not specified, traits in all attributes from the source will be targeted.
 

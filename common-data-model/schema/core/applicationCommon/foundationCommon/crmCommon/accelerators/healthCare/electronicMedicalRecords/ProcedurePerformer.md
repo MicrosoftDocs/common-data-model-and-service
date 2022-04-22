@@ -2,9 +2,9 @@
 title: ProcedurePerformer in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Limited to 'real' people rather than equipment.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

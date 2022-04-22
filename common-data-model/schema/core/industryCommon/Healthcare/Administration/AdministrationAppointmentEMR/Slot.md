@@ -2,9 +2,9 @@
 title: Slot in AdministrationAppointmentEMR - Common Data Model | Microsoft Docs
 description: A slot of time on a schedule that may be available for booking appointments.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

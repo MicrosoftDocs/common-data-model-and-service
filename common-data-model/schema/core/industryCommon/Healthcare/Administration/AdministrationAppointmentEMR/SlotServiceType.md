@@ -2,9 +2,9 @@
 title: SlotServiceType in AdministrationAppointmentEMR - Common Data Model | Microsoft Docs
 description: The type of appointments that can be booked into this slot. If provided then this overrides the value provided on the availability resource.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

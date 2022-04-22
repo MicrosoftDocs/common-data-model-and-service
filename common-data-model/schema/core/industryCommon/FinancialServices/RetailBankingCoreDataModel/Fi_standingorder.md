@@ -2,9 +2,9 @@
 title: FIStandingOrder in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: An instruction order from an account holder for a set amount of money to be removed from an account at regular intervals and paid to or transferred to another account.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

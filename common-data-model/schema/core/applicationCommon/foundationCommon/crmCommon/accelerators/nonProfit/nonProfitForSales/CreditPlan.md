@@ -2,9 +2,9 @@
 title: CreditPlan in nonProfitForSales - Common Data Model | Microsoft Docs
 description: Credit Plans control who will be credited with hard or soft credits after a payment clears.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

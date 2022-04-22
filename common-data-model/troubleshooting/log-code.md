@@ -2,7 +2,7 @@
 title: Guidance on SDK error and warning codes | Microsoft Docs
 description: Guidance on SDK error and warning codes.
 author: supawa
-ms.service: common-data-model
+
 ms.topic: article
 ms.date: 07/28/2021
 ms.author: supawa
@@ -197,4 +197,5 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**WarnProjCreateForeignKeyTraits**|SDK logs this warning to indicate an internal error where an attribute does not have the owner property set.
 |**WarnProjFKWithoutSourceEntity**|This warning is logged if a replaceAsForeignKey operation is used while extending an entity or on an data typed attribute. This operation is only allowed on an entity typed attribute.
 |**WarnTelemetryIngestionFailed**|This warning is logged when the Kusto ingestion process throws an exception due to authentication failure or HTTP request failure.
+|**WarnTelemetryMaxQueueSizeReached**|This warning is logged when the Kusto ingestion fails because ingestion queue reaches its maximum size.
 |**WarnValdnOrdinalStartEndOrder**|This warning is logged if the "StartOrdinal" of an array expansion operation is smaller than the "EndOrdinal". In that case the operation will not execute.

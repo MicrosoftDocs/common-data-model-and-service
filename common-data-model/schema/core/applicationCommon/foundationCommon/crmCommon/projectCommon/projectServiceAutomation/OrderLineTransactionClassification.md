@@ -2,9 +2,9 @@
 title: OrderLineTransactionClassification in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of transaction classification heads, which are four broad cost categories of time, expense, material, and fee, that will be considered as costs when computing the profit of a project contract line.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

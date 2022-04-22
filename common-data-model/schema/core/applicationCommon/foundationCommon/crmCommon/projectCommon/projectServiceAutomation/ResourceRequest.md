@@ -2,9 +2,9 @@
 title: ResourceRequest in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: Entity that wraps the resource requirement to capture the type of resources, skills, and location required.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

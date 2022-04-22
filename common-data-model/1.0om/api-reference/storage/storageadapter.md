@@ -2,7 +2,7 @@
 title: Storage adapter | Microsoft Docs
 description: The API reference for StorageAdapter.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/24/2020

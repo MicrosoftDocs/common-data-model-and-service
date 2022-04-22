@@ -2,14 +2,14 @@
 title: EmailContainsBlacklistedLinks in interactions - Common Data Model | Microsoft Docs
 description: undefined
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---
 
-# Email contains blacklisted links in interactions(EmailContainsBlacklistedLinks)
+# Email contains blocklisted links in interactions(EmailContainsBlacklistedLinks)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/solutions/marketing/interactions/EmailContainsBlacklistedLinks.cdm.json" target="_blank">GitHub</a>.  
@@ -27,7 +27,7 @@ ms.author: weiluo
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmailContainsBlacklistedLinks/(resolvedAttributes)/interactionId](#interactionId)</td><td>attribute</td><td></td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email contains blacklisted links</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Email contains blocklisted links</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 </details>
 
@@ -42,7 +42,7 @@ ms.author: weiluo
 |[customerJourneyId](#customerJourneyId)|Customer Journey ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
 |[organizationId](#organizationId)|Organization ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
 |[sendingId](#sendingId)|Sending ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
-|[blacklistedLink](#blacklistedLink)|Blacklisted link|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
+|[blacklistedLink](#blacklistedLink)|Blocklisted link|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
 |[customerJourneyIterationId](#customerJourneyIterationId)|Customer journey iteration ID|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
 |[usageType](#usageType)|Usage type|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
 |[interactionType](#interactionType)|Interaction type|<a href="EmailContainsBlacklistedLinks.md" target="_blank">interactions/EmailContainsBlacklistedLinks</a>|
@@ -336,12 +336,12 @@ The attribute value may be set to NULL.
 
 ### <a href=#blacklistedLink name="blacklistedLink">blacklistedLink</a>
 
-Blacklisted link  
+Blocklisted link  
 First included in: interactions/EmailContainsBlacklistedLinks (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Blacklisted link</td></tr><tr><td>description</td><td>Blacklisted link</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Blocklisted link</td></tr><tr><td>description</td><td>Blocklisted link</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>isNullable</td><td>true</td></tr></table>
 
 #### Traits
 
@@ -355,10 +355,10 @@ First included in: interactions/EmailContainsBlacklistedLinks (this entity)
 The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.displayedAs**  
-Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Blacklisted link</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Blocklisted link</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Blacklisted link</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Blocklisted link</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
