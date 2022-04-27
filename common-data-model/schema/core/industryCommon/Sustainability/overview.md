@@ -9,8 +9,13 @@ ms.date: 4/27/2022
 ms.author: matgos
 ---
 
-# Overview of Sustainability
+# Overview of Microsoft Cloud for Sustainability data model
 
+Microsoft Cloud for Sustainability empowers organizations to accelerate sustainability progress and business growth by integrating environmental, social, and governance (ESG) capabilities across the Microsoft Cloud portfolio and solutions from our global ecosystem of partners.
+
+This data model is the foundation for Microsoft Cloud for Sustainability, but can also be used independently by ISVs and customers for building additional sustainability solutions. It is used to import customer activities that produce greenhouse gas emissions for emissions calculations and reporting of emissions impact.
+
+For more information, see [Microsoft Cloud for Sustainability](https://go.microsoft.com/fwlink/?linkid=2193512). 
 
 ## Entities
 
