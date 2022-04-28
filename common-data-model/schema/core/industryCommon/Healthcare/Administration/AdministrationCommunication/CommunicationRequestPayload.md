@@ -2,9 +2,9 @@
 title: CommunicationRequestPayload in AdministrationCommunication - Common Data Model | Microsoft Docs
 description: Text, attachment(s), or resource(s) to be communicated to the recipient.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

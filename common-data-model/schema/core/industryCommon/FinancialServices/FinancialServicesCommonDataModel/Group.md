@@ -2,9 +2,9 @@
 title: Group in Financial Services Common Data Model - Common Data Model | Microsoft Docs
 description: An association of several customers allowing e.g. the representation of households
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---
@@ -521,7 +521,7 @@ Holds the list of language specific display text for an object.  <table><tr><th>
 Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Primary member of the group.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="../../../Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr><tr><td><a href="../../../Groupmember.md" target="_blank">Groupmember.cdm.json/GroupMember</a></td><td><a href="../../../Groupmember.md#groupMemberId" target="_blank">groupMemberId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/portals/account" target="_blank">Account.cdm.json/Account</a></td><td><a href="/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/portals/account#accountid" target="_blank">accountId</a></td></tr><tr><td><a href="/common-data-model/schema/core/applicationcommon/contact" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="/common-data-model/schema/core/applicationcommon/contact#contactid" target="_blank">contactId</a></td></tr><tr><td><a href="/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/groupmember" target="_blank">Groupmember.cdm.json/GroupMember</a></td><td><a href="/common-data-model/schema/core/industrycommon/financialservices/financialservicescommondatamodel/groupmember#groupmemberid" target="_blank">groupMemberId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

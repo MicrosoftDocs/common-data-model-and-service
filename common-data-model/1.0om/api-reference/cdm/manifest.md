@@ -2,7 +2,7 @@
 title: Manifest | Microsoft Docs
 description: API reference for CdmManifestDefinition.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
@@ -19,11 +19,13 @@ public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefin
 *CdmManifestDefinition extends CdmDocumentDefinition, CdmFileStatus in TypeScript.*
 
 ## Constructors
+
 |Name|Description|
 |---|---|
 |**CdmManifestDefinition(CdmCorpusContext, string)**<br/>*ctx*: The corpus context.<br/>*name*: The manifest's name.<br/>|Initializes a new instance of the [CdmManifestDefinition](manifest.md) class.|
 
 ## Properties
+
 |Name|Type|Description|
 |---|---|---|
 |ManifestName|string|The manifest's name.|
@@ -36,7 +38,6 @@ public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefin
 |LastFileModifiedTime|DateTimeOffset?|The last time this file was modified according to the object model.|
 |LastChildFileModifiedTime|DateTimeOffset?|The greatest last time reported by any of the children objects about their file status check times.|
 
-
 ## Methods
 |Name|Description|Return Type|SDK|
 |---|---|---|---|
@@ -46,4 +47,3 @@ public class CdmManifestDefinition extends CdmDocumentDefinition, CdmObjectDefin
 |**FileStatusCheckAsync([PartitionFileStatusCheckType](partitionfilestatuscheckType.md), [CdmIncrementalPartitionType](cdmincrementalpartitiontype.md))**<br/>*partitionFileStatusCheckType [optional]*: An enum value that denotes the type of partition objects and partition pattern objects to update. The default value is `PartitionFileStatusCheckType.Full`. <br/>*incrementalType [optional]*: An enum value that denotes what type of incremental partition objects and incremental partition pattern objects to update. The default value is `CdmIncrementalPartitionType.None`.|Task|1.6|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|1.0|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|1.0|
-

@@ -2,9 +2,9 @@
 title: ActivityDefinitionLibrary in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: A reference to a Library entity containing any formal logic used by the asset.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: AttributeGroup in automotive - Common Data Model | Microsoft Docs
 description: Group of attribute types, for example representing dimensions, interior, exterior, environmental or other aspects of a device.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

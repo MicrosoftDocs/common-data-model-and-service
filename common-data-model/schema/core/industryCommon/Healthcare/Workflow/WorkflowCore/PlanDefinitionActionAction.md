@@ -2,9 +2,9 @@
 title: PlanDefinitionActionAction in WorkflowCore - Common Data Model | Microsoft Docs
 description: Sub actions that are contained within the action. The behavior of this action determines the functionality of the sub-actions.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

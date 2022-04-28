@@ -2,7 +2,7 @@
 title: Network Adapter | Microsoft Docs
 description: API reference for NetworkAdapter.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/24/2020

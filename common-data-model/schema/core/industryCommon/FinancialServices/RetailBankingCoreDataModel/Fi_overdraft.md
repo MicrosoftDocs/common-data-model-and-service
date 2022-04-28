@@ -2,9 +2,9 @@
 title: FIOverdraft in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: An extension of credit associated with a checking account allowing the account holder to continue withdrawing funds when an account reaches zero.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

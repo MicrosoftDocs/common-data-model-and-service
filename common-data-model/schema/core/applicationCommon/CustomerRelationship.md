@@ -2,9 +2,9 @@
 title: CustomerRelationship in applicationCommon - Common Data Model | Microsoft Docs
 description: Relationship between a customer and a partner in which either can be an account or contact.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,7 +2,7 @@
 title: Resolution guidance
 description: Clarify and illustrate the process that resolves logical entities into a concrete attribute list.
 author: msftman
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/24/2021

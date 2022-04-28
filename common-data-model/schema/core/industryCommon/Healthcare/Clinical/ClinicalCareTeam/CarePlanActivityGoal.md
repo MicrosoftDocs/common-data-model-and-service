@@ -2,9 +2,9 @@
 title: CarePlanActivityGoal in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Internal reference that identifies the goals that this activity is intended to contribute towards meeting.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: CommunicationRequestReason in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Describes why the request is being made in coded or textual form.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

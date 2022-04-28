@@ -2,9 +2,9 @@
 title: ProcedureBodySite in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Detailed and structured anatomical location information. Multiple locations are allowed - e.g. multiple punch biopsies of a lesion.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

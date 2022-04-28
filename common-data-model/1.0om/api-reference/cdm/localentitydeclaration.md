@@ -2,7 +2,7 @@
 title: Local Entity Declaration | Microsoft Docs
 description: API reference for CdmLocalEntityDeclarationDefinition.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
@@ -47,4 +47,3 @@ public class CdmLocalEntityDeclarationDefinition extends CdmObjectDefinitionBase
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|1.0|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|1.0|
 |**Validate()**|See [CdmObject.Validate()](cdmobject.md#methods).|bool|1.0|
-

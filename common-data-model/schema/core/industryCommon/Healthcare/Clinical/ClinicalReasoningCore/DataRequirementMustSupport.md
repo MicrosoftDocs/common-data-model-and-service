@@ -2,9 +2,9 @@
 title: DataRequirementMustSupport in ClinicalReasoningCore - Common Data Model | Microsoft Docs
 description: Indicates that specific elements of the type are referenced by the knowledge module and must be supported by the consumer in order to obtain an effective evaluation.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

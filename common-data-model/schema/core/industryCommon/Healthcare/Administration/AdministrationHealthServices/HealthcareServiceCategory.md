@@ -2,9 +2,9 @@
 title: HealthcareServiceCategory in AdministrationHealthServices - Common Data Model | Microsoft Docs
 description: Identifies the broad category of service being performed or delivered.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

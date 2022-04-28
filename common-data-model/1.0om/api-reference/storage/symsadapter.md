@@ -2,7 +2,7 @@
 title: SyMS Adapter | Microsoft Docs
 description: API reference for SymsAdapter.
 author: supawa
-ms.service: common-data-model
+
 ms.topic: article
 ms.date: 09/01/2021
 ms.author: supawa

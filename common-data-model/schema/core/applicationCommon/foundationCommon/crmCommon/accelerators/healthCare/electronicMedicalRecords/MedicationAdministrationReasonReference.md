@@ -2,9 +2,9 @@
 title: MedicationAdministrationReasonReference in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Condition or observation that supports why the medication was administered.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

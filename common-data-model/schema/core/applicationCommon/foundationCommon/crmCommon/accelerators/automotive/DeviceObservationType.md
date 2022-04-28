@@ -2,9 +2,9 @@
 title: DeviceObservationType in automotive - Common Data Model | Microsoft Docs
 description: Type of observation, indicating severity and nature of the observation and typically used for classification and filtering of observations.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

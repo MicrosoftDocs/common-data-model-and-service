@@ -2,9 +2,9 @@
 title: TaskBasedOn in WorkflowCore - Common Data Model | Microsoft Docs
 description: BasedOn refers to a higher-level authorization that triggered the creation of the task. It references a "request" entity such as a ProcedureRequest, MedicationRequest, ProcedureRequest, CarePlan, etc
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

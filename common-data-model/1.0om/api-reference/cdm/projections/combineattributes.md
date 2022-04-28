@@ -2,7 +2,7 @@
 title: Operation Combine Attributes | Microsoft Docs
 description: API reference for CdmOperationCombineAttributes.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 02/24/2021

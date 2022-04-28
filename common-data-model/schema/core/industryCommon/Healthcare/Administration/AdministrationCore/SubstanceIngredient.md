@@ -2,9 +2,9 @@
 title: SubstanceIngredient in AdministrationCore - Common Data Model | Microsoft Docs
 description: A substance can be composed of other substances.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

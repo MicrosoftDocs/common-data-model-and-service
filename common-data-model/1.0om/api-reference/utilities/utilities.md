@@ -2,7 +2,7 @@
 title: API reference for utilities | Microsoft Docs
 description: API reference for utilities.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019

@@ -2,9 +2,9 @@
 title: Branch in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: The branch of the main bank, when borrower applies for a loan at a branch.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

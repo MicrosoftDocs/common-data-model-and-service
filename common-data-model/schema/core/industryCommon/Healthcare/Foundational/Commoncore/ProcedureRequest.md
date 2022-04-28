@@ -2,9 +2,9 @@
 title: ProcedureRequest in Commoncore - Common Data Model | Microsoft Docs
 description: A record of a request for diagnostic investigations, treatments, or operations to be performed.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

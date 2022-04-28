@@ -2,9 +2,9 @@
 title: EndpointPayloadMimeType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The mime type to send the payload in . If the mime type is not specified, then the sender could send any content .
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

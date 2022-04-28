@@ -2,9 +2,9 @@
 title: RequestGroup in Commoncore - Common Data Model | Microsoft Docs
 description: A group of related requests that can be used to capture intended activities that have inter-dependencies such as "give this medication after that one".
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

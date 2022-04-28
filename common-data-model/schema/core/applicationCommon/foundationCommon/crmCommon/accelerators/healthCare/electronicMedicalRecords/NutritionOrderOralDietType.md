@@ -2,9 +2,9 @@
 title: NutritionOrderOralDietType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The kind of diet or dietary restriction such as fiber restricted diet or diabetic diet.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

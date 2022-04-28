@@ -2,7 +2,7 @@
 title: From model.json to the future | Microsoft Docs
 description: Developer guide to using Common Data Model SDK with model.json metadata files.
 author: miroslavplese
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 06/23/2020

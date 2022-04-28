@@ -2,7 +2,7 @@
 title: Data Partition Pattern | Microsoft Docs
 description: API reference for CdmDataPartitionPatternDefinition.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 06/24/2020
@@ -40,7 +40,7 @@ public class CdmDataPartitionPatternDefinition extends CdmObjectDefinitionBase, 
 ## Methods
 |Name|Description|Return Type|
 |---|---|---|
-|**FileStatusCheckAsync()**|Updates the object and its children, if any, with the current time.|Task|
+|**FileStatusCheckAsync()**|Updates the object and its children, if any, with the current time. On a data partition pattern, this API also checks for files that match the pattern described here. There will be one data partition per file matching the pattern created on the entity declaration that owns this pattern.|Task|
 |**GetName()**|See [CdmObjectDefinition.GetName()](cdmobjectdefinition.md#methods).|string|
 |**IsDerivedFrom(string, [ResolveOptions](../utilities/resolveoptions.md))**|See [CdmObject.IsDerivedFrom(...)](cdmobject.md#methods).|bool|
 |**Copy([ResolveOptions](../utilities/resolveoptions.md), [CdmObject](cdmobject.md))**|See [CdmObject.Copy(...)](cdmobject.md#methods).|[CdmObject](cdmobject.md)|

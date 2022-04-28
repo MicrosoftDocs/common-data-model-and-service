@@ -2,7 +2,7 @@
 title: API Reference | Microsoft Docs
 description: API reference overview.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 1/29/2020
