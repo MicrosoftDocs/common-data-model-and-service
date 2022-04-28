@@ -28,9 +28,9 @@ public enum CdmIncrementalPartitionType
 }
 ```
 
-* **None**: Non-incremental type.
-* **Insert**: An enum value that denotes the partition file contains records of insertion, insert is an operation that inserts a row into a database table.
-* **Update**: An enum value that denotes the partition file contains records of update, update is an operation that change or update values of a row in a database table.
-* **Delete**: An enum value that denotes the partition file contains records of deletion, delete is an operation that delete a row in a database table.
-* **Upsert**: An enum value that denotes the partition file contains records of insertion and update, upsert is an operation that inserts a row into a database table if it do not already exist, or updates it if it does.
-* **InsertAndDelete**: An enum value that denotes the partition file contains records of insertion, update and deletion. This is a delta-lake-like partition file.
+* **None**: An enum value indicating that the partition file does not contain incremental records.
+* **Insert**: An enum value indicating that the partition file contains newly inserted table records only.
+* **Update**: An enum value indicating that the partition file contains updated table records only.
+* **Delete**: An enum value indicating that the partition file contains deleted table records only.
+* **Upsert**: An enum value indicating that the partition file contains newly inserted or updated table records.
+* **InsertAndDelete**: An enum value indicating that the partition file contains newly inserted, updated and deleted table records. Example would be a delta-lake partition file.
