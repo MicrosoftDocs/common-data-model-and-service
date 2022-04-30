@@ -15,7 +15,7 @@ Microsoft Cloud for Sustainability empowers organizations to accelerate sustaina
 
 This data model is the foundation for Microsoft Cloud for Sustainability, but can also be used independently by ISVs and customers for building additional sustainability solutions. It is used to import customer activities that produce greenhouse gas emissions for emissions calculations and reporting of emissions impact.
 
-For more information, see the [Microsoft Cloud for Sustainability](https://go.microsoft.com/fwlink/?linkid=2193512) documentation. This documentation includes [introductory information](https://go.microsoft.com/fwlink/?linkid=2194529) about the data model, as well as information about the [required attributes](https://go.microsoft.com/fwlink/?linkid=2194273).
+For more information, see the [Microsoft Cloud for Sustainability](https://go.microsoft.com/fwlink/?linkid=2193512) documentation. The documentation includes [introductory information](https://go.microsoft.com/fwlink/?linkid=2194529) about the data model, as well as information about the [required attributes](https://go.microsoft.com/fwlink/?linkid=2194273).
 
 ## Entities
 
