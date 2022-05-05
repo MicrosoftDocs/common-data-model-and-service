@@ -3218,7 +3218,8 @@ None
 |newline|char|False
 |quote|char|False
 |skipLines|integer|False
-|raggedRight|boolean|False
+|raggedRight|boolean|
+
 
 
 ## <a id="is-partition-format-deltalake"><b>is.partition.format.deltaLake</b></a>
@@ -3270,6 +3271,34 @@ None
 **Parameters**
 
 None
+
+
+## <a id="is-partition-incremental"><b>is.partition.incremental</b></a>
+
+
+**Description**
+
+
+The base trait for describing incremental partitions and incremental partition patterns.
+
+
+| Inheritance |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.incremental</b>|
+
+
+**Properties**
+
+None
+is.partition.incremental
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|type|string|True
+|incrementPartitionPatternName|string|False
+|fullDataPartitionPatternNa|string|False
 
 
 ## <a id="is-readonly"><b>is.readOnly</b></a>
