@@ -3218,7 +3218,7 @@ None
 |newline|char|False
 |quote|char|False
 |skipLines|integer|False
-|raggedRight|boolean|
+|raggedRight|boolean|False
 
 
 
@@ -3290,7 +3290,6 @@ The base trait for describing incremental partitions and incremental partition p
 **Properties**
 
 None
-is.partition.incremental
 
 **Parameters**
 

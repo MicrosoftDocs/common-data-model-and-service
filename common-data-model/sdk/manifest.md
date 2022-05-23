@@ -107,6 +107,73 @@ settings and behaviors.
 | type                                                                                                   | The type for the incremental partition or incremental partition pattern objects. It can only be one of these values: Insert, Update, Delete, Upsert, and UpsertAndDelete.                                                                            |4.5                     |
 | incrementPartitionPatternName                                                                          | If applying this trait to a partition object, this value is the associated partition pattern object's name. Otherwise, this trait should be applied to a partition pattern object, and this value should be the name of the partition pattern object.|4.5                     |
 
+The following code snippet shows how a data partition and an incremental partition look like:
+
+```json
+"dataPartitions": [
+   {
+      "location": "FullData/2015/May/cohort001.csv",
+      "arguments": [
+         {
+            "name": "year",
+            "value": "2015"
+         },
+         {
+            "name": "month",
+            "value": "May"
+         },
+         {
+            "name": "cohortNumber",
+            "value": "001"
+         }
+      ],
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z",
+      "lastFileModifiedTime": "2020-08-02T00:00:00.000Z"
+   }
+],
+"incrementalPartitions": [
+   {
+      "location": "/IncrementalData/2018/8/15/Upserts/1.csv",
+      "exhibitsTraits": [
+         {
+            "traitReference": "is.partition.incremental",
+            "arguments": [
+               {
+                  "name": "type",
+                  "value": "Upsert"
+               },
+               {
+                  "name": "incrementPartitionPatternName",
+                  "value": "UpsertPattern"
+
+               }
+            ]
+         }
+      ],
+      "arguments": [
+         {
+            "name": "year",
+            "value": "2018"
+         },
+         {
+            "name": "month",
+            "value": "8"
+
+         },
+         {
+            "name": "day",
+            "value": "15"
+         },
+         {
+            "name": "upsertPartitionNumber",
+            "value": "1"
+         }
+      ],
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z",
+      "lastFileModifiedTime": "2020-08-02T00:00:00.000Z"
+   }
+]
+```
 
 ### Data partition patterns
 
@@ -169,6 +236,53 @@ dataFiles/2017/May/cohort001.csv.**save**
 |--------------|-------------------|--------------------------------------------------------------------------|-------------|
 | dataFiles/   | .+\\.(\\w+)\$     | One or more characters followed by only a period (.) and a captured word | *extension* |
 
+The following code snippet shows how a data partition pattern and an incremental partition pattern look like:
+
+```json
+"dataPartitionPatterns": [
+   {
+      "name": "sampleDataPartitionPattern",
+      "explanation": "/ capture 4 digits / capture a word / capture one or more digits after the word cohort but before .csv",
+      "rootLocation": "FullData",
+      "regularExpression": "/(\\d{4})/(\\w+)/cohort(\\d+)\\.csv$",
+      "parameters": [
+         "year",
+         "month",
+         "cohortNumber"
+      ],
+      
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z"
+   }
+],
+"incrementalPartitionPatterns": [
+   {
+      "name": "UpsertPattern",
+      "rootLocation": "/IncrementalData",
+      "regularExpression": "/(.*)/(.*)/(.*)/Upserts/(\\d+)\\.csv$",
+      "parameters": [
+         "year",
+         "month",
+         "day",
+         "upsertPartitionNumber"
+      ],
+      "exhibitsTraits": [
+         {
+            "traitReference": "is.partition.incremental",
+            "arguments": [
+               {
+                  "name": "type",
+                  "value": "Upsert"
+               }
+            ]
+         }
+      ],
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z"
+   }
+]
+```
+
+A detailed sample code that demonstrates usage of data partition pattern and incremental partition pattern is available for C# and Java implementation at https://github.com/microsoft/CDM/tree/master/samples/7-search-partition-pattern.
+
 #### Order of processing partitions and handling conflicts
 
 Because one entity can have many partition patterns that use different root locations and different regular expressions, it's possible for the same files to be found by multiple partition patterns. It's also possible for a found partition to conflict with one of the "non-inferred" (that is, explicitly listed) partitions for the entity. When a conflict occurs, the following rules determine which argument values and specialized schema will apply to the new inferred partition.
@@ -227,16 +341,16 @@ The **Manifest** object and the objects it contains collect and report informati
 
 The meaning of these times and the scope of the status check method depend on the specific object being checked.
 
-| Object                      | fileStatusCheck                                                                            |SDK|
-|-----------------------------|--------------------------------------------------------------------------------------------|---|
-| Manifest                    | Checks the manifest, all entity declarations, and all submanifests.                        |1.0|
-| Local entity                | Checks the schema documents, and all data partitions and patterns for the entity.          |1.0|
-| Referenced entity           | Checks the status of the remote manifest document.                                         |1.0|
-| dataPartition               | Checks the file indicated by the partitions and the optional alternateSchema document.     |1.0|
-| dataPartitionPattern        | Causes evaluation of the data partition pattern search and the creation of new partitions. |1.0|
-| incrementalPartition        | Checks the file indicated by the partitions and the optional alternateSchema document.     |1.6|
-| incrementalPartitionPattern | Causes evaluation of the data partition pattern search and the creation of new partitions. |1.6|
-| SubManifest                 | Checks the files of submanifests.                                                          |1.0|
+| Object                      | fileStatusCheck                                                                                       |SDK|
+|-----------------------------|-------------------------------------------------------------------------------------------------------|---|
+| Manifest                    | Checks the manifest, all entity declarations, and all submanifests.                                   |1.0|
+| Local entity                | Checks the schema documents, and all data partitions and patterns for the entity.                     |1.0|
+| Referenced entity           | Checks the status of the remote manifest document.                                                    |1.0|
+| dataPartition               | Checks the file indicated by the data partitions.                                                     |1.0|
+| dataPartitionPattern        | Causes evaluation of the data partition pattern search and the creation of new data partitions.       |1.0|
+| incrementalPartition        | Checks the file indicated by the incremental partitions.                                              |1.6|
+| incrementalPartitionPattern | Causes evaluation of the data partition pattern search and the creation of new incremental partitions.|1.6|
+| SubManifest                 | Checks the files of submanifests.                                                                     |1.0|
 
 ## Manifest example document
 
