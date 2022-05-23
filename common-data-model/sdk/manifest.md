@@ -339,7 +339,7 @@ The **Manifest** object and the objects it contains collect and report informati
 | LastFileModifiedTime      | The last time reported from the file system about any modifications or saving of a file.                                                                                                                                                                                      |
 | LastChildFileModifiedTime | The latest time reported by any of child objects about their file status check times. Because the **fileStatusCheck** method can be called on individual objects and individual files can be updated at different times, this property helps locate the latest changed child. |
 
-The meaning of these times and the scope of the status check method depend on the specific object being checked.
+The meaning of these times and the scope of the status check method depend on the specific object being checked. After CDM SDK version 1.6, two new optional parameters have been added in FileStatusCheckAsync() API: *[PartitionFileStatusCheckType](../1.0om/api-reference/cdm/partitionfilestatuschecktype.md)* and *[CdmIncrementalPartitionType](../1.0om/api-reference/cdm/cdmincrementalpartitiontype.md)* which allow users to have better control of which data partition updates should be performed.
 
 | Object                      | fileStatusCheck                                                                                       |SDK|
 |-----------------------------|-------------------------------------------------------------------------------------------------------|---|
