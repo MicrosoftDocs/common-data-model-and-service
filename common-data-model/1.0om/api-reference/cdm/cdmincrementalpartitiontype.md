@@ -24,7 +24,7 @@ public enum CdmIncrementalPartitionType
     Update,
     Delete,
     Upsert,
-    InsertAndDelete
+    UpsertAndDelete
 }
 ```
 
@@ -33,4 +33,4 @@ public enum CdmIncrementalPartitionType
 * **Update**: An enum value indicating that the partition file contains updated table records only.
 * **Delete**: An enum value indicating that the partition file contains deleted table records only.
 * **Upsert**: An enum value indicating that the partition file contains newly inserted or updated table records.
-* **InsertAndDelete**: An enum value indicating that the partition file contains newly inserted, updated and deleted table records. Example would be a delta-lake partition file.
+* **UpsertAndDelete**: An enum value indicating that the partition file contains newly inserted, updated and deleted table records. Example would be a delta-lake partition file.
