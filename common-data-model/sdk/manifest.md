@@ -31,9 +31,13 @@ A manifest document has this structure:
 
         -   Local entity declaration
 
-            -   Partition list
+            -   Data partition list
 
-            -   Partition pattern list
+            -   Data partition pattern list
+
+            -   Incremental partition list
+
+            -   Incremental partition pattern list
 
         -   Referenced entity declaration
 
@@ -59,12 +63,14 @@ The list of entities in a manifest represent some joint context or purpose, such
 
 For an entity that's owned by the manifest, the declaration describes the location of the schema document where details about the entity metadata can be found, the set of data partition files that contain the data records for the entity, and some file location hints that can be used to discover new data partitions. The declaration also has the shared features described later in the manifest section.
 
-| Property / Method     | Description                                                                                                                                                                                                                                                                                                                                                                                                           |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| entityName            | The name of the owned entity                                                                                                                                                                                                                                                                                                                                                                                          |
-| entityPath            | A corpus path to the entity definition within its containing document—for example, local:/MyEntity.cdm.json/MyEntity. By convention, this entity definition should be the "resolved" form of a definition. [More information](./convert-logical-entities-resolved-entities.md). This is the default schema that should be used for any partition file that doesn't offer a specialized alternate schema. |
-| dataPartitions        | The **dataPartitions** objects in this collection each describe the location, format, and perhaps specific details about one file that contains data records for the local entity.                                                                                                                                                                                                                                    |
-| dataPartitionPatterns | A **dataPartitionPatterns** object describes a search space over a set of files that can be used to infer or discover, and list, new data partition files. These patterns are used for situations where many new partition files are being regularly added in some structured way and finding or listing them individually is impractical.                                                                           |
+| Property / Method              | Description                                                                                                                                                                                                                                                                                                                                                                                                           |SDK|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| entityName                     | The name of the owned entity                                                                                                                                                                                                                                                                                                                                                                                          |1.0|
+| entityPath                     | A corpus path to the entity definition within its containing document—for example, local:/MyEntity.cdm.json/MyEntity. By convention, this entity definition should be the "resolved" form of a definition. [More information](./convert-logical-entities-resolved-entities.md). This is the default schema that should be used for any partition file that doesn't offer a specialized alternate schema.              |1.0|
+| dataPartitions                 | The **dataPartitions** objects in this collection each describe the location, format, and perhaps specific details about one file that contains data records for the local entity.                                                                                                                                                                                                                                    |1.0|
+| dataPartitionPatterns          | A **dataPartitionPatterns** object describes a search space over a set of files that can be used to infer or discover, and list, new data partition files. These patterns are used for situations where many new partition files are being regularly added in some structured way and finding or listing them individually is impractical.                                                                            |1.0|
+| incrementalPartitions          | The **dataPartitions** objects in this collection each describe the location, format, and perhaps specific details about one file that contains incremental records for the local entity.                                                                                                                                                                                                                             |1.6|
+| incrementalPartitionPatterns   | A **dataPartitionPatterns** object describes a search space over a set of files that can be used to infer or discover, and list, new incremental partition files. These patterns are used for situations where many new incremental partition files are being regularly added in some structured way and finding or listing them individually is impractical.                                                         |1.6|
 
 ### Data partition definitions in the dataPartitions collection
 
@@ -72,42 +78,115 @@ A **dataPartitionDefinition** object describes and points to one particular file
 
 The object model can generate data partition definitions at runtime by using a **dataPartitionPatterns** object. A property indicates whether the partition description was generated in memory or explicitly created and stored with the folder.
 
-| Property / Method | Description                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| dataPartitionName | An optional name for the partition.                                                                                                                                                                                                                                                                                                                                                                            |
-| Location          | The corpus path to the data file location and name.                                                                                                                                                                                                                                                                                                                                                            |
-| Inferred          | Boolean. Set to **True** if the partition object was created using a **dataPartitionPatterns** object and only exists in the memory of the object model. If set to **False**, the partition information will be saved with the folder and will override any identical partitions that are inferred in the future.                                                                                 |
-| specializedSchema | An optional corpus path pointing to an entity definition within a containing document. The purpose of this document is to describe this partition as an override of the default shape of data that's normally taken from the **entitySchema** property for the entity declaration containing this partition.                                                                                                   |
-| refreshTime       | A place for the application that owns the manifest to store a "refresh time" for the data in the file.                                                                                                                                                                                                                                                                                                         |
-| Arguments         | A mapping from argument names to a value or values associated with that argument. An array of **dataPartitionArgument** objects that hold a set of name/value pairs. If the partition is generated from a **dataPartitionPatterns** object, these argument names will match the parameters specified on the pattern object and the values will be those discovered from the regular expression of the pattern. |
+| Property / Method | Description                                                                                                                                                                                                                                                                                                                                                                                                   |SDK|
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| dataPartitionName | An optional name for the partition.                                                                                                                                                                                                                                                                                                                                                                           |1.0|
+| Location          | The corpus path to the data file location and name.                                                                                                                                                                                                                                                                                                                                                           |1.0|
+| Inferred          | Boolean. Set to **True** if the partition object was created using a **dataPartitionPatterns** object and only exists in the memory of the object model. If set to **False**, the partition information will be saved with the folder and will override any identical partitions that are inferred in the future.                                                                                             |1.0|
+| IsIncremental     | Boolean. Set to **True** if the partition object contains the *[is.partition.incremental](./list-of-traits.md#ispartitionincremental)* trait.                                                                                                                                                                                                                                                                 |1.6|
+| specializedSchema | An optional corpus path pointing to an entity definition within a containing document. The purpose of this document is to describe this partition as an override of the default shape of data that's normally taken from the **entitySchema** property for the entity declaration containing this partition.                                                                                                  |1.0|
+| refreshTime       | A place for the application that owns the manifest to store a "refresh time" for the data in the file.                                                                                                                                                                                                                                                                                                        |1.0|
+| Arguments         | A mapping from argument names to a value or values associated with that argument. An array of **dataPartitionArgument** objects that hold a set of name/value pairs. If the partition is generated from a **dataPartitionPatterns** object, these argument names will match the parameters specified on the pattern object and the values will be those discovered from the regular expression of the pattern.|1.0|
 
 #### Data partition–specific traits
 
 The **Traits** collection for a partition is used to hold partition-specific
 settings and behaviors.
 
-| Trait / parameter           | Description                                                                                                                                     |
-|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| is.partition.format.CSV     | Indicates a text file with a fixed set of columns with column separators, text qualifiers, and so on.                                           |
-| columnHeaders               | **True** if the first row of the file contains names for the columns.                                                                           |
-| csvStyle                    | Either *CsvStyle.QuoteAlways* or *CsvStyle.QuoteAfterDelimiter*. The default value is *Csv.QuoteAlways*.                                        |
-| delimiter                   | The delimiter type in the CSV file.                                                                                                             |
-| quoteStyle                  | Either *QuoteStyle.Csv* or *QuoteStyle.None*. The default value is *QuoteStyle.Csv*, meaning that text values are delimited by quotation marks. |
-| is.partition.format.parquet |       The value is the file format settings of a partition parquet file.                                                                                                                                          |
-| is.partition.culture        | The culture for data formats in the file.                                                                                                       |
-| culture                     | The default value is **us-en**.                                                                                                                 |
+| Trait / parameter                                                                                      | Description                                                                                                                                                                                                                                          |foundations.cdm.json    |
+|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| is.partition.format.CSV                                                                                | Indicates a text file with a fixed set of columns with column separators, text qualifiers, and so on.                                                                                                                                                |1.0                     |
+| columnHeaders                                                                                          | **True** if the first row of the file contains names for the columns.                                                                                                                                                                                |1.0                     |
+| csvStyle                                                                                               | Either *CsvStyle.QuoteAlways* or *CsvStyle.QuoteAfterDelimiter*. The default value is *Csv.QuoteAlways*.                                                                                                                                             |1.0                     |
+| delimiter                                                                                              | The delimiter type in the CSV file.                                                                                                                                                                                                                  |1.0                     |
+| quoteStyle                                                                                             | Either *QuoteStyle.Csv* or *QuoteStyle.None*. The default value is *QuoteStyle.Csv*, meaning that text values are delimited by quotation marks.                                                                                                      |1.0                     |
+| is.partition.format.parquet                                                                            | The value is the file format settings of a partition parquet file.                                                                                                                                                                                   |1.0                     |
+| is.partition.culture                                                                                   | The culture for data formats in the file.                                                                                                                                                                                                            |1.0                     |
+| culture                                                                                                | The default value is **us-en**.                                                                                                                                                                                                                      |1.0                     |
+| [is.partition.incremental](./list-of-traits.md#ispartitionincremental)| The base trait for describing incremental partitions and incremental partition patterns.                                                                                                                                                                                              |4.5                     |
+| type                                                                                                   | The type for the incremental partition or incremental partition pattern objects. It can only be one of these values: Insert, Update, Delete, Upsert, and UpsertAndDelete.                                                                            |4.5                     |
+| incrementPartitionPatternName                                                                          | If applying this trait to a partition object, this value is the associated partition pattern object's name. Otherwise, this trait should be applied to a partition pattern object, and this value should be the name of the partition pattern object.|4.5                     |
+
+The following code snippet shows how a data partition and an incremental partition look like:
+
+```json
+"dataPartitions": [
+   {
+      "location": "FullData/2015/May/cohort001.csv",
+      "arguments": [
+         {
+            "name": "year",
+            "value": "2015"
+         },
+         {
+            "name": "month",
+            "value": "May"
+         },
+         {
+            "name": "cohortNumber",
+            "value": "001"
+         }
+      ],
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z",
+      "lastFileModifiedTime": "2020-08-02T00:00:00.000Z"
+   }
+],
+"incrementalPartitions": [
+   {
+      "location": "/IncrementalData/2018/8/15/Upserts/1.csv",
+      "exhibitsTraits": [
+         {
+            "traitReference": "is.partition.incremental",
+            "arguments": [
+               {
+                  "name": "type",
+                  "value": "Upsert"
+               },
+               {
+                  "name": "incrementPartitionPatternName",
+                  "value": "UpsertPattern"
+
+               }
+            ]
+         }
+      ],
+      "arguments": [
+         {
+            "name": "year",
+            "value": "2018"
+         },
+         {
+            "name": "month",
+            "value": "8"
+
+         },
+         {
+            "name": "day",
+            "value": "15"
+         },
+         {
+            "name": "upsertPartitionNumber",
+            "value": "1"
+         }
+      ],
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z",
+      "lastFileModifiedTime": "2020-08-02T00:00:00.000Z"
+   }
+]
+```
 
 ### Data partition patterns
 
 An entity declaration can specify one or more **dataPartitionPatterns** objects, one for each search pattern that can be used to discover and describe partition files. In the object model for Common Data Model, using a pattern might result in dynamically discovered **dataPartitions** objects in the **dataPartitions** collection.
 
-| Property / Method | Description                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| rootLocation      | A corpus path that acts as the starting location from which the patterns mentioned in the **regularExpression** property should be matched, or from which the object model should start when searching for inferred data partitions.                                                                                                                                                                                                 |
-| regularExpression | A regular expression that can contain (capture) subexpressions for the folders and files to seek. This regular expression should describe locations relative to the location given in the **rootLocation** property. All captured values should have corresponding names supplied in the parameters list, in the same order.                                                                                                         |
-| globPattern       | A glob pattern that matches against the set of files and folders. The glob pattern can be used as an alternative to **regularExpression** and should also describe locations relative to the location given in the **rootLocation** property. The set of supported glob pattern characters can be found [here](../1.0om/api-reference/cdm/datapartitionpattern.md).|
-| Parameters        | An array of strings that give names for the replacement values extracted from the regular expression. The order of the strings corresponds to the order of (replacement) capture expressions in the regular expression. If a data partition pattern is used to generate inferred partitions, each resulting inferred partition will have a collection of arguments corresponding to these parameter names and the values discovered. |
-| specializedSchema | Optional. A corpus path pointing to an entity definition. The path will be used for the **specializedSchema** property for any partitions generated from this pattern. Used when the partition data will have a different schema than the schema that's the default for the containing entity.                                                                                                                                       |
+| Property / Method | Description                                                                                                                                                                                                                                                                                                                                                                                                                         |SDK|
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| rootLocation      | A corpus path that acts as the starting location from which the patterns mentioned in the **regularExpression** property should be matched, or from which the object model should start when searching for inferred data partitions.                                                                                                                                                                                                |1.0|
+| regularExpression | A regular expression that can contain (capture) subexpressions for the folders and files to seek. This regular expression should describe locations relative to the location given in the **rootLocation** property. All captured values should have corresponding names supplied in the parameters list, in the same order.                                                                                                        |1.0|
+| globPattern       | A glob pattern that matches against the set of files and folders. The glob pattern can be used as an alternative to **regularExpression** and should also describe locations relative to the location given in the **rootLocation** property. The set of supported glob pattern characters can be found [here](../1.0om/api-reference/cdm/datapartitionpattern.md).                                                                 |1.0|
+| Parameters        | An array of strings that give names for the replacement values extracted from the regular expression. The order of the strings corresponds to the order of (replacement) capture expressions in the regular expression. If a data partition pattern is used to generate inferred partitions, each resulting inferred partition will have a collection of arguments corresponding to these parameter names and the values discovered.|1.0|
+| specializedSchema | Optional. A corpus path pointing to an entity definition. The path will be used for the **specializedSchema** property for any partitions generated from this pattern. Used when the partition data will have a different schema than the schema that's the default for the containing entity.                                                                                                                                      |1.0|
+| IsIncremental     | Boolean. Set to **True** if the partition pattern object contains the *[is.partition.incremental](./list-of-traits.md#ispartitionincremental)* trait.                                                                                                                                                                                                                                                                               |1.6|
 
 The following examples show the interplay of **rootLocation**, **regularExpression**, and **Parameters**.
 
@@ -157,6 +236,53 @@ dataFiles/2017/May/cohort001.csv.**save**
 |--------------|-------------------|--------------------------------------------------------------------------|-------------|
 | dataFiles/   | .+\\.(\\w+)\$     | One or more characters followed by only a period (.) and a captured word | *extension* |
 
+The following code snippet shows how a data partition pattern and an incremental partition pattern look like:
+
+```json
+"dataPartitionPatterns": [
+   {
+      "name": "sampleDataPartitionPattern",
+      "explanation": "/ capture 4 digits / capture a word / capture one or more digits after the word cohort but before .csv",
+      "rootLocation": "FullData",
+      "regularExpression": "/(\\d{4})/(\\w+)/cohort(\\d+)\\.csv$",
+      "parameters": [
+         "year",
+         "month",
+         "cohortNumber"
+      ],
+      
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z"
+   }
+],
+"incrementalPartitionPatterns": [
+   {
+      "name": "UpsertPattern",
+      "rootLocation": "/IncrementalData",
+      "regularExpression": "/(.*)/(.*)/(.*)/Upserts/(\\d+)\\.csv$",
+      "parameters": [
+         "year",
+         "month",
+         "day",
+         "upsertPartitionNumber"
+      ],
+      "exhibitsTraits": [
+         {
+            "traitReference": "is.partition.incremental",
+            "arguments": [
+               {
+                  "name": "type",
+                  "value": "Upsert"
+               }
+            ]
+         }
+      ],
+      "lastFileStatusCheckTime": "2020-08-01T00:00:00.000Z"
+   }
+]
+```
+
+A detailed sample code that demonstrates usage of data partition pattern and incremental partition pattern is available for C# and Java implementation at https://github.com/microsoft/CDM/tree/master/samples/7-search-partition-pattern.
+
 #### Order of processing partitions and handling conflicts
 
 Because one entity can have many partition patterns that use different root locations and different regular expressions, it's possible for the same files to be found by multiple partition patterns. It's also possible for a found partition to conflict with one of the "non-inferred" (that is, explicitly listed) partitions for the entity. When a conflict occurs, the following rules determine which argument values and specialized schema will apply to the new inferred partition.
@@ -198,8 +324,8 @@ Currently, only single attribute relationships are supported. All relationships 
 | fromEntityAttribute                                                      | The name of the referencing attribute, a foreign key.                                                                                                                                                              |
 | toEntity                                                                 | A corpus path to the document or entity on the "one" side of the relationship.                                                                                                                                     |
 | toEntityAttribute                                                        | The name of the referenced attribute, often the primary key of that entity.                                                                                                                                        |
-| name                                                                     | The name of the relationship.                                                                                                                                                                                                        |
-| exhibitsTraits                                                           | The collection of traits that is initially applied to the purpose object in the referencing attribute, and then is elevated to the relationship as relationship meanings.                                                                                                                                                                                                        |
+| name                                                                     | The name of the relationship.                                                                                                                                                                                      |
+| exhibitsTraits                                                           | The collection of traits that is initially applied to the purpose object in the referencing attribute, and then is elevated to the relationship as relationship meanings.                                          |
 | Corpus.CalculateEntityGraph(ICommon Data ModelManifestDef rootManifest); | Causes the corpus to calculate and cache knowledge about all of the entity-to-entity relationships found in the logical entity descriptions for the given manifest, and all of the submanifests that it indicates. |
 | Manifest. PopulateManifestRelationships()                                | The manifest will use the graph of relationships held in the corpus to create the set of relationship descriptions for any entity that's on either the "one" side or the "many" side of a known relationship.      |
 
@@ -210,19 +336,21 @@ The **Manifest** object and the objects it contains collect and report informati
 | Property / Method         | Description                                                                                                                                                                                                                                                                   |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | LastFileStatusCheckTime   | The last time that the status of files and child objects was checked. This is set directly by using application logic or indirectly by the **fileStatusCheck** method.                                                                                                        |
-| LastFileModifiedTime      | The last time reported from the file system about any modifications or saving of a file. |
+| LastFileModifiedTime      | The last time reported from the file system about any modifications or saving of a file.                                                                                                                                                                                      |
 | LastChildFileModifiedTime | The latest time reported by any of child objects about their file status check times. Because the **fileStatusCheck** method can be called on individual objects and individual files can be updated at different times, this property helps locate the latest changed child. |
 
-The meaning of these times and the scope of the status check method depend on the specific object being checked.
+The meaning of these times and the scope of the status check method depend on the specific object being checked. After CDM SDK version 1.6, two new optional parameters have been added in FileStatusCheckAsync() API: *[PartitionFileStatusCheckType](../1.0om/api-reference/cdm/partitionfilestatuschecktype.md)* and *[CdmIncrementalPartitionType](../1.0om/api-reference/cdm/cdmincrementalpartitiontype.md)* which allow users to have better control of which data partition updates should be performed.
 
-| Object               | fileStatusCheck                                                                            |
-|----------------------|--------------------------------------------------------------------------------------------|
-| Manifest             | Checks the manifest, all entity declarations, and all submanifests.                        |
-| Local entity         | Checks the schema documents, and all data partitions and patterns for the entity.          |
-| Referenced entity    | Checks the status of the remote manifest document.                                         |
-| dataPartition        | Checks the file indicated by the partitions and the optional alternateSchema document.      |
-| dataPartitionPattern | Causes evaluation of the data partition pattern search and the creation of new partitions. |
-| SubManifest          | Checks the files of submanifests.                                                          |
+| Object                      | fileStatusCheck                                                                                       |SDK|
+|-----------------------------|-------------------------------------------------------------------------------------------------------|---|
+| Manifest                    | Checks the manifest, all entity declarations, and all submanifests.                                   |1.0|
+| Local entity                | Checks the schema documents, and all data partitions and patterns for the entity.                     |1.0|
+| Referenced entity           | Checks the status of the remote manifest document.                                                    |1.0|
+| dataPartition               | Checks the file indicated by the data partitions.                                                     |1.0|
+| dataPartitionPattern        | Causes evaluation of the data partition pattern search and the creation of new data partitions.       |1.0|
+| incrementalPartition        | Checks the file indicated by the incremental partitions.                                              |1.6|
+| incrementalPartitionPattern | Causes evaluation of the data partition pattern search and the creation of new incremental partitions.|1.6|
+| SubManifest                 | Checks the files of submanifests.                                                                     |1.0|
 
 ## Manifest example document
 
