@@ -5,7 +5,7 @@ author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/28/2022
+ms.date: 5/12/2022
 ms.author: matgos
 ---
 
@@ -28,7 +28,7 @@ Entity which lists the most common greenhouse gases and their quantities as outp
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Emission/(resolvedAttributes)/emissionId](#emissionId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>Emission.cdm.json/Emission/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/Emission.cdm.json/Emission<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -98,7 +98,6 @@ Entity which lists the most common greenhouse gases and their quantities as outp
 |[calculationlibrary](#calculationlibrary)|Emission factor library used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[emissionfactor](#emissionfactor)|Emission factor used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[emissionlookup](#emissionlookup)|Factor mapping used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
-|[actualquantity](#actualquantity)|Actual quantity used for emission calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 
 ### <a href=#emissionId name="emissionId">emissionId</a>
 
@@ -2310,48 +2309,5 @@ First included in: Sustainability/Emission (this entity)
   **is.dataFormat.character**  
   **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#actualquantity name="actualquantity">actualquantity</a>
-
-Actual quantity used for emission calculation.  
-First included in: Sustainability/Emission (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual quantity</td></tr><tr><td>description</td><td>Actual quantity used for emission calculation.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_actualquantity</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the actualquantity attribute are listed below.</summary>
-
-**is.dataFormat.numeric.shaped**  
-  for setting the exact precision and scale of numeric values  
-
-**is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual quantity used for emission calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_actualquantity"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"76"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.numeric.shaped**  
-  for setting the exact precision and scale of numeric values  
 
 </details>

@@ -5,7 +5,7 @@ author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/28/2022
+ms.date: 5/12/2022
 ms.author: matgos
 ---
 
@@ -28,7 +28,7 @@ Upstream and downstream transportation and distribution activities.
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportationAndDistribution/(resolvedAttributes)/transportationanddistributionId](#transportationanddistributionId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>TransportationAndDistribution.cdm.json<br>/TransportationAndDistribution/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/TransportationAndDistribution.cdm.json<br>/TransportationAndDistribution/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Upstream and downstream transportation and distribution activities.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -69,7 +69,6 @@ Upstream and downstream transportation and distribution activities.
 |[fuelquantity](#fuelquantity)|Unique identifier for the fuel consumption data associated with combustion or supply chain fuel usage.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
 |[fuelquantityunit](#fuelquantityunit)|Unique identifier for the unit associated with fuel data.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
 |[fueltypeid](#fueltypeid)|Unique identifier for the fuel type associated with combustion or supply chain fuel usage.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
-|[goodandservicetypeid](#goodandservicetypeid)|Unique identifier for the good and service type associated with transportation and distribution.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
 |[goodsquantity](#goodsquantity)|The quantity of goods being transported and distributed, which is used for calculation.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
 |[goodsunit](#goodsunit)|Unique identifier for the unit relating to transportation and distribution of goods.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
 |[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with activity.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability/TransportationAndDistribution</a>|
@@ -1010,51 +1009,6 @@ First included in: Sustainability/TransportationAndDistribution (this entity)
 
 </details>
 
-### <a href=#goodandservicetypeid name="goodandservicetypeid">goodandservicetypeid</a>
-
-Unique identifier for the good and service type associated with transportation and distribution.  
-First included in: Sustainability/TransportationAndDistribution (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Good and service type</td></tr><tr><td>description</td><td>Unique identifier for the good and service type associated with transportation and distribution.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the goodandservicetypeid attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.guid**  
-  **means.identity.entityId**  
-  **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the good and service type associated with transportation and distribution.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Good and service type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.lookup**  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-**is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PurchasedGoodAndService.md" target="_blank">PurchasedGoodAndService.cdm.json/PurchasedGoodAndService</a></td><td><a href="PurchasedGoodAndService.md#purchasedgoodandserviceId" target="_blank">purchasedgoodandserviceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 The quantity of goods being transported and distributed, which is used for calculation.  
@@ -1091,7 +1045,7 @@ First included in: Sustainability/TransportationAndDistribution (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_goodsquantity"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"46"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -1269,7 +1223,7 @@ First included in: Sustainability/TransportationAndDistribution (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_quantity"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -1361,7 +1315,7 @@ First included in: Sustainability/TransportationAndDistribution (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"51"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -1403,7 +1357,7 @@ First included in: Sustainability/TransportationAndDistribution (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transactiondate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.time**  
   **is.dataFormat.date**  
@@ -1450,7 +1404,7 @@ First included in: Sustainability/TransportationAndDistribution (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transportationanddistributiontype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"54"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
