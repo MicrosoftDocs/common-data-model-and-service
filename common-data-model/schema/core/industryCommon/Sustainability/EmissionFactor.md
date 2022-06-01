@@ -5,7 +5,7 @@ author: matgos
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 4/28/2022
+ms.date: 5/12/2022
 ms.author: matgos
 ---
 
@@ -31,7 +31,7 @@ Conversion factor which takes activity data and converts quantities into greenho
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionFactor/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>EmissionFactor.cdm.json/EmissionFactor<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/EmissionFactor.cdm.json<br>/EmissionFactor/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -72,8 +72,8 @@ Conversion factor which takes activity data and converts quantities into greenho
 |[co2unit](#co2unit)|The unit for the CO₂ factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[documentationreference](#documentationreference)|The documentation reference for the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
-|[heatcontent](#heatcontent)|The amount of the heat content factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
-|[heatcontentunit](#heatcontentunit)|The unit for the heat content factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
+|[heatcontent](#heatcontent)|The amount of the heat content factor. (Deprecated)|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
+|[heatcontentunit](#heatcontentunit)|The unit for the heat content factor. (Deprecated)|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[hfcs](#hfcs)|The amount of the hydrofluorocarbons factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[isbiofuel](#isbiofuel)|Indicates if the type of fuel is biofuel or not.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
@@ -1028,12 +1028,12 @@ First included in: Sustainability/EmissionFactor (this entity)
 
 ### <a href=#heatcontent name="heatcontent">heatcontent</a>
 
-The amount of the heat content factor.  
+The amount of the heat content factor. (Deprecated)  
 First included in: Sustainability/EmissionFactor (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Heat content</td></tr><tr><td>description</td><td>The amount of the heat content factor.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_heatcontent</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Heat content (Deprecated)</td></tr><tr><td>description</td><td>The amount of the heat content factor. (Deprecated)</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_heatcontent</td></tr></table>
 
 #### Traits
 
@@ -1047,10 +1047,10 @@ First included in: Sustainability/EmissionFactor (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The amount of the heat content factor.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The amount of the heat content factor. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Heat content</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Heat content (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
@@ -1071,12 +1071,12 @@ First included in: Sustainability/EmissionFactor (this entity)
 
 ### <a href=#heatcontentunit name="heatcontentunit">heatcontentunit</a>
 
-The unit for the heat content factor.  
+The unit for the heat content factor. (Deprecated)  
 First included in: Sustainability/EmissionFactor (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Heat content unit</td></tr><tr><td>description</td><td>The unit for the heat content factor.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Heat content unit (Deprecated)</td></tr><tr><td>description</td><td>The unit for the heat content factor. (Deprecated)</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -1096,10 +1096,10 @@ First included in: Sustainability/EmissionFactor (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unit for the heat content factor.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unit for the heat content factor. (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Heat content unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Heat content unit (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
