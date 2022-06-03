@@ -11,7 +11,7 @@ ms.author: weiluo
 
 # Entity Reference
 
-Use this reference to explore and learn about all the available Common Data Model entity [definitions](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#definition-documents), their [attributes](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes), and semantic meanings. These [entities](https://docs.microsoft.com/common-data-model/sdk/logical-definitions#entities-and-their-attributes)
+Use this reference to explore and learn about all the available Common Data Model entity [definitions](../../sdk/logical-definitions.md#definition-documents), their [attributes](../../sdk/logical-definitions.md#entities-and-their-attributes), and semantic meanings. These [entities](../../sdk/logical-definitions.md#entities-and-their-attributes)
  span several business domains and describe data in different applications and solutions. For example, you can find entity definitions related to Health Care or Operations.  
 
 ## Sub-folders
@@ -21,5 +21,3 @@ Use this reference to explore and learn about all the available Common Data Mode
 |[applicationCommon](applicationCommon/overview.md)|
 |[industryCommon](industryCommon/overview.md)|
 |[operationsCommon](operationsCommon/overview.md)|
-
-

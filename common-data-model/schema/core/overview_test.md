@@ -15,7 +15,7 @@ Use this reference to explore and learn about all the available Common Data Mode
 
 | Name   | Another column |
 |--------|------------------|
-[![x.](../../media/ent-ref/img1.png)](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/overview)| Some text |
+[![x.](../../media/ent-ref/img1.png)](./applicationcommon/foundationcommon/crmcommon/solutions/customerinsights/overview.md)| Some text |
 [![x.](../../media/ent-ref/img2.png)](https://microsoft.github.io/CDM/SchemaViz.html?initialManifest=manifests/insightsApplications.manifest.cdm.json&simpleChrome=true)| More text|
 
 ## Sub-folders
@@ -24,5 +24,3 @@ Use this reference to explore and learn about all the available Common Data Mode
 |---|
 |[applicationCommon](applicationCommon/overview.md)|
 |[operationsCommon](operationsCommon/overview.md)|
-
-
