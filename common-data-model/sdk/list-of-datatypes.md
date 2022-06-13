@@ -50,6 +50,8 @@ This page lists the data types which are available in Common Data Model.
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.demographic.age</b>|
 |<b>means.measurement.age</b>|
 
@@ -215,6 +217,8 @@ Value is expressed in the base currency units for the system
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>is.dataFormat.big</b>|
 
 
@@ -726,6 +730,34 @@ None
 **Description**
 
 
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>day</b>|
+
+
+**Traits**
+
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
+|<b>means.calendar</b>|
+|<b>means.calendar.day</b>|
+
+
+
+## <a id="day"><b>day</b></a>
+
+
+**Description**
+
+
 Unit of measure for time in 'one earth rotation' interval
 
 
@@ -741,29 +773,11 @@ Unit of measure for time in 'one earth rotation' interval
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.measurement.dimension.time</b>|
 |<b>means.measurement.duration.days</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
-
-
-
-## <a id="day"><b>day</b></a>
-
-
-**Inheritance**
-
-| |
-|--|
-|[<b>any</b>](#any) <- [<b>integer</b>](#integer) <- [<b>integerCalendarPart</b>](#integercalendarpart) <- <b>day</b>|
-
-
-**Traits**
-
-| |
-|--|
-|<b>is.dataFormat.integer</b>|
-|<b>means.calendar</b>|
-|<b>means.calendar.day</b>|
 
 
 
@@ -834,6 +848,8 @@ Unit of measure for angles in degrees, 1/360 rotation
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.formatting.order</b>|
 
 
@@ -1355,6 +1371,8 @@ Unit of measure for time in 3600 second interval
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.measurement.dimension.time</b>|
 |<b>means.measurement.duration.hours</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
@@ -1422,10 +1440,18 @@ Whole numbers, assumed to correspond with a 32 bit signed int
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 
 
 
 ## <a id="integercalendarpart"><b>integerCalendarPart</b></a>
+
+
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
 
 
 **Inheritance**
@@ -1440,6 +1466,8 @@ Whole numbers, assumed to correspond with a 32 bit signed int
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 
 
@@ -1957,6 +1985,8 @@ One integer value from a defined list of possibilities
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>does.haveDefault</b>|
 |<b>is.constrainedList</b>|
 
@@ -1983,6 +2013,8 @@ One integer value from a defined list of possibilities where the list represents
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>is.constrainedList.correlated</b>|
 
 
@@ -2650,6 +2682,8 @@ Unit of measure for time in 60 second interval
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.measurement.dimension.time</b>|
 |<b>means.measurement.duration.minutes</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
@@ -2671,6 +2705,8 @@ Unit of measure for time in 60 second interval
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.measurement.dimension.time</b>|
 |<b>means.measurement.duration.minutes</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
@@ -2708,6 +2744,12 @@ Unit of measure for amount in moles
 ## <a id="month"><b>month</b></a>
 
 
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
+
+
 **Inheritance**
 
 | |
@@ -2720,6 +2762,8 @@ Unit of measure for amount in moles
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 |<b>means.calendar.month</b>|
 
@@ -3032,6 +3076,12 @@ None
 ## <a id="quarter"><b>quarter</b></a>
 
 
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
+
+
 **Inheritance**
 
 | |
@@ -3044,6 +3094,8 @@ None
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 |<b>means.calendar.quarter</b>|
 
@@ -3139,6 +3191,8 @@ Unit of measure for time in seconds
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>is.dataFormat.small</b>|
 
 
@@ -3214,6 +3268,12 @@ A string representing the format used to encode data in another string
 ## <a id="tenday"><b>tenday</b></a>
 
 
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
+
+
 **Inheritance**
 
 | |
@@ -3226,6 +3286,8 @@ A string representing the format used to encode data in another string
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 |<b>means.calendar.tenday</b>|
 
@@ -3317,6 +3379,12 @@ None
 ## <a id="trimester"><b>trimester</b></a>
 
 
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
+
+
 **Inheritance**
 
 | |
@@ -3329,8 +3397,36 @@ None
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 |<b>means.calendar.trimester</b>|
+
+
+
+## <a id="unsignedinteger"><b>unsignedInteger</b></a>
+
+
+**Description**
+
+
+Assumed to correspond with a 32 bit unsigned int
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>any</b>](#any) <- <b>unsignedInteger</b>|
+
+
+**Traits**
+
+| |
+|--|
+|<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.unsigned</b>|
+|<b>is.dataFormat.numeric</b>|
 
 
 
@@ -3493,6 +3589,12 @@ Unit of measure for power or radiant flux in watts
 ## <a id="week"><b>week</b></a>
 
 
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
+
+
 **Inheritance**
 
 | |
@@ -3505,6 +3607,8 @@ Unit of measure for power or radiant flux in watts
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 |<b>means.calendar.week</b>|
 
@@ -3558,6 +3662,8 @@ Unit of measure for time in 'one solar orbit' interval
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.measurement.dimension.time</b>|
 |<b>means.measurement.duration.years</b>|
 |<b>has.measurement.fundamentalComponent.second</b>|
@@ -3565,6 +3671,12 @@ Unit of measure for time in 'one solar orbit' interval
 
 
 ## <a id="year"><b>year</b></a>
+
+
+**Description**
+
+
+[deprecated] This dataType is being deprecated, and will be removed in a future version of CDM. Please use the relevant traits directly.
 
 
 **Inheritance**
@@ -3579,6 +3691,8 @@ Unit of measure for time in 'one solar orbit' interval
 | |
 |--|
 |<b>is.dataFormat.integer</b>|
+|<b>is.dataFormat.signed</b>|
+|<b>is.dataFormat.numeric</b>|
 |<b>means.calendar</b>|
 |<b>means.calendar.year</b>|
 
