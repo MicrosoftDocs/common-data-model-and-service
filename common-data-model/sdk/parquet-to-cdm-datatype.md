@@ -43,13 +43,13 @@ MAP | *(complex object)* | Structured Resolution Form: <br>[is.dataFormat.map](l
 LIST | *(complex object)* | Structured Resolution Form: <br>[is.dataFormat.list](list-of-traits.md#isdataformatlist) <br>Non-structured Resolution Form: <br>[has.expansionInfo.list](list-of-traits.md#hasexpansioninfolist) <br><br> For a detailed description and use cases refer to [this page](./projections/map-and-array-types.md#array-type).
 **Signed integers** | |
 INT(8, true) | [byte](list-of-datatypes.md#byte) | [is.dataFormat.byte](list-of-traits.md#isdataformatbyte)
-INT(16, true) | [smallinteger](list-of-datatypes.md#smallinteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.small](list-of-traits.md#isdataformatsmall)
-INT(32, true) | [Integer](list-of-datatypes.md#integer) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger)
-INT(64, true) | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
+INT(16, true) | [smallinteger](list-of-datatypes.md#smallinteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.signed](list-of-traits.md#isdataformatsigned), <br>[is.dataFormat.numeric](list-of-traits.md#isdataformatnumeric), <br>[is.dataFormat.small](list-of-traits.md#isdataformatsmall)
+INT(32, true) | [Integer](list-of-datatypes.md#integer) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.signed](list-of-traits.md#isdataformatsigned), <br>[is.dataFormat.numeric](list-of-traits.md#isdataformatnumeric)
+INT(64, true) | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig), <br>[is.dataFormat.signed](list-of-traits.md#isdataformatsigned), <br>[is.dataFormat.numeric](list-of-traits.md#isdataformatnumeric)
+Unsigned integers | [biginteger](list-of-datatypes.md#biginteger) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger), <br>[is.dataFormat.unsigned](list-of-traits.md#isdataformatunsigned), <br>[is.dataFormat.numeric](list-of-traits.md#isdataformatnumeric), <br>[is.dataFormat.big](list-of-traits.md#isdataformatbig)
+TIME (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | [is.dataFormat.integer](list-of-traits.md#isdataformatinteger) (MILLIS) <br>[biginteger](list-of-datatypes.md#biginteger) (MICRO and NANO)  | [means.time.parquet.milli](list-of-traits.md#meanstimeparquetmilli), <br>[means.time.parquet.micro](list-of-traits.md#meanstimeparquetmicro), <br>[means.time.parquet.nano](list-of-traits.md#meanstimeparquetnano)
+TIMESTAMP (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | [biginteger](list-of-datatypes.md#biginteger) | [means.timestamp.parquet.milli](list-of-traits.md#meanstimestampparquetmilli), <br>[means.timestamp.parquet.micro](list-of-traits.md#meanstimestampparquetmicro), <br>[means.timestamp.parquet.nano](list-of-traits.md#meanstimestampparquetnano)
 **Unsupported** | |
-TIME (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | Not available | Not available 
-TIMESTAMP (UTC adjustment (true/false) and precision (MILLIS/MICRO/NANO)) | Not available | Not available 
 INT96 | Not available | Not available 
-Unsigned integers | Not available | Not available
 BSON | Not available | Not available 
 Null | Not available | Not available
