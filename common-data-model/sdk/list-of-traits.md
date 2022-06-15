@@ -11183,6 +11183,89 @@ None
 |verbPhrase|entity|False
 
 
+## <a id="means-time"><b>means.time</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.time</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|units|string|False
+|hasUTC|boolean|False
+
+
+## <a id="means-time-parquet-micro"><b>means.time.parquet.micro</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.time</b>](#means-time) <- <b>means.time.parquet.micro</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-time-parquet-milli"><b>means.time.parquet.milli</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.time</b>](#means-time) <- <b>means.time.parquet.milli</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-time-parquet-nano"><b>means.time.parquet.nano</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.time</b>](#means-time) <- <b>means.time.parquet.nano</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
 ## <a id="means-timestamp"><b>means.timestamp</b></a>
 
 
@@ -11207,6 +11290,26 @@ None
 |hasUTC|boolean|False
 
 
+## <a id="means-timestamp-parquet-micro"><b>means.timestamp.parquet.micro</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.timestamp</b>](#means-timestamp) <- <b>means.timestamp.parquet.micro</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
 ## <a id="means-timestamp-parquet-milli"><b>means.timestamp.parquet.milli</b></a>
 
 
@@ -11215,6 +11318,26 @@ None
 | |
 |--|
 |[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.timestamp</b>](#means-timestamp) <- <b>means.timestamp.parquet.milli</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-timestamp-parquet-nano"><b>means.timestamp.parquet.nano</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.timestamp</b>](#means-timestamp) <- <b>means.timestamp.parquet.nano</b>|
 
 
 **Properties**
