@@ -2,9 +2,9 @@
 title: PaymentMethod in nonProfitIati - Common Data Model | Microsoft Docs
 description: Payment Method is a placeholder entity for customizations that may be supported by an application.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

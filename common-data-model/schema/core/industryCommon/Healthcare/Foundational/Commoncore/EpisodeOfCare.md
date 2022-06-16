@@ -2,9 +2,9 @@
 title: EpisodeOfCare in Commoncore - Common Data Model | Microsoft Docs
 description: An association between a patient and an organization / healthcare provider(s) during which time encounters may occur.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

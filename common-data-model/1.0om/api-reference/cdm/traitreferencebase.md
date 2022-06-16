@@ -2,7 +2,7 @@
 title: Trait Reference Base | Microsoft Docs
 description: API reference for CdmTraitReferenceBase.
 author: miroslavplese
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 04/17/2021

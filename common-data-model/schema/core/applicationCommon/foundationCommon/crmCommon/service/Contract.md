@@ -2,9 +2,9 @@
 title: Contract in service - Common Data Model | Microsoft Docs
 description: Agreement to provide customer service during a specified amount of time or number of cases.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

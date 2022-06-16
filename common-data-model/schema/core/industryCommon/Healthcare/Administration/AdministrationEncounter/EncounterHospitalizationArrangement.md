@@ -2,9 +2,9 @@
 title: EncounterHospitalizationArrangement in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

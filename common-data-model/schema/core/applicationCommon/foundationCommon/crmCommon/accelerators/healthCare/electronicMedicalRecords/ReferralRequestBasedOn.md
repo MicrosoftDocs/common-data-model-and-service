@@ -2,9 +2,9 @@
 title: ReferralRequestBasedOn in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Indicates any plans, proposals or orders that this request is intended to satisfy - in whole or in part.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

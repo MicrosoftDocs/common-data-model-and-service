@@ -2,7 +2,7 @@
 title: Mapping Parquet types to Common Data Model data types | Microsoft Docs
 description: This article provides assistance to developers in finding the appropriate equivalents of Parquet data types in Common Data Model.
 author: surenderpawar
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/12/2021

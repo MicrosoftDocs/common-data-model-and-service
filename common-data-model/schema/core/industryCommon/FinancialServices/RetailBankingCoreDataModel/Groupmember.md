@@ -2,9 +2,9 @@
 title: GroupMember in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: An association between a customer and a Group.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

@@ -2,7 +2,7 @@
 title: Local Adapter | Microsoft Docs
 description: API reference for LocalAdapter.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/24/2020

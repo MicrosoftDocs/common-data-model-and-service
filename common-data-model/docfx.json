@@ -52,7 +52,11 @@
       "titleSuffix": "Common Data Model",
       "recommendations": true
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.service": {
+        "**.*": "common-data-model"
+      }
+    },
     "template": [],
     "dest": "common-data-model",
     "markdownEngineName": "markdig"

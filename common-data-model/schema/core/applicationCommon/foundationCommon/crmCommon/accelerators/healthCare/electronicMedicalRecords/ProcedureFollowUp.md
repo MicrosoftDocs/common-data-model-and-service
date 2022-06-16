@@ -2,9 +2,9 @@
 title: ProcedureFollowUp in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: If the procedure required specific follow up - e.g. removal of sutures. The followup may be represented as a simple note.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

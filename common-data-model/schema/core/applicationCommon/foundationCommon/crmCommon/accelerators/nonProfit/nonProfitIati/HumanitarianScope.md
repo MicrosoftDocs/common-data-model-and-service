@@ -2,9 +2,9 @@
 title: HumanitarianScope in nonProfitIati - Common Data Model | Microsoft Docs
 description: Classification of emergencies, appeals and other humanitarian events and actions.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

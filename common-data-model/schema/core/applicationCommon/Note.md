@@ -2,9 +2,9 @@
 title: Note in applicationCommon - Common Data Model | Microsoft Docs
 description: Note that is attached to one or more objects, including other notes.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: ProcedurePerformer in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Limited to 'real' people rather than equipment.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: NutritionOrderEnteralFormulaAdministration in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: Formula administration instructions as structured data. This repeating structure allows for changing the administration rate or volume over time for both bolus and continuous feeding.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

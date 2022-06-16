@@ -2,9 +2,9 @@
 title: NutritionOrderExcludeFoodModifier in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: This modifier is used to convey order-specific modifiers about the type of food that should NOT be given. These can be derived from patient allergies, intolerance, or preferences such as No Red Meat,
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: NutritionOrderOralDietFluidConsistencyType in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: The required consistency (e.g. honey-thick, nectar-thick, thin, thickened.) of liquids or fluids served to the patient.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

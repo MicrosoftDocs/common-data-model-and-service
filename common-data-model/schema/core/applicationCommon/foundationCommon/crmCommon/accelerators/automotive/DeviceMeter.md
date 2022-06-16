@@ -2,9 +2,9 @@
 title: DeviceMeter in automotive - Common Data Model | Microsoft Docs
 description: Usage meter attached to a specific vehicle or device, such as odometer or fuel gauge.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

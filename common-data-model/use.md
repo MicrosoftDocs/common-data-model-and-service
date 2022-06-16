@@ -2,7 +2,7 @@
 title: About - Common Data Model | Microsoft Docs
 description: Learn about Common Data Model.
 author: theresapalmer
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 07/07/2020

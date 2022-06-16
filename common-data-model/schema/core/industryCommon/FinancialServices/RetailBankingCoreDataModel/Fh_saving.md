@@ -2,9 +2,9 @@
 title: FHSaving in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: Savings accounts held by the customer at the financial institution.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

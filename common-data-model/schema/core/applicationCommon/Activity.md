@@ -2,9 +2,9 @@
 title: Activity in applicationCommon - Common Data Model | Microsoft Docs
 description: Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

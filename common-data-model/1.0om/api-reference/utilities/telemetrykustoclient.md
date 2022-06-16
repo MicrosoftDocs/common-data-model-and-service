@@ -2,7 +2,7 @@
 title: Telemetry Kusto Client | Microsoft Docs
 description: API reference for TelemetryKustoClient.
 author: honchenMS
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 07/15/2021
@@ -17,7 +17,7 @@ ms.author: t-honchen
 The telemetry Kusto client is a client for ingesting logs into Kusto database. 
 
 > [!NOTE]
-> TelemetryKustoClient is available in SDK version >= 1.2.4.
+> TelemetryKustoClient is available in SDK version >= 1.3.0.
 
 For the client to function as expected, the log tables in the Kusto database must have the following schema:<br>
 `timestamp: datetime, className: string, method: string, message: string, code: string, corpusPath: string, correlationId: string, apiCorrelationId: string, appId: string, property: string`.

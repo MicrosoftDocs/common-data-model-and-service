@@ -2,9 +2,9 @@
 title: overview of AdministrationDevice - Common Data Model | Microsoft Docs
 description: AdministrationDevice is a folder that contains standard entities related to the Common Data Model.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

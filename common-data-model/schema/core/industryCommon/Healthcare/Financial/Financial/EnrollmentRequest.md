@@ -2,9 +2,9 @@
 title: EnrollmentRequest in Financial - Common Data Model | Microsoft Docs
 description: This resource provides the insurance enrollment details to the insurer regarding a specified coverage
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

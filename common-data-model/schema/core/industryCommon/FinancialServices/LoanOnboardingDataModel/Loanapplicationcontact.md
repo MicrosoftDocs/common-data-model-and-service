@@ -2,9 +2,9 @@
 title: LoanApplicationContact in Loan Onboarding Data Model - Common Data Model | Microsoft Docs
 description: The customer associated with the loan application.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---
@@ -88,7 +88,7 @@ The customer associated with the loan application.
 |[numberofYearsatPresentAddress](#numberofYearsatPresentAddress)|Number of Years at Present Address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[phone](#phone)|The main phone number of the loan application contact.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[postOfficeBox](#postOfficeBox)|The post office box number of the present address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
-|[prefix](#prefix)|The loan application contact's title (Ms., Mr., Doctor, etc).|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
+|[prefix](#prefix)|(Deprecated) This field is deprecated and should not be used. The loan application contact's title (Ms., Mr., Doctor, etc).|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[presentAddressOwnershipStatus](#presentAddressOwnershipStatus)|Does loan contact own or rent their current living address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[primaryMemberHelper](#primaryMemberHelper)|A calculated field helping determine if this loan application contact is the primary member of the loan application.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[stateProvince](#stateProvince)|The state or province of this loan application contact's present address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
@@ -835,7 +835,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/contact" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/contact#contactid" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1027,7 +1027,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Creditcheck.md" target="_blank">Creditcheck.cdm.json/CreditCheck</a></td><td><a href="../../../Creditcheck.md#creditCheckId" target="_blank">creditCheckId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/creditcheck" target="_blank">Creditcheck.cdm.json/CreditCheck</a></td><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/creditcheck#creditcheckid" target="_blank">creditCheckId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1463,7 +1463,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"61"</td><td>integer</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Kyc.md" target="_blank">Kyc.cdm.json/KnowYourCustomer</a></td><td><a href="../../../Kyc.md#kycId" target="_blank">kycId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/kyc" target="_blank">Kyc.cdm.json/KnowYourCustomer</a></td><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/kyc#kycid" target="_blank">kycId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  
@@ -1565,7 +1565,7 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"63"</td><td>integer</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Loanapplication.md" target="_blank">Loanapplication.cdm.json/LoanApplication</a></td><td><a href="../../../Loanapplication.md#loanApplicationId" target="_blank">loanApplicationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/loanapplication" target="_blank">Loanapplication.cdm.json/LoanApplication</a></td><td><a href="/common-data-model/schema/core/industrycommon/financialservices/loanonboardingdatamodel/loanapplication#loanapplicationid" target="_blank">loanApplicationId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
 **is.dataFormat.character**  

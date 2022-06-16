@@ -2,9 +2,9 @@
 title: AppointmentServiceCategory in AdministrationAppointmentEMR - Common Data Model | Microsoft Docs
 description: A broad categorization of the service that is to be performed during this appointment.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

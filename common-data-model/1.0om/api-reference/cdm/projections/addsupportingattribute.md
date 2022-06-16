@@ -2,7 +2,7 @@
 title: Operation Add Supporting Attribute | Microsoft Docs
 description: API reference for CdmOperationAddSupportingAttribute.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 02/24/2021

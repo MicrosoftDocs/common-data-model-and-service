@@ -2,9 +2,9 @@
 title: RiskAssessment in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

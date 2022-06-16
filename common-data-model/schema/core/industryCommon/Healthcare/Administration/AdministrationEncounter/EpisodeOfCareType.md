@@ -2,9 +2,9 @@
 title: EpisodeOfCareType in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: A classification of the type of episode of care; e.g. specialist referral, disease management, type of funded care.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

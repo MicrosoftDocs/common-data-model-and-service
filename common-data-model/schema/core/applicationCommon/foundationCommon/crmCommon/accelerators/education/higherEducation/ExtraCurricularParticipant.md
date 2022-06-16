@@ -2,9 +2,9 @@
 title: ExtraCurricularParticipant in higherEducation - Common Data Model | Microsoft Docs
 description: The relationship between a Contact and a specific Extra Curricular Activity.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: FHInvestment in Retail Banking Core Data Model - Common Data Model | Microsoft Docs
 description: A holding representing a portfolio of securities or other investible assets.
 author: GithubUser
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 10/28/2021
 ms.author: matgos
 ---

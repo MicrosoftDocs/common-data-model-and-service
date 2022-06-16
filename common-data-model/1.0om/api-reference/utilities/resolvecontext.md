@@ -2,7 +2,7 @@
 title: Resolve Context | Microsoft Docs
 description: API reference for ResolveContext.
 author: miroslavplese
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/20/2020

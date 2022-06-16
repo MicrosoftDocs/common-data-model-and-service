@@ -2,9 +2,9 @@
 title: MedicationRequestReasonCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The reason or the indication for ordering the medication.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

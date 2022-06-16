@@ -2,9 +2,9 @@
 title: SubstanceCategory in AdministrationCore - Common Data Model | Microsoft Docs
 description: A code that classifies the general type of substance. This is used for searching, sorting and display purposes.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: ProcedureRequestReasonReference in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Indicates another resource that provides a justification for why this diagnostic investigation is being requested. May relate to the resources referred to in supporting Information.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,7 +2,7 @@
 title: How to use the sample code | Microsoft Docs
 description: "How to how to use the Common Data Model sample code."
 author: oovanesy
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 02/27/2020
