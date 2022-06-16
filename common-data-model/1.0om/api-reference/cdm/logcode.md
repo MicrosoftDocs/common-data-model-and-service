@@ -146,7 +146,6 @@ public enum CdmLogCode
     ErrValdnMissingDoc,
     ErrValdnMissingLanguageTag,
     WarnPartitionGlobAndRegexPresent,
-    WarnDeprecatedFunction,
     WarnDeprecatedResolutionGuidance,
     WarnDocChangesDiscarded,
     WarnDocImportNotLoaded,
