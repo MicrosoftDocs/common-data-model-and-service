@@ -2,9 +2,9 @@
 title: PractitionerRoleEndPoint in AdministrationCore - Common Data Model | Microsoft Docs
 description: Technical endpoints providing access to services operated for the practitioner with this role.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

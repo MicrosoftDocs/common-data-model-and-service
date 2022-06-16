@@ -2,9 +2,9 @@
 title: MedicationAdministration in Commoncore - Common Data Model | Microsoft Docs
 description: Describes the event of a patient consuming or otherwise being administered a medication.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

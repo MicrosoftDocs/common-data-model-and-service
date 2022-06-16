@@ -2,9 +2,9 @@
 title: QuoteLineInvoiceSchedule in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of dates on which invoicing for this customer should be run. This list is used by an invoice creation job.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

@@ -2,9 +2,9 @@
 title: SpecimenContainer in DiagnosticCore - Common Data Model | Microsoft Docs
 description: The container holding the specimen. The recursive nature of containers; i.e. blood in tube in tray in rack is not addressed here.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

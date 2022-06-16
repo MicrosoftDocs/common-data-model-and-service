@@ -2,7 +2,7 @@
 title: Operation Array Expansion | Microsoft Docs
 description: API reference for CdmOperationArrayExpansion.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 02/24/2021

@@ -2,9 +2,9 @@
 title: TransactionOrigin in scheduling - Common Data Model | Microsoft Docs
 description: System entity used to record the source of a project cost or sales actual.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

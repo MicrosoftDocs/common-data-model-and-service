@@ -2,9 +2,9 @@
 title: ConditionBodySite in ClinicalCore - Common Data Model | Microsoft Docs
 description: The anatomical location where this condition manifests itself.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

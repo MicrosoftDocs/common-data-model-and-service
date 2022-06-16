@@ -2,9 +2,9 @@
 title: PlanDefinitionActionArtifact in WorkflowCore - Common Data Model | Microsoft Docs
 description: Didactic or other informational entities associated with the action that can be provided to the CDS recipient. Information entities can include inline text commentary and links to web resources.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

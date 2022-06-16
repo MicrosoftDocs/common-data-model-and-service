@@ -2,9 +2,9 @@
 title: EndpointPayloadType in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: The payload type describes the acceptable content that can be communicated on the endpoint.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

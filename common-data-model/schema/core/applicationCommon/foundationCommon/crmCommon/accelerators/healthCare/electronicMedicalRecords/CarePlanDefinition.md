@@ -2,9 +2,9 @@
 title: CarePlanDefinition in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the protocol, questionnaire, guideline or other specification the care plan should be conducted in accordance with.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

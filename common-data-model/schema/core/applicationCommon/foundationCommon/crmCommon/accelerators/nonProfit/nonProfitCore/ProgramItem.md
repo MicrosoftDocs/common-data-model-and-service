@@ -2,9 +2,9 @@
 title: ProgramItem in nonProfitCore - Common Data Model | Microsoft Docs
 description: This entity contains the information for a program items such as a assumptions, obligations, milestones, deliverables, decisions, or other items as needed.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

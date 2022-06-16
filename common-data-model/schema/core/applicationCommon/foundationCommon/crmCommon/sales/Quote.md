@@ -2,9 +2,9 @@
 title: Quote in sales - Common Data Model | Microsoft Docs
 description: Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

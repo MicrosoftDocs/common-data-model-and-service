@@ -2,7 +2,7 @@
 title: Telemetry Configuration | Microsoft Docs
 description: API reference for TelemetryConfig.
 author: honchenMS
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 07/15/2021
@@ -17,7 +17,7 @@ ms.author: t-honchen
 Configuration information to establish a connection with the database for telemetry collection.
 
 > [!NOTE]
-> TelemetryConfig is available in SDK version >= 1.2.4.
+> TelemetryConfig is available in SDK version >= 1.3.0.
 
 ```csharp
 public class TelemetryConfig

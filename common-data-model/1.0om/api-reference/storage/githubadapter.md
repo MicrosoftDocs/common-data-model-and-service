@@ -2,7 +2,7 @@
 title: GitHub Adapter | Microsoft Docs
 description: API reference for GitHubAdapter.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/24/2020

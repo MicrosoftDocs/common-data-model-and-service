@@ -2,7 +2,7 @@
 title: Parameter | Microsoft Docs
 description: API reference for CdmParameterDefinition.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019

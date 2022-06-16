@@ -2,9 +2,9 @@
 title: MeasureDefinition in customerInsights - Common Data Model | Microsoft Docs
 description: Definition of KPIs partitioned by zero or more dimensions (eg. Monthly Active Users, Total Spend By Customer, Average Customer Acquisition Cost)
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

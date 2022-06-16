@@ -2,9 +2,9 @@
 title: AppointmentEMRIndication in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Reason the appointment has been scheduled to take place, as specified using information from another entity. The indication will typically be a Condition or a Procedure
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

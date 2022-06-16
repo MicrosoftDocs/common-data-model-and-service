@@ -2,9 +2,9 @@
 title: CareTeamReasonReference in ClinicalCareTeam - Common Data Model | Microsoft Docs
 description: Condition(s) that this care team addresses.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

@@ -2,9 +2,9 @@
 title: ServiceActivity in service - Common Data Model | Microsoft Docs
 description: Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

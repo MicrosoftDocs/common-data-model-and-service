@@ -1,8 +1,8 @@
 ---
 title: Operation Alter Traits Usage Guide | Microsoft Docs
-description: Usage guide for for CdmOperationAlterTraits.
+description: Usage guide for CdmOperationAlterTraits.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: v-iap 
 ms.topic: article
 ms.date: 09/03/2021
@@ -15,13 +15,13 @@ ms.author: weiluo
 
 AlterTraits is a projection operation that alters traits or trait groups for a specified set of attributes from the source, which can either be an entity reference or another projection. This operation will work as follows:  
 
-1. All the attributes from the source that are provided as input to the operation will be added to a list where each attribute's traits will be modified. It is possible to specify a `applyTo` property which is a list of attributes' traits to be changed. The attributes that are in the specified list will be applied the rest of steps and added to the final attribute list. If an attribute is not in the specified list, it is added to the final set of attributes without changes.
+1. All the attributes from the source that are provided as input to the operation will be added to a list where each attribute's traits will be modified. It is possible to specify a `applyTo` property that is a list of attributes' traits to be changed. The attributes that are in the specified list will be applied the rest of steps and added to the final attribute list. If an attribute is not in the specified list, it is added to the final set of attributes without changes.
 
 1. The traits or trait groups defined in `traitsToAdd` property will be added to each of the pending attributes. If `argumentsContainWildcards` property is defined and set to true, it checks all arguments from all traits and performs replacement. The format supports the wilds cards {a/A}, {m/M}, {mo/Mo}, and {o}.
    * {a} will be replaced with the attribute name of the projection owner (which is the attribute to call the projection operation). If the projection owner is not a type attribute or an entity attribute, it will be replaced with an empty string.
    * {m} will be replaced with the resolved name of the current member attribute without changing the case of the text.
    * {mo} will be replaced with the original name of the current member attribute without changing the case of the text.
-   * If {A}, {M}, {Mo} is used the first letter of the value will be capitalized.
+   * If {A}, {M}, or {Mo} is used, the first letter of the value will be capitalized.
    * {o} will be replaced with the index of the attribute after an array expansion. If the attribute wasn’t originated from an array expansion, it will be replaced with an empty string.
 
 1. The traits or trait groups indicated in the `traitsToRemove` property will be removed in each of the pending attributes if they are found in the attribute's resolved traits.
@@ -161,7 +161,7 @@ The resulting resolved PersonInfo entity is:
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
 |legalName||
-|job|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|job|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 
 ### Using the AlterTraits operation on an entity attribute
 
@@ -221,10 +221,10 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |PersonInfo|Newly added traits or updated arguments|
 |---|---|
-|name|means.requiredUpdateDate(month: 5, day:15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|email|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|name|`means.requiredUpdateDate`(5, 15) <br/>`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|address|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|phoneNumber|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|email|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 
 ### Using the AlterTraits operation when extending an entity
 
@@ -284,10 +284,10 @@ The resulting resolved Child entity is:
 
 |Child|Newly added traits or updated arguments|
 |---|---|
-|name|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|address|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|phoneNumber|means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
-|email|means.requiredUpdateDate(month: 5, day:15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|name|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|address|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|phoneNumber|`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
+|email|`means.requiredUpdateDate`(5, 15) <br/>`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 
 
 ### Using the AlterTraits operation on an attribute group
@@ -353,7 +353,7 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 |Attribute Group Reference|Members in Attribute Group Reference|Newly added traits or updated arguments|
 |---|---|---|
-|PersonAttributeGroup| |means.requiredUpdateDate(month: 5, day:15) <br/>means.requiredUpdateAtAge18 <br/>means.requiredUpdateAtAge30 <br/>means.requiredUpdateAtAge45|
+|PersonAttributeGroup| |`means.requiredUpdateDate`(5, 15) <br/>`means.requiredUpdateAtAge18` <br/>`means.requiredUpdateAtAge30` <br/>`means.requiredUpdateAtAge45`|
 ||name||
 ||address||
 ||phoneNumber||
@@ -363,9 +363,9 @@ The resulting resolved PersonInfo entity typed attribute is:
 
 Constructing array or map type on an attribute is a good example to show how wildcards are used in arguments of traits. Below is an example of constructing an Array of entity attributes.
 
-Make a certain number of copies of the entity attribute, and apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansioninfolist) to each member attributes of the entity attribute. If multiple entity attributes and/or type attributes are expanded and renamed within one single entity, we would not able to easily differentiate each expanded attribute; therefore, This trait has parameters `expansionName`, `ordinal` and `memberAttribute` to hold each attribute's unique info.
+Make a certain number of copies of the entity attribute, and apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansioninfolist) to each member attributes of the entity attribute. If multiple entity attributes and/or type attributes are expanded and renamed within one single entity, we would not able to easily differentiate each expanded attribute; therefore, this trait has parameters `expansionName`, `ordinal`, and `memberAttribute` to hold each attribute's unique info.
 
-First, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation to expand the entity attribute `Person`, the example below makes 2 copies of `Person`. Then we can the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each copy of the member attribute to avoid expanded attributes getting merge to one single attribute due to the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansioninfolist).
+First, we can use the [ArrayExpansion](../../1.0om/api-reference/cdm/projections/arrayexpansion.md) operation to expand the entity attribute `Person`, the example below makes two copies of `Person`. Then we can use the [RenameAttributes](../../1.0om/api-reference/cdm/projections/renameattributes.md) operation to rename each copy of the member attribute to avoid expanded attributes getting merge to one single attribute because of the same name. Finally, we can use the [AlterTraits](../../1.0om/api-reference/cdm/projections/altertraits.md) operation to apply the trait [has.expansionInfo.list](../list-of-traits.md#hasexpansioninfolist).
 
 > **__Note:__** For detailed descriptions and use cases for map and array types refer to [this page](./map-and-array-types.md).
 
@@ -427,11 +427,11 @@ The resulting resolved PersonInfo entity is:
 |PersonInfo|Newly added traits from projection operations|
 |---|---|
 |id||
-|name_1|has.expansionInfo.list(twoPeople, 1, name)|
-|address_1|has.expansionInfo.list(twoPeople, 1, address)|
-|phoneNumber_1|has.expansionInfo.list(twoPeople, 1, phoneNumber)|
-|email_1|has.expansionInfo.list(twoPeople, 1, email)|
-|name_2|has.expansionInfo.list(twoPeople, 2, name)|
-|address_2|has.expansionInfo.list(twoPeople, 2, address)|
-|phoneNumber_2|has.expansionInfo.list(twoPeople, 2, phoneNumber)|
-|email_2|has.expansionInfo.list(twoPeople, 2, email)|
+|name_1|`has.expansionInfo.list`(twoPeople, 1, name)|
+|address_1|`has.expansionInfo.list`(twoPeople, 1, address)|
+|phoneNumber_1|`has.expansionInfo.list`(twoPeople, 1, phoneNumber)|
+|email_1|`has.expansionInfo.list`(twoPeople, 1, email)|
+|name_2|`has.expansionInfo.list`(twoPeople, 2, name)|
+|address_2|`has.expansionInfo.list`(twoPeople, 2, address)|
+|phoneNumber_2|`has.expansionInfo.list`(twoPeople, 2, phoneNumber)|
+|email_2|`has.expansionInfo.list`(twoPeople, 2, email)|

@@ -2,7 +2,7 @@
 title: Metadata format - Common Data Model| Microsoft Docs
 description: How you can use the Common Data Model to develop apps and solutions.
 author: theresapalmer
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 04/03/2020
@@ -175,7 +175,7 @@ In the required columns, “n/a” means the field shouldn’t exist for that ty
 |name | String | The entity name | Yes | Yes |
 |description | string | The entity description | No | No |
 |[annotations](#annotations) | Annotation[] | Array of optional model annotations - non-essential key/value pairs that contain contextual information that can be used to store additional context | No | No |
-|schemas | SchemaURI[] | A collection of URIs to the schema definitions to which the entity conforms. <br> Allowed pattern:<br>https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/<CDM folder hierarchy>/<entity name>.<entity version>.cdm.json<br>Example: https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Account.0.8.cdm.json | No | n/a |
+|schemas | SchemaURI[] | A collection of URIs to the schema definitions to which the entity conforms. <br> Allowed pattern:<br>`https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/<CDM folder hierarchy>/<entity name>.<entity version>.cdm.json`<br>Example: `<https://raw.githubusercontent.com/Microsoft/CDM/master/schemaDocuments/core/applicationCommon/Account.0.8.cdm.json>` | No | n/a |
 |[attributes](#attributes) | Attribute[] |  The attributes within the entity. Each entity must have at least one. | Yes | n/a |
 |[partitions](#partitions) | Partition[] | The entity physical partitions (data files) | No | n/a |
 |source | String | The source (referenced) entity name | n/a | Yes |

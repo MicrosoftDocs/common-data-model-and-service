@@ -2,9 +2,9 @@
 title: ClaimCareTeam in Financial - Common Data Model | Microsoft Docs
 description: The members of the team who provided the overall service as well as their role and whether responsible and qualifications.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

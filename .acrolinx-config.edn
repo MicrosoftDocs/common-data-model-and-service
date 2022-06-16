@@ -1,5 +1,6 @@
-{:allowed-branchname-matches ["^master$"]
- :allowed-filename-matches ["(?i)common-data-model/(?:(?!schema/core/operationsCommon/Common.md))"]
+{:allowed-branchname-matches ["^main$"]
+ :allowed-filename-matches ["(?i)(common-data-model/|common-data-service/|entity-reference/)(?:(?!schema))"]
+ :use-skip-label true
  :targets
  {
      :scores

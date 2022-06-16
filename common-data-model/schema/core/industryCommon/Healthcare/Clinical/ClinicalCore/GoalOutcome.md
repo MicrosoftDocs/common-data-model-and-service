@@ -2,9 +2,9 @@
 title: GoalOutcome in ClinicalCore - Common Data Model | Microsoft Docs
 description: Identifies the change (or lack of change) at the point when the status of the goal is assessed.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

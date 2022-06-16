@@ -2,9 +2,9 @@
 title: QuoteLineTransactionClassification in projectServiceAutomation - Common Data Model | Microsoft Docs
 description: List of transaction classification heads, the four broad cost classifications of time, expense, material, and fee, that will be considered as costs when computing the profit of a quote line.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

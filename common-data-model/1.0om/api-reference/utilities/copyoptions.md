@@ -2,7 +2,7 @@
 title: Copy Options | Microsoft Docs
 description: API reference for CopyOptions.
 author: jinichu
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 10/18/2019
@@ -25,6 +25,7 @@ public class CopyOptions
 ## Properties
 |Name|Type|Description|
 |---|---|---|
+|SaveConfigFile|bool|Determines if the config.json file should be saved or not when calling SaveAsAsync.|
 |StringRefs|bool?|Denotes whether to turn simple named string object references into objects with a relative path.|
 
 
