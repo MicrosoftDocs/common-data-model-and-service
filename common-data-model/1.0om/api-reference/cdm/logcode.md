@@ -28,6 +28,7 @@ public enum CdmLogCode
     ErrDocWrtDocNotfound,
     ErrEntityCreationFailed,
     ErrIndexFailed,
+    ErrInvalidCast,
     ErrInvalidPath,
     ErrObjectWithoutOwnerFound,
     ErrPartitionFileModTimeFailure,
