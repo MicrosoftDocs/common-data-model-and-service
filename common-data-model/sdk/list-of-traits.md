@@ -729,7 +729,7 @@ None
 |level|string|False
 
 
-## <a id="has-expansionInfo"><b>has.expansionInfo</b></a>
+## <a id="has-expansioninfo"><b>has.expansionInfo</b></a>
 
 
 | Inheritance |
@@ -749,17 +749,18 @@ None
 |expansionName|string|True
 
 
-## <a id="has-expansionInfo-list"><b>has.expansionInfo.list</b></a>
+## <a id="has-expansioninfo-list"><b>has.expansionInfo.list</b></a>
 
 
 **Description**
+
 
 Marks the attribute that is part of a list and its ordinal.
 
 
 | Inheritance |
 |--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo.list</b>|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansioninfo) <- <b>has.expansionInfo.list</b>|
 
 
 **Properties**
@@ -775,17 +776,18 @@ None
 |memberAttribute|string|False
 
 
-## <a id="has-expansionInfo-mapValue"><b>has.expansionInfo.mapValue</b></a>
+## <a id="has-expansioninfo-mapvalue"><b>has.expansionInfo.mapValue</b></a>
 
 
 **Description**
+
 
 Marks the attribute that is one of the values in a map and its ordinal.
 
 
 | Inheritance |
 |--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>has.expansionInfo-mapValue</b>|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansioninfo) <- <b>has.expansionInfo.mapValue</b>|
 
 
 **Properties**
@@ -1546,7 +1548,7 @@ None
 |identifier|string|True
 
 
-## <a id="indicates-expansionInfo-count"><b>indicates.expansionInfo.count</b></a>
+## <a id="indicates-expansioninfo-count"><b>indicates.expansionInfo.count</b></a>
 
 
 **Description**
@@ -1557,7 +1559,7 @@ Marks the attribute is the count of elements in an expansion.
 
 | Inheritance |
 |--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>indicates.expansionInfo.count</b>|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansioninfo) <- <b>indicates.expansionInfo.count</b>|
 
 
 **Properties**
@@ -1570,7 +1572,7 @@ None
 None
 
 
-## <a id="indicates-expansionInfo-mapKey"><b>indicates.expansionInfo.mapKey</b></a>
+## <a id="indicates-expansioninfo-mapkey"><b>indicates.expansionInfo.mapKey</b></a>
 
 
 **Description**
@@ -1581,7 +1583,7 @@ Marks the attribute that is one of the keys in a map and its ordinal.
 
 | Inheritance |
 |--|
-|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansionInfo) <- <b>indicates.expansionInfo.mapKey</b>|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- [<b>has.expansionInfo</b>](#has-expansioninfo) <- <b>indicates.expansionInfo.mapKey</b>|
 
 
 **Properties**
@@ -2181,6 +2183,7 @@ Represents the 54 bit integer numbers compatible with javascript
 
 None
 
+
 ## <a id="is-dataformat-list"><b>is.dataFormat.list</b></a>
 
 
@@ -2192,12 +2195,92 @@ Marks the attribute that contains a list of attributes.
 
 | Inheritance |
 |--|
-|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.list</b>
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.list</b>|
 
 
 **Properties**
 
+| |
+|--|
+|<b>dataFormat</b>|
+
+
+**Parameters**
+
 None
+
+
+## <a id="is-dataformat-map"><b>is.dataFormat.map</b></a>
+
+
+**Description**
+
+
+Marks the attribute that contains a map of attributes.
+
+
+| Inheritance|
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.map</b>|
+
+
+**Properties**
+
+| Properties |
+|--|
+|<b>dataFormat</b>|
+
+
+**Parameters**
+
+None
+
+
+## <a id="is-dataformat-mapkey"><b>is.dataFormat.mapKey</b></a>
+
+
+**Description**
+
+
+Marks the attribute that is one of the keys in a map.
+
+
+| Inheritance|
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapKey</b>|
+
+
+**Properties**
+
+| Properties |
+|--|
+|<b>dataFormat</b>|
+
+
+**Parameters**
+
+None
+
+
+## <a id="is-dataformat-mapvalue"><b>is.dataFormat.mapValue</b></a>
+
+
+**Description**
+
+
+Marks the attribute that is one of the values in a map.
+
+
+| Inheritance |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapValue</b>|
+
+
+**Properties**
+
+| |
+|--|
+|<b>dataFormat</b>|
 
 
 **Parameters**
@@ -2208,14 +2291,16 @@ None
 ## <a id="is-dataformat-numeric"><b>is.dataFormat.numeric</b></a>
 
 
-| Inheritance|
+**Inheritance**
+
+| |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.numeric</b>|
 
 
 **Properties**
 
-| Properties |
+| |
 |--|
 |<b>dataFormat</b>|
 
@@ -2234,14 +2319,16 @@ None
 For setting the exact precision and scale of numeric values
 
 
-| Inheritance|
+**Inheritance**
+
+| |
 |--|
 |[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- [<b>is.dataFormat.numeric</b>](#is-dataformat-numeric) <- <b>is.dataFormat.numeric.shaped</b>|
 
 
 **Properties**
 
-| Properties |
+| |
 |--|
 |<b>dataFormat</b>|
 
@@ -2254,66 +2341,27 @@ For setting the exact precision and scale of numeric values
 |scale|integer|False
 
 
-## <a id="is-dataformat-map"><b>is.dataFormat.map</b></a>
+## <a id="is-dataformat-signed"><b>is.dataFormat.signed</b></a>
 
 
 **Description**
 
 
-Marks the attribute that contains a map of attributes.
+Indicates the capability to represent values less than zero.
 
 
-| Inheritance |
+**Inheritance**
+
+| |
 |--|
-|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.map</b>|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.signed</b>|
 
 
 **Properties**
 
-None
-
-
-**Parameters**
-
-None
-
-## <a id="is-dataformat-mapKey"><b>is.dataFormat.mapKey</b></a>
-
-**Description**
-
-Marks the attribute that is one of the keys in a map.
-
-
-| Inheritance |
+| |
 |--|
-|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapKey</b>|
-
-
-**Properties**
-
-None
-
-
-**Parameters**
-
-None
-
-
-## <a id="is-dataformat-mapValue"><b>is.dataFormat.mapValue</b></a>
-
-**Description**
-
-Marks the attribute that is one of the values in a map.
-
-
-| Inheritance |
-|--|
-|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.mapValue</b>|
-
-
-**Properties**
-
-None
+|<b>dataFormat</b>|
 
 
 **Parameters**
@@ -2372,6 +2420,34 @@ None
 **Properties**
 
 | Properties |
+|--|
+|<b>dataFormat</b>|
+
+
+**Parameters**
+
+None
+
+
+## <a id="is-dataformat-unsigned"><b>is.dataFormat.unsigned</b></a>
+
+
+**Description**
+
+
+Indicates the capability to represent only values zero and greater.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.dataFormat</b>](#is-dataformat) <- <b>is.dataFormat.unsigned</b>|
+
+
+**Properties**
+
+| |
 |--|
 |<b>dataFormat</b>|
 
@@ -3282,6 +3358,37 @@ None
 The base trait for describing incremental partitions and incremental partition patterns.
 
 
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.incremental</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|type|string|True
+|incrementPartitionPatternName|string|False
+|fullDataPartitionPatternName|string|False
+
+
+## <a id="is-readonly"><b>is.readOnly</b></a>
+
+
+
+**Description**
+
+
+The base trait for describing incremental partitions and incremental partition patterns.
+
+
 | Inheritance |
 |--|
 |[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.incremental</b>|
@@ -3445,29 +3552,6 @@ None
 
 None
 
-## <a id="is-storagesource"><b>is.storagesource</b></a>
-
-
-**Description**
-
-
-Stores location of the default lake linked to the SyMS workspace. This is a mandatory trait for SyMS write operation.
-
-
-| Inheritance |
-|--|
-|[<b>is</b>](#is) <- <b>is.storagesource</b>|
-
-
-**Properties**
-
-None
-
-**Parameters**
-
-| **Name** | **Type** | **Required** |
-|--|--|--|
-|namespace|string|True
 
 ## <a id="is-virtual-attribute"><b>is.virtual.attribute</b></a>
 
@@ -10641,6 +10725,173 @@ None
 | **Name** | **Type** | **Required** |
 |--|--|--|
 |verbPhrase|entity|False
+
+
+## <a id="means-time"><b>means.time</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.time</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|units|string|False
+|hasUTC|boolean|False
+
+
+## <a id="means-time-parquet-micro"><b>means.time.parquet.micro</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.time</b>](#means-time) <- <b>means.time.parquet.micro</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-time-parquet-milli"><b>means.time.parquet.milli</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.time</b>](#means-time) <- <b>means.time.parquet.milli</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-time-parquet-nano"><b>means.time.parquet.nano</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.time</b>](#means-time) <- <b>means.time.parquet.nano</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-timestamp"><b>means.timestamp</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- <b>means.timestamp</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|units|string|False
+|offsetFromDate|dateTime|False
+|hasUTC|boolean|False
+
+
+## <a id="means-timestamp-parquet-micro"><b>means.timestamp.parquet.micro</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.timestamp</b>](#means-timestamp) <- <b>means.timestamp.parquet.micro</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-timestamp-parquet-milli"><b>means.timestamp.parquet.milli</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.timestamp</b>](#means-timestamp) <- <b>means.timestamp.parquet.milli</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
+
+
+## <a id="means-timestamp-parquet-nano"><b>means.timestamp.parquet.nano</b></a>
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>means</b>](#means) <- [<b>means.timestamp</b>](#means-timestamp) <- <b>means.timestamp.parquet.nano</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+None
 
 
 ## <a id="means-userid"><b>means.userId</b></a>
