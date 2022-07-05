@@ -13,9 +13,11 @@ ms.author: supawa
 
 This article provides assistance to developers in finding the appropriate equivalents of Parquet data types in Common Data Model.
 
-- **Parquet Type**: This column represents Parquet data type. For more details, visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).
-- **Common Data Model Type**: Each attribute in Common Data Model entities can be associated with a single data type. A Common Data Model data type is an object that represents a collection of traits. All data types should indicate the data format traits but can also add additional semantic information.For more details, visit [here](logical-definitions.md#the-datatype-object)
-- **Trait**: Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests.For more details visit [here](trait-concepts-and-use-cases.md)
+- **Parquet type**: This column represents Parquet data type. For more details, visit [here](https://github.com/apache/parquet-format/blob/master/LogicalTypes.md).
+- **Common Data Model equivalent type**: Each attribute in Common Data Model entities can be associated with a single data type. A Common Data Model data type is an object that represents a collection of traits. All data types should indicate the data format traits but can also add additional semantic information. For more details, visit [here](logical-definitions.md#the-datatype-object).
+- **Traits included in the equivalent data type**: When an attribute is defined by using a data type, the attribute will gain the traits of the data type, visite [here](logical-definitions.md#the-datatype-object). Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests. For more details visit [here](trait-concepts-and-use-cases.md).
+- **Traits to add**: The traits that won't be implicitly included when specifying the Common Data Model data type, users must add them in addition to complete the suggested data type and match the equivalent Parquet type.
+
 - **Unsupported Types**: Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
 
 The following code snippet sets integer data type to Common Data Model attribute. Follow [CDM SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
@@ -26,7 +28,7 @@ artAtt.DataType = MakeObject<CdmDataTypeReference>(CdmObjectType.DataTypeRef, "i
 ```
 [Here](../samples.md#customize-entities) is a sample application demonstrating how data types can be set.
 
-Parquet Type | Common Data Model Equivalent | Traits included in the equivalent Data Type | Traits to add
+Parquet Type | Common Data Model equivalent type | Traits included in the equivalent Data Type | Traits to add
 -------|----|-------|-----
 BOOLEAN | [boolean](list-of-datatypes.md#boolean) | [is.dataFormat.boolean](list-of-traits.md#isdataformatboolean) | N/A
 FLOAT   | [float](list-of-datatypes.md#float) |  [is.dataFormat.floatingPoint](list-of-traits.md#isdataformatfloatingpoint)| N/A
