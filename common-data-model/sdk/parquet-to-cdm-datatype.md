@@ -18,7 +18,7 @@ This article provides assistance to developers in finding the appropriate equiva
 - **Traits included in the equivalent data type**: When an attribute is defined by using a data type, the attribute will gain the traits of the data type, visit [here](logical-definitions.md#the-datatype-object). Traits are the fundamental mechanism in the Common Data Model metadata grammar for describing the data format, semantic meaning, and specifications for entities, attributes and other objects, such as partitions or manifests. For more details visit [here](trait-concepts-and-use-cases.md).
 - **Traits to add**: The traits that won't be implicitly included when specifying the Common Data Model data type, users must add them in addition to complete the suggested data type and match the equivalent Parquet type.
 
-- **Unsupported Types**: Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
+- **Unsupported**: Common Data Model doesn't offer out-of-box equivalents. Depending on the use case, users can define new data types but it will not be standard.
 
 The following code snippet sets integer data type to Common Data Model attribute. Follow [CDM SDK API documentation](../1.0om/api-reference/api-reference.md) for the API references.  
 
