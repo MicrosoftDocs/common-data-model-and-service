@@ -28,7 +28,7 @@ artAtt.DataType = MakeObject<CdmDataTypeReference>(CdmObjectType.DataTypeRef, "i
 ```
 [Here](../samples.md#customize-entities) is a sample application demonstrating how data types can be set.
 
-Parquet Type | Common Data Model equivalent type | Traits included in the equivalent Data Type | Traits to add
+Parquet type | Common Data Model equivalent type | Traits included in the equivalent data type | Traits to add
 -------|----|-------|-----
 BOOLEAN | [boolean](list-of-datatypes.md#boolean) | [is.dataFormat.boolean](list-of-traits.md#isdataformatboolean) | N/A
 FLOAT   | [float](list-of-datatypes.md#float) |  [is.dataFormat.floatingPoint](list-of-traits.md#isdataformatfloatingpoint)| N/A
