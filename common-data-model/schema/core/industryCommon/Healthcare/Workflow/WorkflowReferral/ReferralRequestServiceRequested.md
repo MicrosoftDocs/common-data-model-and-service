@@ -2,9 +2,9 @@
 title: ReferralRequestServiceRequested in WorkflowReferral - Common Data Model | Microsoft Docs
 description: The service(s) that is/are requested to be provided to the patient. For example&#58 cardiac pacemaker insertion.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

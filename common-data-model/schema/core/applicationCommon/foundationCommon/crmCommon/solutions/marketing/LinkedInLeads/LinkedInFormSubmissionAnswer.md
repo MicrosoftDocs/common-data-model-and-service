@@ -2,9 +2,9 @@
 title: LinkedInFormSubmissionAnswer in LinkedInLeads - Common Data Model | Microsoft Docs
 description: Answers to individual questions on a form submitted by a LinkedIn member
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

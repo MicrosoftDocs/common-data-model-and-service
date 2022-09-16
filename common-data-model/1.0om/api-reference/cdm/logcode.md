@@ -2,7 +2,7 @@
 title: Common Data Model Error and Warning Codes | Microsoft Docs
 description: Errors/Warnings for CDM SDK.
 author: supawa
-ms.service: common-data-model
+
 ms.topic: article
 ms.date: 07/28/2021
 ms.author: supawa
@@ -28,6 +28,7 @@ public enum CdmLogCode
     ErrDocWrtDocNotfound,
     ErrEntityCreationFailed,
     ErrIndexFailed,
+    ErrInvalidCast,
     ErrInvalidPath,
     ErrObjectWithoutOwnerFound,
     ErrPartitionFileModTimeFailure,
@@ -84,6 +85,7 @@ public enum CdmLogCode
     ErrPersistSymsEntityDeclConversionFailure,
     ErrPersistSymsEntityDeclConversionException,
     ErrPersistSymsMultipleOrZeroTableDefinition,
+    ErrPersistSymsIncompatibleFileToType,
     ErrPersistSymsInvalidDbPropObject,
     ErrPersistSymsInvalidDbObject,
     ErrPersistSymsStorageSourceTraitError,
@@ -92,6 +94,7 @@ public enum CdmLogCode
     ErrPersistSymsTableMissingDataLocation,
     ErrPersistSymsUnknownDataFormat,
     ErrPersistSymsUnsupportedCdmConversion,
+    ErrPersistSymsUnsupportedTableFormat,
     ErrPersistSymsUnsupportedManifest,
     ErrPersistUnsupportedJsonSemVer,
     ErrPersistInvalidMaxCardinality,

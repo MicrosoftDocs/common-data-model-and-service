@@ -2,9 +2,9 @@
 title: BodySite in DiagnosticCore - Common Data Model | Microsoft Docs
 description: Record details about the anatomical location of a specimen or body part. This entity may be used when a coded concept does not provide the necessary detail needed for the use case.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

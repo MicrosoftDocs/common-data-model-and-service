@@ -2,9 +2,9 @@
 title: ActivityDefinitionDosage in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: Provides detailed dosage instructions in the same way that they are described for Medication Request entities.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

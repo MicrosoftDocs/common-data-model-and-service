@@ -2,9 +2,9 @@
 title: EncounterHospitalizationArrangement in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Any special requests that have been made for this hospitalization encounter, such as the provision of specific equipment or other things.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

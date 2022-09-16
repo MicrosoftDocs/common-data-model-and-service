@@ -2,9 +2,9 @@
 title: CarePlanSupportInfo in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies portions of the patient's record that specifically influenced the formation of the plan. These might include co-morbidities, recent procedures, limitations, recent assessments, etc.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

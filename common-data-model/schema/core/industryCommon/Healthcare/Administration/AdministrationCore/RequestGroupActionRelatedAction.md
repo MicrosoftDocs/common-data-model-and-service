@@ -2,9 +2,9 @@
 title: RequestGroupActionRelatedAction in AdministrationCore - Common Data Model | Microsoft Docs
 description: A relationship to another action such as "before" or "30-60 minutes after start of".
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

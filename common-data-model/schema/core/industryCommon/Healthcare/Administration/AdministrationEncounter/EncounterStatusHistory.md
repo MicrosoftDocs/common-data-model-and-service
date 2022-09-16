@@ -2,9 +2,9 @@
 title: EncounterStatusHistory in AdministrationEncounter - Common Data Model | Microsoft Docs
 description: The status history permits the encounter entity to contain the status history without needing to read through the historical versions of the entity, or even have the server store them
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

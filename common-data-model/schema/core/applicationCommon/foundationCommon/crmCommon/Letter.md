@@ -2,9 +2,9 @@
 title: Letter in crmCommon - Common Data Model | Microsoft Docs
 description: Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

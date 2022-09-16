@@ -2,9 +2,9 @@
 title: ReferralRequest in Commoncore - Common Data Model | Microsoft Docs
 description: Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

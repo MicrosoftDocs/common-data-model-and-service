@@ -2,9 +2,9 @@
 title: GoalOutcome in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the change (or lack of change) at the point when the status of the goal is assessed.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

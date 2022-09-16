@@ -2,9 +2,9 @@
 title: PlanDefinitionActionCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: A code that provides meaning for the action or action group. For example, a section may have a LOINC code for a the section of a documentation template.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

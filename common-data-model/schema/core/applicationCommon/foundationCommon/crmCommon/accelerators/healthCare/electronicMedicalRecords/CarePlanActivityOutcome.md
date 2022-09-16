@@ -2,9 +2,9 @@
 title: CarePlanActivityOutcome in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: Identifies the outcome at the point when the status of the activity is assessed. For example, the outcome of an education activity could be patient understands (or not).
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

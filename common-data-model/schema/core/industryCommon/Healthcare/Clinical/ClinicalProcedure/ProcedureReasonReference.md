@@ -2,9 +2,9 @@
 title: ProcedureReasonReference in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: The condition that is the reason why the procedure was performed.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

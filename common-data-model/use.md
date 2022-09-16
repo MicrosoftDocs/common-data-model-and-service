@@ -2,7 +2,7 @@
 title: About - Common Data Model | Microsoft Docs
 description: Learn about Common Data Model.
 author: theresapalmer
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 07/07/2020
@@ -151,16 +151,11 @@ Azure Data Lake in your own subscription. After the configuration is completed,
 your data lake will reflect tables and entities from Finance and Operations
 apps.
 
-See more details here:
+For more information, see:
 
--   Overview of Azure Data Lake integration in Dynamics 365 for Finance and
-    Operations
+- [Overview of Azure Data Lake integration in Dynamics 365 for Finance and Operations](/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview)
 
-    <https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/azure-data-lake-overview>
-
--   Configuring an Azure Data Lake in Finance and Operations
-
-    <https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake>
+- [Configuring an Azure Data Lake in Finance and Operations](/dynamics365/fin-ops-core/dev-itpro/data-entities/finance-data-azure-data-lake)
 
 ## Perform quick data integration by using Power Query Online
 

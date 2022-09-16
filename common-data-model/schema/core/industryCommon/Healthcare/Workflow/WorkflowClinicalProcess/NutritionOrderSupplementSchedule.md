@@ -2,9 +2,9 @@
 title: NutritionOrderSupplementSchedule in WorkflowClinicalProcess - Common Data Model | Microsoft Docs
 description: The time period and frequency at which the supplement(s) should be given. The supplement should be given for the combination of all schedules if more than one schedule is present.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

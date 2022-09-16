@@ -2,9 +2,9 @@
 title: MedicationPackageBatch in MedicationCore - Common Data Model | Microsoft Docs
 description: Information about a group of medication produced or packaged from one production run.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

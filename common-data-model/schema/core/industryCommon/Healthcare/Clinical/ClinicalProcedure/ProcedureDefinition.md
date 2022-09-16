@@ -2,9 +2,9 @@
 title: ProcedureDefinition in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: A protocol, guideline, order set or other definition that was adhered to in whole or in part by this procedure.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

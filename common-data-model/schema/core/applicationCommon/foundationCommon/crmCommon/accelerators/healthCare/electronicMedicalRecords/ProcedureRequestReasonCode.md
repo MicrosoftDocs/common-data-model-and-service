@@ -2,9 +2,9 @@
 title: ProcedureRequestReasonCode in electronicMedicalRecords - Common Data Model | Microsoft Docs
 description: An explanation or justification for why this diagnostic investigation is being requested in coded or textual form. This is often for billing purposes. May relate to the resources referred to in supp
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

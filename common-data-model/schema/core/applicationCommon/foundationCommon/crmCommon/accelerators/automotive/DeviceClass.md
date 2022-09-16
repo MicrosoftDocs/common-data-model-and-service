@@ -2,9 +2,9 @@
 title: DeviceClass in automotive - Common Data Model | Microsoft Docs
 description: Family of vehicles or devices for the specific brand provided by the manufacturer.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

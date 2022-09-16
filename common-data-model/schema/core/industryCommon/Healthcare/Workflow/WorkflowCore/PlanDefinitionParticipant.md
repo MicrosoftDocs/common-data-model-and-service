@@ -2,9 +2,9 @@
 title: PlanDefinitionParticipant in WorkflowCore - Common Data Model | Microsoft Docs
 description: Indicates who should participate in performing the action described.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

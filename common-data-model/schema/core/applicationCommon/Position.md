@@ -2,9 +2,9 @@
 title: Position in applicationCommon - Common Data Model | Microsoft Docs
 description: Position of a user in the hierarchy
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

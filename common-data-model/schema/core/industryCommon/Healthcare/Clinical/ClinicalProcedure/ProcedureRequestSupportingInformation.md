@@ -2,9 +2,9 @@
 title: ProcedureRequestSupportingInformation in ClinicalProcedure - Common Data Model | Microsoft Docs
 description: Additional clinical information about the patient or specimen that may influence the procedure or diagnostics or their interpretations.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

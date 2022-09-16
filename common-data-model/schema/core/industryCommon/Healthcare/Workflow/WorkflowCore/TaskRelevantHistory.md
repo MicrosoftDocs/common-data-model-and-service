@@ -2,9 +2,9 @@
 title: TaskRelevantHistory in WorkflowCore - Common Data Model | Microsoft Docs
 description: Links to Provenance records for past versions of this Task that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the task.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

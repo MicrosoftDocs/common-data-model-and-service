@@ -2,7 +2,7 @@
 title: Imports Load Strategy | Microsoft Docs
 description: API reference for ImportsLoadStrategy.
 author: violivei
-ms.service: common-data-model
+
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 11/09/2020

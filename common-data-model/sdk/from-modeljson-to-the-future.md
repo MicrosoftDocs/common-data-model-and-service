@@ -1,15 +1,15 @@
 ---
-title: From model.json to the future | Microsoft Docs
+title: Using SDK with model.json and manifest.cdm.json formats | Microsoft Docs
 description: Developer guide to using Common Data Model SDK with model.json metadata files.
 author: miroslavplese
-ms.service: common-data-model
+
 ms.reviewer: v-iap
 ms.topic: article
 ms.date: 06/23/2020
 ms.author: miplese
 ---
 
-# From model.json to the future 
+# Using SDK with model.json and manifest.cdm.json formats 
 
 Common Data Model technology enables companies to gain a deep understanding of the data managed by their services, beyond the simplistic structural representation of the entities and relationships.
 

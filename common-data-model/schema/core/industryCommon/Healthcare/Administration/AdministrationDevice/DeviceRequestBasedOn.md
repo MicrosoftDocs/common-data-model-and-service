@@ -2,9 +2,9 @@
 title: DeviceRequestBasedOn in AdministrationDevice - Common Data Model | Microsoft Docs
 description: Plan/proposal/order fulfilled by this request.
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

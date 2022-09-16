@@ -2,9 +2,9 @@
 title: CommunicationRequestMedium in AdministrationCommunication - Common Data Model | Microsoft Docs
 description: A channel that was used for this communication (e.g. email, fax).
 author: matgos
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 1/7/2021
 ms.author: matgos
 ---

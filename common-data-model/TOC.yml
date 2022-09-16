@@ -47,7 +47,7 @@
                 href: sdk/projections/renameattributes.md
               - name: Replace as Foreign Key
                 href: sdk/projections/replaceasforeignkey.md
-      - name: From model.json to the future
+      - name: Using SDK with model.json and manifest.cdm.json formats 
         href: sdk/from-modeljson-to-the-future.md
       - name: List of Common Data Model datatypes
         href: sdk/list-of-datatypes.md

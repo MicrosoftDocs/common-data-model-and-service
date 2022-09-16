@@ -2,9 +2,9 @@
 title: WebsiteLanguage in portals - Common Data Model | Microsoft Docs
 description: Languages supported and publishing status for the portal
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

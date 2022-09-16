@@ -2,9 +2,9 @@
 title: ProductAssociation in foundationCommon - Common Data Model | Microsoft Docs
 description: Instance of a product added to a bundle or kit.
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---

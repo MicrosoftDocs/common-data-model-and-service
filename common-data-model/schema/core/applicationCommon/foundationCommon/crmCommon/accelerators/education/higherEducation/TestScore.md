@@ -2,9 +2,9 @@
 title: TestScore in higherEducation - Common Data Model | Microsoft Docs
 description: Test scores for a Student Contact
 author: llawwaii
-ms.service: common-data-model
+
 ms.reviewer: deonhe
-ms.topic: article
+ms.topic: reference
 ms.date: 8/7/2020
 ms.author: weiluo
 ---
