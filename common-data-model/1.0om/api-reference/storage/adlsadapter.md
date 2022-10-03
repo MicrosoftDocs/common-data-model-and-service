@@ -46,7 +46,7 @@ public class ADLSAdapter extends NetworkAdapter
 |**CanRead()**|Returns true, since the ADLS adapter can read data.|bool|
 |**CanWrite()**|Returns true, since the ADLS adapter can write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapterBase.ReadAsync(...)](storageadapterbase.md#methods).|Task\<string>|
-|**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods).|Task|
+|**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods). Deletes empty file by default if write operation fails. Please set the following feature flag to **false** in [CdmCorpusContext](../utilities/resolvecontext.md) to skip delete: **ADLSAdapter_deleteEmptyFile**.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapterBase.CreateAdapterPath(...)](storageadapterbase.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
 |**ClearCache()**|See [StorageAdapterBase.ClearCache()](storageadapterbase.md#methods). This method doesn't do anything if the ADLS adapter doesn't maintain a cache.|void|
