@@ -46,7 +46,7 @@ public class ADLSAdapter extends NetworkAdapter
 |**CanRead()**|Returns true, since the ADLS adapter can read data.|bool|
 |**CanWrite()**|Returns true, since the ADLS adapter can write data to its source.|bool|
 |**ReadAsync(string)**|See [StorageAdapterBase.ReadAsync(...)](storageadapterbase.md#methods).|Task\<string>|
-|**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods). Deletes empty file by default if write operation fails. Please set the following feature flag to **false** in [CdmCorpusContext](../utilities/resolvecontext.md) to skip delete: **ADLSAdapter_deleteEmptyFile**.|Task|
+|**WriteAsync(string, string)**|See [StorageAdapterBase.WriteAsync(...)](storageadapterbase.md#methods). Write operation is a 3-step process: <br/>*HTTP PUT*: Creates an empty file.<br/>*HTTP PATCH*: An Append action to upload content to ADLS.<br/>*HTTP PATCH*: A Flush action to add the content to the file.<br/>A 0B file gets created if steps 2 and/or 3 fail. In such cases, *WriteAsync* operation deletes the empty file by default. Please set the following feature flag to **false** in [CdmCorpusContext](../utilities/resolvecontext.md) to skip deletion of empty file: **ADLSAdapter_deleteEmptyFile**.|Task|
 |**CreateAdapterPath(string)**|See [StorageAdapterBase.CreateAdapterPath(...)](storageadapterbase.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
 |**ClearCache()**|See [StorageAdapterBase.ClearCache()](storageadapterbase.md#methods). This method doesn't do anything if the ADLS adapter doesn't maintain a cache.|void|
