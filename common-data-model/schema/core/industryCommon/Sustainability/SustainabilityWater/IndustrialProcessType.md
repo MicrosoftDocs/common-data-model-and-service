@@ -1,5 +1,5 @@
 ---
-title: IndustrialProcessType in SustainabilityWater - Common Data Model | Microsoft Docs
+title: IndustrialProcessType in Sustainability water - Common Data Model | Microsoft Docs
 description: Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.
 author: cdm-publisher
 ms.service: common-data-model
