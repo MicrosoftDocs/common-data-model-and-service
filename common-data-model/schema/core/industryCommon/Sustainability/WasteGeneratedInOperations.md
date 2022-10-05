@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Waste generated in operations in Sustainability(WasteGeneratedInOperations)
+# Waste generated in operations in Sustainability (WasteGeneratedInOperations)
 
 Entity for waste generated in operations, including disposal and treatment of waste generated.  
   

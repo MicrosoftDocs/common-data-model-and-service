@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Fuel type in Sustainability(FuelType)
+# Fuel type in Sustainability (FuelType)
 
 List of fuels to be used during combustion, as needed for emissions factor selection.  
   

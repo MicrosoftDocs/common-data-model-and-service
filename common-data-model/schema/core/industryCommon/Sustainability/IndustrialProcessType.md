@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Industrial process type in Sustainability(IndustrialProcessType)
+# Industrial process type in Sustainability (IndustrialProcessType)
 
 Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.  
   

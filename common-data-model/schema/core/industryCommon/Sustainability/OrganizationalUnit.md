@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Organizational unit in Sustainability(OrganizationalUnit)
+# Organizational unit in Sustainability (OrganizationalUnit)
 
 A structural division of a company or organization.  
   

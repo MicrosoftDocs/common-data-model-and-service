@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Emissions source in Sustainability(EmissionsSource)
+# Emissions source in Sustainability (EmissionsSource)
 
 Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.  
   

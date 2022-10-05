@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Contractual instrument type in Sustainability(ContractualInstrumentType)
+# Contractual instrument type in Sustainability (ContractualInstrumentType)
 
 Documented method/approach to confirm and validate source data.  
   

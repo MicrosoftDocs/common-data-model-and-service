@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Purchased energy in Sustainability(PurchasedEnergy)
+# Purchased energy in Sustainability (PurchasedEnergy)
 
 Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.  
   

@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Factor mapping in Sustainability(FactorMapping)
+# Factor mapping in Sustainability (FactorMapping)
 
 Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.  
   

@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Purchased good and service in Sustainability(PurchasedGoodAndService)
+# Purchased good and service in Sustainability (PurchasedGoodAndService)
 
 Entity for purchased goods and services.  
   

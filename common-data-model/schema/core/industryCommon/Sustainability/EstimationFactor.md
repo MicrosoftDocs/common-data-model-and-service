@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Estimation factor in Sustainability(EstimationFactor)
+# Estimation factor in Sustainability (EstimationFactor)
 
 Entity to store estimation or consumption factors.  
   

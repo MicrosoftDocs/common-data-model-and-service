@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Spend type in Sustainability(SpendType)
+# Spend type in Sustainability (SpendType)
 
 Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.  
   

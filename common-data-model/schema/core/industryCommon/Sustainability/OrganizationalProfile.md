@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Organizational profile in Sustainability(OrganizationalProfile)
+# Organizational profile in Sustainability (OrganizationalProfile)
 
 The base information of the organization, for which the solution is built.  
   

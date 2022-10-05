@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Facility usage detail in Sustainability(FacilityUsageDetail)
+# Facility usage detail in Sustainability (FacilityUsageDetail)
 
 Captures intensity scores for a facility in a given year.  
   

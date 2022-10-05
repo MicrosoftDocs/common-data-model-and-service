@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Country/Region mapping in Sustainability(CountryRegionMapping)
+# Country/Region mapping in Sustainability (CountryRegionMapping)
 
 Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.  
   

@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Disposal method in Sustainability(DisposalMethod)
+# Disposal method in Sustainability (DisposalMethod)
 
 Entity used for classifying the type of disposal method, as defined in the reporting company.  
   
