@@ -1,5 +1,5 @@
 ---
-title: OrganizationalUnit in SustainabilityWater - Common Data Model | Microsoft Docs
+title: OrganizationalUnit in Sustainability water - Common Data Model | Microsoft Docs
 description: A structural division of a company or organization.
 author: cdm-publisher
 ms.service: common-data-model
