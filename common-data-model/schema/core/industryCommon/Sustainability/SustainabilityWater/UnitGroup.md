@@ -1,5 +1,5 @@
 ---
-title: UnitGroup in SustainabilityWater - Common Data Model | Microsoft Docs
+title: UnitGroup in Sustainability water - Common Data Model | Microsoft Docs
 description: Grouping of units.
 author: cdm-publisher
 ms.service: common-data-model
