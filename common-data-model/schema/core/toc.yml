@@ -2367,10 +2367,9 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
-
       - name: Microsoft Cloud for Sustainability
         items:
-        - name: Carbon Data Model
+        - name: Cloud for Sustainability data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/carbon-overview.md
@@ -2454,7 +2453,7 @@
             href: Sustainability/VehicleType.md
           - name: WasteGeneratedInOperations 
             href: Sustainability/WasteGeneratedInOperations.md
-        - name: Water Data Model
+        - name: Cloud for Sustainability water data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/water-overview.md
