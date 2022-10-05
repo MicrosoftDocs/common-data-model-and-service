@@ -2455,6 +2455,7 @@
             href: Sustainability/WasteGeneratedInOperations.md
         - name: Cloud for Sustainability water data model
           items:
+          - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
           - name: Facility 
             href: industryCommon/Sustainability/SustainabilityWater/Facility.md
