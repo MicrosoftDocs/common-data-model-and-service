@@ -1,5 +1,5 @@
 ---
-title: overview of SustainabilityWater - Common Data Model | Microsoft Docs
+title: Overview of Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
 description: SustainabilityWater is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,11 +9,11 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Overview of Microsoft Cloud for Sustainability Water Data Model
+# Overview of Cloud for Sustainability water data model
 
 Microsoft Cloud for Sustainability empowers organizations to accelerate sustainability progress and business growth by integrating environmental, social, and governance (ESG) capabilities across the Microsoft Cloud portfolio and solutions from our global ecosystem of partners.
 
-The Microsoft Cloud for Sustainability Water Data Model is an addition to the Microsoft Cloud for Sustainability Data Model. It is used to import customer activities related to water quality and reporting of analysis impact.
+The Cloud for Sustainability water data model is an addition to the Cloud for Sustainability data model. It is used to import customer activities related to water quality and reporting of analysis impact.
 
 For more information, see the [Microsoft Cloud for Sustainability](https://go.microsoft.com/fwlink/?linkid=2193512) documentation. The documentation includes [introductory information](https://go.microsoft.com/fwlink/?linkid=2194529) about the data model, as well as information about the [required attributes](https://go.microsoft.com/fwlink/?linkid=2194273).
 
