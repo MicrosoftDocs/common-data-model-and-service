@@ -1,6 +1,6 @@
 ---
-title: TransportMode in Sustainability - Common Data Model | Microsoft Docs
-description: The mode of transportation or distribution used in an activity, such as air, rail, or storage.
+title: DisposalMethod in Sustainability - Common Data Model | Microsoft Docs
+description: Entity used for classifying the type of disposal method, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,11 +9,11 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Transport mode in Sustainability(TransportMode)
+# Disposal method in Sustainability(DisposalMethod)
 
-The mode of transportation or distribution used in an activity, such as air, rail, or storage.  
+Entity used for classifying the type of disposal method, as defined in the reporting company.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/TransportMode.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/DisposalMethod.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +25,22 @@ The mode of transportation or distribution used in an activity, such as air, rai
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/transportmodeId](#transportmodeId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DisposalMethod/(resolvedAttributes)/disposalmethodId](#disposalmethodId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DisposalMethod/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/TransportMode.cdm.json/TransportMode<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/DisposalMethod.cdm.json/DisposalMethod<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The mode of transportation or distribution used in an activity, such as air, rail, or storage.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity used for classifying the type of disposal method, as defined in the reporting company.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Transport mode</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Disposal method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transportmode"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_disposalmethod"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,33 +51,32 @@ The mode of transportation or distribution used in an activity, such as air, rai
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[transportmodeId](#transportmodeId)|Unique identifier for entity instances|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[statecode](#statecode)|Status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[statuscode](#statuscode)|Reason for the status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[name](#name)|The name of the custom entity.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[description](#description)|The description of this transport mode.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[isSharedLoad](#isSharedLoad)|Indicates whether the transport mode carries less than a full load, or is shared across external organizations|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="TransportMode.md" target="_blank">Sustainability/TransportMode</a>|
+|[disposalmethodId](#disposalmethodId)|Unique identifier for entity instances|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[statecode](#statecode)|Status of the Disposal method|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[statuscode](#statuscode)|Reason for the status of the Disposal method|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[name](#name)|The name of the custom entity.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="DisposalMethod.md" target="_blank">Sustainability/DisposalMethod</a>|
 
-### <a href=#transportmodeId name="transportmodeId">transportmodeId</a>
+### <a href=#disposalmethodId name="disposalmethodId">disposalmethodId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Transport mode</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_transportmodeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Disposal method</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_disposalmethodid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the transportmodeId attribute are listed below.</summary>
+<summary>List of traits for the disposalmethodId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -89,7 +88,7 @@ First included in: Sustainability/TransportMode (this entity)
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/transportmodeId](#transportmodeId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DisposalMethod/(resolvedAttributes)/disposalmethodId](#disposalmethodId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -98,10 +97,10 @@ First included in: Sustainability/TransportMode (this entity)
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Transport mode</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Disposal method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transportmodeid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_disposalmethodid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -116,7 +115,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -156,7 +155,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -195,12 +194,12 @@ First included in: Sustainability/TransportMode (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Transport mode  
-First included in: Sustainability/TransportMode (this entity)  
+Status of the Disposal method  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Transport mode</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Disposal method</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -219,13 +218,13 @@ First included in: Sustainability/TransportMode (this entity)
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DisposalMethod/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Transport mode</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Disposal method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -241,12 +240,12 @@ First included in: Sustainability/TransportMode (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Transport mode  
-First included in: Sustainability/TransportMode (this entity)  
+Reason for the status of the Disposal method  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Transport mode</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status reason</td></tr><tr><td>description</td><td>Reason for the status of the Disposal method</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -271,10 +270,10 @@ First included in: Sustainability/TransportMode (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Transport mode</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Disposal method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
@@ -291,7 +290,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -334,7 +333,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -374,7 +373,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -417,7 +416,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -460,7 +459,7 @@ First included in: Sustainability/TransportMode (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -507,12 +506,12 @@ First included in: Sustainability/TransportMode (this entity)
 
 ### <a href=#description name="description">description</a>
 
-The description of this transport mode.  
-First included in: Sustainability/TransportMode (this entity)  
+Optional description that provides additional detail about the entity or attribute.  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>The description of this transport mode.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -530,13 +529,13 @@ First included in: Sustainability/TransportMode (this entity)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The description of this transport mode.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
 **is.nullable**  
   The attribute value may be set to NULL.  
@@ -553,46 +552,10 @@ First included in: Sustainability/TransportMode (this entity)
 
 </details>
 
-### <a href=#isSharedLoad name="isSharedLoad">isSharedLoad</a>
-
-Indicates whether the transport mode carries less than a full load, or is shared across external organizations  
-First included in: Sustainability/TransportMode (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is Shared Load (LTL)</td></tr><tr><td>description</td><td>Indicates whether the transport mode carries less than a full load, or is shared across external organizations</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_issharedload</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the isSharedLoad attribute are listed below.</summary>
-
-**is.dataFormat.boolean**  
-  **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the transport mode carries less than a full load, or is shared across external organizations</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Is Shared Load (LTL)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_issharedload"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.boolean**  
-  </details>
-
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/TransportMode (this entity)  
+First included in: Sustainability/DisposalMethod (this entity)  
 
 #### Properties
 
@@ -629,7 +592,7 @@ First included in: Sustainability/TransportMode (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  

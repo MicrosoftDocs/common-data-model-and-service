@@ -1,12 +1,12 @@
 ---
 title: ContractualInstrumentType in Sustainability - Common Data Model | Microsoft Docs
 description: Documented method/approach to confirm and validate source data.
-author: matgos
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/12/2022
-ms.author: matgos
+ms.date: 10/5/2022
+ms.author: cdmditeam
 ---
 
 # Contractual instrument type in Sustainability(ContractualInstrumentType)
@@ -31,7 +31,7 @@ Documented method/approach to confirm and validate source data.
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContractualInstrumentType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/ContractualInstrumentType.cdm.json<br>/ContractualInstrumentType/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/ContractualInstrumentType.cdm.json<br>/ContractualInstrumentType/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Documented method/approach to confirm and validate source data.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -513,7 +513,7 @@ First included in: Sustainability/ContractualInstrumentType (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -537,7 +537,7 @@ First included in: Sustainability/ContractualInstrumentType (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
 **is.nullable**  
   The attribute value may be set to NULL.  
@@ -561,7 +561,7 @@ First included in: Sustainability/ContractualInstrumentType (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Energy source</td></tr><tr><td>description</td><td>Primary source used to generate the selected energy type.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_energysource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Solar</td><td>700610000</td></tr><tr><td>en</td><td>Wind</td><td>700610001</td></tr><tr><td>en</td><td>Nuclear</td><td>700610002</td></tr><tr><td>en</td><td>Water</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Energy source</td></tr><tr><td>description</td><td>Primary source used to generate the selected energy type.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_energysource</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Solar</td><td>700610000</td></tr><tr><td>en</td><td>Wind</td><td>700610001</td></tr><tr><td>en</td><td>Nuclear</td><td>700610002</td></tr><tr><td>en</td><td>Hydro</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -574,7 +574,7 @@ First included in: Sustainability/ContractualInstrumentType (this entity)
 
 **is.dataFormat.numeric**  
   **does.haveDefault**  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Solar</td><td>700610000</td></tr><tr><td>en</td><td>Wind</td><td>700610001</td></tr><tr><td>en</td><td>Nuclear</td><td>700610002</td></tr><tr><td>en</td><td>Water</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Solar</td><td>700610000</td></tr><tr><td>en</td><td>Wind</td><td>700610001</td></tr><tr><td>en</td><td>Nuclear</td><td>700610002</td></tr><tr><td>en</td><td>Hydro</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -684,7 +684,7 @@ First included in: Sustainability/ContractualInstrumentType (this entity)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../../ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  

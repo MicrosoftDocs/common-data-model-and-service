@@ -1,12 +1,12 @@
 ---
-title:  Overview of Microsoft Cloud for Sustainability entities - Common Data Model | Microsoft Docs
+title: overview of Sustainability - Common Data Model | Microsoft Docs
 description: Sustainability is a folder that contains standard entities related to the Common Data Model.
-author: matgos
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/12/2022
-ms.author: matgos
+ms.date: 10/5/2022
+ms.author: cdmditeam
 ---
 
 # Overview of Microsoft Cloud for Sustainability data model
@@ -27,12 +27,13 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[CapitalGood](CapitalGood.md)|Purchased entity that depreciates over time.|
 |[ContractualInstrumentType](ContractualInstrumentType.md)|Documented method/approach to confirm and validate source data.|
 |[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
+|[DisposalMethod](DisposalMethod.md)|Entity used for classifying the type of disposal method, as defined in the reporting company.|
 |[Emission](Emission.md)|Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.|
 |[EmissionFactor](EmissionFactor.md)|Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.|
 |[EmissionsSource](EmissionsSource.md)|Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.|
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
 |[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
-|[FacilityAnnualDetail](FacilityAnnualDetail.md)|Captures intensity scores for a facility in a given year.|
+|[FacilityUsageDetail](FacilityUsageDetail.md)|Captures intensity scores for a facility in a given year.|
 |[FactorLibrary](FactorLibrary.md)|Repository for emission and estimation factor sets, including both system and user added.|
 |[FactorMapping](FactorMapping.md)|Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.|
 |[FuelType](FuelType.md)|List of fuels to be used during combustion, as needed for emissions factor selection.|
@@ -42,6 +43,7 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[IndustrialProcessType](IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
 |[Industry](Industry.md)|Parent level of the industry classification which contains an ID and name.|
 |[IndustryClassification](IndustryClassification.md)|Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.|
+|[Material](Material.md)|Entity used for classifying the type of material, as defined in the reporting company.|
 |[MobileCombustion](MobileCombustion.md)|Combustion that occurs in a moving vehicle, such as a car or truck.|
 |[MonthlyRevenue](MonthlyRevenue.md)|Captures revenue of an organizational unit by year and month in the company currency.|
 |[OrganizationalHierarchy](OrganizationalHierarchy.md)|The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.|
@@ -58,3 +60,4 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[UnitGroup](UnitGroup.md)|Grouping of units.|
 |[ValueChainPartner](ValueChainPartner.md)|Entity for value chain partner or supplier.|
 |[VehicleType](VehicleType.md)|Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.|
+|[WasteGeneratedInOperations](WasteGeneratedInOperations.md)|Entity for waste generated in operations, including disposal and treatment of waste generated.|

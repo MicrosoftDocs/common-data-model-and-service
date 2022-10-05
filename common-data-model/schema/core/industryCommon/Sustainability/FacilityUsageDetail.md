@@ -1,19 +1,19 @@
 ---
-title: FacilityAnnualDetail in Sustainability - Common Data Model | Microsoft Docs
+title: FacilityUsageDetail in Sustainability - Common Data Model | Microsoft Docs
 description: Captures intensity scores for a facility in a given year.
-author: matgos
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/12/2022
-ms.author: matgos
+ms.date: 10/5/2022
+ms.author: cdmditeam
 ---
 
-# Facility annual detail in Sustainability(FacilityAnnualDetail)
+# Facility usage detail in Sustainability(FacilityUsageDetail)
 
 Captures intensity scores for a facility in a given year.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/FacilityAnnualDetail.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/FacilityUsageDetail.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,19 +25,19 @@ Captures intensity scores for a facility in a given year.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityAnnualDetail/(resolvedAttributes)/facilityannualdetailId](#facilityannualdetailId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityUsageDetail/(resolvedAttributes)/facilityannualdetailId](#facilityannualdetailId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityAnnualDetail/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityUsageDetail/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/FacilityAnnualDetail.cdm.json<br>/FacilityAnnualDetail/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/FacilityUsageDetail.cdm.json/FacilityUsageDetail<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Captures intensity scores for a facility in a given year.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Facility annual detail</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Facility usage detail</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_facilityannualdetail"</td><td>string</td><td></td></tr></table>
@@ -51,26 +51,35 @@ Captures intensity scores for a facility in a given year.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityannualdetailId](#facilityannualdetailId)|Unique identifier for entity instances|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[statecode](#statecode)|Status of the Facility Annual Details|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[statuscode](#statuscode)|Reason for the status of the Facility Annual Details|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[year](#year)|The name of the custom entity.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[area](#area)|The physical space contained in a facility.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[areaunit](#areaunit)|Unit of measure used to describe the area of a space.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[facility](#facility)|Unique identifier for the facility annual detail.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[headcount](#headcount)|The number of people who are employed at a given facility.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityAnnualDetail.md" target="_blank">Sustainability/FacilityAnnualDetail</a>|
+|[facilityannualdetailId](#facilityannualdetailId)|Unique identifier for entity instances|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[statecode](#statecode)|Status of the Facility Annual Details|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[statuscode](#statuscode)|Reason for the status of the Facility Annual Details|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[year](#year)|The name of the custom entity.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[area](#area)|The physical space contained in a facility.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[areaunit](#areaunit)|Unit of measure used to describe the area of a space.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[facility](#facility)|Unique identifier for the facility annual detail.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[headcount](#headcount)|The number of people who are employed at a given facility.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[name](#name)|The unique name of this facility usage detail.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[activeperiodend](#activeperiodend)|Usage of facility end|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[activeperiodstart](#activeperiodstart)|Usage of facility start|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[description](#description)||<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[facilityusagedetails](#facilityusagedetails)|Details regarding facility usage|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[leasedorowned](#leasedorowned)|Classification of leased or owned facility|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[lessee](#lessee)|Name of the lessee|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[lessor](#lessor)|Name of the lessor of the facility|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
+|[percentusage](#percentusage)|Percent of facility used for operations|<a href="FacilityUsageDetail.md" target="_blank">Sustainability/FacilityUsageDetail</a>|
 
 ### <a href=#facilityannualdetailId name="facilityannualdetailId">facilityannualdetailId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -91,7 +100,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityAnnualDetail/(resolvedAttributes)/facilityannualdetailId](#facilityannualdetailId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityUsageDetail/(resolvedAttributes)/facilityannualdetailId](#facilityannualdetailId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -118,7 +127,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -158,7 +167,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -198,7 +207,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility Annual Details  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -221,7 +230,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityAnnualDetail/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityUsageDetail/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -244,7 +253,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility Annual Details  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -293,7 +302,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -336,7 +345,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -376,7 +385,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -419,7 +428,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -462,7 +471,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#year name="year">year</a>
 
 The name of the custom entity.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -510,7 +519,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#area name="area">area</a>
 
 The physical space contained in a facility.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -553,7 +562,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#areaunit name="areaunit">areaunit</a>
 
 Unit of measure used to describe the area of a space.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -586,7 +595,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Unit.md" target="_blank">Unit.cdm.json/Unit</a></td><td><a href="Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Unit.md" target="_blank">Unit.cdm.json/Unit</a></td><td><a href="../../Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
@@ -598,7 +607,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier for the facility annual detail.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -631,7 +640,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="../../Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
@@ -643,7 +652,7 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 ### <a href=#headcount name="headcount">headcount</a>
 
 The number of people who are employed at a given facility.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -683,10 +692,58 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
 **is.dataFormat.integer**  
   </details>
 
+### <a href=#name name="name">name</a>
+
+The unique name of this facility usage detail.  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The unique name of this facility usage detail.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the name attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unique name of this facility usage detail.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_name"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/FacilityAnnualDetail (this entity)  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
 
 #### Properties
 
@@ -723,10 +780,370 @@ First included in: Sustainability/FacilityAnnualDetail (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#activeperiodend name="activeperiodend">activeperiodend</a>
+
+Usage of facility end  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Active period end</td></tr><tr><td>description</td><td>Usage of facility end</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_activeperiodend</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the activeperiodend attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Usage of facility end</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Active period end</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_activeperiodend"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
+  </details>
+
+### <a href=#activeperiodstart name="activeperiodstart">activeperiodstart</a>
+
+Usage of facility start  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Active period start</td></tr><tr><td>description</td><td>Usage of facility start</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_activeperiodstart</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the activeperiodstart attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Usage of facility start</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Active period start</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_activeperiodstart"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
+  </details>
+
+### <a href=#description name="description">description</a>
+
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>500</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the description attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"500"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#facilityusagedetails name="facilityusagedetails">facilityusagedetails</a>
+
+Details regarding facility usage  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility usage details</td></tr><tr><td>description</td><td>Details regarding facility usage</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_facilityusagedetails</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the facilityusagedetails attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Details regarding facility usage</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Facility usage details</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_facilityusagedetails"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#leasedorowned name="leasedorowned">leasedorowned</a>
+
+Classification of leased or owned facility  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Leased or owned</td></tr><tr><td>description</td><td>Classification of leased or owned facility</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_leasedorowned</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Leased</td><td>575440000</td></tr><tr><td>en</td><td>Owned</td><td>575440001</td></tr></table></td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the leasedorowned attribute are listed below.</summary>
+
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
+  indicates the capability to represent values less than zero.  
+
+**is.dataFormat.numeric**  
+  **does.haveDefault**  
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Leased</td><td>575440000</td></tr><tr><td>en</td><td>Owned</td><td>575440001</td></tr></table></td><td>any</td><td></td></tr></table>
+
+**is.constrainedList**  
+  the values of an attribute are taken from or looked up from a fixed list of possibilities  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Classification of leased or owned facility</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Leased or owned</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_leasedorowned"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.integer**  
+  </details>
+
+### <a href=#lessee name="lessee">lessee</a>
+
+Name of the lessee  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lessee</td></tr><tr><td>description</td><td>Name of the lessee</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_lessee</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the lessee attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the lessee</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lessee</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_lessee"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#lessor name="lessor">lessor</a>
+
+Name of the lessor of the facility  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Lessor</td></tr><tr><td>description</td><td>Name of the lessor of the facility</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_lessor</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the lessor attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the lessor of the facility</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lessor</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_lessor"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#percentusage name="percentusage">percentusage</a>
+
+Percent of facility used for operations  
+First included in: Sustainability/FacilityUsageDetail (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Percent usage</td></tr><tr><td>description</td><td>Percent of facility used for operations</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_percentusage</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the percentusage attribute are listed below.</summary>
+
+**is.dataFormat.numeric.shaped**  
+  for setting the exact precision and scale of numeric values  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Percent of facility used for operations</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Percent usage</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_percentusage"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.numeric.shaped**  
+  for setting the exact precision and scale of numeric values  
 
 </details>

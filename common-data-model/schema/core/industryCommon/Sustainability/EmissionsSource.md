@@ -1,12 +1,12 @@
 ---
 title: EmissionsSource in Sustainability - Common Data Model | Microsoft Docs
 description: Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
-author: matgos
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/12/2022
-ms.author: matgos
+ms.date: 10/5/2022
+ms.author: cdmditeam
 ---
 
 # Emissions source in Sustainability(EmissionsSource)
@@ -31,7 +31,7 @@ Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionsSource/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/EmissionsSource.cdm.json<br>/EmissionsSource/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/EmissionsSource.cdm.json/EmissionsSource<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -64,9 +64,12 @@ Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
 |[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 |[entityname](#entityname)|Internal reference used to map an entity to the corresponding record.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 |[isactive](#isactive)|Internal reference assigned during import.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
+|[parentemissionsource](#parentemissionsource)|Lookup to the parent emission source|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 |[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 |[sourcedatafield](#sourcedatafield)|Optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
+|[sourcedatafield2](#sourcedatafield2)|Second optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 |[sourcedatavalue](#sourcedatavalue)|The value of source data.|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
+|[sourcedatavalue2](#sourcedatavalue2)|The value of source data (Source data field 2).|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 |[sourceviewid](#sourceviewid)|Optional entity for additional views|<a href="EmissionsSource.md" target="_blank">Sustainability/EmissionsSource</a>|
 
 ### <a href=#emissionsourceId name="emissionsourceId">emissionsourceId</a>
@@ -646,6 +649,51 @@ First included in: Sustainability/EmissionsSource (this entity)
 **is.dataFormat.boolean**  
   </details>
 
+### <a href=#parentemissionsource name="parentemissionsource">parentemissionsource</a>
+
+Lookup to the parent emission source  
+First included in: Sustainability/EmissionsSource (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Parent emission source</td></tr><tr><td>description</td><td>Lookup to the parent emission source</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the parentemissionsource attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to the parent emission source</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parent emission source</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../EmissionsSource.md" target="_blank">EmissionsSource.cdm.json/EmissionsSource</a></td><td><a href="../../EmissionsSource.md#emissionsourceId" target="_blank">emissionsourceId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#scope name="scope">scope</a>
 
 Emission scope as defined by the Greenhouse Gas Protocol.  
@@ -687,7 +735,7 @@ First included in: Sustainability/EmissionsSource (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_scope"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -732,7 +780,55 @@ First included in: Sustainability/EmissionsSource (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sourcedatafield"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"51"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#sourcedatafield2 name="sourcedatafield2">sourcedatafield2</a>
+
+Second optional field entity for additional views.  
+First included in: Sustainability/EmissionsSource (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source data field 2</td></tr><tr><td>description</td><td>Second optional field entity for additional views.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_sourcedatafield2</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the sourcedatafield2 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Second optional field entity for additional views.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Source data field 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sourcedatafield2"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -780,7 +876,55 @@ First included in: Sustainability/EmissionsSource (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sourcedatavalue"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"54"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#sourcedatavalue2 name="sourcedatavalue2">sourcedatavalue2</a>
+
+The value of source data (Source data field 2).  
+First included in: Sustainability/EmissionsSource (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source data value 2</td></tr><tr><td>description</td><td>The value of source data (Source data field 2).</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_sourcedatavalue2</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the sourcedatavalue2 attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The value of source data (Source data field 2).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Source data value 2</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sourcedatavalue2"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"55"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -828,7 +972,7 @@ First included in: Sustainability/EmissionsSource (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sourceviewid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
