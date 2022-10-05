@@ -1,5 +1,5 @@
 ---
-title: Facility in SustainabilityWater - Common Data Model | Microsoft Docs
+title: Facility in Sustainability water - Common Data Model | Microsoft Docs
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
