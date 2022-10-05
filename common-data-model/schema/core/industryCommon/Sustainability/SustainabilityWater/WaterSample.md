@@ -1,5 +1,5 @@
 ---
-title: WaterSample in SustainabilityWater - Common Data Model | Microsoft Docs
+title: WaterSample in Sustainability water - Common Data Model | Microsoft Docs
 description: Stores the attributes of the water samples collected for testing water quality
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Water sample in SustainabilityWater(WaterSample)
+# Water sample in Sustainability water (WaterSample)
 
 Stores the attributes of the water samples collected for testing water quality  
   

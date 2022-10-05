@@ -1,5 +1,5 @@
 ---
-title: WaterInstrumentConfiguration in SustainabilityWater - Common Data Model | Microsoft Docs
+title: WaterInstrumentConfiguration in Sustainability water - Common Data Model | Microsoft Docs
 description: Entity to describe the configuration of the water flow through each water instrument present in the organization.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Water instrument configuration in SustainabilityWater(WaterInstrumentConfiguration)
+# Water instrument configuration in Sustainability water (WaterInstrumentConfiguration)
 
 Entity to describe the configuration of the water flow through each water instrument present in the organization.  
   

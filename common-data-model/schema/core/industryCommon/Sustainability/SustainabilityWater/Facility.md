@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Facility in SustainabilityWater
+# Facility in Sustainability water
 
 Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   

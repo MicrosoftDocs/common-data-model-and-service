@@ -1,5 +1,5 @@
 ---
-title: WaterQualityTestResult in SustainabilityWater - Common Data Model | Microsoft Docs
+title: WaterQualityTestResult in Sustainability water - Common Data Model | Microsoft Docs
 description: 
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Water quality test result in SustainabilityWater(WaterQualityTestResult)
+# Water quality test result in Sustainability water (WaterQualityTestResult)
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/SustainabilityWater/WaterQualityTestResult.cdm.json" target="_blank">GitHub</a>.  

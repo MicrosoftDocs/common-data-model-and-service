@@ -9,7 +9,7 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Water instrument in SustainabilityWater(WaterInstrument)
+# Water instrument in Sustainability water (WaterInstrument)
 
 Stores the information related to the devices or instruments tracking water in the organization.  
   
