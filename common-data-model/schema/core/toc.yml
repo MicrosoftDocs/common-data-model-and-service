@@ -2367,84 +2367,127 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
+
       - name: Microsoft Cloud for Sustainability
         items:
-        - name: Summary
-          href: industryCommon/Sustainability/overview.md
-        - name: AccommodationType 
-          href: industryCommon/Sustainability/AccommodationType.md
-        - name: BusinessTravel 
-          href: industryCommon/Sustainability/BusinessTravel.md
-        - name: BusinessTravelType 
-          href: industryCommon/Sustainability/BusinessTravelType.md
-        - name: CapitalGood 
-          href: industryCommon/Sustainability/CapitalGood.md
-        - name: ContractualInstrumentType 
-          href: industryCommon/Sustainability/ContractualInstrumentType.md
-        - name: CountryRegionMapping 
-          href: industryCommon/Sustainability/CountryRegionMapping.md
-        - name: Emission 
-          href: industryCommon/Sustainability/Emission.md
-        - name: EmissionFactor 
-          href: industryCommon/Sustainability/EmissionFactor.md
-        - name: EmissionsSource 
-          href: industryCommon/Sustainability/EmissionsSource.md
-        - name: EstimationFactor 
-          href: industryCommon/Sustainability/EstimationFactor.md
-        - name: Facility 
-          href: industryCommon/Sustainability/Facility.md
-        - name: FacilityAnnualDetail 
-          href: industryCommon/Sustainability/FacilityAnnualDetail.md
-        - name: FactorLibrary 
-          href: industryCommon/Sustainability/FactorLibrary.md
-        - name: FactorMapping 
-          href: industryCommon/Sustainability/FactorMapping.md
-        - name: FuelType 
-          href: industryCommon/Sustainability/FuelType.md
-        - name: FugitiveEmission 
-          href: industryCommon/Sustainability/FugitiveEmission.md
-        - name: GreenhouseGas 
-          href: industryCommon/Sustainability/GreenhouseGas.md
-        - name: IndustrialProcess 
-          href: industryCommon/Sustainability/IndustrialProcess.md
-        - name: IndustrialProcessType 
-          href: industryCommon/Sustainability/IndustrialProcessType.md
-        - name: Industry 
-          href: industryCommon/Sustainability/Industry.md
-        - name: IndustryClassification 
-          href: industryCommon/Sustainability/IndustryClassification.md
-        - name: MobileCombustion 
-          href: industryCommon/Sustainability/MobileCombustion.md
-        - name: MonthlyRevenue 
-          href: industryCommon/Sustainability/MonthlyRevenue.md
-        - name: OrganizationalHierarchy 
-          href: industryCommon/Sustainability/OrganizationalHierarchy.md
-        - name: OrganizationalProfile 
-          href: industryCommon/Sustainability/OrganizationalProfile.md
-        - name: OrganizationalUnit 
-          href: industryCommon/Sustainability/OrganizationalUnit.md
-        - name: PurchasedEnergy 
-          href: industryCommon/Sustainability/PurchasedEnergy.md
-        - name: PurchasedGoodAndService 
-          href: industryCommon/Sustainability/PurchasedGoodAndService.md
-        - name: SpendType 
-          href: industryCommon/Sustainability/SpendType.md
-        - name: StationaryCombustion 
-          href: industryCommon/Sustainability/StationaryCombustion.md
-        - name: Subindustry 
-          href: industryCommon/Sustainability/Subindustry.md
-        - name: TransportMode 
-          href: industryCommon/Sustainability/TransportMode.md
-        - name: TransportationAndDistribution 
-          href: industryCommon/Sustainability/TransportationAndDistribution.md
-        - name: Unit 
-          href: industryCommon/Sustainability/Unit.md
-        - name: UnitGroup 
-          href: industryCommon/Sustainability/UnitGroup.md
-        - name: ValueChainPartner 
-          href: industryCommon/Sustainability/ValueChainPartner.md
-        - name: VehicleType 
-          href: industryCommon/Sustainability/VehicleType.md
+        - name: Carbon Data Model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/carbon-overview.md
+          - name: AccommodationType 
+            href: Sustainability/AccommodationType.md
+          - name: BusinessTravel 
+            href: Sustainability/BusinessTravel.md
+          - name: BusinessTravelType 
+            href: Sustainability/BusinessTravelType.md
+          - name: CapitalGood 
+            href: Sustainability/CapitalGood.md
+          - name: ContractualInstrumentType 
+            href: Sustainability/ContractualInstrumentType.md
+          - name: CountryRegionMapping 
+            href: Sustainability/CountryRegionMapping.md
+          - name: DisposalMethod 
+            href: Sustainability/DisposalMethod.md
+          - name: Emission 
+            href: Sustainability/Emission.md
+          - name: EmissionFactor 
+            href: Sustainability/EmissionFactor.md
+          - name: EmissionsSource 
+            href: Sustainability/EmissionsSource.md
+          - name: EstimationFactor 
+            href: Sustainability/EstimationFactor.md
+          - name: Facility 
+            href: Sustainability/Facility.md
+          - name: FacilityUsageDetail 
+            href: Sustainability/FacilityUsageDetail.md
+          - name: FactorLibrary 
+            href: Sustainability/FactorLibrary.md
+          - name: FactorMapping 
+            href: Sustainability/FactorMapping.md
+          - name: FuelType 
+            href: Sustainability/FuelType.md
+          - name: FugitiveEmission 
+            href: Sustainability/FugitiveEmission.md
+          - name: GreenhouseGas 
+            href: Sustainability/GreenhouseGas.md
+          - name: IndustrialProcess 
+            href: Sustainability/IndustrialProcess.md
+          - name: IndustrialProcessType 
+            href: Sustainability/IndustrialProcessType.md
+          - name: Industry 
+            href: Sustainability/Industry.md
+          - name: IndustryClassification 
+            href: Sustainability/IndustryClassification.md
+          - name: Material 
+            href: Sustainability/Material.md
+          - name: MobileCombustion 
+            href: Sustainability/MobileCombustion.md
+          - name: MonthlyRevenue 
+            href: Sustainability/MonthlyRevenue.md
+          - name: OrganizationalHierarchy 
+            href: Sustainability/OrganizationalHierarchy.md
+          - name: OrganizationalProfile 
+            href: Sustainability/OrganizationalProfile.md
+          - name: OrganizationalUnit 
+            href: Sustainability/OrganizationalUnit.md
+          - name: PurchasedEnergy 
+            href: Sustainability/PurchasedEnergy.md
+          - name: PurchasedGoodAndService 
+            href: Sustainability/PurchasedGoodAndService.md
+          - name: SpendType 
+            href: Sustainability/SpendType.md
+          - name: StationaryCombustion 
+            href: Sustainability/StationaryCombustion.md
+          - name: Subindustry 
+            href: Sustainability/Subindustry.md
+          - name: TransportMode 
+            href: Sustainability/TransportMode.md
+          - name: TransportationAndDistribution 
+            href: Sustainability/TransportationAndDistribution.md
+          - name: Unit 
+            href: Sustainability/Unit.md
+          - name: UnitGroup 
+            href: Sustainability/UnitGroup.md
+          - name: ValueChainPartner 
+            href: Sustainability/ValueChainPartner.md
+          - name: VehicleType 
+            href: Sustainability/VehicleType.md
+          - name: WasteGeneratedInOperations 
+            href: Sustainability/WasteGeneratedInOperations.md
+        - name: Water Data Model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/water-overview.md
+          - name: TheFirstEntity
+            href: industryCommon/Sustainability/first-entity.md
+          - name: Summary
+            href: industryCommon/Sustainability/SustainabilityWater/overview.md
+          - name: Facility 
+            href: industryCommon/Sustainability/SustainabilityWater/Facility.md
+          - name: IndustrialProcessType 
+            href: industryCommon/Sustainability/SustainabilityWater/IndustrialProcessType.md
+          - name: OrganizationalUnit 
+            href: industryCommon/Sustainability/SustainabilityWater/OrganizationalUnit.md
+          - name: Unit 
+            href: industryCommon/Sustainability/SustainabilityWater/Unit.md
+          - name: UnitGroup 
+            href: industryCommon/Sustainability/SustainabilityWater/UnitGroup.md
+          - name: WaterInstrument 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
+          - name: WaterInstrumentConfiguration 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterInstrumentConfiguration.md
+          - name: WaterQualityAnalysis 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityAnalysis.md
+          - name: WaterQualityCharacteristic 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristic.md
+          - name: WaterQualityTestResult 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityTestResult.md
+          - name: WaterQuantity 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQuantity.md
+          - name: WaterSample 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
+          - name: WaterSource 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
 - name: operationsCommon
   items:
   - name: Summary
