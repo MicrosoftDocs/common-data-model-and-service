@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Water quality analysis in Sustainability water (WaterQualityAnalysis)
 
-Describes the analysis performed to test a water sample for a certain characteristic  
+Describes the analysis performed to test a water sample for a certain characteristic. 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/SustainabilityWater/WaterQualityAnalysis.cdm.json" target="_blank">GitHub</a>.  
 
@@ -51,31 +51,32 @@ Describes the analysis performed to test a water sample for a certain characteri
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterqualityanalysisId](#waterqualityanalysisId)|Unique identifier for entity instances.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[statecode](#statecode)|Status of the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[statuscode](#statuscode)|Reason for the status of the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[waterqualityanalysisId](#waterqualityanalysisId)|Unique identifier for entity instances|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[statecode](#statecode)|Status of the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[statuscode](#statuscode)|Reason for the status of the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[name](#name)||<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqaanalysismethod](#wqaanalysismethod)|Indicates the type of analysis performed.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqaanalysisstartdate](#wqaanalysisstartdate)|Indicates the date and time at which the water quality analysis started.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqadescription](#wqadescription)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqalaboratorycomments](#wqalaboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqalaboratoryname](#wqalaboratoryname)|Indicates the name of the lab that carried out the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqaorigincorrelationid](#wqaorigincorrelationid)|Optional field to store the source unique identifier for the water quality analysis.|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[wqaanalysismethod](#wqaanalysismethod)|Indicates the type of analysis performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[wqaanalysisstartdate](#wqaanalysisstartdate)|Indicates the date and time at which the water quality analysis started|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[wqadescription](#wqadescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[wqalaboratorycomments](#wqalaboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[wqalaboratoryname](#wqalaboratoryname)|Indicates the name of the lab that carried out the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[wqaorigincorrelationid](#wqaorigincorrelationid)|Optional field to store the source unique identifier for the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 
 ### <a href=#waterqualityanalysisId name="waterqualityanalysisId">waterqualityanalysisId</a>
 
-Unique identifier for entity instances.  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality analysis</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterqualityanalysisid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality analysis</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterqualityanalysisid</td></tr></table>
 
 #### Traits
 
@@ -118,12 +119,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+ 
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -158,12 +160,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -198,12 +201,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the water quality analysis.  
+Status of the water quality analysis.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water quality analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water quality analysis</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -244,12 +248,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the water quality analysis.  
+Reason for the status of the water quality analysis.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water quality analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water quality analysis</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -293,12 +298,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -336,12 +342,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+ 
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -376,7 +383,8 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
@@ -419,12 +427,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -462,11 +471,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -509,12 +520,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#wqaanalysismethod name="wqaanalysismethod">wqaanalysismethod</a>
 
-Indicates the type of analysis performed.  
+Indicates the type of analysis performed.
+  
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis method</td></tr><tr><td>description</td><td>Indicates the type of analysis performed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaanalysismethod</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis method</td></tr><tr><td>description</td><td>Indicates the type of analysis performed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaanalysismethod</td></tr></table>
 
 #### Traits
 
@@ -557,12 +569,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#wqaanalysisstartdate name="wqaanalysisstartdate">wqaanalysisstartdate</a>
 
-Indicates the date and time at which the water quality analysis started.  
+Indicates the date and time at which the water quality analysis started.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis start date</td></tr><tr><td>description</td><td>Indicates the date and time at which the water quality analysis started.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaanalysisstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis start date</td></tr><tr><td>description</td><td>Indicates the date and time at which the water quality analysis started</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaanalysisstartdate</td></tr></table>
 
 #### Traits
 
@@ -597,12 +610,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#wqadescription name="wqadescription">wqadescription</a>
 
-Optional description that provides additional detail about the entity or attribute.  
+Optional description that provides additional detail about the entity or attribute.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqadescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqadescription</td></tr></table>
 
 #### Traits
 
@@ -645,12 +659,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#wqalaboratorycomments name="wqalaboratorycomments">wqalaboratorycomments</a>
 
-Optional field to provide the comments from the lab regarding the analysis method being performed.  
+Optional field to provide the comments from the lab regarding the analysis method being performed.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory comments</td></tr><tr><td>description</td><td>Optional field to provide the comments from the lab regarding the analysis method being performed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqalaboratorycomments</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory comments</td></tr><tr><td>description</td><td>Optional field to provide the comments from the lab regarding the analysis method being performed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqalaboratorycomments</td></tr></table>
 
 #### Traits
 
@@ -693,7 +708,8 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#wqalaboratoryname name="wqalaboratoryname">wqalaboratoryname</a>
 
-Indicates the name of the lab that carried out the water quality analysis.  
+Indicates the name of the lab that carried out the water quality analysis.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
@@ -741,12 +757,13 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 ### <a href=#wqaorigincorrelationid name="wqaorigincorrelationid">wqaorigincorrelationid</a>
 
-Optional field to store the source unique identifier for the water quality analysis.  
+Optional field to store the source unique identifier for the water quality analysis.
+
 First included in: SustainabilityWater/WaterQualityAnalysis (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for the water quality analysis.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for the water quality analysis</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaorigincorrelationid</td></tr></table>
 
 #### Traits
 
