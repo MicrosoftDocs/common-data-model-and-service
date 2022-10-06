@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Water sample in Sustainability water (WaterSample)
 
-Stores the attributes of the water samples collected for testing water quality  
+Stores the attributes of the water samples collected for testing water quality.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/SustainabilityWater/WaterSample.cdm.json" target="_blank">GitHub</a>.  
 
@@ -51,35 +51,36 @@ Stores the attributes of the water samples collected for testing water quality
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[watersampleId](#watersampleId)|Unique identifier for entity instances.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[statecode](#statecode)|Status of the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[statuscode](#statuscode)|Reason for the status of the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[name](#name)||<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersamplecollectiondate](#watersamplecollectiondate)|Indicates the date and time at which the water sample was collected.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersamplecollectionequipment](#watersamplecollectionequipment)|Optional field to store the details of the equipment used to collect the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersamplecollectionmethod](#watersamplecollectionmethod)|Indicates the method applied to collect the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersampledescription](#watersampledescription)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersamplefacility](#watersamplefacility)|Indicates the facility corresponding to the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersampleindustrialprocesstype](#watersampleindustrialprocesstype)|Indicates the process type corresponding to the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersampleorganizationalunit](#watersampleorganizationalunit)|Indicates the organization unit corresponding to the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersampleorigincorrelationid](#watersampleorigincorrelationid)|Optional field to store the source unique identifier for a water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersamplewatersource](#watersamplewatersource)|Optional field to store the details of the water source from/to which water is being withdrawn/discharged for the water sample.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
-|[watersamplewatertransactiontype](#watersamplewatertransactiontype)|Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersampleId](#watersampleId)|Unique identifier for entity instances|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[statecode](#statecode)|Status of the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[statuscode](#statuscode)|Reason for the status of the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[name](#name)|The name of the custom entity|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersamplecollectiondate](#watersamplecollectiondate)|Indicates the date and time at which the water sample was collected|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersamplecollectionequipment](#watersamplecollectionequipment)|Optional field to store the details of the equipment used to collect the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersamplecollectionmethod](#watersamplecollectionmethod)|Indicates the method applied to collect the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersampledescription](#watersampledescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersamplefacility](#watersamplefacility)|Indicates the facility corresponding to the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersampleindustrialprocesstype](#watersampleindustrialprocesstype)|Indicates the process type corresponding to the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersampleorganizationalunit](#watersampleorganizationalunit)|Indicates the organization unit corresponding to the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersampleorigincorrelationid](#watersampleorigincorrelationid)|Optional field to store the source unique identifier for a water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersamplewatersource](#watersamplewatersource)|Optional field to store the details of the water source from/to which water is being withdrawn/discharged for the water sample|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
+|[watersamplewatertransactiontype](#watersamplewatertransactiontype)|Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled|<a href="WaterSample.md" target="_blank">SustainabilityWater/WaterSample</a>|
 
 ### <a href=#watersampleId name="watersampleId">watersampleId</a>
 
-Unique identifier for entity instances.  
+Unique identifier for entity instances.
+ 
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water sample</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_watersampleid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water sample</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_watersampleid</td></tr></table>
 
 #### Traits
 
@@ -122,12 +123,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+ 
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -162,12 +164,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -202,12 +205,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the water sample.  
+Status of the water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water sample.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water sample</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -248,12 +252,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the water sample.  
+Reason for the status of the water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water sample.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water sample</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -297,12 +302,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -340,12 +346,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -380,12 +387,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -423,12 +431,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -466,11 +475,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -513,12 +524,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersamplecollectiondate name="watersamplecollectiondate">watersamplecollectiondate</a>
 
-Indicates the date and time at which the water sample was collected.  
+Indicates the date and time at which the water sample was collected.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collection date</td></tr><tr><td>description</td><td>Indicates the date and time at which the water sample was collected.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplecollectiondate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collection date</td></tr><tr><td>description</td><td>Indicates the date and time at which the water sample was collected</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplecollectiondate</td></tr></table>
 
 #### Traits
 
@@ -553,12 +565,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersamplecollectionequipment name="watersamplecollectionequipment">watersamplecollectionequipment</a>
 
-Optional field to store the details of the equipment used to collect the water sample.  
+Optional field to store the details of the equipment used to collect the water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collection equipment</td></tr><tr><td>description</td><td>Optional field to store the details of the equipment used to collect the water sample.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplecollectionequipment</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collection equipment</td></tr><tr><td>description</td><td>Optional field to store the details of the equipment used to collect the water sample</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplecollectionequipment</td></tr></table>
 
 #### Traits
 
@@ -601,12 +614,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersamplecollectionmethod name="watersamplecollectionmethod">watersamplecollectionmethod</a>
 
-Indicates the method applied to collect the water sample.  
+Indicates the method applied to collect the water sample.
+  
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collection method</td></tr><tr><td>description</td><td>Indicates the method applied to collect the water sample.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplecollectionmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Composite</td><td>700610000</td></tr><tr><td>en</td><td>Grab</td><td>700610001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Collection method</td></tr><tr><td>description</td><td>Indicates the method applied to collect the water sample</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplecollectionmethod</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Composite</td><td>700610000</td></tr><tr><td>en</td><td>Grab</td><td>700610001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -647,12 +661,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersampledescription name="watersampledescription">watersampledescription</a>
 
-Optional description that provides additional detail about the entity or attribute.  
+Optional description that provides additional detail about the entity or attribute.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersampledescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersampledescription</td></tr></table>
 
 #### Traits
 
@@ -695,12 +710,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersamplefacility name="watersamplefacility">watersamplefacility</a>
 
-Indicates the facility corresponding to the water sample.  
+Indicates the facility corresponding to the water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility</td></tr><tr><td>description</td><td>Indicates the facility corresponding to the water sample.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility</td></tr><tr><td>description</td><td>Indicates the facility corresponding to the water sample</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -740,12 +756,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersampleindustrialprocesstype name="watersampleindustrialprocesstype">watersampleindustrialprocesstype</a>
 
-Indicates the process type corresponding to the water sample.  
+Indicates the process type corresponding to the water sample.
+ 
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industrial process type</td></tr><tr><td>description</td><td>Indicates the process type corresponding to the water sample.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industrial process type</td></tr><tr><td>description</td><td>Indicates the process type corresponding to the water sample</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -785,12 +802,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersampleorganizationalunit name="watersampleorganizationalunit">watersampleorganizationalunit</a>
 
-Indicates the organization unit corresponding to the water sample.  
+Indicates the organization unit corresponding to the water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit</td></tr><tr><td>description</td><td>Indicates the organization unit corresponding to the water sample.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit</td></tr><tr><td>description</td><td>Indicates the organization unit corresponding to the water sample</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -830,12 +848,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersampleorigincorrelationid name="watersampleorigincorrelationid">watersampleorigincorrelationid</a>
 
-Optional field to store the source unique identifier for a water sample.  
+Optional field to store the source unique identifier for a water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for a water sample.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersampleorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for a water sample</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersampleorigincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -878,12 +897,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersamplewatersource name="watersamplewatersource">watersamplewatersource</a>
 
-Optional field to store the details of the water source from/to which water is being withdrawn/discharged for the water sample.  
+Optional field to store the details of the water source from/to which water is being withdrawn/discharged for the water sample.
+
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water source</td></tr><tr><td>description</td><td>Optional field to store the details of the water source from/to which water is being withdrawn/discharged for the water sample.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water source</td></tr><tr><td>description</td><td>Optional field to store the details of the water source from/to which water is being withdrawn/discharged for the water sample</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -923,12 +943,13 @@ First included in: SustainabilityWater/WaterSample (this entity)
 
 ### <a href=#watersamplewatertransactiontype name="watersamplewatertransactiontype">watersamplewatertransactiontype</a>
 
-Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.  
+Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.
+ 
 First included in: SustainabilityWater/WaterSample (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water transaction type</td></tr><tr><td>description</td><td>Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplewatertransactiontype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Withdrawal</td><td>700610000</td></tr><tr><td>en</td><td>Discharge</td><td>700610001</td></tr><tr><td>en</td><td>Consumption</td><td>700610002</td></tr><tr><td>en</td><td>Recycled</td><td>700610003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water transaction type</td></tr><tr><td>description</td><td>Field that indicates whether the water sample taken from the water is withdrawn, discharged, consumed, or recycled</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersamplewatertransactiontype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Withdrawal</td><td>700610000</td></tr><tr><td>en</td><td>Discharge</td><td>700610001</td></tr><tr><td>en</td><td>Consumption</td><td>700610002</td></tr><tr><td>en</td><td>Recycled</td><td>700610003</td></tr></table></td></tr></table>
 
 #### Traits
 
