@@ -52,21 +52,22 @@ Entity to store process classifications for various industrial processes, such a
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[industrialprocesstypeId](#industrialprocesstypeId)|Unique identifier for entity instances|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
 |[statecode](#statecode)|Status of the Industrial Process Type|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
 |[statuscode](#statuscode)|Reason for the status of the Industrial Process Type|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[name](#name)|The name of the custom entity.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[name](#name)|The name of the custom entity|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="IndustrialProcessType.md" target="_blank">SustainabilityWater/IndustrialProcessType</a>|
 
 ### <a href=#industrialprocesstypeId name="industrialprocesstypeId">industrialprocesstypeId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
@@ -114,12 +115,13 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+ 
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created on</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created on</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -154,12 +156,13 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+ 
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -194,7 +197,8 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Industrial Process Type  
+Status of the Industrial Process Type.
+ 
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
@@ -240,7 +244,8 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Industrial Process Type  
+Reason for the status of the Industrial Process Type.
+
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
@@ -289,12 +294,13 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+  
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import sequence number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import sequence number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -332,12 +338,13 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record created on</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record created on</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -372,12 +379,13 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time zone rule version number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time zone rule version number</td></tr><tr><td>description</td><td>For internal use only</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -415,7 +423,8 @@ First included in: SustainabilityWater/IndustrialProcessType (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+  
 First included in: SustainabilityWater/IndustrialProcessType (this entity)  
 
 #### Properties
