@@ -61,11 +61,11 @@ Entity to store details of sources from/to which water gets withdrawn/discharged
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcedescription](#watersourcedescription)|Optional field to describe the entity|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourceorigincorrelationid](#watersourceorigincorrelationid)|Optional field to assign an identifier code provided by the origin system|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcesubtype](#watersourcesubtype)|Optional field to further classify the water source type|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcetype](#watersourcetype)|Field used to classify the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcewaterqualitytype](#watersourcewaterqualitytype)|Describes the quality of the water being withdrawn/discharged from/to the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[description](#description)|Optional field to describe the entity|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to assign an identifier code provided by the origin system|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[subtype](#subtype)|Optional field to further classify the water source type|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[sourcetype](#sourcetype)|Field used to classify the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[waterqualitytype](#waterqualitytype)|Describes the quality of the water being withdrawn/discharged from/to the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
 
 ### <a href=#watersourceId name="watersourceId">watersourceId</a>
 
@@ -517,7 +517,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 </details>
 
-### <a href=#watersourcedescription name="watersourcedescription">watersourcedescription</a>
+### <a href=#description name="description">description</a>
 
 Optional field to describe the entity.
  
@@ -525,12 +525,12 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcedescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the watersourcedescription attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -555,7 +555,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watersourcedescription"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
@@ -566,7 +566,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 </details>
 
-### <a href=#watersourceorigincorrelationid name="watersourceorigincorrelationid">watersourceorigincorrelationid</a>
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to assign an identifier code provided by the origin system.
 
@@ -574,12 +574,12 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to assign an identifier code provided by the origin system</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourceorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to assign an identifier code provided by the origin system</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the watersourceorigincorrelationid attribute are listed below.</summary>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -604,7 +604,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watersourceorigincorrelationid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
@@ -615,7 +615,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 </details>
 
-### <a href=#watersourcesubtype name="watersourcesubtype">watersourcesubtype</a>
+### <a href=#subtype name="subtype">subtype</a>
 
 Optional field to further classify the water source type.
 
@@ -623,12 +623,12 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sub-type</td></tr><tr><td>description</td><td>Optional field to further classify the water source type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcesubtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sub-type</td></tr><tr><td>description</td><td>Optional field to further classify the water source type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_subtype</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the watersourcesubtype attribute are listed below.</summary>
+<summary>List of traits for the subtype attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -653,7 +653,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watersourcesubtype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_subtype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
@@ -664,7 +664,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 </details>
 
-### <a href=#watersourcetype name="watersourcetype">watersourcetype</a>
+### <a href=#sourcetype name="sourcetype">sourcetype</a>
 
 Field used to classify the water source.
  
@@ -672,12 +672,12 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source type</td></tr><tr><td>description</td><td>Field used to classify the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Surface water</td><td>700610000</td></tr><tr><td>en</td><td>Ground water</td><td>700610001</td></tr><tr><td>en</td><td>Sea water</td><td>700610002</td></tr><tr><td>en</td><td>Produced water</td><td>700610003</td></tr><tr><td>en</td><td>Third party water</td><td>700610004</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source type</td></tr><tr><td>description</td><td>Field used to classify the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_sourcetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Surface water</td><td>700610000</td></tr><tr><td>en</td><td>Ground water</td><td>700610001</td></tr><tr><td>en</td><td>Sea water</td><td>700610002</td></tr><tr><td>en</td><td>Produced water</td><td>700610003</td></tr><tr><td>en</td><td>Third party water</td><td>700610004</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the watersourcetype attribute are listed below.</summary>
+<summary>List of traits for the sourcetype attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
@@ -703,7 +703,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watersourcetype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sourcetype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
@@ -711,7 +711,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
 **is.dataFormat.integer**  
   </details>
 
-### <a href=#watersourcewaterqualitytype name="watersourcewaterqualitytype">watersourcewaterqualitytype</a>
+### <a href=#waterqualitytype name="waterqualitytype">waterqualitytype</a>
 
 Describes the quality of the water being withdrawn/discharged from/to the water source.
 
@@ -719,12 +719,12 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality type</td></tr><tr><td>description</td><td>Describes the quality of the water being withdrawn/discharged from/to the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcewaterqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fresh water</td><td>700610000</td></tr><tr><td>en</td><td>Other water</td><td>700610001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality type</td></tr><tr><td>description</td><td>Describes the quality of the water being withdrawn/discharged from/to the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fresh water</td><td>700610000</td></tr><tr><td>en</td><td>Other water</td><td>700610001</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the watersourcewaterqualitytype attribute are listed below.</summary>
+<summary>List of traits for the waterqualitytype attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
@@ -750,7 +750,7 @@ First included in: SustainabilityWater/WaterSource (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_watersourcewaterqualitytype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterqualitytype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
