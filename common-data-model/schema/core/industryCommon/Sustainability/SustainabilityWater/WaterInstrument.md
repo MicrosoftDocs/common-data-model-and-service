@@ -51,32 +51,33 @@ Stores the information related to the devices or instruments tracking water in t
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterinstrumentId](#waterinstrumentId)|Unique identifier for entity instances.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[statecode](#statecode)|Status of the water instrument.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[statuscode](#statuscode)|Reason for the status of the water instrument.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[name](#name)||<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentconfig](#waterinstrumentconfig)|Indicates the corresponding configuration for the water instrument.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentconfigwaterinstrumenttype](#waterinstrumentconfigwaterinstrumenttype)|Optional field to classify the water instrument.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentdescription](#waterinstrumentdescription)|Optional field to describe an entity.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentfacility](#waterinstrumentfacility)|Indicates the facility mapped to the water instrument.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentindustrialprocesstype](#waterinstrumentindustrialprocesstype)|Indicates the process for which the water instrument is being used.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentorganizationalunit](#waterinstrumentorganizationalunit)|Indicates the organizational unit where the water instrument is located.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentorigincorrelationid](#waterinstrumentorigincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentId](#waterinstrumentId)|Unique identifier for entity instances|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[statecode](#statecode)|Status of the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[statuscode](#statuscode)|Reason for the status of the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[name](#name)|The name of the custom entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentconfig](#waterinstrumentconfig)|Indicates the corresponding configuration for the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentconfigwaterinstrumenttype](#waterinstrumentconfigwaterinstrumenttype)|Optional field to classify the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentdescription](#waterinstrumentdescription)|Optional field to describe an entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentfacility](#waterinstrumentfacility)|Indicates the facility mapped to the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentindustrialprocesstype](#waterinstrumentindustrialprocesstype)|Indicates the process for which the water instrument is being used|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentorganizationalunit](#waterinstrumentorganizationalunit)|Indicates the organizational unit where the water instrument is located|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumentorigincorrelationid](#waterinstrumentorigincorrelationid)|Optional field to store source unique identifier values for the entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
 
 ### <a href=#waterinstrumentId name="waterinstrumentId">waterinstrumentId</a>
 
-Unique identifier for entity instances.  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentid</td></tr></table>
 
 #### Traits
 
@@ -119,12 +120,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -159,12 +161,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+ 
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -199,12 +202,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the water instrument.  
+Status of the water instrument.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water instrument.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water instrument</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -245,12 +249,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the water instrument.  
+Reason for the status of the water instrument.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water instrument.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water instrument</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -294,12 +299,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -337,12 +343,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -377,12 +384,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -420,12 +428,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -463,11 +472,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -510,12 +521,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentconfig name="waterinstrumentconfig">waterinstrumentconfig</a>
 
-Indicates the corresponding configuration for the water instrument.  
+Indicates the corresponding configuration for the water instrument.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument configuration</td></tr><tr><td>description</td><td>Indicates the corresponding configuration for the water instrument.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument configuration</td></tr><tr><td>description</td><td>Indicates the corresponding configuration for the water instrument</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -555,12 +567,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentconfigwaterinstrumenttype name="waterinstrumentconfigwaterinstrumenttype">waterinstrumentconfigwaterinstrumenttype</a>
 
-Optional field to classify the water instrument.  
+Optional field to classify the water instrument.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument type</td></tr><tr><td>description</td><td>Optional field to classify the water instrument.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigwaterinstrumenttype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument type</td></tr><tr><td>description</td><td>Optional field to classify the water instrument</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigwaterinstrumenttype</td></tr></table>
 
 #### Traits
 
@@ -603,12 +616,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentdescription name="waterinstrumentdescription">waterinstrumentdescription</a>
 
-Optional field to describe an entity.  
+Optional field to describe an entity.
+ 
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe an entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe an entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentdescription</td></tr></table>
 
 #### Traits
 
@@ -651,12 +665,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentfacility name="waterinstrumentfacility">waterinstrumentfacility</a>
 
-Indicates the facility mapped to the water instrument.  
+Indicates the facility mapped to the water instrument.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility</td></tr><tr><td>description</td><td>Indicates the facility mapped to the water instrument.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility</td></tr><tr><td>description</td><td>Indicates the facility mapped to the water instrument</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -696,12 +711,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentindustrialprocesstype name="waterinstrumentindustrialprocesstype">waterinstrumentindustrialprocesstype</a>
 
-Indicates the process for which the water instrument is being used.  
+Indicates the process for which the water instrument is being used.
+  
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industrial process type</td></tr><tr><td>description</td><td>Indicates the process for which the water instrument is being used.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Industrial process type</td></tr><tr><td>description</td><td>Indicates the process for which the water instrument is being used</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -741,12 +757,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentorganizationalunit name="waterinstrumentorganizationalunit">waterinstrumentorganizationalunit</a>
 
-Indicates the organizational unit where the water instrument is located.  
+Indicates the organizational unit where the water instrument is located.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit</td></tr><tr><td>description</td><td>Indicates the organizational unit where the water instrument is located.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit</td></tr><tr><td>description</td><td>Indicates the organizational unit where the water instrument is located</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -786,12 +803,13 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 ### <a href=#waterinstrumentorigincorrelationid name="waterinstrumentorigincorrelationid">waterinstrumentorigincorrelationid</a>
 
-Optional field to store source unique identifier values for the entity.  
+Optional field to store source unique identifier values for the entity.
+
 First included in: SustainabilityWater/WaterInstrument (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentorigincorrelationid</td></tr></table>
 
 #### Traits
 
