@@ -477,7 +477,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -520,12 +520,13 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
-Description of the data quality that identifies whether the data is metered, measured, or estimated.  
+Description of the data quality that identifies whether the data is metered, measured, or estimated.
+
 First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Data quality type</td></tr><tr><td>description</td><td>Description of the data quality that identifies whether the data is metered, measured, or estimated.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_dataqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Actual</td><td>700610000</td></tr><tr><td>en</td><td>Estimated</td><td>700610001</td></tr><tr><td>en</td><td>Metered</td><td>700610002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Data quality type</td></tr><tr><td>description</td><td>Description of the data quality that identifies whether the data is metered, measured, or estimated</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_dataqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Actual</td><td>700610000</td></tr><tr><td>en</td><td>Estimated</td><td>700610001</td></tr><tr><td>en</td><td>Metered</td><td>700610002</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -566,12 +567,13 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 ### <a href=#waterinstrumentconfigurationdescription name="waterinstrumentconfigurationdescription">waterinstrumentconfigurationdescription</a>
 
-Optional description that provides additional detail about the entity or attribute.  
+Optional description that provides additional detail about the entity or attribute.
+
 First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigurationdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigurationdescription</td></tr></table>
 
 #### Traits
 
@@ -614,12 +616,13 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 ### <a href=#waterinstrumentconfigurationtype name="waterinstrumentconfigurationtype">waterinstrumentconfigurationtype</a>
 
-Indicates the water dimension for which the water instrument configuration exists.  
+Indicates the water dimension for which the water instrument configuration exists.
+
 First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Configuration type</td></tr><tr><td>description</td><td>Indicates the water dimension for which the water instrument configuration exists.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigurationtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Water quantity</td><td>755210000</td></tr><tr><td>en</td><td>Water quality</td><td>755210001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Configuration type</td></tr><tr><td>description</td><td>Indicates the water dimension for which the water instrument configuration exists</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigurationtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Water quantity</td><td>755210000</td></tr><tr><td>en</td><td>Water quality</td><td>755210001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -660,12 +663,13 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 ### <a href=#waterinstrumentwaterqualitycharacteristic name="waterinstrumentwaterqualitycharacteristic">waterinstrumentwaterqualitycharacteristic</a>
 
-Optional field to indicate the property which is being measured by the water quality instrument.  
+Optional field to indicate the property which is being measured by the water quality instrument.
+
 First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality characteristic</td></tr><tr><td>description</td><td>Optional field to indicate the property which is being measured by the water quality instrument.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality characteristic</td></tr><tr><td>description</td><td>Optional field to indicate the property which is being measured by the water quality instrument</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -705,12 +709,13 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 ### <a href=#waterinstrumentwatersource name="waterinstrumentwatersource">waterinstrumentwatersource</a>
 
-Indicates the source from which the water enters or leaves the instrument.  
+Indicates the source from which the water enters or leaves the instrument.
+
 First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water source</td></tr><tr><td>description</td><td>Indicates the source from which the water enters or leaves the instrument.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water source</td></tr><tr><td>description</td><td>Indicates the source from which the water enters or leaves the instrument</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -750,12 +755,13 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 ### <a href=#watertransactiontype name="watertransactiontype">watertransactiontype</a>
 
-Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.  
+Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.
+
 First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water transaction type</td></tr><tr><td>description</td><td>Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watertransactiontype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Withdrawal</td><td>700610000</td></tr><tr><td>en</td><td>Discharge</td><td>700610001</td></tr><tr><td>en</td><td>Consumption</td><td>700610002</td></tr><tr><td>en</td><td>Recycled</td><td>700610003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water transaction type</td></tr><tr><td>description</td><td>Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watertransactiontype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Withdrawal</td><td>700610000</td></tr><tr><td>en</td><td>Discharge</td><td>700610001</td></tr><tr><td>en</td><td>Consumption</td><td>700610002</td></tr><tr><td>en</td><td>Recycled</td><td>700610003</td></tr></table></td></tr></table>
 
 #### Traits
 
