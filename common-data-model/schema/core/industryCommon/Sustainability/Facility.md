@@ -49,7 +49,7 @@ Base-level location to attribute activity data. May contain multiple buildings a
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[facilityId](#facilityId)|Unique identifier for entity instances|<a href="Facility.md" target="_blank">Sustainability/Facility</a>|
-|[facilitywaterstressedarea](#facilitywaterstressedarea)|Indicates whether the facility is located in a water stressed area or not.|<a href="Facility.md" target="_blank">Sustainability/Facility</a>|
+|[waterstressedarea](#waterstressedarea)|Indicates whether the facility is located in a water stressed area or not.|<a href="Facility.md" target="_blank">Sustainability/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
@@ -99,7 +99,7 @@ First included in: Sustainability/Facility (this entity)
 
 </details>
 
-### <a href=#facilitywaterstressedarea name="facilitywaterstressedarea">facilitywaterstressedarea</a>
+### <a href=#waterstressedarea name="waterstressedarea">waterstressedarea</a>
 
 Indicates whether the facility is located in a water stressed area or not.
   
@@ -108,12 +108,12 @@ First included in: Sustainability/Facility (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water Stressed Area</td></tr><tr><td>description</td><td>Indicates whether the facility is located in a water stressed area or not.
-</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_facilitywaterstressedarea</td></tr></table>
+</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterstressedarea</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the facilitywaterstressedarea attribute are listed below.</summary>
+<summary>List of traits for the waterstressedarea attribute are listed below.</summary>
 
 **is.dataFormat.boolean**  
   **is.requiredAtLevel**  
@@ -130,7 +130,7 @@ First included in: Sustainability/Facility (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_facilitywaterstressedarea"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterstressedarea"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>

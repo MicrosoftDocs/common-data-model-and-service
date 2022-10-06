@@ -62,10 +62,10 @@ Entity to describe the configuration of the water flow through each water instru
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is metered, measured, or estimated|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
-|[waterinstrumentconfigurationdescription](#waterinstrumentconfigurationdescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
-|[waterinstrumentconfigurationtype](#waterinstrumentconfigurationtype)|Indicates the water dimension for which the water instrument configuration exists|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
-|[waterinstrumentwaterqualitycharacteristic](#waterinstrumentwaterqualitycharacteristic)|Optional field to indicate the property which is being measured by the water quality instrument|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
-|[waterinstrumentwatersource](#waterinstrumentwatersource)|Indicates the source from which the water enters or leaves the instrument|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
+|[configurationtype](#configurationtype)|Indicates the water dimension for which the water instrument configuration exists|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
+|[waterqualitycharacteristic](#waterqualitycharacteristic)|Optional field to indicate the property which is being measured by the water quality instrument|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
+|[watersource](#watersource)|Indicates the source from which the water enters or leaves the instrument|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[watertransactiontype](#watertransactiontype)|Indicates the type of transaction related to water flow, such as withdrawal, discharge, consumption, or recycled|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 
 ### <a href=#waterinstrumentconfigurationId name="waterinstrumentconfigurationId">waterinstrumentconfigurationId</a>
@@ -565,7 +565,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 **is.dataFormat.integer**  
   </details>
 
-### <a href=#waterinstrumentconfigurationdescription name="waterinstrumentconfigurationdescription">waterinstrumentconfigurationdescription</a>
+### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.
 
@@ -573,12 +573,12 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigurationdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentconfigurationdescription attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -603,7 +603,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterinstrumentconfigurationdescription"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
@@ -614,7 +614,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 </details>
 
-### <a href=#waterinstrumentconfigurationtype name="waterinstrumentconfigurationtype">waterinstrumentconfigurationtype</a>
+### <a href=#configurationtype name="configurationtype">configurationtype</a>
 
 Indicates the water dimension for which the water instrument configuration exists.
 
@@ -622,12 +622,12 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Configuration type</td></tr><tr><td>description</td><td>Indicates the water dimension for which the water instrument configuration exists</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigurationtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Water quantity</td><td>755210000</td></tr><tr><td>en</td><td>Water quality</td><td>755210001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Configuration type</td></tr><tr><td>description</td><td>Indicates the water dimension for which the water instrument configuration exists</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_configurationtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Water quantity</td><td>755210000</td></tr><tr><td>en</td><td>Water quality</td><td>755210001</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentconfigurationtype attribute are listed below.</summary>
+<summary>List of traits for the configurationtype attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
@@ -653,7 +653,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterinstrumentconfigurationtype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_configurationtype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
@@ -661,7 +661,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 **is.dataFormat.integer**  
   </details>
 
-### <a href=#waterinstrumentwaterqualitycharacteristic name="waterinstrumentwaterqualitycharacteristic">waterinstrumentwaterqualitycharacteristic</a>
+### <a href=#waterqualitycharacteristic name="waterqualitycharacteristic">waterqualitycharacteristic</a>
 
 Optional field to indicate the property which is being measured by the water quality instrument.
 
@@ -674,7 +674,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentwaterqualitycharacteristic attribute are listed below.</summary>
+<summary>List of traits for the waterqualitycharacteristic attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -707,7 +707,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 
 </details>
 
-### <a href=#waterinstrumentwatersource name="waterinstrumentwatersource">waterinstrumentwatersource</a>
+### <a href=#watersource name="watersource">watersource</a>
 
 Indicates the source from which the water enters or leaves the instrument.
 
@@ -720,7 +720,7 @@ First included in: SustainabilityWater/WaterInstrumentConfiguration (this entity
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentwatersource attribute are listed below.</summary>
+<summary>List of traits for the watersource attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  

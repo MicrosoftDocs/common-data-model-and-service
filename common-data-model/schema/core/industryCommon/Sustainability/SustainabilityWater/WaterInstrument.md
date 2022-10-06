@@ -62,12 +62,12 @@ Stores the information related to the devices or instruments tracking water in t
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
 |[waterinstrumentconfig](#waterinstrumentconfig)|Indicates the corresponding configuration for the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentconfigwaterinstrumenttype](#waterinstrumentconfigwaterinstrumenttype)|Optional field to classify the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentdescription](#waterinstrumentdescription)|Optional field to describe an entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentfacility](#waterinstrumentfacility)|Indicates the facility mapped to the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentindustrialprocesstype](#waterinstrumentindustrialprocesstype)|Indicates the process for which the water instrument is being used|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentorganizationalunit](#waterinstrumentorganizationalunit)|Indicates the organizational unit where the water instrument is located|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
-|[waterinstrumentorigincorrelationid](#waterinstrumentorigincorrelationid)|Optional field to store source unique identifier values for the entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[waterinstrumenttype](#waterinstrumenttype)|Optional field to classify the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[description](#description)|Optional field to describe an entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[facility](#facility)|Indicates the facility mapped to the water instrument|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[industrialprocesstype](#industrialprocesstype)|Indicates the process for which the water instrument is being used|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[organizationalunit](#organizationalunit)|Indicates the organizational unit where the water instrument is located|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity|<a href="WaterInstrument.md" target="_blank">SustainabilityWater/WaterInstrument</a>|
 
 ### <a href=#waterinstrumentId name="waterinstrumentId">waterinstrumentId</a>
 
@@ -565,7 +565,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 </details>
 
-### <a href=#waterinstrumentconfigwaterinstrumenttype name="waterinstrumentconfigwaterinstrumenttype">waterinstrumentconfigwaterinstrumenttype</a>
+### <a href=#waterinstrumenttype name="waterinstrumenttype">waterinstrumenttype</a>
 
 Optional field to classify the water instrument.
 
@@ -573,12 +573,12 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument type</td></tr><tr><td>description</td><td>Optional field to classify the water instrument</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentconfigwaterinstrumenttype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument type</td></tr><tr><td>description</td><td>Optional field to classify the water instrument</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumenttype</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentconfigwaterinstrumenttype attribute are listed below.</summary>
+<summary>List of traits for the waterinstrumenttype attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -603,7 +603,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterinstrumentconfigwaterinstrumenttype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterinstrumenttype"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
@@ -614,7 +614,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 </details>
 
-### <a href=#waterinstrumentdescription name="waterinstrumentdescription">waterinstrumentdescription</a>
+### <a href=#description name="description">description</a>
 
 Optional field to describe an entity.
  
@@ -622,12 +622,12 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe an entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe an entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentdescription attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -652,7 +652,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterinstrumentdescription"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
@@ -663,7 +663,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 </details>
 
-### <a href=#waterinstrumentfacility name="waterinstrumentfacility">waterinstrumentfacility</a>
+### <a href=#facility name="facility">facility</a>
 
 Indicates the facility mapped to the water instrument.
 
@@ -676,7 +676,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentfacility attribute are listed below.</summary>
+<summary>List of traits for the facility attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -709,7 +709,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 </details>
 
-### <a href=#waterinstrumentindustrialprocesstype name="waterinstrumentindustrialprocesstype">waterinstrumentindustrialprocesstype</a>
+### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Indicates the process for which the water instrument is being used.
   
@@ -722,7 +722,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentindustrialprocesstype attribute are listed below.</summary>
+<summary>List of traits for the industrialprocesstype attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -755,7 +755,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 </details>
 
-### <a href=#waterinstrumentorganizationalunit name="waterinstrumentorganizationalunit">waterinstrumentorganizationalunit</a>
+### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Indicates the organizational unit where the water instrument is located.
 
@@ -768,7 +768,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentorganizationalunit attribute are listed below.</summary>
+<summary>List of traits for the organizationalunit attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -801,7 +801,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 </details>
 
-### <a href=#waterinstrumentorigincorrelationid name="waterinstrumentorigincorrelationid">waterinstrumentorigincorrelationid</a>
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier values for the entity.
 
@@ -809,12 +809,12 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterinstrumentorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterinstrumentorigincorrelationid attribute are listed below.</summary>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -839,7 +839,7 @@ First included in: SustainabilityWater/WaterInstrument (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterinstrumentorigincorrelationid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
