@@ -57,14 +57,14 @@ Describes the results coming from the laboratory water quality test for a charac
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 |[waterqualityanalysis](#waterqualityanalysis)|Indicates the analysis that was performed to arrive at the water quality test result|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrcomments](#wqtrcomments)|Optional field that indicates the any additional details regarding the result provided by the analysis|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrdescription](#wqtrdescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrmeasuredvalue](#wqtrmeasuredvalue)|The reportable measured value of a characteristic being analyzed|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrprecision](#wqtrprecision)|Indicates how the measurements for a property has been prescribed|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrresultstatus](#wqtrresultstatus)|Indicates whether the measure of the characteristic is within the permissible range|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrunit](#wqtrunit)|The unit of measurement of the measure value in the test result|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrwaterqualitycharacteristic](#wqtrwaterqualitycharacteristic)|Indicates the measurable property for which the water sample has been analyzed and measured value provided|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrwatersample](#wqtrwatersample)|Indicates the details of the water sample collected for the water quality test|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[comments](#comments)|Optional field that indicates the any additional details regarding the result provided by the analysis|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[measuredvalue](#measuredvalue)|The reportable measured value of a characteristic being analyzed|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[precision](#precision)|Indicates how the measurements for a property has been prescribed|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[resultstatus](#resultstatus)|Indicates whether the measure of the characteristic is within the permissible range|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[unit](#unit)|The unit of measurement of the measure value in the test result|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[waterqualitycharacteristic](#waterqualitycharacteristic)|Indicates the measurable property for which the water sample has been analyzed and measured value provided|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[watersample](#watersample)|Indicates the details of the water sample collected for the water quality test|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 
 ### <a href=#waterqualitytestresultId name="waterqualitytestresultId">waterqualitytestresultId</a>
 
@@ -470,7 +470,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrcomments name="wqtrcomments">wqtrcomments</a>
+### <a href=#comments name="comments">comments</a>
 
 Optional field that indicates the any additional details regarding the result provided by the analysis.
  
@@ -478,12 +478,12 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comments</td></tr><tr><td>description</td><td>Optional field that indicates the any additional details regarding the result provided by the analysis</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrcomments</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comments</td></tr><tr><td>description</td><td>Optional field that indicates the any additional details regarding the result provided by the analysis</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_comments</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrcomments attribute are listed below.</summary>
+<summary>List of traits for the comments attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -508,7 +508,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqtrcomments"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_comments"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"32"</td><td>integer</td><td></td></tr></table>
@@ -519,7 +519,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrdescription name="wqtrdescription">wqtrdescription</a>
+### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.
  
@@ -527,12 +527,12 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrdescription attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -557,7 +557,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqtrdescription"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
@@ -568,7 +568,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrmeasuredvalue name="wqtrmeasuredvalue">wqtrmeasuredvalue</a>
+### <a href=#measuredvalue name="measuredvalue">measuredvalue</a>
 
 The reportable measured value of a characteristic being analyzed.
 
@@ -576,12 +576,12 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measured value</td></tr><tr><td>description</td><td>The reportable measured value of a characteristic being analyzed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrmeasuredvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measured value</td></tr><tr><td>description</td><td>The reportable measured value of a characteristic being analyzed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_measuredvalue</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrmeasuredvalue attribute are listed below.</summary>
+<summary>List of traits for the measuredvalue attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -606,7 +606,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqtrmeasuredvalue"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_measuredvalue"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
@@ -617,7 +617,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrprecision name="wqtrprecision">wqtrprecision</a>
+### <a href=#precision name="precision">precision</a>
 
 Indicates how the measurements for a property has been prescribed.
  
@@ -625,12 +625,12 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Precision</td></tr><tr><td>description</td><td>Indicates how the measurements for a property has been prescribed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrprecision</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Precision</td></tr><tr><td>description</td><td>Indicates how the measurements for a property has been prescribed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_precision</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrprecision attribute are listed below.</summary>
+<summary>List of traits for the precision attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -666,7 +666,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrresultstatus name="wqtrresultstatus">wqtrresultstatus</a>
+### <a href=#resultstatus name="resultstatus">resultstatus</a>
 
 Indicates whether the measure of the characteristic is within the permissible range.
 
@@ -674,12 +674,12 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Result status</td></tr><tr><td>description</td><td>Indicates whether the measure of the characteristic is within the permissible range</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrresultstatus</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Result status</td></tr><tr><td>description</td><td>Indicates whether the measure of the characteristic is within the permissible range</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_resultstatus</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrresultstatus attribute are listed below.</summary>
+<summary>List of traits for the resultstatus attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -715,7 +715,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrunit name="wqtrunit">wqtrunit</a>
+### <a href=#unit name="unit">unit</a>
 
 The unit of measurement of the measure value in the test result.
 
@@ -728,7 +728,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrunit attribute are listed below.</summary>
+<summary>List of traits for the unit attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -761,7 +761,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrwaterqualitycharacteristic name="wqtrwaterqualitycharacteristic">wqtrwaterqualitycharacteristic</a>
+### <a href=#waterqualitycharacteristic name="waterqualitycharacteristic">waterqualitycharacteristic</a>
 
 Indicates the measurable property for which the water sample has been analyzed and measured value provided.
 
@@ -774,7 +774,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrwaterqualitycharacteristic attribute are listed below.</summary>
+<summary>List of traits for the waterqualitycharacteristic attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -807,7 +807,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 </details>
 
-### <a href=#wqtrwatersample name="wqtrwatersample">wqtrwatersample</a>
+### <a href=#watersample name="watersample">watersample</a>
 
 Indicates the details of the water sample collected for the water quality test.
 
@@ -820,7 +820,7 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the wqtrwatersample attribute are listed below.</summary>
+<summary>List of traits for the watersample attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
