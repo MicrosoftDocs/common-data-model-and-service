@@ -50,7 +50,7 @@ Describes the results coming from the laboratory water quality test for a charac
 |---|---|---|
 |[waterqualitytestresultId](#waterqualitytestresultId)|Unique identifier for entity instances|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 |[TTLInSeconds](#TTLInSeconds)|Time to live in seconds|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[partitionId](#partitionId)|Logical partition ID; a logical partition consists of a set of records with same partition ID|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 |[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
