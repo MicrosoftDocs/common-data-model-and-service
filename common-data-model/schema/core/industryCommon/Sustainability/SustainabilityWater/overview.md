@@ -19,6 +19,17 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 
 ## Entities
 
+|[WaterInstrument](WaterInstrument.md)|Stores the information related to the devices or instruments tracking water in the organization.|
+|[WaterInstrumentConfiguration](WaterInstrumentConfiguration.md)|Entity to describe the configuration of the water flow through each water instrument present in the organization.|
+|[WaterQualityAnalysis](WaterQualityAnalysis.md)|Describes the analysis performed to test a water sample for a certain characteristic.|
+|[WaterQualityCharacteristic](WaterQualityCharacteristic.md)|Describes the property being evaluated during the analysis of the water sample collected.|
+|[WaterQualityTestResult](WaterQualityTestResult.md).||
+|[WaterQuantity](WaterQuantity.md)|Stores the actual quantity information from water transactions within the organization.|
+|[WaterSample](WaterSample.md)|Stores the attributes of the water samples collected for testing water quality.|
+|[WaterSource](WaterSource.md)|Entity to store details of sources from/to which water gets withdrawn/discharged.|
+
+## Common entities shared with Cloud for Sustainability data model
+
 |Name|Description|
 |---|---|
 |[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
@@ -26,11 +37,3 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
 |[Unit](Unit.md)|Unit of measure.|
 |[UnitGroup](UnitGroup.md)|Grouping of units.|
-|[WaterInstrument](WaterInstrument.md)|Stores the information related to the devices or instruments tracking water in the organization.|
-|[WaterInstrumentConfiguration](WaterInstrumentConfiguration.md)|Entity to describe the configuration of the water flow through each water instrument present in the organization.|
-|[WaterQualityAnalysis](WaterQualityAnalysis.md)|Describes the analysis performed to test a water sample for a certain characteristic|
-|[WaterQualityCharacteristic](WaterQualityCharacteristic.md)|Describes the property being evaluated during the analysis of the water sample collected|
-|[WaterQualityTestResult](WaterQualityTestResult.md)||
-|[WaterQuantity](WaterQuantity.md)|Stores the actual quantity information from water transactions within the organization.|
-|[WaterSample](WaterSample.md)|Stores the attributes of the water samples collected for testing water quality|
-|[WaterSource](WaterSource.md)|Entity to store details of sources from/to which water gets withdrawn/discharged|
