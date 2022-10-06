@@ -61,12 +61,12 @@ Describes the property being evaluated during the analysis of the water sample c
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
-|[characteristicorigincorrelationid](#characteristicorigincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
-|[characteristicreferencerangelowerlimit](#characteristicreferencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
-|[characteristicreferencerangeunit](#characteristicreferencerangeunit)|Indicates the unit of measurement for the reference range|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
-|[characteristicreferencerangeupperlimit](#characteristicreferencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
-|[waterqualitycharacteristicdescription](#waterqualitycharacteristicdescription)|Optional field that provides additional detail about the entity or attribute|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
-|[waterqualitycharacteristictype](#waterqualitycharacteristictype)|Indicates the classification of characteristic for which the water sample is being tested|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
+|[referencerangelowerlimit](#referencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
+|[referencerangeunit](#referencerangeunit)|Indicates the unit of measurement for the reference range|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
+|[referencerangeupperlimit](#referencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
+|[description](#description)|Optional field that provides additional detail about the entity or attribute|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
+|[type](#type)|Indicates the classification of characteristic for which the water sample is being tested|<a href="WaterQualityCharacteristic.md" target="_blank">SustainabilityWater/WaterQualityCharacteristic</a>|
 
 ### <a href=#waterqualitycharacteristicId name="waterqualitycharacteristicId">waterqualitycharacteristicId</a>
 
@@ -518,7 +518,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 </details>
 
-### <a href=#characteristicorigincorrelationid name="characteristicorigincorrelationid">characteristicorigincorrelationid</a>
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.
 
@@ -526,12 +526,12 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier for the characteristic that is being tested for in the water sample</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_characteristicorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier for the characteristic that is being tested for in the water sample</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the characteristicorigincorrelationid attribute are listed below.</summary>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -556,7 +556,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_characteristicorigincorrelationid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
@@ -567,7 +567,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 </details>
 
-### <a href=#characteristicreferencerangelowerlimit name="characteristicreferencerangelowerlimit">characteristicreferencerangelowerlimit</a>
+### <a href=#referencerangelowerlimit name="referencerangelowerlimit">referencerangelowerlimit</a>
 
 Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample.
 
@@ -575,12 +575,12 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference range lower limit </td></tr><tr><td>description</td><td>Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_characteristicreferencerangelowerlimit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference range lower limit </td></tr><tr><td>description</td><td>Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_referencerangelowerlimit</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the characteristicreferencerangelowerlimit attribute are listed below.</summary>
+<summary>List of traits for the referencerangelowerlimit attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -601,7 +601,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_characteristicreferencerangelowerlimit"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_referencerangelowerlimit"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
@@ -611,7 +611,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 </details>
 
-### <a href=#characteristicreferencerangeunit name="characteristicreferencerangeunit">characteristicreferencerangeunit</a>
+### <a href=#referencerangeunit name="referencerangeunit">referencerangeunit</a>
 
 Indicates the unit of measurement for the reference range.
 
@@ -624,7 +624,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the characteristicreferencerangeunit attribute are listed below.</summary>
+<summary>List of traits for the referencerangeunit attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -657,7 +657,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 </details>
 
-### <a href=#characteristicreferencerangeupperlimit name="characteristicreferencerangeupperlimit">characteristicreferencerangeupperlimit</a>
+### <a href=#referencerangeupperlimit name="referencerangeupperlimit">referencerangeupperlimit</a>
 
 Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample.
 
@@ -665,12 +665,12 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference range upper limit</td></tr><tr><td>description</td><td>Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_characteristicreferencerangeupperlimit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference range upper limit</td></tr><tr><td>description</td><td>Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_referencerangeupperlimit</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the characteristicreferencerangeupperlimit attribute are listed below.</summary>
+<summary>List of traits for the referencerangeupperlimit attribute are listed below.</summary>
 
 **is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
@@ -691,7 +691,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_characteristicreferencerangeupperlimit"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_referencerangeupperlimit"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
@@ -701,7 +701,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 </details>
 
-### <a href=#waterqualitycharacteristicdescription name="waterqualitycharacteristicdescription">waterqualitycharacteristicdescription</a>
+### <a href=#description name="description">description</a>
 
 Optional field that provides additional detail about the entity or attribute.
 
@@ -709,12 +709,12 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitycharacteristicdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterqualitycharacteristicdescription attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -739,7 +739,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterqualitycharacteristicdescription"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
@@ -750,7 +750,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 </details>
 
-### <a href=#waterqualitycharacteristictype name="waterqualitycharacteristictype">waterqualitycharacteristictype</a>
+### <a href=#type name="type">type</a>
 
 Indicates the classification of characteristic for which the water sample is being tested.
  
@@ -758,12 +758,12 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Indicates the classification of characteristic for which the water sample is being tested</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitycharacteristictype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Physical</td><td>700610000</td></tr><tr><td>en</td><td>Chemical</td><td>700610001</td></tr><tr><td>en</td><td>Biological</td><td>700610002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Indicates the classification of characteristic for which the water sample is being tested</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Physical</td><td>700610000</td></tr><tr><td>en</td><td>Chemical</td><td>700610001</td></tr><tr><td>en</td><td>Biological</td><td>700610002</td></tr></table></td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterqualitycharacteristictype attribute are listed below.</summary>
+<summary>List of traits for the type attribute are listed below.</summary>
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
@@ -789,7 +789,7 @@ First included in: SustainabilityWater/WaterQualityCharacteristic (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterqualitycharacteristictype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_type"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
