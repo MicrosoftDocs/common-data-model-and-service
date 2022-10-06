@@ -60,7 +60,7 @@ Describes the analysis performed to test a water sample for a certain characteri
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[name](#name)||<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[name](#name)|The name of the custom entity|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[wqaanalysismethod](#wqaanalysismethod)|Indicates the type of analysis performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[wqaanalysisstartdate](#wqaanalysisstartdate)|Indicates the date and time at which the water quality analysis started|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[wqadescription](#wqadescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
