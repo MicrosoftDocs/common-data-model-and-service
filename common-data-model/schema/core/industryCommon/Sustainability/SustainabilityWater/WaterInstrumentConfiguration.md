@@ -57,7 +57,7 @@ Entity to describe the configuration of the water flow through each water instru
 |[statecode](#statecode)|Status of the water instrument configuration|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[statuscode](#statuscode)|Reason for the status of the water instrument configuration|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterInstrumentConfiguration.md" target="_blank">SustainabilityWater/WaterInstrumentConfiguration</a>|
