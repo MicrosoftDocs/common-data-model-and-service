@@ -23,7 +23,7 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[WaterInstrumentConfiguration](WaterInstrumentConfiguration.md)|Entity to describe the configuration of the water flow through each water instrument present in the organization.|
 |[WaterQualityAnalysis](WaterQualityAnalysis.md)|Describes the analysis performed to test a water sample for a certain characteristic.|
 |[WaterQualityCharacteristic](WaterQualityCharacteristic.md)|Describes the property being evaluated during the analysis of the water sample collected.|
-|[WaterQualityTestResult](WaterQualityTestResult.md).||
+|[WaterQualityTestResult](WaterQualityTestResult.md).|Describes the results coming from the laboratory water quality test for a characteristic in the water sample.|
 |[WaterQuantity](WaterQuantity.md)|Stores the actual quantity information from water transactions within the organization.|
 |[WaterSample](WaterSample.md)|Stores the attributes of the water samples collected for testing water quality.|
 |[WaterSource](WaterSource.md)|Entity to store details of sources from/to which water gets withdrawn/discharged.|

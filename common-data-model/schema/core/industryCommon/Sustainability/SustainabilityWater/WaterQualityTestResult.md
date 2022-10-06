@@ -11,6 +11,7 @@ ms.author: cdmditeam
 
 # Water quality test result in Sustainability water (WaterQualityTestResult)
 
+Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/SustainabilityWater/WaterQualityTestResult.cdm.json" target="_blank">GitHub</a>.  
 
