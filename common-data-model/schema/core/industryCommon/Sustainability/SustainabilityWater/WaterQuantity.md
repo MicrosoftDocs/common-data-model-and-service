@@ -51,27 +51,28 @@ Stores the actual quantity information from water transactions within the organi
 |[waterquantityId](#waterquantityId)|Unique identifier for entity instances|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[TTLInSeconds](#TTLInSeconds)|Time to live in seconds|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[partitionId](#partitionId)|Logical partition ID; a logical partition consists of a set of records with same partition ID|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[transactionstartdate](#transactionstartdate)|Indicates the date and time at which the transaction recording started|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[waterquantityevidence](#waterquantityevidence)|Optional field to indicate the origin for the water quantity data.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[waterquantityunit](#waterquantityunit)|Indicates the unit of measurement for the water transaction.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[waterquantitywaterinstrument](#waterquantitywaterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[waterquantityevidence](#waterquantityevidence)|Optional field to indicate the origin for the water quantity data|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[waterquantityunit](#waterquantityunit)|Indicates the unit of measurement for the water transaction|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[waterquantitywaterinstrument](#waterquantitywaterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 
 ### <a href=#waterquantityId name="waterquantityId">waterquantityId</a>
 
-Unique identifier for entity instances.  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quantity</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterquantityid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quantity</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterquantityid</td></tr></table>
 
 #### Traits
 
@@ -114,12 +115,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
-Time to live in seconds.  
+Time to live in seconds.
+ 
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time to live</td></tr><tr><td>description</td><td>Time to live in seconds.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>ttlinseconds</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time to live</td></tr><tr><td>description</td><td>Time to live in seconds</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>ttlinseconds</td></tr></table>
 
 #### Traits
 
@@ -157,12 +159,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
-Logical partition id. A logical partition consists of a set of records with same partition id.  
+Logical partition ID. A logical partition consists of a set of records with same partition ID.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition ID; a logical partition consists of a set of records with same partition ID</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
 
 #### Traits
 
@@ -205,12 +208,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -245,12 +249,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -285,12 +290,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -328,12 +334,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -368,11 +375,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -415,12 +424,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
-Optional field to store source unique identifier values for the entity.  
+Optional field to store source unique identifier values for the entity.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -463,7 +473,8 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#quantity name="quantity">quantity</a>
 
-Indicates the actual quantity of water that was part of the transaction  
+Indicates the actual quantity of water that was part of the transaction.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
@@ -506,7 +517,8 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#transactionenddate name="transactionenddate">transactionenddate</a>
 
-Indicates the date and time at which the transaction recording ended  
+Indicates the date and time at which the transaction recording ended.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
@@ -546,7 +558,8 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#transactionstartdate name="transactionstartdate">transactionstartdate</a>
 
-Indicates the date and time at which the transaction recording started  
+Indicates the date and time at which the transaction recording started.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
@@ -586,12 +599,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#waterquantityevidence name="waterquantityevidence">waterquantityevidence</a>
 
-Optional field to indicate the origin for the water quantity data.  
+Optional field to indicate the origin for the water quantity data.
+  
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Evidence</td></tr><tr><td>description</td><td>Optional field to indicate the origin for the water quantity data.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterquantityevidence</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Evidence</td></tr><tr><td>description</td><td>Optional field to indicate the origin for the water quantity data</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterquantityevidence</td></tr></table>
 
 #### Traits
 
@@ -634,12 +648,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#waterquantityunit name="waterquantityunit">waterquantityunit</a>
 
-Indicates the unit of measurement for the water transaction.  
+Indicates the unit of measurement for the water transaction.
+
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit</td></tr><tr><td>description</td><td>Indicates the unit of measurement for the water transaction.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit</td></tr><tr><td>description</td><td>Indicates the unit of measurement for the water transaction</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -679,12 +694,13 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 ### <a href=#waterquantitywaterinstrument name="waterquantitywaterinstrument">waterquantitywaterinstrument</a>
 
-Describes the corresponding water instrument for which the water quantity information is being recorded.  
+Describes the corresponding water instrument for which the water quantity information is being recorded.
+  
 First included in: SustainabilityWater/WaterQuantity (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument</td></tr><tr><td>description</td><td>Describes the corresponding water instrument for which the water quantity information is being recorded.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water instrument</td></tr><tr><td>description</td><td>Describes the corresponding water instrument for which the water quantity information is being recorded</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
