@@ -52,31 +52,32 @@ A structural division of a company or organization.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[sustainabilityorganizationalunitId](#sustainabilityorganizationalunitId)|Unique identifier for entity instances|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[statecode](#statecode)|Status of the Reporting Organizational Unit|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[statuscode](#statuscode)|Reason for the status of the Reporting Organizational Unit|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[name](#name)|The name of the custom entity.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[addresscity](#addresscity)|The city in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[name](#name)|The name of the custom entity|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[addresscity](#addresscity)|The city in which the organizational unit is based|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[addresscountryisocode](#addresscountryisocode)|Country/region.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[addresscounty](#addresscounty)|The county in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[addressstateprovince](#addressstateprovince)|The state or province in which the organizational unit is based.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[addresscounty](#addresscounty)|The county in which the organizational unit is based|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[addressstateprovince](#addressstateprovince)|The state or province in which the organizational unit is based|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[addressstreet1](#addressstreet1)|The street address, including the number and street name.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[addressstreet2](#addressstreet2)|Secondary street address information.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[addresszippostalcode](#addresszippostalcode)|The zip or postal code in which the organization resides.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[organizationalunittype](#organizationalunittype)|The type of organization unit selected.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[addressstreet2](#addressstreet2)|Secondary street address information|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[addresszippostalcode](#addresszippostalcode)|The zip or postal code in which the organization resides|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[organizationalunittype](#organizationalunittype)|The type of organization unit selected|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 
 ### <a href=#sustainabilityorganizationalunitId name="sustainabilityorganizationalunitId">sustainabilityorganizationalunitId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
@@ -124,12 +125,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+ 
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created on</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created on</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -164,12 +166,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -204,7 +207,8 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Reporting Organizational Unit  
+Status of the Reporting Organizational Unit.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
@@ -250,7 +254,8 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Reporting Organizational Unit  
+Reason for the status of the Reporting Organizational Unit.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
@@ -299,12 +304,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import sequence number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import sequence number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -342,7 +348,8 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
@@ -382,7 +389,8 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
@@ -425,7 +433,8 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
@@ -468,12 +477,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#name name="name">name</a>
 
-The name of the custom entity.  
+The name of the custom entity.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>255</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -516,12 +526,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
-The city in which the organizational unit is based.  
+The city in which the organizational unit is based.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>City</td></tr><tr><td>description</td><td>The city in which the organizational unit is based.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscity</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>City</td></tr><tr><td>description</td><td>The city in which the organizational unit is based</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscity</td></tr></table>
 
 #### Traits
 
@@ -564,12 +575,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
-Country/region.  
+Country/region.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Country/region.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Country/region</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscountryisocode</td></tr></table>
 
 #### Traits
 
@@ -612,12 +624,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
-The county in which the organizational unit is based.  
+The county in which the organizational unit is based.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>County</td></tr><tr><td>description</td><td>The county in which the organizational unit is based.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscounty</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>County</td></tr><tr><td>description</td><td>The county in which the organizational unit is based</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresscounty</td></tr></table>
 
 #### Traits
 
@@ -660,12 +673,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
-The state or province in which the organizational unit is based.  
+The state or province in which the organizational unit is based.
+  
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>State/Province</td></tr><tr><td>description</td><td>The state or province in which the organizational unit is based.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addressstateprovince</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>State/Province</td></tr><tr><td>description</td><td>The state or province in which the organizational unit is based</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addressstateprovince</td></tr></table>
 
 #### Traits
 
@@ -708,12 +722,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
-The street address, including the number and street name.  
+The street address, including the number and street name.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address line 1</td></tr><tr><td>description</td><td>The street address, including the number and street name.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addressstreet1</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address line 1</td></tr><tr><td>description</td><td>The street address, including the number and street name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addressstreet1</td></tr></table>
 
 #### Traits
 
@@ -756,12 +771,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
-Secondary street address information.  
+Secondary street address information.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address line 2</td></tr><tr><td>description</td><td>Secondary street address information.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addressstreet2</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Address line 2</td></tr><tr><td>description</td><td>Secondary street address information</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addressstreet2</td></tr></table>
 
 #### Traits
 
@@ -804,12 +820,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
-The zip or postal code in which the organization resides.  
+The ZIP or postal code in which the organization resides.
+ 
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ZIP/Postal code</td></tr><tr><td>description</td><td>The zip or postal code in which the organization resides.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresszippostalcode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>ZIP/Postal code</td></tr><tr><td>description</td><td>The ZIP or postal code in which the organization resides</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>20</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_addresszippostalcode</td></tr></table>
 
 #### Traits
 
@@ -852,12 +869,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#description name="description">description</a>
 
-Optional description that provides additional detail about the entity or attribute.  
+Optional description that provides additional detail about the entity or attribute.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -900,12 +918,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#latitude name="latitude">latitude</a>
 
-This information can make it easier to submit reports for public disclosure.  
+This information can make it easier to submit reports for public disclosure.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Latitude</td></tr><tr><td>description</td><td>This information can make it easier to submit reports for public disclosure.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>90</td></tr><tr><td>minimumValue</td><td>-90</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_latitude</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Latitude</td></tr><tr><td>description</td><td>This information can make it easier to submit reports for public disclosure</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>90</td></tr><tr><td>minimumValue</td><td>-90</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_latitude</td></tr></table>
 
 #### Traits
 
@@ -943,12 +962,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#longitude name="longitude">longitude</a>
 
-This information can make it easier to submit reports for public disclosure.  
+This information can make it easier to submit reports for public disclosure.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Longitude</td></tr><tr><td>description</td><td>This information can make it easier to submit reports for public disclosure.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>180</td></tr><tr><td>minimumValue</td><td>-180</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_longitude</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Longitude</td></tr><tr><td>description</td><td>This information can make it easier to submit reports for public disclosure</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>180</td></tr><tr><td>minimumValue</td><td>-180</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_longitude</td></tr></table>
 
 #### Traits
 
@@ -986,12 +1006,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#organizationalunittype name="organizationalunittype">organizationalunittype</a>
 
-The type of organization unit selected.  
+The type of organization unit selected.
+
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit type</td></tr><tr><td>description</td><td>The type of organization unit selected.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_organizationalunittype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unit</td><td>700610000</td></tr><tr><td>en</td><td>Cost Center</td><td>700610005</td></tr><tr><td>en</td><td>Division</td><td>700610002</td></tr><tr><td>en</td><td>Department</td><td>700610004</td></tr><tr><td>en</td><td>Team</td><td>700610001</td></tr><tr><td>en</td><td>Group</td><td>700610003</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Organizational unit type</td></tr><tr><td>description</td><td>The type of organization unit selected</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_organizationalunittype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unit</td><td>700610000</td></tr><tr><td>en</td><td>Cost Center</td><td>700610005</td></tr><tr><td>en</td><td>Division</td><td>700610002</td></tr><tr><td>en</td><td>Department</td><td>700610004</td></tr><tr><td>en</td><td>Team</td><td>700610001</td></tr><tr><td>en</td><td>Group</td><td>700610003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -1032,12 +1053,13 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
-An optional identifier to correlate record with data origin.  
+An optional identifier to correlate record with data origin.
+ 
 First included in: SustainabilityWater/OrganizationalUnit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>An optional identifier to correlate record with data origin.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>An optional identifier to correlate record with data origin</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
