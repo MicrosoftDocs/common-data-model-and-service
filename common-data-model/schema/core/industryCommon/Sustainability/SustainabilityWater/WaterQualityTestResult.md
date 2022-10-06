@@ -48,32 +48,33 @@ Describes the results coming from the laboratory water quality test for a charac
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterqualitytestresultId](#waterqualitytestresultId)|Unique identifier for entity instances.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[name](#name)||<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[waterqualityanalysis](#waterqualityanalysis)|Indicates the analysis that was performed to arrive at the water quality test result.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrcomments](#wqtrcomments)|Optional field that indicates the any additional details regarding the result provided by the analysis.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrdescription](#wqtrdescription)|Optional description that provides additional detail about the entity or attribute.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrmeasuredvalue](#wqtrmeasuredvalue)|The reportable measured value of a characteristic being analyzed.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrprecision](#wqtrprecision)|Indicates how the measurements for a property has been prescribed.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrresultstatus](#wqtrresultstatus)|Indicates whether the measure of the characteristic is within the permissible range.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrunit](#wqtrunit)|The unit of measurement of the measure value in the test result.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrwaterqualitycharacteristic](#wqtrwaterqualitycharacteristic)|Indicates the measurable property for which the water sample has been analyzed and measured value provided.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
-|[wqtrwatersample](#wqtrwatersample)|Indicates the details of the water sample collected for the water quality test.|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[waterqualitytestresultId](#waterqualitytestresultId)|Unique identifier for entity instances|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[name](#name)|The name of the custom entity|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[waterqualityanalysis](#waterqualityanalysis)|Indicates the analysis that was performed to arrive at the water quality test result|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrcomments](#wqtrcomments)|Optional field that indicates the any additional details regarding the result provided by the analysis|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrdescription](#wqtrdescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrmeasuredvalue](#wqtrmeasuredvalue)|The reportable measured value of a characteristic being analyzed|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrprecision](#wqtrprecision)|Indicates how the measurements for a property has been prescribed|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrresultstatus](#wqtrresultstatus)|Indicates whether the measure of the characteristic is within the permissible range|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrunit](#wqtrunit)|The unit of measurement of the measure value in the test result|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrwaterqualitycharacteristic](#wqtrwaterqualitycharacteristic)|Indicates the measurable property for which the water sample has been analyzed and measured value provided|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
+|[wqtrwatersample](#wqtrwatersample)|Indicates the details of the water sample collected for the water quality test|<a href="WaterQualityTestResult.md" target="_blank">SustainabilityWater/WaterQualityTestResult</a>|
 
 ### <a href=#waterqualitytestresultId name="waterqualitytestresultId">waterqualitytestresultId</a>
 
-Unique identifier for entity instances.  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality test result</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytestresultid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality test result</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytestresultid</td></tr></table>
 
 #### Traits
 
@@ -116,12 +117,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
-Time to live in seconds.  
+Time to live in seconds.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time to live</td></tr><tr><td>description</td><td>Time to live in seconds.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>ttlinseconds</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time to live</td></tr><tr><td>description</td><td>Time to live in seconds</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>ttlinseconds</td></tr></table>
 
 #### Traits
 
@@ -159,12 +161,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
-Logical partition id. A logical partition consists of a set of records with same partition id.  
+Logical partition ID. A logical partition consists of a set of records with same partition ID.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition ID; a logical partition consists of a set of records with same partition ID</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
 
 #### Traits
 
@@ -207,12 +210,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -247,12 +251,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -287,12 +292,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+ 
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -330,12 +336,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -370,11 +377,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -417,12 +426,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#waterqualityanalysis name="waterqualityanalysis">waterqualityanalysis</a>
 
-Indicates the analysis that was performed to arrive at the water quality test result.  
+Indicates the analysis that was performed to arrive at the water quality test result.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality analysis</td></tr><tr><td>description</td><td>Indicates the analysis that was performed to arrive at the water quality test result.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality analysis</td></tr><tr><td>description</td><td>Indicates the analysis that was performed to arrive at the water quality test result</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -462,12 +472,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrcomments name="wqtrcomments">wqtrcomments</a>
 
-Optional field that indicates the any additional details regarding the result provided by the analysis.  
+Optional field that indicates the any additional details regarding the result provided by the analysis.
+ 
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comments</td></tr><tr><td>description</td><td>Optional field that indicates the any additional details regarding the result provided by the analysis.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrcomments</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Comments</td></tr><tr><td>description</td><td>Optional field that indicates the any additional details regarding the result provided by the analysis</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrcomments</td></tr></table>
 
 #### Traits
 
@@ -510,12 +521,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrdescription name="wqtrdescription">wqtrdescription</a>
 
-Optional description that provides additional detail about the entity or attribute.  
+Optional description that provides additional detail about the entity or attribute.
+ 
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrdescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrdescription</td></tr></table>
 
 #### Traits
 
@@ -558,12 +570,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrmeasuredvalue name="wqtrmeasuredvalue">wqtrmeasuredvalue</a>
 
-The reportable measured value of a characteristic being analyzed.  
+The reportable measured value of a characteristic being analyzed.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measured value</td></tr><tr><td>description</td><td>The reportable measured value of a characteristic being analyzed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrmeasuredvalue</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Measured value</td></tr><tr><td>description</td><td>The reportable measured value of a characteristic being analyzed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrmeasuredvalue</td></tr></table>
 
 #### Traits
 
@@ -606,12 +619,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrprecision name="wqtrprecision">wqtrprecision</a>
 
-Indicates how the measurements for a property has been prescribed.  
+Indicates how the measurements for a property has been prescribed.
+ 
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Precision</td></tr><tr><td>description</td><td>Indicates how the measurements for a property has been prescribed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrprecision</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Precision</td></tr><tr><td>description</td><td>Indicates how the measurements for a property has been prescribed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrprecision</td></tr></table>
 
 #### Traits
 
@@ -654,12 +668,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrresultstatus name="wqtrresultstatus">wqtrresultstatus</a>
 
-Indicates whether the measure of the characteristic is within the permissible range.  
+Indicates whether the measure of the characteristic is within the permissible range.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Result status</td></tr><tr><td>description</td><td>Indicates whether the measure of the characteristic is within the permissible range.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrresultstatus</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Result status</td></tr><tr><td>description</td><td>Indicates whether the measure of the characteristic is within the permissible range</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqtrresultstatus</td></tr></table>
 
 #### Traits
 
@@ -702,12 +717,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrunit name="wqtrunit">wqtrunit</a>
 
-The unit of measurement of the measure value in the test result.  
+The unit of measurement of the measure value in the test result.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit</td></tr><tr><td>description</td><td>The unit of measurement of the measure value in the test result.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit</td></tr><tr><td>description</td><td>The unit of measurement of the measure value in the test result</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -747,12 +763,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrwaterqualitycharacteristic name="wqtrwaterqualitycharacteristic">wqtrwaterqualitycharacteristic</a>
 
-Indicates the measurable property for which the water sample has been analyzed and measured value provided.  
+Indicates the measurable property for which the water sample has been analyzed and measured value provided.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality characteristic</td></tr><tr><td>description</td><td>Indicates the measurable property for which the water sample has been analyzed and measured value provided.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality characteristic</td></tr><tr><td>description</td><td>Indicates the measurable property for which the water sample has been analyzed and measured value provided</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -792,12 +809,13 @@ First included in: SustainabilityWater/WaterQualityTestResult (this entity)
 
 ### <a href=#wqtrwatersample name="wqtrwatersample">wqtrwatersample</a>
 
-Indicates the details of the water sample collected for the water quality test.  
+Indicates the details of the water sample collected for the water quality test.
+
 First included in: SustainabilityWater/WaterQualityTestResult (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water sample</td></tr><tr><td>description</td><td>Indicates the details of the water sample collected for the water quality test.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water sample</td></tr><tr><td>description</td><td>Indicates the details of the water sample collected for the water quality test</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
