@@ -52,24 +52,25 @@ Unit of measure.
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[unitId](#unitId)|Unique identifier for entity instances|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[statecode](#statecode)|Status of the Unit|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[statuscode](#statuscode)|Reason for the status of the Unit|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[name](#name)|The name of the custom entity.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[baseunit](#baseunit)|The base or primary unit of the unit group that the entity belongs to.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[conversionfactor](#conversionfactor)|Conversion factor to convert to the base unit.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[isbaseunit](#isbaseunit)|Indicates whether the unit is the base unit for the associated unit group.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[shouldValidateCreate](#shouldValidateCreate)|Describes whether the plugin should run validations on create of a unit record. For internal use only.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[unitgroup](#unitgroup)|The ID of the unit group that the unit is associated with.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[baseunit](#baseunit)|The base or primary unit of the unit group that the entity belongs to|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[conversionfactor](#conversionfactor)|Conversion factor to convert to the base unit|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[isbaseunit](#isbaseunit)|Indicates whether the unit is the base unit for the associated unit group|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[shouldValidateCreate](#shouldValidateCreate)|Describes whether the plugin should run validations on create of a unit record. For internal use only|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[unitgroup](#unitgroup)|The ID of the unit group that the unit is associated with|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 
 ### <a href=#unitId name="unitId">unitId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -117,12 +118,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created on</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created on</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -157,12 +159,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified on</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -197,7 +200,7 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Unit  
+Status of the Unit.
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -243,7 +246,8 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Unit  
+Reason for the status of the Unit.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -292,12 +296,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+ 
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import sequence number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import sequence number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -335,7 +340,8 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -375,7 +381,8 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -418,7 +425,8 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -461,12 +469,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#name name="name">name</a>
 
-The name of the custom entity.  
+The name of the custom entity.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -509,7 +518,8 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#baseunit name="baseunit">baseunit</a>
 
-The base or primary unit of the unit group that the entity belongs to.  
+The base or primary unit of the unit group that the entity belongs to.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
@@ -554,12 +564,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#conversionfactor name="conversionfactor">conversionfactor</a>
 
-Conversion factor to convert to the base unit.  
+Conversion factor to convert to the base unit.
+ 
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Conversion factor</td></tr><tr><td>description</td><td>Conversion factor to convert to the base unit.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_conversionfactor</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Conversion factor</td></tr><tr><td>description</td><td>Conversion factor to convert to the base unit</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_conversionfactor</td></tr></table>
 
 #### Traits
 
@@ -597,12 +608,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#isbaseunit name="isbaseunit">isbaseunit</a>
 
-Indicates whether the unit is the base unit for the associated unit group.  
+Indicates whether the unit is the base unit for the associated unit group.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is base unit</td></tr><tr><td>description</td><td>Indicates whether the unit is the base unit for the associated unit group.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_isbaseunit</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Is base unit</td></tr><tr><td>description</td><td>Indicates whether the unit is the base unit for the associated unit group</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_isbaseunit</td></tr></table>
 
 #### Traits
 
@@ -633,12 +645,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#shouldValidateCreate name="shouldValidateCreate">shouldValidateCreate</a>
 
-Describes whether the plugin should run validations on create of a unit record. For internal use only.  
+Describes whether the plugin should run validations on create of a unit record. For internal use only.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Should Validate Create</td></tr><tr><td>description</td><td>Describes whether the plugin should run validations on create of a unit record. For internal use only.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_shouldvalidatecreate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Should Validate Create</td></tr><tr><td>description</td><td>Describes whether the plugin should run validations on create of a unit record, for internal use only</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_shouldvalidatecreate</td></tr></table>
 
 #### Traits
 
@@ -669,12 +682,13 @@ First included in: SustainabilityWater/Unit (this entity)
 
 ### <a href=#unitgroup name="unitgroup">unitgroup</a>
 
-The ID of the unit group that the unit is associated with.  
+The ID of the unit group that the unit is associated with.
+
 First included in: SustainabilityWater/Unit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit group</td></tr><tr><td>description</td><td>The ID of the unit group that the unit is associated with.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Unit group</td></tr><tr><td>description</td><td>The ID of the unit group that the unit is associated with</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
