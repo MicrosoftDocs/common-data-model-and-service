@@ -19,6 +19,8 @@ For more information, see the [Microsoft Cloud for Sustainability water data mod
 
 ## Entities
 
+|Name|Description|
+|---|---|
 |[WaterInstrument](WaterInstrument.md)|Stores the information related to the devices or instruments tracking water in the organization.|
 |[WaterInstrumentConfiguration](WaterInstrumentConfiguration.md)|Entity to describe the configuration of the water flow through each water instrument present in the organization.|
 |[WaterQualityAnalysis](WaterQualityAnalysis.md)|Describes the analysis performed to test a water sample for a certain characteristic.|
