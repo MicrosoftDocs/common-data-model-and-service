@@ -49,11 +49,12 @@ Base-level location to attribute activity data. May contain multiple buildings a
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[facilityId](#facilityId)|Unique identifier for entity instances|<a href="Facility.md" target="_blank">SustainabilityWater/Facility</a>|
-|[facilitywaterstressedarea](#facilitywaterstressedarea)|Indicates whether the facility is located in a water stressed area or not.|<a href="Facility.md" target="_blank">SustainabilityWater/Facility</a>|
+|[facilitywaterstressedarea](#facilitywaterstressedarea)|Indicates whether the facility is located in a water stressed area or not|<a href="Facility.md" target="_blank">SustainabilityWater/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/Facility (this entity)  
 
 #### Properties
@@ -107,7 +108,7 @@ First included in: SustainabilityWater/Facility (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water Stressed Area</td></tr><tr><td>description</td><td>Indicates whether the facility is located in a water stressed area or not.
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water Stressed Area</td></tr><tr><td>description</td><td>Indicates whether the facility is located in a water stressed area or not
 </td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_facilitywaterstressedarea</td></tr></table>
 
 #### Traits
