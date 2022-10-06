@@ -60,7 +60,7 @@ Unit of measure.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
-|[name](#name)|The name of the custom entity.|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
+|[name](#name)|The name of the custom entity|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[baseunit](#baseunit)|The base or primary unit of the unit group that the entity belongs to|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[conversionfactor](#conversionfactor)|Conversion factor to convert to the base unit|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
 |[isbaseunit](#isbaseunit)|Indicates whether the unit is the base unit for the associated unit group|<a href="Unit.md" target="_blank">SustainabilityWater/Unit</a>|
@@ -346,7 +346,7 @@ First included in: SustainabilityWater/Unit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record created on</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record created on</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -387,7 +387,7 @@ First included in: SustainabilityWater/Unit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time zone rule version number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time zone rule version number</td></tr><tr><td>description</td><td>For internal use only</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -431,7 +431,7 @@ First included in: SustainabilityWater/Unit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC conversion time zone code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC conversion time zone code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -524,7 +524,7 @@ First included in: SustainabilityWater/Unit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Base unit</td></tr><tr><td>description</td><td>The base or primary unit of the unit group that the entity belongs to.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Base unit</td></tr><tr><td>description</td><td>The base or primary unit of the unit group that the entity belongs to</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
