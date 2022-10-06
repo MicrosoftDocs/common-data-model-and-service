@@ -11,9 +11,7 @@ ms.author: cdmditeam
 
 # Overview of Cloud for Sustainability water data model (Preview)
 
-Microsoft Cloud for Sustainability empowers organizations to accelerate sustainability progress and business growth by integrating environmental, social, and governance (ESG) capabilities across the Microsoft Cloud portfolio and solutions from our global ecosystem of partners.
-
-The Cloud for Sustainability water data model (Preview) is an addition to the Cloud for Sustainability data model. It is used to import customer activities related to water quantity and quality and reporting of analysis impact.
+The Cloud for Sustainability water data model (Preview) empowers organizations to unify, store and prepare water measurement data from their facilities into a single data model to help meet water sustainability goals. The Cloud for Sustainability water data model (Preview) provides the schema required for storing and linking water quality and quantity measurement data and water sustainability reference data. The schema makes water sustainability data available for use cases such as water sustainability disclosures and regulatory water quality reporting.
 
 For more information, see the [Microsoft Cloud for Sustainability water data model](/industry/sustainability/water-data-model-intro) documentation. The documentation includes [introductory information](/industry/sustainability/water-data-model-intro) about the data model, as well as information about the [required attributes](/industry/sustainability/water-data-model-required-attributes).
 
