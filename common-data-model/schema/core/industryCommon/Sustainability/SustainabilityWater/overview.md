@@ -13,9 +13,9 @@ ms.author: cdmditeam
 
 Microsoft Cloud for Sustainability empowers organizations to accelerate sustainability progress and business growth by integrating environmental, social, and governance (ESG) capabilities across the Microsoft Cloud portfolio and solutions from our global ecosystem of partners.
 
-The Cloud for Sustainability water data model (Preview) is an addition to the Cloud for Sustainability data model. It is used to import customer activities related to water quality and reporting of analysis impact.
+The Cloud for Sustainability water data model (Preview) is an addition to the Cloud for Sustainability data model. It is used to import customer activities related to water quantity and quality and reporting of analysis impact.
 
-For more information, see the [Microsoft Cloud for Sustainability](https://go.microsoft.com/fwlink/?linkid=2193512) documentation. The documentation includes [introductory information](https://go.microsoft.com/fwlink/?linkid=2194529) about the data model, as well as information about the [required attributes](https://go.microsoft.com/fwlink/?linkid=2194273).
+For more information, see the [Microsoft Cloud for Sustainability water data model](/industry/sustainability/water-data-model-intro) documentation. The documentation includes [introductory information](/industry/sustainability/water-data-model-intro) about the data model, as well as information about the [required attributes](/industry/sustainability/water-data-model-required-attributes).
 
 ## Entities
 
