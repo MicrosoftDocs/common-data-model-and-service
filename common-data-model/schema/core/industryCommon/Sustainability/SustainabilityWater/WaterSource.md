@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Water source in Sustainability water (WaterSource)
 
-Entity to store details of sources from/to which water gets withdrawn/discharged  
+Entity to store details of sources from/to which water gets withdrawn/discharged.
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/SustainabilityWater/WaterSource.cdm.json" target="_blank">GitHub</a>.  
 
@@ -51,30 +51,31 @@ Entity to store details of sources from/to which water gets withdrawn/discharged
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[watersourceId](#watersourceId)|Unique identifier for entity instances.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[statecode](#statecode)|Status of the water source.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[statuscode](#statuscode)|Reason for the status of the water source.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[name](#name)||<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcedescription](#watersourcedescription)|Optional field to describe the entity.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourceorigincorrelationid](#watersourceorigincorrelationid)|Optional field to assign an identifier code provided by the origin system.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcesubtype](#watersourcesubtype)|Optional field to further classify the water source type.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcetype](#watersourcetype)|Field used to classify the water source.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
-|[watersourcewaterqualitytype](#watersourcewaterqualitytype)|Describes the quality of the water being withdrawn/discharged from/to the water source.|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[watersourceId](#watersourceId)|Unique identifier for entity instances|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[createdOn](#createdOn)|Date and time when the record was created|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[statecode](#statecode)|Status of the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[statuscode](#statuscode)|Reason for the status of the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[name](#name)|The name of the custom entity|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[watersourcedescription](#watersourcedescription)|Optional field to describe the entity|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[watersourceorigincorrelationid](#watersourceorigincorrelationid)|Optional field to assign an identifier code provided by the origin system|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[watersourcesubtype](#watersourcesubtype)|Optional field to further classify the water source type|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[watersourcetype](#watersourcetype)|Field used to classify the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
+|[watersourcewaterqualitytype](#watersourcewaterqualitytype)|Describes the quality of the water being withdrawn/discharged from/to the water source|<a href="WaterSource.md" target="_blank">SustainabilityWater/WaterSource</a>|
 
 ### <a href=#watersourceId name="watersourceId">watersourceId</a>
 
-Unique identifier for entity instances.  
+Unique identifier for entity instances.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water source</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_watersourceid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water source</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_watersourceid</td></tr></table>
 
 #### Traits
 
@@ -117,12 +118,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created.  
+Date and time when the record was created.
+ 
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
 
 #### Traits
 
@@ -157,12 +159,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified.  
+Date and time when the record was modified.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
 
 #### Traits
 
@@ -197,12 +200,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the water source.  
+Status of the water source.
+  
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water source.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -243,12 +247,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the water source.  
+Reason for the status of the water source.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water source.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -292,12 +297,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record.  
+Sequence number of the import that created this record.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
 
 #### Traits
 
@@ -335,12 +341,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated.  
+Date and time that the record was migrated.
+ 
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -375,12 +382,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only.  
+For internal use only.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -418,12 +426,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created.  
+Time zone code that was in use when the record was created.
+  
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
@@ -461,11 +470,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -508,12 +519,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#watersourcedescription name="watersourcedescription">watersourcedescription</a>
 
-Optional field to describe the entity.  
+Optional field to describe the entity.
+ 
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe the entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcedescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional field to describe the entity</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcedescription</td></tr></table>
 
 #### Traits
 
@@ -556,12 +568,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#watersourceorigincorrelationid name="watersourceorigincorrelationid">watersourceorigincorrelationid</a>
 
-Optional field to assign an identifier code provided by the origin system.  
+Optional field to assign an identifier code provided by the origin system.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to assign an identifier code provided by the origin system.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourceorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to assign an identifier code provided by the origin system</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourceorigincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -604,12 +617,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#watersourcesubtype name="watersourcesubtype">watersourcesubtype</a>
 
-Optional field to further classify the water source type.  
+Optional field to further classify the water source type.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sub-type</td></tr><tr><td>description</td><td>Optional field to further classify the water source type.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcesubtype</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sub-type</td></tr><tr><td>description</td><td>Optional field to further classify the water source type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcesubtype</td></tr></table>
 
 #### Traits
 
@@ -652,12 +666,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#watersourcetype name="watersourcetype">watersourcetype</a>
 
-Field used to classify the water source.  
+Field used to classify the water source.
+ 
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source type</td></tr><tr><td>description</td><td>Field used to classify the water source.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Surface water</td><td>700610000</td></tr><tr><td>en</td><td>Ground water</td><td>700610001</td></tr><tr><td>en</td><td>Sea water</td><td>700610002</td></tr><tr><td>en</td><td>Produced water</td><td>700610003</td></tr><tr><td>en</td><td>Third party water</td><td>700610004</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Source type</td></tr><tr><td>description</td><td>Field used to classify the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcetype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Surface water</td><td>700610000</td></tr><tr><td>en</td><td>Ground water</td><td>700610001</td></tr><tr><td>en</td><td>Sea water</td><td>700610002</td></tr><tr><td>en</td><td>Produced water</td><td>700610003</td></tr><tr><td>en</td><td>Third party water</td><td>700610004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -698,12 +713,13 @@ First included in: SustainabilityWater/WaterSource (this entity)
 
 ### <a href=#watersourcewaterqualitytype name="watersourcewaterqualitytype">watersourcewaterqualitytype</a>
 
-Describes the quality of the water being withdrawn/discharged from/to the water source.  
+Describes the quality of the water being withdrawn/discharged from/to the water source.
+
 First included in: SustainabilityWater/WaterSource (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality type</td></tr><tr><td>description</td><td>Describes the quality of the water being withdrawn/discharged from/to the water source.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcewaterqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fresh water</td><td>700610000</td></tr><tr><td>en</td><td>Other water</td><td>700610001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality type</td></tr><tr><td>description</td><td>Describes the quality of the water being withdrawn/discharged from/to the water source</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_watersourcewaterqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fresh water</td><td>700610000</td></tr><tr><td>en</td><td>Other water</td><td>700610001</td></tr></table></td></tr></table>
 
 #### Traits
 
