@@ -62,7 +62,7 @@ A structural division of a company or organization.
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[name](#name)|The name of the custom entity|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[addresscity](#addresscity)|The city in which the organizational unit is based|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
-|[addresscountryisocode](#addresscountryisocode)|Country/region.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
+|[addresscountryisocode](#addresscountryisocode)|Country/region|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[addresscounty](#addresscounty)|The county in which the organizational unit is based|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[addressstateprovince](#addressstateprovince)|The state or province in which the organizational unit is based|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
 |[addressstreet1](#addressstreet1)|The street address, including the number and street name.|<a href="OrganizationalUnit.md" target="_blank">SustainabilityWater/OrganizationalUnit</a>|
@@ -354,7 +354,7 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record created on</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record created on</td></tr><tr><td>description</td><td>Date and time that the record was migrated</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
 
 #### Traits
 
@@ -395,7 +395,7 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time zone rule version number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time zone rule version number</td></tr><tr><td>description</td><td>For internal use only</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
 
 #### Traits
 
@@ -439,7 +439,7 @@ First included in: SustainabilityWater/OrganizationalUnit (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC conversion time zone code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC conversion time zone code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
 
 #### Traits
 
