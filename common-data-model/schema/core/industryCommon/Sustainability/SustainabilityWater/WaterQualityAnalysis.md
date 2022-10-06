@@ -61,12 +61,12 @@ Describes the analysis performed to test a water sample for a certain characteri
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 |[name](#name)|The name of the custom entity|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqaanalysismethod](#wqaanalysismethod)|Indicates the type of analysis performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqaanalysisstartdate](#wqaanalysisstartdate)|Indicates the date and time at which the water quality analysis started|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqadescription](#wqadescription)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqalaboratorycomments](#wqalaboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqalaboratoryname](#wqalaboratoryname)|Indicates the name of the lab that carried out the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
-|[wqaorigincorrelationid](#wqaorigincorrelationid)|Optional field to store the source unique identifier for the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[analysismethod](#analysismethod)|Indicates the type of analysis performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[analysisstartdate](#analysisstartdate)|Indicates the date and time at which the water quality analysis started|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[laboratorycomments](#laboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the water quality analysis|<a href="WaterQualityAnalysis.md" target="_blank">SustainabilityWater/WaterQualityAnalysis</a>|
 
 ### <a href=#waterqualityanalysisId name="waterqualityanalysisId">waterqualityanalysisId</a>
 
@@ -518,7 +518,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 </details>
 
-### <a href=#wqaanalysismethod name="wqaanalysismethod">wqaanalysismethod</a>
+### <a href=#analysismethod name="analysismethod">analysismethod</a>
 
 Indicates the type of analysis performed.
   
@@ -526,12 +526,12 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis method</td></tr><tr><td>description</td><td>Indicates the type of analysis performed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaanalysismethod</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis method</td></tr><tr><td>description</td><td>Indicates the type of analysis performed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_analysismethod</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqaanalysismethod attribute are listed below.</summary>
+<summary>List of traits for the analysismethod attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -556,7 +556,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqaanalysismethod"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_analysismethod"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
@@ -567,7 +567,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 </details>
 
-### <a href=#wqaanalysisstartdate name="wqaanalysisstartdate">wqaanalysisstartdate</a>
+### <a href=#analysisstartdate name="analysisstartdate">analysisstartdate</a>
 
 Indicates the date and time at which the water quality analysis started.
 
@@ -575,12 +575,12 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis start date</td></tr><tr><td>description</td><td>Indicates the date and time at which the water quality analysis started</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaanalysisstartdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis start date</td></tr><tr><td>description</td><td>Indicates the date and time at which the water quality analysis started</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_analysisstartdate</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqaanalysisstartdate attribute are listed below.</summary>
+<summary>List of traits for the analysisstartdate attribute are listed below.</summary>
 
 **is.dataFormat.date**  
   **means.measurement.date**  
@@ -599,7 +599,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqaanalysisstartdate"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_analysisstartdate"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
@@ -608,7 +608,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   **is.dataFormat.date**  
   </details>
 
-### <a href=#wqadescription name="wqadescription">wqadescription</a>
+### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.
 
@@ -616,12 +616,12 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqadescription</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqadescription attribute are listed below.</summary>
+<summary>List of traits for the description attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -646,7 +646,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqadescription"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
@@ -657,7 +657,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 </details>
 
-### <a href=#wqalaboratorycomments name="wqalaboratorycomments">wqalaboratorycomments</a>
+### <a href=#laboratorycomments name="laboratorycomments">laboratorycomments</a>
 
 Optional field to provide the comments from the lab regarding the analysis method being performed.
 
@@ -665,12 +665,12 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory comments</td></tr><tr><td>description</td><td>Optional field to provide the comments from the lab regarding the analysis method being performed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqalaboratorycomments</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory comments</td></tr><tr><td>description</td><td>Optional field to provide the comments from the lab regarding the analysis method being performed</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_laboratorycomments</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqalaboratorycomments attribute are listed below.</summary>
+<summary>List of traits for the laboratorycomments attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -695,7 +695,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqalaboratorycomments"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_laboratorycomments"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
@@ -706,7 +706,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 </details>
 
-### <a href=#wqalaboratoryname name="wqalaboratoryname">wqalaboratoryname</a>
+### <a href=#laboratoryname name="laboratoryname">laboratoryname</a>
 
 Indicates the name of the lab that carried out the water quality analysis.
 
@@ -714,12 +714,12 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory name</td></tr><tr><td>description</td><td>Indicates the name of the lab that carried out the water quality analysis.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqalaboratoryname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory name</td></tr><tr><td>description</td><td>Indicates the name of the lab that carried out the water quality analysis.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_laboratoryname</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqalaboratoryname attribute are listed below.</summary>
+<summary>List of traits for the laboratoryname attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -744,7 +744,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqalaboratoryname"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_laboratoryname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
@@ -755,7 +755,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 </details>
 
-### <a href=#wqaorigincorrelationid name="wqaorigincorrelationid">wqaorigincorrelationid</a>
+### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store the source unique identifier for the water quality analysis.
 
@@ -763,12 +763,12 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for the water quality analysis</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wqaorigincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for the water quality analysis</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the wqaorigincorrelationid attribute are listed below.</summary>
+<summary>List of traits for the origincorrelationid attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -793,7 +793,7 @@ First included in: SustainabilityWater/WaterQualityAnalysis (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wqaorigincorrelationid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
