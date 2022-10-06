@@ -60,9 +60,9 @@ Stores the actual quantity information from water transactions within the organi
 |[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[transactionstartdate](#transactionstartdate)|Indicates the date and time at which the transaction recording started|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[waterquantityevidence](#waterquantityevidence)|Optional field to indicate the origin for the water quantity data|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[waterquantityunit](#waterquantityunit)|Indicates the unit of measurement for the water transaction|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[waterquantitywaterinstrument](#waterquantitywaterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[evidence](#evidence)|Optional field to indicate the origin for the water quantity data|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[unit](#unit)|Indicates the unit of measurement for the water transaction|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[waterinstrument](#waterinstrument)|Describes the corresponding water instrument for which the water quantity information is being recorded|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 
 ### <a href=#waterquantityId name="waterquantityId">waterquantityId</a>
 
@@ -597,7 +597,7 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
   **is.dataFormat.date**  
   </details>
 
-### <a href=#waterquantityevidence name="waterquantityevidence">waterquantityevidence</a>
+### <a href=#evidence name="evidence">evidence</a>
 
 Optional field to indicate the origin for the water quantity data.
   
@@ -605,12 +605,12 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Evidence</td></tr><tr><td>description</td><td>Optional field to indicate the origin for the water quantity data</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterquantityevidence</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Evidence</td></tr><tr><td>description</td><td>Optional field to indicate the origin for the water quantity data</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_evidence</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterquantityevidence attribute are listed below.</summary>
+<summary>List of traits for the evidence attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -635,7 +635,7 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterquantityevidence"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_evidence"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
@@ -646,7 +646,7 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 </details>
 
-### <a href=#waterquantityunit name="waterquantityunit">waterquantityunit</a>
+### <a href=#unit name="unit">unit</a>
 
 Indicates the unit of measurement for the water transaction.
 
@@ -659,7 +659,7 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the waterquantityunit attribute are listed below.</summary>
+<summary>List of traits for the unit attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -692,7 +692,7 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 
 </details>
 
-### <a href=#waterquantitywaterinstrument name="waterquantitywaterinstrument">waterquantitywaterinstrument</a>
+### <a href=#waterinstrument name="waterinstrument">waterinstrument</a>
 
 Describes the corresponding water instrument for which the water quantity information is being recorded.
   
@@ -705,7 +705,7 @@ First included in: SustainabilityWater/WaterQuantity (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the waterquantitywaterinstrument attribute are listed below.</summary>
+<summary>List of traits for the waterinstrument attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
