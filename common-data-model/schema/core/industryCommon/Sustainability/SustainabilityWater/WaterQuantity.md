@@ -48,14 +48,14 @@ Stores the actual quantity information from water transactions within the organi
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterquantityId](#waterquantityId)|Unique identifier for entity instances.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[waterquantityId](#waterquantityId)|Unique identifier for entity instances|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[partitionId](#partitionId)|Logical partition ID; a logical partition consists of a set of records with same partition ID|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
-|[name](#name)||<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
+|[name](#name)|The name of the custom entity|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[quantity](#quantity)|Indicates the actual quantity of water that was part of the transaction|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
 |[transactionenddate](#transactionenddate)|Indicates the date and time at which the transaction recording ended|<a href="WaterQuantity.md" target="_blank">SustainabilityWater/WaterQuantity</a>|
