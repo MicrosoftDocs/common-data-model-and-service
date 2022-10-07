@@ -1,5 +1,5 @@
 ---
-title: Facility in Sustainability - Common Data Model | Microsoft Docs
+title: Facility in Sustainability water - Common Data Model | Microsoft Docs
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,11 +9,11 @@ ms.date: 10/5/2022
 ms.author: cdmditeam
 ---
 
-# Facility in Sustainability
+# Facility in Sustainability water
 
 Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/Facility.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/SustainabilityWater/Facility.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,13 +48,14 @@ Base-level location to attribute activity data. May contain multiple buildings a
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityId](#facilityId)|Unique identifier for entity instances|<a href="Facility.md" target="_blank">Sustainability/Facility</a>|
-|[waterstressedarea](#waterstressedarea)|Indicates whether the facility is located in a water stressed area or not.|<a href="Facility.md" target="_blank">Sustainability/Facility</a>|
+|[facilityId](#facilityId)|Unique identifier for entity instances|<a href="Facility.md" target="_blank">SustainabilityWater/Facility</a>|
+|[waterstressedarea](#waterstressedarea)|Indicates whether the facility is located in a water stressed area or not|<a href="Facility.md" target="_blank">SustainabilityWater/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
-Unique identifier for entity instances  
-First included in: Sustainability/Facility (this entity)  
+Unique identifier for entity instances.
+
+First included in: SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
@@ -103,11 +104,11 @@ First included in: Sustainability/Facility (this entity)
 
 Indicates whether the facility is located in a water stressed area or not.
   
-First included in: Sustainability/Facility (this entity)  
+First included in: SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water Stressed Area</td></tr><tr><td>description</td><td>Indicates whether the facility is located in a water stressed area or not.
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water Stressed Area</td></tr><tr><td>description</td><td>Indicates whether the facility is located in a water stressed area or not
 </td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterstressedarea</td></tr></table>
 
 #### Traits

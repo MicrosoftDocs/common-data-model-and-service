@@ -1,15 +1,15 @@
 ---
 title: FactorMapping in Sustainability - Common Data Model | Microsoft Docs
 description: Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.
-author: matgos
+author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 5/12/2022
-ms.author: matgos
+ms.date: 10/5/2022
+ms.author: cdmditeam
 ---
 
-# Factor mapping in Sustainability(FactorMapping)
+# Factor mapping in Sustainability (FactorMapping)
 
 Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.  
   
@@ -31,7 +31,7 @@ Entity which connects reference data to a specific emission factor or estimation
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorMapping/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/FactorMapping.cdm.json<br>/FactorMapping/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/FactorMapping.cdm.json/FactorMapping<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -65,8 +65,14 @@ Entity which connects reference data to a specific emission factor or estimation
 |[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
 |[factorid](#factorid)|Unique identifier of the factor associated with the factor mapping.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
 |[factoridType](#factoridType)|Unique identifier of the factor associated with the factor mapping.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
+|[referencedata4id](#referencedata4id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
+|[referencedata4idType](#referencedata4idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
 |[referencedataid](#referencedataid)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
 |[referencedataidType](#referencedataidType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
+|[referencedata3id](#referencedata3id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
+|[referencedata3idType](#referencedata3idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
+|[referencedata2id](#referencedata2id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
+|[referencedata2idType](#referencedata2idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FactorMapping.md" target="_blank">Sustainability/FactorMapping</a>|
 
 ### <a href=#emissionlookupId name="emissionlookupId">emissionlookupId</a>
@@ -545,7 +551,7 @@ First included in: Sustainability/FactorMapping (this entity)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="FactorLibrary.md" target="_blank">FactorLibrary.cdm.json/FactorLibrary</a></td><td><a href="FactorLibrary.md#calculationlibraryId" target="_blank">calculationlibraryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../FactorLibrary.md" target="_blank">FactorLibrary.cdm.json/FactorLibrary</a></td><td><a href="../../FactorLibrary.md#calculationlibraryId" target="_blank">calculationlibraryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
@@ -561,7 +567,7 @@ First included in: Sustainability/FactorMapping (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -585,7 +591,7 @@ First included in: Sustainability/FactorMapping (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
 
 **is.nullable**  
   The attribute value may be set to NULL.  
@@ -626,7 +632,7 @@ First included in: Sustainability/FactorMapping (this entity)
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="EmissionFactor.md" target="_blank">EmissionFactor.cdm.json/EmissionFactor</a></td><td><a href="EmissionFactor.md#emissionfactorId" target="_blank">emissionfactorId</a></td></tr><tr><td><a href="EstimationFactor.md" target="_blank">EstimationFactor.cdm.json/EstimationFactor</a></td><td><a href="EstimationFactor.md#estimationfactorId" target="_blank">estimationfactorId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../EmissionFactor.md" target="_blank">EmissionFactor.cdm.json/EmissionFactor</a></td><td><a href="../../EmissionFactor.md#emissionfactorId" target="_blank">emissionfactorId</a></td></tr><tr><td><a href="../../EstimationFactor.md" target="_blank">EstimationFactor.cdm.json/EstimationFactor</a></td><td><a href="../../EstimationFactor.md#estimationfactorId" target="_blank">estimationfactorId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the factor associated with the factor mapping.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -680,6 +686,84 @@ First included in: Sustainability/FactorMapping (this entity)
 
 </details>
 
+### <a href=#referencedata4id name="referencedata4id">referencedata4id</a>
+
+Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
+First included in: Sustainability/FactorMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference data four</td></tr><tr><td>description</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the referencedata4id attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="../../AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr><tr><td><a href="../../BusinessTravelType.md" target="_blank">BusinessTravelType.cdm.json/BusinessTravelType</a></td><td><a href="../../BusinessTravelType.md#businesstraveltypeId" target="_blank">businesstraveltypeId</a></td></tr><tr><td><a href="../../ContractualInstrumentType.md" target="_blank">ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="../../ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr><tr><td><a href="../../DisposalMethod.md" target="_blank">DisposalMethod.cdm.json/DisposalMethod</a></td><td><a href="../../DisposalMethod.md#disposalmethodId" target="_blank">disposalmethodId</a></td></tr><tr><td><a href="../../Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="../../Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="../../FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../../FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="../../FuelType.md" target="_blank">FuelType.cdm.json/FuelType</a></td><td><a href="../../FuelType.md#fueltypeId" target="_blank">fueltypeId</a></td></tr><tr><td><a href="../../IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../../IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="../../Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="../../Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="../../MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="../../MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="../../SpendType.md" target="_blank">SpendType.cdm.json/SpendType</a></td><td><a href="../../SpendType.md#spendtypeId" target="_blank">spendtypeId</a></td></tr><tr><td><a href="../../OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../../OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="../../TransportMode.md" target="_blank">TransportMode.cdm.json/TransportMode</a></td><td><a href="../../TransportMode.md#transportmodeId" target="_blank">transportmodeId</a></td></tr><tr><td><a href="../../ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../../ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr><tr><td><a href="../../VehicleType.md" target="_blank">VehicleType.cdm.json/VehicleType</a></td><td><a href="../../VehicleType.md#vehicletypeId" target="_blank">vehicletypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference data four</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#referencedata4idType name="referencedata4idType">referencedata4idType</a>
+
+Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
+First included in: Sustainability/FactorMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference data four</td></tr><tr><td>description</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the referencedata4idType attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**means.entityName**  
+  a string value is the name of a CDM entity.  
+
+**is.linkedEntity.name**  
+  Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.  
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference data four</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#referencedataid name="referencedataid">referencedataid</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
@@ -704,7 +788,7 @@ First included in: Sustainability/FactorMapping (this entity)
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr><tr><td><a href="BusinessTravelType.md" target="_blank">BusinessTravelType.cdm.json/BusinessTravelType</a></td><td><a href="BusinessTravelType.md#businesstraveltypeId" target="_blank">businesstraveltypeId</a></td></tr><tr><td><a href="ContractualInstrumentType.md" target="_blank">ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FuelType.md" target="_blank">FuelType.cdm.json/FuelType</a></td><td><a href="FuelType.md#fueltypeId" target="_blank">fueltypeId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="SpendType.md" target="_blank">SpendType.cdm.json/SpendType</a></td><td><a href="SpendType.md#spendtypeId" target="_blank">spendtypeId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="TransportMode.md" target="_blank">TransportMode.cdm.json/TransportMode</a></td><td><a href="TransportMode.md#transportmodeId" target="_blank">transportmodeId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr><tr><td><a href="VehicleType.md" target="_blank">VehicleType.cdm.json/VehicleType</a></td><td><a href="VehicleType.md#vehicletypeId" target="_blank">vehicletypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="../../AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr><tr><td><a href="../../BusinessTravelType.md" target="_blank">BusinessTravelType.cdm.json/BusinessTravelType</a></td><td><a href="../../BusinessTravelType.md#businesstraveltypeId" target="_blank">businesstraveltypeId</a></td></tr><tr><td><a href="../../ContractualInstrumentType.md" target="_blank">ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="../../ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr><tr><td><a href="../../DisposalMethod.md" target="_blank">DisposalMethod.cdm.json/DisposalMethod</a></td><td><a href="../../DisposalMethod.md#disposalmethodId" target="_blank">disposalmethodId</a></td></tr><tr><td><a href="../../Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="../../Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="../../FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../../FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="../../FuelType.md" target="_blank">FuelType.cdm.json/FuelType</a></td><td><a href="../../FuelType.md#fueltypeId" target="_blank">fueltypeId</a></td></tr><tr><td><a href="../../IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../../IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="../../Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="../../Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="../../MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="../../MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="../../SpendType.md" target="_blank">SpendType.cdm.json/SpendType</a></td><td><a href="../../SpendType.md#spendtypeId" target="_blank">spendtypeId</a></td></tr><tr><td><a href="../../OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../../OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="../../TransportMode.md" target="_blank">TransportMode.cdm.json/TransportMode</a></td><td><a href="../../TransportMode.md#transportmodeId" target="_blank">transportmodeId</a></td></tr><tr><td><a href="../../ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../../ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr><tr><td><a href="../../VehicleType.md" target="_blank">VehicleType.cdm.json/VehicleType</a></td><td><a href="../../VehicleType.md#vehicletypeId" target="_blank">vehicletypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -758,6 +842,162 @@ First included in: Sustainability/FactorMapping (this entity)
 
 </details>
 
+### <a href=#referencedata3id name="referencedata3id">referencedata3id</a>
+
+Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
+First included in: Sustainability/FactorMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference data three</td></tr><tr><td>description</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the referencedata3id attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="../../AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr><tr><td><a href="../../BusinessTravelType.md" target="_blank">BusinessTravelType.cdm.json/BusinessTravelType</a></td><td><a href="../../BusinessTravelType.md#businesstraveltypeId" target="_blank">businesstraveltypeId</a></td></tr><tr><td><a href="../../ContractualInstrumentType.md" target="_blank">ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="../../ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr><tr><td><a href="../../DisposalMethod.md" target="_blank">DisposalMethod.cdm.json/DisposalMethod</a></td><td><a href="../../DisposalMethod.md#disposalmethodId" target="_blank">disposalmethodId</a></td></tr><tr><td><a href="../../Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="../../Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="../../FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../../FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="../../FuelType.md" target="_blank">FuelType.cdm.json/FuelType</a></td><td><a href="../../FuelType.md#fueltypeId" target="_blank">fueltypeId</a></td></tr><tr><td><a href="../../IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../../IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="../../Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="../../Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="../../MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="../../MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="../../SpendType.md" target="_blank">SpendType.cdm.json/SpendType</a></td><td><a href="../../SpendType.md#spendtypeId" target="_blank">spendtypeId</a></td></tr><tr><td><a href="../../OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../../OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="../../TransportMode.md" target="_blank">TransportMode.cdm.json/TransportMode</a></td><td><a href="../../TransportMode.md#transportmodeId" target="_blank">transportmodeId</a></td></tr><tr><td><a href="../../ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../../ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr><tr><td><a href="../../VehicleType.md" target="_blank">VehicleType.cdm.json/VehicleType</a></td><td><a href="../../VehicleType.md#vehicletypeId" target="_blank">vehicletypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference data three</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#referencedata3idType name="referencedata3idType">referencedata3idType</a>
+
+Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
+First included in: Sustainability/FactorMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference data three</td></tr><tr><td>description</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the referencedata3idType attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**means.entityName**  
+  a string value is the name of a CDM entity.  
+
+**is.linkedEntity.name**  
+  Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.  
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference data three</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#referencedata2id name="referencedata2id">referencedata2id</a>
+
+Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
+First included in: Sustainability/FactorMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference data two</td></tr><tr><td>description</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the referencedata2id attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="../../AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr><tr><td><a href="../../BusinessTravelType.md" target="_blank">BusinessTravelType.cdm.json/BusinessTravelType</a></td><td><a href="../../BusinessTravelType.md#businesstraveltypeId" target="_blank">businesstraveltypeId</a></td></tr><tr><td><a href="../../ContractualInstrumentType.md" target="_blank">ContractualInstrumentType.cdm.json/ContractualInstrumentType</a></td><td><a href="../../ContractualInstrumentType.md#contractualinstrumenttypeId" target="_blank">contractualinstrumenttypeId</a></td></tr><tr><td><a href="../../DisposalMethod.md" target="_blank">DisposalMethod.cdm.json/DisposalMethod</a></td><td><a href="../../DisposalMethod.md#disposalmethodId" target="_blank">disposalmethodId</a></td></tr><tr><td><a href="../../Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="../../Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="../../FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="../../FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="../../FuelType.md" target="_blank">FuelType.cdm.json/FuelType</a></td><td><a href="../../FuelType.md#fueltypeId" target="_blank">fueltypeId</a></td></tr><tr><td><a href="../../IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../../IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="../../Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="../../Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="../../MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="../../MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="../../SpendType.md" target="_blank">SpendType.cdm.json/SpendType</a></td><td><a href="../../SpendType.md#spendtypeId" target="_blank">spendtypeId</a></td></tr><tr><td><a href="../../OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../../OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="../../TransportMode.md" target="_blank">TransportMode.cdm.json/TransportMode</a></td><td><a href="../../TransportMode.md#transportmodeId" target="_blank">transportmodeId</a></td></tr><tr><td><a href="../../ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../../ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr><tr><td><a href="../../VehicleType.md" target="_blank">VehicleType.cdm.json/VehicleType</a></td><td><a href="../../VehicleType.md#vehicletypeId" target="_blank">vehicletypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference data two</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#referencedata2idType name="referencedata2idType">referencedata2idType</a>
+
+Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
+First included in: Sustainability/FactorMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference data two</td></tr><tr><td>description</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the referencedata2idType attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**means.entityName**  
+  a string value is the name of a CDM entity.  
+
+**is.linkedEntity.name**  
+  Marks an attribute that contains the entity name or 'class' for the situation where one entity links to (uses as an attribute) a set of possible entities.  
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference data two</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
@@ -798,7 +1038,7 @@ First included in: Sustainability/FactorMapping (this entity)
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
