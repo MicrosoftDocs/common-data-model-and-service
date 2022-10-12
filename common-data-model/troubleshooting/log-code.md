@@ -87,7 +87,6 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistSymsAttrConversionError**| SDK logs this error while reading from SyMS when SyMS storage descriptor or its column received was null. Check SyMS database.
 |**ErrPersistSymsEntityFetchError**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was invalid. Check entity paths in manifest.
 |**ErrPersistSymsEntityPathNull**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was null. Check if entity path is missing in the manifest.
-|**ErrPersistSymsPartitionNotSupported**| SDK logs this error while reading from SyMS when it encounters spark data partition, which isn't supported in CDM currently.
 |**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it fails to create a SyMS entity object from CDM entity declaration. Check the exception message and prior errors reported in the log.
 |**ErrPersistSymsEntityDeclConversionException**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration because of unexpected exception. Check exception message.
 |**ErrPersistSymsMultipleOrZeroTableDefinition**| SDK supports only one entity definition in document for CDM-SyMs conversion.
