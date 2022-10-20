@@ -87,13 +87,13 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrPersistSymsAttrConversionError**| SDK logs this error while reading from SyMS when SyMS storage descriptor or its column received was null. Check SyMS database.
 |**ErrPersistSymsEntityFetchError**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was invalid. Check entity paths in manifest.
 |**ErrPersistSymsEntityPathNull**| SDK logs this error when it fails to fetch entity before writing to SyMS because entity path was null. Check if entity path is missing in the manifest.
-|**ErrPersistSymsPartitionNotSupported**| SDK logs this error while reading from SyMS when it encounters spark data partition, which isn't supported in CDM currently.
 |**ErrPersistSymsEntityDeclConversionFailure**| SDK logs this error when it fails to create a SyMS entity object from CDM entity declaration. Check the exception message and prior errors reported in the log.
 |**ErrPersistSymsEntityDeclConversionException**| SDK logs this error when it fails to create an SyMS entity object from CDM entity declaration because of unexpected exception. Check exception message.
 |**ErrPersistSymsMultipleOrZeroTableDefinition**| SDK supports only one entity definition in document for CDM-SyMs conversion.
 |**ErrPersistSymsInvalidDbPropObject**| SDK logs this error when it gets null database or database location from SyMS.
 |**ErrPersistSymsInvalidDbObject**| SDK logs this error when it expect database type object but receive different type of object other than table from SyMS.
 |**ErrPersistSymsIncompatibleFileToType**| SDK logs this error when SyMS returns file type and format which are incompatible with each other. Please check SyMS database metadata and error message returned from caller.
+|**ErrPersistSymsRelationshipTypeNotSupported**| SDK logs this error when it finds a relationship type that is not supported by the SyMS persistence layer.
 |**ErrPersistSymsStorageSourceTraitError**| SDK logs this error when is.storagesource trait was missing from manifest. This trait is mandatory trait for writing into SyMS. To avoid this error please add this trait in manifest.
 |**ErrPersistSymsTableFormatTypeNotSupported**|  SDK logs this error when it encounters format type other than CSV and Parquet from SyMS.
 |**ErrPersistSymsTableInvalidDataLocation**| SDK logs this error when it finds invalid or null data partitions or patterns in SyMS.
@@ -120,7 +120,6 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrResolveManifestFailed**|This error is logged when the manifest for which resolution was requested has not been placed in a folder yet. Before calling CreateResolvedManifestAsync API, add the manifest to a CdmFolderDefinition representing the folder where this manifest should reside.
 |**ErrResolveNewEntityNameNotSet**|SDK logs this error when new entity name has not been provided to CreateResolvedEntityAsync call.
 |**ErrResolveReferenceFailure**|This error is logged during indexing of a document, when an object reference cannot be resolved to any known objects, and the ResolveOptions.ShallowValidation is set to False. Usual causes of this error are missing import of the document containing the object definition or misspelled object name.
-
 |**ErrStorageAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given corpus path is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound. A
 |**ErrStorageFolderNotFound**|SDK logs this error when there is no folder exist from the given nampespace.
 |**ErrStorageInvalidPathFormat**|SDK raises this error when the path does not start with '.\' or contains '..\' or '\.\'.
