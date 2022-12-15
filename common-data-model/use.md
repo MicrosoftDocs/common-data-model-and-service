@@ -39,7 +39,7 @@ As opposed to building a new data model for your app, you can simply
 re-use the entity definitions available to you. Common Data Model can be used by
 various applications and services including Microsoft Dataverse, Dynamics 365,
 Microsoft Power Platform, and Azure ensuring that all of your services can access the same
-data. Common Data Model is already available to many customers a great example
+data. Common Data Model is already available to many customers. A great example
 of how Common Data Model can be leveraged is with the data-preparation
 capabilities in Power BI dataflows that creates data files which follow the
 Common Data Model definition, which is stored in Azure Data Lake. The Common
@@ -123,7 +123,7 @@ common format so that you can use, share, and analyze it more easily.
 -   [Exporting Dataverse data to Azure Data
     Lake](/powerapps/maker/common-data-service/export-to-data-lake)
 
-## Export data from Dataverse into Azure Data 
+## Export data from Dataverse into Azure Data Lake
 -------------------------------------------------------------------------
 
 -   Simple and intuitive interface to enable and administer replicated entities.
@@ -144,7 +144,7 @@ common format so that you can use, share, and analyze it more easily.
 >   Learn more: [Exporting Dataverse data to Azure Data
 >   Lake](/powerapps/maker/common-data-service/export-to-data-lake)
 
-## Export data from Dynamics 365 Finance and Operations into Azure Data 
+## Export data from Dynamics 365 Finance and Operations into Azure Data Lake
 
 You can configure your Dynamics 365 Finance and Operations environment with an
 Azure Data Lake in your own subscription. After the configuration is completed,
