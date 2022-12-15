@@ -5188,9 +5188,9 @@
         - name: Summary
           href: operationsCommon/Entities/HumanResources/HRM/overview.md
         - name: CourseParticipantStatusByEmailMserp 
-          href: core/operationsCommon/Entities/HumanResources/HRM/CourseParticipantStatusByEmailMserp.md
+          href: operationsCommon/Entities/HumanResources/HRM/CourseParticipantStatusByEmailMserp.md
         - name: CoursesMserp 
-          href: core/operationsCommon/Entities/HumanResources/HRM/CoursesMserp.md
+          href: operationsCommon/Entities/HumanResources/HRM/CoursesMserp.md
         - name: EmplPostingEntity_W 
           href: operationsCommon/Entities/HumanResources/HRM/EmplPostingEntity_W.md
         - name: HcmApplicantProjectRoleEntity 
@@ -5334,7 +5334,7 @@
         - name: PayrollPayPeriodEntity 
           href: operationsCommon/Entities/HumanResources/HRM/PayrollPayPeriodEntity.md
         - name: VirtualCoursesMserp 
-          href: core/operationsCommon/Entities/HumanResources/HRM/VirtualCoursesMserp.md
+          href: operationsCommon/Entities/HumanResources/HRM/VirtualCoursesMserp.md
       - name: Payroll
         items:
         - name: Summary
