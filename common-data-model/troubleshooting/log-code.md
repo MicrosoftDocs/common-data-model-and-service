@@ -16,7 +16,8 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 ## Errors 
 |Enum|Description|
 |---|---|
-|**ErrAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given document is part of, but couldn't find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound
+|**ErrAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given document is part of, but couldn't find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound.
+|**ErrCycleInObjectDefinition**|SDK detected an object definition containing a cycle. This happens when an object definition tries to extend from itself.
 |**ErrDocAdapterNotFound**|SDK attempted to obtain adapter associated with the namespace that the given document is part of, but couldn't find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound.
 |**ErrDocEntityDocSavingFailure**|SDK was unable to save documents containing definitions of local or partition-specialized entities. This error is usually reported after errors ErrValdnInvalidCorpusPath, ErrPersistObjectNotFound, and ErrDocEntityDocSavingFailure.
 |**ErrDocEntityReplacementFailure**|This error occurs during resolution of an entity if the document where the resolved entity is going to be saved already exists. To avoid this error, you can specify non-conflicting resolved document name (if calling `CreateResolvedEntityAsync`) or document rename pattern (if calling `CreateResolvedManifestAsync`).
