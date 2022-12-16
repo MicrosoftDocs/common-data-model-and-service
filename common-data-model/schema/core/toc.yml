@@ -5187,6 +5187,10 @@
         items:
         - name: Summary
           href: operationsCommon/Entities/HumanResources/HRM/overview.md
+        - name: CourseParticipantStatusByEmailMserp 
+          href: operationsCommon/Entities/HumanResources/HRM/CourseParticipantStatusByEmailMserp.md
+        - name: CoursesMserp 
+          href: operationsCommon/Entities/HumanResources/HRM/CoursesMserp.md
         - name: EmplPostingEntity_W 
           href: operationsCommon/Entities/HumanResources/HRM/EmplPostingEntity_W.md
         - name: HcmApplicantProjectRoleEntity 
@@ -5329,6 +5333,8 @@
           href: operationsCommon/Entities/HumanResources/HRM/PayrollPayCycleEntity.md
         - name: PayrollPayPeriodEntity 
           href: operationsCommon/Entities/HumanResources/HRM/PayrollPayPeriodEntity.md
+        - name: VirtualCoursesMserp 
+          href: operationsCommon/Entities/HumanResources/HRM/VirtualCoursesMserp.md
       - name: Payroll
         items:
         - name: Summary
