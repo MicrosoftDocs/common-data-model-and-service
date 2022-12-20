@@ -53,7 +53,7 @@
       "recommendations": true
     },
     "fileMetadata": {
-      "ms.service": {
+      "ms.prod": {
         "**.*": "common-data-model"
       }
     },
