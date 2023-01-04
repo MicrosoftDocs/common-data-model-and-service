@@ -3404,7 +3404,7 @@ None
 
 | **Name** | **Type** | **Required** |
 |--|--|--|
-|type|string|True
+|value|bigInteger|True
 
 
 ## <a id="is-readonly"><b>is.readOnly</b></a>
