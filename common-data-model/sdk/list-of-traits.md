@@ -3410,34 +3410,6 @@ None
 ## <a id="is-readonly"><b>is.readOnly</b></a>
 
 
-
-**Description**
-
-
-The base trait for describing incremental partitions and incremental partition patterns.
-
-
-| Inheritance |
-|--|
-|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.incremental</b>|
-
-
-**Properties**
-
-None
-
-**Parameters**
-
-| **Name** | **Type** | **Required** |
-|--|--|--|
-|type|string|True
-|incrementPartitionPatternName|string|False
-|fullDataPartitionPatternNa|string|False
-
-
-## <a id="is-readonly"><b>is.readOnly</b></a>
-
-
 | Inheritance |
 |--|
 |[<b>is</b>](#is) <- <b>is.readOnly</b>|
