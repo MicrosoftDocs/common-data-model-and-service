@@ -3379,6 +3379,34 @@ None
 |fullDataPartitionPatternName|string|False
 
 
+## <a id="is-partition-size"><b>is.partition.size</b></a>
+
+
+**Description**
+
+
+The value is the file size of a partition file.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.size</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|type|string|True
+
+
 ## <a id="is-readonly"><b>is.readOnly</b></a>
 
 
