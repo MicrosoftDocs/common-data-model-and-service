@@ -3330,7 +3330,7 @@ None
 **Description**
 
 
-The value is the file format settings of a partition JSON file.
+The value is the file format settings of a partition JSON file. The "type" parameter value must be one of the following: "single", "lines", "concatenated", or "array". See [this link](https://learn.microsoft.com/en-us/azure/data-factory/format-json#json-file-patterns) for more information.
 
 
 | Inheritance |
