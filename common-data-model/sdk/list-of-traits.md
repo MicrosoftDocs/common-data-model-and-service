@@ -3385,7 +3385,7 @@ None
 **Description**
 
 
-The value is the file size of a partition file.
+The value is the file size of a partition file in bytes.
 
 
 **Inheritance**

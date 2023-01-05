@@ -43,5 +43,6 @@ public class SymsAdapter extends NetworkAdapter
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapterBase.ComputeLastModifiedTimeAsync(...)](storageadapterbase.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**| Gets all tables as a list from SyMS database.|Task\<List\<string>>|
+|**FetchAllFilesMetadataAsync(string)**|See [StorageAdapterBase.FetchAllFilesMetadataAsync(...)](storageadapterbase.md#methods).|Task\<IDictionary\<string, CdmFileMetadata>>|
 |**FetchConfig()**|See [StorageAdapterBase.FetchConfig()](storageadapterbase.md#methods).|string|
 |**UpdateConfig(string)**|See [StorageAdapterBase.UpdateConfig(...)](storageadapterbase.md#methods).|void|
