@@ -1,7 +1,7 @@
 ---
 title: File Metadata | Microsoft Docs
 description: API reference for FileMetadata.
-author: jinichu
+author: mafrisci
 
 ms.reviewer: deonhe 
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: mafrisci
 
 # File Metadata
 
-File status check options are options to be used when calling FetchAllFilesAsync from a [Storage Adapter](../storage/storageadapter.md) on a CDM object.
+File metadata is an object that holds metadata information about a file fetched from a [Storage Adapter](../storage/storageadapter.md) such as file size.
 
 ```csharp
 public class CdmFileMetadata
