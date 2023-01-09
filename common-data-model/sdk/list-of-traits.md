@@ -3404,32 +3404,32 @@ None
 |fullDataPartitionPatternName|string|False
 
 
-## <a id="is-readonly"><b>is.readOnly</b></a>
-
+## <a id="is-partition-size"><b>is.partition.size</b></a>
 
 
 **Description**
 
 
-The base trait for describing incremental partitions and incremental partition patterns.
+The value is the file size of a partition file in bytes.
 
 
-| Inheritance |
+**Inheritance**
+
+| |
 |--|
-|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.incremental</b>|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- <b>is.partition.size</b>|
 
 
 **Properties**
 
 None
 
+
 **Parameters**
 
 | **Name** | **Type** | **Required** |
 |--|--|--|
-|type|string|True
-|incrementPartitionPatternName|string|False
-|fullDataPartitionPatternNa|string|False
+|value|bigInteger|True
 
 
 ## <a id="is-readonly"><b>is.readOnly</b></a>

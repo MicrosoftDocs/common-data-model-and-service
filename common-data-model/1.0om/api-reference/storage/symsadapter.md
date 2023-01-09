@@ -42,6 +42,7 @@ public class SymsAdapter extends NetworkAdapter
 |**CreateAdapterPath(string)**|See [StorageAdapterBase.CreateAdapterPath(...)](storageadapterbase.md#methods).|string|
 |**CreateCorpusPath(string)**|See [StorageAdapterBase.CreateCorpusPath(...)](storageadapterbase.md#methods).|string|
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapterBase.ComputeLastModifiedTimeAsync(...)](storageadapterbase.md#methods).|Task\<DateTimeOffset?>|
-|**FetchAllFilesAsync(string)**| Gets all tables as a list from SyMS database.|Task\<List\<string>>|
+|**FetchAllFilesAsync(string)**| Gets all tables as a list from SyMS database. This has been deprecated, please use FetchAllFilesMetadataAsync instead. |Task\<List\<string>>|
+|**FetchAllFilesMetadataAsync(string)**|See [StorageAdapterBase.FetchAllFilesMetadataAsync(...)](storageadapterbase.md#methods).|Task\<IDictionary\<string, CdmFileMetadata>>|
 |**FetchConfig()**|See [StorageAdapterBase.FetchConfig()](storageadapterbase.md#methods).|string|
 |**UpdateConfig(string)**|See [StorageAdapterBase.UpdateConfig(...)](storageadapterbase.md#methods).|void|
