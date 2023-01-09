@@ -27,6 +27,7 @@ public enum CdmLogCode
     ErrDocSymbolNotFound,
     ErrDocWrtDocNotfound,
     ErrEntityCreationFailed,
+    ErrFetchingFileMetadataNull,
     ErrIndexFailed,
     ErrInvalidCast,
     ErrInvalidPath,

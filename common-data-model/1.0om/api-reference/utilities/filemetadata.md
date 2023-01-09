@@ -1,7 +1,7 @@
 ---
 title: File Metadata | Microsoft Docs
 description: API reference for FileMetadata.
-author: mafrisci
+author: mfriscia7
 
 ms.reviewer: deonhe 
 ms.topic: article
