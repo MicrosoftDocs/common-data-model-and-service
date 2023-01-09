@@ -3297,7 +3297,6 @@ None
 |raggedRight|boolean|False
 
 
-
 ## <a id="is-partition-format-deltalake"><b>is.partition.format.deltaLake</b></a>
 
 
@@ -3323,6 +3322,32 @@ None
 |--|--|--|
 |versionAsOf|integer|False
 |timestampAsOf|dateTime|False
+
+
+## <a id="is-partition-format-json"><b>is.partition.format.json</b></a>
+
+
+**Description**
+
+
+The value is the file format settings of a partition JSON file. The "type" parameter value must be one of the following: "single", "lines", "concatenated", or "array". See [this link](https://learn.microsoft.com/en-us/azure/data-factory/format-json#json-file-patterns) for more information.
+
+
+| Inheritance |
+|--|
+|[<b>is</b>](#is) <- [<b>is.partition</b>](#is-partition) <- [<b>is.partition.format</b>](#is-partition-format) <- <b>is.partition.format.json</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|type|string|True
 
 
 ## <a id="is-partition-format-parquet"><b>is.partition.format.parquet</b></a>
