@@ -230,6 +230,10 @@
             href: 1.0om/api-reference/utilities/logger.md  
           - name: Event List
             href: 1.0om/api-reference/utilities/eventlist.md  
+          - name: File Metadata
+            href: 1.0om/api-reference/utilities/filemetadata.md
+          - name: File Status Check Options
+            href: 1.0om/api-reference/utilities/filestatuscheckoptions.md
           - name: HTTP Client
             href: 1.0om/api-reference/utilities/httpclient.md
           - name: Resolve Context
