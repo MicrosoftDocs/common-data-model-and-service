@@ -12,7 +12,7 @@ ms.author: rbernhar
 # Virtual courses (mserp) in HRM(VirtualCoursesMserp)
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -47,23 +47,23 @@ ms.author: rbernhar
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[hcmvirtualcourseentityId](#hcmvirtualcourseentityId)|Unique identifier for entity instances|<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[courseid](#courseid)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[coursetitle](#coursetitle)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[status](#status)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[courselink](#courselink)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[coursesubjects](#coursesubjects)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[coursedescription](#coursedescription)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[targetaudience](#targetaudience)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[courseobjectives](#courseobjectives)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[allowemployeeselfregistration](#allowemployeeselfregistration)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[dataareaid](#dataareaid)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
-|[dataAreaId_id](#dataAreaId_id)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp</a>|
+|[hcmvirtualcourseentityId](#hcmvirtualcourseentityId)|Unique identifier for entity instances|<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[courseid](#courseid)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[coursetitle](#coursetitle)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[status](#status)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[courselink](#courselink)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[coursesubjects](#coursesubjects)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[coursedescription](#coursedescription)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[targetaudience](#targetaudience)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[courseobjectives](#courseobjectives)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[allowemployeeselfregistration](#allowemployeeselfregistration)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[dataareaid](#dataareaid)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
+|[dataAreaId_id](#dataAreaId_id)||<a href="VirtualCoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp</a>|
 
 ### <a href=#hcmvirtualcourseentityId name="hcmvirtualcourseentityId">hcmvirtualcourseentityId</a>
 
 Unique identifier for entity instances  
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -110,7 +110,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#courseid name="courseid">courseid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#coursetitle name="coursetitle">coursetitle</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#status name="status">status</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#courselink name="courselink">courselink</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#coursesubjects name="coursesubjects">coursesubjects</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#coursedescription name="coursedescription">coursedescription</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#targetaudience name="targetaudience">targetaudience</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#courseobjectives name="courseobjectives">courseobjectives</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -484,7 +484,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#allowemployeeselfregistration name="allowemployeeselfregistration">allowemployeeselfregistration</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -529,7 +529,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#dataareaid name="dataareaid">dataareaid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
@@ -576,7 +576,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCour
 
 ### <a href=#dataAreaId_id name="dataAreaId_id">dataAreaId_id</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/VirtualCoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\VirtualCoursesMserp (this entity)  
 
 #### Properties
 
