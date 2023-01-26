@@ -455,7 +455,7 @@ If you didn't specify a resolution guidance here, then the final attribute names
 	"name": "ua",
 	"entity": "UserAgent",
 	"resolutionGuidance": {
-		"selectSubAttribute": {
+		"selectsSubAttribute": {
 			"selects": "some",
 			"selectsSomeTakeNames": [
 				"uaBrowserName",
@@ -476,7 +476,7 @@ If you had a *renameFormat* as well, you would use the attribute names after the
 	"entity": "UserAgent",
 	"resolutionGuidance": {
 		"renameFormat": "{m}",
-		"selectSubAttribute": {
+		"selectsSubAttribute": {
 			"selects": "some",
 			"selectsSomeTakeNames": [
 				"browserName",
