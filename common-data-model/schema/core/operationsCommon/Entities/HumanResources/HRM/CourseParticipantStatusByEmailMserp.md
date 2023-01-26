@@ -12,7 +12,7 @@ ms.author: rbernhar
 # Course Participant Status by Email (mserp) in HRM(CourseParticipantStatusByEmailMserp)
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -47,21 +47,21 @@ ms.author: rbernhar
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[hcmcourseparticipantstatusbyemailentityId](#hcmcourseparticipantstatusbyemailentityId)|Unique identifier for entity instances|<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[primaryfield](#primaryfield)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[status](#status)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[useremail](#useremail)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[courseid](#courseid)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[firstname](#firstname)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[lastname](#lastname)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[duedate](#duedate)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[dataareaid](#dataareaid)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
-|[dataAreaId_id](#dataAreaId_id)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp</a>|
+|[hcmcourseparticipantstatusbyemailentityId](#hcmcourseparticipantstatusbyemailentityId)|Unique identifier for entity instances|<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[primaryfield](#primaryfield)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[status](#status)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[useremail](#useremail)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[courseid](#courseid)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[firstname](#firstname)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[lastname](#lastname)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[duedate](#duedate)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[dataareaid](#dataareaid)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
+|[dataAreaId_id](#dataAreaId_id)||<a href="CourseParticipantStatusByEmailMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp</a>|
 
 ### <a href=#hcmcourseparticipantstatusbyemailentityId name="hcmcourseparticipantstatusbyemailentityId">hcmcourseparticipantstatusbyemailentityId</a>
 
 Unique identifier for entity instances  
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -108,7 +108,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#primaryfield name="primaryfield">primaryfield</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#status name="status">status</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#useremail name="useremail">useremail</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#courseid name="courseid">courseid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#firstname name="firstname">firstname</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#lastname name="lastname">lastname</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#duedate name="duedate">duedate</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -427,7 +427,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#dataareaid name="dataareaid">dataareaid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParti
 
 ### <a href=#dataAreaId_id name="dataAreaId_id">dataAreaId_id</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CourseParticipantStatusByEmailMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CourseParticipantStatusByEmailMserp (this entity)  
 
 #### Properties
 
