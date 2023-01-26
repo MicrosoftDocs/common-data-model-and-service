@@ -57,7 +57,7 @@ cdmCorpus.Storage.DefaultNamespace = "local";
 
 // Storage adapter pointing to the example public standards.
 
-// This is a sample 'cdm'; normally the Github adapter would be used to point at
+// This is a sample 'cdm'; normally the GitHub adapter would be used to point at
 // the real public standards.
 
 // Mount it as the 'cdm' device, not the default, so that we must use
