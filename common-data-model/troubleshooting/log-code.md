@@ -122,7 +122,8 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**ErrResolveManifestFailed**|This error is logged when the manifest for which resolution was requested has not been placed in a folder yet. Before calling CreateResolvedManifestAsync API, add the manifest to a CdmFolderDefinition representing the folder where this manifest should reside.
 |**ErrResolveNewEntityNameNotSet**|SDK logs this error when new entity name has not been provided to CreateResolvedEntityAsync call.
 |**ErrResolveReferenceFailure**|This error is logged during indexing of a document, when an object reference cannot be resolved to any known objects, and the ResolveOptions.ShallowValidation is set to False. Usual causes of this error are missing import of the document containing the object definition or misspelled object name.
-|**ErrStorageAdapterNotFound**|SDK attempted to obtain adapter associated with namespace that the given corpus path is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound. A
+|**ErrStorageAdapterNotFound**|The SDK attempted to obtain adapter associated with namespace that the given corpus path is part of, but could not find it. This error is usually reported after errors ErrStorageNullNamespace and ErrStorageAdapterNotFound.
+|**ErrStorageCdmStandardsMissing**|The SDK was unable to find the CdmStandards package. Make sure that the SDK dependencies are properly installed.
 |**ErrStorageFolderNotFound**|SDK logs this error when there is no folder exist from the given nampespace.
 |**ErrStorageInvalidPathFormat**|SDK raises this error when the path does not start with '.\' or contains '..\' or '\.\'.
 |**ErrStorageMissingJsonConfig**|This error is logged during mounting of adapters using provided configuration file, when adapter configuration property could not be found. This configuration file is invalid and needs to be corrected.
@@ -201,3 +202,4 @@ These error and warning codes are defined in [CdmLogcode](../1.0om/api-reference
 |**WarnTelemetryIngestionFailed**|This warning is logged when the Kusto ingestion process throws an exception due to authentication failure or HTTP request failure.
 |**WarnTelemetryMaxQueueSizeReached**|This warning is logged when the Kusto ingestion fails because ingestion queue reaches its maximum size.
 |**WarnValdnOrdinalStartEndOrder**|This warning is logged if the "StartOrdinal" of an array expansion operation is smaller than the "EndOrdinal". In that case the operation won't execute.
+|**WarnUnmountCdmNamespace**|This warning is logged if the user manually unmounts the 'cdm' namespace. Now that the CDM schema store has been deprecated, unmounting the 'cdm' namespace is unnecessary and may cause schemas to not be loaded properly.
