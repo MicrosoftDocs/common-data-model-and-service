@@ -12,7 +12,7 @@ ms.author: rbernhar
 # Courses (mserp) in HRM(CoursesMserp)
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -47,36 +47,36 @@ ms.author: rbernhar
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[hcmcoursev2entityId](#hcmcoursev2entityId)|Unique identifier for entity instances|<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[courseid](#courseid)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[dimensiondisplayvalue](#dimensiondisplayvalue)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[coursetitle](#coursetitle)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[enddatetime](#enddatetime)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[courselocation](#courselocation)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[classroom](#classroom)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[registrationdeadline](#registrationdeadline)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[maxparticipants](#maxparticipants)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[minparticipants](#minparticipants)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[setup](#setup)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[startdatetime](#startdatetime)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[coursestatus](#coursestatus)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[allowemployeeselfregistration](#allowemployeeselfregistration)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[workflow](#workflow)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[coursesubjects](#coursesubjects)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[coursedescription](#coursedescription)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[targetaudience](#targetaudience)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[courseobjectives](#courseobjectives)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[courselink](#courselink)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[isvirtual](#isvirtual)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[coursetypeid](#coursetypeid)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[organizer](#organizer)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[dataareaid](#dataareaid)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
-|[dataAreaId_id](#dataAreaId_id)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp</a>|
+|[hcmcoursev2entityId](#hcmcoursev2entityId)|Unique identifier for entity instances|<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[courseid](#courseid)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[dimensiondisplayvalue](#dimensiondisplayvalue)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[coursetitle](#coursetitle)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[enddatetime](#enddatetime)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[courselocation](#courselocation)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[classroom](#classroom)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[registrationdeadline](#registrationdeadline)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[maxparticipants](#maxparticipants)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[minparticipants](#minparticipants)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[setup](#setup)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[startdatetime](#startdatetime)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[coursestatus](#coursestatus)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[allowemployeeselfregistration](#allowemployeeselfregistration)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[workflow](#workflow)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[coursesubjects](#coursesubjects)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[coursedescription](#coursedescription)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[targetaudience](#targetaudience)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[courseobjectives](#courseobjectives)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[courselink](#courselink)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[isvirtual](#isvirtual)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[coursetypeid](#coursetypeid)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[organizer](#organizer)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[dataareaid](#dataareaid)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
+|[dataAreaId_id](#dataAreaId_id)||<a href="CoursesMserp.md" target="_blank">core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp</a>|
 
 ### <a href=#hcmcoursev2entityId name="hcmcoursev2entityId">hcmcoursev2entityId</a>
 
 Unique identifier for entity instances  
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#courseid name="courseid">courseid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -170,7 +170,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#dimensiondisplayvalue name="dimensiondisplayvalue">dimensiondisplayvalue</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#coursetitle name="coursetitle">coursetitle</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#enddatetime name="enddatetime">enddatetime</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#courselocation name="courselocation">courselocation</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -350,7 +350,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#classroom name="classroom">classroom</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -397,7 +397,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#registrationdeadline name="registrationdeadline">registrationdeadline</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -433,7 +433,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#maxparticipants name="maxparticipants">maxparticipants</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#minparticipants name="minparticipants">minparticipants</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#setup name="setup">setup</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#startdatetime name="startdatetime">startdatetime</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#coursestatus name="coursestatus">coursestatus</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#allowemployeeselfregistration name="allowemployeeselfregistration">allowemployeeselfregistration</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -691,7 +691,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#workflow name="workflow">workflow</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -738,7 +738,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#coursesubjects name="coursesubjects">coursesubjects</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -785,7 +785,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#coursedescription name="coursedescription">coursedescription</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -832,7 +832,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#targetaudience name="targetaudience">targetaudience</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -879,7 +879,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#courseobjectives name="courseobjectives">courseobjectives</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -926,7 +926,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#courselink name="courselink">courselink</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -973,7 +973,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#isvirtual name="isvirtual">isvirtual</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -1018,7 +1018,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#coursetypeid name="coursetypeid">coursetypeid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -1065,7 +1065,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#organizer name="organizer">organizer</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -1112,7 +1112,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#dataareaid name="dataareaid">dataareaid</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
@@ -1159,7 +1159,7 @@ First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMser
 
 ### <a href=#dataAreaId_id name="dataAreaId_id">dataAreaId_id</a>
 
-First included in: core\operationsCommon\Entities\HumanResources\HRM/CoursesMserp (this entity)  
+First included in: core\operationsCommon\Entities\HumanResources\HRM\CoursesMserp (this entity)  
 
 #### Properties
 
