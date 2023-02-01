@@ -108,7 +108,7 @@ Describes the event of a patient consuming or otherwise being administered a med
 |[subjectType](#subjectType)|The person or animal or group receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
 |[subjectType_display](#subjectType_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
 |[subjectTypeGroupId](#subjectTypeGroupId)|The group receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
-|[subjectTypePatientId](#subjectTypePatientId)|he person receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
+|[subjectTypePatientId](#subjectTypePatientId)|The person receiving the medication.|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
 |[stateCode](#stateCode)|Status of the Medication Administration|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
 |[stateCode_display](#stateCode_display)||<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
 |[statusCode](#statusCode)|Reason for the status of the Medication Administration|<a href="MedicationAdministration.md" target="_blank">electronicMedicalRecords/MedicationAdministration</a>|
@@ -2497,12 +2497,12 @@ the unique name that identifies this object in CDS for Applications.  <table><tr
 
 ### <a href=#subjectTypePatientId name="subjectTypePatientId">subjectTypePatientId</a>
 
-he person receiving the medication.  
+The person receiving the medication.  
 First included in: electronicMedicalRecords/MedicationAdministration (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>he person receiving the medication.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypepatient</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Patient</td></tr><tr><td>description</td><td>The person receiving the medication.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_subjecttypepatient</td></tr></table>
 
 #### Traits
 
@@ -2524,7 +2524,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Patient</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>he person receiving the medication.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The person receiving the medication.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.linkedEntity.identifier**  
 Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="Contact.md" target="_blank">/core/applicationCommon/foundationCommon/crmCommon/accelerators/healthCare/electronicMedicalRecords/Contact.cdm.json/Contact</a></td><td><a href="Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
