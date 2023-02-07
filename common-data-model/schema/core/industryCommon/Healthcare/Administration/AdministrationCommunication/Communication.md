@@ -68,7 +68,7 @@ An occurrence of information being transmitted; e.g. an alert that was sent to a
 |[communicationLanguageId](#communicationLanguageId)|Languages which may be used to communicate with the contact|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
 |[contactId](#contactId)|Information about a person whose communication preference is documented here|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
 |[display](#display)|The name of the custom entity.|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
-|[preferredCommunication](#preferredCommunication)|Indicates whether or not the contact prefers this language (over other languages he masters up a certain level).|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
+|[preferredCommunication](#preferredCommunication)|Indicates whether or not the contact prefers this language (over other languages the contact masters up a certain level).|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
 |[stateCode](#stateCode)|Status of the Communication|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
 |[stateCode_display](#stateCode_display)||<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
 |[statusCode](#statusCode)|Reason for the status of the Communication|<a href="Communication.md" target="_blank">AdministrationCommunication/Communication</a>|
@@ -1041,12 +1041,12 @@ indicates a contiguous sequence of fundamental units that shoud be taken as a wh
 
 ### <a href=#preferredCommunication name="preferredCommunication">preferredCommunication</a>
 
-Indicates whether or not the contact prefers this language (over other languages he masters up a certain level).  
+Indicates whether or not the contact prefers this language (over other languages the contact masters up a certain level).  
 First included in: AdministrationCommunication/Communication (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Communication</td></tr><tr><td>description</td><td>Indicates whether or not the contact prefers this language (over other languages he masters up a certain level).</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_preferredcommunication</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred Communication</td></tr><tr><td>description</td><td>Indicates whether or not the contact prefers this language (over other languages the contact masters up a certain level).</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msemr_preferredcommunication</td></tr></table>
 
 #### Traits
 
@@ -1064,7 +1064,7 @@ The requirement level for setting values into this attribute in CDS for Applicat
 Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Preferred Communication</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether or not the contact prefers this language (over other languages he masters up a certain level).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether or not the contact prefers this language (over other languages the contact masters up a certain level).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.nullable**  
 The attribute value may be set to NULL.  
