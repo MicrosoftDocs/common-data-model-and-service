@@ -1112,6 +1112,33 @@ None
 |--|--|--|
 |domainName|string|True
 
+## <a id="has-partition-details"><b>has.partition.details</b></a>
+
+
+**Description**
+
+
+Indicates additional details pertinent to the partition object.
+
+
+**Inheritance**
+
+| |
+|--|
+|[<b>is</b>](#is) <- [<b>has</b>](#has) <- <b>has.partition.details</b>|
+
+
+**Properties**
+
+None
+
+
+**Parameters**
+
+| **Name** | **Type** | **Required** |
+|--|--|--|
+|partitioningColumns|listLookupString|False
+
 
 ## <a id="has-relational"><b>has.relational</b></a>
 
