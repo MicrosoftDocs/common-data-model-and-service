@@ -19,13 +19,13 @@ For more information, see [Microsoft Cloud for Financial Services](/dynamics365/
 
 |Name|
 |---|
-|[BankingCoreDataModel](BankingCoreDataModel/overview.md)|
-|[CommonDataModel](CommonDataModel/overview.md)|
-|[DocumentCommonDataModel](DocumentCommonDataModel/overview.md)|
-|[DocumentIntelligenceDataModel](DocumentIntelligenceDataModel/overview.md)|
-|[FinancialServicesCommonDataModel](FinancialServicesCommonDataModel/overview.md)|
-|[LoanOnboardingDataModel](LoanOnboardingDataModel/overview.md)|
-|[OnboardingApplicationBase](OnboardingApplicationBase/overview.md)|
-|[PropertyandCasualtyDataModel](PropertyandCasualtyDataModel/overview.md)|
-|[RetailBankingCoreDataModel](RetailBankingCoreDataModel/overview.md)|
-|[SMBDataModel](SMBDataModel/overview.md)|
+|[Banking Core Data Model](BankingCoreDataModel/overview.md)|
+|[Common Data Model](CommonDataModel/overview.md)|
+|[Document Common Data Model](DocumentCommonDataModel/overview.md)|
+|[Document Intelligence Data Model](DocumentIntelligenceDataModel/overview.md)|
+|[Financial Services Common Data Model](FinancialServicesCommonDataModel/overview.md)|
+|[Loan Onboarding Data Model](LoanOnboardingDataModel/overview.md)|
+|[Onboarding Application Base](OnboardingApplicationBase/overview.md)|
+|[Property and Casualty Data Model](PropertyandCasualtyDataModel/overview.md)|
+|[Retail Banking Core Data Model](RetailBankingCoreDataModel/overview.md)|
+|[SMB Data Model](SMBDataModel/overview.md)|
