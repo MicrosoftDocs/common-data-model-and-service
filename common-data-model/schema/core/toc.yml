@@ -1441,7 +1441,7 @@
         items:
         - name: Summary
           href: industryCommon/FinancialServices/overview.md
-        - name: BankingCoreDataModel
+        - name: Banking Core Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/BankingCoreDataModel/overview.md
@@ -1491,7 +1491,7 @@
             href: industryCommon/FinancialServices/BankingCoreDataModel/LifeEvent.md
           - name: Relationship 
             href: industryCommon/FinancialServices/BankingCoreDataModel/Relationship.md
-        - name: CommonDataModel
+        - name: Common Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/CommonDataModel/overview.md
@@ -1503,7 +1503,7 @@
             href: industryCommon/FinancialServices/CommonDataModel/RelatedPartyContract.md
           - name: RelatedPartyRole 
             href: industryCommon/FinancialServices/CommonDataModel/RelatedPartyRole.md
-        - name: DocumentCommonDataModel
+        - name: Document Common Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/DocumentCommonDataModel/overview.md
@@ -1511,7 +1511,7 @@
             href: industryCommon/FinancialServices/DocumentCommonDataModel/Document.md
           - name: TablePlaceholder 
             href: industryCommon/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md
-        - name: DocumentIntelligenceDataModel
+        - name: Document Intelligence Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/DocumentIntelligenceDataModel/overview.md
@@ -1529,7 +1529,7 @@
             href: industryCommon/FinancialServices/DocumentIntelligenceDataModel/PipelineStepDefinition.md
           - name: StepFieldDefinition 
             href: industryCommon/FinancialServices/DocumentIntelligenceDataModel/StepFieldDefinition.md
-        - name: FinancialServicesCommonDataModel
+        - name: Financial Services Common Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/overview.md
@@ -1551,7 +1551,7 @@
             href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Group.md
           - name: Groupmember 
             href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Groupmember.md
-        - name: LoanOnboardingDataModel
+        - name: Loan Onboarding Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/LoanOnboardingDataModel/overview.md
@@ -1587,7 +1587,7 @@
             href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactliability.md
           - name: Loanapplicationliability 
             href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationliability.md
-        - name: OnboardingApplicationBase
+        - name: Onboarding Application Base
           items:
           - name: Summary
             href: industryCommon/FinancialServices/OnboardingApplicationBase/overview.md
@@ -1595,7 +1595,7 @@
             href: industryCommon/FinancialServices/OnboardingApplicationBase/Application.md
           - name: ApplicationSubCategory 
             href: industryCommon/FinancialServices/OnboardingApplicationBase/ApplicationSubCategory.md
-        - name: PropertyandCasualtyDataModel
+        - name: Property and Casualty Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/overview.md
@@ -1703,7 +1703,7 @@
             href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/TermDocumentCatalog.md
           - name: TermDocumentPolicyPart 
             href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/TermDocumentPolicyPart.md
-        - name: RetailBankingCoreDataModel
+        - name: Retail Banking Core Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/RetailBankingCoreDataModel/overview.md
@@ -1749,7 +1749,7 @@
             href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Lifemoment.md
           - name: Relationship 
             href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Relationship.md
-        - name: SMBDataModel
+        - name: SMB Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/SMBDataModel/overview.md
