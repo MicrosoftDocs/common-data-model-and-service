@@ -4,9 +4,9 @@ description: Financial Services is a folder that contains standard entities rela
 author: GithubUser
 
 ms.reviewer: deonhe
-ms.topic: reference
-ms.date: 10/28/2021
-ms.author: matgos
+ms.topic: article
+ms.date: 3/3/2023
+ms.author: syalandur
 ---
 
 # Overview of Microsoft Cloud for Financial Services entities
@@ -19,7 +19,13 @@ For more information, see [Microsoft Cloud for Financial Services](/dynamics365/
 
 |Name|
 |---|
+|[BankingCoreDataModel](BankingCoreDataModel/overview.md)|
+|[CommonDataModel](CommonDataModel/overview.md)|
+|[DocumentCommonDataModel](DocumentCommonDataModel/overview.md)|
+|[DocumentIntelligenceDataModel](DocumentIntelligenceDataModel/overview.md)|
 |[FinancialServicesCommonDataModel](FinancialServicesCommonDataModel/overview.md)|
-|[RetailBankingCoreDataModel](RetailBankingCoreDataModel/overview.md)|
 |[LoanOnboardingDataModel](LoanOnboardingDataModel/overview.md)|
-
+|[OnboardingApplicationBase](OnboardingApplicationBase/overview.md)|
+|[PropertyandCasualtyDataModel](PropertyandCasualtyDataModel/overview.md)|
+|[RetailBankingCoreDataModel](RetailBankingCoreDataModel/overview.md)|
+|[SMBDataModel](SMBDataModel/overview.md)|
