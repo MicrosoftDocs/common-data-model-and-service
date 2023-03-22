@@ -2483,6 +2483,19 @@
             href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
           - name: WaterSource 
             href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
+        - name: Cloud for Sustainability waste data model
+          items:
+            href: industryCommon/Sustainability/CloudforSustainabilityWaste/overview.md
+          - name: WasteQualityCharacteristic 
+            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQualityCharacteristic.md
+          - name: WasteQualityTestResult 
+            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQualityTestResult.md
+          - name: WasteQuantity 
+            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQuantity.md
+          - name: WasteTestMethod 
+            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteTestMethod.md
+          - name: WasteType 
+            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteType.md
 - name: operationsCommon
   items:
   - name: Summary
