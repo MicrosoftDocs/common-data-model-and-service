@@ -2486,17 +2486,17 @@
         - name: Cloud for Sustainability waste data model
           items:
           - name: Summary
-            href: industryCommon/Sustainability/CloudforSustainabilityWaste/overview.md
+            href: industryCommon/Sustainability/SustainabilityWaste/overview.md
           - name: WasteQualityCharacteristic 
-            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQualityCharacteristic.md
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
           - name: WasteQualityTestResult 
-            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQualityTestResult.md
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
           - name: WasteQuantity 
-            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQuantity.md
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
           - name: WasteTestMethod 
-            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteTestMethod.md
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
           - name: WasteType 
-            href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteType.md
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
 - name: operationsCommon
   items:
   - name: Summary
