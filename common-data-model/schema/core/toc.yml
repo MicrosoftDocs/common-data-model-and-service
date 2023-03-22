@@ -2485,6 +2485,7 @@
             href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
         - name: Cloud for Sustainability waste data model
           items:
+          - name: Summary
             href: industryCommon/Sustainability/CloudforSustainabilityWaste/overview.md
           - name: WasteQualityCharacteristic 
             href: industryCommon/Sustainability/CloudforSustainabilityWaste/WasteQualityCharacteristic.md
