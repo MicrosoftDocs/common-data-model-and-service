@@ -2458,15 +2458,15 @@
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
           - name: Facility 
-            href: industryCommon/Sustainability/SustainabilityWater/Facility.md
+            href: industryCommon/Sustainability/Facility.md
           - name: IndustrialProcessType 
-            href: industryCommon/Sustainability/SustainabilityWater/IndustrialProcessType.md
+            href: industryCommon/Sustainability/IndustrialProcessType.md
           - name: OrganizationalUnit 
-            href: industryCommon/Sustainability/SustainabilityWater/OrganizationalUnit.md
+            href: industryCommon/Sustainability/OrganizationalUnit.md
           - name: Unit 
-            href: industryCommon/Sustainability/SustainabilityWater/Unit.md
+            href: industryCommon/Sustainability/Unit.md
           - name: UnitGroup 
-            href: industryCommon/Sustainability/SustainabilityWater/UnitGroup.md
+            href: industryCommon/Sustainability/UnitGroup.md
           - name: WaterInstrument 
             href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
           - name: WaterInstrumentConfiguration 

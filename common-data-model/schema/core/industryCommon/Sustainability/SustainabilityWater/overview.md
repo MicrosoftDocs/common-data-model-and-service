@@ -17,7 +17,6 @@ Cloud for Sustainability Water Data Model CDM entity definitions
 
 |Name|Description|
 |---|---|
-|[Facility](Facility.md)|Base\x2dlevel location to attribute activity data\. May contain multiple buildings and organizational units\.|
 |[WaterBasin](WaterBasin.md)|Describes the details of the basin from which water is being withdrawn by an entity\.|
 |[WaterInstrument](WaterInstrument.md)|Stores the information related to the devices or instruments tracking water in the organization\.|
 |[WaterQualityAnalysis](WaterQualityAnalysis.md)|Describes the analysis performed to test a water sample for a certain characteristic\.|
