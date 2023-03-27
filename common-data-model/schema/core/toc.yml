@@ -2457,16 +2457,6 @@
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
-          - name: Facility 
-            href: industryCommon/Sustainability/SustainabilityWater/Facility.md
-          - name: IndustrialProcessType 
-            href: industryCommon/Sustainability/SustainabilityWater/IndustrialProcessType.md
-          - name: OrganizationalUnit 
-            href: industryCommon/Sustainability/SustainabilityWater/OrganizationalUnit.md
-          - name: Unit 
-            href: industryCommon/Sustainability/SustainabilityWater/Unit.md
-          - name: UnitGroup 
-            href: industryCommon/Sustainability/SustainabilityWater/UnitGroup.md
           - name: WaterInstrument 
             href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
           - name: WaterInstrumentConfiguration 
@@ -2483,6 +2473,20 @@
             href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
           - name: WaterSource 
             href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
+        - name: Cloud for Sustainability waste data model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+          - name: WasteQualityCharacteristic 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
+          - name: WasteQualityTestResult 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
+          - name: WasteQuantity 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
+          - name: WasteTestMethod 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
+          - name: WasteType 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
 - name: operationsCommon
   items:
   - name: Summary

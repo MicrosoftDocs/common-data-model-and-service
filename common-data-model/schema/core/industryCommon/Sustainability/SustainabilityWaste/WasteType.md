@@ -1,6 +1,6 @@
 ---
-title: WaterQualityAnalysis in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
-description: Describes the analysis performed to test a water sample for a certain characteristic.
+title: WasteType in CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
+description: Stores information on the type of waste generated.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,11 +9,11 @@ ms.date: 3/22/2023
 ms.author: cdmditeam
 ---
 
-# Water quality analysis in CloudforSustainabilityWaterDataModel(WaterQualityAnalysis)
+# Waste type in CloudforSustainabilityWasteDataModel(WasteType)
 
-Describes the analysis performed to test a water sample for a certain characteristic\.  
+Stores information on the type of waste generated\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteType.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +25,22 @@ Describes the analysis performed to test a water sample for a certain characteri
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQualityAnalysis/(resolvedAttributes)/waterqualityanalysisId](#waterqualityanalysisId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteType/(resolvedAttributes)/wastetypeId](#wastetypeId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQualityAnalysis/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWaterDataModel<br>/WaterQualityAnalysis.cdm.json<br>/WaterQualityAnalysis/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWasteDataModel<br>/WasteType.cdm.json/WasteType/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describes the analysis performed to test a water sample for a certain characteristic.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Stores information on the type of waste generated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water quality analysis</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterqualityanalysis"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastetype"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,35 +51,36 @@ Describes the analysis performed to test a water sample for a certain characteri
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[waterqualityanalysisId](#waterqualityanalysisId)|Unique identifier for entity instances\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[statecode](#statecode)|Status of the water quality analysis\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[statuscode](#statuscode)|Reason for the status of the water quality analysis\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[name](#name)||<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[analysismethod](#analysismethod)|Indicates the type of analysis performed\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[laboratorycomments](#laboratorycomments)|Optional field to provide the comments from the lab regarding the analysis method being performed\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the water quality analysis\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the water quality analysis\.|<a href="WaterQualityAnalysis.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis</a>|
+|[wastetypeId](#wastetypeId)|Unique identifier for entity instances\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[statecode](#statecode)|Status of the Waste type|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Waste type|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[description](#description)|Optional description to give additional detail on the waste type\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[ishazardous](#ishazardous)|Indicates whether the waste is hazardous or not\. |<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[isradioactive](#isradioactive)|Indicates whether the waste is radioactive in nature or not\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[wastecategory](#wastecategory)|Category of the waste such as industrial waste, municipal waste, consumer waste\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[wastestream](#wastestream)|Waste stream specific to the sector such as metal tailings, e\x2dwaste, C&D\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 
-### <a href=#waterqualityanalysisId name="waterqualityanalysisId">waterqualityanalysisId</a>
+### <a href=#wastetypeId name="wastetypeId">wastetypeId</a>
 
 Unique identifier for entity instances\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality analysis</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_waterqualityanalysisid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste type</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_wastetypeid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the waterqualityanalysisId attribute are listed below.</summary>
+<summary>List of traits for the wastetypeId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -91,7 +92,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.identifiedBy\*\*  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQualityAnalysis/(resolvedAttributes)/waterqualityanalysisId](#waterqualityanalysisId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteType/(resolvedAttributes)/wastetypeId](#wastetypeId)</td><td>attribute</td><td></td></tr></table>
 
 \*\*is\.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -100,10 +101,10 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water quality analysis</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_waterqualityanalysisid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastetypeid"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -118,7 +119,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
@@ -158,7 +159,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
@@ -197,12 +198,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the water quality analysis\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+Status of the Waste type  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water quality analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Waste type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -221,13 +222,13 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 \*\*means\.entityState\*\*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WaterQualityAnalysis/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 \*\*is\.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the water quality analysis.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Waste type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -243,12 +244,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the water quality analysis\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+Reason for the status of the Waste type  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the water quality analysis.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Waste type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -273,7 +274,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the water quality analysis.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Waste type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -293,7 +294,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
@@ -336,7 +337,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
@@ -373,7 +374,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
@@ -416,7 +417,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
@@ -458,11 +459,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+The name of the custom entity\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -480,7 +482,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -503,62 +505,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 </details>
 
-### <a href=#analysismethod name="analysismethod">analysismethod</a>
-
-Indicates the type of analysis performed\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Analysis method</td></tr><tr><td>description</td><td>Indicates the type of analysis performed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_analysismethod</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the analysismethod attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the type of analysis performed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Analysis method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.constrained\*\*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
-
-\*\*is\.nullable\*\*  
-  The attribute value may be set to NULL.  
-
-\*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_analysismethod"</td><td>string</td><td></td></tr></table>
-
-\*\*is\.CDS\.ordered\*\*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#description name="description">description</a>
 
-Optional description that provides additional detail about the entity or attribute\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+Optional description to give additional detail on the waste type\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description to give additional detail on the waste type.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -576,7 +530,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional description to give additional detail on the waste type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -591,7 +545,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
@@ -599,110 +553,86 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 </details>
 
-### <a href=#laboratorycomments name="laboratorycomments">laboratorycomments</a>
+### <a href=#ishazardous name="ishazardous">ishazardous</a>
 
-Optional field to provide the comments from the lab regarding the analysis method being performed\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+Indicates whether the waste is hazardous or not\.   
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory comments</td></tr><tr><td>description</td><td>Optional field to provide the comments from the lab regarding the analysis method being performed.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_laboratorycomments</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IsHazardous</td></tr><tr><td>description</td><td>Indicates whether the waste is hazardous or not. </td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_ishazardous</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the laboratorycomments attribute are listed below.</summary>
+<summary>List of traits for the ishazardous attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+\*\*is\.dataFormat\.boolean\*\*  
+  \*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field to provide the comments from the lab regarding the analysis method being performed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the waste is hazardous or not. </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Laboratory comments</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.constrained\*\*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>IsHazardous</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.nullable\*\*  
   The attribute value may be set to NULL.  
 
 \*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_laboratorycomments"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_ishazardous"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+\*\*is\.dataFormat\.boolean\*\*  
+  </details>
 
-</details>
+### <a href=#isradioactive name="isradioactive">isradioactive</a>
 
-### <a href=#laboratoryname name="laboratoryname">laboratoryname</a>
-
-Indicates the name of the lab that carried out the water quality analysis\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+Indicates whether the waste is radioactive in nature or not\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Laboratory name</td></tr><tr><td>description</td><td>Indicates the name of the lab that carried out the water quality analysis.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_laboratoryname</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IsRadioactive</td></tr><tr><td>description</td><td>Indicates whether the waste is radioactive in nature or not.</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_isradioactive</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the laboratoryname attribute are listed below.</summary>
+<summary>List of traits for the isradioactive attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+\*\*is\.dataFormat\.boolean\*\*  
+  \*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the name of the lab that carried out the water quality analysis.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the waste is radioactive in nature or not.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Laboratory name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.constrained\*\*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>IsRadioactive</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.nullable\*\*  
   The attribute value may be set to NULL.  
 
 \*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_laboratoryname"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_isradioactive"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
+\*\*is\.dataFormat\.boolean\*\*  
+  </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
-Optional field to store the source unique identifier for the water quality analysis\.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis \(this entity\)  
+Optional field to store source unique identifier values for the entity\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store the source unique identifier for the water quality analysis.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field to store source unique identifier values for the entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -720,7 +650,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field to store the source unique identifier for the water quality analysis.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field to store source unique identifier values for the entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -735,7 +665,103 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#wastecategory name="wastecategory">wastecategory</a>
+
+Category of the waste such as industrial waste, municipal waste, consumer waste\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste category</td></tr><tr><td>description</td><td>Category of the waste such as industrial waste, municipal waste, consumer waste.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wastecategory</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the wastecategory attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Category of the waste such as industrial waste, municipal waste, consumer waste.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.localized\.displayedAs\*\*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste category</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.constrained\*\*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+\*\*is\.nullable\*\*  
+  The attribute value may be set to NULL.  
+
+\*\*is\.CDS\.sourceNamed\*\*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastecategory"</td><td>string</td><td></td></tr></table>
+
+\*\*is\.CDS\.ordered\*\*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#wastestream name="wastestream">wastestream</a>
+
+Waste stream specific to the sector such as metal tailings, e\x2dwaste, C&D\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste stream</td></tr><tr><td>description</td><td>Waste stream specific to the sector such as metal tailings, e-waste, C&D.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wastestream</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the wastestream attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste stream specific to the sector such as metal tailings, e-waste, C&D.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.localized\.displayedAs\*\*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste stream</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.constrained\*\*  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+\*\*is\.nullable\*\*  
+  The attribute value may be set to NULL.  
+
+\*\*is\.CDS\.sourceNamed\*\*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastestream"</td><td>string</td><td></td></tr></table>
+
+\*\*is\.CDS\.ordered\*\*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
