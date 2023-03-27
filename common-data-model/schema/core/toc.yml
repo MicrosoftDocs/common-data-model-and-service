@@ -2457,18 +2457,22 @@
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
+          - name: WaterBasin
+            href: industryCommon/Sustainability/SustainabilityWater/WaterBasin.md
           - name: WaterInstrument 
             href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
-          - name: WaterInstrumentConfiguration 
-            href: industryCommon/Sustainability/SustainabilityWater/WaterInstrumentConfiguration.md
           - name: WaterQualityAnalysis 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQualityAnalysis.md
           - name: WaterQualityCharacteristic 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristic.md
+          - name: WaterQualityCharacteristicType
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristicType.md
           - name: WaterQualityTestResult 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQualityTestResult.md
           - name: WaterQuantity 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQuantity.md
+          - name: WaterRiskIndex
+            href: industryCommon/Sustainability/SustainabilityWater/WaterRiskIndex.md
           - name: WaterSample 
             href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
           - name: WaterSource 
