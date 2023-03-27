@@ -2457,16 +2457,6 @@
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
-          - name: Facility 
-            href: industryCommon/Sustainability/Facility.md
-          - name: IndustrialProcessType 
-            href: industryCommon/Sustainability/IndustrialProcessType.md
-          - name: OrganizationalUnit 
-            href: industryCommon/Sustainability/OrganizationalUnit.md
-          - name: Unit 
-            href: industryCommon/Sustainability/Unit.md
-          - name: UnitGroup 
-            href: industryCommon/Sustainability/UnitGroup.md
           - name: WaterInstrument 
             href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
           - name: WaterInstrumentConfiguration 
