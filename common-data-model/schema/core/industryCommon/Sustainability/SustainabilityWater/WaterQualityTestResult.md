@@ -1,5 +1,5 @@
 ---
-title: WaterQualityTestResult in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
+title: WaterQualityTestResult in Sustainability water - Common Data Model | Microsoft Docs
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 03/31/2023
 ms.author: cdmditeam
 ---
 
-# Water quality test result in CloudforSustainabilityWaterDataModel(WaterQualityTestResult)
+# Water quality test result in Sustainability water (WaterQualityTestResult)
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample\.  
   

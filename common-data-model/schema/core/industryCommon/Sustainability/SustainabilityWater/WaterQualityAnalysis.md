@@ -1,5 +1,5 @@
 ---
-title: WaterQualityAnalysis in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
+title: WaterQualityAnalysis in Sustainability water  - Common Data Model | Microsoft Docs
 description: Describes the analysis performed to test a water sample for a certain characteristic.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 03/31/2023
 ms.author: cdmditeam
 ---
 
-# Water quality analysis in CloudforSustainabilityWaterDataModel(WaterQualityAnalysis)
+# Water quality analysis in Sustainability water (WaterQualityAnalysis)
 
 Describes the analysis performed to test a water sample for a certain characteristic\.  
   
