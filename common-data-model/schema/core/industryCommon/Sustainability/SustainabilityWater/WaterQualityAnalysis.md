@@ -3,9 +3,9 @@ title: WaterQualityAnalysis in CloudforSustainabilityWaterDataModel - Common Dat
 description: Describes the analysis performed to test a water sample for a certain characteristic.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 3/22/2023
+ms.date: 03/31/2023
 ms.author: cdmditeam
 ---
 

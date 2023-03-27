@@ -3,9 +3,9 @@ title: WaterRiskIndex in CloudforSustainabilityWaterDataModel - Common Data Mode
 description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.Ex&#58- Low- Low-medium- Medium- Medium-high- High- Extremely-high
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 3/22/2023
+ms.date: 03/31/2023
 ms.author: cdmditeam
 ---
 
