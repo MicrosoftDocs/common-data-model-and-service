@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
 ms.date: 03/31/2023
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Water quality test result in Sustainability water (WaterQualityTestResult)
