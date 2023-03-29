@@ -1,5 +1,5 @@
 ---
-title: WaterSource in Sustainability water - Common Data Model | Microsoft Docs
+title: WaterSource in Sustainability water
 description: Entity to store details of sources from/to which water gets withdrawn/discharged.
 author: cdm-publisher
 ms.service: common-data-model

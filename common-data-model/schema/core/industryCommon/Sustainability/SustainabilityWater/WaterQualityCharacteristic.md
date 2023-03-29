@@ -1,5 +1,5 @@
 ---
-title: WaterQualityCharacteristic in Sustainability water  - Common Data Model | Microsoft Docs
+title: WaterQualityCharacteristic in Sustainability water
 description: Describes the property being evaluated during the analysis of the water sample collected.
 author: cdm-publisher
 ms.service: common-data-model

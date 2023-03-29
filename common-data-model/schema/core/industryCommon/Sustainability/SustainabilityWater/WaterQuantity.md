@@ -1,5 +1,5 @@
 ---
-title: WaterQuantity in Sustainability water - Common Data Model | Microsoft Docs
+title: WaterQuantity in Sustainability water
 description: Stores the actual quantity information from water transactions within the organization.
 author: cdm-publisher
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: WasteQuantity in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
+title: WasteQuantity in Sustainability waste
 description: Stores information on the actual waste quantity of the organization.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/31/2023
 ms.author: anbichse
 ---
 
-# Waste quantity in Cloud for Sustainability waste data model (WasteQuantity)
+# Waste quantity in Sustainability waste (WasteQuantity)
 
 Stores information on the actual waste quantity of the organization\.  
   
