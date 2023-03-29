@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Entity to store details of sources from/to which water gets withdrawn/discharged\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterSource.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

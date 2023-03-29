@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Describes the property being evaluated during the analysis of the water sample collected\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

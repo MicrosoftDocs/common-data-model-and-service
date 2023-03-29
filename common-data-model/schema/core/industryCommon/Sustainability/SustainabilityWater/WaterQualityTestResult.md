@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

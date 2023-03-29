@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Describes the analysis performed to test a water sample for a certain characteristic\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

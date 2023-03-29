@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Stores the information related to the devices or instruments tracking water in the organization\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

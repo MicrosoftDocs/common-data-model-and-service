@@ -21,8 +21,6 @@ Ex:
 \x2d High
 \x2d Extremely\x2dhigh  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

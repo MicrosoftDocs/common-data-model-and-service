@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Stores the actual quantity information from water transactions within the organization\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

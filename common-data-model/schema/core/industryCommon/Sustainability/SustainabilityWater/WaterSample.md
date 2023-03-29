@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Stores the attributes of the water samples collected for testing water quality\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterSample.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>

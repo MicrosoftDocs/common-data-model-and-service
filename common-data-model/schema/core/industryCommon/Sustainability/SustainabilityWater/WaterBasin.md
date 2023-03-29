@@ -13,8 +13,6 @@ ms.author: anbichse
 
 Describes the details of the basin from which water is being withdrawn by an entity\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin.cdm.json" target="_blank">GitHub</a>.  
-
 ## Traits
 
 <details>
