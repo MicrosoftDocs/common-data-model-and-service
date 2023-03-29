@@ -1,17 +1,17 @@
 ---
 title: WasteQualityCharacteristic in CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
-description: Entity for storing information on the characterisitic of the contaminant or chemical being tracked.
+description: Stores information on the characteristics of the contaminant or chemical being tracked.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/22/2023
+ms.date: 3/29/2023
 ms.author: cdmditeam
 ---
 
 # Waste quality characteristic in CloudforSustainabilityWasteDataModel(WasteQualityCharacteristic)
 
-Entity for storing information on the characterisitic of the contaminant or chemical being tracked\.  
+Stores information on the characteristics of the contaminant or chemical being tracked\.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,7 +34,7 @@ Entity for storing information on the characterisitic of the contaminant or chem
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWasteDataModel<br>/WasteQualityCharacteristic.cdm.json<br>/WasteQualityCharacteristic/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity for storing information on the characterisitic of the contaminant or chemical being tracked.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Stores information on the characteristics of the contaminant or chemical being tracked.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste quality characteristic</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -51,10 +51,10 @@ Entity for storing information on the characterisitic of the contaminant or chem
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[wastequalitycharacteristicId](#wastequalitycharacteristicId)|Unique identifier for entity instances|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
+|[wastequalitycharacteristicId](#wastequalitycharacteristicId)|Unique identifier for entity instances\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[statecode](#statecode)|Status of the Waste quality characteristic|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
+|[statecode](#statecode)|Status of the waste quality characteristic\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[statuscode](#statuscode)|Reason for the status of the Waste quality characteristic|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
@@ -67,16 +67,16 @@ Entity for storing information on the characterisitic of the contaminant or chem
 |[referencerangelowerlimit](#referencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the waste sample\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[referencerangeunit](#referencerangeunit)|Indicates the unit of measurement for the reference range\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 |[referencerangeupperlimit](#referencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the waste sample\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[type](#type)|Indicates the classification of the characteristic for which the waste sample is being tested\.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
+|[type](#type)||<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
 
 ### <a href=#wastequalitycharacteristicId name="wastequalitycharacteristicId">wastequalitycharacteristicId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste quality characteristic</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_wastequalitycharacteristicid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste quality characteristic</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_wastequalitycharacteristicid</td></tr></table>
 
 #### Traits
 
@@ -99,7 +99,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste quality characteristic</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -199,12 +199,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Waste quality characteristic  
+Status of the waste quality characteristic\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Waste quality characteristic</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the waste quality characteristic.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -229,7 +229,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Waste quality characteristic</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the waste quality characteristic.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -783,37 +783,37 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 ### <a href=#type name="type">type</a>
 
-Indicates the classification of the characteristic for which the waste sample is being tested\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Indicates the classification of the characteristic for which the waste sample is being tested.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Chemical</td><td>700610000</td></tr><tr><td>en</td><td>Hazardous</td><td>700610001</td></tr><tr><td>en</td><td>Pollutant</td><td>700610002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_type</td></tr></table>
 
 #### Traits
 
 <details>
 <summary>List of traits for the type attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
-  indicates the capability to represent values less than zero.  
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*does\.haveDefault\*\*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Chemical</td><td>700610000</td></tr><tr><td>en</td><td>Hazardous</td><td>700610001</td></tr><tr><td>en</td><td>Pollutant</td><td>700610002</td></tr></table></td><td>any</td><td></td></tr></table>
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.constrainedList\*\*  
-  the values of an attribute are taken from or looked up from a fixed list of possibilities  
-
-\*\*is\.requiredAtLevel\*\*  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the classification of the characteristic for which the waste sample is being tested.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.CDS\.lookup\*\*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.nullable\*\*  
   The attribute value may be set to NULL.  
@@ -824,5 +824,9 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 \*\*is\.CDS\.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
-  </details>
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

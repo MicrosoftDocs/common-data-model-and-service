@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/22/2023
+ms.date: 3/29/2023
 ms.author: cdmditeam
 ---
 
@@ -55,7 +55,7 @@ Stores information on the type of waste generated\.
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[statecode](#statecode)|Status of the Waste type|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Waste type|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[statuscode](#statuscode)|Reason for the status of the waste type\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
@@ -66,7 +66,7 @@ Stores information on the type of waste generated\.
 |[isradioactive](#isradioactive)|Indicates whether the waste is radioactive in nature or not\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[wastecategory](#wastecategory)|Category of the waste such as industrial waste, municipal waste, consumer waste\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
-|[wastestream](#wastestream)|Waste stream specific to the sector such as metal tailings, e\x2dwaste, C&D\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[wastestream](#wastestream)|Waste stream specific to the sector, such as metal tailings, e\x2dwaste, and construction and demolition\.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 
 ### <a href=#wastetypeId name="wastetypeId">wastetypeId</a>
 
@@ -244,12 +244,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTyp
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Waste type  
+Reason for the status of the waste type\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Waste type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the waste type.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -274,7 +274,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTyp
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Waste type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the waste type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -723,12 +723,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTyp
 
 ### <a href=#wastestream name="wastestream">wastestream</a>
 
-Waste stream specific to the sector such as metal tailings, e\x2dwaste, C&D\.  
+Waste stream specific to the sector, such as metal tailings, e\x2dwaste, and construction and demolition\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste stream</td></tr><tr><td>description</td><td>Waste stream specific to the sector such as metal tailings, e-waste, C&D.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wastestream</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste stream</td></tr><tr><td>description</td><td>Waste stream specific to the sector, such as metal tailings, e-waste, and construction and demolition.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wastestream</td></tr></table>
 
 #### Traits
 
@@ -746,7 +746,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTyp
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste stream specific to the sector such as metal tailings, e-waste, C&D.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste stream specific to the sector, such as metal tailings, e-waste, and construction and demolition.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste stream</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

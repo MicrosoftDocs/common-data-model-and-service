@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/22/2023
+ms.date: 3/29/2023
 ms.author: cdmditeam
 ---
 
@@ -48,9 +48,9 @@ Stores information on the actual waste quantity of the organization\.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[wastequantityId](#wastequantityId)|Unique identifier for entity instances|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
+|[wastequantityId](#wastequantityId)|Unique identifier for entity instances\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[TTLInSeconds](#TTLInSeconds)|Time to live in seconds\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
-|[partitionId](#partitionId)|Logical partition id\. A logical partition consists of a set of records with same partition id\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
+|[partitionId](#partitionId)|Logical partition identifier\. A logical partition consists of a set of records with same partition ID\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
@@ -68,7 +68,7 @@ Stores information on the actual waste quantity of the organization\.
 |[expensetype](#expensetype)|Describes the expense type associated with the waste diversion operation\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[facility](#facility)|Unique identifier for facility associated with waste diversion operation\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[industrialprocesstype](#industrialprocesstype)|Type of industrial process used to track and associate with the waste diversion operation\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
-|[material](#material)|Material composition of the waste such as glass, plastic, metals or biomass\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
+|[material](#material)|Material composition of the waste such as glass, plastic, metals, or biomass\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[organizationalunit](#organizationalunit)|Unique identifier for the organizational unit associated with waste diversion operation\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[valuechainpartner](#valuechainpartner)|Reference to the value chain partner or supplier associated with the transaction\.|<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
 |[wastediversionsitetype](#wastediversionsitetype)|The site type where the waste diversion occurs\. |<a href="WasteQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity</a>|
@@ -81,12 +81,12 @@ Stores information on the actual waste quantity of the organization\.
 
 ### <a href=#wastequantityId name="wastequantityId">wastequantityId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste quantity</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_wastequantityid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste quantity</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_wastequantityid</td></tr></table>
 
 #### Traits
 
@@ -109,7 +109,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -172,12 +172,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
-Logical partition id\. A logical partition consists of a set of records with same partition id\.  
+Logical partition identifier\. A logical partition consists of a set of records with same partition ID\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition identifier. A logical partition consists of a set of records with same partition ID.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
 
 #### Traits
 
@@ -195,7 +195,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Logical partition identifier. A logical partition consists of a set of records with same partition ID.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Partition Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -968,12 +968,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 ### <a href=#material name="material">material</a>
 
-Material composition of the waste such as glass, plastic, metals or biomass\.  
+Material composition of the waste such as glass, plastic, metals, or biomass\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Material </td></tr><tr><td>description</td><td>Material composition of the waste such as glass, plastic, metals or biomass.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Material </td></tr><tr><td>description</td><td>Material composition of the waste such as glass, plastic, metals, or biomass.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -993,7 +993,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Material composition of the waste such as glass, plastic, metals or biomass.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Material composition of the waste such as glass, plastic, metals, or biomass.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Material </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

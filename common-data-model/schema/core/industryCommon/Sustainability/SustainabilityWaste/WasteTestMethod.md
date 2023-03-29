@@ -1,17 +1,17 @@
 ---
 title: WasteTestMethod in CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
-description: Entity for storing information on test performed for the contaminant.
+description: Stores information on tests performed for the contaminant.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/22/2023
+ms.date: 3/29/2023
 ms.author: cdmditeam
 ---
 
 # Waste test method in CloudforSustainabilityWasteDataModel(WasteTestMethod)
 
-Entity for storing information on test performed for the contaminant\.  
+Stores information on tests performed for the contaminant\.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod.cdm.json" target="_blank">GitHub</a>.  
 
@@ -34,7 +34,7 @@ Entity for storing information on test performed for the contaminant\.
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWasteDataModel<br>/WasteTestMethod.cdm.json/WasteTestMethod<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity for storing information on test performed for the contaminant.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Stores information on tests performed for the contaminant.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste test method</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -55,7 +55,7 @@ Entity for storing information on test performed for the contaminant\.
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[statecode](#statecode)|Status of the |<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
-|[statuscode](#statuscode)|Reason for the status of the |<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[statuscode](#statuscode)|Status of the waste test method\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
@@ -245,12 +245,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTes
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the   
+Status of the waste test method\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTestMethod \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the </td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Status of the waste test method.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -275,7 +275,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTes
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the waste test method.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
