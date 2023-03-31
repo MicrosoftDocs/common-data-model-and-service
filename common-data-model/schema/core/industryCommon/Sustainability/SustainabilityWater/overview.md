@@ -29,3 +29,13 @@ For more information, see the [Microsoft Cloud for Sustainability water data mod
 |[WaterRiskIndex](WaterRiskIndex.md)|The overall water risk that measures all water\x2drelated risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories\. Higher values indicate higher water risk\.|
 |[WaterSample](WaterSample.md)|Stores the attributes of the water samples collected for testing water quality\.|
 |[WaterSource](WaterSource.md)|Entity to store details of sources from/to which water gets withdrawn/discharged\.|
+
+## Common entities shared with Cloud for Sustainability data model
+
+|Name|Description|
+|---|---|
+|[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
+|[IndustrialProcessType](IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
+|[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
+|[Unit](Unit.md)|Unit of measure.|
+|[UnitGroup](UnitGroup.md)|Grouping of units.|

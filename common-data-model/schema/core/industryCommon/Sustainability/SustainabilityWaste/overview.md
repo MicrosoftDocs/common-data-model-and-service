@@ -25,3 +25,13 @@ For more information, see the [Microsoft Cloud for Sustainability waste data mod
 |[WasteQuantity](WasteQuantity.md)|Stores information on the actual waste quantity of the organization\.|
 |[WasteTestMethod](WasteTestMethod.md)|Stores information on tests performed for the contaminant\.|
 |[WasteType](WasteType.md)|Stores information on the type of waste generated\.|
+
+## Common entities shared with Cloud for Sustainability data model
+
+|Name|Description|
+|---|---|
+|[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
+|[IndustrialProcessType](IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
+|[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
+|[Unit](Unit.md)|Unit of measure.|
+|[UnitGroup](UnitGroup.md)|Grouping of units.|
