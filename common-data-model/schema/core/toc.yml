@@ -2481,6 +2481,8 @@
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+          - name: WasteCharacteristicType
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
           - name: WasteQualityCharacteristic 
             href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
           - name: WasteQualityTestResult 
