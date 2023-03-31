@@ -1,5 +1,5 @@
 ---
-title: WasteCharacteristicType in Sustainability Waste
+title: WasteCharacteristicType in Sustainability waste
 description: 
 author: cdm-publisher
 ms.service: common-data-model

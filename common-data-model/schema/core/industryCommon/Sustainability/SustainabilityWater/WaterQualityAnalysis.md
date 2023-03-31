@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 03/31/2023
+ms.date: 3/31/2023
 ms.author: anbichse
 ---
 
@@ -13,6 +13,8 @@ ms.author: anbichse
 
 Describes the analysis performed to test a water sample for a certain characteristic\.  
   
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityAnalysis.cdm.json" target="_blank">GitHub</a>.  
+
 ## Traits
 
 <details>

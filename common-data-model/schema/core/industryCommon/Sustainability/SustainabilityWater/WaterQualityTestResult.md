@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 03/31/2023
+ms.date: 3/31/2023
 ms.author: anbichse
 ---
 
@@ -13,6 +13,8 @@ ms.author: anbichse
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample\.  
   
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult.cdm.json" target="_blank">GitHub</a>.  
+
 ## Traits
 
 <details>
@@ -48,7 +50,7 @@ Describes the results coming from the laboratory water quality test for a charac
 |---|---|---|
 |[waterqualitytestresultId](#waterqualitytestresultId)|Unique identifier for entity instances\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[TTLInSeconds](#TTLInSeconds)|Time to live in seconds\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
-|[partitionId](#partitionId)|Logical partition id\. A logical partition consists of a set of records with same partition id\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
+|[partitionId](#partitionId)|Logical partition identifier\. A logical partition consists of a set of records with same partition ID\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
@@ -159,12 +161,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
-Logical partition id\. A logical partition consists of a set of records with same partition id\.  
+Logical partition identifier\. A logical partition consists of a set of records with same partition ID\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Partition Id</td></tr><tr><td>description</td><td>Logical partition identifier. A logical partition consists of a set of records with same partition ID.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>partitionid</td></tr></table>
 
 #### Traits
 
@@ -182,7 +184,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Logical partition identifier. A logical partition consists of a set of records with same partition ID.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Partition Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

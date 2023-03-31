@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 03/31/2023
+ms.date: 3/31/2023
 ms.author: anbichse
 ---
 
@@ -13,6 +13,8 @@ ms.author: anbichse
 
 Entity to store details of sources from/to which water gets withdrawn/discharged\.  
   
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterSource.cdm.json" target="_blank">GitHub</a>.  
+
 ## Traits
 
 <details>
@@ -63,7 +65,7 @@ Entity to store details of sources from/to which water gets withdrawn/discharged
 |[origincorrelationid](#origincorrelationid)|Optional field to assign an identifier code provided by the origin system\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[subtype](#subtype)|Optional field to further classify the water source type\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[sourcetype](#sourcetype)|Field used to classify the water source\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[waterqualitytype](#waterqualitytype)|Describes the quality of the water being withdrawn/discharged from/to the water source\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
+|[waterqualitytype](#waterqualitytype)|Describes the quality of the water being withdrawn from or discharged to the water source\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 
 ### <a href=#watersourceId name="watersourceId">watersourceId</a>
 
@@ -693,12 +695,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
 
 ### <a href=#waterqualitytype name="waterqualitytype">waterqualitytype</a>
 
-Describes the quality of the water being withdrawn/discharged from/to the water source\.  
+Describes the quality of the water being withdrawn from or discharged to the water source\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSource \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality type</td></tr><tr><td>description</td><td>Describes the quality of the water being withdrawn/discharged from/to the water source.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fresh water</td><td>700610000</td></tr><tr><td>en</td><td>Other water</td><td>700610001</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality type</td></tr><tr><td>description</td><td>Describes the quality of the water being withdrawn from or discharged to the water source.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Fresh water</td><td>700610000</td></tr><tr><td>en</td><td>Other water</td><td>700610001</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -720,7 +722,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterSou
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describes the quality of the water being withdrawn/discharged from/to the water source.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describes the quality of the water being withdrawn from or discharged to the water source.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water quality type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

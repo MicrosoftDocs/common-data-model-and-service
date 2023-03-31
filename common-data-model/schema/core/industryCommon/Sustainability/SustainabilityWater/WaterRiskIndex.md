@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 03/31/2023
+ms.date: 3/31/2023
 ms.author: anbichse
 ---
 
@@ -21,6 +21,8 @@ Ex:
 \x2d High
 \x2d Extremely\x2dhigh  
   
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex.cdm.json" target="_blank">GitHub</a>.  
+
 ## Traits
 
 <details>
@@ -68,7 +70,7 @@ Ex:
 |[waterriskindexId](#waterriskindexId)|Unique identifier for entity instances\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[statecode](#statecode)|Status of the Water Risk Index|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
+|[statecode](#statecode)|Status of the water risk index\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[statuscode](#statuscode)|Reason for the status of the Water risk index|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
@@ -209,12 +211,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Water Risk Index  
+Status of the water risk index\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Water Risk Index</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water risk index.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -239,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Water Risk Index</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the water risk index.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 03/31/2023
+ms.date: 3/31/2023
 ms.author: anbichse
 ---
 
@@ -13,6 +13,8 @@ ms.author: anbichse
 
 Stores all the different classifications for the water quality characteristics\.  
   
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType.cdm.json" target="_blank">GitHub</a>.  
+
 ## Traits
 
 <details>
@@ -52,7 +54,7 @@ Stores all the different classifications for the water quality characteristics\.
 |[waterqualitycharacteristictypeId](#waterqualitycharacteristictypeId)|Unique identifier for entity instances\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[createdOn](#createdOn)|Date and time when the record was created\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
-|[statecode](#statecode)|Status of the Water quality characteristic type|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
+|[statecode](#statecode)|Status of the water quality characteristic type\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[statuscode](#statuscode)|Reason for the status of the Water quality characteristic type|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
@@ -192,12 +194,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Water quality characteristic type  
+Status of the water quality characteristic type\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Water quality characteristic type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the water quality characteristic type.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -222,7 +224,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Water quality characteristic type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the water quality characteristic type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
