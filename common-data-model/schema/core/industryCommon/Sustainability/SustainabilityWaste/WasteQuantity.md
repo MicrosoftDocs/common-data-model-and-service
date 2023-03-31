@@ -12,7 +12,9 @@ ms.author: anbichse
 # Waste quantity in Sustainability waste (WasteQuantity)
 
 Stores information on the actual waste quantity of the organization\.  
-  
+
+Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity.cdm.json" target="_blank">GitHub</a>.
+ 
 ## Traits
 
 <details>

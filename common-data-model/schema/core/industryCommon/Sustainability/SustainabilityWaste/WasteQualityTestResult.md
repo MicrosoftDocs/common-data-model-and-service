@@ -12,7 +12,9 @@ ms.author: anbichse
 # Waste quality test result in Sustainability waste (WasteQualityTestResult)
 
 Stores information on the result of the tests for tracking chemical/contaminant levels\.  
-  
+
+Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult.cdm.json" target="_blank">GitHub</a>.
+
 ## Traits
 
 <details>

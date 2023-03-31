@@ -12,7 +12,9 @@ ms.author: anbichse
 # Waste test method in Sustainability waste (WasteTestMethod)
 
 Stores information on tests performed for the contaminant\.  
-  
+
+Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod.cdm.json" target="_blank">GitHub</a>.
+
 ## Traits
 
 <details>
