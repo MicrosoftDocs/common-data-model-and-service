@@ -1,6 +1,6 @@
 ---
 title: WasteCharacteristicType in Sustainability waste
-description: 
+description: Stores all the different classifications for the waste characteristics.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse

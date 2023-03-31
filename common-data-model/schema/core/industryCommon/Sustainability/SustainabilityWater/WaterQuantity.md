@@ -55,7 +55,7 @@ Stores the actual quantity information from water transactions within the organi
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
-|[name](#name)||<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
 |[activityid](#activityid)|Internal reference used to map the entity to the corresponding record\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
 |[description](#description)|Optional field to describe the entity\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity\.|<a href="WaterQuantity.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQuantity</a>|

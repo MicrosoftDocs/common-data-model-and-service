@@ -60,7 +60,7 @@ Entity to store details of sources from/to which water gets withdrawn/discharged
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
-|[name](#name)||<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[description](#description)|Optional field to describe the entity\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to assign an identifier code provided by the origin system\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|
 |[subtype](#subtype)|Optional field to further classify the water source type\.|<a href="WaterSource.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSource</a>|

@@ -60,7 +60,7 @@ Stores all the different classifications for the water quality characteristics\.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
-|[name](#name)||<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[description](#description)|Optional field to describe the entity\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterQualityCharacteristicType.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristicType</a>|
 

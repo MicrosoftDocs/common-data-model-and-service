@@ -76,7 +76,7 @@ Ex:
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[name](#name)||<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[description](#description)|Optional field to describe the entity\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[waterstressedarea](#waterstressedarea)||<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|

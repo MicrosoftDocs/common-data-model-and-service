@@ -60,7 +60,7 @@ Stores the information related to the devices or instruments tracking water in t
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
-|[name](#name)||<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
 |[waterinstrumenttype](#waterinstrumenttype)|Optional field to classify the water instrument\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
 |[description](#description)|Optional field to describe an entity\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity\.|<a href="WaterInstrument.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterInstrument</a>|

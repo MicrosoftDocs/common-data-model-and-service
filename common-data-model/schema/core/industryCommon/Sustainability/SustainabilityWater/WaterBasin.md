@@ -60,7 +60,7 @@ Describes the details of the basin from which water is being withdrawn by an ent
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
-|[name](#name)||<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
 |[description](#description)|Optional field to describe the entity\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
 |[majorbasin](#majorbasin)|Field to describe the major basin from which the water is drawn\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|
 |[minorbasin](#minorbasin)|Field to describe the minor basin from which water is drawn\.|<a href="WaterBasin.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterBasin</a>|

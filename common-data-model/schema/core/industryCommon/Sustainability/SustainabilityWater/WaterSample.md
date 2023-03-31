@@ -55,7 +55,7 @@ Stores the attributes of the water samples collected for testing water quality\.
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
-|[name](#name)||<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
+|[name](#name)|The name of the custom entity\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
 |[collectiondate](#collectiondate)|Indicates the date and time at which the water sample was collected\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
 |[collectionequipment](#collectionequipment)|Optional field to store the details of the equipment used to collect the water sample\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
 |[collectionmethod](#collectionmethod)|Indicates the method applied to collect the water sample\.|<a href="WaterSample.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterSample</a>|
