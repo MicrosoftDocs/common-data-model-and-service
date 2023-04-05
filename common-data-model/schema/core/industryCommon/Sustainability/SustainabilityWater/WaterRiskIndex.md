@@ -13,7 +13,8 @@ ms.author: anbichse
 
 The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories\. Higher values indicate higher water risk\.
 
-Ex:
+For example:
+
 - Low
 - Low-medium
 - Medium
@@ -78,7 +79,7 @@ Ex:
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[name](#name)|The name of the custom entity\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[description](#description)|Optional field to describe the entity\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[waterstressedarea](#waterstressedarea)||<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
+|[waterstressedarea](#waterstressedarea)|Field to store the flag to categorise a water risk index record as a high-water stress category.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 
 ### <a href=#waterriskindexId name="waterriskindexId">waterriskindexId</a>
@@ -566,6 +567,8 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 </details>
 
 ### <a href=#waterstressedarea name="waterstressedarea">waterstressedarea</a>
+
+Field to store the flag to categorise a water risk index record as a high-water stress category.
 
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex \(this entity\)  
 
