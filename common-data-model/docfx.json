@@ -56,7 +56,7 @@
       ]
     },
     "fileMetadata": {
-      "ms.prod": {
+      "ms.service": {
         "**.*": "common-data-model"
       }
     },
