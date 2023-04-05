@@ -62,7 +62,7 @@ Describes the property being evaluated during the analysis of the water sample c
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[name](#name)|The name of the custom entity\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
-|[referencerangeevidence](#referencerangeevidence)||<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
+|[referencerangeevidence](#referencerangeevidence)|Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[referencerangelowerlimit](#referencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[referencerangeunit](#referencerangeunit)|Indicates the unit of measurement for the reference range\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[referencerangeupperlimit](#referencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
@@ -554,6 +554,8 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 </details>
 
 ### <a href=#referencerangeevidence name="referencerangeevidence">referencerangeevidence</a>
+
+Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic.
 
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic \(this entity\)  
 
