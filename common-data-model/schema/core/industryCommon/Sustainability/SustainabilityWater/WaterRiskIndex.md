@@ -11,15 +11,15 @@ ms.author: anbichse
 
 # Water risk index in Sustainability water (WaterRiskIndex)
 
-The overall water risk that measures all water\x2drelated risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories\. Higher values indicate higher water risk\.
+The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories\. Higher values indicate higher water risk\.
 
 Ex:
-\x2d Low
-\x2d Low\x2dmedium
-\x2d Medium
-\x2d Medium\x2dhigh
-\x2d High
-\x2d Extremely\x2dhigh  
+- Low
+- Low-medium
+- Medium
+- Medium-high
+- High
+- Extremely-high  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex.cdm.json" target="_blank">GitHub</a>.  
 
