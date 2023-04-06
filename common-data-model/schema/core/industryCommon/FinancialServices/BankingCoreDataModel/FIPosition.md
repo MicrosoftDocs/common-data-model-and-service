@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/3/2023
+ms.date: 4/5/2023
 ms.author: cdmditeam
 ---
 
@@ -70,6 +70,7 @@ ms.author: cdmditeam
 |[currentvalue_Base](#currentvalue_Base)|Value of the Current value in base currency\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[currentvaluedefault](#currentvaluedefault)|Current value of the asset in the default currency\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument \(Direct debit, Standing order, Card, Overdraft, Position\)\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
+|[financialmarketproduct](#financialmarketproduct)|Lookup to financial market product table\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[gainlossdefault](#gainlossdefault)|Value of the Gain / Loss in default currency\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[heldaway](#heldaway)|Defines whether the position is held in other institutions\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[integrationkey](#integrationkey)|Define alternate key on field\.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
@@ -939,6 +940,51 @@ First included in: BankingCoreDataModel/FIPosition \(this entity\)
 
 \*\*is\.dataFormat\.integer\*\*  
   </details>
+
+### <a href=#financialmarketproduct name="financialmarketproduct">financialmarketproduct</a>
+
+Lookup to financial market product table\.  
+First included in: BankingCoreDataModel/FIPosition \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Financial market product</td></tr><tr><td>description</td><td>Lookup to financial market product table.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the financialmarketproduct attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to financial market product table.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.localized\.displayedAs\*\*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Financial market product</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.CDS\.lookup\*\*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+\*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../cdm:/FinancialServices/FinancialServicesCommonDataModel/FinancialMarketProduct.md" target="_blank">cdm:/FinancialServices/FinancialServicesCommonDataModel/FinancialMarketProduct.cdm.json/FinancialMarketProduct</a></td><td><a href="../../../cdm:/FinancialServices/FinancialServicesCommonDataModel/FinancialMarketProduct.md#financialmarketproductId" target="_blank">financialmarketproductId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
 
 ### <a href=#gainlossdefault name="gainlossdefault">gainlossdefault</a>
 

@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/3/2023
+ms.date: 4/5/2023
 ms.author: cdmditeam
 ---
 
@@ -61,8 +61,10 @@ A table that links the service providers with service requestors/participants to
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[name](#name)|Required name field\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
+|[contractpart](#contractpart)|The contract part the relationship is about\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[contractpartType](#contractpartType)|The contract part the relationship is about\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[isprimary](#isprimary)|When true, indicates that the applicant is the primary on the application\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
+|[party](#party)|Defines the service provider e\.g\. insurance agency, bank, agent\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[primarymemberhelper](#primarymemberhelper)|A calculated field helping determine if this application contact is the primary member of the application\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[relatedparty](#relatedparty)|Defines service requester/participant e\.g\. insured clients, loan requestor, towing agency\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[relatedpartyType](#relatedpartyType)|Defines service requester/participant e\.g\. insured clients, loan requestor, towing agency\.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
@@ -508,6 +510,45 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 
 </details>
 
+### <a href=#contractpart name="contractpart">contractpart</a>
+
+The contract part the relationship is about\.  
+First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Contract part</td></tr><tr><td>description</td><td>The contract part the relationship is about.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the contractpart attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../cdm:/FinancialServices/OnboardingApplicationBase/Application.md" target="_blank">cdm:/FinancialServices/OnboardingApplicationBase/Application.cdm.json/Application</a></td><td><a href="../../../cdm:/FinancialServices/OnboardingApplicationBase/Application.md#applicationId" target="_blank">applicationId</a></td></tr><tr><td><a href="../../../cdm:/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md" target="_blank">cdm:/FinancialServices/DocumentCommonDataModel/TablePlaceholder.cdm.json/TablePlaceholder</a></td><td><a href="../../../cdm:/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md#dummycontextId" target="_blank">dummycontextId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The contract part the relationship is about.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.localized\.displayedAs\*\*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Contract part</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#contractpartType name="contractpartType">contractpartType</a>
 
 The contract part the relationship is about\.  
@@ -582,6 +623,51 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 
 \*\*is\.dataFormat\.boolean\*\*  
   </details>
+
+### <a href=#party name="party">party</a>
+
+Defines the service provider e\.g\. insurance agency, bank, agent\.  
+First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Party</td></tr><tr><td>description</td><td>Defines the service provider e.g. insurance agency, bank, agent.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the party attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Defines the service provider e.g. insurance agency, bank, agent.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.localized\.displayedAs\*\*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Party</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.CDS\.lookup\*\*  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+\*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../cdm:/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md" target="_blank">cdm:/FinancialServices/DocumentCommonDataModel/TablePlaceholder.cdm.json/TablePlaceholder</a></td><td><a href="../../../cdm:/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md#dummycontextId" target="_blank">dummycontextId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
 
 ### <a href=#primarymemberhelper name="primarymemberhelper">primarymemberhelper</a>
 
