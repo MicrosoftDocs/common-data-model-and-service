@@ -1441,77 +1441,77 @@
         items:
         - name: Summary
           href: industryCommon/FinancialServices/overview.md
-        - name: Banking Core Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/BankingCoreDataModel/overview.md
-          - name: Account 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/Account.md
-          - name: Bank 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/Bank.md
-          - name: Branch 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/Branch.md
-          - name: Contact 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/Contact.md
-          - name: CustomerFinancialHolding 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/CustomerFinancialHolding.md
-          - name: FHAccount 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FHAccount.md
-          - name: FHInvestment 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FHInvestment.md
-          - name: FHLineOfCredit 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FHLineOfCredit.md
-          - name: FHLoan 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FHLoan.md
-          - name: FHSaving 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FHSaving.md
-          - name: FICard 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FICard.md
-          - name: FIDirectDebit 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FIDirectDebit.md
-          - name: FIOverdraft 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FIOverdraft.md
-          - name: FIPosition 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FIPosition.md
-          - name: FIStandingOrder 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FIStandingOrder.md
-          - name: FinancialGoal 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FinancialGoal.md
-          - name: FinancialHolding 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FinancialHolding.md
-          - name: FinancialHoldingInstrument 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/FinancialHoldingInstrument.md
-          - name: Group 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/Group.md
-          - name: GroupFinancialHolding 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/GroupFinancialHolding.md
-          - name: GroupMember 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/GroupMember.md
-          - name: LifeEvent 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/LifeEvent.md
-          - name: Relationship 
-            href: industryCommon/FinancialServices/BankingCoreDataModel/Relationship.md
-        - name: Common Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/CommonDataModel/overview.md
-          - name: AccountDetail 
-            href: industryCommon/FinancialServices/CommonDataModel/AccountDetail.md
-          - name: ContactDetail 
-            href: industryCommon/FinancialServices/CommonDataModel/ContactDetail.md
-          - name: RelatedPartyContract 
-            href: industryCommon/FinancialServices/CommonDataModel/RelatedPartyContract.md
-          - name: RelatedPartyRole 
-            href: industryCommon/FinancialServices/CommonDataModel/RelatedPartyRole.md
-        - name: Document Common Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/DocumentCommonDataModel/overview.md
-          - name: Document 
-            href: industryCommon/FinancialServices/DocumentCommonDataModel/Document.md
-          - name: TablePlaceholder 
-            href: industryCommon/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md
-        - name: Document Intelligence Data Model
+          - name: Banking Core Data Model
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/BankingCoreDataModel/overview.md
+            - name: Account 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/Account.md
+            - name: Bank 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/Bank.md
+            - name: Branch 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/Branch.md
+            - name: Contact 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/Contact.md
+            - name: CustomerFinancialHolding 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/CustomerFinancialHolding.md
+            - name: FHAccount 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FHAccount.md
+            - name: FHInvestment 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FHInvestment.md
+            - name: FHLineOfCredit 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FHLineOfCredit.md
+            - name: FHLoan 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FHLoan.md
+            - name: FHSaving 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FHSaving.md
+            - name: FICard 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FICard.md
+            - name: FIDirectDebit 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FIDirectDebit.md
+            - name: FIOverdraft 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FIOverdraft.md
+            - name: FIPosition 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FIPosition.md
+            - name: FIStandingOrder 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FIStandingOrder.md
+            - name: FinancialGoal 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FinancialGoal.md
+            - name: FinancialHolding 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FinancialHolding.md
+            - name: FinancialHoldingInstrument 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/FinancialHoldingInstrument.md
+            - name: Group 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/Group.md
+            - name: GroupFinancialHolding 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/GroupFinancialHolding.md
+            - name: GroupMember 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/GroupMember.md
+            - name: LifeEvent 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/LifeEvent.md
+            - name: Relationship 
+              href: industryCommon/FinancialServices/BankingCoreDataModel/Relationship.md
+          - name: CommonDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/CommonDataModel/overview.md
+            - name: AccountDetail 
+              href: industryCommon/FinancialServices/CommonDataModel/AccountDetail.md
+            - name: ContactDetail 
+              href: industryCommon/FinancialServices/CommonDataModel/ContactDetail.md
+            - name: RelatedPartyContract 
+              href: industryCommon/FinancialServices/CommonDataModel/RelatedPartyContract.md
+            - name: RelatedPartyRole 
+              href: industryCommon/FinancialServices/CommonDataModel/RelatedPartyRole.md
+          - name: DocumentCommonDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/DocumentCommonDataModel/overview.md
+            - name: Document 
+              href: industryCommon/FinancialServices/DocumentCommonDataModel/Document.md
+            - name: TablePlaceholder 
+              href: industryCommon/FinancialServices/DocumentCommonDataModel/TablePlaceholder.md
+         - name: Document Intelligence Data Model
           items:
           - name: Summary
             href: industryCommon/FinancialServices/DocumentIntelligenceDataModel/overview.md
@@ -1529,234 +1529,234 @@
             href: industryCommon/FinancialServices/DocumentIntelligenceDataModel/PipelineStepDefinition.md
           - name: StepFieldDefinition 
             href: industryCommon/FinancialServices/DocumentIntelligenceDataModel/StepFieldDefinition.md
-        - name: Financial Services Common Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/overview.md
-          - name: Account 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Account.md
-          - name: Applicationdocument 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Applicationdocument.md
-          - name: Bank 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Bank.md
-          - name: Branch 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Branch.md
-          - name: Contact 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Contact.md
-          - name: Customdocument 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Customdocument.md
-          - name: FinancialMarketProduct 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/FinancialMarketProduct.md
-          - name: Group 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Group.md
-          - name: Groupmember 
-            href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Groupmember.md
-        - name: Loan Onboarding Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/overview.md
-          - name: Applicationdocument 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Applicationdocument.md
-          - name: Bank 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Bank.md
-          - name: Collateral 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Collateral.md
-          - name: Contact 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Contact.md
-          - name: Creditcheck 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Creditcheck.md
-          - name: Customdocument 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Customdocument.md
-          - name: Employment 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Employment.md
-          - name: Kyc 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Kyc.md
-          - name: Loanapplication 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplication.md
-          - name: Loanapplicationasset 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationasset.md
-          - name: Loanapplicationcollateral 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcollateral.md
-          - name: Loanapplicationcollateralvaluation 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcollateralvaluation.md
-          - name: Loanapplicationcontact 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontact.md
-          - name: Loanapplicationcontactasset 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactasset.md
-          - name: Loanapplicationcontactliability 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactliability.md
-          - name: Loanapplicationliability 
-            href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationliability.md
-        - name: Onboarding Application Base
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/OnboardingApplicationBase/overview.md
-          - name: Application 
-            href: industryCommon/FinancialServices/OnboardingApplicationBase/Application.md
-          - name: ApplicationSubCategory 
-            href: industryCommon/FinancialServices/OnboardingApplicationBase/ApplicationSubCategory.md
-        - name: Property and Casualty Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/overview.md
-          - name: Account 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Account.md
-          - name: Affiliation 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Affiliation.md
-          - name: Agency 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Agency.md
-          - name: Agent 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Agent.md
-          - name: AgentAgency 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AgentAgency.md
-          - name: AgentInsurer 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AgentInsurer.md
-          - name: AssetDetail 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AssetDetail.md
-          - name: AssetDetailCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AssetDetailCatalog.md
-          - name: AuthorizedJurisdiction 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AuthorizedJurisdiction.md
-          - name: BrokerAgency 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/BrokerAgency.md
-          - name: CauseOfLoss 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CauseOfLoss.md
-          - name: CauseOfLossCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CauseOfLossCatalog.md
-          - name: CauseOfLossLOB 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CauseOfLossLOB.md
-          - name: Claim 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Claim.md
-          - name: ClaimRevision 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ClaimRevision.md
-          - name: Contact 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Contact.md
-          - name: Country 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Country.md
-          - name: Coverage 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Coverage.md
-          - name: CoverageCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageCatalog.md
-          - name: CoverageDetail 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageDetail.md
-          - name: CoverageDetailCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageDetailCatalog.md
-          - name: CoverageLOB 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageLOB.md
-          - name: DetailType 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/DetailType.md
-          - name: Document 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Document.md
-          - name: DocumentPartyContract 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/DocumentPartyContract.md
-          - name: ExclusionInclusion 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusion.md
-          - name: ExclusionInclusionCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusionCatalog.md
-          - name: ExclusionInclusionLOB 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusionLOB.md
-          - name: InsuredAssetClaim 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetClaim.md
-          - name: InsuredAssetLocation 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetLocation.md
-          - name: InsuredAssetLocationAsset 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetLocationAsset.md
-          - name: InsuredAutoAsset 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAutoAsset.md
-          - name: InsuredGenericAsset 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredGenericAsset.md
-          - name: InsuredHomeAsset 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredHomeAsset.md
-          - name: Insurer 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Insurer.md
-          - name: InsurerAgency 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsurerAgency.md
-          - name: LOB 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/LOB.md
-          - name: LOBAssetDetailCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/LOBAssetDetailCatalog.md
-          - name: LOBCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/LOBCatalog.md
-          - name: Payment 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Payment.md
-          - name: PaymentParty 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PaymentParty.md
-          - name: Policy 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Policy.md
-          - name: PolicyAgency 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyAgency.md
-          - name: PolicyAgent 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyAgent.md
-          - name: PolicyProduct 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyProduct.md
-          - name: PolicyProductLOB 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyProductLOB.md
-          - name: PolicyTransaction 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyTransaction.md
-          - name: ProfessionalLicense 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ProfessionalLicense.md
-          - name: RelatedPartyContract 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/RelatedPartyContract.md
-          - name: StateProvince 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/StateProvince.md
-          - name: TermDocumentCatalog 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/TermDocumentCatalog.md
-          - name: TermDocumentPolicyPart 
-            href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/TermDocumentPolicyPart.md
-        - name: Retail Banking Core Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/overview.md
-          - name: Account 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Account.md
-          - name: Bank 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Bank.md
-          - name: Branch 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Branch.md
-          - name: Contact 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Contact.md
-          - name: Customerfinancialholding 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Customerfinancialholding.md
-          - name: Fh_account 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_account.md
-          - name: Fh_creditline 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_creditline.md
-          - name: Fh_investment 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_investment.md
-          - name: Fh_loan 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_loan.md
-          - name: Fh_saving 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_saving.md
-          - name: Fi_card 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_card.md
-          - name: Fi_directdebit 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_directdebit.md
-          - name: Fi_overdraft 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_overdraft.md
-          - name: Fi_standingorder 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_standingorder.md
-          - name: Financialholding 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Financialholding.md
-          - name: Financialholdinginstrument 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Financialholdinginstrument.md
-          - name: Group 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Group.md
-          - name: Groupfinancialholding 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Groupfinancialholding.md
-          - name: Groupmember 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Groupmember.md
-          - name: Lifemoment 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Lifemoment.md
-          - name: Relationship 
-            href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Relationship.md
-        - name: SMB Data Model
-          items:
-          - name: Summary
-            href: industryCommon/FinancialServices/SMBDataModel/overview.md
-          - name: Contact 
-            href: industryCommon/FinancialServices/SMBDataModel/Contact.md
-          - name: Person 
-            href: industryCommon/FinancialServices/SMBDataModel/Person.md
+          - name: FinancialServicesCommonDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/overview.md
+            - name: Account 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Account.md
+            - name: Applicationdocument 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Applicationdocument.md
+            - name: Bank 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Bank.md
+            - name: Branch 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Branch.md
+            - name: Contact 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Contact.md
+            - name: Customdocument 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Customdocument.md
+            - name: FinancialMarketProduct 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/FinancialMarketProduct.md
+            - name: Group 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Group.md
+            - name: Groupmember 
+              href: industryCommon/FinancialServices/FinancialServicesCommonDataModel/Groupmember.md
+          - name: LoanOnboardingDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/overview.md
+            - name: Applicationdocument 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Applicationdocument.md
+            - name: Bank 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Bank.md
+            - name: Collateral 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Collateral.md
+            - name: Contact 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Contact.md
+            - name: Creditcheck 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Creditcheck.md
+            - name: Customdocument 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Customdocument.md
+            - name: Employment 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Employment.md
+            - name: Kyc 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Kyc.md
+            - name: Loanapplication 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplication.md
+            - name: Loanapplicationasset 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationasset.md
+            - name: Loanapplicationcollateral 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcollateral.md
+            - name: Loanapplicationcollateralvaluation 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcollateralvaluation.md
+            - name: Loanapplicationcontact 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontact.md
+            - name: Loanapplicationcontactasset 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactasset.md
+            - name: Loanapplicationcontactliability 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationcontactliability.md
+            - name: Loanapplicationliability 
+              href: industryCommon/FinancialServices/LoanOnboardingDataModel/Loanapplicationliability.md
+          - name: OnboardingApplicationBase
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/OnboardingApplicationBase/overview.md
+            - name: Application 
+              href: industryCommon/FinancialServices/OnboardingApplicationBase/Application.md
+            - name: ApplicationSubCategory 
+              href: industryCommon/FinancialServices/OnboardingApplicationBase/ApplicationSubCategory.md
+          - name: PropertyandCasualtyDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/overview.md
+            - name: Account 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Account.md
+            - name: Affiliation 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Affiliation.md
+            - name: Agency 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Agency.md
+            - name: Agent 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Agent.md
+            - name: AgentAgency 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AgentAgency.md
+            - name: AgentInsurer 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AgentInsurer.md
+            - name: AssetDetail 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AssetDetail.md
+            - name: AssetDetailCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AssetDetailCatalog.md
+            - name: AuthorizedJurisdiction 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/AuthorizedJurisdiction.md
+            - name: BrokerAgency 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/BrokerAgency.md
+            - name: CauseOfLoss 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CauseOfLoss.md
+            - name: CauseOfLossCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CauseOfLossCatalog.md
+            - name: CauseOfLossLOB 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CauseOfLossLOB.md
+            - name: Claim 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Claim.md
+            - name: ClaimRevision 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ClaimRevision.md
+            - name: Contact 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Contact.md
+            - name: Country 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Country.md
+            - name: Coverage 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Coverage.md
+            - name: CoverageCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageCatalog.md
+            - name: CoverageDetail 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageDetail.md
+            - name: CoverageDetailCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageDetailCatalog.md
+            - name: CoverageLOB 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/CoverageLOB.md
+            - name: DetailType 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/DetailType.md
+            - name: Document 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Document.md
+            - name: DocumentPartyContract 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/DocumentPartyContract.md
+            - name: ExclusionInclusion 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusion.md
+            - name: ExclusionInclusionCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusionCatalog.md
+            - name: ExclusionInclusionLOB 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusionLOB.md
+            - name: InsuredAssetClaim 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetClaim.md
+            - name: InsuredAssetLocation 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetLocation.md
+            - name: InsuredAssetLocationAsset 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetLocationAsset.md
+            - name: InsuredAutoAsset 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredAutoAsset.md
+            - name: InsuredGenericAsset 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredGenericAsset.md
+            - name: InsuredHomeAsset 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsuredHomeAsset.md
+            - name: Insurer 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Insurer.md
+            - name: InsurerAgency 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/InsurerAgency.md
+            - name: LOB 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/LOB.md
+            - name: LOBAssetDetailCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/LOBAssetDetailCatalog.md
+            - name: LOBCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/LOBCatalog.md
+            - name: Payment 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Payment.md
+            - name: PaymentParty 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PaymentParty.md
+            - name: Policy 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/Policy.md
+            - name: PolicyAgency 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyAgency.md
+            - name: PolicyAgent 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyAgent.md
+            - name: PolicyProduct 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyProduct.md
+            - name: PolicyProductLOB 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyProductLOB.md
+            - name: PolicyTransaction 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/PolicyTransaction.md
+            - name: ProfessionalLicense 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/ProfessionalLicense.md
+            - name: RelatedPartyContract 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/RelatedPartyContract.md
+            - name: StateProvince 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/StateProvince.md
+            - name: TermDocumentCatalog 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/TermDocumentCatalog.md
+            - name: TermDocumentPolicyPart 
+              href: industryCommon/FinancialServices/PropertyandCasualtyDataModel/TermDocumentPolicyPart.md
+          - name: RetailBankingCoreDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/overview.md
+            - name: Account 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Account.md
+            - name: Bank 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Bank.md
+            - name: Branch 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Branch.md
+            - name: Contact 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Contact.md
+            - name: Customerfinancialholding 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Customerfinancialholding.md
+            - name: Fh_account 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_account.md
+            - name: Fh_creditline 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_creditline.md
+            - name: Fh_investment 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_investment.md
+            - name: Fh_loan 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_loan.md
+            - name: Fh_saving 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fh_saving.md
+            - name: Fi_card 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_card.md
+            - name: Fi_directdebit 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_directdebit.md
+            - name: Fi_overdraft 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_overdraft.md
+            - name: Fi_standingorder 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Fi_standingorder.md
+            - name: Financialholding 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Financialholding.md
+            - name: Financialholdinginstrument 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Financialholdinginstrument.md
+            - name: Group 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Group.md
+            - name: Groupfinancialholding 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Groupfinancialholding.md
+            - name: Groupmember 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Groupmember.md
+            - name: Lifemoment 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Lifemoment.md
+            - name: Relationship 
+              href: industryCommon/FinancialServices/RetailBankingCoreDataModel/Relationship.md
+          - name: SMBDataModel
+            items:
+            - name: Summary
+              href: industryCommon/FinancialServices/SMBDataModel/overview.md
+            - name: Contact 
+              href: industryCommon/FinancialServices/SMBDataModel/Contact.md
+            - name: Person 
+              href: industryCommon/FinancialServices/SMBDataModel/Person.md
       - name: Microsoft Cloud for Healthcare
         items:
         - name: Summary
@@ -2581,7 +2581,7 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
-      - name: Microsoft Cloud for Sustainability
+     - name: Microsoft Cloud for Sustainability
         items:
         - name: Cloud for Sustainability data model
           items:
@@ -2671,32 +2671,42 @@
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
-          - name: Facility 
-            href: industryCommon/Sustainability/SustainabilityWater/Facility.md
-          - name: IndustrialProcessType 
-            href: industryCommon/Sustainability/SustainabilityWater/IndustrialProcessType.md
-          - name: OrganizationalUnit 
-            href: industryCommon/Sustainability/SustainabilityWater/OrganizationalUnit.md
-          - name: Unit 
-            href: industryCommon/Sustainability/SustainabilityWater/Unit.md
-          - name: UnitGroup 
-            href: industryCommon/Sustainability/SustainabilityWater/UnitGroup.md
+          - name: WaterBasin
+            href: industryCommon/Sustainability/SustainabilityWater/WaterBasin.md
           - name: WaterInstrument 
             href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
-          - name: WaterInstrumentConfiguration 
-            href: industryCommon/Sustainability/SustainabilityWater/WaterInstrumentConfiguration.md
           - name: WaterQualityAnalysis 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQualityAnalysis.md
           - name: WaterQualityCharacteristic 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristic.md
+          - name: WaterQualityCharacteristicType
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristicType.md
           - name: WaterQualityTestResult 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQualityTestResult.md
           - name: WaterQuantity 
             href: industryCommon/Sustainability/SustainabilityWater/WaterQuantity.md
+          - name: WaterRiskIndex
+            href: industryCommon/Sustainability/SustainabilityWater/WaterRiskIndex.md
           - name: WaterSample 
             href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
           - name: WaterSource 
             href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
+        - name: Cloud for Sustainability waste data model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+          - name: WasteCharacteristicType
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
+          - name: WasteQualityCharacteristic 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
+          - name: WasteQualityTestResult 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
+          - name: WasteQuantity 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
+          - name: WasteTestMethod 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
+          - name: WasteType 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
 - name: operationsCommon
   items:
   - name: Summary
