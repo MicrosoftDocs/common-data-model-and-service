@@ -1128,7 +1128,7 @@ None
 
 | **Name** | **Type** | **Required** |
 |--|--|--|
-|partitioningColumns|listLookupString|False
+|partitioningColumns|listLookupMultiple|False
 
 
 ## <a id="has-relational"><b>has.relational</b></a>
