@@ -1,12 +1,12 @@
 ---
 title: Common Data Model custom package adapter | Microsoft Docs
 description: The API reference for CdmCustomPackageAdapter.
-author: mafrisci
+author: mfriscia7
 
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 05/10/2023
-ms.author: mafrisci
+ms.author: mfriscia7
 ---
 
 # Common Data Model custom package adapter
