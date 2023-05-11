@@ -18,7 +18,7 @@ The standards schema documents are also published on [GitHub](https://github.com
 
 
 ```csharp
-public class CdmStandardsAdapter extends StorageAdapterBase
+public class CdmStandardsAdapter extends CdmCustomPackageAdapter
 ```
 
 ## Constructors
