@@ -3,7 +3,7 @@
   items:
   - name: About Common Data Model
     href: use.md
-  - name: Common Data Model Technical Guide
+  - name: Common Data Model technical guide
     items:
       - name: Overview
         href: sdk/overview.md
@@ -64,9 +64,9 @@
         href: cdm-manifest.md
       - name: Model metadata - model.json
         href: model-json.md
-  - name: Entity Reference
+  - name: Entity reference
     href: schema/core/toc.yml
-  - name: API Reference
+  - name: API reference
     items:
       - name: Overview
         href: 1.0om/api-reference/api-reference.md
@@ -202,57 +202,59 @@
         items:
           - name: Overview
             href: 1.0om/api-reference/storage/storage.md
-          - name: ADLS Adapter
+          - name: ADLS adapter
             href: 1.0om/api-reference/storage/adlsadapter.md
-          - name: Common Data Model Standards Adapter
+          - name: Common Data Model custom package adapter
+            hrfef: 1.0om/api-reference/storage/cdmcustompackageadapter.md
+          - name: Common Data Model standards adapter
             href: 1.0om/api-reference/storage/cdmstandardsadapter.md
-          - name: GitHub Adapter
+          - name: GitHub adapter
             href: 1.0om/api-reference/storage/githubadapter.md
-          - name: Local Adapter
+          - name: Local adapter
             href: 1.0om/api-reference/storage/localadapter.md
-          - name: Network Adapter
+          - name: Network adapter
             href: 1.0om/api-reference/storage/networkadapter.md
-          - name: Remote Adapter
+          - name: Remote adapter
             href: 1.0om/api-reference/storage/remoteadapter.md
-          - name: Storage Adapter Base
+          - name: Storage adapter base
             href: 1.0om/api-reference/storage/storageadapterbase.md
-          - name: Storage Adapter
+          - name: Storage adapter
             href: 1.0om/api-reference/storage/storageadapter.md
-          - name: Storage Manager
+          - name: Storage manager
             href: 1.0om/api-reference/storage/storagemanager.md
-          - name: Syms Adapter
+          - name: Syms adapter
             href: 1.0om/api-reference/storage/symsadapter.md
       - name: Utilities
         items:
           - name: Overview
             href: 1.0om/api-reference/utilities/utilities.md  
-          - name: Copy Options
+          - name: Copy options
             href: 1.0om/api-reference/utilities/copyoptions.md  
-          - name: Event Callback
+          - name: Event callback
             href: 1.0om/api-reference/utilities/callback.md  
           - name: Logger
             href: 1.0om/api-reference/utilities/logger.md  
-          - name: Event List
+          - name: Event list
             href: 1.0om/api-reference/utilities/eventlist.md  
-          - name: File Metadata
+          - name: File metadata
             href: 1.0om/api-reference/utilities/filemetadata.md
           - name: File Status Check Options
             href: 1.0om/api-reference/utilities/filestatuscheckoptions.md
-          - name: HTTP Client
+          - name: HTTP client
             href: 1.0om/api-reference/utilities/httpclient.md
-          - name: Resolve Context
+          - name: Resolve context
             href: 1.0om/api-reference/utilities/resolvecontext.md
-          - name: Resolve Options
+          - name: Resolve options
             href: 1.0om/api-reference/utilities/resolveoptions.md  
-          - name: Storage Utils
+          - name: Storage utils
             href: 1.0om/api-reference/utilities/storageutils.md
-          - name: Telemetry Client
+          - name: Telemetry client
             href: 1.0om/api-reference/utilities/telemetryclient.md
-          - name: Telemetry Configuration
+          - name: Telemetry configuration
             href: 1.0om/api-reference/utilities/telemetryconfig.md
-          - name: Telemetry Kusto Client
+          - name: Telemetry Kusto client
             href: 1.0om/api-reference/utilities/telemetrykustoclient.md
-          - name: Token Provider
+          - name: Token provider
             href: 1.0om/api-reference/utilities/tokenprovider.md   
   - name: How to create schema documents 
     href: creating-schemas.md
