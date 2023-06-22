@@ -1,20 +1,20 @@
 ---
-title: WasteQuantity in Sustainability waste
+title: WasteQuantity in Cloud for Sustainability Waste data model - Common Data Model | Microsoft Docs
 description: Stores information on the actual waste quantity of the organization.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/31/2023
-ms.author: anbichse
+ms.date: 6/22/2023
+ms.author: cdmditeam
 ---
 
 # Waste quantity in Sustainability waste (WasteQuantity)
 
 Stores information on the actual waste quantity of the organization\.  
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity.cdm.json" target="_blank">GitHub</a>.  
 
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQuantity.cdm.json" target="_blank">GitHub</a>.
- 
 ## Traits
 
 <details>
@@ -701,7 +701,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Diversion method sub-type</td></tr><tr><td>description</td><td>Field to further classify the waste diversion method. </td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_diversionmethodsubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recycling</td><td>700610000</td></tr><tr><td>en</td><td>Reuse</td><td>700610001</td></tr><tr><td>en</td><td>Incineration (with energy recovery)</td><td>700610002</td></tr><tr><td>en</td><td>Landfilling</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr><tr><td>en</td><td>Incineration (without energy recovery)</td><td>700610005</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Diversion method sub-type</td></tr><tr><td>description</td><td>Field to further classify the waste diversion method. </td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_diversionmethodsubtype</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recycling</td><td>700610000</td></tr><tr><td>en</td><td>Reuse</td><td>700610001</td></tr><tr><td>en</td><td>Incineration (with energy recovery)</td><td>700610002</td></tr><tr><td>en</td><td>Incineration (without energy recovery)</td><td>700610005</td></tr><tr><td>en</td><td>Landfilling</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -714,7 +714,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 \*\*is\.dataFormat\.numeric\*\*  
   \*\*does\.haveDefault\*\*  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recycling</td><td>700610000</td></tr><tr><td>en</td><td>Reuse</td><td>700610001</td></tr><tr><td>en</td><td>Incineration (with energy recovery)</td><td>700610002</td></tr><tr><td>en</td><td>Landfilling</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr><tr><td>en</td><td>Incineration (without energy recovery)</td><td>700610005</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Recycling</td><td>700610000</td></tr><tr><td>en</td><td>Reuse</td><td>700610001</td></tr><tr><td>en</td><td>Incineration (with energy recovery)</td><td>700610002</td></tr><tr><td>en</td><td>Incineration (without energy recovery)</td><td>700610005</td></tr><tr><td>en</td><td>Landfilling</td><td>700610003</td></tr><tr><td>en</td><td>Other</td><td>700610004</td></tr></table></td><td>any</td><td></td></tr></table>
 
 \*\*is\.constrainedList\*\*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -759,7 +759,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   \*\*is\.dataFormat\.time\*\*  
   \*\*means\.measurement\.time\*\*  
   \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start date of the period for which the waste diverted needs to be reported.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -900,7 +900,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for facility associated with waste diversion operation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -1035,7 +1035,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the organizational unit associated with waste diversion operation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
