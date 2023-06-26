@@ -1,19 +1,19 @@
 ---
-title: WasteTestMethod in Sustainability waste
+title: WasteTestMethod in Cloud for Sustainability Waste data model - Common Data Model | Microsoft Docs
 description: Stores information on tests performed for the contaminant.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/31/2023
-ms.author: anbichse
+ms.date: 6/22/2023
+ms.author: cdmditeam
 ---
 
 # Waste test method in Sustainability waste (WasteTestMethod)
 
 Stores information on tests performed for the contaminant\.  
-
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod.cdm.json" target="_blank">GitHub</a>.
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -66,7 +66,7 @@ Latest version of the JSON entity definition is available on <a href="https://gi
 |[description](#description)|Optional field to describe the entity\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[laboratoryname](#laboratoryname)|Indicates the name of the lab that carried out the waste quality analysis\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store the source unique identifier for the waste quality test\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
-|[sampleId](#sampleId)|Unique identifier of the waste sample used for the test\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
+|[sampleId](#sampleId)|Unique identifier of the waste sample id used for the test\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 |[testmethod](#testmethod)|Indicates the type of test performed\.|<a href="WasteTestMethod.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteTestMethod</a>|
 
 ### <a href=#wastetestmethodId name="wastetestmethodId">wastetestmethodId</a>
@@ -525,7 +525,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTes
   \*\*is\.dataFormat\.time\*\*  
   \*\*means\.measurement\.time\*\*  
   \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the date when the waste sample was collected.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -740,12 +740,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTes
 
 ### <a href=#sampleId name="sampleId">sampleId</a>
 
-Unique identifier of the waste sample used for the test\.  
+Unique identifier of the waste sample id used for the test\.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTestMethod \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sample</td></tr><tr><td>description</td><td>Unique identifier of the waste sample used for the test.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_sampleId</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sample Id</td></tr><tr><td>description</td><td>Unique identifier of the waste sample id used for the test.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_sampleId</td></tr></table>
 
 #### Traits
 
@@ -763,10 +763,10 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTes
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the waste sample used for the test.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the waste sample id used for the test.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sample</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sample Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>

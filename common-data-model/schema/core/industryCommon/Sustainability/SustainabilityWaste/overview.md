@@ -30,8 +30,8 @@ For more information, see the [Microsoft Cloud for Sustainability waste data mod
 
 |Name|Description|
 |---|---|
-|[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
-|[IndustrialProcessType](IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
-|[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
-|[Unit](Unit.md)|Unit of measure.|
-|[UnitGroup](UnitGroup.md)|Grouping of units.|
+|[Facility](../Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
+|[IndustrialProcessType](../IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
+|[OrganizationalUnit](../OrganizationalUnit.md)|A structural division of a company or organization.|
+|[Unit](../Unit.md)|Unit of measure.|
+|[UnitGroup](../UnitGroup.md)|Grouping of units.|

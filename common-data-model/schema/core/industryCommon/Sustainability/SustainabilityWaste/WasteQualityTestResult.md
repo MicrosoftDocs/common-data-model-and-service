@@ -1,19 +1,19 @@
 ---
-title: WasteQualityTestResult in Sustainability waste
+title: WasteQualityTestResult in Cloud for Sustainability Waste data model - Common Data Model | Microsoft Docs
 description: Stores information on the result of the tests for tracking chemical/contaminant levels.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/31/2023
-ms.author: anbichse
+ms.date: 6/22/2023
+ms.author: cdmditeam
 ---
 
 # Waste quality test result in Sustainability waste (WasteQualityTestResult)
 
 Stores information on the result of the tests for tracking chemical/contaminant levels\.  
-
-Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult.cdm.json" target="_blank">GitHub</a>.
+  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -69,6 +69,7 @@ Latest version of the JSON entity definition is available on <a href="https://gi
 |[unit](#unit)|The unit of measurement of the measure value in the test result\.|<a href="WasteQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult</a>|
 |[wastequalitycharacteristic](#wastequalitycharacteristic)|Indicates the quality characterisitic of the contaminant or chemical being tracked\.|<a href="WasteQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult</a>|
 |[wastetestmethod](#wastetestmethod)|Indicates the test method and related details for the waste quality characteristic\.|<a href="WasteQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult</a>|
+|[wastequalitytestdate](#wastequalitytestdate)|The actual date and time at which the waste quality test was carried out\.|<a href="WasteQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityTestResult</a>|
 
 ### <a href=#wastequalitytestresultId name="wastequalitytestresultId">wastequalitytestresultId</a>
 
@@ -585,7 +586,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier of the facility where the waste sample was collected for testing.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -597,7 +598,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../cdm:/Sustainability/Facility.md" target="_blank">cdm:/Sustainability/Facility.cdm.json/Facility</a></td><td><a href="../../cdm:/Sustainability/Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Facility.md" target="_blank">cdm:/Sustainability/Facility.cdm.json/Facility</a></td><td><a href="../Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -642,7 +643,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../cdm:/Sustainability/IndustrialProcessType.md" target="_blank">cdm:/Sustainability/IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../../cdm:/Sustainability/IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../IndustrialProcessType.md" target="_blank">cdm:/Sustainability/IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -673,7 +674,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The reportable measured value of a characteristic being tested.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -735,7 +736,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../cdm:/Sustainability/OrganizationalUnit.md" target="_blank">cdm:/Sustainability/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../../cdm:/Sustainability/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../OrganizationalUnit.md" target="_blank">cdm:/Sustainability/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -862,7 +863,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates whether the measure of the pollutant is within the permissible range.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -912,7 +913,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unit of measurement of the measure value in the test result.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -924,7 +925,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../cdm:/Sustainability/Unit.md" target="_blank">cdm:/Sustainability/Unit.cdm.json/Unit</a></td><td><a href="../../cdm:/Sustainability/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Unit.md" target="_blank">cdm:/Sustainability/Unit.cdm.json/Unit</a></td><td><a href="../Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -969,7 +970,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WasteQualityCharacteristic.md" target="_blank">WasteQualityCharacteristic.cdm.json/WasteQualityCharacteristic</a></td><td><a href="../../WasteQualityCharacteristic.md#wastequalitycharacteristicId" target="_blank">wastequalitycharacteristicId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WasteQualityCharacteristic.md" target="_blank">WasteQualityCharacteristic.cdm.json/WasteQualityCharacteristic</a></td><td><a href="WasteQualityCharacteristic.md#wastequalitycharacteristicId" target="_blank">wastequalitycharacteristicId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -1014,7 +1015,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WasteTestMethod.md" target="_blank">WasteTestMethod.cdm.json/WasteTestMethod</a></td><td><a href="../../WasteTestMethod.md#wastetestmethodId" target="_blank">wastetestmethodId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WasteTestMethod.md" target="_blank">WasteTestMethod.cdm.json/WasteTestMethod</a></td><td><a href="WasteTestMethod.md#wastetestmethodId" target="_blank">wastetestmethodId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -1022,3 +1023,43 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
+
+### <a href=#wastequalitytestdate name="wastequalitytestdate">wastequalitytestdate</a>
+
+The actual date and time at which the waste quality test was carried out\.  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityTestResult \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Waste quality test date</td></tr><tr><td>description</td><td>The actual date and time at which the waste quality test was carried out.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_wastequalitytestdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the wastequalitytestdate attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.date\*\*  
+  \*\*means\.measurement\.date\*\*  
+  \*\*is\.dataFormat\.time\*\*  
+  \*\*means\.measurement\.time\*\*  
+  \*\*is\.requiredAtLevel\*\*  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+\*\*is\.localized\.describedAs\*\*  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The actual date and time at which the waste quality test was carried out.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.localized\.displayedAs\*\*  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Waste quality test date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+\*\*is\.nullable\*\*  
+  The attribute value may be set to NULL.  
+
+\*\*is\.CDS\.sourceNamed\*\*  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_wastequalitytestdate"</td><td>string</td><td></td></tr></table>
+
+\*\*is\.CDS\.ordered\*\*  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
+
+\*\*is\.dataFormat\.time\*\*  
+  \*\*is\.dataFormat\.date\*\*  
+  </details>
