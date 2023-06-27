@@ -1,18 +1,20 @@
 ---
-title: Facility in Sustainability
+title: Facility in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 03/31/2023
-ms.author: anbichse
+ms.date: 6/27/2023
+ms.author: cdmditeam
 ---
 
-# Facility in Sustainability
+# Facility in CloudforSustainabilityWaterDataModel
 
 Base\x2dlevel location to attribute activity data\. May contain multiple buildings and organizational units\.  
   
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/Facility.cdm.json" target="_blank">GitHub</a>.  
+
 ## Traits
 
 <details>
@@ -46,18 +48,18 @@ Base\x2dlevel location to attribute activity data\. May contain multiple buildin
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityId](#facilityId)|Unique identifier for entity instances|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
-|[waterbasin](#waterbasin)|Store the details of the basin from which water is drawn by the facility\.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
-|[waterriskindex](#waterriskindex)|Describe the overall water risk index of the facility\.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[facilityId](#facilityId)|Unique identifier for entity instances\.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility\.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility\.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
-Unique identifier for entity instances  
+Unique identifier for entity instances\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_facilityid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Facility</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_facilityid</td></tr></table>
 
 #### Traits
 
@@ -80,7 +82,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Facility</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -100,12 +102,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 
 ### <a href=#waterbasin name="waterbasin">waterbasin</a>
 
-Store the details of the basin from which water is drawn by the facility\.  
+Stores the details of the basin from which water is drawn by the facility\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water basin</td></tr><tr><td>description</td><td>Store the details of the basin from which water is drawn by the facility.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water basin</td></tr><tr><td>description</td><td>Stores the details of the basin from which water is drawn by the facility.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -125,7 +127,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Store the details of the basin from which water is drawn by the facility.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Stores the details of the basin from which water is drawn by the facility.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water basin</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -145,12 +147,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 
 ### <a href=#waterriskindex name="waterriskindex">waterriskindex</a>
 
-Describe the overall water risk index of the facility\.  
+Describes the overall water risk index of the facility\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water risk index</td></tr><tr><td>description</td><td>Describe the overall water risk index of the facility.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water risk index</td></tr><tr><td>description</td><td>Describes the overall water risk index of the facility.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -170,7 +172,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describe the overall water risk index of the facility.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Describes the overall water risk index of the facility.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water risk index</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

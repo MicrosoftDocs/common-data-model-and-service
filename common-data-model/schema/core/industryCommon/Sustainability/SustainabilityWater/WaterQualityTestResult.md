@@ -1,15 +1,15 @@
 ---
-title: WaterQualityTestResult in Sustainability water
+title: WaterQualityTestResult in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/31/2023
-ms.author: anbichse
+ms.date: 6/27/2023
+ms.author: cdmditeam
 ---
 
-# Water quality test result in Sustainability water (WaterQualityTestResult)
+# Water quality test result in CloudforSustainabilityWaterDataModel(WaterQualityTestResult)
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample\.  
   
@@ -44,7 +44,7 @@ Describes the results coming from the laboratory water quality test for a charac
 
 </details>
 
-## Attributesreferencerangeev
+## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
@@ -57,7 +57,7 @@ Describes the results coming from the laboratory water quality test for a charac
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[name](#name)|The name of the custom entity\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[waterqualityanalysis](#waterqualityanalysis)|Indicates the analysis that was performed to arrive at the water quality test result\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
-|[waterqualitytestdate](#waterqualitytestdate)|Indicates the actual date and time at which the water quality test was carried out.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
+|[waterqualitytestdate](#waterqualitytestdate)|Indicates the actual date and time at which the water quality test was carried out\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[comments](#comments)|Optional field that indicates the any additional details regarding the result provided by the analysis\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[description](#description)|Optional description that provides additional detail about the entity or attribute\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
@@ -369,11 +369,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -391,7 +392,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -450,7 +451,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterQualityAnalysis.md" target="_blank">WaterQualityAnalysis.cdm.json/WaterQualityAnalysis</a></td><td><a href="WaterQualityAnalysis.md#waterqualityanalysisId" target="_blank">waterqualityanalysisId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterQualityAnalysis.md" target="_blank">WaterQualityAnalysis.cdm.json/WaterQualityAnalysis</a></td><td><a href="../../WaterQualityAnalysis.md#waterqualityanalysisId" target="_blank">waterqualityanalysisId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -461,13 +462,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#waterqualitytestdate name="waterqualitytestdate">waterqualitytestdate</a>
 
-Indicates the actual date and time at which the water quality test was carried out.
-
+Indicates the actual date and time at which the water quality test was carried out\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality test date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytestdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality test date</td></tr><tr><td>description</td><td>Indicates the actual date and time at which the water quality test was carried out.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytestdate</td></tr></table>
 
 #### Traits
 
@@ -482,7 +482,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the actual date and time at which the water quality test was carried out.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water quality test date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -824,7 +824,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Unit.md" target="_blank">cdm:/Sustainability/Unit.cdm.json/Unit</a></td><td><a href="../Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../cdm:/Sustainability/Unit.md" target="_blank">cdm:/Sustainability/Unit.cdm.json/Unit</a></td><td><a href="../../cdm:/Sustainability/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -869,7 +869,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterQualityCharacteristic.md" target="_blank">WaterQualityCharacteristic.cdm.json/WaterQualityCharacteristic</a></td><td><a href="WaterQualityCharacteristic.md#waterqualitycharacteristicId" target="_blank">waterqualitycharacteristicId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterQualityCharacteristic.md" target="_blank">WaterQualityCharacteristic.cdm.json/WaterQualityCharacteristic</a></td><td><a href="../../WaterQualityCharacteristic.md#waterqualitycharacteristicId" target="_blank">waterqualitycharacteristicId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -914,7 +914,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterSample.md" target="_blank">WaterSample.cdm.json/WaterSample</a></td><td><a href="WaterSample.md#watersampleId" target="_blank">watersampleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterSample.md" target="_blank">WaterSample.cdm.json/WaterSample</a></td><td><a href="../../WaterSample.md#watersampleId" target="_blank">watersampleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
