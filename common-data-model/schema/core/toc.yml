@@ -2671,6 +2671,8 @@
             items:
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWater/overview.md
+            - name: StoredWater
+              href: industryCommon/Sustainability/SustainabilityWater/StoredWater.md
             - name: WaterBasin
               href: industryCommon/Sustainability/SustainabilityWater/WaterBasin.md
             - name: WaterInstrument 
