@@ -1,15 +1,15 @@
 ---
-title: WaterQualityCharacteristic in Sustainability water
+title: WaterQualityCharacteristic in Sustainability water data model - Common Data Model | Microsoft Docs
 description: Describes the property being evaluated during the analysis of the water sample collected.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 3/31/2023
+ms.date: 6/27/2023
 ms.author: anbichse
 ---
 
-# Water quality characteristic in Sustainability water (WaterQualityCharacteristic)
+# Water quality characteristic in Sustainability water data model (WaterQualityCharacteristic)
 
 Describes the property being evaluated during the analysis of the water sample collected\.  
   
@@ -62,12 +62,12 @@ Describes the property being evaluated during the analysis of the water sample c
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[name](#name)|The name of the custom entity\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
-|[referencerangeevidence](#referencerangeevidence)|Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
+|[referencerangeevidence](#referencerangeevidence)|Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[referencerangelowerlimit](#referencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the water sample\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[referencerangeunit](#referencerangeunit)|Indicates the unit of measurement for the reference range\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[referencerangeupperlimit](#referencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the water sample\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 |[description](#description)|Optional field that provides additional detail about the entity or attribute\.|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
-|[waterqualitycharacteristictype](#waterqualitycharacteristictype)||<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
+|[waterqualitycharacteristictype](#waterqualitycharacteristictype)|Field to classify the water quality characteristic as belonging a certain type|<a href="WaterQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic</a>|
 
 ### <a href=#waterqualitycharacteristicId name="waterqualitycharacteristicId">waterqualitycharacteristicId</a>
 
@@ -460,11 +460,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -482,7 +483,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -555,13 +556,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#referencerangeevidence name="referencerangeevidence">referencerangeevidence</a>
 
-Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic.
-
+Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference range evidence</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_referencerangeevidence</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reference range evidence</td></tr><tr><td>description</td><td>Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_referencerangeevidence</td></tr></table>
 
 #### Traits
 
@@ -579,7 +579,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Field for storing the details of the standards or water quality discharge permits associated with the reference range for the water quality characteristic.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reference range evidence</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -783,11 +783,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#waterqualitycharacteristictype name="waterqualitycharacteristictype">waterqualitycharacteristictype</a>
 
+Field to classify the water quality characteristic as belonging a certain type  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityCharacteristic \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality characteristic type</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality characteristic type</td></tr><tr><td>description</td><td>Field to classify the water quality characteristic as belonging a certain type</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -807,7 +808,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Field to classify the water quality characteristic as belonging a certain type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water quality characteristic type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
