@@ -1,15 +1,15 @@
 ---
-title: WaterQualityTestResult in Sustainability water
+title: WaterQualityTestResult in Sustainability Water Data Model - Common Data Model | Microsoft Docs
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
-ms.topic: article
-ms.date: 3/31/2023
+ms.reviewer: deonhe
+ms.topic: anbichse
+ms.date: 6/27/2023
 ms.author: anbichse
 ---
 
-# Water quality test result in Sustainability water (WaterQualityTestResult)
+# Water quality test result in CloudforSustainabilityWaterDataModel(WaterQualityTestResult)
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample\.  
   
@@ -44,7 +44,7 @@ Describes the results coming from the laboratory water quality test for a charac
 
 </details>
 
-## Attributesreferencerangeev
+## Attributes
 
 |Name|Description|First Included in Instance|
 |---|---|---|
@@ -57,7 +57,7 @@ Describes the results coming from the laboratory water quality test for a charac
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[name](#name)|The name of the custom entity\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[waterqualityanalysis](#waterqualityanalysis)|Indicates the analysis that was performed to arrive at the water quality test result\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
-|[waterqualitytestdate](#waterqualitytestdate)|Indicates the actual date and time at which the water quality test was carried out.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
+|[waterqualitytestdate](#waterqualitytestdate)|Indicates the actual date and time at which the water quality test was carried out\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[comments](#comments)|Optional field that indicates the any additional details regarding the result provided by the analysis\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[description](#description)|Optional description that provides additional detail about the entity or attribute\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample\.|<a href="WaterQualityTestResult.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterQualityTestResult</a>|
@@ -369,11 +369,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#name name="name">name</a>
 
+The name of the custom entity\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -391,7 +392,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -461,13 +462,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 
 ### <a href=#waterqualitytestdate name="waterqualitytestdate">waterqualitytestdate</a>
 
-Indicates the actual date and time at which the water quality test was carried out.
-
+Indicates the actual date and time at which the water quality test was carried out\.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality test date</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytestdate</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Water quality test date</td></tr><tr><td>description</td><td>Indicates the actual date and time at which the water quality test was carried out.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_waterqualitytestdate</td></tr></table>
 
 #### Traits
 
@@ -482,7 +482,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Indicates the actual date and time at which the water quality test was carried out.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Water quality test date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
