@@ -48,7 +48,7 @@ CDM Solution for the 'NONPROFITIATI' CDS Solution
 |[IndicatorReference](IndicatorReference.md)|A standardised means of identifying the indicator from a code in a recognised vocabulary.|
 |[IndicatorValue](IndicatorValue.md)|An Indicator Value is a quantitative or qualitative value of measurement of an Indicator. Indicator Values may be but are not limited to baseline, target or actual values of measurement.|
 |[IndicatorValueLocation](IndicatorValueLocation.md)|Indicates the location of the indicator value|
-|[Location](Location.md)|The sub-national geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.|
+|[Location](Location.md)|The sub-national/sub-regional geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.|
 |[Membership](Membership.md)|Representation of a Customer Membership.|
 |[MembershipCategory](MembershipCategory.md)|Represents the types of membership associated to products.|
 |[NarrativeTranslation](NarrativeTranslation.md)|Allows the translation of different narrative elements for IATI reporting.|
