@@ -1,6 +1,6 @@
 ---
 title: Location in nonProfitIati - Common Data Model | Microsoft Docs
-description: The sub-national geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.
+description: The sub-national/sub-regional geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.
 author: llawwaii
 
 ms.reviewer: deonhe
@@ -11,7 +11,7 @@ ms.author: weiluo
 
 # Location in nonProfitIati
 
-The sub-national geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.  
+The sub-national/sub-regional geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/accelerators/nonProfit/nonProfitIati/Location.cdm.json" target="_blank">GitHub</a>.  
 
@@ -37,7 +37,7 @@ The sub-national geographical identification of the target locations of an activ
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Location</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The sub-national geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The sub-national/sub-regional geographical identification of the target locations of an activity. These can be described by gazetteer reference, coordinates, administrative areas or a textual description.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msiati_location"</td><td>string</td><td></td></tr></table>
