@@ -2586,7 +2586,7 @@
         - name: Cloud for Sustainability data model
           items:
           - name: Summary
-            href: industryCommon/Sustainability/carbon-overview.md
+            href: industryCommon/Sustainability/overview.md
           - name: AccommodationType 
             href: industryCommon/Sustainability/AccommodationType.md
           - name: BusinessTravel 
