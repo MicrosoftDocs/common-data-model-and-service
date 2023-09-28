@@ -1,5 +1,5 @@
 ---
-title: WaterQualityTestResult in CloudforSustainabilityWaterDataModel - Common Data Model
+title: WaterQualityTestResult in Sustainability water data model - Common Data Model
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Water quality test result in CloudforSustainabilityWaterDataModel(WaterQualityTestResult)
+# Water quality test result in Sustainability water data model (WaterQualityTestResult)
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample.  
   

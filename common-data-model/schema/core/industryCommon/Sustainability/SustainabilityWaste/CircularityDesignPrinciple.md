@@ -1,5 +1,5 @@
 ---
-title: CircularityDesignPrinciple in CloudforSustainabilityWasteDataModel - Common Data Model
+title: CircularityDesignPrinciple in Sustainability waste data model - Common Data Model
 description: Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Circularity design principle in CloudforSustainabilityWasteDataModel(CircularityDesignPrinciple)
+# Circularity design principle in Sustainability waste data model (CircularityDesignPrinciple)
 
 Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.  
   

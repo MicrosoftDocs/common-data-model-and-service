@@ -1,5 +1,5 @@
 ---
-title: WaterRiskIndex in CloudforSustainabilityWaterDataModel - Common Data Model
+title: WaterRiskIndex in Sustainability water data model - Common Data Model
 description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.Ex&#58- Low- Low-medium- Medium- Medium-high- High- Extremely-high
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Water risk index in CloudforSustainabilityWaterDataModel(WaterRiskIndex)
+# Water risk index in Sustainability water data model (WaterRiskIndex)
 
 The overall water risk that measures all water\x2drelated risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
 

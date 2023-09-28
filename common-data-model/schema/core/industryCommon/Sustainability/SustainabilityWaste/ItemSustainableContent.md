@@ -1,5 +1,5 @@
 ---
-title: ItemSustainableContent in CloudforSustainabilityWasteDataModel - Common Data Model
+title: ItemSustainableContent in Sustainability waste data model - Common Data Model
 description: Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Item sustainable content in CloudforSustainabilityWasteDataModel(ItemSustainableContent)
+# Item sustainable content in Sustainability waste data model (ItemSustainableContent)
 
 Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.  
   

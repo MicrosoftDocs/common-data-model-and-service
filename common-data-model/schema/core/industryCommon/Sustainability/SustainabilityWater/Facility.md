@@ -1,5 +1,5 @@
 ---
-title: Facility in CloudforSustainabilityWaterDataModel - Common Data Model
+title: Facility in Sustainability water data model - Common Data Model
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Facility in CloudforSustainabilityWaterDataModel
+# Facility in Sustainability water data model 
 
 Base\x2dlevel location to attribute activity data. May contain multiple buildings and organizational units.  
   

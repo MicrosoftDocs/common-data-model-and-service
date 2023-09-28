@@ -1,5 +1,5 @@
 ---
-title: WaterQuantity in CloudforSustainabilityWaterDataModel - Common Data Model
+title: WaterQuantity in Sustainability water data model - Common Data Model
 description: Stores the actual quantity information from water transactions within the organization.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Water quantity in CloudforSustainabilityWaterDataModel(WaterQuantity)
+# Water quantity in Sustainability water data model (WaterQuantity)
 
 Stores the actual quantity information from water transactions within the organization.  
   

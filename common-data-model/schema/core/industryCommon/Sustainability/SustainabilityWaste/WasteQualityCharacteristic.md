@@ -1,5 +1,5 @@
 ---
-title: WasteQualityCharacteristic in CloudforSustainabilityWasteDataModel - Common Data Model
+title: WasteQualityCharacteristic in Sustainability waste data model - Common Data Model
 description: Stores information on the characteristics of the contaminant or chemical being tracked.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Waste quality characteristic in CloudforSustainabilityWasteDataModel(WasteQualityCharacteristic)
+# Waste quality characteristic in Sustainability waste data model (WasteQualityCharacteristic)
 
 Stores information on the characteristics of the contaminant or chemical being tracked.  
   
