@@ -3,7 +3,7 @@ title: WasteCharacteristicType in CloudforSustainabilityWasteDataModel - Common 
 description: Stores all the different classifications for the waste quality characteristics.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/26/2023
 ms.author: cdmditeam

@@ -3,7 +3,7 @@ title: Emission in Sustainability - Common Data Model | Microsoft Docs
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

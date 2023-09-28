@@ -3,7 +3,7 @@ title: EstimationFactor in Sustainability - Common Data Model | Microsoft Docs
 description: Entity to store estimation or consumption factors.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

@@ -3,7 +3,7 @@ title: IndustryClassification in Sustainability - Common Data Model | Microsoft 
 description: Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

@@ -3,7 +3,7 @@ title: StationaryCombustion in Sustainability - Common Data Model | Microsoft Do
 description: Combustion that occurs in a fixed asset, such as a boiler or furnace.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

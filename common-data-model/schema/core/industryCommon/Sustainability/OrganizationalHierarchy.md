@@ -3,7 +3,7 @@ title: OrganizationalHierarchy in Sustainability - Common Data Model | Microsoft
 description: The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

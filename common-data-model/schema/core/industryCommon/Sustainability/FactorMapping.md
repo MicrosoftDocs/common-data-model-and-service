@@ -3,7 +3,7 @@ title: FactorMapping in Sustainability - Common Data Model | Microsoft Docs
 description: Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

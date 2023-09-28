@@ -3,7 +3,7 @@ title: OrganizationalProfile in Sustainability - Common Data Model | Microsoft D
 description: The base information of the organization, for which the solution is built.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

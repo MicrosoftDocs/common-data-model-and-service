@@ -3,7 +3,7 @@ title: Facility in CloudforSustainabilityWaterDataModel - Common Data Model | Mi
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/26/2023
 ms.author: cdmditeam

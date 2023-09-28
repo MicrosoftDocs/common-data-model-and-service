@@ -3,7 +3,7 @@ title: WaterQualityCharacteristic in CloudforSustainabilityWaterDataModel - Comm
 description: Describes the property being evaluated during the analysis of the water sample collected.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/26/2023
 ms.author: cdmditeam

@@ -3,7 +3,7 @@ title: EmissionFactor in Sustainability - Common Data Model | Microsoft Docs
 description: Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

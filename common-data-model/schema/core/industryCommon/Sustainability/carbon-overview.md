@@ -3,7 +3,7 @@ title: overview of Sustainability - Common Data Model | Microsoft Docs
 description: Sustainability is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 10/5/2022
 ms.author: cdmditeam

@@ -3,7 +3,7 @@ title: ItemSustainableContent in CloudforSustainabilityWasteDataModel - Common D
 description: Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/26/2023
 ms.author: cdmditeam

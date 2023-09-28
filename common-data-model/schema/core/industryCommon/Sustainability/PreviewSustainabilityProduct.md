@@ -3,7 +3,7 @@ title: PreviewSustainabilityProduct in Sustainability - Common Data Model | Micr
 description: A product that can be associated with a product carbon footprint.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

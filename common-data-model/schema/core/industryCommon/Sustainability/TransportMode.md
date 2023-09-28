@@ -3,7 +3,7 @@ title: TransportMode in Sustainability - Common Data Model | Microsoft Docs
 description: The mode of transportation or distribution used in an activity, such as air, rail, or storage.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

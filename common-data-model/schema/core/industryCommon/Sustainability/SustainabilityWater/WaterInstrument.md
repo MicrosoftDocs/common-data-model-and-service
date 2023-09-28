@@ -3,7 +3,7 @@ title: WaterInstrument in CloudforSustainabilityWaterDataModel - Common Data Mod
 description: Stores the information related to the devices or instruments tracking water in the organization.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/26/2023
 ms.author: cdmditeam

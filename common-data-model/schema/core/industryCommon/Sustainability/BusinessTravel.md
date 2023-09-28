@@ -3,7 +3,7 @@ title: BusinessTravel in Sustainability - Common Data Model | Microsoft Docs
 description: Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

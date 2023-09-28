@@ -3,7 +3,7 @@ title: WasteQuantity in CloudforSustainabilityWasteDataModel - Common Data Model
 description: Stores information on the actual waste quantity of the organization.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/26/2023
 ms.author: cdmditeam

@@ -3,7 +3,7 @@ title: BusinessTravelType in Sustainability - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of business travel, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam

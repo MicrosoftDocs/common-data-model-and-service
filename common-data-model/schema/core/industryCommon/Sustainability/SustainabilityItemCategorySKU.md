@@ -3,7 +3,7 @@ title: SustainabilityItemCategorySKU in Sustainability - Common Data Model | Mic
 description: The category of the item such as abrasives, castings or accessories
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 9/28/2023
 ms.author: cdmditeam
