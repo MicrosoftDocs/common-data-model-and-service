@@ -17,7 +17,7 @@ Common Data Model CDM entity definitions
 
 |Name|Description|
 |---|---|
-|[AccountDetail](AccountDetail.md)|Account/Company details with historical values\.|
-|[ContactDetail](ContactDetail.md)|Contact details with historical values\.|
-|[RelatedPartyContract](RelatedPartyContract.md)|A table that links the service providers with service requestors/participants to the relevant contract\.|
-|[RelatedPartyRole](RelatedPartyRole.md)|Defines the role of the service requestor/participant within a specific business scenario\.|
+|[AccountDetail](AccountDetail.md)|Account/Company details with historical values.|
+|[ContactDetail](ContactDetail.md)|Contact details with historical values.|
+|[RelatedPartyContract](RelatedPartyContract.md)|A table that links the service providers with service requestors/participants to the relevant contract.|
+|[RelatedPartyRole](RelatedPartyRole.md)|Defines the role of the service requestor/participant within a specific business scenario.|
