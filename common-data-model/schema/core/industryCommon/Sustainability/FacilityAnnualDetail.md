@@ -70,7 +70,7 @@ Captures intensity scores for a facility in a given year\.
 ### <a href=#facilityannualdetailId name="facilityannualdetailId">facilityannualdetailId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility Annual Details  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility Annual Details  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#year name="year">year</a>
 
 The name of the custom entity\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#area name="area">area</a>
 
 The physical space contained in a facility\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#areaunit name="areaunit">areaunit</a>
 
 Unit of measure used to describe the area of a space\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier for the facility annual detail\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -643,7 +643,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#headcount name="headcount">headcount</a>
 
 The number of people who are employed at a given facility\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 
@@ -686,7 +686,7 @@ First included in: Sustainability/FacilityAnnualDetail \(this entity\)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin\.  
-First included in: Sustainability/FacilityAnnualDetail \(this entity\)  
+First included in: Sustainability/FacilityAnnualDetail (this entity)  
 
 #### Properties
 

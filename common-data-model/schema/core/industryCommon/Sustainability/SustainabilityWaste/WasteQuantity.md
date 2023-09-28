@@ -82,7 +82,7 @@ Stores information on the actual waste quantity of the organization.
 ### <a href=#wastequantityId name="wastequantityId">wastequantityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -130,7 +130,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition identifier. A logical partition consists of a set of records with same partition ID.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -221,7 +221,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -344,7 +344,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -429,7 +429,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with waste diversion.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -472,7 +472,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -563,7 +563,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#description name="description">description</a>
 
 Optional description to give additional detail to the entity or attribute..  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -611,7 +611,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#diversionenddate name="diversionenddate">diversionenddate</a>
 
 End date of the period for which the waste diverted needs to be reported.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#diversionmethod name="diversionmethod">diversionmethod</a>
 
 Method of waste diversion, such as recovery or disposal.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -697,7 +697,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#diversionmethodsubtype name="diversionmethodsubtype">diversionmethodsubtype</a>
 
 Field to further classify the waste diversion method.   
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#diversionstartdate name="diversionstartdate">diversionstartdate</a>
 
 Start date of the period for which the waste diverted needs to be reported.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence such as invoice, system records can be linked to an entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -831,7 +831,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#expensetype name="expensetype">expensetype</a>
 
 Describes the expense type associated with the waste diversion operation.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -879,7 +879,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier for facility associated with waste diversion operation.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -924,7 +924,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#industrialprocesstype name="industrialprocesstype">industrialprocesstype</a>
 
 Type of industrial process used to track and associate with the waste diversion operation.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -969,7 +969,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#material name="material">material</a>
 
 Material composition of the waste such as glass, plastic, metals, or biomass.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1014,7 +1014,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#organizationalunit name="organizationalunit">organizationalunit</a>
 
 Unique identifier for the organizational unit associated with waste diversion operation.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1059,7 +1059,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#valuechainpartner name="valuechainpartner">valuechainpartner</a>
 
 Reference to the value chain partner or supplier associated with the transaction.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1104,7 +1104,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastediversionsitetype name="wastediversionsitetype">wastediversionsitetype</a>
 
 The site type where the waste diversion occurs.   
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1150,7 +1150,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastetype name="wastetype">wastetype</a>
 
 Reference to the classification of the waste type and category.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1195,7 +1195,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastevolume name="wastevolume">wastevolume</a>
 
 Optional field for the volume of waste diverted.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wastevolumeunit name="wastevolumeunit">wastevolumeunit</a>
 
 Unit associated with the volume of waste diverted.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1283,7 +1283,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wasteweight name="wasteweight">wasteweight</a>
 
 Weight of the waste diverted.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1326,7 +1326,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#wasteweightunit name="wasteweightunit">wasteweightunit</a>
 
 Unit associated with the weight of waste diverted.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 
@@ -1371,7 +1371,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier values for the entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQuantity (this entity)  
 
 #### Properties
 

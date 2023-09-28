@@ -71,7 +71,7 @@ Describes the results coming from the laboratory water quality test for a charac
 ### <a href=#waterqualitytestresultId name="waterqualitytestresultId">waterqualitytestresultId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition identifier. A logical partition consists of a set of records with same partition ID.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#waterqualityanalysis name="waterqualityanalysis">waterqualityanalysis</a>
 
 Indicates the analysis that was performed to arrive at the water quality test result.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#waterqualitytestdate name="waterqualitytestdate">waterqualitytestdate</a>
 
 Indicates the actual date and time at which the water quality test was carried out.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#comments name="comments">comments</a>
 
 Optional field that indicates the any additional details regarding the result provided by the analysis.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#measuredvalue name="measuredvalue">measuredvalue</a>
 
 The reportable measured value of a characteristic being analyzed.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#precision name="precision">precision</a>
 
 Indicates how the measurements for a property has been prescribed.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#resultstatus name="resultstatus">resultstatus</a>
 
 Indicates whether the measure of the characteristic is within the permissible range.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -791,7 +791,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#unit name="unit">unit</a>
 
 The unit of measurement of the measure value in the test result.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -836,7 +836,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#waterqualitycharacteristic name="waterqualitycharacteristic">waterqualitycharacteristic</a>
 
 Indicates the measurable property for which the water sample has been analyzed and measured value provided.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
@@ -881,7 +881,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
 ### <a href=#watersample name="watersample">watersample</a>
 
 Indicates the details of the water sample collected for the water quality test.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQualityTestResult (this entity)  
 
 #### Properties
 
