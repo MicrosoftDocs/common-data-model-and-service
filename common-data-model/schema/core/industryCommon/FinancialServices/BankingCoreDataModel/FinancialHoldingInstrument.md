@@ -64,7 +64,7 @@ Financial tools associated with financial holdings; a monetary contract between 
 |[details](#details)|Lookup to detailed table for financial holding instrument.|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
 |[detailsType](#detailsType)|Lookup to detailed table for financial holding instrument.|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
 |[financialHolding](#financialHolding)|The financial holding that the instrument is associated with.|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
-|[financialHoldingInstrumentType](#financialHoldingInstrumentType)|They type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
+|[financialHoldingInstrumentType](#financialHoldingInstrumentType)|They type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
 |[financialInstrumentCode](#financialInstrumentCode)|The bank's code for the financial instrument.|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
 |[product](#product)|Lookup to financial market product table.|<a href="FinancialHoldingInstrument.md" target="_blank">BankingCoreDataModel/FinancialHoldingInstrument</a>|
@@ -72,7 +72,7 @@ Financial tools associated with financial holdings; a monetary contract between 
 ### <a href=#financialholdinginstrumentId name="financialholdinginstrumentId">financialholdinginstrumentId</a>
 
 Unique identifier for the financial instrument.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Financial Holding Instrument.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Financial Holding Instrument.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#details name="details">details</a>
 
 Lookup to detailed table for financial holding instrument.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#detailsType name="detailsType">detailsType</a>
 
 Lookup to detailed table for financial holding instrument.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -587,7 +587,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#financialHolding name="financialHolding">financialHolding</a>
 
 The financial holding that the instrument is associated with.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -631,8 +631,8 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 
 ### <a href=#financialHoldingInstrumentType name="financialHoldingInstrumentType">financialHoldingInstrumentType</a>
 
-They type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+They type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -678,7 +678,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#financialInstrumentCode name="financialInstrumentCode">financialInstrumentCode</a>
 
 The bank's code for the financial instrument.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -726,7 +726,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 
@@ -774,7 +774,7 @@ First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity
 ### <a href=#product name="product">product</a>
 
 Lookup to financial market product table.  
-First included in: BankingCoreDataModel/FinancialHoldingInstrument \(this entity\)  
+First included in: BankingCoreDataModel/FinancialHoldingInstrument (this entity\)  
 
 #### Properties
 

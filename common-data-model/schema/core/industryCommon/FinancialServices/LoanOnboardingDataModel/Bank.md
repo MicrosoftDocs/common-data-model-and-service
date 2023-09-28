@@ -50,7 +50,7 @@ The bank that the branch is associated with.
 ### <a href=#bankId name="bankId">bankId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Bank \(this entity\)  
+First included in: LoanOnboardingDataModel/Bank (this entity\)  
 
 #### Properties
 

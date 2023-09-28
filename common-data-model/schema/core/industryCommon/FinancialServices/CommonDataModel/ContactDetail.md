@@ -80,7 +80,7 @@ Contact details with historical values.
 ### <a href=#contactdetailId name="contactdetailId">contactdetailId</a>
 
 Unique identifier for entity instances  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -128,7 +128,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -168,7 +168,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -208,7 +208,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Contact Detail  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -254,7 +254,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Contact Detail  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -426,7 +426,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#fullName name="fullName">fullName</a>
 
 Full name of the contact  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address1_city name="address1_city">address1_city</a>
 
 The first address city of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 
 ### <a href=#maritalStatus name="maritalStatus">maritalStatus</a>
 
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -610,7 +610,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address1_country name="address1_country">address1_country</a>
 
 The first address country or region for the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -658,7 +658,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address1_county name="address1_county">address1_county</a>
 
 Type the county for the primary address.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -706,7 +706,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address1_name name="address1_name">address1_name</a>
 
 The first address of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -754,7 +754,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address1_telephone1 name="address1_telephone1">address1_telephone1</a>
 
 The main phone number of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -802,7 +802,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address2_name name="address2_name">address2_name</a>
 
 The second address of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -850,7 +850,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#address3_name name="address3_name">address3_name</a>
 
 The third address of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -898,7 +898,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#birthday name="birthday">birthday</a>
 
 The birthday of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -935,7 +935,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#emailaddress1 name="emailaddress1">emailaddress1</a>
 
 The first email of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -984,7 +984,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#firstname name="firstname">firstname</a>
 
 The first name of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -1032,7 +1032,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#gender name="gender">gender</a>
 
 The gender of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -1078,7 +1078,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#lastname name="lastname">lastname</a>
 
 The last name of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#middlename name="middlename">middlename</a>
 
 The Contact's middle name.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 
@@ -1174,7 +1174,7 @@ First included in: CommonDataModel/ContactDetail \(this entity\)
 ### <a href=#relatedparty name="relatedparty">relatedparty</a>
 
 Link to the original record of the contact.  
-First included in: CommonDataModel/ContactDetail \(this entity\)  
+First included in: CommonDataModel/ContactDetail (this entity\)  
 
 #### Properties
 

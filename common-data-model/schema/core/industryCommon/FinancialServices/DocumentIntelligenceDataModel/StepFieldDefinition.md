@@ -69,7 +69,7 @@ Contains the definition of each field the step definition needs.
 ### <a href=#stepfielddefinitionId name="stepfielddefinitionId">stepfielddefinitionId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Step field definition  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Step field definition  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -329,7 +329,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#displayname name="displayname">displayname</a>
 
 The display name of the field.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 
 ### <a href=#readonly name="readonly">readonly</a>
 
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -498,7 +498,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#externalname name="externalname">externalname</a>
 
 The name of the field as defined in the model or the external system.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -546,7 +546,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#order name="order">order</a>
 
 Defines the order between the fields of the related step definition.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 ### <a href=#stepdefinition name="stepdefinition">stepdefinition</a>
 
 The step definition that the field definition relates to.  
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 
@@ -633,7 +633,7 @@ First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this enti
 
 ### <a href=#requiredforapproval name="requiredforapproval">requiredforapproval</a>
 
-First included in: DocumentIntelligenceDataModel/StepFieldDefinition \(this entity\)  
+First included in: DocumentIntelligenceDataModel/StepFieldDefinition (this entity\)  
 
 #### Properties
 

@@ -49,12 +49,12 @@ Business that represents a customer or potential customer. The company that is b
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">PropertyandCasualtyDataModel/Account</a>|
-|[msfsi_profiletier](#msfsi_profiletier)|Internal ranking of the customer based on profitability to the Insurer \(high, medium, low\).|<a href="Account.md" target="_blank">PropertyandCasualtyDataModel/Account</a>|
+|[msfsi_profiletier](#msfsi_profiletier)|Internal ranking of the customer based on profitability to the Insurer (high, medium, low\).|<a href="Account.md" target="_blank">PropertyandCasualtyDataModel/Account</a>|
 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: PropertyandCasualtyDataModel/Account \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Account (this entity\)  
 
 #### Properties
 
@@ -101,8 +101,8 @@ First included in: PropertyandCasualtyDataModel/Account \(this entity\)
 
 ### <a href=#msfsi_profiletier name="msfsi_profiletier">msfsi_profiletier</a>
 
-Internal ranking of the customer based on profitability to the Insurer \(high, medium, low\).  
-First included in: PropertyandCasualtyDataModel/Account \(this entity\)  
+Internal ranking of the customer based on profitability to the Insurer (high, medium, low\).  
+First included in: PropertyandCasualtyDataModel/Account (this entity\)  
 
 #### Properties
 

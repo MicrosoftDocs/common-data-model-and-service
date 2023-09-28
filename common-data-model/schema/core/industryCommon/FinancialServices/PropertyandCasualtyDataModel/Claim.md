@@ -85,7 +85,7 @@ A demand raised by a customer with an active Insurance Policy to recover in the 
 ### <a href=#claimId name="claimId">claimId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Claim  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Claim  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -308,7 +308,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#amountadjustersubmitted name="amountadjustersubmitted">amountadjustersubmitted</a>
 
 The amount that was submitted based on an adjuster's initial inspection.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -563,7 +563,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#amountadjustersubmitted_Base name="amountadjustersubmitted_Base">amountadjustersubmitted_Base</a>
 
 Value of the amount adjuster submitted in base currency.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#amountpaid name="amountpaid">amountpaid</a>
 
 Total amount paid to the customer on the Claim.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -645,7 +645,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#amountpaid_Base name="amountpaid_Base">amountpaid_Base</a>
 
 Value of the amount paid in base currency.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -686,7 +686,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#amountrequested name="amountrequested">amountrequested</a>
 
 The amount requested by the claimant.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -727,7 +727,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#amountrequested_Base name="amountrequested_Base">amountrequested_Base</a>
 
 Value of the amount requested in base currency.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -768,7 +768,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#assessmentdate name="assessmentdate">assessmentdate</a>
 
 The date on which the Claim was assessed by an adjuster.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -808,7 +808,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#causeofloss name="causeofloss">causeofloss</a>
 
 Reference to Cause of loss.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -853,7 +853,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#claimguideline name="claimguideline">claimguideline</a>
 
 Free Form guidelines for Claim admin through the Claims process.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -901,7 +901,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#claimnumber name="claimnumber">claimnumber</a>
 
 Unique Claim number in the source system.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -949,7 +949,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#claimtype name="claimtype">claimtype</a>
 
 The type of the Claim raised by the customer, for example accident, disaster, injury, loss, etc.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -995,7 +995,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#coverage name="coverage">coverage</a>
 
 Reference to Coverage.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1040,7 +1040,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#dateofloss name="dateofloss">dateofloss</a>
 
 Date on which the loss occurred.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1080,7 +1080,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Description of the Claim.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1128,7 +1128,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#firstnoticeoflossdate name="firstnoticeoflossdate">firstnoticeoflossdate</a>
 
 Date on which first notice of loss was reported.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1168,7 +1168,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#policy name="policy">policy</a>
 
 The Insurance Policy to which the Claim is made against.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1213,7 +1213,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#rejectionreason name="rejectionreason">rejectionreason</a>
 
 The reason for the Claim being rejected by the Insurer.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1261,7 +1261,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#reportingchannel name="reportingchannel">reportingchannel</a>
 
 The channel through which the first notice of loss was reported, for example phone, website, virtual Agent, mobile, etc.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1307,7 +1307,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#resolveddate name="resolveddate">resolveddate</a>
 
 The date on which the status of the Claim was marked resolved, with resolved state as approved, withdrawn, or rejected.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 
@@ -1347,7 +1347,7 @@ First included in: PropertyandCasualtyDataModel/Claim \(this entity\)
 ### <a href=#resolvedstate name="resolvedstate">resolvedstate</a>
 
 The resolved state of the Claim, for example withdrawn, approved, rejected.  
-First included in: PropertyandCasualtyDataModel/Claim \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Claim (this entity\)  
 
 #### Properties
 

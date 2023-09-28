@@ -62,19 +62,19 @@ An instruction order from an account holder for a set amount of money to be remo
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[name](#name)|Required name field.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[creditoraccount](#creditoraccount)|Account number for payment deposit for direct debit or standing order.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
-|[creditorname](#creditorname)|The creditor for the direct debit \(i.e. utility company\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
+|[creditorname](#creditorname)|The creditor for the direct debit (i.e. utility company\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[dayofmonth](#dayofmonth)|The day of the month when the payment should be made.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[dayofweek](#dayofweek)|The day of the week when a direct debit from the account should be made.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[debtoraccount](#debtoraccount)|Account number from which payment is executed against for direct debit or standing order.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
-|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
+|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[firstpaymentdate](#firstpaymentdate)|The date of the first payment for the standing order.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
-|[frequency](#frequency)|The frequency of the standing order \(daily, weekly, monthly, quarterly, yearly\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
+|[frequency](#frequency)|The frequency of the standing order (daily, weekly, monthly, quarterly, yearly\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[lastitemamount](#lastitemamount)|Last standing order amount.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[lastitemamount_Base](#lastitemamount_Base)|Value of the last item amount in base currency.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[lastitemamount_default](#lastitemamount_default)|Last standing order amount. Value should be converted to base currency.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[lastitemdate](#lastitemdate)|Last standing order date.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
-|[lastitemstatus](#lastitemstatus)|Last standing order status \(successful, rejected, failed\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
+|[lastitemstatus](#lastitemstatus)|Last standing order status (successful, rejected, failed\).|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[lastitemstatusreason](#lastitemstatusreason)|The reason for the last standing order.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[nextitemamount](#nextitemamount)|The amount of the next standing order.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
 |[nextitemamount_Base](#nextitemamount_Base)|Value of the next item amount in base currency.|<a href="FIStandingOrder.md" target="_blank">BankingCoreDataModel/FIStandingOrder</a>|
@@ -85,7 +85,7 @@ An instruction order from an account holder for a set amount of money to be remo
 ### <a href=#fi_StandingOrderId name="fi_StandingOrderId">fi_StandingOrderId</a>
 
 Unique identifier for entity instances.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FI Standing Order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FI Standing Order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -308,7 +308,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#creditoraccount name="creditoraccount">creditoraccount</a>
 
 Account number for payment deposit for direct debit or standing order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -569,8 +569,8 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 
 ### <a href=#creditorname name="creditorname">creditorname</a>
 
-The creditor for the direct debit \(i.e. utility company\).  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+The creditor for the direct debit (i.e. utility company\).  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -618,7 +618,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#dayofmonth name="dayofmonth">dayofmonth</a>
 
 The day of the month when the payment should be made.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -661,7 +661,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#dayofweek name="dayofweek">dayofweek</a>
 
 The day of the week when a direct debit from the account should be made.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#debtoraccount name="debtoraccount">debtoraccount</a>
 
 Account number from which payment is executed against for direct debit or standing order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -754,8 +754,8 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 
 ### <a href=#financialinstrumenttype name="financialinstrumenttype">financialinstrumenttype</a>
 
-The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -801,7 +801,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#firstpaymentdate name="firstpaymentdate">firstpaymentdate</a>
 
 The date of the first payment for the standing order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -837,8 +837,8 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 
 ### <a href=#frequency name="frequency">frequency</a>
 
-The frequency of the standing order \(daily, weekly, monthly, quarterly, yearly\).  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+The frequency of the standing order (daily, weekly, monthly, quarterly, yearly\).  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -884,7 +884,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#lastitemamount name="lastitemamount">lastitemamount</a>
 
 Last standing order amount.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -973,7 +973,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#lastitemamount_Base name="lastitemamount_Base">lastitemamount_Base</a>
 
 Value of the last item amount in base currency.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1014,7 +1014,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#lastitemamount_default name="lastitemamount_default">lastitemamount_default</a>
 
 Last standing order amount. Value should be converted to base currency.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1057,7 +1057,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#lastitemdate name="lastitemdate">lastitemdate</a>
 
 Last standing order date.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1093,8 +1093,8 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 
 ### <a href=#lastitemstatus name="lastitemstatus">lastitemstatus</a>
 
-Last standing order status \(successful, rejected, failed\).  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+Last standing order status (successful, rejected, failed\).  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1140,7 +1140,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#lastitemstatusreason name="lastitemstatusreason">lastitemstatusreason</a>
 
 The reason for the last standing order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1188,7 +1188,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#nextitemamount name="nextitemamount">nextitemamount</a>
 
 The amount of the next standing order.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1229,7 +1229,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#nextitemamount_Base name="nextitemamount_Base">nextitemamount_Base</a>
 
 Value of the next item amount in base currency.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1270,7 +1270,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#nextitemamount_default name="nextitemamount_default">nextitemamount_default</a>
 
 The amount of the next standing order. Value should be converted to base currency.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1313,7 +1313,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#nextitemdate name="nextitemdate">nextitemdate</a>
 
 Next standing order date.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 
@@ -1350,7 +1350,7 @@ First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)
 ### <a href=#standingOrderAmount name="standingOrderAmount">standingOrderAmount</a>
 
 Amount to be regularly transferred.  
-First included in: BankingCoreDataModel/FIStandingOrder \(this entity\)  
+First included in: BankingCoreDataModel/FIStandingOrder (this entity\)  
 
 #### Properties
 

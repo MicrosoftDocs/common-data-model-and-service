@@ -69,14 +69,14 @@ A table that links the service providers with service requestors/participants to
 |[relatedparty](#relatedparty)|Defines service requester/participant e.g. insured clients, loan requestor, towing agency.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[relatedpartyType](#relatedpartyType)|Defines service requester/participant e.g. insured clients, loan requestor, towing agency.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[relatedparty_role](#relatedparty_role)|The role the related party plays in the current relationship context.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
-|[relatedpartytype](#relatedpartytype)|Defines whether the service requestor/participant is 1st party or 3rd party \(1st party e.g., contact or account, and 3rd party e.g., tow company that towed a damaged car\).|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
+|[relatedpartytype](#relatedpartytype)|Defines whether the service requestor/participant is 1st party or 3rd party (1st party e.g., contact or account, and 3rd party e.g., tow company that towed a damaged car\).|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[validfrom](#validfrom)|Validity start date for related party/contract.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 |[validto](#validto)|Expiry date of related party/contract.|<a href="RelatedPartyContract.md" target="_blank">CommonDataModel/RelatedPartyContract</a>|
 
 ### <a href=#relatedpartycontractId name="relatedpartycontractId">relatedpartycontractId</a>
 
 Unique identifier for entity instances.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Ins entity service provider  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Ins entity service provider  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#contractpart name="contractpart">contractpart</a>
 
 The contract part the relationship is about.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#contractpartType name="contractpartType">contractpartType</a>
 
 The contract part the relationship is about.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#isprimary name="isprimary">isprimary</a>
 
 When true, indicates that the applicant is the primary on the application.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -627,7 +627,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#party name="party">party</a>
 
 Defines the service provider e.g. insurance agency, bank, agent.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -672,7 +672,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#primarymemberhelper name="primarymemberhelper">primarymemberhelper</a>
 
 A calculated field helping determine if this application contact is the primary member of the application.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -720,7 +720,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#relatedparty name="relatedparty">relatedparty</a>
 
 Defines service requester/participant e.g. insured clients, loan requestor, towing agency.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -759,7 +759,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#relatedpartyType name="relatedpartyType">relatedpartyType</a>
 
 Defines service requester/participant e.g. insured clients, loan requestor, towing agency.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -798,7 +798,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#relatedparty_role name="relatedparty_role">relatedparty_role</a>
 
 The role the related party plays in the current relationship context.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -842,8 +842,8 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 
 ### <a href=#relatedpartytype name="relatedpartytype">relatedpartytype</a>
 
-Defines whether the service requestor/participant is 1st party or 3rd party \(1st party e.g., contact or account, and 3rd party e.g., tow company that towed a damaged car\).  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+Defines whether the service requestor/participant is 1st party or 3rd party (1st party e.g., contact or account, and 3rd party e.g., tow company that towed a damaged car\).  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -889,7 +889,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Validity start date for related party/contract.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -929,7 +929,7 @@ First included in: CommonDataModel/RelatedPartyContract \(this entity\)
 ### <a href=#validto name="validto">validto</a>
 
 Expiry date of related party/contract.  
-First included in: CommonDataModel/RelatedPartyContract \(this entity\)  
+First included in: CommonDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 

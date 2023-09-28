@@ -68,11 +68,11 @@ Savings accounts held by the customer at the financial institution.
 |[balanceatmaturity_Base](#balanceatmaturity_Base)|Value of the balance at maturity in base currency.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[balanceatMaturity_default](#balanceatMaturity_default)|Balance at maturity converted to default currency of the system.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[balanceDefault](#balanceDefault)|Balance converted to default currency of the system.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
-|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency \(1 unit of transaction currency = X units of default currency\).|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
+|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[blockedAmount](#blockedAmount)|The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[blockedamount_Base](#blockedamount_Base)|Value of the blocked amount in base currency.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[blockedAmount_default](#blockedAmount_default)|The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account Value should be converted to base currency.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding \(Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[financialHoldingType](#financialHoldingType)|Subtypes under Financial Category.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[initialSource](#initialSource)|The source of funds that were initially deposited into the account.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
@@ -84,13 +84,13 @@ Savings accounts held by the customer at the financial institution.
 |[projectedInterestAmount_default](#projectedInterestAmount_default)|Projected interest amount converted to default currency of the system.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[term](#term)|The number of months that the deposit account has been set up for.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities \(such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution \(that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding \(such as overpayment of a credit card\), or overdrawn account.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="Fh_saving.md" target="_blank">RetailBankingCoreDataModel/Fh_saving</a>|
 
 ### <a href=#FH_SavingId name="FH_SavingId">FH_SavingId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -138,7 +138,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -178,7 +178,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -218,7 +218,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FH Saving.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FH Saving.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -313,7 +313,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -356,7 +356,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -396,7 +396,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -439,7 +439,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -530,7 +530,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#accountingClassification name="accountingClassification">accountingClassification</a>
 
 Indicates whether the financial holding is an asset or a liability.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -576,7 +576,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#accruedInterest name="accruedInterest">accruedInterest</a>
 
 Interest amount accrued to date on the deposit.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -617,7 +617,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#accruedinterest_Base name="accruedinterest_Base">accruedinterest_Base</a>
 
 Value of the accrued interest amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -658,7 +658,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#accruedInterest_default name="accruedInterest_default">accruedInterest_default</a>
 
 Accrued interest amount converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balance name="balance">balance</a>
 
 The balance or value of the financial holding in the original currency of the financial holding.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balance_Base name="balance_Base">balance_Base</a>
 
 Value of the balance in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balanceatMaturity name="balanceatMaturity">balanceatMaturity</a>
 
 The total amount that will be available in the account at the time of deposit maturity, which would include the principal deposit amount and the interest earned.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -824,7 +824,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balanceatmaturity_Base name="balanceatmaturity_Base">balanceatmaturity_Base</a>
 
 Value of the balance at maturity in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -865,7 +865,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balanceatMaturity_default name="balanceatMaturity_default">balanceatMaturity_default</a>
 
 Balance at maturity converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -908,7 +908,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balanceDefault name="balanceDefault">balanceDefault</a>
 
 Balance converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -950,8 +950,8 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 
 ### <a href=#balanceExchangerate name="balanceExchangerate">balanceExchangerate</a>
 
-Exchange rate between the transaction currency of the financial holding and the default currency \(1 unit of transaction currency = X units of default currency\).  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -994,7 +994,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#blockedAmount name="blockedAmount">blockedAmount</a>
 
 The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1035,7 +1035,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#blockedamount_Base name="blockedamount_Base">blockedamount_Base</a>
 
 Value of the blocked amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#blockedAmount_default name="blockedAmount_default">blockedAmount_default</a>
 
 The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1118,8 +1118,8 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding \(Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1165,7 +1165,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#financialHoldingType name="financialHoldingType">financialHoldingType</a>
 
 Subtypes under Financial Category.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1211,7 +1211,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#initialSource name="initialSource">initialSource</a>
 
 The source of funds that were initially deposited into the account.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1259,7 +1259,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1307,7 +1307,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#interestrate name="interestrate">interestrate</a>
 
 The rate of interest applied to the financial holding, to be earned during a defined period/term.   
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1350,7 +1350,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#maturitydate name="maturitydate">maturitydate</a>
 
 The target date on which an interest\x2dbearing savings financial holding is terminated, and full interst is paid.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1390,7 +1390,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#maturityInstructionsDetails name="maturityInstructionsDetails">maturityInstructionsDetails</a>
 
 The instructions given by the customer about handling an account upon maturity, such as transfer of interest to another account, or transfer of principal and interest amount to another account.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1438,7 +1438,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#projectedInterestAmount name="projectedInterestAmount">projectedInterestAmount</a>
 
 The amount of interested expected to be earned on the account based on the interest rate.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1479,7 +1479,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#projectedinterestamount_Base name="projectedinterestamount_Base">projectedinterestamount_Base</a>
 
 Value of the projected interest amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1520,7 +1520,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#projectedInterestAmount_default name="projectedInterestAmount_default">projectedInterestAmount_default</a>
 
 Projected interest amount converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1563,7 +1563,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#term name="term">term</a>
 
 The number of months that the deposit account has been set up for.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1605,7 +1605,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 
 ### <a href=#balanceDefaultDisplayValue name="balanceDefaultDisplayValue">balanceDefaultDisplayValue</a>
 
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1647,8 +1647,8 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities \(such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution \(that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding \(such as overpayment of a credit card\), or overdrawn account.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 
@@ -1689,7 +1689,7 @@ First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)
 ### <a href=#balancedisplayvalue_Base name="balancedisplayvalue_Base">balancedisplayvalue_Base</a>
 
 Value of the balance display value in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_saving \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_saving (this entity\)  
 
 #### Properties
 

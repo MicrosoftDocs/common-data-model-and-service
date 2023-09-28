@@ -53,7 +53,7 @@ A channel where the Financial Institution offers a wide array of services to 
 ### <a href=#branchId name="branchId">branchId</a>
 
 Unique identifier for entity instances.  
-First included in: BankingCoreDataModel/Branch \(this entity\)  
+First included in: BankingCoreDataModel/Branch (this entity\)  
 
 #### Properties
 

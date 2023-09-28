@@ -72,7 +72,7 @@ Inventory of all Exclusions/Inclusions which are subsequently used to create the
 ### <a href=#exclusioninclusioncatalogId name="exclusioninclusioncatalogId">exclusioninclusioncatalogId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Exclusion/Inclusion dictionary  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Exclusion/Inclusion dictionary  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#description name="description">description</a>
 
 Generic description of Exclusion/Inclusion.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#excludeinclude name="excludeinclude">excludeinclude</a>
 
 Identifies Inclusion or Exclusion.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#premiumamount name="premiumamount">premiumamount</a>
 
 Value of the premium amount.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#premiumamount_Base name="premiumamount_Base">premiumamount_Base</a>
 
 Value of the Premium amount in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -685,7 +685,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 The date from which Exclusion/Inclusion is in effect.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -725,7 +725,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#validto name="validto">validto</a>
 
 The date on which the Exclusion/Inclusion expires.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 
@@ -765,7 +765,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this
 ### <a href=#version name="version">version</a>
 
 Version of the Exclusion/Inclusion.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusionCatalog (this entity\)  
 
 #### Properties
 

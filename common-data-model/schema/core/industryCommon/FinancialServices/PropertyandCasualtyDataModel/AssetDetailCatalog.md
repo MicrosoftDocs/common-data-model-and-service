@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Asset detail catalog in PropertyandCasualtyDataModel(AssetDetailCatalog)
 
-A definition of an asset detail \(attribute\) which is later used when extending a Policy Insured Asset’s detail.  
+A definition of an asset detail (attribute\) which is later used when extending a Policy Insured Asset’s detail.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/AssetDetailCatalog.cdm.json" target="_blank">GitHub</a>.  
 
@@ -66,8 +66,8 @@ A definition of an asset detail \(attribute\) which is later used when extending
 |[description](#description)|Description of the asset detail.|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
 |[detailtype](#detailtype)|Reference to the detail definition ID.|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
 |[lobtype](#lobtype)|Type of the asset identifying Line of business.|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
-|[maxvalue](#maxvalue)|Maximum value of detail \(when it is numeric\).|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
-|[minvalue](#minvalue)|Minimum value of detail \(when it is numeric\).|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
+|[maxvalue](#maxvalue)|Maximum value of detail (when it is numeric\).|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
+|[minvalue](#minvalue)|Minimum value of detail (when it is numeric\).|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
 |[validfrom](#validfrom)|Date when asset detail starts.|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
 |[validto](#validto)|Date when asset detail ends.|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
 |[valuetype](#valuetype)|Defines the value type. Can be a string or a numeric type.|<a href="AssetDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/AssetDetailCatalog</a>|
@@ -76,7 +76,7 @@ A definition of an asset detail \(attribute\) which is later used when extending
 ### <a href=#assetdetailcatalogId name="assetdetailcatalogId">assetdetailcatalogId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Asset/Location details catalog  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Asset/Location details catalog  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#assetcategory name="assetcategory">assetcategory</a>
 
 Category of the asset being insured.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#defaultvalue name="defaultvalue">defaultvalue</a>
 
 Default value of the asset detail.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#description name="description">description</a>
 
 Description of the asset detail.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -655,7 +655,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#detailtype name="detailtype">detailtype</a>
 
 Reference to the detail definition ID.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -700,7 +700,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#lobtype name="lobtype">lobtype</a>
 
 Type of the asset identifying Line of business.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -745,8 +745,8 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 
 ### <a href=#maxvalue name="maxvalue">maxvalue</a>
 
-Maximum value of detail \(when it is numeric\).  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+Maximum value of detail (when it is numeric\).  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -788,8 +788,8 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 
 ### <a href=#minvalue name="minvalue">minvalue</a>
 
-Minimum value of detail \(when it is numeric\).  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+Minimum value of detail (when it is numeric\).  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -832,7 +832,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Date when asset detail starts.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -872,7 +872,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#validto name="validto">validto</a>
 
 Date when asset detail ends.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -912,7 +912,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#valuetype name="valuetype">valuetype</a>
 
 Defines the value type. Can be a string or a numeric type.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -958,7 +958,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity
 ### <a href=#version name="version">version</a>
 
 Version of asset detail.  
-First included in: PropertyandCasualtyDataModel/AssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetailCatalog (this entity\)  
 
 #### Properties
 

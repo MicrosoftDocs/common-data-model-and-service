@@ -53,7 +53,7 @@ ms.author: cdmditeam
 ### <a href=#dummycontextId name="dummycontextId">dummycontextId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentCommonDataModel/TablePlaceholder \(this entity\)  
+First included in: DocumentCommonDataModel/TablePlaceholder (this entity\)  
 
 #### Properties
 
@@ -100,7 +100,7 @@ First included in: DocumentCommonDataModel/TablePlaceholder \(this entity\)
 
 ### <a href=#name name="name">name</a>
 
-First included in: DocumentCommonDataModel/TablePlaceholder \(this entity\)  
+First included in: DocumentCommonDataModel/TablePlaceholder (this entity\)  
 
 #### Properties
 

@@ -63,8 +63,8 @@ A permit from an authority for insurance professionals, for example to sell insu
 |[name](#name)|Required name field.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[expiration](#expiration)|Expiration date of the license.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[issuedby](#issuedby)|License issuing authority.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
-|[issuedlocation](#issuedlocation)|Location where license was issued \(State/Country\).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
-|[issuedlocationType](#issuedlocationType)|Location where license was issued \(State/Country\).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
+|[issuedlocation](#issuedlocation)|Location where license was issued (State/Country\).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
+|[issuedlocationType](#issuedlocationType)|Location where license was issued (State/Country\).|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licensedocument](#licensedocument)|Reference to license document.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licenseholder](#licenseholder)|The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licenseholderType](#licenseholderType)|The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
@@ -77,7 +77,7 @@ A permit from an authority for insurance professionals, for example to sell insu
 ### <a href=#professionallicenseId name="professionallicenseId">professionallicenseId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -125,7 +125,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -165,7 +165,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -205,7 +205,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Professional license  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -251,7 +251,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Professional license  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -300,7 +300,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -423,7 +423,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -466,7 +466,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -514,7 +514,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#expiration name="expiration">expiration</a>
 
 Expiration date of the license.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#issuedby name="issuedby">issuedby</a>
 
 License issuing authority.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -601,8 +601,8 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 
 ### <a href=#issuedlocation name="issuedlocation">issuedlocation</a>
 
-Location where license was issued \(State/Country\).  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+Location where license was issued (State/Country\).  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -640,8 +640,8 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 
 ### <a href=#issuedlocationType name="issuedlocationType">issuedlocationType</a>
 
-Location where license was issued \(State/Country\).  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+Location where license was issued (State/Country\).  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -680,7 +680,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#licensedocument name="licensedocument">licensedocument</a>
 
 Reference to license document.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -725,7 +725,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#licenseholder name="licenseholder">licenseholder</a>
 
 The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -764,7 +764,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#licenseholderType name="licenseholderType">licenseholderType</a>
 
 The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -803,7 +803,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#licensenumber name="licensenumber">licensenumber</a>
 
 Unique License ID in the source system.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -851,7 +851,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#status name="status">status</a>
 
 The status of the party's license, for example active, expired, or suspended.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -897,7 +897,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#type name="type">type</a>
 
 Indicates the type of license that the Agent has, for example, resident, non\x2dresident, adjuster, life, personal.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -943,7 +943,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Validity state date of the license.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 
@@ -983,7 +983,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entit
 ### <a href=#validto name="validto">validto</a>
 
 Expiry date of license.  
-First included in: PropertyandCasualtyDataModel/ProfessionalLicense \(this entity\)  
+First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity\)  
 
 #### Properties
 

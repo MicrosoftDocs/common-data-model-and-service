@@ -62,12 +62,12 @@ A preset borrowing limit associated with a credit or charge card.
 |[balance](#balance)|The balance or value of the financial holding in the original currency of the financial holding.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[balance_Base](#balance_Base)|Value of the balance in base currency.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[balanceDefault](#balanceDefault)|Balance converted to default currency of the system.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
-|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency \(1 unit of transaction currency = X units of default currency\).|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
+|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[creditLimit](#creditLimit)|The total credit limit available to the customer on the credit card.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[creditlimit_Base](#creditlimit_Base)|Value of the credit limit in base currency.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[creditLimit_default](#creditLimit_default)|Credit limit converted to default currency of the system.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
-|[delinquencyStatus](#delinquencyStatus)|Indication of whether the customer's loan is delinquent or not \(i.e. whether any payments are overdue or not\).|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding \(Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
+|[delinquencyStatus](#delinquencyStatus)|Indication of whether the customer's loan is delinquent or not (i.e. whether any payments are overdue or not\).|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[financialHoldingType](#financialHoldingType)|Subtypes under Financial Category.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[interestrate](#interestrate)|The rate of interest associated with the line of credit, to be charged to the customer during a defined period/term. |<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
@@ -83,13 +83,13 @@ A preset borrowing limit associated with a credit or charge card.
 |[nextPaymentDate](#nextPaymentDate)|The date on which the next payment towards the financial holding is due. This can be applied to lines of credit and loans.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[nextStatementDate](#nextStatementDate)|The date on which the next statement is expected to issue on the card.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities \(such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution \(that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding \(such as overpayment of a credit card\), or overdrawn account.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="Fh_creditline.md" target="_blank">RetailBankingCoreDataModel/Fh_creditline</a>|
 
 ### <a href=#FH_CreditlineId name="FH_CreditlineId">FH_CreditlineId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -177,7 +177,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FH Creditline.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -263,7 +263,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FH Creditline.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -312,7 +312,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -355,7 +355,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -395,7 +395,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -438,7 +438,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -481,7 +481,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -529,7 +529,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#accountingClassification name="accountingClassification">accountingClassification</a>
 
 Indicates whether the financial holding is an asset or a liability.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -575,7 +575,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#balance name="balance">balance</a>
 
 The balance or value of the financial holding in the original currency of the financial holding.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -616,7 +616,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#balance_Base name="balance_Base">balance_Base</a>
 
 Value of the balance in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -657,7 +657,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#balanceDefault name="balanceDefault">balanceDefault</a>
 
 Balance converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -699,8 +699,8 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 
 ### <a href=#balanceExchangerate name="balanceExchangerate">balanceExchangerate</a>
 
-Exchange rate between the transaction currency of the financial holding and the default currency \(1 unit of transaction currency = X units of default currency\).  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#creditLimit name="creditLimit">creditLimit</a>
 
 The total credit limit available to the customer on the credit card.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#creditlimit_Base name="creditlimit_Base">creditlimit_Base</a>
 
 Value of the credit limit in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -825,7 +825,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#creditLimit_default name="creditLimit_default">creditLimit_default</a>
 
 Credit limit converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -867,8 +867,8 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 
 ### <a href=#delinquencyStatus name="delinquencyStatus">delinquencyStatus</a>
 
-Indication of whether the customer's loan is delinquent or not \(i.e. whether any payments are overdue or not\).  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+Indication of whether the customer's loan is delinquent or not (i.e. whether any payments are overdue or not\).  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -903,8 +903,8 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding \(Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -950,7 +950,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#financialHoldingType name="financialHoldingType">financialHoldingType</a>
 
 Subtypes under Financial Category.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -996,7 +996,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1044,7 +1044,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#interestrate name="interestrate">interestrate</a>
 
 The rate of interest associated with the line of credit, to be charged to the customer during a defined period/term.   
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1087,7 +1087,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#lastPaymentDueDate name="lastPaymentDueDate">lastPaymentDueDate</a>
 
 The date on which the last payment was due on the credit balance.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1127,7 +1127,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#lastStatementBalance name="lastStatementBalance">lastStatementBalance</a>
 
 The total amount due on the card per the last statement.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1168,7 +1168,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#laststatementbalance_Base name="laststatementbalance_Base">laststatementbalance_Base</a>
 
 Value of the last statement balance in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1209,7 +1209,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#lastStatementBalance_default name="lastStatementBalance_default">lastStatementBalance_default</a>
 
 Last statement balance converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1252,7 +1252,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#lastStatementDate name="lastStatementDate">lastStatementDate</a>
 
 The date on which the last statement was issued on the card.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1292,7 +1292,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#minimumPaymentDue name="minimumPaymentDue">minimumPaymentDue</a>
 
 The minimum amount that is required for payment towards the card based on the monthly payment percentage of the outstanding balance.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1333,7 +1333,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#minimumpaymentdue_Base name="minimumpaymentdue_Base">minimumpaymentdue_Base</a>
 
 Value of the minimum payment due in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1374,7 +1374,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#minimumPaymentDue_default name="minimumPaymentDue_default">minimumPaymentDue_default</a>
 
 Minimum payment due converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1417,7 +1417,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#monthlyPaymentPercentage name="monthlyPaymentPercentage">monthlyPaymentPercentage</a>
 
 The percentage of the outstanding balance that must be paid by the customer as the 'minimum payment' by the next payment date.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1460,7 +1460,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#nextPaymentDate name="nextPaymentDate">nextPaymentDate</a>
 
 The date on which the next payment towards the financial holding is due. This can be applied to lines of credit and loans.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1500,7 +1500,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#nextStatementDate name="nextStatementDate">nextStatementDate</a>
 
 The date on which the next statement is expected to issue on the card.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1539,7 +1539,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 
 ### <a href=#balanceDefaultDisplayValue name="balanceDefaultDisplayValue">balanceDefaultDisplayValue</a>
 
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1581,8 +1581,8 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities \(such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution \(that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding \(such as overpayment of a credit card\), or overdrawn account.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 
@@ -1623,7 +1623,7 @@ First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)
 ### <a href=#balancedisplayvalue_Base name="balancedisplayvalue_Base">balancedisplayvalue_Base</a>
 
 Value of the balance display value in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_creditline \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_creditline (this entity\)  
 
 #### Properties
 

@@ -67,7 +67,7 @@ An association between a customer and a Group.
 ### <a href=#groupMemberId name="groupMemberId">groupMemberId</a>
 
 Unique identifier for entity instances.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Group Member.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Group Member.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name that identifies this group member.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#group name="group">group</a>
 
 The group the member belongs to.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#isPrimaryGroup name="isPrimaryGroup">isPrimaryGroup</a>
 
 Defines if the group is the primary group of the contact.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#member name="member">member</a>
 
 A customer who is the member of the group.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -645,7 +645,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#memberType name="memberType">memberType</a>
 
 A customer who is the member of the group.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 
@@ -684,7 +684,7 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 ### <a href=#role name="role">role</a>
 
 The role of the group member in the group.  
-First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Groupmember (this entity\)  
 
 #### Properties
 

@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Policy transaction in PropertyandCasualtyDataModel(PolicyTransaction)
 
-A Policy transaction provides information of each transaction \(e.g., amendment\) of the Policy.  
+A Policy transaction provides information of each transaction (e.g., amendment\) of the Policy.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/PolicyTransaction.cdm.json" target="_blank">GitHub</a>.  
 
@@ -73,7 +73,7 @@ A Policy transaction provides information of each transaction \(e.g., amendment\
 ### <a href=#policytransactionId name="policytransactionId">policytransactionId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Policy Term  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Policy Term  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#amendmentnumber name="amendmentnumber">amendmentnumber</a>
 
 Reference number of revisions made to the Policy, e.g., add a vehicle.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#effectivedate name="effectivedate">effectivedate</a>
 
 Begin date of the Policy and when it is in effect.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#expirationdate name="expirationdate">expirationdate</a>
 
 End date of the Policy term and when it is expired.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -638,7 +638,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#policy name="policy">policy</a>
 
 Information on the Insurance Policy.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -683,7 +683,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#policynumber name="policynumber">policynumber</a>
 
 Identifier of the Policy.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -731,7 +731,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#requestchannel name="requestchannel">requestchannel</a>
 
 The channel type the request came from.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -777,7 +777,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#revisionnumber name="revisionnumber">revisionnumber</a>
 
 Version of the amendment to existing Policy.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 
@@ -825,7 +825,7 @@ First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\
 ### <a href=#type name="type">type</a>
 
 The type of term, for example renewal, new, term, permanent.  
-First included in: PropertyandCasualtyDataModel/PolicyTransaction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/PolicyTransaction (this entity\)  
 
 #### Properties
 

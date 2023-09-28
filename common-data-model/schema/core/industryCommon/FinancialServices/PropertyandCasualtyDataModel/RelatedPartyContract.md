@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Related Party/Contract in PropertyandCasualtyDataModel(RelatedPartyContract)
 
-A related party having an agreement with an insurance party on a contract.&#xA;1. Party:an insurance entity \(Insurer, Agent...\)&#xA;2. Related party:either a 1st party \(a law office being insured\), or a 3rd party \(a law office handling a claim\).&#xA;3. Contract part \x2d Policy, claim...  
+A related party having an agreement with an insurance party on a contract.&#xA;1. Party:an insurance entity (Insurer, Agent...\)&#xA;2. Related party:either a 1st party (a law office being insured\), or a 3rd party (a law office handling a claim\).&#xA;3. Contract part \x2d Policy, claim...  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/RelatedPartyContract.cdm.json" target="_blank">GitHub</a>.  
 
@@ -75,7 +75,7 @@ A related party having an agreement with an insurance party on a contract.&#xA;1
 ### <a href=#relatedpartycontractId name="relatedpartycontractId">relatedpartycontractId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Ins entity service provider  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Ins entity service provider  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#contractpart name="contractpart">contractpart</a>
 
 The contract part the relationship is about.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#contractpartType name="contractpartType">contractpartType</a>
 
 The contract part the relationship is about.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -590,7 +590,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#party name="party">party</a>
 
 The party the relationship relates to, e.g., Insurer, Agency, Agent.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -629,7 +629,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#partyType name="partyType">partyType</a>
 
 The party the relationship relates to, e.g., Insurer, Agency, Agent.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -668,7 +668,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#relatedparty name="relatedparty">relatedparty</a>
 
 Reference to a related party, e.g., 1st party such as insured contact or account, or a 3rd party such as a tow company that towed a damaged car.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#relatedpartyType name="relatedpartyType">relatedpartyType</a>
 
 Reference to a related party, e.g., 1st party such as insured contact or account, or a 3rd party such as a tow company that towed a damaged car.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -746,7 +746,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#relatedpartyrole name="relatedpartyrole">relatedpartyrole</a>
 
 The role the related party plays in the current relationship context.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -792,7 +792,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#relatedpartytype name="relatedpartytype">relatedpartytype</a>
 
 Tells whether the party is 1st party or 3rd party.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -838,7 +838,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Validity start date for related party/contract.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 
@@ -878,7 +878,7 @@ First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this enti
 ### <a href=#validto name="validto">validto</a>
 
 Expiry date of related party/contract.  
-First included in: PropertyandCasualtyDataModel/RelatedPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/RelatedPartyContract (this entity\)  
 
 #### Properties
 

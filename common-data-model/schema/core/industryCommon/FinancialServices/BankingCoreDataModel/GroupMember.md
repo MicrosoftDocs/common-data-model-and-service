@@ -53,7 +53,7 @@ An association between a customer and a Group.
 ### <a href=#groupMemberId name="groupMemberId">groupMemberId</a>
 
 Unique identifier for entity instances.  
-First included in: BankingCoreDataModel/GroupMember \(this entity\)  
+First included in: BankingCoreDataModel/GroupMember (this entity\)  
 
 #### Properties
 

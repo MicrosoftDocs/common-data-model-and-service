@@ -61,14 +61,14 @@ Financial tools associated with financial holdings; a monetary contract between 
 |[details](#details)|Details.|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
 |[detailsType](#detailsType)|Details.|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
 |[financialHolding](#financialHolding)|The financial holding that the instrument is associated with.|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
-|[financialHoldingInstrumentType](#financialHoldingInstrumentType)|They type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
+|[financialHoldingInstrumentType](#financialHoldingInstrumentType)|They type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
 |[financialInstrumentCode](#financialInstrumentCode)|The bank's code for the financial instrument.|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Financialholdinginstrument.md" target="_blank">RetailBankingCoreDataModel/Financialholdinginstrument</a>|
 
 ### <a href=#financialholdinginstrumentId name="financialholdinginstrumentId">financialholdinginstrumentId</a>
 
 Unique identifier for the financial instrument.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Financial Holding Instrument.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Financial Holding Instrument.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -508,7 +508,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#details name="details">details</a>
 
 Details.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#detailsType name="detailsType">detailsType</a>
 
 Details.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -595,7 +595,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#financialHolding name="financialHolding">financialHolding</a>
 
 The financial holding that the instrument is associated with.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -648,8 +648,8 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 
 ### <a href=#financialHoldingInstrumentType name="financialHoldingInstrumentType">financialHoldingInstrumentType</a>
 
-They type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+They type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#financialInstrumentCode name="financialInstrumentCode">financialInstrumentCode</a>
 
 The bank's code for the financial instrument.  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this 
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Financialholdinginstrument \(this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholdinginstrument (this entity\)  
 
 #### Properties
 

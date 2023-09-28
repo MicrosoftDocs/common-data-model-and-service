@@ -36,4 +36,4 @@ ms.author: cdmditeam
 |[Groupfinancialholding](Groupfinancialholding.md)|Financial holdings associated with a Group, to be included in the group's total assets and liabilities.|
 |[Groupmember](Groupmember.md)|An association between a customer and a Group.|
 |[Lifemoment](Lifemoment.md)|Significant milestones in a customer's personal life which can impact their financial situation, such as attending college, marriage, having a child, retirement, etc.|
-|[Relationship](Relationship.md)|Denotes an association between one contact to another \(not as part of the larger group\) where there is not necessarily a direct association of finances. For example, a spouse, lawyer, child or grandparent.|
+|[Relationship](Relationship.md)|Denotes an association between one contact to another (not as part of the larger group\) where there is not necessarily a direct association of finances. For example, a spouse, lawyer, child or grandparent.|

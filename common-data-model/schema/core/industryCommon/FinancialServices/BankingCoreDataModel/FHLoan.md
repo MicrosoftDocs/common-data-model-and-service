@@ -65,12 +65,12 @@ Loans held by the customer with the financial institution.
 |[balance](#balance)|The balance owed by borrower on the loan, in the original currency of the financial holding.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[balance_Base](#balance_Base)|Value of the balance in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[balanceDefault](#balanceDefault)|Balance converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency \(1 unit of transaction currency = X units of default currency\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[capitalArrears](#capitalArrears)|Capitalized arrears is the total overdue principal, interest, or other amounts which have been added to capital balance of the loan.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[capitalarrears_Base](#capitalarrears_Base)|Value of the capitalized arrears in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[capitalArrears_default](#capitalArrears_default)|Capitalized arrears converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[collectionRisk](#collectionRisk)|The level of risk that a borrower may not be able to repay a loan.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[delinquencyStatus](#delinquencyStatus)|Indication of whether the customer’s loan is delinquent or not \(that is, whether any payments are overdue or not\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[delinquencyStatus](#delinquencyStatus)|Indication of whether the customer’s loan is delinquent or not (that is, whether any payments are overdue or not\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[disbursedAmount](#disbursedAmount)|The amount of loan that has been disbursed to the customer so far.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[disbursedamount_Base](#disbursedamount_Base)|Value of the disbursed amount in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[disbursedAmount_default](#disbursedAmount_default)|Disbursed amount converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
@@ -78,9 +78,9 @@ Loans held by the customer with the financial institution.
 |[feeArrears](#feeArrears)|Total amount of fees for overdue payments on the loan.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[feearrears_Base](#feearrears_Base)|Value of the arrears fee in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[feeArrears_default](#feeArrears_default)|Arrears fee converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding \(Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[financialHoldingType](#financialHoldingType)|Subtypes under Financial Category.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[installmentAmount](#installmentAmount)|The equal monthly installment payments a customer makes to the bank toward repayment of the loan \(EMI\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[installmentAmount](#installmentAmount)|The equal monthly installment payments a customer makes to the bank toward repayment of the loan (EMI\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[installmentamount_Base](#installmentamount_Base)|Value of the installment amount in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[installmentAmount_default](#installmentAmount_default)|Installment amount converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
@@ -102,7 +102,7 @@ Loans held by the customer with the financial institution.
 |[nextpaymentamount_Base](#nextpaymentamount_Base)|Value of the next payment amount in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[nextPaymentAmount_default](#nextPaymentAmount_default)|Next payment amount converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[nextPaymentDate](#nextPaymentDate)|The date on which the next payment towards the financial holding is due. This can be applied to credits and loans.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[numberofDeferralsMade](#numberofDeferralsMade)|Total number of installment deferrals made by the customer \(i.e. number of times customer has taken a loan repayment holiday from the bank\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[numberofDeferralsMade](#numberofDeferralsMade)|Total number of installment deferrals made by the customer (i.e. number of times customer has taken a loan repayment holiday from the bank\).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[numberofInstallmentsPaid](#numberofInstallmentsPaid)|Total number of installments that have been paid back by the customer so far.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[overdueDate](#overdueDate)|The date on which the repayment was missed and the loan became overdue.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[principalAmount](#principalAmount)|The principal amount of the financial holding paid to\x2ddate.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
@@ -116,14 +116,14 @@ Loans held by the customer with the financial institution.
 |[totalinterestpaid_Base](#totalinterestpaid_Base)|Value of the total interest paid in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[totalInterestPaid_default](#totalInterestPaid_default)|Total interest paid converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities \(such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution \(that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding \(such as overpayment of a credit card\), or overdrawn account.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[dayspastdue](#dayspastdue)|The number of days that the customer has been in overdue status for this loan account.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 
 ### <a href=#FH_LoanId name="FH_LoanId">FH_LoanId</a>
 
 Unique identifier for entity instances.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -171,7 +171,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -211,7 +211,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -251,7 +251,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FH Loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FH Loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -389,7 +389,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -426,7 +426,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#accountingClassification name="accountingClassification">accountingClassification</a>
 
 Indicates whether the financial holding is an asset or a liability.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -606,7 +606,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#balance name="balance">balance</a>
 
 The balance owed by borrower on the loan, in the original currency of the financial holding.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#balance_Base name="balance_Base">balance_Base</a>
 
 Value of the balance in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -688,7 +688,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#balanceDefault name="balanceDefault">balanceDefault</a>
 
 Balance converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -730,8 +730,8 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#balanceExchangerate name="balanceExchangerate">balanceExchangerate</a>
 
-Exchange rate between the transaction currency of the financial holding and the default currency \(1 unit of transaction currency = X units of default currency\).  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -774,7 +774,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#capitalArrears name="capitalArrears">capitalArrears</a>
 
 Capitalized arrears is the total overdue principal, interest, or other amounts which have been added to capital balance of the loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#capitalarrears_Base name="capitalarrears_Base">capitalarrears_Base</a>
 
 Value of the capitalized arrears in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#capitalArrears_default name="capitalArrears_default">capitalArrears_default</a>
 
 Capitalized arrears converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -899,7 +899,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#collectionRisk name="collectionRisk">collectionRisk</a>
 
 The level of risk that a borrower may not be able to repay a loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -944,8 +944,8 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#delinquencyStatus name="delinquencyStatus">delinquencyStatus</a>
 
-Indication of whether the customer’s loan is delinquent or not \(that is, whether any payments are overdue or not\).  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+Indication of whether the customer’s loan is delinquent or not (that is, whether any payments are overdue or not\).  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -981,7 +981,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#disbursedAmount name="disbursedAmount">disbursedAmount</a>
 
 The amount of loan that has been disbursed to the customer so far.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1022,7 +1022,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#disbursedamount_Base name="disbursedamount_Base">disbursedamount_Base</a>
 
 Value of the disbursed amount in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1063,7 +1063,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#disbursedAmount_default name="disbursedAmount_default">disbursedAmount_default</a>
 
 Disbursed amount converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1106,7 +1106,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#disbursementDate name="disbursementDate">disbursementDate</a>
 
 The last date on which the disbursement payment was disbursed to the borrower.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1143,7 +1143,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#feeArrears name="feeArrears">feeArrears</a>
 
 Total amount of fees for overdue payments on the loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1184,7 +1184,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#feearrears_Base name="feearrears_Base">feearrears_Base</a>
 
 Value of the arrears fee in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1225,7 +1225,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#feeArrears_default name="feeArrears_default">feeArrears_default</a>
 
 Arrears fee converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1267,8 +1267,8 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding \(Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1314,7 +1314,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#financialHoldingType name="financialHoldingType">financialHoldingType</a>
 
 Subtypes under Financial Category.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1359,8 +1359,8 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#installmentAmount name="installmentAmount">installmentAmount</a>
 
-The equal monthly installment payments a customer makes to the bank toward repayment of the loan \(EMI\).  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+The equal monthly installment payments a customer makes to the bank toward repayment of the loan (EMI\).  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1401,7 +1401,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#installmentamount_Base name="installmentamount_Base">installmentamount_Base</a>
 
 Value of the installment amount in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1442,7 +1442,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#installmentAmount_default name="installmentAmount_default">installmentAmount_default</a>
 
 Installment amount converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1485,7 +1485,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1533,7 +1533,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#interestArrears name="interestArrears">interestArrears</a>
 
 Total overdue interest amount on the loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1574,7 +1574,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#interestarrears_Base name="interestarrears_Base">interestarrears_Base</a>
 
 Value of the interest arrears in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1615,7 +1615,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#interestArrears_default name="interestArrears_default">interestArrears_default</a>
 
 Interest arrears converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1658,7 +1658,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#interestrate name="interestrate">interestrate</a>
 
 The rate of interest charged to the loan borrower during a defined period or term during the course of a loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1701,7 +1701,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#interestReviewPeriod name="interestReviewPeriod">interestReviewPeriod</a>
 
 The time period that defines the periodic interest rate timeframe.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1749,7 +1749,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#interestType name="interestType">interestType</a>
 
 The type of interest charged on the loan: fixed, periodical, floating, etc.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1795,7 +1795,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#lastPaymentAmount name="lastPaymentAmount">lastPaymentAmount</a>
 
 The amount that was paid by the customer towards the loan in the last loan payment.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1836,7 +1836,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#lastpaymentamount_Base name="lastpaymentamount_Base">lastpaymentamount_Base</a>
 
 Value of the last payment amount in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1877,7 +1877,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#lastPaymentAmount_default name="lastPaymentAmount_default">lastPaymentAmount_default</a>
 
 Last payment amount converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1920,7 +1920,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#lastPaymentDate name="lastPaymentDate">lastPaymentDate</a>
 
 The date on which the last repayment towards the loan was made by the customer.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1957,7 +1957,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#loanStartDate name="loanStartDate">loanStartDate</a>
 
 The date on which the first repayment on the loan is made.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -1994,7 +1994,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#maturitydate name="maturitydate">maturitydate</a>
 
 The date on which the final payment is due on a financial holding. This can be a repayment towards an investment, a loan, or a saving.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2031,7 +2031,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#modeofPayment name="modeofPayment">modeofPayment</a>
 
 The method that customer is making repayments towards the loan.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2077,7 +2077,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#nextInterestReviewDate name="nextInterestReviewDate">nextInterestReviewDate</a>
 
 In case of periodical interest, the next interest review date.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2114,7 +2114,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#nextPaymentAmount name="nextPaymentAmount">nextPaymentAmount</a>
 
 The amount that needs to be paid by the customer towards the loan in the next installment.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2155,7 +2155,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#nextpaymentamount_Base name="nextpaymentamount_Base">nextpaymentamount_Base</a>
 
 Value of the next payment amount in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2196,7 +2196,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#nextPaymentAmount_default name="nextPaymentAmount_default">nextPaymentAmount_default</a>
 
 Next payment amount converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2239,7 +2239,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#nextPaymentDate name="nextPaymentDate">nextPaymentDate</a>
 
 The date on which the next payment towards the financial holding is due. This can be applied to credits and loans.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2275,8 +2275,8 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#numberofDeferralsMade name="numberofDeferralsMade">numberofDeferralsMade</a>
 
-Total number of installment deferrals made by the customer \(i.e. number of times customer has taken a loan repayment holiday from the bank\).  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+Total number of installment deferrals made by the customer (i.e. number of times customer has taken a loan repayment holiday from the bank\).  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2319,7 +2319,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#numberofInstallmentsPaid name="numberofInstallmentsPaid">numberofInstallmentsPaid</a>
 
 Total number of installments that have been paid back by the customer so far.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2362,7 +2362,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#overdueDate name="overdueDate">overdueDate</a>
 
 The date on which the repayment was missed and the loan became overdue.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2399,7 +2399,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#principalAmount name="principalAmount">principalAmount</a>
 
 The principal amount of the financial holding paid to\x2ddate.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2440,7 +2440,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#principalamount_Base name="principalamount_Base">principalamount_Base</a>
 
 Value of the principal amount in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2481,7 +2481,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#principalAmount_default name="principalAmount_default">principalAmount_default</a>
 
 Principal amount converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2524,7 +2524,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#repaymentAccount name="repaymentAccount">repaymentAccount</a>
 
 Source account of repayments.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2572,7 +2572,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#totalArrear name="totalArrear">totalArrear</a>
 
 The total amount of repayments towards the loan which have been missed by the customer and are overdue.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2613,7 +2613,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#totalarrear_Base name="totalarrear_Base">totalarrear_Base</a>
 
 Value of the total arrears in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2654,7 +2654,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#totalArrear_default name="totalArrear_default">totalArrear_default</a>
 
 Total arrears converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2697,7 +2697,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#totalInterestPaid name="totalInterestPaid">totalInterestPaid</a>
 
 Total amount of payments made towards interest of the loan to date.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2738,7 +2738,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#totalinterestpaid_Base name="totalinterestpaid_Base">totalinterestpaid_Base</a>
 
 Value of the total interest paid in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2779,7 +2779,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#totalInterestPaid_default name="totalInterestPaid_default">totalInterestPaid_default</a>
 
 Total interest paid converted to default currency of the system.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2821,7 +2821,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#balanceDefaultDisplayValue name="balanceDefaultDisplayValue">balanceDefaultDisplayValue</a>
 
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2863,8 +2863,8 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities \(such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution \(that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding \(such as overpayment of a credit card\), or overdrawn account.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2905,7 +2905,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#balancedisplayvalue_Base name="balancedisplayvalue_Base">balancedisplayvalue_Base</a>
 
 Value of the balance display value in base currency.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 
@@ -2946,7 +2946,7 @@ First included in: BankingCoreDataModel/FHLoan \(this entity\)
 ### <a href=#dayspastdue name="dayspastdue">dayspastdue</a>
 
 The number of days that the customer has been in overdue status for this loan account.  
-First included in: BankingCoreDataModel/FHLoan \(this entity\)  
+First included in: BankingCoreDataModel/FHLoan (this entity\)  
 
 #### Properties
 

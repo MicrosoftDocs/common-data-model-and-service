@@ -74,7 +74,7 @@ Definition of Coverage for a Line of business. One or more LOBs comprise a produ
 ### <a href=#coveragelobId name="coveragelobId">coveragelobId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Product coverage  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -248,7 +248,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Product coverage  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#coveragecatalog name="coveragecatalog">coveragecatalog</a>
 
 Reference to Coverage catalog.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#coveragecategory name="coveragecategory">coveragecategory</a>
 
 Type of endorsement.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#coveragetype name="coveragetype">coveragetype</a>
 
 Type of the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#insuredassetcategory name="insuredassetcategory">insuredassetcategory</a>
 
 Type of Insured Asset.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#insuredassetlocationcategory name="insuredassetlocationcategory">insuredassetlocationcategory</a>
 
 Location of the Insured Assets/Group.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#lob name="lob">lob</a>
 
 Line of Business.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -785,7 +785,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Date the endorsement is active.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -825,7 +825,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#validto name="validto">validto</a>
 
 Date the endorsement expires.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 
@@ -865,7 +865,7 @@ First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)
 ### <a href=#version name="version">version</a>
 
 Version of endorsement.  
-First included in: PropertyandCasualtyDataModel/CoverageLOB \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageLOB (this entity\)  
 
 #### Properties
 

@@ -70,7 +70,7 @@ The results of an executed pipeline of a document.
 ### <a href=#documentpipelineId name="documentpipelineId">documentpipelineId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the document pipeline  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the document pipeline  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 
 ### <a href=#name name="name">name</a>
 
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#documentdefinition name="documentdefinition">documentdefinition</a>
 
 Lookup to the document definition which associate with the pipeline document  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#documentrequest name="documentrequest">documentrequest</a>
 
 Lookup to the document request.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#pipelinedocumentstate name="pipelinedocumentstate">pipelinedocumentstate</a>
 
 The status of the document determined by the pipeline workflow.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -642,7 +642,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#pipelinestate name="pipelinestate">pipelinestate</a>
 
 The run status of the pipeline workflow, whether it is running, failed or succeeded.  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 
@@ -688,7 +688,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\
 ### <a href=#triggercustompipelineon name="triggercustompipelineon">triggercustompipelineon</a>
 
 A date field that triggers the custom pipeline when changed  
-First included in: DocumentIntelligenceDataModel/DocumentPipeline \(this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipeline (this entity\)  
 
 #### Properties
 

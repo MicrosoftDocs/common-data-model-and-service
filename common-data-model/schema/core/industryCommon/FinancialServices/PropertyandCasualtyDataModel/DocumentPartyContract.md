@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Document Party/Contract in PropertyandCasualtyDataModel(DocumentPartyContract)
 
-Information about the relationship between the contract \(e.g., Policy\) and a party, including the party role relating to the document.  
+Information about the relationship between the contract (e.g., Policy\) and a party, including the party role relating to the document.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/DocumentPartyContract.cdm.json" target="_blank">GitHub</a>.  
 
@@ -72,7 +72,7 @@ Information about the relationship between the contract \(e.g., Policy\) and a p
 ### <a href=#documentpartycontractId name="documentpartycontractId">documentpartycontractId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Ins entity doc correspondence  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Ins entity doc correspondence  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#contractpart name="contractpart">contractpart</a>
 
 Reference to a contract part.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#contractpartType name="contractpartType">contractpartType</a>
 
 Reference to a contract part.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -587,7 +587,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#document name="document">document</a>
 
 Reference to a document.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -632,7 +632,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#party name="party">party</a>
 
 Reference a party the document relates to.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -671,7 +671,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#partyType name="partyType">partyType</a>
 
 Reference a party the document relates to.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -710,7 +710,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#partyrole name="partyrole">partyrole</a>
 
 Defines the party role for the related document.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 
@@ -756,7 +756,7 @@ First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this ent
 ### <a href=#reason name="reason">reason</a>
 
 Purpose of the document.  
-First included in: PropertyandCasualtyDataModel/DocumentPartyContract \(this entity\)  
+First included in: PropertyandCasualtyDataModel/DocumentPartyContract (this entity\)  
 
 #### Properties
 

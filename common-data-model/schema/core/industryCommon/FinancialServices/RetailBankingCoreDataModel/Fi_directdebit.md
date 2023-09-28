@@ -59,15 +59,15 @@ An automated payment system whereby an account holder authorizes a creditor to d
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[name](#name)|Required name field.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[creditoridentifier](#creditoridentifier)|Unique identifier of the creditor for the direct debit.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
-|[creditorname](#creditorname)|The creditor to whom the direct debit is made from customer's account \(such as automatic payments to a utility company\).|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
+|[creditorname](#creditorname)|The creditor to whom the direct debit is made from customer's account (such as automatic payments to a utility company\).|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[debtoraccount](#debtoraccount)|Account number from which a direct debit is executed for a payment or standing order.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
-|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
+|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[lastitemamount](#lastitemamount)|Last direct debit amount.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[lastitemamount_Base](#lastitemamount_Base)|Value of the last item amount in base currency.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[lastitemamount_default](#lastitemamount_default)|Last direct debit amount. Value should be converted to base currency.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[lastitemdate](#lastitemdate)|Last direct debit date.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
-|[lastitemstatus](#lastitemstatus)|Last direct debit status \(successful, rejected, failed\).|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
+|[lastitemstatus](#lastitemstatus)|Last direct debit status (successful, rejected, failed\).|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[lastitemstatusreason](#lastitemstatusreason)|The reason for the last direct debit.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[mandateenddate](#mandateenddate)|Date when the direct debit mandate expires.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
 |[mandateid](#mandateid)|Direct debit mandate identifier.|<a href="Fi_directdebit.md" target="_blank">RetailBankingCoreDataModel/Fi_directdebit</a>|
@@ -85,7 +85,7 @@ An automated payment system whereby an account holder authorizes a creditor to d
 ### <a href=#fi_DirectDebitId name="fi_DirectDebitId">fi_DirectDebitId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FI Direct Debit1.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FI Direct Debit1.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -308,7 +308,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -391,7 +391,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -434,7 +434,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#creditoridentifier name="creditoridentifier">creditoridentifier</a>
 
 Unique identifier of the creditor for the direct debit.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -572,8 +572,8 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 
 ### <a href=#creditorname name="creditorname">creditorname</a>
 
-The creditor to whom the direct debit is made from customer's account \(such as automatic payments to a utility company\).  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+The creditor to whom the direct debit is made from customer's account (such as automatic payments to a utility company\).  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#debtoraccount name="debtoraccount">debtoraccount</a>
 
 Account number from which a direct debit is executed for a payment or standing order.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -668,8 +668,8 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 
 ### <a href=#financialinstrumenttype name="financialinstrumenttype">financialinstrumenttype</a>
 
-The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -715,7 +715,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -763,7 +763,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#lastitemamount name="lastitemamount">lastitemamount</a>
 
 Last direct debit amount.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -804,7 +804,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#lastitemamount_Base name="lastitemamount_Base">lastitemamount_Base</a>
 
 Value of the last item amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -845,7 +845,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#lastitemamount_default name="lastitemamount_default">lastitemamount_default</a>
 
 Last direct debit amount. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -888,7 +888,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#lastitemdate name="lastitemdate">lastitemdate</a>
 
 Last direct debit date.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -927,8 +927,8 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 
 ### <a href=#lastitemstatus name="lastitemstatus">lastitemstatus</a>
 
-Last direct debit status \(successful, rejected, failed\).  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+Last direct debit status (successful, rejected, failed\).  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -974,7 +974,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#lastitemstatusreason name="lastitemstatusreason">lastitemstatusreason</a>
 
 The reason for the last direct debit.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1022,7 +1022,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#mandateenddate name="mandateenddate">mandateenddate</a>
 
 Date when the direct debit mandate expires.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1062,7 +1062,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#mandateid name="mandateid">mandateid</a>
 
 Direct debit mandate identifier.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1110,7 +1110,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#mandatelimit name="mandatelimit">mandatelimit</a>
 
 The limit amount set for direct debit authorization.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#mandatelimit_Base name="mandatelimit_Base">mandatelimit_Base</a>
 
 Value of the mandate limit in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1192,7 +1192,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#mandatelimit_default name="mandatelimit_default">mandatelimit_default</a>
 
 The limit amount set for direct debit authorization. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1235,7 +1235,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#mandatestartdate name="mandatestartdate">mandatestartdate</a>
 
 The date on which the direct debit mandate was given.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1275,7 +1275,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#nextitemamount name="nextitemamount">nextitemamount</a>
 
 The amount of the next direct debit.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1316,7 +1316,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#nextitemamount_Base name="nextitemamount_Base">nextitemamount_Base</a>
 
 Value of the next item amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1357,7 +1357,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#nextitemamount_default name="nextitemamount_default">nextitemamount_default</a>
 
 The amount of the next direct debit. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1400,7 +1400,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#nextitemdate name="nextitemdate">nextitemdate</a>
 
 Next direct debit date.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1440,7 +1440,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#orderenddate name="orderenddate">orderenddate</a>
 
 The end date of the standing order.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 
@@ -1480,7 +1480,7 @@ First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)
 ### <a href=#standingOrderAmount name="standingOrderAmount">standingOrderAmount</a>
 
 Amount to be regularly transferred.  
-First included in: RetailBankingCoreDataModel/Fi_directdebit \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_directdebit (this entity\)  
 
 #### Properties
 

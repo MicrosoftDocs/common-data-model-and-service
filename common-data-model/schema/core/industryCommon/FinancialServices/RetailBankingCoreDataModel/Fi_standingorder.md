@@ -59,19 +59,19 @@ An instruction order from an account holder for a set amount of money to be remo
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[name](#name)|Required name field.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[creditoraccount](#creditoraccount)|Account number for payment deposit for direct debit or standing order.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
-|[creditorname](#creditorname)|The creditor for the direct debit \(i.e. utility company\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
+|[creditorname](#creditorname)|The creditor for the direct debit (i.e. utility company\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[dayofmonth](#dayofmonth)|The day of the month when the payment should be completed.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[dayofweek](#dayofweek)|The day of the week when a direct debit from the account should be made.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[debtoraccount](#debtoraccount)|Account number from which payment is executed against for direct debit or standing order.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
-|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
+|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[firstpaymentdate](#firstpaymentdate)|The date of the first payment for the standing order.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
-|[frequency](#frequency)|The frequency of the standing order \(daily, weekly, monthly, quarterly, yearly\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
+|[frequency](#frequency)|The frequency of the standing order (daily, weekly, monthly, quarterly, yearly\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[lastitemamount](#lastitemamount)|Last direct debit amount.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[lastitemamount_Base](#lastitemamount_Base)|Value of the last item amount in base currency.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[lastitemamount_default](#lastitemamount_default)|Last direct debit amount. Value should be converted to base currency.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[lastitemdate](#lastitemdate)|Last direct debit date.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
-|[lastitemstatus](#lastitemstatus)|Last direct debit status \(successful, rejected, failed\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
+|[lastitemstatus](#lastitemstatus)|Last direct debit status (successful, rejected, failed\).|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[lastitemstatusreason](#lastitemstatusreason)|The reason for the last direct debit.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[nextitemamount](#nextitemamount)|The amount of the next direct debit.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
 |[nextitemamount_Base](#nextitemamount_Base)|Value of the next item amount in base currency.|<a href="Fi_standingorder.md" target="_blank">RetailBankingCoreDataModel/Fi_standingorder</a>|
@@ -82,7 +82,7 @@ An instruction order from an account holder for a set amount of money to be remo
 ### <a href=#fi_StandingOrderId name="fi_StandingOrderId">fi_StandingOrderId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -130,7 +130,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -170,7 +170,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FI Standing Order.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -256,7 +256,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FI Standing Order.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -305,7 +305,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -348,7 +348,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#creditoraccount name="creditoraccount">creditoraccount</a>
 
 Account number for payment deposit for direct debit or standing order.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -569,8 +569,8 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 
 ### <a href=#creditorname name="creditorname">creditorname</a>
 
-The creditor for the direct debit \(i.e. utility company\).  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+The creditor for the direct debit (i.e. utility company\).  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -618,7 +618,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#dayofmonth name="dayofmonth">dayofmonth</a>
 
 The day of the month when the payment should be completed.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -661,7 +661,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#dayofweek name="dayofweek">dayofweek</a>
 
 The day of the week when a direct debit from the account should be made.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#debtoraccount name="debtoraccount">debtoraccount</a>
 
 Account number from which payment is executed against for direct debit or standing order.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -754,8 +754,8 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 
 ### <a href=#financialinstrumenttype name="financialinstrumenttype">financialinstrumenttype</a>
 
-The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -801,7 +801,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#firstpaymentdate name="firstpaymentdate">firstpaymentdate</a>
 
 The date of the first payment for the standing order.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -840,8 +840,8 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 
 ### <a href=#frequency name="frequency">frequency</a>
 
-The frequency of the standing order \(daily, weekly, monthly, quarterly, yearly\).  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+The frequency of the standing order (daily, weekly, monthly, quarterly, yearly\).  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -887,7 +887,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -935,7 +935,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#lastitemamount name="lastitemamount">lastitemamount</a>
 
 Last direct debit amount.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -976,7 +976,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#lastitemamount_Base name="lastitemamount_Base">lastitemamount_Base</a>
 
 Value of the last item amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1017,7 +1017,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#lastitemamount_default name="lastitemamount_default">lastitemamount_default</a>
 
 Last direct debit amount. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1060,7 +1060,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#lastitemdate name="lastitemdate">lastitemdate</a>
 
 Last direct debit date.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1099,8 +1099,8 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 
 ### <a href=#lastitemstatus name="lastitemstatus">lastitemstatus</a>
 
-Last direct debit status \(successful, rejected, failed\).  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+Last direct debit status (successful, rejected, failed\).  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1146,7 +1146,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#lastitemstatusreason name="lastitemstatusreason">lastitemstatusreason</a>
 
 The reason for the last direct debit.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1194,7 +1194,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#nextitemamount name="nextitemamount">nextitemamount</a>
 
 The amount of the next direct debit.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1235,7 +1235,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#nextitemamount_Base name="nextitemamount_Base">nextitemamount_Base</a>
 
 Value of the next item amount in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1276,7 +1276,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#nextitemamount_default name="nextitemamount_default">nextitemamount_default</a>
 
 The amount of the next direct debit. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1319,7 +1319,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#nextitemdate name="nextitemdate">nextitemdate</a>
 
 Next direct debit date.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 
@@ -1359,7 +1359,7 @@ First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)
 ### <a href=#standingOrderAmount name="standingOrderAmount">standingOrderAmount</a>
 
 Amount to be regularly transferred.  
-First included in: RetailBankingCoreDataModel/Fi_standingorder \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_standingorder (this entity\)  
 
 #### Properties
 

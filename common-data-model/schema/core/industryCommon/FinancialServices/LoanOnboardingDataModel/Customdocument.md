@@ -50,7 +50,7 @@ Any document that is requested by or accepted by the bank, e.g. for the borrower
 ### <a href=#customDocumentId name="customDocumentId">customDocumentId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Customdocument \(this entity\)  
+First included in: LoanOnboardingDataModel/Customdocument (this entity\)  
 
 #### Properties
 

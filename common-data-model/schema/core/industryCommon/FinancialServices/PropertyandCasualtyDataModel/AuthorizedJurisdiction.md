@@ -72,7 +72,7 @@ Country and State where business is authorized/not authorized to be conducted.
 ### <a href=#authorizedjurisdictionId name="authorizedjurisdictionId">authorizedjurisdictionId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Authorized jurisdiction  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Authorized jurisdiction  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#allowed name="allowed">allowed</a>
 
 Indicator for authorized jurisdiction.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#location name="location">location</a>
 
 Location of jurisdiction, e.g., state, country, province.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -594,7 +594,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#locationType name="locationType">locationType</a>
 
 Location of jurisdiction, e.g., state, country, province.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -633,7 +633,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#party name="party">party</a>
 
 The referenced party associated to the jurisdiction.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -672,7 +672,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#partyType name="partyType">partyType</a>
 
 The referenced party associated to the jurisdiction.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -711,7 +711,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Authorized start date.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 
@@ -751,7 +751,7 @@ First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this en
 ### <a href=#validto name="validto">validto</a>
 
 Authorized End date.  
-First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction \(this entity\)  
+First included in: PropertyandCasualtyDataModel/AuthorizedJurisdiction (this entity\)  
 
 #### Properties
 

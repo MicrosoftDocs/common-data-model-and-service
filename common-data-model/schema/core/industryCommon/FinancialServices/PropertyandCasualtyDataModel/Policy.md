@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Policy in PropertyandCasualtyDataModel
 
-A contract of insurance between the customer and the Insurer. The Policy relates to a parent Policy. This provides support to different scenarios, e.g., handling Policy amendments \(add only the new amendments to a child Policy record\) or handling collective policies.  
+A contract of insurance between the customer and the Insurer. The Policy relates to a parent Policy. This provides support to different scenarios, e.g., handling Policy amendments (add only the new amendments to a child Policy record\) or handling collective policies.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/Policy.cdm.json" target="_blank">GitHub</a>.  
 
@@ -88,7 +88,7 @@ A contract of insurance between the customer and the Insurer. The Policy relates
 |[quoterevisionnumber](#quoterevisionnumber)|Version number of the revised quote for the Policy.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[renewaldate](#renewaldate)|Upcoming/Next renewal date.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[revisionnumber](#revisionnumber)|Policy revision number.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
-|[saledate](#saledate)|The date when the Insurance Policy was sold \(which may precede the effective date\).|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
+|[saledate](#saledate)|The date when the Insurance Policy was sold (which may precede the effective date\).|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[surrendervalue](#surrendervalue)|The value in case of cancelling the Insurance Policy before it is due.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[surrendervalue_Base](#surrendervalue_Base)|Value of the Surrender Value in base currency.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[totalpremium](#totalpremium)|The total amount of premium for the Insurance Policy over the term of the Policy.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
@@ -99,7 +99,7 @@ A contract of insurance between the customer and the Insurer. The Policy relates
 ### <a href=#policyId name="policyId">policyId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -147,7 +147,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -227,7 +227,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insurance Policy  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -273,7 +273,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insurance Policy  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -322,7 +322,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -365,7 +365,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -402,7 +402,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -445,7 +445,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -488,7 +488,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#amendmentnumber name="amendmentnumber">amendmentnumber</a>
 
 Version of the amendment to existing Policy\x2d all transactions in a Policy term.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -584,7 +584,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#cancellationdate name="cancellationdate">cancellationdate</a>
 
 The date on which the Insurance Policy was cancelled.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -624,7 +624,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#cancellationreason name="cancellationreason">cancellationreason</a>
 
 The reason for canceling the Insurance Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -672,7 +672,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#cancellationtype name="cancellationtype">cancellationtype</a>
 
 Reason of cancellation.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -718,7 +718,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#effectivedate name="effectivedate">effectivedate</a>
 
 The date on which the Policy is in effect.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -758,7 +758,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#expirationdate name="expirationdate">expirationdate</a>
 
 The date when the Insurance Policy expires.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -798,7 +798,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#insurer name="insurer">insurer</a>
 
 The Insurer on the Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -843,7 +843,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#lastpaymentdate name="lastpaymentdate">lastpaymentdate</a>
 
 The date on which the last payment of the premium was made.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -883,7 +883,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#lastrenewaldate name="lastrenewaldate">lastrenewaldate</a>
 
 The date on which the Policy was last renewed.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -923,7 +923,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#paidpremium name="paidpremium">paidpremium</a>
 
 The total amount of premium paid against the Policy for the billing period.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -964,7 +964,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#paidpremium_Base name="paidpremium_Base">paidpremium_Base</a>
 
 Value of the paid premium in base currency.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1005,7 +1005,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#paidtodate name="paidtodate">paidtodate</a>
 
 The date until which the Insurance Policy is active.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1045,7 +1045,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#parentpolicy name="parentpolicy">parentpolicy</a>
 
 Reference to the effective Policy of parent group.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1090,7 +1090,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#paymentduedate name="paymentduedate">paymentduedate</a>
 
 The date on which the next payment of the premium is due.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#policynumber name="policynumber">policynumber</a>
 
 Unique Insurance Policy number in the source system.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1178,7 +1178,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#policyproduct name="policyproduct">policyproduct</a>
 
 The product sold in the Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1223,7 +1223,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#policystatus name="policystatus">policystatus</a>
 
 The status of the Insurance Policy such as new, renewed, expired.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#policytype name="policytype">policytype</a>
 
 Type of Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1315,7 +1315,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#premiumadjustment name="premiumadjustment">premiumadjustment</a>
 
 Value of premium adjustment.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1356,7 +1356,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#premiumadjustment_Base name="premiumadjustment_Base">premiumadjustment_Base</a>
 
 Value of the premium adjustment in base currency.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1397,7 +1397,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#premiumfrequency name="premiumfrequency">premiumfrequency</a>
 
 Frequency of premium payments against the Policy such as monthly, quarterly, semiannual, or annual.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1443,7 +1443,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#premiumoverterm name="premiumoverterm">premiumoverterm</a>
 
 Value of premium over term.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1484,7 +1484,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#premiumoverterm_Base name="premiumoverterm_Base">premiumoverterm_Base</a>
 
 Value of premium over term in base currency.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1525,7 +1525,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#quotenumber name="quotenumber">quotenumber</a>
 
 Number associated with initial quote for the Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1573,7 +1573,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#quoterevisionnumber name="quoterevisionnumber">quoterevisionnumber</a>
 
 Version number of the revised quote for the Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1621,7 +1621,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#renewaldate name="renewaldate">renewaldate</a>
 
 Upcoming/Next renewal date.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1661,7 +1661,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#revisionnumber name="revisionnumber">revisionnumber</a>
 
 Policy revision number.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1708,8 +1708,8 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 
 ### <a href=#saledate name="saledate">saledate</a>
 
-The date when the Insurance Policy was sold \(which may precede the effective date\).  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+The date when the Insurance Policy was sold (which may precede the effective date\).  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1749,7 +1749,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#surrendervalue name="surrendervalue">surrendervalue</a>
 
 The value in case of cancelling the Insurance Policy before it is due.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1790,7 +1790,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#surrendervalue_Base name="surrendervalue_Base">surrendervalue_Base</a>
 
 Value of the Surrender Value in base currency.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1831,7 +1831,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#totalpremium name="totalpremium">totalpremium</a>
 
 The total amount of premium for the Insurance Policy over the term of the Policy.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1872,7 +1872,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#totalpremium_Base name="totalpremium_Base">totalpremium_Base</a>
 
 Value of Total premium in base currency.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1913,7 +1913,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#transactionpremium name="transactionpremium">transactionpremium</a>
 
 The change in the premium which resulted from a change within the current billing period.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 
@@ -1954,7 +1954,7 @@ First included in: PropertyandCasualtyDataModel/Policy \(this entity\)
 ### <a href=#transactionpremium_Base name="transactionpremium_Base">transactionpremium_Base</a>
 
 Value of the transaction premium in base currency.  
-First included in: PropertyandCasualtyDataModel/Policy \(this entity\)  
+First included in: PropertyandCasualtyDataModel/Policy (this entity\)  
 
 #### Properties
 

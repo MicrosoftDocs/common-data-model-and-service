@@ -53,7 +53,7 @@ Business that represents a customer or potential customer. The company that is b
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: FinancialServicesCommonDataModel/Account \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Account (this entity\)  
 
 #### Properties
 
@@ -101,7 +101,7 @@ First included in: FinancialServicesCommonDataModel/Account \(this entity\)
 ### <a href=#Branch name="Branch">Branch</a>
 
 The primary branch of the bank associated with the account.  
-First included in: FinancialServicesCommonDataModel/Account \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Account (this entity\)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: FinancialServicesCommonDataModel/Account \(this entity\)
 ### <a href=#JoinDate name="JoinDate">JoinDate</a>
 
 The date the account joined the bank.  
-First included in: FinancialServicesCommonDataModel/Account \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Account (this entity\)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: FinancialServicesCommonDataModel/Account \(this entity\)
 ### <a href=#Tenureyears name="Tenureyears">Tenureyears</a>
 
 Number of years the account has held accounts at the bank.  
-First included in: FinancialServicesCommonDataModel/Account \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Account (this entity\)  
 
 #### Properties
 

@@ -70,7 +70,7 @@ The perils that can trigger damage or loss. Relates to Policy's Coverages, Exclu
 ### <a href=#causeoflossId name="causeoflossId">causeoflossId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Cause of loss  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Cause of loss  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#causeoflosslob name="causeoflosslob">causeoflosslob</a>
 
 Perils that trigger the loss.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#policypart name="policypart">policypart</a>
 
 Part of the Policy: Coverage/Exclusions…  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#policypartType name="policypartType">policypartType</a>
 
 Part of the Policy: Coverage/Exclusions…  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -630,7 +630,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#premiumamount name="premiumamount">premiumamount</a>
 
 Premium amount for Cause of loss.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 
@@ -671,7 +671,7 @@ First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)
 ### <a href=#premiumamount_Base name="premiumamount_Base">premiumamount_Base</a>
 
 Value of the premium amount in base currency.  
-First included in: PropertyandCasualtyDataModel/CauseOfLoss \(this entity\)  
+First included in: PropertyandCasualtyDataModel/CauseOfLoss (this entity\)  
 
 #### Properties
 

@@ -58,7 +58,7 @@ An extension of credit associated with a checking account allowing the account h
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
 |[name](#name)|Required name field.|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
-|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
+|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
 |[overdraftLimit](#overdraftLimit)|The overdraft limit given by the bank to the customer on this account. This is the amount that the customer can withdraw from the account when the account exceeds balance.|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
 |[overdraftlimit_Base](#overdraftlimit_Base)|Value of the overdraft limit in base currency.|<a href="Fi_overdraft.md" target="_blank">RetailBankingCoreDataModel/Fi_overdraft</a>|
@@ -71,7 +71,7 @@ An extension of credit associated with a checking account allowing the account h
 ### <a href=#fi_OverdraftId name="fi_OverdraftId">fi_OverdraftId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FI Overdraft1.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FI Overdraft1.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -510,8 +510,8 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 
 ### <a href=#financialinstrumenttype name="financialinstrumenttype">financialinstrumenttype</a>
 
-The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftLimit name="overdraftLimit">overdraftLimit</a>
 
 The overdraft limit given by the bank to the customer on this account. This is the amount that the customer can withdraw from the account when the account exceeds balance.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftlimit_Base name="overdraftlimit_Base">overdraftlimit_Base</a>
 
 Value of the overdraft limit in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -687,7 +687,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftlimit_default name="overdraftlimit_default">overdraftlimit_default</a>
 
 The overdraft limit given by the bank to the customer on this account. This is the amount that the customer can withdraw from the account, when the account exceeds balance. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -730,7 +730,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftLimitUsed name="overdraftLimitUsed">overdraftLimitUsed</a>
 
 The overdraft amount that customer withdrew from the account, beyond zero balance.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftlimitused_Base name="overdraftlimitused_Base">overdraftlimitused_Base</a>
 
 Value of the overdraft limit Used in base currency.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -812,7 +812,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftlimitused_default name="overdraftlimitused_default">overdraftlimitused_default</a>
 
 The overdraft amount that customer withdrew from the account, beyond zero balance. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 
@@ -855,7 +855,7 @@ First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)
 ### <a href=#overdraftRate name="overdraftRate">overdraftRate</a>
 
 The interest rate that will be charged to the customer for repayment, if the account falls into overdraft.  
-First included in: RetailBankingCoreDataModel/Fi_overdraft \(this entity\)  
+First included in: RetailBankingCoreDataModel/Fi_overdraft (this entity\)  
 
 #### Properties
 

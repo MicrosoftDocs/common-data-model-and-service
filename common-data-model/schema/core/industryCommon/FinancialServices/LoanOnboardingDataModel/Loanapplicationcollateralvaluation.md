@@ -71,7 +71,7 @@ Valuation associated with a collateral of the loan application.
 ### <a href=#loanApplicationCollateralValuationId name="loanApplicationCollateralValuationId">loanApplicationCollateralValuationId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Loan Application Collateral Valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Loan Application Collateral Valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#assessorName name="assessorName">assessorName</a>
 
 The name of the assessor performing the valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#loanApplicationCollateral name="loanApplicationCollateral">loanApplicationCollateral</a>
 
 The loan application collateral associated with this valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -613,7 +613,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#status name="status">status</a>
 
 Status of verification for this collateral valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#type name="type">type</a>
 
 Method of valuation used for this collateral valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -705,7 +705,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#valuation name="valuation">valuation</a>
 
 The cash or market value associated with this collateral valuation.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -746,7 +746,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#valuation_Base name="valuation_Base">valuation_Base</a>
 
 Value of the collateral in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -787,7 +787,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#valuationDate name="valuationDate">valuationDate</a>
 
 Date the collateral valuation took place.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -827,7 +827,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#valuationInstructionDate name="valuationInstructionDate">valuationInstructionDate</a>
 
 The date the valuation was instructed.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 
@@ -867,7 +867,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(
 ### <a href=#valuationReceivedDate name="valuationReceivedDate">valuationReceivedDate</a>
 
 The date this collateral valuation was received.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation \(this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateralvaluation (this entity\)  
 
 #### Properties
 

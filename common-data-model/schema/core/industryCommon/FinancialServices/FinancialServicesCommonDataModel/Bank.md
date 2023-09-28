@@ -58,7 +58,7 @@ The bank that the branch is associated with.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
 |[name](#name)|The name of the bank.|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
-|[addressLine1](#addressLine1)|The first line of the main bank's address \(not the branch address\).|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
+|[addressLine1](#addressLine1)|The first line of the main bank's address (not the branch address\).|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
 |[addressLine2](#addressLine2)|The second line of the branch's address.|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
 |[addressLine3](#addressLine3)|The third line of the bank's address.|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
 |[bankCode](#bankCode)|The unique identifying code of the bank.|<a href="Bank.md" target="_blank">FinancialServicesCommonDataModel/Bank</a>|
@@ -72,7 +72,7 @@ The bank that the branch is associated with.
 ### <a href=#bankId name="bankId">bankId</a>
 
 Unique identifier for entity instances.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Bank.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Bank.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the bank.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -511,8 +511,8 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 
 ### <a href=#addressLine1 name="addressLine1">addressLine1</a>
 
-The first line of the main bank's address \(not the branch address\).  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+The first line of the main bank's address (not the branch address\).  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#addressLine2 name="addressLine2">addressLine2</a>
 
 The second line of the branch's address.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -608,7 +608,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#addressLine3 name="addressLine3">addressLine3</a>
 
 The third line of the bank's address.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -656,7 +656,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#bankCode name="bankCode">bankCode</a>
 
 The unique identifying code of the bank.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -704,7 +704,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#city name="city">city</a>
 
 The city where the bank is located.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#country name="country">country</a>
 
 The country or region where the bank is located.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Key provided by the SI for updating the current record.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 The ZIP Code or postal code for the bank address.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -896,7 +896,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
 The state or province for the bank.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ First included in: FinancialServicesCommonDataModel/Bank \(this entity\)
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 The primary phone number of the bank.  
-First included in: FinancialServicesCommonDataModel/Bank \(this entity\)  
+First included in: FinancialServicesCommonDataModel/Bank (this entity\)  
 
 #### Properties
 

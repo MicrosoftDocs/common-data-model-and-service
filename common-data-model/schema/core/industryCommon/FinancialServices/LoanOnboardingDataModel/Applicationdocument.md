@@ -52,7 +52,7 @@ Document filled out by a potential borrower to apply for a loan; provides financ
 ### <a href=#applicationDocumentId name="applicationDocumentId">applicationDocumentId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Applicationdocument \(this entity\)  
+First included in: LoanOnboardingDataModel/Applicationdocument (this entity\)  
 
 #### Properties
 
@@ -100,7 +100,7 @@ First included in: LoanOnboardingDataModel/Applicationdocument \(this entity\)
 ### <a href=#application name="application">application</a>
 
 The Loan application the current application document is associated with.  
-First included in: LoanOnboardingDataModel/Applicationdocument \(this entity\)  
+First included in: LoanOnboardingDataModel/Applicationdocument (this entity\)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: LoanOnboardingDataModel/Applicationdocument \(this entity\)
 ### <a href=#documentSubmitter name="documentSubmitter">documentSubmitter</a>
 
 The application contact associated with the Application Document.  
-First included in: LoanOnboardingDataModel/Applicationdocument \(this entity\)  
+First included in: LoanOnboardingDataModel/Applicationdocument (this entity\)  
 
 #### Properties
 

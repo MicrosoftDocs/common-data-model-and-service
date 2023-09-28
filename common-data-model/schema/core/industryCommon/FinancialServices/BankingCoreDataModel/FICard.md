@@ -65,22 +65,22 @@ A payment card issued by a bank to an account holder enabling the account holder
 |[cardholder](#cardholder)|The customer associated with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[cardholderType](#cardholderType)|The customer associated with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[cardNetwork](#cardNetwork)|This is the credit card network, such as Visa, Mastercard, or American Express.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
-|[cardnumber](#cardnumber)|The customer's card number \(with appropriate masking, PCI\x2dcompliant\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
-|[cardType](#cardType)|The type of card held by the customer \(Debit or Credit\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
+|[cardnumber](#cardnumber)|The customer's card number (with appropriate masking, PCI\x2dcompliant\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
+|[cardType](#cardType)|The type of card held by the customer (Debit or Credit\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[dateoflastcashwithdrawal](#dateoflastcashwithdrawal)|The date of the last cash withdrawal transaction performed with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[dateoflasttransaction](#dateoflasttransaction)|The date of the last transaction performed with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[embossingName](#embossingName)|The name of the customer as it was embossed on the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[expiryDate](#expiryDate)|The date on which the card will expire.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
-|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
+|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[issueDate](#issueDate)|The date on which the card was issued.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[numberofcashwithdrawal](#numberofcashwithdrawal)|The number of cash withdrawal transactions made on the card each month.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[numberoftransactions](#numberoftransactions)|The number of transactions made on the card each month.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
-|[productName](#productName)|This is how the Bank \(issuer\) markets the card and is the name known to the customer.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
+|[productName](#productName)|This is how the Bank (issuer\) markets the card and is the name known to the customer.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[purchasingLimit](#purchasingLimit)|The maximum amount that the customer can spend using the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[purchasinglimit_Base](#purchasinglimit_Base)|Value of the purchasing limit in base currency.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[purchasinglimit_default](#purchasinglimit_default)|The total amount that the customer can spend on the card. Value should be converted to base currency.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
-|[status](#status)|The status of the card \(i.e. active, not active, stolen etc.\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
+|[status](#status)|The status of the card (i.e. active, not active, stolen etc.\).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[withdrawalLimit](#withdrawalLimit)|The maximum amount that the customer can withdraw as cash using the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[withdrawallimit_Base](#withdrawallimit_Base)|Value of the withdrawal limit in base currency.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[withdrawallimit_default](#withdrawallimit_default)|The total amount that the customer can withdraw as cash from the card. Value should be converted to base currency.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
@@ -88,7 +88,7 @@ A payment card issued by a bank to an account holder enabling the account holder
 ### <a href=#fi_CardId name="fi_CardId">fi_CardId</a>
 
 Unique identifier for entity instances.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FI Card1.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FI Card1.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -311,7 +311,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -354,7 +354,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -391,7 +391,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -434,7 +434,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#activationDate name="activationDate">activationDate</a>
 
 The date on which the card was activated.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#cardholder name="cardholder">cardholder</a>
 
 The customer associated with the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#cardholderType name="cardholderType">cardholderType</a>
 
 The customer associated with the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -640,7 +640,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#cardNetwork name="cardNetwork">cardNetwork</a>
 
 This is the credit card network, such as Visa, Mastercard, or American Express.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -687,8 +687,8 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 
 ### <a href=#cardnumber name="cardnumber">cardnumber</a>
 
-The customer's card number \(with appropriate masking, PCI\x2dcompliant\).  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+The customer's card number (with appropriate masking, PCI\x2dcompliant\).  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -735,8 +735,8 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 
 ### <a href=#cardType name="cardType">cardType</a>
 
-The type of card held by the customer \(Debit or Credit\).  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+The type of card held by the customer (Debit or Credit\).  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#dateoflastcashwithdrawal name="dateoflastcashwithdrawal">dateoflastcashwithdrawal</a>
 
 The date of the last cash withdrawal transaction performed with the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#dateoflasttransaction name="dateoflasttransaction">dateoflasttransaction</a>
 
 The date of the last transaction performed with the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#embossingName name="embossingName">embossingName</a>
 
 The name of the customer as it was embossed on the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -904,7 +904,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#expiryDate name="expiryDate">expiryDate</a>
 
 The date on which the card will expire.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -940,8 +940,8 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 
 ### <a href=#financialinstrumenttype name="financialinstrumenttype">financialinstrumenttype</a>
 
-The type of financial instrument \(Direct debit, Standing order, Card, Overdraft\).  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+The type of financial instrument (Direct debit, Standing order, Card, Overdraft\).  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -987,7 +987,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1035,7 +1035,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#issueDate name="issueDate">issueDate</a>
 
 The date on which the card was issued.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1072,7 +1072,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#numberofcashwithdrawal name="numberofcashwithdrawal">numberofcashwithdrawal</a>
 
 The number of cash withdrawal transactions made on the card each month.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1115,7 +1115,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#numberoftransactions name="numberoftransactions">numberoftransactions</a>
 
 The number of transactions made on the card each month.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1157,8 +1157,8 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 
 ### <a href=#productName name="productName">productName</a>
 
-This is how the Bank \(issuer\) markets the card and is the name known to the customer.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+This is how the Bank (issuer\) markets the card and is the name known to the customer.  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1206,7 +1206,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#purchasingLimit name="purchasingLimit">purchasingLimit</a>
 
 The maximum amount that the customer can spend using the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1247,7 +1247,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#purchasinglimit_Base name="purchasinglimit_Base">purchasinglimit_Base</a>
 
 Value of the purchasing limit in base currency.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1288,7 +1288,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#purchasinglimit_default name="purchasinglimit_default">purchasinglimit_default</a>
 
 The total amount that the customer can spend on the card. Value should be converted to base currency.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1330,8 +1330,8 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 
 ### <a href=#status name="status">status</a>
 
-The status of the card \(i.e. active, not active, stolen etc.\).  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+The status of the card (i.e. active, not active, stolen etc.\).  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1377,7 +1377,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#withdrawalLimit name="withdrawalLimit">withdrawalLimit</a>
 
 The maximum amount that the customer can withdraw as cash using the card.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1418,7 +1418,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#withdrawallimit_Base name="withdrawallimit_Base">withdrawallimit_Base</a>
 
 Value of the withdrawal limit in base currency.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 
@@ -1459,7 +1459,7 @@ First included in: BankingCoreDataModel/FICard \(this entity\)
 ### <a href=#withdrawallimit_default name="withdrawallimit_default">withdrawallimit_default</a>
 
 The total amount that the customer can withdraw as cash from the card. Value should be converted to base currency.  
-First included in: BankingCoreDataModel/FICard \(this entity\)  
+First included in: BankingCoreDataModel/FICard (this entity\)  
 
 #### Properties
 

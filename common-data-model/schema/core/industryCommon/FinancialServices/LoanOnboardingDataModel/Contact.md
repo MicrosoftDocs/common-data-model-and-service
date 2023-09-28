@@ -50,7 +50,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: LoanOnboardingDataModel/Contact \(this entity\)  
+First included in: LoanOnboardingDataModel/Contact (this entity\)  
 
 #### Properties
 

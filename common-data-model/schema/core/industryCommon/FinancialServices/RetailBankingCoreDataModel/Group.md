@@ -50,7 +50,7 @@ An association of several customers allowing e.g. the representation of househol
 ### <a href=#groupId name="groupId">groupId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Group \(this entity\)  
+First included in: RetailBankingCoreDataModel/Group (this entity\)  
 
 #### Properties
 

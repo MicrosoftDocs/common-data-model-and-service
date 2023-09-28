@@ -69,7 +69,7 @@ Information about the relationship between a Line of business and a detail in th
 ### <a href=#lobassetdetailcatalogId name="lobassetdetailcatalogId">lobassetdetailcatalogId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the LOB Asset detail catalog  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the LOB Asset detail catalog  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#assetdetailcatalog name="assetdetailcatalog">assetdetailcatalog</a>
 
 Reference to generic asset detail catalog.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#lob name="lob">lob</a>
 
 Reference to Line of business.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Validity start date for LOB asset detail catalog.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 
@@ -636,7 +636,7 @@ First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this ent
 ### <a href=#validto name="validto">validto</a>
 
 Expiry for LOB asset detail catalog.  
-First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog \(this entity\)  
+First included in: PropertyandCasualtyDataModel/LOBAssetDetailCatalog (this entity\)  
 
 #### Properties
 

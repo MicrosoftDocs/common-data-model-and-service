@@ -61,7 +61,7 @@ Information of an Insured Auto.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[name](#name)|Required name field.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
-|[annualdistancedriven](#annualdistancedriven)|The distance that the vehicle is expected to be driven in a year \(in miles/km\).|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
+|[annualdistancedriven](#annualdistancedriven)|The distance that the vehicle is expected to be driven in a year (in miles/km\).|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[assetdescription](#assetdescription)|The description of the asset insured under the Policy.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[coverage](#coverage)|Reference to Auto Coverage.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[cubiccapacity](#cubiccapacity)|Cubic capacity of the insured vehicle.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
@@ -75,7 +75,7 @@ Information of an Insured Auto.
 |[make](#make)|The make of the vehicle that is insured by this Policy such as BMW or Ford.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[model](#model)|The model of the vehicle that is insured by this Policy such as X3 or Mustang for car model.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[modelyear](#modelyear)|The year of manufacture of the insured vehicle.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
-|[odometerreading](#odometerreading)|Vehicle's odometer reading on the Policy creation date \(miles/km\).|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
+|[odometerreading](#odometerreading)|Vehicle's odometer reading on the Policy creation date (miles/km\).|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[platenumber](#platenumber)|Plate number of the insured vehicle.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[primaryowner](#primaryowner)|Primary owner of the asset.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
 |[primaryownerType](#primaryownerType)|Primary owner of the asset.|<a href="InsuredAutoAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredAutoAsset</a>|
@@ -93,7 +93,7 @@ Information of an Insured Auto.
 ### <a href=#insuredautoassetId name="insuredautoassetId">insuredautoassetId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -181,7 +181,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -221,7 +221,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insured auto  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insured auto  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -316,7 +316,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -359,7 +359,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -396,7 +396,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -439,7 +439,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -529,8 +529,8 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 
 ### <a href=#annualdistancedriven name="annualdistancedriven">annualdistancedriven</a>
 
-The distance that the vehicle is expected to be driven in a year \(in miles/km\).  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+The distance that the vehicle is expected to be driven in a year (in miles/km\).  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#assetdescription name="assetdescription">assetdescription</a>
 
 The description of the asset insured under the Policy.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#coverage name="coverage">coverage</a>
 
 Reference to Auto Coverage.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -666,7 +666,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#cubiccapacity name="cubiccapacity">cubiccapacity</a>
 
 Cubic capacity of the insured vehicle.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -714,7 +714,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#dateofregistration name="dateofregistration">dateofregistration</a>
 
 Date on which the insured vehicle was registered.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -754,7 +754,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Location description of the property insured under this Policy.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -802,7 +802,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#distanceunits name="distanceunits">distanceunits</a>
 
 Indication of whether the distance is in miles or kilometers.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#fairmarketvalue name="fairmarketvalue">fairmarketvalue</a>
 
 The estimated current value of the asset when the Policy was issued.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -889,7 +889,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#fairmarketvalue_Base name="fairmarketvalue_Base">fairmarketvalue_Base</a>
 
 Value of the Fair Market Value in base currency.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -930,7 +930,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#lienholders name="lienholders">lienholders</a>
 
 The lienholder who has ownership rights on the asset.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -978,7 +978,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#locationofregistration name="locationofregistration">locationofregistration</a>
 
 Location of registration.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1026,7 +1026,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#make name="make">make</a>
 
 The make of the vehicle that is insured by this Policy such as BMW or Ford.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#model name="model">model</a>
 
 The model of the vehicle that is insured by this Policy such as X3 or Mustang for car model.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1122,7 +1122,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#modelyear name="modelyear">modelyear</a>
 
 The year of manufacture of the insured vehicle.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1169,8 +1169,8 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 
 ### <a href=#odometerreading name="odometerreading">odometerreading</a>
 
-Vehicle's odometer reading on the Policy creation date \(miles/km\).  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+Vehicle's odometer reading on the Policy creation date (miles/km\).  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1213,7 +1213,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#platenumber name="platenumber">platenumber</a>
 
 Plate number of the insured vehicle.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1261,7 +1261,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#primaryowner name="primaryowner">primaryowner</a>
 
 Primary owner of the asset.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1300,7 +1300,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#primaryownerType name="primaryownerType">primaryownerType</a>
 
 Primary owner of the asset.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1339,7 +1339,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#propertyimprovements name="propertyimprovements">propertyimprovements</a>
 
 Description of any property improvements.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#propertyrating name="propertyrating">propertyrating</a>
 
 The condition rating of the insured property.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1433,7 +1433,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#propertyusage name="propertyusage">propertyusage</a>
 
 The manner the property is used by the Policy holder such as owner or rented out.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1479,7 +1479,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#purchaseamount name="purchaseamount">purchaseamount</a>
 
 The price paid by the customer for the Insured Asset.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1520,7 +1520,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#purchaseamount_Base name="purchaseamount_Base">purchaseamount_Base</a>
 
 Value of the purchase amount in base currency.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1561,7 +1561,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#purchasedate name="purchasedate">purchasedate</a>
 
 The date on which the asset was purchased.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1601,7 +1601,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#registrationtype name="registrationtype">registrationtype</a>
 
 The purpose of the insured such as rental, recreational, or personal use.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1647,7 +1647,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#vehiclecategory name="vehiclecategory">vehiclecategory</a>
 
 The category of the insured vehicle such as an Auto, motorcycle, marine, snowmobile, etc.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1693,7 +1693,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#vehicleownership name="vehicleownership">vehicleownership</a>
 
 Indication as to whether the vehicle is owned or leased.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 
@@ -1739,7 +1739,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)
 ### <a href=#vin name="vin">vin</a>
 
 Vehicle’s identification number.  
-First included in: PropertyandCasualtyDataModel/InsuredAutoAsset \(this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAutoAsset (this entity\)  
 
 #### Properties
 

@@ -66,7 +66,7 @@ Financial holdings owned by the customer.
 ### <a href=#customerfinancialholdingId name="customerfinancialholdingId">customerfinancialholdingId</a>
 
 Financial holdings owned by the customer.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Customer Financial Holding.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Customer Financial Holding.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#customerID name="customerID">customerID</a>
 
 The unique identifier of the customer connected to this holding.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#customerIDType name="customerIDType">customerIDType</a>
 
 The unique identifier of the customer connected to this holding.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -593,7 +593,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#financialHoldingID name="financialHoldingID">financialHoldingID</a>
 
 The unique identifier of the financial holding connected to the customer.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this en
 ### <a href=#financialHoldingRole name="financialHoldingRole">financialHoldingRole</a>
 
 The role of the customer with respect to the financial holding such as owner, beneficiary, etc.  
-First included in: RetailBankingCoreDataModel/Customerfinancialholding \(this entity\)  
+First included in: RetailBankingCoreDataModel/Customerfinancialholding (this entity\)  
 
 #### Properties
 

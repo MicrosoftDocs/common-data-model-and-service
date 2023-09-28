@@ -69,7 +69,7 @@ ms.author: cdmditeam
 ### <a href=#applicationId name="applicationId">applicationId</a>
 
 Unique identifier for entity instances  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Application  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Application  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 
 ### <a href=#name name="name">name</a>
 
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#businessscenario name="businessscenario">businessscenario</a>
 
 The business scenario of the application.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#detailsid name="detailsid">detailsid</a>
 
 The extended data table of the application.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#primaryapplicant name="primaryapplicant">primaryapplicant</a>
 
 The primary application contact of the .  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#subcategory name="subcategory">subcategory</a>
 
 The sub category of the application.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 
@@ -686,7 +686,7 @@ First included in: OnboardingApplicationBase/Application \(this entity\)
 ### <a href=#primarymemberhelper name="primarymemberhelper">primarymemberhelper</a>
 
 A calculated field helping determine if a related party contract is the primary member of the application.  
-First included in: OnboardingApplicationBase/Application \(this entity\)  
+First included in: OnboardingApplicationBase/Application (this entity\)  
 
 #### Properties
 

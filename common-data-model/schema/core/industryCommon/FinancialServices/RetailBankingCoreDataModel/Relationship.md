@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Relationship in RetailBankingCoreDataModel
 
-Denotes an association between one contact to another \(not as part of the larger group\) where there is not necessarily a direct association of finances. For example, a spouse, lawyer, child or grandparent.  
+Denotes an association between one contact to another (not as part of the larger group\) where there is not necessarily a direct association of finances. For example, a spouse, lawyer, child or grandparent.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/RetailBankingCoreDataModel/Relationship.cdm.json" target="_blank">GitHub</a>.  
 
@@ -65,7 +65,7 @@ Denotes an association between one contact to another \(not as part of the large
 ### <a href=#relationshipId name="relationshipId">relationshipId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Relationship.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Relationship.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#contactfrom name="contactfrom">contactfrom</a>
 
 The contact who owns the relationship.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#contactto name="contactto">contactto</a>
 
 The contact with whom the relationship is establish.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
@@ -613,7 +613,7 @@ First included in: RetailBankingCoreDataModel/Relationship \(this entity\)
 ### <a href=#relationshiptype name="relationshiptype">relationshiptype</a>
 
 The type of a relationship chosen from the relationship role option set.  
-First included in: RetailBankingCoreDataModel/Relationship \(this entity\)  
+First included in: RetailBankingCoreDataModel/Relationship (this entity\)  
 
 #### Properties
 
