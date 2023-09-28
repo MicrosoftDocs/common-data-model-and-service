@@ -51,21 +51,21 @@ ms.author: cdmditeam
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[documentpipelinestepId](#documentpipelinestepId)|Unique identifier for entity instances|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 |[statecode](#statecode)|Status of the document pipeline step|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 |[statuscode](#statuscode)|Reason for the status of the document pipeline step|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 |[name](#name)||<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[documentpipeline](#documentpipeline)|Lookup to the pipeline workflow that the pipeline step is related to\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[output](#output)|The formatted output of the pipeline step\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[pipelinestepdefinition](#pipelinestepdefinition)|Lookup to pipeline step definition table which provides the metadata of the pipeline step\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[documentpipeline](#documentpipeline)|Lookup to the pipeline workflow that the pipeline step is related to.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[output](#output)|The formatted output of the pipeline step.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[pipelinestepdefinition](#pipelinestepdefinition)|Lookup to pipeline step definition table which provides the metadata of the pipeline step.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 |[pipelinestepdocumentstate](#pipelinestepdocumentstate)|The status of the document determined by the current pipeline step|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[pipelinestepstate](#pipelinestepstate)|The run status of the pipeline step, whether it is running, failed or succeeded\.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[rawoutput](#rawoutput)|The actual output of the pipeline step logic \(AI Model, Third Party, API, etc\.\.\)|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[pipelinestepstate](#pipelinestepstate)|The run status of the pipeline step, whether it is running, failed or succeeded.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[rawoutput](#rawoutput)|The actual output of the pipeline step logic \(AI Model, Third Party, API, etc..\)|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 
 ### <a href=#documentpipelinestepId name="documentpipelinestepId">documentpipelinestepId</a>
 
@@ -81,43 +81,43 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the documentpipelinestepId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.identifiedBy\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.identifiedBy\*\*  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DocumentPipelineStep/(resolvedAttributes)/documentpipelinestepId](#documentpipelinestepId)</td><td>attribute</td><td></td></tr></table>
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Document pipeline step</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_documentpipelinestepid"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
-Date and time when the record was created\.  
+Date and time when the record was created.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -129,35 +129,35 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the createdOn attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.date\*\*  
-  \*\*means\.measurement\.date\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*means\.measurement\.time\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.date\*\*  
+  \*\*means.measurement.date\*\*  
+  \*\*is.dataFormat.time\*\*  
+  \*\*means.measurement.time\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.time\*\*  
-  \*\*is\.dataFormat\.date\*\*  
+\*\*is.dataFormat.time\*\*  
+  \*\*is.dataFormat.date\*\*  
   </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
-Date and time when the record was modified\.  
+Date and time when the record was modified.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -169,30 +169,30 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.date\*\*  
-  \*\*means\.measurement\.date\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*means\.measurement\.time\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.date\*\*  
+  \*\*means.measurement.date\*\*  
+  \*\*is.dataFormat.time\*\*  
+  \*\*means.measurement.time\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.time\*\*  
-  \*\*is\.dataFormat\.date\*\*  
+\*\*is.dataFormat.time\*\*  
+  \*\*is.dataFormat.date\*\*  
   </details>
 
 ### <a href=#statecode name="statecode">statecode</a>
@@ -209,36 +209,36 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the statecode attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*does\.haveDefault\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*does.haveDefault\*\*  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is\.constrainedList\*\*  
+\*\*is.constrainedList\*\*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*means\.entityState\*\*  
+\*\*means.entityState\*\*  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[DocumentPipelineStep/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the document pipeline step</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"25"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
@@ -255,44 +255,44 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the statuscode attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*does\.haveDefault\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*does.haveDefault\*\*  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is\.constrainedList\*\*  
+\*\*is.constrainedList\*\*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is\.correlatedWith\*\*  
+\*\*is.correlatedWith\*\*  
   the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"statecode"</td><td>attributeName</td><td></td></tr></table>
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the document pipeline step</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"27"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
-Sequence number of the import that created this record\.  
+Sequence number of the import that created this record.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -304,38 +304,38 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.constrained\*\*  
+\*\*is.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"30"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
-Date and time that the record was migrated\.  
+Date and time that the record was migrated.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -347,32 +347,32 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.date\*\*  
-  \*\*means\.measurement\.date\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.date\*\*  
+  \*\*means.measurement.date\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time that the record was migrated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"overriddencreatedon"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"31"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.date\*\*  
+\*\*is.dataFormat.date\*\*  
   </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
-For internal use only\.  
+For internal use only.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -384,38 +384,38 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.constrained\*\*  
+\*\*is.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"timezoneruleversionnumber"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"32"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
-Time zone code that was in use when the record was created\.  
+Time zone code that was in use when the record was created.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -427,33 +427,33 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.constrained\*\*  
+\*\*is.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"utcconversiontimezonecode"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#name name="name">name</a>
@@ -469,43 +469,43 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the name attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.constrained\*\*  
+\*\*is.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_name"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#documentpipeline name="documentpipeline">documentpipeline</a>
 
-Lookup to the pipeline workflow that the pipeline step is related to\.  
+Lookup to the pipeline workflow that the pipeline step is related to.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -517,40 +517,40 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the documentpipeline attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to the pipeline workflow that the pipeline step is related to.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Document pipeline</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.lookup\*\*  
+\*\*is.CDS.lookup\*\*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.linkedEntity\.identifier\*\*  
+\*\*is.linkedEntity.identifier\*\*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="DocumentPipeline.md" target="_blank">DocumentPipeline.cdm.json/DocumentPipeline</a></td><td><a href="DocumentPipeline.md#documentpipelineId" target="_blank">documentpipelineId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#output name="output">output</a>
 
-The formatted output of the pipeline step\.  
+The formatted output of the pipeline step.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -562,43 +562,43 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the output attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The formatted output of the pipeline step.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Output</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.constrained\*\*  
+\*\*is.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000000"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_output"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#pipelinestepdefinition name="pipelinestepdefinition">pipelinestepdefinition</a>
 
-Lookup to pipeline step definition table which provides the metadata of the pipeline step\.  
+Lookup to pipeline step definition table which provides the metadata of the pipeline step.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -610,33 +610,33 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the pipelinestepdefinition attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.requiredAtLevel\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*means.identity.entityId\*\*  
+  \*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup to pipeline step definition table which provides the metadata of the pipeline step.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pipeline step definition</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.CDS\.lookup\*\*  
+\*\*is.CDS.lookup\*\*  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.linkedEntity\.identifier\*\*  
+\*\*is.linkedEntity.identifier\*\*  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PipelineStepDefinition.md" target="_blank">PipelineStepDefinition.cdm.json/PipelineStepDefinition</a></td><td><a href="PipelineStepDefinition.md#pipelinestepdefinitionId" target="_blank">pipelinestepdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.guid\*\*  
+  \*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -655,41 +655,41 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the pipelinestepdocumentstate attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*does\.haveDefault\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*does.haveDefault\*\*  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Unclear</td><td>104800000</td></tr><tr><td>en</td><td>Rejected</td><td>104800001</td></tr><tr><td>en</td><td>Approved</td><td>104800002</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is\.constrainedList\*\*  
+\*\*is.constrainedList\*\*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The status of the document determined by the current pipeline step</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pipeline step document state</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_pipelinestepdocumentstate"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#pipelinestepstate name="pipelinestepstate">pipelinestepstate</a>
 
-The run status of the pipeline step, whether it is running, failed or succeeded\.  
+The run status of the pipeline step, whether it is running, failed or succeeded.  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -701,41 +701,41 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the pipelinestepstate attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+\*\*is.dataFormat.integer\*\*  
+  \*\*is.dataFormat.signed\*\*  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*does\.haveDefault\*\*  
+\*\*is.dataFormat.numeric\*\*  
+  \*\*does.haveDefault\*\*  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Running</td><td>104800000</td></tr><tr><td>en</td><td>Success</td><td>104800001</td></tr><tr><td>en</td><td>Failure</td><td>104800002</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is\.constrainedList\*\*  
+\*\*is.constrainedList\*\*  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The run status of the pipeline step, whether it is running, failed or succeeded.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Pipeline step state</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_pipelinestepstate"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is.dataFormat.integer\*\*  
   </details>
 
 ### <a href=#rawoutput name="rawoutput">rawoutput</a>
 
-The actual output of the pipeline step logic \(AI Model, Third Party, API, etc\.\.\)  
+The actual output of the pipeline step logic \(AI Model, Third Party, API, etc..\)  
 First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this entity\)  
 
 #### Properties
@@ -747,36 +747,36 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep \(this ent
 <details>
 <summary>List of traits for the rawoutput attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.big\*\*  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.requiredAtLevel\*\*  
+\*\*is.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is\.localized\.describedAs\*\*  
+\*\*is.localized.describedAs\*\*  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The actual output of the pipeline step logic (AI Model, Third Party, API, etc..)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.localized\.displayedAs\*\*  
+\*\*is.localized.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Raw output</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is\.constrained\*\*  
+\*\*is.constrained\*\*  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"1000000"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.nullable\*\*  
+\*\*is.nullable\*\*  
   The attribute value may be set to NULL.  
 
-\*\*is\.CDS\.sourceNamed\*\*  
+\*\*is.CDS.sourceNamed\*\*  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_rawoutput"</td><td>string</td><td></td></tr></table>
 
-\*\*is\.CDS\.ordered\*\*  
+\*\*is.CDS.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+\*\*is.dataFormat.character\*\*  
+  \*\*is.dataFormat.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

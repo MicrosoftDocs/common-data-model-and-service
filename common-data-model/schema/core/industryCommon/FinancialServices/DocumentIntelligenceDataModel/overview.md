@@ -17,10 +17,10 @@ Document Intelligence Data Model CDM entity definitions
 
 |Name|Description|
 |---|---|
-|[DocumentDefinition](DocumentDefinition.md)|Definition of new type of documents which is added by the user\.|
-|[DocumentPipeline](DocumentPipeline.md)|The results of an executed pipeline of a document\.|
+|[DocumentDefinition](DocumentDefinition.md)|Definition of new type of documents which is added by the user.|
+|[DocumentPipeline](DocumentPipeline.md)|The results of an executed pipeline of a document.|
 |[DocumentPipelineStep](DocumentPipelineStep.md)||
 |[DocumentRequest](DocumentRequest.md)||
-|[PipelineDocumentStateMessage](PipelineDocumentStateMessage.md)|For every pipeline document status there is a message, this table should contain the different kind of messages\.|
-|[PipelineStepDefinition](PipelineStepDefinition.md)|Contain the definition of each custom pipeline step that the user adds\.|
-|[StepFieldDefinition](StepFieldDefinition.md)|Contains the definition of each field the step definition needs\.|
+|[PipelineDocumentStateMessage](PipelineDocumentStateMessage.md)|For every pipeline document status there is a message, this table should contain the different kind of messages.|
+|[PipelineStepDefinition](PipelineStepDefinition.md)|Contain the definition of each custom pipeline step that the user adds.|
+|[StepFieldDefinition](StepFieldDefinition.md)|Contains the definition of each field the step definition needs.|

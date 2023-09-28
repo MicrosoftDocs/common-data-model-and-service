@@ -17,5 +17,5 @@ SMB Data Model CDM entity definitions
 
 |Name|Description|
 |---|---|
-|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague\.|
-|[Person](Person.md)|Individual human being\.|
+|[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
+|[Person](Person.md)|Individual human being.|
