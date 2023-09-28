@@ -50,7 +50,7 @@ The branch of the main bank, when borrower applies for a loan at a branch.
 ### <a href=#branchId name="branchId">branchId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Branch (this entity\)  
+First included in: RetailBankingCoreDataModel/Branch (this entity)  
 
 #### Properties
 

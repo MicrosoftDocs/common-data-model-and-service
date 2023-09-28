@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Asset detail in PropertyandCasualtyDataModel(AssetDetail)
 
-Details (attributes\) extensions to an Insured Asset which varies based on Line of business. e.g., vehicle for Auto insurance, apartment for home insurance.  
+Details (attributes) extensions to an Insured Asset which varies based on Line of business. e.g., vehicle for Auto insurance, apartment for home insurance.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/AssetDetail.cdm.json" target="_blank">GitHub</a>.  
 
@@ -69,7 +69,7 @@ Details (attributes\) extensions to an Insured Asset which varies based on Line 
 ### <a href=#assetdetailId name="assetdetailId">assetdetailId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Asset/Location detail  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Asset/Location detail  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#asset name="asset">asset</a>
 
 Reference to the Insured Asset/location the detail relates to.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -545,7 +545,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#assetType name="assetType">assetType</a>
 
 Reference to the Insured Asset/location the detail relates to.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -584,7 +584,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#assetdetailcatalog name="assetdetailcatalog">assetdetailcatalog</a>
 
 Detail definition in the catalog.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 
@@ -629,7 +629,7 @@ First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)
 ### <a href=#value name="value">value</a>
 
 The asset detail content.  
-First included in: PropertyandCasualtyDataModel/AssetDetail (this entity\)  
+First included in: PropertyandCasualtyDataModel/AssetDetail (this entity)  
 
 #### Properties
 

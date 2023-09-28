@@ -68,7 +68,7 @@ Significant milestones in a customer's personal life which can impact their fina
 ### <a href=#lifemomentId name="lifemomentId">lifemomentId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Life Event.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Life Event.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -508,7 +508,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#contact name="contact">contact</a>
 
 The primary person associated with the life event.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#lifeMomentCategory name="lifeMomentCategory">lifeMomentCategory</a>
 
 The life event category.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -608,7 +608,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#lifemomentdate name="lifemomentdate">lifemomentdate</a>
 
 Represents the date of the life event.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#lifemomenttitle name="lifemomenttitle">lifemomenttitle</a>
 
 Life event title as a description of the event.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#lifeMomentType name="lifeMomentType">lifeMomentType</a>
 
 The type of the life event. Act as a subcategory  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 
@@ -742,7 +742,7 @@ First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)
 ### <a href=#msfsiModifiedOn name="msfsiModifiedOn">msfsiModifiedOn</a>
 
 Date and time when the event was modified.  
-First included in: RetailBankingCoreDataModel/Lifemoment (this entity\)  
+First included in: RetailBankingCoreDataModel/Lifemoment (this entity)  
 
 #### Properties
 

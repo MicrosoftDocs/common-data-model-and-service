@@ -61,7 +61,7 @@ Participants of a payment transaction.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
 |[name](#name)|Required name field.|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
-|[amount](#amount)|Amount paid by Insurer (to claimant, Policy holder, service provider\) or amount received by Insurer (Premium\).|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
+|[amount](#amount)|Amount paid by Insurer (to claimant, Policy holder, service provider) or amount received by Insurer (Premium).|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
 |[amount_Base](#amount_Base)|Value of the Amount in base currency.|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
 |[party](#party)|Reference to Party.|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
 |[partyType](#partyType)|Reference to Party.|<a href="PaymentParty.md" target="_blank">PropertyandCasualtyDataModel/PaymentParty</a>|
@@ -73,7 +73,7 @@ Participants of a payment transaction.
 ### <a href=#paymentpartyId name="paymentpartyId">paymentpartyId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insurance payment party  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insurance payment party  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -509,8 +509,8 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 
 ### <a href=#amount name="amount">amount</a>
 
-Amount paid by Insurer (to claimant, Policy holder, service provider\) or amount received by Insurer (Premium\).  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+Amount paid by Insurer (to claimant, Policy holder, service provider) or amount received by Insurer (Premium).  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#amount_Base name="amount_Base">amount_Base</a>
 
 Value of the Amount in base currency.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -592,7 +592,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#party name="party">party</a>
 
 Reference to Party.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -631,7 +631,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#partyType name="partyType">partyType</a>
 
 Reference to Party.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -670,7 +670,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#partyrole name="partyrole">partyrole</a>
 
 Role of the party to identify payer or payee.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -716,7 +716,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#payment name="payment">payment</a>
 
 Reference to payment details.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -761,7 +761,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#paymentmethod name="paymentmethod">paymentmethod</a>
 
 Method used for payment delivery.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 
@@ -807,7 +807,7 @@ First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)
 ### <a href=#paymentpartytype name="paymentpartytype">paymentpartytype</a>
 
 Tells whether the party is payer or payee.  
-First included in: PropertyandCasualtyDataModel/PaymentParty (this entity\)  
+First included in: PropertyandCasualtyDataModel/PaymentParty (this entity)  
 
 #### Properties
 

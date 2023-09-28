@@ -65,7 +65,7 @@ Generic country table.
 ### <a href=#countryId name="countryId">countryId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Country  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Country  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 
@@ -454,7 +454,7 @@ First included in: PropertyandCasualtyDataModel/Country (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Country (this entity\)  
+First included in: PropertyandCasualtyDataModel/Country (this entity)  
 
 #### Properties
 

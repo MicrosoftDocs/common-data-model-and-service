@@ -61,7 +61,7 @@ Accounts, loans, investments, credit lines and savings accounts held by a custom
 |[accountingClassification](#accountingClassification)|Indicates whether the financial holding is an asset or a liability.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[details](#details)|Details.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[detailsType](#detailsType)|Details.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[financialHoldingCode](#financialHoldingCode)|The bank's code for the financial holding.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[validFrom](#validFrom)|Date the financial holding is valid from.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
@@ -69,7 +69,7 @@ Accounts, loans, investments, credit lines and savings accounts held by a custom
 ### <a href=#financialholdingId name="financialholdingId">financialholdingId</a>
 
 The identifier of the financial holding in the core system.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Financial Holding.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Financial Holding.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#accountingClassification name="accountingClassification">accountingClassification</a>
 
 Indicates whether the financial holding is an asset or a liability.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#details name="details">details</a>
 
 Details.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#detailsType name="detailsType">detailsType</a>
 
 Details.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -641,8 +641,8 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -688,7 +688,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#financialHoldingCode name="financialHoldingCode">financialHoldingCode</a>
 
 The bank's code for the financial holding.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity\)
 ### <a href=#validFrom name="validFrom">validFrom</a>
 
 Date the financial holding is valid from.  
-First included in: RetailBankingCoreDataModel/Financialholding (this entity\)  
+First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties
 

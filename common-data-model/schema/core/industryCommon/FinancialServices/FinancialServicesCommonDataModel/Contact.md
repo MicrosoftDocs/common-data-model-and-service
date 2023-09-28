@@ -54,7 +54,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: FinancialServicesCommonDataModel/Contact (this entity\)  
+First included in: FinancialServicesCommonDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: FinancialServicesCommonDataModel/Contact (this entity\)
 ### <a href=#Branch name="Branch">Branch</a>
 
 The primary branch of the bank associated with the contact.  
-First included in: FinancialServicesCommonDataModel/Contact (this entity\)  
+First included in: FinancialServicesCommonDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: FinancialServicesCommonDataModel/Contact (this entity\)
 ### <a href=#IsManagedByBankSystem name="IsManagedByBankSystem">IsManagedByBankSystem</a>
 
 Indicates whether the record is managed and tracked by the banking system.  
-First included in: FinancialServicesCommonDataModel/Contact (this entity\)  
+First included in: FinancialServicesCommonDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -192,7 +192,7 @@ First included in: FinancialServicesCommonDataModel/Contact (this entity\)
 ### <a href=#JoinDate name="JoinDate">JoinDate</a>
 
 The date the contact joined the bank.  
-First included in: FinancialServicesCommonDataModel/Contact (this entity\)  
+First included in: FinancialServicesCommonDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -232,7 +232,7 @@ First included in: FinancialServicesCommonDataModel/Contact (this entity\)
 ### <a href=#Tenureyears name="Tenureyears">Tenureyears</a>
 
 Number of years the contact has held accounts at the bank.  
-First included in: FinancialServicesCommonDataModel/Contact (this entity\)  
+First included in: FinancialServicesCommonDataModel/Contact (this entity)  
 
 #### Properties
 

@@ -49,12 +49,12 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">PropertyandCasualtyDataModel/Contact</a>|
-|[msfsi_profiletier](#msfsi_profiletier)|Internal ranking of the customer based on profitability to the Insurer (High Medium Low\).|<a href="Contact.md" target="_blank">PropertyandCasualtyDataModel/Contact</a>|
+|[msfsi_profiletier](#msfsi_profiletier)|Internal ranking of the customer based on profitability to the Insurer (High Medium Low).|<a href="Contact.md" target="_blank">PropertyandCasualtyDataModel/Contact</a>|
 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: PropertyandCasualtyDataModel/Contact (this entity\)  
+First included in: PropertyandCasualtyDataModel/Contact (this entity)  
 
 #### Properties
 
@@ -101,8 +101,8 @@ First included in: PropertyandCasualtyDataModel/Contact (this entity\)
 
 ### <a href=#msfsi_profiletier name="msfsi_profiletier">msfsi_profiletier</a>
 
-Internal ranking of the customer based on profitability to the Insurer (High Medium Low\).  
-First included in: PropertyandCasualtyDataModel/Contact (this entity\)  
+Internal ranking of the customer based on profitability to the Insurer (High Medium Low).  
+First included in: PropertyandCasualtyDataModel/Contact (this entity)  
 
 #### Properties
 

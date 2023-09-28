@@ -67,7 +67,7 @@ A process of checking the customer's financial history and financial behavior.
 ### <a href=#creditCheckId name="creditCheckId">creditCheckId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Credit Check.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Credit Check.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the person on whom this credit check was run.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#assessmentdate name="assessmentdate">assessmentdate</a>
 
 The date and time of the credit check.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -547,7 +547,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#contact name="contact">contact</a>
 
 The contact associated with this credit check.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Key provided by the SI for updating the current record.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#score name="score">score</a>
 
 The credit score of the contact.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 
@@ -692,7 +692,7 @@ First included in: LoanOnboardingDataModel/Creditcheck (this entity\)
 ### <a href=#status name="status">status</a>
 
 The status of the credit check.  
-First included in: LoanOnboardingDataModel/Creditcheck (this entity\)  
+First included in: LoanOnboardingDataModel/Creditcheck (this entity)  
 
 #### Properties
 

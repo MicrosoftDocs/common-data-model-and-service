@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Exclusion/Inclusion in PropertyandCasualtyDataModel(ExclusionInclusion)
 
-A provision related to hazards, circumstances, or specific property not covered by the Insurance Policy (related to a Coverage\).  
+A provision related to hazards, circumstances, or specific property not covered by the Insurance Policy (related to a Coverage).  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/ExclusionInclusion.cdm.json" target="_blank">GitHub</a>.  
 
@@ -88,7 +88,7 @@ A provision related to hazards, circumstances, or specific property not covered 
 ### <a href=#exclusioninclusionId name="exclusioninclusionId">exclusioninclusionId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Exclusion  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Exclusion  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -311,7 +311,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -354,7 +354,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -391,7 +391,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -434,7 +434,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#baserate name="baserate">baserate</a>
 
 Price per unit of insurance for each unit of Coverage/Exposure.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -568,7 +568,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#coverageid name="coverageid">coverageid</a>
 
 The Coverage the Exclusion applies to.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -613,7 +613,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#deductiblecode name="deductiblecode">deductiblecode</a>
 
 A code corresponding to the deductible amount.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#discountamount name="discountamount">discountamount</a>
 
 The discount given on the Coverage.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -700,7 +700,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#discountamount_Base name="discountamount_Base">discountamount_Base</a>
 
 Value of the Discount Amount in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -741,7 +741,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#discountpercent name="discountpercent">discountpercent</a>
 
 The discount percent given on the Coverage.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#excludeinclude name="excludeinclude">excludeinclude</a>
 
 Identifies Exclusion or Inclusion.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -830,7 +830,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#exclusioninclusionlob name="exclusioninclusionlob">exclusioninclusionlob</a>
 
 References the Exclusion/Inclusion in the product's Line of business.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -875,7 +875,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limitamount name="limitamount">limitamount</a>
 
 The maximum monetary limit of the Coverage.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -916,7 +916,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limitamount_Base name="limitamount_Base">limitamount_Base</a>
 
 Value of the Limit Amount in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -957,7 +957,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limitamountaggregate name="limitamountaggregate">limitamountaggregate</a>
 
 Value of the limit amount aggregate.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -998,7 +998,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limitamountaggregate_Base name="limitamountaggregate_Base">limitamountaggregate_Base</a>
 
 Value of the Limit amount aggregate in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1039,7 +1039,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limitcode name="limitcode">limitcode</a>
 
 A code corresponding to the limit amount.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1085,7 +1085,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limiteachoccurrence name="limiteachoccurrence">limiteachoccurrence</a>
 
 The maximum monetary limit of the Coverage per occurrence.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1126,7 +1126,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limiteachoccurrence_Base name="limiteachoccurrence_Base">limiteachoccurrence_Base</a>
 
 Value of the limit each occurrence in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1167,7 +1167,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limiteachperson name="limiteachperson">limiteachperson</a>
 
 The maximum monetary limit of the Coverage per person.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1208,7 +1208,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#limiteachperson_Base name="limiteachperson_Base">limiteachperson_Base</a>
 
 Value of the limit each person in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1249,7 +1249,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#premiumadjustmentfactor name="premiumadjustmentfactor">premiumadjustmentfactor</a>
 
 Rate modification factor apply to the base rate to allow for better pricing the risk \x2ddepicting, expenses, risk, etc.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1292,7 +1292,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#premiumamount name="premiumamount">premiumamount</a>
 
 Value of the premium amount.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1333,7 +1333,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#premiumamount_Base name="premiumamount_Base">premiumamount_Base</a>
 
 Value of the Premium amount in base currency.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1374,7 +1374,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#rate name="rate">rate</a>
 
 Base rate for a single exposure before any RMF.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1417,7 +1417,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 The date from which the Exclusion is in effect.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 
@@ -1457,7 +1457,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\
 ### <a href=#validto name="validto">validto</a>
 
 The date on which the Exclusion expires.  
-First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity\)  
+First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties
 

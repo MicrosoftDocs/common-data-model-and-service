@@ -70,7 +70,7 @@ Any payment that relates to a Policy, e.g., Policy monthly premium payment from 
 ### <a href=#paymentId name="paymentId">paymentId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insurance payment  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insurance payment  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#amount name="amount">amount</a>
 
 Total amount of the payment.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#amount_Base name="amount_Base">amount_Base</a>
 
 Value of the amount in base currency.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#date name="date">date</a>
 
 Date of payment.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -629,7 +629,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#event name="event">event</a>
 
 Type of payment. e.g., Claim, Policy etc.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 
@@ -668,7 +668,7 @@ First included in: PropertyandCasualtyDataModel/Payment (this entity\)
 ### <a href=#eventType name="eventType">eventType</a>
 
 Type of payment. e.g., Claim, Policy etc.  
-First included in: PropertyandCasualtyDataModel/Payment (this entity\)  
+First included in: PropertyandCasualtyDataModel/Payment (this entity)  
 
 #### Properties
 

@@ -61,7 +61,7 @@ ms.author: cdmditeam
 |[addressLine1](#addressLine1)|The first line of the collateral address.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[addressLine2](#addressLine2)|The second line of the collateral address.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[addressLine3](#addressLine3)|The third line of the collateral address.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
-|[category](#category)|Category of collateral put up by borrower (vehicle, real estate, jewelry, etc.\)|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
+|[category](#category)|Category of collateral put up by borrower (vehicle, real estate, jewelry, etc.)|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[city](#city)|The city where collateral is located.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[countryRegion](#countryRegion)|The country or region where collateral is located.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[latitude](#latitude)|The latitude value for the collateral address for use in mapping and other applications.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
@@ -76,7 +76,7 @@ ms.author: cdmditeam
 ### <a href=#collateralId name="collateralId">collateralId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Collateral.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Collateral.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -382,7 +382,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -425,7 +425,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#name name="name">name</a>
 
 The name that identifies the collateral.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -516,7 +516,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#addressLine1 name="addressLine1">addressLine1</a>
 
 The first line of the collateral address.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#addressLine2 name="addressLine2">addressLine2</a>
 
 The second line of the collateral address.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -612,7 +612,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#addressLine3 name="addressLine3">addressLine3</a>
 
 The third line of the collateral address.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -659,8 +659,8 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 
 ### <a href=#category name="category">category</a>
 
-Category of collateral put up by borrower (vehicle, real estate, jewelry, etc.\)  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+Category of collateral put up by borrower (vehicle, real estate, jewelry, etc.)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -706,7 +706,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#city name="city">city</a>
 
 The city where collateral is located.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -754,7 +754,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#countryRegion name="countryRegion">countryRegion</a>
 
 The country or region where collateral is located.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -802,7 +802,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#latitude name="latitude">latitude</a>
 
 The latitude value for the collateral address for use in mapping and other applications.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -847,7 +847,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#legalDescription name="legalDescription">legalDescription</a>
 
 The legal description of the collateral.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -895,7 +895,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#longitude name="longitude">longitude</a>
 
 The longitude value for the collateral address for use in mapping and other applications.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -940,7 +940,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#numberofUnits name="numberofUnits">numberofUnits</a>
 
 Number of collaterals offered.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -983,7 +983,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#realEstateType name="realEstateType">realEstateType</a>
 
 Description of the real estate used as collateral.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -1029,7 +1029,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#stateProvince name="stateProvince">stateProvince</a>
 
 The state or province where collateral is located.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -1077,7 +1077,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#yearBuilt name="yearBuilt">yearBuilt</a>
 
 Year the collateral was built \x2d used for real estate.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 
@@ -1120,7 +1120,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity\)
 ### <a href=#ZIPPostalCode name="ZIPPostalCode">ZIPPostalCode</a>
 
 The ZIP Code or postal code for the collateral address.  
-First included in: LoanOnboardingDataModel/Collateral (this entity\)  
+First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties
 

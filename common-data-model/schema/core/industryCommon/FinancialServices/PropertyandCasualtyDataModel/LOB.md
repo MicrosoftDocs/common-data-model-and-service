@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # LOB in PropertyandCasualtyDataModel
 
-A Line of business definition (Coverages, exclusions, Inclusions, cause of loss, details\). One or more LOBs comprise a product which is subsequently used to create a Policy.  
+A Line of business definition (Coverages, exclusions, Inclusions, cause of loss, details). One or more LOBs comprise a product which is subsequently used to create a Policy.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/LOB.cdm.json" target="_blank">GitHub</a>.  
 
@@ -72,7 +72,7 @@ A Line of business definition (Coverages, exclusions, Inclusions, cause of loss,
 ### <a href=#lobId name="lobId">lobId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insurance Policy Insurance Product  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insurance Policy Insurance Product  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#insuredassetcategory name="insuredassetcategory">insuredassetcategory</a>
 
 The asset category this LOB relates to. This will be subsequently used to create the relevant asset details in the generated Policy.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#insuredassetlocationcategory name="insuredassetlocationcategory">insuredassetlocationcategory</a>
 
 The asset location this LOB relates to. This will be subsequently used to create the relevant asset details in the generated Policy.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#lobcatalog name="lobcatalog">lobcatalog</a>
 
 Reference to Line of business catalog.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#lobtype name="lobtype">lobtype</a>
 
 Type of Line of business, e.g., Home, Auto etc.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -692,7 +692,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 When the Insurance Product was added to a Policy.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#validto name="validto">validto</a>
 
 When the Insurance Product was removed from a Policy.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 
@@ -772,7 +772,7 @@ First included in: PropertyandCasualtyDataModel/LOB (this entity\)
 ### <a href=#version name="version">version</a>
 
 Version of the LOB record.  
-First included in: PropertyandCasualtyDataModel/LOB (this entity\)  
+First included in: PropertyandCasualtyDataModel/LOB (this entity)  
 
 #### Properties
 

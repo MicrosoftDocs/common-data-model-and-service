@@ -73,7 +73,7 @@ Collateral associated with the loan application.
 ### <a href=#loanApplicationCollateralId name="loanApplicationCollateralId">loanApplicationCollateralId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Loan Application Collateral.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Loan Application Collateral.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#amountExisitingLiens name="amountExisitingLiens">amountExisitingLiens</a>
 
 The amount of an existing liens on an item of collateral.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#amountexisitingliens_Base name="amountexisitingliens_Base">amountexisitingliens_Base</a>
 
 Amount of an exisiting liens on a collateral, in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -595,7 +595,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#collateral name="collateral">collateral</a>
 
 The collateral offered for the loan application.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#isLegalCheckSuccessful name="isLegalCheckSuccessful">isLegalCheckSuccessful</a>
 
 Is the collateral valid from a legal perspective for this loan application\?.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -685,7 +685,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#legalCheckCompletionDate name="legalCheckCompletionDate">legalCheckCompletionDate</a>
 
 Specifies the completion date of the last legal check.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -725,7 +725,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#legalDescription name="legalDescription">legalDescription</a>
 
 Legal description of this collateral.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#lientype name="lientype">lientype</a>
 
 The type of the lien.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#loanApplication name="loanApplication">loanApplication</a>
 
 The loan application associated with this collateral.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -873,7 +873,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#loanCollateralValuation name="loanCollateralValuation">loanCollateralValuation</a>
 
 The valuation of this collateral.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -927,7 +927,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#purchaseDate name="purchaseDate">purchaseDate</a>
 
 The date this collateral was purchased.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 
@@ -967,7 +967,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entit
 ### <a href=#usageType name="usageType">usageType</a>
 
 Usage type for this collateral, if real estate.  
-First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplicationcollateral (this entity)  
 
 #### Properties
 

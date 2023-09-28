@@ -75,7 +75,7 @@ ms.author: cdmditeam
 ### <a href=#documentrequestId name="documentrequestId">documentrequestId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Document request  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Document request  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 
 ### <a href=#name name="name">name</a>
 
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#contextType name="contextType">contextType</a>
 
 Polymorphic lookup to the context entity of the document request.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -550,7 +550,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#description name="description">description</a>
 
 Brief description for document request  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#documentdefinition name="documentdefinition">documentdefinition</a>
 
 Lookup to document definition table which provide relevant metadata regarding the document type  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -643,7 +643,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#isautoupdated name="isautoupdated">isautoupdated</a>
 
 Boolean whether the document was updated automatically or not.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -679,7 +679,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#hasautomaticflow name="hasautomaticflow">hasautomaticflow</a>
 
 A flag on whether the document request has an automatic flow or not.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -715,7 +715,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#latestpipeline name="latestpipeline">latestpipeline</a>
 
 Lookup to the last pipeline which was executed for the current document.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -760,7 +760,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#state name="state">state</a>
 
 The status of the document whether it's In review, missing, rejected or approved.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -806,7 +806,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#stateupdatedon name="stateupdatedon">stateupdatedon</a>
 
 The date on which the document status was updated.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -846,7 +846,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#regarding name="regarding">regarding</a>
 
 Polymorphic lookup to the entity which is associated with the document.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -885,7 +885,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#regardingType name="regardingType">regardingType</a>
 
 Polymorphic lookup to the entity which is associated with the document.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 
@@ -924,7 +924,7 @@ First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)
 ### <a href=#uploadedon name="uploadedon">uploadedon</a>
 
 The date on which the document was uploaded.  
-First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentRequest (this entity)  
 
 #### Properties
 

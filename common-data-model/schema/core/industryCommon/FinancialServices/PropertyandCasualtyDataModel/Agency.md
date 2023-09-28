@@ -67,7 +67,7 @@ An office or intermediary where insurance is sold and can be independent or an I
 |[newpolicygoal](#newpolicygoal)|Goal number of new policies.|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
 |[primarycontact](#primarycontact)|Primary Agency contact.|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
 |[renewalrategoal](#renewalrategoal)|Goal percentage of policies to be renewed for current year.|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
-|[tier](#tier)|Ranking of the intermediary based on profitability (high, medium, low\).|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
+|[tier](#tier)|Ranking of the intermediary based on profitability (high, medium, low).|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
 |[totalpolicygoal](#totalpolicygoal)|Total number of policies goal.|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
 |[totalrevenuegoal](#totalrevenuegoal)|Total revenue goal of the Agency for current year.|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
 |[totalrevenuegoal_Base](#totalrevenuegoal_Base)|Value of the Total Revenue Goal in base currency.|<a href="Agency.md" target="_blank">PropertyandCasualtyDataModel/Agency</a>|
@@ -75,7 +75,7 @@ An office or intermediary where insurance is sold and can be independent or an I
 ### <a href=#agencyId name="agencyId">agencyId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Agency  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Agency  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#accountid name="accountid">accountid</a>
 
 The Account associated with the Agency.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#businesssincedate name="businesssincedate">businesssincedate</a>
 
 The date that Agency established the business.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -600,7 +600,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#isbroker name="isbroker">isbroker</a>
 
 Indicator that Agency is also a Broker.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -636,7 +636,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#newpolicygoal name="newpolicygoal">newpolicygoal</a>
 
 Goal number of new policies.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -679,7 +679,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#primarycontact name="primarycontact">primarycontact</a>
 
 Primary Agency contact.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -724,7 +724,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#renewalrategoal name="renewalrategoal">renewalrategoal</a>
 
 Goal percentage of policies to be renewed for current year.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -766,8 +766,8 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 
 ### <a href=#tier name="tier">tier</a>
 
-Ranking of the intermediary based on profitability (high, medium, low\).  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+Ranking of the intermediary based on profitability (high, medium, low).  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#totalpolicygoal name="totalpolicygoal">totalpolicygoal</a>
 
 Total number of policies goal.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#totalrevenuegoal name="totalrevenuegoal">totalrevenuegoal</a>
 
 Total revenue goal of the Agency for current year.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 
@@ -897,7 +897,7 @@ First included in: PropertyandCasualtyDataModel/Agency (this entity\)
 ### <a href=#totalrevenuegoal_Base name="totalrevenuegoal_Base">totalrevenuegoal_Base</a>
 
 Value of the Total Revenue Goal in base currency.  
-First included in: PropertyandCasualtyDataModel/Agency (this entity\)  
+First included in: PropertyandCasualtyDataModel/Agency (this entity)  
 
 #### Properties
 

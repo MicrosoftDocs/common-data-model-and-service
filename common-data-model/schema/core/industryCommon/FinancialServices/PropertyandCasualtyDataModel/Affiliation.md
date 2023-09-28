@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Affiliation in PropertyandCasualtyDataModel
 
-A company that contracted the Insurer (sometime via an Agency/Agent\) to issue policies under a set of product’s terms and conditions.  
+A company that contracted the Insurer (sometime via an Agency/Agent) to issue policies under a set of product’s terms and conditions.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/Affiliation.cdm.json" target="_blank">GitHub</a>.  
 
@@ -72,7 +72,7 @@ A company that contracted the Insurer (sometime via an Agency/Agent\) to issue p
 ### <a href=#affiliationId name="affiliationId">affiliationId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Affiliation  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Affiliation  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#account name="account">account</a>
 
 Account assigned to the Affiliation.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#agency name="agency">agency</a>
 
 Agency authorized to sell Insurance on behalf of the Insurer or the risk protection provider.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#agent name="agent">agent</a>
 
 The Agent dealing with the Affiliation.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#insurer name="insurer">insurer</a>
 
 The related Insurer.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#policyproduct name="policyproduct">policyproduct</a>
 
 The Policy product applicable to the Affiliation.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 The start date of establishing the business relationship with the Affiliation.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 
@@ -774,7 +774,7 @@ First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)
 ### <a href=#validto name="validto">validto</a>
 
 The End date of terminating the related business relationship with the Affiliation.  
-First included in: PropertyandCasualtyDataModel/Affiliation (this entity\)  
+First included in: PropertyandCasualtyDataModel/Affiliation (this entity)  
 
 #### Properties
 

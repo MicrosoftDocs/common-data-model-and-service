@@ -62,32 +62,32 @@ A holding representing a portfolio of securities or other investible assets.
 |[balance](#balance)|The balance or value of the financial holding in the original currency of the financial holding.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[balance_Base](#balance_Base)|Value of the balance in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[balanceDefault](#balanceDefault)|Balance converted to default currency of the system.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[cashbalance](#cashbalance)|Amount of cash available in the investment account (not invested free cash\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[cashbalance](#cashbalance)|Amount of cash available in the investment account (not invested free cash).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[cashbalance_Base](#cashbalance_Base)|Value of the cash balance in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[cashbalance_default](#cashbalance_default)|Cash balance converted to default currency of the system.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[financialHoldingType](#financialHoldingType)|Financial account subtypes under Financial Category, such as brokerage account, custodial account, etc.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[gainLoss](#gainLoss)|Amount of gain/loss on the investments account over a defined period of time.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[gainloss_Base](#gainloss_Base)|Value of the Gain/Loss in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[gainLoss_default](#gainLoss_default)|Amount of gain/loss on the investments. Value should be converted to base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[investmentObjectives](#investmentObjectives)|Objectives of the investment portfolio (Multi\x2dselect picklist\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[investmentObjectives](#investmentObjectives)|Objectives of the investment portfolio (Multi\x2dselect picklist).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[investmentrisk](#investmentrisk)|Risk profile of the portfolio.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[investmentTimeFrame](#investmentTimeFrame)|The time frame for the investment plan (long, medium, short\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[investmentTimeFrame](#investmentTimeFrame)|The time frame for the investment plan (long, medium, short).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[openeddate](#openeddate)|Date the investment portfolio was opened.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[performance1Y](#performance1Y)|Performance of investments in the last year (12 months rolling\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[performance3Y](#performance3Y)|Performance of investments in the last three years (36 months rolling\).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[performance1Y](#performance1Y)|Performance of investments in the last year (12 months rolling).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[performance3Y](#performance3Y)|Performance of investments in the last three years (36 months rolling).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[performanceYTD](#performanceYTD)|Performance of investments in the current year from 1st of January.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[portfolioName](#portfolioName)|Name of the investment portfolio.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 
 ### <a href=#FH_InvestmentId name="FH_InvestmentId">FH_InvestmentId</a>
 
 Unique identifier for entity instances.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FH Investment.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FH Investment.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -310,7 +310,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -393,7 +393,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#accountingClassification name="accountingClassification">accountingClassification</a>
 
 Indicates whether the financial holding is an asset or a liability.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#balance name="balance">balance</a>
 
 The balance or value of the financial holding in the original currency of the financial holding.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -614,7 +614,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#balance_Base name="balance_Base">balance_Base</a>
 
 Value of the balance in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -655,7 +655,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#balanceDefault name="balanceDefault">balanceDefault</a>
 
 Balance converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -697,8 +697,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#balanceExchangerate name="balanceExchangerate">balanceExchangerate</a>
 
-Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -740,8 +740,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#cashbalance name="cashbalance">cashbalance</a>
 
-Amount of cash available in the investment account (not invested free cash\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+Amount of cash available in the investment account (not invested free cash).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#cashbalance_Base name="cashbalance_Base">cashbalance_Base</a>
 
 Value of the cash balance in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -823,7 +823,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#cashbalance_default name="cashbalance_default">cashbalance_default</a>
 
 Cash balance converted to default currency of the system.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -865,8 +865,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -912,7 +912,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#financialHoldingType name="financialHoldingType">financialHoldingType</a>
 
 Financial account subtypes under Financial Category, such as brokerage account, custodial account, etc.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -958,7 +958,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#gainLoss name="gainLoss">gainLoss</a>
 
 Amount of gain/loss on the investments account over a defined period of time.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -999,7 +999,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#gainloss_Base name="gainloss_Base">gainloss_Base</a>
 
 Value of the Gain/Loss in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1040,7 +1040,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#gainLoss_default name="gainLoss_default">gainLoss_default</a>
 
 Amount of gain/loss on the investments. Value should be converted to base currency.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1083,7 +1083,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Used by the system integrator to uniquely define the data record .  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1130,8 +1130,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#investmentObjectives name="investmentObjectives">investmentObjectives</a>
 
-Objectives of the investment portfolio (Multi\x2dselect picklist\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+Objectives of the investment portfolio (Multi\x2dselect picklist).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1177,7 +1177,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#investmentrisk name="investmentrisk">investmentrisk</a>
 
 Risk profile of the portfolio.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1222,8 +1222,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#investmentTimeFrame name="investmentTimeFrame">investmentTimeFrame</a>
 
-The time frame for the investment plan (long, medium, short\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+The time frame for the investment plan (long, medium, short).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1269,7 +1269,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#openeddate name="openeddate">openeddate</a>
 
 Date the investment portfolio was opened.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1308,8 +1308,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#performance1Y name="performance1Y">performance1Y</a>
 
-Performance of investments in the last year (12 months rolling\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+Performance of investments in the last year (12 months rolling).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1353,8 +1353,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#performance3Y name="performance3Y">performance3Y</a>
 
-Performance of investments in the last three years (36 months rolling\).  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+Performance of investments in the last three years (36 months rolling).  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1399,7 +1399,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#performanceYTD name="performanceYTD">performanceYTD</a>
 
 Performance of investments in the current year from 1st of January.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1444,7 +1444,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#portfolioName name="portfolioName">portfolioName</a>
 
 Name of the investment portfolio.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1491,7 +1491,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#balanceDefaultDisplayValue name="balanceDefaultDisplayValue">balanceDefaultDisplayValue</a>
 
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1533,8 +1533,8 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans\) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500\). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card\), or overdrawn account.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 
@@ -1575,7 +1575,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)
 ### <a href=#balancedisplayvalue_Base name="balancedisplayvalue_Base">balancedisplayvalue_Base</a>
 
 Value of the balance display value in base currency.  
-First included in: RetailBankingCoreDataModel/Fh_investment (this entity\)  
+First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
 

@@ -60,12 +60,12 @@ An association of several customers allowing e.g. the representation of househol
 |[name](#name)|The name that identifies this group.|<a href="Group.md" target="_blank">FinancialServicesCommonDataModel/Group</a>|
 |[primarymember](#primarymember)|Primary member of the group.|<a href="Group.md" target="_blank">FinancialServicesCommonDataModel/Group</a>|
 |[primarymemberType](#primarymemberType)|Primary member of the group.|<a href="Group.md" target="_blank">FinancialServicesCommonDataModel/Group</a>|
-|[type](#type)|The type of the group (Household, customer group\).|<a href="Group.md" target="_blank">FinancialServicesCommonDataModel/Group</a>|
+|[type](#type)|The type of the group (Household, customer group).|<a href="Group.md" target="_blank">FinancialServicesCommonDataModel/Group</a>|
 
 ### <a href=#groupId name="groupId">groupId</a>
 
 Unique identifier for entity instances.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Group.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Group.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#name name="name">name</a>
 
 The name that identifies this group.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#primarymember name="primarymember">primarymember</a>
 
 Primary member of the group.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 ### <a href=#primarymemberType name="primarymemberType">primarymemberType</a>
 
 Primary member of the group.  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 
@@ -591,8 +591,8 @@ First included in: FinancialServicesCommonDataModel/Group (this entity\)
 
 ### <a href=#type name="type">type</a>
 
-The type of the group (Household, customer group\).  
-First included in: FinancialServicesCommonDataModel/Group (this entity\)  
+The type of the group (Household, customer group).  
+First included in: FinancialServicesCommonDataModel/Group (this entity)  
 
 #### Properties
 

@@ -73,7 +73,7 @@ The branch of the main bank, when borrower applies for a loan at a branch.
 ### <a href=#branchId name="branchId">branchId</a>
 
 Unique identifier for entity instances.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Branch.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Branch.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#addressLine1 name="addressLine1">addressLine1</a>
 
 The first line of the branch's address to help identify the location.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#addressLine2 name="addressLine2">addressLine2</a>
 
 The second line of the branch's address.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#addressLine3 name="addressLine3">addressLine3</a>
 
 The third line of the branch's address.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -657,7 +657,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#bank name="bank">bank</a>
 
 The bank that the branch belongs to.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -711,7 +711,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#branchCode name="branchCode">branchCode</a>
 
 The unique code that identifies the branch at the bank.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -759,7 +759,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#branchManager name="branchManager">branchManager</a>
 
 The name of the manager of the branch.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#country name="country">country</a>
 
 The country or region for the branch's address.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -861,7 +861,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Key provided by the SI for updating the current record.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -909,7 +909,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#postalCode name="postalCode">postalCode</a>
 
 The ZIP Code or postal code for the address.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -957,7 +957,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#stateOrProvince name="stateOrProvince">stateOrProvince</a>
 
 The state or province of the customer's address.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 
@@ -1005,7 +1005,7 @@ First included in: FinancialServicesCommonDataModel/Branch (this entity\)
 ### <a href=#telephone1 name="telephone1">telephone1</a>
 
 The primary phone number for the branch.  
-First included in: FinancialServicesCommonDataModel/Branch (this entity\)  
+First included in: FinancialServicesCommonDataModel/Branch (this entity)  
 
 #### Properties
 

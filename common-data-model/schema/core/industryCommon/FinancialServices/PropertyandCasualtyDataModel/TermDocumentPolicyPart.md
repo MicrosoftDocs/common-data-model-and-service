@@ -69,7 +69,7 @@ A helper table to define the relationship between a term document and its Policy
 ### <a href=#termdocumentpolicypartId name="termdocumentpolicypartId">termdocumentpolicypartId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Policy entity term document  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Policy entity term document  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#policypart name="policypart">policypart</a>
 
 Refers to the Policy part the document relates to.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -545,7 +545,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#policypartType name="policypartType">policypartType</a>
 
 Refers to the Policy part the document relates to.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -584,7 +584,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#termdocumentcatalog name="termdocumentcatalog">termdocumentcatalog</a>
 
 Refers to the generic term document in the catalog.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 
@@ -629,7 +629,7 @@ First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this ent
 ### <a href=#version name="version">version</a>
 
 Version of term document related to Policy part.  
-First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity\)  
+First included in: PropertyandCasualtyDataModel/TermDocumentPolicyPart (this entity)  
 
 #### Properties
 

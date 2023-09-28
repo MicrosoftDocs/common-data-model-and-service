@@ -73,12 +73,12 @@ Correspondence document between insurance personas about insurance items.
 |[type](#type)|Type of document.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[validfrom](#validfrom)|Document validity start date.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[validto](#validto)|Document expiry date.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
-|[documenturi](#documenturi)|URI of the document (used in case the document was not physically move into Dataverse\).|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
+|[documenturi](#documenturi)|URI of the document (used in case the document was not physically move into Dataverse).|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 
 ### <a href=#documentId name="documentId">documentId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Claim Document  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -252,7 +252,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Claim Document  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -344,7 +344,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#category name="category">category</a>
 
 Allow to group documents, e.g., can be used to relate multiple agreements to a single account such for billing.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#deliverymethod name="deliverymethod">deliverymethod</a>
 
 Delivery method of the document.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#description name="description">description</a>
 
 Description \x2d Driver License, Passport, ….  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -655,7 +655,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#receiveddate name="receiveddate">receiveddate</a>
 
 Date when document was received.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#sentby name="sentby">sentby</a>
 
 Reference to entity that sent the document.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#sentbyType name="sentbyType">sentbyType</a>
 
 Reference to entity that sent the document.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#sentdate name="sentdate">sentdate</a>
 
 Date when document was sent.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#sentto name="sentto">sentto</a>
 
 Reference to entity that received the document.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -852,7 +852,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#senttoType name="senttoType">senttoType</a>
 
 Reference to entity that received the document.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -891,7 +891,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#type name="type">type</a>
 
 Type of document.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -937,7 +937,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Document validity start date.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -977,7 +977,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 ### <a href=#validto name="validto">validto</a>
 
 Document expiry date.  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 
@@ -1016,8 +1016,8 @@ First included in: PropertyandCasualtyDataModel/Document (this entity\)
 
 ### <a href=#documenturi name="documenturi">documenturi</a>
 
-URI of the document (used in case the document was not physically move into Dataverse\).  
-First included in: PropertyandCasualtyDataModel/Document (this entity\)  
+URI of the document (used in case the document was not physically move into Dataverse).  
+First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties
 

@@ -67,7 +67,7 @@ Definition of new type of documents which is added by the user.
 ### <a href=#documentdefinitionId name="documentdefinitionId">documentdefinitionId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the document definition  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the document definition  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -327,7 +327,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -412,7 +412,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 
 ### <a href=#name name="name">name</a>
 
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#description name="description">description</a>
 
 Description of the additional or specially\x2drequested document requested for the application.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -508,7 +508,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#hasautomaticflow name="hasautomaticflow">hasautomaticflow</a>
 
 A flag on whether the document type have an automatic document intelligence flow or not.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 
@@ -544,7 +544,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 ### <a href=#type name="type">type</a>
 
 The type of the document.  
-First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
 

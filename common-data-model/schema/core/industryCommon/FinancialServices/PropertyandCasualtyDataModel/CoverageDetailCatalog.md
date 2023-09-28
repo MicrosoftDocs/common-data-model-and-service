@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Coverage detail catalog in PropertyandCasualtyDataModel(CoverageDetailCatalog)
 
-A definition of a Coverage detail (attribute\) which is later used when extending a Policy Coverages detail.  
+A definition of a Coverage detail (attribute) which is later used when extending a Policy Coverages detail.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/CoverageDetailCatalog.cdm.json" target="_blank">GitHub</a>.  
 
@@ -66,8 +66,8 @@ A definition of a Coverage detail (attribute\) which is later used when extendin
 |[defaultvalue](#defaultvalue)|Default value of the Coverage detail.|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
 |[description](#description)|Description of the Coverage detail.|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
 |[detailtype](#detailtype)|A reference to a detail ID.|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
-|[maxvalue](#maxvalue)|Maximum value of detail (when it is numeric\).|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
-|[minvalue](#minvalue)|Minimum value of detail (when it is numeric\).|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
+|[maxvalue](#maxvalue)|Maximum value of detail (when it is numeric).|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
+|[minvalue](#minvalue)|Minimum value of detail (when it is numeric).|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
 |[validfrom](#validfrom)|Date when Coverage detail starts.|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
 |[validto](#validto)|Date when Coverage detail ends.|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
 |[valuetype](#valuetype)|Defines the value type. Can be a string or a numeric type.|<a href="CoverageDetailCatalog.md" target="_blank">PropertyandCasualtyDataModel/CoverageDetailCatalog</a>|
@@ -76,7 +76,7 @@ A definition of a Coverage detail (attribute\) which is later used when extendin
 ### <a href=#coveragedetailcatalogId name="coveragedetailcatalogId">coveragedetailcatalogId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Coverage detail dictionary  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Coverage detail dictionary  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#coveragepart name="coveragepart">coveragepart</a>
 
 Reference to the Coverage part the detail relates to.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#coveragepartType name="coveragepartType">coveragepartType</a>
 
 Reference to the Coverage part the detail relates to.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#defaultvalue name="defaultvalue">defaultvalue</a>
 
 Default value of the Coverage detail.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -639,7 +639,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#description name="description">description</a>
 
 Description of the Coverage detail.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -687,7 +687,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#detailtype name="detailtype">detailtype</a>
 
 A reference to a detail ID.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -731,8 +731,8 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 
 ### <a href=#maxvalue name="maxvalue">maxvalue</a>
 
-Maximum value of detail (when it is numeric\).  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+Maximum value of detail (when it is numeric).  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -774,8 +774,8 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 
 ### <a href=#minvalue name="minvalue">minvalue</a>
 
-Minimum value of detail (when it is numeric\).  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+Minimum value of detail (when it is numeric).  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -818,7 +818,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Date when Coverage detail starts.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -858,7 +858,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#validto name="validto">validto</a>
 
 Date when Coverage detail ends.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -898,7 +898,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#valuetype name="valuetype">valuetype</a>
 
 Defines the value type. Can be a string or a numeric type.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this enti
 ### <a href=#version name="version">version</a>
 
 Version of Coverage detail.  
-First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageDetailCatalog (this entity)  
 
 #### Properties
 

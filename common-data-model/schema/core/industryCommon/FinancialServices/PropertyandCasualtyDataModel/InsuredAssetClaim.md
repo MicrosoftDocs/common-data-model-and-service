@@ -72,7 +72,7 @@ Information about the relationship between the Insured Asset/location and a clai
 ### <a href=#insuredassetclaimId name="insuredassetclaimId">insuredassetclaimId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insured Asset Claim  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insured Asset Claim  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#claimid name="claimid">claimid</a>
 
 Claim information related to the Insured Asset.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -554,7 +554,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#expensereserveamount name="expensereserveamount">expensereserveamount</a>
 
 Expense reserve is an estimate of an Insurer’s expenses from future Claims it will have to pay out on.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -595,7 +595,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#expensereserveamount_Base name="expensereserveamount_Base">expensereserveamount_Base</a>
 
 Value of the Expense reserve amount in base currency.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -636,7 +636,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#insuredasset name="insuredasset">insuredasset</a>
 
 Information on the Insured Asset on the Policy.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -675,7 +675,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#insuredassetType name="insuredassetType">insuredassetType</a>
 
 Information on the Insured Asset on the Policy.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -714,7 +714,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#lossreserveamount name="lossreserveamount">lossreserveamount</a>
 
 Loss reserve is an estimate of an Insurer’s liability from future Claims it will have to pay out on.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)
 ### <a href=#lossreserveamount_Base name="lossreserveamount_Base">lossreserveamount_Base</a>
 
 Value of the Loss reserve amount in base currency.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetClaim (this entity)  
 
 #### Properties
 

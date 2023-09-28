@@ -69,12 +69,12 @@ ms.author: cdmditeam
 |[currentvalue](#currentvalue)|The total value of each type of security held.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[currentvalue_Base](#currentvalue_Base)|Value of the Current value in base currency.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[currentvaluedefault](#currentvaluedefault)|Current value of the asset in the default currency.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
-|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft, Position\).|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
+|[financialinstrumenttype](#financialinstrumenttype)|The type of financial instrument (Direct debit, Standing order, Card, Overdraft, Position).|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[financialmarketproduct](#financialmarketproduct)|Lookup to financial market product table.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[gainlossdefault](#gainlossdefault)|Value of the Gain / Loss in default currency.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[heldaway](#heldaway)|Defines whether the position is held in other institutions.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[integrationkey](#integrationkey)|Define alternate key on field.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
-|[isblocked](#isblocked)|Flag denoting that a security is blocked & inaccessible to the investor for a certain period of time (for example, when held as collateral\).|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
+|[isblocked](#isblocked)|Flag denoting that a security is blocked & inaccessible to the investor for a certain period of time (for example, when held as collateral).|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[nexteventvalue](#nexteventvalue)|Total of the next event rate x the number of shares paid during the next distribution event.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[nexteventvalue_Base](#nexteventvalue_Base)|Value of the Next event value in base currency.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
 |[nexteventvaluedefault](#nexteventvaluedefault)|The next event value, in default currency.|<a href="FIPosition.md" target="_blank">BankingCoreDataModel/FIPosition</a>|
@@ -87,7 +87,7 @@ ms.author: cdmditeam
 ### <a href=#fi_positionId name="fi_positionId">fi_positionId</a>
 
 Unique identifier for entity instances  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the FI position  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the FI position  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -310,7 +310,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -433,7 +433,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 
 ### <a href=#name name="name">name</a>
 
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -523,7 +523,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#averagesecuritycost name="averagesecuritycost">averagesecuritycost</a>
 
 The weighted average cost of security across all purchase transactions over the whole holding period.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#averagesecuritycost_Base name="averagesecuritycost_Base">averagesecuritycost_Base</a>
 
 Value of the Average security cost in base currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#averagesecuritycostdefault name="averagesecuritycostdefault">averagesecuritycostdefault</a>
 
 Value of the Average security cost in default currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#blockedvalue name="blockedvalue">blockedvalue</a>
 
 Value of the securities being blocked.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#blockedvalue_Base name="blockedvalue_Base">blockedvalue_Base</a>
 
 Value of the Blocked value in base currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -730,7 +730,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#blockedvaluedefault name="blockedvaluedefault">blockedvaluedefault</a>
 
 Value of the securities being blocked.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -773,7 +773,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#currentvalue name="currentvalue">currentvalue</a>
 
 The total value of each type of security held.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -814,7 +814,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#currentvalue_Base name="currentvalue_Base">currentvalue_Base</a>
 
 Value of the Current value in base currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -855,7 +855,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#currentvaluedefault name="currentvaluedefault">currentvaluedefault</a>
 
 Current value of the asset in the default currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -897,8 +897,8 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 
 ### <a href=#financialinstrumenttype name="financialinstrumenttype">financialinstrumenttype</a>
 
-The type of financial instrument (Direct debit, Standing order, Card, Overdraft, Position\).  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+The type of financial instrument (Direct debit, Standing order, Card, Overdraft, Position).  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -944,7 +944,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#financialmarketproduct name="financialmarketproduct">financialmarketproduct</a>
 
 Lookup to financial market product table.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -989,7 +989,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#gainlossdefault name="gainlossdefault">gainlossdefault</a>
 
 Value of the Gain / Loss in default currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1032,7 +1032,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#heldaway name="heldaway">heldaway</a>
 
 Defines whether the position is held in other institutions.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1068,7 +1068,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#integrationkey name="integrationkey">integrationkey</a>
 
 Define alternate key on field.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1115,8 +1115,8 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 
 ### <a href=#isblocked name="isblocked">isblocked</a>
 
-Flag denoting that a security is blocked & inaccessible to the investor for a certain period of time (for example, when held as collateral\).  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+Flag denoting that a security is blocked & inaccessible to the investor for a certain period of time (for example, when held as collateral).  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1152,7 +1152,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#nexteventvalue name="nexteventvalue">nexteventvalue</a>
 
 Total of the next event rate x the number of shares paid during the next distribution event.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#nexteventvalue_Base name="nexteventvalue_Base">nexteventvalue_Base</a>
 
 Value of the Next event value in base currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1234,7 +1234,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#nexteventvaluedefault name="nexteventvaluedefault">nexteventvaluedefault</a>
 
 The next event value, in default currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1277,7 +1277,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#positioncount name="positioncount">positioncount</a>
 
 Number of units of a given security being held.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1320,7 +1320,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#positiontype name="positiontype">positiontype</a>
 
 Long positions are owned by investor with expectation of increase in value. Being short in an asset means investing in such a way that the investor will profit if the value of the asset falls.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1366,7 +1366,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#gainLoss name="gainLoss">gainLoss</a>
 
 Absolute value for gain or loss on position. In the currency of the instrument.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1407,7 +1407,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#gainloss_Base name="gainloss_Base">gainloss_Base</a>
 
 Value of the Gain / Loss in base currency.  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 
@@ -1448,7 +1448,7 @@ First included in: BankingCoreDataModel/FIPosition (this entity\)
 ### <a href=#performance name="performance">performance</a>
 
 Performance of a security since its purchase  
-First included in: BankingCoreDataModel/FIPosition (this entity\)  
+First included in: BankingCoreDataModel/FIPosition (this entity)  
 
 #### Properties
 

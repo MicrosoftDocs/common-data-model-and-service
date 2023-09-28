@@ -89,7 +89,7 @@ Inventory of all Coverages which are subsequently used to create the Line of bus
 ### <a href=#coveragecatalogId name="coveragecatalogId">coveragecatalogId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -177,7 +177,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Coverage dictionary  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -263,7 +263,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Coverage dictionary  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -312,7 +312,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -355,7 +355,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -392,7 +392,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -435,7 +435,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -478,7 +478,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -526,7 +526,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#baserate name="baserate">baserate</a>
 
 Price per unit of insurance for each unit of liability.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -569,7 +569,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#coveragecategory name="coveragecategory">coveragecategory</a>
 
 The type of Coverage with associated perils.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#coveragetype name="coveragetype">coveragetype</a>
 
 Type of the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -661,7 +661,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#deductiblecode name="deductiblecode">deductiblecode</a>
 
 A code corresponding to the deductible amount.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#description name="description">description</a>
 
 Description of the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#discountamount name="discountamount">discountamount</a>
 
 The discount given on the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -796,7 +796,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#discountamount_Base name="discountamount_Base">discountamount_Base</a>
 
 Value of the discount amount in base currency.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -837,7 +837,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#discountpercent name="discountpercent">discountpercent</a>
 
 The discount percent given on the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -880,7 +880,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limitamount name="limitamount">limitamount</a>
 
 The maximum monetary limit of the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -921,7 +921,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limitamount_Base name="limitamount_Base">limitamount_Base</a>
 
 Value of the limit amount in base currency.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -962,7 +962,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limitamountaggregate name="limitamountaggregate">limitamountaggregate</a>
 
 Maximum amount an Insurer will reimburse.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1003,7 +1003,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limitamountaggregate_Base name="limitamountaggregate_Base">limitamountaggregate_Base</a>
 
 Value of the limit amount aggregate in base currency.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1044,7 +1044,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limitcode name="limitcode">limitcode</a>
 
 A code corresponding to the limit amount.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1090,7 +1090,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limiteachoccurrence name="limiteachoccurrence">limiteachoccurrence</a>
 
 The maximum monetary limit of the Coverage per occurrence.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1131,7 +1131,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limiteachoccurrence_Base name="limiteachoccurrence_Base">limiteachoccurrence_Base</a>
 
 Value of the limit each occurrence in base currency.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1172,7 +1172,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limiteachperson name="limiteachperson">limiteachperson</a>
 
 The maximum monetary limit of the Coverage per person.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1213,7 +1213,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#limiteachperson_Base name="limiteachperson_Base">limiteachperson_Base</a>
 
 Value of the limit each person in base currency.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1254,7 +1254,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#premiumadjustmentfactor name="premiumadjustmentfactor">premiumadjustmentfactor</a>
 
 Expenses and P&L conversation factor adjusted for insurance charge for a Policy.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1297,7 +1297,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#premiumamount name="premiumamount">premiumamount</a>
 
 The premium paid by the customer for this specific Coverage for the Policy period.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1338,7 +1338,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#premiumamount_Base name="premiumamount_Base">premiumamount_Base</a>
 
 Value of the premium amount in base currency.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1379,7 +1379,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#rate name="rate">rate</a>
 
 Amount of money necessary to cover losses for a single unit of exposure.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1422,7 +1422,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Date the Coverage is active.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1462,7 +1462,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#validto name="validto">validto</a>
 
 Date the Coverage expires.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)
 ### <a href=#version name="version">version</a>
 
 Version of the Coverage.  
-First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity\)  
+First included in: PropertyandCasualtyDataModel/CoverageCatalog (this entity)  
 
 #### Properties
 

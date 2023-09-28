@@ -107,7 +107,7 @@ Document filled out by a potential borrower to apply for a loan; provides financ
 ### <a href=#loanApplicationId name="loanApplicationId">loanApplicationId</a>
 
 Unique identifier for entity instances.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date when the loan application was created.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Loan Application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -281,7 +281,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Loan Application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -330,7 +330,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -499,7 +499,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -547,7 +547,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#amortizationType name="amortizationType">amortizationType</a>
 
 Type of amortization for the loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -593,7 +593,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#applicationnumber name="applicationnumber">applicationnumber</a>
 
 Unique number assigned to the loan application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#balloonAmount name="balloonAmount">balloonAmount</a>
 
 Final Balloon payment required to fully pay off the loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -682,7 +682,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#balloonamount_Base name="balloonamount_Base">balloonamount_Base</a>
 
 Amount of the balloon payment in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -723,7 +723,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#balloonTermCount name="balloonTermCount">balloonTermCount</a>
 
 Term in months for Balloon mortgage if "Is Balloon Payment" indicator is "Yes".  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -766,7 +766,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#costofimprovements name="costofimprovements">costofimprovements</a>
 
 The cost needed for improving the value of an asset.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -807,7 +807,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#costofimprovements_Base name="costofimprovements_Base">costofimprovements_Base</a>
 
 Amount of the cost of improvements in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#depositAmount name="depositAmount">depositAmount</a>
 
 Amount of money to be paid as a deposit for the loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -889,7 +889,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#depositamount_Base name="depositamount_Base">depositamount_Base</a>
 
 Amount of the deposit in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -930,7 +930,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#describeimprovements name="describeimprovements">describeimprovements</a>
 
 Description of the improvement.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -978,7 +978,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#discountpointstotalamount name="discountpointstotalamount">discountpointstotalamount</a>
 
 Fees to be paid to the lender at closing in exchange for a reduced interest rate.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1019,7 +1019,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#discountpointstotalamount_Base name="discountpointstotalamount_Base">discountpointstotalamount_Base</a>
 
 Value of the Discount points total amount in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1060,7 +1060,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#downPayment name="downPayment">downPayment</a>
 
 Amount of down payment.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1101,7 +1101,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#downpayment_Base name="downpayment_Base">downpayment_Base</a>
 
 Amount of the down payment in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1142,7 +1142,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#escrowPaymentAmount name="escrowPaymentAmount">escrowPaymentAmount</a>
 
 Amount to be paid to escrow.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1183,7 +1183,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#escrowpaymentamount_Base name="escrowpaymentamount_Base">escrowpaymentamount_Base</a>
 
 Amount of the escrow payment in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1224,7 +1224,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#financingType name="financingType">financingType</a>
 
 The financing type for the loan application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1270,7 +1270,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#firstMonthInterestAmount name="firstMonthInterestAmount">firstMonthInterestAmount</a>
 
 Calculated installment to be paid for the first month.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1311,7 +1311,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#firstmonthinterestamount_Base name="firstmonthinterestamount_Base">firstmonthinterestamount_Base</a>
 
 Value of the first month interest amount in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1352,7 +1352,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#integrationKey name="integrationKey">integrationKey</a>
 
 Key provided by the SI for updating the current record.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1400,7 +1400,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#interestOnlyTermMonthCount name="interestOnlyTermMonthCount">interestOnlyTermMonthCount</a>
 
 Term in months for interest only if "InterestOnlyIndicator" is true.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1443,7 +1443,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#interestRate name="interestRate">interestRate</a>
 
 The loan application interest rate.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1486,7 +1486,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#interestType name="interestType">interestType</a>
 
 The type of interest applied to the loan: fixed, periodical, floating, etc.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1532,7 +1532,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#isBalloonPayment name="isBalloonPayment">isBalloonPayment</a>
 
 When "Yes", indicates that a final Balloon payment is required to fully pay off the loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1568,7 +1568,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#isInterestOnly name="isInterestOnly">isInterestOnly</a>
 
 When "Yes", indicated that the loan is Interest only.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1604,7 +1604,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#isNegativeAmortization name="isNegativeAmortization">isNegativeAmortization</a>
 
 When "Yes", indicates that the loan terms allow unpaid interest to be added to the principal of the loan that can or will result in negative amortization.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#lendingLimit name="lendingLimit">lendingLimit</a>
 
 The lending limit applicable to the loan application, based on the specific loan guidelines.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1681,7 +1681,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#lendinglimit_Base name="lendinglimit_Base">lendinglimit_Base</a>
 
 Value of the lending limit in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1722,7 +1722,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanApplicationClosingDate name="loanApplicationClosingDate">loanApplicationClosingDate</a>
 
 Date and time when the loan application was closed.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1762,7 +1762,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanCategory name="loanCategory">loanCategory</a>
 
 Describes the category of the loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1808,7 +1808,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanOriginator name="loanOriginator">loanOriginator</a>
 
 User representing a banking officer who was the originator of, and owns, the loan application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1862,7 +1862,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanorrefinancePurpose name="loanorrefinancePurpose">loanorrefinancePurpose</a>
 
 The purpose of the loan or refinance.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1908,7 +1908,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanTerm name="loanTerm">loanTerm</a>
 
 Number of months over which the loan will be paid.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1951,7 +1951,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanToValue name="loanToValue">loanToValue</a>
 
 Loan to value for a given proposition.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -1994,7 +1994,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#loanType name="loanType">loanType</a>
 
 The type of the requested loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2040,7 +2040,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#maxLoanToValue name="maxLoanToValue">maxLoanToValue</a>
 
 Maximum loan to value allowed for the proposition.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2083,7 +2083,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#noteAmount name="noteAmount">noteAmount</a>
 
 The total cost of the loan, as disclosed in the Note.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2124,7 +2124,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#noteamount_Base name="noteamount_Base">noteamount_Base</a>
 
 Value of the note amount in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2165,7 +2165,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#primaryApplicant name="primaryApplicant">primaryApplicant</a>
 
 The main applicant for the loan application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2219,7 +2219,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#principalAmount name="principalAmount">principalAmount</a>
 
 Amount of money borrowed for the loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2260,7 +2260,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#principalamount_Base name="principalamount_Base">principalamount_Base</a>
 
 Amount of the principal in base currency.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2301,7 +2301,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#refinanceType name="refinanceType">refinanceType</a>
 
 Type of refinance loan.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2347,7 +2347,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#sourceofDownPayment name="sourceofDownPayment">sourceofDownPayment</a>
 
 Source of down payment, settlement charges, and/or subordinate financing.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2395,7 +2395,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#verificationStatus name="verificationStatus">verificationStatus</a>
 
 The loan application verification status.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 
@@ -2441,7 +2441,7 @@ First included in: LoanOnboardingDataModel/Loanapplication (this entity\)
 ### <a href=#primaryMemberHelper name="primaryMemberHelper">primaryMemberHelper</a>
 
 A calculated field helping determine if a loan application contact is the primary member of the loan application.  
-First included in: LoanOnboardingDataModel/Loanapplication (this entity\)  
+First included in: LoanOnboardingDataModel/Loanapplication (this entity)  
 
 #### Properties
 

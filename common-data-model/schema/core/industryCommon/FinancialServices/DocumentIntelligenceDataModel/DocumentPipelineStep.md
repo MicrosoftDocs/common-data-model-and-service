@@ -65,12 +65,12 @@ ms.author: cdmditeam
 |[pipelinestepdefinition](#pipelinestepdefinition)|Lookup to pipeline step definition table which provides the metadata of the pipeline step.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 |[pipelinestepdocumentstate](#pipelinestepdocumentstate)|The status of the document determined by the current pipeline step|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 |[pipelinestepstate](#pipelinestepstate)|The run status of the pipeline step, whether it is running, failed or succeeded.|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
-|[rawoutput](#rawoutput)|The actual output of the pipeline step logic (AI Model, Third Party, API, etc..\)|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
+|[rawoutput](#rawoutput)|The actual output of the pipeline step logic (AI Model, Third Party, API, etc..)|<a href="DocumentPipelineStep.md" target="_blank">DocumentIntelligenceDataModel/DocumentPipelineStep</a>|
 
 ### <a href=#documentpipelinestepId name="documentpipelinestepId">documentpipelinestepId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the document pipeline step  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the document pipeline step  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 
 ### <a href=#name name="name">name</a>
 
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#documentpipeline name="documentpipeline">documentpipeline</a>
 
 Lookup to the pipeline workflow that the pipeline step is related to.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#output name="output">output</a>
 
 The formatted output of the pipeline step.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#pipelinestepdefinition name="pipelinestepdefinition">pipelinestepdefinition</a>
 
 Lookup to pipeline step definition table which provides the metadata of the pipeline step.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#pipelinestepdocumentstate name="pipelinestepdocumentstate">pipelinestepdocumentstate</a>
 
 The status of the document determined by the current pipeline step  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 ### <a href=#pipelinestepstate name="pipelinestepstate">pipelinestepstate</a>
 
 The run status of the pipeline step, whether it is running, failed or succeeded.  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 
@@ -735,8 +735,8 @@ First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this enti
 
 ### <a href=#rawoutput name="rawoutput">rawoutput</a>
 
-The actual output of the pipeline step logic (AI Model, Third Party, API, etc..\)  
-First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity\)  
+The actual output of the pipeline step logic (AI Model, Third Party, API, etc..)  
+First included in: DocumentIntelligenceDataModel/DocumentPipelineStep (this entity)  
 
 #### Properties
 

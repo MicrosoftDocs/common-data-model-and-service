@@ -53,7 +53,7 @@ Business that represents a customer or potential customer. The company that is b
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: BankingCoreDataModel/Account (this entity\)  
+First included in: BankingCoreDataModel/Account (this entity)  
 
 #### Properties
 

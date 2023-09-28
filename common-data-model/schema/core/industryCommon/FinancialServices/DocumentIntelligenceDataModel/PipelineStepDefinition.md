@@ -71,7 +71,7 @@ Contain the definition of each custom pipeline step that the user adds.
 ### <a href=#pipelinestepdefinitionId name="pipelinestepdefinitionId">pipelinestepdefinitionId</a>
 
 Unique identifier for entity instances  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the pipeline step definition  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the pipeline step definition  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 
 ### <a href=#name name="name">name</a>
 
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#aibuildermodel name="aibuildermodel">aibuildermodel</a>
 
 AI builder model to use for this step  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#documentdefinition name="documentdefinition">documentdefinition</a>
 
 The document definition that this step is used for  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#failurethreshold name="failurethreshold">failurethreshold</a>
 
 Number that describes the value which below it considered failure.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#infolink name="infolink">infolink</a>
 
 URL that leads to an informative page regarding the step module.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -656,7 +656,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#order name="order">order</a>
 
 Defines the order between the step definitions of the related document definition.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -699,7 +699,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#successthreshold name="successthreshold">successthreshold</a>
 
 Number that describes the minimum value required for success.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 
@@ -744,7 +744,7 @@ First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this en
 ### <a href=#type name="type">type</a>
 
 The type of operation this step performs.  
-First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity\)  
+First included in: DocumentIntelligenceDataModel/PipelineStepDefinition (this entity)  
 
 #### Properties
 

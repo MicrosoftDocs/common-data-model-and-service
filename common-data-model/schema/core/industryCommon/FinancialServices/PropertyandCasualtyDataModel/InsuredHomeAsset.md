@@ -69,7 +69,7 @@ Information of an Insured Home.
 |[description](#description)|Location description of the property insured under this Policy.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[fairmarketvalue](#fairmarketvalue)|The estimated current value of the asset when the Policy was issued.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[fairmarketvalue_Base](#fairmarketvalue_Base)|Value of the fair market value in base currency.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
-|[landareausacres](#landareausacres)|The size of the piece of land, which can be a lot or the land on which the property is on (in acres\).|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
+|[landareausacres](#landareausacres)|The size of the piece of land, which can be a lot or the land on which the property is on (in acres).|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[lienholders](#lienholders)|The lienholder who has ownership rights on the asset.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[numberoffloors](#numberoffloors)|Number of floors of the property insured.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
 |[numberofgaragespaces](#numberofgaragespaces)|The number of parking spaces at the property.|<a href="InsuredHomeAsset.md" target="_blank">PropertyandCasualtyDataModel/InsuredHomeAsset</a>|
@@ -95,7 +95,7 @@ Information of an Insured Home.
 ### <a href=#insuredhomeassetId name="insuredhomeassetId">insuredhomeassetId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -143,7 +143,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -183,7 +183,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -223,7 +223,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insured home  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -269,7 +269,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insured home  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -318,7 +318,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -361,7 +361,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -398,7 +398,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -441,7 +441,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -484,7 +484,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -532,7 +532,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#areausagetype name="areausagetype">areausagetype</a>
 
 Area usage type, for example primary dwelling or commercial.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -578,7 +578,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#assetdescription name="assetdescription">assetdescription</a>
 
 The description of the asset insured under the Policy.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -626,7 +626,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#city name="city">city</a>
 
 City of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -674,7 +674,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#countryregion name="countryregion">countryregion</a>
 
 Country of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -722,7 +722,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#coverage name="coverage">coverage</a>
 
 Reference to Coverage for Home insurance.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -767,7 +767,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#description name="description">description</a>
 
 Location description of the property insured under this Policy.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -815,7 +815,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#fairmarketvalue name="fairmarketvalue">fairmarketvalue</a>
 
 The estimated current value of the asset when the Policy was issued.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -856,7 +856,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#fairmarketvalue_Base name="fairmarketvalue_Base">fairmarketvalue_Base</a>
 
 Value of the fair market value in base currency.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -896,8 +896,8 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 
 ### <a href=#landareausacres name="landareausacres">landareausacres</a>
 
-The size of the piece of land, which can be a lot or the land on which the property is on (in acres\).  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+The size of the piece of land, which can be a lot or the land on which the property is on (in acres).  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -940,7 +940,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#lienholders name="lienholders">lienholders</a>
 
 The lienholder who has ownership rights on the asset.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -988,7 +988,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#numberoffloors name="numberoffloors">numberoffloors</a>
 
 Number of floors of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1031,7 +1031,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#numberofgaragespaces name="numberofgaragespaces">numberofgaragespaces</a>
 
 The number of parking spaces at the property.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#numberofrooms name="numberofrooms">numberofrooms</a>
 
 Number of rooms of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1117,7 +1117,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#numberofstructures name="numberofstructures">numberofstructures</a>
 
 The total number of other structures being insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1160,7 +1160,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#postalcode name="postalcode">postalcode</a>
 
 Zip/Postal Code of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1208,7 +1208,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#primaryowner name="primaryowner">primaryowner</a>
 
 Primary owner of the asset.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1247,7 +1247,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#primaryownerType name="primaryownerType">primaryownerType</a>
 
 Primary owner of the asset.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1286,7 +1286,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#propertyimprovements name="propertyimprovements">propertyimprovements</a>
 
 Description of any property improvements.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1334,7 +1334,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#propertyownership name="propertyownership">propertyownership</a>
 
 Indication of whether the insured property is owned or mortgaged.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1380,7 +1380,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#propertyrating name="propertyrating">propertyrating</a>
 
 The condition rating of the insured property.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1426,7 +1426,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#propertyusage name="propertyusage">propertyusage</a>
 
 The manner the property is used by the Policy holder such as owner or rented out.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1472,7 +1472,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#purchaseamount name="purchaseamount">purchaseamount</a>
 
 The price paid by the customer for the Insured Asset.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1513,7 +1513,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#purchaseamount_Base name="purchaseamount_Base">purchaseamount_Base</a>
 
 Value of the purchase amount in base currency.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1554,7 +1554,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#purchasedate name="purchasedate">purchasedate</a>
 
 The date on which the asset was purchased.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1594,7 +1594,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#registrationtype name="registrationtype">registrationtype</a>
 
 The purpose of the insured such as rental, recreational, or personal use.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#state name="state">state</a>
 
 State of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1688,7 +1688,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#streetaddress name="streetaddress">streetaddress</a>
 
 Street address of the property insured.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1736,7 +1736,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#totalsquarefeet name="totalsquarefeet">totalsquarefeet</a>
 
 The total square footage of the area usage type.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1779,7 +1779,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#typeofproperty name="typeofproperty">typeofproperty</a>
 
 Type of property insured such as a building or office.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 
@@ -1825,7 +1825,7 @@ First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)
 ### <a href=#yearbuilt name="yearbuilt">yearbuilt</a>
 
 The year in which the property was built.  
-First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredHomeAsset (this entity)  
 
 #### Properties
 

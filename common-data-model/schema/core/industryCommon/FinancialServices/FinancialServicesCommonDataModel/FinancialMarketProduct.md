@@ -63,31 +63,31 @@ ms.author: cdmditeam
 |[currentprice](#currentprice)|Current price for a single unit of a particular security.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[currentprice_Base](#currentprice_Base)|Value of the Current price in base currency.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[currentpricedefault](#currentpricedefault)|Current price for a single unit of a particular security.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[cusipcode](#cusipcode)|a 9\x2dcharacter number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP\).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[esgscore](#esgscore)|Environmental, Social and Governance (ESG\) score for a particular financial instrument. ESG framework requires wealth managers to take sustainability factors into account when selecting investments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[cusipcode](#cusipcode)|a 9\x2dcharacter number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[esgscore](#esgscore)|Environmental, Social and Governance (ESG) score for a particular financial instrument. ESG framework requires wealth managers to take sustainability factors into account when selecting investments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[exchangecode](#exchangecode)|A symbol for the market or exchange where a security is listed.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[figicode](#figicode)|Financial Instrument Global Identifier (FIGI\) \x2d unique open\x2dstandard code assigned to a variety of instruments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[figicode](#figicode)|Financial Instrument Global Identifier (FIGI) \x2d unique open\x2dstandard code assigned to a variety of instruments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[financialmarketproducttype](#financialmarketproducttype)|The type of the investment instrument, such as equity, bond, mutual fund, etc.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[fixedinterestrate](#fixedinterestrate)|Interest rate earned on a bond investment for the life of the bond.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[integrationkey](#integrationkey)|define alternate key on field.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[isincode](#isincode)|International Securities Identification Number (ISIN\).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[isincode](#isincode)|International Securities Identification Number (ISIN).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[islamicfinancecompliance](#islamicfinancecompliance)|Flag that a particular instrument is Shariah\x2dcompliant.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[maturityredemptiondate](#maturityredemptiondate)|Maturity or redemption date for an investment instrument.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[nexteventdate](#nexteventdate)|The date on which the next distribution event will occur for an investment instrument.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[nexteventdescription](#nexteventdescription)|Description of the next distribution event. (for example, Q1 2022 quarterly dividend payout\).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[nexteventdescription](#nexteventdescription)|Description of the next distribution event. (for example, Q1 2022 quarterly dividend payout).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[nexteventrate](#nexteventrate)|The "per\x2dshare value" rate of dividends or payments set for the next distribution event or other corporate action event.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[nexteventtype](#nexteventtype)|Type of corporate action or distribution event such as: annual meeting, bond Issue, bond maturity, dividend payout, etc.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[parvalue](#parvalue)|Par value, also known as Face value, is the stated value of a security, which remains fixed for the life of the security.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[performance1y](#performance1y)|Performance of a security in the last year (12 months rolling\).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[performance3y](#performance3y)|Performance of a security in the last three years (36 months rolling\).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[performance1y](#performance1y)|Performance of a security in the last year (12 months rolling).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[performance3y](#performance3y)|Performance of a security in the last three years (36 months rolling).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[performanceytd](#performanceytd)|Performance of a security in the current year from 1st of January.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[tickersymbol](#tickersymbol)|A code or ticker symbol assigned to a publicly\x2dtraded stock.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[unlistedindicator](#unlistedindicator)|An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over\x2dthe\x2dcounter\) trading, for example.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[unlistedindicator](#unlistedindicator)|An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over\x2dthe\x2dcounter) trading, for example.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 
 ### <a href=#financialmarketproductId name="financialmarketproductId">financialmarketproductId</a>
 
 Unique identifier for entity instances  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Financial market product  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Financial market product  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -310,7 +310,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -433,7 +433,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -476,7 +476,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#name name="name">name</a>
 
 Name of the security.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -524,7 +524,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#currentprice name="currentprice">currentprice</a>
 
 Current price for a single unit of a particular security.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#currentprice_Base name="currentprice_Base">currentprice_Base</a>
 
 Value of the Current price in base currency.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -606,7 +606,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#currentpricedefault name="currentpricedefault">currentpricedefault</a>
 
 Current price for a single unit of a particular security.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -648,8 +648,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#cusipcode name="cusipcode">cusipcode</a>
 
-a 9\x2dcharacter number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP\).  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+a 9\x2dcharacter number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -696,8 +696,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#esgscore name="esgscore">esgscore</a>
 
-Environmental, Social and Governance (ESG\) score for a particular financial instrument. ESG framework requires wealth managers to take sustainability factors into account when selecting investments.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+Environmental, Social and Governance (ESG) score for a particular financial instrument. ESG framework requires wealth managers to take sustainability factors into account when selecting investments.  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#exchangecode name="exchangecode">exchangecode</a>
 
 A symbol for the market or exchange where a security is listed.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -787,8 +787,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#figicode name="figicode">figicode</a>
 
-Financial Instrument Global Identifier (FIGI\) \x2d unique open\x2dstandard code assigned to a variety of instruments.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+Financial Instrument Global Identifier (FIGI) \x2d unique open\x2dstandard code assigned to a variety of instruments.  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -836,7 +836,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#financialmarketproducttype name="financialmarketproducttype">financialmarketproducttype</a>
 
 The type of the investment instrument, such as equity, bond, mutual fund, etc.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -882,7 +882,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#fixedinterestrate name="fixedinterestrate">fixedinterestrate</a>
 
 Interest rate earned on a bond investment for the life of the bond.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -925,7 +925,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#integrationkey name="integrationkey">integrationkey</a>
 
 define alternate key on field.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -972,8 +972,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#isincode name="isincode">isincode</a>
 
-International Securities Identification Number (ISIN\).  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+International Securities Identification Number (ISIN).  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1021,7 +1021,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#islamicfinancecompliance name="islamicfinancecompliance">islamicfinancecompliance</a>
 
 Flag that a particular instrument is Shariah\x2dcompliant.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1057,7 +1057,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#maturityredemptiondate name="maturityredemptiondate">maturityredemptiondate</a>
 
 Maturity or redemption date for an investment instrument.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1094,7 +1094,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#nexteventdate name="nexteventdate">nexteventdate</a>
 
 The date on which the next distribution event will occur for an investment instrument.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1130,8 +1130,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#nexteventdescription name="nexteventdescription">nexteventdescription</a>
 
-Description of the next distribution event. (for example, Q1 2022 quarterly dividend payout\).  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+Description of the next distribution event. (for example, Q1 2022 quarterly dividend payout).  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1179,7 +1179,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#nexteventrate name="nexteventrate">nexteventrate</a>
 
 The "per\x2dshare value" rate of dividends or payments set for the next distribution event or other corporate action event.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1222,7 +1222,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#nexteventtype name="nexteventtype">nexteventtype</a>
 
 Type of corporate action or distribution event such as: annual meeting, bond Issue, bond maturity, dividend payout, etc.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1268,7 +1268,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#parvalue name="parvalue">parvalue</a>
 
 Par value, also known as Face value, is the stated value of a security, which remains fixed for the life of the security.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1310,8 +1310,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#performance1y name="performance1y">performance1y</a>
 
-Performance of a security in the last year (12 months rolling\).  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+Performance of a security in the last year (12 months rolling).  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1353,8 +1353,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#performance3y name="performance3y">performance3y</a>
 
-Performance of a security in the last three years (36 months rolling\).  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+Performance of a security in the last three years (36 months rolling).  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1397,7 +1397,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#performanceytd name="performanceytd">performanceytd</a>
 
 Performance of a security in the current year from 1st of January.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1440,7 +1440,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 ### <a href=#tickersymbol name="tickersymbol">tickersymbol</a>
 
 A code or ticker symbol assigned to a publicly\x2dtraded stock.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 
@@ -1487,8 +1487,8 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#unlistedindicator name="unlistedindicator">unlistedindicator</a>
 
-An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over\x2dthe\x2dcounter\) trading, for example.  
-First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity\)  
+An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over\x2dthe\x2dcounter) trading, for example.  
+First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
 

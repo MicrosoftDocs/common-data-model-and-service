@@ -73,7 +73,7 @@ Captures any updates that happen to the claim incident.
 ### <a href=#claimrevisionId name="claimrevisionId">claimrevisionId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Claim revision  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Claim revision  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#description name="description">description</a>
 
 Describes the changes made to the Claim's record in that Claim's revision.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#masterclaim name="masterclaim">masterclaim</a>
 
 A reference to the master Claim record.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#reason name="reason">reason</a>
 
 Reason for Claim revision.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#revisionclaim name="revisionclaim">revisionclaim</a>
 
 A reference to the revision Claims record.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#revisionnumber name="revisionnumber">revisionnumber</a>
 
 Number of a revision.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -744,7 +744,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#updateby name="updateby">updateby</a>
 
 Reference to individual or system.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#updatebyType name="updatebyType">updatebyType</a>
 
 Reference to individual or system.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 
@@ -822,7 +822,7 @@ First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)
 ### <a href=#updatedate name="updatedate">updatedate</a>
 
 When Claim was revised.  
-First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity\)  
+First included in: PropertyandCasualtyDataModel/ClaimRevision (this entity)  
 
 #### Properties
 

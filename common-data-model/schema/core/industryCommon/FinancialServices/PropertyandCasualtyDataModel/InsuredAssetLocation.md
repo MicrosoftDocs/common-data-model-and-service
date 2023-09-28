@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Insured asset location in PropertyandCasualtyDataModel(InsuredAssetLocation)
 
-Information about an Insured Asset's location. In many cases the asset's location (e.g., car parking lot, mall\) are also insured with the asset.  
+Information about an Insured Asset's location. In many cases the asset's location (e.g., car parking lot, mall) are also insured with the asset.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/InsuredAssetLocation.cdm.json" target="_blank">GitHub</a>.  
 
@@ -69,7 +69,7 @@ Information about an Insured Asset's location. In many cases the asset's locatio
 ### <a href=#insuredassetlocationId name="insuredassetlocationId">insuredassetlocationId</a>
 
 Unique identifier for entity instances.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Insured asset location  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Insured asset location  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#name name="name">name</a>
 
 Required name field.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#coverage name="coverage">coverage</a>
 
 Reference to Coverage.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#locationcategory name="locationcategory">locationcategory</a>
 
 Category of the Insured Assets/asset group.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -597,7 +597,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#validfrom name="validfrom">validfrom</a>
 
 Validity date of asset group location.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
@@ -637,7 +637,7 @@ First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entit
 ### <a href=#validto name="validto">validto</a>
 
 Expiry of asset group location.  
-First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity\)  
+First included in: PropertyandCasualtyDataModel/InsuredAssetLocation (this entity)  
 
 #### Properties
 
