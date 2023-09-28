@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Accommodation type in Sustainability(AccommodationType)
+# Accommodation type in Sustainability (AccommodationType)
 
 Entity used for classifying the type of hotel accommodation, as defined in the reporting company.  
   

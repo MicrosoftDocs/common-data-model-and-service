@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Factor library in Sustainability(FactorLibrary)
+# Factor library in Sustainability (FactorLibrary)
 
 Repository for emission and estimation factor sets, including both system and user added.  
   

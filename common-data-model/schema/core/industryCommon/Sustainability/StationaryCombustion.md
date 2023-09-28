@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Stationary combustion in Sustainability(StationaryCombustion)
+# Stationary combustion in Sustainability (StationaryCombustion)
 
 Combustion that occurs in a fixed asset, such as a boiler or furnace.  
   

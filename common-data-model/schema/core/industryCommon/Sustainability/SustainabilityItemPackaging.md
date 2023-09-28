@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Sustainability item packaging in Sustainability(SustainabilityItemPackaging)
+# Sustainability item packaging in Sustainability (SustainabilityItemPackaging)
 
 Indicates whether the item is used for packaging when distributing a product.  
   

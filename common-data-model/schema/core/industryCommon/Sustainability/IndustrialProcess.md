@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Industrial process in Sustainability(IndustrialProcess)
+# Industrial process in Sustainability (IndustrialProcess)
 
 Emissions source for scope 1 emissions relating to industrial processes.  
   

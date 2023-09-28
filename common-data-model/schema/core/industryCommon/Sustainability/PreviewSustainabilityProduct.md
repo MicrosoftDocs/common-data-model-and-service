@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# (Preview) Sustainability product in Sustainability(PreviewSustainabilityProduct)
+# (Preview) Sustainability product in Sustainability (PreviewSustainabilityProduct)
 
 A product that can be associated with a product carbon footprint.  
   

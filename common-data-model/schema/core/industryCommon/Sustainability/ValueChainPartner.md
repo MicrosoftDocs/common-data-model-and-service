@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Value Chain Partner in Sustainability
+# Value Chain Partner in Sustainability (ValueChainPartner)
 
 Entity for value chain partner or supplier.  
   

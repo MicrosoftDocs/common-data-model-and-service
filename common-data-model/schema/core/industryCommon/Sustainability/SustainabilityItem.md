@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Sustainability item in Sustainability(SustainabilityItem)
+# Sustainability item in Sustainability (SustainabilityItem)
 
 Entity for capturing data on items/SKU inventoried such as input material and finished goods.  
   

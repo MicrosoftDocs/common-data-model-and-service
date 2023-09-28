@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Business Travel in Sustainability
+# Business Travel in Sustainability (BusinessTravel)
 
 Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.  
   

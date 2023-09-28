@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Capital good in Sustainability(CapitalGood)
+# Capital good in Sustainability (CapitalGood)
 
 Purchased entity that depreciates over time.  
   

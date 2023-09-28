@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Transportation and distribution in Sustainability(TransportationAndDistribution)
+# Transportation and distribution in Sustainability (TransportationAndDistribution)
 
 Upstream and downstream transportation and distribution activities.  
   

@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Emission in Sustainability
+# Emission in Sustainability (Emission)
 
 Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.  
   

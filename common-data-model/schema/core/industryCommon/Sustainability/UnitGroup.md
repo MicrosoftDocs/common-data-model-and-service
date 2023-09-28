@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Unit group in Sustainability(UnitGroup)
+# Unit group in Sustainability (UnitGroup)
 
 Grouping of units.  
   

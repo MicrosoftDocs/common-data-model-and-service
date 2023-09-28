@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Sustainability item category SKU in Sustainability(SustainabilityItemCategorySKU)
+# Sustainability item category SKU in Sustainability (SustainabilityItemCategorySKU)
 
 The category of the item such as abrasives, castings or accessories  
   

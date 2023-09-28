@@ -9,7 +9,7 @@ ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Transport mode in Sustainability(TransportMode)
+# Transport mode in Sustainability (TransportMode)
 
 The mode of transportation or distribution used in an activity, such as air, rail, or storage.  
   
