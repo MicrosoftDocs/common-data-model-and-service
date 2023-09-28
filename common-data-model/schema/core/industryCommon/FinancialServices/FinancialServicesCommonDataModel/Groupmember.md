@@ -721,8 +721,8 @@ First included in: FinancialServicesCommonDataModel/Groupmember \(this entity\)
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_role"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>

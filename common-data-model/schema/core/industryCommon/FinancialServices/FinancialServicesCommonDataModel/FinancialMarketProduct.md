@@ -98,36 +98,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the financialmarketproductId attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.identifiedBy\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FinancialMarketProduct/(resolvedAttributes)/financialmarketproductId](#financialmarketproductId)</td><td>attribute</td><td></td></tr></table>
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Financial market product</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_financialmarketproductid"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -146,30 +146,30 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the createdOn attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -186,30 +186,30 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#statecode name="statecode">statecode</a>
@@ -226,36 +226,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the statecode attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*does.haveDefault\*\*  
+**is.dataFormat.numeric**  
+  **does.haveDefault**  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is.constrainedList\*\*  
+**is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*means.entityState\*\*  
+**means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FinancialMarketProduct/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Financial market product</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statecode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"25"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
@@ -272,39 +272,39 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the statuscode attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*does.haveDefault\*\*  
+**is.dataFormat.numeric**  
+  **does.haveDefault**  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is.constrainedList\*\*  
+**is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is.correlatedWith\*\*  
+**is.correlatedWith**  
   the attribute value is correlated with the sourceAttribute  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>sourceAttribute</td><td>"statecode"</td><td>attributeName</td><td></td></tr></table>
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Financial market product</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"statuscode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"27"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
@@ -321,33 +321,33 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.numeric**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import Sequence Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"30"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -364,27 +364,27 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time that the record was migrated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record Created On</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"overriddencreatedon"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"31"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.date\*\*  
+**is.dataFormat.date**  
   </details>
 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
@@ -401,33 +401,33 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.numeric**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>For internal use only.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time Zone Rule Version Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"timezoneruleversionnumber"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"32"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
@@ -444,33 +444,33 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.numeric**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time zone code that was in use when the record was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>UTC Conversion Time Zone Code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"utcconversiontimezonecode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#name name="name">name</a>
@@ -487,36 +487,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the name attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of the security.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_name"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -535,29 +535,29 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the currentprice attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
-\*\*means.measurement.currency\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**means.measurement.currency**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current price for a single unit of a particular security.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current price</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_currentprice"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -576,29 +576,29 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the currentprice_Base attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>precision</td><td>"19"</td><td>integer</td><td>the total number of significant digits</td></tr><tr><td>scale</td><td>"4"</td><td>integer</td><td>the number of digits to the right of the decimal place</td></tr></table>
 
-\*\*means.measurement.currency\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**means.measurement.currency**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Value of the Current price in base currency.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current price (Base)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_currentprice_base"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"39"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -617,31 +617,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the currentpricedefault attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current price for a single unit of a particular security.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Current price (default)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_currentpricedefault"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"40"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -660,36 +660,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the cusipcode attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>a 9-character number identifying the company or issuer + type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>CUSIP code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_cusipcode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"41"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -708,31 +708,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the esgscore attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Environmental, Social and Governance (ESG) score for a particular financial instrument. ESG framework requires wealth managers to take sustainability factors into account when selecting investments.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ESG score</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_esgscore"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -751,36 +751,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the exchangecode attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A symbol for the market or exchange where a security is listed.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Exchange code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_exchangecode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -799,36 +799,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the figicode attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Financial Instrument Global Identifier (FIGI) - unique open-standard code assigned to a variety of instruments.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>FIGI code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_figicode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -847,36 +847,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the financialmarketproducttype attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*does.haveDefault\*\*  
+**is.dataFormat.numeric**  
+  **does.haveDefault**  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Equity</td><td>104800000</td></tr><tr><td>en</td><td>Bond</td><td>104800001</td></tr><tr><td>en</td><td>Option</td><td>104800002</td></tr><tr><td>en</td><td>Mutual fund</td><td>104800003</td></tr><tr><td>en</td><td>Exchange-traded fund (ETF)</td><td>104800004</td></tr><tr><td>en</td><td>Cash</td><td>104800005</td></tr><tr><td>en</td><td>Foreign currency</td><td>104800006</td></tr><tr><td>en</td><td>Cryptocurrency</td><td>104800007</td></tr><tr><td>en</td><td>Other</td><td>105000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is.constrainedList\*\*  
+**is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The type of the investment instrument, such as equity, bond, mutual fund, etc.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_financialmarketproducttype"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"45"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#fixedinterestrate name="fixedinterestrate">fixedinterestrate</a>
@@ -893,31 +893,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the fixedinterestrate attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Interest rate earned on a bond investment for the life of the bond.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Fixed interest rate</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_fixedinterestrate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"47"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -936,36 +936,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the integrationkey attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>define alternate key on field.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Integration key</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_integrationkey"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"48"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -984,36 +984,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the isincode attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>International Securities Identification Number (ISIN).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ISIN code</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_isincode"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"49"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -1032,26 +1032,26 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the islamicfinancecompliance attribute are listed below.</summary>
 
-\*\*is.dataFormat.boolean\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.boolean**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Flag that a particular instrument is Shariah-compliant.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Islamic finance compliance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_islamicfinancecompliance"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.boolean\*\*  
+**is.dataFormat.boolean**  
   </details>
 
 ### <a href=#maturityredemptiondate name="maturityredemptiondate">maturityredemptiondate</a>
@@ -1068,27 +1068,27 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the maturityredemptiondate attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maturity or redemption date for an investment instrument.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Maturity/Redemption date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_maturityredemptiondate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"52"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.date\*\*  
+**is.dataFormat.date**  
   </details>
 
 ### <a href=#nexteventdate name="nexteventdate">nexteventdate</a>
@@ -1105,27 +1105,27 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the nexteventdate attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The date on which the next distribution event will occur for an investment instrument.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next event date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_nexteventdate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"53"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.date\*\*  
+**is.dataFormat.date**  
   </details>
 
 ### <a href=#nexteventdescription name="nexteventdescription">nexteventdescription</a>
@@ -1142,36 +1142,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the nexteventdescription attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description of the next distribution event. (for example, Q1 2022 quarterly dividend payout).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next event description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_nexteventdescription"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"54"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -1190,31 +1190,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the nexteventrate attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The "per-share value" rate of dividends or payments set for the next distribution event or other corporate action event.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next event rate</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_nexteventrate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"55"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -1233,36 +1233,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the nexteventtype attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*does.haveDefault\*\*  
+**is.dataFormat.numeric**  
+  **does.haveDefault**  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Annual Meeting</td><td>104800000</td></tr><tr><td>en</td><td>Bond Called</td><td>104800001</td></tr><tr><td>en</td><td>Bond Issue</td><td>104800002</td></tr><tr><td>en</td><td>Bond Matures</td><td>104800003</td></tr><tr><td>en</td><td>Delisting</td><td>104800004</td></tr><tr><td>en</td><td>Dividend Distribution</td><td>104800005</td></tr><tr><td>en</td><td>Dividend Reinvestment</td><td>104800006</td></tr><tr><td>en</td><td>Option exercised</td><td>104800007</td></tr><tr><td>en</td><td>Option expires</td><td>104800008</td></tr><tr><td>en</td><td>Treasury bond matures</td><td>104800009</td></tr><tr><td>en</td><td>Last</td><td>105000000</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is.constrainedList\*\*  
+**is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of corporate action or distribution event such as: annual meeting, bond Issue, bond maturity, dividend payout, etc.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Next event type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_nexteventtype"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"56"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#parvalue name="parvalue">parvalue</a>
@@ -1279,31 +1279,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the parvalue attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Par value, also known as Face value, is the stated value of a security, which remains fixed for the life of the security.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Par value</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_parvalue"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"58"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -1322,31 +1322,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the performance1y attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Performance of a security in the last year (12 months rolling).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Performance 1Y</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_performance1y"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"59"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -1365,31 +1365,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the performance3y attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Performance of a security in the last three years (36 months rolling).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Performance 3Y</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_performance3y"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"60"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -1408,31 +1408,31 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the performanceytd attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Performance of a security in the current year from 1st of January.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Performance YTD</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_performanceytd"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"61"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -1451,36 +1451,36 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the tickersymbol attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A code or ticker symbol assigned to a publicly-traded stock.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Ticker symbol</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_tickersymbol"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"62"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -1499,24 +1499,24 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct \(thi
 <details>
 <summary>List of traits for the unlistedindicator attribute are listed below.</summary>
 
-\*\*is.dataFormat.boolean\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.boolean**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over-the-counter) trading, for example.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unlisted indicator</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msfsi_unlistedindicator"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"63"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.boolean\*\*  
+**is.dataFormat.boolean**  
   </details>
