@@ -85,36 +85,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the industrialprocessId attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.identifiedBy\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.identifiedBy**  
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[IndustrialProcess/(resolvedAttributes)/industrialprocessId](#industrialprocessId)</td><td>attribute</td><td></td></tr></table>
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Industrial process</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_industrialprocessid"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -133,33 +133,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the TTLInSeconds attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.numeric**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time to live in seconds.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Time to live</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"1"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"ttlinseconds"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#partitionId name="partitionId">partitionId</a>
@@ -176,36 +176,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the partitionId attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Logical partition id. A logical partition consists of a set of records with same partition id.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Partition Id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"partitionid"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"3"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -224,30 +224,30 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the createdOn attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was created.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Created on</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
@@ -264,30 +264,30 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the modifiedOn attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time when the record was modified.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Modified on</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"6"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
@@ -304,33 +304,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.numeric**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sequence number of the import that created this record.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Import sequence number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-2147483648"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"importsequencenumber"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"28"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
@@ -347,30 +347,30 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date and time that the record was migrated.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Record created on</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"overriddencreatedon"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"29"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#name name="name">name</a>
@@ -387,36 +387,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the name attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The name of the custom entity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_name"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"30"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -435,30 +435,30 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the consumptionenddate attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>End date of the activity consumption.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Consumption end date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_consumptionenddate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"31"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
@@ -475,30 +475,30 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the consumptionstartdate attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Start date of the activity consumption.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Consumption start date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_consumptionstartdate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"32"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#cost name="cost">cost</a>
@@ -515,31 +515,31 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the cost attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost associated with the activity data.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_cost"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"33"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -558,33 +558,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the costunit attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit associated with the cost quantity.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Cost unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.lookup\*\*  
+**is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is.linkedEntity.identifier\*\*  
+**is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Unit.md" target="_blank">Unit.cdm.json/Unit</a></td><td><a href="../../Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -603,36 +603,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the dataqualitytype attribute are listed below.</summary>
 
-\*\*is.dataFormat.integer\*\*  
-  \*\*is.dataFormat.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is.dataFormat.numeric\*\*  
-  \*\*does.haveDefault\*\*  
+**is.dataFormat.numeric**  
+  **does.haveDefault**  
   An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Actual</td><td>700610000</td></tr><tr><td>en</td><td>Estimated</td><td>700610001</td></tr><tr><td>en</td><td>Metered</td><td>700610002</td></tr></table></td><td>any</td><td></td></tr></table>
 
-\*\*is.constrainedList\*\*  
+**is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data quality type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_dataqualitytype"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.integer\*\*  
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#description name="description">description</a>
@@ -649,36 +649,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the description attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_description"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -697,36 +697,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the evidence attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field where evidence can be linked to the entity or attribute, if required.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Evidence</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"255"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_evidence"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -745,33 +745,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the facilityId attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for Facility associated with Industrial Process.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Facility</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.lookup\*\*  
+**is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is.linkedEntity.identifier\*\*  
+**is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="../../Facility.md#facilityId" target="_blank">facilityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -790,33 +790,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the industrialprocesstypeid attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the industrial process type associated with the industrial process.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Industrial process type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.lookup\*\*  
+**is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is.linkedEntity.identifier\*\*  
+**is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="../../IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -835,33 +835,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the organizationalunitid attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for the organizational unit associated with the industrial process.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Organizational unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.lookup\*\*  
+**is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is.linkedEntity.identifier\*\*  
+**is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../../OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -880,31 +880,31 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the quantity attribute are listed below.</summary>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Generic quanity field associated with activity entities.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_quantity"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"42"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.numeric.shaped\*\*  
+**is.dataFormat.numeric.shaped**  
   for setting the exact precision and scale of numeric values  
 
 </details>
@@ -923,36 +923,36 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the origincorrelationid attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.requiredAtLevel\*\*  
+**is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>An optional identifier to correlate record with data origin</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.constrained\*\*  
+**is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
@@ -971,30 +971,30 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the transactiondate attribute are listed below.</summary>
 
-\*\*is.dataFormat.date\*\*  
-  \*\*means.measurement.date\*\*  
-  \*\*is.dataFormat.time\*\*  
-  \*\*means.measurement.time\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date associated with the actual date when the transaction occurred.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Transaction date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.nullable\*\*  
+**is.nullable**  
   The attribute value may be set to NULL.  
 
-\*\*is.CDS.sourceNamed\*\*  
+**is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_transactiondate"</td><td>string</td><td></td></tr></table>
 
-\*\*is.CDS.ordered\*\*  
+**is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"44"</td><td>integer</td><td></td></tr></table>
 
-\*\*is.dataFormat.time\*\*  
-  \*\*is.dataFormat.date\*\*  
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
@@ -1011,33 +1011,33 @@ First included in: Sustainability/IndustrialProcess (this entity)
 <details>
 <summary>List of traits for the quantityunit attribute are listed below.</summary>
 
-\*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is.dataFormat.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*means.identity.entityId\*\*  
-  \*\*is.requiredAtLevel\*\*  
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
-\*\*is.localized.describedAs\*\*  
+**is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit associated with the quantity field </td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.localized.displayedAs\*\*  
+**is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Quantity unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
-\*\*is.CDS.lookup\*\*  
+**is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-\*\*is.linkedEntity.identifier\*\*  
+**is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Unit.md" target="_blank">Unit.cdm.json/Unit</a></td><td><a href="../../Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is.dataFormat.guid\*\*  
-  \*\*is.dataFormat.character\*\*  
-  \*\*is.dataFormat.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
