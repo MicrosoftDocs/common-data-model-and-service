@@ -19,12 +19,12 @@ For more information, see the [Microsoft Cloud for Sustainability waste data mod
 
 |Name|Description|
 |---|---|
-|[WasteCharacteristicType](WasteCharacteristicType.md)|Stores all the different classifications for the waste characteristics\.|
-|[WasteQualityCharacteristic](WasteQualityCharacteristic.md)|Stores information on the characteristics of the contaminant or chemical being tracked\.|
-|[WasteQualityTestResult](WasteQualityTestResult.md)|Stores information on the result of the tests for tracking chemical/contaminant levels\.|
-|[WasteQuantity](WasteQuantity.md)|Stores information on the actual waste quantity of the organization\.|
-|[WasteTestMethod](WasteTestMethod.md)|Stores information on tests performed for the contaminant\.|
-|[WasteType](WasteType.md)|Stores information on the type of waste generated\.|
+|[WasteCharacteristicType](WasteCharacteristicType.md)|Stores all the different classifications for the waste characteristics.|
+|[WasteQualityCharacteristic](WasteQualityCharacteristic.md)|Stores information on the characteristics of the contaminant or chemical being tracked.|
+|[WasteQualityTestResult](WasteQualityTestResult.md)|Stores information on the result of the tests for tracking chemical/contaminant levels.|
+|[WasteQuantity](WasteQuantity.md)|Stores information on the actual waste quantity of the organization.|
+|[WasteTestMethod](WasteTestMethod.md)|Stores information on tests performed for the contaminant.|
+|[WasteType](WasteType.md)|Stores information on the type of waste generated.|
 
 ## Common entities shared with Cloud for Sustainability data model
 
