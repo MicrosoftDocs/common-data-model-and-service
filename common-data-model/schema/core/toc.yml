@@ -2676,7 +2676,7 @@
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWater/overview.md
             - name: Facility 
-              href: industryCommon/Sustainability/CloudforSustainabilityWaterDataModel/Facility.md
+              href: industryCommon/Sustainability/SustainabilityWater/Facility.md
             - name: StoredWater
               href: industryCommon/Sustainability/SustainabilityWater/StoredWater.md
             - name: WaterBasin
@@ -2704,13 +2704,13 @@
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWaste/overview.md
             - name: CircularityDesignPrinciple 
-              href: Sustainability/CloudforSustainabilityWasteDataModel/CircularityDesignPrinciple.md
+              href: Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
             - name: FacilityItemConsumption 
-              href: Sustainability/CloudforSustainabilityWasteDataModel/FacilityItemConsumption.md
+              href: Sustainability/SustainabilityWaste/FacilityItemConsumption.md
             - name: ItemBillOfMaterial 
-              href: Sustainability/CloudforSustainabilityWasteDataModel/ItemBillOfMaterial.md
+              href: Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
             - name: ItemSustainableContent 
-              href: Sustainability/CloudforSustainabilityWasteDataModel/ItemSustainableContent.md
+              href: Sustainability/SustainabilityWaste/ItemSustainableContent.md
             - name: WasteCharacteristicType
               href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
             - name: WasteQualityCharacteristic 
