@@ -1,15 +1,15 @@
 ---
-title: WasteTestMethod in Cloud for Sustainability Waste data model - Common Data Model | Microsoft Docs
+title: WasteTestMethod in CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
 description: Stores information on tests performed for the contaminant.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/22/2023
+ms.date: 9/26/2023
 ms.author: cdmditeam
 ---
 
-# Waste test method in Sustainability waste (WasteTestMethod)
+# Waste test method in CloudforSustainabilityWasteDataModel(WasteTestMethod)
 
 Stores information on tests performed for the contaminant\.  
   

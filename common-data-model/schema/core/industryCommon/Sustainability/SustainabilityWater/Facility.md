@@ -1,15 +1,15 @@
 ---
-title: Facility in Sustainability water data model - Common Data Model | Microsoft Docs
+title: Facility in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 6/27/2023
-ms.author: anbichse
+ms.date: 9/26/2023
+ms.author: cdmditeam
 ---
 
-# Facility in Sustainability water data model
+# Facility in CloudforSustainabilityWaterDataModel
 
 Base\x2dlevel location to attribute activity data\. May contain multiple buildings and organizational units\.  
   
@@ -136,7 +136,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterBasin.md" target="_blank">WaterBasin.cdm.json/WaterBasin</a></td><td><a href="WaterBasin.md#waterbasinId" target="_blank">waterbasinId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterBasin.md" target="_blank">WaterBasin.cdm.json/WaterBasin</a></td><td><a href="../../WaterBasin.md#waterbasinId" target="_blank">waterbasinId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -181,7 +181,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterRiskIndex.md" target="_blank">WaterRiskIndex.cdm.json/WaterRiskIndex</a></td><td><a href="WaterRiskIndex.md#waterriskindexId" target="_blank">waterriskindexId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterRiskIndex.md" target="_blank">WaterRiskIndex.cdm.json/WaterRiskIndex</a></td><td><a href="../../WaterRiskIndex.md#waterriskindexId" target="_blank">waterriskindexId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  

@@ -1,12 +1,12 @@
 ---
-title: WaterQualityTestResult in Sustainability Water Data Model - Common Data Model | Microsoft Docs
+title: WaterQualityTestResult in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
-ms.topic: anbichse
-ms.date: 6/27/2023
-ms.author: anbichse
+ms.topic: article
+ms.date: 9/26/2023
+ms.author: cdmditeam
 ---
 
 # Water quality test result in CloudforSustainabilityWaterDataModel(WaterQualityTestResult)
@@ -451,7 +451,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterQualityAnalysis.md" target="_blank">WaterQualityAnalysis.cdm.json/WaterQualityAnalysis</a></td><td><a href="WaterQualityAnalysis.md#waterqualityanalysisId" target="_blank">waterqualityanalysisId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterQualityAnalysis.md" target="_blank">WaterQualityAnalysis.cdm.json/WaterQualityAnalysis</a></td><td><a href="../../WaterQualityAnalysis.md#waterqualityanalysisId" target="_blank">waterqualityanalysisId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -824,7 +824,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Unit.md" target="_blank">cdm:/Sustainability/Unit.cdm.json/Unit</a></td><td><a href="../Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../cdm:/Sustainability/Unit.md" target="_blank">cdm:/Sustainability/Unit.cdm.json/Unit</a></td><td><a href="../../cdm:/Sustainability/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -869,7 +869,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterQualityCharacteristic.md" target="_blank">WaterQualityCharacteristic.cdm.json/WaterQualityCharacteristic</a></td><td><a href="WaterQualityCharacteristic.md#waterqualitycharacteristicId" target="_blank">waterqualitycharacteristicId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterQualityCharacteristic.md" target="_blank">WaterQualityCharacteristic.cdm.json/WaterQualityCharacteristic</a></td><td><a href="../../WaterQualityCharacteristic.md#waterqualitycharacteristicId" target="_blank">waterqualitycharacteristicId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -914,7 +914,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="WaterSample.md" target="_blank">WaterSample.cdm.json/WaterSample</a></td><td><a href="WaterSample.md#watersampleId" target="_blank">watersampleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../WaterSample.md" target="_blank">WaterSample.cdm.json/WaterSample</a></td><td><a href="../../WaterSample.md#watersampleId" target="_blank">watersampleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
