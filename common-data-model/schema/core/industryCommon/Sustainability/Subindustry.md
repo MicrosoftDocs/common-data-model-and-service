@@ -1,5 +1,5 @@
 ---
-title: Subindustry in Sustainability - Common Data Model | Microsoft Docs
+title: Subindustry in Sustainability - Common Data Model
 description: Child-level of the industry classisfication, which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: Unit in Sustainability - Common Data Model | Microsoft Docs
+title: Unit in Sustainability - Common Data Model
 description: Unit of measure.
 author: cdm-publisher
 ms.service: common-data-model

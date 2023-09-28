@@ -1,5 +1,5 @@
 ---
-title: CountryRegionMapping in Sustainability - Common Data Model | Microsoft Docs
+title: CountryRegionMapping in Sustainability - Common Data Model
 description: Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.
 author: cdm-publisher
 ms.service: common-data-model

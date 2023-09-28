@@ -1,5 +1,5 @@
 ---
-title: FacilityItemConsumption in CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
+title: FacilityItemConsumption in CloudforSustainabilityWasteDataModel - Common Data Model
 description: Entity used to record the quantity of an item consumed in a facility for a specified period.
 author: cdm-publisher
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: VehicleType in Sustainability - Common Data Model | Microsoft Docs
+title: VehicleType in Sustainability - Common Data Model
 description: Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.
 author: cdm-publisher
 ms.service: common-data-model

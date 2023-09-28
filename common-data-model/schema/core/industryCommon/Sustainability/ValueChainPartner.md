@@ -1,5 +1,5 @@
 ---
-title: ValueChainPartner in Sustainability - Common Data Model | Microsoft Docs
+title: ValueChainPartner in Sustainability - Common Data Model
 description: Entity for value chain partner or supplier.
 author: cdm-publisher
 ms.service: common-data-model

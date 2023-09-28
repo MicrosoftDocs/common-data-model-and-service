@@ -1,5 +1,5 @@
 ---
-title: SustainabilityItemPackaging in Sustainability - Common Data Model | Microsoft Docs
+title: SustainabilityItemPackaging in Sustainability - Common Data Model
 description: Indicates whether the item is used for packaging when distributing a product.
 author: cdm-publisher
 ms.service: common-data-model

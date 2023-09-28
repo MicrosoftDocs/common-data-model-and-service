@@ -1,5 +1,5 @@
 ---
-title: Emission in Sustainability - Common Data Model | Microsoft Docs
+title: Emission in Sustainability - Common Data Model
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
 author: cdm-publisher
 ms.service: common-data-model

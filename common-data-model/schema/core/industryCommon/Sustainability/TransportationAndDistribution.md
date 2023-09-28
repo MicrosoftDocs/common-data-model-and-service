@@ -1,5 +1,5 @@
 ---
-title: TransportationAndDistribution in Sustainability - Common Data Model | Microsoft Docs
+title: TransportationAndDistribution in Sustainability - Common Data Model
 description: Upstream and downstream transportation and distribution activities.
 author: cdm-publisher
 ms.service: common-data-model

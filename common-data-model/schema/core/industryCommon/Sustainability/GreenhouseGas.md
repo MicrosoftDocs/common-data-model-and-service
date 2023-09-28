@@ -1,5 +1,5 @@
 ---
-title: GreenhouseGas in Sustainability - Common Data Model | Microsoft Docs
+title: GreenhouseGas in Sustainability - Common Data Model
 description: Entity for greenhouse gases.
 author: cdm-publisher
 ms.service: common-data-model
