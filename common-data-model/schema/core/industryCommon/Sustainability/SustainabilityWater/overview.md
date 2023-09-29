@@ -11,7 +11,9 @@ ms.author: anbichse
 
 # Overview of Microsoft Cloud for Sustainability water data model
 
-Microsoft Cloud for Sustainability Water Data Model CDM entity definitions  
+The Cloud for Sustainability water data model (Preview) empowers organizations to unify, store and prepare water measurement data from their facilities into a single data model to help meet water sustainability goals. The Cloud for Sustainability water data model (Preview) provides the schema required for storing and linking water quality and quantity measurement data and water sustainability reference data. The schema makes water sustainability data available for use cases such as water sustainability disclosures and regulatory water quality reporting.
+
+For more information, see the [Microsoft Cloud for Sustainability water data model](/industry/sustainability/water-data-model-intro) documentation. The documentation includes [introductory information](/industry/sustainability/water-data-model-intro) about the data model, as well as information about the [required attributes](/industry/sustainability/water-data-model-required-attributes).  
 
 ## Entities
 
