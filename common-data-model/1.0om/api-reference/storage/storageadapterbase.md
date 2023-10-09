@@ -1,7 +1,7 @@
 ---
 title: Storage Adapter Base | Microsoft Docs
 description: The API reference for StorageAdapterBase.
-author: evank
+author: mafrisci
 
 ms.reviewer: deonhe
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: Storage adapter | Microsoft Docs
 description: The API reference for StorageAdapter.
-author: jinichu
+author: mafrisci
 
 ms.reviewer: deonhe 
 ms.topic: article
