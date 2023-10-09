@@ -6,7 +6,7 @@ author: evank
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 08/24/2020
-ms.author: evank
+ms.author: mafrisci
 ---
 
 # Storage Adapter Base
