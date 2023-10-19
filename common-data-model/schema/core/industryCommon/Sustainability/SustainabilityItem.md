@@ -1,12 +1,12 @@
 ---
-title: SustainabilityItem in Sustainability - Common Data Model
+title: SustainabilityItem in Sustainability - Common Data Model | Microsoft Docs
 description: Entity for capturing data on items/SKU inventoried such as input material and finished goods.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Sustainability item in Sustainability (SustainabilityItem)
@@ -31,7 +31,7 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityItem/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/SustainabilityItem.cdm.json/SustainabilityItem<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/SustainabilityItem.cdm.json<br>/SustainabilityItem/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity for capturing data on items/SKU inventoried such as input material and finished goods.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -954,7 +954,7 @@ First included in: Sustainability/SustainabilityItem (this entity)
 
 **is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="cdm:/core/applicationCommon/Account.md" target="_blank">cdm:/core/applicationCommon/Account.cdm.json/Account</a></td><td><a href="cdm:/core/applicationCommon/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
+ 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  

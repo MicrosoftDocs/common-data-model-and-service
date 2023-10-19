@@ -2641,28 +2641,28 @@
             href: industryCommon/Sustainability/OrganizationalProfile.md
           - name: OrganizationalUnit 
             href: industryCommon/Sustainability/OrganizationalUnit.md
-          - name: PreviewSustainabilityProduct 
+          - name: PreviewSustainabilityProduct
             href: industryCommon/Sustainability/PreviewSustainabilityProduct.md
           - name: PurchasedEnergy 
             href: industryCommon/Sustainability/PurchasedEnergy.md
           - name: PurchasedGoodAndService 
             href: industryCommon/Sustainability/PurchasedGoodAndService.md
-          - name: SpendType 
+          - name: SpendType
             href: industryCommon/Sustainability/SpendType.md
-          - name: StationaryCombustion 
+          - name: StationaryCombustion
             href: industryCommon/Sustainability/StationaryCombustion.md
           - name: Subindustry 
             href: industryCommon/Sustainability/Subindustry.md
-          - name: SustainabilityItem 
+          - name: SustainabilityItem
             href: industryCommon/Sustainability/SustainabilityItem.md
-          - name: SustainabilityItemCategorySKU 
+          - name: SustainabilityItemCategorySKU
             href: industryCommon/Sustainability/SustainabilityItemCategorySKU.md
-          - name: SustainabilityItemPackaging 
+          - name: SustainabilityItemPackaging
             href: industryCommon/Sustainability/SustainabilityItemPackaging.md
-          - name: TransportMode 
-            href: industryCommon/Sustainability/TransportMode.md
           - name: TransportationAndDistribution 
             href: industryCommon/Sustainability/TransportationAndDistribution.md
+          - name: TransportMode 
+            href: industryCommon/Sustainability/TransportMode.md
           - name: Unit 
             href: industryCommon/Sustainability/Unit.md
           - name: UnitGroup 
@@ -2671,12 +2671,26 @@
             href: industryCommon/Sustainability/ValueChainPartner.md
           - name: VehicleType 
             href: industryCommon/Sustainability/VehicleType.md
+          - name: Cloud for Sustainability waste data model
+            items:
+            - name: Summary
+              href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+            - name: WasteCharacteristicType
+              href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
+            - name: WasteQualityCharacteristic 
+              href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
+            - name: WasteQualityTestResult 
+              href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
+            - name: WasteQuantity 
+              href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
+            - name: WasteTestMethod 
+              href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
+            - name: WasteType 
+              href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
           - name: Cloud for Sustainability water data model
             items:
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWater/overview.md
-            - name: Facility 
-              href: industryCommon/Sustainability/SustainabilityWater/Facility.md
             - name: StoredWater
               href: industryCommon/Sustainability/SustainabilityWater/StoredWater.md
             - name: WaterBasin
@@ -2699,30 +2713,6 @@
               href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
             - name: WaterSource 
               href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
-          - name: Cloud for Sustainability waste data model
-            items:
-            - name: Summary
-              href: industryCommon/Sustainability/SustainabilityWaste/overview.md
-            - name: CircularityDesignPrinciple 
-              href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
-            - name: FacilityItemConsumption 
-              href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
-            - name: ItemBillOfMaterial 
-              href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
-            - name: ItemSustainableContent 
-              href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
-            - name: WasteCharacteristicType
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
-            - name: WasteQualityCharacteristic 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
-            - name: WasteQualityTestResult 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
-            - name: WasteQuantity 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
-            - name: WasteTestMethod 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
-            - name: WasteType 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
 - name: operationsCommon
   items:
   - name: Summary

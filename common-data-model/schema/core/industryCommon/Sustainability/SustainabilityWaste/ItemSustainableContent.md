@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
 ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Item sustainable content in Sustainability waste data model (ItemSustainableContent)
@@ -65,8 +65,8 @@ Entity for capturing data on the sustainable content types in the item such as p
 |[sustainabilityitemsku](#sustainabilityitemsku)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 |[sustainablecontentpercentage](#sustainablecontentpercentage)|The percentage of the sustainable content in the input material, based on sustainable content type.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 |[sustainablecontenttype](#sustainablecontenttype)|The type of sustainable content in the material, such as recycled, reused, or renewable.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[validfromdate](#validfromdate)|The date from which the supplier\x2dprovided item has the given sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[validtodate](#validtodate)|The date up to which the supplier\x2dprovided item has the given sustainable content. This date can be in the future.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
+|[validfromdate](#validfromdate)|The date from which the supplierx2dprovided item has the given sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
+|[validtodate](#validtodate)|The date up to which the supplierx2dprovided item has the given sustainable content. This date can be in the future.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 
 ### <a href=#itemsustainablecontentId name="itemsustainablecontentId">itemsustainablecontentId</a>
@@ -690,7 +690,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
-The date from which the supplier\x2dprovided item has the given sustainable content.  
+The date from which the supplierx2dprovided item has the given sustainable content.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
@@ -730,7 +730,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
-The date up to which the supplier\x2dprovided item has the given sustainable content. This date can be in the future.  
+The date up to which the supplierx2dprovided item has the given sustainable content. This date can be in the future.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties

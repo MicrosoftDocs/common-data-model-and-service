@@ -1,12 +1,12 @@
 ---
-title: PreviewSustainabilityProduct in Sustainability - Common Data Model
+title: PreviewSustainabilityProduct in Sustainability - Common Data Model | Microsoft Docs
 description: A product that can be associated with a product carbon footprint.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # (Preview) Sustainability product in Sustainability (PreviewSustainabilityProduct)
@@ -31,7 +31,7 @@ A product that can be associated with a product carbon footprint.
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PreviewSustainabilityProduct/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/PreviewSustainabilityProduct.cdm.json<br>/PreviewSustainabilityProduct/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/PreviewSustainabilityProduct.cdm.json<br>/PreviewSustainabilityProduct/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>A product that can be associated with a product carbon footprint.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -60,9 +60,9 @@ A product that can be associated with a product carbon footprint.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
-|[name](#name)|The non\x2dempty trade name of the product.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
+|[name](#name)|The nonx2dempty trade name of the product.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
-|[productdescription](#productdescription)|The free\x2dform description of the product plus other information related to it such as production technology or packaging.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
+|[productdescription](#productdescription)|The freex2dform description of the product plus other information related to it such as production technology or packaging.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 
 ### <a href=#sustainabilityproductId name="sustainabilityproductId">sustainabilityproductId</a>
@@ -456,7 +456,7 @@ First included in: Sustainability/PreviewSustainabilityProduct (this entity)
 
 ### <a href=#name name="name">name</a>
 
-The non\x2dempty trade name of the product.  
+The nonx2dempty trade name of the product.  
 First included in: Sustainability/PreviewSustainabilityProduct (this entity)  
 
 #### Properties
@@ -552,7 +552,7 @@ First included in: Sustainability/PreviewSustainabilityProduct (this entity)
 
 ### <a href=#productdescription name="productdescription">productdescription</a>
 
-The free\x2dform description of the product plus other information related to it such as production technology or packaging.  
+The freex2dform description of the product plus other information related to it such as production technology or packaging.  
 First included in: Sustainability/PreviewSustainabilityProduct (this entity)  
 
 #### Properties

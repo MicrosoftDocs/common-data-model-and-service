@@ -1,12 +1,12 @@
 ---
-title: UnitGroup in Sustainability - Common Data Model
+title: UnitGroup in Sustainability - Common Data Model | Microsoft Docs
 description: Grouping of units.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Unit group in Sustainability (UnitGroup)

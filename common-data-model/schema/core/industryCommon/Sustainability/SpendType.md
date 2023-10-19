@@ -1,12 +1,12 @@
 ---
-title: SpendType in Sustainability - Common Data Model
+title: SpendType in Sustainability - Common Data Model | Microsoft Docs
 description: Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Spend type in Sustainability (SpendType)

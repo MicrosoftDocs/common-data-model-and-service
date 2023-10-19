@@ -1,12 +1,12 @@
 ---
-title: IndustrialProcessType in Sustainability - Common Data Model
+title: IndustrialProcessType in Sustainability - Common Data Model | Microsoft Docs
 description: Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Industrial process type in Sustainability (IndustrialProcessType)

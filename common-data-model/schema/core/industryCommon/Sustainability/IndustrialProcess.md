@@ -1,12 +1,12 @@
 ---
-title: IndustrialProcess in Sustainability - Common Data Model
+title: IndustrialProcess in Sustainability - Common Data Model | Microsoft Docs
 description: Emissions source for scope 1 emissions relating to industrial processes.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Industrial process in Sustainability (IndustrialProcess)

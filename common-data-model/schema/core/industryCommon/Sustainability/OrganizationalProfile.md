@@ -1,12 +1,12 @@
 ---
-title: OrganizationalProfile in Sustainability - Common Data Model
+title: OrganizationalProfile in Sustainability - Common Data Model | Microsoft Docs
 description: The base information of the organization, for which the solution is built.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Organizational profile in Sustainability (OrganizationalProfile)

@@ -1,12 +1,12 @@
 ---
-title: ContractualInstrumentType in Sustainability - Common Data Model
+title: ContractualInstrumentType in Sustainability - Common Data Model | Microsoft Docs
 description: Documented method/approach to confirm and validate source data.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Contractual instrument type in Sustainability (ContractualInstrumentType)

@@ -6,12 +6,12 @@ ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
 ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Facility in Sustainability water data model 
 
-Base\x2dlevel location to attribute activity data. May contain multiple buildings and organizational units.  
+Basex2dlevel location to attribute activity data. May contain multiple buildings and organizational units.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/Facility.cdm.json" target="_blank">GitHub</a>.  
 
