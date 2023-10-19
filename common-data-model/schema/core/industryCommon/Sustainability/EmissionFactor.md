@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Emission factor in Sustainability(EmissionFactor)
+# Emission factor in Sustainability (EmissionFactor)
 
 Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.  
   

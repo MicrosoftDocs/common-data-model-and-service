@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Facility annual detail in Sustainability(FacilityAnnualDetail)
+# Facility annual detail in Sustainability (FacilityAnnualDetail)
 
 Captures intensity scores for a facility in a given year.  
   

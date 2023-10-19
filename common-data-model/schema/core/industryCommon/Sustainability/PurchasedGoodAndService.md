@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Purchased good and service in Sustainability(PurchasedGoodAndService)
+# Purchased good and service in Sustainability (PurchasedGoodAndService)
 
 Entity for purchased goods and services.  
   

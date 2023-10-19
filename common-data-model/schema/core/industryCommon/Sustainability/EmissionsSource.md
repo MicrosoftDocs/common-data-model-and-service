@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Emissions source in Sustainability(EmissionsSource)
+# Emissions source in Sustainability (EmissionsSource)
 
 Greenhouse Gas Protocol\x2ddefined emissions sources in scopes 1, 2, and 3.  
   

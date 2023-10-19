@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Business travel type in Sustainability(BusinessTravelType)
+# Business travel type in Sustainability (BusinessTravelType)
 
 Entity used for classifying the type of business travel, as defined in the reporting company.  
   

@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Greenhouse gas in Sustainability(GreenhouseGas)
+# Greenhouse gas in Sustainability (GreenhouseGas)
 
 Entity for greenhouse gases.  
   

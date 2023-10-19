@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Unit group in Sustainability(UnitGroup)
+# Unit group in Sustainability (UnitGroup)
 
 Grouping of units.  
   

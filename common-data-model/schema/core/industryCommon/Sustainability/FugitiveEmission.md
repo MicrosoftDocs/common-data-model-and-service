@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Fugitive emission in Sustainability(FugitiveEmission)
+# Fugitive emission in Sustainability (FugitiveEmission)
 
 Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.  
   

@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Mobile combustion in Sustainability(MobileCombustion)
+# Mobile combustion in Sustainability (MobileCombustion)
 
 Combustion that occurs in a moving vehicle, such as a car or truck.  
   

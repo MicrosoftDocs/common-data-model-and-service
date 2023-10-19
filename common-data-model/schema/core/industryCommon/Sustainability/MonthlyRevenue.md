@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Monthly revenue in Sustainability(MonthlyRevenue)
+# Monthly revenue in Sustainability (MonthlyRevenue)
 
 Captures revenue of an organizational unit by year and month in the company currency.  
   

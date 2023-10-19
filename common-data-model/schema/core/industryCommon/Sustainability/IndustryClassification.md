@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Industry classification in Sustainability(IndustryClassification)
+# Industry classification in Sustainability (IndustryClassification)
 
 Combination of the Industry parent\x2dlevel industry classification and the Subindustry child\x2dlevel industry classification, both defined on the company profile.  
   

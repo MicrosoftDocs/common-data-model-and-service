@@ -9,7 +9,7 @@ ms.date: 10/18/2023
 ms.author: anbichse
 ---
 
-# Organizational hierarchy in Sustainability(OrganizationalHierarchy)
+# Organizational hierarchy in Sustainability (OrganizationalHierarchy)
 
 The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.  
   
