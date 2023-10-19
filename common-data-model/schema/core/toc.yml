@@ -2704,13 +2704,13 @@
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWaste/overview.md
             - name: CircularityDesignPrinciple 
-              href: Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
+              href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
             - name: FacilityItemConsumption 
-              href: Sustainability/SustainabilityWaste/FacilityItemConsumption.md
+              href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
             - name: ItemBillOfMaterial 
-              href: Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
+              href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
             - name: ItemSustainableContent 
-              href: Sustainability/SustainabilityWaste/ItemSustainableContent.md
+              href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
             - name: WasteCharacteristicType
               href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
             - name: WasteQualityCharacteristic 
