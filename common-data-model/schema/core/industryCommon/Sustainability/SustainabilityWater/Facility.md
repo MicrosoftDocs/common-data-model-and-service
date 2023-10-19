@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
 ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Facility in Sustainability water data model 
