@@ -70,7 +70,7 @@ Combination of the Industry parentx2dlevel industry classification and the Subin
 ### <a href=#industryclassificationId name="industryclassificationId">industryclassificationId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the IndustryClassification  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the IndustryClassification  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The Name attribute is currently not used.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#industrynum name="industrynum">industrynum</a>
 
 Contains the mapping to the industry classification code in the form of a range.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#industryname name="industryname">industryname</a>
 
 Name of the industry.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -606,7 +606,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#organizationalprofile name="organizationalprofile">organizationalprofile</a>
 
 Unique identifier for Organizational Profile associated with Industry Classification.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#subindustryid name="subindustryid">subindustryid</a>
 
 Subindustry classification code.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 
@@ -699,7 +699,7 @@ First included in: Sustainability/IndustryClassification \(this entity\)
 ### <a href=#subindustryname name="subindustryname">subindustryname</a>
 
 Name of the subindustry.  
-First included in: Sustainability/IndustryClassification \(this entity\)  
+First included in: Sustainability/IndustryClassification (this entity)  
 
 #### Properties
 

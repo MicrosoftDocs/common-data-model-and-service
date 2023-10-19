@@ -72,7 +72,7 @@ Entity which connects reference data to a specific emission factor or estimation
 ### <a href=#emissionlookupId name="emissionlookupId">emissionlookupId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Factor Mapping  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Factor Mapping  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#calculationlibraryid name="calculationlibraryid">calculationlibraryid</a>
 
 Factor library to which the lookup belongs.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#factorid name="factorid">factorid</a>
 
 Unique identifier of the factor associated with the factor mapping.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#factoridType name="factoridType">factoridType</a>
 
 Unique identifier of the factor associated with the factor mapping.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -683,7 +683,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#referencedataid name="referencedataid">referencedataid</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -722,7 +722,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#referencedataidType name="referencedataidType">referencedataidType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 
@@ -761,7 +761,7 @@ First included in: Sustainability/FactorMapping \(this entity\)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/FactorMapping \(this entity\)  
+First included in: Sustainability/FactorMapping (this entity)  
 
 #### Properties
 

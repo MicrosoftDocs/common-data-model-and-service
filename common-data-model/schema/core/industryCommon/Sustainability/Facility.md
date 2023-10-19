@@ -75,7 +75,7 @@ Basex2dlevel location to attribute activity data. May contain multiple buildings
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -515,7 +515,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 The city in which the facility resides.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -563,7 +563,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -611,7 +611,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 The county/region in which the facility resides.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 The state or province in which the facility resides.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 The street address including the number and street name of the facility.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -755,7 +755,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Secondary street address information.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -803,7 +803,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 The zip or postal code in which the facility resides.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -851,7 +851,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -894,7 +894,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 
@@ -937,7 +937,7 @@ First included in: Sustainability/Facility \(this entity\)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/Facility \(this entity\)  
+First included in: Sustainability/Facility (this entity)  
 
 #### Properties
 

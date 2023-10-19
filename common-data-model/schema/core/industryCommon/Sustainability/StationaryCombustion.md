@@ -76,7 +76,7 @@ Combustion that occurs in a fixed asset, such as a boiler or furnace.
 ### <a href=#stationarycombustionId name="stationarycombustionId">stationarycombustionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -167,7 +167,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -426,7 +426,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -466,7 +466,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with the activity data.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -549,7 +549,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -594,7 +594,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -640,7 +640,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -688,7 +688,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with stationary combustion.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -781,7 +781,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier for the fuel type associated with combustion or supply chain fuel usage.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -826,7 +826,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with stationary combustion.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -871,7 +871,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#meternumber name="meternumber">meternumber</a>
 
 Field representing meter number for stationary combustion entity.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -919,7 +919,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the stationary combustion.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -964,7 +964,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -1007,7 +1007,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -1055,7 +1055,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 
@@ -1095,7 +1095,7 @@ First included in: Sustainability/StationaryCombustion \(this entity\)
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability/StationaryCombustion \(this entity\)  
+First included in: Sustainability/StationaryCombustion (this entity)  
 
 #### Properties
 

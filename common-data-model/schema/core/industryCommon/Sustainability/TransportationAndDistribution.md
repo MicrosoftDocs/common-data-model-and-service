@@ -86,7 +86,7 @@ Upstream and downstream transportation and distribution activities.
 ### <a href=#transportationanddistributionId name="transportationanddistributionId">transportationanddistributionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -134,7 +134,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -177,7 +177,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -225,7 +225,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -265,7 +265,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -305,7 +305,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -348,7 +348,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -388,7 +388,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -436,7 +436,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -476,7 +476,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -516,7 +516,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with the activity data.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -650,7 +650,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -698,7 +698,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#distance name="distance">distance</a>
 
 Quantity associated with the distance activity which contributes to mobile combustion or supply chain travel.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -741,7 +741,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#distanceunit name="distanceunit">distanceunit</a>
 
 Unique identifier for the unit associated with distance.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -786,7 +786,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -834,7 +834,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier associated with Transportation and distribution  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -879,7 +879,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#fuelquantity name="fuelquantity">fuelquantity</a>
 
 Unique identifier for the fuel consumption data associated with combustion or supply chain fuel usage.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#fuelquantityunit name="fuelquantityunit">fuelquantityunit</a>
 
 Unique identifier for the unit associated with fuel data.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -967,7 +967,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier for the fuel type associated with combustion or supply chain fuel usage.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 The quantity of goods being transported and distributed, which is used for calculation.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1055,7 +1055,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 Unique identifier for the unit relating to transportation and distribution of goods.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1100,7 +1100,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with activity.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1145,7 +1145,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with transportation and distribution.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1190,7 +1190,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1233,7 +1233,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1278,7 +1278,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1326,7 +1326,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1366,7 +1366,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#transportationanddistributiontype name="transportationanddistributiontype">transportationanddistributiontype</a>
 
 Marks what type of transportation and distribution this record represents.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1412,7 +1412,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#transportmode name="transportmode">transportmode</a>
 
 The transport mode that corresponds to this transportation and distribution activity.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1457,7 +1457,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#vehicletype name="vehicletype">vehicletype</a>
 
 Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with transportation and distribution.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1547,7 +1547,7 @@ First included in: Sustainability/TransportationAndDistribution \(this entity\)
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction.  
-First included in: Sustainability/TransportationAndDistribution \(this entity\)  
+First included in: Sustainability/TransportationAndDistribution (this entity)  
 
 #### Properties
 
