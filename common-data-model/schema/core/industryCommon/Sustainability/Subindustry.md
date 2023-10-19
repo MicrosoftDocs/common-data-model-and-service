@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Subindustry in Sustainability
 
-Child\x2dlevel of the industry classisfication, which contains an ID and name.  
+Childx2dlevel of the industry classisfication, which contains an ID and name.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/Subindustry.cdm.json" target="_blank">GitHub</a>.  
 

@@ -82,14 +82,14 @@ Conversion factor which takes activity data and converts quantities into greenho
 |[identifier](#identifier)|Identifier for the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[nf3](#nf3)|The amount of the nitrogen trifluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[nf3unit](#nf3unit)|The unit for the nitrogen trifluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
-|[otherghgs](#otherghgs)|The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFC\x2d23, HFC\x2d32, HFC\x2d125, etc., using the IPCC AR4 100\x2dyear GWP fact.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
+|[otherghgs](#otherghgs)|The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFCx2d23, HFCx2d32, HFCx2d125, etc., using the IPCC AR4 100x2dyear GWP fact.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[otherghgsunit](#otherghgsunit)|The unit for other greenhouse gases factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[pfcs](#pfcs)|The amount of the perfluorocarbons factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[pfcsunit](#pfcsunit)|The unit for the perfluorocarbons factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[sf6](#sf6)|The amount of the sulfur hexafluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[sf6unit](#sf6unit)|The unit for the sulfur hexafluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
-|[subtype](#subtype)|The sub\x2dtype of the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
+|[subtype](#subtype)|The subx2dtype of the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[type](#type)|The type of the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[unit](#unit)|The unit for the input data for the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 
@@ -1464,7 +1464,7 @@ First included in: Sustainability/EmissionFactor \(this entity\)
 
 ### <a href=#otherghgs name="otherghgs">otherghgs</a>
 
-The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFC\x2d23, HFC\x2d32, HFC\x2d125, etc., using the IPCC AR4 100\x2dyear GWP fact.  
+The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFCx2d23, HFCx2d32, HFCx2d125, etc., using the IPCC AR4 100x2dyear GWP fact.  
 First included in: Sustainability/EmissionFactor \(this entity\)  
 
 #### Properties
@@ -1776,7 +1776,7 @@ First included in: Sustainability/EmissionFactor \(this entity\)
 
 ### <a href=#subtype name="subtype">subtype</a>
 
-The sub\x2dtype of the emission factor.  
+The subx2dtype of the emission factor.  
 First included in: Sustainability/EmissionFactor \(this entity\)  
 
 #### Properties
