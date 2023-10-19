@@ -1,15 +1,15 @@
 ---
-title: BusinessTravel in Sustainability - Common Data Model | Microsoft Docs
+title: BusinessTravel in Sustainability - Common Data Model
 description: Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Business Travel in Sustainability
+# Business Travel in Sustainability (BusinessTravel)
 
 Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.  
   
@@ -28,7 +28,7 @@ Entity for business travel activity data, including vehicle, train, and air trav
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[BusinessTravel/(resolvedAttributes)/businesstravelId](#businesstravelId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/BusinessTravel.cdm.json/BusinessTravel<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/BusinessTravel.cdm.json<br>/BusinessTravel/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity for business travel activity data, including vehicle, train, and air travel, as well as hotel stays.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -469,7 +469,7 @@ First included in: Sustainability/BusinessTravel (this entity)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table> 
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="AccommodationType.md" target="_blank">AccommodationType.cdm.json/AccommodationType</a></td><td><a href="AccommodationType.md#accommodationtypeId" target="_blank">accommodationtypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  

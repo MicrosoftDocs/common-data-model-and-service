@@ -1,11 +1,11 @@
 ---
-title: Industry in Sustainability - Common Data Model | Microsoft Docs
+title: Industry in Sustainability - Common Data Model
 description: Parent level of the industry classification which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
@@ -31,7 +31,7 @@ Parent level of the industry classification which contains an ID and name.
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Industry/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/Industry.cdm.json/Industry/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/Industry.cdm.json/Industry<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Parent level of the industry classification which contains an ID and name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -59,7 +59,7 @@ Parent level of the industry classification which contains an ID and name.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Industry.md" target="_blank">Sustainability/Industry</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Industry.md" target="_blank">Sustainability/Industry</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Industry.md" target="_blank">Sustainability/Industry</a>|
-|[name](#name)|The name of the parent-level industry classification.|<a href="Industry.md" target="_blank">Sustainability/Industry</a>|
+|[name](#name)|The name of the parent\x2dlevel industry classification.|<a href="Industry.md" target="_blank">Sustainability/Industry</a>|
 |[industrynum](#industrynum)|Contains the mapping to the industry classification code in the form of a range.|<a href="Industry.md" target="_blank">Sustainability/Industry</a>|
 
 ### <a href=#industryId name="industryId">industryId</a>
@@ -413,7 +413,7 @@ First included in: Sustainability/Industry (this entity)
 
 ### <a href=#name name="name">name</a>
 
-The name of the parent-level industry classification.  
+The name of the parent\x2dlevel industry classification.  
 First included in: Sustainability/Industry (this entity)  
 
 #### Properties

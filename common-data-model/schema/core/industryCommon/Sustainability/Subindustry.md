@@ -1,17 +1,17 @@
 ---
-title: Subindustry in Sustainability - Common Data Model | Microsoft Docs
+title: Subindustry in Sustainability - Common Data Model
 description: Child-level of the industry classisfication, which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
 # Subindustry in Sustainability
 
-Child-level of the industry classisfication, which contains an ID and name.  
+Child\x2dlevel of the industry classisfication, which contains an ID and name.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/Subindustry.cdm.json" target="_blank">GitHub</a>.  
 
@@ -31,7 +31,7 @@ Child-level of the industry classisfication, which contains an ID and name.
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Subindustry/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/Subindustry.cdm.json/Subindustry/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/Subindustry.cdm.json/Subindustry<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Child-level of the industry classisfication, which contains an ID and name.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

@@ -1,11 +1,11 @@
 ---
-title: IndustrialProcess in Sustainability - Common Data Model | Microsoft Docs
+title: IndustrialProcess in Sustainability - Common Data Model
 description: Emissions source for scope 1 emissions relating to industrial processes.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
@@ -28,7 +28,7 @@ Emissions source for scope 1 emissions relating to industrial processes.
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[IndustrialProcess/(resolvedAttributes)/industrialprocessId](#industrialprocessId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/IndustrialProcess.cdm.json/IndustrialProcess<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/IndustrialProcess.cdm.json<br>/IndustrialProcess/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Emissions source for scope 1 emissions relating to industrial processes.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

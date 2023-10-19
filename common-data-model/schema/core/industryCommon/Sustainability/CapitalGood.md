@@ -1,11 +1,11 @@
 ---
-title: CapitalGood in Sustainability - Common Data Model | Microsoft Docs
+title: CapitalGood in Sustainability - Common Data Model
 description: Purchased entity that depreciates over time.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
@@ -28,7 +28,7 @@ Purchased entity that depreciates over time.
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CapitalGood/(resolvedAttributes)/capitalgoodId](#capitalgoodId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/CapitalGood.cdm.json/CapitalGood/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/CapitalGood.cdm.json/CapitalGood<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Purchased entity that depreciates over time.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
