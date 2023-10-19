@@ -2586,7 +2586,7 @@
         - name: Cloud for Sustainability data model
           items:
           - name: Summary
-            href: industryCommon/Sustainability/carbon-overview.md
+            href: industryCommon/Sustainability/overview.md
           - name: AccommodationType 
             href: industryCommon/Sustainability/AccommodationType.md
           - name: BusinessTravel 
@@ -2599,8 +2599,6 @@
             href: industryCommon/Sustainability/ContractualInstrumentType.md
           - name: CountryRegionMapping 
             href: industryCommon/Sustainability/CountryRegionMapping.md
-          - name: DisposalMethod 
-            href: industryCommon/Sustainability/DisposalMethod.md
           - name: Emission 
             href: industryCommon/Sustainability/Emission.md
           - name: EmissionFactor 
@@ -2611,8 +2609,8 @@
             href: industryCommon/Sustainability/EstimationFactor.md
           - name: Facility 
             href: industryCommon/Sustainability/Facility.md
-          - name: FacilityUsageDetail 
-            href: industryCommon/Sustainability/FacilityUsageDetail.md
+          - name: FacilityAnnualDetail 
+            href: industryCommon/Sustainability/FacilityAnnualDetail.md
           - name: FactorLibrary 
             href: industryCommon/Sustainability/FactorLibrary.md
           - name: FactorMapping 
@@ -2643,6 +2641,8 @@
             href: industryCommon/Sustainability/OrganizationalProfile.md
           - name: OrganizationalUnit 
             href: industryCommon/Sustainability/OrganizationalUnit.md
+          - name: PreviewSustainabilityProduct 
+            href: industryCommon/Sustainability/PreviewSustainabilityProduct.md
           - name: PurchasedEnergy 
             href: industryCommon/Sustainability/PurchasedEnergy.md
           - name: PurchasedGoodAndService 
@@ -2653,6 +2653,12 @@
             href: industryCommon/Sustainability/StationaryCombustion.md
           - name: Subindustry 
             href: industryCommon/Sustainability/Subindustry.md
+          - name: SustainabilityItem 
+            href: industryCommon/Sustainability/SustainabilityItem.md
+          - name: SustainabilityItemCategorySKU 
+            href: industryCommon/Sustainability/SustainabilityItemCategorySKU.md
+          - name: SustainabilityItemPackaging 
+            href: industryCommon/Sustainability/SustainabilityItemPackaging.md
           - name: TransportMode 
             href: industryCommon/Sustainability/TransportMode.md
           - name: TransportationAndDistribution 
@@ -2665,12 +2671,12 @@
             href: industryCommon/Sustainability/ValueChainPartner.md
           - name: VehicleType 
             href: industryCommon/Sustainability/VehicleType.md
-          - name: WasteGeneratedInOperations 
-            href: industryCommon/Sustainability/WasteGeneratedInOperations.md
           - name: Cloud for Sustainability water data model
             items:
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWater/overview.md
+            - name: Facility 
+              href: industryCommon/Sustainability/SustainabilityWater/Facility.md
             - name: StoredWater
               href: industryCommon/Sustainability/SustainabilityWater/StoredWater.md
             - name: WaterBasin
@@ -2697,6 +2703,14 @@
             items:
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+            - name: CircularityDesignPrinciple 
+              href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
+            - name: FacilityItemConsumption 
+              href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
+            - name: ItemBillOfMaterial 
+              href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
+            - name: ItemSustainableContent 
+              href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
             - name: WasteCharacteristicType
               href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
             - name: WasteQualityCharacteristic 

@@ -1,18 +1,17 @@
 ---
-title: Facility in Sustainability - Common Data Model | Microsoft Docs
+title: Facility in Sustainability - Common Data Model
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-
 # Facility in Sustainability
 
-Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
+Base\x2dlevel location to attribute activity data. May contain multiple buildings and organizational units.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/Facility.cdm.json" target="_blank">GitHub</a>.  
 

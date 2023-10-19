@@ -1,17 +1,17 @@
 ---
-title: CountryRegionMapping in Sustainability - Common Data Model | Microsoft Docs
+title: CountryRegionMapping in Sustainability - Common Data Model
 description: Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
 # Country/Region mapping in Sustainability (CountryRegionMapping)
 
-Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.  
+Entity storing the region mapping, which is a mapping of a country or region to a user\x2ddefined group.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/CountryRegionMapping.cdm.json" target="_blank">GitHub</a>.  
 
@@ -31,7 +31,7 @@ Entity storing the region mapping, which is a mapping of a country or region to 
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CountryRegionMapping/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/CountryRegionMapping.cdm.json<br>/CountryRegionMapping/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/CountryRegionMapping.cdm.json<br>/CountryRegionMapping/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

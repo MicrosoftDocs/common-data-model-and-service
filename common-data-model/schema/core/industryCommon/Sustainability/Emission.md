@@ -1,15 +1,15 @@
 ---
-title: Emission in Sustainability - Common Data Model | Microsoft Docs
+title: Emission in Sustainability - Common Data Model
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
-# Emission in Sustainability
+# Emission in Sustainability (Emission)
 
 Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.  
   
@@ -28,7 +28,7 @@ Entity which lists the most common greenhouse gases and their quantities as outp
   names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Emission/(resolvedAttributes)/emissionId](#emissionId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/Emission.cdm.json/Emission/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/Emission.cdm.json/Emission<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -78,7 +78,7 @@ Entity which lists the most common greenhouse gases and their quantities as outp
 |[hfcs](#hfcs)|The amount of hydrofluorocarbons factor.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[isbiogenic](#isbiogenic)|Indicates if it is a biogenic emission, or emission from a natural source.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
-|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market-based or considered a "net" calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
+|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market\x2dbased or considered a "net" calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[n2o](#n2o)|The amount of the N₂O factor.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
@@ -98,8 +98,6 @@ Entity which lists the most common greenhouse gases and their quantities as outp
 |[calculationlibrary](#calculationlibrary)|Emission factor library used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[emissionfactor](#emissionfactor)|Emission factor used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[emissionlookup](#emissionlookup)|Factor mapping used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
-|[actualquantity](#actualquantity)|Actual quantity used for emission calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
-|[actualquantityunit](#actualquantityunit)|Actual quantity unit used for emission calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 
 ### <a href=#emissionId name="emissionId">emissionId</a>
 
@@ -1430,7 +1428,7 @@ First included in: Sustainability/Emission (this entity)
 
 ### <a href=#ismarketbased name="ismarketbased">ismarketbased</a>
 
-Indicates if emission calculation is market-based or considered a "net" calculation.  
+Indicates if emission calculation is market\x2dbased or considered a "net" calculation.  
 First included in: Sustainability/Emission (this entity)  
 
 #### Properties
@@ -2306,94 +2304,6 @@ First included in: Sustainability/Emission (this entity)
 
 **is.linkedEntity.identifier**  
   Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="FactorMapping.md" target="_blank">FactorMapping.cdm.json/FactorMapping</a></td><td><a href="FactorMapping.md#emissionlookupId" target="_blank">emissionlookupId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-**is.dataFormat.guid**  
-  **is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#actualquantity name="actualquantity">actualquantity</a>
-
-Actual quantity used for emission calculation.  
-First included in: Sustainability/Emission (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual quantity</td></tr><tr><td>description</td><td>Actual quantity used for emission calculation.</td></tr><tr><td>dataFormat</td><td>decimal</td></tr><tr><td>maximumValue</td><td>100000000000</td></tr><tr><td>minimumValue</td><td>-100000000000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_actualquantity</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the actualquantity attribute are listed below.</summary>
-
-**is.dataFormat.numeric.shaped**  
-  for setting the exact precision and scale of numeric values  
-
-**is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual quantity used for emission calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual quantity</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"-100000000000"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"100000000000"</td><td>decimal</td><td></td></tr></table>
-
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_actualquantity"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"76"</td><td>integer</td><td></td></tr></table>
-
-**is.dataFormat.numeric.shaped**  
-  for setting the exact precision and scale of numeric values  
-
-</details>
-
-### <a href=#actualquantityunit name="actualquantityunit">actualquantityunit</a>
-
-Actual quantity unit used for emission calculation.  
-First included in: Sustainability/Emission (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Actual quantity unit</td></tr><tr><td>description</td><td>Actual quantity unit used for emission calculation.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the actualquantityunit attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.guid**  
-  **means.identity.entityId**  
-  **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-**is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual quantity unit used for emission calculation.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Actual quantity unit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-**is.CDS.lookup**  
-  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
-
-**is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Unit.md" target="_blank">Unit.cdm.json/Unit</a></td><td><a href="Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  

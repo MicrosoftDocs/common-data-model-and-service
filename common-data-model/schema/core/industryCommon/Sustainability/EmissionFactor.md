@@ -1,11 +1,11 @@
 ---
-title: EmissionFactor in Sustainability - Common Data Model | Microsoft Docs
+title: EmissionFactor in Sustainability - Common Data Model
 description: Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/5/2022
+ms.date: 09/29/2023
 ms.author: cdmditeam
 ---
 
@@ -31,7 +31,7 @@ Conversion factor which takes activity data and converts quantities into greenho
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EmissionFactor/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/CloudforSustainabilityDataModel<br>/EmissionFactor.cdm.json/EmissionFactor<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability/EmissionFactor.cdm.json<br>/EmissionFactor/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -82,14 +82,14 @@ Conversion factor which takes activity data and converts quantities into greenho
 |[identifier](#identifier)|Identifier for the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[nf3](#nf3)|The amount of the nitrogen trifluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[nf3unit](#nf3unit)|The unit for the nitrogen trifluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
-|[otherghgs](#otherghgs)|The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFC-23, HFC-32, HFC-125, etc., using the IPCC AR4 100-year GWP fact.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
+|[otherghgs](#otherghgs)|The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFC\x2d23, HFC\x2d32, HFC\x2d125, etc., using the IPCC AR4 100\x2dyear GWP fact.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[otherghgsunit](#otherghgsunit)|The unit for other greenhouse gases factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[pfcs](#pfcs)|The amount of the perfluorocarbons factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[pfcsunit](#pfcsunit)|The unit for the perfluorocarbons factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[sf6](#sf6)|The amount of the sulfur hexafluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[sf6unit](#sf6unit)|The unit for the sulfur hexafluoride factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
-|[subtype](#subtype)|The sub-type of the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
+|[subtype](#subtype)|The sub\x2dtype of the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[type](#type)|The type of the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 |[unit](#unit)|The unit for the input data for the emission factor.|<a href="EmissionFactor.md" target="_blank">Sustainability/EmissionFactor</a>|
 
@@ -937,7 +937,7 @@ First included in: Sustainability/EmissionFactor (this entity)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>250</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Optional description that provides additional detail about the entity or attribute.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_description</td></tr></table>
 
 #### Traits
 
@@ -961,7 +961,7 @@ First included in: Sustainability/EmissionFactor (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"250"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
 
 **is.nullable**  
   The attribute value may be set to NULL.  
@@ -1464,7 +1464,7 @@ First included in: Sustainability/EmissionFactor (this entity)
 
 ### <a href=#otherghgs name="otherghgs">otherghgs</a>
 
-The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFC-23, HFC-32, HFC-125, etc., using the IPCC AR4 100-year GWP fact.  
+The aggregated, carbon dioxide equivalents of the other greenhouse gases, such HFC\x2d23, HFC\x2d32, HFC\x2d125, etc., using the IPCC AR4 100\x2dyear GWP fact.  
 First included in: Sustainability/EmissionFactor (this entity)  
 
 #### Properties
@@ -1776,7 +1776,7 @@ First included in: Sustainability/EmissionFactor (this entity)
 
 ### <a href=#subtype name="subtype">subtype</a>
 
-The sub-type of the emission factor.  
+The sub\x2dtype of the emission factor.  
 First included in: Sustainability/EmissionFactor (this entity)  
 
 #### Properties
