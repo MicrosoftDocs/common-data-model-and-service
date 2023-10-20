@@ -1,12 +1,12 @@
 ---
-title: FuelType in Sustainability - Common Data Model
+title: FuelType in Sustainability - Common Data Model | Microsoft Docs
 description: List of fuels to be used during combustion, as needed for emissions factor selection.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Fuel type in Sustainability (FuelType)

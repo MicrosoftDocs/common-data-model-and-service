@@ -1,12 +1,12 @@
 ---
-title: EstimationFactor in Sustainability - Common Data Model
+title: EstimationFactor in Sustainability - Common Data Model | Microsoft Docs
 description: Entity to store estimation or consumption factors.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Estimation factor in Sustainability (EstimationFactor)
@@ -67,7 +67,7 @@ Entity to store estimation or consumption factors.
 |[factorvalue](#factorvalue)|Factor value for the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
 |[factorvalueunit](#factorvalueunit)|Unit of the factor value associated with the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
-|[subtype](#subtype)|The sub\x2dtype of the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
+|[subtype](#subtype)|The subx2dtype of the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
 |[type](#type)|The type of the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
 |[unit](#unit)|The unit for the input data for the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability/EstimationFactor</a>|
 
@@ -790,7 +790,7 @@ First included in: Sustainability/EstimationFactor (this entity)
 
 ### <a href=#subtype name="subtype">subtype</a>
 
-The sub\x2dtype of the estimation factor.  
+The subx2dtype of the estimation factor.  
 First included in: Sustainability/EstimationFactor (this entity)  
 
 #### Properties

@@ -1,12 +1,12 @@
 ---
-title: AccommodationType in Sustainability - Common Data Model
+title: AccommodationType in Sustainability - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of hotel accommodation, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Accommodation type in Sustainability (AccommodationType)

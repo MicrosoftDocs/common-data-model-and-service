@@ -1,17 +1,17 @@
 ---
-title: EmissionsSource in Sustainability - Common Data Model
+title: EmissionsSource in Sustainability - Common Data Model | Microsoft Docs
 description: Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Emissions source in Sustainability (EmissionsSource)
 
-Greenhouse Gas Protocol\x2ddefined emissions sources in scopes 1, 2, and 3.  
+Greenhouse Gas Protocolx2ddefined emissions sources in scopes 1, 2, and 3.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/EmissionsSource.cdm.json" target="_blank">GitHub</a>.  
 

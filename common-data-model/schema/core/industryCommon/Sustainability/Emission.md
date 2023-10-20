@@ -1,15 +1,15 @@
 ---
-title: Emission in Sustainability - Common Data Model
+title: Emission in Sustainability - Common Data Model | Microsoft Docs
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
-# Emission in Sustainability (Emission)
+# Emission in Sustainability
 
 Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.  
   
@@ -78,7 +78,7 @@ Entity which lists the most common greenhouse gases and their quantities as outp
 |[hfcs](#hfcs)|The amount of hydrofluorocarbons factor.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[isbiogenic](#isbiogenic)|Indicates if it is a biogenic emission, or emission from a natural source.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
-|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market\x2dbased or considered a "net" calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
+|[ismarketbased](#ismarketbased)|Indicates if emission calculation is marketx2dbased or considered a "net" calculation.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
 |[n2o](#n2o)|The amount of the N₂O factor.|<a href="Emission.md" target="_blank">Sustainability/Emission</a>|
@@ -1428,7 +1428,7 @@ First included in: Sustainability/Emission (this entity)
 
 ### <a href=#ismarketbased name="ismarketbased">ismarketbased</a>
 
-Indicates if emission calculation is market\x2dbased or considered a "net" calculation.  
+Indicates if emission calculation is marketx2dbased or considered a "net" calculation.  
 First included in: Sustainability/Emission (this entity)  
 
 #### Properties

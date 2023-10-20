@@ -1,17 +1,17 @@
 ---
-title: IndustryClassification in Sustainability - Common Data Model
+title: IndustryClassification in Sustainability - Common Data Model | Microsoft Docs
 description: Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Industry classification in Sustainability (IndustryClassification)
 
-Combination of the Industry parent\x2dlevel industry classification and the Subindustry child\x2dlevel industry classification, both defined on the company profile.  
+Combination of the Industry parentx2dlevel industry classification and the Subindustry childx2dlevel industry classification, both defined on the company profile.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/IndustryClassification.cdm.json" target="_blank">GitHub</a>.  
 

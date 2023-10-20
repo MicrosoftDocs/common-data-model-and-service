@@ -1,12 +1,12 @@
 ---
-title: Overview of Sustainability - Common Data Model
+title: Overview of Sustainability - Common Data Model | Microsoft Docs
 description: Sustainability is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
-ms.author: cdmditeam
+ms.date: 10/18/2023
+ms.author: anbichse
 ---
 
 # Overview of Microsoft Cloud for Sustainability data model
@@ -14,8 +14,6 @@ ms.author: cdmditeam
 Microsoft Cloud for Sustainability empowers organizations to accelerate sustainability progress and business growth by integrating environmental, social, and governance (ESG) capabilities across the Microsoft Cloud portfolio and solutions from our global ecosystem of partners.
 
 This data model is the foundation for Microsoft Cloud for Sustainability, but can also be used independently by ISVs and customers for building additional sustainability solutions. It is used to import customer activities that produce greenhouse gas emissions for emissions calculations and reporting of emissions impact.
-
-The [Microsoft Cloud for Sustainability water data model](/industry/sustainability/water-data-model-intro) and [Microsoft Cloud for Sustainability waste data model](/industry/sustainability/waste-data-model-intro) are extensions of this data model.
 
 For more information, see the [Microsoft Cloud for Sustainability](https://go.microsoft.com/fwlink/?linkid=2193512) documentation. The documentation includes [introductory information](https://go.microsoft.com/fwlink/?linkid=2194529) about the data model, as well as information about the [required attributes](https://go.microsoft.com/fwlink/?linkid=2194273).
 
