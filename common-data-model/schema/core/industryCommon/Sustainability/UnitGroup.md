@@ -1,6 +1,6 @@
 ---
 title: UnitGroup in Sustainability
-description: Grouping of units.
+description: Grouping of units in Sustainability.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
