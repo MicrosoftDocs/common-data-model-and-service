@@ -1,5 +1,5 @@
 ---
-title: Material in Sustainability - Common Data Model | Microsoft Docs
+title: Material in Sustainability
 description: Entity used for classifying the type of material, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model

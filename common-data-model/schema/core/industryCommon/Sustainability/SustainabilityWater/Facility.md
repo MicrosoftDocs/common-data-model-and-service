@@ -1,5 +1,5 @@
 ---
-title: Facility in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
+title: Facility in Cloud for Sustainability water data model
 description: Base-level location to attribute activity data. Can contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model

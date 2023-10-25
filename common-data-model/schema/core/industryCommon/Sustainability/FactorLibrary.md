@@ -1,5 +1,5 @@
 ---
-title: FactorLibrary in Sustainability - Common Data Model | Microsoft Docs
+title: FactorLibrary in Sustainability
 description: Repository for emission and estimation factor sets, including both system and user added.
 author: cdm-publisher
 ms.service: common-data-model

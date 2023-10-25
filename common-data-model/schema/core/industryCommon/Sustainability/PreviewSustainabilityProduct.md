@@ -1,5 +1,5 @@
 ---
-title: PreviewSustainabilityProduct in Sustainability - Common Data Model | Microsoft Docs
+title: PreviewSustainabilityProduct in Sustainability
 description: A product that can be associated with a product carbon footprint.
 author: cdm-publisher
 ms.service: common-data-model

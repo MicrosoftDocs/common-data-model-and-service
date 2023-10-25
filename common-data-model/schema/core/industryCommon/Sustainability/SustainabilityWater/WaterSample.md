@@ -1,5 +1,5 @@
 ---
-title: WaterSample in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
+title: WaterSample in Cloud for Sustainability water data model
 description: Stores the attributes of the water samples collected for testing water quality.
 author: cdm-publisher
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: WaterQualityTestResult in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
+title: WaterQualityTestResult in Cloud for Sustainability water data model
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model

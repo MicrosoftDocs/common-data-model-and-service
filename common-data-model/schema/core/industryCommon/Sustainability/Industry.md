@@ -1,5 +1,5 @@
 ---
-title: Industry in Sustainability - Common Data Model | Microsoft Docs
+title: Industry in Sustainability
 description: Parent level of the industry classification which contains an ID and name.
 author: cdm-publisher
 ms.service: common-data-model

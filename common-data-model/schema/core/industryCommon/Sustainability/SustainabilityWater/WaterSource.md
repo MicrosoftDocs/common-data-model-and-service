@@ -1,5 +1,5 @@
 ---
-title: WaterSource in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
+title: WaterSource in Cloud for Sustainability water data model
 description: Entity to store details of sources from/to which water gets withdrawn/discharged.
 author: cdm-publisher
 ms.service: common-data-model

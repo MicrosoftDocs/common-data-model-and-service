@@ -1,5 +1,5 @@
 ---
-title: SustainabilityItemCategorySKU in Sustainability - Common Data Model | Microsoft Docs
+title: SustainabilityItemCategorySKU in Sustainability
 description: The category of the item such as abrasives, castings or accessories
 author: cdm-publisher
 ms.service: common-data-model
