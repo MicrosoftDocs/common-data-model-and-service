@@ -15,7 +15,6 @@ The Cloud for Sustainability waste data model (preview) enables organizations to
 
 For more information, see the [Microsoft Cloud for Sustainability waste data model](/industry/sustainability/waste-data-model-intro) documentation. The documentation includes [introductory information](/industry/sustainability/waste-data-model-intro) about the data model, as well as information about the [required attributes](/industry/sustainability/waste-data-model-required-attributes).
 
-
 ## Entities
 
 |Name|Description|
