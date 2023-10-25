@@ -1,15 +1,15 @@
 ---
-title: ItemSustainableContent in Sustainability waste data model - Common Data Model
+title: ItemSustainableContent in Cloud for Sustainability waste data model
 description: Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
+ms.date: 10/24/2023
 ms.author: anbichse
 ---
 
-# Item sustainable content in Sustainability waste data model (ItemSustainableContent)
+# Item sustainable content in Cloud for Sustainability waste data model (ItemSustainableContent)
 
 Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.  
   
@@ -65,8 +65,8 @@ Entity for capturing data on the sustainable content types in the item such as p
 |[sustainabilityitemsku](#sustainabilityitemsku)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 |[sustainablecontentpercentage](#sustainablecontentpercentage)|The percentage of the sustainable content in the input material, based on sustainable content type.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 |[sustainablecontenttype](#sustainablecontenttype)|The type of sustainable content in the material, such as recycled, reused, or renewable.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[validfromdate](#validfromdate)|The date from which the supplierx2dprovided item has the given sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[validtodate](#validtodate)|The date up to which the supplierx2dprovided item has the given sustainable content. This date can be in the future.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
+|[validfromdate](#validfromdate)|The date from which the supplier\x2dprovided item has the given sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
+|[validtodate](#validtodate)|The date up to which the supplier\x2dprovided item has the given sustainable content. This date can be in the future.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
 
 ### <a href=#itemsustainablecontentId name="itemsustainablecontentId">itemsustainablecontentId</a>
@@ -590,7 +590,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="cdm:/Sustainability/SustainabilityItem.md" target="_blank">cdm:/Sustainability/SustainabilityItem.cdm.json/SustainabilityItem</a></td><td><a href="cdm:/Sustainability/SustainabilityItem.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityItem.md" target="_blank">../SustainabilityItem.cdm.json/SustainabilityItem</a></td><td><a href="../SustainabilityItem.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
@@ -690,7 +690,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
-The date from which the supplierx2dprovided item has the given sustainable content.  
+The date from which the supplier\x2dprovided item has the given sustainable content.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties
@@ -730,7 +730,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
-The date up to which the supplierx2dprovided item has the given sustainable content. This date can be in the future.  
+The date up to which the supplier\x2dprovided item has the given sustainable content. This date can be in the future.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
 
 #### Properties

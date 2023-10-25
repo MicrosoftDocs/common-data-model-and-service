@@ -1,5 +1,5 @@
 ---
-title: FacilityAnnualDetail in Sustainability - Common Data Model | Microsoft Docs
+title: FacilityAnnualDetail in Sustainability
 description: Captures intensity scores for a facility in a given year.
 author: cdm-publisher
 ms.service: common-data-model

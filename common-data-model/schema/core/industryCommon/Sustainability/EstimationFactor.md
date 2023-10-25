@@ -1,5 +1,5 @@
 ---
-title: EstimationFactor in Sustainability - Common Data Model | Microsoft Docs
+title: EstimationFactor in Sustainability
 description: Entity to store estimation or consumption factors.
 author: cdm-publisher
 ms.service: common-data-model
