@@ -1,25 +1,25 @@
 ---
-title: WaterRiskIndex in Sustainability water data model - Common Data Model
+title: WaterRiskIndex in Cloud for Sustainability water data model
 description: The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.Ex&#58- Low- Low-medium- Medium- Medium-high- High- Extremely-high
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
+ms.date: 10/24/2023
 ms.author: anbichse
 ---
 
-# Water risk index in Sustainability water data model (WaterRiskIndex)
+# Water risk index in Cloud for Sustainability water data model (WaterRiskIndex)
 
-The overall water risk that measures all waterx2drelated risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
+The overall water risk that measures all water\x2drelated risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
 
 Ex:
-x2d Low
-x2d Lowx2dmedium
-x2d Medium
-x2d Mediumx2dhigh
-x2d High
-x2d Extremelyx2dhigh  
+\x2d Low
+\x2d Low\x2dmedium
+\x2d Medium
+\x2d Medium\x2dhigh
+\x2d High
+\x2d Extremely\x2dhigh  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex.cdm.json" target="_blank">GitHub</a>.  
 
@@ -78,7 +78,7 @@ Ex:
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[name](#name)|The name of the custom entity.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[description](#description)|Optional field to describe the entity.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
-|[waterstressedarea](#waterstressedarea)|Field to store the flag to categorise a water risk index record as a highx2dwater stress category.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
+|[waterstressedarea](#waterstressedarea)|Field to store the flag to categorise a water risk index record as a high\x2dwater stress category.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the water sample.|<a href="WaterRiskIndex.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/WaterRiskIndex</a>|
 
 ### <a href=#waterriskindexId name="waterriskindexId">waterriskindexId</a>
@@ -568,7 +568,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRis
 
 ### <a href=#waterstressedarea name="waterstressedarea">waterstressedarea</a>
 
-Field to store the flag to categorise a water risk index record as a highx2dwater stress category.  
+Field to store the flag to categorise a water risk index record as a high\x2dwater stress category.  
 First included in: Sustainability\\CloudforSustainabilityWaterDataModel/WaterRiskIndex (this entity)  
 
 #### Properties

@@ -1,15 +1,15 @@
 ---
-title: WasteType in Sustainability waste data model - Common Data Model
+title: WasteType in Cloud for Sustainability waste data model
 description: Stores information on the type of waste generated.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 09/29/2023
+ms.date: 10/24/2023
 ms.author: anbichse
 ---
 
-# Waste type in Sustainability waste data model (WasteType)
+# Waste type in Cloud for Sustainability waste data model (WasteType)
 
 Stores information on the type of waste generated.  
   
@@ -66,7 +66,7 @@ Stores information on the type of waste generated.
 |[isradioactive](#isradioactive)|Indicates whether the waste is radioactive in nature or not.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier values for the entity.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 |[wastecategory](#wastecategory)|Category of the waste such as industrial waste, municipal waste, consumer waste.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
-|[wastestream](#wastestream)|Waste stream specific to the sector, such as metal tailings, ex2dwaste, and construction and demolition.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
+|[wastestream](#wastestream)|Waste stream specific to the sector, such as metal tailings, e\x2dwaste, and construction and demolition.|<a href="WasteType.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteType</a>|
 
 ### <a href=#wastetypeId name="wastetypeId">wastetypeId</a>
 
@@ -723,7 +723,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteTyp
 
 ### <a href=#wastestream name="wastestream">wastestream</a>
 
-Waste stream specific to the sector, such as metal tailings, ex2dwaste, and construction and demolition.  
+Waste stream specific to the sector, such as metal tailings, e\x2dwaste, and construction and demolition.  
 First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteType (this entity)  
 
 #### Properties

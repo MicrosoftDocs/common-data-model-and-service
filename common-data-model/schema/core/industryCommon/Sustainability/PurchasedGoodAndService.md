@@ -1,5 +1,5 @@
 ---
-title: PurchasedGoodAndService in Sustainability - Common Data Model | Microsoft Docs
+title: PurchasedGoodAndService in Sustainability
 description: Entity for purchased goods and services.
 author: cdm-publisher
 ms.service: common-data-model

@@ -1,5 +1,5 @@
 ---
-title: CapitalGood in Sustainability - Common Data Model | Microsoft Docs
+title: CapitalGood in Sustainability
 description: Purchased entity that depreciates over time.
 author: cdm-publisher
 ms.service: common-data-model

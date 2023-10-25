@@ -1,5 +1,5 @@
 ---
-title: OrganizationalUnit in Sustainability - Common Data Model | Microsoft Docs
+title: OrganizationalUnit in Sustainability
 description: A structural division of a company or organization.
 author: cdm-publisher
 ms.service: common-data-model

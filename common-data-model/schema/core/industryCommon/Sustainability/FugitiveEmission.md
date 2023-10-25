@@ -1,5 +1,5 @@
 ---
-title: FugitiveEmission in Sustainability - Common Data Model | Microsoft Docs
+title: FugitiveEmission in Sustainability
 description: Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.
 author: cdm-publisher
 ms.service: common-data-model

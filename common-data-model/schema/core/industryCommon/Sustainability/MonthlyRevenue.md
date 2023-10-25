@@ -1,5 +1,5 @@
 ---
-title: MonthlyRevenue in Sustainability - Common Data Model | Microsoft Docs
+title: MonthlyRevenue in Sustainability
 description: Captures revenue of an organizational unit by year and month in the company currency.
 author: cdm-publisher
 ms.service: common-data-model
