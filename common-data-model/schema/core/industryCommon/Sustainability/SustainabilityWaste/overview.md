@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Overview of Cloud for Sustainability waste data model
 
-The Cloud for Sustainability waste data model (preview) enables organizations to unify, standardize and prepare waste sustainability data in order to track and achieve their net zero waste sustainability goals. The Cloud for Sustainability waste data model (Preview) provides the schema required for storing and integrating waste quality and quantity measurement data with sustainability waste reference data. The schema makes waste sustainability data available for use cases such as regulatory disclosures for waste generated and disposed as well as for compliance monitoring of hazardous/radioactive waste quality characteristics.
+The Cloud for Sustainability waste data model (preview) enables organizations to unify, standardize and prepare waste sustainability data in order to track and achieve their net zero waste sustainability goals. The Cloud for Sustainability waste data model (preview) provides the schema required for storing and integrating waste quality and quantity measurement data with sustainability waste reference data. The schema makes waste sustainability data available for use cases such as regulatory disclosures for waste generated and disposed as well as for compliance monitoring of hazardous/radioactive waste quality characteristics.
 
 For more information, see the [Microsoft Cloud for Sustainability waste data model](/industry/sustainability/waste-data-model-intro) documentation. The documentation includes [introductory information](/industry/sustainability/waste-data-model-intro) about the data model, as well as information about the [required attributes](/industry/sustainability/waste-data-model-required-attributes).
 
