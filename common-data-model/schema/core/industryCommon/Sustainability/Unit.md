@@ -1,6 +1,6 @@
 ---
 title: Unit in Sustainability
-description: Unit of measure.
+description: Unit of measure in Sustainability.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
