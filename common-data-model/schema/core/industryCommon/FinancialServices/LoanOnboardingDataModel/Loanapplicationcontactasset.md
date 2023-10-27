@@ -58,7 +58,7 @@ Application contact associated with the application asset.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
 |[name](#name)|Required name field.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
-|[holdingRole](#holdingRole)|Is this loan application contact the owner or co\x2dholder of the asset.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
+|[holdingRole](#holdingRole)|Is this loan application contact the owner or co-holder of the asset.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
 |[loanApplicationAsset](#loanApplicationAsset)|The asset associated with this particular loan application contact.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
 |[loanApplicationContact](#loanApplicationContact)|The loan application contact associated with particular asset.|<a href="Loanapplicationcontactasset.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontactasset</a>|
 
@@ -504,7 +504,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcontactasset (this ent
 
 ### <a href=#holdingRole name="holdingRole">holdingRole</a>
 
-Is this loan application contact the owner or co\x2dholder of the asset.  
+Is this loan application contact the owner or co-holder of the asset.  
 First included in: LoanOnboardingDataModel/Loanapplicationcontactasset (this entity)  
 
 #### Properties

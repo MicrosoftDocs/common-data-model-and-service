@@ -62,7 +62,7 @@ A payment card issued by a bank to an account holder enabling the account holder
 |[cardholder](#cardholder)|The customer associated with the card.|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
 |[cardholderType](#cardholderType)|The customer associated with the card.|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
 |[cardNetwork](#cardNetwork)|This is the credit card network, such as Visa, Mastercard, or American Express.|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
-|[cardnumber](#cardnumber)|The customer's card number (with appropriate masking, PCI\x2dcompliant).|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
+|[cardnumber](#cardnumber)|The customer's card number (with appropriate masking, PCI-compliant).|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
 |[cardType](#cardType)|The type of card held by the customer (Debit or Credit).|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
 |[dateoflastcashwithdrawal](#dateoflastcashwithdrawal)|The date of the last cash withdrawal transaction performed with the card.|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
 |[dateoflasttransaction](#dateoflasttransaction)|The date of the last transaction performed with the card.|<a href="Fi_card.md" target="_blank">RetailBankingCoreDataModel/Fi_card</a>|
@@ -699,7 +699,7 @@ First included in: RetailBankingCoreDataModel/Fi_card (this entity)
 
 ### <a href=#cardnumber name="cardnumber">cardnumber</a>
 
-The customer's card number (with appropriate masking, PCI\x2dcompliant).  
+The customer's card number (with appropriate masking, PCI-compliant).  
 First included in: RetailBankingCoreDataModel/Fi_card (this entity)  
 
 #### Properties

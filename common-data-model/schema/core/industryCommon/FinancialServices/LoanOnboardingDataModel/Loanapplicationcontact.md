@@ -83,7 +83,7 @@ The customer associated with the loan application.
 |[loanApplicationID](#loanApplicationID)|The unique identifier of the loan application connected to the customer.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[loanApplicationRole](#loanApplicationRole)|Describes the role of the contact in the loan application.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[loansinthepast90days](#loansinthepast90days)|Number of loans the Loan Application Contact has applied for in the previous 90 days.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
-|[maritalStatus](#maritalStatus)|Select the marital status of the loan application contact for reference in follow\x2dup phone calls and other communications.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
+|[maritalStatus](#maritalStatus)|Select the marital status of the loan application contact for reference in follow-up phone calls and other communications.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[middleName](#middleName)|The Loan Application Contact's middle name.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[numberofYearsatPresentAddress](#numberofYearsatPresentAddress)|Number of Years at Present Address.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
 |[phone](#phone)|The main phone number of the loan application contact.|<a href="Loanapplicationcontact.md" target="_blank">LoanOnboardingDataModel/Loanapplicationcontact</a>|
@@ -1701,7 +1701,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationcontact (this entity)
 
 ### <a href=#maritalStatus name="maritalStatus">maritalStatus</a>
 
-Select the marital status of the loan application contact for reference in follow\x2dup phone calls and other communications.  
+Select the marital status of the loan application contact for reference in follow-up phone calls and other communications.  
 First included in: LoanOnboardingDataModel/Loanapplicationcontact (this entity)  
 
 #### Properties

@@ -61,7 +61,7 @@ A contract of insurance between the customer and the Insurer. The Policy relates
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[name](#name)|Required name field.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
-|[amendmentnumber](#amendmentnumber)|Version of the amendment to existing Policy\x2d all transactions in a Policy term.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
+|[amendmentnumber](#amendmentnumber)|Version of the amendment to existing Policy- all transactions in a Policy term.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[cancellationdate](#cancellationdate)|The date on which the Insurance Policy was cancelled.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[cancellationreason](#cancellationreason)|The reason for canceling the Insurance Policy.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
 |[cancellationtype](#cancellationtype)|Reason of cancellation.|<a href="Policy.md" target="_blank">PropertyandCasualtyDataModel/Policy</a>|
@@ -535,7 +535,7 @@ First included in: PropertyandCasualtyDataModel/Policy (this entity)
 
 ### <a href=#amendmentnumber name="amendmentnumber">amendmentnumber</a>
 
-Version of the amendment to existing Policy\x2d all transactions in a Policy term.  
+Version of the amendment to existing Policy- all transactions in a Policy term.  
 First included in: PropertyandCasualtyDataModel/Policy (this entity)  
 
 #### Properties

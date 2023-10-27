@@ -70,7 +70,7 @@ A permit from an authority for insurance professionals, for example to sell insu
 |[licenseholderType](#licenseholderType)|The party holding the license, e.g., Agent, Agency. Can also be an account presenting a 3rd party such as tow/law company.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[licensenumber](#licensenumber)|Unique License ID in the source system.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[status](#status)|The status of the party's license, for example active, expired, or suspended.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
-|[type](#type)|Indicates the type of license that the Agent has, for example, resident, non\x2dresident, adjuster, life, personal.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
+|[type](#type)|Indicates the type of license that the Agent has, for example, resident, non-resident, adjuster, life, personal.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[validfrom](#validfrom)|Validity state date of the license.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 |[validto](#validto)|Expiry date of license.|<a href="ProfessionalLicense.md" target="_blank">PropertyandCasualtyDataModel/ProfessionalLicense</a>|
 
@@ -896,7 +896,7 @@ First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity
 
 ### <a href=#type name="type">type</a>
 
-Indicates the type of license that the Agent has, for example, resident, non\x2dresident, adjuster, life, personal.  
+Indicates the type of license that the Agent has, for example, resident, non-resident, adjuster, life, personal.  
 First included in: PropertyandCasualtyDataModel/ProfessionalLicense (this entity)  
 
 #### Properties

@@ -78,7 +78,7 @@ A provision related to hazards, circumstances, or specific property not covered 
 |[limiteachoccurrence_Base](#limiteachoccurrence_Base)|Value of the limit each occurrence in base currency.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
 |[limiteachperson](#limiteachperson)|The maximum monetary limit of the Coverage per person.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
 |[limiteachperson_Base](#limiteachperson_Base)|Value of the limit each person in base currency.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
-|[premiumadjustmentfactor](#premiumadjustmentfactor)|Rate modification factor apply to the base rate to allow for better pricing the risk \x2ddepicting, expenses, risk, etc.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
+|[premiumadjustmentfactor](#premiumadjustmentfactor)|Rate modification factor apply to the base rate to allow for better pricing the risk -depicting, expenses, risk, etc.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
 |[premiumamount](#premiumamount)|Value of the premium amount.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
 |[premiumamount_Base](#premiumamount_Base)|Value of the Premium amount in base currency.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
 |[rate](#rate)|Base rate for a single exposure before any RMF.|<a href="ExclusionInclusion.md" target="_blank">PropertyandCasualtyDataModel/ExclusionInclusion</a>|
@@ -1248,7 +1248,7 @@ First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)
 
 ### <a href=#premiumadjustmentfactor name="premiumadjustmentfactor">premiumadjustmentfactor</a>
 
-Rate modification factor apply to the base rate to allow for better pricing the risk \x2ddepicting, expenses, risk, etc.  
+Rate modification factor apply to the base rate to allow for better pricing the risk -depicting, expenses, risk, etc.  
 First included in: PropertyandCasualtyDataModel/ExclusionInclusion (this entity)  
 
 #### Properties

@@ -72,22 +72,22 @@ Savings accounts held by the customer at the financial institution.
 |[balanceatMaturity_default](#balanceatMaturity_default)|Balance at maturity converted to default currency of the system.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[balanceDefault](#balanceDefault)|Balance converted to default currency of the system.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[balanceExchangerate](#balanceExchangerate)|Exchange rate between the transaction currency of the financial holding and the default currency (1 unit of transaction currency = X units of default currency).|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
-|[blockedAmount](#blockedAmount)|The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
+|[blockedAmount](#blockedAmount)|The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long-term savings and account|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[blockedamount_Base](#blockedamount_Base)|Value of the blocked amount in base currency.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
-|[blockedAmount_default](#blockedAmount_default)|The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account Value should be converted to base currency.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
+|[blockedAmount_default](#blockedAmount_default)|The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long-term savings and account Value should be converted to base currency.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[financialHoldingType](#financialHoldingType)|Subtypes under Financial Category.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[initialSource](#initialSource)|The source of funds that were initially deposited into the account.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[interestrate](#interestrate)|The rate of interest applied to the financial holding, to be earned during a defined period/term. |<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
-|[maturitydate](#maturitydate)|The target date on which an interest\x2dbearing savings financial holding is terminated, and full interst is paid.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
+|[maturitydate](#maturitydate)|The target date on which an interest-bearing savings financial holding is terminated, and full interst is paid.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[maturityInstructionsDetails](#maturityInstructionsDetails)|The instructions given by the customer about handling an account upon maturity, such as transfer of interest to another account, or transfer of principal and interest amount to another account.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[projectedInterestAmount](#projectedInterestAmount)|The amount of interested expected to be earned on the account based on the interest rate.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[projectedinterestamount_Base](#projectedinterestamount_Base)|Value of the projected interest amount in base currency.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[projectedInterestAmount_default](#projectedInterestAmount_default)|Projected interest amount converted to default currency of the system.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[term](#term)|The number of months that the deposit account has been set up for.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="FHSaving.md" target="_blank">BankingCoreDataModel/FHSaving</a>|
 
 ### <a href=#FH_SavingId name="FH_SavingId">FH_SavingId</a>
@@ -993,7 +993,7 @@ First included in: BankingCoreDataModel/FHSaving (this entity)
 
 ### <a href=#blockedAmount name="blockedAmount">blockedAmount</a>
 
-The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account  
+The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long-term savings and account  
 First included in: BankingCoreDataModel/FHSaving (this entity)  
 
 #### Properties
@@ -1075,7 +1075,7 @@ First included in: BankingCoreDataModel/FHSaving (this entity)
 
 ### <a href=#blockedAmount_default name="blockedAmount_default">blockedAmount_default</a>
 
-The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long\x2dterm savings and account Value should be converted to base currency.  
+The amount of the account’s balance that has been blocked/reserved by the bank for a specific purpose or a as a security measure. This can be applied towards investments, long-term savings and account Value should be converted to base currency.  
 First included in: BankingCoreDataModel/FHSaving (this entity)  
 
 #### Properties
@@ -1118,7 +1118,7 @@ First included in: BankingCoreDataModel/FHSaving (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: BankingCoreDataModel/FHSaving (this entity)  
 
 #### Properties
@@ -1349,7 +1349,7 @@ First included in: BankingCoreDataModel/FHSaving (this entity)
 
 ### <a href=#maturitydate name="maturitydate">maturitydate</a>
 
-The target date on which an interest\x2dbearing savings financial holding is terminated, and full interst is paid.  
+The target date on which an interest-bearing savings financial holding is terminated, and full interst is paid.  
 First included in: BankingCoreDataModel/FHSaving (this entity)  
 
 #### Properties
@@ -1644,7 +1644,7 @@ First included in: BankingCoreDataModel/FHSaving (this entity)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
 First included in: BankingCoreDataModel/FHSaving (this entity)  
 
 #### Properties

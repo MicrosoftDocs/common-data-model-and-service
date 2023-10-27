@@ -60,9 +60,9 @@ A product that can be associated with a product carbon footprint.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
-|[name](#name)|The nonx2dempty trade name of the product.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
+|[name](#name)|The non-empty trade name of the product.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
-|[productdescription](#productdescription)|The freex2dform description of the product plus other information related to it such as production technology or packaging.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
+|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewSustainabilityProduct.md" target="_blank">Sustainability/PreviewSustainabilityProduct</a>|
 
 ### <a href=#sustainabilityproductId name="sustainabilityproductId">sustainabilityproductId</a>
@@ -456,7 +456,7 @@ First included in: Sustainability/PreviewSustainabilityProduct (this entity)
 
 ### <a href=#name name="name">name</a>
 
-The nonx2dempty trade name of the product.  
+The non-empty trade name of the product.  
 First included in: Sustainability/PreviewSustainabilityProduct (this entity)  
 
 #### Properties
@@ -552,7 +552,7 @@ First included in: Sustainability/PreviewSustainabilityProduct (this entity)
 
 ### <a href=#productdescription name="productdescription">productdescription</a>
 
-The freex2dform description of the product plus other information related to it such as production technology or packaging.  
+The free-form description of the product plus other information related to it such as production technology or packaging.  
 First included in: Sustainability/PreviewSustainabilityProduct (this entity)  
 
 #### Properties

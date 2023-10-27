@@ -62,7 +62,7 @@ Describes the loan contact's job or place of work, or work history.
 |[countryRegion](#countryRegion)|The country or region where the main office of this employer is located.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
 |[employmentEndDate](#employmentEndDate)|The date that the contact started their employment with the employer associated with the source of income.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
 |[employmentStartDate](#employmentStartDate)|The date that the contact started their employment with the employer associated with the source of income.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
-|[employmentType](#employmentType)|The employment type, such as full\x2dtime, part\x2dtime, seasonal work, etc.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
+|[employmentType](#employmentType)|The employment type, such as full-time, part-time, seasonal work, etc.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
 |[isCurrentJob](#isCurrentJob)|The loan contact's current job.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
 |[jobTitle](#jobTitle)|The job title of the loan application contact with this employer.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
 |[loanApplication](#loanApplication)|The loan application associated with this employment.|<a href="Employment.md" target="_blank">LoanOnboardingDataModel/Employment</a>|
@@ -693,7 +693,7 @@ First included in: LoanOnboardingDataModel/Employment (this entity)
 
 ### <a href=#employmentType name="employmentType">employmentType</a>
 
-The employment type, such as full\x2dtime, part\x2dtime, seasonal work, etc.  
+The employment type, such as full-time, part-time, seasonal work, etc.  
 First included in: LoanOnboardingDataModel/Employment (this entity)  
 
 #### Properties

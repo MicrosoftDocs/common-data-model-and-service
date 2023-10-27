@@ -65,7 +65,7 @@ A payment card issued by a bank to an account holder enabling the account holder
 |[cardholder](#cardholder)|The customer associated with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[cardholderType](#cardholderType)|The customer associated with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[cardNetwork](#cardNetwork)|This is the credit card network, such as Visa, Mastercard, or American Express.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
-|[cardnumber](#cardnumber)|The customer's card number (with appropriate masking, PCI\x2dcompliant).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
+|[cardnumber](#cardnumber)|The customer's card number (with appropriate masking, PCI-compliant).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[cardType](#cardType)|The type of card held by the customer (Debit or Credit).|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[dateoflastcashwithdrawal](#dateoflastcashwithdrawal)|The date of the last cash withdrawal transaction performed with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
 |[dateoflasttransaction](#dateoflasttransaction)|The date of the last transaction performed with the card.|<a href="FICard.md" target="_blank">BankingCoreDataModel/FICard</a>|
@@ -687,7 +687,7 @@ First included in: BankingCoreDataModel/FICard (this entity)
 
 ### <a href=#cardnumber name="cardnumber">cardnumber</a>
 
-The customer's card number (with appropriate masking, PCI\x2dcompliant).  
+The customer's card number (with appropriate masking, PCI-compliant).  
 First included in: BankingCoreDataModel/FICard (this entity)  
 
 #### Properties
