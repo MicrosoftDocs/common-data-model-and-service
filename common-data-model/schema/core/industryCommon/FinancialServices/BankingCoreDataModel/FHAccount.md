@@ -77,7 +77,7 @@ A deposit account holding that allows the holder to make deposits and withdrawal
 |[blockedAmount_default](#blockedAmount_default)|Blocked amount converted to default currency of the system.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[dateoflasttransaction](#dateoflasttransaction)|The date on which the last transaction on the account was made.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[delinquencyStatus](#delinquencyStatus)|Indication of whether the customer’s loan is delinquent or not (that is, whether any payments are overdue).|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[financialHoldingType](#financialHoldingType)|Type of financial account (checking, savings, other).|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[interestrate](#interestrate)|The rate of interest applied to the financial holding, to be earned during a defined period/term. |<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
@@ -87,7 +87,7 @@ A deposit account holding that allows the holder to make deposits and withdrawal
 |[unclearedbalance_Base](#unclearedbalance_Base)|Value of the uncleared balance in base currency.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[unclearedBalance_default](#unclearedBalance_default)|Uncleared balance converted to default currency of the system.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="FHAccount.md" target="_blank">BankingCoreDataModel/FHAccount</a>|
 
 ### <a href=#FH_AccountId name="FH_AccountId">FH_AccountId</a>
@@ -1191,7 +1191,7 @@ First included in: BankingCoreDataModel/FHAccount (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: BankingCoreDataModel/FHAccount (this entity)  
 
 #### Properties
@@ -1630,7 +1630,7 @@ First included in: BankingCoreDataModel/FHAccount (this entity)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
 First included in: BankingCoreDataModel/FHAccount (this entity)  
 
 #### Properties

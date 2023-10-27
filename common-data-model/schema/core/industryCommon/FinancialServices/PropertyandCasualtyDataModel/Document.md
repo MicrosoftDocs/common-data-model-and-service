@@ -63,7 +63,7 @@ Correspondence document between insurance personas about insurance items.
 |[name](#name)|Required name field.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[category](#category)|Allow to group documents, e.g., can be used to relate multiple agreements to a single account such for billing.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[deliverymethod](#deliverymethod)|Delivery method of the document.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
-|[description](#description)|Description \x2d Driver License, Passport, ….|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
+|[description](#description)|Description - Driver License, Passport, ….|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[receiveddate](#receiveddate)|Date when document was received.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[sentby](#sentby)|Reference to entity that sent the document.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
 |[sentbyType](#sentbyType)|Reference to entity that sent the document.|<a href="Document.md" target="_blank">PropertyandCasualtyDataModel/Document</a>|
@@ -606,7 +606,7 @@ First included in: PropertyandCasualtyDataModel/Document (this entity)
 
 ### <a href=#description name="description">description</a>
 
-Description \x2d Driver License, Passport, ….  
+Description - Driver License, Passport, ….  
 First included in: PropertyandCasualtyDataModel/Document (this entity)  
 
 #### Properties

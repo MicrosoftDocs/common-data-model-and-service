@@ -66,13 +66,13 @@ A holding representing a portfolio of securities or other investible assets.
 |[cashbalance](#cashbalance)|Amount of cash available in the investment account (not invested free cash).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[cashbalance_Base](#cashbalance_Base)|Value of the cash balance in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[cashbalance_default](#cashbalance_default)|Cash balance converted to default currency of the system.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[financialHoldingType](#financialHoldingType)|Financial account subtypes under Financial Category, such as brokerage account, custodial account, etc.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[gainLoss](#gainLoss)|Amount of gain/loss on the investments account over a defined period of time.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[gainloss_Base](#gainloss_Base)|Value of the Gain/Loss in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[gainLoss_default](#gainLoss_default)|Amount of gain/loss on the investments. Value should be converted to base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[investmentObjectives](#investmentObjectives)|Objectives of the investment portfolio (Multi\x2dselect picklist).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[investmentObjectives](#investmentObjectives)|Objectives of the investment portfolio (Multi-select picklist).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[investmentrisk](#investmentrisk)|Risk profile of the portfolio.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[investmentTimeFrame](#investmentTimeFrame)|The time frame for the investment plan (long, medium, short).|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[openeddate](#openeddate)|Date the investment portfolio was opened.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
@@ -81,7 +81,7 @@ A holding representing a portfolio of securities or other investible assets.
 |[performanceYTD](#performanceYTD)|Performance of investments in the current year from 1st of January.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[portfolioName](#portfolioName)|Name of the investment portfolio.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="Fh_investment.md" target="_blank">RetailBankingCoreDataModel/Fh_investment</a>|
 
 ### <a href=#FH_InvestmentId name="FH_InvestmentId">FH_InvestmentId</a>
@@ -865,7 +865,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
@@ -1130,7 +1130,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity)
 
 ### <a href=#investmentObjectives name="investmentObjectives">investmentObjectives</a>
 
-Objectives of the investment portfolio (Multi\x2dselect picklist).  
+Objectives of the investment portfolio (Multi-select picklist).  
 First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties
@@ -1533,7 +1533,7 @@ First included in: RetailBankingCoreDataModel/Fh_investment (this entity)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
 First included in: RetailBankingCoreDataModel/Fh_investment (this entity)  
 
 #### Properties

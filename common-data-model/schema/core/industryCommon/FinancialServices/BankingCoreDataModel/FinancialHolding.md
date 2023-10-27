@@ -65,7 +65,7 @@ Accounts, loans, investments, credit lines and savings accounts held by a custom
 |[description](#description)|Description of the financial holding associated with a customer.|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
 |[details](#details)|Lookup to detailed table for financial holding.|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
 |[detailsType](#detailsType)|Lookup to detailed table for financial holding.|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
 |[financialHoldingCode](#financialHoldingCode)|The bank's code for the financial holding.|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
 |[validFrom](#validFrom)|Date the financial holding is valid from.|<a href="FinancialHolding.md" target="_blank">BankingCoreDataModel/FinancialHolding</a>|
@@ -681,7 +681,7 @@ First included in: BankingCoreDataModel/FinancialHolding (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: BankingCoreDataModel/FinancialHolding (this entity)  
 
 #### Properties

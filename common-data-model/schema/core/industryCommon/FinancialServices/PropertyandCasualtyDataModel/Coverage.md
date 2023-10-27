@@ -83,7 +83,7 @@ Protection provided by the Insurer and the level of indemnification provided und
 |[limiteachperson_Base](#limiteachperson_Base)|Value of the limit each person in base currency.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
 |[lob](#lob)|a reference to the Line of business of Coverage.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
 |[policy](#policy)|Reference to the Insurance Policy that includes the Coverage.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
-|[premiumadjustmentfactor](#premiumadjustmentfactor)|Rate modification factor apply to the base rate to allow for better pricing the risk \x2ddepicting, expenses, risk, etc.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
+|[premiumadjustmentfactor](#premiumadjustmentfactor)|Rate modification factor apply to the base rate to allow for better pricing the risk -depicting, expenses, risk, etc.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
 |[premiumamount](#premiumamount)|The premium paid by the customer for this specific Coverage for the Policy period.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
 |[premiumamount_Base](#premiumamount_Base)|Value of the premium amount in base currency.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
 |[rate](#rate)|Final rate (after rate modifications) for a single unit of exposure.|<a href="Coverage.md" target="_blank">PropertyandCasualtyDataModel/Coverage</a>|
@@ -1471,7 +1471,7 @@ First included in: PropertyandCasualtyDataModel/Coverage (this entity)
 
 ### <a href=#premiumadjustmentfactor name="premiumadjustmentfactor">premiumadjustmentfactor</a>
 
-Rate modification factor apply to the base rate to allow for better pricing the risk \x2ddepicting, expenses, risk, etc.  
+Rate modification factor apply to the base rate to allow for better pricing the risk -depicting, expenses, risk, etc.  
 First included in: PropertyandCasualtyDataModel/Coverage (this entity)  
 
 #### Properties

@@ -76,7 +76,7 @@ Liability associated with the loan application.
 |[street2](#street2)|The second line of the address related to this real estate liability.|<a href="Loanapplicationliability.md" target="_blank">LoanOnboardingDataModel/Loanapplicationliability</a>|
 |[street3](#street3)|The third line of the address related to this real estate liability.|<a href="Loanapplicationliability.md" target="_blank">LoanOnboardingDataModel/Loanapplicationliability</a>|
 |[zipPostalCode](#zipPostalCode)|The ZIP Code or postal code for the primary address related to this liability listed in the loan application.|<a href="Loanapplicationliability.md" target="_blank">LoanOnboardingDataModel/Loanapplicationliability</a>|
-|[balancedisplayvalue](#balancedisplayvalue)|Display value shows the balance of the liability as a positive value. That is, a liability with an accounting value of \x2d500 will appear as 500.|<a href="Loanapplicationliability.md" target="_blank">LoanOnboardingDataModel/Loanapplicationliability</a>|
+|[balancedisplayvalue](#balancedisplayvalue)|Display value shows the balance of the liability as a positive value. That is, a liability with an accounting value of -500 will appear as 500.|<a href="Loanapplicationliability.md" target="_blank">LoanOnboardingDataModel/Loanapplicationliability</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the Balance display value in base currency.|<a href="Loanapplicationliability.md" target="_blank">LoanOnboardingDataModel/Loanapplicationliability</a>|
 
 ### <a href=#loanApplicationLiabilityId name="loanApplicationLiabilityId">loanApplicationLiabilityId</a>
@@ -1350,7 +1350,7 @@ First included in: LoanOnboardingDataModel/Loanapplicationliability (this entity
 
 ### <a href=#balancedisplayvalue name="balancedisplayvalue">balancedisplayvalue</a>
 
-Display value shows the balance of the liability as a positive value. That is, a liability with an accounting value of \x2d500 will appear as 500.  
+Display value shows the balance of the liability as a positive value. That is, a liability with an accounting value of -500 will appear as 500.  
 First included in: LoanOnboardingDataModel/Loanapplicationliability (this entity)  
 
 #### Properties

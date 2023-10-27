@@ -63,26 +63,26 @@ ms.author: cdmditeam
 |[currentprice](#currentprice)|Current price for a single unit of a particular security.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[currentprice_Base](#currentprice_Base)|Value of the Current price in base currency.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[currentpricedefault](#currentpricedefault)|Current price for a single unit of a particular security.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[cusipcode](#cusipcode)|a 9\x2dcharacter number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[cusipcode](#cusipcode)|a 9-character number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[esgscore](#esgscore)|Environmental, Social and Governance (ESG) score for a particular financial instrument. ESG framework requires wealth managers to take sustainability factors into account when selecting investments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[exchangecode](#exchangecode)|A symbol for the market or exchange where a security is listed.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[figicode](#figicode)|Financial Instrument Global Identifier (FIGI) \x2d unique open\x2dstandard code assigned to a variety of instruments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[figicode](#figicode)|Financial Instrument Global Identifier (FIGI) - unique open-standard code assigned to a variety of instruments.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[financialmarketproducttype](#financialmarketproducttype)|The type of the investment instrument, such as equity, bond, mutual fund, etc.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[fixedinterestrate](#fixedinterestrate)|Interest rate earned on a bond investment for the life of the bond.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[integrationkey](#integrationkey)|define alternate key on field.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[isincode](#isincode)|International Securities Identification Number (ISIN).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[islamicfinancecompliance](#islamicfinancecompliance)|Flag that a particular instrument is Shariah\x2dcompliant.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[islamicfinancecompliance](#islamicfinancecompliance)|Flag that a particular instrument is Shariah-compliant.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[maturityredemptiondate](#maturityredemptiondate)|Maturity or redemption date for an investment instrument.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[nexteventdate](#nexteventdate)|The date on which the next distribution event will occur for an investment instrument.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[nexteventdescription](#nexteventdescription)|Description of the next distribution event. (for example, Q1 2022 quarterly dividend payout).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[nexteventrate](#nexteventrate)|The "per\x2dshare value" rate of dividends or payments set for the next distribution event or other corporate action event.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[nexteventrate](#nexteventrate)|The "per-share value" rate of dividends or payments set for the next distribution event or other corporate action event.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[nexteventtype](#nexteventtype)|Type of corporate action or distribution event such as: annual meeting, bond Issue, bond maturity, dividend payout, etc.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[parvalue](#parvalue)|Par value, also known as Face value, is the stated value of a security, which remains fixed for the life of the security.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[performance1y](#performance1y)|Performance of a security in the last year (12 months rolling).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[performance3y](#performance3y)|Performance of a security in the last three years (36 months rolling).|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 |[performanceytd](#performanceytd)|Performance of a security in the current year from 1st of January.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[tickersymbol](#tickersymbol)|A code or ticker symbol assigned to a publicly\x2dtraded stock.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
-|[unlistedindicator](#unlistedindicator)|An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over\x2dthe\x2dcounter) trading, for example.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[tickersymbol](#tickersymbol)|A code or ticker symbol assigned to a publicly-traded stock.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
+|[unlistedindicator](#unlistedindicator)|An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over-the-counter) trading, for example.|<a href="FinancialMarketProduct.md" target="_blank">FinancialServicesCommonDataModel/FinancialMarketProduct</a>|
 
 ### <a href=#financialmarketproductId name="financialmarketproductId">financialmarketproductId</a>
 
@@ -648,7 +648,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#cusipcode name="cusipcode">cusipcode</a>
 
-a 9\x2dcharacter number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).  
+a 9-character number identifying the company or issuer \+ type of security that is registered to be sold publicly. Issued by the Committee on Uniform Securities Identification Procedures (CUSIP).  
 First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
@@ -787,7 +787,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#figicode name="figicode">figicode</a>
 
-Financial Instrument Global Identifier (FIGI) \x2d unique open\x2dstandard code assigned to a variety of instruments.  
+Financial Instrument Global Identifier (FIGI) - unique open-standard code assigned to a variety of instruments.  
 First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
@@ -1020,7 +1020,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#islamicfinancecompliance name="islamicfinancecompliance">islamicfinancecompliance</a>
 
-Flag that a particular instrument is Shariah\x2dcompliant.  
+Flag that a particular instrument is Shariah-compliant.  
 First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
@@ -1178,7 +1178,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#nexteventrate name="nexteventrate">nexteventrate</a>
 
-The "per\x2dshare value" rate of dividends or payments set for the next distribution event or other corporate action event.  
+The "per-share value" rate of dividends or payments set for the next distribution event or other corporate action event.  
 First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
@@ -1439,7 +1439,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#tickersymbol name="tickersymbol">tickersymbol</a>
 
-A code or ticker symbol assigned to a publicly\x2dtraded stock.  
+A code or ticker symbol assigned to a publicly-traded stock.  
 First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties
@@ -1487,7 +1487,7 @@ First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this
 
 ### <a href=#unlistedindicator name="unlistedindicator">unlistedindicator</a>
 
-An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over\x2dthe\x2dcounter) trading, for example.  
+An indicator that a security or investment instrument is not listed on any exchange or market. Refers to OTC (Over-the-counter) trading, for example.  
 First included in: FinancialServicesCommonDataModel/FinancialMarketProduct (this entity)  
 
 #### Properties

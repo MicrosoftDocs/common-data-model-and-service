@@ -78,7 +78,7 @@ Loans held by the customer with the financial institution.
 |[feeArrears](#feeArrears)|Total amount of fees for overdue payments on the loan.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[feearrears_Base](#feearrears_Base)|Value of the arrears fee in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[feeArrears_default](#feeArrears_default)|Arrears fee converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[financialHoldingType](#financialHoldingType)|Subtypes under Financial Category.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[installmentAmount](#installmentAmount)|The equal monthly installment payments a customer makes to the bank toward repayment of the loan (EMI).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[installmentamount_Base](#installmentamount_Base)|Value of the installment amount in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
@@ -105,7 +105,7 @@ Loans held by the customer with the financial institution.
 |[numberofDeferralsMade](#numberofDeferralsMade)|Total number of installment deferrals made by the customer (i.e. number of times customer has taken a loan repayment holiday from the bank).|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[numberofInstallmentsPaid](#numberofInstallmentsPaid)|Total number of installments that have been paid back by the customer so far.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[overdueDate](#overdueDate)|The date on which the repayment was missed and the loan became overdue.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[principalAmount](#principalAmount)|The principal amount of the financial holding paid to\x2ddate.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[principalAmount](#principalAmount)|The principal amount of the financial holding paid to-date.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[principalamount_Base](#principalamount_Base)|Value of the principal amount in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[principalAmount_default](#principalAmount_default)|Principal amount converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[repaymentAccount](#repaymentAccount)|Source account of repayments.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
@@ -116,7 +116,7 @@ Loans held by the customer with the financial institution.
 |[totalinterestpaid_Base](#totalinterestpaid_Base)|Value of the total interest paid in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[totalInterestPaid_default](#totalInterestPaid_default)|Total interest paid converted to default currency of the system.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 |[dayspastdue](#dayspastdue)|The number of days that the customer has been in overdue status for this loan account.|<a href="FHLoan.md" target="_blank">BankingCoreDataModel/FHLoan</a>|
 
@@ -1267,7 +1267,7 @@ First included in: BankingCoreDataModel/FHLoan (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: BankingCoreDataModel/FHLoan (this entity)  
 
 #### Properties
@@ -2398,7 +2398,7 @@ First included in: BankingCoreDataModel/FHLoan (this entity)
 
 ### <a href=#principalAmount name="principalAmount">principalAmount</a>
 
-The principal amount of the financial holding paid to\x2ddate.  
+The principal amount of the financial holding paid to-date.  
 First included in: BankingCoreDataModel/FHLoan (this entity)  
 
 #### Properties
@@ -2863,7 +2863,7 @@ First included in: BankingCoreDataModel/FHLoan (this entity)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
 First included in: BankingCoreDataModel/FHLoan (this entity)  
 
 #### Properties

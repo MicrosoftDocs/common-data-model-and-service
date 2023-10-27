@@ -64,7 +64,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
 |[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
 |[energyprovidername](#energyprovidername)|Name of the energy provider.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
-|[energytype](#energytype)|Energ subx2dcategory within Scope 2 emissions. |<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
+|[energytype](#energytype)|Energ sub-category within Scope 2 emissions. |<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
 |[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
 |[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
 |[isrenewable](#isrenewable)|Identifier used to determine if the source electric energy is renewable or not.|<a href="PurchasedEnergy.md" target="_blank">Sustainability/PurchasedEnergy</a>|
@@ -782,7 +782,7 @@ First included in: Sustainability/PurchasedEnergy (this entity)
 
 ### <a href=#energytype name="energytype">energytype</a>
 
-Energ subx2dcategory within Scope 2 emissions.   
+Energ sub-category within Scope 2 emissions.   
 First included in: Sustainability/PurchasedEnergy (this entity)  
 
 #### Properties
