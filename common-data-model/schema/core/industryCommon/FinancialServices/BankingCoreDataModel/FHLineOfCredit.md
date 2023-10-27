@@ -70,7 +70,7 @@ A preset borrowing limit associated with a credit or charge card.
 |[creditlimit_Base](#creditlimit_Base)|Value of the credit limit in base currency.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[creditLimit_default](#creditLimit_default)|Credit limit converted to default currency of the system.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[delinquencyStatus](#delinquencyStatus)|Indication of whether the customer’s loan is delinquent or not (i.e. whether any payments are overdue or not).|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[financialHoldingType](#financialHoldingType)|Subtypes under Financial Category.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[interestrate](#interestrate)|The rate of interest associated with the line of credit, to be charged to the customer during a defined period/term. |<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
@@ -86,7 +86,7 @@ A preset borrowing limit associated with a credit or charge card.
 |[nextPaymentDate](#nextPaymentDate)|The date on which the next payment towards the financial holding is due. This can be applied to lines of credit and loans.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[nextStatementDate](#nextStatementDate)|The date on which the next statement is expected to issue on the card.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[balanceDefaultDisplayValue](#balanceDefaultDisplayValue)||<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
-|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
+|[balanceDisplayValue](#balanceDisplayValue)|Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 |[balancedisplayvalue_Base](#balancedisplayvalue_Base)|Value of the balance display value in base currency.|<a href="FHLineOfCredit.md" target="_blank">BankingCoreDataModel/FHLineOfCredit</a>|
 
 ### <a href=#FH_CreditlineId name="FH_CreditlineId">FH_CreditlineId</a>
@@ -903,7 +903,7 @@ First included in: BankingCoreDataModel/FHLineOfCredit (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: BankingCoreDataModel/FHLineOfCredit (this entity)  
 
 #### Properties
@@ -1569,7 +1569,7 @@ First included in: BankingCoreDataModel/FHLineOfCredit (this entity)
 
 ### <a href=#balanceDisplayValue name="balanceDisplayValue">balanceDisplayValue</a>
 
-Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of \x2d500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
+Display value shows the balance of a financial holding in accordance with the type of the financial holding. Financial holdings that are typically defined as a customer's liabilities (such as lines of credit and loans) are presented as positive when the customer owes money to the financial institution (that is, a loan with an accounting value of -500 will appear as 500). In the inverse case: the display value will be negative for debit balances on a credit financial holding (such as overpayment of a credit card), or overdrawn account.  
 First included in: BankingCoreDataModel/FHLineOfCredit (this entity)  
 
 #### Properties

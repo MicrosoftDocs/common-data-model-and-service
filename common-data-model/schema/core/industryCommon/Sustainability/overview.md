@@ -26,12 +26,12 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[BusinessTravelType](BusinessTravelType.md)|Entity used for classifying the type of business travel, as defined in the reporting company.|
 |[CapitalGood](CapitalGood.md)|Purchased entity that depreciates over time.|
 |[ContractualInstrumentType](ContractualInstrumentType.md)|Documented method/approach to confirm and validate source data.|
-|[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a userx2ddefined group.|
+|[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
 |[Emission](Emission.md)|Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.|
 |[EmissionFactor](EmissionFactor.md)|Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.|
-|[EmissionsSource](EmissionsSource.md)|Greenhouse Gas Protocolx2ddefined emissions sources in scopes 1, 2, and 3.|
+|[EmissionsSource](EmissionsSource.md)|Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.|
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
-|[Facility](Facility.md)|Basex2dlevel location to attribute activity data. May contain multiple buildings and organizational units.|
+|[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
 |[FacilityAnnualDetail](FacilityAnnualDetail.md)|Captures intensity scores for a facility in a given year.|
 |[FactorLibrary](FactorLibrary.md)|Repository for emission and estimation factor sets, including both system and user added.|
 |[FactorMapping](FactorMapping.md)|Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.|
@@ -41,7 +41,7 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[IndustrialProcess](IndustrialProcess.md)|Emissions source for scope 1 emissions relating to industrial processes.|
 |[IndustrialProcessType](IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
 |[Industry](Industry.md)|Parent level of the industry classification which contains an ID and name.|
-|[IndustryClassification](IndustryClassification.md)|Combination of the Industry parentx2dlevel industry classification and the Subindustry childx2dlevel industry classification, both defined on the company profile.|
+|[IndustryClassification](IndustryClassification.md)|Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.|
 |[Material](Material.md)|Entity used for classifying the type of material, as defined in the reporting company.|
 |[MobileCombustion](MobileCombustion.md)|Combustion that occurs in a moving vehicle, such as a car or truck.|
 |[MonthlyRevenue](MonthlyRevenue.md)|Captures revenue of an organizational unit by year and month in the company currency.|
@@ -53,7 +53,7 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[PurchasedGoodAndService](PurchasedGoodAndService.md)|Entity for purchased goods and services.|
 |[SpendType](SpendType.md)|Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.|
 |[StationaryCombustion](StationaryCombustion.md)|Combustion that occurs in a fixed asset, such as a boiler or furnace.|
-|[Subindustry](Subindustry.md)|Childx2dlevel of the industry classisfication, which contains an ID and name.|
+|[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|
 |[SustainabilityItem](SustainabilityItem.md)|Entity for capturing data on items/SKU inventoried such as input material and finished goods.|
 |[SustainabilityItemCategorySKU](SustainabilityItemCategorySKU.md)|The category of the item such as abrasives, castings or accessories|
 |[SustainabilityItemPackaging](SustainabilityItemPackaging.md)|Indicates whether the item is used for packaging when distributing a product.|

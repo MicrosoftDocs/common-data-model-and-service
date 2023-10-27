@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Country/Region mapping in Sustainability (CountryRegionMapping)
 
-Entity storing the region mapping, which is a mapping of a country or region to a userx2ddefined group.  
+Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability/CountryRegionMapping.cdm.json" target="_blank">GitHub</a>.  
 

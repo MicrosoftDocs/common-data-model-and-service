@@ -70,7 +70,7 @@ ms.author: cdmditeam
 |[numberofUnits](#numberofUnits)|Number of collaterals offered.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[realEstateType](#realEstateType)|Description of the real estate used as collateral.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[stateProvince](#stateProvince)|The state or province where collateral is located.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
-|[yearBuilt](#yearBuilt)|Year the collateral was built \x2d used for real estate.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
+|[yearBuilt](#yearBuilt)|Year the collateral was built - used for real estate.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 |[ZIPPostalCode](#ZIPPostalCode)|The ZIP Code or postal code for the collateral address.|<a href="Collateral.md" target="_blank">LoanOnboardingDataModel/Collateral</a>|
 
 ### <a href=#collateralId name="collateralId">collateralId</a>
@@ -1076,7 +1076,7 @@ First included in: LoanOnboardingDataModel/Collateral (this entity)
 
 ### <a href=#yearBuilt name="yearBuilt">yearBuilt</a>
 
-Year the collateral was built \x2d used for real estate.  
+Year the collateral was built - used for real estate.  
 First included in: LoanOnboardingDataModel/Collateral (this entity)  
 
 #### Properties

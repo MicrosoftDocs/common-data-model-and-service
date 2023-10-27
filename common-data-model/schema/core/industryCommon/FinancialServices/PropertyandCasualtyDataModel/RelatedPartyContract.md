@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Related Party/Contract in PropertyandCasualtyDataModel(RelatedPartyContract)
 
-A related party having an agreement with an insurance party on a contract.&#xA;1. Party:an insurance entity (Insurer, Agent...)&#xA;2. Related party:either a 1st party (a law office being insured), or a 3rd party (a law office handling a claim).&#xA;3. Contract part \x2d Policy, claim...  
+A related party having an agreement with an insurance party on a contract.&#xA;1. Party:an insurance entity (Insurer, Agent...)&#xA;2. Related party:either a 1st party (a law office being insured), or a 3rd party (a law office handling a claim).&#xA;3. Contract part - Policy, claim...  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/FinancialServices/PropertyandCasualtyDataModel/RelatedPartyContract.cdm.json" target="_blank">GitHub</a>.  
 

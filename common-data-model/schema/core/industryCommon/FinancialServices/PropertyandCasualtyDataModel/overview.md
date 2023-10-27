@@ -65,7 +65,7 @@ Property and Casualty Data Model CDM entity definitions
 |[PolicyProductLOB](PolicyProductLOB.md)|Information about the relationship between a Policy product and one or more lines of business.|
 |[PolicyTransaction](PolicyTransaction.md)|A Policy transaction provides information of each transaction (e.g., amendment) of the Policy.|
 |[ProfessionalLicense](ProfessionalLicense.md)|A permit from an authority for insurance professionals, for example to sell insurance policies.|
-|[RelatedPartyContract](RelatedPartyContract.md)|A related party having an agreement with an insurance party on a contract.&#xA;1. Party:an insurance entity (Insurer, Agent...)&#xA;2. Related party:either a 1st party (a law office being insured), or a 3rd party (a law office handling a claim).&#xA;3. Contract part \x2d Policy, claim...|
+|[RelatedPartyContract](RelatedPartyContract.md)|A related party having an agreement with an insurance party on a contract.&#xA;1. Party:an insurance entity (Insurer, Agent...)&#xA;2. Related party:either a 1st party (a law office being insured), or a 3rd party (a law office handling a claim).&#xA;3. Contract part - Policy, claim...|
 |[StateProvince](StateProvince.md)|Generic State/Province table.|
 |[TermDocumentCatalog](TermDocumentCatalog.md)|Reference to terms and conditions applicable to various catalog parts.|
 |[TermDocumentPolicyPart](TermDocumentPolicyPart.md)|A helper table to define the relationship between a term document and its Policy part.|

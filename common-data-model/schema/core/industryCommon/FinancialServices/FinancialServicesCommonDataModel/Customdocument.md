@@ -60,8 +60,8 @@ Any document that is requested by or accepted by the bank, e.g. for the borrower
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
-|[name](#name)|Category of the additional or specially\x2drequested document requested for the loan application.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
-|[description](#description)|Description of the additional or specially\x2drequested document requested for the application.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
+|[name](#name)|Category of the additional or specially-requested document requested for the loan application.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
+|[description](#description)|Description of the additional or specially-requested document requested for the application.|<a href="Customdocument.md" target="_blank">FinancialServicesCommonDataModel/Customdocument</a>|
 
 ### <a href=#customDocumentId name="customDocumentId">customDocumentId</a>
 
@@ -454,7 +454,7 @@ First included in: FinancialServicesCommonDataModel/Customdocument (this entity)
 
 ### <a href=#name name="name">name</a>
 
-Category of the additional or specially\x2drequested document requested for the loan application.  
+Category of the additional or specially-requested document requested for the loan application.  
 First included in: FinancialServicesCommonDataModel/Customdocument (this entity)  
 
 #### Properties
@@ -502,7 +502,7 @@ First included in: FinancialServicesCommonDataModel/Customdocument (this entity)
 
 ### <a href=#description name="description">description</a>
 
-Description of the additional or specially\x2drequested document requested for the application.  
+Description of the additional or specially-requested document requested for the application.  
 First included in: FinancialServicesCommonDataModel/Customdocument (this entity)  
 
 #### Properties

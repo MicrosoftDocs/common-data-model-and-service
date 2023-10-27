@@ -61,7 +61,7 @@ Accounts, loans, investments, credit lines and savings accounts held by a custom
 |[accountingClassification](#accountingClassification)|Indicates whether the financial holding is an asset or a liability.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[details](#details)|Details.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[detailsType](#detailsType)|Details.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
-|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
+|[financialHoldingCategory](#financialHoldingCategory)|The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[financialHoldingCode](#financialHoldingCode)|The bank's code for the financial holding.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[integrationKey](#integrationKey)|Used by the system integrator to uniquely define the data record .|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
 |[validFrom](#validFrom)|Date the financial holding is valid from.|<a href="Financialholding.md" target="_blank">RetailBankingCoreDataModel/Financialholding</a>|
@@ -641,7 +641,7 @@ First included in: RetailBankingCoreDataModel/Financialholding (this entity)
 
 ### <a href=#financialHoldingCategory name="financialHoldingCategory">financialHoldingCategory</a>
 
-The category of the financial holding (Accounts, Long\x2dterm savings, Investments, Loans and Lines or credit).  
+The category of the financial holding (Accounts, Long-term savings, Investments, Loans and Lines or credit).  
 First included in: RetailBankingCoreDataModel/Financialholding (this entity)  
 
 #### Properties

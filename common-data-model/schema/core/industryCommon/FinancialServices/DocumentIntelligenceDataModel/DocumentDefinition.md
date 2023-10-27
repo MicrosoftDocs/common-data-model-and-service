@@ -60,7 +60,7 @@ Definition of new type of documents which is added by the user.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
 |[name](#name)||<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
-|[description](#description)|Description of the additional or specially\x2drequested document requested for the application.|<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
+|[description](#description)|Description of the additional or specially-requested document requested for the application.|<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
 |[hasautomaticflow](#hasautomaticflow)|A flag on whether the document type have an automatic document intelligence flow or not.|<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
 |[type](#type)|The type of the document.|<a href="DocumentDefinition.md" target="_blank">DocumentIntelligenceDataModel/DocumentDefinition</a>|
 
@@ -459,7 +459,7 @@ First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity
 
 ### <a href=#description name="description">description</a>
 
-Description of the additional or specially\x2drequested document requested for the application.  
+Description of the additional or specially-requested document requested for the application.  
 First included in: DocumentIntelligenceDataModel/DocumentDefinition (this entity)  
 
 #### Properties
