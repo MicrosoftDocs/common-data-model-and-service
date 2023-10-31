@@ -33,6 +33,7 @@ For more information, see the [Microsoft Cloud for Sustainability](https://go.mi
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
 |[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
 |[FacilityAnnualDetail](FacilityAnnualDetail.md)|Captures intensity scores for a facility in a given year.|
+|[FacilityItemProduction](FacilityItemProduction.md)|Entity used to record the production quantity of an item in a facility for a specified period.|
 |[FactorLibrary](FactorLibrary.md)|Repository for emission and estimation factor sets, including both system and user added.|
 |[FactorMapping](FactorMapping.md)|Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.|
 |[FuelType](FuelType.md)|List of fuels to be used during combustion, as needed for emissions factor selection.|
