@@ -3,13 +3,13 @@ title: FacilityItemProduction in Sustainability - Common Data Model | Microsoft 
 description: Entity used to record the production quantity of an item in a facility for a specified period. 
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 10/31/2023
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
-# Facility item production in Sustainability(FacilityItemProduction)
+# Facility item production in Sustainability (FacilityItemProduction)
 
 Entity used to record the production quantity of an item in a facility for a specified period\.   
   
