@@ -2611,6 +2611,8 @@
             href: industryCommon/Sustainability/Facility.md
           - name: FacilityAnnualDetail 
             href: industryCommon/Sustainability/FacilityAnnualDetail.md
+          - name: FacilityItemProduction 
+            href: industryCommon/Sustainability/FacilityItemProduction.md
           - name: FactorLibrary 
             href: industryCommon/Sustainability/FactorLibrary.md
           - name: FactorMapping 
