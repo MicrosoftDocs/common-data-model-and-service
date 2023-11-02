@@ -2677,6 +2677,14 @@
             items:
             - name: Summary
               href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+            - name: CircularityDesignPrinciple
+              href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
+            - name: FacilityItemConsumption
+              href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
+            - name: ItemBillOfMaterial
+              href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
+            - name: ItemSustainableContent
+              href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
             - name: WasteCharacteristicType
               href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
             - name: WasteQualityCharacteristic 
