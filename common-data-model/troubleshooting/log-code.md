@@ -1,11 +1,11 @@
 ---
 title: Guidance on SDK error and warning codes | Microsoft Docs
 description: Guidance on SDK error and warning codes.
-author: supawa
+author: mafrisci
 
 ms.topic: article
 ms.date: 07/28/2021
-ms.author: supawa
+ms.author: mafrisci
 ---
 
 # Guidance on SDK error and warning codes

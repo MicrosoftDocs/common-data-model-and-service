@@ -6,7 +6,7 @@ author: jinichu
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/24/2020
-ms.author: jibyun
+ms.author: mafrisci
 ---
 
 # ADLS Adapter
