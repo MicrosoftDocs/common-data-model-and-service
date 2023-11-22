@@ -21,3 +21,4 @@ public class CdmFileMetadata
 |Name|Type|Description|
 |---|---|---|
 |FileSizeBytes|long|Represents the file size of a given file in bytes.|
+|LastModifiedTime|Datetime|Represents the last modified time of a given file.|
