@@ -6,7 +6,7 @@ author: jinichu
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/24/2020
-ms.author: jibyun
+ms.author: mafrisci
 ---
 
 # Local Adapter
@@ -42,6 +42,7 @@ public class LocalAdapter extends StorageAdapterBase
 |**ComputeLastModifiedTimeAsync(string)**|See [StorageAdapterBase.ComputeLastModifiedTimeAsync(...)](storageadapterbase.md#methods).|Task\<DateTimeOffset?>|
 |**FetchAllFilesAsync(string)**|See [StorageAdapterBase.FetchAllFilesAsync(...)](storageadapterbase.md#methods).|Task\<List\<string>>|
 |**FetchAllFilesMetadataAsync(string)**|See [StorageAdapterBase.FetchAllFilesMetadataAsync(...)](storageadapterbase.md#methods).|Task\<IDictionary\<string, CdmFileMetadata>>|
+|**FetchFileMetadataAsync(string)**|See [StorageAdapterBase.FetchFileMetadataAsync(...)](storageadapterbase.md#methods).|CdmFileMetadata|
 |**FetchConfig()**|See [StorageAdapterBase.FetchConfig()](storageadapterbase.md#methods).|string|
 |**UpdateConfig(string)**|See [StorageAdapterBase.UpdateConfig(...)](storageadapterbase.md#methods).|void|
 |**CreateFileQueryCacheContext()**|See [StorageAdapterBase.CreateFileQueryCacheContext()](storageadapterbase.md#methods).|IDisposable|

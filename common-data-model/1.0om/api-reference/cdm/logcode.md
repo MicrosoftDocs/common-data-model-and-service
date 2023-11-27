@@ -32,6 +32,7 @@ public enum CdmLogCode
     ErrInvalidCast,
     ErrInvalidPath,
     ErrObjectWithoutOwnerFound,
+    ErrPartitionFileMetadataFailure,
     ErrPartitionFileModTimeFailure,
     ErrPathIsDuplicate,
     ErrPathNullObjectPath,

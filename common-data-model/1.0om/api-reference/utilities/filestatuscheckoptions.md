@@ -1,7 +1,7 @@
 ---
 title: File Status Check Options | Microsoft Docs
 description: API reference for FileStatusCheckOptions.
-author: mfriscia7
+author: mafrisci
 
 ms.reviewer: deonhe 
 ms.topic: article
