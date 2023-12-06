@@ -27,7 +27,9 @@ corpus.Ctx.Events.ForEach(
 );
 ```
 
-Note: this class is NOT a replacement for standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the file-system, etc.
+Note: The logs returned in the callback may include potentially sensitive information about the code infrastructure and as a result, it is recommended that these logs are not provided directly to the customer.
+
+Note: This class is NOT a replacement for standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the file-system, etc.
 
 ```csharp
 public class EventList extends List<Dictionary<string, string>>
