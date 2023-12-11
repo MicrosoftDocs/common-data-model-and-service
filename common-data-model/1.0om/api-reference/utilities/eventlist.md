@@ -11,9 +11,9 @@ ms.author: miplese
 
 # Event List
 
-EventList is a supporting class for the logging system and allows subset of messages emitted by the SDK to be collected and inspected by the SDK users. The events are stored in an ordered list, each element being a dictionary of string keys and string values.
+EventList is a supporting class for the logging system and allows SDK users to collect and inspect a subset of messages emitted by the SDK. The events are stored in an ordered list, each element being a dictionary of string keys and string values.
 
-Upon completion of the API call, the recorded events can be inspected by the host application to determine what step to take to address the issue. To simply list all events and their elements, a for-each statement like this will work:
+Upon completion of the API call, the host application can inspect the recorded events to determine what step to take to address the issue. To list all events and their elements, a for-each statement like this will work:
 
 ```csharp
 corpus.SetEventCallback(eventCallback, CdmStatusLevel.Warning, userSessionCorrelationId);
@@ -27,7 +27,9 @@ corpus.Ctx.Events.ForEach(
 );
 ```
 
-Note: this class is NOT a replacement for standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the file-system, etc.
+Note: The logs returned in the callback may include potentially sensitive information about the code infrastructure and as a result, it's recommended that these logs aren't provided directly to the customer.
+
+Note: This class is NOT a replacement for standard logging mechanism employed by the SDK. It serves specifically to offer immediate post-call context specific diagnostic information for the application to automate handling of certain common problems, such as invalid file name being supplied, file already being present on the file-system, etc.
 
 ```csharp
 public class EventList extends List<Dictionary<string, string>>
