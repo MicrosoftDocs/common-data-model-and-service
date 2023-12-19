@@ -6,7 +6,7 @@ author: mafrisci
 ms.reviewer: deonhe 
 ms.topic: article
 ms.date: 08/20/2020
-ms.author: jibyun
+ms.author: mafrisci
 ---
 
 # Corpus

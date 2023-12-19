@@ -5,7 +5,7 @@ author: msftman
 ms.reviewer: anbichse
 ms.topic: article
 ms.date: 01/09/2023
-ms.author: Deonhe
+ms.author: mafrisci
 ---
 
 # The Manifest object
