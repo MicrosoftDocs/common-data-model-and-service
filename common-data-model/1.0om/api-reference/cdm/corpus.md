@@ -1,7 +1,7 @@
 ---
 title: Corpus | Microsoft Docs
 description: API reference for CdmCorpusDefinition.
-author: jinichu
+author: mafrisci
 
 ms.reviewer: deonhe 
 ms.topic: article

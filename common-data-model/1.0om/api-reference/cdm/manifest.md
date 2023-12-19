@@ -1,9 +1,9 @@
 ---
 title: Manifest | Microsoft Docs
 description: API reference for CdmManifestDefinition.
-author: jinichu
+author: mafrisci
 
-ms.reviewer: deonhe 
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 10/18/2019
 ms.author: jibyun
