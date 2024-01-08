@@ -2583,34 +2583,34 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
       - name: Microsoft Cloud for Sustainability
         items:
-        - name: Cloud for Sustainability data model
+        - name: Cloud for Sustainability carbon data model
           items:
           - name: Summary
-            href: industryCommon/Sustainability/overview.md
+            href: industryCommon/SustainabilityCarbon/overview.md
           - name: AccommodationType 
-            href: industryCommon/Sustainability/AccommodationType.md
+            href: industryCommon/SustainabilityCarbon/AccommodationType.md
           - name: BusinessTravel 
-            href: industryCommon/Sustainability/BusinessTravel.md
+            href: industryCommon/SustainabilityCarbon/BusinessTravel.md
           - name: BusinessTravelType 
-            href: industryCommon/Sustainability/BusinessTravelType.md
+            href: industryCommon/SustainabilityCarbon/BusinessTravelType.md
           - name: CapitalGood 
-            href: industryCommon/Sustainability/CapitalGood.md
+            href: industryCommon/SustainabilityCarbon/CapitalGood.md
           - name: ContractualInstrumentType 
-            href: industryCommon/Sustainability/ContractualInstrumentType.md
-          - name: CountryRegionMapping 
-            href: industryCommon/Sustainability/CountryRegionMapping.md
+            href: industryCommon/SustainabilityCarbon/ContractualInstrumentType.md
           - name: Emission 
-            href: industryCommon/Sustainability/Emission.md
-          - name: EmissionFactor 
-            href: industryCommon/Sustainability/EmissionFactor.md
+            href: industryCommon/SustainabilityCarbon/Emission.md
           - name: EmissionsSource 
-            href: industryCommon/Sustainability/EmissionsSource.md
-          - name: EstimationFactor 
-            href: industryCommon/Sustainability/EstimationFactor.md
-          - name: Facility 
-            href: industryCommon/Sustainability/Facility.md
-          - name: FacilityAnnualDetail 
-            href: industryCommon/Sustainability/FacilityAnnualDetail.md
+            href: industryCommon/SustainabilityCarbon/EmissionsSource.md
+          - name: EmployeeCommuting 
+            href: industryCommon/SustainabilityCarbon/EmployeeCommuting.md
+          - name: EmployeeCommutingType 
+            href: industryCommon/SustainabilityCarbon/EmployeeCommutingType.md
+          - name: EndOfLifeTreatmentOfSoldProducts 
+            href: industryCommon/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts.md
+          - name: ExternalActivity 
+            href: industryCommon/SustainabilityCarbon/ExternalActivity.md
+          - name: ExternalEmissions
+            href: industryCommon/SustainabilityCarbon/ExternalEmissions.md
           - name: FacilityItemProduction 
             href: industryCommon/Sustainability/FacilityItemProduction.md
           - name: FactorLibrary 
@@ -2673,56 +2673,68 @@
             href: industryCommon/Sustainability/ValueChainPartner.md
           - name: VehicleType 
             href: industryCommon/Sustainability/VehicleType.md
-          - name: Cloud for Sustainability waste data model
-            items:
-            - name: Summary
-              href: industryCommon/Sustainability/SustainabilityWaste/overview.md
-            - name: CircularityDesignPrinciple
-              href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
-            - name: FacilityItemConsumption
-              href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
-            - name: ItemBillOfMaterial
-              href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
-            - name: ItemSustainableContent
-              href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
-            - name: WasteCharacteristicType
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
-            - name: WasteQualityCharacteristic 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
-            - name: WasteQualityTestResult 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
-            - name: WasteQuantity 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
-            - name: WasteTestMethod 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
-            - name: WasteType 
-              href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
-          - name: Cloud for Sustainability water data model
-            items:
-            - name: Summary
-              href: industryCommon/Sustainability/SustainabilityWater/overview.md
-            - name: StoredWater
-              href: industryCommon/Sustainability/SustainabilityWater/StoredWater.md
-            - name: WaterBasin
-              href: industryCommon/Sustainability/SustainabilityWater/WaterBasin.md
-            - name: WaterInstrument 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
-            - name: WaterQualityAnalysis 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterQualityAnalysis.md
-            - name: WaterQualityCharacteristic 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristic.md
-            - name: WaterQualityCharacteristicType
-              href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristicType.md
-            - name: WaterQualityTestResult 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterQualityTestResult.md
-            - name: WaterQuantity 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterQuantity.md
-            - name: WaterRiskIndex
-              href: industryCommon/Sustainability/SustainabilityWater/WaterRiskIndex.md
-            - name: WaterSample 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
-            - name: WaterSource 
-              href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
+        - name: Cloud for Sustainability shared data model
+          items:
+          - name: Summary
+            href: industryCommon/SustainabilityShared/overview.md
+          - name: CountryRegionMapping 
+            href: industryCommon/SustainabilityShared/CountryRegionMapping.md
+          - name: EmissionFactor 
+            href: industryCommon/SustainabilityShared/EmissionFactor.md
+          - name: EstimationFactor 
+            href: industryCommon/SustainabilityShared/EstimationFactor.md
+          - name: Facility 
+            href: industryCommon/SustainabilityShared/Facility.md
+        - name: Cloud for Sustainability waste data model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/SustainabilityWaste/overview.md
+          - name: CircularityDesignPrinciple
+            href: industryCommon/Sustainability/SustainabilityWaste/CircularityDesignPrinciple.md
+          - name: FacilityItemConsumption
+            href: industryCommon/Sustainability/SustainabilityWaste/FacilityItemConsumption.md
+          - name: ItemBillOfMaterial
+            href: industryCommon/Sustainability/SustainabilityWaste/ItemBillOfMaterial.md
+          - name: ItemSustainableContent
+            href: industryCommon/Sustainability/SustainabilityWaste/ItemSustainableContent.md
+          - name: WasteCharacteristicType
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteCharacteristicType.md
+          - name: WasteQualityCharacteristic 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityCharacteristic.md
+          - name: WasteQualityTestResult 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQualityTestResult.md
+          - name: WasteQuantity 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteQuantity.md
+          - name: WasteTestMethod 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
+          - name: WasteType 
+            href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
+        - name: Cloud for Sustainability water data model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/SustainabilityWater/overview.md
+          - name: StoredWater
+            href: industryCommon/Sustainability/SustainabilityWater/StoredWater.md
+          - name: WaterBasin
+            href: industryCommon/Sustainability/SustainabilityWater/WaterBasin.md
+          - name: WaterInstrument 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterInstrument.md
+          - name: WaterQualityAnalysis 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityAnalysis.md
+          - name: WaterQualityCharacteristic 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristic.md
+          - name: WaterQualityCharacteristicType
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityCharacteristicType.md
+          - name: WaterQualityTestResult 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQualityTestResult.md
+          - name: WaterQuantity 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterQuantity.md
+          - name: WaterRiskIndex
+            href: industryCommon/Sustainability/SustainabilityWater/WaterRiskIndex.md
+          - name: WaterSample 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterSample.md
+          - name: WaterSource 
+            href: industryCommon/Sustainability/SustainabilityWater/WaterSource.md
 - name: operationsCommon
   items:
   - name: Summary
