@@ -524,6 +524,276 @@
       "source_path": "common-data-model/schema/core/applicationCommon/foundationCommon/crmCommon/accelerators/financialServices/overview.md",
       "redirect_url": "/dynamics365/industry/accelerators/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/AccommodationType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/accommodationtype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/BusinessTravel.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/businesstravel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/BusinessTravelType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/businesstraveltype",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/CapitolGood.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/capitolgood",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/ContractualInstrumentType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/contractualinstrumenttype",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/Emission.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/emission",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/EmmissionSource.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/emissionssource",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/AccommodationType.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/AccommodationType.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/MobileCombustion.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/mobilecombustion",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FuelType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/fueltype",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/GreenhouseGas.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/greenhousegas",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/AccommodationType.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/AccommodationType.md",
+      "redirect_url": "/dynamics365/industry/accelerators/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FacilityAnnualDetail.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/Sustainability/overview",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FugitiveEmission.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/fugitiveemission",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/PurchasedGoodAndService.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/purchasedGoodAndService",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SpendType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/spendtype",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/TransportMode.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/transportmode",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/TransportationAndDistribution.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/transportationanddistribution",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/VehicleType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/vehicletype",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/CountryRegionMapping.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/countryregionmapping",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/EmissionFactor.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/emissionfactor",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/EstimationFactor.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/emissionfactor",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/Facility.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/facility",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FactorMapping.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/factormapping",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FacilityItemProduction.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/facilityitemproduction",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/StationaryCombustion.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/stationarycombustion",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FactorLibrary.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/factorlibrary",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/IndustrialProcessType.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/industrialprocesstype",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/Industry.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/industry",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/IndustryClassification.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/industryclassification",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/Material.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/material",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/MonthlyRevenue.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/monthlyrevenue",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/OrganizationalHierarchy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/organizationalhierarchy",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/OrganizationalProfile.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/organizationalprofile",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/OrganizationalUnit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/organizationalunit",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/PreviewSustainabilityProduct.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/previewsustainabilityproduct",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/Subindustry.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/subindustry",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/IndustrialProcess.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/industrialprocess",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityItemCategorySKU.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/SustainabilityItemCategorySKU.md",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityItemPackaging.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/SustainabilityItemPackaging",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityItem.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/SustainabilityItem",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/Unit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/unit",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/UnitGroup.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/unitgroup",
+      
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/ValueChainPartner.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/valuechainpartner",
+      
+      "redirect_document_id": false
     }
+
   ]
 }

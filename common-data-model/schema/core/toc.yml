@@ -2624,7 +2624,7 @@
           - name: MobileCombustion 
             href: industryCommon/Sustainability/SustainabilityCarbon/MobileCombustion.md
           - name: PreviewCarbonFootprintAssurance
-            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewCarbonFootprintAssurance.md
+            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewProductFootprintAssurance.md
           - name: PreviewProductFootprintRuleMapping
             href: industryCommon/Sustainability/SustainabilityCarbon/PreviewProductFootprintRuleMapping.md
           - name: PreviewProductOrSectorSpecificRule
