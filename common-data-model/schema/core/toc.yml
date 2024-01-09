@@ -2583,7 +2583,7 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
       - name: Microsoft Cloud for Sustainability
         items:
-        - name: Cloud for Sustainability carbon data model
+        - name: Carbon data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityCarbon/overview.md
@@ -2649,7 +2649,7 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/VehicleType.md
           - name: WasteGeneratedInOperations 
             href: industryCommon/Sustainability/SustainabilityCarbon/WasteGeneratedInOperations.md
-        - name: Cloud for Sustainability shared data model
+        - name: Shared data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityShared/overview.md
@@ -2725,7 +2725,7 @@
             href: industryCommon/Sustainability/SustainabilityShared/UnitGroup.md
           - name: ValueChainPartner 
             href: industryCommon/Sustainability/SustainabilityShared/ValueChainPartner.md
-        - name: Cloud for Sustainability waste data model
+        - name: Waste data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWaste/overview.md
@@ -2749,7 +2749,7 @@
             href: industryCommon/Sustainability/SustainabilityWaste/WasteTestMethod.md
           - name: WasteType 
             href: industryCommon/Sustainability/SustainabilityWaste/WasteType.md
-        - name: Cloud for Sustainability water data model
+        - name: Water data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityWater/overview.md
