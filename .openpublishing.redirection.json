@@ -583,11 +583,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/AccommodationType.md",
-      "redirect_url": "/dynamics365/industry/accelerators/overview",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/FacilityAnnualDetail.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/Sustainability/overview",
       
