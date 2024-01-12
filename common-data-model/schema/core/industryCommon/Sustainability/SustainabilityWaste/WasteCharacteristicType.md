@@ -1,11 +1,11 @@
 ---
-title: WasteCharacteristicType in Cloud for Sustainability waste data model
+title: WasteCharacteristicType in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
 description: Stores all the different classifications for the waste quality characteristics.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: anbichse
 ms.topic: article
-ms.date: 10/24/2023
+ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
