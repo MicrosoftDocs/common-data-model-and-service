@@ -1,5 +1,5 @@
 ---
-title: WasteGeneratedInOperations in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: WasteGeneratedInOperations in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for waste generated in operations, including disposal and treatment of waste generated.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Waste generated in operations in CloudforSustainabilityCarbonDataModel(WasteGeneratedInOperations)
+# Waste generated in operations in Cloud for Sustainability carbon data model(WasteGeneratedInOperations)
 
 Entity for waste generated in operations, including disposal and treatment of waste generated.  
   

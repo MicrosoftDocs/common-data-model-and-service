@@ -1,5 +1,5 @@
 ---
-title: ContractualInstrumentType in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: ContractualInstrumentType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Documented method/approach to confirm and validate source data.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Contractual instrument type in CloudforSustainabilityCarbonDataModel(ContractualInstrumentType)
+# Contractual instrument type in Cloud for Sustainability carbon data model(ContractualInstrumentType)
 
 Documented method/approach to confirm and validate source data.  
   

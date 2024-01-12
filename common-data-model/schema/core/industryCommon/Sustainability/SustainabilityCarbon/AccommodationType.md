@@ -1,5 +1,5 @@
 ---
-title: AccommodationType in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: AccommodationType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of hotel accommodation, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Accommodation type in CloudforSustainabilityCarbonDataModel(AccommodationType)
+# Accommodation type in Cloud for Sustainability carbon data model(AccommodationType)
 
 Entity used for classifying the type of hotel accommodation, as defined in the reporting company.  
   

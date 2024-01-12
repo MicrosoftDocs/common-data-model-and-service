@@ -1,5 +1,5 @@
 ---
-title: PurchasedGoodAndService in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: PurchasedGoodAndService in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for purchased goods and services.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Purchased good and service in CloudforSustainabilityCarbonDataModel(PurchasedGoodAndService)
+# Purchased good and service in Cloud for Sustainability carbon data model(PurchasedGoodAndService)
 
 Entity for purchased goods and services.  
   

@@ -1,5 +1,5 @@
 ---
-title: ExternalActivity in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: ExternalActivity in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Table that holds activities from external sources
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# External activity in CloudforSustainabilityCarbonDataModel(ExternalActivity)
+# External activity in Cloud for Sustainability carbon data model(ExternalActivity)
 
 Table that holds activities from external sources  
   

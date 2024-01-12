@@ -1,5 +1,5 @@
 ---
-title: Emission in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: Emission in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Emission in CloudforSustainabilityCarbonDataModel
+# Emission in Cloud for Sustainability carbon data model
 
 Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.  
   

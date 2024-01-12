@@ -1,5 +1,5 @@
 ---
-title: ExternalEmissions in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: ExternalEmissions in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Emissions from external sources
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# External Emissions in CloudforSustainabilityCarbonDataModel
+# External Emissions in Cloud for Sustainability carbon data model
 
 Emissions from external sources  
   

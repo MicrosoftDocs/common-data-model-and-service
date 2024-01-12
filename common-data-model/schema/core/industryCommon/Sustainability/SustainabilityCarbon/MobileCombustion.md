@@ -1,5 +1,5 @@
 ---
-title: MobileCombustion in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: MobileCombustion in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Combustion that occurs in a moving vehicle, such as a car or truck.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Mobile combustion in CloudforSustainabilityCarbonDataModel(MobileCombustion)
+# Mobile combustion in Cloud for Sustainability carbon data model(MobileCombustion)
 
 Combustion that occurs in a moving vehicle, such as a car or truck.  
   

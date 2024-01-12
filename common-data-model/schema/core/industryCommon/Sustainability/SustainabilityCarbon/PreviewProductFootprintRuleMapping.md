@@ -1,5 +1,5 @@
 ---
-title: PreviewProductFootprintRuleMapping in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: PreviewProductFootprintRuleMapping in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# (Preview) Product footprint rule mapping in CloudforSustainabilityCarbonDataModel(PreviewProductFootprintRuleMapping)
+# (Preview) Product footprint rule mapping in Cloud for Sustainability carbon data model(PreviewProductFootprintRuleMapping)
 
 Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.  
   

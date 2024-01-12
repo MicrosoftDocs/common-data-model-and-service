@@ -1,5 +1,5 @@
 ---
-title: EmployeeCommutingType in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: EmployeeCommutingType in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of employee commuting, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Employee commuting type in CloudforSustainabilityCarbonDataModel(EmployeeCommutingType)
+# Employee commuting type in Cloud for Sustainability carbon data model(EmployeeCommutingType)
 
 Entity used for classifying the type of employee commuting, as defined in the reporting company.  
   

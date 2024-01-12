@@ -1,5 +1,5 @@
 ---
-title: PreviewSustainabilityProductFootprint in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: PreviewSustainabilityProductFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The carbon footprint of a product with values in accordance with the Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# (Preview) Sustainability product footprint in CloudforSustainabilityCarbonDataModel(PreviewSustainabilityProductFootprint)
+# (Preview) Sustainability product footprint in Cloud for Sustainability carbon data model(PreviewSustainabilityProductFootprint)
 
 The carbon footprint of a product with values in accordance with the Pathfinder Framework.  
   
