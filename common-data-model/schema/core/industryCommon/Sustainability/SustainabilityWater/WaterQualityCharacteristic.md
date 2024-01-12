@@ -1,5 +1,5 @@
 ---
-title: WaterQualityCharacteristic in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
+title: WaterQualityCharacteristic in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
 description: Describes the property being evaluated during the analysis of the water sample collected.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Water quality characteristic in CloudforSustainabilityWaterDataModel(WaterQualityCharacteristic)
+# Water quality characteristic in Cloud for Sustainability water data model(WaterQualityCharacteristic)
 
 Describes the property being evaluated during the analysis of the water sample collected.  
   

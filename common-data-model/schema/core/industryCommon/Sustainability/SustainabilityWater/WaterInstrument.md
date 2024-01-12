@@ -1,5 +1,5 @@
 ---
-title: WaterInstrument in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
+title: WaterInstrument in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
 description: Stores the information related to the devices or instruments tracking water in the organization.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: cdmditeam
 ---
 
-# Water instrument in CloudforSustainabilityWaterDataModel(WaterInstrument)
+# Water instrument in Cloud for Sustainability water data model(WaterInstrument)
 
 Stores the information related to the devices or instruments tracking water in the organization.  
   
