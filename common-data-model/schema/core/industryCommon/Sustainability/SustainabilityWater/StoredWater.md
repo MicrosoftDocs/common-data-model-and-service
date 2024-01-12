@@ -3,7 +3,7 @@ title: StoredWater in Cloud for Sustainability water data model - Common Data Mo
 description: The entity stores data related to the water stored within a facility.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

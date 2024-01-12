@@ -3,7 +3,7 @@ title: WaterQualityTestResult in Cloud for Sustainability water data model - Com
 description: Describes the results coming from the laboratory water quality test for a characteristic in the water sample.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

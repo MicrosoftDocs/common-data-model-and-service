@@ -3,7 +3,7 @@ title: PurchasedEnergy in Cloud for Sustainability carbon data model - Common Da
 description: Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

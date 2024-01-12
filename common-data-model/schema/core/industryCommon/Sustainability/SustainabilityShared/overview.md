@@ -3,7 +3,7 @@ title: overview of CloudforSustainabilitySharedDataModel - Common Data Model | M
 description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

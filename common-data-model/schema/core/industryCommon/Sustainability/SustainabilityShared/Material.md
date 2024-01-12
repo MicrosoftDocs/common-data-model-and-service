@@ -3,7 +3,7 @@ title: Material in Cloud for Sustainability shared data model - Common Data Mode
 description: Entity used for classifying the type of material, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

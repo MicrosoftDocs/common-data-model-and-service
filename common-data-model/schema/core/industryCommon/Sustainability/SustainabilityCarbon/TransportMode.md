@@ -3,7 +3,7 @@ title: TransportMode in Cloud for Sustainability carbon data model - Common Data
 description: The mode of transportation or distribution used in an activity, such as air, rail, or storage.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

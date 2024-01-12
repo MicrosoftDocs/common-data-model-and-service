@@ -3,7 +3,7 @@ title: SustainabilityItemSKU in Cloud for Sustainability shared data model - Com
 description: Entity for capturing data on items/SKU inventoried such as input material and finished goods.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

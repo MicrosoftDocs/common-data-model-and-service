@@ -3,7 +3,7 @@ title: PreviewProductCarbonFootprintAssurance in Cloud for Sustainability carbon
 description: Assurance contains the assurance in conformance with Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

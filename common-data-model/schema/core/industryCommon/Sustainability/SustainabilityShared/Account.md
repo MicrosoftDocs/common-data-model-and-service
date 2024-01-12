@@ -3,7 +3,7 @@ title: Account in Cloud for Sustainability shared data model - Common Data Model
 description: Business that represents a customer or potential customer. The company that is billed in business transactions.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

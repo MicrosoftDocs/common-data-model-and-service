@@ -3,7 +3,7 @@ title: Investment in Cloud for Sustainability carbon data model - Common Data Mo
 description: The investment entity monitors and manages indirect greenhouse gas emissions resulting from the organization's investments in projects, companies, or assets contributing to climate change.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

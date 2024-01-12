@@ -3,7 +3,7 @@ title: WaterQualityAnalysis in Cloud for Sustainability water data model - Commo
 description: Describes the analysis performed to test a water sample for a certain characteristic.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

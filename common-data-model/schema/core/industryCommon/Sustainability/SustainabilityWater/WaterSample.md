@@ -3,7 +3,7 @@ title: WaterSample in Cloud for Sustainability water data model - Common Data Mo
 description: Stores the attributes of the water samples collected for testing water quality.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

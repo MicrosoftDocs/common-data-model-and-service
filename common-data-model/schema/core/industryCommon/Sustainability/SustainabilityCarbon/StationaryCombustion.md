@@ -3,7 +3,7 @@ title: StationaryCombustion in Cloud for Sustainability carbon data model - Comm
 description: Combustion that occurs in a fixed asset, such as a boiler or furnace.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

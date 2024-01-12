@@ -3,7 +3,7 @@ title: WasteGeneratedInOperations in Cloud for Sustainability carbon data model 
 description: Entity for waste generated in operations, including disposal and treatment of waste generated.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

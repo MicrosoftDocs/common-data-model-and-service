@@ -3,7 +3,7 @@ title: WaterBasin in Cloud for Sustainability water data model - Common Data Mod
 description: Describes the details of the basin from which water is being withdrawn by an entity.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

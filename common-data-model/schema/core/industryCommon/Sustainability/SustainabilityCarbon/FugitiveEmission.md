@@ -3,7 +3,7 @@ title: FugitiveEmission in Cloud for Sustainability carbon data model - Common D
 description: Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

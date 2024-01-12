@@ -3,7 +3,7 @@ title: ExternalActivity in Cloud for Sustainability carbon data model - Common D
 description: Table that holds activities from external sources
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse

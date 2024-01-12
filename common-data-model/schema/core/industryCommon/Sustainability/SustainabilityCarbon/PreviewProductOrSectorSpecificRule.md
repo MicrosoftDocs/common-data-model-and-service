@@ -3,7 +3,7 @@ title: PreviewProductOrSectorSpecificRule in Cloud for Sustainability carbon dat
 description: A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 1/4/2024
 ms.author: anbichse
