@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "schema/core/industryCommon/Sustainability/PurchasedEnergy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/PurchasedEnergy",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "schema/core/industryCommon/Sustainability/EmissionsSource.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/EmissionsSource",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "schema/core/industryCommon/Sustainability/CapitalGood.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/CapitalGood",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "entity-reference/common-data-model.md",
       "redirect_url": "/common-data-model/",
       "redirect_document_id": "false"
