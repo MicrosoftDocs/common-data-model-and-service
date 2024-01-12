@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Water source in Cloud for Sustainability water data model(WaterSource)
+# Water source in Cloud for Sustainability water data model (WaterSource)
 
 Entity to store details of sources from/to which water gets withdrawn/discharged.  
   

@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# End-of-life treatment of sold products in Cloud for Sustainability carbon data model(EndOfLifeTreatmentOfSoldProducts)
+# End-of-life treatment of sold products in Cloud for Sustainability carbon data model (EndOfLifeTreatmentOfSoldProducts)
 
 Entity for end for life treatment of sold products  
   

@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Sustainability module in Cloud for Sustainability shared data model(SustainabilityModule)
+# Sustainability module in Cloud for Sustainability shared data model (SustainabilityModule)
 
 Entity used to classify the data definitions.  
   

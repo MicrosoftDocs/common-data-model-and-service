@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Water basin in Cloud for Sustainability water data model(WaterBasin)
+# Water basin in Cloud for Sustainability water data model (WaterBasin)
 
 Describes the details of the basin from which water is being withdrawn by an entity.  
   

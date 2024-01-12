@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# External activity in Cloud for Sustainability carbon data model(ExternalActivity)
+# External activity in Cloud for Sustainability carbon data model (ExternalActivity)
 
 Table that holds activities from external sources  
   

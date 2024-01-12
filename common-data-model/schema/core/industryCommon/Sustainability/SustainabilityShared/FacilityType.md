@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Facility type in Cloud for Sustainability shared data model(FacilityType)
+# Facility type in Cloud for Sustainability shared data model (FacilityType)
 
 Entity used for classifying the type of facility, as defined in the reporting company.  
   

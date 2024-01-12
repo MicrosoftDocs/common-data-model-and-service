@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Country/Region mapping in Cloud for Sustainability shared data model(CountryRegionMapping)
+# Country/Region mapping in Cloud for Sustainability shared data model (CountryRegionMapping)
 
 Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.  
   

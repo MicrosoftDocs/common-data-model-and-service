@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product footprint rule mapping in Cloud for Sustainability carbon data model(PreviewProductFootprintRuleMapping)
+# (Preview) Product footprint rule mapping in Cloud for Sustainability carbon data model (PreviewProductFootprintRuleMapping)
 
 Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.  
   

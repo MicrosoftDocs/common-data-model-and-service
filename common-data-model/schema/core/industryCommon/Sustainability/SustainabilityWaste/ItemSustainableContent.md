@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Item sustainable content in Cloud for Sustainability waste data model(ItemSustainableContent)
+# Item sustainable content in Cloud for Sustainability waste data model (ItemSustainableContent)
 
 Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.  
   

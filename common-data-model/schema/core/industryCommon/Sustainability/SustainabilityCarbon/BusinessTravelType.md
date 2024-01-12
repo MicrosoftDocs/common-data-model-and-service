@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Business travel type in Cloud for Sustainability carbon data model(BusinessTravelType)
+# Business travel type in Cloud for Sustainability carbon data model (BusinessTravelType)
 
 Entity used for classifying the type of business travel, as defined in the reporting company.  
   

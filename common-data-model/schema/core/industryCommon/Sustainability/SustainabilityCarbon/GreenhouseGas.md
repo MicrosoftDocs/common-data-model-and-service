@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Greenhouse gas in Cloud for Sustainability carbon data model(GreenhouseGas)
+# Greenhouse gas in Cloud for Sustainability carbon data model (GreenhouseGas)
 
 Entity for greenhouse gases.  
   

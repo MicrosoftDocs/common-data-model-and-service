@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Water quality characteristic in Cloud for Sustainability water data model(WaterQualityCharacteristic)
+# Water quality characteristic in Cloud for Sustainability water data model (WaterQualityCharacteristic)
 
 Describes the property being evaluated during the analysis of the water sample collected.  
   

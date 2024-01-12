@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Fuel type in Cloud for Sustainability carbon data model(FuelType)
+# Fuel type in Cloud for Sustainability carbon data model (FuelType)
 
 List of fuels to be used during combustion, as needed for emissions factor selection.  
   

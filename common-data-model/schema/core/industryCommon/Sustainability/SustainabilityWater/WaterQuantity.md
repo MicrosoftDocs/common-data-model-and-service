@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Water quantity in Cloud for Sustainability water data model(WaterQuantity)
+# Water quantity in Cloud for Sustainability water data model (WaterQuantity)
 
 Stores the actual quantity information from water transactions within the organization.  
   

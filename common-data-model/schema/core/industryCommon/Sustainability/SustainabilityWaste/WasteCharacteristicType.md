@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Waste characteristic type in Cloud for Sustainability waste data model(WasteCharacteristicType)
+# Waste characteristic type in Cloud for Sustainability waste data model (WasteCharacteristicType)
 
 Stores all the different classifications for the waste quality characteristics.  
   

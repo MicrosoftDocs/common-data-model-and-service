@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Circularity design principle in Cloud for Sustainability waste data model(CircularityDesignPrinciple)
+# Circularity design principle in Cloud for Sustainability waste data model (CircularityDesignPrinciple)
 
 Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.  
   

@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Waste quality test result in Cloud for Sustainability waste data model(WasteQualityTestResult)
+# Waste quality test result in Cloud for Sustainability waste data model (WasteQualityTestResult)
 
 Stores information on the result of the tests for tracking chemical/contaminant levels.  
   

@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Reporting period in Cloud for Sustainability shared data model(ReportingPeriod)
+# Reporting period in Cloud for Sustainability shared data model (ReportingPeriod)
 
 Entity used to track reporting periods created for each reporting year.  
   

@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product carbon footprint assurance in Cloud for Sustainability carbon data model(PreviewProductCarbonFootprintAssurance)
+# (Preview) Product carbon footprint assurance in Cloud for Sustainability carbon data model (PreviewProductCarbonFootprintAssurance)
 
 Assurance contains the assurance in conformance with Pathfinder Framework.  
   

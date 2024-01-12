@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Water risk index in Cloud for Sustainability water data model(WaterRiskIndex)
+# Water risk index in Cloud for Sustainability water data model (WaterRiskIndex)
 
 The overall water risk that measures all water-related risks, by aggregating all selected indicators from the Physical Quantity, Quality and Regulatory & Reputational Risk categories. Higher values indicate higher water risk.
 

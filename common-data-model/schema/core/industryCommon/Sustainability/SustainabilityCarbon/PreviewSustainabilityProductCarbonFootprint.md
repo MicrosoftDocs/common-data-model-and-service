@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# (Preview) Sustainability product carbon footprint in Cloud for Sustainability carbon data model(PreviewSustainabilityProductCarbonFootprint)
+# (Preview) Sustainability product carbon footprint in Cloud for Sustainability carbon data model (PreviewSustainabilityProductCarbonFootprint)
 
 The carbon footprint of a product and related data in accordance with the Pathfinder Framework.  
   

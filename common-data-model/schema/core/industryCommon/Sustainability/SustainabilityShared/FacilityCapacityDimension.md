@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Facility capacity dimension in Cloud for Sustainability shared data model(FacilityCapacityDimension)
+# Facility capacity dimension in Cloud for Sustainability shared data model (FacilityCapacityDimension)
 
 The dimension of the facility based on which the water usage intensity factors are defined such as area.  
   

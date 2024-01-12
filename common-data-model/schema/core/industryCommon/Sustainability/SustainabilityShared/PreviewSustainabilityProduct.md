@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# (Preview) Sustainability product in Cloud for Sustainability shared data model(PreviewSustainabilityProduct)
+# (Preview) Sustainability product in Cloud for Sustainability shared data model (PreviewSustainabilityProduct)
 
 A product that can be associated with a product carbon footprint.  
   

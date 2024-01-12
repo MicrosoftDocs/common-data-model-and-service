@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Sustainability item packaging in Cloud for Sustainability shared data model(SustainabilityItemPackaging)
+# Sustainability item packaging in Cloud for Sustainability shared data model (SustainabilityItemPackaging)
 
 Indicates whether the item is used for packaging when distributing a product.  
   

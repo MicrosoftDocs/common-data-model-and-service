@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Water instrument in Cloud for Sustainability water data model(WaterInstrument)
+# Water instrument in Cloud for Sustainability water data model (WaterInstrument)
 
 Stores the information related to the devices or instruments tracking water in the organization.  
   

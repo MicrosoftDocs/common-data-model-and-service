@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Factor mapping in Cloud for Sustainability shared data model(FactorMapping)
+# Factor mapping in Cloud for Sustainability shared data model (FactorMapping)
 
 Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.  
   

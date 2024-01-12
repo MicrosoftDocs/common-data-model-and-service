@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Purchased energy in Cloud for Sustainability carbon data model(PurchasedEnergy)
+# Purchased energy in Cloud for Sustainability carbon data model (PurchasedEnergy)
 
 Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.  
   

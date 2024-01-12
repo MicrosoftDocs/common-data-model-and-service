@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# (Preview) Sustainability product identifier in Cloud for Sustainability shared data model(PreviewSustainabilityProductIdentifier)
+# (Preview) Sustainability product identifier in Cloud for Sustainability shared data model (PreviewSustainabilityProductIdentifier)
 
 Uniquely identifies a product.  
   

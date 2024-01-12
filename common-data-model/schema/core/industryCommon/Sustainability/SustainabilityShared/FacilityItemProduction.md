@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Facility item production in Cloud for Sustainability shared data model(FacilityItemProduction)
+# Facility item production in Cloud for Sustainability shared data model (FacilityItemProduction)
 
 Entity used to record the production quantity of an item in a facility for a specified period.   
   

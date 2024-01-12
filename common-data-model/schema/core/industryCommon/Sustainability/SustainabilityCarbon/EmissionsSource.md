@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Emissions source in Cloud for Sustainability carbon data model(EmissionsSource)
+# Emissions source in Cloud for Sustainability carbon data model (EmissionsSource)
 
 Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.  
   

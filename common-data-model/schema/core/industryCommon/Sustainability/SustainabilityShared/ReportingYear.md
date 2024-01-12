@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Reporting year in Cloud for Sustainability shared data model(ReportingYear)
+# Reporting year in Cloud for Sustainability shared data model (ReportingYear)
 
 Entity which lists reporting years created in the system.  
   

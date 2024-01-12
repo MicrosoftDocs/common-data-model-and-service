@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Transport mode in Cloud for Sustainability carbon data model(TransportMode)
+# Transport mode in Cloud for Sustainability carbon data model (TransportMode)
 
 The mode of transportation or distribution used in an activity, such as air, rail, or storage.  
   

@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product or sector specific rule in Cloud for Sustainability carbon data model(PreviewProductOrSectorSpecificRule)
+# (Preview) Product or sector specific rule in Cloud for Sustainability carbon data model (PreviewProductOrSectorSpecificRule)
 
 A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.  
   

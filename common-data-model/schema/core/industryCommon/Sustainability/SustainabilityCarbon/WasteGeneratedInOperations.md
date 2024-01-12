@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Waste generated in operations in Cloud for Sustainability carbon data model(WasteGeneratedInOperations)
+# Waste generated in operations in Cloud for Sustainability carbon data model (WasteGeneratedInOperations)
 
 Entity for waste generated in operations, including disposal and treatment of waste generated.  
   

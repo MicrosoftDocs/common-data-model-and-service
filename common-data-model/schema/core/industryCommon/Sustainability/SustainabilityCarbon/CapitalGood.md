@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Capital good in Cloud for Sustainability carbon data model(CapitalGood)
+# Capital good in Cloud for Sustainability carbon data model (CapitalGood)
 
 Purchased entity that depreciates over time.  
   

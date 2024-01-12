@@ -9,7 +9,7 @@ ms.date: 1/4/2024
 ms.author: anbichse
 ---
 
-# Estimation factor in Cloud for Sustainability shared data model(EstimationFactor)
+# Estimation factor in Cloud for Sustainability shared data model (EstimationFactor)
 
 Entity to store estimation or consumption factors.  
   
