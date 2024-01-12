@@ -1,18 +1,18 @@
 {
   "redirections": [
     {
-      "source_path": "schema/core/industryCommon/Sustainability/PurchasedEnergy.md",
-      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/PurchasedEnergy",
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/PurchasedEnergy.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/purchasedenergy",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "schema/core/industryCommon/Sustainability/EmissionsSource.md",
-      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/EmissionsSource",
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/EmissionsSource.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/emissionssource",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "schema/core/industryCommon/Sustainability/CapitalGood.md",
-      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityCarbon/CapitalGood",
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/CapitalGood.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/capitalgood",
       "redirect_document_id": "false"
     },
     {
