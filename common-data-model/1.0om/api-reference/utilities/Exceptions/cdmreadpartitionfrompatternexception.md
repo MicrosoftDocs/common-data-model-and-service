@@ -10,7 +10,7 @@ ms.author: mafrisci
 
 # Cdm Read Partition From Pattern Exception
 
-The Cdm Read Partition From Pattern Exception is an exception that is thrown if there is an error reading a partition from a partition pattern during the FileStatusCheckAsync call and when the 'ThrowErrorOnPartition' flag is set to true in FileStatusCheckOptions
+The CdmReadPartitionFromPattern Exception is an exception that the SDK throws if there an error reading a partition from a partition pattern is encountered during the FileStatusCheckAsync call. The 'ThrowErrorOnPartition' flag must be set to true in FileStatusCheckOptions to throw the error, otherwise only a warning will be logged and the SDK will continue to process partition patterns.
 
 ```csharp
 var options = new FileStatusCheckOptions()
