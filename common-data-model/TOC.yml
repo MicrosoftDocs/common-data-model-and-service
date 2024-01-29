@@ -228,6 +228,10 @@
         items:
           - name: Overview
             href: 1.0om/api-reference/utilities/utilities.md  
+          - name: Exceptions
+            items:
+            - name: CdmReadPartitionFromPatternException
+              href: 1.0om/api-reference/utilities/exceptions/cdmreadpartitionfrompatternexception.md
           - name: Copy options
             href: 1.0om/api-reference/utilities/copyoptions.md  
           - name: Event callback
