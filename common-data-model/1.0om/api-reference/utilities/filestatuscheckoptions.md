@@ -26,3 +26,4 @@ public class FileStatusCheckOptions
 |Name|Type|Description|
 |---|---|---|
 |IncludeDataPartitionSize|bool|A boolean value that specifies if the size of the data information should be included in the data partition object generated during FileStatusCheckAsync. This information can be found in the "is.partition.size" trait on the resulting data partition. The default value is false.|
+|ThrowOnPartitionError|bool|A boolean value that specifies if an error should be thrown when there is an error fetching at least one partition from a partition pattern. The default value is false.|
