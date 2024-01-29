@@ -74,6 +74,10 @@
         items:
           - name: Overview
             href: 1.0om/api-reference/cdm/cdm.md
+          - name: Exceptions
+            items:
+            - name: CdmReadPartitionFromPatternException
+              href: cdmreadpartitionfrompatternexception.md
           - name: Argument
             href: 1.0om/api-reference/cdm/argument.md
           - name: Argument Collection
