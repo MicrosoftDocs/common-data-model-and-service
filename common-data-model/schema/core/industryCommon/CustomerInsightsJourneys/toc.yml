@@ -1,0 +1,210 @@
+- name: Summary
+  href: overview.md
+- name: CustomerInsightsJourneys
+  items:
+  - name: Summary
+    href: CustomerInsightsJourneys/overview.md
+  - name: actionevent 
+    href: CustomerInsightsJourneys/actionevent.md
+  - name: activitycontactblocked 
+    href: CustomerInsightsJourneys/activitycontactblocked.md
+  - name: activitycontactblockedbusinessunit 
+    href: CustomerInsightsJourneys/activitycontactblockedbusinessunit.md
+  - name: activitycontactblockedconsent 
+    href: CustomerInsightsJourneys/activitycontactblockedconsent.md
+  - name: activitycontactblockedexternalconsent 
+    href: CustomerInsightsJourneys/activitycontactblockedexternalconsent.md
+  - name: activitycontactblockedsuppression 
+    href: CustomerInsightsJourneys/activitycontactblockedsuppression.md
+  - name: activitycontactdispatched 
+    href: CustomerInsightsJourneys/activitycontactdispatched.md
+  - name: activitycontactexpired 
+    href: CustomerInsightsJourneys/activitycontactexpired.md
+  - name: activitycontactprocessingfailed 
+    href: CustomerInsightsJourneys/activitycontactprocessingfailed.md
+  - name: confirmationrequest 
+    href: CustomerInsightsJourneys/confirmationrequest.md
+  - name: confirmationresponse 
+    href: CustomerInsightsJourneys/confirmationresponse.md
+  - name: contactdeleted 
+    href: CustomerInsightsJourneys/contactdeleted.md
+  - name: createcrmactivitycontactprocessed 
+    href: CustomerInsightsJourneys/createcrmactivitycontactprocessed.md
+  - name: createcustomchannelactivitycontactprocessed 
+    href: CustomerInsightsJourneys/createcustomchannelactivitycontactprocessed.md
+  - name: createleadactivitycontactprocessed 
+    href: CustomerInsightsJourneys/createleadactivitycontactprocessed.md
+  - name: custombounced 
+    href: CustomerInsightsJourneys/custombounced.md
+  - name: customchannelresponse 
+    href: CustomerInsightsJourneys/customchannelresponse.md
+  - name: customdelivered 
+    href: CustomerInsightsJourneys/customdelivered.md
+  - name: customerjourneycontactrecordupdated 
+    href: CustomerInsightsJourneys/customerjourneycontactrecordupdated.md
+  - name: customerjourneyiterationstarted 
+    href: CustomerInsightsJourneys/customerjourneyiterationstarted.md
+  - name: customlinkclicked 
+    href: CustomerInsightsJourneys/customlinkclicked.md
+  - name: customnotsent 
+    href: CustomerInsightsJourneys/customnotsent.md
+  - name: customsent 
+    href: CustomerInsightsJourneys/customsent.md
+  - name: domainnotownedbyanyone 
+    href: CustomerInsightsJourneys/domainnotownedbyanyone.md
+  - name: domainownedbydifferentorganization 
+    href: CustomerInsightsJourneys/domainownedbydifferentorganization.md
+  - name: emailaddressoptedout 
+    href: CustomerInsightsJourneys/emailaddressoptedout.md
+  - name: emailblockbounced 
+    href: CustomerInsightsJourneys/emailblockbounced.md
+  - name: emailblocked 
+    href: CustomerInsightsJourneys/emailblocked.md
+  - name: emailblockedbyactivityexpiration 
+    href: CustomerInsightsJourneys/emailblockedbyactivityexpiration.md
+  - name: emailblockedbyunsubscription 
+    href: CustomerInsightsJourneys/emailblockedbyunsubscription.md
+  - name: emailblockedbyuser 
+    href: CustomerInsightsJourneys/emailblockedbyuser.md
+  - name: emailblockedconsentnotgiven 
+    href: CustomerInsightsJourneys/emailblockedconsentnotgiven.md
+  - name: emailblockedcontactabilitydonotemail 
+    href: CustomerInsightsJourneys/emailblockedcontactabilitydonotemail.md
+  - name: emailblockeddomaindeliverability 
+    href: CustomerInsightsJourneys/emailblockeddomaindeliverability.md
+  - name: emailblockedduplicateaddress 
+    href: CustomerInsightsJourneys/emailblockedduplicateaddress.md
+  - name: emailblockedexternalconsentfailure 
+    href: CustomerInsightsJourneys/emailblockedexternalconsentfailure.md
+  - name: emailblockedfrequencycapreached 
+    href: CustomerInsightsJourneys/emailblockedfrequencycapreached.md
+  - name: emailblockedinactivecontact 
+    href: CustomerInsightsJourneys/emailblockedinactivecontact.md
+  - name: emailblockedinvalidrecipientaddress 
+    href: CustomerInsightsJourneys/emailblockedinvalidrecipientaddress.md
+  - name: emailblockedinvalidreplytoaddress 
+    href: CustomerInsightsJourneys/emailblockedinvalidreplytoaddress.md
+  - name: emailblockedinvalidsenderaddress 
+    href: CustomerInsightsJourneys/emailblockedinvalidsenderaddress.md
+  - name: emailblockedmissingcontactdata 
+    href: CustomerInsightsJourneys/emailblockedmissingcontactdata.md
+  - name: emailblockedmissingrelateddata 
+    href: CustomerInsightsJourneys/emailblockedmissingrelateddata.md
+  - name: emailblockedotherreason 
+    href: CustomerInsightsJourneys/emailblockedotherreason.md
+  - name: emailblockedtrialquotaexceeded 
+    href: CustomerInsightsJourneys/emailblockedtrialquotaexceeded.md
+  - name: emailbouncecacheblocked 
+    href: CustomerInsightsJourneys/emailbouncecacheblocked.md
+  - name: emailbounced 
+    href: CustomerInsightsJourneys/emailbounced.md
+  - name: emailccsent 
+    href: CustomerInsightsJourneys/emailccsent.md
+  - name: emailclicked 
+    href: CustomerInsightsJourneys/emailclicked.md
+  - name: emailcontainsblacklistedlinks 
+    href: CustomerInsightsJourneys/emailcontainsblacklistedlinks.md
+  - name: emaildelivered 
+    href: CustomerInsightsJourneys/emaildelivered.md
+  - name: emailfeedbackloop 
+    href: CustomerInsightsJourneys/emailfeedbackloop.md
+  - name: emailforwarded 
+    href: CustomerInsightsJourneys/emailforwarded.md
+  - name: emailhardbounced 
+    href: CustomerInsightsJourneys/emailhardbounced.md
+  - name: emailhardremotebounced 
+    href: CustomerInsightsJourneys/emailhardremotebounced.md
+  - name: emailopened 
+    href: CustomerInsightsJourneys/emailopened.md
+  - name: emailsendingfailed 
+    href: CustomerInsightsJourneys/emailsendingfailed.md
+  - name: emailsent 
+    href: CustomerInsightsJourneys/emailsent.md
+  - name: emailsoftbounced 
+    href: CustomerInsightsJourneys/emailsoftbounced.md
+  - name: emailsoftremotebounced 
+    href: CustomerInsightsJourneys/emailsoftremotebounced.md
+  - name: emailsubscriptionsubmit 
+    href: CustomerInsightsJourneys/emailsubscriptionsubmit.md
+  - name: entitydeleted 
+    href: CustomerInsightsJourneys/entitydeleted.md
+  - name: eventcheckin 
+    href: CustomerInsightsJourneys/eventcheckin.md
+  - name: eventregistration 
+    href: CustomerInsightsJourneys/eventregistration.md
+  - name: eventregistrationcanceled 
+    href: CustomerInsightsJourneys/eventregistrationcanceled.md
+  - name: formsprosurveyopened 
+    href: CustomerInsightsJourneys/formsprosurveyopened.md
+  - name: formsprosurveyquestionanswered 
+    href: CustomerInsightsJourneys/formsprosurveyquestionanswered.md
+  - name: formsprosurveysubmitted 
+    href: CustomerInsightsJourneys/formsprosurveysubmitted.md
+  - name: formsubmitted 
+    href: CustomerInsightsJourneys/formsubmitted.md
+  - name: formvisited 
+    href: CustomerInsightsJourneys/formvisited.md
+  - name: invalidrecipientaddress 
+    href: CustomerInsightsJourneys/invalidrecipientaddress.md
+  - name: invalidreplytoaddress 
+    href: CustomerInsightsJourneys/invalidreplytoaddress.md
+  - name: invalidsenderaddress 
+    href: CustomerInsightsJourneys/invalidsenderaddress.md
+  - name: journeyevent 
+    href: CustomerInsightsJourneys/journeyevent.md
+  - name: leadscoreboost 
+    href: CustomerInsightsJourneys/leadscoreboost.md
+  - name: linkedinformsubmission 
+    href: CustomerInsightsJourneys/linkedinformsubmission.md
+  - name: missingdataaccessprivileges 
+    href: CustomerInsightsJourneys/missingdataaccessprivileges.md
+  - name: outofemailcredits 
+    href: CustomerInsightsJourneys/outofemailcredits.md
+  - name: passthroughactivitycontactprocessed 
+    href: CustomerInsightsJourneys/passthroughactivitycontactprocessed.md
+  - name: pushnotificationlinkclicked 
+    href: CustomerInsightsJourneys/pushnotificationlinkclicked.md
+  - name: pushnotificationnotsent 
+    href: CustomerInsightsJourneys/pushnotificationnotsent.md
+  - name: pushnotificationopened 
+    href: CustomerInsightsJourneys/pushnotificationopened.md
+  - name: pushnotificationsent 
+    href: CustomerInsightsJourneys/pushnotificationsent.md
+  - name: redirectlinkclicked 
+    href: CustomerInsightsJourneys/redirectlinkclicked.md
+  - name: scheduleractivitycontactprocessed 
+    href: CustomerInsightsJourneys/scheduleractivitycontactprocessed.md
+  - name: segmentmemberscountchanged 
+    href: CustomerInsightsJourneys/segmentmemberscountchanged.md
+  - name: segmentrelationshipedited 
+    href: CustomerInsightsJourneys/segmentrelationshipedited.md
+  - name: segmentsubscribed 
+    href: CustomerInsightsJourneys/segmentsubscribed.md
+  - name: segmentunsubscribed 
+    href: CustomerInsightsJourneys/segmentunsubscribed.md
+  - name: sessionregistrationcanceled 
+    href: CustomerInsightsJourneys/sessionregistrationcanceled.md
+  - name: smsbounced 
+    href: CustomerInsightsJourneys/smsbounced.md
+  - name: smsdelivered 
+    href: CustomerInsightsJourneys/smsdelivered.md
+  - name: smslinkclicked 
+    href: CustomerInsightsJourneys/smslinkclicked.md
+  - name: smsnotsent 
+    href: CustomerInsightsJourneys/smsnotsent.md
+  - name: smsreceived 
+    href: CustomerInsightsJourneys/smsreceived.md
+  - name: smssent 
+    href: CustomerInsightsJourneys/smssent.md
+  - name: splitteractivitycontactprocessed 
+    href: CustomerInsightsJourneys/splitteractivitycontactprocessed.md
+  - name: surveyresponse 
+    href: CustomerInsightsJourneys/surveyresponse.md
+  - name: triggeractivitycontactprocessed 
+    href: CustomerInsightsJourneys/triggeractivitycontactprocessed.md
+  - name: triggercrmworkflowactivitycontactprocessed 
+    href: CustomerInsightsJourneys/triggercrmworkflowactivitycontactprocessed.md
+  - name: websiteclicked 
+    href: CustomerInsightsJourneys/websiteclicked.md
+  - name: websitevisited 
+    href: CustomerInsightsJourneys/websitevisited.md
