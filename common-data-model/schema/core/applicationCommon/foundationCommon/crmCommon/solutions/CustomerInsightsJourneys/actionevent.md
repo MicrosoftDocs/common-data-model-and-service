@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 2/14/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # ActionEvent in CustomerInsightsJourneys
