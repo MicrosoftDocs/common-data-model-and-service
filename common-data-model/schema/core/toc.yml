@@ -408,6 +408,214 @@
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/Segment.md
           - name: SegmentMembership 
             href: applicationCommon/foundationCommon/crmCommon/solutions/customerInsights/SegmentMembership.md
+        - name: CustomerInsightsJourneys
+          items:
+          - name: Summary
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/overview.md
+          - name: actionevent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/actionevent.md
+          - name: activitycontactblocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblocked.md
+          - name: activitycontactblockedbusinessunit 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedbusinessunit.md
+          - name: activitycontactblockedconsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedconsent.md
+          - name: activitycontactblockedexternalconsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedexternalconsent.md
+          - name: activitycontactblockedsuppression 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactblockedsuppression.md
+          - name: activitycontactdispatched 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactdispatched.md
+          - name: activitycontactexpired 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactexpired.md
+          - name: activitycontactprocessingfailed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/activitycontactprocessingfailed.md
+          - name: confirmationrequest 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/confirmationrequest.md
+          - name: confirmationresponse 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/confirmationresponse.md
+          - name: contactdeleted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/contactdeleted.md
+          - name: createcrmactivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/createcrmactivitycontactprocessed.md
+          - name: createcustomchannelactivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/createcustomchannelactivitycontactprocessed.md
+          - name: createleadactivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/createleadactivitycontactprocessed.md
+          - name: custombounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/custombounced.md
+          - name: customchannelresponse 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customchannelresponse.md
+          - name: customdelivered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customdelivered.md
+          - name: customerjourneycontactrecordupdated 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customerjourneycontactrecordupdated.md
+          - name: customerjourneyiterationstarted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customerjourneyiterationstarted.md
+          - name: customlinkclicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customlinkclicked.md
+          - name: customnotsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customnotsent.md
+          - name: customsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/customsent.md
+          - name: domainnotownedbyanyone 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/domainnotownedbyanyone.md
+          - name: domainownedbydifferentorganization 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/domainownedbydifferentorganization.md
+          - name: emailaddressoptedout 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailaddressoptedout.md
+          - name: emailblockbounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockbounced.md
+          - name: emailblocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblocked.md
+          - name: emailblockedbyactivityexpiration 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedbyactivityexpiration.md
+          - name: emailblockedbyunsubscription 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedbyunsubscription.md
+          - name: emailblockedbyuser 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedbyuser.md
+          - name: emailblockedconsentnotgiven 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedconsentnotgiven.md
+          - name: emailblockedcontactabilitydonotemail 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedcontactabilitydonotemail.md
+          - name: emailblockeddomaindeliverability 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockeddomaindeliverability.md
+          - name: emailblockedduplicateaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedduplicateaddress.md
+          - name: emailblockedexternalconsentfailure 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedexternalconsentfailure.md
+          - name: emailblockedfrequencycapreached 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedfrequencycapreached.md
+          - name: emailblockedinactivecontact 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinactivecontact.md
+          - name: emailblockedinvalidrecipientaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinvalidrecipientaddress.md
+          - name: emailblockedinvalidreplytoaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinvalidreplytoaddress.md
+          - name: emailblockedinvalidsenderaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedinvalidsenderaddress.md
+          - name: emailblockedmissingcontactdata 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedmissingcontactdata.md
+          - name: emailblockedmissingrelateddata 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedmissingrelateddata.md
+          - name: emailblockedotherreason 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedotherreason.md
+          - name: emailblockedtrialquotaexceeded 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailblockedtrialquotaexceeded.md
+          - name: emailbouncecacheblocked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailbouncecacheblocked.md
+          - name: emailbounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailbounced.md
+          - name: emailccsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailccsent.md
+          - name: emailclicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailclicked.md
+          - name: emailcontainsblacklistedlinks 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailcontainsblacklistedlinks.md
+          - name: emaildelivered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emaildelivered.md
+          - name: emailfeedbackloop 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailfeedbackloop.md
+          - name: emailforwarded 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailforwarded.md
+          - name: emailhardbounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailhardbounced.md
+          - name: emailhardremotebounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailhardremotebounced.md
+          - name: emailopened 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailopened.md
+          - name: emailsendingfailed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsendingfailed.md
+          - name: emailsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsent.md
+          - name: emailsoftbounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsoftbounced.md
+          - name: emailsoftremotebounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsoftremotebounced.md
+          - name: emailsubscriptionsubmit 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/emailsubscriptionsubmit.md
+          - name: entitydeleted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/entitydeleted.md
+          - name: eventcheckin 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/eventcheckin.md
+          - name: eventregistration 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/eventregistration.md
+          - name: eventregistrationcanceled 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/eventregistrationcanceled.md
+          - name: formsprosurveyopened 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsprosurveyopened.md
+          - name: formsprosurveyquestionanswered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsprosurveyquestionanswered.md
+          - name: formsprosurveysubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsprosurveysubmitted.md
+          - name: formsubmitted 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formsubmitted.md
+          - name: formvisited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/formvisited.md
+          - name: invalidrecipientaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidrecipientaddress.md
+          - name: invalidreplytoaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidreplytoaddress.md
+          - name: invalidsenderaddress 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/invalidsenderaddress.md
+          - name: journeyevent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/journeyevent.md
+          - name: leadscoreboost 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/leadscoreboost.md
+          - name: linkedinformsubmission 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/linkedinformsubmission.md
+          - name: missingdataaccessprivileges 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/missingdataaccessprivileges.md
+          - name: outofemailcredits 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/outofemailcredits.md
+          - name: passthroughactivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/passthroughactivitycontactprocessed.md
+          - name: pushnotificationlinkclicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationlinkclicked.md
+          - name: pushnotificationnotsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationnotsent.md
+          - name: pushnotificationopened 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationopened.md
+          - name: pushnotificationsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/pushnotificationsent.md
+          - name: redirectlinkclicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/redirectlinkclicked.md
+          - name: scheduleractivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/scheduleractivitycontactprocessed.md
+          - name: segmentmemberscountchanged 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentmemberscountchanged.md
+          - name: segmentrelationshipedited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentrelationshipedited.md
+          - name: segmentsubscribed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentsubscribed.md
+          - name: segmentunsubscribed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/segmentunsubscribed.md
+          - name: sessionregistrationcanceled 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/sessionregistrationcanceled.md
+          - name: smsbounced 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsbounced.md
+          - name: smsdelivered 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsdelivered.md
+          - name: smslinkclicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smslinkclicked.md
+          - name: smsnotsent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsnotsent.md
+          - name: smsreceived 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smsreceived.md
+          - name: smssent 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/smssent.md
+          - name: splitteractivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/splitteractivitycontactprocessed.md
+          - name: surveyresponse 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/surveyresponse.md
+          - name: triggeractivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/triggeractivitycontactprocessed.md
+          - name: triggercrmworkflowactivitycontactprocessed 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/triggercrmworkflowactivitycontactprocessed.md
+          - name: websiteclicked 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/websiteclicked.md
+          - name: websitevisited 
+            href: applicationCommon/foundationCommon/crmCommon/solutions/CustomerInsightsJourneys/websitevisited.md
         - name: marketing
           items:
           - name: Summary
