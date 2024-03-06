@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of CloudforSustainabilityEnergyDataModel
 
-Cloud for Sustainability Energy Data Model CDM entity definitions  
+The [Microsoft Cloud for Sustainability energy data model](/industry/sustainability/data-model-energy-overview) helps organizations unify and streamline energy data to achieve their energy sustainability goals. It helps you to unify, standardize, and streamline energy data collection and storage for your organization across generation, procurement, and end use into a single unified data model.
 
 ## Entities
 
