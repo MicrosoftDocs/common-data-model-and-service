@@ -2857,7 +2857,7 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/VehicleType.md
           - name: WasteGeneratedInOperations 
             href: industryCommon/Sustainability/SustainabilityCarbon/WasteGeneratedInOperations.md
-        - name: Energy data Model
+        - name: Energy data model
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityEnergy/overview.md
