@@ -1,5 +1,5 @@
 ---
-title: PreviewProductFootprint in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: PreviewProductFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The carbon footprint of a product with values in accordance with the Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product footprint in CloudforSustainabilityCarbonDataModel(PreviewProductFootprint)
+# (Preview) Product footprint in Cloud for Sustainability carbon data model(PreviewProductFootprint)
 
 The carbon footprint of a product with values in accordance with the Pathfinder Framework.  
   
@@ -582,7 +582,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/Account.md" target="_blank">/Sustainability/CloudforSustainabilitySharedDataModel/Account.cdm.json/Account</a></td><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit.md" target="_blank">/Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner.md" target="_blank">/Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/SustainabilityShared/Account.md" target="_blank">/SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="/SustainabilityShared/Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="/SustainabilityShared/OrganizationalUnit.md" target="_blank">/SustainabilityShared/OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="/SustainabilityShared/OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="/SustainabilityShared/ValueChainPartner.md" target="_blank">/SustainabilityShared/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="/SustainabilityShared/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The company that is the data owner.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>

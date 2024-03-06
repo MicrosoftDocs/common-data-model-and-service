@@ -1,5 +1,5 @@
 ---
-title: Unit in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: Unit in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Unit of measure.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Unit in CloudforSustainabilitySharedDataModel
+# Unit in Cloud for Sustainability shared data model
 
 Unit of measure.  
   

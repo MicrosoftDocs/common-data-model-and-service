@@ -1,5 +1,5 @@
 ---
-title: PreviewProductCarbonFootprint in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: PreviewProductCarbonFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The carbon footprint of a product and related data in accordance with the Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product carbon footprint in CloudforSustainabilityCarbonDataModel(PreviewProductCarbonFootprint)
+# (Preview) Product carbon footprint in Cloud for Sustainability carbon data model(PreviewProductCarbonFootprint)
 
 The carbon footprint of a product and related data in accordance with the Pathfinder Framework.  
   
@@ -1116,7 +1116,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/Unit.md" target="_blank">/Sustainability/CloudforSustainabilitySharedDataModel/Unit.cdm.json/Unit</a></td><td><a href="../Sustainability/CloudforSustainabilitySharedDataModel/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="/SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="/SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
