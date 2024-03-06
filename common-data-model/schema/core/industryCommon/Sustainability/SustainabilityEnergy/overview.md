@@ -1,6 +1,6 @@
 ---
-title: overview of CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
-description: CloudforSustainabilityEnergyDataModel is a folder that contains standard entities related to the Common Data Model.
+title: Overview of Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
+description: Cloud for Sustainability energy data model is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
@@ -9,7 +9,7 @@ ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Overview of CloudforSustainabilityEnergyDataModel
+# Overview of Cloud for Sustainability energy data model
 
 The [Microsoft Cloud for Sustainability energy data model](/industry/sustainability/data-model-energy-overview) helps organizations unify and streamline energy data to achieve their energy sustainability goals. It helps you to unify, standardize, and streamline energy data collection and storage for your organization across generation, procurement, and end use into a single unified data model.
 
