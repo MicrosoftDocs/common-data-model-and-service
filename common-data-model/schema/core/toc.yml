@@ -2874,7 +2874,7 @@
           - name: PurchasedEnergy
             href: industryCommon/Sustainability/SustainabilityEnergy/PurchasedEnergy.md
           - name: RenewableEnergyCertificate
-            href: industryCommon/Sustainability/SustainabilityEnergy/enewableEnergyCertificate.md
+            href: industryCommon/Sustainability/SustainabilityEnergy/RenewableEnergyCertificate.md
           - name: UtilityType
             href: industryCommon/Sustainability/SustainabilityEnergy/UtilityType.md
         - name: Shared data model
