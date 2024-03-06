@@ -56,7 +56,7 @@ Greenhouse gas emissions that cannot reasonably be expected to be captured. Typi
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[name](#name)|The name of the custom entity.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[consumptionenddate](#consumptionenddate)|End date of the activity consumption.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of the activity consumption.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[cost](#cost)|Cost associated with the activity data.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
@@ -80,7 +80,7 @@ Greenhouse gas emissions that cannot reasonably be expected to be captured. Typi
 |[valuechainpartnerid](#valuechainpartnerid)|Unique identifier for value chain partner associated with this record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[goodsquantity](#goodsquantity)|The amount of goods associated with this record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[goodsunit](#goodsunit)|The unit of measurement for the goods quantity in record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[category](#category)|Indicator of classification of category.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 
@@ -433,7 +433,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity)  
 
 #### Properties
@@ -1495,7 +1495,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity)  
 
 #### Properties

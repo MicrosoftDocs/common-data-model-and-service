@@ -70,7 +70,7 @@ The carbon footprint of a product with values in accordance with the Pathfinder 
 |[sustainabilityproductcarbonfootprint](#sustainabilityproductcarbonfootprint)|The carbon footprint of the given product.|<a href="PreviewProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint</a>|
 |[validityperiodend](#validityperiodend)|The end (exclusive) of the valid period of the PCF. Reference the description of validity period start and the Pathfinder Framework for further details.|<a href="PreviewProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint</a>|
 |[validityperiodstart](#validityperiodstart)|The start of the validity period, which is the interval during which the PCF is declared as valid for use by a data recipient. Reference the Pathfinder Framework for further details. |<a href="PreviewProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint</a>|
-|[version](#version)|The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)\x2d1.|<a href="PreviewProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint</a>|
+|[version](#version)|The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)-1.|<a href="PreviewProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewProductFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint</a>|
 
 ### <a href=#sustainabilityproductfootprintId name="sustainabilityproductfootprintId">sustainabilityproductfootprintId</a>
@@ -905,7 +905,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#version name="version">version</a>
 
-The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)\x2d1.  
+The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)-1.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductFootprint (this entity)  
 
 #### Properties

@@ -60,9 +60,9 @@ A product that can be associated with a product carbon footprint.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
-|[name](#name)|The non\x2dempty trade name of the product.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
+|[name](#name)|The non-empty trade name of the product.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
 |[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
-|[productdescription](#productdescription)|The free\x2dform description of the product plus other information related to it such as production technology or packaging.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
+|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductSustainability</a>|
 
 ### <a href=#sustainabilityproductId name="sustainabilityproductId">sustainabilityproductId</a>
@@ -456,7 +456,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 
 ### <a href=#name name="name">name</a>
 
-The non\x2dempty trade name of the product.  
+The non-empty trade name of the product.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductSustainability (this entity)  
 
 #### Properties
@@ -552,7 +552,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 
 ### <a href=#productdescription name="productdescription">productdescription</a>
 
-The free\x2dform description of the product plus other information related to it such as production technology or packaging.  
+The free-form description of the product plus other information related to it such as production technology or packaging.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductSustainability (this entity)  
 
 #### Properties

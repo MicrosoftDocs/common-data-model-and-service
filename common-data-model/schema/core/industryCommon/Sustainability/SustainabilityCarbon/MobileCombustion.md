@@ -56,7 +56,7 @@ Combustion that occurs in a moving vehicle, such as a car or truck.
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[name](#name)|The name of the custom entity.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[cost](#cost)|Cost associated with activity data.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
@@ -86,7 +86,7 @@ Combustion that occurs in a moving vehicle, such as a car or truck.
 |[goodsquantity](#goodsquantity)|The amount of goods associated with this record.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[goodsunit](#goodsunit)|The unit of measurement for the goods quantity in record.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[category](#category)|Indicator of classification of category.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 
@@ -439,7 +439,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
@@ -1767,7 +1767,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties

@@ -56,7 +56,7 @@ Emissions source for scope 1 emissions relating to industrial processes.
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[name](#name)|The name of the custom entity.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[consumptionenddate](#consumptionenddate)|End date of the activity consumption.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of the activity consumption.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[cost](#cost)|Cost associated with the activity data.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
@@ -430,7 +430,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity)  
 
 #### Properties

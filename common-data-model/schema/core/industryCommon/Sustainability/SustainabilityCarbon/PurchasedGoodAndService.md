@@ -77,7 +77,7 @@ Entity for purchased goods and services.
 |[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the purchased good and service.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 |[productfootprintreporting](#productfootprintreporting)|Product carbon footprint that contributes to this activity, such as part in supply chain.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 
 ### <a href=#purchasedgoodandserviceId name="purchasedgoodandserviceId">purchasedgoodandserviceId</a>
@@ -1354,7 +1354,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService (this entity)  
 
 #### Properties

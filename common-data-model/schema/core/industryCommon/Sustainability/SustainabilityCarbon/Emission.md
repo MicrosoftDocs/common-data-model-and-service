@@ -81,7 +81,7 @@ Entity which lists the most common greenhouse gases and their quantities as outp
 |[hfcs](#hfcs)|The amount of hydrofluorocarbons factor.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[isbiogenic](#isbiogenic)|Indicates if it is a biogenic emission, or emission from a natural source.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
-|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market\x2dbased or considered a "net" calculation.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
+|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market-based or considered a "net" calculation.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[n2o](#n2o)|The amount of the N₂O factor.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
@@ -105,7 +105,7 @@ Entity which lists the most common greenhouse gases and their quantities as outp
 |[emissionlookup](#emissionlookup)|Factor mapping used for emission calculations.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[actualquantity](#actualquantity)|Adjusted activity quantity used for emission calculation.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[actualquantityunit](#actualquantityunit)|Adjusted activity quantity unit used for emission calculation.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.|<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[source](#source)||<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
 |[sourceType](#sourceType)||<a href="Emission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Emission</a>|
@@ -1573,7 +1573,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 ### <a href=#ismarketbased name="ismarketbased">ismarketbased</a>
 
-Indicates if emission calculation is market\x2dbased or considered a "net" calculation.  
+Indicates if emission calculation is market-based or considered a "net" calculation.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emission (this entity)  
 
 #### Properties
@@ -2634,7 +2634,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emission (this entity)  
 
 #### Properties

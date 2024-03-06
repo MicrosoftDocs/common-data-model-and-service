@@ -57,7 +57,7 @@ Entity for waste generated in operations, including disposal and treatment of wa
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[name](#name)|The name of the custom entity.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[cost](#cost)|Cost associated with activity data.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[costunit](#costunit)|Unit associated with the cost quantity.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
@@ -85,7 +85,7 @@ Entity for waste generated in operations, including disposal and treatment of wa
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[wastequantity](#wastequantity)|Quantity of waste to be used in calculation |<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[wastequantityunit](#wastequantityunit)|Unit associated with quantity of waste. Generally mass or volume. |<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[category](#category)|Indicator of classification of category.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGe
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations (this entity)  
 
 #### Properties
@@ -1725,7 +1725,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGe
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations (this entity)  
 
 #### Properties

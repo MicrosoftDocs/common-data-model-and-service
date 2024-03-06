@@ -24,7 +24,7 @@ Cloud for Sustainability Carbon Data Model CDM entity definitions
 |[ContractualInstrumentType](ContractualInstrumentType.md)|Documented method/approach to confirm and validate source data.|
 |[DisposalMethod](DisposalMethod.md)|Entity used for classifying the type of disposal method, as defined in the reporting company.|
 |[Emission](Emission.md)|Entity which lists the most common greenhouse gases and their quantities as output of calculation or direct measurement.|
-|[EmissionsSource](EmissionsSource.md)|Greenhouse Gas Protocol\x2ddefined emissions sources in scopes 1, 2, and 3.|
+|[EmissionsSource](EmissionsSource.md)|Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.|
 |[EmployeeCommuting](EmployeeCommuting.md)|Entity for employee commuting data|
 |[EmployeeCommutingType](EmployeeCommutingType.md)|Entity used for classifying the type of employee commuting, as defined in the reporting company.|
 |[EndOfLifeTreatmentOfSoldProducts](EndOfLifeTreatmentOfSoldProducts.md)|Entity for end for life treatment of sold products|
@@ -39,8 +39,8 @@ Cloud for Sustainability Carbon Data Model CDM entity definitions
 |[PreviewProductCarbonFootprint](PreviewProductCarbonFootprint.md)|The carbon footprint of a product and related data in accordance with the Pathfinder Framework.|
 |[PreviewProductCarbonFootprintAudit](PreviewProductCarbonFootprintAudit.md)|Assurance contains the assurance in conformance with Pathfinder Framework.|
 |[PreviewProductFootprint](PreviewProductFootprint.md)|The carbon footprint of a product with values in accordance with the Pathfinder Framework.|
-|[PreviewProductFootprintRuleMapping](PreviewProductFootprintRuleMapping.md)|Mapping table from sustainability product carbon footprints to product\x2d or sector\x2dspecific rules rules applied for calculating or allocating emissions.|
-|[PreviewProductOrSectorSpecificRuleset](PreviewProductOrSectorSpecificRuleset.md)|A set of product\x2d or sector\x2dspecific rules published by a specific operator and applied during product carbon footprint calculation.|
+|[PreviewProductFootprintRuleMapping](PreviewProductFootprintRuleMapping.md)|Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.|
+|[PreviewProductOrSectorSpecificRuleset](PreviewProductOrSectorSpecificRuleset.md)|A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.|
 |[PurchasedEnergy](PurchasedEnergy.md)|Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.|
 |[PurchasedGoodAndService](PurchasedGoodAndService.md)|Entity for purchased goods and services.|
 |[SpendType](SpendType.md)|Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.|

@@ -85,7 +85,7 @@ Emissions from external sources
 |[hfcs](#hfcs)|The amount of hydrofluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
 |[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
 |[isbiogenic](#isbiogenic)|Indicates if it is a biogenic emission, or emission from a natural source.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market\x2dbased or considered a "net" calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
+|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market-based or considered a "net" calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
 |[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
 |[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
 |[n2o](#n2o)|The amount of the N₂O factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
@@ -1739,7 +1739,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 
 ### <a href=#ismarketbased name="ismarketbased">ismarketbased</a>
 
-Indicates if emission calculation is market\x2dbased or considered a "net" calculation.  
+Indicates if emission calculation is market-based or considered a "net" calculation.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerEmission (this entity)  
 
 #### Properties

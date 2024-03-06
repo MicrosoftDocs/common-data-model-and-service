@@ -75,7 +75,7 @@ Purchased entity that depreciates over time.
 |[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[productfootprintreporting](#productfootprintreporting)|Product carbon footprint that contributes to this activity, such as part in supply chain.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 
 ### <a href=#capitalgoodId name="capitalgoodId">capitalgoodId</a>
@@ -1261,7 +1261,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties

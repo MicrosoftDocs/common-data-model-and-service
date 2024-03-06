@@ -61,7 +61,7 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[name](#name)|The name of the custom entity.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[aircraftghgemissions](#aircraftghgemissions)|The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[aircraftghgemissions](#aircraftghgemissions)|The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[allocationrulesdescription](#allocationrulesdescription)|If present, a description of any allocation rules applied and the rationale explaining how the selected approach aligns with Pathfinder Framework rules.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[biogenicaccountingmethodology](#biogenicaccountingmethodology)|The standard followed to account for biogenic emissions and removals.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[biogeniccarboncontent](#biogeniccarboncontent)|The biogenic carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
@@ -70,9 +70,9 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 |[characterizationfactors](#characterizationfactors)|The IPCC Assessment Report used in the calculation of the PCF.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[completenessdqr](#completenessdqr)|DQR based on data quality matrix, scoring completeness of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[coveragepercent](#coveragepercent)|Percentage of PCF included in the data quality assessment based on the >5% emissions threshold.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[crosssectoralstandardsused1](#crosssectoralstandardsused1)|The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[crosssectoralstandardsused2](#crosssectoralstandardsused2)|The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[crosssectoralstandardsused3](#crosssectoralstandardsused3)|The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[crosssectoralstandardsused1](#crosssectoralstandardsused1)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[crosssectoralstandardsused2](#crosssectoralstandardsused2)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[crosssectoralstandardsused3](#crosssectoralstandardsused3)|The cross-sectoral standards applied for calculating or allocating GHG emissions.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[declaredunit](#declaredunit)|The unit of analysis of the product.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[dlucghgemissions](#dlucghgemissions)|Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0. |<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[exemptedemissionsdescription](#exemptedemissionsdescription)|Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
@@ -80,14 +80,14 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 |[fossilcarboncontent](#fossilcarboncontent)|The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[fossilghgemissions](#fossilghgemissions)|The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[geographicaldqr](#geographicaldqr)|DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[geographycountry](#geographycountry)|If present, the value must conform to an ISO 3166\x2d2 alpha\x2d2 code.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[geographycountrysubdivision](#geographycountrysubdivision)|If present, an ISO 3166\x2d2 subdivision code.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[geographycountry](#geographycountry)|If present, the value must conform to an ISO 3166-2 alpha-2 code.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[geographycountrysubdivision](#geographycountrysubdivision)|If present, an ISO 3166-2 subdivision code.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[geographyregionorsubregion](#geographyregionorsubregion)|If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[ilucghgemissions](#ilucghgemissions)|Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0. |<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[landmanagementghgemissions](#landmanagementghgemissions)|GHG emissions and removals associated with land management\x2drelated changes, including non\x2dCO2 sources. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[landmanagementghgemissions](#landmanagementghgemissions)|GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[otherbiogenicghgemissions](#otherbiogenicghgemissions)|All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[packagingemissionsincluded](#packagingemissionsincluded)|A boolean flag indicating whether packaging emissions are included in the PCF.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
-|[packagingghgemissions](#packagingghgemissions)|Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative. The field must be empty if packaging emissions included is false.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
+|[packagingghgemissions](#packagingghgemissions)|Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[pcfexcludingbiogenic](#pcfexcludingbiogenic)|The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero. |<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[pcfincludingbiogenic](#pcfincludingbiogenic)|The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
 |[primarydatashare](#primarydatashare)|The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.|<a href="PreviewProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint</a>|
@@ -541,7 +541,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#aircraftghgemissions name="aircraftghgemissions">aircraftghgemissions</a>
 
-The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative.  
+The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non-negative.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -944,7 +944,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#crosssectoralstandardsused1 name="crosssectoralstandardsused1">crosssectoralstandardsused1</a>
 
-The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.  
+The cross-sectoral standards applied for calculating or allocating GHG emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -990,7 +990,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#crosssectoralstandardsused2 name="crosssectoralstandardsused2">crosssectoralstandardsused2</a>
 
-The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.  
+The cross-sectoral standards applied for calculating or allocating GHG emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -1036,7 +1036,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#crosssectoralstandardsused3 name="crosssectoralstandardsused3">crosssectoralstandardsused3</a>
 
-The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.  
+The cross-sectoral standards applied for calculating or allocating GHG emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -1390,7 +1390,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#geographycountry name="geographycountry">geographycountry</a>
 
-If present, the value must conform to an ISO 3166\x2d2 alpha\x2d2 code.  
+If present, the value must conform to an ISO 3166-2 alpha-2 code.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -1438,7 +1438,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#geographycountrysubdivision name="geographycountrysubdivision">geographycountrysubdivision</a>
 
-If present, an ISO 3166\x2d2 subdivision code.  
+If present, an ISO 3166-2 subdivision code.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -1577,7 +1577,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#landmanagementghgemissions name="landmanagementghgemissions">landmanagementghgemissions</a>
 
-GHG emissions and removals associated with land management\x2drelated changes, including non\x2dCO2 sources. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative.  
+GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties
@@ -1699,7 +1699,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#packagingghgemissions name="packagingghgemissions">packagingghgemissions</a>
 
-Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative. The field must be empty if packaging emissions included is false.  
+Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprint (this entity)  
 
 #### Properties

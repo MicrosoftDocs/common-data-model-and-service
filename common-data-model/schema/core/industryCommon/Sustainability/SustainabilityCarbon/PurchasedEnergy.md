@@ -56,7 +56,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[name](#name)|The name of the custom entity.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[contractualinstrumenttypeid](#contractualinstrumenttypeid)|Unique identifier for the contractual instrument type associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
@@ -66,7 +66,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[energyprovidername](#energyprovidername)|Name of the energy provider.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[energytype](#energytype)|Energy sub\x2dcategory within Scope 2 emissions. |<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
+|[energytype](#energytype)|Energy sub-category within Scope 2 emissions. |<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[facilityid](#facilityid)|Unique identifier for the facility associated with the purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[facilityusagedetailid](#facilityusagedetailid)|The facility usage detail associated with this purchased energy|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
@@ -84,7 +84,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |[goodsunit](#goodsunit)|Unit of measure for the goods quantity in record.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the spend category. Generally, applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[category](#category)|Indicator of classification of category.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedEnergy</a>|
 
@@ -437,7 +437,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
 
 #### Properties
@@ -879,7 +879,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 ### <a href=#energytype name="energytype">energytype</a>
 
-Energy sub\x2dcategory within Scope 2 emissions.   
+Energy sub-category within Scope 2 emissions.   
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
 
 #### Properties
@@ -1686,7 +1686,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product.  
+Product carbon footprint that this activity contributes to, such as first-party end product.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedEnergy (this entity)  
 
 #### Properties

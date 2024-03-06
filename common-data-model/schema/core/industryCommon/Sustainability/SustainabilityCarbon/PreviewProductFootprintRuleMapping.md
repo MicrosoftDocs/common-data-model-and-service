@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # (Preview) Product footprint rule mapping in CloudforSustainabilityCarbonDataModel(PreviewProductFootprintRuleMapping)
 
-Mapping table from sustainability product carbon footprints to product\x2d or sector\x2dspecific rules rules applied for calculating or allocating emissions.  
+Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping.cdm.json" target="_blank">GitHub</a>.  
 
@@ -62,7 +62,7 @@ Mapping table from sustainability product carbon footprints to product\x2d or se
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 |[name](#name)|The name of the custom entity.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 |[productcarbonfootprint](#productcarbonfootprint)|The PCF this rule is for.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
-|[productorsectorspecificrule](#productorsectorspecificrule)|The product\x2dspecific or sector\x2dspecific ruleset applied for calculating or allocating GHG emissions.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
+|[productorsectorspecificrule](#productorsectorspecificrule)|The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 
 ### <a href=#productfootprintrulemappingId name="productfootprintrulemappingId">productfootprintrulemappingId</a>
@@ -549,7 +549,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#productorsectorspecificrule name="productorsectorspecificrule">productorsectorspecificrule</a>
 
-The product\x2dspecific or sector\x2dspecific ruleset applied for calculating or allocating GHG emissions.  
+The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping (this entity)  
 
 #### Properties

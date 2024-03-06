@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Emissions source in CloudforSustainabilityCarbonDataModel(EmissionsSource)
 
-Greenhouse Gas Protocol\x2ddefined emissions sources in scopes 1, 2, and 3.  
+Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource.cdm.json" target="_blank">GitHub</a>.  
 
