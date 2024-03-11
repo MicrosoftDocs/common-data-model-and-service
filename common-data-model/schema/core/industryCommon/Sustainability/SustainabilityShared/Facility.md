@@ -1,15 +1,15 @@
 ---
-title: Facility in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: Facility in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Facility in Cloud for Sustainability shared data model
+# Facility in CloudforSustainabilitySharedDataModel
 
 Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   

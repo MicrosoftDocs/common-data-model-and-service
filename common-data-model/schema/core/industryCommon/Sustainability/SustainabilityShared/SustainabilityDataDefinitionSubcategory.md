@@ -1,15 +1,15 @@
 ---
-title: SustainabilityDataDefinitionSubcategory in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: SustainabilityDataDefinitionSubcategory in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Stores data definition subcategories and help links
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Sustainability data definition subcategory in Cloud for Sustainability shared data model (SustainabilityDataDefinitionSubcategory)
+# Sustainability data definition subcategory in CloudforSustainabilitySharedDataModel(SustainabilityDataDefinitionSubcategory)
 
 Stores data definition subcategories and help links  
   

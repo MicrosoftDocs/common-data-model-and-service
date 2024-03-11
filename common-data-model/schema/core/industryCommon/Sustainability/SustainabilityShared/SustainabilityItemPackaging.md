@@ -1,15 +1,15 @@
 ---
-title: SustainabilityItemPackaging in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: SustainabilityItemPackaging in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Indicates whether the item is used for packaging when distributing a product.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Sustainability item packaging in Cloud for Sustainability shared data model (SustainabilityItemPackaging)
+# Sustainability item packaging in CloudforSustainabilitySharedDataModel(SustainabilityItemPackaging)
 
 Indicates whether the item is used for packaging when distributing a product.  
   

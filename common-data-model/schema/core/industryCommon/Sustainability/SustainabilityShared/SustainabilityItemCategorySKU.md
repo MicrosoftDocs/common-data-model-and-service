@@ -1,15 +1,15 @@
 ---
-title: SustainabilityItemCategorySKU in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: SustainabilityItemCategorySKU in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: The category of the item such as abrasives, castings or accessories
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Sustainability item category SKU in Cloud for Sustainability shared data model (SustainabilityItemCategorySKU)
+# Sustainability item category SKU in CloudforSustainabilitySharedDataModel(SustainabilityItemCategorySKU)
 
 The category of the item such as abrasives, castings or accessories  
   

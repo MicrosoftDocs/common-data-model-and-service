@@ -1,17 +1,17 @@
 ---
-title: Overview of Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: overview of CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
 description: CloudforSustainabilityCarbonDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Overview of Cloud for Sustainability carbon data model
+# Overview of CloudforSustainabilityCarbonDataModel
 
-Cloud for Sustainability carbon data model entity definitions.
+Cloud for Sustainability Carbon Data Model CDM entity definitions  
 
 ## Entities
 
@@ -28,19 +28,19 @@ Cloud for Sustainability carbon data model entity definitions.
 |[EmployeeCommuting](EmployeeCommuting.md)|Entity for employee commuting data|
 |[EmployeeCommutingType](EmployeeCommutingType.md)|Entity used for classifying the type of employee commuting, as defined in the reporting company.|
 |[EndOfLifeTreatmentOfSoldProducts](EndOfLifeTreatmentOfSoldProducts.md)|Entity for end for life treatment of sold products|
-|[ExternalActivity](ExternalActivity.md)|Table that holds activities from external sources|
-|[ExternalEmissions](ExternalEmissions.md)|Emissions from external sources|
 |[FuelType](FuelType.md)|List of fuels to be used during combustion, as needed for emissions factor selection.|
 |[FugitiveEmission](FugitiveEmission.md)|Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.|
 |[GreenhouseGas](GreenhouseGas.md)|Entity for greenhouse gases.|
 |[IndustrialProcess](IndustrialProcess.md)|Emissions source for scope 1 emissions relating to industrial processes.|
 |[Investment](Investment.md)|The investment entity monitors and manages indirect greenhouse gas emissions resulting from the organization's investments in projects, companies, or assets contributing to climate change.|
 |[MobileCombustion](MobileCombustion.md)|Combustion that occurs in a moving vehicle, such as a car or truck.|
-|[PreviewProductCarbonFootprintAssurance](PreviewProductCarbonFootprintAssurance.md)|Assurance contains the assurance in conformance with Pathfinder Framework.|
+|[PartnerActivity](PartnerActivity.md)|Table that holds activities from external sources|
+|[PartnerEmission](PartnerEmission.md)|Emissions from external sources|
+|[PreviewProductCarbonFootprint](PreviewProductCarbonFootprint.md)|The carbon footprint of a product and related data in accordance with the Pathfinder Framework.|
+|[PreviewProductCarbonFootprintAudit](PreviewProductCarbonFootprintAudit.md)|Assurance contains the assurance in conformance with Pathfinder Framework.|
+|[PreviewProductFootprint](PreviewProductFootprint.md)|The carbon footprint of a product with values in accordance with the Pathfinder Framework.|
 |[PreviewProductFootprintRuleMapping](PreviewProductFootprintRuleMapping.md)|Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.|
-|[PreviewProductOrSectorSpecificRule](PreviewProductOrSectorSpecificRule.md)|A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.|
-|[PreviewSustainabilityProductCarbonFootprint](PreviewSustainabilityProductCarbonFootprint.md)|The carbon footprint of a product and related data in accordance with the Pathfinder Framework.|
-|[PreviewSustainabilityProductFootprint](PreviewSustainabilityProductFootprint.md)|The carbon footprint of a product with values in accordance with the Pathfinder Framework.|
+|[PreviewProductOrSectorSpecificRuleset](PreviewProductOrSectorSpecificRuleset.md)|A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.|
 |[PurchasedEnergy](PurchasedEnergy.md)|Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.|
 |[PurchasedGoodAndService](PurchasedGoodAndService.md)|Entity for purchased goods and services.|
 |[SpendType](SpendType.md)|Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.|

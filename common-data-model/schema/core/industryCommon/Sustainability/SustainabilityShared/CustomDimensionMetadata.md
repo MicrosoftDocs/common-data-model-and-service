@@ -1,15 +1,15 @@
 ---
-title: CustomDimensionMetadata in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: CustomDimensionMetadata in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Table holding information about all the custom dimensions available in Microsoft Sustainability Manager
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Custom dimension metadata in Cloud for Sustainability shared data model (CustomDimensionMetadata)
+# Custom dimension metadata in CloudforSustainabilitySharedDataModel(CustomDimensionMetadata)
 
 Table holding information about all the custom dimensions available in Microsoft Sustainability Manager  
   

@@ -1,15 +1,15 @@
 ---
-title: Account in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: Account in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Business that represents a customer or potential customer. The company that is billed in business transactions.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Account in Cloud for Sustainability shared data model
+# Account in CloudforSustainabilitySharedDataModel
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   
@@ -51,11 +51,13 @@ Business that represents a customer or potential customer. The company that is b
 |[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[accountCategoryCode](#accountCategoryCode)|Select a category to indicate whether the customer account is standard or preferred.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[companyname](#companyname)|The name of a supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
+|[energyprovidertype](#energyprovidertype)|Type of provider for the purchased energy.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[industry](#industry)|Industry of the supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[reportingstartday](#reportingstartday)|The day on which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[reportingstartmonth](#reportingstartmonth)|The month in which the supplier's reporting year starts|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[siccode](#siccode)|Standard Industrial Classification code assigned by the US government|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[suppliertier](#suppliertier)|Tier of Supplier|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
+|[companyregistrationnumber](#companyregistrationnumber)|Unique identifier that is related to the value chain partner.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 |[sustainabilityaccountname](#sustainabilityaccountname)|Unique name of the account, for integration with Sustainability|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Account</a>|
 
@@ -114,7 +116,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Category</td></tr><tr><td>description</td><td>Select a category to indicate whether the customer account is standard or preferred.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>accountcategorycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Preferred Customer</td><td>1</td></tr><tr><td>en</td><td>Standard</td><td>2</td></tr><tr><td>en</td><td>Supplier</td><td>192350000</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Category</td></tr><tr><td>description</td><td>Select a category to indicate whether the customer account is standard or preferred.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>accountcategorycode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Preferred Customer</td><td>1</td></tr><tr><td>en</td><td>Standard</td><td>2</td></tr><tr><td>en</td><td>Value Chain Partner</td><td>192350000</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -127,7 +129,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
 
 **is.dataFormat.numeric**  
   **does.haveDefault**  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Preferred Customer</td><td>1</td></tr><tr><td>en</td><td>Standard</td><td>2</td></tr><tr><td>en</td><td>Supplier</td><td>192350000</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Preferred Customer</td><td>1</td></tr><tr><td>en</td><td>Standard</td><td>2</td></tr><tr><td>en</td><td>Value Chain Partner</td><td>192350000</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
@@ -196,6 +198,57 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10008"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#energyprovidertype name="energyprovidertype">energyprovidertype</a>
+
+Type of provider for the purchased energy.  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Energy provider type</td></tr><tr><td>description</td><td>Type of provider for the purchased energy.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_energyprovidertype</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the energyprovidertype attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Type of provider for the purchased energy.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Energy provider type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_energyprovidertype"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10009"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
   **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -287,7 +340,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingstartday"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10010"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10011"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -333,7 +386,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingstartmonth"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10012"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10013"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.integer**  
   </details>
@@ -378,7 +431,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_siccode"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10014"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10015"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -426,7 +479,55 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_suppliertier"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10015"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10016"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#companyregistrationnumber name="companyregistrationnumber">companyregistrationnumber</a>
+
+Unique identifier that is related to the value chain partner.  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Company Registration Number</td></tr><tr><td>description</td><td>Unique identifier that is related to the value chain partner.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_companyregistrationnumber</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the companyregistrationnumber attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier that is related to the value chain partner.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Company Registration Number</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.constrained**  
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_companyregistrationnumber"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10019"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -474,7 +575,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10016"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10020"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
@@ -522,7 +623,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Account
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_sustainabilityaccountname"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10017"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"10021"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  

@@ -1,15 +1,15 @@
 ---
-title: MonthlyRevenue in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: MonthlyRevenue in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Captures revenue of an organizational unit by year and month in the company currency.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Monthly revenue in Cloud for Sustainability shared data model (MonthlyRevenue)
+# Monthly revenue in CloudforSustainabilitySharedDataModel(MonthlyRevenue)
 
 Captures revenue of an organizational unit by year and month in the company currency.  
   

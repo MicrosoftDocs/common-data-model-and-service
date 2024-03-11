@@ -1,15 +1,15 @@
 ---
-title: FactorLibrary in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: FactorLibrary in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: Repository for emission and estimation factor sets, including both system and user added.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Factor library in Cloud for Sustainability shared data model (FactorLibrary)
+# Factor library in CloudforSustainabilitySharedDataModel(FactorLibrary)
 
 Repository for emission and estimation factor sets, including both system and user added.  
   
@@ -894,7 +894,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Strings indicating the type of factor library</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Custom</td><td>700610000</td></tr><tr><td>en</td><td>Demo</td><td>700610001</td></tr><tr><td>en</td><td>Standard</td><td>700610002</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Type</td></tr><tr><td>description</td><td>Strings indicating the type of factor library</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_type</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Custom</td><td>700610000</td></tr><tr><td>en</td><td>Demo</td><td>700610001</td></tr><tr><td>en</td><td>Standard</td><td>700610002</td></tr><tr><td>en</td><td>Value chain</td><td>700610003</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -907,7 +907,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.numeric**  
   **does.haveDefault**  
-  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Custom</td><td>700610000</td></tr><tr><td>en</td><td>Demo</td><td>700610001</td></tr><tr><td>en</td><td>Standard</td><td>700610002</td></tr></table></td><td>any</td><td></td></tr></table>
+  An attribute has a default value  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>default</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Custom</td><td>700610000</td></tr><tr><td>en</td><td>Demo</td><td>700610001</td></tr><tr><td>en</td><td>Standard</td><td>700610002</td></tr><tr><td>en</td><td>Value chain</td><td>700610003</td></tr></table></td><td>any</td><td></td></tr></table>
 
 **is.constrainedList**  
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
