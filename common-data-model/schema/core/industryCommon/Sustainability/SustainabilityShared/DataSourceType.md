@@ -3,7 +3,7 @@ title: DataSourceType in CloudforSustainabilitySharedDataModel - Common Data Mod
 description: The different types of sources for energy data.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: deonhe
+ms.reviewer: anbichse
 ms.topic: article
 ms.date: 3/11/2024
 ms.author: anbichse
