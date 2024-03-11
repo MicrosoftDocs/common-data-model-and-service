@@ -11,7 +11,7 @@ ms.author: anbichse
 
 # Overview of CloudforSustainabilitySharedDataModel
 
-Cloud for Sustainability Shared Data Model CDM entity definitions  
+Cloud for Sustainability shared data model entities are shared across the carbon, energy, waste, and water data models.  
 
 ## Entities
 
