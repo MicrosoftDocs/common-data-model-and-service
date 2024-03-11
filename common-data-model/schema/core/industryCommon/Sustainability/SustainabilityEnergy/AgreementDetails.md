@@ -71,13 +71,13 @@ Binding agreement between the energy provider and the customer for the energy be
 |[marketattributes](#marketattributes)|These are market specific attributes for renewable energy generation in the agreement.|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 |[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 |[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
-|[settlementlocation](#settlementlocation)|Trading hub, pricing node, zone, or other location at which your project will settle financially.\)|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
+|[settlementlocation](#settlementlocation)|Trading hub, pricing node, zone, or other location at which your project will settle financially.)|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 |[startdate](#startdate)|Start date of the power purchase agreement.|<a href="AgreementDetails.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/AgreementDetails</a>|
 
 ### <a href=#agreementdetailsId name="agreementdetailsId">agreementdetailsId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -125,7 +125,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -165,7 +165,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -205,7 +205,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Agreement details  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -251,7 +251,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Agreement details  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -300,7 +300,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -343,7 +343,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -380,7 +380,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -423,7 +423,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#basicattributes name="basicattributes">basicattributes</a>
 
 These are basic attributes for renewable energy generation in the agreement  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#contractstructure name="contractstructure">contractstructure</a>
 
 Details of the agreement with the renewable energy provider.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#contractterms name="contractterms">contractterms</a>
 
 Duration of the agreement with the renewable energy provider.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -657,7 +657,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -700,7 +700,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -745,7 +745,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#expirydate name="expirydate">expirydate</a>
 
 End date of the power purchase agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -785,7 +785,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -830,7 +830,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#marketattributes name="marketattributes">marketattributes</a>
 
 These are market specific attributes for renewable energy generation in the agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -878,7 +878,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -921,7 +921,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -965,8 +965,8 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 
 ### <a href=#settlementlocation name="settlementlocation">settlementlocation</a>
 
-Trading hub, pricing node, zone, or other location at which your project will settle financially.\)  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+Trading hub, pricing node, zone, or other location at which your project will settle financially.)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 
@@ -1014,7 +1014,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Agreeme
 ### <a href=#startdate name="startdate">startdate</a>
 
 Start date of the power purchase agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/AgreementDetails (this entity)  
 
 #### Properties
 

@@ -61,14 +61,14 @@ Entity storing the region mapping, which is a mapping of a country or region to 
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
 |[name](#name)|The Name attribute is currently not used.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[countryisocode](#countryisocode)|ISO code of the country/region mapped to a group (msndyn_region\).|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
+|[countryisocode](#countryisocode)|ISO code of the country/region mapped to a group (msndyn_region).|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
 |[region](#region)|Name of the group mapped to the country/region.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
 
 ### <a href=#countryregionmappingId name="countryregionmappingId">countryregionmappingId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Country/Region mapping  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Country/Region mapping  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#name name="name">name</a>
 
 The Name attribute is currently not used.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -504,8 +504,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 
 ### <a href=#countryisocode name="countryisocode">countryisocode</a>
 
-ISO code of the country/region mapped to a group (msndyn_region\).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+ISO code of the country/region mapped to a group (msndyn_region).  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#region name="region">region</a>
 
 Name of the group mapped to the country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
 
 #### Properties
 

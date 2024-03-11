@@ -68,7 +68,7 @@ Medium or sources to generate energy.
 ### <a href=#energysourceId name="energysourceId">energysourceId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Energy Source  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Energy Source  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#energysourcetype name="energysourcetype">energysourcetype</a>
 
 Specific source used to generate electricity based on generation type  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#isonsite name="isonsite">isonsite</a>
 
 Attribute to indicate if the energy source used for generation is onsite or not  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 
@@ -588,7 +588,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#isrenewable name="isrenewable">isrenewable</a>
 
 Attribute to indicate if the energy generated is renewable or not.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
 
 #### Properties
 

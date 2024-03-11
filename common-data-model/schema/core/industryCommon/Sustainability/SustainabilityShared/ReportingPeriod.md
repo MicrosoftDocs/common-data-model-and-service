@@ -69,7 +69,7 @@ Entity used to track reporting periods created for each reporting year.
 ### <a href=#reportingperiodId name="reportingperiodId">reportingperiodId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the reporting period  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the reporting period  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#name name="name">name</a>
 
 Field representing the friendly name for a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#enddate name="enddate">enddate</a>
 
 Field representing the end date for a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -543,7 +543,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#periodstatus name="periodstatus">periodstatus</a>
 
 Field representing the status of a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#reportingyearid name="reportingyearid">reportingyearid</a>
 
 Unique identifier of the reporting year associated with the reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
@@ -634,7 +634,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Reporti
 ### <a href=#startdate name="startdate">startdate</a>
 
 Field representing the start date for a reporting period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ReportingPeriod (this entity)  
 
 #### Properties
 
