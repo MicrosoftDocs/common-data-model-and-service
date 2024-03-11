@@ -61,7 +61,7 @@ Defines custom country/region codes.
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[name](#name)||<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
-|[alternatecode](#alternatecode)|Organization\x2dspecific custom code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
+|[alternatecode](#alternatecode)|Organization-specific custom code.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[countryregion2lettercode](#countryregion2lettercode)|The ISO 2 letter code identifying a country/region.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
 |[countryregion3digitcode](#countryregion3digitcode)|The numeric code identifies a physical territory, and the letters a country/region name.|<a href="CountryRegion.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegion</a>|
@@ -506,7 +506,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 
 ### <a href=#alternatecode name="alternatecode">alternatecode</a>
 
-Organization\x2dspecific custom code.  
+Organization-specific custom code.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegion (this entity)  
 
 #### Properties

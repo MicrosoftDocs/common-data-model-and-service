@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Renewable Energy Certificate in CloudforSustainabilityEnergyDataModel
 
-Market\x2dbased instrument that represents the environmental attributes of electricity generated from renewable energy sources.  
+Market-based instrument that represents the environmental attributes of electricity generated from renewable energy sources.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate.cdm.json" target="_blank">GitHub</a>.  
 
@@ -64,7 +64,7 @@ Market\x2dbased instrument that represents the environmental attributes of elect
 |[bundled](#bundled)|Indicator to determine if a REC is bundled or unbundled|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[certificatedata](#certificatedata)|Validated record for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[certificatenumber](#certificatenumber)|Validated record/number for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[certificatetype](#certificatetype)|The standard or certification scheme under which the REC was issued (e.g., Green\x2de, I\x2dREC, local regulatory standards).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
+|[certificatetype](#certificatetype)|The standard or certification scheme under which the REC was issued (e.g., Green-e, I-REC, local regulatory standards).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[cost](#cost)|Cost associated with activity data.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[costunit](#costunit)|Unit associated with the cost quantity.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[emissionsrate](#emissionsrate)|Emissions if any associated with the renewable energy certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
@@ -648,7 +648,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 ### <a href=#certificatetype name="certificatetype">certificatetype</a>
 
-The standard or certification scheme under which the REC was issued (e.g., Green\x2de, I\x2dREC, local regulatory standards).  
+The standard or certification scheme under which the REC was issued (e.g., Green-e, I-REC, local regulatory standards).  
 First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
 
 #### Properties
