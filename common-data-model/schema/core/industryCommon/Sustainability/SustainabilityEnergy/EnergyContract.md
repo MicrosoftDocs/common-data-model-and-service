@@ -1,5 +1,5 @@
 ---
-title: EnergyContract in CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
+title: EnergyContract in Cloud for Sustainability energy data model  - Common Data Model | Microsoft Docs
 description: Documented method/approach to source energy.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Energy contract in CloudforSustainabilityEnergyDataModel(EnergyContract)
+# Energy contract in Cloud for Sustainability energy data model (EnergyContract)
 
 Documented method/approach to source energy.  
   

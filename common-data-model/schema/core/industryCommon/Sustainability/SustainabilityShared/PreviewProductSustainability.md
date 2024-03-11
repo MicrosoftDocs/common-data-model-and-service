@@ -1,5 +1,5 @@
 ---
-title: PreviewProductSustainability in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: PreviewProductSustainability in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
 description: A product that can be associated with a product carbon footprint.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product (Sustainability) in CloudforSustainabilitySharedDataModel(PreviewProductSustainability)
+# (Preview) Product (Sustainability) in Cloud for Sustainability shared data model (PreviewProductSustainability)
 
 A product that can be associated with a product carbon footprint.  
   
