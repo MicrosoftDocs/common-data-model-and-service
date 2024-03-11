@@ -3,13 +3,13 @@ title: EmissionsSource in Cloud for Sustainability carbon data model - Common Da
 description: Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Emissions source in Cloud for Sustainability carbon data model (EmissionsSource)
+# Emissions source in Cloud for Sustainability carbon data model(EmissionsSource)
 
 Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.  
   

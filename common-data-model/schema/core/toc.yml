@@ -2857,6 +2857,26 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/VehicleType.md
           - name: WasteGeneratedInOperations 
             href: industryCommon/Sustainability/SustainabilityCarbon/WasteGeneratedInOperations.md
+        - name: Energy data model
+          items:
+          - name: Summary
+            href: industryCommon/Sustainability/SustainabilityEnergy/overview.md
+          - name: AgreementDetails
+            href: industryCommon/Sustainability/SustainabilityEnergy/AgreementDetails.md
+          - name: EnergyContract
+            href: industryCommon/Sustainability/SustainabilityEnergy/EnergyContract.md
+          - name: EnergyContractType
+            href: industryCommon/Sustainability/SustainabilityEnergy/EnergyContractType.md
+          - name: EnergySource
+            href: industryCommon/Sustainability/SustainabilityEnergy/EnergySource.md
+          - name: GeneratedEnergy
+            href: industryCommon/Sustainability/SustainabilityEnergy/GeneratedEnergy.md
+          - name: PurchasedEnergy
+            href: industryCommon/Sustainability/SustainabilityEnergy/PurchasedEnergy.md
+          - name: RenewableEnergyCertificate
+            href: industryCommon/Sustainability/SustainabilityEnergy/RenewableEnergyCertificate.md
+          - name: UtilityType
+            href: industryCommon/Sustainability/SustainabilityEnergy/UtilityType.md
         - name: Shared data model
           items:
           - name: Summary
@@ -2865,12 +2885,18 @@
             href: industryCommon/Sustainability/SustainabilityShared/Account.md
           - name: Contact 
             href: industryCommon/Sustainability/SustainabilityShared/Contact.md
+          - name: CountryRegion
+            href: industryCommon/Sustainability/SustainabilityShared/CountryRegion.md
           - name: CountryRegionMapping 
             href: industryCommon/Sustainability/SustainabilityShared/CountryRegionMapping.md
           - name: CustomDimensionMetadata 
             href: industryCommon/Sustainability/SustainabilityShared/CustomDimensionMetadata.md
+          - name: DataSourceType
+            href: industryCommon/Sustainability/SustainabilityShared/DataSourceType.md
           - name: EmissionFactor 
             href: industryCommon/Sustainability/SustainabilityShared/EmissionFactor.md
+          - name: EnergyProviderType
+            href: industryCommon/Sustainability/SustainabilityShared/EnergyProviderType.md
           - name: EstimationFactor 
             href: industryCommon/Sustainability/SustainabilityShared/EstimationFactor.md
           - name: Facility 
@@ -2889,6 +2915,10 @@
             href: industryCommon/Sustainability/SustainabilityShared/FactorLibrary.md
           - name: FactorMapping 
             href: industryCommon/Sustainability/SustainabilityShared/FactorMapping.md
+          - name: GeographicArea
+            href: industryCommon/Sustainability/SustainabilityShared/GeographicArea.md
+          - name: GeographicAreaType
+            href: industryCommon/Sustainability/SustainabilityShared/GeographicAreaType.md
           - name: IndustrialProcessType 
             href: industryCommon/Sustainability/SustainabilityShared/IndustrialProcessType.md
           - name: Industry 
@@ -2905,6 +2935,10 @@
             href: industryCommon/Sustainability/SustainabilityShared/OrganizationalProfile.md
           - name: OrganizationalUnit 
             href: industryCommon/Sustainability/SustainabilityShared/OrganizationalUnit.md
+          - name: PreviewProductIdentifier
+            href: industryCommon/Sustainability/SustainabilityShared/PreviewProductIdentifier.md
+          - name: PreviewProductSustainability
+            href: industryCommon/Sustainability/SustainabilityShared/PreviewProductSustainability.md
           - name: PreviewSustainabilityProduct
             href: industryCommon/Sustainability/SustainabilityShared/PreviewSustainabilityProduct.md
           - name: PreviewSustainabilityProductIdentifier

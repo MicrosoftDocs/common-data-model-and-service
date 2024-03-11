@@ -3,13 +3,13 @@ title: DisposalMethod in Cloud for Sustainability carbon data model - Common Dat
 description: Entity used for classifying the type of disposal method, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Disposal method in Cloud for Sustainability carbon data model (DisposalMethod)
+# Disposal method in Cloud for Sustainability carbon data model(DisposalMethod)
 
 Entity used for classifying the type of disposal method, as defined in the reporting company.  
   

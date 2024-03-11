@@ -3,13 +3,13 @@ title: SpendType in Cloud for Sustainability carbon data model - Common Data Mod
 description: Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Spend type in Cloud for Sustainability carbon data model (SpendType)
+# Spend type in Cloud for Sustainability carbon data model(SpendType)
 
 Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.  
   

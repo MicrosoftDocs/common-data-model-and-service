@@ -1,15 +1,15 @@
 ---
-title: OrganizationalHierarchy in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: OrganizationalHierarchy in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Organizational hierarchy in Cloud for Sustainability shared data model (OrganizationalHierarchy)
+# Organizational hierarchy in CloudforSustainabilitySharedDataModel(OrganizationalHierarchy)
 
 The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.  
   

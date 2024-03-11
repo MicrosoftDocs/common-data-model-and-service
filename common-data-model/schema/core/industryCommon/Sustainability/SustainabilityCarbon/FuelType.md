@@ -3,13 +3,13 @@ title: FuelType in Cloud for Sustainability carbon data model - Common Data Mode
 description: List of fuels to be used during combustion, as needed for emissions factor selection.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Fuel type in Cloud for Sustainability carbon data model (FuelType)
+# Fuel type in Cloud for Sustainability carbon data model(FuelType)
 
 List of fuels to be used during combustion, as needed for emissions factor selection.  
   

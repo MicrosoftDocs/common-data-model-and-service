@@ -3,13 +3,13 @@ title: VehicleType in Cloud for Sustainability carbon data model - Common Data M
 description: Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# Vehicle type in Cloud for Sustainability carbon data model (VehicleType)
+# Vehicle type in Cloud for Sustainability carbon data model(VehicleType)
 
 Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.  
   

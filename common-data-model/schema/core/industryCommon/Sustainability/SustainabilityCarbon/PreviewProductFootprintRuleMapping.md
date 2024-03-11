@@ -3,13 +3,13 @@ title: PreviewProductFootprintRuleMapping in Cloud for Sustainability carbon dat
 description: Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 3/6/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product footprint rule mapping in Cloud for Sustainability carbon data model (PreviewProductFootprintRuleMapping)
+# (Preview) Product footprint rule mapping in Cloud for Sustainability carbon data model(PreviewProductFootprintRuleMapping)
 
 Mapping table from sustainability product carbon footprints to product- or sector-specific rules rules applied for calculating or allocating emissions.  
   
@@ -62,7 +62,7 @@ Mapping table from sustainability product carbon footprints to product- or secto
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 |[name](#name)|The name of the custom entity.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 |[productcarbonfootprint](#productcarbonfootprint)|The PCF this rule is for.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
-|[productorsectorspecificrule](#productorsectorspecificrule)|The product-specific or sector-specific rule applied for calculating or allocating GHG emissions.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
+|[productorsectorspecificrule](#productorsectorspecificrule)|The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping</a>|
 
 ### <a href=#productfootprintrulemappingId name="productfootprintrulemappingId">productfootprintrulemappingId</a>
@@ -509,7 +509,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Sustainability product carbon footprint</td></tr><tr><td>description</td><td>The PCF this rule is for.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product carbon footprint</td></tr><tr><td>description</td><td>The PCF this rule is for.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -532,13 +532,13 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The PCF this rule is for.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Sustainability product carbon footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PreviewSustainabilityProductCarbonFootprint.md" target="_blank">PreviewSustainabilityProductCarbonFootprint.cdm.json/PreviewSustainabilityProductCarbonFootprint</a></td><td><a href="PreviewSustainabilityProductCarbonFootprint.md#sustainabilityproductcarbonfootprintId" target="_blank">sustainabilityproductcarbonfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PreviewProductCarbonFootprint.md" target="_blank">PreviewProductCarbonFootprint.cdm.json/PreviewProductCarbonFootprint</a></td><td><a href="PreviewProductCarbonFootprint.md#sustainabilityproductcarbonfootprintId" target="_blank">sustainabilityproductcarbonfootprintId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
@@ -549,12 +549,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#productorsectorspecificrule name="productorsectorspecificrule">productorsectorspecificrule</a>
 
-The product-specific or sector-specific rule applied for calculating or allocating GHG emissions.  
+The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product or sector specific rule</td></tr><tr><td>description</td><td>The product-specific or sector-specific rule applied for calculating or allocating GHG emissions.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product or sector specific ruleset</td></tr><tr><td>description</td><td>The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -574,16 +574,16 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product-specific or sector-specific rule applied for calculating or allocating GHG emissions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product or sector specific rule</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product or sector specific ruleset</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PreviewProductOrSectorSpecificRule.md" target="_blank">PreviewProductOrSectorSpecificRule.cdm.json/PreviewProductOrSectorSpecificRule</a></td><td><a href="PreviewProductOrSectorSpecificRule.md#productorsectorspecificruleId" target="_blank">productorsectorspecificruleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="PreviewProductOrSectorSpecificRuleset.md" target="_blank">PreviewProductOrSectorSpecificRuleset.cdm.json/PreviewProductOrSectorSpecificRuleset</a></td><td><a href="PreviewProductOrSectorSpecificRuleset.md#productorsectorspecificruleId" target="_blank">productorsectorspecificruleId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  

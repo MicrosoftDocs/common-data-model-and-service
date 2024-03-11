@@ -1,17 +1,17 @@
 ---
-title: Overview of Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
+title: overview of CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
 description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 01/04/2024
+ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Overview of Cloud for Sustainability shared data model
+# Overview of CloudforSustainabilitySharedDataModel
 
-Cloud for Sustainability shared data model entity definitions.
+Cloud for Sustainability shared data model entities are shared across the carbon, energy, waste, and water data models.  
 
 ## Entities
 
@@ -19,9 +19,12 @@ Cloud for Sustainability shared data model entity definitions.
 |---|---|
 |[Account](Account.md)|Business that represents a customer or potential customer. The company that is billed in business transactions.|
 |[Contact](Contact.md)|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
+|[CountryRegion](CountryRegion.md)|Defines custom country/region codes.|
 |[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
 |[CustomDimensionMetadata](CustomDimensionMetadata.md)|Table holding information about all the custom dimensions available in Microsoft Sustainability Manager|
+|[DataSourceType](DataSourceType.md)|The different types of sources for energy data.|
 |[EmissionFactor](EmissionFactor.md)|Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.|
+|[EnergyProviderType](EnergyProviderType.md)|Categories or classifications of companies or entities that supply energy, such as electricity or gas.|
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
 |[Facility](Facility.md)|Base-level location to attribute activity data. May contain multiple buildings and organizational units.|
 |[FacilityCapacity](FacilityCapacity.md)|Entity to capture the facility's capacity dimension and measure for a specified time period.|
@@ -31,6 +34,8 @@ Cloud for Sustainability shared data model entity definitions.
 |[FacilityUsageDetail](FacilityUsageDetail.md)|Captures intensity scores for a facility in a given year.|
 |[FactorLibrary](FactorLibrary.md)|Repository for emission and estimation factor sets, including both system and user added.|
 |[FactorMapping](FactorMapping.md)|Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.|
+|[GeographicArea](GeographicArea.md)|Definition or categorization of a given area on earth|
+|[GeographicAreaType](GeographicAreaType.md)|User or industry defined type of geographic area|
 |[IndustrialProcessType](IndustrialProcessType.md)|Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.|
 |[Industry](Industry.md)|Parent level of the industry classification which contains an ID and name.|
 |[IndustryClassification](IndustryClassification.md)|Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.|
@@ -39,8 +44,8 @@ Cloud for Sustainability shared data model entity definitions.
 |[OrganizationalHierarchy](OrganizationalHierarchy.md)|The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.|
 |[OrganizationalProfile](OrganizationalProfile.md)|The base information of the organization, for which the solution is built.|
 |[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
-|[PreviewSustainabilityProduct](PreviewSustainabilityProduct.md)|A product that can be associated with a product carbon footprint.|
-|[PreviewSustainabilityProductIdentifier](PreviewSustainabilityProductIdentifier.md)|Uniquely identifies a product.|
+|[PreviewProductIdentifier](PreviewProductIdentifier.md)|Uniquely identifies a product.|
+|[PreviewProductSustainability](PreviewProductSustainability.md)|A product that can be associated with a product carbon footprint.|
 |[ReportingPeriod](ReportingPeriod.md)|Entity used to track reporting periods created for each reporting year.|
 |[ReportingYear](ReportingYear.md)|Entity which lists reporting years created in the system.|
 |[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|
