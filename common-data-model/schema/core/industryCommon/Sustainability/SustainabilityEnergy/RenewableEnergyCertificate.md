@@ -1,5 +1,5 @@
 ---
-title: RenewableEnergyCertificate in CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
+title: RenewableEnergyCertificate in Cloud for Sustainability energy data model  - Common Data Model | Microsoft Docs
 description: Market-based instrument that represents the environmental attributes of electricity generated from renewable energy sources.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Renewable Energy Certificate in CloudforSustainabilityEnergyDataModel
+# Renewable Energy Certificate in Cloud for Sustainability energy data model 
 
 Market-based instrument that represents the environmental attributes of electricity generated from renewable energy sources.  
   
