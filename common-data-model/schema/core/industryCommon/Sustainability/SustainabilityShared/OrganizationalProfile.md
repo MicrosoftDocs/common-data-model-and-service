@@ -69,14 +69,14 @@ The base information of the organization, for which the solution is built.
 |[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
 |[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
 |[postalcode](#postalcode)|The zip or postal code in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[reportingstartday](#reportingstartday)|Day of the month \(Internal\).|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
-|[reportingstartmonth](#reportingstartmonth)|The month in which reporting begins for a given organization \(Internal\).|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
+|[reportingstartday](#reportingstartday)|Day of the month (Internal\).|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
+|[reportingstartmonth](#reportingstartmonth)|The month in which reporting begins for a given organization (Internal\).|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
 |[stateprovince](#stateprovince)|The state or province in which the organization resides.|<a href="OrganizationalProfile.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/OrganizationalProfile</a>|
 
 ### <a href=#organizationalprofileId name="organizationalprofileId">organizationalprofileId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Organizational Profile  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Organizational Profile  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#addressline1 name="addressline1">addressline1</a>
 
 The street address, including the number and street name of the facility.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#addressline2 name="addressline2">addressline2</a>
 
 Secondary street address information.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#city name="city">city</a>
 
 The city in which the organization resides.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -657,7 +657,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#companyProfileLogoBase64 name="companyProfileLogoBase64">companyProfileLogoBase64</a>
 
 The logo representing a company or organization.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -705,7 +705,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#countryisocode name="countryisocode">countryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -796,7 +796,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -839,7 +839,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#postalcode name="postalcode">postalcode</a>
 
 The zip or postal code in which the organization resides.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -886,8 +886,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 ### <a href=#reportingstartday name="reportingstartday">reportingstartday</a>
 
-Day of the month \(Internal\).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+Day of the month (Internal\).  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -932,8 +932,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 
 ### <a href=#reportingstartmonth name="reportingstartmonth">reportingstartmonth</a>
 
-The month in which reporting begins for a given organization \(Internal\).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+The month in which reporting begins for a given organization (Internal\).  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 
@@ -979,7 +979,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Organiz
 ### <a href=#stateprovince name="stateprovince">stateprovince</a>
 
 The state or province in which the organization resides.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/OrganizationalProfile (this entity\)  
 
 #### Properties
 

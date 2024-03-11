@@ -64,7 +64,7 @@ Market\x2dbased instrument that represents the environmental attributes of elect
 |[bundled](#bundled)|Indicator to determine if a REC is bundled or unbundled|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[certificatedata](#certificatedata)|Validated record for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[certificatenumber](#certificatenumber)|Validated record/number for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[certificatetype](#certificatetype)|The standard or certification scheme under which the REC was issued \(e.g., Green\x2de, I\x2dREC, local regulatory standards\).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
+|[certificatetype](#certificatetype)|The standard or certification scheme under which the REC was issued (e.g., Green\x2de, I\x2dREC, local regulatory standards\).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[cost](#cost)|Cost associated with activity data.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[costunit](#costunit)|Unit associated with the cost quantity.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[emissionsrate](#emissionsrate)|Emissions if any associated with the renewable energy certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
@@ -79,14 +79,14 @@ Market\x2dbased instrument that represents the environmental attributes of elect
 |[greentariff](#greentariff)|Identifier used to determine if the REC is part of green tariff or not.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[projectname](#projectname)|The name of the project associated with the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[quantity](#quantity)|The amount of renewable energy represented by the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field \(typically Mwh or kWh\).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field (typically Mwh or kWh\).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[startdate](#startdate)|Start date of the power purchase agreement.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 |[vintage](#vintage)|Year when the REC was produced.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
 
 ### <a href=#renewableenergycertificateId name="renewableenergycertificateId">renewableenergycertificateId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -134,7 +134,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -174,7 +174,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -214,7 +214,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Renewable Energy Certificate  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -260,7 +260,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Renewable Energy Certificate  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -309,7 +309,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -352,7 +352,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -389,7 +389,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#bundled name="bundled">bundled</a>
 
 Indicator to determine if a REC is bundled or unbundled  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#certificatedata name="certificatedata">certificatedata</a>
 
 Validated record for the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -606,7 +606,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#certificatenumber name="certificatenumber">certificatenumber</a>
 
 Validated record/number for the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -648,8 +648,8 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 ### <a href=#certificatetype name="certificatetype">certificatetype</a>
 
-The standard or certification scheme under which the REC was issued \(e.g., Green\x2de, I\x2dREC, local regulatory standards\).  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+The standard or certification scheme under which the REC was issued (e.g., Green\x2de, I\x2dREC, local regulatory standards\).  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -697,7 +697,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -785,7 +785,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#emissionsrate name="emissionsrate">emissionsrate</a>
 
 Emissions if any associated with the renewable energy certificate  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -828,7 +828,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#energycontract name="energycontract">energycontract</a>
 
 Type of agreement to deliver purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -873,7 +873,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#energyprovider name="energyprovider">energyprovider</a>
 
 Name of the renewable energy certificate provider.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -918,7 +918,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#energysource name="energysource">energysource</a>
 
 Primary source of renewable energy reported within the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -963,7 +963,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#expirydate name="expirydate">expirydate</a>
 
 End date of the power purchase agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1003,7 +1003,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier for the facility associated with the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1048,7 +1048,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#fueltype name="fueltype">fueltype</a>
 
 The fuel associated with the generation of the renewable energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 ### <a href=#generation name="generation">generation</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1140,7 +1140,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#geographicareaid name="geographicareaid">geographicareaid</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1191,7 +1191,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#greentariff name="greentariff">greentariff</a>
 
 Identifier used to determine if the REC is part of green tariff or not.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1227,7 +1227,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#projectname name="projectname">projectname</a>
 
 The name of the project associated with the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1275,7 +1275,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#quantity name="quantity">quantity</a>
 
 The amount of renewable energy represented by the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1317,8 +1317,8 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
-Unit associated with the quantity field \(typically Mwh or kWh\).  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+Unit associated with the quantity field (typically Mwh or kWh\).  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1363,7 +1363,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#startdate name="startdate">startdate</a>
 
 Start date of the power purchase agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 
@@ -1403,7 +1403,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#vintage name="vintage">vintage</a>
 
 Year when the REC was produced.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity\)  
 
 #### Properties
 

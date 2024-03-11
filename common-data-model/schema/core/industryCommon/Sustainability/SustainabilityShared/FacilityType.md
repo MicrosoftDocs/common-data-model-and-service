@@ -65,7 +65,7 @@ Entity used for classifying the type of facility, as defined in the reporting co
 ### <a href=#facilitytypeId name="facilitytypeId">facilitytypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Facility type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Facility type  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityType (this entity\)  
 
 #### Properties
 

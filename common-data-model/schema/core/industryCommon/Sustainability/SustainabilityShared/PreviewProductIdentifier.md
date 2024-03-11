@@ -54,8 +54,8 @@ Uniquely identifies a product.
 |[sustainabilityproductidentifierId](#sustainabilityproductidentifierId)|Unique identifier for entity instances.|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
-|[statecode](#statecode)|Status of the \(Preview\) Sustainability product identifier|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
-|[statuscode](#statuscode)|Reason for the status of the \(Preview\) Sustainability product identifier|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
+|[statecode](#statecode)|Status of the (Preview\) Sustainability product identifier|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
+|[statuscode](#statuscode)|Reason for the status of the (Preview\) Sustainability product identifier|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviewProductIdentifier.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier</a>|
@@ -68,7 +68,7 @@ Uniquely identifies a product.
 ### <a href=#sustainabilityproductidentifierId name="sustainabilityproductidentifierId">sustainabilityproductidentifierId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -195,8 +195,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the \(Preview\) Sustainability product identifier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+Status of the (Preview\) Sustainability product identifier  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -241,8 +241,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the \(Preview\) Sustainability product identifier  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+Reason for the status of the (Preview\) Sustainability product identifier  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
 The product this ID is for.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -550,7 +550,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#sustainabilityproductidentifier name="sustainabilityproductidentifier">sustainabilityproductidentifier</a>
 
 Uniquely identifies a product. Each sustainability product ID must be a conforming URN with a namespace value included in the Official IANA Registry of URN Namespaces.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Preview
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/PreviewProductIdentifier (this entity\)  
 
 #### Properties
 
