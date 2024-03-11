@@ -1,5 +1,5 @@
 ---
-title: FacilityUsageDetail in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: FacilityUsageDetail in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
 description: Captures intensity scores for a facility in a given year.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Facility usage detail in CloudforSustainabilitySharedDataModel(FacilityUsageDetail)
+# Facility usage detail in Cloud for Sustainability shared data model (FacilityUsageDetail)
 
 Captures intensity scores for a facility in a given year.  
   

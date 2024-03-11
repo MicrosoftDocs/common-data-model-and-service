@@ -1,5 +1,5 @@
 ---
-title: PreviewProductIdentifier in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: PreviewProductIdentifier in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
 description: Uniquely identifies a product.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product identifier in CloudforSustainabilitySharedDataModel(PreviewProductIdentifier)
+# (Preview) Product identifier in Cloud for Sustainability shared data model (PreviewProductIdentifier)
 
 Uniquely identifies a product.  
   
