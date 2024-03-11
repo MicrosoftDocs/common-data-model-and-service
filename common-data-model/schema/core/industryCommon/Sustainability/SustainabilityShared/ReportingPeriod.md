@@ -1,5 +1,5 @@
 ---
-title: ReportingPeriod in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: ReportingPeriod in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
 description: Entity used to track reporting periods created for each reporting year.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Reporting period in CloudforSustainabilitySharedDataModel(ReportingPeriod)
+# Reporting period in Cloud for Sustainability shared data model (ReportingPeriod)
 
 Entity used to track reporting periods created for each reporting year.  
   

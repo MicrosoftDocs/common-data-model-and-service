@@ -1,5 +1,5 @@
 ---
-title: GeographicAreaType in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: GeographicAreaType in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
 description: User or industry defined type of geographic area
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/11/2024
 ms.author: anbichse
 ---
 
-# Geographic Area Type in CloudforSustainabilitySharedDataModel
+# Geographic Area Type in Cloud for Sustainability shared data model 
 
 User or industry defined type of geographic area  
   
