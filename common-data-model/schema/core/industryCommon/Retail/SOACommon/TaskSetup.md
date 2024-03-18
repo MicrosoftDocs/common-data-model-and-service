@@ -58,7 +58,7 @@ Task setup defines when Tasks will be generated
 |[msret_ShiftNHours](#msret_ShiftNHours)|Shifts input time stored in minutes.|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
 |[msret_ShiftTime](#msret_ShiftTime)|Choice to select start/end shift time|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
 |[msret_AssignTo](#msret_AssignTo)|Indicates who will be assigned to a created task upon creation|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
-|[msret_DailyRecurrence](#msret_DailyRecurrence)|Choice for daily recurrence \x2d every weekday or every 'n' days|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
+|[msret_DailyRecurrence](#msret_DailyRecurrence)|Choice for daily recurrence - every weekday or every 'n' days|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
 |[msret_DayOfMonth](#msret_DayOfMonth)|Select the day of the month for monthly task recurrence|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
 |[msret_DayOfWeek](#msret_DayOfWeek)|Select the day of the week for weekly task recurrence|<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
 |[msret_Cancellationscheduledon](#msret_Cancellationscheduledon)||<a href="TaskSetup.md" target="_blank">SOACommon/TaskSetup</a>|
@@ -514,7 +514,7 @@ First included in: SOACommon/TaskSetup (this entity)
 
 ### <a href=#msret_DailyRecurrence name="msret_DailyRecurrence">msret_DailyRecurrence</a>
 
-Choice for daily recurrence \x2d every weekday or every 'n' days  
+Choice for daily recurrence - every weekday or every 'n' days  
 First included in: SOACommon/TaskSetup (this entity)  
 
 #### Properties

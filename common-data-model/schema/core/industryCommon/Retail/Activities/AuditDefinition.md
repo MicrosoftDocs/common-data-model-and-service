@@ -66,7 +66,7 @@ Audit definition
 |[guidelines](#guidelines)|Guidelines for audit|<a href="AuditDefinition.md" target="_blank">Retail\Activities/AuditDefinition</a>|
 |[jsoncontent](#jsoncontent)|Audit details in json format|<a href="AuditDefinition.md" target="_blank">Retail\Activities/AuditDefinition</a>|
 |[showItemImage](#showItemImage)|Boolean selection to check if item image should be shown or not|<a href="AuditDefinition.md" target="_blank">Retail\Activities/AuditDefinition</a>|
-|[type](#type)|Select the audit definition type \x2d product audit or asset audit|<a href="AuditDefinition.md" target="_blank">Retail\Activities/AuditDefinition</a>|
+|[type](#type)|Select the audit definition type - product audit or asset audit|<a href="AuditDefinition.md" target="_blank">Retail\Activities/AuditDefinition</a>|
 
 ### <a href=#auditdefinitionId name="auditdefinitionId">auditdefinitionId</a>
 
@@ -732,7 +732,7 @@ First included in: Retail\\Activities/AuditDefinition (this entity)
 
 ### <a href=#type name="type">type</a>
 
-Select the audit definition type \x2d product audit or asset audit  
+Select the audit definition type - product audit or asset audit  
 First included in: Retail\\Activities/AuditDefinition (this entity)  
 
 #### Properties

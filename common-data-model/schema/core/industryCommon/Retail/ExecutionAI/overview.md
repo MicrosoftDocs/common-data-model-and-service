@@ -22,5 +22,5 @@ ms.author: cdmditeam
 |[AIRunStep](AIRunStep.md)||
 |[PhotoGuidance](PhotoGuidance.md)||
 |[PhotoGuidanceItem](PhotoGuidanceItem.md)||
-|[RetailExecutionSetting](RetailExecutionSetting.md)|Configures system\x2dwide Retail Execution setting record|
+|[RetailExecutionSetting](RetailExecutionSetting.md)|Configures system-wide Retail Execution setting record|
 |[Visit](Visit.md)||

@@ -53,7 +53,7 @@ Execution plan
 |[validitystartdate](#validitystartdate)|Start date of the plan|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
 |[msret_AssignedTeam](#msret_AssignedTeam)|Target team|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
 |[msret_AssignedUser](#msret_AssignedUser)|Target user|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
-|[msret_FutureDays](#msret_FutureDays)|The number of days following the start date for which instances of tasks are automatically created at once. This auto\x2dcreation of task instances will continue until the end date for the task|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
+|[msret_FutureDays](#msret_FutureDays)|The number of days following the start date for which instances of tasks are automatically created at once. This auto-creation of task instances will continue until the end date for the task|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
 |[msret_IsTaskList](#msret_IsTaskList)|Identifies of the execution plan is a task list or not|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
 |[msret_LastEvaluationDate](#msret_LastEvaluationDate)|Last date when plan was successfully evaluated |<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
 |[msret_TargetBusinessUnit](#msret_TargetBusinessUnit)|Target group for which the plan must be executed|<a href="ExecutionPlan.md" target="_blank">SOACommon/ExecutionPlan</a>|
@@ -272,7 +272,7 @@ First included in: SOACommon/ExecutionPlan (this entity)
 
 ### <a href=#msret_FutureDays name="msret_FutureDays">msret_FutureDays</a>
 
-The number of days following the start date for which instances of tasks are automatically created at once. This auto\x2dcreation of task instances will continue until the end date for the task  
+The number of days following the start date for which instances of tasks are automatically created at once. This auto-creation of task instances will continue until the end date for the task  
 First included in: SOACommon/ExecutionPlan (this entity)  
 
 #### Properties

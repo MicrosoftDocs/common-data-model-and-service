@@ -62,7 +62,7 @@ Question type
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
 |[name](#name)|Subject / title of question type|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
 |[description](#description)|Additional information about the visit type|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
-|[ispredelivered](#ispredelivered)|Indicates if the question type has been pre\x2ddelivered and cannot be removed|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[ispredelivered](#ispredelivered)|Indicates if the question type has been pre-delivered and cannot be removed|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
 
 ### <a href=#questionTypeId name="questionTypeId">questionTypeId</a>
 
@@ -551,7 +551,7 @@ First included in: Retail\\Activities/QuestionType (this entity)
 
 ### <a href=#ispredelivered name="ispredelivered">ispredelivered</a>
 
-Indicates if the question type has been pre\x2ddelivered and cannot be removed  
+Indicates if the question type has been pre-delivered and cannot be removed  
 First included in: Retail\\Activities/QuestionType (this entity)  
 
 #### Properties

@@ -73,7 +73,7 @@ ms.author: cdmditeam
 |[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
 |[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
 |[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="Request.md" target="_blank">SOACommon/Request</a>|
-|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read\x2donly.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
+|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
 |[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
 |[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
 |[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="Request.md" target="_blank">SOACommon/Request</a>|
@@ -1065,7 +1065,7 @@ First included in: SOACommon/Request (this entity)
 
 ### <a href=#community name="community">community</a>
 
-Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read\x2donly.  
+Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.  
 First included in: SOACommon/Request (this entity)  
 
 #### Properties

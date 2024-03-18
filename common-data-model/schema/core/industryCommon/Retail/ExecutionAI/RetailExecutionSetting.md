@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Retail Execution setting in ExecutionAI(RetailExecutionSetting)
 
-Configures system\x2dwide Retail Execution setting record  
+Configures system-wide Retail Execution setting record  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\ExecutionAI/RetailExecutionSetting.cdm.json" target="_blank">GitHub</a>.  
 

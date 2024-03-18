@@ -74,7 +74,7 @@ Stores appointment information between Dynamics user and their customer
 |[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
 |[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
 |[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
-|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read\x2donly.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
 |[isMapiPrivate](#isMapiPrivate)|For internal use only.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
 |[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
 |[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
@@ -1073,7 +1073,7 @@ First included in: Retail\\SOAClienteling/RetailAppointment (this entity)
 
 ### <a href=#community name="community">community</a>
 
-Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read\x2donly.  
+Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.  
 First included in: Retail\\SOAClienteling/RetailAppointment (this entity)  
 
 #### Properties
