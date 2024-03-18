@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Line item in a sales order\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/OrderProduct.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/OrderProduct.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,15 +48,15 @@ Line item in a sales order\.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[salesOrderDetailId](#salesOrderDetailId)|Unique identifier of the product specified in the order\.|<a href="OrderProduct.md" target="_blank">SOAClienteling/OrderProduct</a>|
-|[msret_Contact](#msret_Contact)||<a href="OrderProduct.md" target="_blank">SOAClienteling/OrderProduct</a>|
-|[msret_OrderChannel](#msret_OrderChannel)||<a href="OrderProduct.md" target="_blank">SOAClienteling/OrderProduct</a>|
-|[msret_OrderCreatedOn](#msret_OrderCreatedOn)||<a href="OrderProduct.md" target="_blank">SOAClienteling/OrderProduct</a>|
+|[salesOrderDetailId](#salesOrderDetailId)|Unique identifier of the product specified in the order\.|<a href="OrderProduct.md" target="_blank">Retail\SOAClienteling/OrderProduct</a>|
+|[msret_Contact](#msret_Contact)||<a href="OrderProduct.md" target="_blank">Retail\SOAClienteling/OrderProduct</a>|
+|[msret_OrderChannel](#msret_OrderChannel)||<a href="OrderProduct.md" target="_blank">Retail\SOAClienteling/OrderProduct</a>|
+|[msret_OrderCreatedOn](#msret_OrderCreatedOn)||<a href="OrderProduct.md" target="_blank">Retail\SOAClienteling/OrderProduct</a>|
 
 ### <a href=#salesOrderDetailId name="salesOrderDetailId">salesOrderDetailId</a>
 
 Unique identifier of the product specified in the order\.  
-First included in: SOAClienteling/OrderProduct \(this entity\)  
+First included in: Retail\\SOAClienteling/OrderProduct \(this entity\)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: SOAClienteling/OrderProduct \(this entity\)
 
 ### <a href=#msret_Contact name="msret_Contact">msret_Contact</a>
 
-First included in: SOAClienteling/OrderProduct \(this entity\)  
+First included in: Retail\\SOAClienteling/OrderProduct \(this entity\)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ First included in: SOAClienteling/OrderProduct \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -147,7 +147,7 @@ First included in: SOAClienteling/OrderProduct \(this entity\)
 
 ### <a href=#msret_OrderChannel name="msret_OrderChannel">msret_OrderChannel</a>
 
-First included in: SOAClienteling/OrderProduct \(this entity\)  
+First included in: Retail\\SOAClienteling/OrderProduct \(this entity\)  
 
 #### Properties
 
@@ -192,7 +192,7 @@ First included in: SOAClienteling/OrderProduct \(this entity\)
 
 ### <a href=#msret_OrderCreatedOn name="msret_OrderCreatedOn">msret_OrderCreatedOn</a>
 
-First included in: SOAClienteling/OrderProduct \(this entity\)  
+First included in: Retail\\SOAClienteling/OrderProduct \(this entity\)  
 
 #### Properties
 

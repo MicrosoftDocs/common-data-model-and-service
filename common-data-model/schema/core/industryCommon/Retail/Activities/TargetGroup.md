@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Target groups are used to group outlets into segments  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/TargetGroup.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/TargetGroup.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,12 +48,12 @@ Target groups are used to group outlets into segments
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[targetgroupId](#targetgroupId)|Unique identifier for entity instances|<a href="TargetGroup.md" target="_blank">Activities/TargetGroup</a>|
+|[targetgroupId](#targetgroupId)|Unique identifier for entity instances|<a href="TargetGroup.md" target="_blank">Retail\Activities/TargetGroup</a>|
 
 ### <a href=#targetgroupId name="targetgroupId">targetgroupId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/TargetGroup \(this entity\)  
+First included in: Retail\\Activities/TargetGroup \(this entity\)  
 
 #### Properties
 

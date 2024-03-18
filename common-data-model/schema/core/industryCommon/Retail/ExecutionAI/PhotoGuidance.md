@@ -1,19 +1,18 @@
 ---
-title: RetailAppointmentType in SOAClienteling - Common Data Model | Microsoft Docs
-description: Appointment definition including description and duration
+title: PhotoGuidance in ExecutionAI - Common Data Model | Microsoft Docs
+description: 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/18/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
-# Retail Appointment Type in SOAClienteling
+# PhotoGuidance in ExecutionAI
 
-Appointment definition including description and duration  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/RetailAppointmentType.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\ExecutionAI/PhotoGuidance.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,22 +24,22 @@ Appointment definition including description and duration
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RetailAppointmentType/(resolvedAttributes)/retailAppointmentTypeId](#retailAppointmentTypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PhotoGuidance/(resolvedAttributes)/photoGuidanceId](#photoGuidanceId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RetailAppointmentType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PhotoGuidance/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Retail/SOAClienteling<br>/RetailAppointmentType.cdm.json<br>/RetailAppointmentType/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Retail/ExecutionAI/PhotoGuidance.cdm.json<br>/PhotoGuidance/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Appointment definition including description and duration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Retail Appointment Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>PhotoGuidance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msret_retailappointmenttype"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_photoguidance"</td><td>string</td><td></td></tr></table>
 
 **has.entitySchemaAbstractionLevel**  
   A level of abstraction assigned to an Entity schema. Logical schema descriptions use complex dataTypes, inheritance, and entities as attributes. Resolved descriptions contain none of those things, only final trait and attribute sets are shown. A composition schema manipulates, guides or re-states parts of logical schemas to produce one resolved schema.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"resolved"</td><td>string</td><td>Possible values: logical, composition, resolved</td></tr></table>
@@ -51,32 +50,31 @@ Appointment definition including description and duration
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[retailAppointmentTypeId](#retailAppointmentTypeId)|Unique identifier for entity instances|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[statecode](#statecode)|Status of the Retail Appointment Type|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Retail Appointment Type|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[name](#name)|Name of appointment type|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[appointmentDuration](#appointmentDuration)|Duration of appointment in Minutes|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
-|[description](#description)|Details of appointment type|<a href="RetailAppointmentType.md" target="_blank">Retail\SOAClienteling/RetailAppointmentType</a>|
+|[photoGuidanceId](#photoGuidanceId)|Unique identifier for entity instances|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[statecode](#statecode)|Status of the PhotoGuidance|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[statuscode](#statuscode)|Reason for the status of the PhotoGuidance|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[name](#name)||<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
+|[isdefaultguidance](#isdefaultguidance)||<a href="PhotoGuidance.md" target="_blank">Retail\ExecutionAI/PhotoGuidance</a>|
 
-### <a href=#retailAppointmentTypeId name="retailAppointmentTypeId">retailAppointmentTypeId</a>
+### <a href=#photoGuidanceId name="photoGuidanceId">photoGuidanceId</a>
 
 Unique identifier for entity instances  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Retail Appointment Type</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msret_retailappointmenttypeid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>PhotoGuidance</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msrex_photoguidanceid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the retailAppointmentTypeId attribute are listed below.</summary>
+<summary>List of traits for the photoGuidanceId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -88,7 +86,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.identifiedBy\*\*  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RetailAppointmentType/(resolvedAttributes)/retailAppointmentTypeId](#retailAppointmentTypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PhotoGuidance/(resolvedAttributes)/photoGuidanceId](#photoGuidanceId)</td><td>attribute</td><td></td></tr></table>
 
 \*\*is\.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -97,10 +95,10 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Retail Appointment Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>PhotoGuidance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msret_retailappointmenttypeid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_photoguidanceid"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -115,7 +113,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
@@ -155,7 +153,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
@@ -194,12 +192,12 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the Retail Appointment Type  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+Status of the PhotoGuidance  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Retail Appointment Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the PhotoGuidance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -218,13 +216,13 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 \*\*means\.entityState\*\*  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RetailAppointmentType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PhotoGuidance/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 \*\*is\.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Retail Appointment Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the PhotoGuidance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -240,12 +238,12 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the Retail Appointment Type  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+Reason for the status of the PhotoGuidance  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Retail Appointment Type</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the PhotoGuidance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -270,7 +268,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Retail Appointment Type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the PhotoGuidance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -290,7 +288,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
@@ -333,7 +331,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
@@ -370,7 +368,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
@@ -413,7 +411,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
@@ -455,12 +453,11 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 
 ### <a href=#name name="name">name</a>
 
-Name of appointment type  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Name of appointment type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msret_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_name</td></tr></table>
 
 #### Traits
 
@@ -478,7 +475,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name of appointment type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -490,7 +487,7 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
   The attribute value may be set to NULL.  
 
 \*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msret_name"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_name"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
@@ -501,93 +498,37 @@ First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)
 
 </details>
 
-### <a href=#appointmentDuration name="appointmentDuration">appointmentDuration</a>
+### <a href=#isdefaultguidance name="isdefaultguidance">isdefaultguidance</a>
 
-Duration of appointment in Minutes  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
+First included in: Retail\\ExecutionAI/PhotoGuidance \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Appointment Duration</td></tr><tr><td>description</td><td>Duration of appointment in Minutes</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msret_appointmentduration</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>IsDefaultGuidance</td></tr><tr><td>dataFormat</td><td>boolean</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_isdefaultguidance</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the appointmentDuration attribute are listed below.</summary>
+<summary>List of traits for the isdefaultguidance attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
-  indicates the capability to represent values less than zero.  
-
-\*\*is\.dataFormat\.numeric\*\*  
+\*\*is\.dataFormat\.boolean\*\*  
   \*\*is\.requiredAtLevel\*\*  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 \*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Duration of appointment in Minutes</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Appointment Duration</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.constrained\*\*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>minimumValue</td><td>"0"</td><td>decimal</td><td></td></tr><tr><td>maximumValue</td><td>"2147483647"</td><td>decimal</td><td></td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>IsDefaultGuidance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 \*\*is\.nullable\*\*  
   The attribute value may be set to NULL.  
 
 \*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msret_appointmentduration"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_isdefaultguidance"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.CDS\.ordered\*\*  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
 
-\*\*is\.dataFormat\.integer\*\*  
+\*\*is\.dataFormat\.boolean\*\*  
   </details>
-
-### <a href=#description name="description">description</a>
-
-Details of appointment type  
-First included in: Retail\\SOAClienteling/RetailAppointmentType \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Description</td></tr><tr><td>description</td><td>Details of appointment type</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>2000</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msret_description</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the description attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.requiredAtLevel\*\*  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
-
-\*\*is\.localized\.describedAs\*\*  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Details of appointment type</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.localized\.displayedAs\*\*  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Description</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
-
-\*\*is\.constrained\*\*  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"2000"</td><td>integer</td><td></td></tr></table>
-
-\*\*is\.nullable\*\*  
-  The attribute value may be set to NULL.  
-
-\*\*is\.CDS\.sourceNamed\*\*  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msret_description"</td><td>string</td><td></td></tr></table>
-
-\*\*is\.CDS\.ordered\*\*  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>

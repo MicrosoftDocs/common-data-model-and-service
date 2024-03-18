@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Collection of system users that routinely collaborate\. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/Team.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/Team.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,13 +48,13 @@ Collection of system users that routinely collaborate\. Teams can be used to sim
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[teamId](#teamId)|Unique identifier for the team\.|<a href="Team.md" target="_blank">SOAClienteling/Team</a>|
-|[msret_IsRetailAppointmentTeam](#msret_IsRetailAppointmentTeam)|Defines team as a group of similarly skilled users across BUs available for retail appointment|<a href="Team.md" target="_blank">SOAClienteling/Team</a>|
+|[teamId](#teamId)|Unique identifier for the team\.|<a href="Team.md" target="_blank">Retail\SOAClienteling/Team</a>|
+|[msret_IsRetailAppointmentTeam](#msret_IsRetailAppointmentTeam)|Defines team as a group of similarly skilled users across BUs available for retail appointment|<a href="Team.md" target="_blank">Retail\SOAClienteling/Team</a>|
 
 ### <a href=#teamId name="teamId">teamId</a>
 
 Unique identifier for the team\.  
-First included in: SOAClienteling/Team \(this entity\)  
+First included in: Retail\\SOAClienteling/Team \(this entity\)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: SOAClienteling/Team \(this entity\)
 ### <a href=#msret_IsRetailAppointmentTeam name="msret_IsRetailAppointmentTeam">msret_IsRetailAppointmentTeam</a>
 
 Defines team as a group of similarly skilled users across BUs available for retail appointment  
-First included in: SOAClienteling/Team \(this entity\)  
+First included in: Retail\\SOAClienteling/Team \(this entity\)  
 
 #### Properties
 

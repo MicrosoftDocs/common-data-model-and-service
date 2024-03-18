@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Defines a common area in the outlet where an execution activity takes place\. Examples: Entrance, Frozen foods, Pharmacy etc\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/OutletZone.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/OutletZone.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,12 +48,12 @@ Defines a common area in the outlet where an execution activity takes place\. Ex
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[outletzoneId](#outletzoneId)|Unique identifier for entity instances|<a href="OutletZone.md" target="_blank">Activities/OutletZone</a>|
+|[outletzoneId](#outletzoneId)|Unique identifier for entity instances|<a href="OutletZone.md" target="_blank">Retail\Activities/OutletZone</a>|
 
 ### <a href=#outletzoneId name="outletzoneId">outletzoneId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/OutletZone \(this entity\)  
+First included in: Retail\\Activities/OutletZone \(this entity\)  
 
 #### Properties
 

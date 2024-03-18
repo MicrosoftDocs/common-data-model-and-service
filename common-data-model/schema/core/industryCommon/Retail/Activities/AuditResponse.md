@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Audit Response  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/AuditResponse.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/AuditResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,26 +51,26 @@ Audit Response
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[auditResponseId](#auditResponseId)|Unique identifier of the response|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[statecode](#statecode)|Status of the Audit Response|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[statuscode](#statuscode)|Reason for the status of the Audit Response|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[name](#name)|Subject / title of the audit response|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[auditdefinition](#auditdefinition)|Lookup for audit definition|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[auditeditems](#auditeditems)|Total number of items \(product or asset\) for which the user recorded information|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[modifiedByApplication](#modifiedByApplication)|Application identifier which survey response modified on\.|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[jsoncontent](#jsoncontent)|Audit response content in Json format|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
-|[totalitems](#totalitems)|Total number of items \(product or asset\) which were part of the audit definition|<a href="AuditResponse.md" target="_blank">Activities/AuditResponse</a>|
+|[auditResponseId](#auditResponseId)|Unique identifier of the response|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[statecode](#statecode)|Status of the Audit Response|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[statuscode](#statuscode)|Reason for the status of the Audit Response|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[name](#name)|Subject / title of the audit response|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[auditdefinition](#auditdefinition)|Lookup for audit definition|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[auditeditems](#auditeditems)|Total number of items \(product or asset\) for which the user recorded information|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[modifiedByApplication](#modifiedByApplication)|Application identifier which survey response modified on\.|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[jsoncontent](#jsoncontent)|Audit response content in Json format|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
+|[totalitems](#totalitems)|Total number of items \(product or asset\) which were part of the audit definition|<a href="AuditResponse.md" target="_blank">Retail\Activities/AuditResponse</a>|
 
 ### <a href=#auditResponseId name="auditResponseId">auditResponseId</a>
 
 Unique identifier of the response  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Audit Response  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Audit Response  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Subject / title of the audit response  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#auditdefinition name="auditdefinition">auditdefinition</a>
 
 Lookup for audit definition  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -540,7 +540,7 @@ First included in: Activities/AuditResponse \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../AuditDefinition.md" target="_blank">AuditDefinition.cdm.json/AuditDefinition</a></td><td><a href="../../../AuditDefinition.md#auditdefinitionId" target="_blank">auditdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AuditDefinition.md" target="_blank">AuditDefinition.cdm.json/AuditDefinition</a></td><td><a href="../../AuditDefinition.md#auditdefinitionId" target="_blank">auditdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -552,7 +552,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#auditeditems name="auditeditems">auditeditems</a>
 
 Total number of items \(product or asset\) for which the user recorded information  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -595,7 +595,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#modifiedByApplication name="modifiedByApplication">modifiedByApplication</a>
 
 Application identifier which survey response modified on\.  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#jsoncontent name="jsoncontent">jsoncontent</a>
 
 Audit response content in Json format  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ First included in: Activities/AuditResponse \(this entity\)
 ### <a href=#totalitems name="totalitems">totalitems</a>
 
 Total number of items \(product or asset\) which were part of the audit definition  
-First included in: Activities/AuditResponse \(this entity\)  
+First included in: Retail\\Activities/AuditResponse \(this entity\)  
 
 #### Properties
 

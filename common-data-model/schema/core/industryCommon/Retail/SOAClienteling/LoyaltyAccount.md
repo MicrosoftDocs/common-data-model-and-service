@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Loyalty account details of user  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/LoyaltyAccount.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/LoyaltyAccount.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,27 +51,27 @@ Loyalty account details of user
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[loyaltyAccountId](#loyaltyAccountId)|Unique identifier for entity instances|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[statecode](#statecode)|Status of the Loyalty Account|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[statuscode](#statuscode)|Reason for the status of the Loyalty Account|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[loyaltyAccountName](#loyaltyAccountName)|Unique identifier for loyalty membership|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[contact](#contact)|Indicates customer contact|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[firstName](#firstName)|First name of the loyalty account holder|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[lastName](#lastName)|Last name of loyalty account holder|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[loyaltyProgram](#loyaltyProgram)|Indicates name of the loyalty program|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[membershipStartDate](#membershipStartDate)|Start date of loyalty membership for account holder|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
-|[middleName](#middleName)|Middle name of the loyalty account holder|<a href="LoyaltyAccount.md" target="_blank">SOAClienteling/LoyaltyAccount</a>|
+|[loyaltyAccountId](#loyaltyAccountId)|Unique identifier for entity instances|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[statecode](#statecode)|Status of the Loyalty Account|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[statuscode](#statuscode)|Reason for the status of the Loyalty Account|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[loyaltyAccountName](#loyaltyAccountName)|Unique identifier for loyalty membership|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[contact](#contact)|Indicates customer contact|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[firstName](#firstName)|First name of the loyalty account holder|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[lastName](#lastName)|Last name of loyalty account holder|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[loyaltyProgram](#loyaltyProgram)|Indicates name of the loyalty program|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[membershipStartDate](#membershipStartDate)|Start date of loyalty membership for account holder|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
+|[middleName](#middleName)|Middle name of the loyalty account holder|<a href="LoyaltyAccount.md" target="_blank">Retail\SOAClienteling/LoyaltyAccount</a>|
 
 ### <a href=#loyaltyAccountId name="loyaltyAccountId">loyaltyAccountId</a>
 
 Unique identifier for entity instances  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Loyalty Account  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Loyalty Account  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#loyaltyAccountName name="loyaltyAccountName">loyaltyAccountName</a>
 
 Unique identifier for loyalty membership  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -508,7 +508,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#contact name="contact">contact</a>
 
 Indicates customer contact  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -541,7 +541,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -553,7 +553,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#firstName name="firstName">firstName</a>
 
 First name of the loyalty account holder  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -601,7 +601,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#lastName name="lastName">lastName</a>
 
 Last name of loyalty account holder  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#loyaltyProgram name="loyaltyProgram">loyaltyProgram</a>
 
 Indicates name of the loyalty program  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -682,7 +682,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../LoyaltyProgram.md" target="_blank">LoyaltyProgram.cdm.json/LoyaltyProgram</a></td><td><a href="../../../LoyaltyProgram.md#loyaltyProgramId" target="_blank">loyaltyProgramId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../LoyaltyProgram.md" target="_blank">LoyaltyProgram.cdm.json/LoyaltyProgram</a></td><td><a href="../../LoyaltyProgram.md#loyaltyProgramId" target="_blank">loyaltyProgramId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -694,7 +694,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#membershipStartDate name="membershipStartDate">membershipStartDate</a>
 
 Start date of loyalty membership for account holder  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 
@@ -731,7 +731,7 @@ First included in: SOAClienteling/LoyaltyAccount \(this entity\)
 ### <a href=#middleName name="middleName">middleName</a>
 
 Middle name of the loyalty account holder  
-First included in: SOAClienteling/LoyaltyAccount \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyAccount \(this entity\)  
 
 #### Properties
 

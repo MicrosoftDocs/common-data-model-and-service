@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Entity to capture the Insights of Customer Orders  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/CustomerDerivedOrderInsight.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/CustomerDerivedOrderInsight.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,28 +51,28 @@ Entity to capture the Insights of Customer Orders
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[customerDerivedOrderInsightId](#customerDerivedOrderInsightId)|Unique identifier for entity instances|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[statecode](#statecode)|Status of the Customer Derived Order Insight|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[statuscode](#statuscode)|Reason for the status of the Customer Derived Order Insight|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[name](#name)|Identifier for order level aggregation |<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[contact](#contact)|Lookup to Contact|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[lastordercreationdate](#lastordercreationdate)|Last order creation date|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[totalordercount](#totalordercount)|Total no\. of orders to date|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[totalvalueoforderstodate](#totalvalueoforderstodate)|Total value of orders that has been spent by customer to date|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[totalvalueoforderstodate_Base](#totalvalueoforderstodate_Base)|Value of the Total value of orders to date in base currency\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[averageordervalue](#averageordervalue)|Average order value which typically represents total order value by number of orders\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
-|[averageordervalue_Base](#averageordervalue_Base)|Value of the Average order value in base currency\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[customerDerivedOrderInsightId](#customerDerivedOrderInsightId)|Unique identifier for entity instances|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[statecode](#statecode)|Status of the Customer Derived Order Insight|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[statuscode](#statuscode)|Reason for the status of the Customer Derived Order Insight|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[name](#name)|Identifier for order level aggregation |<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[contact](#contact)|Lookup to Contact|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[lastordercreationdate](#lastordercreationdate)|Last order creation date|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[totalordercount](#totalordercount)|Total no\. of orders to date|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[totalvalueoforderstodate](#totalvalueoforderstodate)|Total value of orders that has been spent by customer to date|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[totalvalueoforderstodate_Base](#totalvalueoforderstodate_Base)|Value of the Total value of orders to date in base currency\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[averageordervalue](#averageordervalue)|Average order value which typically represents total order value by number of orders\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
+|[averageordervalue_Base](#averageordervalue_Base)|Value of the Average order value in base currency\.|<a href="CustomerDerivedOrderInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedOrderInsight</a>|
 
 ### <a href=#customerDerivedOrderInsightId name="customerDerivedOrderInsightId">customerDerivedOrderInsightId</a>
 
 Unique identifier for entity instances  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -120,7 +120,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Customer Derived Order Insight  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Customer Derived Order Insight  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Identifier for order level aggregation   
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -509,7 +509,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#contact name="contact">contact</a>
 
 Lookup to Contact  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -542,7 +542,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -554,7 +554,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#lastordercreationdate name="lastordercreationdate">lastordercreationdate</a>
 
 Last order creation date  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#totalordercount name="totalordercount">totalordercount</a>
 
 Total no\. of orders to date  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -634,7 +634,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#totalvalueoforderstodate name="totalvalueoforderstodate">totalvalueoforderstodate</a>
 
 Total value of orders that has been spent by customer to date  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -675,7 +675,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#totalvalueoforderstodate_Base name="totalvalueoforderstodate_Base">totalvalueoforderstodate_Base</a>
 
 Value of the Total value of orders to date in base currency\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -716,7 +716,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#averageordervalue name="averageordervalue">averageordervalue</a>
 
 Average order value which typically represents total order value by number of orders\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 
@@ -757,7 +757,7 @@ First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)
 ### <a href=#averageordervalue_Base name="averageordervalue_Base">averageordervalue_Base</a>
 
 Value of the Average order value in base currency\.  
-First included in: SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedOrderInsight \(this entity\)  
 
 #### Properties
 

@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/User.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/User.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,12 +48,12 @@ Person with access to the Microsoft CRM system and who owns objects in the Micro
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[systemUserId](#systemUserId)|Unique identifier for the user\.|<a href="User.md" target="_blank">SOAClienteling/User</a>|
+|[systemUserId](#systemUserId)|Unique identifier for the user\.|<a href="User.md" target="_blank">Retail\SOAClienteling/User</a>|
 
 ### <a href=#systemUserId name="systemUserId">systemUserId</a>
 
 Unique identifier for the user\.  
-First included in: SOAClienteling/User \(this entity\)  
+First included in: Retail\\SOAClienteling/User \(this entity\)  
 
 #### Properties
 

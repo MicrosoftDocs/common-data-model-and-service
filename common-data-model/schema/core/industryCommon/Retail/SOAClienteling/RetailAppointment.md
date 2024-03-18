@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Stores appointment information between Dynamics user and their customer  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/RetailAppointment.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/RetailAppointment.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,57 +51,57 @@ Stores appointment information between Dynamics user and their customer
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[actualEnd](#actualEnd)|Actual end time of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[activityId](#activityId)|Unique identifier of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[isBilled](#isBilled)|Information regarding whether the activity was billed as part of resolving a case\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[description](#description)|Description of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[modifiedOn](#modifiedOn)|Date and time when activity was last modified\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[activityTypeCode](#activityTypeCode)|Type of activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[stateCode](#stateCode)|Status of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[statusCode](#statusCode)|Reason for the status of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[actualStart](#actualStart)|Actual start time of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[createdOn](#createdOn)|Date and time when the activity was created\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[priorityCode](#priorityCode)|Priority of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[subject](#subject)|Subject associated with the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[scheduledStart](#scheduledStart)|Scheduled start time of the activity\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook\. This field is read\x2donly\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[isMapiPrivate](#isMapiPrivate)|For internal use only\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[sentOn](#sentOn)|Date and time when the activity was sent\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON\. For internal use only\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[plannedDate](#plannedDate)|Field representing only date when appointment is planned\. ScheduledStart stores time as well, while this attribute only stores date\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[appointmentChannel](#appointmentChannel)|Mode of appointment|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[appointmentType](#appointmentType)|Reference to appointment type table|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[assignedToUser](#assignedToUser)|User engaged in the appointment\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[associatedStore](#associatedStore)|Store location for appointment\. Used as a lookup in instore appointment\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[department](#department)|Team name used in appointments\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[endDate](#endDate)|End date and time for an appointment|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[onlineMeetingId](#onlineMeetingId)|Unique identifier for virtual appointments created by 'onlineMeeting' graph API\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[outlookEventId](#outlookEventId)|Unique identifier for appointments created by 'events' graph API\. |<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[retailCustomer](#retailCustomer)|Name of Contact|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
-|[virtualAppointmentId](#virtualAppointmentId)|Unique identifier for virtual appointments created by 'virtualAppointment' Graph API\.|<a href="RetailAppointment.md" target="_blank">SOAClienteling/RetailAppointment</a>|
+|[actualEnd](#actualEnd)|Actual end time of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[activityId](#activityId)|Unique identifier of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[isBilled](#isBilled)|Information regarding whether the activity was billed as part of resolving a case\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[description](#description)|Description of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when activity was last modified\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[activityTypeCode](#activityTypeCode)|Type of activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[stateCode](#stateCode)|Status of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[scheduledEnd](#scheduledEnd)|Scheduled end time of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[scheduledDurationMinutes](#scheduledDurationMinutes)|Scheduled duration of the activity, specified in minutes\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[actualDurationMinutes](#actualDurationMinutes)|Actual duration of the activity in minutes\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[statusCode](#statusCode)|Reason for the status of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[actualStart](#actualStart)|Actual start time of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[createdOn](#createdOn)|Date and time when the activity was created\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[priorityCode](#priorityCode)|Priority of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[subject](#subject)|Subject associated with the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[isWorkflowCreated](#isWorkflowCreated)|Information regarding whether the activity was created from a workflow rule\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[scheduledStart](#scheduledStart)|Scheduled start time of the activity\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[instanceTypeCode](#instanceTypeCode)|Type of instance of a recurring series\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[seriesId](#seriesId)|Uniqueidentifier specifying the id of recurring series of an instance\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[isRegularActivity](#isRegularActivity)|Information regarding whether the activity is a regular activity type or event type\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[leftVoiceMail](#leftVoiceMail)|Left the voice mail|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[community](#community)|Shows how contact about the social activity originated, such as from Twitter or Facebook\. This field is read\x2donly\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[isMapiPrivate](#isMapiPrivate)|For internal use only\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[exchangeWebLink](#exchangeWebLink)|Shows the web link of Activity of type email\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[exchangeItemId](#exchangeItemId)|The message id of activity which is returned from Exchange Server\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[deliveryPriorityCode](#deliveryPriorityCode)|Priority of delivery of the activity to the email server\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[sentOn](#sentOn)|Date and time when the activity was sent\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[deliveryLastAttemptedOn](#deliveryLastAttemptedOn)|Date and time when the delivery of the activity was last attempted\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[postponeActivityProcessingUntil](#postponeActivityProcessingUntil)|For internal use only\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[activityAdditionalParams](#activityAdditionalParams)|Additional information provided by the external application as JSON\. For internal use only\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[sortDate](#sortDate)|Shows the date and time by which the activities are sorted\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[plannedDate](#plannedDate)|Field representing only date when appointment is planned\. ScheduledStart stores time as well, while this attribute only stores date\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[appointmentChannel](#appointmentChannel)|Mode of appointment|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[appointmentType](#appointmentType)|Reference to appointment type table|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[assignedToUser](#assignedToUser)|User engaged in the appointment\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[associatedStore](#associatedStore)|Store location for appointment\. Used as a lookup in instore appointment\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[department](#department)|Team name used in appointments\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[endDate](#endDate)|End date and time for an appointment|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[onlineMeetingId](#onlineMeetingId)|Unique identifier for virtual appointments created by 'onlineMeeting' graph API\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[outlookEventId](#outlookEventId)|Unique identifier for appointments created by 'events' graph API\. |<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[retailCustomer](#retailCustomer)|Name of Contact|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
+|[virtualAppointmentId](#virtualAppointmentId)|Unique identifier for virtual appointments created by 'virtualAppointment' Graph API\.|<a href="RetailAppointment.md" target="_blank">Retail\SOAClienteling/RetailAppointment</a>|
 
 ### <a href=#actualEnd name="actualEnd">actualEnd</a>
 
 Actual end time of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#activityId name="activityId">activityId</a>
 
 Unique identifier of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -189,7 +189,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#isBilled name="isBilled">isBilled</a>
 
 Information regarding whether the activity was billed as part of resolving a case\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -225,7 +225,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Description of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -273,7 +273,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when activity was last modified\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -313,7 +313,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#activityTypeCode name="activityTypeCode">activityTypeCode</a>
 
 Type of activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -358,7 +358,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#stateCode name="stateCode">stateCode</a>
 
 Status of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -404,7 +404,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#scheduledEnd name="scheduledEnd">scheduledEnd</a>
 
 Scheduled end time of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -444,7 +444,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#scheduledDurationMinutes name="scheduledDurationMinutes">scheduledDurationMinutes</a>
 
 Scheduled duration of the activity, specified in minutes\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -487,7 +487,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#actualDurationMinutes name="actualDurationMinutes">actualDurationMinutes</a>
 
 Actual duration of the activity in minutes\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -530,7 +530,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#statusCode name="statusCode">statusCode</a>
 
 Reason for the status of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -579,7 +579,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#actualStart name="actualStart">actualStart</a>
 
 Actual start time of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -619,7 +619,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the activity was created\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#priorityCode name="priorityCode">priorityCode</a>
 
 Priority of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -705,7 +705,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#subject name="subject">subject</a>
 
 Subject associated with the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#isWorkflowCreated name="isWorkflowCreated">isWorkflowCreated</a>
 
 Information regarding whether the activity was created from a workflow rule\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -789,7 +789,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#scheduledStart name="scheduledStart">scheduledStart</a>
 
 Scheduled start time of the activity\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -829,7 +829,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -872,7 +872,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -915,7 +915,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#instanceTypeCode name="instanceTypeCode">instanceTypeCode</a>
 
 Type of instance of a recurring series\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -958,7 +958,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#seriesId name="seriesId">seriesId</a>
 
 Uniqueidentifier specifying the id of recurring series of an instance\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1005,7 +1005,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#isRegularActivity name="isRegularActivity">isRegularActivity</a>
 
 Information regarding whether the activity is a regular activity type or event type\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1038,7 +1038,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#leftVoiceMail name="leftVoiceMail">leftVoiceMail</a>
 
 Left the voice mail  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1074,7 +1074,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#community name="community">community</a>
 
 Shows how contact about the social activity originated, such as from Twitter or Facebook\. This field is read\x2donly\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1120,7 +1120,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#isMapiPrivate name="isMapiPrivate">isMapiPrivate</a>
 
 For internal use only\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1156,7 +1156,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#exchangeWebLink name="exchangeWebLink">exchangeWebLink</a>
 
 Shows the web link of Activity of type email\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1204,7 +1204,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#exchangeItemId name="exchangeItemId">exchangeItemId</a>
 
 The message id of activity which is returned from Exchange Server\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1252,7 +1252,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#deliveryPriorityCode name="deliveryPriorityCode">deliveryPriorityCode</a>
 
 Priority of delivery of the activity to the email server\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1298,7 +1298,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#sentOn name="sentOn">sentOn</a>
 
 Date and time when the activity was sent\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1338,7 +1338,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#deliveryLastAttemptedOn name="deliveryLastAttemptedOn">deliveryLastAttemptedOn</a>
 
 Date and time when the delivery of the activity was last attempted\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1378,7 +1378,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#postponeActivityProcessingUntil name="postponeActivityProcessingUntil">postponeActivityProcessingUntil</a>
 
 For internal use only\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1418,7 +1418,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#activityAdditionalParams name="activityAdditionalParams">activityAdditionalParams</a>
 
 Additional information provided by the external application as JSON\. For internal use only\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1466,7 +1466,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#sortDate name="sortDate">sortDate</a>
 
 Shows the date and time by which the activities are sorted\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1506,7 +1506,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1549,7 +1549,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1586,7 +1586,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#plannedDate name="plannedDate">plannedDate</a>
 
 Field representing only date when appointment is planned\. ScheduledStart stores time as well, while this attribute only stores date\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1623,7 +1623,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#appointmentChannel name="appointmentChannel">appointmentChannel</a>
 
 Mode of appointment  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1669,7 +1669,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#appointmentType name="appointmentType">appointmentType</a>
 
 Reference to appointment type table  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1702,7 +1702,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../RetailAppointmentType.md" target="_blank">RetailAppointmentType.cdm.json/RetailAppointmentType</a></td><td><a href="../../../RetailAppointmentType.md#retailAppointmentTypeId" target="_blank">retailAppointmentTypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../RetailAppointmentType.md" target="_blank">RetailAppointmentType.cdm.json/RetailAppointmentType</a></td><td><a href="../../RetailAppointmentType.md#retailAppointmentTypeId" target="_blank">retailAppointmentTypeId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -1714,7 +1714,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#assignedToUser name="assignedToUser">assignedToUser</a>
 
 User engaged in the appointment\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1747,7 +1747,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../User.md" target="_blank">User.cdm.json/User</a></td><td><a href="../../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../User.md" target="_blank">User.cdm.json/User</a></td><td><a href="../../User.md#systemUserId" target="_blank">systemUserId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -1759,7 +1759,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#associatedStore name="associatedStore">associatedStore</a>
 
 Store location for appointment\. Used as a lookup in instore appointment\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1792,7 +1792,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -1804,7 +1804,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#department name="department">department</a>
 
 Team name used in appointments\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1837,7 +1837,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Team.md" target="_blank">Team.cdm.json/Team</a></td><td><a href="../../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Team.md" target="_blank">Team.cdm.json/Team</a></td><td><a href="../../Team.md#teamId" target="_blank">teamId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -1849,7 +1849,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#endDate name="endDate">endDate</a>
 
 End date and time for an appointment  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1889,7 +1889,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#onlineMeetingId name="onlineMeetingId">onlineMeetingId</a>
 
 Unique identifier for virtual appointments created by 'onlineMeeting' graph API\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1937,7 +1937,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#outlookEventId name="outlookEventId">outlookEventId</a>
 
 Unique identifier for appointments created by 'events' graph API\.   
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -1985,7 +1985,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#retailCustomer name="retailCustomer">retailCustomer</a>
 
 Name of Contact  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 
@@ -2018,7 +2018,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -2030,7 +2030,7 @@ First included in: SOAClienteling/RetailAppointment \(this entity\)
 ### <a href=#virtualAppointmentId name="virtualAppointmentId">virtualAppointmentId</a>
 
 Unique identifier for virtual appointments created by 'virtualAppointment' Graph API\.  
-First included in: SOAClienteling/RetailAppointment \(this entity\)  
+First included in: Retail\\SOAClienteling/RetailAppointment \(this entity\)  
 
 #### Properties
 

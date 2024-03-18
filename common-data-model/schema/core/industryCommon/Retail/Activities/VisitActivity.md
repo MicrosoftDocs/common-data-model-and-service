@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Activities to be performed during a visit  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/VisitActivity.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/VisitActivity.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,24 +48,24 @@ Activities to be performed during a visit
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[visitactivityId](#visitactivityId)|Unique identifier for entity instances|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[auditdefinition](#auditdefinition)|Audit definition|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[auditresponse](#auditresponse)|Audit response|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[displayorder](#displayorder)|Display order|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[executionactivity](#executionactivity)|Related execution activity|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[pictureMandatory](#pictureMandatory)|Option to picture is mandatory or not|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[SOSDefinition](#SOSDefinition)||<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[SOSResponse](#SOSResponse)||<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[surveydefinition](#surveydefinition)|Survey definition|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[surveyresponse](#surveyresponse)|Survey response|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[taskdefinition](#taskdefinition)|Task definition|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[taskresponse](#taskresponse)|Task response related to visit activity|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
-|[type](#type)|Type|<a href="VisitActivity.md" target="_blank">Activities/VisitActivity</a>|
+|[visitactivityId](#visitactivityId)|Unique identifier for entity instances|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[auditdefinition](#auditdefinition)|Audit definition|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[auditresponse](#auditresponse)|Audit response|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[displayorder](#displayorder)|Display order|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[executionactivity](#executionactivity)|Related execution activity|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[pictureMandatory](#pictureMandatory)|Option to picture is mandatory or not|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[SOSDefinition](#SOSDefinition)||<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[SOSResponse](#SOSResponse)||<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[surveydefinition](#surveydefinition)|Survey definition|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[surveyresponse](#surveyresponse)|Survey response|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[taskdefinition](#taskdefinition)|Task definition|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[taskresponse](#taskresponse)|Task response related to visit activity|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
+|[type](#type)|Type|<a href="VisitActivity.md" target="_blank">Retail\Activities/VisitActivity</a>|
 
 ### <a href=#visitactivityId name="visitactivityId">visitactivityId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#auditdefinition name="auditdefinition">auditdefinition</a>
 
 Audit definition  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -146,7 +146,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../AuditDefinition.md" target="_blank">AuditDefinition.cdm.json/AuditDefinition</a></td><td><a href="../../../AuditDefinition.md#auditdefinitionId" target="_blank">auditdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AuditDefinition.md" target="_blank">AuditDefinition.cdm.json/AuditDefinition</a></td><td><a href="../../AuditDefinition.md#auditdefinitionId" target="_blank">auditdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -158,7 +158,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#auditresponse name="auditresponse">auditresponse</a>
 
 Audit response  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -191,7 +191,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../AuditResponse.md" target="_blank">AuditResponse.cdm.json/AuditResponse</a></td><td><a href="../../../AuditResponse.md#auditResponseId" target="_blank">auditResponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../AuditResponse.md" target="_blank">AuditResponse.cdm.json/AuditResponse</a></td><td><a href="../../AuditResponse.md#auditResponseId" target="_blank">auditResponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -203,7 +203,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#displayorder name="displayorder">displayorder</a>
 
 Display order  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#executionactivity name="executionactivity">executionactivity</a>
 
 Related execution activity  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -279,7 +279,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../ExecutionActivity.md" target="_blank">ExecutionActivity.cdm.json/ExecutionActivity</a></td><td><a href="../../../ExecutionActivity.md#executionactivityId" target="_blank">executionactivityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../ExecutionActivity.md" target="_blank">ExecutionActivity.cdm.json/ExecutionActivity</a></td><td><a href="../../ExecutionActivity.md#executionactivityId" target="_blank">executionactivityId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -291,7 +291,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#pictureMandatory name="pictureMandatory">pictureMandatory</a>
 
 Option to picture is mandatory or not  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: Activities/VisitActivity \(this entity\)
 
 ### <a href=#SOSDefinition name="SOSDefinition">SOSDefinition</a>
 
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -359,7 +359,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../SOSDefinition.md" target="_blank">SOSDefinition.cdm.json/SOSDefinition</a></td><td><a href="../../../SOSDefinition.md#SOSDefinitionId" target="_blank">SOSDefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../SOSDefinition.md" target="_blank">SOSDefinition.cdm.json/SOSDefinition</a></td><td><a href="../../SOSDefinition.md#SOSDefinitionId" target="_blank">SOSDefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -370,7 +370,7 @@ First included in: Activities/VisitActivity \(this entity\)
 
 ### <a href=#SOSResponse name="SOSResponse">SOSResponse</a>
 
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -403,7 +403,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../SOSResponse.md" target="_blank">SOSResponse.cdm.json/SOSResponse</a></td><td><a href="../../../SOSResponse.md#SOSResponseId" target="_blank">SOSResponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../SOSResponse.md" target="_blank">SOSResponse.cdm.json/SOSResponse</a></td><td><a href="../../SOSResponse.md#SOSResponseId" target="_blank">SOSResponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -415,7 +415,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#surveydefinition name="surveydefinition">surveydefinition</a>
 
 Survey definition  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -448,7 +448,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../SurveyDefinition.md" target="_blank">SurveyDefinition.cdm.json/SurveyDefinition</a></td><td><a href="../../../SurveyDefinition.md#surveydefinitionId" target="_blank">surveydefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../SurveyDefinition.md" target="_blank">SurveyDefinition.cdm.json/SurveyDefinition</a></td><td><a href="../../SurveyDefinition.md#surveydefinitionId" target="_blank">surveydefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -460,7 +460,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#surveyresponse name="surveyresponse">surveyresponse</a>
 
 Survey response  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -493,7 +493,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../SurveyResponse.md" target="_blank">SurveyResponse.cdm.json/SurveyResponse</a></td><td><a href="../../../SurveyResponse.md#surveyresponseId" target="_blank">surveyresponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../SurveyResponse.md" target="_blank">SurveyResponse.cdm.json/SurveyResponse</a></td><td><a href="../../SurveyResponse.md#surveyresponseId" target="_blank">surveyresponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -505,7 +505,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#taskdefinition name="taskdefinition">taskdefinition</a>
 
 Task definition  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -538,7 +538,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../TaskDefinition.md" target="_blank">TaskDefinition.cdm.json/TaskDefinition</a></td><td><a href="../../../TaskDefinition.md#taskdefinitionId" target="_blank">taskdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../TaskDefinition.md" target="_blank">TaskDefinition.cdm.json/TaskDefinition</a></td><td><a href="../../TaskDefinition.md#taskdefinitionId" target="_blank">taskdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -550,7 +550,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#taskresponse name="taskresponse">taskresponse</a>
 
 Task response related to visit activity  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 
@@ -583,7 +583,7 @@ First included in: Activities/VisitActivity \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../TaskResponse.md" target="_blank">TaskResponse.cdm.json/TaskResponse</a></td><td><a href="../../../TaskResponse.md#taskresponseId" target="_blank">taskresponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../TaskResponse.md" target="_blank">TaskResponse.cdm.json/TaskResponse</a></td><td><a href="../../TaskResponse.md#taskresponseId" target="_blank">taskresponseId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -595,7 +595,7 @@ First included in: Activities/VisitActivity \(this entity\)
 ### <a href=#type name="type">type</a>
 
 Type  
-First included in: Activities/VisitActivity \(this entity\)  
+First included in: Retail\\Activities/VisitActivity \(this entity\)  
 
 #### Properties
 

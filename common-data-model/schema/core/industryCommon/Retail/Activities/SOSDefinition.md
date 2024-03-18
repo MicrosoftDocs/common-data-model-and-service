@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Caters a definition/template for Share of Shelf Check activity  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/SOSDefinition.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/SOSDefinition.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,23 +51,23 @@ Caters a definition/template for Share of Shelf Check activity
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[SOSDefinitionId](#SOSDefinitionId)|Unique identifier for entity instances|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[statecode](#statecode)|Status of the SOS Definition|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[statuscode](#statuscode)|Reason for the status of the SOS Definition|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[name](#name)||<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[executionActivityDefinition](#executionActivityDefinition)|Related Execution activity definition|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
-|[jsonContent](#jsonContent)|Stores SOS Definition in a JSON format|<a href="SOSDefinition.md" target="_blank">Activities/SOSDefinition</a>|
+|[SOSDefinitionId](#SOSDefinitionId)|Unique identifier for entity instances|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[statecode](#statecode)|Status of the SOS Definition|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[statuscode](#statuscode)|Reason for the status of the SOS Definition|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[name](#name)||<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[executionActivityDefinition](#executionActivityDefinition)|Related Execution activity definition|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
+|[jsonContent](#jsonContent)|Stores SOS Definition in a JSON format|<a href="SOSDefinition.md" target="_blank">Retail\Activities/SOSDefinition</a>|
 
 ### <a href=#SOSDefinitionId name="SOSDefinitionId">SOSDefinitionId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the SOS Definition  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the SOS Definition  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -455,7 +455,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 
 ### <a href=#name name="name">name</a>
 
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#executionActivityDefinition name="executionActivityDefinition">executionActivityDefinition</a>
 
 Related Execution activity definition  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 
@@ -536,7 +536,7 @@ First included in: Activities/SOSDefinition \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../ExecutionActivityDefinition.md" target="_blank">ExecutionActivityDefinition.cdm.json/ExecutionActivityDefinition</a></td><td><a href="../../../ExecutionActivityDefinition.md#executionActivityDefinitionId" target="_blank">executionActivityDefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../ExecutionActivityDefinition.md" target="_blank">ExecutionActivityDefinition.cdm.json/ExecutionActivityDefinition</a></td><td><a href="../../ExecutionActivityDefinition.md#executionActivityDefinitionId" target="_blank">executionActivityDefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -548,7 +548,7 @@ First included in: Activities/SOSDefinition \(this entity\)
 ### <a href=#jsonContent name="jsonContent">jsonContent</a>
 
 Stores SOS Definition in a JSON format  
-First included in: Activities/SOSDefinition \(this entity\)  
+First included in: Retail\\Activities/SOSDefinition \(this entity\)  
 
 #### Properties
 

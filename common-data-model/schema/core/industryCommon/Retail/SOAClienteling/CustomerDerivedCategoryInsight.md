@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Entity to capture the Insights of Customer Orders, based on Product Category  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/CustomerDerivedCategoryInsight.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/CustomerDerivedCategoryInsight.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,26 +51,26 @@ Entity to capture the Insights of Customer Orders, based on Product Category
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[customerDerivedCategoryInsightId](#customerDerivedCategoryInsightId)|Unique identifier for entity instances|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[statecode](#statecode)|Status of the Customer Derived Category Insight|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[statuscode](#statuscode)|Reason for the status of the Customer Derived Category Insight|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[name](#name)|Identifier for category level aggregation |<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[categoryfrequency](#categoryfrequency)|Indicates the frequency of customer orders in the specified Product category|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[categoryspend](#categoryspend)|Indicates the total value of customer orders spent in the specified Product category|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[categoryspend_Base](#categoryspend_Base)|Value of the Category spend in base currency\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[contact](#contact)|It indicates contact\. Lookup to Contact|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
-|[productcategory](#productcategory)|It indicates product category\. Lookup to Product category\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[customerDerivedCategoryInsightId](#customerDerivedCategoryInsightId)|Unique identifier for entity instances|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[statecode](#statecode)|Status of the Customer Derived Category Insight|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[statuscode](#statuscode)|Reason for the status of the Customer Derived Category Insight|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[name](#name)|Identifier for category level aggregation |<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[categoryfrequency](#categoryfrequency)|Indicates the frequency of customer orders in the specified Product category|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[categoryspend](#categoryspend)|Indicates the total value of customer orders spent in the specified Product category|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[categoryspend_Base](#categoryspend_Base)|Value of the Category spend in base currency\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[contact](#contact)|It indicates contact\. Lookup to Contact|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
+|[productcategory](#productcategory)|It indicates product category\. Lookup to Product category\.|<a href="CustomerDerivedCategoryInsight.md" target="_blank">Retail\SOAClienteling/CustomerDerivedCategoryInsight</a>|
 
 ### <a href=#customerDerivedCategoryInsightId name="customerDerivedCategoryInsightId">customerDerivedCategoryInsightId</a>
 
 Unique identifier for entity instances  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Customer Derived Category Insight  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Customer Derived Category Insight  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Identifier for category level aggregation   
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#categoryfrequency name="categoryfrequency">categoryfrequency</a>
 
 Indicates the frequency of customer orders in the specified Product category  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -550,7 +550,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#categoryspend name="categoryspend">categoryspend</a>
 
 Indicates the total value of customer orders spent in the specified Product category  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#categoryspend_Base name="categoryspend_Base">categoryspend_Base</a>
 
 Value of the Category spend in base currency\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -632,7 +632,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#contact name="contact">contact</a>
 
 It indicates contact\. Lookup to Contact  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -665,7 +665,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../Contact.md" target="_blank">Contact.cdm.json/Contact</a></td><td><a href="../../Contact.md#contactId" target="_blank">contactId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -677,7 +677,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
 ### <a href=#productcategory name="productcategory">productcategory</a>
 
 It indicates product category\. Lookup to Product category\.  
-First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
+First included in: Retail\\SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)  
 
 #### Properties
 
@@ -710,7 +710,7 @@ First included in: SOAClienteling/CustomerDerivedCategoryInsight \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Commerce/ProductCategory.md" target="_blank">/Retail/Commerce/ProductCategory.cdm.json/ProductCategory</a></td><td><a href="../Commerce/ProductCategory.md#productcategoryId" target="_blank">productcategoryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../Retail/Commerce/ProductCategory.md" target="_blank">/Retail/Commerce/ProductCategory.cdm.json/ProductCategory</a></td><td><a href="../Retail/Commerce/ProductCategory.md#productcategoryId" target="_blank">productcategoryId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  

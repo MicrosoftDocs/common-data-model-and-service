@@ -5,14 +5,14 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
 # Task response in Activities(TaskResponse)
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/TaskResponse.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/TaskResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -50,23 +50,23 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[taskresponseId](#taskresponseId)|Unique identifier for entity instances|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[statecode](#statecode)|Status of the Task response|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[statuscode](#statuscode)|Reason for the status of the Task response|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[name](#name)|Subject / title of the task response|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[response](#response)|Task response text data|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
-|[taskDefinition](#taskDefinition)|Lookup for related task definition|<a href="TaskResponse.md" target="_blank">Activities/TaskResponse</a>|
+|[taskresponseId](#taskresponseId)|Unique identifier for entity instances|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[statecode](#statecode)|Status of the Task response|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[statuscode](#statuscode)|Reason for the status of the Task response|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[name](#name)|Subject / title of the task response|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[response](#response)|Task response text data|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
+|[taskDefinition](#taskDefinition)|Lookup for related task definition|<a href="TaskResponse.md" target="_blank">Retail\Activities/TaskResponse</a>|
 
 ### <a href=#taskresponseId name="taskresponseId">taskresponseId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -114,7 +114,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -154,7 +154,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Task response  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Task response  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -332,7 +332,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -369,7 +369,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -412,7 +412,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -455,7 +455,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Subject / title of the task response  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#response name="response">response</a>
 
 Task response text data  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Activities/TaskResponse \(this entity\)
 ### <a href=#taskDefinition name="taskDefinition">taskDefinition</a>
 
 Lookup for related task definition  
-First included in: Activities/TaskResponse \(this entity\)  
+First included in: Retail\\Activities/TaskResponse \(this entity\)  
 
 #### Properties
 
@@ -584,7 +584,7 @@ First included in: Activities/TaskResponse \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../TaskDefinition.md" target="_blank">TaskDefinition.cdm.json/TaskDefinition</a></td><td><a href="../../../TaskDefinition.md#taskdefinitionId" target="_blank">taskdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../TaskDefinition.md" target="_blank">TaskDefinition.cdm.json/TaskDefinition</a></td><td><a href="../../TaskDefinition.md#taskdefinitionId" target="_blank">taskdefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  

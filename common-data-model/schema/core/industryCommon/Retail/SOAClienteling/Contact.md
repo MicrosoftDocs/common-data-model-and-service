@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/Contact.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/Contact.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,15 +48,15 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactId](#contactId)|Unique identifier of the contact\.|<a href="Contact.md" target="_blank">SOAClienteling/Contact</a>|
-|[msret_LanguageOfPreference](#msret_LanguageOfPreference)||<a href="Contact.md" target="_blank">SOAClienteling/Contact</a>|
-|[msret_LoyaltyCard](#msret_LoyaltyCard)||<a href="Contact.md" target="_blank">SOAClienteling/Contact</a>|
-|[msret_MainPhone](#msret_MainPhone)||<a href="Contact.md" target="_blank">SOAClienteling/Contact</a>|
+|[contactId](#contactId)|Unique identifier of the contact\.|<a href="Contact.md" target="_blank">Retail\SOAClienteling/Contact</a>|
+|[msret_LanguageOfPreference](#msret_LanguageOfPreference)||<a href="Contact.md" target="_blank">Retail\SOAClienteling/Contact</a>|
+|[msret_LoyaltyCard](#msret_LoyaltyCard)||<a href="Contact.md" target="_blank">Retail\SOAClienteling/Contact</a>|
+|[msret_MainPhone](#msret_MainPhone)||<a href="Contact.md" target="_blank">Retail\SOAClienteling/Contact</a>|
 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact\.  
-First included in: SOAClienteling/Contact \(this entity\)  
+First included in: Retail\\SOAClienteling/Contact \(this entity\)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: SOAClienteling/Contact \(this entity\)
 
 ### <a href=#msret_LanguageOfPreference name="msret_LanguageOfPreference">msret_LanguageOfPreference</a>
 
-First included in: SOAClienteling/Contact \(this entity\)  
+First included in: Retail\\SOAClienteling/Contact \(this entity\)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: SOAClienteling/Contact \(this entity\)
 
 ### <a href=#msret_LoyaltyCard name="msret_LoyaltyCard">msret_LoyaltyCard</a>
 
-First included in: SOAClienteling/Contact \(this entity\)  
+First included in: Retail\\SOAClienteling/Contact \(this entity\)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ First included in: SOAClienteling/Contact \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../LoyaltyCard.md" target="_blank">LoyaltyCard.cdm.json/LoyaltyCard</a></td><td><a href="../../../LoyaltyCard.md#loyaltyCardId" target="_blank">loyaltyCardId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../LoyaltyCard.md" target="_blank">LoyaltyCard.cdm.json/LoyaltyCard</a></td><td><a href="../../LoyaltyCard.md#loyaltyCardId" target="_blank">loyaltyCardId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
@@ -197,7 +197,7 @@ First included in: SOAClienteling/Contact \(this entity\)
 
 ### <a href=#msret_MainPhone name="msret_MainPhone">msret_MainPhone</a>
 
-First included in: SOAClienteling/Contact \(this entity\)  
+First included in: Retail\\SOAClienteling/Contact \(this entity\)  
 
 #### Properties
 

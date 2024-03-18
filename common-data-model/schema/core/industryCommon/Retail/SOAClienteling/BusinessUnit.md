@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Business, division, or department in the Microsoft Dynamics 365 database\.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/BusinessUnit.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/BusinessUnit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -48,12 +48,12 @@ Business, division, or department in the Microsoft Dynamics 365 database\.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[businessUnitId](#businessUnitId)|Unique identifier of the business unit\.|<a href="BusinessUnit.md" target="_blank">SOAClienteling/BusinessUnit</a>|
+|[businessUnitId](#businessUnitId)|Unique identifier of the business unit\.|<a href="BusinessUnit.md" target="_blank">Retail\SOAClienteling/BusinessUnit</a>|
 
 ### <a href=#businessUnitId name="businessUnitId">businessUnitId</a>
 
 Unique identifier of the business unit\.  
-First included in: SOAClienteling/BusinessUnit \(this entity\)  
+First included in: Retail\\SOAClienteling/BusinessUnit \(this entity\)  
 
 #### Properties
 

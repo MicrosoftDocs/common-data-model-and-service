@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/18/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Definition of loyalty program and associated tiers  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/SOAClienteling/LoyaltyProgram.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\SOAClienteling/LoyaltyProgram.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,27 +51,27 @@ Definition of loyalty program and associated tiers
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[loyaltyProgramId](#loyaltyProgramId)|Unique identifier for entity instances|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[statecode](#statecode)|Status of the Loyalty Program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[statuscode](#statuscode)|Reason for the status of the Loyalty Program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[programId](#programId)|User friendly name for a program\. It can be used as a combination of program and tier that can uniquely identify a row\.|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[endDate](#endDate)|End date for loyalty program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[programDescription](#programDescription)|Overview for loyalty program |<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[programName](#programName)|Title of loyalty program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[startDate](#startDate)|Start date of loyalty program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[tierDescription](#tierDescription)|Overview for a tier in loyalty program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
-|[tierName](#tierName)|Name of tier in loyalty program|<a href="LoyaltyProgram.md" target="_blank">SOAClienteling/LoyaltyProgram</a>|
+|[loyaltyProgramId](#loyaltyProgramId)|Unique identifier for entity instances|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[statecode](#statecode)|Status of the Loyalty Program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[statuscode](#statuscode)|Reason for the status of the Loyalty Program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[programId](#programId)|User friendly name for a program\. It can be used as a combination of program and tier that can uniquely identify a row\.|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[endDate](#endDate)|End date for loyalty program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[programDescription](#programDescription)|Overview for loyalty program |<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[programName](#programName)|Title of loyalty program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[startDate](#startDate)|Start date of loyalty program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[tierDescription](#tierDescription)|Overview for a tier in loyalty program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
+|[tierName](#tierName)|Name of tier in loyalty program|<a href="LoyaltyProgram.md" target="_blank">Retail\SOAClienteling/LoyaltyProgram</a>|
 
 ### <a href=#loyaltyProgramId name="loyaltyProgramId">loyaltyProgramId</a>
 
 Unique identifier for entity instances  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Loyalty Program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Loyalty Program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -294,7 +294,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -337,7 +337,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#programId name="programId">programId</a>
 
 User friendly name for a program\. It can be used as a combination of program and tier that can uniquely identify a row\.  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -508,7 +508,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#endDate name="endDate">endDate</a>
 
 End date for loyalty program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -545,7 +545,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#programDescription name="programDescription">programDescription</a>
 
 Overview for loyalty program   
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -593,7 +593,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#programName name="programName">programName</a>
 
 Title of loyalty program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#startDate name="startDate">startDate</a>
 
 Start date of loyalty program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -678,7 +678,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#tierDescription name="tierDescription">tierDescription</a>
 
 Overview for a tier in loyalty program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 
@@ -726,7 +726,7 @@ First included in: SOAClienteling/LoyaltyProgram \(this entity\)
 ### <a href=#tierName name="tierName">tierName</a>
 
 Name of tier in loyalty program  
-First included in: SOAClienteling/LoyaltyProgram \(this entity\)  
+First included in: Retail\\SOAClienteling/LoyaltyProgram \(this entity\)  
 
 #### Properties
 

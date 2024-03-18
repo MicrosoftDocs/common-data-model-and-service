@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Survey response  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/SurveyResponse.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/SurveyResponse.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,24 +51,24 @@ Survey response
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[surveyresponseId](#surveyresponseId)|Unique identifier for entity instances|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[statecode](#statecode)|Status of the Survey response|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[statuscode](#statuscode)|Reason for the status of the Survey response|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[name](#name)|Subject / title of the survey response|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[modifiedByApplication](#modifiedByApplication)|Application identifier which survey response modified on\.|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[jsoncontent](#jsoncontent)|Response of the survey in JSON format|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
-|[surveydefinition](#surveydefinition)|Lookup for survey template|<a href="SurveyResponse.md" target="_blank">Activities/SurveyResponse</a>|
+|[surveyresponseId](#surveyresponseId)|Unique identifier for entity instances|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[statecode](#statecode)|Status of the Survey response|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[statuscode](#statuscode)|Reason for the status of the Survey response|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[name](#name)|Subject / title of the survey response|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[modifiedByApplication](#modifiedByApplication)|Application identifier which survey response modified on\.|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[jsoncontent](#jsoncontent)|Response of the survey in JSON format|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
+|[surveydefinition](#surveydefinition)|Lookup for survey template|<a href="SurveyResponse.md" target="_blank">Retail\Activities/SurveyResponse</a>|
 
 ### <a href=#surveyresponseId name="surveyresponseId">surveyresponseId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -116,7 +116,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Survey response  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Survey response  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Subject / title of the survey response  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -505,7 +505,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#modifiedByApplication name="modifiedByApplication">modifiedByApplication</a>
 
 Application identifier which survey response modified on\.  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#jsoncontent name="jsoncontent">jsoncontent</a>
 
 Response of the survey in JSON format  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Activities/SurveyResponse \(this entity\)
 ### <a href=#surveydefinition name="surveydefinition">surveydefinition</a>
 
 Lookup for survey template  
-First included in: Activities/SurveyResponse \(this entity\)  
+First included in: Retail\\Activities/SurveyResponse \(this entity\)  
 
 #### Properties
 
@@ -632,7 +632,7 @@ First included in: Activities/SurveyResponse \(this entity\)
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../../SurveyDefinition.md" target="_blank">SurveyDefinition.cdm.json/SurveyDefinition</a></td><td><a href="../../../SurveyDefinition.md#surveydefinitionId" target="_blank">surveydefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../../SurveyDefinition.md" target="_blank">SurveyDefinition.cdm.json/SurveyDefinition</a></td><td><a href="../../SurveyDefinition.md#surveydefinitionId" target="_blank">surveydefinitionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  

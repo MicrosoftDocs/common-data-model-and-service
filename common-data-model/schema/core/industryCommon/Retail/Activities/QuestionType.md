@@ -5,7 +5,7 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/1/2024
+ms.date: 3/6/2024
 ms.author: cdmditeam
 ---
 
@@ -13,7 +13,7 @@ ms.author: cdmditeam
 
 Question type  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Activities/QuestionType.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail\Activities/QuestionType.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -51,23 +51,23 @@ Question type
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[questionTypeId](#questionTypeId)|Unique identifier for entity instances|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[statecode](#statecode)|Status of the Question Type|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Question Type|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[name](#name)|Subject / title of question type|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[description](#description)|Additional information about the visit type|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
-|[ispredelivered](#ispredelivered)|Indicates if the question type has been pre\x2ddelivered and cannot be removed|<a href="QuestionType.md" target="_blank">Activities/QuestionType</a>|
+|[questionTypeId](#questionTypeId)|Unique identifier for entity instances|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created\.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified\.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[statecode](#statecode)|Status of the Question Type|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Question Type|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record\.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated\.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only\.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created\.|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[name](#name)|Subject / title of question type|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[description](#description)|Additional information about the visit type|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
+|[ispredelivered](#ispredelivered)|Indicates if the question type has been pre\x2ddelivered and cannot be removed|<a href="QuestionType.md" target="_blank">Retail\Activities/QuestionType</a>|
 
 ### <a href=#questionTypeId name="questionTypeId">questionTypeId</a>
 
 Unique identifier for entity instances  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -115,7 +115,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created\.  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified\.  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Question Type  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Question Type  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record\.  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated\.  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only\.  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created\.  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#name name="name">name</a>
 
 Subject / title of question type  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#description name="description">description</a>
 
 Additional information about the visit type  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: Activities/QuestionType \(this entity\)
 ### <a href=#ispredelivered name="ispredelivered">ispredelivered</a>
 
 Indicates if the question type has been pre\x2ddelivered and cannot be removed  
-First included in: Activities/QuestionType \(this entity\)  
+First included in: Retail\\Activities/QuestionType \(this entity\)  
 
 #### Properties
 
