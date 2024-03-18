@@ -69,7 +69,7 @@ E.g., Sales rep, Auditor etc.|<a href="VisitFrequency.md" target="_blank">Visit.
 |[everyspecifieddays](#everyspecifieddays)|For daily recurrence this describes every specified day(s) the outlet to be visited.|<a hre."VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[everyspecifiedmonths](#everyspecifiedmonths)|For monthly recurrence, this describes every specified month(s) the outlet to be vis.ed.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[everyspecifiedweeks](#everyspecifiedweeks)|For weekly recurrence, this describes every.pecified week(s) the outlet to be visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[monthlyRecurrence](#monthlyRecurrence)|This indicates if the outlet is visite.mo.h..|<a href="VisitFreque.y.md" target="_blank">Visits/VisitFrequency</a>|
+|[monthlyRecurrence](#monthlyRecurrence)|This indicates if the outlet is visite.mo.h..|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[preferredTime](#preferredTime)|This describes the preferred time of the visit..
 E.g., Morning, Evening, etc.|<a href="VisitFrequency.md" ta.et._.ank">Visits/VisitFre.ency</a>|
 |[recurOn](#recurOn)|For monthly recurrence, this describes the sp.ified week of the month.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
