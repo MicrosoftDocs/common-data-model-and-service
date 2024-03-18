@@ -63,7 +63,7 @@ Supermarket, Bar, Restaurant etc. </td></tr></table></td><td>entity</td><td>a re
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was.igrated.|<a href="OutletType.md" target="_blank">Common/OutletType</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="OutletType.md" target="_b.nk">Common/OutletType</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="OutletType.md" target="_blank">Common/OutletType</a>|
-|[name](#name)|Subject / title of the outlet type|<a href="Outl.Type.md" target="_blank">Common/OutletType</a>|
+|[name](#name)|Subject / title of the outlet type|<a href="OutletType.md" target="_blank">Common/OutletType</a>|
 |[category](#category)|Select the category for this outlet type.|<a href="OutletType.md" target="_blank">Common/OutletType</a>|
 |[description](#description)|Description of the outlet type|<a href="OutletType.md" target="_blank">Common/OutletType</a>|
 
