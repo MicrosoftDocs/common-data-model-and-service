@@ -2789,6 +2789,150 @@
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestServiceRequested.md
             - name: ReferralRequestSupportingInformation 
               href: industryCommon/Healthcare/Workflow/WorkflowReferral/ReferralRequestSupportingInformation.md
+      - name: Microsoft Cloud for Retail
+        items:
+        - name: Summary
+          href: industryCommon/Retail/overview.md
+        - name: Activities
+          items:
+          - name: Summary
+            href: industryCommon/Retail/Activities/overview.md
+          - name: AuditResponse 
+            href: industryCommon/Retail/Activities/AuditResponse.md
+          - name: ExecutionActivityItem 
+            href: industryCommon/Retail/Activities/ExecutionActivityItem.md
+          - name: OutletZone 
+            href: industryCommon/Retail/Activities/OutletZone.md
+          - name: QuestionType 
+            href: industryCommon/Retail/Activities/QuestionType.md
+          - name: SOSDefinition 
+            href: industryCommon/Retail/Activities/SOSDefinition.md
+          - name: SOSResponse 
+            href: industryCommon/Retail/Activities/SOSResponse.md
+          - name: SurveyResponse 
+            href: industryCommon/Retail/Activities/SurveyResponse.md
+          - name: TargetGroup 
+            href: industryCommon/Retail/Activities/TargetGroup.md
+          - name: TaskResponse 
+            href: industryCommon/Retail/Activities/TaskResponse.md
+          - name: VisitActivity 
+            href: industryCommon/Retail/Activities/VisitActivity.md
+        - name: Asset
+          items:
+          - name: Summary
+            href: industryCommon/Retail/Asset/overview.md
+          - name: Case 
+            href: industryCommon/Retail/Asset/Case.md
+          - name: CustomerAsset 
+            href: industryCommon/Retail/Asset/CustomerAsset.md
+          - name: CustomerAssetCategory 
+            href: industryCommon/Retail/Asset/CustomerAssetCategory.md
+          - name: FunctionalLocation 
+            href: industryCommon/Retail/Asset/FunctionalLocation.md
+          - name: Product 
+            href: industryCommon/Retail/Asset/Product.md
+          - name: Visit 
+            href: industryCommon/Retail/Asset/Visit.md
+        - name: Commerce
+          items:
+          - name: Summary
+            href: industryCommon/Retail/Commerce/overview.md
+          - name: ProductBrand 
+            href: industryCommon/Retail/Commerce/ProductBrand.md
+          - name: ProductCategory 
+            href: industryCommon/Retail/Commerce/ProductCategory.md
+        - name: Common
+          items:
+          - name: Summary
+            href: industryCommon/Retail/Common/overview.md
+          - name: Account 
+            href: industryCommon/Retail/Common/Account.md
+          - name: Image 
+            href: industryCommon/Retail/Common/Image.md
+          - name: LocationUpdateRequest 
+            href: industryCommon/Retail/Common/LocationUpdateRequest.md
+          - name: OutletType 
+            href: industryCommon/Retail/Common/OutletType.md
+          - name: RetailExecutionProfile 
+            href: industryCommon/Retail/Common/RetailExecutionProfile.md
+        - name: SOAClienteling
+          items:
+          - name: Summary
+            href: industryCommon/Retail/SOAClienteling/overview.md
+          - name: BusinessUnit 
+            href: industryCommon/Retail/SOAClienteling/BusinessUnit.md
+          - name: Contact 
+            href: industryCommon/Retail/SOAClienteling/Contact.md
+          - name: CustomerDerivedBrandInsight 
+            href: industryCommon/Retail/SOAClienteling/CustomerDerivedBrandInsight.md
+          - name: CustomerDerivedCategoryInsight 
+            href: industryCommon/Retail/SOAClienteling/CustomerDerivedCategoryInsight.md
+          - name: CustomerDerivedOrderInsight 
+            href: industryCommon/Retail/SOAClienteling/CustomerDerivedOrderInsight.md
+          - name: LanguageOfPreference 
+            href: industryCommon/Retail/SOAClienteling/LanguageOfPreference.md
+          - name: LoyaltyAccount 
+            href: industryCommon/Retail/SOAClienteling/LoyaltyAccount.md
+          - name: LoyaltyAccountCreditHistory 
+            href: industryCommon/Retail/SOAClienteling/LoyaltyAccountCreditHistory.md
+          - name: LoyaltyProgram 
+            href: industryCommon/Retail/SOAClienteling/LoyaltyProgram.md
+          - name: OrderProduct 
+            href: industryCommon/Retail/SOAClienteling/OrderProduct.md
+          - name: RetailAppointment 
+            href: industryCommon/Retail/SOAClienteling/RetailAppointment.md
+          - name: RetailAppointmentType 
+            href: industryCommon/Retail/SOAClienteling/RetailAppointmentType.md
+          - name: RewardCreditHistory 
+            href: industryCommon/Retail/SOAClienteling/RewardCreditHistory.md
+          - name: Team 
+            href: industryCommon/Retail/SOAClienteling/Team.md
+          - name: User 
+            href: industryCommon/Retail/SOAClienteling/User.md
+        - name: SOACommon
+          items:
+          - name: Summary
+            href: industryCommon/Retail/SOACommon/overview.md
+          - name: ActivityCancellationReason 
+            href: industryCommon/Retail/SOACommon/ActivityCancellationReason.md
+          - name: AuditDefinition 
+            href: industryCommon/Retail/SOACommon/AuditDefinition.md
+          - name: ExecutionPlan 
+            href: industryCommon/Retail/SOACommon/ExecutionPlan.md
+          - name: Note 
+            href: industryCommon/Retail/SOACommon/Note.md
+          - name: Request 
+            href: industryCommon/Retail/SOACommon/Request.md
+          - name: RequestType 
+            href: industryCommon/Retail/SOACommon/RequestType.md
+          - name: SurveyDefinition 
+            href: industryCommon/Retail/SOACommon/SurveyDefinition.md
+          - name: TargetGroupMember 
+            href: industryCommon/Retail/SOACommon/TargetGroupMember.md
+          - name: Task 
+            href: industryCommon/Retail/SOACommon/Task.md
+          - name: TaskDefinition 
+            href: industryCommon/Retail/SOACommon/TaskDefinition.md
+          - name: TaskSetup 
+            href: industryCommon/Retail/SOACommon/TaskSetup.md
+          - name: TaskType 
+            href: industryCommon/Retail/SOACommon/TaskType.md
+          - name: Template 
+            href: industryCommon/Retail/SOACommon/Template.md
+        - name: Visits
+          items:
+          - name: Summary
+            href: industryCommon/Retail/Visits/overview.md
+          - name: VisitActivityCancellationReason 
+            href: industryCommon/Retail/Visits/VisitActivityCancellationReason.md
+          - name: VisitCancellationReason 
+            href: industryCommon/Retail/Visits/VisitCancellationReason.md
+          - name: VisitFrequency 
+            href: industryCommon/Retail/Visits/VisitFrequency.md
+          - name: VisitReschedulingReason 
+            href: industryCommon/Retail/Visits/VisitReschedulingReason.md
+          - name: VisitType 
+            href: industryCommon/Retail/Visits/VisitType.md
       - name: Microsoft Cloud for Sustainability
         items:
         - name: Carbon data model
