@@ -61,27 +61,21 @@ This is a periodic visit schedule configuration table maintained by BackOffice m
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[name](#name)|Subject / title of visit frequency|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[assignedRole](#assignedRole)|This describes the role assigned to the visit....
-E.g., Sales rep, Auditor etc.|<a href="VisitFrequency.md" target="_blank">Visit.VisitFrequency</a>|
-|[dailyRecurrence](#dailyRecurrence)|This indicates if the outlet is visited .ily.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[duration](#duration)|This is the expected approximate dura.on of the visit.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
+|[assignedRole](#assignedRole)|This describes the role assigned to the visit.E.g., Sales rep, Auditor etc.|<a href="VisitFrequency.md" target="_blank">Visit.VisitFrequency</a>|
+|[dailyRecurrence](#dailyRecurrence)|This indicates if the outlet is visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
+|[duration](#duration)|This is the expected approximate duration of the visit.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[endDate](#endDate)|End date of the periodic visit schedule.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency.a>|
-|[everyspecifieddays](#everyspecifieddays)|For daily recurrence this describes every specified day(s) the outlet to be visited.|<a hre."VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
+|[everyspecifieddays](#everyspecifieddays)|For daily recurrence this describes every specified day(s) the outlet to be visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[everyspecifiedmonths](#everyspecifiedmonths)|For monthly recurrence, this describes every specified month(s) the outlet to be vis.ed.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[everyspecifiedweeks](#everyspecifiedweeks)|For weekly recurrence, this describes every.pecified week(s) the outlet to be visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
+|[everyspecifiedweeks](#everyspecifiedweeks)|For weekly recurrence, this describes every specified week(s) the outlet to be visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[monthlyRecurrence](#monthlyRecurrence)|This indicates if the outlet is visite.mo.h..|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[preferredTime](#preferredTime)|This describes the preferred time of the visit..
-E.g., Morning, Evening, etc.|<a href="VisitFrequency.md" ta.et._.ank">Visits/VisitFre.ency</a>|
+|[preferredTime](#preferredTime)|This describes the preferred time of the visit.E.g., Morning, Evening, etc.|<a href="VisitFrequency.md" ta.et._.ank">Visits/VisitFreqency</a>|
 |[recurOn](#recurOn)|For monthly recurrence, this describes the sp.ified week of the month.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[recurrence](#recurrence)|This describes the visit recurrence..
-E.g., Daily, Weekly, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequenc./a...
-|[startDate](#startDate)|Start date of the periodic visit.chedule.|<a href="VisitFrequency.md" target="_b.nk.V.its/VisitFrequency</a>|.
+|[recurrence](#recurrence)|This describes the visit recurrence.E.g., Daily, Weekly, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency/a...
+|[startDate](#startDate)|Start date of the periodic visitschedule.|<a href="VisitFrequency.md" target="_b.nk.V.its/VisitFrequency</a>|.
 |[thedayofmonth](#thedayofmonth)|For monthly visit, this describes the specific day of the month from 1st to 31st.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[thedayofweek](#thedayofweek)|For monthly visit, this describes the specific day of the week.
-E.g., Day, Weekday, Weekend, Monday, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[visitType](#visitType)|This describes the type of visit.
-This can be anything maintained by the customer.
-E.g., Promotional visit, Quick visit, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
+|[thedayofweek](#thedayofweek)|For monthly visit, this describes the specific day of the week.E.g., Day, Weekday, Weekend, Monday, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
+|[visitType](#visitType)|This describes the type of visit and can be anything maintained by the customer. Eg., Promotional visit, Quick visit, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 
 ### <a href=#visitFrequencyId name="visitFrequencyId">visitFrequencyId</a>
 
