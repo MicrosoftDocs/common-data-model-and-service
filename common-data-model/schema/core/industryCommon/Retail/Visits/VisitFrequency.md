@@ -85,19 +85,19 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visit frequency</td></tr><tr><td>description</td><td>Unique identifier for entity instances</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msrex_visitfrequencyid</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the visitFrequencyId attribute are listed below.</summary>
+<summary>List of traits for the visitFrequencyId attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **..dataForm..big**  
   indicates.n atomic.ut multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-.
+
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-.
+
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **..identif.dBy**  
@@ -133,10 +133,10 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Created On</td></tr><tr><td>description</td><td>Date and time when the record was created.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>createdon</td></tr></table>
-..
-#### Traits..
-..
-<details>..
+
+#### Traits
+
+<details>
 <summary.ist of traits for the createdOn attribute are listed below.</summary>
 
 **is.dataFormat.date**  
@@ -173,10 +173,10 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Modified On</td></tr><tr><td>description</td><td>Date and time when the record was modified.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>modifiedon</td></tr></table>
-..
-#### Traits..
-..
-<details>..
+
+#### Traits
+
+<details>
 <summary.ist of traits for the modifiedOn attribute are listed below.</summary>
 
 **is.dataFormat.date**  
@@ -213,12 +213,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Visit Frequency</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the statecode attribute are listed below.</summary>
-.
+<summary>List of traits for the statecode attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -259,12 +259,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Visit Frequency</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the statuscode attribute are listed below.</summary>
-.
+<summary>List of traits for the statuscode attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -308,12 +308,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Import Sequence Number</td></tr><tr><td>description</td><td>Sequence number of the import that created this record.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>importsequencenumber</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the importSequenceNumber attribute are listed below.</summary>
-.
+<summary>List of traits for the importSequenceNumber attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -351,12 +351,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Record Created On</td></tr><tr><td>description</td><td>Date and time that the record was migrated.</td></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>overriddencreatedon</td></tr></table>
-..
-#### Traits..
-.
+
+#### Traits
+
 <details>
 <summary>List of traits for the overriddenCreatedOn attribute are listed below.</summary>
-..
+
 **is.dataFormat.date**  
   **means.measurement.date**  
   **..require.tLevel**  
@@ -388,12 +388,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Time Zone Rule Version Number</td></tr><tr><td>description</td><td>For internal use only.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>timezoneruleversionnumber</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the timeZoneRuleVersionNumber attribute are listed below.</summary>
-.
+<summary>List of traits for the timeZoneRuleVersionNumber attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -431,12 +431,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>UTC Conversion Time Zone Code</td></tr><tr><td>description</td><td>Time zone code that was in use when the record was created.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-1</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>utcconversiontimezonecode</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the UTCConversionTimeZoneCode attribute are listed below.</summary>
-.
+<summary>List of traits for the UTCConversionTimeZoneCode attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -474,11 +474,11 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>Subject / title of visit frequency</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_name</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the name attribute are listed below.</summary>
+<summary>List of traits for the name attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **..dataFormat.big**  
@@ -524,19 +524,19 @@ First included in: Visits/VisitFrequency (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Position</td></tr><tr><td>description</td><td>This describes the role assigned to the visit.
 E.g., Sales rep, Auditor etc.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_assignedrole</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the assignedRole attribute are listed below.</summary>
+<summary>List of traits for the assignedRole attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **..dataForm..big**  
   indicates.n atomic.ut multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-.
+
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-..
+
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.requiredAtLevel**  
@@ -576,12 +576,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Daily recurrence</td></tr><tr><td>description</td><td>This indicates if the outlet is visited daily.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_dailyrecurrence</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Every</td><td>547990000</td></tr><tr><td>en</td><td>Every Weekday</td><td>547990001</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the dailyRecurrence attribute are listed below.</summary>
-.
+<summary>List of traits for the dailyRecurrence attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -622,12 +622,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Duration</td></tr><tr><td>description</td><td>This is the expected approximate duration of the visit.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>0</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_duration</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the duration attribute are listed below.</summary>
-.
+<summary>List of traits for the duration attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -665,12 +665,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>End date</td></tr><tr><td>description</td><td>End date of the periodic visit schedule.</td></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_enddate</td></tr></table>
-..
-#### Traits..
-.
+
+#### Traits
+
 <details>
 <summary>List of traits for the endDate attribute are listed below.</summary>
-..
+
 **is.dataFormat.date**  
   **means.measurement.date**  
   **..require.tLevel**  
@@ -702,12 +702,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Every (#specified) day(s)</td></tr><tr><td>description</td><td>For daily recurrence this describes every specified day(s) the outlet to be visited.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_everyspecifieddays</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the everyspecifieddays attribute are listed below.</summary>
-.
+<summary>List of traits for the everyspecifieddays attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -745,12 +745,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Every (#specified) month(s)</td></tr><tr><td>description</td><td>For monthly recurrence, this describes every specified month(s) the outlet to be visited.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_everyspecifiedmonths</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the everyspecifiedmonths attribute are listed below.</summary>
-.
+<summary>List of traits for the everyspecifiedmonths attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -788,12 +788,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Every (#specified) week(s)</td></tr><tr><td>description</td><td>For weekly recurrence, this describes every specified week(s) the outlet to be visited.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_everyspecifiedweeks</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the everyspecifiedweeks attribute are listed below.</summary>
-.
+<summary>List of traits for the everyspecifiedweeks attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -831,12 +831,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Monthly recurrence</td></tr><tr><td>description</td><td>This indicates if the outlet is visited monthly.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_monthlyrecurrence</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Day of the week</td><td>547990000</td></tr><tr><td>en</td><td>Day of the month</td><td>547990001</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the monthlyRecurrence attribute are listed below.</summary>
-.
+<summary>List of traits for the monthlyRecurrence attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -879,12 +879,12 @@ First included in: Visits/VisitFrequency (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Preferred time</td></tr><tr><td>description</td><td>This describes the preferred time of the visit.
 E.g., Morning, Evening, etc.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_preferredtime</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Morning</td><td>547990000</td></tr><tr><td>en</td><td>Afternoon</td><td>547990001</td></tr><tr><td>en</td><td>Evening</td><td>547990002</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the preferredTime attribute are listed below.</summary>
-.
+<summary>List of traits for the preferredTime attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -926,12 +926,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recur on</td></tr><tr><td>description</td><td>For monthly recurrence, this describes the specified week of the month.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_recuron</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>1st</td><td>547990000</td></tr><tr><td>en</td><td>2nd</td><td>547990001</td></tr><tr><td>en</td><td>3rd</td><td>547990002</td></tr><tr><td>en</td><td>4th</td><td>547990003</td></tr><tr><td>en</td><td>Last</td><td>547990004</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the recurOn attribute are listed below.</summary>
-.
+<summary>List of traits for the recurOn attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -974,12 +974,12 @@ First included in: Visits/VisitFrequency (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Recurrence</td></tr><tr><td>description</td><td>This describes the visit recurrence.
 E.g., Daily, Weekly, etc.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_recurrence</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Daily</td><td>547990000</td></tr><tr><td>en</td><td>Weekly</td><td>547990001</td></tr><tr><td>en</td><td>Monthly</td><td>547990002</td></tr><tr><td>en</td><td>Once</td><td>547990003</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the recurrence attribute are listed below.</summary>
-.
+<summary>List of traits for the recurrence attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -1021,12 +1021,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Start date</td></tr><tr><td>description</td><td>Start date of the periodic visit schedule.</td></tr><tr><td>dataFormat</td><td>date</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_startdate</td></tr></table>
-..
-#### Traits..
-.
+
+#### Traits
+
 <details>
 <summary>List of traits for the startDate attribute are listed below.</summary>
-..
+
 **is.dataFormat.date**  
   **means.measurement.date**  
   **..require.tLevel**  
@@ -1058,12 +1058,12 @@ First included in: Visits/VisitFrequency (this entity)
 #### Properties
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>The day of month</td></tr><tr><td>description</td><td>For monthly visit, this describes the specific day of the month from 1st to 31st.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>maximumValue</td><td>2147483647</td></tr><tr><td>minimumValue</td><td>-2147483648</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_thedayofmonth</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the thedayofmonth attribute are listed below.</summary>
-.
+<summary>List of traits for the thedayofmonth attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the c.ability to represent values less than zero.  
@@ -1103,12 +1103,12 @@ First included in: Visits/VisitFrequency (this entity)
 
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>The day of week</td></tr><tr><td>description</td><td>For monthly visit, this describes the specific day of the week.
 E.g., Day, Weekday, Weekend, Monday, etc.</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msrex_thedayofweek</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Monday</td><td>547990000</td></tr><tr><td>en</td><td>Tuesday</td><td>547990001</td></tr><tr><td>en</td><td>Wednesday</td><td>547990002</td></tr><tr><td>en</td><td>Thursday</td><td>547990003</td></tr><tr><td>en</td><td>Friday</td><td>547990004</td></tr><tr><td>en</td><td>Saturday</td><td>547990005</td></tr><tr><td>en</td><td>Sunday</td><td>547990006</td></tr></table></td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the thedayofweek attribute are listed below.</summary>
-.
+<summary>List of traits for the thedayofweek attribute are listed below.</summary>
+
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
   indi.tes the capability to represent values less than zero.  
@@ -1154,19 +1154,19 @@ First included in: Visits/VisitFrequency (this entity)
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Visit type</td></tr><tr><td>description</td><td>This describes the type of visit.
 This can be anything maintained by the customer.
 E.g., Promotional visit, Quick visit, etc.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-..
+
 #### Traits
 
 <details>
-<summary>List of t.its for the visitType attribute are listed below.</summary>
+<summary>List of traits for the visitType attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **..dataForm..big**  
   indicates.n atomic.ut multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-.
+
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-..
+
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.requiredAtLevel**  
