@@ -64,15 +64,15 @@ This is a periodic visit schedule configuration table maintained by BackOffice m
 |[assignedRole](#assignedRole)|This describes the role assigned to the visit.E.g., Sales rep, Auditor etc.|<a href="VisitFrequency.md" target="_blank">Visit.VisitFrequency</a>|
 |[dailyRecurrence](#dailyRecurrence)|This indicates if the outlet is visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[duration](#duration)|This is the expected approximate duration of the visit.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[endDate](#endDate)|End date of the periodic visit schedule.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency.a>|
+|[endDate](#endDate)|End date of the periodic visit schedule.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[everyspecifieddays](#everyspecifieddays)|For daily recurrence this describes every specified day(s) the outlet to be visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[everyspecifiedmonths](#everyspecifiedmonths)|For monthly recurrence, this describes every specified month(s) the outlet to be vis.ed.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[everyspecifiedweeks](#everyspecifiedweeks)|For weekly recurrence, this describes every specified week(s) the outlet to be visited.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[monthlyRecurrence](#monthlyRecurrence)|This indicates if the outlet is visited monthly.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
-|[preferredTime](#preferredTime)|This describes the preferred time of the visit.E.g., Morning, Evening, etc.|<a href="VisitFrequency.md" ta.et._.ank">Visits/VisitFrequency</a>|
+|[preferredTime](#preferredTime)|This describes the preferred time of the visit.E.g., Morning, Evening, etc.|<a href="VisitFrequency.md" target=_blank">Visits/VisitFrequency</a>|
 |[recurOn](#recurOn)|For monthly recurrence, this describes the specified week of the month.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[recurrence](#recurrence)|This describes the visit recurrence.E.g., Daily, Weekly, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>
-|[startDate](#startDate)|Start date of the periodic visitschedule.|<a href="VisitFrequency.md" target="_b.nk.V.its/VisitFrequency</a>|
+|[startDate](#startDate)|Start date of the periodic visitschedule.|<a href="VisitFrequency.md" target="_blank.Visits/VisitFrequency</a>|
 |[thedayofmonth](#thedayofmonth)|For monthly visit, this describes the specific day of the month from 1st to 31st.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[thedayofweek](#thedayofweek)|For monthly visit, this describes the specific day of the week.E.g., Day, Weekday, Weekend, Monday, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
 |[visitType](#visitType)|This describes the type of visit and can be anything maintained by the customer. Eg., Promotional visit, Quick visit, etc.|<a href="VisitFrequency.md" target="_blank">Visits/VisitFrequency</a>|
@@ -113,7 +113,7 @@ First included in: Visits/VisitFrequency (this entity)
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Visit frequency</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
-  the un.ue name th. identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_visitfrequencyid"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_visitfrequencyid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"1"</td><td>integer</td><td></td></tr></table>
@@ -121,7 +121,7 @@ First included in: Visits/VisitFrequency (this entity)
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fund.ental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
@@ -156,7 +156,7 @@ First included in: Visits/VisitFrequency (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the un.ue name th. identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"createdon"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"2"</td><td>integer</td><td></td></tr></table>
@@ -196,7 +196,7 @@ First included in: Visits/VisitFrequency (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the un.ue name th. identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"modifiedon"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"4"</td><td>integer</td><td></td></tr></table>
@@ -316,7 +316,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -396,7 +396,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -439,7 +439,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -503,7 +503,7 @@ First included in: Visits/VisitFrequency (this entity)
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the un.ue name th. identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_name"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_name"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"34"</td><td>integer</td><td></td></tr></table>
@@ -556,7 +556,7 @@ E.g., Sales rep, Auditor etc.</td></tr></table></td><td>entity</td><td>a referen
   The attribute value may be set to NULL.  
 
 **is.CDS.sourceNamed**  
-  the un.ue name th. identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_assignedrole"</td><td>string</td><td></td></tr></table>
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msrex_assignedrole"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"35"</td><td>integer</td><td></td></tr></table>
@@ -630,7 +630,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -710,7 +710,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -753,7 +753,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -796,7 +796,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -1063,7 +1063,7 @@ First included in: Visits/VisitFrequency (this entity)
 
 **is.dataFormat.integer**  
   **is.dataFormat.signed**  
- indicates the c.ability to represent values less than zero.  
+ indicates the capability to represent values less than zero.  
 
 **is.dataFormat.numeric**  
   **is.requiredAtLevel**  
@@ -1087,7 +1087,7 @@ First included in: Visits/VisitFrequency (this entity)
 **is.CDS.ordered**  
   the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"54"</td><td>integer</td><td></td></tr></table>
 
-**is.dataFormat.integer**  .
+**is.dataFormat.integer**  
   </details>
 
 ### <a href=#thedayofweek name="thedayofweek">thedayofweek</a>
