@@ -1,6 +1,6 @@
 ---
-title: Overview of Common - Common Data Model | Microsoft Docs
-description: Common is a folder that contains standard entities related to the Common Data Model.
+title: overview of Common - Common Data Model | Microsoft Docs
+description: Common is a folder, which contains the standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe

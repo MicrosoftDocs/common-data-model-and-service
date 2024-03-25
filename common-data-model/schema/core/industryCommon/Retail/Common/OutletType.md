@@ -1,7 +1,6 @@
 ---
 title: OutletType in Common - Common Data Model | Microsoft Docs
-description: This table contains the different types of an outlet. Examples are, 
-Supermarket, Bar, Restaurant etc. 
+description: This table contains the different types of an outlet such as Supermarket, Bar,Restaurant etc. 
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
