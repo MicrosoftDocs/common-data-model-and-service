@@ -1,5 +1,5 @@
 ---
-title: BusinessUnit in Store Operations Assist Clienteling - Common Data Model | Microsoft Docs
+title: BusinessUnit in StoreOperationsAssistClienteling - Common Data Model | Microsoft Docs
 description: Business, division, or department in the Microsoft Dynamics 365 database.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/18/2024
 ms.author: anbichse
 ---
 
-# Business Unit in Store Operations Assist Clienteling
+# Business Unit in StoreOperationsAssistClienteling
 
 Business, division, or department in the Microsoft Dynamics 365 database.  
   
