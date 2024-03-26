@@ -1,5 +1,5 @@
 ---
-title: overview of Common - Common Data Model | Microsoft Docs - Retail
+title: overview of Common - Common Data Model in Microsoft Docs - Retail
 description: Common is a folder, which contains the standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 3/1/2024
 ms.author: anbichse
 ---
 
-# Overview of Common for Retail
+# Overview of Common CDM for Retail 
 
 Microsoft Retail Common CDM entity definitions  
 

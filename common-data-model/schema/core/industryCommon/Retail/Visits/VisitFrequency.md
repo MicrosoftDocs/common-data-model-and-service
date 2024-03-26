@@ -13,7 +13,7 @@ ms.author: anbichse
 
 This is a periodic visit schedule configuration table maintained by BackOffice manager. This tells how frequently the store/outlet needs to be visited by sales rep.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Visits/VisitFrequency.cdm.json" target="_blank">GitHub</a>.  
+Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Retail/Visits/VisitFrequency.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -137,7 +137,7 @@ First included in: Visits/VisitFrequency (this entity)
 #### Traits
 
 <details>
-<summary.ist of traits for the createdOn attribute are listed below.</summary>
+<summary>ist of traits for the createdOn attribute are listed below.</summary>
 
 **is.dataFormat.date**  
   **means.measurement.date**  
@@ -177,7 +177,7 @@ First included in: Visits/VisitFrequency (this entity)
 #### Traits
 
 <details>
-<summary.ist of traits for the modifiedOn attribute are listed below.</summary>
+<summary>ist of traits for the modifiedOn attribute are listed below.</summary>
 
 **is.dataFormat.date**  
   **means.measurement.date**  
