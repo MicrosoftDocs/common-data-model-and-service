@@ -45,7 +45,7 @@ ms.author: cdmditeam
 
 ### <a href=#MembersCount name="MembersCount">MembersCount</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -66,7 +66,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#SegmentId name="SegmentId">SegmentId</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -92,7 +92,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -150,7 +150,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -225,7 +225,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged (this entity)  
 
 #### Properties
 

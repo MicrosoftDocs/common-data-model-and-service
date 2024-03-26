@@ -56,7 +56,7 @@ ms.author: cdmditeam
 
 ### <a href=#EntityType name="EntityType">EntityType</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -82,7 +82,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#ResponseType name="ResponseType">ResponseType</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -108,7 +108,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#TriggerKeyword name="TriggerKeyword">TriggerKeyword</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -134,7 +134,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#WorkflowId name="WorkflowId">WorkflowId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#ActivityTypeId name="ActivityTypeId">ActivityTypeId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -188,7 +188,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -268,7 +268,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -324,7 +324,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -350,7 +350,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -410,7 +410,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -442,7 +442,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -494,7 +494,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -543,7 +543,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 
@@ -585,7 +585,7 @@ First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/customchannelresponse \(this entity\)  
+First included in: CustomerInsightsJourneys/customchannelresponse (this entity)  
 
 #### Properties
 

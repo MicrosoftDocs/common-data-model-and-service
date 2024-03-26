@@ -47,7 +47,7 @@ ms.author: cdmditeam
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -75,7 +75,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -101,7 +101,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -127,7 +127,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -179,7 +179,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -205,7 +205,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -231,7 +231,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -259,7 +259,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -280,7 +280,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 
@@ -322,7 +322,7 @@ First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this e
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/sessionregistrationcanceled \(this entity\)  
+First included in: CustomerInsightsJourneys/sessionregistrationcanceled (this entity)  
 
 #### Properties
 

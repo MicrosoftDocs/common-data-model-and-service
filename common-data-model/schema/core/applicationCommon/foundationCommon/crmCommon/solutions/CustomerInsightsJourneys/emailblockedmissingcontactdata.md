@@ -66,7 +66,7 @@ ms.author: cdmditeam
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -94,7 +94,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -150,7 +150,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -230,7 +230,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -275,7 +275,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#Missingdata name="Missingdata">Missingdata</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#ActivityExpiryTime name="ActivityExpiryTime">ActivityExpiryTime</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -322,7 +322,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -348,7 +348,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#Details name="Details">Details</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -400,7 +400,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#Category name="Category">Category</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -426,7 +426,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -452,7 +452,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -478,7 +478,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -504,7 +504,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -530,7 +530,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -562,7 +562,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -579,7 +579,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -633,7 +633,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -665,7 +665,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -697,7 +697,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -723,7 +723,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -749,7 +749,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -777,7 +777,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -798,7 +798,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 
@@ -840,7 +840,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(thi
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedmissingcontactdata (this entity)  
 
 #### Properties
 

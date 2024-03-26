@@ -53,7 +53,7 @@ ms.author: cdmditeam
 
 ### <a href=#Platform name="Platform">Platform</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -79,7 +79,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#DeviceId name="DeviceId">DeviceId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -107,7 +107,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -234,7 +234,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -320,7 +320,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -352,7 +352,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -404,7 +404,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 
@@ -495,7 +495,7 @@ First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entit
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationnotsent \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationnotsent (this entity)  
 
 #### Properties
 

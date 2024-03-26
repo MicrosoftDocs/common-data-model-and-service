@@ -53,7 +53,7 @@ ms.author: cdmditeam
 
 ### <a href=#NextActivityId name="NextActivityId">NextActivityId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -81,7 +81,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#WorkflowId name="WorkflowId">WorkflowId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -109,7 +109,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -189,7 +189,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -245,7 +245,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -271,7 +271,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -363,7 +363,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -389,7 +389,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -443,7 +443,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -485,7 +485,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(t
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed \(this entity\)  
+First included in: CustomerInsightsJourneys/splitteractivitycontactprocessed (this entity)  
 
 #### Properties
 

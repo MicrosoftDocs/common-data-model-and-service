@@ -52,7 +52,7 @@ ms.author: cdmditeam
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -78,7 +78,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#FormsProSurveyIdentifier name="FormsProSurveyIdentifier">FormsProSurveyIdentifier</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -104,7 +104,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#QuestionResponse name="QuestionResponse">QuestionResponse</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -130,7 +130,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#SurveyId name="SurveyId">SurveyId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#SurveyQuestionId name="SurveyQuestionId">SurveyQuestionId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#SurveyQuestionResponseId name="SurveyQuestionResponseId">SurveyQuestionResponseId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -214,7 +214,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -240,7 +240,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -266,7 +266,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -283,7 +283,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -367,7 +367,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -395,7 +395,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(thi
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyquestionanswered (this entity)  
 
 #### Properties
 

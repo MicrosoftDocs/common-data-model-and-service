@@ -56,7 +56,7 @@ ms.author: cdmditeam
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -82,7 +82,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -108,7 +108,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#Details name="Details">Details</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -134,7 +134,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#Category name="Category">Category</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -212,7 +212,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -238,7 +238,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -313,7 +313,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -367,7 +367,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -399,7 +399,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -483,7 +483,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -532,7 +532,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -553,7 +553,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 
@@ -574,7 +574,7 @@ First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(t
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedinvalidsenderaddress (this entity)  
 
 #### Properties
 

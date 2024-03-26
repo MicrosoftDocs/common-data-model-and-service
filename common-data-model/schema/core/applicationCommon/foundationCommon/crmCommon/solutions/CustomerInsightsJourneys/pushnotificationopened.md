@@ -52,7 +52,7 @@ ms.author: cdmditeam
 
 ### <a href=#Platform name="Platform">Platform</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -78,7 +78,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#DeviceId name="DeviceId">DeviceId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -106,7 +106,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -132,7 +132,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -190,7 +190,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -207,7 +207,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -261,7 +261,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -325,7 +325,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -351,7 +351,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -405,7 +405,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -426,7 +426,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -447,7 +447,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/pushnotificationopened \(this entity\)  
+First included in: CustomerInsightsJourneys/pushnotificationopened (this entity)  
 
 #### Properties
 

@@ -57,7 +57,7 @@ ms.author: cdmditeam
 
 ### <a href=#JourneyStatus name="JourneyStatus">JourneyStatus</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -83,7 +83,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#Reason name="Reason">Reason</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -109,7 +109,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#DropoffId name="DropoffId">DropoffId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#ReasonDetail name="ReasonDetail">ReasonDetail</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#JourneyVersion name="JourneyVersion">JourneyVersion</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#SegmentId name="SegmentId">SegmentId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#SegmentName name="SegmentName">SegmentName</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -325,7 +325,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -396,7 +396,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -428,7 +428,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -486,7 +486,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -540,7 +540,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -582,7 +582,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: CustomerInsightsJourneys/journeyevent \(this entity\)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/journeyevent \(this entity\)  
+First included in: CustomerInsightsJourneys/journeyevent (this entity)  
 
 #### Properties
 

@@ -57,7 +57,7 @@ ms.author: cdmditeam
 
 ### <a href=#Platform name="Platform">Platform</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -83,7 +83,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#DeviceId name="DeviceId">DeviceId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -111,7 +111,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#LinkName name="LinkName">LinkName</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#TargetUrl name="TargetUrl">TargetUrl</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#IpAddress name="IpAddress">IpAddress</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -189,7 +189,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#UserAgent name="UserAgent">UserAgent</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -215,7 +215,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#BotDetectionReason name="BotDetectionReason">BotDetectionReason</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -325,7 +325,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -396,7 +396,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -428,7 +428,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -460,7 +460,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -486,7 +486,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -540,7 +540,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -582,7 +582,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(thi
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked \(this entity\)  
+First included in: CustomerInsightsJourneys/botpushnotificationlinkclicked (this entity)  
 
 #### Properties
 

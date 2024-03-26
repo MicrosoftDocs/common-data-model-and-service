@@ -65,7 +65,7 @@ ms.author: cdmditeam
 
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -93,7 +93,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#City name="City">City</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -145,7 +145,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -171,7 +171,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#DeviceBrand name="DeviceBrand">DeviceBrand</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#DeviceModel name="DeviceModel">DeviceModel</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -223,7 +223,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#DeviceType name="DeviceType">DeviceType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -277,7 +277,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -303,7 +303,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -329,7 +329,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#State name="State">State</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -355,7 +355,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -491,7 +491,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -545,7 +545,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -627,7 +627,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -659,7 +659,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -691,7 +691,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -717,7 +717,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -792,7 +792,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 
@@ -834,7 +834,7 @@ First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entit
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailsubscriptionsubmit \(this entity\)  
+First included in: CustomerInsightsJourneys/emailsubscriptionsubmit (this entity)  
 
 #### Properties
 

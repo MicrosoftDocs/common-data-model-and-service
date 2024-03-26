@@ -79,7 +79,7 @@ ms.author: cdmditeam
 
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -107,7 +107,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#City name="City">City</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -185,7 +185,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -213,7 +213,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -267,7 +267,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -319,7 +319,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#State name="State">State</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#VisitorAnonymousStatus name="VisitorAnonymousStatus">VisitorAnonymousStatus</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#VisitorId name="VisitorId">VisitorId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -397,7 +397,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -442,7 +442,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#SearchEngineName name="SearchEngineName">SearchEngineName</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -468,7 +468,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#SearchPhrase name="SearchPhrase">SearchPhrase</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -494,7 +494,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -537,7 +537,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -617,7 +617,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#Details name="Details">Details</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -643,7 +643,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#VisitDuration name="VisitDuration">VisitDuration</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -669,7 +669,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#VisitorReturningStatus name="VisitorReturningStatus">VisitorReturningStatus</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -721,7 +721,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#EmailDomain name="EmailDomain">EmailDomain</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -747,7 +747,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -775,7 +775,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -803,7 +803,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -829,7 +829,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -857,7 +857,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -883,7 +883,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -909,7 +909,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -937,7 +937,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -965,7 +965,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -991,7 +991,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1023,7 +1023,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1055,7 +1055,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1081,7 +1081,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1107,7 +1107,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1135,7 +1135,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1156,7 +1156,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1177,7 +1177,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 
@@ -1198,7 +1198,7 @@ First included in: CustomerInsightsJourneys/emailopened \(this entity\)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailopened \(this entity\)  
+First included in: CustomerInsightsJourneys/emailopened (this entity)  
 
 #### Properties
 

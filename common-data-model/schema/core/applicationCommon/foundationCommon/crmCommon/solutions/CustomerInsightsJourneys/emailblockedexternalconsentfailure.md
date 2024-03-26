@@ -63,7 +63,7 @@ ms.author: cdmditeam
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -91,7 +91,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -147,7 +147,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -173,7 +173,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -227,7 +227,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#AggregatedSendingId name="AggregatedSendingId">AggregatedSendingId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -253,7 +253,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -279,7 +279,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#BlockedReason name="BlockedReason">BlockedReason</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -305,7 +305,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#Details name="Details">Details</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#Category name="Category">Category</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -357,7 +357,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -409,7 +409,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -435,7 +435,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -493,7 +493,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -538,7 +538,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -564,7 +564,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -628,7 +628,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -654,7 +654,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -680,7 +680,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -708,7 +708,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -729,7 +729,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -750,7 +750,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 
@@ -771,7 +771,7 @@ First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure \(this entity\)  
+First included in: CustomerInsightsJourneys/emailblockedexternalconsentfailure (this entity)  
 
 #### Properties
 

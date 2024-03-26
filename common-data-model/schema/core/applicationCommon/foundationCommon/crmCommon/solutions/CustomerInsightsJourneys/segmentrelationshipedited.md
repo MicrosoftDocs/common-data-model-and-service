@@ -75,7 +75,7 @@ ms.author: cdmditeam
 
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -103,7 +103,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#City name="City">City</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -181,7 +181,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -237,7 +237,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -263,7 +263,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -289,7 +289,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#RelationshipOperatorAction name="RelationshipOperatorAction">RelationshipOperatorAction</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#Result name="Result">Result</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#SearchEngineName name="SearchEngineName">SearchEngineName</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -367,7 +367,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#SearchPhrase name="SearchPhrase">SearchPhrase</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -393,7 +393,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#SegmentId name="SegmentId">SegmentId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -447,7 +447,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#State name="State">State</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#VisitDuration name="VisitDuration">VisitDuration</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -499,7 +499,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#VisitorAnonymousStatus name="VisitorAnonymousStatus">VisitorAnonymousStatus</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#VisitorId name="VisitorId">VisitorId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#VisitorReturningStatus name="VisitorReturningStatus">VisitorReturningStatus</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -577,7 +577,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -594,7 +594,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -620,7 +620,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#EmailDomain name="EmailDomain">EmailDomain</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -674,7 +674,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -728,7 +728,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -756,7 +756,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -808,7 +808,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -836,7 +836,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -864,7 +864,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -890,7 +890,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -954,7 +954,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -980,7 +980,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -1006,7 +1006,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -1034,7 +1034,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -1055,7 +1055,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -1076,7 +1076,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 
@@ -1097,7 +1097,7 @@ First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this ent
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/segmentrelationshipedited \(this entity\)  
+First included in: CustomerInsightsJourneys/segmentrelationshipedited (this entity)  
 
 #### Properties
 

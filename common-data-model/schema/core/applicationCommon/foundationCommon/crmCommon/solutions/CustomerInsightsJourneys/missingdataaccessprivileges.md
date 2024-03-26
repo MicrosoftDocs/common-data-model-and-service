@@ -54,7 +54,7 @@ ms.author: cdmditeam
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -82,7 +82,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -110,7 +110,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -136,7 +136,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -190,7 +190,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -216,7 +216,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -272,7 +272,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -326,7 +326,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -358,7 +358,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -442,7 +442,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -491,7 +491,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -512,7 +512,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 
@@ -533,7 +533,7 @@ First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this e
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/missingdataaccessprivileges \(this entity\)  
+First included in: CustomerInsightsJourneys/missingdataaccessprivileges (this entity)  
 
 #### Properties
 

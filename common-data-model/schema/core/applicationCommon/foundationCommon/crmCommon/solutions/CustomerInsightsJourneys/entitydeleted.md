@@ -44,7 +44,7 @@ ms.author: cdmditeam
 
 ### <a href=#DeletedEntityId name="DeletedEntityId">DeletedEntityId</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -72,7 +72,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#DeletedEntityType name="DeletedEntityType">DeletedEntityType</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -98,7 +98,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -150,7 +150,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -178,7 +178,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -199,7 +199,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -220,7 +220,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/entitydeleted \(this entity\)  
+First included in: CustomerInsightsJourneys/entitydeleted (this entity)  
 
 #### Properties
 

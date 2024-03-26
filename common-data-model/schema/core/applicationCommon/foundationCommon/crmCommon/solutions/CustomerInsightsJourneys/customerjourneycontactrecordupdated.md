@@ -53,7 +53,7 @@ ms.author: cdmditeam
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -70,7 +70,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#WorkflowId name="WorkflowId">WorkflowId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -98,7 +98,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -126,7 +126,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -152,7 +152,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -178,7 +178,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -234,7 +234,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -260,7 +260,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -320,7 +320,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -352,7 +352,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -404,7 +404,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 
@@ -495,7 +495,7 @@ First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated 
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated \(this entity\)  
+First included in: CustomerInsightsJourneys/customerjourneycontactrecordupdated (this entity)  
 
 #### Properties
 

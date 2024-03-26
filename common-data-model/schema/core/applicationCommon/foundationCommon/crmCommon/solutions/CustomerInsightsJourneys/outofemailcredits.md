@@ -57,7 +57,7 @@ ms.author: cdmditeam
 
 ### <a href=#AggregatedSendingId name="AggregatedSendingId">AggregatedSendingId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -83,7 +83,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -100,7 +100,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -128,7 +128,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -210,7 +210,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -238,7 +238,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -318,7 +318,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -346,7 +346,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -400,7 +400,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -490,7 +490,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -516,7 +516,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -544,7 +544,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -586,7 +586,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/outofemailcredits \(this entity\)  
+First included in: CustomerInsightsJourneys/outofemailcredits (this entity)  
 
 #### Properties
 

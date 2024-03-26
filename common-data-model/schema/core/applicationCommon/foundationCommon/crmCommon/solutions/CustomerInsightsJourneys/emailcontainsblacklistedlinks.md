@@ -55,7 +55,7 @@ ms.author: cdmditeam
 
 ### <a href=#BlacklistedLink name="BlacklistedLink">BlacklistedLink</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -81,7 +81,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -109,7 +109,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -137,7 +137,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -191,7 +191,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -217,7 +217,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -271,7 +271,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -325,7 +325,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -385,7 +385,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -417,7 +417,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -443,7 +443,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -497,7 +497,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -518,7 +518,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -539,7 +539,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
@@ -560,7 +560,7 @@ First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks \(this entity\)  
+First included in: CustomerInsightsJourneys/emailcontainsblacklistedlinks (this entity)  
 
 #### Properties
 
