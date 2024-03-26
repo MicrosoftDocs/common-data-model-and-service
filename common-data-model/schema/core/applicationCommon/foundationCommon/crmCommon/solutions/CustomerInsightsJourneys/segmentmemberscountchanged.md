@@ -5,8 +5,8 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/14/2024
-ms.author: anbichse
+ms.date: 3/26/2024
+ms.author: cdmditeam
 ---
 
 # SegmentMembersCountChanged in CustomerInsightsJourneys
@@ -32,14 +32,121 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
-|[OrganizationId](#OrganizationId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[MembersCount](#MembersCount)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[SegmentId](#SegmentId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+|[BusinessUnitId](#BusinessUnitId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+|[OrganizationId](#OrganizationId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[Timestamp](#Timestamp)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[Version](#Version)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
 |[SourceSystem](#SourceSystem)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
-|[BusinessUnitId](#BusinessUnitId)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+|[InteractionType](#InteractionType)||<a href="segmentmemberscountchanged.md" target="_blank">CustomerInsightsJourneys/segmentmemberscountchanged</a>|
+
+### <a href=#MembersCount name="MembersCount">MembersCount</a>
+
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MembersCount attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.integer\*\*  
+  \*\*is\.dataFormat\.signed\*\*  
+  indicates the capability to represent values less than zero.  
+
+\*\*is\.dataFormat\.numeric\*\*  
+  \*\*is\.dataFormat\.integer\*\*  
+  </details>
+
+### <a href=#SegmentId name="SegmentId">SegmentId</a>
+
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SegmentId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
+
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the BusinessUnitId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*means\.identity\.entityId\*\*  
+  \*\*is\.linkedEntity\.identifier\*\*  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
+
+First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IdempotencyId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
@@ -79,55 +186,6 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 
 <details>
 <summary>List of traits for the OrganizationId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#MembersCount name="MembersCount">MembersCount</a>
-
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the MembersCount attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
-  indicates the capability to represent values less than zero.  
-
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*is\.dataFormat\.integer\*\*  
-  </details>
-
-### <a href=#SegmentId name="SegmentId">SegmentId</a>
-
-First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the SegmentId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -207,18 +265,18 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
   \*\*is\.dataFormat\.integer\*\*  
   </details>
 
-### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
+### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
 First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the BusinessUnitId attribute are listed below.</summary>
+<summary>List of traits for the InteractionType attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -227,9 +285,7 @@ First included in: CustomerInsightsJourneys/segmentmemberscountchanged \(this en
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
+\*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 

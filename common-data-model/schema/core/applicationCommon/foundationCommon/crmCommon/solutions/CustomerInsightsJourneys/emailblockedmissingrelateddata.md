@@ -5,8 +5,8 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/14/2024
-ms.author: anbichse
+ms.date: 3/26/2024
+ms.author: cdmditeam
 ---
 
 # EmailBlockedMissingRelatedData in CustomerInsightsJourneys
@@ -32,11 +32,11 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
+|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[EmailAddressUsed](#EmailAddressUsed)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[AccountId](#AccountId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[ActivityId](#ActivityId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[ContactId](#ContactId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[InteractionType](#InteractionType)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[SendingId](#SendingId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[UsageType](#UsageType)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[BlockedReason](#BlockedReason)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
@@ -44,22 +44,52 @@ ms.author: anbichse
 |[Category](#Category)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[IsSmartScheduled](#IsSmartScheduled)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[SchedulerId](#SchedulerId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[EntityId](#EntityId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[EntityName](#EntityName)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[MessageId](#MessageId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[ActivityExpiryTime](#ActivityExpiryTime)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[MessageVariationName](#MessageVariationName)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[MessageVariationIndexes](#MessageVariationIndexes)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[ProfileId](#ProfileId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[ProfileType](#ProfileType)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[MessageId](#MessageId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[JourneyRunId](#JourneyRunId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[JourneyActionId](#JourneyActionId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[BusinessUnitId](#BusinessUnitId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[OrganizationId](#OrganizationId)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[Timestamp](#Timestamp)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[Version](#Version)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
 |[SourceSystem](#SourceSystem)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+|[InteractionType](#InteractionType)||<a href="emailblockedmissingrelateddata.md" target="_blank">CustomerInsightsJourneys/emailblockedmissingrelateddata</a>|
+
+### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
+
+First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
 
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
@@ -149,40 +179,12 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ContactId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#InteractionType name="InteractionType">InteractionType</a>
-
-First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
-
-#### Properties
-
 <table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the InteractionType attribute are listed below.</summary>
+<summary>List of traits for the ContactId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -374,35 +376,28 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 
 </details>
 
-### <a href=#EntityId name="EntityId">EntityId</a>
+### <a href=#ActivityExpiryTime name="ActivityExpiryTime">ActivityExpiryTime</a>
 
 First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the EntityId attribute are listed below.</summary>
+<summary>List of traits for the ActivityExpiryTime attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+\*\*is\.dataFormat\.date\*\*  
+  \*\*means\.measurement\.date\*\*  
+  \*\*is\.dataFormat\.time\*\*  
+  \*\*means\.measurement\.time\*\*  
+  \*\*is\.dataFormat\.time\*\*  
+  \*\*is\.dataFormat\.date\*\*  
+  </details>
 
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#EntityName name="EntityName">EntityName</a>
+### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
 First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
 
@@ -413,7 +408,85 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 #### Traits
 
 <details>
-<summary>List of traits for the EntityName attribute are listed below.</summary>
+<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+
+First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ProfileId name="ProfileId">ProfileId</a>
+
+First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProfileId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ProfileType name="ProfileType">ProfileType</a>
+
+First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProfileType attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -477,18 +550,18 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
   \*\*is\.dataFormat\.boolean\*\*  
   </details>
 
-### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
+### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+<summary>List of traits for the JourneyRunId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -497,13 +570,15 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
 
@@ -514,7 +589,7 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+<summary>List of traits for the JourneyActionId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -561,90 +636,6 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 
 </details>
 
-### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
-
-First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
-
-First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JourneyRunId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
-
-First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JourneyActionId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
@@ -668,10 +659,36 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
+
+First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IdempotencyId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -793,3 +810,29 @@ First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(thi
 \*\*is\.dataFormat\.numeric\*\*  
   \*\*is\.dataFormat\.integer\*\*  
   </details>
+
+### <a href=#InteractionType name="InteractionType">InteractionType</a>
+
+First included in: CustomerInsightsJourneys/emailblockedmissingrelateddata \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InteractionType attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

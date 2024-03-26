@@ -1,5 +1,5 @@
 ---
-title: EmailFeedbackLoop in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
+title: BotSmsLinkClicked in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 3/26/2024
 ms.author: cdmditeam
 ---
 
-# EmailFeedbackLoop in CustomerInsightsJourneys
+# BotSmsLinkClicked in CustomerInsightsJourneys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/emailfeedbackloop.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/botsmslinkclicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,124 +32,32 @@ ms.author: cdmditeam
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[AccountId](#AccountId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[ActivityId](#ActivityId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[ContactId](#ContactId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[LeadId](#LeadId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[SendingId](#SendingId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[UsageType](#UsageType)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[EmailAddressUsed](#EmailAddressUsed)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[EmailDomain](#EmailDomain)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[ActivityExpiryTime](#ActivityExpiryTime)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[IsSmartScheduled](#IsSmartScheduled)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[SchedulerId](#SchedulerId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[BounceCategory](#BounceCategory)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[MessageVariationName](#MessageVariationName)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[MessageVariationIndexes](#MessageVariationIndexes)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[ProfileId](#ProfileId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[ProfileType](#ProfileType)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[MessageId](#MessageId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[JourneyRunId](#JourneyRunId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[JourneyActionId](#JourneyActionId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[BusinessUnitId](#BusinessUnitId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[IdempotencyId](#IdempotencyId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[OrganizationId](#OrganizationId)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[Timestamp](#Timestamp)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[Version](#Version)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[SourceSystem](#SourceSystem)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
-|[InteractionType](#InteractionType)||<a href="emailfeedbackloop.md" target="_blank">CustomerInsightsJourneys/emailfeedbackloop</a>|
+|[Country](#Country)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[RecipientPhoneNumber](#RecipientPhoneNumber)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[TargetUrl](#TargetUrl)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[LinkName](#LinkName)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[IpAddress](#IpAddress)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[UserAgent](#UserAgent)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[BotDetectionReason](#BotDetectionReason)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[ProfileId](#ProfileId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[ProfileType](#ProfileType)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[MessageId](#MessageId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[JourneyRunId](#JourneyRunId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[JourneyActionId](#JourneyActionId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[CustomerJourneyId](#CustomerJourneyId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[BusinessUnitId](#BusinessUnitId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[OrganizationId](#OrganizationId)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[Timestamp](#Timestamp)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[Version](#Version)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[SourceSystem](#SourceSystem)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
+|[InteractionType](#InteractionType)||<a href="botsmslinkclicked.md" target="_blank">CustomerInsightsJourneys/botsmslinkclicked</a>|
 
-### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
+### <a href=#Country name="Country">Country</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#AccountId name="AccountId">AccountId</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the AccountId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#ActivityId name="ActivityId">ActivityId</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ActivityId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#ContactId name="ContactId">ContactId</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -158,7 +66,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the ContactId attribute are listed below.</summary>
+<summary>List of traits for the Country attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -173,65 +81,9 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 </details>
 
-### <a href=#LeadId name="LeadId">LeadId</a>
+### <a href=#RecipientPhoneNumber name="RecipientPhoneNumber">RecipientPhoneNumber</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the LeadId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#SendingId name="SendingId">SendingId</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the SendingId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#UsageType name="UsageType">UsageType</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -240,7 +92,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the UsageType attribute are listed below.</summary>
+<summary>List of traits for the RecipientPhoneNumber attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -255,9 +107,9 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 </details>
 
-### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
+### <a href=#TargetUrl name="TargetUrl">TargetUrl</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -266,7 +118,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the EmailAddressUsed attribute are listed below.</summary>
+<summary>List of traits for the TargetUrl attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -281,9 +133,9 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 </details>
 
-### <a href=#EmailDomain name="EmailDomain">EmailDomain</a>
+### <a href=#LinkName name="LinkName">LinkName</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -292,7 +144,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the EmailDomain attribute are listed below.</summary>
+<summary>List of traits for the LinkName attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -307,75 +159,9 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 </details>
 
-### <a href=#ActivityExpiryTime name="ActivityExpiryTime">ActivityExpiryTime</a>
+### <a href=#IpAddress name="IpAddress">IpAddress</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>dateTime</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ActivityExpiryTime attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.date\*\*  
-  \*\*means\.measurement\.date\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*means\.measurement\.time\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*is\.dataFormat\.date\*\*  
-  </details>
-
-### <a href=#IsSmartScheduled name="IsSmartScheduled">IsSmartScheduled</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>boolean</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the IsSmartScheduled attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.boolean\*\*  
-  \*\*is\.dataFormat\.boolean\*\*  
-  </details>
-
-### <a href=#SchedulerId name="SchedulerId">SchedulerId</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the SchedulerId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#BounceCategory name="BounceCategory">BounceCategory</a>
-
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -384,7 +170,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the BounceCategory attribute are listed below.</summary>
+<summary>List of traits for the IpAddress attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -399,9 +185,9 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 </details>
 
-### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
+### <a href=#UserAgent name="UserAgent">UserAgent</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -410,7 +196,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+<summary>List of traits for the UserAgent attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -425,9 +211,9 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 </details>
 
-### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+### <a href=#BotDetectionReason name="BotDetectionReason">BotDetectionReason</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -436,7 +222,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+<summary>List of traits for the BotDetectionReason attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -453,7 +239,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -479,7 +265,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -505,7 +291,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -537,7 +323,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -554,7 +340,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -582,7 +368,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -608,7 +394,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -640,7 +426,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -672,7 +458,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -698,7 +484,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -724,7 +510,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -752,7 +538,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -773,7 +559,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -794,7 +580,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 
@@ -815,7 +601,7 @@ First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailfeedbackloop \(this entity\)  
+First included in: CustomerInsightsJourneys/botsmslinkclicked \(this entity\)  
 
 #### Properties
 

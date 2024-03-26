@@ -5,8 +5,8 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/14/2024
-ms.author: anbichse
+ms.date: 3/26/2024
+ms.author: cdmditeam
 ---
 
 # EmailSoftBounced in CustomerInsightsJourneys
@@ -32,11 +32,11 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
+|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[AccountId](#AccountId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[ActivityId](#ActivityId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[ContactId](#ContactId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[EmailDomain](#EmailDomain)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[InteractionType](#InteractionType)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[RemoteBounce](#RemoteBounce)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[SendingId](#SendingId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[UsageType](#UsageType)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
@@ -45,25 +45,54 @@ ms.author: anbichse
 |[ActivityExpiryTime](#ActivityExpiryTime)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[EmailAddressUsed](#EmailAddressUsed)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[BounceType](#BounceType)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[Category](#Category)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[Reason](#Reason)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[BounceCategory](#BounceCategory)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[BounceReason](#BounceReason)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[Details](#Details)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[EntityId](#EntityId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[EntityName](#EntityName)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[MessageId](#MessageId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[MessageVariationName](#MessageVariationName)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[MessageVariationIndexes](#MessageVariationIndexes)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[ProfileId](#ProfileId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[ProfileType](#ProfileType)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[MessageId](#MessageId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[JourneyRunId](#JourneyRunId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[JourneyActionId](#JourneyActionId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[BusinessUnitId](#BusinessUnitId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[OrganizationId](#OrganizationId)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[Timestamp](#Timestamp)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[Version](#Version)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
 |[SourceSystem](#SourceSystem)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+|[InteractionType](#InteractionType)||<a href="emailsoftbounced.md" target="_blank">CustomerInsightsJourneys/emailsoftbounced</a>|
+
+### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
+
+First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
@@ -127,7 +156,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -141,9 +170,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
+\*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -161,32 +188,6 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 
 <details>
 <summary>List of traits for the EmailDomain attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#InteractionType name="InteractionType">InteractionType</a>
-
-First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the InteractionType attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -399,7 +400,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 
 </details>
 
-### <a href=#Category name="Category">Category</a>
+### <a href=#BounceCategory name="BounceCategory">BounceCategory</a>
 
 First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
 
@@ -410,7 +411,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the Category attribute are listed below.</summary>
+<summary>List of traits for the BounceCategory attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -425,7 +426,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 
 </details>
 
-### <a href=#Reason name="Reason">Reason</a>
+### <a href=#BounceReason name="BounceReason">BounceReason</a>
 
 First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
 
@@ -436,7 +437,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the Reason attribute are listed below.</summary>
+<summary>List of traits for the BounceReason attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -477,35 +478,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 
 </details>
 
-### <a href=#EntityId name="EntityId">EntityId</a>
-
-First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the EntityId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#EntityName name="EntityName">EntityName</a>
+### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
 
 First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
 
@@ -516,7 +489,85 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the EntityName attribute are listed below.</summary>
+<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+
+First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ProfileId name="ProfileId">ProfileId</a>
+
+First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProfileId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ProfileType name="ProfileType">ProfileType</a>
+
+First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProfileType attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -580,18 +631,18 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
   \*\*is\.dataFormat\.boolean\*\*  
   </details>
 
-### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
+### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
 First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+<summary>List of traits for the JourneyRunId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -600,13 +651,15 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
+\*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.guid\*\*  
+  \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
 First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
 
@@ -617,7 +670,7 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+<summary>List of traits for the JourneyActionId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -664,90 +717,6 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 
 </details>
 
-### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
-
-First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
-
-First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JourneyRunId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
-
-First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the JourneyActionId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
 First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
@@ -771,10 +740,36 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 \*\*is\.dataFormat\.guid\*\*  
   \*\*means\.identity\.entityId\*\*  
   \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 \*\*is\.dataFormat\.guid\*\*  
   \*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
+
+First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IdempotencyId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.array\*\*  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -896,3 +891,29 @@ First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)
 \*\*is\.dataFormat\.numeric\*\*  
   \*\*is\.dataFormat\.integer\*\*  
   </details>
+
+### <a href=#InteractionType name="InteractionType">InteractionType</a>
+
+First included in: CustomerInsightsJourneys/emailsoftbounced \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InteractionType attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

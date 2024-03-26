@@ -5,8 +5,8 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/14/2024
-ms.author: anbichse
+ms.date: 3/26/2024
+ms.author: cdmditeam
 ---
 
 # ContactDeleted in CustomerInsightsJourneys
@@ -33,9 +33,13 @@ ms.author: anbichse
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[DeletedContactId](#DeletedContactId)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
-|[InteractionType](#InteractionType)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
 |[OrganizationId](#OrganizationId)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
 |[Timestamp](#Timestamp)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
+|[Version](#Version)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
+|[SourceSystem](#SourceSystem)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
+|[InteractionType](#InteractionType)||<a href="contactdeleted.md" target="_blank">CustomerInsightsJourneys/contactdeleted</a>|
 
 ### <a href=#DeletedContactId name="DeletedContactId">DeletedContactId</a>
 
@@ -65,7 +69,7 @@ First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)
 
 </details>
 
-### <a href=#InteractionType name="InteractionType">InteractionType</a>
+### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
 First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)  
 
@@ -76,7 +80,33 @@ First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the InteractionType attribute are listed below.</summary>
+<summary>List of traits for the IdempotencyId attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
+
+First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InternalMarketingInteractionId attribute are listed below.</summary>
 
 \*\*is\.dataFormat\.character\*\*  
   \*\*is\.dataFormat\.big\*\*  
@@ -139,3 +169,71 @@ First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)
   \*\*is\.dataFormat\.time\*\*  
   \*\*is\.dataFormat\.date\*\*  
   </details>
+
+### <a href=#Version name="Version">Version</a>
+
+First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Version attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.integer\*\*  
+  \*\*is\.dataFormat\.signed\*\*  
+  indicates the capability to represent values less than zero.  
+
+\*\*is\.dataFormat\.numeric\*\*  
+  \*\*is\.dataFormat\.integer\*\*  
+  </details>
+
+### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
+
+First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>int32</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SourceSystem attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.integer\*\*  
+  \*\*is\.dataFormat\.signed\*\*  
+  indicates the capability to represent values less than zero.  
+
+\*\*is\.dataFormat\.numeric\*\*  
+  \*\*is\.dataFormat\.integer\*\*  
+  </details>
+
+### <a href=#InteractionType name="InteractionType">InteractionType</a>
+
+First included in: CustomerInsightsJourneys/contactdeleted \(this entity\)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InteractionType attribute are listed below.</summary>
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.big\*\*  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+\*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+\*\*is\.dataFormat\.character\*\*  
+  \*\*is\.dataFormat\.array\*\*  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
