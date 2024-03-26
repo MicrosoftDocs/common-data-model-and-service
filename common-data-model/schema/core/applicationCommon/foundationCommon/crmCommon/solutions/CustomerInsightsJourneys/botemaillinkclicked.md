@@ -1,5 +1,5 @@
 ---
-title: RedirectLinkClicked in Customer Insights Journeys - Common Data Model | Microsoft Docs
+title: BotEmailLinkClicked in Customer Insights Journeys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 3/26/2024
 ms.author: anbichse
 ---
 
-# RedirectLinkClicked in Customer Insights Journeys
+# BotEmailLinkClicked in Customer Insights Journeys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/redirectlinkclicked.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/botemaillinkclicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,50 +32,62 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[BrowserId](#BrowserId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[BrowserVersion](#BrowserVersion)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[City](#City)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[CountryIsoCode](#CountryIsoCode)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[LeadId](#LeadId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[Link](#Link)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[LinkId](#LinkId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[OperatingSystemId](#OperatingSystemId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[OperatingSystemVersion](#OperatingSystemVersion)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[OriginalUrl](#OriginalUrl)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[PostalCode](#PostalCode)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[ReferrerUri](#ReferrerUri)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[SearchEngineName](#SearchEngineName)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[SearchPhrase](#SearchPhrase)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[SessionId](#SessionId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[State](#State)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[VisitDuration](#VisitDuration)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[VisitorAnonymousStatus](#VisitorAnonymousStatus)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[VisitorId](#VisitorId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[VisitorReturningStatus](#VisitorReturningStatus)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[EmailAddressUsed](#EmailAddressUsed)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[EmailDomain](#EmailDomain)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[MessageId](#MessageId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[SendingId](#SendingId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[UsageType](#UsageType)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[ProfileId](#ProfileId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[ProfileType](#ProfileType)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[AccountId](#AccountId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[ActivityId](#ActivityId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[ContactId](#ContactId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[BusinessUnitId](#BusinessUnitId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[IdempotencyId](#IdempotencyId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[OrganizationId](#OrganizationId)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[Timestamp](#Timestamp)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[Version](#Version)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[SourceSystem](#SourceSystem)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
-|[InteractionType](#InteractionType)||<a href="redirectlinkclicked.md" target="_blank">CustomerInsightsJourneys/redirectlinkclicked</a>|
+|[BrowserId](#BrowserId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[BrowserVersion](#BrowserVersion)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[City](#City)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[CountryIsoCode](#CountryIsoCode)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[LeadId](#LeadId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[LinkFriendlyName](#LinkFriendlyName)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[LinkId](#LinkId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[OperatingSystemId](#OperatingSystemId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[OperatingSystemVersion](#OperatingSystemVersion)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[OriginalLink](#OriginalLink)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[OriginalUrl](#OriginalUrl)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[TargetUrl](#TargetUrl)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[LinkText](#LinkText)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[PostalCode](#PostalCode)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[SessionId](#SessionId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[State](#State)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[VisitorAnonymousStatus](#VisitorAnonymousStatus)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[VisitorId](#VisitorId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[JourneyActionId](#JourneyActionId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[JourneyRunId](#JourneyRunId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[Link](#Link)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[SearchPhrase](#SearchPhrase)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[SearchEngineName](#SearchEngineName)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[MessageVariationName](#MessageVariationName)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[MessageVariationIndexes](#MessageVariationIndexes)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[Details](#Details)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[VisitDuration](#VisitDuration)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[VisitorReturningStatus](#VisitorReturningStatus)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[IpAddress](#IpAddress)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[UserAgent](#UserAgent)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[BotDetectionReason](#BotDetectionReason)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[EmailAddressUsed](#EmailAddressUsed)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[EmailDomain](#EmailDomain)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[MessageId](#MessageId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[SendingId](#SendingId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[UsageType](#UsageType)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[ProfileId](#ProfileId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[ProfileType](#ProfileType)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[AccountId](#AccountId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[ActivityId](#ActivityId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[ContactId](#ContactId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[CustomerJourneyId](#CustomerJourneyId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[BusinessUnitId](#BusinessUnitId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[OrganizationId](#OrganizationId)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[Timestamp](#Timestamp)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[Version](#Version)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[SourceSystem](#SourceSystem)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
+|[InteractionType](#InteractionType)||<a href="botemaillinkclicked.md" target="_blank">CustomerInsightsJourneys/botemaillinkclicked</a>|
 
 ### <a href=#BrowserId name="BrowserId">BrowserId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -103,7 +115,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#BrowserVersion name="BrowserVersion">BrowserVersion</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -129,7 +141,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#City name="City">City</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -155,7 +167,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#CountryIsoCode name="CountryIsoCode">CountryIsoCode</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -181,7 +193,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#LeadId name="LeadId">LeadId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -207,9 +219,9 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
-### <a href=#Link name="Link">Link</a>
+### <a href=#LinkFriendlyName name="LinkFriendlyName">LinkFriendlyName</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -218,7 +230,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the Link attribute are listed below.</summary>
+<summary>List of traits for the LinkFriendlyName attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -235,11 +247,11 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#LinkId name="LinkId">LinkId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
 
 #### Traits
 
@@ -253,9 +265,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-**is.dataFormat.guid**  
-  **is.dataFormat.guid**  
-  **is.dataFormat.character**  
+**is.dataFormat.character**  
   **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
@@ -263,7 +273,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#OperatingSystemId name="OperatingSystemId">OperatingSystemId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -291,7 +301,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#OperatingSystemVersion name="OperatingSystemVersion">OperatingSystemVersion</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -315,9 +325,35 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
+### <a href=#OriginalLink name="OriginalLink">OriginalLink</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the OriginalLink attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#OriginalUrl name="OriginalUrl">OriginalUrl</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -341,9 +377,61 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
+### <a href=#TargetUrl name="TargetUrl">TargetUrl</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the TargetUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#LinkText name="LinkText">LinkText</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the LinkText attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#PostalCode name="PostalCode">PostalCode</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -367,87 +455,9 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
-### <a href=#ReferrerUri name="ReferrerUri">ReferrerUri</a>
-
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ReferrerUri attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#SearchEngineName name="SearchEngineName">SearchEngineName</a>
-
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the SearchEngineName attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#SearchPhrase name="SearchPhrase">SearchPhrase</a>
-
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the SearchPhrase attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#SessionId name="SessionId">SessionId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -473,7 +483,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#State name="State">State</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -497,35 +507,9 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
-### <a href=#VisitDuration name="VisitDuration">VisitDuration</a>
-
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the VisitDuration attribute are listed below.</summary>
-
-**is.dataFormat.character**  
-  **is.dataFormat.big**  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-**is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-**is.dataFormat.character**  
-  **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
 ### <a href=#VisitorAnonymousStatus name="VisitorAnonymousStatus">VisitorAnonymousStatus</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -551,7 +535,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#VisitorId name="VisitorId">VisitorId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -575,9 +559,262 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
+### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>boolean</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IsUnresolvedProfile attribute are listed below.</summary>
+
+**is.dataFormat.boolean**  
+  **is.dataFormat.boolean**  
+  </details>
+
+### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the JourneyActionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the JourneyRunId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#Link name="Link">Link</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Link attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#SearchPhrase name="SearchPhrase">SearchPhrase</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SearchPhrase attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#SearchEngineName name="SearchEngineName">SearchEngineName</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the SearchEngineName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#Details name="Details">Details</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the Details attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#VisitDuration name="VisitDuration">VisitDuration</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the VisitDuration attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#VisitorReturningStatus name="VisitorReturningStatus">VisitorReturningStatus</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -601,9 +838,87 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 </details>
 
+### <a href=#IpAddress name="IpAddress">IpAddress</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IpAddress attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#UserAgent name="UserAgent">UserAgent</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the UserAgent attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#BotDetectionReason name="BotDetectionReason">BotDetectionReason</a>
+
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the BotDetectionReason attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
 ### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -629,7 +944,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#EmailDomain name="EmailDomain">EmailDomain</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -655,7 +970,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -683,7 +998,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -711,7 +1026,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -737,7 +1052,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -765,7 +1080,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -791,7 +1106,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -817,7 +1132,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#AccountId name="AccountId">AccountId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -845,7 +1160,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#ActivityId name="ActivityId">ActivityId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -873,7 +1188,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#ContactId name="ContactId">ContactId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -899,7 +1214,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -931,7 +1246,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -963,7 +1278,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -989,7 +1304,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -1015,7 +1330,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -1043,7 +1358,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -1064,7 +1379,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -1085,7 +1400,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 
@@ -1106,7 +1421,7 @@ First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/redirectlinkclicked (this entity)  
+First included in: CustomerInsightsJourneys/botemaillinkclicked (this entity)  
 
 #### Properties
 

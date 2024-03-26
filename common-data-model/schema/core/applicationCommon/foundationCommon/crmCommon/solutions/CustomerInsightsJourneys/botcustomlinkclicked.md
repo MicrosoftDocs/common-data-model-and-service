@@ -1,5 +1,5 @@
 ---
-title: EmailAddressOptedOut in Customer Insights Journeys - Common Data Model | Microsoft Docs
+title: BotCustomLinkClicked in Customer Insights Journeys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,10 +9,10 @@ ms.date: 3/26/2024
 ms.author: anbichse
 ---
 
-# EmailAddressOptedOut in Customer Insights Journeys
+# BotCustomLinkClicked in Customer Insights Journeys
 
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/emailaddressoptedout.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/botcustomlinkclicked.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -32,29 +32,34 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[EmailAddressUsed](#EmailAddressUsed)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[Reason](#Reason)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[MessageVariationName](#MessageVariationName)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[MessageVariationIndexes](#MessageVariationIndexes)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[ProfileId](#ProfileId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[ProfileType](#ProfileType)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[MessageId](#MessageId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[JourneyRunId](#JourneyRunId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[JourneyActionId](#JourneyActionId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[BusinessUnitId](#BusinessUnitId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[IdempotencyId](#IdempotencyId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[OrganizationId](#OrganizationId)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[Timestamp](#Timestamp)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[Version](#Version)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[SourceSystem](#SourceSystem)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
-|[InteractionType](#InteractionType)||<a href="emailaddressoptedout.md" target="_blank">CustomerInsightsJourneys/emailaddressoptedout</a>|
+|[Sender](#Sender)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[Recipient](#Recipient)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[ChannelType](#ChannelType)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[ChannelDefinitionId](#ChannelDefinitionId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[TargetUrl](#TargetUrl)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[LinkName](#LinkName)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[IpAddress](#IpAddress)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[UserAgent](#UserAgent)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[BotDetectionReason](#BotDetectionReason)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[ProfileId](#ProfileId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[ProfileType](#ProfileType)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[MessageId](#MessageId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[IsUnresolvedProfile](#IsUnresolvedProfile)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[JourneyRunId](#JourneyRunId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[JourneyActionId](#JourneyActionId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[CustomerJourneyId](#CustomerJourneyId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[BusinessUnitId](#BusinessUnitId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[OrganizationId](#OrganizationId)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[Timestamp](#Timestamp)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[Version](#Version)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[SourceSystem](#SourceSystem)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
+|[InteractionType](#InteractionType)||<a href="botcustomlinkclicked.md" target="_blank">CustomerInsightsJourneys/botcustomlinkclicked</a>|
 
-### <a href=#EmailAddressUsed name="EmailAddressUsed">EmailAddressUsed</a>
+### <a href=#Sender name="Sender">Sender</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -63,7 +68,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the EmailAddressUsed attribute are listed below.</summary>
+<summary>List of traits for the Sender attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -78,9 +83,9 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 </details>
 
-### <a href=#Reason name="Reason">Reason</a>
+### <a href=#Recipient name="Recipient">Recipient</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -89,7 +94,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the Reason attribute are listed below.</summary>
+<summary>List of traits for the Recipient attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -104,9 +109,9 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 </details>
 
-### <a href=#MessageVariationName name="MessageVariationName">MessageVariationName</a>
+### <a href=#ChannelType name="ChannelType">ChannelType</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -115,7 +120,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationName attribute are listed below.</summary>
+<summary>List of traits for the ChannelType attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -130,9 +135,37 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 </details>
 
-### <a href=#MessageVariationIndexes name="MessageVariationIndexes">MessageVariationIndexes</a>
+### <a href=#ChannelDefinitionId name="ChannelDefinitionId">ChannelDefinitionId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ChannelDefinitionId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#TargetUrl name="TargetUrl">TargetUrl</a>
+
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -141,7 +174,111 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 #### Traits
 
 <details>
-<summary>List of traits for the MessageVariationIndexes attribute are listed below.</summary>
+<summary>List of traits for the TargetUrl attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#LinkName name="LinkName">LinkName</a>
+
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the LinkName attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#IpAddress name="IpAddress">IpAddress</a>
+
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IpAddress attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#UserAgent name="UserAgent">UserAgent</a>
+
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the UserAgent attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#BotDetectionReason name="BotDetectionReason">BotDetectionReason</a>
+
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the BotDetectionReason attribute are listed below.</summary>
 
 **is.dataFormat.character**  
   **is.dataFormat.big**  
@@ -158,7 +295,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#ProfileId name="ProfileId">ProfileId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -184,7 +321,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#ProfileType name="ProfileType">ProfileType</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -210,7 +347,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -242,7 +379,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#IsUnresolvedProfile name="IsUnresolvedProfile">IsUnresolvedProfile</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -259,7 +396,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#JourneyRunId name="JourneyRunId">JourneyRunId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -287,7 +424,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#JourneyActionId name="JourneyActionId">JourneyActionId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -313,7 +450,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -345,7 +482,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -377,7 +514,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -403,7 +540,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -429,7 +566,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -457,7 +594,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -478,7 +615,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -499,7 +636,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 
@@ -520,7 +657,7 @@ First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)
 
 ### <a href=#InteractionType name="InteractionType">InteractionType</a>
 
-First included in: CustomerInsightsJourneys/emailaddressoptedout (this entity)  
+First included in: CustomerInsightsJourneys/botcustomlinkclicked (this entity)  
 
 #### Properties
 

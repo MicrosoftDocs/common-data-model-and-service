@@ -1,15 +1,15 @@
 ---
-title: FormsProSurveyOpened in CustomerInsightsJourneys - Common Data Model | Microsoft Docs
+title: FormsProSurveyOpened in Customer Insights Journeys - Common Data Model | Microsoft Docs
 description: undefined
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 2/14/2024
+ms.date: 3/26/2024
 ms.author: anbichse
 ---
 
-# FormsProSurveyOpened in CustomerInsightsJourneys
+# FormsProSurveyOpened in Customer Insights Journeys
 
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/CustomerInsightsJourneys/formsprosurveyopened.cdm.json" target="_blank">GitHub</a>.  
@@ -32,112 +32,33 @@ ms.author: anbichse
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[ContactId](#ContactId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
-|[CustomerJourneyId](#CustomerJourneyId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
-|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[FormsProSurveyIdentifier](#FormsProSurveyIdentifier)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[FormsProSurveyLinkUrl](#FormsProSurveyLinkUrl)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
-|[InteractionType](#InteractionType)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[JotunnSurveyLinkIdentifier](#JotunnSurveyLinkIdentifier)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[SurveyId](#SurveyId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
-|[SendingId](#SendingId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[MessageId](#MessageId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
-|[ActivityId](#ActivityId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[SendingId](#SendingId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[UsageType](#UsageType)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[CustomerJourneyIterationId](#CustomerJourneyIterationId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[ProfileId](#ProfileId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[ProfileType](#ProfileType)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[AccountId](#AccountId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[ActivityId](#ActivityId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[ContactId](#ContactId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[LeadId](#LeadId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[CustomerJourneyId](#CustomerJourneyId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[BusinessUnitId](#BusinessUnitId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
+|[IdempotencyId](#IdempotencyId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[InternalMarketingInteractionId](#InternalMarketingInteractionId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[OrganizationId](#OrganizationId)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[Timestamp](#Timestamp)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[Version](#Version)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 |[SourceSystem](#SourceSystem)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
-
-### <a href=#ContactId name="ContactId">ContactId</a>
-
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the ContactId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
-
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
-
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
+|[InteractionType](#InteractionType)||<a href="formsprosurveyopened.md" target="_blank">CustomerInsightsJourneys/formsprosurveyopened</a>|
 
 ### <a href=#FormsProSurveyIdentifier name="FormsProSurveyIdentifier">FormsProSurveyIdentifier</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -148,22 +69,22 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the FormsProSurveyIdentifier attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#FormsProSurveyLinkUrl name="FormsProSurveyLinkUrl">FormsProSurveyLinkUrl</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -174,48 +95,22 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the FormsProSurveyLinkUrl attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#InteractionType name="InteractionType">InteractionType</a>
-
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the InteractionType attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#JotunnSurveyLinkIdentifier name="JotunnSurveyLinkIdentifier">JotunnSurveyLinkIdentifier</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -226,22 +121,22 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the JotunnSurveyLinkIdentifier attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#SurveyId name="SurveyId">SurveyId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -252,56 +147,24 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the SurveyId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-</details>
-
-### <a href=#SendingId name="SendingId">SendingId</a>
-
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
-
-#### Properties
-
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
-
-#### Traits
-
-<details>
-<summary>List of traits for the SendingId attribute are listed below.</summary>
-
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
-  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
-
-\*\*is\.dataFormat\.array\*\*  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../solutions/marketing/MarketingEmail.md" target="_blank">solutions/marketing/MarketingEmail.cdm.json/MarketingEmail</a></td><td><a href="../../solutions/marketing/MarketingEmail.md#marketingEmailId" target="_blank">marketingEmailId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#MessageId name="MessageId">MessageId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -312,28 +175,24 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the MessageId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../solutions/marketing/MarketingEmail.md" target="_blank">solutions/marketing/MarketingEmail.cdm.json/MarketingEmail</a></td><td><a href="../../solutions/marketing/MarketingEmail.md#marketingEmailId" target="_blank">marketingEmailId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
-
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
-### <a href=#ActivityId name="ActivityId">ActivityId</a>
+### <a href=#SendingId name="SendingId">SendingId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -342,26 +201,26 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 #### Traits
 
 <details>
-<summary>List of traits for the ActivityId attribute are listed below.</summary>
+<summary>List of traits for the SendingId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#UsageType name="UsageType">UsageType</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -372,22 +231,244 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the UsageType attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#CustomerJourneyIterationId name="CustomerJourneyIterationId">CustomerJourneyIterationId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the CustomerJourneyIterationId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ProfileId name="ProfileId">ProfileId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProfileId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ProfileType name="ProfileType">ProfileType</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ProfileType attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#AccountId name="AccountId">AccountId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the AccountId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ActivityId name="ActivityId">ActivityId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ActivityId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#ContactId name="ContactId">ContactId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the ContactId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#LeadId name="LeadId">LeadId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the LeadId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#CustomerJourneyId name="CustomerJourneyId">CustomerJourneyId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the CustomerJourneyId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../solutions/marketing/CustomerJourney.md" target="_blank">solutions/marketing/CustomerJourney.cdm.json/CustomerJourney</a></td><td><a href="../../solutions/marketing/CustomerJourney.md#customerJourneyId" target="_blank">customerJourneyId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#BusinessUnitId name="BusinessUnitId">BusinessUnitId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -398,28 +479,54 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the BusinessUnitId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*means\.identity\.entityId\*\*  
-  \*\*is\.linkedEntity\.identifier\*\*  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../BusinessUnit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../BusinessUnit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th></tr><tr><td><a href="../../../../businessunit.md" target="_blank">BusinessUnit.cdm.json/BusinessUnit</a></td><td><a href="../../../../businessunit.md#businessUnitId" target="_blank">businessUnitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#IdempotencyId name="IdempotencyId">IdempotencyId</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the IdempotencyId attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#InternalMarketingInteractionId name="InternalMarketingInteractionId">InternalMarketingInteractionId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -430,22 +537,22 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the InternalMarketingInteractionId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#OrganizationId name="OrganizationId">OrganizationId</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -456,24 +563,24 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the OrganizationId attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.big\*\*  
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
-\*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
-\*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.guid\*\*  
-  \*\*is\.dataFormat\.character\*\*  
-  \*\*is\.dataFormat\.array\*\*  
+**is.dataFormat.guid**  
+  **is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
   indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#Timestamp name="Timestamp">Timestamp</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -484,17 +591,17 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the Timestamp attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.date\*\*  
-  \*\*means\.measurement\.date\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*means\.measurement\.time\*\*  
-  \*\*is\.dataFormat\.time\*\*  
-  \*\*is\.dataFormat\.date\*\*  
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.dataFormat.time**  
+  **is.dataFormat.date**  
   </details>
 
 ### <a href=#Version name="Version">Version</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -505,17 +612,17 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the Version attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*is\.dataFormat\.integer\*\*  
+**is.dataFormat.numeric**  
+  **is.dataFormat.integer**  
   </details>
 
 ### <a href=#SourceSystem name="SourceSystem">SourceSystem</a>
 
-First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)  
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
 
 #### Properties
 
@@ -526,10 +633,36 @@ First included in: CustomerInsightsJourneys/formsprosurveyopened \(this entity\)
 <details>
 <summary>List of traits for the SourceSystem attribute are listed below.</summary>
 
-\*\*is\.dataFormat\.integer\*\*  
-  \*\*is\.dataFormat\.signed\*\*  
+**is.dataFormat.integer**  
+  **is.dataFormat.signed**  
   indicates the capability to represent values less than zero.  
 
-\*\*is\.dataFormat\.numeric\*\*  
-  \*\*is\.dataFormat\.integer\*\*  
+**is.dataFormat.numeric**  
+  **is.dataFormat.integer**  
   </details>
+
+### <a href=#InteractionType name="InteractionType">InteractionType</a>
+
+First included in: CustomerInsightsJourneys/formsprosurveyopened (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>dataFormat</td><td>string</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the InteractionType attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>

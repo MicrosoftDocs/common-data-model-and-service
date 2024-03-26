@@ -1,0 +1,218 @@
+- name: Summary
+  href: overview.md
+- name: Customer Insights Journeys
+  items:
+  - name: Summary
+    href: overview.md
+  - name: actionevent 
+    href: actionevent.md
+  - name: activitycontactblocked 
+    href: activitycontactblocked.md
+  - name: activitycontactblockedbusinessunit 
+    href: activitycontactblockedbusinessunit.md
+  - name: activitycontactblockedconsent 
+    href: activitycontactblockedconsent.md
+  - name: activitycontactblockedexternalconsent 
+    href: activitycontactblockedexternalconsent.md
+  - name: activitycontactblockedsuppression 
+    href: activitycontactblockedsuppression.md
+  - name: activitycontactdispatched 
+    href: activitycontactdispatched.md
+  - name: activitycontactexpired 
+    href: activitycontactexpired.md
+  - name: activitycontactprocessingfailed 
+    href: activitycontactprocessingfailed.md
+  - name: botcustomlinkclicked 
+    href: botcustomlinkclicked.md
+  - name: botemaillinkclicked 
+    href: botemaillinkclicked.md
+  - name: botpushnotificationlinkclicked 
+    href: botpushnotificationlinkclicked.md
+  - name: botsmslinkclicked 
+    href: botsmslinkclicked.md
+  - name: confirmationrequest 
+    href: confirmationrequest.md
+  - name: confirmationresponse 
+    href: confirmationresponse.md
+  - name: contactdeleted 
+    href: contactdeleted.md
+  - name: createcrmactivitycontactprocessed 
+    href: createcrmactivitycontactprocessed.md
+  - name: createcustomchannelactivitycontactprocessed 
+    href: createcustomchannelactivitycontactprocessed.md
+  - name: createleadactivitycontactprocessed 
+    href: createleadactivitycontactprocessed.md
+  - name: custombounced 
+    href: custombounced.md
+  - name: customchannelresponse 
+    href: customchannelresponse.md
+  - name: customdelivered 
+    href: customdelivered.md
+  - name: customerjourneycontactrecordupdated 
+    href: customerjourneycontactrecordupdated.md
+  - name: customerjourneyiterationstarted 
+    href: customerjourneyiterationstarted.md
+  - name: customlinkclicked 
+    href: customlinkclicked.md
+  - name: customnotsent 
+    href: customnotsent.md
+  - name: customsent 
+    href: customsent.md
+  - name: domainnotownedbyanyone 
+    href: domainnotownedbyanyone.md
+  - name: domainownedbydifferentorganization 
+    href: domainownedbydifferentorganization.md
+  - name: emailaddressoptedout 
+    href: emailaddressoptedout.md
+  - name: emailblockbounced 
+    href: emailblockbounced.md
+  - name: emailblocked 
+    href: emailblocked.md
+  - name: emailblockedbyactivityexpiration 
+    href: emailblockedbyactivityexpiration.md
+  - name: emailblockedbyunsubscription 
+    href: emailblockedbyunsubscription.md
+  - name: emailblockedbyuser 
+    href: emailblockedbyuser.md
+  - name: emailblockedconsentnotgiven 
+    href: emailblockedconsentnotgiven.md
+  - name: emailblockedcontactabilitydonotemail 
+    href: emailblockedcontactabilitydonotemail.md
+  - name: emailblockeddomaindeliverability 
+    href: emailblockeddomaindeliverability.md
+  - name: emailblockedduplicateaddress 
+    href: emailblockedduplicateaddress.md
+  - name: emailblockedexternalconsentfailure 
+    href: emailblockedexternalconsentfailure.md
+  - name: emailblockedfrequencycapreached 
+    href: emailblockedfrequencycapreached.md
+  - name: emailblockedinactivecontact 
+    href: emailblockedinactivecontact.md
+  - name: emailblockedinvalidrecipientaddress 
+    href: emailblockedinvalidrecipientaddress.md
+  - name: emailblockedinvalidreplytoaddress 
+    href: emailblockedinvalidreplytoaddress.md
+  - name: emailblockedinvalidsenderaddress 
+    href: emailblockedinvalidsenderaddress.md
+  - name: emailblockedmissingcontactdata 
+    href: emailblockedmissingcontactdata.md
+  - name: emailblockedmissingrelateddata 
+    href: emailblockedmissingrelateddata.md
+  - name: emailblockedotherreason 
+    href: emailblockedotherreason.md
+  - name: emailblockedtrialquotaexceeded 
+    href: emailblockedtrialquotaexceeded.md
+  - name: emailbouncecacheblocked 
+    href: emailbouncecacheblocked.md
+  - name: emailbounced 
+    href: emailbounced.md
+  - name: emailccsent 
+    href: emailccsent.md
+  - name: emailclicked 
+    href: emailclicked.md
+  - name: emailcontainsblacklistedlinks 
+    href: emailcontainsblacklistedlinks.md
+  - name: emaildelivered 
+    href: emaildelivered.md
+  - name: emailfeedbackloop 
+    href: emailfeedbackloop.md
+  - name: emailforwarded 
+    href: emailforwarded.md
+  - name: emailhardbounced 
+    href: emailhardbounced.md
+  - name: emailhardremotebounced 
+    href: emailhardremotebounced.md
+  - name: emailopened 
+    href: emailopened.md
+  - name: emailsendingfailed 
+    href: emailsendingfailed.md
+  - name: emailsent 
+    href: emailsent.md
+  - name: emailsoftbounced 
+    href: emailsoftbounced.md
+  - name: emailsoftremotebounced 
+    href: emailsoftremotebounced.md
+  - name: emailsubscriptionsubmit 
+    href: emailsubscriptionsubmit.md
+  - name: entitydeleted 
+    href: entitydeleted.md
+  - name: eventcheckin 
+    href: eventcheckin.md
+  - name: eventregistration 
+    href: eventregistration.md
+  - name: eventregistrationcanceled 
+    href: eventregistrationcanceled.md
+  - name: formsprosurveyopened 
+    href: formsprosurveyopened.md
+  - name: formsprosurveyquestionanswered 
+    href: formsprosurveyquestionanswered.md
+  - name: formsprosurveysubmitted 
+    href: formsprosurveysubmitted.md
+  - name: formsubmitted 
+    href: formsubmitted.md
+  - name: formvisited 
+    href: formvisited.md
+  - name: invalidrecipientaddress 
+    href: invalidrecipientaddress.md
+  - name: invalidreplytoaddress 
+    href: invalidreplytoaddress.md
+  - name: invalidsenderaddress 
+    href: invalidsenderaddress.md
+  - name: journeyevent 
+    href: journeyevent.md
+  - name: leadscoreboost 
+    href: leadscoreboost.md
+  - name: linkedinformsubmission 
+    href: linkedinformsubmission.md
+  - name: missingdataaccessprivileges 
+    href: missingdataaccessprivileges.md
+  - name: outofemailcredits 
+    href: outofemailcredits.md
+  - name: passthroughactivitycontactprocessed 
+    href: passthroughactivitycontactprocessed.md
+  - name: pushnotificationlinkclicked 
+    href: pushnotificationlinkclicked.md
+  - name: pushnotificationnotsent 
+    href: pushnotificationnotsent.md
+  - name: pushnotificationopened 
+    href: pushnotificationopened.md
+  - name: pushnotificationsent 
+    href: pushnotificationsent.md
+  - name: redirectlinkclicked 
+    href: redirectlinkclicked.md
+  - name: scheduleractivitycontactprocessed 
+    href: scheduleractivitycontactprocessed.md
+  - name: segmentmemberscountchanged 
+    href: segmentmemberscountchanged.md
+  - name: segmentrelationshipedited 
+    href: segmentrelationshipedited.md
+  - name: segmentsubscribed 
+    href: segmentsubscribed.md
+  - name: segmentunsubscribed 
+    href: segmentunsubscribed.md
+  - name: sessionregistrationcanceled 
+    href: sessionregistrationcanceled.md
+  - name: smsbounced 
+    href: smsbounced.md
+  - name: smsdelivered 
+    href: smsdelivered.md
+  - name: smslinkclicked 
+    href: smslinkclicked.md
+  - name: smsnotsent 
+    href: smsnotsent.md
+  - name: smsreceived 
+    href: smsreceived.md
+  - name: smssent 
+    href: smssent.md
+  - name: splitteractivitycontactprocessed 
+    href: splitteractivitycontactprocessed.md
+  - name: surveyresponse 
+    href: surveyresponse.md
+  - name: triggeractivitycontactprocessed 
+    href: triggeractivitycontactprocessed.md
+  - name: triggercrmworkflowactivitycontactprocessed 
+    href: triggercrmworkflowactivitycontactprocessed.md
+  - name: websiteclicked 
+    href: websiteclicked.md
+  - name: websitevisited 
+    href: websitevisited.md
