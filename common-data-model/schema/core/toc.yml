@@ -2855,70 +2855,70 @@
             href: industryCommon/Retail/Common/OutletType.md
           - name: RetailExecutionProfile 
             href: industryCommon/Retail/Common/RetailExecutionProfile.md
-        - name: SOAClienteling
+        - name: StoreOperationsAssistClienteling
           items:
           - name: Summary
-            href: industryCommon/Retail/SOAClienteling/overview.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/overview.md
           - name: BusinessUnit 
-            href: industryCommon/Retail/SOAClienteling/BusinessUnit.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/BusinessUnit.md
           - name: Contact 
-            href: industryCommon/Retail/SOAClienteling/Contact.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/Contact.md
           - name: CustomerDerivedBrandInsight 
-            href: industryCommon/Retail/SOAClienteling/CustomerDerivedBrandInsight.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedBrandInsight.md
           - name: CustomerDerivedCategoryInsight 
-            href: industryCommon/Retail/SOAClienteling/CustomerDerivedCategoryInsight.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedCategoryInsight.md
           - name: CustomerDerivedOrderInsight 
-            href: industryCommon/Retail/SOAClienteling/CustomerDerivedOrderInsight.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedOrderInsight.md
           - name: LanguageOfPreference 
-            href: industryCommon/Retail/SOAClienteling/LanguageOfPreference.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/LanguageOfPreference.md
           - name: LoyaltyAccount 
-            href: industryCommon/Retail/SOAClienteling/LoyaltyAccount.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccount.md
           - name: LoyaltyAccountCreditHistory 
-            href: industryCommon/Retail/SOAClienteling/LoyaltyAccountCreditHistory.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccountCreditHistory.md
           - name: LoyaltyProgram 
-            href: industryCommon/Retail/SOAClienteling/LoyaltyProgram.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyProgram.md
           - name: OrderProduct 
-            href: industryCommon/Retail/SOAClienteling/OrderProduct.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/OrderProduct.md
           - name: RetailAppointment 
-            href: industryCommon/Retail/SOAClienteling/RetailAppointment.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointment.md
           - name: RetailAppointmentType 
-            href: industryCommon/Retail/SOAClienteling/RetailAppointmentType.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointmentType.md
           - name: RewardCreditHistory 
-            href: industryCommon/Retail/SOAClienteling/RewardCreditHistory.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/RewardCreditHistory.md
           - name: Team 
-            href: industryCommon/Retail/SOAClienteling/Team.md
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/Team.md
           - name: User 
-            href: industryCommon/Retail/SOAClienteling/User.md
-        - name: SOACommon
+            href: industryCommon/Retail/StoreOperationsAssistClienteling/User.md
+        - name: StoreOperationsAssistCommon
           items:
           - name: Summary
-            href: industryCommon/Retail/SOACommon/overview.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/overview.md
           - name: ActivityCancellationReason 
-            href: industryCommon/Retail/SOACommon/ActivityCancellationReason.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/ActivityCancellationReason.md
           - name: AuditDefinition 
-            href: industryCommon/Retail/SOACommon/AuditDefinition.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/AuditDefinition.md
           - name: ExecutionPlan 
-            href: industryCommon/Retail/SOACommon/ExecutionPlan.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/ExecutionPlan.md
           - name: Note 
-            href: industryCommon/Retail/SOACommon/Note.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/Note.md
           - name: Request 
-            href: industryCommon/Retail/SOACommon/Request.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/Request.md
           - name: RequestType 
-            href: industryCommon/Retail/SOACommon/RequestType.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/RequestType.md
           - name: SurveyDefinition 
-            href: industryCommon/Retail/SOACommon/SurveyDefinition.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/SurveyDefinition.md
           - name: TargetGroupMember 
-            href: industryCommon/Retail/SOACommon/TargetGroupMember.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/TargetGroupMember.md
           - name: Task 
-            href: industryCommon/Retail/SOACommon/Task.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/Task.md
           - name: TaskDefinition 
-            href: industryCommon/Retail/SOACommon/TaskDefinition.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/TaskDefinition.md
           - name: TaskSetup 
-            href: industryCommon/Retail/SOACommon/TaskSetup.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/TaskSetup.md
           - name: TaskType 
-            href: industryCommon/Retail/SOACommon/TaskType.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/TaskType.md
           - name: Template 
-            href: industryCommon/Retail/SOACommon/Template.md
+            href: industryCommon/Retail/StoreOperationsAssistCommon/Template.md
         - name: Visits
           items:
           - name: Summary

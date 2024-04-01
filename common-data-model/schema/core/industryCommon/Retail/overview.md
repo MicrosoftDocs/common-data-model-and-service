@@ -20,8 +20,8 @@ ms.author: anbichse
 |[Asset](Asset/overview.md)|
 |[Commerce](Commerce/overview.md)|
 |[Common](Common/overview.md)|
-|[SOAClienteling](SOAClienteling/overview.md)|
-|[SOACommon](SOACommon/overview.md)|
+|[StoreOperationsAssistClienteling](StoreOperationsAssistClienteling/overview.md)|
+|[StoreOperationsAssistCommon](StoreOperationsAssistCommon/overview.md)|
 |[Visits](Visits/overview.md)|
 
 
