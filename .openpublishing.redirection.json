@@ -788,7 +788,161 @@
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/SustainabilityShared/valuechainpartner",
       
       "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/BusinessUnit.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/BusinessUnit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/Contact.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/Contact",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/CustomerDerivedBrandInsight.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedBrandInsight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/CustomerDerivedCategoryInsight.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedCategoryInsight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/CustomerDerivedOrderInsight.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/CustomerDerivedOrderInsight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/LanguageOfPreference.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/LanguageOfPreference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/LoyaltyAccount.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccount",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/LoyaltyAccountCreditHistory.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyAccountCreditHistory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/LoyaltyCard.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyCard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/LoyaltyProgram.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/LoyaltyProgram",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/OrderProduct.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/OrderProduct",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/RetailAppointment.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/RetailAppointmentType.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/RetailAppointmentType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/RewardCreditHistory.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/RewardCreditHistory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/Team.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/Team",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/User.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/User",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOAClienteling/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistClienteling/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/ActivityCancellationReason.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/ActivityCancellationReason",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/AuditDefinition.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/AuditDefinition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/ExecutionPlan.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/ExecutionPlan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/Note.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/Note",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/Request.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/Request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/RequestType.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/RequestType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/SurveyDefinition.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/SurveyDefinition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/TargetGroupMember.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/TargetGroupMember",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/Task.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/Task",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/TaskDefinition.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/TaskDefinition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/TaskSetup.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/TaskSetup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/TaskType.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/TaskType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/Template.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/Template",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Retail/SOACommon/overview.md",
+      "redirect_url": "/common-data-model/schema/core/industryCommon/Retail/StoreOperationsAssistCommon/overview",
+      "redirect_document_id": false
     }
-
   ]
 }
