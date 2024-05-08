@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/productfootprint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprintAudit.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/productfootprintaudit",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprintAssurance.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/productfootprint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/ExternalEmissions.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/ExternalActivity.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/PurchasedEnergy.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/purchasedenergy",
       "redirect_document_id": "false"
