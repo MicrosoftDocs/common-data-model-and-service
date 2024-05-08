@@ -48,37 +48,37 @@ Purchased entity that depreciates over time.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[capitalgoodId](#capitalgoodId)|Unique identifier for entity instances|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[name](#name)|The name of the custom entity.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[accountid](#accountid)||<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[cost](#cost)|Cost associated with activity data.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[dataqualitytype](#dataqualitytype)|Description of data quality that identifies if data is actual, estimated, or other descriptors of the data.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[evidence](#evidence)|Optional field where evidence can be linked to an entity or attribute, if required.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[facilityid](#facilityid)|Unique identifier for Facility associated with captial good.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the activity.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
+|[capitalgoodId](#capitalgoodId)|Unique identifier for entity instances|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[name](#name)|The name of the custom entity.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[accountid](#accountid)||<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[cost](#cost)|Cost associated with activity data.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[dataqualitytype](#dataqualitytype)|Description of data quality that identifies if data is actual, estimated, or other descriptors of the data.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[evidence](#evidence)|Optional field where evidence can be linked to an entity or attribute, if required.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[facilityid](#facilityid)|Unique identifier for Facility associated with captial good.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the activity.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
+|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="CapitalGood.md" target="_blank">Sustainability/SustainabilityCarbon/CapitalGood</a>|
 
 ### <a href=#capitalgoodId name="capitalgoodId">capitalgoodId</a>
 

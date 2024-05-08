@@ -51,20 +51,20 @@ Mapping table from sustainability product carbon footprints to product- or secto
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productfootprintrulemappingId](#productfootprintrulemappingId)|Unique identifier for entity instances.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[statecode](#statecode)|Status of the Product footprint rule mapping|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[statuscode](#statuscode)|Reason for the status of the Product footprint rule mapping|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[name](#name)|The name of the custom entity.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[productcarbonfootprint](#productcarbonfootprint)|The PCF this rule is for. (Deprecated)|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[productfootprint](#productfootprint)|The product footprint this rule is for.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[productorsectorspecificrule](#productorsectorspecificrule)|The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintRuleMapping</a>|
+|[productfootprintrulemappingId](#productfootprintrulemappingId)|Unique identifier for entity instances.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[statecode](#statecode)|Status of the Product footprint rule mapping|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[statuscode](#statuscode)|Reason for the status of the Product footprint rule mapping|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[name](#name)|The name of the custom entity.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[productcarbonfootprint](#productcarbonfootprint)|The PCF this rule is for. (Deprecated)|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[productfootprint](#productfootprint)|The product footprint this rule is for.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[productorsectorspecificrule](#productorsectorspecificrule)|The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintRuleMapping.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping</a>|
 
 ### <a href=#productfootprintrulemappingId name="productfootprintrulemappingId">productfootprintrulemappingId</a>
 

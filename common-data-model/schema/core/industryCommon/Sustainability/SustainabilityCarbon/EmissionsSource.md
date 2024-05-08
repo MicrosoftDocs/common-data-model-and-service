@@ -51,26 +51,26 @@ Greenhouse Gas Protocol-defined emissions sources in scopes 1, 2, and 3.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[emissionsourceId](#emissionsourceId)|Unique identifier for entity instances|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[statecode](#statecode)|Status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[statuscode](#statuscode)|Reason for the status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[name](#name)|Industry standard terminology as defined by the GHG Protocol|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[entityname](#entityname)|Internal reference used to map an entity to the corresponding record.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[isactive](#isactive)|Internal reference assigned during import.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[parentemissionsource](#parentemissionsource)|Lookup to the parent emission source|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatafield](#sourcedatafield)|Optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatafield2](#sourcedatafield2)|Second optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatavalue](#sourcedatavalue)|The value of source data.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatavalue2](#sourcedatavalue2)|The value of source data (Source data field 2).|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourceviewid](#sourceviewid)|Optional entity for additional views|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
+|[emissionsourceId](#emissionsourceId)|Unique identifier for entity instances|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[statecode](#statecode)|Status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[statuscode](#statuscode)|Reason for the status of the Emissions Source|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[name](#name)|Industry standard terminology as defined by the GHG Protocol|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[activitytypedatafield](#activitytypedatafield)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[entityname](#entityname)|Internal reference used to map an entity to the corresponding record.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[isactive](#isactive)|Internal reference assigned during import.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[parentemissionsource](#parentemissionsource)|Lookup to the parent emission source|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatafield](#sourcedatafield)|Optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatafield2](#sourcedatafield2)|Second optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatavalue](#sourcedatavalue)|The value of source data.|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourcedatavalue2](#sourcedatavalue2)|The value of source data (Source data field 2).|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
+|[sourceviewid](#sourceviewid)|Optional entity for additional views|<a href="EmissionsSource.md" target="_blank">Sustainability/SustainabilityCarbon/EmissionsSource</a>|
 
 ### <a href=#emissionsourceId name="emissionsourceId">emissionsourceId</a>
 

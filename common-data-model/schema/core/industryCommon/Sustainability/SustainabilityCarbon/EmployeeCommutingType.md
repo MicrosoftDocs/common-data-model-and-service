@@ -51,18 +51,18 @@ Entity used for classifying the type of employee commuting, as defined in the re
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[employeecommutingtypeId](#employeecommutingtypeId)|Unique identifier for entity instances|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[statecode](#statecode)|Status of the Employee commuting type|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Employee commuting type|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[name](#name)|The name of the custom entity.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmployeeCommutingType</a>|
+|[employeecommutingtypeId](#employeecommutingtypeId)|Unique identifier for entity instances|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[statecode](#statecode)|Status of the Employee commuting type|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Employee commuting type|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[name](#name)|The name of the custom entity.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EmployeeCommutingType.md" target="_blank">Sustainability/SustainabilityCarbon/EmployeeCommutingType</a>|
 
 ### <a href=#employeecommutingtypeId name="employeecommutingtypeId">employeecommutingtypeId</a>
 

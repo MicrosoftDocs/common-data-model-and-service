@@ -51,18 +51,18 @@ Entity used for classifying the type of disposal method, as defined in the repor
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[disposalmethodId](#disposalmethodId)|Unique identifier for entity instances|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[statecode](#statecode)|Status of the Disposal method|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[statuscode](#statuscode)|Reason for the status of the Disposal method|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[name](#name)|The name of the custom entity.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="DisposalMethod.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DisposalMethod</a>|
+|[disposalmethodId](#disposalmethodId)|Unique identifier for entity instances|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[statecode](#statecode)|Status of the Disposal method|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[statuscode](#statuscode)|Reason for the status of the Disposal method|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[name](#name)|The name of the custom entity.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="DisposalMethod.md" target="_blank">Sustainability/SustainabilityCarbon/DisposalMethod</a>|
 
 ### <a href=#disposalmethodId name="disposalmethodId">disposalmethodId</a>
 

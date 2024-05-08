@@ -48,39 +48,39 @@ Table that holds activities from external sources
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[externalactivityId](#externalactivityId)|Unique identifier for entity instances|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[name](#name)||<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[activitysource](#activitysource)|SDD for the activity that's being referenced|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[accommodationtypeid](#accommodationtypeid)|Unique identifier associated with the accommodation type related to business travel.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[businesstraveltypeid](#businesstraveltypeid)|Unique identifier related to the business travel type. Used to identify emission factors.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[consumptionenddate](#consumptionenddate)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[consumptionstartdate](#consumptionstartdate)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[disposalmethodid](#disposalmethodid)|Method of waste disposal, such as compost or recycle.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[employeecommutingtypeid](#employeecommutingtypeid)|Unique identifier related to the employee commuting type. Used to identify emission factors.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[fueltypeid](#fueltypeid)|Unique identifier for the fuel type associated with combustion or supply chain fuel usage.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[geographicarea](#geographicarea)|Unique identifier for the geographic area associated with this external activity|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[greenhousegas](#greenhousegas)|Unique identifier for the greenhouse gas associated with the fugitive emission.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the industrial process|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[isrenewable](#isrenewable)|Identifier used to determine if the source electric energy is renewable or not.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[materialid](#materialid)|Material of waste, such as aluminum.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the external activity.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[distance](#distance)|Distance field associated with activity entities.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[distanceunit](#distanceunit)|Unit associated with the distance field|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the purchased good and service.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[transportationanddistributiontype](#transportationanddistributiontype)|Marks what type of transportation and distribution this record represents.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[transportmode](#transportmode)|The transport mode that corresponds to this transportation and distribution activity.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[vehicletype](#vehicletype)|Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
+|[externalactivityId](#externalactivityId)|Unique identifier for entity instances|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[name](#name)||<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[activitysource](#activitysource)|SDD for the activity that's being referenced|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[accommodationtypeid](#accommodationtypeid)|Unique identifier associated with the accommodation type related to business travel.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[businesstraveltypeid](#businesstraveltypeid)|Unique identifier related to the business travel type. Used to identify emission factors.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[consumptionenddate](#consumptionenddate)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[consumptionstartdate](#consumptionstartdate)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[disposalmethodid](#disposalmethodid)|Method of waste disposal, such as compost or recycle.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[employeecommutingtypeid](#employeecommutingtypeid)|Unique identifier related to the employee commuting type. Used to identify emission factors.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[fueltypeid](#fueltypeid)|Unique identifier for the fuel type associated with combustion or supply chain fuel usage.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[geographicarea](#geographicarea)|Unique identifier for the geographic area associated with this external activity|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[greenhousegas](#greenhousegas)|Unique identifier for the greenhouse gas associated with the fugitive emission.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the industrial process|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[isrenewable](#isrenewable)|Identifier used to determine if the source electric energy is renewable or not.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[materialid](#materialid)|Material of waste, such as aluminum.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the external activity.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[distance](#distance)|Distance field associated with activity entities.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[distanceunit](#distanceunit)|Unit associated with the distance field|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the purchased good and service.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[transportationanddistributiontype](#transportationanddistributiontype)|Marks what type of transportation and distribution this record represents.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[transportmode](#transportmode)|The transport mode that corresponds to this transportation and distribution activity.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
+|[vehicletype](#vehicletype)|Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.|<a href="PartnerActivity.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerActivity</a>|
 
 ### <a href=#externalactivityId name="externalactivityId">externalactivityId</a>
 

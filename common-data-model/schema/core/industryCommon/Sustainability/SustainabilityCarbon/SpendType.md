@@ -51,21 +51,21 @@ Entity that represents a spend type, as defined in the reporting company. Used f
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[spendtypeId](#spendtypeId)|Unique identifier for entity instances|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[statecode](#statecode)|Status of the Spend Type|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Spend Type|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[name](#name)|The name of the spend type.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[emissionsourceid](#emissionsourceid)|Unique identifier related to emission source associated with spend type|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[subtype](#subtype)|Sub type associated with this spend type|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
-|[type](#type)|type associated with this pend type|<a href="SpendType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/SpendType</a>|
+|[spendtypeId](#spendtypeId)|Unique identifier for entity instances|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[statecode](#statecode)|Status of the Spend Type|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Spend Type|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[name](#name)|The name of the spend type.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[emissionsourceid](#emissionsourceid)|Unique identifier related to emission source associated with spend type|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[subtype](#subtype)|Sub type associated with this spend type|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
+|[type](#type)|type associated with this pend type|<a href="SpendType.md" target="_blank">Sustainability/SustainabilityCarbon/SpendType</a>|
 
 ### <a href=#spendtypeId name="spendtypeId">spendtypeId</a>
 

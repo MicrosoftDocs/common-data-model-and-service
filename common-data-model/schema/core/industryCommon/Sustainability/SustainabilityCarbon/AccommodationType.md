@@ -51,18 +51,18 @@ Entity used for classifying the type of hotel accommodation, as defined in the r
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[accommodationtypeId](#accommodationtypeId)|Unique identifier for entity instances|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[statecode](#statecode)|Status of the Accommodation type|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Accommodation type|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[name](#name)|The name of the custom entity.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[description](#description)|Description of the accommodation type.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="AccommodationType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/AccommodationType</a>|
+|[accommodationtypeId](#accommodationtypeId)|Unique identifier for entity instances|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[statecode](#statecode)|Status of the Accommodation type|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Accommodation type|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[name](#name)|The name of the custom entity.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[description](#description)|Description of the accommodation type.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="AccommodationType.md" target="_blank">Sustainability/SustainabilityCarbon/AccommodationType</a>|
 
 ### <a href=#accommodationtypeId name="accommodationtypeId">accommodationtypeId</a>
 

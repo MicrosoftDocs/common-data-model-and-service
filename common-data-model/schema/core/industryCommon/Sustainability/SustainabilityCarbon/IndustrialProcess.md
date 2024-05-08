@@ -48,41 +48,41 @@ Emissions source for scope 1 emissions relating to industrial processes.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[industrialprocessId](#industrialprocessId)|Unique identifier for entity instances|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[name](#name)|The name of the custom entity.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[consumptionenddate](#consumptionenddate)|End date of the activity consumption.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[consumptionstartdate](#consumptionstartdate)|Start date of the activity consumption.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[cost](#cost)|Cost associated with the activity data.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[facilityId](#facilityId)|Unique identifier for Facility associated with Industrial Process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[category](#category)|Indicator of classification of category.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[goodsquantity](#goodsquantity)|The amount of goods associated with this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[goodsunit](#goodsunit)|The unit of measurement for the goods quantity in record.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[facilityusagedetailid](#facilityusagedetailid)|The facility usage detail associated with this industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
+|[industrialprocessId](#industrialprocessId)|Unique identifier for entity instances|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[name](#name)|The name of the custom entity.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[consumptionenddate](#consumptionenddate)|End date of the activity consumption.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[consumptionstartdate](#consumptionstartdate)|Start date of the activity consumption.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[cost](#cost)|Cost associated with the activity data.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[facilityId](#facilityId)|Unique identifier for Facility associated with Industrial Process.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[category](#category)|Indicator of classification of category.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[goodsquantity](#goodsquantity)|The amount of goods associated with this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[goodsunit](#goodsunit)|The unit of measurement for the goods quantity in record.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with this record.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[facilityusagedetailid](#facilityusagedetailid)|The facility usage detail associated with this industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="IndustrialProcess.md" target="_blank">Sustainability/SustainabilityCarbon/IndustrialProcess</a>|
 
 ### <a href=#industrialprocessId name="industrialprocessId">industrialprocessId</a>
 

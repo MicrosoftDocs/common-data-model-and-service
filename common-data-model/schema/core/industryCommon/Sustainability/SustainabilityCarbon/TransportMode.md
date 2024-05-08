@@ -51,19 +51,19 @@ The mode of transportation or distribution used in an activity, such as air, rai
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[transportmodeId](#transportmodeId)|Unique identifier for entity instances|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[statecode](#statecode)|Status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[statuscode](#statuscode)|Reason for the status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[name](#name)|The name of the custom entity.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[description](#description)|The description of this transport mode.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[isSharedLoad](#isSharedLoad)|Indicates whether the transport mode carries less than a full load, or is shared across external organizations|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
+|[transportmodeId](#transportmodeId)|Unique identifier for entity instances|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[statecode](#statecode)|Status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[statuscode](#statuscode)|Reason for the status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[name](#name)|The name of the custom entity.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[description](#description)|The description of this transport mode.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[isSharedLoad](#isSharedLoad)|Indicates whether the transport mode carries less than a full load, or is shared across external organizations|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
 
 ### <a href=#transportmodeId name="transportmodeId">transportmodeId</a>
 

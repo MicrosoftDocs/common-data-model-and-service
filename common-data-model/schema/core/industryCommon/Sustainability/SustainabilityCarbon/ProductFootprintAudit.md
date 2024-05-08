@@ -51,24 +51,24 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)|Unique identifier for entity instances.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[statecode](#statecode)|Status of the Product carbon footprint assurance|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[statuscode](#statuscode)|Reason for the status of the Product carbon footprint assurance|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[name](#name)|The name of the custom entity.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[boundary](#boundary)|Boundary of the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[comments](#comments)|Any additional comments that will clarify the interpretation of the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[level](#level)|Level of assurance applicable to the PCF.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
+|[productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)|Unique identifier for entity instances.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[statecode](#statecode)|Status of the Product carbon footprint assurance|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[statuscode](#statuscode)|Reason for the status of the Product carbon footprint assurance|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[name](#name)|The name of the custom entity.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[boundary](#boundary)|Boundary of the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[comments](#comments)|Any additional comments that will clarify the interpretation of the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[level](#level)|Level of assurance applicable to the PCF.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
 
 ### <a href=#productcarbonfootprintassuranceId name="productcarbonfootprintassuranceId">productcarbonfootprintassuranceId</a>
 

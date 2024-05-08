@@ -48,44 +48,44 @@ Entity for business travel activity data, including vehicle, train, and air trav
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[businesstravelId](#businesstravelId)|Unique identifier for entity instances|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[name](#name)|The name of the custom entity.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[accountid](#accountid)|Unique identifier for value chain partner associated with this record.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[accommodationtypeid](#accommodationtypeid)|Unique identifier associated with the accommodation type related to business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[businesstraveltypeid](#businesstraveltypeid)|Unique identifier related to the business travel type. Used to identify emission factors.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[cost](#cost)|Cost associated with activity data.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[description](#description)|Optional description to give additional detail to the entity or attribute.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[destinationcountryisocode](#destinationcountryisocode)|ISO code for the destination country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[distance](#distance)|Quantity associated with distance activity which contributes to mobile combustion or supply chain travel.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[distanceunit](#distanceunit)|Unique identifier for the unit associated with distance.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[evidence](#evidence)|Optional field where evidence can be linked to an entity or attribute, if required.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[facilityid](#facilityid)|Unique identifier for Facility associated with business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[fuelquantity](#fuelquantity)|Unique identifier of the fuel consumption data associated with combustion or supply chain fuel usage.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[fuelquantityunit](#fuelquantityunit)|Unique identifier of the unit associated with fuel data.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[fueltypeid](#fueltypeid)|Unique identifier of the fuel type associated with combustion or supply chain fuel usage.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[industrialprocesstypeid](#industrialprocesstypeid)|Type of industrial process used to track and associate with activity data.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[nightstay](#nightstay)|Number of nights in hotel for business travel accounting.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[nightstayunit](#nightstayunit)|Unit associated with nights stay for business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[valuechainpartnerid](#valuechainpartnerid)|Reference to value chain partner or supplier associated with the transaction.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[vehicletype](#vehicletype)|Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="BusinessTravel.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/BusinessTravel</a>|
+|[businesstravelId](#businesstravelId)|Unique identifier for entity instances|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[name](#name)|The name of the custom entity.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[accountid](#accountid)|Unique identifier for value chain partner associated with this record.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[accommodationtypeid](#accommodationtypeid)|Unique identifier associated with the accommodation type related to business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[businesstraveltypeid](#businesstraveltypeid)|Unique identifier related to the business travel type. Used to identify emission factors.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[cost](#cost)|Cost associated with activity data.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[description](#description)|Optional description to give additional detail to the entity or attribute.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[destinationcountryisocode](#destinationcountryisocode)|ISO code for the destination country/region.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[distance](#distance)|Quantity associated with distance activity which contributes to mobile combustion or supply chain travel.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[distanceunit](#distanceunit)|Unique identifier for the unit associated with distance.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[evidence](#evidence)|Optional field where evidence can be linked to an entity or attribute, if required.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[facilityid](#facilityid)|Unique identifier for Facility associated with business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[fuelquantity](#fuelquantity)|Unique identifier of the fuel consumption data associated with combustion or supply chain fuel usage.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[fuelquantityunit](#fuelquantityunit)|Unique identifier of the unit associated with fuel data.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[fueltypeid](#fueltypeid)|Unique identifier of the fuel type associated with combustion or supply chain fuel usage.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[industrialprocesstypeid](#industrialprocesstypeid)|Type of industrial process used to track and associate with activity data.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[nightstay](#nightstay)|Number of nights in hotel for business travel accounting.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[nightstayunit](#nightstayunit)|Unit associated with nights stay for business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with business travel.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[valuechainpartnerid](#valuechainpartnerid)|Reference to value chain partner or supplier associated with the transaction.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[vehicletype](#vehicletype)|Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="BusinessTravel.md" target="_blank">Sustainability/SustainabilityCarbon/BusinessTravel</a>|
 
 ### <a href=#businesstravelId name="businesstravelId">businesstravelId</a>
 

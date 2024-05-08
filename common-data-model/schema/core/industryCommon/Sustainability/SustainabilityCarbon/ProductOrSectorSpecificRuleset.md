@@ -51,20 +51,20 @@ A set of product- or sector-specific rules published by a specific operator and 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productorsectorspecificruleId](#productorsectorspecificruleId)|Unique identifier for entity instances.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[statecode](#statecode)|Status of the Product or sector specific rule|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[statuscode](#statuscode)|Reason for the status of the Product or sector specific rule|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[name](#name)|The name of the custom entity.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[operator](#operator)|Product Category Rule (PCR) operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[otheroperatorname](#otheroperatorname)|If the value of field Operator is Other, this field is required and must not be one of the options for Operator. If the value of Operator isn't Other, this field must be empty.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[rulenames](#rulenames)|The non-empty set of rules applied from the specified operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
+|[productorsectorspecificruleId](#productorsectorspecificruleId)|Unique identifier for entity instances.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[statecode](#statecode)|Status of the Product or sector specific rule|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[statuscode](#statuscode)|Reason for the status of the Product or sector specific rule|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[name](#name)|The name of the custom entity.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[operator](#operator)|Product Category Rule (PCR) operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[otheroperatorname](#otheroperatorname)|If the value of field Operator is Other, this field is required and must not be one of the options for Operator. If the value of Operator isn't Other, this field must be empty.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[rulenames](#rulenames)|The non-empty set of rules applied from the specified operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset</a>|
 
 ### <a href=#productorsectorspecificruleId name="productorsectorspecificruleId">productorsectorspecificruleId</a>
 

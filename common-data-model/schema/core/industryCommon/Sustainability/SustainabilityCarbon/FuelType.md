@@ -51,18 +51,18 @@ List of fuels to be used during combustion, as needed for emissions factor selec
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[fueltypeId](#fueltypeId)|Unique identifier for entity instances|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[statecode](#statecode)|Status of the Fuel Type|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Fuel Type|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[name](#name)|The name of the custom entity.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FuelType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FuelType</a>|
+|[fueltypeId](#fueltypeId)|Unique identifier for entity instances|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[statecode](#statecode)|Status of the Fuel Type|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Fuel Type|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[name](#name)|The name of the custom entity.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FuelType.md" target="_blank">Sustainability/SustainabilityCarbon/FuelType</a>|
 
 ### <a href=#fueltypeId name="fueltypeId">fueltypeId</a>
 

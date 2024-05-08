@@ -48,43 +48,43 @@ The investment entity monitors and manages indirect greenhouse gas emissions res
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[investmentId](#investmentId)|Unique identifier for entity instances|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[name](#name)|Name of the scope 3 category 15 investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[customdimension](#customdimension)|Field where custom dimension values are stored in JSON format.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is actual, estimated, or another descriptor of the data.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[emissionverified](#emissionverified)|Indicates whether the emissions have been certified.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[enterprisevalueincludingcash](#enterprisevalueincludingcash)|The value of the enterprise, including cash.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[exposuretosovereignbond](#exposuretosovereignbond)|The amount of the investment exposed to sovereign bond.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[facilityid](#facilityid)|Unique identifier for the facility associated with investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[accountid](#accountid)|Investee account of the investment|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[investeescope1emission](#investeescope1emission)|Total scope 1 emissions for the investee. Scope 1 emissions are direct GHG emissions from sources that the organization owns or controls.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[investeescope1emissionunit](#investeescope1emissionunit)|Corresponding unit of measure for investee scope 1 emissions.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[investeescope2emission](#investeescope2emission)|Total scope 2 emissions for the investee. Scope 2 emissions are indirect GHG emissions related to purchases of electricity, heat, cooling, or steam for the facility.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[investeescope2emissionunit](#investeescope2emissionunit)|Corresponding unit of measure for investee scope 2 emissions.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[investeescope3emission](#investeescope3emission)|Total scope 3 emissions for the investee. Scope 3, or value chain, emissions are from assets that the organization doesn't own or control but that the organization may affect in its value chain.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[investeescope3emissionunit](#investeescope3emissionunit)|Corresponding unit of measure for investee scope 3 emissions.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[isincode](#isincode)|International Securities Identification Number, which is a unique alphanumeric identifier used to uniquely identify securities such as stocks, bonds, and other financial instruments.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[outstandingamount](#outstandingamount)|The outstanding amount of the investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[pcafassetclass](#pcafassetclass)|The Partnership for Carbon Accounting Financials (PCAF) asset class for the investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[pppadjustedgdp](#pppadjustedgdp)|The measurement of a country/region's gross domestic product (GDP) that takes into account differences in purchasing power between country/region, allowing for more accurate comparisons of economic output.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[propertyvalueatorigination](#propertyvalueatorigination)|Property value of the investment at origination.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[sourcetransactionId](#sourcetransactionId)|Identifier for the transaction.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[totalequityplusdebt](#totalequityplusdebt)|Total equity plus debt for the investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[totalvalueatorigination](#totalvalueatorigination)|Total value at origination for the investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[totalprojectequityplusdebt](#totalprojectequityplusdebt)|Total project equity plus debt for the investment.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="Investment.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/Investment</a>|
+|[investmentId](#investmentId)|Unique identifier for entity instances|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[name](#name)|Name of the scope 3 category 15 investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[customdimension](#customdimension)|Field where custom dimension values are stored in JSON format.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[dataqualitytype](#dataqualitytype)|Description of the data quality that identifies whether the data is actual, estimated, or another descriptor of the data.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[emissionverified](#emissionverified)|Indicates whether the emissions have been certified.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[enterprisevalueincludingcash](#enterprisevalueincludingcash)|The value of the enterprise, including cash.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[exposuretosovereignbond](#exposuretosovereignbond)|The amount of the investment exposed to sovereign bond.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[facilityid](#facilityid)|Unique identifier for the facility associated with investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[accountid](#accountid)|Investee account of the investment|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[investeescope1emission](#investeescope1emission)|Total scope 1 emissions for the investee. Scope 1 emissions are direct GHG emissions from sources that the organization owns or controls.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[investeescope1emissionunit](#investeescope1emissionunit)|Corresponding unit of measure for investee scope 1 emissions.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[investeescope2emission](#investeescope2emission)|Total scope 2 emissions for the investee. Scope 2 emissions are indirect GHG emissions related to purchases of electricity, heat, cooling, or steam for the facility.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[investeescope2emissionunit](#investeescope2emissionunit)|Corresponding unit of measure for investee scope 2 emissions.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[investeescope3emission](#investeescope3emission)|Total scope 3 emissions for the investee. Scope 3, or value chain, emissions are from assets that the organization doesn't own or control but that the organization may affect in its value chain.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[investeescope3emissionunit](#investeescope3emissionunit)|Corresponding unit of measure for investee scope 3 emissions.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[isincode](#isincode)|International Securities Identification Number, which is a unique alphanumeric identifier used to uniquely identify securities such as stocks, bonds, and other financial instruments.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[outstandingamount](#outstandingamount)|The outstanding amount of the investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[pcafassetclass](#pcafassetclass)|The Partnership for Carbon Accounting Financials (PCAF) asset class for the investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[pppadjustedgdp](#pppadjustedgdp)|The measurement of a country/region's gross domestic product (GDP) that takes into account differences in purchasing power between country/region, allowing for more accurate comparisons of economic output.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[propertyvalueatorigination](#propertyvalueatorigination)|Property value of the investment at origination.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[sourcetransactionId](#sourcetransactionId)|Identifier for the transaction.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[totalequityplusdebt](#totalequityplusdebt)|Total equity plus debt for the investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[totalvalueatorigination](#totalvalueatorigination)|Total value at origination for the investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[totalprojectequityplusdebt](#totalprojectequityplusdebt)|Total project equity plus debt for the investment.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="Investment.md" target="_blank">Sustainability/SustainabilityCarbon/Investment</a>|
 
 ### <a href=#investmentId name="investmentId">investmentId</a>
 

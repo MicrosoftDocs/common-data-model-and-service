@@ -51,19 +51,19 @@ Category of vehicle. Used by your organization as reference data to assist with 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[vehicletypeId](#vehicletypeId)|Unique identifier for entity instances|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[statecode](#statecode)|Status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[name](#name)|The name of the custom entity.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[isonroad](#isonroad)|Identifier for the vehicle classification used in mobile combustion and needed for correct emission identification.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="VehicleType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/VehicleType</a>|
+|[vehicletypeId](#vehicletypeId)|Unique identifier for entity instances|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[statecode](#statecode)|Status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Vehicle Type|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[name](#name)|The name of the custom entity.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[isonroad](#isonroad)|Identifier for the vehicle classification used in mobile combustion and needed for correct emission identification.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="VehicleType.md" target="_blank">Sustainability/SustainabilityCarbon/VehicleType</a>|
 
 ### <a href=#vehicletypeId name="vehicletypeId">vehicletypeId</a>
 

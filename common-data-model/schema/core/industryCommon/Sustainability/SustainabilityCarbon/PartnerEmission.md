@@ -48,66 +48,66 @@ Emissions from external sources
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[externalemissionId](#externalemissionId)|Unique identifier for entity instances|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[name](#name)|Name of external emission|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[account](#account)|Lookup to account.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[source](#source)||<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[activity](#activity)|Unique identifier of the activity linked to the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[activityentityname](#activityentityname)|Activity entity name|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[activityid](#activityid)|Activity ID|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[activityname](#activityname)|Category or reference data used for reporting purposes and populated during the calculation process.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[actualquantity](#actualquantity)|Adjusted activity quantity used for emission calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[actualquantityunit](#actualquantityunit)|Adjusted activity quantity unit used for emission calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[calculationdate](#calculationdate)|Date calculation occurred|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[category](#category)|Scope 3 category number.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[ch4](#ch4)|The amount of the CH₄ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[ch4unit](#ch4unit)|The unit for the CH₄ amount.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[co2](#co2)|The amount of the CO₂ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[co2e](#co2e)|The amount of the CO₂ equivalent factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[co2emt](#co2emt)|The amount of the CO₂ equivalent factor in metric tons.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[co2eunit](#co2eunit)|Unique identifier for the unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[co2unit](#co2unit)|The unit for the CO₂ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[countryisocode](#countryisocode)|The three letter ISO code of the country/region.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[emissionfactor](#emissionfactor)|Emission factor through which external emission is calculated|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[emissionlookup](#emissionlookup)|Factor mapping used for emission calculations.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[emissionsource](#emissionsource)|Emissions Source (Internal)|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[emissionsourcev2](#emissionsourcev2)|Emissions source reference.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[facilityid](#facilityid)|Unique identifier for the facility associated with mobile combustion.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[hfcs](#hfcs)|The amount of hydrofluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[isbiogenic](#isbiogenic)|Indicates if it is a biogenic emission, or emission from a natural source.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market-based or considered a "net" calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[n2o](#n2o)|The amount of the N₂O factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[n2ounit](#n2ounit)|Unique identifier for the unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[nf3](#nf3)|The amount of nitrogen trifluoride factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[nf3unit](#nf3unit)|The unit for the NF₃ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[otherghgs](#otherghgs)|Greenhouse gases associated with emissions that are not allocated in an individual category.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[otherghgsunit](#otherghgsunit)|Unique identifier for the unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[pfcs](#pfcs)|The amount of perfluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[pfcsunit](#pfcsunit)|The unit for the perfluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[productfootprint](#productfootprint)|Product footprint (Deprecated)|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[sf6](#sf6)|The amount of sulfur hexafluoride factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[sf6unit](#sf6unit)|The unit for SF₆ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[emissionoriginator](#emissionoriginator)|Identifies emission as customer, supplier or other origination|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
-|[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="PartnerEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerEmission</a>|
+|[externalemissionId](#externalemissionId)|Unique identifier for entity instances|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[name](#name)|Name of external emission|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[account](#account)|Lookup to account.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[source](#source)||<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[activity](#activity)|Unique identifier of the activity linked to the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[activityentityname](#activityentityname)|Activity entity name|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[activityid](#activityid)|Activity ID|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[activityname](#activityname)|Category or reference data used for reporting purposes and populated during the calculation process.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[actualquantity](#actualquantity)|Adjusted activity quantity used for emission calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[actualquantityunit](#actualquantityunit)|Adjusted activity quantity unit used for emission calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[calculationdate](#calculationdate)|Date calculation occurred|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[category](#category)|Scope 3 category number.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[ch4](#ch4)|The amount of the CH₄ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[ch4unit](#ch4unit)|The unit for the CH₄ amount.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[co2](#co2)|The amount of the CO₂ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[co2e](#co2e)|The amount of the CO₂ equivalent factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[co2emt](#co2emt)|The amount of the CO₂ equivalent factor in metric tons.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[co2eunit](#co2eunit)|Unique identifier for the unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[co2unit](#co2unit)|The unit for the CO₂ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[countryisocode](#countryisocode)|The three letter ISO code of the country/region.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[customdimension](#customdimension)|Field where Custom Dimension values are stored in JSON format.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[emissionfactor](#emissionfactor)|Emission factor through which external emission is calculated|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[emissionlookup](#emissionlookup)|Factor mapping used for emission calculations.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[emissionsource](#emissionsource)|Emissions Source (Internal)|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[emissionsourcev2](#emissionsourcev2)|Emissions source reference.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[facilityid](#facilityid)|Unique identifier for the facility associated with mobile combustion.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[hfcs](#hfcs)|The amount of hydrofluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[hfcsunit](#hfcsunit)|The unit for the hydrofluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[isbiogenic](#isbiogenic)|Indicates if it is a biogenic emission, or emission from a natural source.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[ismarketbased](#ismarketbased)|Indicates if emission calculation is market-based or considered a "net" calculation.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[latitude](#latitude)|This information can make it easier to submit reports for public disclosure.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[longitude](#longitude)|This information can make it easier to submit reports for public disclosure.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[n2o](#n2o)|The amount of the N₂O factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[n2ounit](#n2ounit)|Unique identifier for the unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[nf3](#nf3)|The amount of nitrogen trifluoride factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[nf3unit](#nf3unit)|The unit for the NF₃ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[otherghgs](#otherghgs)|Greenhouse gases associated with emissions that are not allocated in an individual category.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[otherghgsunit](#otherghgsunit)|Unique identifier for the unit associated with the emission.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[pfcs](#pfcs)|The amount of perfluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[pfcsunit](#pfcsunit)|The unit for the perfluorocarbons factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[productfootprint](#productfootprint)|Product footprint (Deprecated)|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[sf6](#sf6)|The amount of sulfur hexafluoride factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[sf6unit](#sf6unit)|The unit for SF₆ factor.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[emissionoriginator](#emissionoriginator)|Identifies emission as customer, supplier or other origination|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
+|[scope](#scope)|Emission scope as defined by the Greenhouse Gas Protocol.|<a href="PartnerEmission.md" target="_blank">Sustainability/SustainabilityCarbon/PartnerEmission</a>|
 
 ### <a href=#externalemissionId name="externalemissionId">externalemissionId</a>
 
