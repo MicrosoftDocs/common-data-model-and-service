@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 5/8/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Material in Cloud for Sustainability shared data model

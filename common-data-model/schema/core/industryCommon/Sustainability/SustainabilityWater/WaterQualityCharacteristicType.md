@@ -6,7 +6,7 @@ ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
 ms.date: 5/8/2024
-ms.author: cdmditeam
+ms.author: anbichse
 ---
 
 # Water quality characteristic type in Cloud for Sustainability water data model(WaterQualityCharacteristicType)
