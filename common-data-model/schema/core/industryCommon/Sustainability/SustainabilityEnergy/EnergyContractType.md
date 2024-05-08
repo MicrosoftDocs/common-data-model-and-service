@@ -51,21 +51,21 @@ Various types of documented method/approach to source energy.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[energycontracttypeId](#energycontracttypeId)|Unique identifier for entity instances|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[statecode](#statecode)|Status of the Energy contract type|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Energy contract type|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
-|[name](#name)||<a href="EnergyContractType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergyContractType</a>|
+|[energycontracttypeId](#energycontracttypeId)|Unique identifier for entity instances|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[statecode](#statecode)|Status of the Energy contract type|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Energy contract type|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
+|[name](#name)||<a href="EnergyContractType.md" target="_blank">Sustainability/SustainabilityEnergy/EnergyContractType</a>|
 
 ### <a href=#energycontracttypeId name="energycontracttypeId">energycontracttypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Energy contract type  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Energy contract type  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyC
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyContractType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergyContractType (this entity)  
 
 #### Properties
 

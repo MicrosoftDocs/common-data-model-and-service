@@ -51,21 +51,21 @@ Classification of energy entities such as electricity or gas.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[utilitytypeId](#utilitytypeId)|Unique identifier for entity instances|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[statecode](#statecode)|Status of the Utility type|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Utility type|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
-|[name](#name)||<a href="UtilityType.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/UtilityType</a>|
+|[utilitytypeId](#utilitytypeId)|Unique identifier for entity instances|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[statecode](#statecode)|Status of the Utility type|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Utility type|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
+|[name](#name)||<a href="UtilityType.md" target="_blank">Sustainability/SustainabilityEnergy/UtilityType</a>|
 
 ### <a href=#utilitytypeId name="utilitytypeId">utilitytypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -113,7 +113,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Utility type  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -239,7 +239,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Utility type  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -288,7 +288,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -368,7 +368,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 
@@ -453,7 +453,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Utility
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/UtilityType (this entity)  
+First included in: Sustainability/SustainabilityEnergy/UtilityType (this entity)  
 
 #### Properties
 

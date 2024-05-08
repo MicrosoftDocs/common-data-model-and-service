@@ -48,13 +48,13 @@ Business that represents a customer or potential customer. The company that is b
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/Account</a>|
-|[energyprovidertype](#energyprovidertype)|Type of provider for the purchased energy.|<a href="Account.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/Account</a>|
+|[accountId](#accountId)|Unique identifier of the account.|<a href="Account.md" target="_blank">Sustainability/SustainabilityEnergy/Account</a>|
+|[energyprovidertype](#energyprovidertype)|Type of provider for the purchased energy.|<a href="Account.md" target="_blank">Sustainability/SustainabilityEnergy/Account</a>|
 
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityEnergy/Account (this entity)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account
 ### <a href=#energyprovidertype name="energyprovidertype">energyprovidertype</a>
 
 Type of provider for the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account (this entity)  
+First included in: Sustainability/SustainabilityEnergy/Account (this entity)  
 
 #### Properties
 
