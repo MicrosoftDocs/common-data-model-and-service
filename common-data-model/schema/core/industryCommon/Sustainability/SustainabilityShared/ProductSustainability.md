@@ -60,13 +60,13 @@ A product that can be associated with a product carbon footprint.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 |[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[name](#name)|The non\x2dempty trade name of the product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[name](#name)|The non-empty trade name of the product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 |[productcategorycpc](#productcategorycpc)|A UN Central Product Classification (CPC) code that the given product belongs to. (Deprecated)|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[productdescription](#productdescription)|The free\x2dform description of the product plus other information related to it such as production technology or packaging.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[productdescription](#productdescription)|The free-form description of the product plus other information related to it such as production technology or packaging.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[accountid](#accountid)|Value\x2dchain partner (e.g., supplier) this product is sourced from.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[accountid](#accountid)|Value-chain partner (e.g., supplier) this product is sourced from.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 |[productcategoryid](#productcategoryid)|Category for this product.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
-|[isfirstparty](#isfirstparty)|Whether this product is first\x2dparty.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
+|[isfirstparty](#isfirstparty)|Whether this product is first-party.|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 |[productalternateid](#productalternateid)|Optional identifier for product|<a href="ProductSustainability.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/ProductSustainability</a>|
 
 ### <a href=#sustainabilityproductId name="sustainabilityproductId">sustainabilityproductId</a>
@@ -460,7 +460,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 
 ### <a href=#name name="name">name</a>
 
-The non\x2dempty trade name of the product.  
+The non-empty trade name of the product.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
@@ -556,7 +556,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 
 ### <a href=#productdescription name="productdescription">productdescription</a>
 
-The free\x2dform description of the product plus other information related to it such as production technology or packaging.  
+The free-form description of the product plus other information related to it such as production technology or packaging.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
@@ -652,7 +652,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Value\x2dchain partner (e.g., supplier) this product is sourced from.  
+Value-chain partner (e.g., supplier) this product is sourced from.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties
@@ -742,7 +742,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Product
 
 ### <a href=#isfirstparty name="isfirstparty">isfirstparty</a>
 
-Whether this product is first\x2dparty.  
+Whether this product is first-party.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ProductSustainability (this entity)  
 
 #### Properties

@@ -66,7 +66,7 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
 |[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
 |[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
 |[level](#level)|Level of assurance applicable to the PCF.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
-|[providername](#providername)|The non\x2dempty name of the independent third party engaged to undertake the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
+|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
 |[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit</a>|
 
@@ -735,7 +735,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 
 ### <a href=#providername name="providername">providername</a>
 
-The non\x2dempty name of the independent third party engaged to undertake the assurance.  
+The non-empty name of the independent third party engaged to undertake the assurance.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties

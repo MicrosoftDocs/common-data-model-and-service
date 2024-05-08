@@ -78,8 +78,8 @@ Entity for purchased goods and services.
 |[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the purchased good and service.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
-|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="PurchasedGoodAndService.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService</a>|
 
 ### <a href=#purchasedgoodandserviceId name="purchasedgoodandserviceId">purchasedgoodandserviceId</a>
@@ -1401,7 +1401,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService (this entity)  
 
 #### Properties
@@ -1446,7 +1446,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Purchas
 
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
-Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.  
+Product footprint that contains per-unit emissions data that can be used to compute emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PurchasedGoodAndService (this entity)  
 
 #### Properties

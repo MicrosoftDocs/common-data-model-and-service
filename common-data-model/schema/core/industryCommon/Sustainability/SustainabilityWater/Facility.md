@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Facility in CloudforSustainabilityWaterDataModel
 
-Base\x2dlevel location to attribute activity data. May contain multiple buildings and organizational units.  
+Base-level location to attribute activity data. May contain multiple buildings and organizational units.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWaterDataModel/Facility.cdm.json" target="_blank">GitHub</a>.  
 

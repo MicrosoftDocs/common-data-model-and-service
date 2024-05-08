@@ -84,11 +84,11 @@ Upstream and downstream transportation and distribution activities.
 |[transportationanddistributiontype](#transportationanddistributiontype)|Marks what type of transportation and distribution this record represents.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[transportmode](#transportmode)|The transport mode that corresponds to this transportation and distribution activity.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[vehicletype](#vehicletype)|Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
-|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with transportation and distribution.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="TransportationAndDistribution.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution</a>|
 
 ### <a href=#transportationanddistributionId name="transportationanddistributionId">transportationanddistributionId</a>
 
@@ -1674,7 +1674,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
-Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.  
+Product footprint that contains per-unit emissions data that can be used to compute emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution (this entity)  
 
 #### Properties
@@ -1854,7 +1854,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportationAndDistribution (this entity)  
 
 #### Properties

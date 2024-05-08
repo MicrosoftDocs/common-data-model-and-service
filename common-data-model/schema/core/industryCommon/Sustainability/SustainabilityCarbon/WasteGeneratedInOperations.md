@@ -58,7 +58,7 @@ Entity for waste generated in operations, including disposal and treatment of wa
 |[name](#name)|The name of the custom entity.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[cost](#cost)|Cost associated with activity data.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[costunit](#costunit)|Unit associated with the cost quantity.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
@@ -88,9 +88,9 @@ Entity for waste generated in operations, including disposal and treatment of wa
 |[wastequantity](#wastequantity)|Quantity of waste to be used in calculation |<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[wastequantityunit](#wastequantityunit)|Unit associated with quantity of waste. Generally mass or volume. |<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
-|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[category](#category)|Indicator of classification of category.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="WasteGeneratedInOperations.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations</a>|
@@ -526,7 +526,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGe
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations (this entity)  
 
 #### Properties
@@ -1866,7 +1866,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGe
 
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
-Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.  
+Product footprint that contains per-unit emissions data that can be used to compute emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations (this entity)  
 
 #### Properties
@@ -1956,7 +1956,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGe
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/WasteGeneratedInOperations (this entity)  
 
 #### Properties

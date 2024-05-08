@@ -67,7 +67,7 @@ Entity to store estimation or consumption factors.
 |[factorvalue](#factorvalue)|Factor value for the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
 |[factorvalueunit](#factorvalueunit)|Unit of the factor value associated with the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
-|[subtype](#subtype)|The sub\x2dtype of the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
+|[subtype](#subtype)|The sub-type of the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
 |[type](#type)|The type of the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
 |[unit](#unit)|The unit for the input data for the estimation factor.|<a href="EstimationFactor.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/EstimationFactor</a>|
 
@@ -787,7 +787,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Estimat
 
 ### <a href=#subtype name="subtype">subtype</a>
 
-The sub\x2dtype of the estimation factor.  
+The sub-type of the estimation factor.  
 First included in: Sustainability\\CloudforSustainabilitySharedDataModel/EstimationFactor (this entity)  
 
 #### Properties

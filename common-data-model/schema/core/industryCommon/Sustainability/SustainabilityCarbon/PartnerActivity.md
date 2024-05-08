@@ -56,12 +56,12 @@ Table that holds activities from external sources
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[name](#name)||<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[activitysource](#activitysource)|SDD for the activity that's being referenced|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[accommodationtypeid](#accommodationtypeid)|Unique identifier associated with the accommodation type related to business travel.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[businesstraveltypeid](#businesstraveltypeid)|Unique identifier related to the business travel type. Used to identify emission factors.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[consumptionenddate](#consumptionenddate)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
-|[consumptionstartdate](#consumptionstartdate)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
+|[consumptionenddate](#consumptionenddate)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
+|[consumptionstartdate](#consumptionstartdate)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[dataqualitytype](#dataqualitytype)|Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[disposalmethodid](#disposalmethodid)|Method of waste disposal, such as compost or recycle.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
 |[employeecommutingtypeid](#employeecommutingtypeid)|Unique identifier related to the employee commuting type. Used to identify emission factors.|<a href="PartnerActivity.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PartnerActivity</a>|
@@ -430,7 +430,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
@@ -610,7 +610,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
@@ -647,7 +647,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties

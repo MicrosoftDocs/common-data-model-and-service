@@ -85,9 +85,9 @@ Entity for end for life treatment of sold products
 |[transactiondate](#transactiondate)|Date associated with the actual date when the transaction occurred.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[transportmode](#transportmode)|Only used if distance is not included in waste disposal factor.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
-|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="EndOfLifeTreatmentOfSoldProducts.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts</a>|
 
 ### <a href=#endoflifetreatmentofsoldproductsId name="endoflifetreatmentofsoldproductsId">endoflifetreatmentofsoldproductsId</a>
@@ -1728,7 +1728,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EndOfLi
 
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
-Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.  
+Product footprint that contains per-unit emissions data that can be used to compute emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
@@ -1818,7 +1818,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EndOfLi
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties

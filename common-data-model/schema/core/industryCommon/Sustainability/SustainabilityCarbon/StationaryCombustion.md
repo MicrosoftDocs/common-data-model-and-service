@@ -57,7 +57,7 @@ Combustion that occurs in a fixed asset, such as a boiler or furnace.
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[name](#name)|The name of the custom entity.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
-|[accountid](#accountid)|Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
+|[accountid](#accountid)|Comprehensive information about a supplier, customer, third-party manufacturer, or investee.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[consumptionenddate](#consumptionenddate)|End date of activity consumption.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[consumptionstartdate](#consumptionstartdate)|Start date of activity consumption.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[cost](#cost)|Cost associated with the activity data.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
@@ -86,7 +86,7 @@ Combustion that occurs in a fixed asset, such as a boiler or furnace.
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the spend category. Generally, applies to scope 3 emissions.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
 |[category](#category)|Indicator of classification of category.|<a href="StationaryCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/StationaryCombustion</a>|
@@ -486,7 +486,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Station
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
+Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/StationaryCombustion (this entity)  
 
 #### Properties
@@ -1774,7 +1774,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Station
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/StationaryCombustion (this entity)  
 
 #### Properties

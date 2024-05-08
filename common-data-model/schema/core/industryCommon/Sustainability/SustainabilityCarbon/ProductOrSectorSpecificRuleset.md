@@ -11,7 +11,7 @@ ms.author: cdmditeam
 
 # Product or sector specific ruleset in CloudforSustainabilityCarbonDataModel(ProductOrSectorSpecificRuleset)
 
-A set of product\x2d or sector\x2dspecific rules published by a specific operator and applied during product carbon footprint calculation.  
+A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.  
   
  Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset.cdm.json" target="_blank">GitHub</a>.  
 
@@ -63,7 +63,7 @@ A set of product\x2d or sector\x2dspecific rules published by a specific operato
 |[name](#name)|The name of the custom entity.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
 |[operator](#operator)|Product Category Rule (PCR) operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
 |[otheroperatorname](#otheroperatorname)|If the value of field Operator is Other, this field is required and must not be one of the options for Operator. If the value of Operator isn't Other, this field must be empty.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
-|[rulenames](#rulenames)|The non\x2dempty set of rules applied from the specified operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
+|[rulenames](#rulenames)|The non-empty set of rules applied from the specified operator.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductOrSectorSpecificRuleset.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset</a>|
 
 ### <a href=#productorsectorspecificruleId name="productorsectorspecificruleId">productorsectorspecificruleId</a>
@@ -599,7 +599,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 
 ### <a href=#rulenames name="rulenames">rulenames</a>
 
-The non\x2dempty set of rules applied from the specified operator.  
+The non-empty set of rules applied from the specified operator.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties

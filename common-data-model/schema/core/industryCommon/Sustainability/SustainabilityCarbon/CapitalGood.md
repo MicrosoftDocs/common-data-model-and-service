@@ -76,8 +76,8 @@ Purchased entity that depreciates over time.
 |[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
+|[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per-unit emissions data that can be used to compute emissions.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 
 ### <a href=#capitalgoodId name="capitalgoodId">capitalgoodId</a>
@@ -1308,7 +1308,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
@@ -1353,7 +1353,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
-Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.  
+Product footprint that contains per-unit emissions data that can be used to compute emissions.  
 First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
