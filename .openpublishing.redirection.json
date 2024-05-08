@@ -41,6 +41,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductFootprint.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductFootprintRuleMapping.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductOrSectorSpecificRuleset.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewProductCarbonFootprintAudit.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/productfootprintaudit",
       "redirect_document_id": "false"
