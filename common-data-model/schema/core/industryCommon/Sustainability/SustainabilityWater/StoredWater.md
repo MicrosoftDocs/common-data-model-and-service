@@ -1,5 +1,5 @@
 ---
-title: StoredWater in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
+title: StoredWater in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
 description: The entity stores data related to the water stored within a facility.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Stored water in CloudforSustainabilityWaterDataModel(StoredWater)
+# Stored water in Cloud for Sustainability water data model(StoredWater)
 
 The entity stores data related to the water stored within a facility.  
   

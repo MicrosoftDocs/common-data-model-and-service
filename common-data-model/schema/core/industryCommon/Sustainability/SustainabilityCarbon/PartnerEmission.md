@@ -1,5 +1,5 @@
 ---
-title: PartnerEmission in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: PartnerEmission in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Emissions from external sources
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Partner emission in CloudforSustainabilityCarbonDataModel(PartnerEmission)
+# Partner emission in Cloud for Sustainability carbon data model(PartnerEmission)
 
 Emissions from external sources  
   

@@ -1,5 +1,5 @@
 ---
-title: DisposalMethod in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: DisposalMethod in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of disposal method, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Disposal method in CloudforSustainabilityCarbonDataModel(DisposalMethod)
+# Disposal method in Cloud for Sustainability carbon data model(DisposalMethod)
 
 Entity used for classifying the type of disposal method, as defined in the reporting company.  
   

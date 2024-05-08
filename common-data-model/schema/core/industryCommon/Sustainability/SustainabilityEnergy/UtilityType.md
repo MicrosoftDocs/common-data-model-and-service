@@ -1,5 +1,5 @@
 ---
-title: UtilityType in CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
+title: UtilityType in Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
 description: Classification of energy entities such as electricity or gas.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Utility type in CloudforSustainabilityEnergyDataModel(UtilityType)
+# Utility type in Cloud for Sustainability energy data model(UtilityType)
 
 Classification of energy entities such as electricity or gas.  
   

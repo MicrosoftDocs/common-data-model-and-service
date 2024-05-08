@@ -1,5 +1,5 @@
 ---
-title: Meter in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: Meter in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: An entity that represents meters.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Meter in CloudforSustainabilitySharedDataModel
+# Meter in Cloud for Sustainability shared data model
 
 An entity that represents meters.  
   

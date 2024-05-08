@@ -1,5 +1,5 @@
 ---
-title: WasteType in CloudforSustainabilityWasteDataModel - Common Data Model | Microsoft Docs
+title: WasteType in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
 description: Stores information on the type of waste generated.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Waste type in CloudforSustainabilityWasteDataModel(WasteType)
+# Waste type in Cloud for Sustainability waste data model(WasteType)
 
 Stores information on the type of waste generated.  
   

@@ -1,5 +1,5 @@
 ---
-title: Investment in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: Investment in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The investment entity monitors and manages indirect greenhouse gas emissions resulting from the organization's investments in projects, companies, or assets contributing to climate change.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Investment in CloudforSustainabilityCarbonDataModel
+# Investment in Cloud for Sustainability carbon data model
 
 The investment entity monitors and manages indirect greenhouse gas emissions resulting from the organization's investments in projects, companies, or assets contributing to climate change.  
   

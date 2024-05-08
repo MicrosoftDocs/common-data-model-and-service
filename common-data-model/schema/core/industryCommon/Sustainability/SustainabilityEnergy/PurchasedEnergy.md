@@ -1,5 +1,5 @@
 ---
-title: PurchasedEnergy in CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
+title: PurchasedEnergy in Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
 description: Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Purchased energy in CloudforSustainabilityEnergyDataModel(PurchasedEnergy)
+# Purchased energy in Cloud for Sustainability energy data model(PurchasedEnergy)
 
 Electric energy, measured in MWh, delivered by the utility to a customer in accordance with the signed agreement.  
   

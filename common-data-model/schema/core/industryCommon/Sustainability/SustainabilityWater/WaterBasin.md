@@ -1,5 +1,5 @@
 ---
-title: WaterBasin in CloudforSustainabilityWaterDataModel - Common Data Model | Microsoft Docs
+title: WaterBasin in Cloud for Sustainability water data model - Common Data Model | Microsoft Docs
 description: Describes the details of the basin from which water is being withdrawn by an entity.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Water basin in CloudforSustainabilityWaterDataModel(WaterBasin)
+# Water basin in Cloud for Sustainability water data model(WaterBasin)
 
 Describes the details of the basin from which water is being withdrawn by an entity.  
   

@@ -1,5 +1,5 @@
 ---
-title: SustainabilityModule in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: SustainabilityModule in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity used to classify the data definitions.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Sustainability module in CloudforSustainabilitySharedDataModel(SustainabilityModule)
+# Sustainability module in Cloud for Sustainability shared data model(SustainabilityModule)
 
 Entity used to classify the data definitions.  
   

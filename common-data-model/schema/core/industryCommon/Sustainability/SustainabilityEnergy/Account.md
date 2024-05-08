@@ -1,5 +1,5 @@
 ---
-title: Account in CloudforSustainabilityEnergyDataModel - Common Data Model | Microsoft Docs
+title: Account in Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
 description: Business that represents a customer or potential customer. The company that is billed in business transactions.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Account in CloudforSustainabilityEnergyDataModel
+# Account in Cloud for Sustainability energy data model
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.  
   

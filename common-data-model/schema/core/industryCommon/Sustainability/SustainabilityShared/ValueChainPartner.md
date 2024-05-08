@@ -1,5 +1,5 @@
 ---
-title: ValueChainPartner in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: ValueChainPartner in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity for value chain partner or supplier.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Value Chain Partner in CloudforSustainabilitySharedDataModel
+# Value Chain Partner in Cloud for Sustainability shared data model
 
 Entity for value chain partner or supplier.  
   

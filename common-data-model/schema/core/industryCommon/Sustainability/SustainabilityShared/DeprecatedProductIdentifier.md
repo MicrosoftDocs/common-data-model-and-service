@@ -1,5 +1,5 @@
 ---
-title: DeprecatedProductIdentifier in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: DeprecatedProductIdentifier in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Uniquely identifies a product.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# (Deprecated) Product identifier in CloudforSustainabilitySharedDataModel(DeprecatedProductIdentifier)
+# (Deprecated) Product identifier in Cloud for Sustainability shared data model(DeprecatedProductIdentifier)
 
 Uniquely identifies a product.  
   

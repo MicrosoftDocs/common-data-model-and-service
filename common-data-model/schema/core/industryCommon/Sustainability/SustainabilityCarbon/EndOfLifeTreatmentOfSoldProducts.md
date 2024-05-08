@@ -1,5 +1,5 @@
 ---
-title: EndOfLifeTreatmentOfSoldProducts in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: EndOfLifeTreatmentOfSoldProducts in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Entity for end for life treatment of sold products
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# End-of-life treatment of sold products in CloudforSustainabilityCarbonDataModel(EndOfLifeTreatmentOfSoldProducts)
+# End-of-life treatment of sold products in Cloud for Sustainability carbon data model(EndOfLifeTreatmentOfSoldProducts)
 
 Entity for end for life treatment of sold products  
   

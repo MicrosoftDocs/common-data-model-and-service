@@ -1,5 +1,5 @@
 ---
-title: CountryRegion in CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: CountryRegion in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Defines custom country/region codes.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# Country/Region in CloudforSustainabilitySharedDataModel(CountryRegion)
+# Country/Region in Cloud for Sustainability shared data model(CountryRegion)
 
 Defines custom country/region codes.  
   

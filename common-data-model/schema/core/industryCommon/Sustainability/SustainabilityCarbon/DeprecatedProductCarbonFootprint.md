@@ -1,5 +1,5 @@
 ---
-title: DeprecatedProductCarbonFootprint in CloudforSustainabilityCarbonDataModel - Common Data Model | Microsoft Docs
+title: DeprecatedProductCarbonFootprint in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: The carbon footprint of a product and related data in accordance with the Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: cdmditeam
 ---
 
-# (Deprecated) Product carbon footprint in CloudforSustainabilityCarbonDataModel(DeprecatedProductCarbonFootprint)
+# (Deprecated) Product carbon footprint in Cloud for Sustainability carbon data model(DeprecatedProductCarbonFootprint)
 
 The carbon footprint of a product and related data in accordance with the Pathfinder Framework.  
   
