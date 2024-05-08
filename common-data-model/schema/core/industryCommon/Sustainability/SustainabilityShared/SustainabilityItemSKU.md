@@ -63,7 +63,7 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
 |[name](#name)|The name of the item.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[casnumber](#casnumber)|Chemical Abstracts Service|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[description](#description)|Optional description that provides more details about the attribute.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
-|[globaltradeitemnumber](#globaltradeitemnumber)|The Global Trade Item Number \(GTIN\).|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
+|[globaltradeitemnumber](#globaltradeitemnumber)|The Global Trade Item Number (GTIN\).|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[sustainabilityitemcategorysku](#sustainabilityitemcategorysku)|The category of the item defined by the undertaking in its upstream systems.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[itemtype](#itemtype)|The type of item such as input material, or finished good.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
 |[material](#material)|The material the item is made of.|<a href="SustainabilityItemSKU.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU</a>|
@@ -81,7 +81,7 @@ Entity for capturing data on items/SKU inventoried such as input material and fi
 ### <a href=#sustainabilityitemskuId name="sustainabilityitemskuId">sustainabilityitemskuId</a>
 
 The unique identifier of the item in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -129,7 +129,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -169,7 +169,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -209,7 +209,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Item  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -255,7 +255,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Item  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -304,7 +304,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -347,7 +347,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -427,7 +427,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -470,7 +470,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#name name="name">name</a>
 
 The name of the item.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -518,7 +518,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#casnumber name="casnumber">casnumber</a>
 
 Chemical Abstracts Service  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -613,8 +613,8 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 ### <a href=#globaltradeitemnumber name="globaltradeitemnumber">globaltradeitemnumber</a>
 
-The Global Trade Item Number \(GTIN\).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+The Global Trade Item Number (GTIN\).  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -662,7 +662,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#sustainabilityitemcategorysku name="sustainabilityitemcategorysku">sustainabilityitemcategorysku</a>
 
 The category of the item defined by the undertaking in its upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -707,7 +707,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#itemtype name="itemtype">itemtype</a>
 
 The type of item such as input material, or finished good.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -753,7 +753,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#material name="material">material</a>
 
 The material the item is made of.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -798,7 +798,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
 Lookup to the sustainability product.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -842,7 +842,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -882,7 +882,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the product will remain active. This date can be in the future.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#valuechainpartner name="valuechainpartner">valuechainpartner</a>
 
 The supplier name that is supplying this item from the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -966,7 +966,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 ### <a href=#volume name="volume">volume</a>
 
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#volumeunit name="volumeunit">volumeunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -1054,7 +1054,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#weight name="weight">weight</a>
 
 The weight of the item.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -1097,7 +1097,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#weightunit name="weightunit">weightunit</a>
 
 The unit of measure used for the item volume.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -1142,7 +1142,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 
@@ -1190,7 +1190,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityItemSKU (this entity\)  
 
 #### Properties
 

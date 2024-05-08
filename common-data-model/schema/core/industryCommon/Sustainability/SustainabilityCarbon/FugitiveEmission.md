@@ -71,7 +71,7 @@ Greenhouse gas emissions that cannot reasonably be expected to be captured. Typi
 |[greenhousegas](#greenhousegas)|Unique identifier for the greenhouse gas associated with the fugitive emission.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the fugitive emission.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[leasedassetcategory](#leasedassetcategory)|Indicator of classification of category. An empty value means this activity is in scope 1.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
-|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time \(in years\) a consumer can expect a product to remain useful and functional after purchase.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
+|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years\) a consumer can expect a product to remain useful and functional after purchase.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the fugitive emission.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[quantity](#quantity)|Generic quanity field associated with the activity entities.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
@@ -81,17 +81,17 @@ Greenhouse gas emissions that cannot reasonably be expected to be captured. Typi
 |[valuechainpartnerid](#valuechainpartnerid)|Unique identifier for value chain partner associated with this record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[goodsquantity](#goodsquantity)|The amount of goods associated with this record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[goodsunit](#goodsunit)|The unit of measurement for the goods quantity in record.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
-|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. \(Deprecated\)|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
+|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated\)|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. \(Deprecated\)|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
-|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. \(Deprecated\)|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated\)|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
+|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated\)|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[category](#category)|Indicator of classification of category.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FugitiveEmission.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/FugitiveEmission</a>|
 
 ### <a href=#fugitiveemissionId name="fugitiveemissionId">fugitiveemissionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -139,7 +139,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -182,7 +182,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -230,7 +230,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -270,7 +270,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -310,7 +310,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -353,7 +353,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -390,7 +390,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -438,7 +438,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#accountid name="accountid">accountid</a>
 
 Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -483,7 +483,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of the activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of the activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -557,7 +557,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with the activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -600,7 +600,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#costunitid name="costunitid">costunitid</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -645,7 +645,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -693,7 +693,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -787,7 +787,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -835,7 +835,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with the fugitive emission.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -880,7 +880,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#facilityusagedetailid name="facilityusagedetailid">facilityusagedetailid</a>
 
 The facility usage detail associated with this fugitive emission  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -925,7 +925,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -970,7 +970,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#greenhousegas name="greenhousegas">greenhousegas</a>
 
 Unique identifier for the greenhouse gas associated with the fugitive emission.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1015,7 +1015,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with the fugitive emission.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1060,7 +1060,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#leasedassetcategory name="leasedassetcategory">leasedassetcategory</a>
 
 Indicator of classification of category. An empty value means this activity is in scope 1.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1105,8 +1105,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 
 ### <a href=#lifespaninyears name="lifespaninyears">lifespaninyears</a>
 
-The product lifespan refers to the duration of time \(in years\) a consumer can expect a product to remain useful and functional after purchase.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+The product lifespan refers to the duration of time (in years\) a consumer can expect a product to remain useful and functional after purchase.  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1149,7 +1149,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the fugitive emission.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1194,7 +1194,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with the activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1237,7 +1237,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1285,7 +1285,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1322,7 +1322,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1367,7 +1367,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1412,7 +1412,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Unique identifier for value chain partner associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1457,7 +1457,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 The amount of goods associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1500,7 +1500,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 The unit of measurement for the goods quantity in record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1544,8 +1544,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 
 ### <a href=#product name="product">product</a>
 
-A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. \(Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1590,7 +1590,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1634,8 +1634,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. \(Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1679,8 +1679,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 
 ### <a href=#productidentifier name="productidentifier">productidentifier</a>
 
-A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. \(Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1725,7 +1725,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#category name="category">category</a>
 
 Indicator of classification of category.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 
@@ -1771,7 +1771,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Fugitiv
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/FugitiveEmission (this entity\)  
 
 #### Properties
 

@@ -76,7 +76,7 @@ Entity for value chain partner or supplier.
 ### <a href=#valuechainpartnerId name="valuechainpartnerId">valuechainpartnerId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -124,7 +124,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -204,7 +204,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Value Chain Partner  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -250,7 +250,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Value Chain Partner  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -299,7 +299,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -342,7 +342,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -379,7 +379,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -422,7 +422,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -465,7 +465,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -513,7 +513,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addresscity name="addresscity">addresscity</a>
 
 City associated with the value chain partner.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addresscountryisocode name="addresscountryisocode">addresscountryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -654,7 +654,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addresscounty name="addresscounty">addresscounty</a>
 
 County associated with the value chain partner address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -702,7 +702,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addressstateprovince name="addressstateprovince">addressstateprovince</a>
 
 State/province associated with the value chain partner address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -750,7 +750,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addressstreet1 name="addressstreet1">addressstreet1</a>
 
 Address line 1 of the street address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -798,7 +798,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addressstreet2 name="addressstreet2">addressstreet2</a>
 
 Address line 2 of the street address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -846,7 +846,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#addresszippostalcode name="addresszippostalcode">addresszippostalcode</a>
 
 Zip code or postal code associated with the address.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -894,7 +894,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#companyregistrationnumber name="companyregistrationnumber">companyregistrationnumber</a>
 
 Unique identifier that is related to the value chain partner.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -942,7 +942,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 
@@ -990,7 +990,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueCh
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/ValueChainPartner (this entity\)  
 
 #### Properties
 

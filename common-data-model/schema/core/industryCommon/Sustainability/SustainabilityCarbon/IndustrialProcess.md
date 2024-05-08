@@ -68,10 +68,10 @@ Emissions source for scope 1 emissions relating to industrial processes.
 |[evidence](#evidence)|Optional field where evidence can be linked to the entity or attribute, if required.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[facilityId](#facilityId)|Unique identifier for Facility associated with Industrial Process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type associated with the industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time \(in years\) a consumer can expect a product to remain useful and functional after purchase.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
+|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years\) a consumer can expect a product to remain useful and functional after purchase.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[organizationalunitid](#organizationalunitid)|Unique identifier for the organizational unit associated with the industrial process.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. \(Deprecated\)|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
-|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. \(Deprecated\)|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
+|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated\)|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
+|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated\)|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[quantity](#quantity)|Generic quanity field associated with activity entities.|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
 |[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin|<a href="IndustrialProcess.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/IndustrialProcess</a>|
@@ -87,7 +87,7 @@ Emissions source for scope 1 emissions relating to industrial processes.
 ### <a href=#industrialprocessId name="industrialprocessId">industrialprocessId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -135,7 +135,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -178,7 +178,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -226,7 +226,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -266,7 +266,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -306,7 +306,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -349,7 +349,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -386,7 +386,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -434,7 +434,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#accountid name="accountid">accountid</a>
 
 Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -524,7 +524,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of the activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -561,7 +561,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of the activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -598,7 +598,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with the activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -686,7 +686,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -780,7 +780,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -828,7 +828,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -876,7 +876,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for Facility associated with Industrial Process.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -921,7 +921,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with the industrial process.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -965,8 +965,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 
 ### <a href=#lifespaninyears name="lifespaninyears">lifespaninyears</a>
 
-The product lifespan refers to the duration of time \(in years\) a consumer can expect a product to remain useful and functional after purchase.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+The product lifespan refers to the duration of time (in years\) a consumer can expect a product to remain useful and functional after purchase.  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1009,7 +1009,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the industrial process.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1053,8 +1053,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 
 ### <a href=#product name="product">product</a>
 
-A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. \(Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1098,8 +1098,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 
 ### <a href=#productidentifier name="productidentifier">productidentifier</a>
 
-A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. \(Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1144,7 +1144,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1189,7 +1189,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1232,7 +1232,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1280,7 +1280,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1317,7 +1317,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1362,7 +1362,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#category name="category">category</a>
 
 Indicator of classification of category.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1408,7 +1408,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 The amount of goods associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1451,7 +1451,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 The unit of measurement for the goods quantity in record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1496,7 +1496,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1541,7 +1541,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#facilityusagedetailid name="facilityusagedetailid">facilityusagedetailid</a>
 
 The facility usage detail associated with this industrial process.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 
@@ -1586,7 +1586,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Industr
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/IndustrialProcess (this entity\)  
 
 #### Properties
 

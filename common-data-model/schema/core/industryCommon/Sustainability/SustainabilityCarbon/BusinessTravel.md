@@ -90,7 +90,7 @@ Entity for business travel activity data, including vehicle, train, and air trav
 ### <a href=#businesstravelId name="businesstravelId">businesstravelId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -138,7 +138,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -181,7 +181,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -229,7 +229,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -269,7 +269,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -309,7 +309,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -352,7 +352,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -389,7 +389,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -437,7 +437,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#accountid name="accountid">accountid</a>
 
 Unique identifier for value chain partner associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -482,7 +482,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#accommodationtypeid name="accommodationtypeid">accommodationtypeid</a>
 
 Unique identifier associated with the accommodation type related to business travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#businesstraveltypeid name="businesstraveltypeid">businesstraveltypeid</a>
 
 Unique identifier related to the business travel type. Used to identify emission factors.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -572,7 +572,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -609,7 +609,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -646,7 +646,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -689,7 +689,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -734,7 +734,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -782,7 +782,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -828,7 +828,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#description name="description">description</a>
 
 Optional description to give additional detail to the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -876,7 +876,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -921,7 +921,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#destinationcountryisocode name="destinationcountryisocode">destinationcountryisocode</a>
 
 ISO code for the destination country/region.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -969,7 +969,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#distance name="distance">distance</a>
 
 Quantity associated with distance activity which contributes to mobile combustion or supply chain travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1012,7 +1012,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#distanceunit name="distanceunit">distanceunit</a>
 
 Unique identifier for the unit associated with distance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1057,7 +1057,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to an entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1105,7 +1105,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for Facility associated with business travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1150,7 +1150,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#fuelquantity name="fuelquantity">fuelquantity</a>
 
 Unique identifier of the fuel consumption data associated with combustion or supply chain fuel usage.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#fuelquantityunit name="fuelquantityunit">fuelquantityunit</a>
 
 Unique identifier of the unit associated with fuel data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier of the fuel type associated with combustion or supply chain fuel usage.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1283,7 +1283,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Type of industrial process used to track and associate with activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1328,7 +1328,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#nightstay name="nightstay">nightstay</a>
 
 Number of nights in hotel for business travel accounting.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1371,7 +1371,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#nightstayunit name="nightstayunit">nightstayunit</a>
 
 Unit associated with nights stay for business travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1416,7 +1416,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with business travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1461,7 +1461,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1504,7 +1504,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1549,7 +1549,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1597,7 +1597,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1634,7 +1634,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to value chain partner or supplier associated with the transaction.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1679,7 +1679,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#vehicletype name="vehicletype">vehicletype</a>
 
 Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 
@@ -1724,7 +1724,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Busines
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/BusinessTravel (this entity\)  
 
 #### Properties
 

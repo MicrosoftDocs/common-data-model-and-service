@@ -69,13 +69,13 @@ Greenhouse Gas Protocol\x2ddefined emissions sources in scopes 1, 2, and 3.
 |[sourcedatafield](#sourcedatafield)|Optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
 |[sourcedatafield2](#sourcedatafield2)|Second optional field entity for additional views.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
 |[sourcedatavalue](#sourcedatavalue)|The value of source data.|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
-|[sourcedatavalue2](#sourcedatavalue2)|The value of source data \(Source data field 2\).|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
+|[sourcedatavalue2](#sourcedatavalue2)|The value of source data (Source data field 2\).|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
 |[sourceviewid](#sourceviewid)|Optional entity for additional views|<a href="EmissionsSource.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/EmissionsSource</a>|
 
 ### <a href=#emissionsourceId name="emissionsourceId">emissionsourceId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -123,7 +123,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -163,7 +163,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Emissions Source  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -249,7 +249,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Emissions Source  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -298,7 +298,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -378,7 +378,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#name name="name">name</a>
 
 Industry standard terminology as defined by the GHG Protocol  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -469,7 +469,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#activitytypedatafield name="activitytypedatafield">activitytypedatafield</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -517,7 +517,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -565,7 +565,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#entityname name="entityname">entityname</a>
 
 Internal reference used to map an entity to the corresponding record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -613,7 +613,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#isactive name="isactive">isactive</a>
 
 Internal reference assigned during import.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#parentemissionsource name="parentemissionsource">parentemissionsource</a>
 
 Lookup to the parent emission source  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#scope name="scope">scope</a>
 
 Emission scope as defined by the Greenhouse Gas Protocol.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#sourcedatafield name="sourcedatafield">sourcedatafield</a>
 
 Optional field entity for additional views.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -788,7 +788,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#sourcedatafield2 name="sourcedatafield2">sourcedatafield2</a>
 
 Second optional field entity for additional views.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -836,7 +836,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#sourcedatavalue name="sourcedatavalue">sourcedatavalue</a>
 
 The value of source data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -883,8 +883,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 
 ### <a href=#sourcedatavalue2 name="sourcedatavalue2">sourcedatavalue2</a>
 
-The value of source data \(Source data field 2\).  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+The value of source data (Source data field 2\).  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
@@ -932,7 +932,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Emissio
 ### <a href=#sourceviewid name="sourceviewid">sourceviewid</a>
 
 Optional entity for additional views  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource \(this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/EmissionsSource (this entity\)  
 
 #### Properties
 
