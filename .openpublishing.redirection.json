@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/PreviewSustainabilityProductIdentifier.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilityshared/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/PreviewSustainabilityProduct.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilityshared/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/PreviewProductSustainability.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilityshared/ProductSustainability",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityShared/PreviewProductIdentifier.md",
+      "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilityshared/overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "common-data-model/schema/core/industryCommon/Sustainability/SustainabilityCarbon/PreviewSustainabilityProductFootprint.md",
       "redirect_url": "/common-data-model/schema/core/industrycommon/sustainability/sustainabilitycarbon/overview",
       "redirect_document_id": "false"
