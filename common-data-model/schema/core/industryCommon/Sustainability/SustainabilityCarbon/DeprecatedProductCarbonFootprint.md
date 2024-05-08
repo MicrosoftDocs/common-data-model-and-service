@@ -54,8 +54,8 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 |[sustainabilityproductcarbonfootprintId](#sustainabilityproductcarbonfootprintId)|Unique identifier for entity instances.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[createdOn](#createdOn)|Date and time when the record was created.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[statecode](#statecode)|Status of the (Deprecated\) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
-|[statuscode](#statuscode)|Reason for the status of the (Deprecated\) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[statecode](#statecode)|Status of the (Deprecated) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
+|[statuscode](#statuscode)|Reason for the status of the (Deprecated) Sustainability product carbon footprint|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
 |[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="DeprecatedProductCarbonFootprint.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint</a>|
@@ -105,7 +105,7 @@ The carbon footprint of a product and related data in accordance with the Pathfi
 ### <a href=#sustainabilityproductcarbonfootprintId name="sustainabilityproductcarbonfootprintId">sustainabilityproductcarbonfootprintId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -153,7 +153,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -193,7 +193,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -232,8 +232,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the (Deprecated\) Sustainability product carbon footprint  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+Status of the (Deprecated) Sustainability product carbon footprint  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -278,8 +278,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the (Deprecated\) Sustainability product carbon footprint  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+Reason for the status of the (Deprecated) Sustainability product carbon footprint  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -328,7 +328,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -408,7 +408,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -451,7 +451,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -494,7 +494,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -542,7 +542,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#aircraftghgemissions name="aircraftghgemissions">aircraftghgemissions</a>
 
 The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -585,7 +585,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#allocationrulesdescription name="allocationrulesdescription">allocationrulesdescription</a>
 
 If present, a description of any allocation rules applied and the rationale explaining how the selected approach aligns with Pathfinder Framework rules.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -633,7 +633,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#biogenicaccountingmethodology name="biogenicaccountingmethodology">biogenicaccountingmethodology</a>
 
 The standard followed to account for biogenic emissions and removals.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -679,7 +679,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#biogeniccarboncontent name="biogeniccarboncontent">biogeniccarboncontent</a>
 
 The biogenic carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -722,7 +722,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#biogeniccarbonwithdrawal name="biogeniccarbonwithdrawal">biogeniccarbonwithdrawal</a>
 
 If present, the biogenic carbon content in the product converted to CO2e. The value must be calculated per declared unit with unit kg expressed as a decimal equal to or greater than zero.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -765,7 +765,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#boundaryprocessesdescription name="boundaryprocessesdescription">boundaryprocessesdescription</a>
 
 If present, the processes attributable to each lifecycle stage. If no such description is available or otherwise provided, then this field must be empty.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -813,7 +813,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#characterizationfactors name="characterizationfactors">characterizationfactors</a>
 
 The IPCC Assessment Report used in the calculation of the PCF.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -859,7 +859,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#completenessdqr name="completenessdqr">completenessdqr</a>
 
 DQR based on data quality matrix, scoring completeness of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -902,7 +902,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#coveragepercent name="coveragepercent">coveragepercent</a>
 
 Percentage of PCF included in the data quality assessment based on the >5% emissions threshold.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -945,7 +945,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#crosssectoralstandardsused1 name="crosssectoralstandardsused1">crosssectoralstandardsused1</a>
 
 The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -991,7 +991,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#crosssectoralstandardsused2 name="crosssectoralstandardsused2">crosssectoralstandardsused2</a>
 
 The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1037,7 +1037,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#crosssectoralstandardsused3 name="crosssectoralstandardsused3">crosssectoralstandardsused3</a>
 
 The cross\x2dsectoral standards applied for calculating or allocating GHG emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1083,7 +1083,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#declaredunit name="declaredunit">declaredunit</a>
 
 The unit of analysis of the product.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1128,7 +1128,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#dlucghgemissions name="dlucghgemissions">dlucghgemissions</a>
 
 Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1171,7 +1171,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#exemptedemissionsdescription name="exemptedemissionsdescription">exemptedemissionsdescription</a>
 
 Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1219,7 +1219,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#exemptedemissionspercent name="exemptedemissionspercent">exemptedemissionspercent</a>
 
 The percentage of emissions excluded from PCF, expressed as a decimal number from 0.0 to 5, inclusive.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1262,7 +1262,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#fossilcarboncontent name="fossilcarboncontent">fossilcarboncontent</a>
 
 The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1305,7 +1305,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#fossilghgemissions name="fossilghgemissions">fossilghgemissions</a>
 
 The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1348,7 +1348,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#geographicaldqr name="geographicaldqr">geographicaldqr</a>
 
 DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1391,7 +1391,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#geographycountry name="geographycountry">geographycountry</a>
 
 If present, the value must conform to an ISO 3166\x2d2 alpha\x2d2 code.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1439,7 +1439,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#geographycountrysubdivision name="geographycountrysubdivision">geographycountrysubdivision</a>
 
 If present, an ISO 3166\x2d2 subdivision code.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1487,7 +1487,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#geographyregionorsubregion name="geographyregionorsubregion">geographyregionorsubregion</a>
 
 If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1535,7 +1535,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#ilucghgemissions name="ilucghgemissions">ilucghgemissions</a>
 
 Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1578,7 +1578,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#landmanagementghgemissions name="landmanagementghgemissions">landmanagementghgemissions</a>
 
 GHG emissions and removals associated with land management\x2drelated changes, including non\x2dCO2 sources. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1621,7 +1621,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#otherbiogenicghgemissions name="otherbiogenicghgemissions">otherbiogenicghgemissions</a>
 
 All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1664,7 +1664,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#packagingemissionsincluded name="packagingemissionsincluded">packagingemissionsincluded</a>
 
 A boolean flag indicating whether packaging emissions are included in the PCF.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1700,7 +1700,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#packagingghgemissions name="packagingghgemissions">packagingghgemissions</a>
 
 Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non\x2dnegative. The field must be empty if packaging emissions included is false.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1743,7 +1743,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#pcfexcludingbiogenic name="pcfexcludingbiogenic">pcfexcludingbiogenic</a>
 
 The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1786,7 +1786,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#pcfincludingbiogenic name="pcfincludingbiogenic">pcfincludingbiogenic</a>
 
 The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1829,7 +1829,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#primarydatashare name="primarydatashare">primarydatashare</a>
 
 The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1872,7 +1872,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#productcarbonfootprintassurance name="productcarbonfootprintassurance">productcarbonfootprintassurance</a>
 
 Assurance information in accordance with the Pathfinder Framework.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1917,7 +1917,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#referenceperiodend name="referenceperiodend">referenceperiodend</a>
 
 The end of the time boundary for which the PCF value is considered to be representative.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1957,7 +1957,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#referenceperiodstart name="referenceperiodstart">referenceperiodstart</a>
 
 The start of the time boundary for which the PCF value is considered to be representative.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -1997,7 +1997,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#reliabilitydqr name="reliabilitydqr">reliabilitydqr</a>
 
 DQR based on data quality matrix, scoring reliability of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -2040,7 +2040,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#secondaryemissionfactorsources name="secondaryemissionfactorsources">secondaryemissionfactorsources</a>
 
 If secondary data was used to calculate the PCF, then it must include this field with value the emission factors used for the PCF calculation. Otherwise, this property must be undefined.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -2088,7 +2088,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#technologicaldqr name="technologicaldqr">technologicaldqr</a>
 
 DQR based on data quality matrix, scoring technological representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -2131,7 +2131,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#temporaldqr name="temporaldqr">temporaldqr</a>
 
 DQR based on data quality matrix, scoring temporal representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -2174,7 +2174,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#uncertaintyassessmentdescription name="uncertaintyassessmentdescription">uncertaintyassessmentdescription</a>
 
 If present, the results, key drivers, and a short qualitative description of the uncertainty assessment.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -2222,7 +2222,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#unitaryproductamount name="unitaryproductamount">unitaryproductamount</a>
 
 The amount of declared units contained within the product to which the PCF is referring. The value must be strictly greater than 0.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 
@@ -2265,7 +2265,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Depreca
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/DeprecatedProductCarbonFootprint (this entity)  
 
 #### Properties
 

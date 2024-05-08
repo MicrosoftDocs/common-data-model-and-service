@@ -74,7 +74,7 @@ Entity to capture the facility's capacity dimension and measure for a specified 
 ### <a href=#facilitycapacityId name="facilitycapacityId">facilitycapacityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -122,7 +122,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the facility capacity  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -248,7 +248,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the facility capacity  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#name name="name">name</a>
 
 Name of facility capacity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#capacitydimension name="capacitydimension">capacitydimension</a>
 
 Lookup to the capacity dimension.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#quantity name="quantity">quantity</a>
 
 Indicates the value of the capacity dimension for the specified period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility mapped to the the capacity dimension.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#facilitytype name="facilitytype">facilitytype</a>
 
 Lookup to facility type that describes the facility capacity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#periodenddate name="periodenddate">periodenddate</a>
 
 Indicates the end date and time for which the capacity quantity value applies.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#periodstartdate name="periodstartdate">periodstartdate</a>
 
 Indicates the start date and time for which the capacity quantity value applies.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -769,7 +769,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#unit name="unit">unit</a>
 
 Unit of measure used to describe the capacity dimension.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -814,7 +814,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -862,7 +862,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
 
 #### Properties
 

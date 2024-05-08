@@ -76,14 +76,14 @@ Purchased entity that depreciates over time.
 |[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[spendtypeid](#spendtypeid)|Unique identifier for the spend type associated with the capital good.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated\)|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[productfootprintreporting](#productfootprintreporting)|Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="CapitalGood.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/CapitalGood</a>|
 
 ### <a href=#capitalgoodId name="capitalgoodId">capitalgoodId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -131,7 +131,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -174,7 +174,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -222,7 +222,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -262,7 +262,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -302,7 +302,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -345,7 +345,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -382,7 +382,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -429,7 +429,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -511,7 +511,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -591,7 +591,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -636,7 +636,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -684,7 +684,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of data quality that identifies if data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -730,7 +730,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -778,7 +778,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to an entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -826,7 +826,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for Facility associated with captial good.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -871,7 +871,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with the activity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -916,7 +916,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the capital good.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -961,7 +961,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1004,7 +1004,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1044,7 +1044,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1092,7 +1092,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1129,7 +1129,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1174,7 +1174,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1219,7 +1219,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with the capital good.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1264,7 +1264,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1308,8 +1308,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1354,7 +1354,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
 Product footprint that contains per\x2dunit emissions data that can be used to compute emissions.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 
@@ -1399,7 +1399,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Capital
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/CapitalGood (this entity)  
 
 #### Properties
 

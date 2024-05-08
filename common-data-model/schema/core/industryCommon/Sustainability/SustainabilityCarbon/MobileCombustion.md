@@ -75,7 +75,7 @@ Combustion that occurs in a moving vehicle, such as a car or truck.
 |[fueltypeid](#fueltypeid)|Unique identifier for the fuel type associated with combustion or supply chain fuel usage.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[industrialprocesstypeid](#industrialprocesstypeid)|Unique identifier for the industrial process type that is associated with mobile combustion.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[leasedassetcategory](#leasedassetcategory)|Indicator of classification of category. An empty value means this activity is in scope 1.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
-|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years\) a consumer can expect a product to remain useful and functional after purchase.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
+|[lifespaninyears](#lifespaninyears)|The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[organizationalunitId](#organizationalunitId)|Unique identifier for Organizational Unit associated with Mobile combustion.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[quantity](#quantity)|Generic quanity field associated with activity entities|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[quantityunit](#quantityunit)|Unit associated with the quantity field |<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
@@ -86,17 +86,17 @@ Combustion that occurs in a moving vehicle, such as a car or truck.
 |[valuechainpartnerid](#valuechainpartnerid)|Unique identifier for value chain partner associated with this record.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[goodsquantity](#goodsquantity)|The amount of goods associated with this record.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[goodsunit](#goodsunit)|The unit of measurement for the goods quantity in record.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
-|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated\)|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
+|[product](#product)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[sustainabilityproductitem](#sustainabilityproductitem)|A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
-|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated\)|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
-|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated\)|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
+|[productfootprint](#productfootprint)|Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
+|[productidentifier](#productidentifier)|A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[category](#category)|Indicator of classification of category.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 |[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="MobileCombustion.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/MobileCombustion</a>|
 
 ### <a href=#mobilecombustionId name="mobilecombustionId">mobilecombustionId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -144,7 +144,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -187,7 +187,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -235,7 +235,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -275,7 +275,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -315,7 +315,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -358,7 +358,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -395,7 +395,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -443,7 +443,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -488,7 +488,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#accountid name="accountid">accountid</a>
 
 Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -533,7 +533,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -570,7 +570,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -607,7 +607,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -650,7 +650,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -743,7 +743,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -789,7 +789,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -837,7 +837,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#distance name="distance">distance</a>
 
 Quantity associated with the distance activity which contributes to mobile combustion or supply chain travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -880,7 +880,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#distanceunit name="distanceunit">distanceunit</a>
 
 Unique identifier for the unit associated with distance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -925,7 +925,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -973,7 +973,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for Facility associated with Mobile combustion.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1018,7 +1018,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#facilityusagedetailid name="facilityusagedetailid">facilityusagedetailid</a>
 
 The facility usage detail associated to this mobile combustion  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1063,7 +1063,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#fuelquantity name="fuelquantity">fuelquantity</a>
 
 Unique identifier for fuel consumption data that is associated with combustion or supply chain fuel usage.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1106,7 +1106,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#fuelquantityunit name="fuelquantityunit">fuelquantityunit</a>
 
 Unique identifier for the unit associated with the fuel data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1151,7 +1151,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier for the fuel type associated with combustion or supply chain fuel usage.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1196,7 +1196,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type that is associated with mobile combustion.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1241,7 +1241,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#leasedassetcategory name="leasedassetcategory">leasedassetcategory</a>
 
 Indicator of classification of category. An empty value means this activity is in scope 1.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1286,8 +1286,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 
 ### <a href=#lifespaninyears name="lifespaninyears">lifespaninyears</a>
 
-The product lifespan refers to the duration of time (in years\) a consumer can expect a product to remain useful and functional after purchase.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1330,7 +1330,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#organizationalunitId name="organizationalunitId">organizationalunitId</a>
 
 Unique identifier for Organizational Unit associated with Mobile combustion.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1375,7 +1375,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1418,7 +1418,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1463,7 +1463,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1511,7 +1511,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1548,7 +1548,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#vehicletype name="vehicletype">vehicletype</a>
 
 Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1593,7 +1593,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1638,7 +1638,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Unique identifier for value chain partner associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1683,7 +1683,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 The amount of goods associated with this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1726,7 +1726,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 The unit of measurement for the goods quantity in record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1770,8 +1770,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 
 ### <a href=#product name="product">product</a>
 
-A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1816,7 +1816,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1860,8 +1860,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
-Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+Product carbon footprint that this activity contributes to, such as first\x2dparty end product. (Deprecated)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1905,8 +1905,8 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 
 ### <a href=#productidentifier name="productidentifier">productidentifier</a>
 
-A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated\)  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1951,7 +1951,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#category name="category">category</a>
 
 Indicator of classification of category.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 
@@ -1997,7 +1997,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileC
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/MobileCombustion (this entity)  
 
 #### Properties
 

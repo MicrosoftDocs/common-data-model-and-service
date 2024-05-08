@@ -54,7 +54,7 @@ Business that represents a customer or potential customer. The company that is b
 ### <a href=#accountId name="accountId">accountId</a>
 
 Unique identifier of the account.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account (this entity)  
 
 #### Properties
 
@@ -102,7 +102,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account
 ### <a href=#energyprovidertype name="energyprovidertype">energyprovidertype</a>
 
 Type of provider for the purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Account (this entity)  
 
 #### Properties
 

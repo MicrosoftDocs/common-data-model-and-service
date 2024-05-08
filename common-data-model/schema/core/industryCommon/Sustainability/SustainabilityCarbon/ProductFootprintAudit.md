@@ -73,7 +73,7 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
 ### <a href=#productcarbonfootprintassuranceId name="productcarbonfootprintassuranceId">productcarbonfootprintassuranceId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -121,7 +121,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -201,7 +201,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Product carbon footprint assurance  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Product carbon footprint assurance  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -296,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -510,7 +510,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#boundary name="boundary">boundary</a>
 
 Boundary of the assurance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#comments name="comments">comments</a>
 
 Any additional comments that will clarify the interpretation of the assurance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#completeddate name="completeddate">completeddate</a>
 
 The date at which the assurance was completed.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#coverage name="coverage">coverage</a>
 
 Level of granularity of the emissions data assured.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#level name="level">level</a>
 
 Level of assurance applicable to the PCF.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#providername name="providername">providername</a>
 
 The non\x2dempty name of the independent third party engaged to undertake the assurance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#standardname name="standardname">standardname</a>
 
 Name of the standard against which the PCF was assured.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -832,7 +832,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Product
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit (this entity)  
 
 #### Properties
 

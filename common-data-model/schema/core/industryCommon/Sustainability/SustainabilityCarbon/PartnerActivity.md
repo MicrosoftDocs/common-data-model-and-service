@@ -85,7 +85,7 @@ Table that holds activities from external sources
 ### <a href=#externalactivityId name="externalactivityId">externalactivityId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -133,7 +133,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -176,7 +176,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -224,7 +224,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -264,7 +264,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -304,7 +304,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -347,7 +347,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#accountid name="accountid">accountid</a>
 
 Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -476,7 +476,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#activitysource name="activitysource">activitysource</a>
 
 SDD for the activity that's being referenced  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -521,7 +521,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#accommodationtypeid name="accommodationtypeid">accommodationtypeid</a>
 
 Unique identifier associated with the accommodation type related to business travel.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#businesstraveltypeid name="businesstraveltypeid">businesstraveltypeid</a>
 
 Unique identifier related to the business travel type. Used to identify emission factors.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -611,7 +611,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Comprehensive information about a supplier, customer, third\x2dparty manufacturer, or investee.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -685,7 +685,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -731,7 +731,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#disposalmethodid name="disposalmethodid">disposalmethodid</a>
 
 Method of waste disposal, such as compost or recycle.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -776,7 +776,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#employeecommutingtypeid name="employeecommutingtypeid">employeecommutingtypeid</a>
 
 Unique identifier related to the employee commuting type. Used to identify emission factors.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -821,7 +821,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier for the fuel type associated with combustion or supply chain fuel usage.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -866,7 +866,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#geographicarea name="geographicarea">geographicarea</a>
 
 Unique identifier for the geographic area associated with this external activity  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -911,7 +911,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#greenhousegas name="greenhousegas">greenhousegas</a>
 
 Unique identifier for the greenhouse gas associated with the fugitive emission.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -956,7 +956,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with the industrial process  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#isrenewable name="isrenewable">isrenewable</a>
 
 Identifier used to determine if the source electric energy is renewable or not.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1037,7 +1037,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#materialid name="materialid">materialid</a>
 
 Material of waste, such as aluminum.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1082,7 +1082,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the external activity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1127,7 +1127,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1170,7 +1170,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1215,7 +1215,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#distance name="distance">distance</a>
 
 Distance field associated with activity entities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1258,7 +1258,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#distanceunit name="distanceunit">distanceunit</a>
 
 Unit associated with the distance field  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1303,7 +1303,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with the purchased good and service.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1348,7 +1348,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1385,7 +1385,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#transportationanddistributiontype name="transportationanddistributiontype">transportationanddistributiontype</a>
 
 Marks what type of transportation and distribution this record represents.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1431,7 +1431,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#transportmode name="transportmode">transportmode</a>
 
 The transport mode that corresponds to this transportation and distribution activity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 
@@ -1476,7 +1476,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Partner
 ### <a href=#vehicletype name="vehicletype">vehicletype</a>
 
 Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PartnerActivity (this entity)  
 
 #### Properties
 

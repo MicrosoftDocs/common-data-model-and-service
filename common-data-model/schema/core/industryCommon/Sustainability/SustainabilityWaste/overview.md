@@ -19,7 +19,7 @@ Cloud for Sustainability Waste Data Model CDM entity definitions
 |---|---|
 |[CircularityDesignPrinciple](CircularityDesignPrinciple.md)|Describes the circularity princple followed to produce the finished good such as durability, reusability or repairability.|
 |[FacilityItemConsumption](FacilityItemConsumption.md)|Entity used to record the quantity of an item consumed in a facility for a specified period.|
-|[ItemBillOfMaterials](ItemBillOfMaterials.md)|Entity which records the Bill Of Material (BOM\) used to create the item. The BOM lists the items (materials\) that are part of the item.|
+|[ItemBillOfMaterials](ItemBillOfMaterials.md)|Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.|
 |[ItemSustainableContent](ItemSustainableContent.md)|Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.|
 |[WasteCharacteristicType](WasteCharacteristicType.md)|Stores all the different classifications for the waste quality characteristics.|
 |[WasteQualityCharacteristic](WasteQualityCharacteristic.md)|Stores information on the characteristics of the contaminant or chemical being tracked.|

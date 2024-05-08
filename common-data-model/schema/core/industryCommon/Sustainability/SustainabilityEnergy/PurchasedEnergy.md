@@ -49,14 +49,14 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 |Name|Description|First Included in Instance|
 |---|---|---|
 |[purchasedenergyId](#purchasedenergyId)|Unique identifier for entity instances|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
-|[datasourcetype](#datasourcetype)|Type of source from where data is obtained (utility bills, sensors, BMS etc.\).|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
+|[datasourcetype](#datasourcetype)|Type of source from where data is obtained (utility bills, sensors, BMS etc.).|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
 |[energycontract](#energycontract)|Type of agreement to deliver purchased energy.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
 |[energysource](#energysource)|Primary source used to generate the selected energy type.|<a href="PurchasedEnergy.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/PurchasedEnergy</a>|
 
 ### <a href=#purchasedenergyId name="purchasedenergyId">purchasedenergyId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -103,8 +103,8 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 
 ### <a href=#datasourcetype name="datasourcetype">datasourcetype</a>
 
-Type of source from where data is obtained (utility bills, sensors, BMS etc.\).  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity\)  
+Type of source from where data is obtained (utility bills, sensors, BMS etc.).  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -149,7 +149,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 ### <a href=#energycontract name="energycontract">energycontract</a>
 
 Type of agreement to deliver purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -194,7 +194,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Purchas
 ### <a href=#energysource name="energysource">energysource</a>
 
 Primary source used to generate the selected energy type.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity\)  
+First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/PurchasedEnergy (this entity)  
 
 #### Properties
 
