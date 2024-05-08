@@ -1,15 +1,15 @@
 ---
-title: EnergySource in Cloud for Sustainability energy data model  - Common Data Model | Microsoft Docs
+title: EnergySource in Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
 description: Medium or sources to generate energy.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Energy Source in Cloud for Sustainability energy data model 
+# Energy Source in Cloud for Sustainability energy data model
 
 Medium or sources to generate energy.  
   
@@ -25,7 +25,7 @@ Medium or sources to generate energy.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergySource/(resolvedAttributes)/energysourceId](#energysourceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergySource/(resolvedAttributes)/energysourceId](#energysourceId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergySource/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,24 +51,24 @@ Medium or sources to generate energy.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[energysourceId](#energysourceId)|Unique identifier for entity instances|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[statecode](#statecode)|Status of the Energy Source|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[statuscode](#statuscode)|Reason for the status of the Energy Source|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[name](#name)||<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[energysourcetype](#energysourcetype)|Specific source used to generate electricity based on generation type|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[isonsite](#isonsite)|Attribute to indicate if the energy source used for generation is onsite or not|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
-|[isrenewable](#isrenewable)|Attribute to indicate if the energy generated is renewable or not.|<a href="EnergySource.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/EnergySource</a>|
+|[energysourceId](#energysourceId)|Unique identifier for entity instances|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[statecode](#statecode)|Status of the Energy Source|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[statuscode](#statuscode)|Reason for the status of the Energy Source|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[name](#name)||<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[energysourcetype](#energysourcetype)|Specific source used to generate electricity based on generation type|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[isonsite](#isonsite)|Attribute to indicate if the energy source used for generation is onsite or not|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
+|[isrenewable](#isrenewable)|Attribute to indicate if the energy generated is renewable or not.|<a href="EnergySource.md" target="_blank">Sustainability/SustainabilityEnergy/EnergySource</a>|
 
 ### <a href=#energysourceId name="energysourceId">energysourceId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -84,12 +84,12 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergySource/(resolvedAttributes)/energysourceId](#energysourceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[EnergySource/(resolvedAttributes)/energysourceId](#energysourceId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +109,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Energy Source  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Energy Source  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -456,7 +456,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -472,7 +472,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -497,14 +497,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energysourcetype name="energysourcetype">energysourcetype</a>
 
 Specific source used to generate electricity based on generation type  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -545,14 +545,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#isonsite name="isonsite">isonsite</a>
 
 Attribute to indicate if the energy source used for generation is onsite or not  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 
@@ -588,7 +588,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergyS
 ### <a href=#isrenewable name="isrenewable">isrenewable</a>
 
 Attribute to indicate if the energy generated is renewable or not.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/EnergySource (this entity)  
+First included in: Sustainability/SustainabilityEnergy/EnergySource (this entity)  
 
 #### Properties
 

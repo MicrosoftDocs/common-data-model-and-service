@@ -1,11 +1,11 @@
 ---
-title: CountryRegionMapping in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: CountryRegionMapping in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity storing the region mapping, which is a mapping of a country or region to 
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CountryRegionMapping/(resolvedAttributes)/countryregionmappingId](#countryregionmappingId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CountryRegionMapping/(resolvedAttributes)/countryregionmappingId](#countryregionmappingId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CountryRegionMapping/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,24 +51,25 @@ Entity storing the region mapping, which is a mapping of a country or region to 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[countryregionmappingId](#countryregionmappingId)|Unique identifier for entity instances|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[statecode](#statecode)|Status of the Country/Region mapping|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[statuscode](#statuscode)|Reason for the status of the Country/Region mapping|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[name](#name)|The Name attribute is currently not used.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[countryisocode](#countryisocode)|ISO code of the country/region mapped to a group (msndyn_region).|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[region](#region)|Name of the group mapped to the country/region.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegionMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/CountryRegionMapping</a>|
+|[countryregionmappingId](#countryregionmappingId)|Unique identifier for entity instances|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[statecode](#statecode)|Status of the Country/Region mapping|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[statuscode](#statuscode)|Reason for the status of the Country/Region mapping|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[name](#name)|The Name attribute is currently not used.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[countryisocode](#countryisocode)|ISO code of the country/region mapped to a group (msndyn_region).|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[countryregioncode](#countryregioncode)|Lookup field for country/region.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[region](#region)|Name of the group mapped to the country/region.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="CountryRegionMapping.md" target="_blank">Sustainability/SustainabilityShared/CountryRegionMapping</a>|
 
 ### <a href=#countryregionmappingId name="countryregionmappingId">countryregionmappingId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -84,12 +85,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CountryRegionMapping/(resolvedAttributes)/countryregionmappingId](#countryregionmappingId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[CountryRegionMapping/(resolvedAttributes)/countryregionmappingId](#countryregionmappingId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +110,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -156,7 +157,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -196,7 +197,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Country/Region mapping  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -242,7 +243,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Country/Region mapping  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -291,7 +292,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -334,7 +335,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -371,7 +372,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -414,7 +415,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -457,7 +458,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 ### <a href=#name name="name">name</a>
 
 The Name attribute is currently not used.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -473,7 +474,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -498,18 +499,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#countryisocode name="countryisocode">countryisocode</a>
 
 ISO code of the country/region mapped to a group (msndyn_region).  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>ISO code of the country/region mapped to a group (msndyn_region).</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryisocode</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region (Deprecated)</td></tr><tr><td>description</td><td>ISO code of the country/region mapped to a group (msndyn_region).</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>3</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_countryisocode</td></tr></table>
 
 #### Traits
 
@@ -521,16 +522,16 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>ISO code of the country/region mapped to a group (msndyn_region).</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region (Deprecated)</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"3"</td><td>integer</td><td></td></tr></table>
@@ -546,14 +547,59 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+</details>
+
+### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
+
+Lookup field for country/region.  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Country/Region</td></tr><tr><td>description</td><td>Lookup field for country/region.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the countryregioncode attribute are listed below.</summary>
+
+**is.dataFormat.character**  
+  **is.dataFormat.big**  
+  indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
+
+**is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+
+**is.dataFormat.guid**  
+  **means.identity.entityId**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Lookup field for country/region.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Country/Region</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.CDS.lookup**  
+  The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
+
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+
+**is.dataFormat.guid**  
+  **is.dataFormat.character**  
+  **is.dataFormat.array**  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#region name="region">region</a>
 
 Name of the group mapped to the country/region.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -569,7 +615,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -590,18 +636,18 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_region"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"36"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/CountryRegionMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/CountryRegionMapping (this entity)  
 
 #### Properties
 
@@ -617,7 +663,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -638,10 +684,10 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Country
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_origincorrelationid"</td><td>string</td><td></td></tr></table>
 
 **is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"37"</td><td>integer</td><td></td></tr></table>
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"38"</td><td>integer</td><td></td></tr></table>
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

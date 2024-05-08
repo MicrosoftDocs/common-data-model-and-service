@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/6/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Contractual instrument type in Cloud for Sustainability carbon data model(ContractualInstrumentType)
+# Contractual instrument type in Cloud for Sustainability carbon data model (ContractualInstrumentType)
 
 Documented method/approach to confirm and validate source data.  
   
@@ -25,7 +25,7 @@ Documented method/approach to confirm and validate source data.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContractualInstrumentType/(resolvedAttributes)/contractualinstrumenttypeId](#contractualinstrumenttypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContractualInstrumentType/(resolvedAttributes)/contractualinstrumenttypeId](#contractualinstrumenttypeId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContractualInstrumentType/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,26 +51,26 @@ Documented method/approach to confirm and validate source data.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contractualinstrumenttypeId](#contractualinstrumenttypeId)|Unique identifier for entity instances|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[statecode](#statecode)|Status of the Contractual Instrument Type|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[statuscode](#statuscode)|Reason for the status of the Contractual Instrument Type|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[name](#name)|The name of the custom entity.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[accountid](#accountid)||<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[energysource](#energysource)|Primary source used to generate the selected energy type.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
-|[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType</a>|
+|[contractualinstrumenttypeId](#contractualinstrumenttypeId)|Unique identifier for entity instances|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[statecode](#statecode)|Status of the Contractual Instrument Type|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[statuscode](#statuscode)|Reason for the status of the Contractual Instrument Type|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[name](#name)|The name of the custom entity.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[accountid](#accountid)||<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[energysource](#energysource)|Primary source used to generate the selected energy type.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
+|[valuechainpartnerid](#valuechainpartnerid)|Reference to the value chain partner or supplier associated with the transaction.|<a href="ContractualInstrumentType.md" target="_blank">Sustainability/SustainabilityCarbon/ContractualInstrumentType</a>|
 
 ### <a href=#contractualinstrumenttypeId name="contractualinstrumenttypeId">contractualinstrumenttypeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -86,12 +86,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContractualInstrumentType/(resolvedAttributes)/contractualinstrumenttypeId](#contractualinstrumenttypeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ContractualInstrumentType/(resolvedAttributes)/contractualinstrumenttypeId](#contractualinstrumenttypeId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -111,14 +111,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Contractual Instrument Type  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Contractual Instrument Type  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -500,13 +500,13 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#accountid name="accountid">accountid</a>
 
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -539,19 +539,19 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Account.md" target="_blank">../SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="../SustainabilityShared/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Account.md" target="_blank">/SustainabilityShared/Account.cdm.json/Account</a></td><td><a href="../SustainabilityShared/Account.md#accountId" target="_blank">accountId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -567,7 +567,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -592,14 +592,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energysource name="energysource">energysource</a>
 
 Primary source used to generate the selected energy type.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -645,7 +645,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -661,7 +661,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -686,14 +686,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/ContractualInstrumentType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ContractualInstrumentType (this entity)  
 
 #### Properties
 
@@ -709,7 +709,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -726,11 +726,11 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Contrac
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ValueChainPartner.md" target="_blank">../SustainabilityShared/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../SustainabilityShared/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/ValueChainPartner.md" target="_blank">/SustainabilityShared/ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="../SustainabilityShared/ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

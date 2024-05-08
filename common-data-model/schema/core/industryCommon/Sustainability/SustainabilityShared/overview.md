@@ -1,17 +1,17 @@
 ---
-title: Overview of CloudforSustainabilitySharedDataModel - Common Data Model | Microsoft Docs
+title: Overview of Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: CloudforSustainabilitySharedDataModel is a folder that contains standard entities related to the Common Data Model.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Overview of CloudforSustainabilitySharedDataModel
+# Overview of Cloud for Sustainability shared data model
 
-Cloud for Sustainability shared data model entities are shared across the carbon, energy, waste, and water data models.  
+Cloud for Sustainability Shared Data Model CDM entity definitions  
 
 ## Entities
 
@@ -23,6 +23,7 @@ Cloud for Sustainability shared data model entities are shared across the carbon
 |[CountryRegionMapping](CountryRegionMapping.md)|Entity storing the region mapping, which is a mapping of a country or region to a user-defined group.|
 |[CustomDimensionMetadata](CustomDimensionMetadata.md)|Table holding information about all the custom dimensions available in Microsoft Sustainability Manager|
 |[DataSourceType](DataSourceType.md)|The different types of sources for energy data.|
+|[DeprecatedProductIdentifier](DeprecatedProductIdentifier.md)|Uniquely identifies a product.|
 |[EmissionFactor](EmissionFactor.md)|Conversion factor which takes activity data and converts quantities into greenhouse gas amounts and units.|
 |[EnergyProviderType](EnergyProviderType.md)|Categories or classifications of companies or entities that supply energy, such as electricity or gas.|
 |[EstimationFactor](EstimationFactor.md)|Entity to store estimation or consumption factors.|
@@ -40,12 +41,13 @@ Cloud for Sustainability shared data model entities are shared across the carbon
 |[Industry](Industry.md)|Parent level of the industry classification which contains an ID and name.|
 |[IndustryClassification](IndustryClassification.md)|Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.|
 |[Material](Material.md)|Entity used for classifying the type of material, as defined in the reporting company.|
+|[Meter](Meter.md)|An entity that represents meters.|
 |[MonthlyRevenue](MonthlyRevenue.md)|Captures revenue of an organizational unit by year and month in the company currency.|
 |[OrganizationalHierarchy](OrganizationalHierarchy.md)|The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.|
 |[OrganizationalProfile](OrganizationalProfile.md)|The base information of the organization, for which the solution is built.|
 |[OrganizationalUnit](OrganizationalUnit.md)|A structural division of a company or organization.|
-|[PreviewProductIdentifier](PreviewProductIdentifier.md)|Uniquely identifies a product.|
-|[PreviewProductSustainability](PreviewProductSustainability.md)|A product that can be associated with a product carbon footprint.|
+|[ProductCategory](ProductCategory.md)|Represents category of a product. Can be associated with a parent product category. It is used in reports.|
+|[ProductSustainability](ProductSustainability.md)|A product that can be associated with a product carbon footprint.|
 |[ReportingPeriod](ReportingPeriod.md)|Entity used to track reporting periods created for each reporting year.|
 |[ReportingYear](ReportingYear.md)|Entity which lists reporting years created in the system.|
 |[Subindustry](Subindustry.md)|Child-level of the industry classisfication, which contains an ID and name.|

@@ -1,11 +1,11 @@
 ---
-title: MonthlyRevenue in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: MonthlyRevenue in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Captures revenue of an organizational unit by year and month in the company currency.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Captures revenue of an organizational unit by year and month in the company curr
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MonthlyRevenue/(resolvedAttributes)/organizationalunitrevenueId](#organizationalunitrevenueId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MonthlyRevenue/(resolvedAttributes)/organizationalunitrevenueId](#organizationalunitrevenueId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MonthlyRevenue/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,26 +51,26 @@ Captures revenue of an organizational unit by year and month in the company curr
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[organizationalunitrevenueId](#organizationalunitrevenueId)|Unique identifier for entity instances|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[statecode](#statecode)|Status of the Monthly Revenue|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[statuscode](#statuscode)|Reason for the status of the Monthly Revenue|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[year](#year)|The year associated to the monthly revenue defined for a business unit.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[amount](#amount)|Revenue amount for a defined year, month, and currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[amount_Base](#amount_Base)|Value of the Revenue in base currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[month](#month)|The month associated to the revenue defined for a business unit.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
-|[sustainabilityorganizationalunit](#sustainabilityorganizationalunit)|Unique identifier for the organizational unit associated with the monthly revenue.|<a href="MonthlyRevenue.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/MonthlyRevenue</a>|
+|[organizationalunitrevenueId](#organizationalunitrevenueId)|Unique identifier for entity instances|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[statecode](#statecode)|Status of the Monthly Revenue|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[statuscode](#statuscode)|Reason for the status of the Monthly Revenue|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[year](#year)|The year associated to the monthly revenue defined for a business unit.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[amount](#amount)|Revenue amount for a defined year, month, and currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[amount_Base](#amount_Base)|Value of the Revenue in base currency.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[month](#month)|The month associated to the revenue defined for a business unit.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
+|[sustainabilityorganizationalunit](#sustainabilityorganizationalunit)|Unique identifier for the organizational unit associated with the monthly revenue.|<a href="MonthlyRevenue.md" target="_blank">Sustainability/SustainabilityShared/MonthlyRevenue</a>|
 
 ### <a href=#organizationalunitrevenueId name="organizationalunitrevenueId">organizationalunitrevenueId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -86,12 +86,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MonthlyRevenue/(resolvedAttributes)/organizationalunitrevenueId](#organizationalunitrevenueId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[MonthlyRevenue/(resolvedAttributes)/organizationalunitrevenueId](#organizationalunitrevenueId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -111,14 +111,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Monthly Revenue  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Monthly Revenue  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#year name="year">year</a>
 
 The year associated to the monthly revenue defined for a business unit.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -475,7 +475,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -500,14 +500,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#amount name="amount">amount</a>
 
 Revenue amount for a defined year, month, and currency.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#amount_Base name="amount_Base">amount_Base</a>
 
 Value of the Revenue in base currency.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#month name="month">month</a>
 
 The month associated to the revenue defined for a business unit.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -635,7 +635,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -676,14 +676,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainabilityorganizationalunit name="sustainabilityorganizationalunit">sustainabilityorganizationalunit</a>
 
 Unique identifier for the organizational unit associated with the monthly revenue.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/MonthlyRevenue (this entity)  
+First included in: Sustainability/SustainabilityShared/MonthlyRevenue (this entity)  
 
 #### Properties
 
@@ -699,7 +699,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -721,6 +721,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Monthly
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

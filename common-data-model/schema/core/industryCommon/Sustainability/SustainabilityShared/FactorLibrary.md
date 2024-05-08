@@ -1,11 +1,11 @@
 ---
-title: FactorLibrary in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: FactorLibrary in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Repository for emission and estimation factor sets, including both system and user added.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Repository for emission and estimation factor sets, including both system and us
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorLibrary/(resolvedAttributes)/calculationlibraryId](#calculationlibraryId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorLibrary/(resolvedAttributes)/calculationlibraryId](#calculationlibraryId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorLibrary/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,30 +51,30 @@ Repository for emission and estimation factor sets, including both system and us
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[calculationlibraryId](#calculationlibraryId)|Unique identifier for entity instances|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[statecode](#statecode)|Status of the normalentity|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[statuscode](#statuscode)|Reason for the status of the normalentity|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[name](#name)|The name of the custom entity.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[attribution](#attribution)|Appropriate acknowledgment to the original content creator when utilizing or distributing their work within the application|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[documentationreference](#documentationreference)|The documentation reference for the factor library.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[librarytype](#librarytype)|Factor library type: estimation or emission.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[sustainabilitymodule](#sustainabilitymodule)|Module to which this factor library belongs to.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[version](#version)|The version of the library.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[year](#year)|The year of the library.|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
-|[type](#type)|Strings indicating the type of factor library|<a href="FactorLibrary.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorLibrary</a>|
+|[calculationlibraryId](#calculationlibraryId)|Unique identifier for entity instances|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[statecode](#statecode)|Status of the normalentity|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[statuscode](#statuscode)|Reason for the status of the normalentity|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[name](#name)|The name of the custom entity.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[attribution](#attribution)|Appropriate acknowledgment to the original content creator when utilizing or distributing their work within the application|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[documentationreference](#documentationreference)|The documentation reference for the factor library.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[librarytype](#librarytype)|Factor library type: estimation or emission.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[sustainabilitymodule](#sustainabilitymodule)|Module to which this factor library belongs to.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[version](#version)|The version of the library.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[year](#year)|The year of the library.|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
+|[type](#type)|Strings indicating the type of factor library|<a href="FactorLibrary.md" target="_blank">Sustainability/SustainabilityShared/FactorLibrary</a>|
 
 ### <a href=#calculationlibraryId name="calculationlibraryId">calculationlibraryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -90,12 +90,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorLibrary/(resolvedAttributes)/calculationlibraryId](#calculationlibraryId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorLibrary/(resolvedAttributes)/calculationlibraryId](#calculationlibraryId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -115,14 +115,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the normalentity  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -248,7 +248,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the normalentity  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -504,14 +504,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#attribution name="attribution">attribution</a>
 
 Appropriate acknowledgment to the original content creator when utilizing or distributing their work within the application  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -552,14 +552,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -575,7 +575,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -600,14 +600,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#documentationreference name="documentationreference">documentationreference</a>
 
 The documentation reference for the factor library.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -623,7 +623,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -648,14 +648,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#librarytype name="librarytype">librarytype</a>
 
 Factor library type: estimation or emission.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -701,7 +701,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 ### <a href=#sustainabilitymodule name="sustainabilitymodule">sustainabilitymodule</a>
 
 Module to which this factor library belongs to.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -717,7 +717,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -739,14 +739,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -762,7 +762,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -787,14 +787,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#version name="version">version</a>
 
 The version of the library.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -810,7 +810,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -835,14 +835,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#year name="year">year</a>
 
 The year of the library.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 
@@ -858,7 +858,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -883,14 +883,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorL
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#type name="type">type</a>
 
 Strings indicating the type of factor library  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorLibrary (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorLibrary (this entity)  
 
 #### Properties
 

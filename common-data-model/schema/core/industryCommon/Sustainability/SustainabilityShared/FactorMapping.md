@@ -1,11 +1,11 @@
 ---
-title: FactorMapping in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: FactorMapping in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity which connects reference data to a specific emission factor or estimation factor, which can determine different factors for large sets of activity data.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity which connects reference data to a specific emission factor or estimation
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorMapping/(resolvedAttributes)/emissionlookupId](#emissionlookupId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorMapping/(resolvedAttributes)/emissionlookupId](#emissionlookupId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorMapping/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,34 +51,34 @@ Entity which connects reference data to a specific emission factor or estimation
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[emissionlookupId](#emissionlookupId)|Unique identifier for entity instances|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[statecode](#statecode)|Status of the Factor Mapping|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[statuscode](#statuscode)|Reason for the status of the Factor Mapping|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[name](#name)|The name of the custom entity.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[calculationlibraryid](#calculationlibraryid)|Factor library to which the lookup belongs.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[factorid](#factorid)|Unique identifier of the factor associated with the factor mapping.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[factoridType](#factoridType)|Unique identifier of the factor associated with the factor mapping.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedata4id](#referencedata4id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedata4idType](#referencedata4idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedataid](#referencedataid)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedataidType](#referencedataidType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedata3id](#referencedata3id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedata3idType](#referencedata3idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedata2id](#referencedata2id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[referencedata2idType](#referencedata2idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FactorMapping.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FactorMapping</a>|
+|[emissionlookupId](#emissionlookupId)|Unique identifier for entity instances|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[statecode](#statecode)|Status of the Factor Mapping|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[statuscode](#statuscode)|Reason for the status of the Factor Mapping|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[name](#name)|The name of the custom entity.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[calculationlibraryid](#calculationlibraryid)|Factor library to which the lookup belongs.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[factorid](#factorid)|Unique identifier of the factor associated with the factor mapping.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[factoridType](#factoridType)|Unique identifier of the factor associated with the factor mapping.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedata4id](#referencedata4id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedata4idType](#referencedata4idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedataid](#referencedataid)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedataidType](#referencedataidType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedata3id](#referencedata3id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedata3idType](#referencedata3idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedata2id](#referencedata2id)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[referencedata2idType](#referencedata2idType)|Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FactorMapping.md" target="_blank">Sustainability/SustainabilityShared/FactorMapping</a>|
 
 ### <a href=#emissionlookupId name="emissionlookupId">emissionlookupId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -94,12 +94,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorMapping/(resolvedAttributes)/emissionlookupId](#emissionlookupId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FactorMapping/(resolvedAttributes)/emissionlookupId](#emissionlookupId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -119,14 +119,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Factor Mapping  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -252,7 +252,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Factor Mapping  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -301,7 +301,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -344,7 +344,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -381,7 +381,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -424,7 +424,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -467,7 +467,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -483,7 +483,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -508,14 +508,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#calculationlibraryid name="calculationlibraryid">calculationlibraryid</a>
 
 Factor library to which the lookup belongs.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -531,7 +531,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -553,14 +553,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -576,7 +576,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -601,14 +601,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#factorid name="factorid">factorid</a>
 
 Unique identifier of the factor associated with the factor mapping.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -624,7 +624,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -640,14 +640,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#factoridType name="factoridType">factoridType</a>
 
 Unique identifier of the factor associated with the factor mapping.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -663,7 +663,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **means.entityName**  
   a string value is the name of a CDM entity.  
@@ -679,14 +679,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedata4id name="referencedata4id">referencedata4id</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -702,12 +702,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="PreviewProductSustainability.md" target="_blank">PreviewProductSustainability.cdm.json/PreviewProductSustainability</a></td><td><a href="PreviewProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="PreviewProductIdentifier.md" target="_blank">PreviewProductIdentifier.cdm.json/PreviewProductIdentifier</a></td><td><a href="PreviewProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="GeographicArea.md" target="_blank">GeographicArea.cdm.json/GeographicArea</a></td><td><a href="GeographicArea.md#geographicareaId" target="_blank">geographicareaId</a></td></tr><tr><td><a href="GeographicAreaType.md" target="_blank">GeographicAreaType.cdm.json/GeographicAreaType</a></td><td><a href="GeographicAreaType.md#geographicareatypeId" target="_blank">geographicareatypeId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="ProductSustainability.md" target="_blank">ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="DeprecatedProductIdentifier.md" target="_blank">DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -718,14 +718,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedata4idType name="referencedata4idType">referencedata4idType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -741,7 +741,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **means.entityName**  
   a string value is the name of a CDM entity.  
@@ -757,14 +757,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedataid name="referencedataid">referencedataid</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -780,12 +780,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="PreviewProductSustainability.md" target="_blank">PreviewProductSustainability.cdm.json/PreviewProductSustainability</a></td><td><a href="PreviewProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="PreviewProductIdentifier.md" target="_blank">PreviewProductIdentifier.cdm.json/PreviewProductIdentifier</a></td><td><a href="PreviewProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="GeographicArea.md" target="_blank">GeographicArea.cdm.json/GeographicArea</a></td><td><a href="GeographicArea.md#geographicareaId" target="_blank">geographicareaId</a></td></tr><tr><td><a href="GeographicAreaType.md" target="_blank">GeographicAreaType.cdm.json/GeographicAreaType</a></td><td><a href="GeographicAreaType.md#geographicareatypeId" target="_blank">geographicareatypeId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="ProductSustainability.md" target="_blank">ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="DeprecatedProductIdentifier.md" target="_blank">DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -796,14 +796,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedataidType name="referencedataidType">referencedataidType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -819,7 +819,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **means.entityName**  
   a string value is the name of a CDM entity.  
@@ -835,14 +835,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedata3id name="referencedata3id">referencedata3id</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -858,12 +858,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="PreviewProductSustainability.md" target="_blank">PreviewProductSustainability.cdm.json/PreviewProductSustainability</a></td><td><a href="PreviewProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="PreviewProductIdentifier.md" target="_blank">PreviewProductIdentifier.cdm.json/PreviewProductIdentifier</a></td><td><a href="PreviewProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="GeographicArea.md" target="_blank">GeographicArea.cdm.json/GeographicArea</a></td><td><a href="GeographicArea.md#geographicareaId" target="_blank">geographicareaId</a></td></tr><tr><td><a href="GeographicAreaType.md" target="_blank">GeographicAreaType.cdm.json/GeographicAreaType</a></td><td><a href="GeographicAreaType.md#geographicareatypeId" target="_blank">geographicareatypeId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="ProductSustainability.md" target="_blank">ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="DeprecatedProductIdentifier.md" target="_blank">DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -874,14 +874,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedata3idType name="referencedata3idType">referencedata3idType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -897,7 +897,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **means.entityName**  
   a string value is the name of a CDM entity.  
@@ -913,14 +913,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedata2id name="referencedata2id">referencedata2id</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -936,12 +936,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="PreviewProductSustainability.md" target="_blank">PreviewProductSustainability.cdm.json/PreviewProductSustainability</a></td><td><a href="PreviewProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="PreviewProductIdentifier.md" target="_blank">PreviewProductIdentifier.cdm.json/PreviewProductIdentifier</a></td><td><a href="PreviewProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="Account.md" target="_blank">Account.cdm.json/Account</a></td><td><a href="Account.md#accountId" target="_blank">accountId</a></td></tr><tr><td><a href="CountryRegion.md" target="_blank">CountryRegion.cdm.json/CountryRegion</a></td><td><a href="CountryRegion.md#countryregionId" target="_blank">countryregionId</a></td></tr><tr><td><a href="Facility.md" target="_blank">Facility.cdm.json/Facility</a></td><td><a href="Facility.md#facilityId" target="_blank">facilityId</a></td></tr><tr><td><a href="FacilityUsageDetail.md" target="_blank">FacilityUsageDetail.cdm.json/FacilityUsageDetail</a></td><td><a href="FacilityUsageDetail.md#facilityannualdetailId" target="_blank">facilityannualdetailId</a></td></tr><tr><td><a href="GeographicArea.md" target="_blank">GeographicArea.cdm.json/GeographicArea</a></td><td><a href="GeographicArea.md#geographicareaId" target="_blank">geographicareaId</a></td></tr><tr><td><a href="GeographicAreaType.md" target="_blank">GeographicAreaType.cdm.json/GeographicAreaType</a></td><td><a href="GeographicAreaType.md#geographicareatypeId" target="_blank">geographicareatypeId</a></td></tr><tr><td><a href="IndustrialProcessType.md" target="_blank">IndustrialProcessType.cdm.json/IndustrialProcessType</a></td><td><a href="IndustrialProcessType.md#industrialprocesstypeId" target="_blank">industrialprocesstypeId</a></td></tr><tr><td><a href="Material.md" target="_blank">Material.cdm.json/Material</a></td><td><a href="Material.md#materialId" target="_blank">materialId</a></td></tr><tr><td><a href="MonthlyRevenue.md" target="_blank">MonthlyRevenue.cdm.json/MonthlyRevenue</a></td><td><a href="MonthlyRevenue.md#organizationalunitrevenueId" target="_blank">organizationalunitrevenueId</a></td></tr><tr><td><a href="OrganizationalUnit.md" target="_blank">OrganizationalUnit.cdm.json/OrganizationalUnit</a></td><td><a href="OrganizationalUnit.md#sustainabilityorganizationalunitId" target="_blank">sustainabilityorganizationalunitId</a></td></tr><tr><td><a href="ProductSustainability.md" target="_blank">ProductSustainability.cdm.json/ProductSustainability</a></td><td><a href="ProductSustainability.md#sustainabilityproductId" target="_blank">sustainabilityproductId</a></td></tr><tr><td><a href="DeprecatedProductIdentifier.md" target="_blank">DeprecatedProductIdentifier.cdm.json/DeprecatedProductIdentifier</a></td><td><a href="DeprecatedProductIdentifier.md#sustainabilityproductidentifierId" target="_blank">sustainabilityproductidentifierId</a></td></tr><tr><td><a href="ValueChainPartner.md" target="_blank">ValueChainPartner.cdm.json/ValueChainPartner</a></td><td><a href="ValueChainPartner.md#valuechainpartnerId" target="_blank">valuechainpartnerId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -952,14 +952,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencedata2idType name="referencedata2idType">referencedata2idType</a>
 
 Data that supports emissions activity, but it is not the actual quantity of consumption itself, such as the facility name and fuel type.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -975,7 +975,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **means.entityName**  
   a string value is the name of a CDM entity.  
@@ -991,14 +991,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorMapping (this entity)  
+First included in: Sustainability/SustainabilityShared/FactorMapping (this entity)  
 
 #### Properties
 
@@ -1014,7 +1014,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1039,6 +1039,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FactorM
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

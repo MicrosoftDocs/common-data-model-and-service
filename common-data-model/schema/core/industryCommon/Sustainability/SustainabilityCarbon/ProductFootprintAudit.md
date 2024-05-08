@@ -1,19 +1,19 @@
 ---
-title: PreviewProductCarbonFootprintAudit in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
+title: ProductFootprintAudit in Cloud for Sustainability carbon data model - Common Data Model | Microsoft Docs
 description: Assurance contains the assurance in conformance with Pathfinder Framework.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/6/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# (Preview) Product carbon footprint audit in Cloud for Sustainability carbon data model(PreviewProductCarbonFootprintAudit)
+# Product footprint audit in Cloud for Sustainability carbon data model (ProductFootprintAudit)
 
 Assurance contains the assurance in conformance with Pathfinder Framework.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityCarbonDataModel/ProductFootprintAudit.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,19 +25,19 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PreviewProductCarbonFootprintAudit/(resolvedAttributes)/productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintAudit/(resolvedAttributes)/productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PreviewProductCarbonFootprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/PreviewProductCarbonFootprintAudit.cdm.json<br>/PreviewProductCarbonFootprintAudit/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityCarbonDataModel<br>/ProductFootprintAudit.cdm.json<br>/ProductFootprintAudit/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Assurance contains the assurance in conformance with Pathfinder Framework.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Product carbon footprint audit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product footprint audit</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_productcarbonfootprintassurance"</td><td>string</td><td></td></tr></table>
@@ -51,33 +51,33 @@ Assurance contains the assurance in conformance with Pathfinder Framework.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)|Unique identifier for entity instances.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[statecode](#statecode)|Status of the (Preview) Product carbon footprint assurance|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[statuscode](#statuscode)|Reason for the status of the (Preview) Product carbon footprint assurance|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[name](#name)|The name of the custom entity.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[boundary](#boundary)|Boundary of the assurance.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[comments](#comments)|Any additional comments that will clarify the interpretation of the assurance.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[level](#level)|Level of assurance applicable to the PCF.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="PreviewProductCarbonFootprintAudit.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit</a>|
+|[productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)|Unique identifier for entity instances.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[statecode](#statecode)|Status of the Product carbon footprint assurance|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[statuscode](#statuscode)|Reason for the status of the Product carbon footprint assurance|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[name](#name)|The name of the custom entity.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[boundary](#boundary)|Boundary of the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[comments](#comments)|Any additional comments that will clarify the interpretation of the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[completeddate](#completeddate)|The date at which the assurance was completed.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[coverage](#coverage)|Level of granularity of the emissions data assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[level](#level)|Level of assurance applicable to the PCF.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[providername](#providername)|The non-empty name of the independent third party engaged to undertake the assurance.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[standardname](#standardname)|Name of the standard against which the PCF was assured.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="ProductFootprintAudit.md" target="_blank">Sustainability/SustainabilityCarbon/ProductFootprintAudit</a>|
 
 ### <a href=#productcarbonfootprintassuranceId name="productcarbonfootprintassuranceId">productcarbonfootprintassuranceId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>(Preview) Product carbon footprint assurance</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_productcarbonfootprintassuranceid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Product carbon footprint assurance</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_productcarbonfootprintassuranceid</td></tr></table>
 
 #### Traits
 
@@ -89,12 +89,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PreviewProductCarbonFootprintAudit/(resolvedAttributes)/productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintAudit/(resolvedAttributes)/productcarbonfootprintassuranceId](#productcarbonfootprintassuranceId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -103,7 +103,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unique identifier for entity instances.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>(Preview) Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_productcarbonfootprintassuranceid"</td><td>string</td><td></td></tr></table>
@@ -114,14 +114,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -161,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -200,12 +200,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#statecode name="statecode">statecode</a>
 
-Status of the (Preview) Product carbon footprint assurance  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+Status of the Product carbon footprint assurance  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the (Preview) Product carbon footprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status</td></tr><tr><td>description</td><td>Status of the Product carbon footprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>sourceName</td><td>statecode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th></tr><tr><td>en</td><td>Active</td><td>0</td></tr><tr><td>en</td><td>Inactive</td><td>1</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -224,13 +224,13 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   the values of an attribute are taken from or looked up from a fixed list of possibilities  
 
 **means.entityState**  
-  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[PreviewProductCarbonFootprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
+  the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ProductFootprintAudit/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the (Preview) Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status of the Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -246,12 +246,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
-Reason for the status of the (Preview) Product carbon footprint assurance  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+Reason for the status of the Product carbon footprint assurance  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the (Preview) Product carbon footprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Status Reason</td></tr><tr><td>description</td><td>Reason for the status of the Product carbon footprint assurance</td></tr><tr><td>dataFormat</td><td>int32</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>statuscode</td></tr><tr><td>valueConstrainedToList</td><td>true</td></tr><tr><td>defaultValue</td><td><table><tr><th>languageTag</th><th>displayText</th><th>attributeValue</th><th>correlatedValue</th></tr><tr><td>en</td><td>Active</td><td>1</td><td>1</td></tr><tr><td>en</td><td>Inactive</td><td>2</td><td>2</td></tr></table></td></tr></table>
 
 #### Traits
 
@@ -276,7 +276,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
-  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the (Preview) Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reason for the status of the Product carbon footprint assurance</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Status Reason</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -296,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -339,7 +339,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -376,7 +376,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -419,7 +419,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -462,7 +462,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -478,7 +478,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -503,14 +503,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#boundary name="boundary">boundary</a>
 
 Boundary of the assurance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -556,7 +556,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#comments name="comments">comments</a>
 
 Any additional comments that will clarify the interpretation of the assurance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -572,7 +572,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -597,14 +597,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#completeddate name="completeddate">completeddate</a>
 
 The date at which the assurance was completed.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#coverage name="coverage">coverage</a>
 
 Level of granularity of the emissions data assured.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -690,7 +690,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#level name="level">level</a>
 
 Level of assurance applicable to the PCF.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 ### <a href=#providername name="providername">providername</a>
 
 The non-empty name of the independent third party engaged to undertake the assurance.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -752,7 +752,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -777,14 +777,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#standardname name="standardname">standardname</a>
 
 Name of the standard against which the PCF was assured.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -825,14 +825,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/PreviewProductCarbonFootprintAudit (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintAudit (this entity)  
 
 #### Properties
 
@@ -848,7 +848,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -873,6 +873,6 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Preview
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

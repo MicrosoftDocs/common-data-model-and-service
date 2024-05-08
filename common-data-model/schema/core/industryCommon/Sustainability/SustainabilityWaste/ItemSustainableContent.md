@@ -3,9 +3,9 @@ title: ItemSustainableContent in Cloud for Sustainability waste data model - Com
 description: Entity for capturing data on the sustainable content types in the item such as percentage of recycled, reused or renewable content.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity for capturing data on the sustainable content types in the item such as p
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemSustainableContent/(resolvedAttributes)/itemsustainablecontentId](#itemsustainablecontentId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemSustainableContent/(resolvedAttributes)/itemsustainablecontentId](#itemsustainablecontentId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemSustainableContent/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,32 +51,33 @@ Entity for capturing data on the sustainable content types in the item such as p
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[itemsustainablecontentId](#itemsustainablecontentId)|The unique identifier of the item's sustainable content in the undertaking’s systems.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[statecode](#statecode)|Status of the Item sustainable content|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[statuscode](#statuscode)|Reason for the status of the Item sustainable content|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[name](#name)|The name of the item's sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[description](#description)|Optional description that provides more details about the attribute.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[sustainabilityitemsku](#sustainabilityitemsku)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[sustainablecontentpercentage](#sustainablecontentpercentage)|The percentage of the sustainable content in the input material, based on sustainable content type.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[sustainablecontenttype](#sustainablecontenttype)|The type of sustainable content in the material, such as recycled, reused, or renewable.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[validfromdate](#validfromdate)|The date from which the supplier-provided item has the given sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[validtodate](#validtodate)|The date up to which the supplier-provided item has the given sustainable content. This date can be in the future.|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="ItemSustainableContent.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemSustainableContent</a>|
+|[itemsustainablecontentId](#itemsustainablecontentId)|The unique identifier of the item's sustainable content in the undertaking’s systems.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[statecode](#statecode)|Status of the Item sustainable content|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[statuscode](#statuscode)|Reason for the status of the Item sustainable content|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[name](#name)|The name of the item's sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[description](#description)|Optional description that provides more details about the attribute.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[sustainabilityitemsku](#sustainabilityitemsku)|The unique identifier of the item in the undertaking’s upstream systems.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[sustainablecontentpercentage](#sustainablecontentpercentage)|The percentage of the sustainable content in the input material, based on sustainable content type.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[sustainablecontenttype](#sustainablecontenttype)|The type of sustainable content in the material, such as recycled, reused, or renewable.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[validfromdate](#validfromdate)|The date from which the supplier-provided item has the given sustainable content.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[validtodate](#validtodate)|The date up to which the supplier-provided item has the given sustainable content. This date can be in the future.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field for origin correlation id|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="ItemSustainableContent.md" target="_blank">Sustainability/SustainabilityWaste/ItemSustainableContent</a>|
 
 ### <a href=#itemsustainablecontentId name="itemsustainablecontentId">itemsustainablecontentId</a>
 
 The unique identifier of the item's sustainable content in the undertaking’s systems.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item sustainable content id</td></tr><tr><td>description</td><td>The unique identifier of the item's sustainable content in the undertaking’s systems.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_itemsustainablecontentid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Item sustainable content ID</td></tr><tr><td>description</td><td>The unique identifier of the item's sustainable content in the undertaking’s systems.</td></tr><tr><td>isPrimaryKey</td><td>true</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>sourceName</td><td>msdyn_itemsustainablecontentid</td></tr></table>
 
 #### Traits
 
@@ -88,12 +89,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemSustainableContent/(resolvedAttributes)/itemsustainablecontentId](#itemsustainablecontentId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemSustainableContent/(resolvedAttributes)/itemsustainablecontentId](#itemsustainablecontentId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -102,7 +103,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>The unique identifier of the item's sustainable content in the undertaking’s systems.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item sustainable content id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Item sustainable content ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.CDS.sourceNamed**  
   the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_itemsustainablecontentid"</td><td>string</td><td></td></tr></table>
@@ -113,14 +114,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -160,7 +161,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -200,7 +201,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Item sustainable content  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -246,7 +247,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Item sustainable content  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -295,7 +296,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -338,7 +339,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -375,7 +376,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -418,7 +419,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -461,7 +462,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#name name="name">name</a>
 
 The name of the item's sustainable content.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -477,7 +478,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -502,14 +503,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides more details about the attribute.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -525,7 +526,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -550,14 +551,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainabilityitemsku name="sustainabilityitemsku">sustainabilityitemsku</a>
 
 The unique identifier of the item in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -573,7 +574,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -590,19 +591,19 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">../SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">/SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainablecontentpercentage name="sustainablecontentpercentage">sustainablecontentpercentage</a>
 
 The percentage of the sustainable content in the input material, based on sustainable content type.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -645,7 +646,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#sustainablecontenttype name="sustainablecontenttype">sustainablecontenttype</a>
 
 The type of sustainable content in the material, such as recycled, reused, or renewable.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -691,7 +692,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
 The date from which the supplier-provided item has the given sustainable content.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -731,7 +732,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the supplier-provided item has the given sustainable content. This date can be in the future.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
@@ -771,11 +772,11 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field for origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSustainableContent (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation id</td></tr><tr><td>description</td><td>Optional field for origin correlation id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Origin correlation ID</td></tr><tr><td>description</td><td>Optional field for origin correlation id</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_origincorrelationid</td></tr></table>
 
 #### Traits
 
@@ -787,7 +788,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -796,7 +797,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Optional field for origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.localized.displayedAs**  
-  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation id</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Origin correlation ID</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
   maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
@@ -812,6 +813,46 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemSust
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
+
+### <a href=#reportingdate name="reportingdate">reportingdate</a>
+
+Date used to parameterize reports.  
+First included in: Sustainability/SustainabilityWaste/ItemSustainableContent (this entity)  
+
+#### Properties
+
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Reporting date</td></tr><tr><td>description</td><td>Date used to parameterize reports.</td></tr><tr><td>dataFormat</td><td>dateTime</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_reportingdate</td></tr></table>
+
+#### Traits
+
+<details>
+<summary>List of traits for the reportingdate attribute are listed below.</summary>
+
+**is.dataFormat.date**  
+  **means.measurement.date**  
+  **is.dataFormat.time**  
+  **means.measurement.time**  
+  **is.requiredAtLevel**  
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+
+**is.localized.describedAs**  
+  Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Date used to parameterize reports.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.localized.displayedAs**  
+  Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Reporting date</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
+
+**is.nullable**  
+  The attribute value may be set to NULL.  
+
+**is.CDS.sourceNamed**  
+  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_reportingdate"</td><td>string</td><td></td></tr></table>
+
+**is.CDS.ordered**  
+  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"43"</td><td>integer</td><td></td></tr></table>
+
+**is.dataFormat.time**  
+  **is.dataFormat.date**  
+  </details>

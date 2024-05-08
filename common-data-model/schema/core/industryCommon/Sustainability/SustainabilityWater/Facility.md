@@ -3,9 +3,9 @@ title: Facility in Cloud for Sustainability water data model - Common Data Model
 description: Base-level location to attribute activity data. May contain multiple buildings and organizational units.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Base-level location to attribute activity data. May contain multiple buildings a
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Facility/(resolvedAttributes)/facilityId](#facilityId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Facility/(resolvedAttributes)/facilityId](#facilityId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWaterDataModel<br>/Facility.cdm.json/Facility/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -48,14 +48,14 @@ Base-level location to attribute activity data. May contain multiple buildings a
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilityId](#facilityId)|Unique identifier for entity instances.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
-|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
-|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility.|<a href="Facility.md" target="_blank">Sustainability\CloudforSustainabilityWaterDataModel/Facility</a>|
+|[facilityId](#facilityId)|Unique identifier for entity instances.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
+|[waterbasin](#waterbasin)|Stores the details of the basin from which water is drawn by the facility.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
+|[waterriskindex](#waterriskindex)|Describes the overall water risk index of the facility.|<a href="Facility.md" target="_blank">Sustainability/SustainabilityWater/Facility</a>|
 
 ### <a href=#facilityId name="facilityId">facilityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
@@ -71,12 +71,12 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Facility/(resolvedAttributes)/facilityId](#facilityId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Facility/(resolvedAttributes)/facilityId](#facilityId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -96,14 +96,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#waterbasin name="waterbasin">waterbasin</a>
 
 Stores the details of the basin from which water is drawn by the facility.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -141,14 +141,14 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#waterriskindex name="waterriskindex">waterriskindex</a>
 
 Describes the overall water risk index of the facility.  
-First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility (this entity)  
+First included in: Sustainability/SustainabilityWater/Facility (this entity)  
 
 #### Properties
 
@@ -164,7 +164,7 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -186,6 +186,6 @@ First included in: Sustainability\\CloudforSustainabilityWaterDataModel/Facility
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
