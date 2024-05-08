@@ -2949,6 +2949,10 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/CapitalGood.md
           - name: ContractualInstrumentType 
             href: industryCommon/Sustainability/SustainabilityCarbon/ContractualInstrumentType.md
+          - name: DeprecatedProductCarbonFootprint
+            href: industryCommon/Sustainability/SustainabilityCarbon/DeprecatedProductCarbonFootprint.md
+          - name: DisposalMethod
+            href: industryCommon/Sustainability/SustainabilityCarbon/DisposalMethod.md
           - name: Emission 
             href: industryCommon/Sustainability/SustainabilityCarbon/Emission.md
           - name: EmissionsSource 
@@ -2971,14 +2975,18 @@
             href: industryCommon/Sustainability/SustainabilityCarbon/Investment.md
           - name: MobileCombustion 
             href: industryCommon/Sustainability/SustainabilityCarbon/MobileCombustion.md
-          - name: PreviewProductFootprintRuleMapping
-            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewProductFootprintRuleMapping.md
-          - name: PreviewProductOrSectorSpecificRule
-            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewProductOrSectorSpecificRule.md
-          - name: PreviewSustainabilityProductCarbonFootprint
-            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewSustainabilityProductCarbonFootprint.md
-          - name: PreviewSustainabilityProductFootprint
-            href: industryCommon/Sustainability/SustainabilityCarbon/PreviewSustainabilityProductFootprint.md
+          - name: PartnerActivity
+            href: industryCommon/Sustainability/SustainabilityCarbon/PartnerActivity.md
+          - name: PartnerEmission
+            href: industryCommon/Sustainability/SustainabilityCarbon/PartnerEmission.md
+          - name: ProductFootprint
+            href: industryCommon/Sustainability/SustainabilityCarbon/ProductFootprint.md
+          - name: ProductFootprintAudit
+            href: industryCommon/Sustainability/SustainabilityCarbon/ProductFootprintAudit.md
+          - name: ProductFootprintRuleMapping
+            href: industryCommon/Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping.md
+          - name: ProductOrSectorSpecificRuleset
+            href: industryCommon/Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset.md
           - name: PurchasedEnergy 
             href: industryCommon/Sustainability/SustainabilityCarbon/PurchasedEnergy.md
           - name: PurchasedGoodAndService 
@@ -2999,6 +3007,8 @@
           items:
           - name: Summary
             href: industryCommon/Sustainability/SustainabilityEnergy/overview.md
+          - name: Account
+            href: industryCommon/Sustainability/SustainabilityEnergy/Account.md
           - name: AgreementDetails
             href: industryCommon/Sustainability/SustainabilityEnergy/AgreementDetails.md
           - name: EnergyContract
@@ -3031,6 +3041,8 @@
             href: industryCommon/Sustainability/SustainabilityShared/CustomDimensionMetadata.md
           - name: DataSourceType
             href: industryCommon/Sustainability/SustainabilityShared/DataSourceType.md
+          - name: DeprecatedProductIdentifier
+            href: industryCommon/Sustainability/SustainabilityShared/DeprecatedProductIdentifier.md
           - name: EmissionFactor 
             href: industryCommon/Sustainability/SustainabilityShared/EmissionFactor.md
           - name: EnergyProviderType
@@ -3073,14 +3085,10 @@
             href: industryCommon/Sustainability/SustainabilityShared/OrganizationalProfile.md
           - name: OrganizationalUnit 
             href: industryCommon/Sustainability/SustainabilityShared/OrganizationalUnit.md
-          - name: PreviewProductIdentifier
-            href: industryCommon/Sustainability/SustainabilityShared/PreviewProductIdentifier.md
-          - name: PreviewProductSustainability
-            href: industryCommon/Sustainability/SustainabilityShared/PreviewProductSustainability.md
-          - name: PreviewSustainabilityProduct
-            href: industryCommon/Sustainability/SustainabilityShared/PreviewSustainabilityProduct.md
-          - name: PreviewSustainabilityProductIdentifier
-            href: industryCommon/Sustainability/SustainabilityShared/PreviewSustainabilityProductIdentifier.md
+          - name: ProductCategory
+            href: industryCommon/Sustainability/SustainabilityShared/ProductCategory.md
+          - name: ProductSustainability
+            href: industryCommon/Sustainability/SustainabilityShared/ProductSustainability.md
           - name: ReportingPeriod 
             href: industryCommon/Sustainability/SustainabilityShared/ReportingPeriod.md
           - name: ReportingYear
