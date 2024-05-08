@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Facility capacity in Cloud for Sustainability shared data model(FacilityCapacity)
+# Facility capacity in Cloud for Sustainability shared data model (FacilityCapacity)
 
 Entity to capture the facility's capacity dimension and measure for a specified time period.  
   

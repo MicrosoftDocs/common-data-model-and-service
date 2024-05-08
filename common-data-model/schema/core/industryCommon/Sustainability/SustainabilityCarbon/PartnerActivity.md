@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Partner activity in Cloud for Sustainability carbon data model(PartnerActivity)
+# Partner activity in Cloud for Sustainability carbon data model (PartnerActivity)
 
 Table that holds activities from external sources  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Industrial process type in Cloud for Sustainability shared data model(IndustrialProcessType)
+# Industrial process type in Cloud for Sustainability shared data model (IndustrialProcessType)
 
 Entity to store process classifications for various industrial processes, such as extraction and manufacturing processes.  
   

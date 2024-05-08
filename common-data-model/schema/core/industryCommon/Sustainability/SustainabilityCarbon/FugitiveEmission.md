@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Fugitive emission in Cloud for Sustainability carbon data model(FugitiveEmission)
+# Fugitive emission in Cloud for Sustainability carbon data model (FugitiveEmission)
 
 Greenhouse gas emissions that cannot reasonably be expected to be captured. Typically includes refrigerants.  
   

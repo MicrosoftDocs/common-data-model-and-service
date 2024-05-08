@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Utility type in Cloud for Sustainability energy data model(UtilityType)
+# Utility type in Cloud for Sustainability energy data model (UtilityType)
 
 Classification of energy entities such as electricity or gas.  
   

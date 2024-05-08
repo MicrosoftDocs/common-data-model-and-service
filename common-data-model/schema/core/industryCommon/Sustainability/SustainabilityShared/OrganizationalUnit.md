@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Organizational unit in Cloud for Sustainability shared data model(OrganizationalUnit)
+# Organizational unit in Cloud for Sustainability shared data model (OrganizationalUnit)
 
 A structural division of a company or organization.  
   

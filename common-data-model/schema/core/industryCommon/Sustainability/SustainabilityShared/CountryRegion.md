@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Country/Region in Cloud for Sustainability shared data model(CountryRegion)
+# Country/Region in Cloud for Sustainability shared data model (CountryRegion)
 
 Defines custom country/region codes.  
   

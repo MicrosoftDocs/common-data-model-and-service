@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Sustainability data definition in Cloud for Sustainability shared data model(SustainabilityDataDefinition)
+# Sustainability data definition in Cloud for Sustainability shared data model (SustainabilityDataDefinition)
 
 Entity used to define the data definitions for entities across Carbon, Waste and Water.  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Transportation and distribution in Cloud for Sustainability carbon data model(TransportationAndDistribution)
+# Transportation and distribution in Cloud for Sustainability carbon data model (TransportationAndDistribution)
 
 Upstream and downstream transportation and distribution activities.  
   

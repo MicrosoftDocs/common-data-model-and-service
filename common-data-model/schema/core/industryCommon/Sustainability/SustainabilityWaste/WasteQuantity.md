@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Waste quantity in Cloud for Sustainability waste data model(WasteQuantity)
+# Waste quantity in Cloud for Sustainability waste data model (WasteQuantity)
 
 Stores information on the actual waste quantity of the organization.  
   

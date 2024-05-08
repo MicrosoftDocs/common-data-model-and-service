@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Accommodation type in Cloud for Sustainability carbon data model(AccommodationType)
+# Accommodation type in Cloud for Sustainability carbon data model (AccommodationType)
 
 Entity used for classifying the type of hotel accommodation, as defined in the reporting company.  
   

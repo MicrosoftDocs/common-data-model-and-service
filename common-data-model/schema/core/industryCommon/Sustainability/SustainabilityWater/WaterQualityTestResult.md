@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Water quality test result in Cloud for Sustainability water data model(WaterQualityTestResult)
+# Water quality test result in Cloud for Sustainability water data model (WaterQualityTestResult)
 
 Describes the results coming from the laboratory water quality test for a characteristic in the water sample.  
   

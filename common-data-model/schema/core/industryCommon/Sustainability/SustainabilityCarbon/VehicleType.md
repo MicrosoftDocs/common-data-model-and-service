@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Vehicle type in Cloud for Sustainability carbon data model(VehicleType)
+# Vehicle type in Cloud for Sustainability carbon data model (VehicleType)
 
 Category of vehicle. Used by your organization as reference data to assist with emission factor selection for mobile combustion calculations.  
   

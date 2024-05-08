@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Water quality analysis in Cloud for Sustainability water data model(WaterQualityAnalysis)
+# Water quality analysis in Cloud for Sustainability water data model (WaterQualityAnalysis)
 
 Describes the analysis performed to test a water sample for a certain characteristic.  
   

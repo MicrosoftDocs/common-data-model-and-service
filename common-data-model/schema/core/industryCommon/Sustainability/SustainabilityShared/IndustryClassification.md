@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Industry classification in Cloud for Sustainability shared data model(IndustryClassification)
+# Industry classification in Cloud for Sustainability shared data model (IndustryClassification)
 
 Combination of the Industry parent-level industry classification and the Subindustry child-level industry classification, both defined on the company profile.  
   

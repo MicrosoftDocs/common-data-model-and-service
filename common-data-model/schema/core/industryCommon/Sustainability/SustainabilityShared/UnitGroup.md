@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Unit group in Cloud for Sustainability shared data model(UnitGroup)
+# Unit group in Cloud for Sustainability shared data model (UnitGroup)
 
 Grouping of units.  
   

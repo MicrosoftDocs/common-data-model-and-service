@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Energy contract in Cloud for Sustainability energy data model(EnergyContract)
+# Energy contract in Cloud for Sustainability energy data model (EnergyContract)
 
 Documented method/approach to source energy.  
   

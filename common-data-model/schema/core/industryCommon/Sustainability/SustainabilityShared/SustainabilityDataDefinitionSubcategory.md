@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Sustainability data definition subcategory in Cloud for Sustainability shared data model(SustainabilityDataDefinitionSubcategory)
+# Sustainability data definition subcategory in Cloud for Sustainability shared data model (SustainabilityDataDefinitionSubcategory)
 
 Stores data definition subcategories and help links  
   

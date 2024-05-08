@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Monthly revenue in Cloud for Sustainability shared data model(MonthlyRevenue)
+# Monthly revenue in Cloud for Sustainability shared data model (MonthlyRevenue)
 
 Captures revenue of an organizational unit by year and month in the company currency.  
   

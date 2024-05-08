@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Water quality characteristic type in Cloud for Sustainability water data model(WaterQualityCharacteristicType)
+# Water quality characteristic type in Cloud for Sustainability water data model (WaterQualityCharacteristicType)
 
 Stores all the different classifications for the water quality characteristics.  
   

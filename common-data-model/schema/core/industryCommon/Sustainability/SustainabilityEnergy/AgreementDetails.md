@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Agreement details in Cloud for Sustainability energy data model(AgreementDetails)
+# Agreement details in Cloud for Sustainability energy data model (AgreementDetails)
 
 Binding agreement between the energy provider and the customer for the energy being sourced or procured.   
   

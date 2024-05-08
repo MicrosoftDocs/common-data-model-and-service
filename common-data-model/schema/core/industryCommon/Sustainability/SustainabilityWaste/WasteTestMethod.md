@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Waste test method in Cloud for Sustainability waste data model(WasteTestMethod)
+# Waste test method in Cloud for Sustainability waste data model (WasteTestMethod)
 
 Stores information on tests performed for the contaminant.  
   

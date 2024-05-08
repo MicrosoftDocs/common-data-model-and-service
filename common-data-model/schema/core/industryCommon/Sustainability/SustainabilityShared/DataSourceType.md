@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Data source type in Cloud for Sustainability shared data model(DataSourceType)
+# Data source type in Cloud for Sustainability shared data model (DataSourceType)
 
 The different types of sources for energy data.  
   

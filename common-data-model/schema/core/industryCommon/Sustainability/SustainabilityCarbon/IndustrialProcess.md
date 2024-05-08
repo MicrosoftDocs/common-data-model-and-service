@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Industrial process in Cloud for Sustainability carbon data model(IndustrialProcess)
+# Industrial process in Cloud for Sustainability carbon data model (IndustrialProcess)
 
 Emissions source for scope 1 emissions relating to industrial processes.  
   

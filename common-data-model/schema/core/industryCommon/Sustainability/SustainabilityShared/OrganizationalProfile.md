@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Organizational profile in Cloud for Sustainability shared data model(OrganizationalProfile)
+# Organizational profile in Cloud for Sustainability shared data model (OrganizationalProfile)
 
 The base information of the organization, for which the solution is built.  
   

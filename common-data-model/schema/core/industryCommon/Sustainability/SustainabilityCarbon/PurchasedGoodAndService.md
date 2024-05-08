@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Purchased good and service in Cloud for Sustainability carbon data model(PurchasedGoodAndService)
+# Purchased good and service in Cloud for Sustainability carbon data model (PurchasedGoodAndService)
 
 Entity for purchased goods and services.  
   

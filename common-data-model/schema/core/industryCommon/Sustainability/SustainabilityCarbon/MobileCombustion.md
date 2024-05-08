@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Mobile combustion in Cloud for Sustainability carbon data model(MobileCombustion)
+# Mobile combustion in Cloud for Sustainability carbon data model (MobileCombustion)
 
 Combustion that occurs in a moving vehicle, such as a car or truck.  
   

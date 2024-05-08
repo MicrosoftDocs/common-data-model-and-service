@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Organizational hierarchy in Cloud for Sustainability shared data model(OrganizationalHierarchy)
+# Organizational hierarchy in Cloud for Sustainability shared data model (OrganizationalHierarchy)
 
 The classification that a company or organization uses to categorize its entities such as facilities, departments, divisions and organizational units.  
   

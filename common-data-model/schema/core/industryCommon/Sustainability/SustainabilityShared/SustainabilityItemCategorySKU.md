@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Sustainability item category SKU in Cloud for Sustainability shared data model(SustainabilityItemCategorySKU)
+# Sustainability item category SKU in Cloud for Sustainability shared data model (SustainabilityItemCategorySKU)
 
 The category of the item such as abrasives, castings or accessories  
   

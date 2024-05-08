@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Water sample in Cloud for Sustainability water data model(WaterSample)
+# Water sample in Cloud for Sustainability water data model (WaterSample)
 
 Stores the attributes of the water samples collected for testing water quality.  
   

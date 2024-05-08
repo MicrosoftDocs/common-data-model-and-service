@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Partner emission in Cloud for Sustainability carbon data model(PartnerEmission)
+# Partner emission in Cloud for Sustainability carbon data model (PartnerEmission)
 
 Emissions from external sources  
   

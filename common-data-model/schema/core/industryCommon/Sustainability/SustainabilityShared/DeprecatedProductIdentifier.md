@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# (Deprecated) Product identifier in Cloud for Sustainability shared data model(DeprecatedProductIdentifier)
+# (Deprecated) Product identifier in Cloud for Sustainability shared data model (DeprecatedProductIdentifier)
 
 Uniquely identifies a product.  
   

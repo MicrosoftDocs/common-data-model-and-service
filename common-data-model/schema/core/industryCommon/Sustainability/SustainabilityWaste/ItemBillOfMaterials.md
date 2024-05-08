@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Item bill of material in Cloud for Sustainability waste data model(ItemBillOfMaterials)
+# Item bill of material in Cloud for Sustainability waste data model (ItemBillOfMaterials)
 
 Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.  
   

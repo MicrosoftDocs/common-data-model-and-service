@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Sustainability item SKU in Cloud for Sustainability shared data model(SustainabilityItemSKU)
+# Sustainability item SKU in Cloud for Sustainability shared data model (SustainabilityItemSKU)
 
 Entity for capturing data on items/SKU inventoried such as input material and finished goods.  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Product footprint audit in Cloud for Sustainability carbon data model(ProductFootprintAudit)
+# Product footprint audit in Cloud for Sustainability carbon data model (ProductFootprintAudit)
 
 Assurance contains the assurance in conformance with Pathfinder Framework.  
   

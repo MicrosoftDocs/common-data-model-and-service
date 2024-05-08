@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Facility item consumption in Cloud for Sustainability waste data model(FacilityItemConsumption)
+# Facility item consumption in Cloud for Sustainability waste data model (FacilityItemConsumption)
 
 Entity used to record the quantity of an item consumed in a facility for a specified period.  
   

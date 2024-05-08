@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Product category in Cloud for Sustainability shared data model(ProductCategory)
+# Product category in Cloud for Sustainability shared data model (ProductCategory)
 
 Represents category of a product. Can be associated with a parent product category. It is used in reports.  
   

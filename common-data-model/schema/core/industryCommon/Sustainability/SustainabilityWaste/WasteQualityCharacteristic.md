@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Waste quality characteristic in Cloud for Sustainability waste data model(WasteQualityCharacteristic)
+# Waste quality characteristic in Cloud for Sustainability waste data model (WasteQualityCharacteristic)
 
 Stores information on the characteristics of the contaminant or chemical being tracked.  
   

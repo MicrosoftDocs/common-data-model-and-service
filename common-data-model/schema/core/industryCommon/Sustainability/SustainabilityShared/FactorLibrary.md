@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Factor library in Cloud for Sustainability shared data model(FactorLibrary)
+# Factor library in Cloud for Sustainability shared data model (FactorLibrary)
 
 Repository for emission and estimation factor sets, including both system and user added.  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Energy provider type in Cloud for Sustainability shared data model(EnergyProviderType)
+# Energy provider type in Cloud for Sustainability shared data model (EnergyProviderType)
 
 Categories or classifications of companies or entities that supply energy, such as electricity or gas.  
   

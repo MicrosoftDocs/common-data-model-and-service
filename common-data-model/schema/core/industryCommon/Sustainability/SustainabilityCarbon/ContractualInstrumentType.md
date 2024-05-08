@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Contractual instrument type in Cloud for Sustainability carbon data model(ContractualInstrumentType)
+# Contractual instrument type in Cloud for Sustainability carbon data model (ContractualInstrumentType)
 
 Documented method/approach to confirm and validate source data.  
   

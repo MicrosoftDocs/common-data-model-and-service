@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Stationary combustion in Cloud for Sustainability carbon data model(StationaryCombustion)
+# Stationary combustion in Cloud for Sustainability carbon data model (StationaryCombustion)
 
 Combustion that occurs in a fixed asset, such as a boiler or furnace.  
   

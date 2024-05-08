@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Facility usage detail in Cloud for Sustainability shared data model(FacilityUsageDetail)
+# Facility usage detail in Cloud for Sustainability shared data model (FacilityUsageDetail)
 
 Captures intensity scores for a facility in a given year.  
   

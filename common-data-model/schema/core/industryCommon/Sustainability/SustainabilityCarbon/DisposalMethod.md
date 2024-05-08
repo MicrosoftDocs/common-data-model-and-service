@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Disposal method in Cloud for Sustainability carbon data model(DisposalMethod)
+# Disposal method in Cloud for Sustainability carbon data model (DisposalMethod)
 
 Entity used for classifying the type of disposal method, as defined in the reporting company.  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Energy contract type in Cloud for Sustainability energy data model(EnergyContractType)
+# Energy contract type in Cloud for Sustainability energy data model (EnergyContractType)
 
 Various types of documented method/approach to source energy.  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Water sample (Deprecated) in Cloud for Sustainability water data model(WaterSampleDeprecated)
+# Water sample (Deprecated) in Cloud for Sustainability water data model (WaterSampleDeprecated)
 
 Stores the attributes of the water samples collected for testing water quality.  
   

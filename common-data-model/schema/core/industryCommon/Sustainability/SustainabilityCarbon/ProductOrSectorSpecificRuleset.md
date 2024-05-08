@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Product or sector specific ruleset in Cloud for Sustainability carbon data model(ProductOrSectorSpecificRuleset)
+# Product or sector specific ruleset in Cloud for Sustainability carbon data model (ProductOrSectorSpecificRuleset)
 
 A set of product- or sector-specific rules published by a specific operator and applied during product carbon footprint calculation.  
   

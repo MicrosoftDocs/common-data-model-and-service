@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Spend type in Cloud for Sustainability carbon data model(SpendType)
+# Spend type in Cloud for Sustainability carbon data model (SpendType)
 
 Entity that represents a spend type, as defined in the reporting company. Used for classifying purchases.  
   

@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Stored water in Cloud for Sustainability water data model(StoredWater)
+# Stored water in Cloud for Sustainability water data model (StoredWater)
 
 The entity stores data related to the water stored within a facility.  
   

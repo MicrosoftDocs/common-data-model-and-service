@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Waste type in Cloud for Sustainability waste data model(WasteType)
+# Waste type in Cloud for Sustainability waste data model (WasteType)
 
 Stores information on the type of waste generated.  
   

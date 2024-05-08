@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Custom dimension metadata in Cloud for Sustainability shared data model(CustomDimensionMetadata)
+# Custom dimension metadata in Cloud for Sustainability shared data model (CustomDimensionMetadata)
 
 Table holding information about all the custom dimensions available in Microsoft Sustainability Manager  
   

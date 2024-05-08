@@ -9,7 +9,7 @@ ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# (Deprecated) Product carbon footprint in Cloud for Sustainability carbon data model(DeprecatedProductCarbonFootprint)
+# (Deprecated) Product carbon footprint in Cloud for Sustainability carbon data model (DeprecatedProductCarbonFootprint)
 
 The carbon footprint of a product and related data in accordance with the Pathfinder Framework.  
   
