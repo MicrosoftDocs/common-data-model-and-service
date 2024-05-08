@@ -70,7 +70,7 @@ Entity that represents a spend type, as defined in the reporting company. Used f
 ### <a href=#spendtypeId name="spendtypeId">spendtypeId</a>
 
 Unique identifier for entity instances  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -118,7 +118,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -158,7 +158,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -198,7 +198,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Spend Type  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -244,7 +244,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Spend Type  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -293,7 +293,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -336,7 +336,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -373,7 +373,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -416,7 +416,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the spend type.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#emissionsourceid name="emissionsourceid">emissionsourceid</a>
 
 Unique identifier related to emission source associated with spend type  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#subtype name="subtype">subtype</a>
 
 Sub type associated with this spend type  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ First included in: ../SustainabilityCarbon/SpendType (this entity)
 ### <a href=#type name="type">type</a>
 
 type associated with this pend type  
-First included in: ../SustainabilityCarbon/SpendType (this entity)  
+First included in: Sustainability/SustainabilityCarbon/SpendType (this entity)  
 
 #### Properties
 

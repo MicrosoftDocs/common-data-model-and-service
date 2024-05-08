@@ -95,7 +95,7 @@ Electric energy, measured in MWh, delivered by the utility to a customer in acco
 ### <a href=#purchasedenergyId name="purchasedenergyId">purchasedenergyId</a>
 
 Unique identifier for entity instances  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -143,7 +143,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -186,7 +186,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -234,7 +234,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -274,7 +274,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -314,7 +314,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -357,7 +357,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -394,7 +394,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -442,7 +442,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -487,7 +487,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#accountid name="accountid">accountid</a>
 
 Comprehensive information about a supplier, customer, third-party manufacturer, or investee.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -532,7 +532,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -569,7 +569,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -606,7 +606,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#contractualinstrumenttypeid name="contractualinstrumenttypeid">contractualinstrumenttypeid</a>
 
 Unique identifier for the contractual instrument type associated with the purchased energy.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -651,7 +651,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -694,7 +694,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -739,7 +739,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -787,7 +787,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -833,7 +833,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -881,7 +881,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#energyprovidername name="energyprovidername">energyprovidername</a>
 
 Name of the energy provider.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -929,7 +929,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#energytype name="energytype">energytype</a>
 
 Energy sub-category within Scope 2 emissions.   
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -975,7 +975,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1026,7 +1026,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with the purchased energy.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1071,7 +1071,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#facilityusagedetailid name="facilityusagedetailid">facilityusagedetailid</a>
 
 The facility usage detail associated with this purchased energy  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1116,7 +1116,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#isrenewable name="isrenewable">isrenewable</a>
 
 Identifier used to determine if the source electric energy is renewable or not.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1152,7 +1152,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#leasedassetcategory name="leasedassetcategory">leasedassetcategory</a>
 
 Indicator of classification of category. An empty value means this activity is in scope 2.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1198,7 +1198,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#meternumber name="meternumber">meternumber</a>
 
 Field representing meter number for purchased energy entity.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1246,7 +1246,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#meterid name="meterid">meterid</a>
 
 Field representing meter for purchased energy entity.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1291,7 +1291,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#lifespaninyears name="lifespaninyears">lifespaninyears</a>
 
 The product lifespan refers to the duration of time (in years) a consumer can expect a product to remain useful and functional after purchase.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1334,7 +1334,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the purchased energy.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1379,7 +1379,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1422,7 +1422,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1470,7 +1470,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1507,7 +1507,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field   
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1552,7 +1552,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 Quantity of goods in the corresponding activity data.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1595,7 +1595,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 Unit of measure for the goods quantity in record.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1640,7 +1640,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with the spend category. Generally, applies to scope 3 emissions.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1685,7 +1685,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction. Generally applies to scope 3 emissions.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1730,7 +1730,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#product name="product">product</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1775,7 +1775,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1820,7 +1820,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
 Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1865,7 +1865,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#productidentifier name="productidentifier">productidentifier</a>
 
 A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1910,7 +1910,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#category name="category">category</a>
 
 Indicator of classification of category.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 
@@ -1956,7 +1956,7 @@ First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: ../SustainabilityCarbon/PurchasedEnergy (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PurchasedEnergy (this entity)  
 
 #### Properties
 

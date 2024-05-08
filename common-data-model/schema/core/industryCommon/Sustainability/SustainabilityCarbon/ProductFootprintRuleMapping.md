@@ -69,7 +69,7 @@ Mapping table from sustainability product carbon footprints to product- or secto
 ### <a href=#productfootprintrulemappingId name="productfootprintrulemappingId">productfootprintrulemappingId</a>
 
 Unique identifier for entity instances.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Product footprint rule mapping  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Product footprint rule mapping  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#productcarbonfootprint name="productcarbonfootprint">productcarbonfootprint</a>
 
 The PCF this rule is for. (Deprecated)  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -551,7 +551,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
 The product footprint this rule is for.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#productorsectorspecificrule name="productorsectorspecificrule">productorsectorspecificrule</a>
 
 The product-specific or sector-specific ruleset applied for calculating or allocating GHG emissions.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 
@@ -641,7 +641,7 @@ First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this ent
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprintRuleMapping (this entity)  
 
 #### Properties
 

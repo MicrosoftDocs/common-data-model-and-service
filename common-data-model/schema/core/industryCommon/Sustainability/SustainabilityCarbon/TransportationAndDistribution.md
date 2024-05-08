@@ -93,7 +93,7 @@ Upstream and downstream transportation and distribution activities.
 ### <a href=#transportationanddistributionId name="transportationanddistributionId">transportationanddistributionId</a>
 
 Unique identifier for entity instances  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -232,7 +232,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -272,7 +272,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -312,7 +312,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -355,7 +355,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -392,7 +392,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -440,7 +440,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -485,7 +485,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#accountid name="accountid">accountid</a>
 
 Unique identifier for value chain partner associated with this record.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -530,7 +530,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -567,7 +567,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -604,7 +604,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with the activity data.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -692,7 +692,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality which identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -786,7 +786,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -834,7 +834,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#distance name="distance">distance</a>
 
 Quantity associated with the distance activity which contributes to mobile combustion or supply chain travel.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -877,7 +877,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#distanceunit name="distanceunit">distanceunit</a>
 
 Unique identifier for the unit associated with distance.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to the entity or attribute, if required.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -970,7 +970,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier associated with Transportation and distribution  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1015,7 +1015,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#fuelquantity name="fuelquantity">fuelquantity</a>
 
 Unique identifier for the fuel consumption data associated with combustion or supply chain fuel usage.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1058,7 +1058,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#fuelquantityunit name="fuelquantityunit">fuelquantityunit</a>
 
 Unique identifier for the unit associated with fuel data.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1103,7 +1103,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier for the fuel type associated with combustion or supply chain fuel usage.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1148,7 +1148,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#goodsquantity name="goodsquantity">goodsquantity</a>
 
 The quantity of goods being transported and distributed, which is used for calculation.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1191,7 +1191,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#goodsunit name="goodsunit">goodsunit</a>
 
 Unique identifier for the unit relating to transportation and distribution of goods.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1236,7 +1236,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Unique identifier for the industrial process type associated with activity.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1281,7 +1281,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with transportation and distribution.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1326,7 +1326,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#quantity name="quantity">quantity</a>
 
 Generic quanity field associated with activity entities.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1369,7 +1369,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1414,7 +1414,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1454,7 +1454,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1502,7 +1502,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1539,7 +1539,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#transportationanddistributiontype name="transportationanddistributiontype">transportationanddistributiontype</a>
 
 Marks what type of transportation and distribution this record represents.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1585,7 +1585,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#transportmode name="transportmode">transportmode</a>
 
 The transport mode that corresponds to this transportation and distribution activity.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1630,7 +1630,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#vehicletype name="vehicletype">vehicletype</a>
 
 Unique identifier for the vehicle type associated with combustion or supply chain transportation activities.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1675,7 +1675,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
 Product footprint that contains per-unit emissions data that can be used to compute emissions.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1720,7 +1720,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1765,7 +1765,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with transportation and distribution.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1810,7 +1810,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction.  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 
@@ -1855,7 +1855,7 @@ First included in: ../SustainabilityCarbon/TransportationAndDistribution (this e
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
 Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
-First included in: ../SustainabilityCarbon/TransportationAndDistribution (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportationAndDistribution (this entity)  
 
 #### Properties
 

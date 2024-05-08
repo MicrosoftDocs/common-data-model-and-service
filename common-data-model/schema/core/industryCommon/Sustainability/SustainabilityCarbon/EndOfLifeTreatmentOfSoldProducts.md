@@ -93,7 +93,7 @@ Entity for end for life treatment of sold products
 ### <a href=#endoflifetreatmentofsoldproductsId name="endoflifetreatmentofsoldproductsId">endoflifetreatmentofsoldproductsId</a>
 
 Unique identifier for entity instances  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -141,7 +141,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -184,7 +184,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -232,7 +232,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -272,7 +272,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -312,7 +312,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -355,7 +355,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -392,7 +392,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -440,7 +440,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#accountid name="accountid">accountid</a>
 
 Unique identifier for value chain partner associated with this record.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -485,7 +485,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -522,7 +522,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -559,7 +559,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -602,7 +602,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -647,7 +647,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -695,7 +695,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#dataqualitytype name="dataqualitytype">dataqualitytype</a>
 
 Description of the data quality that identifies if the data is actual, estimated, or other descriptors of the data.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -786,7 +786,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#description name="description">description</a>
 
 Optional description to give additional detail to the entity or attribute.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -834,7 +834,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#disposalmethodid name="disposalmethodid">disposalmethodid</a>
 
 Method of waste disposal, such as compost or recycle.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -879,7 +879,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#distance name="distance">distance</a>
 
 Quantity associated with distance activity which contributes to mobile combustion or supply chain travel.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -922,7 +922,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#distanceunit name="distanceunit">distanceunit</a>
 
 Unique identifier for the unit associated with distance.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -967,7 +967,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#evidence name="evidence">evidence</a>
 
 Optional field where evidence can be linked to an entity or attribute, if required.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1015,7 +1015,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for Facility associated with waste generated in operations.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1060,7 +1060,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#fuelquantity name="fuelquantity">fuelquantity</a>
 
 Unique identifier of the fuel consumption data associated with combustion.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1103,7 +1103,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#fuelquantityunit name="fuelquantityunit">fuelquantityunit</a>
 
 Unique identifier of the unit associated with fuel data.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1148,7 +1148,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#fueltypeid name="fueltypeid">fueltypeid</a>
 
 Unique identifier of the fuel type associated with combustion.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1193,7 +1193,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#industrialprocesstypeid name="industrialprocesstypeid">industrialprocesstypeid</a>
 
 Type of industrial process used to track and associate with activity data.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1238,7 +1238,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#materialid name="materialid">materialid</a>
 
 Material of waste, such as aluminum.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1283,7 +1283,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#meternumber name="meternumber">meternumber</a>
 
 Field representing meter number for purchased energy entity.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1331,7 +1331,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#meterid name="meterid">meterid</a>
 
 Field representing meter entity.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1376,7 +1376,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with end of life treatment.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1421,7 +1421,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1469,7 +1469,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#quantity name="quantity">quantity</a>
 
 Quantity in mass  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1512,7 +1512,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1557,7 +1557,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#spendtypeid name="spendtypeid">spendtypeid</a>
 
 Unique identifier for the spend type associated with waste generated in operations  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1602,7 +1602,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1639,7 +1639,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#transportmode name="transportmode">transportmode</a>
 
 Only used if distance is not included in waste disposal factor.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1684,7 +1684,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#valuechainpartnerid name="valuechainpartnerid">valuechainpartnerid</a>
 
 Reference to the value chain partner or supplier associated with the transaction.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1729,7 +1729,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#productfootprintreporting name="productfootprintreporting">productfootprintreporting</a>
 
 Product footprint that contains per-unit emissions data that can be used to compute emissions.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1774,7 +1774,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1819,7 +1819,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
 Product carbon footprint that this activity contributes to, such as first-party end product. (Deprecated)  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 
@@ -1864,7 +1864,7 @@ First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (thi
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: ../SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
+First included in: Sustainability/SustainabilityCarbon/EndOfLifeTreatmentOfSoldProducts (this entity)  
 
 #### Properties
 

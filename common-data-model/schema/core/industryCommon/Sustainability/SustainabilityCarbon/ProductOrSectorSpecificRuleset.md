@@ -69,7 +69,7 @@ A set of product- or sector-specific rules published by a specific operator and 
 ### <a href=#productorsectorspecificruleId name="productorsectorspecificruleId">productorsectorspecificruleId</a>
 
 Unique identifier for entity instances.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -117,7 +117,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -157,7 +157,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -197,7 +197,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Product or sector specific rule  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -243,7 +243,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Product or sector specific rule  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -335,7 +335,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -372,7 +372,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -415,7 +415,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -458,7 +458,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -506,7 +506,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#operator name="operator">operator</a>
 
 Product Category Rule (PCR) operator.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -552,7 +552,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#otheroperatorname name="otheroperatorname">otheroperatorname</a>
 
 If the value of field Operator is Other, this field is required and must not be one of the options for Operator. If the value of Operator isn't Other, this field must be empty.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -600,7 +600,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#rulenames name="rulenames">rulenames</a>
 
 The non-empty set of rules applied from the specified operator.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 
@@ -648,7 +648,7 @@ First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductOrSectorSpecificRuleset (this entity)  
 
 #### Properties
 

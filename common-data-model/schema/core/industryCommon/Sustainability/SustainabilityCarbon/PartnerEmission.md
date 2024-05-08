@@ -112,7 +112,7 @@ Emissions from external sources
 ### <a href=#externalemissionId name="externalemissionId">externalemissionId</a>
 
 Unique identifier for entity instances  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -203,7 +203,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -251,7 +251,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -331,7 +331,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -374,7 +374,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -411,7 +411,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#name name="name">name</a>
 
 Name of external emission  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -459,7 +459,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#account name="account">account</a>
 
 Lookup to account.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -503,7 +503,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 
 ### <a href=#source name="source">source</a>
 
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -548,7 +548,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#activity name="activity">activity</a>
 
 Unique identifier of the activity linked to the emission.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -596,7 +596,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#activityentityname name="activityentityname">activityentityname</a>
 
 Activity entity name  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -644,7 +644,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#activityid name="activityid">activityid</a>
 
 Activity ID  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -692,7 +692,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#activityname name="activityname">activityname</a>
 
 Category or reference data used for reporting purposes and populated during the calculation process.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#actualquantity name="actualquantity">actualquantity</a>
 
 Adjusted activity quantity used for emission calculation.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -783,7 +783,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#actualquantityunit name="actualquantityunit">actualquantityunit</a>
 
 Adjusted activity quantity unit used for emission calculation.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -828,7 +828,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#calculationdate name="calculationdate">calculationdate</a>
 
 Date calculation occurred  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -865,7 +865,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#category name="category">category</a>
 
 Scope 3 category number.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -913,7 +913,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#ch4 name="ch4">ch4</a>
 
 The amount of the CH₄ factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -956,7 +956,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#ch4unit name="ch4unit">ch4unit</a>
 
 The unit for the CH₄ amount.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1001,7 +1001,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#co2 name="co2">co2</a>
 
 The amount of the CO₂ factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1044,7 +1044,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#co2e name="co2e">co2e</a>
 
 The amount of the CO₂ equivalent factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1087,7 +1087,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#co2emt name="co2emt">co2emt</a>
 
 The amount of the CO₂ equivalent factor in metric tons.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1130,7 +1130,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#co2eunit name="co2eunit">co2eunit</a>
 
 Unique identifier for the unit associated with the emission.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1175,7 +1175,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#co2unit name="co2unit">co2unit</a>
 
 The unit for the CO₂ factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1220,7 +1220,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#consumptionenddate name="consumptionenddate">consumptionenddate</a>
 
 End date of activity consumption.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1257,7 +1257,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#consumptionstartdate name="consumptionstartdate">consumptionstartdate</a>
 
 Start date of activity consumption.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1294,7 +1294,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#countryisocode name="countryisocode">countryisocode</a>
 
 The three letter ISO code of the country/region.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1342,7 +1342,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1387,7 +1387,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#customdimension name="customdimension">customdimension</a>
 
 Field where Custom Dimension values are stored in JSON format.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1435,7 +1435,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#emissionfactor name="emissionfactor">emissionfactor</a>
 
 Emission factor through which external emission is calculated  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1480,7 +1480,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#emissionlookup name="emissionlookup">emissionlookup</a>
 
 Factor mapping used for emission calculations.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1525,7 +1525,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#emissionsource name="emissionsource">emissionsource</a>
 
 Emissions Source (Internal)  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1573,7 +1573,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#emissionsourcev2 name="emissionsourcev2">emissionsourcev2</a>
 
 Emissions source reference.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1618,7 +1618,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#facilityid name="facilityid">facilityid</a>
 
 Unique identifier for the facility associated with mobile combustion.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1663,7 +1663,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#hfcs name="hfcs">hfcs</a>
 
 The amount of hydrofluorocarbons factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1706,7 +1706,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#hfcsunit name="hfcsunit">hfcsunit</a>
 
 The unit for the hydrofluorocarbons factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1751,7 +1751,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#isbiogenic name="isbiogenic">isbiogenic</a>
 
 Indicates if it is a biogenic emission, or emission from a natural source.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1787,7 +1787,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#ismarketbased name="ismarketbased">ismarketbased</a>
 
 Indicates if emission calculation is market-based or considered a "net" calculation.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1823,7 +1823,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#latitude name="latitude">latitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1871,7 +1871,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#longitude name="longitude">longitude</a>
 
 This information can make it easier to submit reports for public disclosure.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1919,7 +1919,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#n2o name="n2o">n2o</a>
 
 The amount of the N₂O factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -1962,7 +1962,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#n2ounit name="n2ounit">n2ounit</a>
 
 Unique identifier for the unit associated with the emission.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2007,7 +2007,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#nf3 name="nf3">nf3</a>
 
 The amount of nitrogen trifluoride factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2050,7 +2050,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#nf3unit name="nf3unit">nf3unit</a>
 
 The unit for the NF₃ factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2095,7 +2095,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#organizationalunitid name="organizationalunitid">organizationalunitid</a>
 
 Unique identifier for the organizational unit associated with the emission.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2140,7 +2140,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2188,7 +2188,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#otherghgs name="otherghgs">otherghgs</a>
 
 Greenhouse gases associated with emissions that are not allocated in an individual category.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2231,7 +2231,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#otherghgsunit name="otherghgsunit">otherghgsunit</a>
 
 Unique identifier for the unit associated with the emission.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2276,7 +2276,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#pfcs name="pfcs">pfcs</a>
 
 The amount of perfluorocarbons factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2319,7 +2319,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#pfcsunit name="pfcsunit">pfcsunit</a>
 
 The unit for the perfluorocarbons factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2364,7 +2364,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#product name="product">product</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use. (Deprecated)  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2409,7 +2409,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 A tangible or intangible item created through manufacturing, design, or development, intended for sale or use.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2454,7 +2454,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#productfootprint name="productfootprint">productfootprint</a>
 
 Product footprint (Deprecated)  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2499,7 +2499,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#productidentifier name="productidentifier">productidentifier</a>
 
 A unique alphanumeric code or number assigned to a specific product for the purpose of identification, tracking, and inventory management. (Deprecated)  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2544,7 +2544,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#sf6 name="sf6">sf6</a>
 
 The amount of sulfur hexafluoride factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2587,7 +2587,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#sf6unit name="sf6unit">sf6unit</a>
 
 The unit for SF₆ factor.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2632,7 +2632,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#transactiondate name="transactiondate">transactiondate</a>
 
 Date associated with the actual date when the transaction occurred.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2669,7 +2669,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#emissionoriginator name="emissionoriginator">emissionoriginator</a>
 
 Identifies emission as customer, supplier or other origination  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 
@@ -2715,7 +2715,7 @@ First included in: ../SustainabilityCarbon/PartnerEmission (this entity)
 ### <a href=#scope name="scope">scope</a>
 
 Emission scope as defined by the Greenhouse Gas Protocol.  
-First included in: ../SustainabilityCarbon/PartnerEmission (this entity)  
+First included in: Sustainability/SustainabilityCarbon/PartnerEmission (this entity)  
 
 #### Properties
 

@@ -118,7 +118,7 @@ The carbon footprint of a product with values in accordance with the Pathfinder 
 ### <a href=#sustainabilityproductfootprintId name="sustainabilityproductfootprintId">sustainabilityproductfootprintId</a>
 
 Unique identifier for entity instances.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -166,7 +166,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -206,7 +206,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the (Preview) Sustainability product footprint  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -292,7 +292,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the (Preview) Sustainability product footprint  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -341,7 +341,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -384,7 +384,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -421,7 +421,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -464,7 +464,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -507,7 +507,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -555,7 +555,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#comment name="comment">comment</a>
 
 Information which helps interpret, audit, or verify the product footprint, or which describes its calculation.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -603,7 +603,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#company name="company">company</a>
 
 The company that is the data owner.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -642,7 +642,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#companyType name="companyType">companyType</a>
 
 The company that is the data owner.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -681,7 +681,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#specversion name="specversion">specversion</a>
 
 The version of the Pathfinder Framework data specification being used.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -729,7 +729,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#footprintstatus name="footprintstatus">footprintstatus</a>
 
 The default status of a product footprint is Active. A product footprint with status Inactive shouldn't be used, for example, product footprint calculations by data recipients.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -775,7 +775,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#statuscomment name="statuscomment">statuscomment</a>
 
 If defined, the value should be a message explaining the reason for the current status.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -823,7 +823,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#sustainabilityproduct name="sustainabilityproduct">sustainabilityproduct</a>
 
 The product this footprint is for. (Deprecated)  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -868,7 +868,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#sustainabilityproductcarbonfootprint name="sustainabilityproductcarbonfootprint">sustainabilityproductcarbonfootprint</a>
 
 The carbon footprint of the given product. (Deprecated)  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -913,7 +913,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#validityperiodend name="validityperiodend">validityperiodend</a>
 
 The end (exclusive) of the valid period of the PCF. Reference the description of validity period start and the Pathfinder Framework for further details.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -950,7 +950,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#validityperiodstart name="validityperiodstart">validityperiodstart</a>
 
 The start of the validity period, which is the interval during which the PCF is declared as valid for use by a data recipient. Reference the Pathfinder Framework for further details.   
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -987,7 +987,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#version name="version">version</a>
 
 The version of the product footprint with value an integer in the inclusive range of 0 to (2\^31)-1.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1030,7 +1030,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1078,7 +1078,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#countryregioncode name="countryregioncode">countryregioncode</a>
 
 Lookup field for country/region.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1123,7 +1123,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#geographycountry name="geographycountry">geographycountry</a>
 
 If present, the value must conform to an ISO 3166-2 alpha-2 code.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1171,7 +1171,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#geographycountrysubdivision name="geographycountrysubdivision">geographycountrysubdivision</a>
 
 If present, an ISO 3166-2 subdivision code.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1219,7 +1219,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#geographyregionorsubregion name="geographyregionorsubregion">geographyregionorsubregion</a>
 
 If present, the value must conform to data type RegionOrSubregion, as specified by the Pathfinder Framework.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1267,7 +1267,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#aircraftghgemissions name="aircraftghgemissions">aircraftghgemissions</a>
 
 The GHG emissions resulting from aircraft engine usage for the transport of the product. Must be calculated with unit kgCO2e per declared unit and non-negative.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1310,7 +1310,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#allocationrulesdescription name="allocationrulesdescription">allocationrulesdescription</a>
 
 If present, a description of any allocation rules applied and the rationale explaining how the selected approach aligns with Pathfinder Framework rules.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1358,7 +1358,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#biogenicaccountingmethodology name="biogenicaccountingmethodology">biogenicaccountingmethodology</a>
 
 The standard followed to account for biogenic emissions and removals.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1404,7 +1404,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#biogeniccarboncontent name="biogeniccarboncontent">biogeniccarboncontent</a>
 
 The biogenic carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1447,7 +1447,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#biogeniccarbonwithdrawal name="biogeniccarbonwithdrawal">biogeniccarbonwithdrawal</a>
 
 If present, the biogenic carbon content in the product converted to CO2e. The value must be calculated per declared unit with unit kg expressed as a decimal equal to or greater than zero.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1490,7 +1490,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#boundaryprocessesdescription name="boundaryprocessesdescription">boundaryprocessesdescription</a>
 
 If present, the processes attributable to each lifecycle stage. If no such description is available or otherwise provided, then this field must be empty.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1538,7 +1538,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#characterizationfactors name="characterizationfactors">characterizationfactors</a>
 
 The IPCC Assessment Report used in the calculation of the PCF.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1584,7 +1584,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#completenessdqr name="completenessdqr">completenessdqr</a>
 
 DQR based on data quality matrix, scoring completeness of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1627,7 +1627,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#coveragepercent name="coveragepercent">coveragepercent</a>
 
 Percentage of PCF included in the data quality assessment based on the >5% emissions threshold.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1670,7 +1670,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#crosssectoralstandardsused1 name="crosssectoralstandardsused1">crosssectoralstandardsused1</a>
 
 The cross-sectoral standards applied for calculating or allocating GHG emissions.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1716,7 +1716,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#crosssectoralstandardsused2 name="crosssectoralstandardsused2">crosssectoralstandardsused2</a>
 
 The cross-sectoral standards applied for calculating or allocating GHG emissions.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1762,7 +1762,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#crosssectoralstandardsused3 name="crosssectoralstandardsused3">crosssectoralstandardsused3</a>
 
 The cross-sectoral standards applied for calculating or allocating GHG emissions.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1808,7 +1808,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#declaredunit name="declaredunit">declaredunit</a>
 
 The unit of analysis of the product.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1853,7 +1853,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#dlucghgemissions name="dlucghgemissions">dlucghgemissions</a>
 
 Emissions from recent carbon stock loss from land conversion on land in consideration. Must include dLUC if available, else sLUC can be used. Unit kgCO2e per declared unit and must be >= 0.   
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1896,7 +1896,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#exemptedemissionsdescription name="exemptedemissionsdescription">exemptedemissionsdescription</a>
 
 Rationale behind exclusion of specific PCF emissions, can have no data if no emissions were excluded.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1944,7 +1944,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#exemptedemissionspercent name="exemptedemissionspercent">exemptedemissionspercent</a>
 
 The percentage of emissions excluded from PCF, expressed as a decimal number from 0.0 to 5, inclusive.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -1987,7 +1987,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#fossilcarboncontent name="fossilcarboncontent">fossilcarboncontent</a>
 
 The fossil carbon amount embodied in the product. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2030,7 +2030,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#fossilghgemissions name="fossilghgemissions">fossilghgemissions</a>
 
 The emissions from the combustion of fossil sources. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2073,7 +2073,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#geographicaldqr name="geographicaldqr">geographicaldqr</a>
 
 DQR based on data quality matrix, scoring geographical representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2116,7 +2116,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#ilucghgemissions name="ilucghgemissions">ilucghgemissions</a>
 
 Emissions from recent carbon stock loss from land conversion on land outside control of company or its supply chain, induced by demand change. Unit kgCO2e per declared unit and must be >= 0.   
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2159,7 +2159,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#landmanagementghgemissions name="landmanagementghgemissions">landmanagementghgemissions</a>
 
 GHG emissions and removals associated with land management-related changes, including non-CO2 sources. Must be calculated with unit kgCO2e per declared unit and non-negative.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2202,7 +2202,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#otherbiogenicghgemissions name="otherbiogenicghgemissions">otherbiogenicghgemissions</a>
 
 All other biogenic GHG emissions associated with product manufacturing and transport that are not included in dLUC, iLUC, and land management. Unit kgCO2e per declared unit and must be >= 0.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2245,7 +2245,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#packagingemissionsincluded name="packagingemissionsincluded">packagingemissionsincluded</a>
 
 A boolean flag indicating whether packaging emissions are included in the PCF.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2281,7 +2281,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#packagingghgemissions name="packagingghgemissions">packagingghgemissions</a>
 
 Emissions from the packaging of the product. Must be calculated with unit kgCO2e per declared unit and non-negative. The field must be empty if packaging emissions included is false.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2324,7 +2324,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#pcfexcludingbiogenic name="pcfexcludingbiogenic">pcfexcludingbiogenic</a>
 
 The PCF of the product excluding biogenic emissions. The value must be calculated with unit kgCO2e per declared unit, expressed as a decimal equal to or greater than zero.   
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2367,7 +2367,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#pcfincludingbiogenic name="pcfincludingbiogenic">pcfincludingbiogenic</a>
 
 The PCF of the product including biogenic emissions. The value must be calculated with unit kgCO2e per declared unit. This column can be less than 0.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2410,7 +2410,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#primarydatashare name="primarydatashare">primarydatashare</a>
 
 The share of primary data in percent. For recommended business logic, see the Pathfinder Framework.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2453,7 +2453,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#productfootprintassurance name="productfootprintassurance">productfootprintassurance</a>
 
 Assurance information in accordance with the Pathfinder Framework.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2498,7 +2498,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#referenceperiodend name="referenceperiodend">referenceperiodend</a>
 
 The end of the time boundary for which the PCF value is considered to be representative.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2538,7 +2538,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#referenceperiodstart name="referenceperiodstart">referenceperiodstart</a>
 
 The start of the time boundary for which the PCF value is considered to be representative.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2578,7 +2578,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#reliabilitydqr name="reliabilitydqr">reliabilitydqr</a>
 
 DQR based on data quality matrix, scoring reliability of data collected for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2621,7 +2621,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#secondaryemissionfactorsources name="secondaryemissionfactorsources">secondaryemissionfactorsources</a>
 
 If secondary data was used to calculate the PCF, then it must include this field with value the emission factors used for the PCF calculation. Otherwise, this property must be undefined.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2669,7 +2669,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#technologicaldqr name="technologicaldqr">technologicaldqr</a>
 
 DQR based on data quality matrix, scoring technological representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2712,7 +2712,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#temporaldqr name="temporaldqr">temporaldqr</a>
 
 DQR based on data quality matrix, scoring temporal representativeness of sources used for PCF from weighted average of all inputs >5% of PCF emissions. Must be from 1 to 3, inclusive.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2755,7 +2755,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#uncertaintyassessmentdescription name="uncertaintyassessmentdescription">uncertaintyassessmentdescription</a>
 
 If present, the results, key drivers, and a short qualitative description of the uncertainty assessment.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2803,7 +2803,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#unitaryproductamount name="unitaryproductamount">unitaryproductamount</a>
 
 The amount of declared units contained within the product to which the PCF is referring. The value must be strictly greater than 0.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
@@ -2846,7 +2846,7 @@ First included in: ../SustainabilityCarbon/ProductFootprint (this entity)
 ### <a href=#sustainabilityproductitem name="sustainabilityproductitem">sustainabilityproductitem</a>
 
 The product or item this footprint is for.  
-First included in: ../SustainabilityCarbon/ProductFootprint (this entity)  
+First included in: Sustainability/SustainabilityCarbon/ProductFootprint (this entity)  
 
 #### Properties
 
