@@ -1,11 +1,11 @@
 ---
-title: UnitGroup in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: UnitGroup in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Grouping of units.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Grouping of units.
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[UnitGroup/(resolvedAttributes)/unitgroupId](#unitgroupId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[UnitGroup/(resolvedAttributes)/unitgroupId](#unitgroupId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[UnitGroup/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,24 +51,24 @@ Grouping of units.
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[unitgroupId](#unitgroupId)|Unique identifier for entity instances|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[statecode](#statecode)|Status of the Unit Group|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[statuscode](#statuscode)|Reason for the status of the Unit Group|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[name](#name)|The name of the custom entity.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[baseunit](#baseunit)|The base or primary unit of the unit group.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
-|[reportingunit](#reportingunit)|Unique identifier for the unit associated with the unit group which will be used in reports.|<a href="UnitGroup.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/UnitGroup</a>|
+|[unitgroupId](#unitgroupId)|Unique identifier for entity instances|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[statecode](#statecode)|Status of the Unit Group|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[statuscode](#statuscode)|Reason for the status of the Unit Group|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[name](#name)|The name of the custom entity.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[baseunit](#baseunit)|The base or primary unit of the unit group.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
+|[reportingunit](#reportingunit)|Unique identifier for the unit associated with the unit group which will be used in reports.|<a href="UnitGroup.md" target="_blank">Sustainability/SustainabilityShared/UnitGroup</a>|
 
 ### <a href=#unitgroupId name="unitgroupId">unitgroupId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -84,12 +84,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[UnitGroup/(resolvedAttributes)/unitgroupId](#unitgroupId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[UnitGroup/(resolvedAttributes)/unitgroupId](#unitgroupId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +109,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Unit Group  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Unit Group  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -498,14 +498,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#baseunit name="baseunit">baseunit</a>
 
 The base or primary unit of the unit group.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -521,7 +521,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -543,14 +543,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -566,7 +566,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -591,14 +591,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#reportingunit name="reportingunit">reportingunit</a>
 
 Unique identifier for the unit associated with the unit group which will be used in reports.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGroup (this entity)  
+First included in: Sustainability/SustainabilityShared/UnitGroup (this entity)  
 
 #### Properties
 
@@ -614,7 +614,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -636,6 +636,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/UnitGro
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

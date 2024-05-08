@@ -5,11 +5,11 @@ author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/6/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Transport mode in Cloud for Sustainability carbon data model(TransportMode)
+# Transport mode in Cloud for Sustainability carbon data model (TransportMode)
 
 The mode of transportation or distribution used in an activity, such as air, rail, or storage.  
   
@@ -25,7 +25,7 @@ The mode of transportation or distribution used in an activity, such as air, rai
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/transportmodeId](#transportmodeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/transportmodeId](#transportmodeId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,24 +51,24 @@ The mode of transportation or distribution used in an activity, such as air, rai
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[transportmodeId](#transportmodeId)|Unique identifier for entity instances|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[statecode](#statecode)|Status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[statuscode](#statuscode)|Reason for the status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[name](#name)|The name of the custom entity.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[description](#description)|The description of this transport mode.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[isSharedLoad](#isSharedLoad)|Indicates whether the transport mode carries less than a full load, or is shared across external organizations|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="TransportMode.md" target="_blank">Sustainability\CloudforSustainabilityCarbonDataModel/TransportMode</a>|
+|[transportmodeId](#transportmodeId)|Unique identifier for entity instances|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[statecode](#statecode)|Status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[statuscode](#statuscode)|Reason for the status of the Transport mode|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[name](#name)|The name of the custom entity.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[description](#description)|The description of this transport mode.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[isSharedLoad](#isSharedLoad)|Indicates whether the transport mode carries less than a full load, or is shared across external organizations|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="TransportMode.md" target="_blank">Sustainability/SustainabilityCarbon/TransportMode</a>|
 
 ### <a href=#transportmodeId name="transportmodeId">transportmodeId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -84,12 +84,12 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/transportmodeId](#transportmodeId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[TransportMode/(resolvedAttributes)/transportmodeId](#transportmodeId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +109,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -156,7 +156,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -196,7 +196,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Transport mode  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -242,7 +242,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Transport mode  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -291,7 +291,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -334,7 +334,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -371,7 +371,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -414,7 +414,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -457,7 +457,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -473,7 +473,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -498,14 +498,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 The description of this transport mode.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -521,7 +521,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -546,14 +546,14 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#isSharedLoad name="isSharedLoad">isSharedLoad</a>
 
 Indicates whether the transport mode carries less than a full load, or is shared across external organizations  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -589,7 +589,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/TransportMode (this entity)  
+First included in: Sustainability/SustainabilityCarbon/TransportMode (this entity)  
 
 #### Properties
 
@@ -605,7 +605,7 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -630,6 +630,6 @@ First included in: Sustainability\\CloudforSustainabilityCarbonDataModel/Transpo
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

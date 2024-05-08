@@ -1,15 +1,15 @@
 ---
-title: RenewableEnergyCertificate in Cloud for Sustainability energy data model  - Common Data Model | Microsoft Docs
+title: RenewableEnergyCertificate in Cloud for Sustainability energy data model - Common Data Model | Microsoft Docs
 description: Market-based instrument that represents the environmental attributes of electricity generated from renewable energy sources.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Renewable Energy Certificate in Cloud for Sustainability energy data model 
+# Renewable Energy Certificate in Cloud for Sustainability energy data model
 
 Market-based instrument that represents the environmental attributes of electricity generated from renewable energy sources.  
   
@@ -25,7 +25,7 @@ Market-based instrument that represents the environmental attributes of electric
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RenewableEnergyCertificate/(resolvedAttributes)/renewableenergycertificateId](#renewableenergycertificateId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RenewableEnergyCertificate/(resolvedAttributes)/renewableenergycertificateId](#renewableenergycertificateId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RenewableEnergyCertificate/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,42 +51,42 @@ Market-based instrument that represents the environmental attributes of electric
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[renewableenergycertificateId](#renewableenergycertificateId)|Unique identifier for entity instances|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[statecode](#statecode)|Status of the Renewable Energy Certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[statuscode](#statuscode)|Reason for the status of the Renewable Energy Certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[name](#name)||<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[bundled](#bundled)|Indicator to determine if a REC is bundled or unbundled|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[certificatedata](#certificatedata)|Validated record for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[certificatenumber](#certificatenumber)|Validated record/number for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[certificatetype](#certificatetype)|The standard or certification scheme under which the REC was issued (e.g., Green-e, I-REC, local regulatory standards).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[cost](#cost)|Cost associated with activity data.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[emissionsrate](#emissionsrate)|Emissions if any associated with the renewable energy certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[energycontract](#energycontract)|Type of agreement to deliver purchased energy.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[energyprovider](#energyprovider)|Name of the renewable energy certificate provider.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[energysource](#energysource)|Primary source of renewable energy reported within the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[expirydate](#expirydate)|End date of the power purchase agreement.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[facility](#facility)|Unique identifier for the facility associated with the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[fueltype](#fueltype)|The fuel associated with the generation of the renewable energy.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[generation](#generation)||<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[geographicareaid](#geographicareaid)|Unique identifier for entity instances.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[greentariff](#greentariff)|Identifier used to determine if the REC is part of green tariff or not.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[projectname](#projectname)|The name of the project associated with the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[quantity](#quantity)|The amount of renewable energy represented by the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[quantityunit](#quantityunit)|Unit associated with the quantity field (typically Mwh or kWh).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[startdate](#startdate)|Start date of the power purchase agreement.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
-|[vintage](#vintage)|Year when the REC was produced.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate</a>|
+|[renewableenergycertificateId](#renewableenergycertificateId)|Unique identifier for entity instances|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[statecode](#statecode)|Status of the Renewable Energy Certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[statuscode](#statuscode)|Reason for the status of the Renewable Energy Certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[name](#name)||<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[bundled](#bundled)|Indicator to determine if a REC is bundled or unbundled|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[certificatedata](#certificatedata)|Validated record for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[certificatenumber](#certificatenumber)|Validated record/number for the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[certificatetype](#certificatetype)|The standard or certification scheme under which the REC was issued (e.g., Green-e, I-REC, local regulatory standards).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[cost](#cost)|Cost associated with activity data.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[costunit](#costunit)|Unit associated with the cost quantity.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[emissionsrate](#emissionsrate)|Emissions if any associated with the renewable energy certificate|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[energycontract](#energycontract)|Type of agreement to deliver purchased energy.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[energyprovider](#energyprovider)|Name of the renewable energy certificate provider.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[energysource](#energysource)|Primary source of renewable energy reported within the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[expirydate](#expirydate)|End date of the power purchase agreement.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[facility](#facility)|Unique identifier for the facility associated with the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[fueltype](#fueltype)|The fuel associated with the generation of the renewable energy.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[generation](#generation)||<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[geographicareaid](#geographicareaid)|Unique identifier for entity instances.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[greentariff](#greentariff)|Identifier used to determine if the REC is part of green tariff or not.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[projectname](#projectname)|The name of the project associated with the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[quantity](#quantity)|The amount of renewable energy represented by the renewable energy certificate.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[quantityunit](#quantityunit)|Unit associated with the quantity field (typically Mwh or kWh).|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[startdate](#startdate)|Start date of the power purchase agreement.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
+|[vintage](#vintage)|Year when the REC was produced.|<a href="RenewableEnergyCertificate.md" target="_blank">Sustainability/SustainabilityEnergy/RenewableEnergyCertificate</a>|
 
 ### <a href=#renewableenergycertificateId name="renewableenergycertificateId">renewableenergycertificateId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -102,12 +102,12 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RenewableEnergyCertificate/(resolvedAttributes)/renewableenergycertificateId](#renewableenergycertificateId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[RenewableEnergyCertificate/(resolvedAttributes)/renewableenergycertificateId](#renewableenergycertificateId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -127,14 +127,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -174,7 +174,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -214,7 +214,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Renewable Energy Certificate  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -260,7 +260,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Renewable Energy Certificate  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -309,7 +309,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -352,7 +352,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -389,7 +389,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -432,7 +432,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -474,7 +474,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 ### <a href=#name name="name">name</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -490,7 +490,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -515,14 +515,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#bundled name="bundled">bundled</a>
 
 Indicator to determine if a REC is bundled or unbundled  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -558,7 +558,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#certificatedata name="certificatedata">certificatedata</a>
 
 Validated record for the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -574,7 +574,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -599,14 +599,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#certificatenumber name="certificatenumber">certificatenumber</a>
 
 Validated record/number for the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -649,7 +649,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#certificatetype name="certificatetype">certificatetype</a>
 
 The standard or certification scheme under which the REC was issued (e.g., Green-e, I-REC, local regulatory standards).  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -665,7 +665,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -690,14 +690,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#cost name="cost">cost</a>
 
 Cost associated with activity data.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -740,7 +740,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#costunit name="costunit">costunit</a>
 
 Unit associated with the cost quantity.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -756,7 +756,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -778,14 +778,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#emissionsrate name="emissionsrate">emissionsrate</a>
 
 Emissions if any associated with the renewable energy certificate  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -828,7 +828,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#energycontract name="energycontract">energycontract</a>
 
 Type of agreement to deliver purchased energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -844,7 +844,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -866,14 +866,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energyprovider name="energyprovider">energyprovider</a>
 
 Name of the renewable energy certificate provider.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -889,7 +889,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -911,14 +911,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#energysource name="energysource">energysource</a>
 
 Primary source of renewable energy reported within the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -934,7 +934,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -956,14 +956,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#expirydate name="expirydate">expirydate</a>
 
 End date of the power purchase agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1003,7 +1003,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#facility name="facility">facility</a>
 
 Unique identifier for the facility associated with the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1019,7 +1019,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1041,14 +1041,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#fueltype name="fueltype">fueltype</a>
 
 The fuel associated with the generation of the renewable energy.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1064,7 +1064,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1086,13 +1086,13 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#generation name="generation">generation</a>
 
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1108,7 +1108,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1133,18 +1133,18 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#geographicareaid name="geographicareaid">geographicareaid</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geographic area</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>dataFormat</td><td>guid</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_geographicareaid</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Geographic area</td></tr><tr><td>description</td><td>Unique identifier for entity instances.</td></tr><tr><td>dataFormat</td><td>guid</td></tr></table>
 
 #### Traits
 
@@ -1156,7 +1156,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1172,26 +1172,20 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.CDS.lookup**  
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
-**is.nullable**  
-  The attribute value may be set to NULL.  
-
-**is.CDS.sourceNamed**  
-  the unique name that identifies this object in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>name</td><td>"msdyn_geographicareaid"</td><td>string</td><td></td></tr></table>
-
-**is.CDS.ordered**  
-  the column number for an attribute with an entity in CDS for Applications.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>ordinal</td><td>"50"</td><td>integer</td><td></td></tr></table>
+**is.linkedEntity.identifier**  
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/GeographicArea.md" target="_blank">/SustainabilityShared/GeographicArea.cdm.json/GeographicArea</a></td><td><a href="../SustainabilityShared/GeographicArea.md#geographicareaId" target="_blank">geographicareaId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#greentariff name="greentariff">greentariff</a>
 
 Identifier used to determine if the REC is part of green tariff or not.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1227,7 +1221,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#projectname name="projectname">projectname</a>
 
 The name of the project associated with the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1243,7 +1237,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -1268,14 +1262,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#quantity name="quantity">quantity</a>
 
 The amount of renewable energy represented by the renewable energy certificate.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1318,7 +1312,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#quantityunit name="quantityunit">quantityunit</a>
 
 Unit associated with the quantity field (typically Mwh or kWh).  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1334,7 +1328,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -1356,14 +1350,14 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#startdate name="startdate">startdate</a>
 
 Start date of the power purchase agreement.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 
@@ -1403,7 +1397,7 @@ First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/Renewab
 ### <a href=#vintage name="vintage">vintage</a>
 
 Year when the REC was produced.  
-First included in: Sustainability\\CloudforSustainabilityEnergyDataModel/RenewableEnergyCertificate (this entity)  
+First included in: Sustainability/SustainabilityEnergy/RenewableEnergyCertificate (this entity)  
 
 #### Properties
 

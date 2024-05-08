@@ -1,19 +1,19 @@
 ---
-title: ItemBillOfMaterial in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
+title: ItemBillOfMaterials in Cloud for Sustainability waste data model - Common Data Model | Microsoft Docs
 description: Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Item bill of material in Cloud for Sustainability waste data model (ItemBillOfMaterial)
+# Item bill of material in Cloud for Sustainability waste data model (ItemBillOfMaterials)
 
 Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.  
   
- Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial.cdm.json" target="_blank">GitHub</a>.  
+ Latest version of the JSON entity definition is available on <a href="https://github.com/Microsoft/CDM/tree/master/schemaDocuments/Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterials.cdm.json" target="_blank">GitHub</a>.  
 
 ## Traits
 
@@ -25,10 +25,10 @@ Entity which records the Bill Of Material (BOM) used to create the item. The BOM
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemBillOfMaterial/(resolvedAttributes)/itembillofmaterialId](#itembillofmaterialId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemBillOfMaterials/(resolvedAttributes)/itembillofmaterialId](#itembillofmaterialId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
-  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWasteDataModel<br>/ItemBillOfMaterial.cdm.json/ItemBillOfMaterial<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
+  identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilityWasteDataModel<br>/ItemBillOfMaterials.cdm.json/ItemBillOfMaterials<br>/hasAttributes/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Entity which records the Bill Of Material (BOM) used to create the item. The BOM lists the items (materials) that are part of the item.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -48,27 +48,27 @@ Entity which records the Bill Of Material (BOM) used to create the item. The BOM
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[itembillofmaterialId](#itembillofmaterialId)|The unique identifier of the item bill of material.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[name](#name)|The name of the custom entity.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[description](#description)|Optional description of the item bill of material.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[componentitem](#componentitem)||<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[item](#item)|The unique ID of the item in the undertaking’s upstream systems.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[msdyn_unit](#msdyn_unit)|The unit of measure for the consumed units. The unit of measure is available in a list of units in Microsoft Sustainability Manager.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[quantityused](#quantityused)|The number of units that were consumed to produce the finished product.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[validfromdate](#validfromdate)|The date from which the bill of material applies for the specified finished product.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[validtodate](#validtodate)|The date up to which the bill of material applies for the specified finished product. This date can be in the future.|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="ItemBillOfMaterial.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial</a>|
+|[itembillofmaterialId](#itembillofmaterialId)|The unique identifier of the item bill of material.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[TTLInSeconds](#TTLInSeconds)|Time to live in seconds.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[partitionId](#partitionId)|Logical partition id. A logical partition consists of a set of records with same partition id.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[name](#name)|The name of the custom entity.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[description](#description)|Optional description of the item bill of material.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[componentitem](#componentitem)||<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[item](#item)|The unique ID of the item in the undertaking’s upstream systems.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[msdyn_unit](#msdyn_unit)|The unit of measure for the consumed units. The unit of measure is available in a list of units in Microsoft Sustainability Manager.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[quantityused](#quantityused)|The number of units that were consumed to produce the finished product.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[validfromdate](#validfromdate)|The date from which the bill of material applies for the specified finished product.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[validtodate](#validtodate)|The date up to which the bill of material applies for the specified finished product. This date can be in the future.|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store origin correlation id|<a href="ItemBillOfMaterials.md" target="_blank">Sustainability/SustainabilityWaste/ItemBillOfMaterials</a>|
 
 ### <a href=#itembillofmaterialId name="itembillofmaterialId">itembillofmaterialId</a>
 
 The unique identifier of the item bill of material.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -84,12 +84,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemBillOfMaterial/(resolvedAttributes)/itembillofmaterialId](#itembillofmaterialId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[ItemBillOfMaterials/(resolvedAttributes)/itembillofmaterialId](#itembillofmaterialId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -109,14 +109,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#TTLInSeconds name="TTLInSeconds">TTLInSeconds</a>
 
 Time to live in seconds.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -159,7 +159,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#partitionId name="partitionId">partitionId</a>
 
 Logical partition id. A logical partition consists of a set of records with same partition id.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -175,7 +175,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -200,14 +200,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -247,7 +247,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -287,7 +287,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -330,7 +330,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -367,7 +367,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -383,7 +383,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -408,14 +408,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description of the item bill of material.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -431,7 +431,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -456,13 +456,13 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#componentitem name="componentitem">componentitem</a>
 
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -478,7 +478,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -495,19 +495,19 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">../SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">/SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#item name="item">item</a>
 
 The unique ID of the item in the undertaking’s upstream systems.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -523,7 +523,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -540,19 +540,19 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">../SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/SustainabilityItemSKU.md" target="_blank">/SustainabilityShared/SustainabilityItemSKU.cdm.json/SustainabilityItemSKU</a></td><td><a href="../SustainabilityShared/SustainabilityItemSKU.md#sustainabilityitemskuId" target="_blank">sustainabilityitemskuId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#msdyn_unit name="msdyn_unit">msdyn_unit</a>
 
 The unit of measure for the consumed units. The unit of measure is available in a list of units in Microsoft Sustainability Manager.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -568,7 +568,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -585,19 +585,19 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">../SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#quantityused name="quantityused">quantityused</a>
 
 The number of units that were consumed to produce the finished product.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -640,7 +640,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#validfromdate name="validfromdate">validfromdate</a>
 
 The date from which the bill of material applies for the specified finished product.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -680,7 +680,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#validtodate name="validtodate">validtodate</a>
 
 The date up to which the bill of material applies for the specified finished product. This date can be in the future.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -720,7 +720,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store origin correlation id  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBillOfMaterial (this entity)  
+First included in: Sustainability/SustainabilityWaste/ItemBillOfMaterials (this entity)  
 
 #### Properties
 
@@ -736,7 +736,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -761,6 +761,6 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/ItemBill
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

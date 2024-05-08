@@ -1,15 +1,15 @@
 ---
-title: Contact in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: Contact in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Person with whom a business unit has a relationship, such as customer, supplier, and colleague.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Contact in Cloud for Sustainability shared data model 
+# Contact in Cloud for Sustainability shared data model
 
 Person with whom a business unit has a relationship, such as customer, supplier, and colleague.  
   
@@ -25,7 +25,7 @@ Person with whom a business unit has a relationship, such as customer, supplier,
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Contact/(resolvedAttributes)/contactId](#contactId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Contact/(resolvedAttributes)/contactId](#contactId)</td><td>attribute</td><td></td></tr></table>
 
 **is.CDM.attributeGroup**  
   identifies standard groups of attributes in CDM entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>groupList</td><td><table><tr><th>attributeGroupReference</th></tr><tr><td>/Sustainability<br>/CloudforSustainabilitySharedDataModel<br>/Contact.cdm.json/Contact/hasAttributes<br>/attributesAddedAtThisScope</td></tr></table></td><td>entity</td><td></td></tr></table>
@@ -48,14 +48,14 @@ Person with whom a business unit has a relationship, such as customer, supplier,
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
-|[sustainabilitycontactname](#sustainabilitycontactname)|Name|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Contact.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Contact</a>|
+|[contactId](#contactId)|Unique identifier of the contact.|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
+|[sustainabilitycontactname](#sustainabilitycontactname)|Name|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Contact.md" target="_blank">Sustainability/SustainabilityShared/Contact</a>|
 
 ### <a href=#contactId name="contactId">contactId</a>
 
 Unique identifier of the contact.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -71,12 +71,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Contact/(resolvedAttributes)/contactId](#contactId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Contact/(resolvedAttributes)/contactId](#contactId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -96,14 +96,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#sustainabilitycontactname name="sustainabilitycontactname">sustainabilitycontactname</a>
 
 Name  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -119,7 +119,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -144,14 +144,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact (this entity)  
+First included in: Sustainability/SustainabilityShared/Contact (this entity)  
 
 #### Properties
 
@@ -167,7 +167,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -192,6 +192,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Contact
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

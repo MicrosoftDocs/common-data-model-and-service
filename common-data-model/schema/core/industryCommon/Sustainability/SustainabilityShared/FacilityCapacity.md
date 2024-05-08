@@ -1,11 +1,11 @@
 ---
-title: FacilityCapacity in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: FacilityCapacity in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity to capture the facility's capacity dimension and measure for a specified time period.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Entity to capture the facility's capacity dimension and measure for a specified 
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityCapacity/(resolvedAttributes)/facilitycapacityId](#facilitycapacityId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityCapacity/(resolvedAttributes)/facilitycapacityId](#facilitycapacityId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityCapacity/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,30 +51,30 @@ Entity to capture the facility's capacity dimension and measure for a specified 
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[facilitycapacityId](#facilitycapacityId)|Unique identifier for entity instances.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[statecode](#statecode)|Status of the facility capacity|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[statuscode](#statuscode)|Reason for the status of the facility capacity|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[name](#name)|Name of facility capacity.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[capacitydimension](#capacitydimension)|Lookup to the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[quantity](#quantity)|Indicates the value of the capacity dimension for the specified period.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[facility](#facility)|Indicates the facility mapped to the the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[facilitytype](#facilitytype)|Lookup to facility type that describes the facility capacity.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[periodenddate](#periodenddate)|Indicates the end date and time for which the capacity quantity value applies.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[periodstartdate](#periodstartdate)|Indicates the start date and time for which the capacity quantity value applies.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[unit](#unit)|Unit of measure used to describe the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
-|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FacilityCapacity.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/FacilityCapacity</a>|
+|[facilitycapacityId](#facilitycapacityId)|Unique identifier for entity instances.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[statecode](#statecode)|Status of the facility capacity|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[statuscode](#statuscode)|Reason for the status of the facility capacity|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[name](#name)|Name of facility capacity.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[capacitydimension](#capacitydimension)|Lookup to the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[quantity](#quantity)|Indicates the value of the capacity dimension for the specified period.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[facility](#facility)|Indicates the facility mapped to the the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[facilitytype](#facilitytype)|Lookup to facility type that describes the facility capacity.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[periodenddate](#periodenddate)|Indicates the end date and time for which the capacity quantity value applies.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[periodstartdate](#periodstartdate)|Indicates the start date and time for which the capacity quantity value applies.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[unit](#unit)|Unit of measure used to describe the capacity dimension.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
+|[reportingdate](#reportingdate)|Date used to parameterize reports.|<a href="FacilityCapacity.md" target="_blank">Sustainability/SustainabilityShared/FacilityCapacity</a>|
 
 ### <a href=#facilitycapacityId name="facilitycapacityId">facilitycapacityId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -90,12 +90,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityCapacity/(resolvedAttributes)/facilitycapacityId](#facilitycapacityId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[FacilityCapacity/(resolvedAttributes)/facilitycapacityId](#facilitycapacityId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -115,14 +115,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -162,7 +162,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -202,7 +202,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the facility capacity  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -248,7 +248,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the facility capacity  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -297,7 +297,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -340,7 +340,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -377,7 +377,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -420,7 +420,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -463,7 +463,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#name name="name">name</a>
 
 Name of facility capacity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -479,7 +479,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -504,14 +504,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#capacitydimension name="capacitydimension">capacitydimension</a>
 
 Lookup to the capacity dimension.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -527,7 +527,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -549,14 +549,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#quantity name="quantity">quantity</a>
 
 Indicates the value of the capacity dimension for the specified period.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -599,7 +599,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#facility name="facility">facility</a>
 
 Indicates the facility mapped to the the capacity dimension.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -615,7 +615,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -637,14 +637,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#facilitytype name="facilitytype">facilitytype</a>
 
 Lookup to facility type that describes the facility capacity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -660,7 +660,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -688,14 +688,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#periodenddate name="periodenddate">periodenddate</a>
 
 Indicates the end date and time for which the capacity quantity value applies.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -732,7 +732,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#periodstartdate name="periodstartdate">periodstartdate</a>
 
 Indicates the start date and time for which the capacity quantity value applies.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -769,7 +769,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 ### <a href=#unit name="unit">unit</a>
 
 Unit of measure used to describe the capacity dimension.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -785,12 +785,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.requiredAtLevel**  
-  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
+  The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
 
 **is.localized.describedAs**  
   Holds the list of language specific descriptive text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Unit of measure used to describe the capacity dimension.</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
@@ -807,14 +807,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 
@@ -830,7 +830,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -855,14 +855,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Facilit
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#reportingdate name="reportingdate">reportingdate</a>
 
 Date used to parameterize reports.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/FacilityCapacity (this entity)  
+First included in: Sustainability/SustainabilityShared/FacilityCapacity (this entity)  
 
 #### Properties
 

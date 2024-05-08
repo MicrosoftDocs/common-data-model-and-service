@@ -1,11 +1,11 @@
 ---
-title: SustainabilityDataDefinitionSubcategory in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: SustainabilityDataDefinitionSubcategory in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Stores data definition subcategories and help links
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Stores data definition subcategories and help links
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityDataDefinitionSubcategory/(resolvedAttributes)/sustainabilitydatadefinitionsubcategoryId](#sustainabilitydatadefinitionsubcategoryId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityDataDefinitionSubcategory/(resolvedAttributes)/sustainabilitydatadefinitionsubcategoryId](#sustainabilitydatadefinitionsubcategoryId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityDataDefinitionSubcategory/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,23 +51,23 @@ Stores data definition subcategories and help links
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[sustainabilitydatadefinitionsubcategoryId](#sustainabilitydatadefinitionsubcategoryId)|Unique identifier for entity instances|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[statecode](#statecode)|Status of the Sustainability data definition subcategory|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[statuscode](#statuscode)|Reason for the status of the Sustainability data definition subcategory|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[name](#name)|Name of sustainability data definition subcategory.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[description](#description)|Description for subcategory|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[link](#link)|Stores help link for data definition|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
-|[parentcategory](#parentcategory)|parent category describing the hierarchical relationship between categories.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory</a>|
+|[sustainabilitydatadefinitionsubcategoryId](#sustainabilitydatadefinitionsubcategoryId)|Unique identifier for entity instances|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[statecode](#statecode)|Status of the Sustainability data definition subcategory|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[statuscode](#statuscode)|Reason for the status of the Sustainability data definition subcategory|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[name](#name)|Name of sustainability data definition subcategory.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[description](#description)|Description for subcategory|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[link](#link)|Stores help link for data definition|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
+|[parentcategory](#parentcategory)|parent category describing the hierarchical relationship between categories.|<a href="SustainabilityDataDefinitionSubcategory.md" target="_blank">Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory</a>|
 
 ### <a href=#sustainabilitydatadefinitionsubcategoryId name="sustainabilitydatadefinitionsubcategoryId">sustainabilitydatadefinitionsubcategoryId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -83,12 +83,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityDataDefinitionSubcategory/(resolvedAttributes)/sustainabilitydatadefinitionsubcategoryId](#sustainabilitydatadefinitionsubcategoryId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[SustainabilityDataDefinitionSubcategory/(resolvedAttributes)/sustainabilitydatadefinitionsubcategoryId](#sustainabilitydatadefinitionsubcategoryId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -108,14 +108,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Sustainability data definition subcategory  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Sustainability data definition subcategory  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -327,7 +327,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 ### <a href=#name name="name">name</a>
 
 Name of sustainability data definition subcategory.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -429,7 +429,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -454,14 +454,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Description for subcategory  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -502,14 +502,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#link name="link">link</a>
 
 Stores help link for data definition  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -550,14 +550,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#parentcategory name="parentcategory">parentcategory</a>
 
 parent category describing the hierarchical relationship between categories.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/SustainabilityDataDefinitionSubcategory (this entity)  
+First included in: Sustainability/SustainabilityShared/SustainabilityDataDefinitionSubcategory (this entity)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -595,6 +595,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Sustain
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

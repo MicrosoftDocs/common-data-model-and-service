@@ -3,9 +3,9 @@ title: WasteQualityCharacteristic in Cloud for Sustainability waste data model -
 description: Stores information on the characteristics of the contaminant or chemical being tracked.
 author: cdm-publisher
 ms.service: common-data-model
-ms.reviewer: anbichse
+ms.reviewer: deonhe
 ms.topic: article
-ms.date: 1/4/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
@@ -25,7 +25,7 @@ Stores information on the characteristics of the contaminant or chemical being t
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteQualityCharacteristic/(resolvedAttributes)/wastequalitycharacteristicId](#wastequalitycharacteristicId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteQualityCharacteristic/(resolvedAttributes)/wastequalitycharacteristicId](#wastequalitycharacteristicId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteQualityCharacteristic/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,28 +51,28 @@ Stores information on the characteristics of the contaminant or chemical being t
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[wastequalitycharacteristicId](#wastequalitycharacteristicId)|Unique identifier for entity instances.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[statecode](#statecode)|Status of the waste quality characteristic.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[statuscode](#statuscode)|Reason for the status of the Waste quality characteristic|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[name](#name)|The name of the custom entity.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[description](#description)|Optional field that provides additional detail about the entity or attribute.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[referencerangeevidence](#referencerangeevidence)|Permit details which prescribes control/allowed limits for chemicals and contaminants.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[referencerangelowerlimit](#referencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the waste sample.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[referencerangeunit](#referencerangeunit)|Indicates the unit of measurement for the reference range.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[referencerangeupperlimit](#referencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the waste sample.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
-|[type](#type)|Indicates the classification of the characteristic for which the waste sample is being tested.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic</a>|
+|[wastequalitycharacteristicId](#wastequalitycharacteristicId)|Unique identifier for entity instances.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[statecode](#statecode)|Status of the waste quality characteristic.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[statuscode](#statuscode)|Reason for the status of the Waste quality characteristic|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[name](#name)|The name of the custom entity.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[description](#description)|Optional field that provides additional detail about the entity or attribute.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[origincorrelationid](#origincorrelationid)|Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[referencerangeevidence](#referencerangeevidence)|Permit details which prescribes control/allowed limits for chemicals and contaminants.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[referencerangelowerlimit](#referencerangelowerlimit)|Field for storing the lower limit of the ideal range for the characteristic measure value in the waste sample.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[referencerangeunit](#referencerangeunit)|Indicates the unit of measurement for the reference range.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[referencerangeupperlimit](#referencerangeupperlimit)|Field for storing the upper limit of the ideal range for the characteristic measure value in the waste sample.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
+|[type](#type)|Indicates the classification of the characteristic for which the waste sample is being tested.|<a href="WasteQualityCharacteristic.md" target="_blank">Sustainability/SustainabilityWaste/WasteQualityCharacteristic</a>|
 
 ### <a href=#wastequalitycharacteristicId name="wastequalitycharacteristicId">wastequalitycharacteristicId</a>
 
 Unique identifier for entity instances.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -88,12 +88,12 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteQualityCharacteristic/(resolvedAttributes)/wastequalitycharacteristicId](#wastequalitycharacteristicId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[WasteQualityCharacteristic/(resolvedAttributes)/wastequalitycharacteristicId](#wastequalitycharacteristicId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -113,14 +113,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -160,7 +160,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -200,7 +200,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the waste quality characteristic.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -246,7 +246,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Waste quality characteristic  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -295,7 +295,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -338,7 +338,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -375,7 +375,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -418,7 +418,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -461,7 +461,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -477,7 +477,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -502,14 +502,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional field that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -525,7 +525,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -550,14 +550,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 Optional field to store source unique identifier for the characteristic that is being tested for in the waste sample.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -573,7 +573,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -598,14 +598,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencerangeevidence name="referencerangeevidence">referencerangeevidence</a>
 
 Permit details which prescribes control/allowed limits for chemicals and contaminants.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -621,7 +621,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -646,14 +646,14 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencerangelowerlimit name="referencerangelowerlimit">referencerangelowerlimit</a>
 
 Field for storing the lower limit of the ideal range for the characteristic measure value in the waste sample.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -696,7 +696,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#referencerangeunit name="referencerangeunit">referencerangeunit</a>
 
 Indicates the unit of measurement for the reference range.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -712,7 +712,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -729,19 +729,19 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   The attribute represents a style of lookup in CDS for Applications  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>style</td><td>"single"</td><td>string</td><td></td></tr></table>
 
 **is.linkedEntity.identifier**  
-  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">../SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
+  Marks the attribute(s) that hold foreign key references to a linked (used as an attribute) entity. This attribute is added to the resolved entity to enumerate the referenced entities.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>entityReferences</td><td><table><tr><th>entityReference</th><th>attributeReference</th><th>relationshipName</th></tr><tr><td><a href="../SustainabilityShared/Unit.md" target="_blank">/SustainabilityShared/Unit.cdm.json/Unit</a></td><td><a href="../SustainabilityShared/Unit.md#unitId" target="_blank">unitId</a></td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of entity references</td></tr></table>
 
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#referencerangeupperlimit name="referencerangeupperlimit">referencerangeupperlimit</a>
 
 Field for storing the upper limit of the ideal range for the characteristic measure value in the waste sample.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -784,7 +784,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 ### <a href=#type name="type">type</a>
 
 Indicates the classification of the characteristic for which the waste sample is being tested.  
-First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQualityCharacteristic (this entity)  
+First included in: Sustainability/SustainabilityWaste/WasteQualityCharacteristic (this entity)  
 
 #### Properties
 
@@ -800,7 +800,7 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
@@ -822,6 +822,6 @@ First included in: Sustainability\\CloudforSustainabilityWasteDataModel/WasteQua
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>

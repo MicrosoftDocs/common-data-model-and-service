@@ -1,15 +1,15 @@
 ---
-title: Material in Cloud for Sustainability shared data model  - Common Data Model | Microsoft Docs
+title: Material in Cloud for Sustainability shared data model - Common Data Model | Microsoft Docs
 description: Entity used for classifying the type of material, as defined in the reporting company.
 author: cdm-publisher
 ms.service: common-data-model
 ms.reviewer: deonhe
 ms.topic: article
-ms.date: 3/11/2024
+ms.date: 5/8/2024
 ms.author: anbichse
 ---
 
-# Material in Cloud for Sustainability shared data model 
+# Material in Cloud for Sustainability shared data model
 
 Entity used for classifying the type of material, as defined in the reporting company.  
   
@@ -25,7 +25,7 @@ Entity used for classifying the type of material, as defined in the reporting co
     <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>versionNumber</td><td>"1.1"</td><td>string</td><td>semantic version number of the entity</td></tr></table>
 
 **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Material/(resolvedAttributes)/materialId](#materialId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Material/(resolvedAttributes)/materialId](#materialId)</td><td>attribute</td><td></td></tr></table>
 
 **means.entityState**  
   the attribute represents the current state of the entity.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Material/(resolvedAttributes)/statecode](#statecode)</td><td>attribute</td><td></td></tr></table>
@@ -51,23 +51,23 @@ Entity used for classifying the type of material, as defined in the reporting co
 
 |Name|Description|First Included in Instance|
 |---|---|---|
-|[materialId](#materialId)|Unique identifier for entity instances|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[statecode](#statecode)|Status of the Material|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[statuscode](#statuscode)|Reason for the status of the Material|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[name](#name)|The name of the custom entity.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
-|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Material.md" target="_blank">Sustainability\CloudforSustainabilitySharedDataModel/Material</a>|
+|[materialId](#materialId)|Unique identifier for entity instances|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[createdOn](#createdOn)|Date and time when the record was created.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[modifiedOn](#modifiedOn)|Date and time when the record was modified.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[statecode](#statecode)|Status of the Material|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[statuscode](#statuscode)|Reason for the status of the Material|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[importSequenceNumber](#importSequenceNumber)|Sequence number of the import that created this record.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[overriddenCreatedOn](#overriddenCreatedOn)|Date and time that the record was migrated.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[timeZoneRuleVersionNumber](#timeZoneRuleVersionNumber)|For internal use only.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[UTCConversionTimeZoneCode](#UTCConversionTimeZoneCode)|Time zone code that was in use when the record was created.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[name](#name)|The name of the custom entity.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[description](#description)|Optional description that provides additional detail about the entity or attribute.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
+|[origincorrelationid](#origincorrelationid)|An optional identifier to correlate record with data origin.|<a href="Material.md" target="_blank">Sustainability/SustainabilityShared/Material</a>|
 
 ### <a href=#materialId name="materialId">materialId</a>
 
 Unique identifier for entity instances  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -83,12 +83,12 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.dataFormat.guid**  
   **means.identity.entityId**  
   **is.identifiedBy**  
-  names a specifc identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Material/(resolvedAttributes)/materialId](#materialId)</td><td>attribute</td><td></td></tr></table>
+  names a specific identity attribute to use with an entity  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>attribute</td><td>[Material/(resolvedAttributes)/materialId](#materialId)</td><td>attribute</td><td></td></tr></table>
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"systemrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -108,14 +108,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 **is.dataFormat.guid**  
   **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#createdOn name="createdOn">createdOn</a>
 
 Date and time when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -155,7 +155,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#modifiedOn name="modifiedOn">modifiedOn</a>
 
 Date and time when the record was modified.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -195,7 +195,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#statecode name="statecode">statecode</a>
 
 Status of the Material  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -241,7 +241,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#statuscode name="statuscode">statuscode</a>
 
 Reason for the status of the Material  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -290,7 +290,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#importSequenceNumber name="importSequenceNumber">importSequenceNumber</a>
 
 Sequence number of the import that created this record.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -333,7 +333,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#overriddenCreatedOn name="overriddenCreatedOn">overriddenCreatedOn</a>
 
 Date and time that the record was migrated.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -370,7 +370,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#timeZoneRuleVersionNumber name="timeZoneRuleVersionNumber">timeZoneRuleVersionNumber</a>
 
 For internal use only.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -413,7 +413,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#UTCConversionTimeZoneCode name="UTCConversionTimeZoneCode">UTCConversionTimeZoneCode</a>
 
 Time zone code that was in use when the record was created.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -456,11 +456,11 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 ### <a href=#name name="name">name</a>
 
 The name of the custom entity.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
-<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>100</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
+<table><tr><th>Name</th><th>Value</th></tr><tr><td>displayName</td><td>Name</td></tr><tr><td>description</td><td>The name of the custom entity.</td></tr><tr><td>dataFormat</td><td>string</td></tr><tr><td>maximumLength</td><td>200</td></tr><tr><td>isNullable</td><td>true</td></tr><tr><td>sourceName</td><td>msdyn_name</td></tr></table>
 
 #### Traits
 
@@ -472,7 +472,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"applicationrequired"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -484,7 +484,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
   Holds the list of language specific display text for an object.  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>localizedDisplayText</td><td><table><tr><th>languageTag</th><th>displayText</th></tr><tr><td>en</td><td>Name</td></tr></table></td><td>entity</td><td>a reference to the constant entity holding the list of localized text</td></tr></table>
 
 **is.constrained**  
-  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"100"</td><td>integer</td><td></td></tr></table>
+  maximum length or value constraints  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>maximumLength</td><td>"200"</td><td>integer</td><td></td></tr></table>
 
 **is.nullable**  
   The attribute value may be set to NULL.  
@@ -497,14 +497,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#description name="description">description</a>
 
 Optional description that provides additional detail about the entity or attribute.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -520,7 +520,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -545,14 +545,14 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
 
 ### <a href=#origincorrelationid name="origincorrelationid">origincorrelationid</a>
 
 An optional identifier to correlate record with data origin.  
-First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Material (this entity)  
+First included in: Sustainability/SustainabilityShared/Material (this entity)  
 
 #### Properties
 
@@ -568,7 +568,7 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
   indicates an atomic but multi-unit version of a fundamental type such as a multi byte encoded character, a double precision float, a long integer.  
 
 **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 **is.requiredAtLevel**  
   The requirement level for setting values into this attribute in CDS for Applications or for including this attribute in entities created in CDS for Analytics  <table><tr><th>Parameter</th><th>Value</th><th>Data type</th><th>Explanation</th></tr><tr><td>level</td><td>"none"</td><td>string</td><td>values can be: 'systemrequired', 'required', 'recommended', 'none'</td></tr></table>
@@ -593,6 +593,6 @@ First included in: Sustainability\\CloudforSustainabilitySharedDataModel/Materia
 
 **is.dataFormat.character**  
   **is.dataFormat.array**  
-  indicates a contiguous sequence of fundamental units that shoud be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
+  indicates a contiguous sequence of fundamental units that should be taken as a whole and considered one value. Array of Character is a String, Array of Byte is a Binary Object  
 
 </details>
